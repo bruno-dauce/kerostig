@@ -1,5 +1,19 @@
+# =========================================================================
+# .gitignore hubecall (version fusionnee).
+# Reprend les regles du projet d'origine callsforpapers ET les ajouts hubecall.
+# Cette version est complete : tu peux remplacer le .gitignore existant par
+# celle-ci sans rien perdre.
+# =========================================================================
+
+# --- Regles du projet d'origine, a conserver ---
 node_modules/
 public/
 !www/public/
 .vscode/
 .env
+
+# --- Ajouts hubecall ---
+.env.local
+.cache-enrichissement/
+.DS_Store
+Thumbs.db

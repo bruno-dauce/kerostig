@@ -1,73 +1,55 @@
-# Calls for Papers
+# hubecall
 
-## About
+Un hub d'appels à publications en gestion. Le site rassemble les appels à publications (calls for papers) des revues de sciences de gestion et management, en affichant leur rang FNEGE et des informations d'accès ouvert.
 
-Calls for Papers shows you the latest calls for papers of academic journals in your discipline.
+Projet non lucratif. Base technique : fork de [callsforpapers](https://github.com/julianprester/calls-for-papers) (licence MIT). Site statique alimenté par un pipeline de scraping, sans serveur applicatif.
 
-Calls for papers for special issues in academic journals are currently published in several different locations.
-For example, calls for papers are distributed on mailing lists, on publisher websites, at conferences, and through personal networks.
-With several academic journals in a discipline and even more special issues, it can be incredibly difficult to keep track of calls for papers.
+## Structure du dépôt
 
-**Calls for Papers solves this problem by collecting calls for papers and making them easily accessible in one location.**
+```
+scrapers/                pipeline de collecte et d'extraction des appels
+  journals/              un fichier par source à scraper
+www/                     le site (générateur Eleventy)
+  _data/
+    calls.json           base des appels, produite par le pipeline
+    journals.json        base des 494 revues enrichies (voir enrichissement/)
+enrichissement/          NOTRE ajout : script qui fabrique journals.json
+  enrichir-revues.mjs
+  hubecall-correspondance-issn.csv
+  .env                   clés API, jamais publié (voir .gitignore)
+.github/workflows/       automatisation quotidienne du scraping
+```
 
-## Usage
+Le dossier `enrichissement/` est le seul que nous avons ajouté. Le reste vient du projet d'origine et ne doit pas être réorganisé : l'outillage s'attend à trouver cette arborescence telle quelle.
 
-You can use Calls for Papers directly in your browser at [callsforpapers.org](https://callsforpapers.org).
+## Lancer le site en local
 
-## Roadmap
+Prérequis : Node.js 18 ou plus. Depuis la racine du dépôt :
 
-See the [open issues](https://github.com/julianprester/calls-for-papers/issues) for a list of proposed features (and known issues).
+```bash
+npm install        # installe les dépendances (une fois)
+npm run build      # construit le site
+```
 
-## Built With
+## Fabriquer la base des revues
 
-### Scrapers
+Depuis le dossier `enrichissement/`, après avoir créé le fichier `.env` (voir `.env.exemple`) :
 
-- [Node.js](https://nodejs.org/)
-- [Puppeteer](https://pptr.dev/)
+```bash
+cd enrichissement
+node enrichir-revues.mjs --limit 5    # test sur 5 revues
+node enrichir-revues.mjs              # passage complet
+```
 
-### Website
+Copier ensuite le `journals.json` produit dans `www/_data/`.
 
-- [Node.js](https://nodejs.org/)
-- [11ty](https://www.11ty.dev/)
-- [Alpine.js](https://alpinejs.dev/)
-- [tailwindcss](https://tailwindcss.com/)
-- [Moment.js](https://momentjs.com/)
-- [Netlify](https://www.netlify.com/)
+## Règles de travail à plusieurs
 
-## Support
+- Toujours récupérer les changements (pull) avant de commencer, toujours envoyer (push) en finissant.
+- Pour une modification conséquente, travailler sur une branche puis fusionner via une pull request.
+- Ne jamais committer le fichier `.env` ni aucune clé API. Ils restent locaux et figurent dans `.gitignore`.
+- Utiliser les Issues du dépôt comme liste de tâches partagée.
 
-Reach out to the maintainer at one of the following places:
+## Sources et attributions
 
-- [GitHub issues](https://github.com/julianprester/calls-for-papers/issues/new)
-- The email which is located [on this website](https://julianprester.com)
-
-## Contributing
-
-First off, thanks for taking the time to contribute!
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create.
-Any contributions you make will benefit everybody else and are **greatly appreciated**.
-
-We have set up a separate document containing our [contribution guidelines](CONTRIBUTING.md).
-
-Thank you for being involved!
-
-## Authors & contributors
-
-The original setup of this repository is by [Julian Prester](https://julianprester.com).
-
-For a full list of all authors and contributors, check [the contributor's page](https://github.com/julianprester/calls-for-papers/contributors).
-
-## Security & Terms
-
-Calls for Papers follows good practices of security, but 100% security can't be granted in software.
-Calls for Papers is provided **"as is"** without any **warranty**. Use at your own risk.
-
-## License
-
-This project is licensed under the **MIT** license.
-
-See [LICENSE](LICENSE) for more information.
-
-## Acknowledgements
-
-- [Git scraping](https://simonwillison.net/2020/Oct/9/git-scraping/)
+Rang et discipline : FNEGE 2025. Métriques : OpenAlex (CC0). Accès ouvert : DOAJ (CC0). Auto-archivage : Sherpa Romeo. Chaque appel renvoie à sa source d'origine.
