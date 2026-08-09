@@ -1,14 +1,15 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "hubecall",
+    "short_name": "hubecall",
+    "description": "Le hub des appels à publications en sciences de gestion et management",
     "icons": [
         {
-            "src": "https://callsforpapers.org/assets/android-chrome-96x96.png",
+            "src": "/public/favicon/android-chrome-96x96.png",
             "sizes": "96x96",
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#F7F4EE",
+    "background_color": "#F7F4EE",
     "display": "standalone"
 }

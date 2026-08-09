@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="hubecall">
+  <title>hubecall</title>
+  <rect width="48" height="48" rx="11" fill="#2B5F8E"/>
+  <path d="M20 15 H14 V33 H20" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M28 15 H34 V33 H28" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="24" cy="24" r="3.6" fill="#E0855F"/>
+</svg>
