@@ -1,6 +1,24 @@
 import { DateTime } from "luxon";
 
 export default async function (eleventyConfig) {
+    // --- hubecall : jointure appels <-> revue par ISSN ---
+    eleventyConfig.addFilter("appelsDeLaRevue", function (allCalls, revue) {
+        if (!allCalls || !revue) return [];
+        const norm = (v) => (v || "").toString().replace(/[^0-9Xx]/g, "").toUpperCase();
+        const cibles = new Set([norm(revue.eissn), norm(revue.pissn), norm(revue.issn_cle)].filter(Boolean));
+        return allCalls.filter((call) => {
+            const actif = call.active || (!call.active && Date.now() < new Date(call.gracePeriod));
+            if (!actif) return false;
+            const issnAppel = norm(call.issn);
+            return issnAppel && cibles.has(issnAppel);
+        });
+    });
+
+    eleventyConfig.addFilter("echeancePrincipale", function (dates) {
+        if (!dates) return null;
+        return dates.find((d) => d.is_full_paper_submission_deadline) || null;
+    });
+    // --- fin hubecall ---
     eleventyConfig.addFilter("urlEncode", function (str) {
         return encodeURIComponent(str);
     });

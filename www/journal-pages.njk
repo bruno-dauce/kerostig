@@ -1,52 +1,144 @@
 ---js
 {
   pagination: {
-    data: "calls",
+    data: "journals",
     size: 1,
-    alias: "journal",
-    addAllPagesToCollections: true,
-    before: function(paginationData, fullData) {
-        const groupedCalls = paginationData.reduce((acc, call) => {
-            const key = `${call.journal}-${call.abbreviation}`;
-    
-            if (!acc[key]) {
-                acc[key] = {
-                    journal: call.journal,
-                    abbreviation: call.abbreviation,
-                    calls: []
-                };
-            }
-    
-            acc[key].calls.push(call);
-    
-            return acc;
-        }, {});
-    
-        return Object.values(groupedCalls);
-    }
+    alias: "revue",
+    resolve: "values"
   },
-  layout: "layouts/main.html",
-  permalink: "journal/{{ journal.journal | slug }}/",
+  layout: "layouts/base.html",
+  permalink: "journal/{{ revue.slug }}/",
   eleventyComputed: {
-    title: "Calls for Papers | {{ journal.journal }}",
-    description: "Calls for Papers shows you the latest calls for papers of the {{ journal.journal }}, easily accessible, in one location."
+    title: "{{ revue.titre }} : rang FNEGE {{ revue.rang_fnege_2025 }}, accès ouvert et appels en cours",
+    description: "{{ revue.titre }} en {{ revue.discipline }}. Rang FNEGE 2025 : {{ revue.rang_fnege_2025 }}. Appels à publications ouverts, accès ouvert et dépôt en archive ouverte."
   }
 }
 ---
 
-<h1 class="text-4xl font-extrabold leading-tight mb-8">
-  {{ journal.journal }}
-  <a href="/journal/{{ journal.journal | slug }}.xml" class="ml-4 plausible-event-name=RSS plausible-event-rss=Journal">
-    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 inline" fill="currentColor" viewBox="0 0 100 100">
-        <path d="M12.8,2.5c-3.7,0-6.7,3-6.7,6.7s3,6.7,6.7,6.7c39.3,0,71.3,32,71.3,71.3c0,3.7,3,6.7,6.7,6.7c3.7,0,6.7-3,6.7-6.7     C97.5,40.5,59.5,2.5,12.8,2.5z"/>
-        <path d="M12.8,27.3c-3.7,0-6.7,3-6.7,6.7s3,6.7,6.7,6.7c25.7,0,46.6,20.9,46.6,46.5c0,3.7,3,6.7,6.7,6.7c3.7,0,6.7-3,6.7-6.7     C72.7,54.1,45.8,27.3,12.8,27.3z"/>
-        <path d="M12.8,52c-3.7,0-6.7,3-6.7,6.7s3,6.7,6.7,6.7c12,0,21.8,9.7,21.8,21.7c0,3.7,3,6.7,6.7,6.7s6.7-3,6.7-6.7     C47.9,67.8,32.2,52,12.8,52z"/>
-        <path d="M12.8,76.8c-5.7,0-10.3,4.6-10.3,10.3c0,5.7,4.6,10.4,10.3,10.4c5.7,0,10.4-4.7,10.4-10.4C23.2,81.4,18.5,76.8,12.8,76.8     z"/>
-    </svg>
-  </a>
-</h1>
-<div x-ref="calls" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-{% for call in journal.calls | isActiveCall %}
-{% include "call-card.html" %}
-{% endfor %}
-</div>
+<nav class="text-sm opacity-70 mb-6" aria-label="fil d'ariane">
+  <a href="{{ '/' | url }}" class="hover:underline">accueil</a>
+  <span class="mx-2">/</span>
+  <span>{{ revue.discipline }}</span>
+</nav>
+
+<header class="mb-8">
+  <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mb-2">{{ revue.titre }}</h1>
+  {% if revue.editeur %}<p class="text-sm opacity-70">{{ revue.editeur }}</p>{% endif %}
+
+  <div class="flex flex-wrap gap-2 mt-3 text-xs">
+    <span class="badge badge-outline">rang FNEGE {{ revue.rang_fnege_2025 }}</span>
+    <span class="badge badge-outline">{{ revue.discipline }}</span>
+    {% if revue.acces_ouvert.est_oa %}
+    <span class="badge badge-outline" style="color:#2F7D5C;border-color:#2F7D5C">accès ouvert</span>
+    {% endif %}
+  </div>
+
+  <p class="text-xs opacity-60 mt-2">
+    ISSN{% if revue.pissn %} papier {{ revue.pissn }}{% endif %}{% if revue.eissn %} · en ligne {{ revue.eissn }}{% endif %}
+  </p>
+</header>
+
+<section class="card bg-base-200 border border-neutral mb-8">
+  <div class="card-body p-5 gap-4">
+    <h2 class="text-lg font-bold">en bref</h2>
+    <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 text-sm">
+
+      <div>
+        <dt class="opacity-60">rang FNEGE 2025</dt>
+        <dd class="font-semibold">{{ revue.rang_fnege_2025 }}</dd>
+      </div>
+
+      <div>
+        <dt class="opacity-60">discipline</dt>
+        <dd class="font-semibold">{{ revue.discipline }}</dd>
+      </div>
+
+      <div>
+        <dt class="opacity-60">accès</dt>
+        <dd class="font-semibold">
+          {% if revue.acces_ouvert.est_oa %}
+          <span style="color:#2F7D5C">accès ouvert</span>{% if revue.acces_ouvert.apc %}{% if revue.acces_ouvert.apc.gratuit %} · sans frais de publication{% else %} · APC {{ revue.acces_ouvert.apc.montant }} {{ revue.acces_ouvert.apc.devise }}{% endif %}{% endif %}
+          {% else %}
+          sur abonnement
+          {% endif %}
+        </dd>
+      </div>
+
+      {% if revue.acces_ouvert.licence %}
+      <div>
+        <dt class="opacity-60">licence</dt>
+        <dd class="font-semibold">{{ revue.acces_ouvert.licence }}</dd>
+      </div>
+      {% endif %}
+
+      <div>
+        <dt class="opacity-60">dépôt en archive ouverte</dt>
+        <dd class="font-semibold">
+          {% if revue.auto_archivage and revue.auto_archivage.found %}
+          {% if revue.auto_archivage.depot_hal_possible %}<span style="color:#2F7D5C">possible</span>{% else %}possible sous conditions{% endif %}{% if revue.auto_archivage.version_deposable %} · version {{ revue.auto_archivage.version_deposable }}{% endif %}{% if revue.auto_archivage.embargo_mois %} · embargo {{ revue.auto_archivage.embargo_mois }} mois{% endif %}
+          {% else %}
+          politique non renseignée
+          {% endif %}
+        </dd>
+      </div>
+
+      {% if revue.acces_ouvert.type_relecture %}
+      <div>
+        <dt class="opacity-60">relecture</dt>
+        <dd class="font-semibold">{{ revue.acces_ouvert.type_relecture }}</dd>
+      </div>
+      {% endif %}
+
+    </dl>
+  </div>
+</section>
+
+{% if revue.metriques and revue.metriques.found %}
+<section class="mb-8">
+  <h2 class="text-lg font-bold mb-3">indicateurs <span class="text-xs font-normal opacity-60">source OpenAlex</span></h2>
+  <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 text-center">
+    {% if revue.metriques.h_index != null %}
+    <div class="card bg-base-200 border border-neutral"><div class="card-body p-3"><div class="text-2xl font-bold">{{ revue.metriques.h_index }}</div><div class="text-xs opacity-60">h-index</div></div></div>
+    {% endif %}
+    {% if revue.metriques.citedness_2ans != null %}
+    <div class="card bg-base-200 border border-neutral"><div class="card-body p-3"><div class="text-2xl font-bold">{{ revue.metriques.citedness_2ans }}</div><div class="text-xs opacity-60">citations / article (2 ans)</div></div></div>
+    {% endif %}
+    {% if revue.metriques.volume_annuel != null %}
+    <div class="card bg-base-200 border border-neutral"><div class="card-body p-3"><div class="text-2xl font-bold">{{ revue.metriques.volume_annuel }}</div><div class="text-xs opacity-60">articles en {{ revue.metriques.annee_volume }}</div></div></div>
+    {% endif %}
+  </div>
+  {% if revue.metriques.thematiques and revue.metriques.thematiques.length %}
+  <div class="flex flex-wrap gap-2 mt-4 text-xs">
+    {% for t in revue.metriques.thematiques %}<span class="badge badge-outline">{{ t }}</span>{% endfor %}
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+
+{% set appels = calls | appelsDeLaRevue(revue) %}
+<section class="mb-8">
+  <div class="flex items-center justify-between mb-3">
+    <h2 class="text-lg font-bold">appels à publications ouverts</h2>
+    <a href="{{ '/rss.xml' | url }}" class="text-xs opacity-70 hover:underline">flux RSS</a>
+  </div>
+  {% if appels.length %}
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    {% for call in appels %}
+    {% set dueDate = call.dates | echeancePrincipale %}
+    <div class="card bg-base-200 border border-neutral">
+      <div class="card-body p-4">
+        <a href="{{ ('/call/' + call.slug) | url }}"><h3 class="card-title text-base">{{ call.title | safe }}</h3></a>
+        {% if dueDate %}<p class="text-xs" style="color:#C15A34">échéance {{ dueDate.date | dateOnly }}</p>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="text-sm opacity-60">aucun appel ouvert pour cette revue en ce moment. les appels apparaîtront ici automatiquement dès qu'ils seront collectés.</p>
+  {% endif %}
+</section>
+
+<p class="text-xs opacity-50 mt-8 border-t border-neutral pt-4">
+  rang et discipline : classement FNEGE 2025 · indicateurs : OpenAlex · accès ouvert : DOAJ · politique de dépôt : Sherpa Romeo.
+  les données peuvent comporter des imprécisions, vérifiez toujours sur le site de la revue.
+</p>
