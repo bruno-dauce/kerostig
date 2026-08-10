@@ -55,18 +55,14 @@
 </article>
 
 <section class="card bg-base-200 border border-base-300 rounded-lg mb-8">
-  <div class="card-body p-5 gap-4">
-    <h2 class="text-lg font-bold">En bref</h2>
+  <div class="card-body p-5 gap-0">
+    <h2 class="text-lg font-bold mb-4">En bref</h2>
+
     <dl class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-4 text-sm">
 
       <div>
         <dt class="opacity-70">Rang FNEGE 2025</dt>
         <dd class="font-bold text-xl">{{ revue.rang_fnege_2025 }}</dd>
-      </div>
-
-      <div>
-        <dt class="opacity-70">Discipline</dt>
-        <dd class="font-semibold">{{ revue.discipline }}</dd>
       </div>
 
       <div>
@@ -94,6 +90,11 @@
       </div>
 
       <div>
+        <dt class="opacity-70">Discipline</dt>
+        <dd class="font-semibold">{{ revue.discipline }}</dd>
+      </div>
+
+      <div>
         <dt class="opacity-70">Dépôt en archive ouverte</dt>
         <dd class="font-semibold">
           {% if revue.auto_archivage and revue.auto_archivage.found %}
@@ -107,40 +108,38 @@
         </dd>
       </div>
 
-      {% if revue.acces_ouvert.type_relecture %}
-      <div>
-        <dt class="opacity-70">Relecture</dt>
-        <dd class="font-semibold">{{ revue.acces_ouvert.type_relecture }}</dd>
+    </dl>
+
+    {% if revue.acces_ouvert.type_relecture %}
+    <p class="text-xs opacity-70 mt-3">Relecture : {{ revue.acces_ouvert.type_relecture }}</p>
+    {% endif %}
+
+    {% if revue.metriques and revue.metriques.found %}
+    <div class="border-t border-base-300 mt-5 pt-5">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+        {% if revue.metriques.h_index != null %}
+        <div class="bg-base-100 rounded-lg p-4"><div class="text-2xl font-bold">{{ revue.metriques.h_index }}</div><div class="text-xs opacity-70">h-index</div></div>
+        {% endif %}
+        {% if revue.metriques.citedness_2ans != null %}
+        <div class="bg-base-100 rounded-lg p-4"><div class="text-2xl font-bold">{{ revue.metriques.citedness_2ans | round(1) }}</div><div class="text-xs opacity-70">citations / article (2 ans)</div></div>
+        {% endif %}
+        {% if revue.metriques.volume_annuel != null %}
+        <div class="bg-base-100 rounded-lg p-4"><div class="text-2xl font-bold">{{ revue.metriques.volume_annuel }}</div><div class="text-xs opacity-70">articles en {{ revue.metriques.annee_volume }}</div></div>
+        {% endif %}
+      </div>
+      {% if revue.metriques.thematiques and revue.metriques.thematiques.length %}
+      <div class="flex flex-wrap gap-2 mt-4">
+        {% for t in revue.metriques.thematiques %}<a href="{{ '/' | url }}?q={{ t | urlencode }}" class="badge badge-sm bg-base-100 border-0 opacity-80 hover:opacity-100 cursor-pointer">{{ t }}</a>{% endfor %}
       </div>
       {% endif %}
+      <p class="text-xs opacity-70 mt-3 text-right">Source : OpenAlex</p>
+    </div>
+    {% endif %}
 
-    </dl>
   </div>
 </section>
 
 <article class="max-w-3xl mx-auto">
-
-{% if revue.metriques and revue.metriques.found %}
-<section class="mb-6">
-  <h2 class="text-lg font-bold mb-3">Indicateurs <span class="text-xs font-normal opacity-70">source OpenAlex</span></h2>
-  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
-    {% if revue.metriques.h_index != null %}
-    <div class="card bg-base-200 border border-base-300 rounded-lg"><div class="card-body p-4"><div class="text-2xl font-bold">{{ revue.metriques.h_index }}</div><div class="text-xs opacity-70">h-index</div></div></div>
-    {% endif %}
-    {% if revue.metriques.citedness_2ans != null %}
-    <div class="card bg-base-200 border border-base-300 rounded-lg"><div class="card-body p-4"><div class="text-2xl font-bold">{{ revue.metriques.citedness_2ans | round(1) }}</div><div class="text-xs opacity-70">citations / article (2 ans)</div></div></div>
-    {% endif %}
-    {% if revue.metriques.volume_annuel != null %}
-    <div class="card bg-base-200 border border-base-300 rounded-lg"><div class="card-body p-4"><div class="text-2xl font-bold">{{ revue.metriques.volume_annuel }}</div><div class="text-xs opacity-70">articles en {{ revue.metriques.annee_volume }}</div></div></div>
-    {% endif %}
-  </div>
-  {% if revue.metriques.thematiques and revue.metriques.thematiques.length %}
-  <div class="flex flex-wrap gap-2 mt-4">
-    {% for t in revue.metriques.thematiques %}<a href="{{ '/' | url }}?q={{ t | urlencode }}" class="badge badge-sm bg-base-300 border-0 opacity-80 hover:opacity-100 cursor-pointer">{{ t }}</a>{% endfor %}
-  </div>
-  {% endif %}
-</section>
-{% endif %}
 
 {% set appels = calls | appelsDeLaRevue(revue) %}
 <section class="mb-4">
@@ -164,7 +163,7 @@
   <div class="card bg-base-200 border border-base-300 rounded-lg">
     <div class="card-body p-5 text-center">
       <p class="text-sm opacity-70 mb-3">Aucun appel ouvert pour cette revue en ce moment. Les appels apparaîtront ici dès qu'ils seront collectés.</p>
-      <a href="{{ '/' | url }}" class="btn btn-sm btn-outline btn-primary">Consulter tous les appels ouverts</a>
+      <a href="{{ '/' | url }}" class="btn btn-sm btn-primary">Consulter tous les appels ouverts</a>
     </div>
   </div>
   {% endif %}
