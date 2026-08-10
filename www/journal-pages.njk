@@ -15,76 +15,90 @@
 }
 ---
 
-<nav class="text-sm opacity-70 mb-6" aria-label="fil d'ariane">
-  <a href="{{ '/' | url }}" class="hover:underline">accueil</a>
-  <span class="mx-2">/</span>
-  <span>{{ revue.discipline }}</span>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "{{ meta.url }}" },
+    { "@type": "ListItem", "position": 2, "name": "{{ revue.discipline }}", "item": "{{ meta.url }}discipline/{{ revue.discipline_code | slugify }}/" },
+    { "@type": "ListItem", "position": 3, "name": "{{ revue.titre }}" }
+  ]
+}
+</script>
+
+<nav class="text-sm mb-6" aria-label="fil d'ariane">
+  <span class="opacity-70"><a href="{{ '/' | url }}" class="hover:underline">Accueil</a>
+  <span class="mx-1">/</span>
+  {{ revue.discipline }}</span>
 </nav>
 
 <header class="mb-8">
   <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mb-2">{{ revue.titre }}</h1>
-  {% if revue.editeur %}<p class="text-sm opacity-70">{{ revue.editeur }}</p>{% endif %}
+  {% if revue.editeur %}<p class="text-sm opacity-80">{{ revue.editeur }}</p>{% endif %}
 
   <div class="flex flex-wrap gap-2 mt-3 text-xs">
-    <span class="badge badge-outline">rang FNEGE {{ revue.rang_fnege_2025 }}</span>
+    <span class="badge badge-outline font-semibold" style="color:#2B5F8E;border-color:#2B5F8E">rang FNEGE {{ revue.rang_fnege_2025 }}</span>
     <span class="badge badge-outline">{{ revue.discipline }}</span>
     {% if revue.acces_ouvert.est_oa %}
-    <span class="badge badge-outline" style="color:#2F7D5C;border-color:#2F7D5C">accès ouvert</span>
+    <span class="badge badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C">accès ouvert</span>
     {% endif %}
   </div>
 
-  <p class="text-xs opacity-60 mt-2">
+  <p class="text-xs opacity-70 mt-2">
     ISSN{% if revue.pissn %} papier {{ revue.pissn }}{% endif %}{% if revue.eissn %} · en ligne {{ revue.eissn }}{% endif %}
   </p>
 </header>
 
-<section class="card bg-base-200 border border-neutral mb-8">
+<section class="card bg-base-200 border border-base-300 rounded-lg max-w-2xl mb-8">
   <div class="card-body p-5 gap-4">
     <h2 class="text-lg font-bold">En bref</h2>
     <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 text-sm">
 
       <div>
-        <dt class="opacity-60">rang FNEGE 2025</dt>
+        <dt class="opacity-70">Rang FNEGE 2025</dt>
         <dd class="font-semibold">{{ revue.rang_fnege_2025 }}</dd>
       </div>
 
       <div>
-        <dt class="opacity-60">discipline</dt>
+        <dt class="opacity-70">Discipline</dt>
         <dd class="font-semibold">{{ revue.discipline }}</dd>
       </div>
 
       <div>
-        <dt class="opacity-60">accès</dt>
+        <dt class="opacity-70">Accès</dt>
         <dd class="font-semibold">
           {% if revue.acces_ouvert.est_oa %}
-          <span style="color:#2F7D5C">accès ouvert</span>{% if revue.acces_ouvert.apc %}{% if revue.acces_ouvert.apc.gratuit %} · sans frais de publication{% else %} · APC {{ revue.acces_ouvert.apc.montant }} {{ revue.acces_ouvert.apc.devise }}{% endif %}{% endif %}
+          <span style="color:#2F7D5C">Accès ouvert</span>{% if revue.acces_ouvert.apc %}{% if revue.acces_ouvert.apc.gratuit %} · sans frais de publication{% else %} · APC {{ revue.acces_ouvert.apc.montant }} {{ revue.acces_ouvert.apc.devise }}{% endif %}{% endif %}
           {% else %}
-          sur abonnement
+          Sur abonnement
           {% endif %}
         </dd>
       </div>
 
       {% if revue.acces_ouvert.licence %}
       <div>
-        <dt class="opacity-60">licence</dt>
+        <dt class="opacity-70">Licence</dt>
         <dd class="font-semibold">{{ revue.acces_ouvert.licence }}</dd>
       </div>
       {% endif %}
 
       <div>
-        <dt class="opacity-60">dépôt en archive ouverte</dt>
+        <dt class="opacity-70">Dépôt en archive ouverte</dt>
         <dd class="font-semibold">
           {% if revue.auto_archivage and revue.auto_archivage.found %}
-          {% if revue.auto_archivage.depot_hal_possible %}<span style="color:#2F7D5C">possible</span>{% else %}possible sous conditions{% endif %}{% if revue.auto_archivage.version_deposable %} · version {{ revue.auto_archivage.version_deposable }}{% endif %}{% if revue.auto_archivage.embargo_mois %} · embargo {{ revue.auto_archivage.embargo_mois }} mois{% endif %}
+            {% if revue.auto_archivage.depot_hal_possible %}<span style="color:#2F7D5C">Possible</span>{% else %}Possible sous conditions{% endif %}
+            {% if revue.auto_archivage.version_deposable %} · version {{ revue.auto_archivage.version_deposable }}{% endif %}
+            {% if revue.auto_archivage.embargo_mois %} · embargo {{ revue.auto_archivage.embargo_mois }} mois{% endif %}
           {% else %}
-          politique non renseignée
+          Non renseignée · <a href="https://v2.sherpa.ac.uk/cgi/search/publication/basic?publication_title-auto={{ revue.titre | urlencode }}" target="_blank" rel="noopener" class="underline opacity-80">vérifier sur Sherpa Romeo</a>
           {% endif %}
         </dd>
       </div>
 
       {% if revue.acces_ouvert.type_relecture %}
       <div>
-        <dt class="opacity-60">relecture</dt>
+        <dt class="opacity-70">Relecture</dt>
         <dd class="font-semibold">{{ revue.acces_ouvert.type_relecture }}</dd>
       </div>
       {% endif %}
@@ -94,49 +108,56 @@
 </section>
 
 {% if revue.metriques and revue.metriques.found %}
-<section class="mb-8">
-  <h2 class="text-lg font-bold mb-3">indicateurs <span class="text-xs font-normal opacity-60">source OpenAlex</span></h2>
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-center">
+<section class="mb-6">
+  <h2 class="text-lg font-bold mb-3">Indicateurs <span class="text-xs font-normal opacity-70">source OpenAlex</span></h2>
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center max-w-2xl">
     {% if revue.metriques.h_index != null %}
-    <div class="card bg-base-200 border border-neutral"><div class="card-body p-3"><div class="text-2xl font-bold">{{ revue.metriques.h_index }}</div><div class="text-xs opacity-60">h-index</div></div></div>
+    <div class="card bg-base-200 border border-base-300 rounded-lg"><div class="card-body p-4"><div class="text-2xl font-bold">{{ revue.metriques.h_index }}</div><div class="text-xs opacity-70">h-index</div></div></div>
     {% endif %}
     {% if revue.metriques.citedness_2ans != null %}
-    <div class="card bg-base-200 border border-neutral"><div class="card-body p-3"><div class="text-2xl font-bold">{{ revue.metriques.citedness_2ans | round(1) }}</div><div class="text-xs opacity-60">citations / article (2 ans)</div></div></div>
+    <div class="card bg-base-200 border border-base-300 rounded-lg"><div class="card-body p-4"><div class="text-2xl font-bold">{{ revue.metriques.citedness_2ans | round(1) }}</div><div class="text-xs opacity-70">citations / article (2 ans)</div></div></div>
     {% endif %}
     {% if revue.metriques.volume_annuel != null %}
-    <div class="card bg-base-200 border border-neutral"><div class="card-body p-3"><div class="text-2xl font-bold">{{ revue.metriques.volume_annuel }}</div><div class="text-xs opacity-60">articles en {{ revue.metriques.annee_volume }}</div></div></div>
+    <div class="card bg-base-200 border border-base-300 rounded-lg"><div class="card-body p-4"><div class="text-2xl font-bold">{{ revue.metriques.volume_annuel }}</div><div class="text-xs opacity-70">articles en {{ revue.metriques.annee_volume }}</div></div></div>
     {% endif %}
   </div>
   {% if revue.metriques.thematiques and revue.metriques.thematiques.length %}
-  <p class="text-sm opacity-70 mt-4"><span class="opacity-60">thématiques : </span>{{ revue.metriques.thematiques | join(" · ") }}</p>
+  <div class="flex flex-wrap gap-2 mt-4 max-w-2xl">
+    {% for t in revue.metriques.thematiques %}<span class="badge badge-sm bg-base-300 border-0 opacity-80">{{ t }}</span>{% endfor %}
+  </div>
   {% endif %}
 </section>
 {% endif %}
 
 {% set appels = calls | appelsDeLaRevue(revue) %}
-<section class="mb-8">
+<section class="mb-4">
   <div class="flex items-center justify-between mb-3">
     <h2 class="text-lg font-bold">Appels à publications ouverts</h2>
-    <a href="{{ '/rss.xml' | url }}" class="text-xs opacity-70 hover:underline">flux RSS</a>
+    <a href="{{ '/rss.xml' | url }}" class="text-xs opacity-70 hover:underline">Flux RSS global</a>
   </div>
   {% if appels.length %}
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     {% for call in appels %}
     {% set dueDate = call.dates | echeancePrincipale %}
-    <div class="card bg-base-200 border border-neutral">
+    <div class="card bg-base-200 border border-base-300 rounded-lg">
       <div class="card-body p-4">
         <a href="{{ ('/call/' + call.slug) | url }}"><h3 class="card-title text-base">{{ call.title | safe }}</h3></a>
-        {% if dueDate %}<p class="text-xs" style="color:#C15A34">échéance {{ dueDate.date | dateOnly }}</p>{% endif %}
+        {% if dueDate %}<p class="text-xs font-medium" style="color:#C15A34">Échéance {{ dueDate.date | dateOnly }}</p>{% endif %}
       </div>
     </div>
     {% endfor %}
   </div>
   {% else %}
-  <p class="text-sm opacity-60">aucun appel ouvert pour cette revue en ce moment. les appels apparaîtront ici automatiquement dès qu'ils seront collectés.</p>
+  <div class="card bg-base-200 border border-base-300 rounded-lg">
+    <div class="card-body p-4 text-center">
+      <p class="text-sm opacity-70">Aucun appel ouvert pour cette revue en ce moment.</p>
+      <p class="text-xs opacity-70 mt-1">Les appels apparaîtront ici automatiquement dès qu'ils seront collectés.</p>
+    </div>
+  </div>
   {% endif %}
 </section>
 
-<p class="text-xs opacity-50 mt-8 border-t border-neutral pt-4">
-  rang et discipline : classement FNEGE 2025 · indicateurs : OpenAlex · accès ouvert : DOAJ · politique de dépôt : Sherpa Romeo.
-  les données peuvent comporter des imprécisions, vérifiez toujours sur le site de la revue.
+<p class="text-xs opacity-70 mt-6 border-t border-base-300 pt-4">
+  Rang et discipline : classement FNEGE 2025. Indicateurs : OpenAlex. Accès ouvert : DOAJ. Politique de dépôt : Sherpa Romeo.
+  Les données peuvent comporter des imprécisions, vérifiez toujours sur le site de la revue.
 </p>
