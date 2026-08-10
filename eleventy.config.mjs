@@ -1,6 +1,7 @@
 import { DateTime } from "luxon";
 
 export default async function (eleventyConfig) {
+
     // --- hubecall : jointure appels <-> revue par ISSN ---
     eleventyConfig.addFilter("appelsDeLaRevue", function (allCalls, revue) {
         if (!allCalls || !revue) return [];
@@ -18,7 +19,24 @@ export default async function (eleventyConfig) {
         if (!dates) return null;
         return dates.find((d) => d.is_full_paper_submission_deadline) || null;
     });
+    // Recherche de revue par nom de journal (fallback quand l'ISSN n'est pas encore sur l'appel)
+    eleventyConfig.addFilter("revueParNom", function (journals, journalName) {
+        if (!journals || !journalName) return null;
+        const nom = journalName.trim().toLowerCase();
+        for (const revue of Object.values(journals)) {
+            if ((revue.titre || "").toLowerCase() === nom) return revue;
+            if ((revue.titre_fnege || "").toLowerCase() === nom) return revue;
+        }
+        return null;
+    });
+
+    // Compteur d'appels actifs
+    eleventyConfig.addFilter("compterAppelsActifs", function (calls) {
+        if (!calls) return 0;
+        return calls.filter(c => c.active || (!c.active && Date.now() < new Date(c.gracePeriod))).length;
+    });
     // --- fin hubecall ---
+
     eleventyConfig.addFilter("urlEncode", function (str) {
         return encodeURIComponent(str);
     });
@@ -35,7 +53,7 @@ export default async function (eleventyConfig) {
 
     eleventyConfig.addFilter("dateOnly", function (timestamp) {
         const dateTime = DateTime.fromISO(timestamp);
-        return dateTime.setLocale('en-us').toLocaleString(DateTime.DATE_FULL);
+        return dateTime.setLocale('fr').toLocaleString(DateTime.DATE_FULL);
     });
 
     eleventyConfig.addFilter("googleCalendarDate", function (timestamp) {

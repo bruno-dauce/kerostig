@@ -1,45 +1,51 @@
 {% set dueDate = call.dates | selectattr("is_full_paper_submission_deadline") | first if call.dates %}
-<div x-show="show_call($el)" data-title="{{ call.title if call.title else call.metaTitle | safe }}"
-    data-journal="{{ call.journal | safe }}" data-pubdate="{{ call.pubDate | safe }}"
-    data-duedate="{{ dueDate.date | safe }}" class="card bg-base-200 hover:bg-base-300 border border-neutral">
-    <div class="card-body p-4">
+{% set revue = journals | revueParNom(call.journal) %}
+<div x-show="show_call($el)"
+    data-title="{{ call.title if call.title else call.metaTitle | safe }}"
+    data-journal="{{ call.journal | safe }}"
+    data-pubdate="{{ call.pubDate | safe }}"
+    data-duedate="{{ dueDate.date | safe }}"
+    data-discipline="{{ revue.discipline_code if revue else '' }}"
+    data-rang="{{ revue.rang_fnege_2025 if revue else '' }}"
+    data-tags="{{ call.tags | join(' ') if call.tags else '' }}"
+    class="card bg-base-200 hover:bg-base-300 border border-base-300 rounded-lg transition-colors">
+    <div class="card-body p-4 gap-2">
         {% if call.title %}
         <a href="{{ ('/call/' + call.slug) | url }}">
-            <h2 class="card-title">{{ call.title | safe }}</h2>
+            <h2 class="card-title text-base leading-snug">{{ call.title | safe }}</h2>
         </a>
         {% else %}
         <a href="{{ call.url | url }}">
-            <h2 class="card-title">{{ call.metaTitle | safe }}</h2>
+            <h2 class="card-title text-base leading-snug">{{ call.metaTitle | safe }}</h2>
         </a>
         {% endif %}
-        <a href="{{ '/journal/' + (call.journal | slug) | url }}">
-            <p class="uppercase text-xs font-semibold text-gray-600 hover:text-gray-500">{{ call.journal | safe }}</p>
+
+        <a href="{{ '/journal/' + (revue.slug if revue else (call.journal | slug)) | url }}" class="text-xs font-semibold opacity-70 hover:opacity-100 uppercase">
+            {{ call.journal | safe }}
         </a>
-        <div class="tooltip text-left" data-tip="{{ call.pubDate | dateOnly }}">
-            <span>
-                <svg class="w-6 inline" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path
-                        d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2 z M 12 4C16.411 4 20 7.589 20 12C20 16.411 16.411 20 12 20C7.589 20 4 16.411 4 12C4 7.589 7.589 4 12 4 z M 11 8L11 11L8 11L8 13L11 13L11 16L13 16L13 13L16 13L16 11L13 11L13 8L11 8 z" />
-                </svg>
-                added {{ call.pubDate | relativeTime }}
-            </span>
+
+        <div class="flex flex-wrap gap-1.5 mt-1">
+            {% if revue %}
+            <span class="badge badge-sm badge-outline font-semibold" style="color:#2B5F8E;border-color:#2B5F8E">{{ revue.rang_fnege_2025 }}</span>
+            <span class="badge badge-sm badge-outline">{{ revue.discipline }}</span>
+            {% if revue.acces_ouvert.est_oa %}
+            <span class="badge badge-sm badge-outline" style="color:#2F7D5C;border-color:#2F7D5C">OA</span>
+            {% endif %}
+            {% endif %}
         </div>
+
         {% if dueDate %}
-        <div class="tooltip text-left" data-tip="{{ dueDate.date | dateOnly }}">
-            <span>
-                <svg class="w-6 inline" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path
-                        d="M 12 2 C 6.4889971 2 2 6.4889971 2 12 C 2 17.511003 6.4889971 22 12 22 C 17.511003 22 22 17.511003 22 12 C 22 6.4889971 17.511003 2 12 2 z M 12 4 C 16.430123 4 20 7.5698774 20 12 C 20 16.430123 16.430123 20 12 20 C 7.5698774 20 4 16.430123 4 12 C 4 7.5698774 7.5698774 4 12 4 z M 11 6 L 11 12.414062 L 15.292969 16.707031 L 16.707031 15.292969 L 13 11.585938 L 13 6 L 11 6 z" />
-                </svg>
-                due {{ dueDate.date | relativeTime }}
-            </span>
-        </div>
+        <p class="text-xs font-medium mt-1" style="color:#C15A34">
+            Échéance {{ dueDate.date | dateOnly }}
+        </p>
         {% endif %}
-        <div class="card-actions justify-end">
+
+        {% if call.tags and call.tags.length %}
+        <div class="flex flex-wrap gap-1 mt-1">
             {% for tag in call.tags %}
-            <a href="{{ '/tag/' + (tag | slug) | url }}" class="badge badge-outline hover:bg-neutral-400 text-xs">{{ tag
-                }}</a>
+            <a href="{{ '/tag/' + (tag | slug) | url }}" class="badge badge-sm bg-base-100 border-0 opacity-70 hover:opacity-100 text-xs">{{ tag }}</a>
             {% endfor %}
         </div>
+        {% endif %}
     </div>
 </div>

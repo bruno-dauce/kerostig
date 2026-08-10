@@ -2,53 +2,121 @@
 layout: layouts/base.html
 ---
 
+{% set nbRevues = journals | length %}
+{% set nbAppels = calls | compterAppelsActifs %}
+
 <div x-data="{
-    search: '',
-    sort: localStorage.getItem('sort') || 'pubdate',
-    sortOrder: localStorage.getItem('sortOrder') === 'true' ? true : false,
+    search: new URLSearchParams(window.location.search).get('q') || '',
+    discipline: '',
+    rang: '',
+    sort: 'duedate',
+    sortOrder: false,
     isReady: false,
     show_call(el) {
-        return this.search === '' || el.getAttribute('data-title').toLowerCase().includes(this.search.toLowerCase());
+        const q = this.search.toLowerCase();
+        const matchSearch = q === '' ||
+            el.getAttribute('data-title').toLowerCase().includes(q) ||
+            el.getAttribute('data-journal').toLowerCase().includes(q) ||
+            (el.getAttribute('data-tags') || '').toLowerCase().includes(q);
+        const matchDisc = this.discipline === '' || el.getAttribute('data-discipline') === this.discipline;
+        const matchRang = this.rang === '' || el.getAttribute('data-rang') === this.rang;
+        return matchSearch && matchDisc && matchRang;
     },
     sort_calls() {
-        localStorage.setItem('sort', this.sort);
-        localStorage.setItem('sortOrder', this.sortOrder);
         const calls = Array.from(this.$refs.calls.children);
         switch (this.sort) {
             case 'title':
             case 'journal':
                 calls.sort((a, b) => {
-                    const aAttribute = a.getAttribute(`data-${this.sort}`);
-                    const bAttribute = b.getAttribute(`data-${this.sort}`);
-                    if (this.sortOrder) {
-                        return bAttribute.localeCompare(aAttribute);
-                    } else {
-                        return aAttribute.localeCompare(bAttribute);
-                    }
+                    const aA = a.getAttribute('data-' + this.sort) || '';
+                    const bA = b.getAttribute('data-' + this.sort) || '';
+                    return this.sortOrder ? bA.localeCompare(aA) : aA.localeCompare(bA);
                 });
                 break;
             case 'pubdate':
             case 'duedate':
                 calls.sort((a, b) => {
-                    const aAttribute = a.getAttribute(`data-${this.sort}`);
-                    const bAttribute = b.getAttribute(`data-${this.sort}`);
-                    if (this.sortOrder) {
-                        return Date.parse(aAttribute) - Date.parse(bAttribute);
-                    } else {
-                        return Date.parse(bAttribute) - Date.parse(aAttribute);
-                    }
+                    const aA = a.getAttribute('data-' + this.sort) || '';
+                    const bA = b.getAttribute('data-' + this.sort) || '';
+                    return this.sortOrder
+                        ? Date.parse(aA) - Date.parse(bA)
+                        : Date.parse(bA) - Date.parse(aA);
                 });
                 break;
         }
         calls.forEach(call => this.$refs.calls.appendChild(call));
         this.isReady = true;
     },
+    count_visible() {
+        if (!this.$refs.calls) return 0;
+        return Array.from(this.$refs.calls.children).filter(el => this.show_call(el)).length;
+    }
 }" x-init="$nextTick(() => sort_calls())" @keydown.window.prevent.ctrl.k="$refs.search.focus()">
-    <div class="flex justify-between items-center mb-8">
-        {% include "searchBox.html" %}
-        {% include "sortDropdown.html" %}
+
+    <div class="text-center mb-6">
+        <p class="text-sm opacity-70">{{ nbRevues }} revues de gestion suivies · {{ nbAppels }} appel{{ 's' if nbAppels != 1 }} ouvert{{ 's' if nbAppels != 1 }}</p>
     </div>
+
+    <div class="flex flex-col sm:flex-row gap-3 items-start sm:items-center mb-6">
+
+        <label class="input input-bordered bg-base-200 border-base-300 flex items-center gap-2 flex-1 min-w-0 max-w-md">
+            <svg class="w-5 h-5 opacity-70" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
+            </svg>
+            <input type="text" x-ref="search" x-model="search" @keydown.escape="search = ''; $refs.search.blur()" class="grow" placeholder="Rechercher un thème ou une revue..." />
+            <kbd class="kbd kbd-sm hidden sm:flex">Ctrl</kbd>
+            <kbd class="kbd kbd-sm hidden sm:flex">K</kbd>
+        </label>
+
+        <select x-model="discipline" class="select select-bordered bg-base-200 border-base-300 select-sm">
+            <option value="">Toutes les disciplines</option>
+            <option value="ACC">Comptabilité</option>
+            <option value="BUS HIST">Histoire des affaires</option>
+            <option value="BUS SOC">Entreprise et société</option>
+            <option value="EDUC">Enseignement</option>
+            <option value="FIN">Finance</option>
+            <option value="GEN MAN">Management général</option>
+            <option value="HLTH">Santé</option>
+            <option value="HRM">GRH</option>
+            <option value="INNOV">Innovation</option>
+            <option value="INT">International</option>
+            <option value="LOG">Logistique</option>
+            <option value="MIS">Systèmes d'information</option>
+            <option value="MKG">Marketing</option>
+            <option value="ORG STUD">Études organisationnelles</option>
+            <option value="PUB MAN">Management public</option>
+            <option value="SECTOR">Sectoriel</option>
+            <option value="STRAT">Stratégie</option>
+        </select>
+
+        <div class="flex gap-1">
+            <button @click="rang = ''" class="btn btn-xs" :class="rang === '' ? 'btn-primary' : 'btn-ghost border-base-300'">Tous</button>
+            <button @click="rang = '1*'" class="btn btn-xs" :class="rang === '1*' ? 'btn-primary' : 'btn-ghost border-base-300'">1*</button>
+            <button @click="rang = '1'" class="btn btn-xs" :class="rang === '1' ? 'btn-primary' : 'btn-ghost border-base-300'">1</button>
+            <button @click="rang = '2'" class="btn btn-xs" :class="rang === '2' ? 'btn-primary' : 'btn-ghost border-base-300'">2</button>
+            <button @click="rang = '3'" class="btn btn-xs" :class="rang === '3' ? 'btn-primary' : 'btn-ghost border-base-300'">3</button>
+        </div>
+
+        <details x-ref="sortDropdown" class="dropdown dropdown-bottom dropdown-end flex-shrink-0">
+            <summary class="btn btn-ghost btn-sm border-base-300">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-4" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M10.082 5.629 9.664 7H8.598l1.789-5.332h1.234L13.402 7h-1.12l-.419-1.371h-1.781zm1.57-.785L11 2.687h-.047l-.652 2.157h1.351z" />
+                    <path d="M12.96 14H9.028v-.691l2.579-3.72v-.054H9.098v-.867h3.785v.691l-2.567 3.72v.054h2.645V14zM4.5 2.5a.5.5 0 0 0-1 0v9.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L4.5 12.293V2.5z" />
+                </svg>
+                Trier
+            </summary>
+            <ul @click.outside="$refs.sortDropdown.removeAttribute('open')" class="menu dropdown-content bg-base-200 border border-base-300 rounded-lg z-[1] w-48 p-2 shadow">
+                <li @click="$refs.sortDropdown.removeAttribute('open'); sortOrder = (sort == 'duedate') ? !sortOrder : false; sort='duedate'; sort_calls()"><a>Échéance</a></li>
+                <li @click="$refs.sortDropdown.removeAttribute('open'); sortOrder = (sort == 'title') ? !sortOrder : false; sort='title'; sort_calls()"><a>Titre</a></li>
+                <li @click="$refs.sortDropdown.removeAttribute('open'); sortOrder = (sort == 'journal') ? !sortOrder : false; sort='journal'; sort_calls()"><a>Revue</a></li>
+                <li @click="$refs.sortDropdown.removeAttribute('open'); sortOrder = (sort == 'pubdate') ? !sortOrder : false; sort='pubdate'; sort_calls()"><a>Date d'ajout</a></li>
+            </ul>
+        </details>
+
+    </div>
+
     <div x-show="isReady">
+        <p x-show="count_visible() === 0" class="text-sm opacity-70 text-center py-8">Aucun appel ouvert pour ce filtre. Élargissez la discipline ou le rang.</p>
         {{ content | safe }}
     </div>
 </div>
