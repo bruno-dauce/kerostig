@@ -8,44 +8,65 @@
     data-discipline="{{ revue.discipline_code if revue else '' }}"
     data-rang="{{ revue.rang_fnege_2025 if revue else '' }}"
     data-tags="{{ call.tags | join(' ') if call.tags else '' }}"
-    class="card bg-base-200 hover:bg-base-300 border border-base-300 rounded-lg transition-colors">
-    <div class="card-body p-4 gap-2">
-        {% if call.title %}
-        <a href="{{ ('/call/' + call.slug) | url }}">
-            <h2 class="card-title text-base leading-snug">{{ call.title | safe }}</h2>
-        </a>
-        {% else %}
-        <a href="{{ call.url | url }}">
-            <h2 class="card-title text-base leading-snug">{{ call.metaTitle | safe }}</h2>
-        </a>
-        {% endif %}
+    class="card bg-base-200 border border-base-300 rounded-lg hover:border-primary/30 transition-colors">
+    <div class="card-body p-5 gap-3">
+
+        <div class="flex items-start justify-between gap-3">
+            {% if call.title %}
+            <a href="{{ ('/call/' + call.slug) | url }}" class="hover:underline">
+                <h2 class="text-lg font-bold leading-snug">{{ call.title | safe }}</h2>
+            </a>
+            {% else %}
+            <a href="{{ call.url | url }}" class="hover:underline">
+                <h2 class="text-lg font-bold leading-snug">{{ call.metaTitle | safe }}</h2>
+            </a>
+            {% endif %}
+            {% if dueDate %}
+            <span x-data="{ jours: Math.ceil((new Date('{{ dueDate.date }}') - new Date()) / 86400000) }"
+                  x-show="jours > 0"
+                  class="badge badge-sm font-semibold whitespace-nowrap flex-shrink-0"
+                  :class="jours <= 14 ? 'text-white' : ''"
+                  :style="jours <= 14 ? 'background:#C15A34;border-color:#C15A34' : 'background:#E4DFD5;border-color:#E4DFD5;color:#16293B'">
+                <span x-text="'J-' + jours"></span>
+            </span>
+            {% endif %}
+        </div>
 
         <a href="{{ '/journal/' + (revue.slug if revue else (call.journal | slug)) | url }}" class="text-xs font-semibold opacity-70 hover:opacity-100 uppercase">
             {{ call.journal | safe }}
         </a>
 
-        <div class="flex flex-wrap gap-1.5 mt-1">
+        <div class="flex flex-wrap gap-1.5">
             {% if revue %}
-            <span class="badge badge-sm badge-outline font-semibold" style="color:#2B5F8E;border-color:#2B5F8E">{{ revue.rang_fnege_2025 }}</span>
+            <span class="badge badge-sm badge-outline font-semibold" style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</span>
             <span class="badge badge-sm badge-outline">{{ revue.discipline }}</span>
             {% if revue.acces_ouvert.est_oa %}
-            <span class="badge badge-sm badge-outline" style="color:#2F7D5C;border-color:#2F7D5C">OA</span>
+            <span class="badge badge-sm badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C">accès ouvert</span>
             {% endif %}
             {% endif %}
         </div>
 
         {% if dueDate %}
-        <p class="text-xs font-medium mt-1" style="color:#C15A34">
-            Échéance {{ dueDate.date | dateOnly }}
-        </p>
+        <p class="text-xs opacity-80">Échéance : {{ dueDate.date | dateOnly }}</p>
         {% endif %}
 
         {% if call.tags and call.tags.length %}
-        <div class="flex flex-wrap gap-1 mt-1">
+        <div class="flex flex-wrap gap-1">
             {% for tag in call.tags %}
             <a href="{{ '/tag/' + (tag | slug) | url }}" class="badge badge-sm bg-base-100 border-0 opacity-70 hover:opacity-100 text-xs">{{ tag }}</a>
             {% endfor %}
         </div>
         {% endif %}
+
+        <div class="flex items-center justify-between mt-1 pt-2 border-t border-base-300">
+            <a href="{{ ('/call/' + call.slug) | url }}" class="text-xs font-semibold hover:underline" style="color:#2B5F8E">Voir l'appel</a>
+            {% if call.url %}
+            <a href="{{ call.url }}" target="_blank" rel="noopener" class="text-xs opacity-70 hover:opacity-100 flex items-center gap-1">
+                Source
+                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            </a>
+            {% endif %}
+        </div>
+
     </div>
 </div>
