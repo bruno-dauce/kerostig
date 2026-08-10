@@ -5,7 +5,7 @@ title: "hubecall - le hub des appels à publications en sciences de gestion et m
 description: "Appels à publications ouverts des revues de gestion classées FNEGE, filtrables par discipline et par rang, avec les informations d'accès ouvert. Mis à jour chaque jour."
 ---
 
-<div x-ref="calls" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+<div x-ref="calls" class="grid grid-cols-1 md:grid-cols-2 gap-4">
 {% for call in calls | isActiveCall %}
 {% include "call-card.html" %}
 {% endfor %}
