@@ -1,12 +1,9 @@
 import * as cheerio from 'cheerio';
-import { execFile } from 'child_process';
-import { promisify } from 'util';
 import { mkdtempSync } from 'fs';
 import path from 'path';
 import os from 'os';
 import { getJournalsByPublisher } from '../issnMatcher.mjs';
-
-const execFileAsync = promisify(execFile);
+import { curlGet } from '../curlClient.mjs';
 
 const PUBLISHER_NAME = 'Wiley';
 
@@ -19,7 +16,11 @@ const PUBLISHER_NAME = 'Wiley';
 // par Cloudflare. Solution retenue : shell out vers curl plutot que
 // d'utiliser fetch() -- curl gere aussi nativement les cookies et
 // redirections via son cookie jar fichier, ce qui evite de reimplementer
-// cette logique en JS.
+// cette logique en JS. MEME PIEGE ENSUITE avec curl standard sous Linux/
+// GitHub Actions (fingerprint OpenSSL bloque, la ou Schannel sous Windows
+// passe) : curlClient.mjs utilise curl-impersonate quand il est installe
+// (cf .github/workflows/scrape.yml) pour rejouer un fingerprint de vrai
+// navigateur, et retombe sur curl standard sinon.
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 const COOKIE_JAR_PATH = path.join(mkdtempSync(path.join(os.tmpdir(), 'wiley-cookies-')), 'cookies.txt');
 
@@ -111,7 +112,7 @@ async function find_page(journalName, urls) {
     for (const url of urls) {
         await sleep(REQUEST_DELAY_MS);
         try {
-            const response = await curl_get(url);
+            const response = await curlGet(url, { cookieJarPath: COOKIE_JAR_PATH, userAgent: USER_AGENT });
             if (response.status === 200) {
                 return { html: response.body, url };
             }
@@ -124,27 +125,6 @@ async function find_page(journalName, urls) {
         }
     }
     return null;
-}
-
-// curl (pas fetch()) : cf commentaire en tete de fichier. -L suit les
-// redirections et -c/-b (cookie jar fichier, partage entre tous les appels
-// de ce run) gere les cookies de session -- necessaires ici, le premier
-// chargement d'une revue passe par une redirection qui pose un cookie de
-// session avant de servir le vrai contenu.
-async function curl_get(url) {
-    const marker = '\n__HTTP_STATUS__:';
-    const { stdout } = await execFileAsync('curl', [
-        '-s', '-L',
-        '-c', COOKIE_JAR_PATH, '-b', COOKIE_JAR_PATH,
-        '-A', USER_AGENT,
-        '-w', `${marker}%{http_code}`,
-        url,
-    ], { maxBuffer: 20 * 1024 * 1024 });
-
-    const markerIndex = stdout.lastIndexOf(marker);
-    const body = stdout.slice(0, markerIndex);
-    const status = parseInt(stdout.slice(markerIndex + marker.length).trim(), 10);
-    return { status, body };
 }
 
 function extract_entries(html, pageUrl, journalName) {

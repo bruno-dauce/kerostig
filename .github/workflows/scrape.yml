@@ -16,6 +16,49 @@ jobs:
       - name: Checkout this repository
         uses: actions/checkout@v4
       - run: npm ci
+      # curl standard sous Linux expose un fingerprint TLS (OpenSSL)
+      # detecte et bloque par Cloudflare sur certains editeurs (SAGE,
+      # Wiley) alors que la meme requete passe en local sous Windows
+      # (Schannel). curl-impersonate (https://github.com/lwthiker/curl-
+      # impersonate) rejoue le ClientHello d'un vrai Chrome. best-effort :
+      # si l'installation echoue (URL de release changee, etc.), les
+      # scrapers retombent sur curl standard (cf scrapers/curlClient.mjs) --
+      # on ne bloque pas tout le run pour ca.
+      - name: Install curl-impersonate
+        continue-on-error: true
+        run: |
+          set -e
+          VERSION=v0.6.1
+          ASSET="curl-impersonate-${VERSION}.x86_64-linux-gnu.tar.gz"
+          URL="https://github.com/lwthiker/curl-impersonate/releases/download/${VERSION}/${ASSET}"
+
+          echo "Telechargement de ${URL}"
+          curl -sSL -o /tmp/curl-impersonate.tar.gz "$URL"
+
+          mkdir -p /tmp/curl-impersonate
+          tar -xzf /tmp/curl-impersonate.tar.gz -C /tmp/curl-impersonate
+
+          BIN_PATH=$(find /tmp/curl-impersonate -name 'curl_chrome116' -print -quit)
+          if [ -z "$BIN_PATH" ]; then
+            echo "curl_chrome116 introuvable dans l'archive extraite -- structure du tarball :" >&2
+            find /tmp/curl-impersonate >&2
+            exit 1
+          fi
+
+          BIN_DIR=$(dirname "$BIN_PATH")
+          echo "$BIN_DIR" >> "$GITHUB_PATH"
+          echo "curl-impersonate installe dans $BIN_DIR"
+
+          sudo apt-get update
+          sudo apt-get install -y libnss3 nss-plugin-pem ca-certificates
+      - name: Verify curl-impersonate installation
+        run: |
+          if command -v curl_chrome116 >/dev/null 2>&1; then
+            echo "curl_chrome116 disponible : $(command -v curl_chrome116)"
+            curl_chrome116 --version || true
+          else
+            echo "curl_chrome116 non disponible -- les scrapers curl utiliseront le repli curl standard"
+          fi
       - name: Scrape
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

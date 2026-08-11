@@ -1,12 +1,9 @@
 import * as cheerio from 'cheerio';
-import { execFile } from 'child_process';
-import { promisify } from 'util';
 import { mkdtempSync } from 'fs';
 import path from 'path';
 import os from 'os';
 import { matchIssn } from '../issnMatcher.mjs';
-
-const execFileAsync = promisify(execFile);
+import { curlGet } from '../curlClient.mjs';
 
 // SAGE centralise les appels de (quasi) toutes ses revues sur ce hub unique,
 // classe par discipline (accordeon) -- une seule page a visiter au lieu de
@@ -23,8 +20,11 @@ const HUB_URL = 'https://journals.sagepub.com/open-call-for-papers';
 // curl plutot que d'ouvrir une page. ATTENTION, meme piege que sur Wiley :
 // curl sous Windows (Schannel) peut passer la ou curl sous Linux/GitHub
 // Actions (OpenSSL) est bloque (fingerprint TLS distingue par Cloudflare) --
-// le statut HTTP est donc logue explicitement a chaque run pour verifier en
-// CI plutot que de supposer que ca marche partout parce que ca marche ici.
+// c'est pour ca que curlClient.mjs utilise curl-impersonate quand il est
+// installe (cf .github/workflows/scrape.yml) plutot que curl standard. Le
+// statut HTTP est logue explicitement a chaque run (dans curlClient.mjs)
+// pour verifier en CI plutot que de supposer que ca marche partout parce
+// que ca marche ici.
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 
 // Le hub fait un aller-retour de cookie avant de servir le vrai contenu
@@ -108,15 +108,16 @@ export const scraperObject = {
 async function get_accordion_html(url) {
     let response;
     try {
-        response = await curl_get(url);
+        response = await curlGet(url, { cookieJarPath: COOKIE_JAR_PATH, userAgent: USER_AGENT });
     } catch (error) {
         console.warn(`[sage] Erreur reseau (curl) sur ${url} : ${error.message}`);
         return null;
     }
 
     // Logue toujours le statut, succes ou echec : c'est le seul moyen de
-    // verifier depuis les logs GitHub Actions si curl passe aussi bien sous
-    // Linux que sous Windows (cf commentaire sur USER_AGENT plus haut).
+    // verifier depuis les logs GitHub Actions si curl (ou curl-impersonate)
+    // passe aussi bien sous Linux que sous Windows (cf commentaire sur
+    // USER_AGENT plus haut).
     console.log(`[sage] Statut HTTP ${response.status} sur ${url}`);
     if (response.status !== 200) {
         console.warn(`[sage] Statut HTTP ${response.status} (attendu 200) sur ${url} -- probable blocage anti-bot ou challenge`);
@@ -130,22 +131,6 @@ async function get_accordion_html(url) {
         return null;
     }
     return container.html();
-}
-
-async function curl_get(url) {
-    const marker = '\n__HTTP_STATUS__:';
-    const { stdout } = await execFileAsync('curl', [
-        '-s', '-L',
-        '-c', COOKIE_JAR_PATH, '-b', COOKIE_JAR_PATH,
-        '-A', USER_AGENT,
-        '-w', `${marker}%{http_code}`,
-        url,
-    ], { maxBuffer: 20 * 1024 * 1024 });
-
-    const markerIndex = stdout.lastIndexOf(marker);
-    const body = stdout.slice(0, markerIndex);
-    const status = parseInt(stdout.slice(markerIndex + marker.length).trim(), 10);
-    return { status, body };
 }
 
 function extract_entries(accordionHtml) {
