@@ -4,7 +4,7 @@
   "description": "Find calls for papers in one location.",
   "scripts": {
     "clean": "rm -rf public",
-    "start": "eleventy --serve & tailwind -i www/public/css/tailwind.css -o public/public/css/style.css --watch",
+    "start": "concurrently -n eleventy,tailwind -c blue,magenta \"eleventy --serve\" \"tailwind -i www/public/css/tailwind.css -o public/public/css/style.css --watch\"",
     "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production tailwind -i www/public/css/tailwind.css -o public/public/css/style.css --minify",
     "scrape": "node --env-file .env ./scrapers/scraper.mjs",
     "rss": "node ./scrapers/feedgen.mjs",
@@ -30,6 +30,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "alpinejs": "^3.14.8",
+    "concurrently": "^10.0.4",
     "daisyui": "^4.12.23",
     "tailwindcss": "^3.4.17"
   },

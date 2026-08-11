@@ -19,8 +19,9 @@ export default async function (eleventyConfig) {
         if (!dates) return null;
         return dates.find((d) => d.is_full_paper_submission_deadline) || null;
     });
+
     // Recherche de revue par nom de journal (fallback quand l'ISSN n'est pas encore sur l'appel)
-    eleventyConfig.addFilter("revueParNom", function (journals, journalName) {
+    const trouverRevueParNom = (journals, journalName) => {
         if (!journals || !journalName) return null;
         const nom = journalName.trim().toLowerCase();
         for (const revue of Object.values(journals)) {
@@ -28,6 +29,14 @@ export default async function (eleventyConfig) {
             if ((revue.titre_fnege || "").toLowerCase() === nom) return revue;
         }
         return null;
+    };
+    eleventyConfig.addFilter("revueParNom", trouverRevueParNom);
+
+    // Jointure appel -> revue : par ISSN (clé directe de journals.json), avec repli sur le nom
+    eleventyConfig.addFilter("revueDeLAppel", function (journals, call) {
+        if (!journals || !call) return null;
+        if (call.issn && journals[call.issn]) return journals[call.issn];
+        return trouverRevueParNom(journals, call.journal);
     });
 
     // Compteur d'appels actifs

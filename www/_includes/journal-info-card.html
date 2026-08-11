@@ -1,0 +1,80 @@
+{% if revue %}
+<aside class="card bg-base-200 border border-base-300 rounded-lg lg:sticky lg:top-4">
+  <div class="card-body p-5 gap-3">
+
+    <div>
+      <p class="text-xs uppercase opacity-60 font-semibold mb-1">La revue</p>
+      <a href="{{ '/journal/' + revue.slug | url }}" class="font-bold leading-snug hover:underline">{{ revue.titre }}</a>
+      {% if revue.editeur %}<p class="text-xs opacity-70 mt-0.5">{{ revue.editeur }}</p>{% endif %}
+    </div>
+
+    <div class="flex flex-wrap gap-1.5">
+      {% if revue.rang_fnege_2025 %}
+      <span class="badge badge-sm badge-outline font-semibold" style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</span>
+      {% endif %}
+      {% if revue.discipline %}
+      <span class="badge badge-sm badge-outline">{{ revue.discipline }}</span>
+      {% endif %}
+      {% if revue.acces_ouvert.est_oa %}
+      <span class="badge badge-sm badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C">accès ouvert</span>
+      {% endif %}
+    </div>
+
+    <dl class="text-sm divide-y divide-base-300 border-t border-base-300">
+
+      <div class="py-2 flex justify-between gap-3">
+        <dt class="opacity-70">Accès</dt>
+        <dd class="font-semibold text-right">
+          {% if revue.acces_ouvert.est_oa %}
+            <span style="color:#2F7D5C">Accès ouvert</span>
+            {% if revue.acces_ouvert.apc %}
+              {% if revue.acces_ouvert.apc.gratuit %}
+              <br><span class="font-normal text-xs opacity-80">sans frais de publication</span>
+              {% else %}
+              <br><span class="font-normal text-xs opacity-80">APC {{ revue.acces_ouvert.apc.montant }} {{ revue.acces_ouvert.apc.devise }}</span>
+              {% endif %}
+            {% endif %}
+          {% else %}
+            Abonnement
+            {% if revue.acces_ouvert.apc and not revue.acces_ouvert.apc.gratuit %}
+            <br><span class="font-normal text-xs opacity-80">option hybride · APC {{ revue.acces_ouvert.apc.montant }} {{ revue.acces_ouvert.apc.devise }}</span>
+            {% endif %}
+          {% endif %}
+        </dd>
+      </div>
+
+      <div class="py-2 flex justify-between gap-3">
+        <dt class="opacity-70">Dépôt</dt>
+        <dd class="font-semibold text-right">
+          {% if revue.auto_archivage and revue.auto_archivage.found %}
+            {% if revue.auto_archivage.version_deposable %}{{ revue.auto_archivage.version_deposable }}{% else %}<span class="opacity-60 font-normal">version non précisée</span>{% endif %}
+            {% if revue.auto_archivage.embargo_mois %}<br><span class="font-normal text-xs opacity-80">embargo {{ revue.auto_archivage.embargo_mois }} mois</span>{% endif %}
+          {% else %}
+            <span class="opacity-60 font-normal">non renseigné</span>
+          {% endif %}
+        </dd>
+      </div>
+
+      <div class="py-2 flex justify-between gap-3">
+        <dt class="opacity-70">Dépôt HAL</dt>
+        <dd class="font-semibold text-right">
+          {% if revue.auto_archivage and revue.auto_archivage.found and revue.auto_archivage.depot_hal_possible != null %}
+            {% if revue.auto_archivage.depot_hal_possible %}
+            <span style="color:#2F7D5C">Oui</span>
+            {% if revue.auto_archivage.avec_frais_additionnels %}<br><span class="font-normal text-xs opacity-80">avec frais additionnels</span>{% endif %}
+            {% else %}
+            Non
+            {% endif %}
+          {% else %}
+            <span class="opacity-60 font-normal">non renseigné</span>
+          {% endif %}
+        </dd>
+      </div>
+
+    </dl>
+
+    <a href="{{ '/journal/' + revue.slug | url }}" class="btn btn-sm btn-outline mt-1">Voir la fiche revue</a>
+
+  </div>
+</aside>
+{% endif %}
