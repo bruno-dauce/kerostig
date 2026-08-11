@@ -118,22 +118,22 @@ layout: layouts/base.html
                     <div class="space-y-1 max-h-64 overflow-y-auto">
                         {% set discList = [
                             ["ACC", "Comptabilité"],
-                            ["BUS HIST", "Histoire des affaires"],
-                            ["BUS SOC", "Entreprise et société"],
                             ["EDUC", "Enseignement"],
+                            ["BUS SOC", "Entreprise et société"],
+                            ["ORG STUD", "Études organisationnelles"],
                             ["FIN", "Finance"],
-                            ["GEN MAN", "Management général"],
-                            ["HLTH", "Santé"],
                             ["HRM", "GRH"],
+                            ["BUS HIST", "Histoire des affaires"],
                             ["INNOV", "Innovation"],
                             ["INT", "International"],
                             ["LOG", "Logistique"],
-                            ["MIS", "Systèmes d'information"],
-                            ["MKG", "Marketing"],
-                            ["ORG STUD", "Études organisationnelles"],
+                            ["GEN MAN", "Management général"],
                             ["PUB MAN", "Management public"],
+                            ["MKG", "Marketing"],
+                            ["HLTH", "Santé"],
                             ["SECTOR", "Sectoriel"],
-                            ["STRAT", "Stratégie"]
+                            ["STRAT", "Stratégie"],
+                            ["MIS", "Systèmes d'information"]
                         ] %}
                         {% for code, nom in discList %}
                         <label class="flex items-center gap-2 py-1 px-1 rounded hover:bg-base-300 cursor-pointer text-sm">
