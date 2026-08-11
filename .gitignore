@@ -18,3 +18,13 @@ public/
 .browser-profile/
 .DS_Store
 Thumbs.db
+
+# Fichiers de travail temporaires (HTML sauvegardés pour Claude Code)
+*.debug.html
+emerald-page.html
+tf-page.html
+tf-hub.html
+wiley-page.html
+elsevier-hub.html
+informs-page.html
+aom-page.html
