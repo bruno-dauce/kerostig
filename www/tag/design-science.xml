@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: design science</title>
+        <link>https://callsforpapers.org/tag/design-science</link>
+        <description>Latest calls for papers tagged with 'design science'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 21:44:33 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: design science</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/design-science</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Keeping Humans in the Loop in the AI-Driven Future of Information Security]]></title>
+            <link>https://callsforpapers.org/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security</link>
+            <guid>springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Laura Amo</strong>, University at Buffalo, State University of New York</p>
+        
+        <p><strong>Richard Baskerville</strong>, Georgia State University</p>
+        
+        <p><strong>Rui Chen</strong>, Iowa State University</p>
+        
+        <p><strong>Matthew Hashim</strong>, University of Arizona</p>
+        
+        <p><strong>Yaojie (William) Li</strong>, University of New Orleans</p>
+        
+        <p><strong>Yuan Li</strong>, University of Tennessee at Knoxville</p>
+        
+    
+    
+    <p>As automation and AI explode, artificial intelligence is positioned to become the primary force in offensive and defensive cybersecurity practices. Attackers use generative AI to launch sophisticated spear-phishing attacks and deepfake campaigns targeting individuals; they also leverage Internet-of-Behaviors data to customize attacks based on user behavior patterns. AI companionship tools, while offering emotional support and practical assistance, also pose significant security and privacy concerns. Defensively, practitioners increasingly rely on AI-based threat detection tools just to keep pace with AI-fueled external threats, simultaneously facing cognitive issues associated with AI-based cybersecurity incident responses.</p>
+    
+    <p>With AI driving cybersecurity from both offensive and defensive angles, it seems important to remember that security is fundamentally a human phenomenon. Human-in-the-loop is a well-established design principle emphasizing human involvement in system training, tuning, and decision making to improve accuracy and safety. This approach addresses contexts where human performance of security-critical functions is imperative because fully automated systems may be restrictive, inconvenient, or dangerous. Applied to security, HITL also guides designers and operators in identifying and mitigating human errors that cause security failures, premised on the notion that humans are the weakest link. Humans are thus a necessary yet vulnerable link in the security chain.</p>
+    
+    <p>In this special issue of Information Systems Frontiers, we invite IS security researchers to consider how to balance AI&#39;s inevitable role in the future of information security while keeping humans such as users, employees, clients, patients, and students in the loop as a research focus. As security becomes increasingly AI-oriented, behavioral IS scholarship faces a growing challenge to retain focus on human behavior, cognition, and motivation. Now more than ever, it is imperative that humans remain central to research on secure systems, training programs, and assistive technologies such as chatbots.</p>
+    
+    <p>This special issue will consist of papers from two sources: the best submissions from an open call for papers selected on a competitive basis, and invited submissions that are substantial revisions of selected papers accepted at the 2026 Dewald Roode Workshop on Information Systems Security Research. If from the latter, the submitted manuscript is required to have more than 40% new and original technical or scientific content, distinct from the workshop paper. Authors will be required to submit a letter detailing the differences between the workshop paper and the version submitted to this special issue.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Neurosecurity (NeuroIS) investigations of information security behavior</li>
+        
+        <li>Behavioral analyses of design science treatments enhancing or balancing security and privacy tradeoffs</li>
+        
+        <li>The behavioral intersection of cybersecurity/privacy research and AI/ML advancements</li>
+        
+        <li>AI-enabled security awareness, training, nudging, and behavioral intervention systems</li>
+        
+        <li>Human-AI collaboration in security decision-making, compliance, monitoring, and response</li>
+        
+        <li>Behavioral security implications of generative AI, including phishing, social engineering, misinformation, insider threats, and user overreliance on AI tools</li>
+        
+        <li>Design science approaches to developing, evaluating, and theorizing intelligent security artifacts with behavioral implications</li>
+        
+        <li>Adaptive, personalized, and context-aware security interventions enabled by AI and analytics</li>
+        
+        <li>Theoretical extensions or reconceptualizations of established behavioral security theories in AI-mediated environments</li>
+        
+        <li>Security behaviors in pervasive and post-pandemic work environments, including remote work, hybrid work, IoT, cloud platforms, and platform ecosystems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 15, 2027: Submission deadline</li>
+        
+        <li>May 15, 2027: Notification of first round reviews</li>
+        
+        <li>July 15, 2027: Revised manuscript due</li>
+        
+        <li>September 1, 2027: Notification of second round reviews</li>
+        
+        <li>October 15, 2027: Final version due</li>
+        
+        <li>January 30, 2028: Tentative publication date</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Information Systems Frontiers (SPRINGER)</author>
+        </item>
+    </channel>
+</rss>

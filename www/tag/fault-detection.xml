@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: fault detection</title>
+        <link>https://callsforpapers.org/tag/fault-detection</link>
+        <description>Latest calls for papers tagged with 'fault detection'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 21:44:33 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: fault detection</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/fault-detection</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Advanced Machine Learning for System Reliability Management]]></title>
+            <link>https://callsforpapers.org/call/springer-advanced-machine-learning-for-system-reliability-management</link>
+            <guid>springer-advanced-machine-learning-for-system-reliability-management</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Xu-Feng Zhao</strong>, Nanjing University of Aeronautics and Astronautics</p>
+        
+        <p><strong>Yan-Fu Li</strong>, Tsinghua University</p>
+        
+        <p><strong>Hoang Pham</strong>, Rutgers University</p>
+        
+    
+    
+    <p>Modern industrial systems generate massive datasets from sensor monitoring, which presents computational and memory challenges in data processing. Advanced machine learning technologies such as transfer learning, federated learning, quantum machine learning, and reinforcement learning offer effective and scalable solutions for processing and analyzing large volumes of data, as well as supporting subsequent decision-making.</p>
+    
+    <p>Recently, various new techniques of advanced machine learning have already been applied to system reliability management, such as fault diagnosis, health condition assessment, remaining useful life prediction, degradation modeling, and maintenance optimization. Yet, ongoing research works continue to explore this exciting research area.</p>
+    
+    <p>This special issue invites high-quality original research papers, review papers, and case studies that delve into advancements in advanced machine learning for system reliability management.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Deep learning for anomaly detection and/or fault detection</li>
+        
+        <li>Machine learning-enhanced maintenance optimization</li>
+        
+        <li>Federated learning for system monitoring and predictive maintenance</li>
+        
+        <li>Reinforcement learning for maintenance decision making</li>
+        
+        <li>Transfer learning for cross-domain maintenance</li>
+        
+        <li>Generative models for synthetic data generation for predictive maintenance</li>
+        
+        <li>Self-supervised learning for unlabeled data for fault detection</li>
+        
+        <li>Large models for fault detection and/or diagnosis</li>
+        
+        <li>Generative models for reliability testing</li>
+        
+        <li>Meta-heuristics for large-scale reliability design optimization</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>May 30, 2026: Manuscript submission deadline</li>
+        
+        <li>August 31, 2026: Submission deadline for special issue</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Annals of Operations Research (SPRINGER)</author>
+        </item>
+    </channel>
+</rss>

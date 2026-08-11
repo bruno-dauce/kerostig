@@ -391,13 +391,13 @@
     "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
-    "journal": "Small Business Economics",
+    "journal": "International Entrepreneurship and Management Journal",
     "abbreviation": "springer",
-    "issn": "1573-0913",
+    "issn": "1555-1938",
     "metaTitle": "Entrepreneurship and the Creation of Decent Work for All",
     "url": "https://link.springer.com/collections/ccdbbagabe",
     "title": "Entrepreneurship and the Creation of Decent Work for All",
-    "slug": "springer-entrepreneurship-and-the-creation-of-decent-work-for-all",
+    "slug": "springer-entrepreneurship-and-the-creation-of-decent-work-for-all-2",
     "contentHash": "35243d0e0a02307cd16f18797c0a221d4850d9c030df34facccf98b03eb02d4d",
     "topics": [
       "Equal pay for work of equal value",
@@ -414,19 +414,18 @@
     ],
     "description": {
       "paragraphs": [
-        "Springer Nature is inviting submissions to this multi-journal Collection on Entrepreneurship and the Creation of Decent Work for all, reflecting on the U.N. Sustainable Development Goal SDG 8.",
         "Societal changes, environment, political and financial crises inevitably affect labor markets and the quality of employment. Recent pandemic and global political changes have only demonstrated how quickly one's employment and workplace situation can change. Among other factors, entrepreneurship could play a crucial role in the creation of decent work, especially in a volatile environment.",
         "Understanding the relationship between entrepreneurship and working conditions is crucial for supporting policies and instruments which aim at more productive, decent work, fair wages, better access to the labor market, and improved job opportunities for all.",
-        "In order to fully represent this multifaceted topic, this collection gathers a spectrum of current perspectives in a single resource, facilitating a better understanding of possibilities and ways of striving toward the goal of achieving full and productive employment and decent work for all (SDG 8 of the U.N.).",
+        "In order to fully represent this multifaceted topic, we would like to gather a spectrum of current perspectives in a single Collection, facilitating a better understanding of possibilities and ways of striving toward the goal of 'achieving full and productive employment and decent work for all' (SDG 8 of the U.N.).",
         "Submissions to this collection may be research or review articles, depending on the individual journal guidelines. Each submission will undergo thorough and rigorous peer review in accordance with each journal's peer review editorial policy. Accepted articles will be published in the journal they were submitted to, as well as highlighted on this collection page."
       ]
     },
     "tags": [
       "entrepreneurship",
       "decent work",
+      "labor market",
       "sdg 8",
-      "employment",
-      "labor markets"
+      "employment"
     ],
     "editors": [],
     "associate_editors": [],
@@ -1875,27 +1874,26 @@
     "url": "https://link.springer.com/collections/cijfhfhifa",
     "title": "Techno-Nationalism, State Strategy, and Corporate Innovation in the Asia-Pacific",
     "slug": "springer-techno-nationalism-state-strategy-and-corporate-innovation-in-the-asia-pacific",
-    "contentHash": "c086e7251afeff3ff97e611056ef769ed9ce6e6792e7b6c13c7f1663306d7771",
+    "contentHash": "67a8851bddc60b0f4d52e3c1a509b1cc1d01b27ce5bfc97e7aa89d7c69db6033",
     "topics": [
-      "How techno-nationalism reshapes corporate innovation and strategy",
+      "Techno-nationalism and national competitiveness",
+      "Strategic importance of technology in institutional security and social stability",
+      "Impact of techno-nationalism on corporate innovation and strategy",
       "Macro-level politics and micro-level firm practices in the context of technology",
       "Resilience-building pathways of Asia-Pacific firms",
-      "Innovation pathways in response to techno-nationalism",
-      "Technology as a determinant of national competitiveness and institutional security",
-      "Strategic importance of technology in the knowledge-driven global economy"
+      "Innovation strategies in response to techno-nationalism"
     ],
     "description": {
       "paragraphs": [
-        "In today's highly digitalized and knowledge-driven global economy, technology has come to signify far more than traditional notions of productivity and efficiency. Its strategic importance has risen to the level of a critical determinant of national competitiveness, institutional security, and social stability.",
-        "Against this backdrop, the emergence of techno-nationalism represents a salient new trend. Investigating how techno-nationalism reshapes corporate innovation and strategy can not only fill the theoretical gap in existing IB research between macro-level politics and micro-level firm practices, but also provide new insights into the resilience-building and innovation pathways of Asia-Pacific firms in this new normal."
+        "In today's highly digitalized and knowledge-driven global economy, technology has come to signify far more than traditional notions of productivity and efficiency. Its strategic importance has risen to the level of a critical determinant of national competitiveness, institutional security, and social stability. Against this backdrop, the emergence of techno-nationalism represents a salient new trend.",
+        "Investigating how techno-nationalism reshapes corporate innovation and strategy can not only fill the theoretical gap in existing IB research between macro-level politics and micro-level firm practices, but also provide new insights into the resilience-building and innovation pathways of Asia-Pacific firms in this new normal."
       ]
     },
     "tags": [
       "techno-nationalism",
-      "innovation",
+      "corporate innovation",
       "asia-pacific",
-      "international business",
-      "state strategy"
+      "international business"
     ],
     "editors": [
       {
@@ -1918,7 +1916,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-08-31T10:00:00.000Z",
+        "date": "2026-08-31T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -2086,11 +2084,11 @@
     "url": "https://link.springer.com/collections/fadijefbcb",
     "title": "Replication Corner",
     "slug": "springer-replication-corner",
-    "contentHash": "fb4a86be3b8c208a796a5a8bc657960be865cf83c5c09096f8fba950aaf7619a",
+    "contentHash": "d3600680ae04f3f89db8196a759cc6ec792d5b6b2e296f0355c1b7880437c8b3",
     "topics": [
-      "Replication studies of important and highly cited published papers in marketing and consumer behavior",
-      "Establishing empirical generalizations",
-      "Identifying boundary conditions and moderators of effects",
+      "Replication of important and highly cited published papers in marketing and consumer behavior",
+      "Establishment of empirical generalizations",
+      "Identification of boundary conditions and moderators of effects",
       "Complementary work on existing published papers"
     ],
     "description": {
@@ -2100,9 +2098,9 @@
       ]
     },
     "tags": [
+      "replication studies",
       "marketing",
-      "replication",
-      "empirical research"
+      "consumer behavior"
     ],
     "editors": [
       {

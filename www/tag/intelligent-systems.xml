@@ -4,7 +4,7 @@
         <title>Calls for Papers | Tag: intelligent systems</title>
         <link>https://callsforpapers.org/tag/intelligent-systems</link>
         <description>Latest calls for papers tagged with 'intelligent systems'.</description>
-        <lastBuildDate>Tue, 11 Aug 2026 16:13:48 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 21:44:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -14,6 +14,60 @@
             <link>https://callsforpapers.org/tag/intelligent-systems</link>
         </image>
         <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Advances in Reliability and Statistical Computing for Intelligent Systems]]></title>
+            <link>https://callsforpapers.org/call/springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems</link>
+            <guid>springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Hoang Pham</strong>, Rutgers, The State University of New Jersey</p>
+        
+    
+    
+    <p>The era of AI, through its focus on the reliability and statistical machine computing of intelligent systems in everyday applications and the service industry, has experienced a dramatic shift in recent years. Such systems require reliable and timely responses.</p>
+    
+    <p>Articles concerning new theoretical research and methods in advanced reliability and statistical computing for intelligent systems are solicited. Preference will be given to papers with real-world applications over purely theoretical papers.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Mathematical reliability and statistical methods</li>
+        
+        <li>Big data modeling and prediction</li>
+        
+        <li>Statistical learning algorithms, models, and theories</li>
+        
+        <li>Machine learning models for intelligent systems</li>
+        
+        <li>Text mining and deep machine learning</li>
+        
+        <li>Intelligent system dependability and performability</li>
+        
+        <li>Reliability modeling and optimization</li>
+        
+        <li>High-dimensional data analysis</li>
+        
+        <li>Statistical inference for intelligent systems</li>
+        
+        <li>Industrial case studies in intelligent systems, including field and service robotics, medical care, education, visual surveillance, intelligent transportation, etc.</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Annals of Operations Research (SPRINGER)</author>
+        </item>
         <item>
             <title><![CDATA[Building Resilient and Intelligent Maritime Transportation Systems under Geopolitical Uncertainty]]></title>
             <link>https://callsforpapers.org/call/elsevier-building-resilient-and-intelligent-maritime-transportation-systems-under-geopolitical-uncertainty</link>
