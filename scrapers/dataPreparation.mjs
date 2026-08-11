@@ -4,16 +4,21 @@ import TurndownService from 'turndown';
 import { toText } from './issnMatcher.mjs';
 
 export async function clean(issues) {
-    return await Promise.all(
-        issues.map(async (issue) => {
-            issue = await normalizeTextFields(issue);
-            issue = await cleanTitles(issue);
-            issue = await generateSlug(issue);
-            issue = await parseHTML(issue);
-            issue = await hash(issue);
-            return issue;
-        })
-    );
+    // Traitement sequentiel (pas Promise.all) : generateSlug a besoin de
+    // connaitre les slugs deja attribues dans ce lot pour garantir leur
+    // unicite (ex. deux revues avec le meme titre d'appel -- special issue
+    // conjointe entre plusieurs revues Elsevier).
+    const usedSlugs = new Set();
+    const results = [];
+    for (let issue of issues) {
+        issue = await normalizeTextFields(issue);
+        issue = await cleanTitles(issue);
+        issue = await generateSlug(issue, usedSlugs);
+        issue = await parseHTML(issue);
+        issue = await hash(issue);
+        results.push(issue);
+    }
+    return results;
 }
 
 // Certains scrapers (API JSON, ex. Taylor & Francis) peuvent fournir ces
@@ -26,8 +31,14 @@ async function normalizeTextFields(issue) {
     return issue;
 }
 
-async function generateSlug(issue) {
-    issue.slug = await slugify(issue.abbreviation + " " + issue.metaTitle, { lower: true, strict: true })
+async function generateSlug(issue, usedSlugs) {
+    const baseSlug = await slugify(issue.abbreviation + " " + issue.metaTitle, { lower: true, strict: true });
+    let slug = baseSlug;
+    for (let suffix = 2; usedSlugs.has(slug); suffix++) {
+        slug = `${baseSlug}-${suffix}`;
+    }
+    usedSlugs.add(slug);
+    issue.slug = slug;
     return issue;
 }
 
