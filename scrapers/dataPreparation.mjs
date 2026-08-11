@@ -1,10 +1,12 @@
 import slugify from 'slugify';
 import { createHash } from 'crypto';
 import TurndownService from 'turndown';
+import { toText } from './issnMatcher.mjs';
 
 export async function clean(issues) {
     return await Promise.all(
         issues.map(async (issue) => {
+            issue = await normalizeTextFields(issue);
             issue = await cleanTitles(issue);
             issue = await generateSlug(issue);
             issue = await parseHTML(issue);
@@ -12,6 +14,16 @@ export async function clean(issues) {
             return issue;
         })
     );
+}
+
+// Certains scrapers (API JSON, ex. Taylor & Francis) peuvent fournir ces
+// champs sous forme d'objet ({ rendered: "..." }) ou null au lieu d'une
+// chaine ; on les normalise ici avant tout traitement texte en aval.
+async function normalizeTextFields(issue) {
+    issue.metaTitle = toText(issue.metaTitle);
+    issue.title = toText(issue.title);
+    issue.journal = toText(issue.journal);
+    return issue;
 }
 
 async function generateSlug(issue) {

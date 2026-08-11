@@ -7,9 +7,26 @@ const __dirname = path.dirname(__filename);
 const CSV_PATH = path.join(__dirname, '..', 'enrichissement', 'hubecall-correspondance-issn-enrichi.csv');
 
 let issnByNormalizedName = null;
+let loggedUnexpectedNameShape = false;
+
+// Certaines API (WordPress REST) renvoient un champ texte sous forme
+// d'objet ({ rendered: "..." } ou variantes) plutot qu'une chaine brute.
+export function toText(name) {
+    if (typeof name === 'string') return name;
+    if (name == null) return '';
+    if (typeof name === 'object') {
+        const text = name.rendered ?? name.raw ?? name.value ?? name.text ?? null;
+        if (!loggedUnexpectedNameShape) {
+            loggedUnexpectedNameShape = true;
+            console.warn(`[issnMatcher] Nom de revue recu sous forme d'objet, cles : ${Object.keys(name).join(', ')} -> valeur utilisee : "${text ?? ''}"`);
+        }
+        if (typeof text === 'string') return text;
+    }
+    return String(name);
+}
 
 function normalize(name) {
-    return (name || '')
+    return toText(name)
         .toLowerCase()
         .replace(/&/g, ' and ')
         .replace(/[^a-z0-9]+/g, ' ')

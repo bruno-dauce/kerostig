@@ -1,4 +1,5 @@
 import { matchIssn } from '../issnMatcher.mjs';
+import { waitForCloudflare } from '../cloudflare.mjs';
 
 const LISTING_CARD_SELECTOR = 'a.calls-grid__card';
 const LISTING_TITLE_SELECTOR = 'h3.calls-grid__title';
@@ -57,7 +58,7 @@ async function get_listings_for_page(browser, baseUrl, pageNumber) {
     const page = await browser.newPage();
     const pageUrl = pageNumber === 1 ? baseUrl : `${baseUrl}?page=${pageNumber}`;
     await page.goto(pageUrl, { waitUntil: 'domcontentloaded' });
-    await waitForCloudflare(page);
+    await waitForCloudflare(page, '[emerald]');
 
     const found = await page.waitForSelector(LISTING_CARD_SELECTOR, { timeout: 30000 })
         .then(() => true)
@@ -81,7 +82,7 @@ async function get_listings_for_page(browser, baseUrl, pageNumber) {
 async function get_raw_content(browser, url) {
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: 'domcontentloaded' });
-    await waitForCloudflare(page);
+    await waitForCloudflare(page, '[emerald]');
     const rawContent = await page.waitForSelector(DETAIL_CONTENT_SELECTOR, { timeout: 30000 })
         .then(() => page.$eval(DETAIL_CONTENT_SELECTOR, element => element.innerHTML))
         .catch(() => null);
@@ -90,18 +91,4 @@ async function get_raw_content(browser, url) {
         console.warn(`[emerald] Extraction du contenu brut echouee pour ${url}`);
     }
     return rawContent;
-}
-
-// Emerald sert un challenge Cloudflare ("Just a moment...") avant le vrai
-// contenu. On attend qu'il se resolve (changement de titre) plutot que de se
-// fier a domcontentloaded, qui se declenche deja sur la page d'interstitiel.
-async function waitForCloudflare(page) {
-    try {
-        await page.waitForFunction(
-            () => !document.title.includes('Just a moment'),
-            { timeout: 30000 }
-        );
-    } catch (error) {
-        console.warn(`[emerald] Le challenge Cloudflare ne semble pas resolu apres 30s : ${error.message}`);
-    }
 }
