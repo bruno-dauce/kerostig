@@ -4,7 +4,7 @@
         <title>Calls for Papers | Tag: collaboration</title>
         <link>https://callsforpapers.org/tag/collaboration</link>
         <description>Latest calls for papers tagged with 'collaboration'.</description>
-        <lastBuildDate>Wed, 31 Dec 2025 03:43:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -15,50 +15,78 @@
         </image>
         <copyright>Calls for Papers © 2025</copyright>
         <item>
-            <title><![CDATA[Human - AI Collaboration, Emerging Digital Work Configurations and the Changing Nature of Work]]></title>
-            <link>https://callsforpapers.org/call/jit-human-ai-collaboration-emerging-digital-work-configurations-and-the-changing-nature-of-work</link>
-            <guid>jit-human-ai-collaboration-emerging-digital-work-configurations-and-the-changing-nature-of-work</guid>
-            <pubDate>Thu, 13 Mar 2025 10:51:27 GMT</pubDate>
+            <title><![CDATA[Open Innovation in the Age of Artificial Intelligence: Reshaping Knowledge Search, Collaboration, and Governance]]></title>
+            <link>https://callsforpapers.org/call/tandf-open-innovation-in-the-age-of-artificial-intelligence-reshaping-knowledge-search-collaboration-and-governance</link>
+            <guid>tandf-open-innovation-in-the-age-of-artificial-intelligence-reshaping-knowledge-search-collaboration-and-governance</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>
     
         
-        <p><strong>Alexander Richter</strong>, Victoria University of Wellington</p>
+        <p><strong>Saverio Barabuffi</strong>, Scuola Superiore Sant&#39;Anna</p>
         
-        <p><strong>João Baptista</strong>, Lancaster University</p>
+        <p><strong>Giulio Ferrigno</strong>, Scuola Superiore Sant&#39;Anna</p>
         
-        <p><strong>Ella Hafermalz</strong>, Vrije Universiteit Amsterdam</p>
+        <p><strong>Letizia Mortara</strong>, University of Cambridge</p>
         
-        <p><strong>Mareike Möhlmann</strong>, Bentley University</p>
-        
-        <p><strong>Daniel Schlagwein</strong>, The University of Sydney</p>
-        
-        <p><strong>Mari-Klara Stein</strong>, Tallinn University of Technology</p>
+        <p><strong>Yogesh K. Dwivedi</strong>, King Fahd University of Petroleum and Minerals</p>
         
     
     
-    <p>Digital technologies, in particular artificial intelligence (AI), are reconfiguring how, where, and when work gets done, marking a shift from tools designed to support human tasks to agentic systems that collaborate with and even manage human workers. AI technologies are evolving to work autonomously or within hybrid collaboration systems of human and digital agents. Research on AI and human-AI collaboration has advanced from studying AI that supports human tasks to AI agents’ ability to make independent management decisions and regulate and manage human work. The future of working with AI is, however, still unknown and emergent, with both utopian and dystopian perspectives shaping our understanding of opportunities and challenges of their adoption and use in organizations, work, and other spheres of our lives.</p>
+    <p>Innovation increasingly emerges from collaboration among a diverse set of actors (firms, startups, universities, public institutions, and non-profits) who expand and recombine their knowledge bases. These collaborative relationships are of utmost importance to open innovation processes, enabling the co-creation of product and process innovations and enhancing the impact and diffusion of novel solutions.</p>
     
-    <p>Prior research has helped make sense of and anticipate important side effects of AI-driven management, new forms of hidden and unrecognized ‘meta-work’ performed by employees, and the ‘ripple effects’ of introducing such technologies to the workplace. This includes the reconfiguration of spatial-temporal dimensions and ‘ways of seeing’ in the workplace, tensions between craft and mechanical work, and a wide range of unintended effects in work contexts such as loss of critical thinking and changes in how human work is coordinated as well as the authority and values that underpin it. New research is needed to develop relevant theories and methods to study human-AI collaboration and how this is reconfiguring work.</p>
+    <p>Prior research has robustly shown that organizations select partners based on the complementarities or distances between their knowledge structures, often leveraging cognitive proximity to drive technological diversification or exploring distant domains to avoid lock-in and enable radical breakthroughs.</p>
     
-    <p>This special issue invites submissions that critically examine the current and expected future effects of human-AI collaboration and other emerging digital work configurations. It seeks theoretical, empirical, and design-oriented contributions that study the transformative potential of digital-human collaboration, aiming to gather research that fosters ethical solutions and sustainable models for AI- and digitally-driven work, while informing future digital work scenarios. It encourages work that inspires innovative strategies and follows good research practice in the use of AI, but is also open to developing prospective scenarios and actively creating preferable futures.</p>
+    <p>However, open innovation has acquired new and largely unexplored facets in recent years. The rapid growth of the availability of a large volume of structured and unstructured data poses unprecedented opportunities to understand and guide open innovation dynamics. This massive amount of data, often referred to as Big Data, is fundamentally reshaping how firms search for external knowledge, identify complementarities, and govern open innovation processes. In this context, Artificial Intelligence technologies provide a method of invention that shifts the boundary between human-led and machine-led knowledge production. AI is being adopted rapidly and pervasively across industries, generating profound effects on organizations.</p>
+    
+    <p>Recent advancements in AI, such as Large Language Models, represent a leap forward in this transformation. When embedded in data-driven approaches, these powerful tools are expected to allow organizations to systematically map technological trajectories, detect emerging knowledge fields, and support external search strategies through the automation of the analysis of millions of documents and informational signals. As a result, AI will not simply enhance analytical efficiency, but actively contribute to redefining the scope, boundaries, and modalities of knowledge search within open innovation processes.</p>
+    
+    <p>Despite some recent investigations in the innovation field, our understanding of how recent advancements and adoption of AI technologies can promote and shape open innovation processes remains fragmented and incomplete. Existing studies have largely focused on the role of AI and Big Data in relation to innovation outcomes or on how they help mapping technological landscapes, while much less evidence and theory is available about how AI-driven tools intervene upstream in the formation, governance, and evolution of collaborative innovation. We still lack insights into how AI influences partner selection, reconfigures knowledge search strategies, alters power and coordination mechanisms within innovation ecosystems, and reshapes the roles of firms, universities, and public actors in open innovation settings.</p>
+    
+    <p>While AI-driven tools promise to expand collaboration opportunities and improve coordination across heterogeneous actors, they also raise new organizational, strategic, and governance challenges, including issues of transparency, algorithmic bias, control over decision-making, and unequal access to data and computational capabilities. Addressing these open questions is crucial to understanding when, how, and under what conditions advances in AI can effectively promote open innovation, rather than merely optimize existing practices.</p>
+    
+    <p>This Special Issue seeks to advance theory based on empirical research on the role of AI in enabling, shaping, and governing open innovation processes across firms, industries, and innovation systems. It calls for works which support an understanding of the role of AI technologies in creating new opportunities for firms to innovate, to redesign industry boundaries, and generate new value systems and partnership networks.</p>
+    
+    <p>We invite scholars to move beyond the what digital tools question to engage with the how and why they alter open innovation dynamics. We welcome conceptual, methodological, and empirical contributions, using qualitative, quantitative, mixed or computational approaches, to explore how advances in AI, including Large Language Models, generative AI, and other advanced machine learning techniques, actively enable, reshape, and govern collaborative innovation and open innovation processes. We particularly encourage submissions that move beyond descriptive applications of AI to investigate its role as a driver of partner selection, coordination, and knowledge integration.</p>
+    
+    <p>The Special Issue aims to engage a multidisciplinary audience and stimulate scholarly debate at the intersection of AI, collaboration, and open innovation, across multiple levels of analysis, ranging from individuals and teams to organisations, inter-organizational networks, ecosystems, and innovation ecosystems.</p>
     
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Emerging Human - AI Work Configurations</li>
+        <li>AI and Inbound Open Innovation: Partner Search and Knowledge Scouting</li>
         
-        <li>Effects of AI and Agentic Systems in the Workplace, Work, and Organizing</li>
+        <li>How do AI-based tools reshape the classic trade-off between search breadth and depth in open innovation? Can algorithmic scouting explore distant knowledge domains more efficiently than traditional methods?</li>
         
-        <li>Governance, Responsibility, and Ethics of AI Agents</li>
+        <li>To what extent can AI overcome local search biases, revealing latent complementarities across industries, regions, or technologies that human managers may overlook?</li>
         
-        <li>Adaptive Practices and Human - AI Dynamics</li>
+        <li>Can AI-powered analysis of diverse data sources democratize access to innovation ecosystems, or does it favor incumbents with larger digital footprints?</li>
         
-        <li>Strategic and Organizational Implications of Human - AI Collaboration</li>
+        <li>Orchestration &amp; Governance of Innovation Networks</li>
         
-        <li>New Digital Work Configurations and Changing Nature of Work Beyond AI</li>
+        <li>How do AI tools enable algorithmic governance of knowledge flows in multi-partner networks?</li>
         
-        <li>Theoretical and Methodological Advancements</li>
+        <li>How can AI help coordinate heterogeneous actors, including firms, universities, NGOs, and governments, within mission-oriented innovation systems?</li>
+        
+        <li>How are platforms leveraging AI-tools to shape technological trajectories and orchestrate complementors in ecosystems?</li>
+        
+        <li>What are the implications of AI-mediated orchestration for value capture, appropriation, and transparency in collaborative innovation?</li>
+        
+        <li>Knowledge Flows, Spillovers and Innovation Mapping</li>
+        
+        <li>How do generative AI and Natural Language Processing techniques uncover tacit knowledge flows and early-stage spillovers invisible to traditional patent- or publication-based metrics?</li>
+        
+        <li>How do AI tools improve the mapping of technological landscapes, identify white spaces, and detect emerging trajectories to inform strategic decisions such as make, buy, or ally?</li>
+        
+        <li>What methods best integrate multiple data streams to track cross-sectoral and cross-regional knowledge diffusion enabled by AI?</li>
+        
+        <li>AI-Enabled Absorptive Capacity and Human AI interaction</li>
+        
+        <li>How should absorptive capacity be reconceptualized when AI tools, such as LLMs, assist in the recognition of external knowledge?</li>
+        
+        <li>What is the optimal division of labor between AI systems and human R&amp;D managers in scanning, interpreting, and assimilating external knowledge?</li>
+        
+        <li>How can AI support organizational learning while mitigating barriers such as the Not Invented Here syndrome, especially when AI identifies previously unknown sources of innovation?</li>
         
     </ul>
     
@@ -66,25 +94,17 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>August 15, 2025: Submissions due</li>
+        <li>Invalid DateTime: Expected publication of the Special Issue</li>
         
-        <li>November 15, 2025: Notifications (submissions)</li>
+        <li>September 1, 2026: Submission window opens</li>
         
-        <li>March 1, 2026: Revisions due</li>
-        
-        <li>May 1, 2026: Notifications (revision 1)</li>
-        
-        <li>August 1, 2026: Second revision due</li>
-        
-        <li>October 1, 2026: Notifications (revision 2)</li>
-        
-        <li>December 1, 2026: Target publication</li>
+        <li>September 30, 2026: Full paper submission deadline</li>
         
     </ul>
     
     
 </div>]]></content:encoded>
-            <author>Journal of Information Technology (JIT)</author>
+            <author>Industry and Innovation (TANDF)</author>
         </item>
     </channel>
 </rss>

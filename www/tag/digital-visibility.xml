@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: digital visibility</title>
+        <link>https://callsforpapers.org/tag/digital-visibility</link>
+        <description>Latest calls for papers tagged with 'digital visibility'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: digital visibility</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/digital-visibility</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Digital Visibility: Design, Management, & Impacts]]></title>
+            <link>https://callsforpapers.org/call/tandf-digital-visibility-design-management-and-impacts-incl-paper-development-workshop</link>
+            <guid>tandf-digital-visibility-design-management-and-impacts-incl-paper-development-workshop</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Aljona Zorina</strong>, NEOMA Business School</p>
+        
+        <p><strong>Ella Hafermalz</strong>, Vrije Universiteit Amsterdam</p>
+        
+        <p><strong>Thomas Grisold</strong>, WU Vienna</p>
+        
+        <p><strong>Aron Lindberg</strong>, Stevens Institute of Technology</p>
+        
+        <p><strong>Mahya Ostovar</strong>, University of Galway</p>
+        
+    
+    
+    <p>Digital visibility - the practice of making oneself or others visible through digital technologies - has become a defining condition of modern society, though it remains theoretically fragmented. Across organizations, platforms, and communities, algorithmic systems, digital and data infrastructures increasingly shape how individuals and collectives become visible, valued, and heard or alternatively are rendered invisible, precarious, and excluded. This creates ongoing reconfiguration to the conditions under which actors coordinate, communicate and collaborate.</p>
+    
+    <p>A shift is underway where visibility is no longer a secondary organizational feature or a byproduct of digitalization but a primary mechanism through which strategy, performance, power, identity, and modes of organizing and collaboration are constructed. Digital technologies produce new forms of visibility by identifying patterns in human behavior to inform managerial action and decision-making. Digitally informed visibility shapes identity and recognition, redefines actor expertise and legitimacy, and determines who becomes empowered. In digital work environments, visibility becomes both a resource and a burden, generating pressure and fear of exclusion. In response, actors engage in visibility games - individual and collective strategies aimed at managing digital presence, algorithmic performance, and evaluative signals.</p>
+    
+    <p>Control over digital identity assets and over who can see, circulate, and capture value is becoming a central concern of technical, legal, economic, and organizational leadership in the twenty-first century and defines who participates, and under what conditions. AI combined with digital visibility enables decentralized autonomous organizations (DAOs), where records and tracing from blockchain smart contracts reshape how trust and reciprocity can be granted to strangers.</p>
+    
+    <p>These developments challenge longstanding assumptions that visibility is a desirable feature of how we organize and collaborate, as often emphasized in the literatures on open-source software, wikis, and open innovation. Automated tools increasingly shape visibility by highlighting valuable contributions, flagging problematic behavior, or recommending collaborators, thereby creating new hierarchies of visibility. Digital visibility filters community activity, enabling new ways to balance transparency and opacity. The rise of bots further complicates these dynamics, as automated agents can shape human visibility and even evade human oversight.</p>
+    
+    <p>Where visibility and transparency were once predominantly viewed as virtuous organizing principles enabling accountability and widespread participation, the contemporary landscape reveals a far more contested picture. The rise of surveillance capitalism demonstrates how platforms weaponize visibility to extract behavioral surplus from consumers and gig workers. The spread of digital authoritarianism reveals how state actors leverage visibility infrastructures to monitor and punish dissent, forcing actors to actively manage digital invisibility as a matter of safety and survival. In these contexts, increased visibility is not necessarily a benevolent condition but a potential instrument of control and extraction. This raises key questions: whose visibility serves whose interests, under what conditions digital visibility becomes beneficial or harmful, and which factors and processes shape who sees and who is seen.</p>
+    
+    <p>While digital visibility dramatically transforms all aspects of modern organizations, theories for understanding such changes systematically are lagging. Established theoretical frameworks were largely developed for bounded, human-mediated and non-digital visibility and require re-thinking to grasp contemporary forms of visibility that are algorithmic, synthetic, and infrastructural in nature. There is an urgent need for new conceptual frameworks, research agendas and empirical insights that can account for how digital visibility can be understood, designed, analyzed, and leveraged in modern organizing.</p>
+    
+    <p>This Special Issue focuses on the implications of digital visibility and invisibility and how they are altering the nature, scope, and stakes involved in organizing and managing the activities of human and non-human agents. By bringing together research on design, infrastructures, work, organizing, technology, power, agency, decision-making, and data, this Special Issue seeks to advance a coherent and timely research agenda on digital visibility and its implications for the present and future of organizing.</p>
+    
+    <p>This Special Issue adopts an intentionally broad and inclusive scope, welcoming contributions not only from the Information Systems field but also from related disciplines such as organization studies, the sociology of technology, science and technology studies, strategy, accounting and control, and adjacent fields concerned with digital, algorithmic, and data-driven forms of organizing. Submissions may address topics such as social media, platforms, data and analytics, system design and development, digital innovation, governance, and emerging digital infrastructures.</p>
+    
+    <p>A wide range of methodological approaches are invited, including empirical and conceptual work, theory-building and philosophical contributions, qualitative, quantitative, computational, simulation, econometric, critical, and design science research, as well as opinion and commentary pieces, and methodological innovations that develop new ways of studying digital visibility.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Technologies and Infrastructures of Visibility: How new technologies (e.g., blockchains, algorithmic social media feeds, and AI-generated content) selectively produce visibility and concealment; The architecture and construction of data and compute infrastructures that shape digital visibility; The development of systems for trust, such as through blockchain and automatically enforced transactions, and its role in enabling cooperation without central authority.</li>
+        
+        <li>Non-Human Agents and Automated Systems: The design and deployment of non-human agents (e.g., bots, digital twins, or avatars) as participants in constructing visibility, including visibility constructed by non-humans for non-humans; The role of automated systems in mediating what becomes visible or invisible.</li>
+        
+        <li>Data Practices and Visibility Construction: Inquiries into data practices and the systems that influence what data is captured, included, or omitted in various artifacts, such as summaries or analyses produced by generative AI technologies; How design choices in data collection, storage, and analysis shape what becomes visible and invisible; The politics of data inclusion and exclusion.</li>
+        
+        <li>Decision Support and Critical Systems: The design of systems that mediate critical decisions in domains like healthcare, security, engineering, and hiring, and how they influence what is visible to human observers and experts; How visibility design in decision support systems shapes organizational outcomes and stakeholder experiences; Design considerations for balancing visibility and opacity in high-stakes decision-making contexts.</li>
+        
+        <li>Experiences and Social Dynamics of Digital (In)visibility: Experiences of digital (in)visibility and the effort required for visibility work (e.g., keeping a topic on the agenda); Experiences, construction and resistance to siloed experiences of digital (in)visibility (e.g. isolation, filter bubbles, and hyper-personalization); The trade-offs of being digitally present or absent; Interactions with non-human representations (e.g., digital twins, proxies, avatars) and dematerialization of experience and social connection; Theorizing actor experiences of digital visibility compared to foundational social theories (e.g., the simulacra, expression games, symbolic interactionism); Temporal and spatial shaping of digital visibility, including how visibility emerges, fades, shifts, or reappears.</li>
+        
+        <li>Strategy, Power, and Digital Identity Management: How actors strategically manage visibility, including engaging in dancing for algorithms, and the emergence of digital visibility games; Controlling digital identity assets and who can see and capture value from them, which is crucial for technical, legal, economic, and organizational leadership; Power dynamics associated with being (in)visible and em(de)powered; Digital visibility as a transformational factor of open strategy; The governance of infrastructures and apparatus of visibility.</li>
+        
+        <li>Non-Human Governance and Political Economies: Network-based approaches to understanding visibility and organizational structures; The role of non-human governance of humans and bots, including the shift from algorithmic to agentic management, games of attention and concealment, and backstage non-human politics (e.g. AI organizing to elude human oversight); Digital visibility in blockchain.</li>
+        
+        <li>Trust, Truth, and Security: Security and privacy safeguards in digitally visible environments; Trust and truth in what is made digitally visible (e.g., through verification and watermarks; tools to differentiate between the digital and the real in the age of synthetic and algorithmic visibility).</li>
+        
+        <li>Individual and Societal Impacts: Impacts of digital visibility on individual well-being, identity formation, and autonomy; How digital visibility systems reshape social relations and community formation; The distributional consequences of visibility systems; Effects on democracy, public discourse, civil liberties, and human rights; Cross-cultural and contextual variations of digital visibility.</li>
+        
+        <li>Organizational and Workplace Consequences: Long-term organizational impacts of digital visibility on trust, autonomy, and innovation; The transformation of work practices, performance evaluation, and managerial control; How digital visibility affects organizational learning, knowledge sharing, and collaborative dynamics; Unintended consequences and hidden costs of visibility systems, including surveillance fatigue, performative behaviors, privacy costs, and resistance strategies.</li>
+        
+        <li>Ethical &amp; Governance Consequences: Ethical dilemmas and moral consequences of digital visibility systems; Accountability mechanisms and governance addressing negative consequences of visibility systems; The role of different stakeholders (platforms, regulators, civil society, users) in shaping responses to visibility-related harms; Historical trajectories and future scenarios for the evolution of digital visibility and its consequences; New forms of organizing with digital (in)visibility in the center; Conceptualizations and typologies of digital visibility and invisibility.</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 7, 2026: Optional abstract submission due</li>
+        
+        <li>October 5, 2026: Feedback on abstracts (via email)</li>
+        
+        <li>December 1, 2026: Invited five-page abstract due</li>
+        
+        <li>December 9, 2026: Online Paper Development Workshop</li>
+        
+        <li>March 31, 2027: First-round submissions to the journal due</li>
+        
+        <li>June 30, 2027: First-round decisions expected</li>
+        
+        <li>July 30, 2027: Revision Plan Meeting with SI Editors (optional)</li>
+        
+        <li>September 30, 2027: Second-round revisions due</li>
+        
+        <li>November 30, 2027: Second-round decisions expected</li>
+        
+        <li>February 28, 2028: Third and final revisions submissions due</li>
+        
+        <li>April 30, 2028: Final decisions expected</li>
+        
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Andreas Eckhardt</strong>, University of Innsbruck</li>
+        
+        <li><strong>Robert Fichman</strong>, Boston College</li>
+        
+        <li><strong>Andreas Hein</strong>, University of St. Gallen</li>
+        
+        <li><strong>Mayur Joshi</strong>, Telfer School of Management</li>
+        
+        <li><strong>Lise Justesen</strong>, Copenhagen Business School</li>
+        
+        <li><strong>Waldemar Kremser</strong>, Johannes Kepler University</li>
+        
+        <li><strong>Virginia Leavell</strong>, Cambridge Judge Business School</li>
+        
+        <li><strong>Julian Lehmann</strong>, Arizona State University</li>
+        
+        <li><strong>Silvia Masiero</strong>, University of Oslo</li>
+        
+        <li><strong>Afshin Mehrpouya</strong>, University of Edinburgh Business School</li>
+        
+        <li><strong>Josh Morton</strong>, Leeds University Business School</li>
+        
+        <li><strong>Stella Pachidi</strong>, King&#39;s Business School</li>
+        
+        <li><strong>Mariia Petryk</strong>, George Mason University</li>
+        
+        <li><strong>Ursula Plesner</strong>, Copenhagen Business School</li>
+        
+        <li><strong>Carolina Alves de Lima Salge</strong>, University of Georgia</li>
+        
+        <li><strong>Karla Sayegh</strong>, Cambridge Judge Business School</li>
+        
+        <li><strong>Lisen Selander</strong>, University of Gothenburg</li>
+        
+        <li><strong>Maha Shaikh</strong>, ESADE</li>
+        
+        <li><strong>Maura Soekijad</strong>, Vrije Universiteit Amsterdam</li>
+        
+        <li><strong>Marta Stelmaszak-Rosa</strong>, UMass Amherst</li>
+        
+        <li><strong>Elmira Van den Broek</strong>, Stockholm School of Economics</li>
+        
+        <li><strong>Joao Veira Da Cunha</strong>, IESEG</li>
+        
+        <li><strong>Bei Yan</strong>, Stevens Institute of Technology</li>
+        
+    </ul>
+    
+</div>]]></content:encoded>
+            <author>European Journal of Information Systems (TANDF)</author>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: governance and accountability</title>
+        <link>https://callsforpapers.org/tag/governance-and-accountability</link>
+        <description>Latest calls for papers tagged with 'governance and accountability'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: governance and accountability</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/governance-and-accountability</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Agentic Artificial Intelligence Across Organizational Functions and Practices]]></title>
+            <link>https://callsforpapers.org/call/emerald-agentic-artificial-intelligence-across-organizational-functions-and-practices</link>
+            <guid>emerald-agentic-artificial-intelligence-across-organizational-functions-and-practices</guid>
+            <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Asha Thomas</strong>, Wrocław University of Science and Technology</p>
+        
+        <p><strong>Moreno Frau</strong>, Corvinus University of Budapest</p>
+        
+        <p><strong>Dominyka Venciūtė</strong>, ISM University of Management and Economics</p>
+        
+    
+    
+    <p>Across contemporary organizations, advances in artificial intelligence (AI) are transforming AI from a discrete technological resource into a systemic organizational capability that actively shapes decision-making, business model innovation, and competitive advantage. Traditionally, AI interfaces have largely been reactive, responding to human prompts and predefined inputs. The emergence of Agentic Artificial Intelligence represents a fundamental shift, as agentic systems are designed to operate with increasing autonomy, enabling goal-driven planning, workflow orchestration, coordination across systems, and machine-initiated action with limited human intervention.</p>
+    
+    <p>For organizations, this growing autonomy presents both significant opportunities and substantial risks. Agentic AI promises new forms of value creation by enhancing efficiency, scalability, personalization, and decision quality across organizational functions such as human resource management, marketing, customer engagement, knowledge management, and operations. At the same time, the delegation of agency to autonomous systems heightens concerns related to governance, transparency, accountability, and oversight, particularly when organizations have limited visibility into how agentic systems reason, learn, and act. Moreover, misaligned interactions and problematic resource integration may produce unintended negative outcomes, underscoring the coexistence of value creation and value co-destruction in AI-enabled organizational processes.</p>
+    
+    <p>Despite these unresolved challenges, agentic AI is no longer a speculative phenomenon. Organizations have already begun embedding agentic systems into core practices, including recruitment, onboarding, performance management, customer service, marketing operations, and knowledge-intensive work. This diffusion reflects a broader shift in which AI is increasingly understood as a normalized and enduring component of contemporary organizational and marketing systems rather than a temporary technological trend. In parallel, early implementations in knowledge management demonstrate how agentic systems can unify fragmented knowledge bases, dynamically adapt insights, and support continuous organizational learning.</p>
+    
+    <p>From an academic standpoint, these developments challenge existing organizational and information management theories. While socio-technical systems theory, agency theory, and organizational learning have traditionally conceptualized AI as a support tool within human-centric systems, they offer limited explanatory power for autonomous, multi-agent systems capable of independent coordination and action. In marketing and customer engagement contexts, interactive value formation is increasingly shaped by emotional and relational dynamics emerging from human–AI interactions, further complicating assumptions about control and responsibility. As such, new theoretical perspectives are needed to capture agency, accountability, and knowledge dynamics in AI-enabled organizations.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>How does Agentic AI enable new forms of value creation, capture, and measurement in organizations? Under what conditions can agentic systems also lead to value co-destruction or unintended negative outcomes due to misaligned autonomy, resource integration, or decision logic?</li>
+        
+        <li>How do organizations design governance, accountability, trust, and regulatory compliance mechanisms for Agentic AI systems operating with increasing autonomy? What challenges arise when human oversight is limited or distributed across functions?</li>
+        
+        <li>How do ethical considerations, responsibility, and moral agency evolve when AI systems act as semi-autonomous organizational actors rather than decision-support tools?</li>
+        
+        <li>How does Agentic AI reshape business process redesign, orchestration, and automation across organizational functions such as marketing, human resource management, operations, finance, and customer engagement?</li>
+        
+        <li>In what ways is artificial intelligence becoming normalized within organizational and marketing practice, shifting from experimental adoption to routinized, AI-embedded decision-making and workflows?</li>
+        
+        <li>How does Agentic AI influence workforce transformation, the future of work, and human resource management practices, including recruitment, performance evaluation, learning, and employee autonomy?</li>
+        
+        <li>How does the adoption of Agentic AI differ across organizational contexts, such as small and medium-sized enterprises versus large corporations, and what factors shape successful implementation and impact?</li>
+        
+        <li>How do emotional, relational, and interactional dynamics shape human–AI engagement in Agentic AI–driven sales, marketing, and customer experience contexts?</li>
+        
+        <li>How can human–AI collaboration and human-in-the-loop design be sustained when AI systems increasingly initiate actions, coordinate tasks, and learn autonomously?</li>
+        
+        <li>How do multi-agent systems, coordination mechanisms, and organizational architectures evolve as multiple human and artificial agents interact within complex socio-technical environments?</li>
+        
+        <li>How can existing theories of agency, organizational learning, and socio-technical systems be extended or reconfigured to explain machine agency and autonomous action in Agentic AI–enabled organizations?</li>
+        
+        <li>How does Agentic AI transform knowledge management, organizational learning, and decision support by enabling systems that not only retrieve and integrate knowledge but also reason, adapt, and act upon it?</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 1, 2026: Opening date for manuscript submissions</li>
+        
+        <li>September 30, 2026: Closing date for manuscript submissions</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Journal of Enterprise Information Management (EMERALD)</author>
+        </item>
+    </channel>
+</rss>

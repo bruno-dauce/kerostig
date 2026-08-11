@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: autonomous agents</title>
+        <link>https://callsforpapers.org/tag/autonomous-agents</link>
+        <description>Latest calls for papers tagged with 'autonomous agents'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: autonomous agents</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/autonomous-agents</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[The Agentic Supply Chain: Entering a new era in AI in Supply Chain Management]]></title>
+            <link>https://callsforpapers.org/call/tandf-the-agentic-supply-chain-entering-a-new-era-in-ai-in-supply-chain-management</link>
+            <guid>tandf-the-agentic-supply-chain-entering-a-new-era-in-ai-in-supply-chain-management</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Alexandra Brintrup</strong>, University of Cambridge</p>
+        
+        <p><strong>Thomas Choi</strong>, Arizona State University</p>
+        
+        <p><strong>George Huang</strong>, Hong Kong Polytechnic University</p>
+        
+        <p><strong>Dmitry Ivanov</strong>, Berlin School of Economics and Law</p>
+        
+    
+    
+    <p>Recent advances in Agentic Large Language Models (LLMs) are reshaping the discourse on how autonomous decision systems might operate in complex environments such as supply chains. The motivation for the special issue is to facilitate rigorous research in the transformative potential of agentic technology for Supply Chain Management (SCM). A key objective is to foster collaboration and unlock synergies by merging diverse perspectives from operations and supply chain management, AI, complexity science, and industrial engineering.</p>
+    
+    <p>An AI agent is characterised as one that has a predefined or emergent goal and uses cognitive tools to achieve its objectives, such as situational awareness, data-driven learning and prediction, decision optimisation, negotiation, and problem-solving with human or other AI agents. Supply chain management scholars have long studied agent-based systems, especially multi-agent systems (MAS) since the 2000s. However, research has stalled as MAS were slow to develop, difficult to code, debug and scale, and were prone to severe coordination problems. Most supply chain agent research was not adopted in the industry.</p>
+    
+    <p>Recent advances in LLMs have now brought in a new paradigm that might reverse this trend: LLM agents are widely expected to usher in a new era where specialist programming knowledge is no longer required. LLM agents utilize a large language model as their information processing unit for core reasoning, planning, and decision-making. They can also utilize bespoke tools and recall past actions and conversations to generate contextual awareness. Whereas in the past, specialist MAS agents required rigorously defined rules and frameworks to operate, LLM agents begin their operation having already learned from vast amounts of open data. A generic knowledge base enables LLM agents to adapt to complex environments in real-time. This new paradigm makes agents much more flexible and scalable. LLM agents can interact with humans in natural language, coordinate or compete with other LLM agents, use custom tools to perform tasks such as search and optimisation, query documents and databases, and search the web.</p>
+    
+    <p>Large multi-national corporations like Walmart and Siemens are already experimenting with agentic LLMs to automate their supply chain tasks. Supply chain information system providers, such as SAP, Microsoft, and Google, are actively developing supply chain agent platforms and interoperability initiatives to enable cross-organizational supply chain automation.</p>
+    
+    <p>Academic agentic supply chain research is in its infancy, with research fragmented across computer science, operations research, and manufacturing engineering. Early research points to its potential for overcoming supply chain inefficiencies through rapid access to data, improved planning, and cross-organisational negotiation, but also warns against agentic AI mirroring human bias, challenges in the verification of output and lack of precise language leading to wrong decisions. As this field continues to evolve, it is crucial for researchers to stay informed about the latest developments, raise awareness of potential challenges, and contribute to the growing body of knowledge on the application of agentic AI in supply chain management.</p>
+    
+    <p>This Special Issue seeks to integrate multi-disciplinary research from various perspectives on shaping agentic automation in the supply chain. A variety of submissions and perspectives are welcome. Technical solutions, advanced modeling, mixed-methods, rigorous quantitative and qualitative empirical research, experimental and analytical methodologies with practical industry, managerial, and policy implications are welcome.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Discourse on utilising agentic systems for complex scenarios in supply chain management: Risk and disruption management, logistics and supply chain optimisation, transportation routes, inventory management, quality control, demand forecasting, and warehouse planning and location, and cash flow predictions</li>
+        
+        <li>Supply network design with agentic technology: Supplier relationship configurations, agentic digital twins to simulate inventory flows, sustainability implications across the supply chain, circular supply chains, supply chain visibility, and supply chain financing</li>
+        
+        <li>Interorganisational agentic systems: Effective multi-agent negotiation and coordination, the design of mediative and persuasive agentic systems, preservation of organisational privacy during multi-agent communication</li>
+        
+        <li>Hybrid systems: Integration of agentic systems with blockchain, IoT, Omniverse, and traditional multi-agent systems</li>
+        
+        <li>Emergence and Complexity: Unintended consequences of agentic deployment at the system scale, governance, trustworthiness and safety, centralised versus decentralised control, human-in-the-loop agentic systems</li>
+        
+        <li>Technical challenges: Performance evaluation, efficient task division, ablation analysis and back testing, sensitivity analysis, agentic architectures operating in high uncertainty environments, long-term horizon reasoning, overcoming hallucinations</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>International Journal of Production Research (TANDF)</author>
+        </item>
+    </channel>
+</rss>

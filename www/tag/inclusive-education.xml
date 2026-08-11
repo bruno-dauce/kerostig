@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: inclusive education</title>
+        <link>https://callsforpapers.org/tag/inclusive-education</link>
+        <description>Latest calls for papers tagged with 'inclusive education'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: inclusive education</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/inclusive-education</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Educational Immersion for All: Accessibility and Inclusion in eXtended Reality]]></title>
+            <link>https://callsforpapers.org/call/tandf-educational-immersion-for-all-accessibility-and-inclusion-in-extended-reality</link>
+            <guid>tandf-educational-immersion-for-all-accessibility-and-inclusion-in-extended-reality</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Andrea Antonio Cantone</strong>, University of Salerno</p>
+        
+        <p><strong>Dragan Ahmetovic</strong>, University of Milano</p>
+        
+        <p><strong>Paloma Diaz</strong>, Universidad Carlos III de Madrid</p>
+        
+        <p><strong>Giuliana Vitiello</strong>, University of Salerno</p>
+        
+    
+    
+    <p>Immersive technologies, including Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR), are increasingly being adopted in educational contexts to create engaging, interactive, and experiential learning environments. By enabling students to interact with digital content in three-dimensional, embodied and multisensory spaces, these technologies have the potential to transform traditional educational practices and support new forms of learning that are more active, contextualized, and collaborative.</p>
+    
+    <p>Recent research from the educational technology, Human–Computer Interaction (HCI), and eXtended Reality (XR) communities has explored the potential of immersive technologies to enhance learning experiences, highlighting their impact on engagement, motivation, collaboration, and experiential learning. In parallel, accessibility and inclusive design research has emphasized the importance of incorporating accessibility principles into immersive environments to ensure that emerging technologies can support learners with diverse abilities and needs.</p>
+    
+    <p>Immersive technologies offer significant opportunities to promote inclusive and accessible education. When carefully designed, XR based learning environments can support a diverse range of learners by providing adaptive interfaces, multimodal content, and personalized learning experiences that accommodate different abilities, learning styles, and needs.</p>
+    
+    <p>However, despite their potential, many immersive learning applications are still developed without fully considering accessibility and inclusivity. Issues such as usability barriers, lack of accessible interaction modalities, and limited design guidelines can hinder the effective adoption of these technologies in inclusive educational settings. Ensuring that immersive technologies are designed with accessibility and inclusivity in mind is therefore essential to prevent the creation of new digital divides.</p>
+    
+    <p>This Special Issue aims to explore how immersive technologies can be designed, implemented, and evaluated to promote equitable, inclusive, and accessible educational experiences. It seeks contributions that investigate the role of immersive technologies in supporting learners with diverse needs, including students with disabilities, neurodivergent learners, and individuals from diverse cultural and socio-economic backgrounds. The issue welcomes interdisciplinary research that integrates perspectives from Human–Computer Interaction, educational technology, accessibility research, learning sciences, and inclusive design.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Design and development of accessible and inclusive immersive learning and training environments</li>
+        
+        <li>Inclusive design frameworks and guidelines for immersive educational technologies</li>
+        
+        <li>Immersive technologies supporting students with disabilities (e.g., cognitive, sensory, motor, neurodevelopmental conditions)</li>
+        
+        <li>Adaptive and personalized immersive learning and training experiences</li>
+        
+        <li>Accessibility challenges and solutions in XR educational interfaces</li>
+        
+        <li>Use of immersive technologies to support neurodivergent learners</li>
+        
+        <li>Evaluation methods for accessibility, usability, and user experience in immersive educational systems</li>
+        
+        <li>Immersive technologies for social skills training and behavioral learning</li>
+        
+        <li>AI-driven adaptive systems in immersive learning environments</li>
+        
+        <li>Multimodal and embodied interaction techniques for accessible XR learning</li>
+        
+        <li>Immersive simulations for inclusive education and special education</li>
+        
+        <li>XR technologies for experiential and collaborative learning in inclusive classrooms</li>
+        
+        <li>Ethical, social, and accessibility implications of immersive technologies in education</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>November 30, 2026: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Behaviour &amp; Information Technology (TANDF)</author>
+        </item>
+    </channel>
+</rss>

@@ -4,7 +4,7 @@
         <title>Calls for Papers | Tag: digital health</title>
         <link>https://callsforpapers.org/tag/digital-health</link>
         <description>Latest calls for papers tagged with 'digital health'.</description>
-        <lastBuildDate>Wed, 31 Dec 2025 03:43:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -15,34 +15,74 @@
         </image>
         <copyright>Calls for Papers © 2025</copyright>
         <item>
+            <title><![CDATA[Digital Spaces and DIY Health]]></title>
+            <link>https://callsforpapers.org/call/elsevier-digital-spaces-and-diy-health</link>
+            <guid>elsevier-digital-spaces-and-diy-health</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 11, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Social Science &amp; Medicine (ELSEVIER)</author>
+        </item>
+        <item>
+            <title><![CDATA[Digital Spaces and DIY Health]]></title>
+            <link>https://callsforpapers.org/call/elsevier-digital-spaces-and-diy-health-2</link>
+            <guid>elsevier-digital-spaces-and-diy-health-2</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 11, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Social Science &amp; Medicine (ELSEVIER)</author>
+        </item>
+        <item>
             <title><![CDATA[The future of creating and distributing value in digital health ecosystems]]></title>
-            <link>https://callsforpapers.org/call/ejis-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems</link>
-            <guid>ejis-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems</guid>
-            <pubDate>Thu, 14 Aug 2025 03:33:30 GMT</pubDate>
+            <link>https://callsforpapers.org/call/tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems</link>
+            <guid>tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>
     
         
-        <p><strong>Lauri Wessel</strong>, European New School of Digital Studies</p>
+        <p><strong>Lauri Wessel</strong>, European University Viadrina Frankfurt (Oder)</p>
         
-        <p><strong>Melanie Reuter-Oppermann</strong>, Maastricht University and ILS Mannheim gGmbH</p>
+        <p><strong>Melanie Reuter-Oppermann</strong>, Maastricht University</p>
         
         <p><strong>Roxana Ologeanu-Taddei</strong>, University of Montpellier</p>
         
-        <p><strong>Hannes Rothe</strong>, Rhine-Ruhr Institute of Information Systems, University of Duisburg-Essen</p>
+        <p><strong>Hannes Rothe</strong>, University of Duisburg-Essen</p>
         
-        <p><strong>Sirkka L. Jarvenpaa</strong>, McCombs School of Business, The University of Texas at Austin</p>
+        <p><strong>Sirkka L. Jarvenpaa</strong>, The University of Texas at Austin</p>
         
     
     
-    <p>Digital health is ‘associated with the use and development of digital technologies to improve health’ (Sunyaev et al., 2024; WHO, 2025). Use, development, and design of the according technologies have in recent years led to a considerable shift. Specifically, practices affecting an individuals’ health have been shifted from inside hospitals into wider digital health ecosystems where providers, patients, their loved ones, and laypersons interact to jointly shape how care is provided (Bardhan et al., 2020, 2025). IS research has greatly advanced in terms of better understanding the technological foundations of this shift such as artificial intelligence (AI) applications, sensor-based technologies, and smartphone apps (Angst et al., 2024; Baird et al., 2025; Bardhan et al., 2020; Sunyaev et al., 2024). However, at least two major trajectories of research arise from this shift and its underlying technologies. With this special issue, we are looking for papers that aim to fill these trajectories with life.</p>
+    <p>Digital health is associated with the use and development of digital technologies to improve health. Use, development, and design of the according technologies have in recent years led to a considerable shift. Specifically, practices affecting an individual&#39;s health have been shifted from inside hospitals into wider digital health ecosystems where providers, patients, their loved ones, and laypersons interact to jointly shape how care is provided. IS research has greatly advanced in terms of better understanding the technological foundations of this shift such as artificial intelligence (AI) applications, sensor-based technologies, and smartphone apps. However, at least two major trajectories of research arise from this shift and its underlying technologies.</p>
     
-    <p>First, creating value in digital health ecosystems demands to take into account diverse kinds of value to be potentially created through these technologies (Günther et al., 2017; Porter, 2010). Financial value is an important kind of value to be created in digital health ecosystems; however, it is by far not the sole kind of value that matters in these settings (Barrett et al., 2016). It is important to understand which kinds of value technology helps to create as well as how, why, and when it does so. Second, creating value is not per se synonymous with distributing it so that an important line of inquiry is about how to distribute value among ecosystem participants and over time (Yan et al., 2021; Yoo et al., 2024).</p>
+    <p>First, creating value in digital health ecosystems demands to take into account diverse kinds of value to be potentially created through these technologies. Financial value is an important kind of value to be created in digital health ecosystems; however, it is by far not the sole kind of value that matters in these settings. It is important to understand which kinds of value technology helps to create as well as how, why, and when it does so. Second, creating value is not per se synonymous with distributing it so that an important line of inquiry is about how to distribute value among ecosystem participants and over time.</p>
     
-    <p>We are asking for papers speaking to these topics and see two broad ways in which submissions to our special issue could do so. The first is cumulative and much in line with how research in IS and adjacent fields such as computer science, management, and medicine is conventionally done. It resides in furthering our understandings and toolkits for creating value in digital health ecosystems. However, the more data are available the higher is arguably the potential for misuse (Morley et al., 2020; Murdoch, 2021; Siala &amp; Wang, 2022), especially when genomic and bio data are in question (Jarvenpaa &amp; Markus, 2018; Rothe et al., 2019, 2023; Thiebes et al., 2020; Vassilakopoulou et al., 2018). This is why research about creating value from data logically calls for research about how to distribute value among ecosystems participants.</p>
+    <p>We are asking for papers speaking to these topics and see two broad ways in which submissions to our special issue could do so. The first is cumulative and much in line with how research in IS and adjacent fields such as computer science, management, and medicine is conventionally done. It resides in furthering our understandings and toolkits for creating value in digital health ecosystems. However, the more data are available the higher is arguably the potential for misuse, especially when genomic and bio data are in question. This is why research about creating value from data logically calls for research about how to distribute value among ecosystems participants.</p>
     
-    <p>The second way to address the abovementioned research trajectories is consistent with EJIS’s recent developments towards promoting ‘contrarian studies’ (Nandhakumar, 2010). We see much promise of contrarian studies investigating the creation and distribution of value in digital health ecosystems. Research about digital health is replete with assumptions touching on the outcomes that large volumes of data are likely to generate. This stands in stark contrast to the fact that on the ‘ground floor’ where most clinicians work the data are hardly ever available in the format, quality or volume needed to even remotely live up to these expectations (Jones, 2019). It is, therefore, paramount to offer fundamentally new ways of thinking about creating and distributing value in digital health ecosystems.</p>
-    
-    <p>These considerations lead us to a set of issues which we would like to address through putting together this special issue. These issues include but are not limited to the topics presented above.</p>
+    <p>The second way to address the abovementioned research trajectories is consistent with promoting contrarian studies. We see much promise of contrarian studies investigating the creation and distribution of value in digital health ecosystems. Research about digital health is replete with assumptions touching on the outcomes that large volumes of data are likely to generate. This stands in stark contrast to the fact that on the ground floor where most clinicians work the data are hardly ever available in the format, quality or volume needed to even remotely live up to these expectations. It is, therefore, paramount to offer fundamentally new ways of thinking about creating and distributing value in digital health ecosystems.</p>
     
     
     <h2>Potential topics</h2>
@@ -62,7 +102,7 @@
         
         <li>Digital tools and use of digital health data to connect different participants of health service networks, to support decision making and to improve organizational processes</li>
         
-        <li>Negative consequences of digital technologies implementation in healthcare, such as health givers burnout and patients’ anxiety</li>
+        <li>Negative consequences of digital technologies implementation in healthcare, such as health givers burnout and patients&#39; anxiety</li>
         
         <li>The role of digital tools like virtual coaching for autonomy of health care providers and patients</li>
         
@@ -72,7 +112,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>March 1, 2026: Submission of extended abstracts/ declaration of interest to submit papers to the special issue. Submissions are subject for discussions at a paper development workshop in the context of ECIS 2026 in Milan, Italy</li>
+        <li>March 1, 2026: Submission of extended abstracts/declaration of interest to submit papers to the special issue</li>
         
         <li>November 30, 2026: Full paper submission deadline</li>
         
@@ -112,9 +152,11 @@
         
         <li><strong>Alexander Kempton</strong>, University of Oslo</li>
         
+        <li><strong>Charlotte Koehler</strong>, European University Viadrina Frankfurt (Oder)</li>
+        
         <li><strong>Johann Kranz</strong>, LMU</li>
         
-        <li><strong>Jan-Marco Leimeister</strong>, St. Gallen</li>
+        <li><strong>Jan-Marco Leimeister</strong>, University of St. Gallen</li>
         
         <li><strong>Wolfgang Maaß</strong>, Saarland University</li>
         
@@ -139,7 +181,7 @@
     </ul>
     
 </div>]]></content:encoded>
-            <author>European Journal of Information Systems (EJIS)</author>
+            <author>European Journal of Information Systems (TANDF)</author>
         </item>
     </channel>
 </rss>

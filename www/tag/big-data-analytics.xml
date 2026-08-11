@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: big data analytics</title>
+        <link>https://callsforpapers.org/tag/big-data-analytics</link>
+        <description>Latest calls for papers tagged with 'big data analytics'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: big data analytics</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/big-data-analytics</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Data Intelligence Drives Innovation in E-Commerce Enterprises]]></title>
+            <link>https://callsforpapers.org/call/tandf-data-intelligence-drives-innovation-in-e-commerce-enterprises</link>
+            <guid>tandf-data-intelligence-drives-innovation-in-e-commerce-enterprises</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Jingsha He</strong>, Beijing University of Technology</p>
+        
+        <p><strong>Sohail S. Chaudhry</strong>, Villanova University</p>
+        
+        <p><strong>Galina Ilieva</strong>, University of Plovdiv</p>
+        
+    
+    
+    <p>Against the backdrop of the rapid development of e-commerce enterprises and the increasing maturity of data intelligence technologies, the organic integration of the two has created innovative digital business models that transcend traditional e-commerce operations, such as enhanced commodity transactions through predictive analytics, deepened user interactions via personalized recommendations, and streamlined supply chain collaboration with real-time optimization. This has brought tremendous changes to e-commerce enterprises and has become a core engine driving enterprise upgrading. The e-commerce enterprises use big data analysis to optimize business strategies, improve user experience, and make informed decisions. For example, Amazon leverages data intelligence to conduct real-time analysis of massive transaction data. During promotional periods, it adjusts prices on a minute-by-minute basis based on factors such as competitors&#39; prices and users&#39; purchasing intentions, giving full play to the role of big data value mining in optimizing business strategies. The &quot;Thousands of People, Thousands of Faces&quot; system improves user experience and stickiness through intelligent data analysis. E-commerce platforms have established intelligent supply chain systems, which realize efficient collaboration of warehousing networks by integrating sales data, inventory data, and logistics data.</p>
+    
+    <p>However, as e-commerce enterprises driven by data intelligence rapidly develop, many practical problems have emerged in areas such as operational efficiency, data handling, and competitive differentiation. The surge in orders brought by massive transactions makes it urgent to improve service efficiency and sales levels; the complexity of data processing and the dynamics of e-commerce (including difficulties in processing structured and unstructured data) lead to system processing delays, which further exacerbate this problem; over-reliance on historical data reduces recommendation accuracy, and similar algorithms across multiple platforms result in a lack of differentiation in enterprise competition, restricting the innovative development of e-commerce.</p>
+    
+    <p>This special issue will explore the innovative development of e-commerce enterprises under data intelligence to address these current challenges. This special issue aims to explore feasible paths to overcome technical bottlenecks and enhance models by bringing together innovative academic theories and practical cases from e-commerce enterprises, offering forward-looking and practical ideas for enterprise development, and promoting exchanges and cooperation in the field of data intelligence among global e-commerce enterprises.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Paths to enhance e-commerce efficiency driven by big data</li>
+        
+        <li>Data intelligence empowers innovation in e-commerce operations and service upgrading</li>
+        
+        <li>Optimization of complex data processing in e-commerce operations through data intelligence</li>
+        
+        <li>AI enables solving the problems of structured and unstructured data processing in e-commerce</li>
+        
+        <li>E-commerce marketing strategies and accurate capture of user behavior based on in-depth AI analysis</li>
+        
+        <li>AI enables optimization of the guidance effectiveness and accuracy of recommendation systems for e-commerce users</li>
+        
+        <li>Generative AI breaks through algorithm homogenization to realize personalized services in e-commerce</li>
+        
+        <li>Data intelligence promotes the format innovation of integration between e-commerce and physical retail</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Submission of manuscript</li>
+        
+        <li>November 15, 2026: First notification</li>
+        
+        <li>December 31, 2026: Submission of revised manuscript</li>
+        
+        <li>February 15, 2027: Final paper due</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Enterprise Information Systems (TANDF)</author>
+        </item>
+    </channel>
+</rss>

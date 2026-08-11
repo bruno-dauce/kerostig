@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: explainable ai</title>
+        <link>https://callsforpapers.org/tag/explainable-ai</link>
+        <description>Latest calls for papers tagged with 'explainable ai'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: explainable ai</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/explainable-ai</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Explainable AI and Network Science for Social Systems and Collective Intelligence]]></title>
+            <link>https://callsforpapers.org/call/elsevier-explainable-ai-and-network-science-for-social-systems-and-collective-intelligence</link>
+            <guid>elsevier-explainable-ai-and-network-science-for-social-systems-and-collective-intelligence</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    <p>This special issue invites contributions that explore the intersection of explainable artificial intelligence (XAI) and network science as applied to social systems and collective intelligence. The call seeks research that leverages both XAI methodologies and network science approaches to better understand, model, and explain complex social phenomena, emergent behaviors, and collective decision-making processes.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Applications of explainable AI in understanding social systems</li>
+        
+        <li>Network science approaches to modeling collective intelligence</li>
+        
+        <li>Integration of XAI and network methods for social analysis</li>
+        
+        <li>Interpretability in multi-agent systems and social networks</li>
+        
+        <li>Transparency and accountability in AI-driven social platforms</li>
+        
+        <li>Graph-based methods for explaining collective behavior</li>
+        
+        <li>Knowledge graphs and social network analysis</li>
+        
+        <li>Fairness and bias detection in social AI systems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Information Processing &amp; Management (ELSEVIER)</author>
+        </item>
+    </channel>
+</rss>

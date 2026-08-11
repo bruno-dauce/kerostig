@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | International Journal of Production Research</title>
+        <link>https://callsforpapers.org/journal/international-journal-of-production-research</link>
+        <description>Latest calls for papers for International Journal of Production Research.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | International Journal of Production Research</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/journal/international-journal-of-production-research</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[AI-Driven Decision Making under Uncertain Environments: Theory, Methods, and Industrial Applications]]></title>
+            <link>https://callsforpapers.org/call/tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications</link>
+            <guid>tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Hyun-Jung Kim</strong>, KAIST</p>
+        
+        <p><strong>Shu-Kai Fan</strong>, National Taipei University of Technology</p>
+        
+        <p><strong>Fugee Tsung</strong>, Hong Kong University of Science and Technology</p>
+        
+        <p><strong>Thomas Volling</strong>, Technical University Berlin</p>
+        
+        <p><strong>Jang Ho Kim</strong>, Korea University</p>
+        
+        <p><strong>Dong-Young Lim</strong>, Ulsan National Institute of Science and Technology</p>
+        
+    
+    
+    <p>Recent advances in artificial intelligence (AI), optimization, and data-driven analytics are fundamentally transforming decision-making processes in complex systems operating under uncertainty. Modern industrial and service systems, including manufacturing, logistics, supply chains, transportation, energy, and healthcare, increasingly face dynamic and stochastic environments characterized by demand fluctuations, disruptions, incomplete information, evolving system states, and operational risks. To effectively manage such complexity, there is growing interest in intelligent decision-making methodologies that integrate learning, prediction, optimization, simulation, and adaptation. In particular, emerging technologies such as reinforcement learning, foundation models, generative AI, agentic AI, digital twins, and hybrid AI-optimization frameworks are enabling the development of more autonomous, adaptive, and data-driven operational systems. Despite these advances, significant challenges remain regarding scalability, robustness, interpretability, real-time implementation, and the successful deployment of AI-driven decision-making approaches in real-world industrial environments.</p>
+    
+    <p>This Special Issue aims to provide a platform for cutting-edge research on AI-driven decision making under uncertain environments, with particular emphasis on methodologies and real-world applications that combine AI techniques with operations research, optimization, simulation, control, and industrial engineering approaches. The issue welcomes both theoretical and applied contributions addressing uncertainty-aware intelligent decision-making across a broad range of industrial and service systems.</p>
+    
+    <p>The Special Issue is organized in conjunction with APIEMS 2026. Selected high-quality papers presented at the conference will be invited to submit extended versions for possible publication in the Special Issue. The Special Issue will also be open to general submissions from researchers worldwide. All submitted manuscripts will undergo the standard rigorous peer-review process of the International Journal of Production Research.</p>
+    
+    <p>The Special Issue particularly encourages interdisciplinary studies demonstrating practical relevance, industrial applicability, and managerial insights for complex decision-making problems under uncertainty. To foster transparency, reproducibility, and cumulative scientific progress, open science practices such as the sharing of (synthetic) data, code, models, prompts, and comprehensive replication materials are strongly encouraged and highly valued.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>AI-driven decision-making under uncertainty</li>
+        
+        <li>Production planning and scheduling in stochastic and dynamic environments</li>
+        
+        <li>Reinforcement learning for uncertain industrial systems</li>
+        
+        <li>Stochastic optimization and robust operational strategies</li>
+        
+        <li>AI-enabled statistical quality control and process improvement</li>
+        
+        <li>Hybrid AI and optimization approaches for uncertain environments</li>
+        
+        <li>Data-driven optimization and prescriptive analytics</li>
+        
+        <li>AI-enhanced supply chain and logistics management under disruptions</li>
+        
+        <li>Real-time and adaptive decision-making systems</li>
+        
+        <li>Simulation-based optimization and digital twins under uncertainty</li>
+        
+        <li>Agentic AI and autonomous industrial systems</li>
+        
+        <li>Explainable and trustworthy AI for operational decision-making</li>
+        
+        <li>AI for resilient and sustainable operations</li>
+        
+        <li>Industrial applications and case studies of AI-driven decision systems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>October 1, 2026: Submissions open</li>
+        
+        <li>January 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>International Journal of Production Research (TANDF)</author>
+        </item>
+        <item>
+            <title><![CDATA[The Agentic Supply Chain: Entering a new era in AI in Supply Chain Management]]></title>
+            <link>https://callsforpapers.org/call/tandf-the-agentic-supply-chain-entering-a-new-era-in-ai-in-supply-chain-management</link>
+            <guid>tandf-the-agentic-supply-chain-entering-a-new-era-in-ai-in-supply-chain-management</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Alexandra Brintrup</strong>, University of Cambridge</p>
+        
+        <p><strong>Thomas Choi</strong>, Arizona State University</p>
+        
+        <p><strong>George Huang</strong>, Hong Kong Polytechnic University</p>
+        
+        <p><strong>Dmitry Ivanov</strong>, Berlin School of Economics and Law</p>
+        
+    
+    
+    <p>Recent advances in Agentic Large Language Models (LLMs) are reshaping the discourse on how autonomous decision systems might operate in complex environments such as supply chains. The motivation for the special issue is to facilitate rigorous research in the transformative potential of agentic technology for Supply Chain Management (SCM). A key objective is to foster collaboration and unlock synergies by merging diverse perspectives from operations and supply chain management, AI, complexity science, and industrial engineering.</p>
+    
+    <p>An AI agent is characterised as one that has a predefined or emergent goal and uses cognitive tools to achieve its objectives, such as situational awareness, data-driven learning and prediction, decision optimisation, negotiation, and problem-solving with human or other AI agents. Supply chain management scholars have long studied agent-based systems, especially multi-agent systems (MAS) since the 2000s. However, research has stalled as MAS were slow to develop, difficult to code, debug and scale, and were prone to severe coordination problems. Most supply chain agent research was not adopted in the industry.</p>
+    
+    <p>Recent advances in LLMs have now brought in a new paradigm that might reverse this trend: LLM agents are widely expected to usher in a new era where specialist programming knowledge is no longer required. LLM agents utilize a large language model as their information processing unit for core reasoning, planning, and decision-making. They can also utilize bespoke tools and recall past actions and conversations to generate contextual awareness. Whereas in the past, specialist MAS agents required rigorously defined rules and frameworks to operate, LLM agents begin their operation having already learned from vast amounts of open data. A generic knowledge base enables LLM agents to adapt to complex environments in real-time. This new paradigm makes agents much more flexible and scalable. LLM agents can interact with humans in natural language, coordinate or compete with other LLM agents, use custom tools to perform tasks such as search and optimisation, query documents and databases, and search the web.</p>
+    
+    <p>Large multi-national corporations like Walmart and Siemens are already experimenting with agentic LLMs to automate their supply chain tasks. Supply chain information system providers, such as SAP, Microsoft, and Google, are actively developing supply chain agent platforms and interoperability initiatives to enable cross-organizational supply chain automation.</p>
+    
+    <p>Academic agentic supply chain research is in its infancy, with research fragmented across computer science, operations research, and manufacturing engineering. Early research points to its potential for overcoming supply chain inefficiencies through rapid access to data, improved planning, and cross-organisational negotiation, but also warns against agentic AI mirroring human bias, challenges in the verification of output and lack of precise language leading to wrong decisions. As this field continues to evolve, it is crucial for researchers to stay informed about the latest developments, raise awareness of potential challenges, and contribute to the growing body of knowledge on the application of agentic AI in supply chain management.</p>
+    
+    <p>This Special Issue seeks to integrate multi-disciplinary research from various perspectives on shaping agentic automation in the supply chain. A variety of submissions and perspectives are welcome. Technical solutions, advanced modeling, mixed-methods, rigorous quantitative and qualitative empirical research, experimental and analytical methodologies with practical industry, managerial, and policy implications are welcome.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Discourse on utilising agentic systems for complex scenarios in supply chain management: Risk and disruption management, logistics and supply chain optimisation, transportation routes, inventory management, quality control, demand forecasting, and warehouse planning and location, and cash flow predictions</li>
+        
+        <li>Supply network design with agentic technology: Supplier relationship configurations, agentic digital twins to simulate inventory flows, sustainability implications across the supply chain, circular supply chains, supply chain visibility, and supply chain financing</li>
+        
+        <li>Interorganisational agentic systems: Effective multi-agent negotiation and coordination, the design of mediative and persuasive agentic systems, preservation of organisational privacy during multi-agent communication</li>
+        
+        <li>Hybrid systems: Integration of agentic systems with blockchain, IoT, Omniverse, and traditional multi-agent systems</li>
+        
+        <li>Emergence and Complexity: Unintended consequences of agentic deployment at the system scale, governance, trustworthiness and safety, centralised versus decentralised control, human-in-the-loop agentic systems</li>
+        
+        <li>Technical challenges: Performance evaluation, efficient task division, ablation analysis and back testing, sensitivity analysis, agentic architectures operating in high uncertainty environments, long-term horizon reasoning, overcoming hallucinations</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>International Journal of Production Research (TANDF)</author>
+        </item>
+        <item>
+            <title><![CDATA[Innovations in Production Planning: Emerging Problems and Modern Solution Paradigms]]></title>
+            <link>https://callsforpapers.org/call/tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms</link>
+            <guid>tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Mirco Peron</strong>, NEOMA Business School</p>
+        
+        <p><strong>Ibrahim Kucukkoc</strong>, Balikesir University</p>
+        
+        <p><strong>Daniel Alejandro Rossit</strong>, Universidad Nacional del Sur</p>
+        
+        <p><strong>Ilkyeong Moon</strong>, Seoul National University</p>
+        
+        <p><strong>Olga Battaïa</strong>, KEDGE Business School</p>
+        
+        <p><strong>Michael Pinedo</strong>, New York University</p>
+        
+    
+    
+    <p>Production planning has historically been a central pillar of industrial engineering and operations management. Since the mid-20th century, the field has developed a rich body of classical problems and models, such as lot sizing, job shop and flow shop scheduling, capacity planning, assembly line balancing, material requirements planning (MRP), and aggregate production planning. These models provided structured ways to allocate resources, balance supply and demand, and coordinate activities across production systems, often under deterministic assumptions and with objectives focused primarily on cost and efficiency. Linear programming, dynamic programming, and combinatorial optimization offered rigorous formulations and exact methods, while heuristics and metaheuristics emerged to address large-scale and computationally complex instances.</p>
+    
+    <p>Over time, production planning research progressively expanded to address uncertainty via stochastic and robust optimization, multi-objective trade-offs (e.g. cost, service level, inventory, lead times), and integration across planning levels (strategic, tactical, and operational). Still, the focus remained on well-defined, structured problems and a relatively stable industrial context.</p>
+    
+    <p>Today, however, technological, environmental, and societal shifts are reshaping the landscape of production planning. The rise of cyber-physical systems, IoT-enabled factories, advanced robotics, digital twins, additive manufacturing, and AI-based automation has disrupted the stability of traditional assumptions. These innovations have created new types of planning problems, characterized by more frequent reconfiguration, increased heterogeneity of resources, and the necessity of integrating multiple technologies and objectives.</p>
+    
+    <p>Digital twin–driven planning enables real-time updates of plans and schedules, requiring adaptive and rolling-horizon optimization. Hybrid production systems, combining conventional and additive manufacturing, pose new challenges in sequencing, capacity allocation, and cross-technology coordination. Reconfigurable and modular manufacturing requires planning models that adapt to changing system topologies, dynamic routing, and flexible resource reassignments. Circular and sustainable production systems demand that environmental and social objectives be embedded in planning alongside economic goals. Resilience-oriented planning has become critical in the face of global disruptions, pandemics, and supply shocks, demanding strategies that balance efficiency with adaptability and robustness.</p>
+    
+    <p>At the same time, innovation has not only transformed the problems but also the solution approaches. Whereas traditional production planning was dominated by mathematical programming and rule-based heuristics, the current era witnesses the rapid adoption of data-driven, hybrid, and AI-enabled methods.</p>
+    
+    <p>Reinforcement learning and deep learning models are increasingly applied to dynamic planning and scheduling, such as graph neural network and RL architectures for scheduling problems. Hybrid metaheuristics combine classical optimization with machine learning models, surrogate functions, or decomposition techniques to tackle high-dimensional problems. Simulation–optimization coupling allows planners to test, validate, and adapt decisions under complex system dynamics, particularly in systems where analytical modeling is intractable. Multi-agent and distributed approaches enable decentralized planning in highly connected production networks, where local agents coordinate planning decisions. Online and rolling-horizon algorithms become critical when plans must be revised frequently, and incremental updating is required.</p>
+    
+    <p>Despite these advances, major challenges persist. Industrial adoption demands bridging the gap between academic models and real-world constraints: data sparsity, computational scalability, integration with legacy systems (ERP/MES), and user trust. Decision-makers must also reconcile conflicting objectives: efficiency vs. resilience, speed vs. sustainability, optimality vs. interpretability.</p>
+    
+    <p>This special issue seeks to collect innovative contributions that redefine the boundaries of production planning. We welcome papers that introduce novel problem formulations reflecting new industrial realities and innovative solution approaches leveraging modern computational, AI, and optimization tools. Both theoretical/methodological and empirical/applied submissions are encouraged, including case studies and empirical validation.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Evolution of classical planning problems (lot sizing, capacity planning, scheduling, assembly line balancing) in modern manufacturing contexts</li>
+        
+        <li>Planning in reconfigurable, modular, and hybrid manufacturing systems</li>
+        
+        <li>Integration of additive manufacturing and conventional processes in planning</li>
+        
+        <li>Additive manufacturing production scheduling</li>
+        
+        <li>Digital twin–enabled planning and real-time adaptive scheduling</li>
+        
+        <li>Production planning under sustainability, circular economy, emissions or carbon goals</li>
+        
+        <li>Resilience-oriented planning under uncertainty, disruptions, and volatility</li>
+        
+        <li>Advanced optimization methods: decomposition, robust/stochastic models, metaheuristics</li>
+        
+        <li>Machine learning, reinforcement learning, hybrid AI–optimization for planning</li>
+        
+        <li>Simulation–optimization frameworks and surrogate modeling</li>
+        
+        <li>Production Planning problems associated with customized environments (engineering-to-order, make-to-order, mass customization)</li>
+        
+        <li>Human–robot collaborative systems and operator-driven planning in the context of Industry 5.0</li>
+        
+        <li>Reinforcement learning / deep learning models applied to dynamic planning and scheduling, (e.g., graph neural network and RL architectures for scheduling problems)</li>
+        
+        <li>Optimization of production and inventory strategies in modern distribution systems (e.g., e-commerce, platform-based logistics)</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>International Journal of Production Research (TANDF)</author>
+        </item>
+        <item>
+            <title><![CDATA[Celebrating the 75th Birthday of Professor Kathryn E. Stecke]]></title>
+            <link>https://callsforpapers.org/call/tandf-celebrating-the-75th-birthday-of-professor-kathryn-e-stecke</link>
+            <guid>tandf-celebrating-the-75th-birthday-of-professor-kathryn-e-stecke</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Bernie F. Quiroga</strong>, West Virginia University</p>
+        
+        <p><strong>Xuying Zhao</strong>, Texas A&amp;M University</p>
+        
+        <p><strong>Oleg Gusikhin</strong>, Ford Motor Company</p>
+        
+        <p><strong>Andrea Matta</strong>, Politecnico di Milano</p>
+        
+        <p><strong>Yong Yin</strong>, Doshisha Business School</p>
+        
+    
+    
+    <p>Professor Kathryn E. Stecke is an internationally renowned scholar whose pioneering work has profoundly shaped the fields of flexible manufacturing systems (FMSs), supply chain management, and production planning. Prof. Stecke has dedicated her career to advancing research on manufacturing efficiencies, supply chain resilience, and innovative production systems, while also bridging the academic discussion between operations and marketing. She is the founding Editor-in-Chief of the International Journal of Flexible Manufacturing Systems and Operations Management Education Review. Her contributions have earned her prestigious recognitions, including being elected a Fellow of the Institute for Operations Research and the Management Sciences (INFORMS) in 2009, of the Production and Operations Management Society (POMS) in 2017, of the Decision Sciences Institute (DSI) in 2019, and of the Asia-Pacific Artificial Intelligence Association (AAIA). She has also been the recipient of the 2013 WORMS Award for the advancement of women in operations research, and the 2008 George E. Kimball medal for recognition of her service to the profession of operations research and the management sciences, and was recognized also by her alma mater, Purdue University, with the Distinguished Woman Scholar Award (2014) and the Outstanding Industrial Engineer Award (2017).</p>
+    
+    <p>Prof. Stecke&#39;s early work laid foundational methodologies for FMS, addressing critical challenges in machine grouping, loading, and production ratios to optimize utilization and flexibility. Stecke (1983), a seminal paper, developed nonlinear integer programming models and hierarchical solution approaches for part type selection, machine grouping, and resource allocation in FMS, providing a framework that has influenced subsequent optimization techniques in automated manufacturing. This article was recognized by INFORMS as one of 50 papers that represented the most significant research published in Management Science in the last half century in February 2004. Berrada and Stecke (1986) introduced algorithmic solutions for balancing workloads in FMS, influencing subsequent research on system efficiency. Stecke and Solberg (1981) explored routing and sequencing strategies to enhance throughput in dynamic manufacturing environments.</p>
+    
+    <p>Over the decades, her research evolved to encompass supply chain disruptions and adaptive strategies. In Schmitt et al. (2017), winner of the Best Paper Award given by Omega in 2018, she examined resilient ordering policies to counter volatility, providing practical insights for multi-tier networks. Stecke and Kumar (2009) has been the most cited paper in the Journal of Marketing Channels for over a decade. More recently, Prof. Stecke has contributed to understanding innovative production paradigms like the Seru system, a cellular manufacturing approach originating from Japan that emphasizes reconfigurability and responsiveness. Her collaborations with Yin et al. (2017), winner of the Jack Meredith Best Paper Award given by the Journal of Operations Management in 2018, Yin et al. (2018), given a Best Paper Award by IJPR in 2019, and Li et al. (2025) demonstrate how Seru improves rapid response capabilities compared to traditional systems, such as the Toyota Production System, highlighting its potential for flexible manufacturing.</p>
+    
+    <p>Prof. Stecke has also made significant contributions at the interface between production research and marketing, exploring how operational decisions interact with consumer behavior and market dynamics. Notable works include Zhao et al. (2016), which analyzes conditions under which advance selling strategies enhance profitability across supply chain partners; Zhao et al. (2012) examined optimal quotation modes for customizing lead times and prices; Prasad et al. (2011) investigated advance selling tactics for retailers facing demand uncertainty; Zhao and Stecke (2010) incorporated behavioral economics into pre-order strategies; and Stecke and Zhao (2017) integrated production and logistics for commit-to-delivery models.</p>
+    
+    <p>This special issue celebrates Prof. Stecke&#39;s 75th birthday by inviting contributions that build upon, extend, or reflect on her legacy in production research. It aims to curate cutting-edge articles in active and emerging areas, serving as a focal point for discourse on flexible, resilient, and efficient production systems, as well as the intersection of production research with marketing. By honoring her trailblazing efforts, the issue seeks to inspire future directions in manufacturing and supply chain innovation, ensuring her influence continues to guide the field.</p>
+    
+    <p>We welcome high-quality submissions, including empirical studies, analytical models, simulation-based research, case analyses, and conceptual papers that offer novel insights. All manuscripts should align with the journal&#39;s emphasis on rigorous, impactful research and incorporate key elements such as an exhaustive literature analysis, novel decision-aid models explained for a broad audience, comparisons with state-of-the-art methods, discussions on real-life applications, managerial insights, and research perspectives.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Advances in flexible manufacturing systems (FMSs), including machine grouping, loading policies, and production ratio optimization for enhanced utilization</li>
+        
+        <li>Interfaces between production and marketing, including focal points such as advance selling strategies, pre-order mechanisms considering consumer behavior (e.g., loss aversion), lead time and price quotation modes, production-transportation integration in make-to-order systems, and competition/coordination in online marketplaces</li>
+        
+        <li>Reconfigurable production systems, such as Seru, for improving responsiveness and adaptability in volatile environments</li>
+        
+        <li>Supply chain resilience strategies, including adaptive ordering, disruption mitigation, and multi-echelon network design amid geopolitical and operational uncertainties</li>
+        
+        <li>Production planning and scheduling in capital-intensive systems with machine flexibility, focusing on hierarchical approaches and real-time control</li>
+        
+        <li>Integration of digital technologies (e.g., AI, digital twins, and data analytics) in manufacturing and supply chains to boost efficiency and cost control</li>
+        
+        <li>Empirical analyses of manufacturing efficiencies in sectors like semiconductors, automotive, and electronics, drawing on case studies of disruption responses</li>
+        
+        <li>Comparative studies of traditional vs. innovative production methods, such as Toyota Production System vs. Seru, with emphasis on performance metrics</li>
+        
+        <li>Managerial insights for decision-makers on implementing flexible routing, robot scheduling, and state-dependent sequencing in production environments</li>
+        
+        <li>Future perspectives on sustainable manufacturing, addressing global supply chain vulnerabilities and policy implications</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 1, 2026: Open for submissions</li>
+        
+        <li>October 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>International Journal of Production Research (TANDF)</author>
+        </item>
+        <item>
+            <title><![CDATA[From Vision to Practice: Realizing Net-Zero Manufacturing Through Circular Economy and Smart Production]]></title>
+            <link>https://callsforpapers.org/call/tandf-from-vision-to-practice-realizing-net-zero-manufacturing-through-circular-economy-and-smart-production</link>
+            <guid>tandf-from-vision-to-practice-realizing-net-zero-manufacturing-through-circular-economy-and-smart-production</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Yasser Dessouky</strong>, San Jose State University</p>
+        
+        <p><strong>Masood Fathi</strong>, University of Skövde</p>
+        
+        <p><strong>Taha Arbaoui</strong>, INSA Lyon</p>
+        
+        <p><strong>Khaled Hadj-Hamou</strong>, INSA Lyon</p>
+        
+        <p><strong>Ming-Lang Tseng</strong>, Asia University</p>
+        
+    
+    
+    <p>The global transition to net zero manufacturing is becoming increasingly urgent as industries face growing pressure from regulatory requirements, sustainability goals, and economic challenges. The European Union&#39;s Net Zero Industry Act has set ambitious targets to accelerate the adoption of clean technologies, aiming to ensure that at least 40 percent of the EU&#39;s annual deployment needs for strategic net zero technologies are met domestically by 2030. These efforts align with broader global sustainability initiatives, particularly the United Nations Sustainable Development Goals, including Goal 9 (Industry, Innovation, and Infrastructure) and Goal 12 (Responsible Consumption and Production), both of which emphasize sustainable industrialization and efficient use of resources.</p>
+    
+    <p>Turning these commitments into effective industrial strategies requires an integrated approach that combines circular economy principles with intelligent production systems. Net zero manufacturing builds on related concepts such as emission reduction and decarbonization but also extends beyond them. While emission reduction focuses on limiting greenhouse gas emissions through specific actions, and decarbonization involves shifting to low or zero-carbon technologies and energy sources, the net zero approach brings these elements together and also addresses remaining emissions through removal or offset strategies. It represents a more holistic and goal-driven framework that demands not only technological advancement but also a fundamental redesign of value chains, production systems, and lifecycle strategies to create a balanced and sustainable industrial future.</p>
+    
+    <p>Smart production and operations play a pivotal role in bridging the gap between strategic ambition and practical implementation of net-zero manufacturing. It encompasses a broad set of interconnected technologies and practices that enhance the responsiveness, efficiency, and sustainability of manufacturing systems. Drawing on the foundations of Industry 4.0, smart production integrates digitalization, automation, advanced analytics, and intelligent control to enable real-time monitoring, adaptive operations, and informed decision-making across the value chain. Rather than relying on a single solution, it leverages a synergistic mix of technological tools to improve transparency, traceability, and resource efficiency.</p>
+    
+    <p>Another significant enabling mechanism in achieving net-zero manufacturing is the decarbonization of industrial supply chains. Supply chains contribute substantially to total emissions, making it critical to implement strategies that reduce carbon footprints while maintaining operational efficiency and competitiveness. Integrating circular economy principles with Industry 4.0 technologies is another critical step toward sustainable manufacturing. Closed-loop systems have been shown to reduce material waste and improve resource utilization, offering a pathway to greater sustainability. Moreover, AI-driven predictive analytics plays a vital role in optimizing energy use, minimizing material waste, and dynamically adjusting production in response to environmental and operational constraints. Several studies also highlight the role of decision-making frameworks that account for carbon pricing policies and regulatory instruments in shaping carbon-efficient production strategies.</p>
+    
+    <p>This special issue seeks to present cutting-edge research and real-world applications that demonstrate how circular economy strategies and smart production technologies contribute to achieving net-zero manufacturing. We welcome contributions that explore emerging technologies, interdisciplinary approaches, and system-wide transformation frameworks that facilitate the transition to climate-neutral industrial operations. By fostering deeper insights into these enabling factors, this issue aims to provide actionable strategies for building a more sustainable and resilient manufacturing sector.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Closed-loop supply chains and waste reduction initiatives for low-carbon and climate-resilient manufacturing</li>
+        
+        <li>Industry 4.0-enabled smart operations for net-zero manufacturing transformation</li>
+        
+        <li>Life-cycle assessment of sustainable manufacturing processes</li>
+        
+        <li>AI-driven optimization for energy-efficient production</li>
+        
+        <li>Big data analytics and decision support for carbon footprint reduction</li>
+        
+        <li>Renewable energy integration into industrial production systems</li>
+        
+        <li>Electrification of industrial processes for carbon neutrality</li>
+        
+        <li>AI-powered energy forecasting and optimization in manufacturing</li>
+        
+        <li>The impact of carbon pricing and regulatory policies on production systems</li>
+        
+        <li>Economic incentives and financial mechanisms for green manufacturing</li>
+        
+        <li>Cross-sectoral collaboration for achieving net-zero industry goals</li>
+        
+        <li>Policy-driven roadmaps for industrial decarbonization</li>
+        
+        <li>Multi-criteria decision-making for net-zero manufacturing strategy development</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Manuscript submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>International Journal of Production Research (TANDF)</author>
+        </item>
+    </channel>
+</rss>

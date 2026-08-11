@@ -22,8 +22,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T15:38:12.254Z"
+    "active": false,
+    "pubDate": "2026-08-11T15:38:12.254Z",
+    "gracePeriod": "2026-09-10T15:51:22.006Z"
   },
   {
     "journal": "Organizational Psychology Review",
@@ -51,8 +52,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T15:38:12.254Z"
+    "active": false,
+    "pubDate": "2026-08-11T15:38:12.254Z",
+    "gracePeriod": "2026-09-10T15:51:22.006Z"
   },
   {
     "journal": "Medical Decision Making",
@@ -81,8 +83,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T15:38:12.254Z"
+    "active": false,
+    "pubDate": "2026-08-11T15:38:12.254Z",
+    "gracePeriod": "2026-09-10T15:51:22.006Z"
   },
   {
     "journal": "The American Review of Public Administration",

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Medical Decision Making</title>
+        <link>https://callsforpapers.org/journal/medical-decision-making</link>
+        <description>Latest calls for papers for Medical Decision Making.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Medical Decision Making</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/journal/medical-decision-making</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Interface between Human Users and Machine Learning Models in Medical Decision Making]]></title>
+            <link>https://callsforpapers.org/call/sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making</link>
+            <guid>sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making</guid>
+            <pubDate>Tue, 11 Aug 2026 15:38:12 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Medical Decision Making (SAGE)</author>
+        </item>
+    </channel>
+</rss>

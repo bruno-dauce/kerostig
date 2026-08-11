@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Behaviour &amp; Information Technology</title>
+        <link>https://callsforpapers.org/journal/behaviour-and-information-technology</link>
+        <description>Latest calls for papers for Behaviour &amp; Information Technology.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Behaviour &amp; Information Technology</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/journal/behaviour-and-information-technology</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Educational Immersion for All: Accessibility and Inclusion in eXtended Reality]]></title>
+            <link>https://callsforpapers.org/call/tandf-educational-immersion-for-all-accessibility-and-inclusion-in-extended-reality</link>
+            <guid>tandf-educational-immersion-for-all-accessibility-and-inclusion-in-extended-reality</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Andrea Antonio Cantone</strong>, University of Salerno</p>
+        
+        <p><strong>Dragan Ahmetovic</strong>, University of Milano</p>
+        
+        <p><strong>Paloma Diaz</strong>, Universidad Carlos III de Madrid</p>
+        
+        <p><strong>Giuliana Vitiello</strong>, University of Salerno</p>
+        
+    
+    
+    <p>Immersive technologies, including Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR), are increasingly being adopted in educational contexts to create engaging, interactive, and experiential learning environments. By enabling students to interact with digital content in three-dimensional, embodied and multisensory spaces, these technologies have the potential to transform traditional educational practices and support new forms of learning that are more active, contextualized, and collaborative.</p>
+    
+    <p>Recent research from the educational technology, Human–Computer Interaction (HCI), and eXtended Reality (XR) communities has explored the potential of immersive technologies to enhance learning experiences, highlighting their impact on engagement, motivation, collaboration, and experiential learning. In parallel, accessibility and inclusive design research has emphasized the importance of incorporating accessibility principles into immersive environments to ensure that emerging technologies can support learners with diverse abilities and needs.</p>
+    
+    <p>Immersive technologies offer significant opportunities to promote inclusive and accessible education. When carefully designed, XR based learning environments can support a diverse range of learners by providing adaptive interfaces, multimodal content, and personalized learning experiences that accommodate different abilities, learning styles, and needs.</p>
+    
+    <p>However, despite their potential, many immersive learning applications are still developed without fully considering accessibility and inclusivity. Issues such as usability barriers, lack of accessible interaction modalities, and limited design guidelines can hinder the effective adoption of these technologies in inclusive educational settings. Ensuring that immersive technologies are designed with accessibility and inclusivity in mind is therefore essential to prevent the creation of new digital divides.</p>
+    
+    <p>This Special Issue aims to explore how immersive technologies can be designed, implemented, and evaluated to promote equitable, inclusive, and accessible educational experiences. It seeks contributions that investigate the role of immersive technologies in supporting learners with diverse needs, including students with disabilities, neurodivergent learners, and individuals from diverse cultural and socio-economic backgrounds. The issue welcomes interdisciplinary research that integrates perspectives from Human–Computer Interaction, educational technology, accessibility research, learning sciences, and inclusive design.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Design and development of accessible and inclusive immersive learning and training environments</li>
+        
+        <li>Inclusive design frameworks and guidelines for immersive educational technologies</li>
+        
+        <li>Immersive technologies supporting students with disabilities (e.g., cognitive, sensory, motor, neurodevelopmental conditions)</li>
+        
+        <li>Adaptive and personalized immersive learning and training experiences</li>
+        
+        <li>Accessibility challenges and solutions in XR educational interfaces</li>
+        
+        <li>Use of immersive technologies to support neurodivergent learners</li>
+        
+        <li>Evaluation methods for accessibility, usability, and user experience in immersive educational systems</li>
+        
+        <li>Immersive technologies for social skills training and behavioral learning</li>
+        
+        <li>AI-driven adaptive systems in immersive learning environments</li>
+        
+        <li>Multimodal and embodied interaction techniques for accessible XR learning</li>
+        
+        <li>Immersive simulations for inclusive education and special education</li>
+        
+        <li>XR technologies for experiential and collaborative learning in inclusive classrooms</li>
+        
+        <li>Ethical, social, and accessibility implications of immersive technologies in education</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>November 30, 2026: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Behaviour &amp; Information Technology (TANDF)</author>
+        </item>
+        <item>
+            <title><![CDATA[Human-AI Interaction in Intelligent Workplaces: Behaviour, Trust, Experience, and Human-Centered Design]]></title>
+            <link>https://callsforpapers.org/call/tandf-human-ai-interaction-in-intelligent-workplaces-behaviour-trust-experience-and-human-centered-design</link>
+            <guid>tandf-human-ai-interaction-in-intelligent-workplaces-behaviour-trust-experience-and-human-centered-design</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Muhammad Imran Rasheed</strong>, University of Surrey</p>
+        
+        <p><strong>Barbara Rita Barricelli</strong>, Università degli Studi di Brescia</p>
+        
+        <p><strong>Waseem Ul Hameed</strong>, Universiti Utara Malaysia</p>
+        
+    
+    
+    <p>Artificial intelligence is increasingly becoming an interactive workplace technology through which employees communicate, collaborate, make decisions, and perform everyday work tasks. From generative AI assistants and algorithmic decision-support systems to intelligent monitoring tools and conversational agents, workers are engaging with AI systems on a continuous basis. Consequently, understanding how employees interact with AI technologies, experience AI-mediated work processes, develop trust in intelligent systems, and adapt their behaviours in response to AI-generated outputs has emerged as a central challenge for Behaviour &amp; Information Technology research.</p>
+    
+    <p>While existing research has extensively examined technological adoption and performance outcomes, comparatively less attention has been devoted to the behavioral, cognitive, relational, and psychological implications of intelligent systems in workplace settings. Emerging technologies are redefining human-computer interaction in organizational contexts and raising important questions regarding trust in AI, algorithmic transparency, digital autonomy, technostress, cognitive overload, human-AI collaboration, and behavioral adaptation.</p>
+    
+    <p>While different special issues have recently focused on artificial intelligence in organisations, information systems and the future of work, little has been done to understand workplace AI from the perspective of human–computer interaction and human-centered design. Existing special issues have primarily addressed topics such as technological adoption, organizational outcomes, digital transformation, and AI implementation. In contrast, this Special Issue focuses on the human-intelligent system interaction, covering employee experience, trust calibration, behavioral adaptation, user engagement, explainability, cognitive processes, and the design of psychologically sustainable AI-enabled workplaces.</p>
+    
+    <p>The Special Issue proposed is well aligned with the mission of Behaviour &amp; Information Technology and brings together research on human behaviour, user experience, interaction design, intelligent systems and digital work. The special issue aims to contribute to a better understanding of not only what AI does in organizations, but also how employees experience, interpret, interact with, and adapt to intelligent technologies in everyday work settings.</p>
+    
+    <p>In addition to empirical and theoretical contributions, the Special Issue strongly encourages design-oriented and design science research that develops, evaluates, and validates human-centred AI systems, intelligent interfaces, explainability mechanisms, trust-enhancing design features, and interaction designs that promote positive employee experiences and responsible AI use.</p>
+    
+    <p>This special issue focuses on the intersection of intelligent technologies, workplace behavior, and information systems. Contributions examine how AI and digital systems influence individual, team, and organizational behavior in technology-mediated work environments. The issue is especially interested in studies investigating behavioral and cognitive responses to intelligent systems, human-AI interaction dynamics, digital work experiences, and the broader organizational implications of AI-enabled technologies. Contributions employing quantitative, qualitative, mixed-method, longitudinal, experimental, computational, ethnographic, and design-science approaches are highly encouraged.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Employee interaction with AI-enabled systems</li>
+        
+        <li>Human reliance, overreliance, and resistance toward AI</li>
+        
+        <li>Behavioral adaptation to intelligent technologies</li>
+        
+        <li>Human-AI collaboration and hybrid decision-making</li>
+        
+        <li>Trust formation in intelligent systems</li>
+        
+        <li>Algorithmic transparency and explainable AI</li>
+        
+        <li>Employee perceptions of AI fairness and accountability</li>
+        
+        <li>Behavioral responses to opaque decision systems</li>
+        
+        <li>Technostress, digital exhaustion, and AI fatigue</li>
+        
+        <li>Cognitive overload and information processing under AI systems</li>
+        
+        <li>AI dependency and employee wellbeing</li>
+        
+        <li>Digital distraction and attention fragmentation</li>
+        
+        <li>AI-supported autonomy and employee empowerment</li>
+        
+        <li>Algorithmic management and behavioral control</li>
+        
+        <li>Digital surveillance and monitoring technologies</li>
+        
+        <li>Behavioral consequences of automated performance systems</li>
+        
+        <li>Ethical design of workplace AI systems</li>
+        
+        <li>Human-centered intelligent systems</li>
+        
+        <li>Responsible AI implementation in organizations</li>
+        
+        <li>Designing psychologically sustainable digital work environments</li>
+        
+        <li>AI-enabled learning systems and digital upskilling</li>
+        
+        <li>Employee agility and adaptability in AI-enabled workplaces</li>
+        
+        <li>Behavioral implications of reskilling and task transformation</li>
+        
+        <li>Human learning behavior in technology-mediated contexts</li>
+        
+        <li>AI-supported teamwork and collaboration</li>
+        
+        <li>Virtual collaboration and intelligent communication systems</li>
+        
+        <li>Social interaction patterns in AI-mediated environments</li>
+        
+        <li>Team trust and coordination under intelligent systems</li>
+        
+        <li>AI in healthcare, hospitality, education, finance, and public services</li>
+        
+        <li>Gig work, platform labor, and digital employment systems</li>
+        
+        <li>Cross-cultural and cross-national comparisons</li>
+        
+        <li>Remote and hybrid work environments</li>
+        
+        <li>User experience (UX) of workplace AI systems</li>
+        
+        <li>Human-centered design of intelligent workplace technologies</li>
+        
+        <li>Conversational AI and intelligent assistants at work</li>
+        
+        <li>Adaptive and personalized workplace interfaces</li>
+        
+        <li>AI usability and user acceptance in organizational settings</li>
+        
+        <li>Interaction design for human-AI collaboration</li>
+        
+        <li>Human oversight and human-in-the-loop systems</li>
+        
+        <li>Trust calibration in intelligent systems</li>
+        
+        <li>Employee engagement with AI-enabled technologies</li>
+        
+        <li>Interface design for responsible and ethical AI use</li>
+        
+        <li>User perceptions of agency, control, and autonomy in AI-mediated work environments</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>July 31, 2027: Manuscript submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Behaviour &amp; Information Technology (TANDF)</author>
+        </item>
+        <item>
+            <title><![CDATA[Smart systems and the governance of sociotechnical transformation]]></title>
+            <link>https://callsforpapers.org/call/tandf-smart-systems-and-the-governance-of-sociotechnical-transformation</link>
+            <guid>tandf-smart-systems-and-the-governance-of-sociotechnical-transformation</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Wanhao Zhang</strong>, Norwegian University of Science and Technology (NTNU)</p>
+        
+        <p><strong>Younghoon Chang</strong>, University of Nottingham Ningbo China</p>
+        
+        <p><strong>Sameer Kumar</strong>, University of Malaya</p>
+        
+    
+    
+    <p>Smart systems are becoming increasingly central to contemporary information technology. Across homes, workplaces, healthcare settings, educational environments, mobility systems, public services and platform-mediated environments, they are no longer merely digital tools that support pre-existing human activities. They increasingly function as sociotechnical arrangements that sense, classify, predict, coordinate, recommend and intervene in everyday practices, reshaping relations between humans, machines, organisations and institutions. For the purposes of this call, smart systems are understood as digitally enabled sociotechnical systems that integrate sensing, data processing, algorithmic decision-making and automated or semi-automated actions to coordinate, mediate and shape human activities across social and organisational contexts. Such systems include, but are not limited to, AI-enabled platforms, intelligent service systems, smart health technologies, smart homes, digital workplaces, automated mobility systems, learning technologies, public-sector digital systems and hybrid human-AI systems.</p>
+    
+    <p>Contemporary digital transformation is therefore not only a technical process of innovation, automation or optimisation. It also involves the reorganisation of relations between people, institutions, infrastructures, data, expertise and everyday routines. Work on everyday practices and social change is relevant here because it shows how technologies, meanings, materials, competences and future expectations become entangled in the transformation of social life. A key challenge is to understand how smart systems become socially consequential through design, use, institutional embedding, organisational routines, user negotiation, datafication and everyday practice. Interfaces, platforms, data architectures, algorithmic classifications, dashboards, monitoring systems and automated feedback mechanisms may all participate in shaping conduct, allocating responsibility, structuring choices and stabilising norms. The central concern is not only how smart systems are governed, but also how smart systems themselves become part of the governance of sociotechnical transformation. This includes questions of behaviour, interaction, coordination, authority, accountability, trust, resistance, inclusion, exclusion and power. Hybrid intelligence, human-centred AI and human-AI collaboration are especially relevant where they help explain how human and machine intelligence are combined, coordinated, contested or governed in organisational, institutional or everyday contexts.</p>
+    
+    <p>This special issue invites contributions that examine smart systems not only as technical innovations, but also as systems of behaviour, interaction, coordination, authority and governance. Its broader aim is to advance human-centred, behavioural, organisational and sociotechnical understandings of smart systems and their role in contemporary digital transformation.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Smart systems in homes, workplaces, healthcare, education, mobility, public services and platform-mediated environments</li>
+        
+        <li>Human-centred AI, hybrid intelligence and human-AI collaboration in organisational and everyday settings</li>
+        
+        <li>Conceptual, methodological and design-oriented approaches to studying governance in smart systems</li>
+        
+        <li>Algorithmic decision-making, coordination, compliance and accountability</li>
+        
+        <li>User adaptation, negotiation, resistance, appropriation and trust in relation to smart technologies</li>
+        
+        <li>AI ethics, information privacy, surveillance, transparency and asymmetrical power in digital systems</li>
+        
+        <li>Smart and digital health, care technologies and digitally mediated wellbeing</li>
+        
+        <li>Digital work, algorithmic management, robotic management and the reconfiguration of organisational routines</li>
+        
+        <li>Datafication, monitoring, prediction and automated feedback as modes of governance</li>
+        
+        <li>Inclusion, exclusion, vulnerability and inequality in smart sociotechnical environments</li>
+        
+        <li>Smart cities, digital government and platform-based public services</li>
+        
+        <li>Comparative, cross-cultural or interdisciplinary studies of smart systems and sociotechnical transformation</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>October 20, 2026: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Behaviour &amp; Information Technology (TANDF)</author>
+        </item>
+        <item>
+            <title><![CDATA[Persuasive Technology 2026]]></title>
+            <link>https://callsforpapers.org/call/tandf-persuasive-technology-2026</link>
+            <guid>tandf-persuasive-technology-2026</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Elena Vlahu Gjorgievska</strong>, University of Wollongong</p>
+        
+        <p><strong>Kiemute Oyibo</strong>, York University</p>
+        
+        <p><strong>Yugo Nakamura</strong>, Ritsumeikan University</p>
+        
+    
+    
+    <p>The special issue will include selected papers from the 21st International Conference on Persuasive Technology. The special issue will be by invitation only.</p>
+    
+    <p>This special issue is by invitation only. Invited papers must have at least 35% extra content from the conference paper. The additional content cannot be related work only or an extended discussion, but should include at least 35% of new results.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Persuasive systems design</li>
+        
+        <li>Behaviour change support systems</li>
+        
+        <li>Interaction with persuasive systems, interfaces, and visualizations</li>
+        
+        <li>Interactive agents and (generative) AI for persuasion</li>
+        
+        <li>Tailored and personalized persuasion</li>
+        
+        <li>Gamification</li>
+        
+        <li>Evaluation and validation methodologies</li>
+        
+        <li>Smart environments, IoT, and contextual persuasion</li>
+        
+        <li>Digital marketing, eCommerce, and smart cities</li>
+        
+        <li>Motivation, cognition, perception</li>
+        
+        <li>Application domains: health, safety, sustainability, education, work</li>
+        
+        <li>Ethical considerations, privacy, and trust</li>
+        
+        <li>Counter-persuasion, resilience, and social media influence</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 1, 2026: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Behaviour &amp; Information Technology (TANDF)</author>
+        </item>
+        <item>
+            <title><![CDATA[ECCE 2026 - European Conference on Cognitive Ergonomics]]></title>
+            <link>https://callsforpapers.org/call/tandf-ecce-2026-european-conference-on-cognitive-ergonomics</link>
+            <guid>tandf-ecce-2026-european-conference-on-cognitive-ergonomics</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Stefano Guidi</strong>, University of Siena</p>
+        
+        <p><strong>Oronzo Parlangeli</strong>, University of Siena</p>
+        
+        <p><strong>Paola Palmitesta</strong>, University of Siena</p>
+        
+    
+    
+    <p>The special issue will feature a selection of the best papers accepted for the European Conference on Cognitive Ergonomics 2026 (ECCE 2026). The authors of the 6 best long papers submitted to the conference will be invited to submit their paper which will undergo a review process.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Cognitive ergonomics research presented at ECCE 2026</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>August 14, 2026: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Behaviour &amp; Information Technology (TANDF)</author>
+        </item>
+    </channel>
+</rss>

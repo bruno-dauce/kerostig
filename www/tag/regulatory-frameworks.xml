@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: regulatory frameworks</title>
+        <link>https://callsforpapers.org/tag/regulatory-frameworks</link>
+        <description>Latest calls for papers tagged with 'regulatory frameworks'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: regulatory frameworks</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/regulatory-frameworks</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Generative AI and LLM in financial modelling and applications]]></title>
+            <link>https://callsforpapers.org/call/tandf-generative-ai-and-llm-in-financial-modelling-and-applications</link>
+            <guid>tandf-generative-ai-and-llm-in-financial-modelling-and-applications</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Steve Yang</strong>, Stevens Institute of Technology</p>
+        
+        <p><strong>Jing Chen</strong>, Cardiff University</p>
+        
+        <p><strong>Aparna Gupta</strong>, Rensselaer Polytechnic Institute</p>
+        
+        <p><strong>Zachary Feinstein</strong>, Stevens Institute of Technology</p>
+        
+        <p><strong>William Knottenbelt</strong>, Imperial College</p>
+        
+    
+    
+    <p>This special issue aims to explore the specific financial modelling issues related to Artificial Intelligence (AI), in particular Generative AI and Large Language models (LLMs) modelling and applications in finance. It seeks to offer new insights in consideration of Generative AI/LLM innovation that brings changes to the traditional finance topics such as asset pricing, financial intermediation, financial markets &amp; investment, behavioural finance, banking, accounting, insurance, etc. The special issue particularly encourages work that advances the understanding of how Gen AI and LLM modelling brings forward ethical implications, benefits financial inclusion and/or enhances regulatory and policy changes.</p>
+    
+    <p>The launch of ChatGPT in November of 2022 and its rapid adoption have demonstrated the promise of Generative AI/LLMs and brought a renewed interest in finance research on artificial intelligence applications. Generative AI has the potential to revolutionize various aspects of finance by enabling better data generation, analysis, decision-making, and risk management. One example of the potential impact is a recent paper on how FinBERT (a finance focused large language model) can improve several existing areas of information processing in finance. However, this is only the beginning, and it is anticipated that more research on modelling and applications using Generative AI is needed.</p>
+    
+    <p>In the era of increased AI influence, ethical concerns often revolve around the use of big data, decentralized finance, artificial intelligence (AI), and how they affect customer privacy. At the same time, regulatory challenges are equally significant, with AI introducing new methods and risks that may not fit well within existing frameworks. For example, Generative AI can reduce costs associated with predictions and decisions but raises concerns about data privacy and the stifling of human-centred innovation. These challenges beg further research to bring better understanding.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Asset pricing with Generative AI and LLMs</li>
+        
+        <li>Financial intermediation applications of Generative AI and LLMs</li>
+        
+        <li>Financial markets and investment strategies using Generative AI and LLMs</li>
+        
+        <li>Behavioural finance and AI applications</li>
+        
+        <li>Banking and AI applications</li>
+        
+        <li>Accounting and AI applications</li>
+        
+        <li>Insurance and AI applications</li>
+        
+        <li>Ethical implications of Generative AI and LLMs in finance</li>
+        
+        <li>Financial inclusion through Generative AI and LLMs</li>
+        
+        <li>Regulatory and policy changes driven by AI in finance</li>
+        
+        <li>Data generation and analysis using Generative AI</li>
+        
+        <li>Risk management with Generative AI and LLMs</li>
+        
+        <li>FinBERT and finance-focused language models</li>
+        
+        <li>Data privacy concerns in AI-driven finance</li>
+        
+        <li>Cost reduction through AI predictions while managing innovation</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 15, 2026: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>The European Journal of Finance (TANDF)</author>
+        </item>
+    </channel>
+</rss>

@@ -4,7 +4,7 @@
         <title>Calls for Papers | Tag: digital technologies</title>
         <link>https://callsforpapers.org/tag/digital-technologies</link>
         <description>Latest calls for papers tagged with 'digital technologies'.</description>
-        <lastBuildDate>Thu, 29 Jan 2026 04:13:21 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -15,52 +15,84 @@
         </image>
         <copyright>Calls for Papers © 2025</copyright>
         <item>
-            <title><![CDATA[Ethics, Regulation, and Policy]]></title>
-            <link>https://callsforpapers.org/call/misq-ethics-regulation-and-policy</link>
-            <guid>misq-ethics-regulation-and-policy</guid>
-            <pubDate>Sat, 06 Dec 2025 03:16:37 GMT</pubDate>
+            <title><![CDATA[Neurophysiological Foundations and Effects of Contemporary Digital Technologies]]></title>
+            <link>https://callsforpapers.org/call/tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies</link>
+            <guid>tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>
     
         
-        <p><strong>Stefan Seidel</strong>, University of Cologne</p>
+        <p><strong>René Riedl</strong>, University of Applied Sciences Upper Austria &amp; Johannes Kepler University Linz</p>
         
-        <p><strong>Nicholas Berente</strong>, University of Notre Dame</p>
+        <p><strong>Jan vom Brocke</strong>, University of Münster</p>
         
-        <p><strong>Hong Guo</strong>, Arizona State University</p>
+        <p><strong>Jella Pfeiffer</strong>, Karlsruhe Institute of Technology</p>
         
-        <p><strong>Wonseok Oh</strong>, Korea Advanced Institute of Science and Technology</p>
+        <p><strong>Robert Gleasure</strong>, Copenhagen Business School</p>
         
     
     
-    <p>Wave upon wave of digital technologies and the fast-advancing frontier of artificial intelligence (AI) are disrupting well-established, institutionalized ways of doing things, resulting in a host of ethical, regulatory, and policy challenges. The challenge involves addressing social, ecological, moral, and economic risks associated with technological advancements while, at the same time, encouraging competitiveness, innovation, and value generation from ubiquitous digital data. To address current ethical challenges and risks and anticipate future issues related to emerging technologies, governments are seeking to adjust regulations and set policy. Organizations are seeking to adapt their governance schemes to regulatory and ethical issues. This special issue seeks sociotechnical and information systems contributions to our thinking on ethics, regulation, and policy around digital technologies, data, and AI.</p>
+    <p>The advent of increasingly powerful artificial intelligence systems (e.g., large language models such as ChatGPT, diffusion models, graph neural networks, or vision transformers) used in domains such as healthcare, manufacturing, software development and finance, together with other contemporary digital technologies (e.g., autonomous cars, immersive worlds, and neuroadaptive interfaces), has fundamentally reshaped human interaction with information systems. As these technologies become embedded in work, consumption, private life, and society in general, the ways in which they affect human cognition, emotion, and social interaction remain poorly understood.</p>
     
-    <p>Ethical tensions abound in relation to the pervasiveness of digital data and the widespread adoption of AI, including tensions between data privacy, fairness, and bias on the one hand, and business needs for using data for market and innovation purposes on the other. AI systems that increasingly replace cognitive tasks previously done by humans raise questions about deskilling and labor substitution and ultimately human dignity. While AI systems promise productivity gains and the potential to address key social and environmental issues, they also generate significant threats to sustainability and social challenges. Moreover, the responsibility of algorithms for the tasks they perform and the decisions they make is often not clear. The autonomy, interconnectedness, and increasing agency of digital technologies present challenges to established individualistic responsibility approaches since they make it difficult to attribute responsibility.</p>
+    <p>A growing body of research highlights that neurophysiological methods can provide unique insights into these phenomena across a broad range of IS contexts. NeuroIS—the interdisciplinary field that integrates neuroscience and psychophysiological approaches with information systems—has been at the forefront of this movement. Originating at the International Conference on Information Systems in Montréal in 2007, NeuroIS celebrates its 20-year anniversary in 2027. This milestone provides an opportune moment to reflect on the progress achieved, highlight challenges, and chart new directions for NeuroIS research in an era of rapid technological change.</p>
     
-    <p>The tension between addressing ethical risks and encouraging innovation requires balancing data privacy, fairness, and bias concerns with business needs for competitiveness and value generation from digital data and AI systems.</p>
+    <p>Over the past two decades, NeuroIS research has established the potential of neurophysiological methods such as electroencephalography (EEG), functional magnetic resonance imaging (fMRI), functional near-infrared spectroscopy (fNIRS), eye tracking, and various other neurophysiological measures to enrich IS theory. These approaches have been shown to improve prediction accuracy of different IS phenomena, uncover hidden cognitive and affective mechanisms, and open new methodological horizons. A particularly important trajectory in this research stream has been the integration of neurophysiological and behavioral levels of analysis by linking neural responses to observable IS-related behaviors and self-report measures.</p>
     
-    <p>Ethical challenges have inspired regulatory and policy action around digital technologies, particularly with respect to data and AI. The United States National Artificial Intelligence Act of 2020 sets forth programs and activities and highlights values like trustworthiness; at the same time, it aims at creating competitive advantage for the US economy by creating an innovation ecosystem or fostering public-private partnership mechanisms. The European Union&#39;s AI Act embeds fundamental values as it seeks to accomplish a high level of protection of health, safety, and fundamental rights and defines requirements for transparency monitoring, market surveillance, and governance that provide legitimacy for the use of AI systems. Regulatory responses involve institutional construction and ongoing institutional change, often requiring the deliberate coordination and action of change agents at different levels, including political, corporate, or non-governmental individuals and groups. Rapid changes in the sociotechnical context fueled by the decentralized and immaterial nature of digital technologies require frequent updates and often render conventional approaches to setting regulation and policy slow and ineffective.</p>
+    <p>In an era of pervasive digitalization, this integration becomes even more essential. Understanding not only what individuals do when interacting with advanced digital systems, but also how their brains and bodies adapt, allows researchers to explain emergent behaviors such as overreliance, automation bias, algorithm aversion, new forms of collaborative cognition, or cognitive debt. Neurophysiological measures enable the study of phenomena that may remain inaccessible to self-reports or behavioral observation alone, such as unconscious biases, implicit trust, or neural markers of attention and memory.</p>
     
-    <p>Digital technologies serve a dual role—they are both the source of ethical concerns triggering regulatory change and a tool for implementing, monitoring, and updating policies and regulations, distinguishing regulation of technology from regulation through technology. Such tools help regulatory institutions achieve legitimacy and stability, which marks the distinction between regulation of technology and regulation through technology. Ethical challenges as well as policy and regulatory change require organizational efforts to adopt and comply with new regulations and policies. This is challenging, since it requires organizational actors to make sense of and interpret the often-complex changes in the regulatory institutional environment and demands changes in organizational practices as well as technology architecture and implementation.</p>
+    <p>Beyond neurophysiology, this special issue also welcomes work that integrates genetic perspectives into IS research. Prior publications have demonstrated the promise of genetics for explaining individual differences in IS-related behaviors. Combining genetic and neurophysiological approaches may provide a powerful multi-level framework to understand how contemporary digital technologies affect humans at both biological and behavioral levels.</p>
+    
+    <p>This special issue seeks high-quality, theory-driven, and methodologically rigorous research that examines the neurophysiological and related biological foundations, mechanisms, and effects of contemporary IS technologies and sociotechnical systems—incorporating AI as an important case, but not limiting the scope to AI. We invite submissions from information systems scholars, neuroscientists, psychologists, computer scientists, geneticists, and other disciplines to advance understanding of how contemporary IS reshapes human cognition, affect, decision-making, and social interaction.</p>
+    
+    <p>This special issue encourages contributions across the full range of IS research traditions. Neurophysiological and genetic insights may advance design-oriented research by informing new principles for human-centered and neuroadaptive system design. They may also enrich IS economics research by offering a biological basis for understanding productivity, well-being, or value creation in digitally mediated contexts. Studies grounded in organizational behavior, strategy, or societal perspectives are highly relevant if they integrate or reflect on neurophysiological evidence.</p>
+    
+    <p>In line with EJIS&#39; tradition of intellectual openness, this special issue explicitly welcomes visionary, provocative, and contrarian contributions that challenge taken-for-granted assumptions, problematize dominant narratives, or open up unconventional research directions.</p>
     
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Technology/AI/data ethics</li>
+        <li>How does sustained interaction with AI-enabled systems (e.g., LLMs) and other advanced digital tools reshape neural networks associated with language, reasoning, and memory?</li>
         
-        <li>Technology/AI/data regulation</li>
+        <li>Does reliance on AI systems and other forms of automation/digital decision support alter attentional control, working memory, metacognition, or problem-solving processes at the neurophysiological and behavioral levels?</li>
         
-        <li>Technology/AI/data policy</li>
+        <li>What are the implications of digitally augmented cognition for neuroplasticity, skill acquisition, and expertise development over time?</li>
         
-        <li>Institutions</li>
+        <li>How can integrated neurophysiological and behavioral measures provide a fuller picture of technology-mediated cognitive processes?</li>
         
-        <li>Governance</li>
+        <li>How do individuals&#39; brains respond to empathetic or anthropomorphic cues exhibited by conversational AI and other interactive systems?</li>
         
-        <li>Risk</li>
+        <li>What neurophysiological correlates underlie trust, reliance, distrust, or skepticism toward AI systems and other algorithmic or platform-based systems?</li>
         
-        <li>Digital</li>
+        <li>How does emotional regulation change when decision-making is mediated by AI support, algorithmic decision aids, or digital nudges?</li>
         
-        <li>Sociotechnical</li>
+        <li>What are the neurophysiological mechanisms of stress, fatigue, or overload in contexts of AI-assisted work and other digitally intensified work settings?</li>
+        
+        <li>How does technological mediation in team collaboration influence the neurophysiological foundations of social coordination, empathy, and shared attention?</li>
+        
+        <li>What neural mechanisms underlie shifts in authority, leadership, and influence when AI becomes a co-decision-maker?</li>
+        
+        <li>How do cultural differences modulate neurophysiological responses to AI and other digitally mediated collaboration settings?</li>
+        
+        <li>How do gender, age, or personality differences modulate neurophysiological responses to IS artifacts?</li>
+        
+        <li>How might AI-driven systems and other algorithmic designs reinforce or mitigate cognitive biases?</li>
+        
+        <li>What neural signatures accompany ethical dilemmas and moral decision-making in AI-mediated contexts?</li>
+        
+        <li>How does long-term use of AI and other digitally intensive work systems shape neurophysiological well-being, stress, or mental health?</li>
+        
+        <li>How can neurophysiological insights inform the design of AI systems and other digital systems?</li>
+        
+        <li>What are the neurophysiological underpinnings of productivity, efficiency, or value creation in digitally mediated economic interactions?</li>
+        
+        <li>How can genetic and neurophysiological approaches together explain individual differences in the adoption and use of digital systems?</li>
+        
+        <li>Which neurophysiological tools are best suited for investigating contemporary IS phenomena?</li>
+        
+        <li>How can hybrid approaches combining neurophysiology with computational methods enrich IS theory development?</li>
+        
+        <li>How can multi-level research designs integrate genetic, neurophysiological, behavioral, self-report, and organizational data?</li>
         
     </ul>
     
@@ -68,7 +100,23 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>November 13, 2026: Submission Deadline</li>
+        <li>March 31, 2026: Two-page abstracts due</li>
+        
+        <li>April 30, 2026: Feedback on abstracts</li>
+        
+        <li>May 31, 2026: Paper development workshop (in person event in Vienna, Austria, and virtual)</li>
+        
+        <li>August 31, 2026: First-round paper submission</li>
+        
+        <li>November 30, 2026: First-round decisions</li>
+        
+        <li>February 28, 2027: First-round revisions due</li>
+        
+        <li>May 31, 2027: Second-round decisions</li>
+        
+        <li>August 31, 2027: Second-round revisions due</li>
+        
+        <li>October 31, 2027: Final decisions</li>
         
     </ul>
     
@@ -76,78 +124,202 @@
     <h2>Associate editors</h2>
     <ul>
         
-        <li><strong>Alessandro Acquisti</strong>, Massachusetts Institute of Technology</li>
+        <li><strong>Bonnie B. Anderson</strong>, Brigham Young University</li>
         
-        <li><strong>Alexander Benlian</strong>, Technical University of Darmstadt</li>
+        <li><strong>Dinko Bačić</strong>, Loyola University Chicago</li>
         
-        <li><strong>Min Chen</strong>, George Mason University</li>
+        <li><strong>Colin Conrad</strong>, Dalhousie University</li>
         
-        <li><strong>Aaron Cheng</strong>, The London School of Economics and Political Science</li>
+        <li><strong>Verena Dorner</strong>, Vienna University of Economics and Business</li>
         
-        <li><strong>Ioanna Constantiou</strong>, Copenhagen Business School</li>
+        <li><strong>Nadine R. Gier-Reinartz</strong>, Heinrich-Heine-University Düsseldorf</li>
         
-        <li><strong>John Dong</strong>, Nanyang Technological University</li>
+        <li><strong>Milena Head</strong>, McMaster University</li>
         
-        <li><strong>Anna Essén</strong>, Stockholm School of Economics</li>
+        <li><strong>Alan R. Hevner</strong>, University of South Florida</li>
         
-        <li><strong>Haiyang Feng</strong>, Tianjin University</li>
+        <li><strong>Qiqi Jiang</strong>, Copenhagen Business School</li>
         
-        <li><strong>Stefan Feuerriegel</strong>, Ludwig Maximilian University of Munich</li>
+        <li><strong>Marion Korosec-Serfaty</strong>, University of Québec in Montréal</li>
         
-        <li><strong>Uri Gal</strong>, The University of Sydney</li>
+        <li><strong>Alexander Maedche</strong>, Karlsruhe Institute of Technology</li>
         
-        <li><strong>James Gaskin</strong>, Brigham Young University</li>
+        <li><strong>Gernot R. Mueller-Putz</strong>, Graz University of Technology</li>
         
-        <li><strong>Goh Khim Yong</strong>, National University of Singapore</li>
+        <li><strong>Pierre-Majorique Léger</strong>, HEC Montréal</li>
         
-        <li><strong>Anand Gopal</strong>, Nanyang Technological University</li>
+        <li><strong>Mario Nadj</strong>, University of Duisburg-Essen</li>
         
-        <li><strong>Brad Greenwood</strong>, George Mason University</li>
+        <li><strong>Fiona Nah</strong>, Singapore Management University</li>
         
-        <li><strong>Dominik Gutt</strong>, RWTH Aachen University</li>
+        <li><strong>Adriane Randolph</strong>, Kennesaw State University</li>
         
-        <li><strong>Ola Henfridsson</strong>, University of Miami</li>
+        <li><strong>Ofir Turel</strong>, University of Melbourne</li>
         
-        <li><strong>Nina Huang</strong>, University of Miami</li>
+        <li><strong>Eric A. Walden</strong>, Texas Tech University</li>
         
-        <li><strong>Jannis Kallinikos</strong>, The London School of Economics and Political Science</li>
+        <li><strong>Peter Walla</strong>, Sigmund Freud Private University Vienna</li>
         
-        <li><strong>Gerald C (Jerry) Kane</strong>, University of Georgia</li>
-        
-        <li><strong>Wolf Ketter</strong>, University of Cologne</li>
-        
-        <li><strong>Cameron Kormylo</strong>, University of Notre Dame</li>
-        
-        <li><strong>Natalia Levina</strong>, New York University</li>
-        
-        <li><strong>Zhepeng (Lionel) Li</strong>, The University of Hong Kong</li>
-        
-        <li><strong>Kalle Lyytinen</strong>, Case Western Reserve University</li>
-        
-        <li><strong>Min-Seok Pang</strong>, University of Wisconsin-Madison</li>
-        
-        <li><strong>Hani Safadi</strong>, University of Georgia</li>
-        
-        <li><strong>Nachiketa Sahoo</strong>, Boston University</li>
-        
-        <li><strong>Juliana Sutanto</strong>, Monash University</li>
-        
-        <li><strong>Mari-Klara Stein</strong>, TalTech</li>
-        
-        <li><strong>Lai Wei</strong>, Shanghai Jiao Tong University</li>
-        
-        <li><strong>Yi Yang</strong>, The Hong Kong University of Science and Technology</li>
-        
-        <li><strong>Lior Zalmanson</strong>, Tel Aviv University</li>
-        
-        <li><strong>Nan Zhang</strong>, University of Notre Dame</li>
-        
-        <li><strong>Xia Zhao</strong>, University of Georgia</li>
+        <li><strong>Dezhi Wu</strong>, University of South Carolina</li>
         
     </ul>
     
 </div>]]></content:encoded>
-            <author>MIS Quarterly (MISQ)</author>
+            <author>European Journal of Information Systems (TANDF)</author>
+        </item>
+        <item>
+            <title><![CDATA[Managing the digitally-savvy workforce: Human Resource Management in an evolving digital landscape]]></title>
+            <link>https://callsforpapers.org/call/tandf-managing-the-digitally-savvy-workforce-human-resource-management-in-an-evolving-digital-landscape</link>
+            <guid>tandf-managing-the-digitally-savvy-workforce-human-resource-management-in-an-evolving-digital-landscape</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Sanjay Singh</strong>, University of Dundee</p>
+        
+        <p><strong>Sateesh Shet</strong>, Northumbria University</p>
+        
+        <p><strong>Tanya Bondarouk</strong>, The University of Twente</p>
+        
+        <p><strong>Paresha Sinha</strong>, University of Waikato</p>
+        
+        <p><strong>James Duggan</strong>, Cork University Business School</p>
+        
+    
+    
+    <p>The acceleration of digital transformation across industries has reshaped the nature of work and the workforce. In this evolving landscape, a new kind of employee has emerged, one that is digitally fluent, technology-enabled, and increasingly reliant on digital tools to perform, collaborate, and innovate. This digitally-savvy workforce brings with it a unique set of expectations, behaviors, and capabilities that are fundamentally altering traditional models of Human Resource Management.</p>
+    
+    <p>As organizations navigate this shift, HRM must move beyond conventional practices to align with the realities of a workforce deeply embedded in digital ecosystems. The integration of emerging technologies such as artificial intelligence, machine learning, virtual collaboration platforms, and HR analytics is not only transforming operational HR functions but also reshaping strategic priorities around talent acquisition, workforce planning, performance management, employee engagement, and learning and development.</p>
+    
+    <p>The significance of this transformation extends beyond technology adoption, requiring the need for redefining work design, leadership, culture, and employee experience in a digital-first world. The increasing demand for flexibility, autonomy, continuous learning, and meaningful digital interactions places HRM at the centre of driving organizational agility and future-readiness. Questions around digital equity, ethics in algorithmic decision-making, surveillance, digital fatigue, and the digital divide call for exploration and evidence-based solutions.</p>
+    
+    <p>The rise of the digitally-savvy workforce marks a structural inflection point in the evolution of work and HRM. The digitally-savvy workforce encompasses a broader, cross-generational cohort of employees who have acquired advanced digital competencies through education, experience, or continuous upskilling. This workforce does not merely use technology, they strategically engage with digital tools, platforms, and data as core enablers of their work, collaboration, and innovation.</p>
+    
+    <p>There is a critical gap in research concerning the mental health and well-being challenges unique to digitally-savvy employees in the workplace, such as digital burnout, blurred boundaries between work and life, and stress from social media. Furthermore, HRM has long been concerned with employee well-being, yet digitally-savvy employees&#39; constant connectivity and digital-centric lifestyles introduce new risks that are underexplored in the literature.</p>
+    
+    <p>For HRM, this presents both transformative potential and considerable complexity. On one hand, digitally-savvy employees are key assets in driving automation, agility, and innovation. On the other hand, their expectations for real-time feedback, flexible work structures, digital autonomy, and continuous learning challenge the static assumptions that underpin many legacy HRM practices. There is an increasing mismatch between the agility of the workforce and the inertia of HR systems still grounded in procedural and administrative logic.</p>
+    
+    <p>While there is growing interest in digital transformation, there remains a critical gap in our understanding of how HRM can effectively align with and support a digital-savvy workforce. Issues such as workforce planning for digital roles, work design for tech-mediated environments, AI-driven performance management, and ethical concerns around digital monitoring remain under-theorized. Equally, the psychological impacts, such as techno-overload, digital presenteeism, and the erosion of work-life boundaries, are insufficiently addressed within the current HRM discourse.</p>
+    
+    <p>This Special Issue seeks to explore these challenges and opportunities by reframing the HRM research agenda through the lens of digitally-savvy workforce readiness and transformation. It calls for contributions that examine how HRM can evolve to strategically manage and empower a digitally capable workforce while balancing human-centric values and organizational imperatives. Furthermore, it seeks to investigate the technological expectations that digitally-savvy workforces bring to the workplace, including their demand for flexibility, autonomy, digital communication, and purpose-driven work.</p>
+    
+    <p>This Special Issue seeks to advance new theoretical contributions that reflect the shifting realities of HRM in the context of a digitally-savvy workforce. Contributions should foreground digital capabilities as core constructs in HRM theory and examine how the integration of digital technologies into daily work life reshapes the employee experience. Technological affordance theory, digital transformation theory, HRM systems theory, social exchange theory, ecological systems theory, and the job demands-resources model offer valuable frameworks for examining these issues.</p>
+    
+    <p>A fundamental transformation is underway in how talent is managed across borders, driven by the growing presence of a digitally-savvy workforce. Across diverse international contexts, digitally savvy employees are challenging long-established HRM systems through expectations shaped by AI-enhanced workflows, platform-based collaboration, hybrid work models, and a heightened demand for flexibility, autonomy, and continuous development. These expectations are filtered through local institutional logics, labor market structures, and cultural norms, creating varying patterns of digital adoption, employee engagement, and HRM innovation around the world.</p>
+    
+    <p>This call for papers seeks to illuminate how multinational organizations, international institutions, and global HR functions are reevaluating leadership, organizational culture, performance systems, learning pathways, and inclusion practices in response to the evolving digital capabilities of their workforce. As the digitalization of work becomes increasingly global in scale but locally embedded in practice, the need for comparative, cross-national HRM research becomes critical.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Strategic workforce planning for the digital era, including forecasting digital talent needs, digital upskilling frameworks, and bridging digital skills gaps</li>
+        
+        <li>Work design for digitally enabled workforce, encompassing job roles in technology-mediated environments, digital flexibility, autonomy, work-life integration, and remote work impacts</li>
+        
+        <li>Emerging digital technologies and HRM transformation, including AI, blockchain, virtual reality, chatbots, intelligent automation, and HR digital twins</li>
+        
+        <li>Redefining talent acquisition for digitally-savvy workforce through social media recruitment, gamified assessments, AI in recruitment, and employer branding</li>
+        
+        <li>Performance management in tech-driven organizations, covering digital dashboards, algorithmic evaluation, surveillance, real-time feedback, and fairness implications</li>
+        
+        <li>Employee engagement and experience in digital workspaces, including digital platforms, AI-driven personalization, digital fatigue, and tech-enabled burnout</li>
+        
+        <li>Ethics, privacy, and surveillance in digital workplace, addressing algorithmic monitoring, employee autonomy, and ethical HR technology adoption</li>
+        
+        <li>Inclusion, equity, and accessibility in digital HR practices, focusing on digital exclusion reduction, neurodiverse talent support, and fair AI-driven decision-making</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Publication of Special Issue</li>
+        
+        <li>August 1, 2026: Manuscript submission window opens</li>
+        
+        <li>September 30, 2026: Manuscript submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>The International Journal of Human Resource Management (TANDF)</author>
+        </item>
+        <item>
+            <title><![CDATA[Redefining luxury consumption in the age of Artificial Intelligence]]></title>
+            <link>https://callsforpapers.org/call/emerald-redefining-luxury-consumption-in-the-age-of-artificial-intelligence</link>
+            <guid>emerald-redefining-luxury-consumption-in-the-age-of-artificial-intelligence</guid>
+            <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Victoria-Sophie Osburg</strong>, Catholic University Eichstätt-Ingolstadt</p>
+        
+        <p><strong>Dina Khalifa</strong>, Regent&#39;s University London</p>
+        
+        <p><strong>Jonas Holmqvist</strong>, KEDGE Business School Bordeaux</p>
+        
+        <p><strong>Vignesh Yoganathan</strong>, Aston University</p>
+        
+    
+    
+    <p>The concept of luxury is undergoing significant changes in the digital age, merging traditional ideas of exclusivity and craftsmanship with innovative digital experiences. Technology increasingly influences our daily lives as luxury brands increasingly apply digital tools to enhance the customer experience, reshaping the luxury markets and fundamentally altering how luxury is perceived, experienced, and consumed. Additionally, changing societal norms and consumer expectations require luxury brands to engage in new ways, such as through brand activism. This transformation impacts how luxury brands connect with consumers and deliver value.</p>
+    
+    <p>Virtual contact points are increasingly replacing or supplementing human interactions, providing personalized and seamless experiences. Consumers can now display their luxury consumption on social media and explore and interact with luxury products through immersive virtual experiences, such as digital flagship stores, which blur the lines between physical and digital realms. Furthermore, digital technologies enable unprecedented levels of personalization.</p>
+    
+    <p>As luxury services represent a rapidly growing sector, integrating service robots in luxury retail presents a complex landscape of opportunities and challenges. Robots can enhance efficiency and create novel customer experiences, but their integration into luxury settings may also threaten the human-centric approach despite that some luxury consumers prefer a strong human interaction and/or taking on an active role themselves. This situation presents a dilemma for luxury brands, particularly regarding how much they should substitute or augment human staff to provide the best customer experience.</p>
+    
+    <p>Moreover, entirely new avenues for luxury consumption are emerging. Virtual real estate, for instance, has become a new opportunity for luxury investment and expression, with the market for virtual luxury goods projected to reach $50 billion by 2030. Digitalization can also empower consumers, for instance, the use of Blockchain can increase traceability, allowing consumers to follow the entire production process and supply chains of their products.</p>
+    
+    <p>These examples illustrate how luxury consumption is undergoing fundamental changes in the digital era. At the same time, there are also risks involved, and some luxury brands deliberately limit their digital interactions to retain exclusivity. As luxury brands navigate these drastic changes, it is essential to understand consumer reactions toward these newly emerging forms of luxury. As luxury consumption becomes more widespread, understanding the impact this has on consumers becomes crucial, and the role technology plays in this context. A theory-driven approach is needed to thoroughly examine whether luxury consumption should be redefined in the digital age. Moreover, the discourse on the (in)compatibility of sustainability and luxury consumption must be adapted to the digital context, as new ethical and responsibility-related questions may arise.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Drivers of consumer adoption of technological solutions in luxury markets</li>
+        
+        <li>The evolving understanding of luxury among consumers in the digital age</li>
+        
+        <li>The impact of digital technologies on luxury value perceptions and consumer experiences</li>
+        
+        <li>Consumers&#39; preferences and needs regarding the joint implementation of technology and a human touch in luxury consumption</li>
+        
+        <li>Consumer reactions to virtual luxury goods and experiences</li>
+        
+        <li>Consumer agency and engagement in luxury through digital tools</li>
+        
+        <li>Tensions that consumers face when brands integrate luxury with technology</li>
+        
+        <li>Luxury brands&#39; opportunities to navigate technological innovation while maintaining brand heritage</li>
+        
+        <li>Managing the paradox of the ephemerality of technology with the permanence of luxury brand identity</li>
+        
+        <li>The role of social media and influencers in shaping digital luxury consumption, including virtual influencers</li>
+        
+        <li>The integration of physical and digital luxury experiences in omnichannel strategies</li>
+        
+        <li>Consumers&#39; ethical considerations in virtual luxury markets, including sustainability, traceability, and inclusivity</li>
+        
+        <li>Generational differences in the adoption of digital luxury experiences and how luxury brands can cater to cross-generational consumer needs</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 6, 2026: Opening date for manuscripts submissions</li>
+        
+        <li>November 30, 2026: Closing date for manuscripts submission</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>European Journal of Marketing (EMERALD)</author>
         </item>
     </channel>
 </rss>

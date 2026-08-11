@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: conversational ai</title>
+        <link>https://callsforpapers.org/tag/conversational-ai</link>
+        <description>Latest calls for papers tagged with 'conversational ai'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: conversational ai</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/conversational-ai</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[AI as a Shopping Companion: Mechanisms shaping product basket and returns]]></title>
+            <link>https://callsforpapers.org/call/emerald-ai-as-a-shopping-companion-mechanisms-shaping-product-basket-and-returns</link>
+            <guid>emerald-ai-as-a-shopping-companion-mechanisms-shaping-product-basket-and-returns</guid>
+            <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    <p>Digitalisation has multiplied the media, channels, and touchpoints through which consumers and firms interact, reshaping the customer journey around digital experiences. In parallel, the rapid maturation of Machine Learning, Deep Learning, and especially Artificial Intelligence (AI), is pushing both scholars and managers to rethink how human actors engage with, rely on, and derive value from technological systems, and to revisit the design of these interactions as well as their governance.</p>
+    
+    <p>A growing body of research shows that AI is increasingly becoming a central shopping companion across the entire customer journey, supporting consumers from product discovery and evaluation in the pre-purchase stage, to basket building and checkout at purchase, and into post-purchase activities such as customer service and returns.</p>
+    
+    <p>Compared with traditional recommender systems, AI companions are powered by language models and conversational interfaces that do more than filter information. They can operate as interactive decision partners, engaging consumers in dialogue, adaptively tailoring support, and providing cognitive scaffolding. Through these mechanisms, AI companions can directly shape how preferences are constructed, how uncertainty is interpreted, and how choices are ultimately made.</p>
+    
+    <p>The conversational nature of AI-mediated assistance introduces dynamics that are not yet fully understood. These include real-time persuasion and framing, the delegation of decisions to &#39;the system&#39;, the emergence and calibration of trust, perceived agency and controllability, the role of explanation and disclosure, and the effects of anthropomorphism. Taken together, these elements can make the interaction feel closer to an ongoing relationship than to a single, isolated touchpoint.</p>
+    
+    <p>The literature has devoted little attention to how AI companions affect downstream outcomes that matter for both retail performance and consumer welfare. In particular, we still know too little about whether, and under what conditions, an AI companion can increase or decrease basket conversion among consumers who are already expected to purchase, or how conversational assistance may contribute to monitoring and shaping assortment status. Outcomes such as basket conversion, assortment shaping, and returns are strategically consequential for firms, platforms, and shoppers, yet they remain less systematically examined than upstream constructs such as adoption, user experience, trust, and intention-based measures.</p>
+    
+    <p>Our understanding remains incomplete regarding the conditions under which assistant guidance improves preference-product fit and long-term value, versus when it accelerates decisions that amplify mismatch, encourage opportunistic trial behaviours, or increase operational costs through returns. This Special Issue aims to address this gap by inviting new conceptual, methodological, qualitative, and quantitative contributions that advance insight into this domain.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>What psychological and informational mechanisms explain the effect of AI companions on basket conversion? How do these effects vary with trust, perceived agency, and disclosure in conversational assistance?</li>
+        
+        <li>To what extent do AI companions alter assortment exploration and basket structure in terms of variety seeking, complementarity, substitution patterns, and price sensitivity?</li>
+        
+        <li>Which conversational features (e.g., framing, explanations, tone, memory) act as key drivers?</li>
+        
+        <li>When does AI-induced conversion translate into higher decision quality and ex post satisfaction, and when does it instead generate regret, decision deferral, or dependence on assistance?</li>
+        
+        <li>What is the impact of AI companions on returns, distinguishing between informational mismatch, fit errors, overbuying, and opportunistic behaviours, and how do these dynamics vary across product categories and channels (online vs. omnichannel)?</li>
+        
+        <li>How can companion design (e.g., explainability, user controls, limits on persuasion, &#39;pro-social&#39; nudges) reduce returns and increase decision quality without depressing conversion and revenues?</li>
+        
+        <li>What are the distributional effects of AI companions on consumers with different levels of digital literacy and vulnerability, and which policies or governance standards are needed to ensure transparency, accountability, and fairness?</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 5, 2026: Opening date for manuscripts submissions</li>
+        
+        <li>January 11, 2026: Closing date for manuscripts submission</li>
+        
+        <li>April 15, 2027: Final acceptance date</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>International Journal of Retail &amp; Distribution Management (EMERALD)</author>
+        </item>
+    </channel>
+</rss>

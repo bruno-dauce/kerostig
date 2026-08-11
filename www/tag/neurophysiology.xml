@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: neurophysiology</title>
+        <link>https://callsforpapers.org/tag/neurophysiology</link>
+        <description>Latest calls for papers tagged with 'neurophysiology'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: neurophysiology</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/neurophysiology</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Neurophysiological Foundations and Effects of Contemporary Digital Technologies]]></title>
+            <link>https://callsforpapers.org/call/tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies</link>
+            <guid>tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>René Riedl</strong>, University of Applied Sciences Upper Austria &amp; Johannes Kepler University Linz</p>
+        
+        <p><strong>Jan vom Brocke</strong>, University of Münster</p>
+        
+        <p><strong>Jella Pfeiffer</strong>, Karlsruhe Institute of Technology</p>
+        
+        <p><strong>Robert Gleasure</strong>, Copenhagen Business School</p>
+        
+    
+    
+    <p>The advent of increasingly powerful artificial intelligence systems (e.g., large language models such as ChatGPT, diffusion models, graph neural networks, or vision transformers) used in domains such as healthcare, manufacturing, software development and finance, together with other contemporary digital technologies (e.g., autonomous cars, immersive worlds, and neuroadaptive interfaces), has fundamentally reshaped human interaction with information systems. As these technologies become embedded in work, consumption, private life, and society in general, the ways in which they affect human cognition, emotion, and social interaction remain poorly understood.</p>
+    
+    <p>A growing body of research highlights that neurophysiological methods can provide unique insights into these phenomena across a broad range of IS contexts. NeuroIS—the interdisciplinary field that integrates neuroscience and psychophysiological approaches with information systems—has been at the forefront of this movement. Originating at the International Conference on Information Systems in Montréal in 2007, NeuroIS celebrates its 20-year anniversary in 2027. This milestone provides an opportune moment to reflect on the progress achieved, highlight challenges, and chart new directions for NeuroIS research in an era of rapid technological change.</p>
+    
+    <p>Over the past two decades, NeuroIS research has established the potential of neurophysiological methods such as electroencephalography (EEG), functional magnetic resonance imaging (fMRI), functional near-infrared spectroscopy (fNIRS), eye tracking, and various other neurophysiological measures to enrich IS theory. These approaches have been shown to improve prediction accuracy of different IS phenomena, uncover hidden cognitive and affective mechanisms, and open new methodological horizons. A particularly important trajectory in this research stream has been the integration of neurophysiological and behavioral levels of analysis by linking neural responses to observable IS-related behaviors and self-report measures.</p>
+    
+    <p>In an era of pervasive digitalization, this integration becomes even more essential. Understanding not only what individuals do when interacting with advanced digital systems, but also how their brains and bodies adapt, allows researchers to explain emergent behaviors such as overreliance, automation bias, algorithm aversion, new forms of collaborative cognition, or cognitive debt. Neurophysiological measures enable the study of phenomena that may remain inaccessible to self-reports or behavioral observation alone, such as unconscious biases, implicit trust, or neural markers of attention and memory.</p>
+    
+    <p>Beyond neurophysiology, this special issue also welcomes work that integrates genetic perspectives into IS research. Prior publications have demonstrated the promise of genetics for explaining individual differences in IS-related behaviors. Combining genetic and neurophysiological approaches may provide a powerful multi-level framework to understand how contemporary digital technologies affect humans at both biological and behavioral levels.</p>
+    
+    <p>This special issue seeks high-quality, theory-driven, and methodologically rigorous research that examines the neurophysiological and related biological foundations, mechanisms, and effects of contemporary IS technologies and sociotechnical systems—incorporating AI as an important case, but not limiting the scope to AI. We invite submissions from information systems scholars, neuroscientists, psychologists, computer scientists, geneticists, and other disciplines to advance understanding of how contemporary IS reshapes human cognition, affect, decision-making, and social interaction.</p>
+    
+    <p>This special issue encourages contributions across the full range of IS research traditions. Neurophysiological and genetic insights may advance design-oriented research by informing new principles for human-centered and neuroadaptive system design. They may also enrich IS economics research by offering a biological basis for understanding productivity, well-being, or value creation in digitally mediated contexts. Studies grounded in organizational behavior, strategy, or societal perspectives are highly relevant if they integrate or reflect on neurophysiological evidence.</p>
+    
+    <p>In line with EJIS&#39; tradition of intellectual openness, this special issue explicitly welcomes visionary, provocative, and contrarian contributions that challenge taken-for-granted assumptions, problematize dominant narratives, or open up unconventional research directions.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>How does sustained interaction with AI-enabled systems (e.g., LLMs) and other advanced digital tools reshape neural networks associated with language, reasoning, and memory?</li>
+        
+        <li>Does reliance on AI systems and other forms of automation/digital decision support alter attentional control, working memory, metacognition, or problem-solving processes at the neurophysiological and behavioral levels?</li>
+        
+        <li>What are the implications of digitally augmented cognition for neuroplasticity, skill acquisition, and expertise development over time?</li>
+        
+        <li>How can integrated neurophysiological and behavioral measures provide a fuller picture of technology-mediated cognitive processes?</li>
+        
+        <li>How do individuals&#39; brains respond to empathetic or anthropomorphic cues exhibited by conversational AI and other interactive systems?</li>
+        
+        <li>What neurophysiological correlates underlie trust, reliance, distrust, or skepticism toward AI systems and other algorithmic or platform-based systems?</li>
+        
+        <li>How does emotional regulation change when decision-making is mediated by AI support, algorithmic decision aids, or digital nudges?</li>
+        
+        <li>What are the neurophysiological mechanisms of stress, fatigue, or overload in contexts of AI-assisted work and other digitally intensified work settings?</li>
+        
+        <li>How does technological mediation in team collaboration influence the neurophysiological foundations of social coordination, empathy, and shared attention?</li>
+        
+        <li>What neural mechanisms underlie shifts in authority, leadership, and influence when AI becomes a co-decision-maker?</li>
+        
+        <li>How do cultural differences modulate neurophysiological responses to AI and other digitally mediated collaboration settings?</li>
+        
+        <li>How do gender, age, or personality differences modulate neurophysiological responses to IS artifacts?</li>
+        
+        <li>How might AI-driven systems and other algorithmic designs reinforce or mitigate cognitive biases?</li>
+        
+        <li>What neural signatures accompany ethical dilemmas and moral decision-making in AI-mediated contexts?</li>
+        
+        <li>How does long-term use of AI and other digitally intensive work systems shape neurophysiological well-being, stress, or mental health?</li>
+        
+        <li>How can neurophysiological insights inform the design of AI systems and other digital systems?</li>
+        
+        <li>What are the neurophysiological underpinnings of productivity, efficiency, or value creation in digitally mediated economic interactions?</li>
+        
+        <li>How can genetic and neurophysiological approaches together explain individual differences in the adoption and use of digital systems?</li>
+        
+        <li>Which neurophysiological tools are best suited for investigating contemporary IS phenomena?</li>
+        
+        <li>How can hybrid approaches combining neurophysiology with computational methods enrich IS theory development?</li>
+        
+        <li>How can multi-level research designs integrate genetic, neurophysiological, behavioral, self-report, and organizational data?</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 31, 2026: Two-page abstracts due</li>
+        
+        <li>April 30, 2026: Feedback on abstracts</li>
+        
+        <li>May 31, 2026: Paper development workshop (in person event in Vienna, Austria, and virtual)</li>
+        
+        <li>August 31, 2026: First-round paper submission</li>
+        
+        <li>November 30, 2026: First-round decisions</li>
+        
+        <li>February 28, 2027: First-round revisions due</li>
+        
+        <li>May 31, 2027: Second-round decisions</li>
+        
+        <li>August 31, 2027: Second-round revisions due</li>
+        
+        <li>October 31, 2027: Final decisions</li>
+        
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Bonnie B. Anderson</strong>, Brigham Young University</li>
+        
+        <li><strong>Dinko Bačić</strong>, Loyola University Chicago</li>
+        
+        <li><strong>Colin Conrad</strong>, Dalhousie University</li>
+        
+        <li><strong>Verena Dorner</strong>, Vienna University of Economics and Business</li>
+        
+        <li><strong>Nadine R. Gier-Reinartz</strong>, Heinrich-Heine-University Düsseldorf</li>
+        
+        <li><strong>Milena Head</strong>, McMaster University</li>
+        
+        <li><strong>Alan R. Hevner</strong>, University of South Florida</li>
+        
+        <li><strong>Qiqi Jiang</strong>, Copenhagen Business School</li>
+        
+        <li><strong>Marion Korosec-Serfaty</strong>, University of Québec in Montréal</li>
+        
+        <li><strong>Alexander Maedche</strong>, Karlsruhe Institute of Technology</li>
+        
+        <li><strong>Gernot R. Mueller-Putz</strong>, Graz University of Technology</li>
+        
+        <li><strong>Pierre-Majorique Léger</strong>, HEC Montréal</li>
+        
+        <li><strong>Mario Nadj</strong>, University of Duisburg-Essen</li>
+        
+        <li><strong>Fiona Nah</strong>, Singapore Management University</li>
+        
+        <li><strong>Adriane Randolph</strong>, Kennesaw State University</li>
+        
+        <li><strong>Ofir Turel</strong>, University of Melbourne</li>
+        
+        <li><strong>Eric A. Walden</strong>, Texas Tech University</li>
+        
+        <li><strong>Peter Walla</strong>, Sigmund Freud Private University Vienna</li>
+        
+        <li><strong>Dezhi Wu</strong>, University of South Carolina</li>
+        
+    </ul>
+    
+</div>]]></content:encoded>
+            <author>European Journal of Information Systems (TANDF)</author>
+        </item>
+    </channel>
+</rss>

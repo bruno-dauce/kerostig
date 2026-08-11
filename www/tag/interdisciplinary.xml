@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: interdisciplinary</title>
+        <link>https://callsforpapers.org/tag/interdisciplinary</link>
+        <description>Latest calls for papers tagged with 'interdisciplinary'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: interdisciplinary</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/interdisciplinary</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[The Human-Algorithm Connection]]></title>
+            <link>https://callsforpapers.org/call/informs-the-human-algorithm-connection</link>
+            <guid>informs-the-human-algorithm-connection</guid>
+            <pubDate>Tue, 11 Aug 2026 01:40:43 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    <p>The special issue on the human-algorithm connection seeks to attract research that gives decision-makers a better understanding of the coexistence of humans with algorithms and how to improve it. The work must have an important human component (i.e., purely focusing on algorithms won&#39;t suffice) and algorithms can be understood in a broad sense including machines and apps.</p>
+    
+    <p>Top quality papers in any of the research areas represented by Management Science are welcome, both theoretical and empirical. Interdisciplinary studies are also highly encouraged.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Research on human-algorithm coexistence and interaction</li>
+        
+        <li>Decision-making with algorithms and machines</li>
+        
+        <li>Human factors in algorithmic systems</li>
+        
+        <li>Improving human-algorithm collaboration</li>
+        
+        <li>Applications of algorithms, machines, and apps in organizational contexts</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 22, 2022: Submission Deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Management Science (INFORMS)</author>
+        </item>
+    </channel>
+</rss>

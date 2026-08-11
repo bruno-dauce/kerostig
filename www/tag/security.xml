@@ -4,7 +4,7 @@
         <title>Calls for Papers | Tag: security</title>
         <link>https://callsforpapers.org/tag/security</link>
         <description>Latest calls for papers tagged with 'security'.</description>
-        <lastBuildDate>Thu, 29 Jan 2026 04:13:21 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 15:51:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -15,52 +15,66 @@
         </image>
         <copyright>Calls for Papers © 2025</copyright>
         <item>
-            <title><![CDATA[AI-IA Nexus: The Future of Information Systems Security, Privacy, and Quality]]></title>
-            <link>https://callsforpapers.org/call/misq-ai-ia-nexus</link>
-            <guid>misq-ai-ia-nexus</guid>
-            <pubDate>Wed, 16 Oct 2024 05:11:12 GMT</pubDate>
+            <title><![CDATA[Innovation, Security, and Resilience: Firm Strategy and Industrial Dynamics amid Critical Infrastructure Disruption]]></title>
+            <link>https://callsforpapers.org/call/tandf-innovation-security-and-resilience-firm-strategy-and-industrial-dynamics-amid-critical-infrastructure-disruption</link>
+            <guid>tandf-innovation-security-and-resilience-firm-strategy-and-industrial-dynamics-amid-critical-infrastructure-disruption</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>
     
         
-        <p><strong>Rui Chen</strong>, Iowa State University</p>
+        <p><strong>Michele Acciaro</strong>, Copenhagen Business School</p>
         
-        <p><strong>Juan Feng</strong>, Tsinghua University</p>
+        <p><strong>Martin Jes Iversen</strong>, Copenhagen Business School</p>
         
-        <p><strong>Miguel Godinho de Matos</strong>, Católica Lisbon School of Business &amp; Economics</p>
+        <p><strong>Ioannis Lagoudis</strong>, University of Piraeus</p>
         
-        <p><strong>Carol Hsu</strong>, University of Sydney</p>
+        <p><strong>Iryna Savelieva</strong>, Odesa National Maritime University</p>
         
-        <p><strong>H. Raghav Rao</strong>, University of Texas at San Antonio</p>
+        <p><strong>Dong Yang</strong>, The Hong Kong Polytechnic University</p>
+        
+        <p><strong>Kum Fai Yuen</strong>, Nanyang Technological University</p>
         
     
     
-    <p>Digital threats continue to impede information assurance. Many issues in information assurance have arisen in the last decade or two, including risk management, information quality, intellectual property, privacy protection, compliance with regulations, and continuity of operations. As a result, protecting information has become a global priority, and collaborative efforts are being made to prevent, detect, and react to threats to information quality, authenticity, integrity, confidentiality, and availability.</p>
+    <p>Critical infrastructure (CI) systems, such as energy, transportation, telecommunications, and water, form the backbone of modern economies. These systems face unprecedented challenges from technological disruptions, geopolitical tensions, environmental pressures, and evolving security threats, from cyber-attacks and supply chain vulnerabilities to climate impacts. Virtually no firm can consider itself independent from CI, as infrastructure disruptions cascade through supply chains, energy failures halt production, and transportation bottlenecks constrain competitiveness.</p>
     
-    <p>As society steps into the age of generative AI (GenAI), fresh challenges and opportunities are arising in the realms of information security, privacy, and quality. Questions have emerged regarding the role and intended/unintended consequences of GenAI in information assurance. GenAI is believed to pose a paradox, serving as a dual-edged sword in the realm of information assurance.</p>
+    <p>The deep interconnection between innovation and security, conceptualized as the &#39;security-innovation nexus&#39;, has emerged as a defining feature of contemporary political economy. Understanding CI security innovation requires engaging with complex interdependencies where technological capabilities, industrial structures, geopolitical strategies, and security co-evolve. Innovation systems frameworks offer powerful analytical lenses for this purpose, yet CI systems remain relatively understudied within innovation studies despite their strategic importance.</p>
     
-    <p>The emergence of GenAI is poised to exert a profound impact on assurance. On the one hand, GenAI has been recognized for its ability to bolster information assurance and has the potential to strengthen business defenses, accelerate security processes, and identify emerging threats as they arise. On the other hand, GenAI heightens the potency of existing threats, allows the fabrication of false information, fuels intellectual property theft, and poses challenges to governance and compliance. The 2024 February deepfake fraud incident in Hong Kong is a case in point.</p>
+    <p>The integration of innovation and security objectives presents important governance challenges. Poorly designed security governance can undermine innovation by fragmenting knowledge networks, while innovation without security governance increases systemic fragility. These tensions manifest across multiple levels: at the firm level, companies must balance security investment with innovation focus; at the sectoral level, CI operators must coordinate heterogeneous actors; at the policy level, governments must manage trade-offs between openness and security controls.</p>
     
-    <p>Tremendous new opportunities exist for information systems scholars to study information assurance issues within the context of GenAI, as traditional approaches may not work. This special issue seeks research that goes beyond simple applications of existing theories and methods from the cybersecurity literature in IS. We invite studies that explore the unique information assurance challenges in the realm of GenAI, calling for the development and application of new theories or methods.</p>
+    <p>These tensions also generate pressing ethical dilemmas, most visibly around dual-use technologies whose civilian and security applications cannot be cleanly separated. Such dilemmas place renewed demands on corporate responsibility, responsible innovation, and on assessments of the social value created—or eroded—by security-oriented technological change in CI sectors.</p>
+    
+    <p>Recent geopolitical developments, including the Russia-Ukraine war and the Israel-US war on Iran, the US-China technology competition, and strategic contests over semiconductors, critical raw materials, and telecommunications infrastructure, have heightened the urgency of this research agenda. Critical raw materials have emerged as a key concern especially in relation to green technology transitions, with implications spanning from renewable energy infrastructure to shipbuilding and defence industries. Digital transformation across CI sectors, including autonomous systems, AI, IoT, and cyber-physical systems, is simultaneously reshaping capabilities and creating new vulnerabilities. High-profile cybersecurity incidents in energy, transportation, and telecommunications networks demonstrate how cyber resilience has become a core dimension of infrastructure security.</p>
+    
+    <p>From an organizational perspective, security concerns in CI create innovation opportunities for dependent firms while reshaping CI provision itself. Firms perceiving infrastructure vulnerabilities, e.g., geopolitical risks threatening supply chains, cybersecurity threats to networks, or climate impacts on energy grids, develop organizational innovations to reduce dependency and enhance resilience. Importantly, these innovations frequently diffuse back into CI sectors and adjacent industries, constituting a bidirectional dynamic that remains a crucial but understudied dimension of CI innovation.</p>
     
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Sophisticated human-deception attacks including vishing and deepfakes</li>
+        <li>Innovation Systems, Governance, and Geopolitics - Technological Innovation Systems (TIS) approach for CI security and how security-focused innovation systems emerge and evolve</li>
         
-        <li>Hallucination and confabulation leading to misinformation</li>
+        <li>Innovation Systems, Governance, and Geopolitics - Sectoral and technological innovation systems in CI security, knowledge bases, and actor networks</li>
         
-        <li>Intellectual property theft from GenAI-generated content</li>
+        <li>Innovation Systems, Governance, and Geopolitics - Regulatory innovation and multi-level governance approaches balancing security, safety, and economic efficiency</li>
         
-        <li>Regulation and compliance challenges with GenAI models</li>
+        <li>Innovation Systems, Governance, and Geopolitics - Geopolitical competition, technology sovereignty, and industrial policy effects on CI innovation systems</li>
         
-        <li>Unreliable training data and its impact on LLMs</li>
+        <li>Firm Strategies, Organizational Innovation, and Resilience - Organizational innovation and adaptation in response to CI system vulnerabilities</li>
         
-        <li>Data poisoning risks in AI models</li>
+        <li>Firm Strategies, Organizational Innovation, and Resilience - Firm strategies, organizational innovation, and business models for infrastructure security</li>
         
-        <li>Security leaks and inference attacks related to GenAI</li>
+        <li>Firm Strategies, Organizational Innovation, and Resilience - Resilience, supply chain security, and infrastructure interdependencies</li>
         
-        <li>Prompt injections and their implications</li>
+        <li>Digital Transformation, Sustainability Transitions, and Human Factors - Digital transformation, automation, and cybersecurity in critical infrastructure</li>
+        
+        <li>Digital Transformation, Sustainability Transitions, and Human Factors - Sustainability transitions and the security-environment nexus</li>
+        
+        <li>Digital Transformation, Sustainability Transitions, and Human Factors - Socio-technical transitions, ethics, and human factors in CI sectors</li>
+        
+        <li>Multi-Level Transitions and Sectoral Applications - Multi-level dynamics of transitions with focus on critical infrastructure</li>
+        
+        <li>Multi-Level Transitions and Sectoral Applications - Sectoral applications including energy, transportation, telecommunications, water, financial systems, healthcare, and space infrastructure</li>
         
     </ul>
     
@@ -68,102 +82,17 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>January 20, 2025: Two-page abstracts due</li>
+        <li>Invalid DateTime: Publication of the special issue</li>
         
-        <li>October 31, 2025: First-round paper submission</li>
+        <li>December 15, 2026: Submission opens</li>
         
-        <li>January 31, 2026: First-round decisions</li>
-        
-        <li>February 1, 2026: Workshop for authors with R&amp;R</li>
-        
-        <li>May 31, 2026: Second-round revisions due</li>
-        
-        <li>August 31, 2026: Second-round decisions</li>
-        
-        <li>November 30, 2026: Final revisions due</li>
-        
-        <li>February 28, 2027: Final revisions</li>
+        <li>January 31, 2027: Submissions due</li>
         
     </ul>
     
-    
-    <h2>Associate editors</h2>
-    <ul>
-        
-        <li><strong>Panagiotis Adamopoulos</strong>, Emory University</li>
-        
-        <li><strong>Jingjing Li</strong>, University of Virginia</li>
-        
-        <li><strong>Rodrigo Belo</strong>, Nova School of Business and Economics</li>
-        
-        <li><strong>Huigang Liang</strong>, University of Memphis</li>
-        
-        <li><strong>Indranil Bose</strong>, NEOMA</li>
-        
-        <li><strong>Alexander Maedche</strong>, Karlsruhe Institute of Technology</li>
-        
-        <li><strong>Lemuria Carter</strong>, University of Sydney</li>
-        
-        <li><strong>Ning Nan</strong>, University of British Columbia</li>
-        
-        <li><strong>Christy Cheung</strong>, Hong Kong Baptist University</li>
-        
-        <li><strong>Jella Pfeiffer</strong>, University of Stuttgart</li>
-        
-        <li><strong>Rahul De&#39;</strong>, Indian Institute of Management Bangalore</li>
-        
-        <li><strong>Dandan Qiao</strong>, National University of Singapore</li>
-        
-        <li><strong>Amany Elbanna</strong>, University of Sussex</li>
-        
-        <li><strong>Sagar Samtani</strong>, Indiana University</li>
-        
-        <li><strong>Uri Gal</strong>, University of Sydney</li>
-        
-        <li><strong>Anastasia Sergeeva</strong>, Vrije Universiteit Amsterdam</li>
-        
-        <li><strong>Weiyin Hong</strong>, Hong Kong University of Science and Technology</li>
-        
-        <li><strong>Maha Shaikh</strong>, ESADE Business School</li>
-        
-        <li><strong>Nina Huang</strong>, University of Miami</li>
-        
-        <li><strong>Paolo Spagnoletti</strong>, Luiss Business School</li>
-        
-        <li><strong>Hartmut Höhle</strong>, University of Mannheim</li>
-        
-        <li><strong>Rohit Valecha</strong>, University of Texas at San Antonio</li>
-        
-        <li><strong>Allen Johnston</strong>, University of Alabama</li>
-        
-        <li><strong>Jing Wang</strong>, Hong Kong University of Science and Technology</li>
-        
-        <li><strong>Arpan Kar</strong>, Indian Institute of Technology</li>
-        
-        <li><strong>Jingguo Wang</strong>, University of Texas at Arlington</li>
-        
-        <li><strong>Juhee Kwon</strong>, City University of Hong Kong</li>
-        
-        <li><strong>Hong Xu</strong>, Hong Kong University of Science and Technology</li>
-        
-        <li><strong>Atanu Lahiri</strong>, University of Texas at Dallas</li>
-        
-        <li><strong>Alvin Leung</strong>, City University of Hong Kong</li>
-        
-        <li><strong>Ting Li</strong>, Erasmus University</li>
-        
-        <li><strong>Heng Xu</strong>, University of Florida</li>
-        
-        <li><strong>Niam Yaraghi</strong>, University of Miami</li>
-        
-        <li><strong>Cathy Liu Yang</strong>, HEC Paris</li>
-        
-        <li><strong>Yingjie Zhang</strong>, Peking University</li>
-        
-    </ul>
     
 </div>]]></content:encoded>
-            <author>MIS Quarterly (MISQ)</author>
+            <author>Industry and Innovation (TANDF)</author>
         </item>
     </channel>
 </rss>
