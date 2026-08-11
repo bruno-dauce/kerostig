@@ -1,22 +1,27 @@
 name: Scrape calls for papers
-
 on:
   workflow_dispatch:
+    inputs:
+      only:
+        description: 'Scraper unique a lancer (ex: sage, emerald)'
+        required: false
   schedule:
     - cron: '10 2 * * *'
-
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout this repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - run: npm ci
       - name: Scrape
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
-        run: xvfb-run npm run scrape --if-present
+          MODEL_NAME: ${{ secrets.MODEL_NAME }}
+        run: xvfb-run node ./scrapers/scraper.mjs ${{ inputs.only && format('--only {0}', inputs.only) || '' }}
       - run: npm run rss --if-present
       - name: Commit and push if it changed
         run: |-
