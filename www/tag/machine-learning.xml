@@ -4,7 +4,7 @@
         <title>Calls for Papers | Tag: machine learning</title>
         <link>https://callsforpapers.org/tag/machine-learning</link>
         <description>Latest calls for papers tagged with 'machine learning'.</description>
-        <lastBuildDate>Tue, 11 Aug 2026 16:13:48 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 21:44:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -14,6 +14,270 @@
             <link>https://callsforpapers.org/tag/machine-learning</link>
         </image>
         <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Contextual Optimization with Side Information: Theory, Methodology, and Applications]]></title>
+            <link>https://callsforpapers.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications</link>
+            <guid>springer-contextual-optimization-with-side-information-theory-methodology-and-applications</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Stelios Bekiros</strong>, University of Turin</p>
+        
+        <p><strong>Andrea D&#39;Ariano</strong>, Roma Tre University</p>
+        
+        <p><strong>Peng Wu</strong>, Fuzhou University</p>
+        
+        <p><strong>Guowei Zhang</strong>, Dalian University of Technology</p>
+        
+    
+    
+    <p>Operations research (OR) problems increasingly arise in data-rich and highly uncertain environments where operational decisions must adapt dynamically to evolving contextual information. Advances in sensing technologies, digital platforms, enterprise systems, and large-scale data collection have significantly expanded the availability of side information related to demand patterns, operational states, user behaviors, market conditions, and environmental factors. In many modern applications, such contextual information provides valuable predictive signals that can substantially improve decision quality when effectively integrated into optimization models.</p>
+    
+    <p>In response, contextual optimization has emerged as a rapidly growing research direction at the intersection of optimization, machine learning, statistics, and prescriptive analytics. Unlike classical optimization paradigms that rely solely on historical averages or predefined uncertainty sets, contextual optimization explicitly incorporates side information into the decision-making process, enabling more adaptive, personalized, and data-driven operational policies. Recent developments in this area include contextual stochastic optimization, distributionally robust optimization with covariates, decision-focused learning, learning-enhanced optimization, online optimization, and adaptive decision-making frameworks.</p>
+    
+    <p>Despite substantial progress, several important challenges remain open. Real-world contextual optimization problems often involve high-dimensional and heterogeneous data, noisy or incomplete observations, distribution shifts, privacy concerns, interpretability requirements, and stringent real-time computational constraints. Moreover, predictive accuracy alone is insufficient in operational settings; the ultimate objective is to improve downstream decision quality and system performance. Consequently, there is a growing need for new theories, methodologies, and computational frameworks that systematically integrate learning, analytics, and optimization under uncertainty.</p>
+    
+    <p>This special issue aims to bring together recent advances in contextual and data-driven optimization methods, with particular emphasis on optimization and decision making under uncertainty using side information. We welcome high-quality contributions that develop novel theories, models, algorithms, and applications integrating optimization with machine learning, statistical learning, and data analytics.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Contextual Stochastic Optimization</li>
+        
+        <li>Distributionally Robust Optimization with Side Information</li>
+        
+        <li>Prescriptive Analytics and Contextual Decision Making</li>
+        
+        <li>Learning-Enhanced Optimization</li>
+        
+        <li>Decision-Focused Learning</li>
+        
+        <li>Online, Dynamic, and Adaptive Optimization</li>
+        
+        <li>Learning-Augmented Algorithms</li>
+        
+        <li>Interpretable and Trustworthy Optimization Models</li>
+        
+        <li>Statistical Guarantees and Generalization in Optimization</li>
+        
+        <li>Data-Driven Optimization Under Uncertainty</li>
+        
+        <li>AI and Machine Learning for OR</li>
+        
+        <li>Human-in-the-Loop Optimization</li>
+        
+        <li>Optimization with Foundation Models or Generative AI</li>
+        
+        <li>Scalable Algorithms for Large-Scale Optimization Problems</li>
+        
+        <li>Digital Twin and Real-Time Decision Systems</li>
+        
+        <li>Contextual Transportation and Logistics Optimization</li>
+        
+        <li>Contextual Supply Chain and Revenue Management</li>
+        
+        <li>Data-Driven Healthcare and Service Operations</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>July 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Annals of Operations Research (SPRINGER)</author>
+        </item>
+        <item>
+            <title><![CDATA[Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems]]></title>
+            <link>https://callsforpapers.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</link>
+            <guid>springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Yi-Kuei Lin</strong>, National Yang Ming Chiao Tung University</p>
+        
+    
+    
+    <p>Industrial engineering systems, including manufacturing systems, supply chains, logistics networks, energy and power systems, transportation systems, and service operations, play a critical role in modern society. The reliable operation of such systems is essential for ensuring efficiency, safety, and robustness in the presence of uncertainty, disruptions, and complex interactions among system components. Failures or performance degradation in these systems may lead to significant economic losses, operational inefficiencies, and societal impacts.</p>
+    
+    <p>Traditionally, reliability modeling in industrial engineering has been grounded in probabilistic analysis, stochastic modeling, and analytical evaluation techniques. While these approaches remain fundamental, recent advances in sensing technologies, industrial Internet of Things, and information systems have enabled the collection of large-scale operational and condition-monitoring data. This has led to a growing interest in data-driven and intelligent reliability modeling, where statistical learning, machine learning, and other statistical analytical approaches complement classical reliability theory.</p>
+    
+    <p>At the same time, reliability analysis is increasingly expected to support decision-making processes, such as maintenance planning, resource allocation, system design, and operational optimization. Integrating reliability modeling with decision support frameworks allows practitioners and decision-makers to move beyond reliability assessment toward actionable, reliability-informed decisions under uncertainty.</p>
+    
+    <p>We invite submissions on topics related to reliability modeling and decision support for industrial engineering systems using Operations Research, industrial engineering, and data-driven methodologies. Contributions addressing both theoretical developments and practical applications are welcome.</p>
+    
+    <p>We welcome the submission of original research papers that provide new insights and practical solutions to challenges in reliability modeling and decision support for industrial engineering systems. Submissions should demonstrate methodological rigor and clearly highlight their relevance to real-world industrial applications. Papers that illustrate how data-driven reliability analysis can enhance decision-making and system performance are particularly encouraged.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Data-driven reliability modeling and parameter estimation using operational data</li>
+        
+        <li>Reliability analysis using statistical learning and machine learning methods</li>
+        
+        <li>Reliability models combining analytical formulations with data-driven learning approaches</li>
+        
+        <li>Decision support systems incorporating reliability analysis and risk information</li>
+        
+        <li>Optimization and decision-making problems informed by reliability performance</li>
+        
+        <li>Predictive maintenance and condition monitoring using data and learning models</li>
+        
+        <li>Multistate system and network reliability analysis</li>
+        
+        <li>Reliability evaluation of manufacturing, logistics, and supply chain systems</li>
+        
+        <li>Reliability modeling in energy, power, and infrastructure systems</li>
+        
+        <li>Stochastic modeling and uncertainty analysis in data-driven reliability studies</li>
+        
+        <li>Simulation, enumeration, and approximation methods for reliability evaluation</li>
+        
+        <li>System design and resource allocation considering reliability and operational data</li>
+        
+        <li>Reliability analysis supported by digital twins, data analytics, and intelligent systems</li>
+        
+        <li>Reliability, robustness, and resilience of industrial engineering systems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>July 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Annals of Operations Research (SPRINGER)</author>
+        </item>
+        <item>
+            <title><![CDATA[Advanced Machine Learning for System Reliability Management]]></title>
+            <link>https://callsforpapers.org/call/springer-advanced-machine-learning-for-system-reliability-management</link>
+            <guid>springer-advanced-machine-learning-for-system-reliability-management</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Xu-Feng Zhao</strong>, Nanjing University of Aeronautics and Astronautics</p>
+        
+        <p><strong>Yan-Fu Li</strong>, Tsinghua University</p>
+        
+        <p><strong>Hoang Pham</strong>, Rutgers University</p>
+        
+    
+    
+    <p>Modern industrial systems generate massive datasets from sensor monitoring, which presents computational and memory challenges in data processing. Advanced machine learning technologies such as transfer learning, federated learning, quantum machine learning, and reinforcement learning offer effective and scalable solutions for processing and analyzing large volumes of data, as well as supporting subsequent decision-making.</p>
+    
+    <p>Recently, various new techniques of advanced machine learning have already been applied to system reliability management, such as fault diagnosis, health condition assessment, remaining useful life prediction, degradation modeling, and maintenance optimization. Yet, ongoing research works continue to explore this exciting research area.</p>
+    
+    <p>This special issue invites high-quality original research papers, review papers, and case studies that delve into advancements in advanced machine learning for system reliability management.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Deep learning for anomaly detection and/or fault detection</li>
+        
+        <li>Machine learning-enhanced maintenance optimization</li>
+        
+        <li>Federated learning for system monitoring and predictive maintenance</li>
+        
+        <li>Reinforcement learning for maintenance decision making</li>
+        
+        <li>Transfer learning for cross-domain maintenance</li>
+        
+        <li>Generative models for synthetic data generation for predictive maintenance</li>
+        
+        <li>Self-supervised learning for unlabeled data for fault detection</li>
+        
+        <li>Large models for fault detection and/or diagnosis</li>
+        
+        <li>Generative models for reliability testing</li>
+        
+        <li>Meta-heuristics for large-scale reliability design optimization</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>May 30, 2026: Manuscript submission deadline</li>
+        
+        <li>August 31, 2026: Submission deadline for special issue</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Annals of Operations Research (SPRINGER)</author>
+        </item>
+        <item>
+            <title><![CDATA[Advances in Reliability and Statistical Computing for Intelligent Systems]]></title>
+            <link>https://callsforpapers.org/call/springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems</link>
+            <guid>springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Hoang Pham</strong>, Rutgers, The State University of New Jersey</p>
+        
+    
+    
+    <p>The era of AI, through its focus on the reliability and statistical machine computing of intelligent systems in everyday applications and the service industry, has experienced a dramatic shift in recent years. Such systems require reliable and timely responses.</p>
+    
+    <p>Articles concerning new theoretical research and methods in advanced reliability and statistical computing for intelligent systems are solicited. Preference will be given to papers with real-world applications over purely theoretical papers.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Mathematical reliability and statistical methods</li>
+        
+        <li>Big data modeling and prediction</li>
+        
+        <li>Statistical learning algorithms, models, and theories</li>
+        
+        <li>Machine learning models for intelligent systems</li>
+        
+        <li>Text mining and deep machine learning</li>
+        
+        <li>Intelligent system dependability and performability</li>
+        
+        <li>Reliability modeling and optimization</li>
+        
+        <li>High-dimensional data analysis</li>
+        
+        <li>Statistical inference for intelligent systems</li>
+        
+        <li>Industrial case studies in intelligent systems, including field and service robotics, medical care, education, visual surveillance, intelligent transportation, etc.</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Annals of Operations Research (SPRINGER)</author>
+        </item>
         <item>
             <title><![CDATA[Interface between Human Users and Machine Learning Models in Medical Decision Making]]></title>
             <link>https://callsforpapers.org/call/sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making</link>

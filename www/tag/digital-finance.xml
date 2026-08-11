@@ -4,7 +4,7 @@
         <title>Calls for Papers | Tag: digital finance</title>
         <link>https://callsforpapers.org/tag/digital-finance</link>
         <description>Latest calls for papers tagged with 'digital finance'.</description>
-        <lastBuildDate>Tue, 11 Aug 2026 16:13:48 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 21:44:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -14,6 +14,76 @@
             <link>https://callsforpapers.org/tag/digital-finance</link>
         </image>
         <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Contemporary research in financial technology (Fintech)]]></title>
+            <link>https://callsforpapers.org/call/springer-topical-collection-on-contemporary-research-in-financial-technology-fintech</link>
+            <guid>springer-topical-collection-on-contemporary-research-in-financial-technology-fintech</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Rainer Alt</strong>, Leipzig University</p>
+        
+        <p><strong>Rob Gleasure</strong>, Copenhagen Business School</p>
+        
+        <p><strong>Ke-Wei Huang</strong>, National University of Singapore</p>
+        
+        <p><strong>Mingfeng Lin</strong>, Georgia Institute of Technology</p>
+        
+        <p><strong>De Liu</strong>, University of Minnesota</p>
+        
+        <p><strong>Liudmila Zavolokina</strong>, University of Lausanne</p>
+        
+    
+    
+    <p>FinTech emerged as a disruptive force in the financial industry around 2010, introducing innovative applications and business models. Now an established sector, FinTech has revolutionized payment, financing, lending, and insurance through platform-based, customer-oriented, and crowd-based processes. On the one hand, FinTech solutions have reached a maturity, which is characterized by well-adopted solutions that have reached a critical mass as well as by a growing degree of regulation. In practice, investments in FinTech start-up ventures have decreased and much research has also been published with four special issues in the Electronic Markets journal alone. On the other hand, ongoing technological advancements like agentic and generative artificial intelligence, blockchain/distributed ledger technologies, and quantum computing are driving further innovations.</p>
+    
+    <p>Digital finance services are becoming more integrated with business processes and the interoperability between financial services has increased. Among the examples are innovative concepts like embedded banking where financial services are closely coupled with real economy processes, contextual banking where financial services adapt to where consumers are, silent banking where financial services are seamlessly integrated in business processes as well as open banking processes where banks offer their services via standardized interfaces on digital platforms. A variety of new services and business models (e.g., InsurTech, RegTech, and PropTech) has surfaced and enriched as well as transformed the landscape of the financial industry.</p>
+    
+    <p>This special issue focuses on these developments from various perspectives (e.g., strategic, organizational, technological issues) and welcomes diverse methodologies, including theory development, qualitative studies, economic research, experiments, surveys, simulations, and design science.</p>
+    
+    <p>Submissions should contribute novel insights to FinTech literature and practice while connecting to information systems research. Both quantitative and qualitative research methods are welcome, provided the research exhibits strong methodological rigor. Contributions can take the form of conceptual and theoretical development papers, empirical hypothesis testing, position papers, case-based studies, and more. All papers will undergo a double-blind peer-review process.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Interaction and integration between FinTech and traditional financial institutions (e.g., traditional banks, central banks, and central bank digital currencies)</li>
+        
+        <li>Study of segments of FinTech (InsurTech, PropTech, RegTech, Green FinTech and sustainable finance)</li>
+        
+        <li>Research on innovation processes in FinTech and analysis of (new) business models (e.g., crowd-based, digital platforms, decentralized business models)</li>
+        
+        <li>Upcoming concepts in Fintech (e.g., embedded, contextual, silent, open and ubiquitous finance and banking)</li>
+        
+        <li>Use of centralized (e.g., core banking/insurance systems) and decentralized digital platforms (e.g., blockchain and distributed ledger technology) for financial services</li>
+        
+        <li>Research on cryptocurrencies, crypto exchanges, and digital assets (e.g., tokenization, Initial Coin and Securitized Token Offerings (ICO/STO))</li>
+        
+        <li>Emerging standards in the financial industry (e.g., data/process standards and application programming interfaces) and regulations like PSD in Europe</li>
+        
+        <li>Adoption and business value of FinTech models and applications (e.g., financial inclusion and literacy, regulation and governance, diffusion and network effects)</li>
+        
+        <li>Emerging FinTech topics and applications (e.g., quantum computing, metaverse, Internet of Things, Agentic and Generative AI)</li>
+        
+        <li>Studies of innovative applications in FinTech (e.g., robo-advising, algorithmic trading, portfolio management, market making, and social trading)</li>
+        
+        <li>Innovative payment models and systems (e.g., payment networks, micropayments, mobile payments)</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>August 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Electronic Markets (SPRINGER)</author>
+        </item>
         <item>
             <title><![CDATA[Digital Finance]]></title>
             <link>https://callsforpapers.org/call/informs-virtual-digital-finance</link>

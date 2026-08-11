@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: multi-agent systems</title>
+        <link>https://callsforpapers.org/tag/multi-agent-systems</link>
+        <description>Latest calls for papers tagged with 'multi-agent systems'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 21:44:33 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: multi-agent systems</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/multi-agent-systems</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Collaborative Intelligence in Operations Research: Models, Methods, and Applications]]></title>
+            <link>https://callsforpapers.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</link>
+            <guid>springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Madjid Tavana</strong>, La Salle University</p>
+        
+        <p><strong>Olga Battaïa</strong>, KEDGE Business School</p>
+        
+        <p><strong>Yasser Dessouky</strong>, San Jose State University</p>
+        
+        <p><strong>Masood Fathi</strong>, University of Skövde</p>
+        
+        <p><strong>Reza Zanjirani Farahani</strong>, Paris School of Business</p>
+        
+    
+    
+    <p>The increasing complexity of modern decision-making demands advanced Operations Research (OR) models that integrate Collaborative Intelligence—the synergy between human expertise, Artificial Intelligence (AI)-driven decision support, and distributed problem-solving frameworks. This paradigm enhances adaptability, efficiency, and resilience in complex operations by leveraging multi-agent coordination, human-AI collaboration, decentralized optimization, and machine learning-enhanced decision-making.</p>
+    
+    <p>Traditional OR methodologies, despite their strengths in static environments, struggle with the dynamic, interconnected, and uncertain nature of modern decision-making. As Russell Ackoff noted in his 1956 article, &quot;The Aging of a Young Profession,&quot; OR was already showing signs of stagnation, becoming overly preoccupied with mathematical techniques rather than addressing real-world problems holistically. By 1979, in &quot;The Future of Operational Research is Past,&quot; he further criticized OR for prioritizing optimization within narrow constraints instead of embracing a systemic, interdisciplinary approach. Modern applications like logistics, production, service systems, and emergency response require more adaptive and interactive OR models. Collaborative Intelligence offers a transformative approach, enabling real-time interaction among humans, AI agents, and mathematical models to optimize problem-solving and system performance.</p>
+    
+    <p>The rapid advancements in AI have revolutionized decision-making across OR domains. However, fully autonomous AI systems face challenges in handling uncertainty, ethical considerations, and interpretability, particularly in high-stakes environments. Collaborative Intelligence bridges this gap by combining the computational power of AI with human intuition, adaptability, and ethical reasoning, fostering trust and robustness in decision-making.</p>
+    
+    <p>This special issue explores cutting-edge methodologies, theoretical advancements, and practical applications of Collaborative Intelligence in OR. We invite high-quality contributions that address how human expertise and AI can collaboratively enhance decision-making, improve system resilience, and optimize complex operational environments. We welcome original research contributions that propose innovative mathematical models, algorithms, and applications of OR for collaborative decision-making, resilience planning, decentralized optimization, and dynamic problem-solving in complex operational environments. Submissions should demonstrate theoretical rigor and practical relevance, focusing on advancing the state of the art in Collaborative Intelligence.</p>
+    
+    <p>This special issue aims to provide a platform for researchers and practitioners to share insights, methodologies, and case studies that highlight the transformative potential of Collaborative Intelligence in OR.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Designing OR models that facilitate seamless interaction and information exchange between human decision-makers and AI agents</li>
+        
+        <li>The framework for integrating human judgment, preferences, and ethical considerations into AI-driven decision-making</li>
+        
+        <li>Techniques for visualizing and interpreting AI outputs to enhance human understanding and trust</li>
+        
+        <li>Novel optimization algorithms and game-theoretic frameworks for coordinating and optimizing decisions in multi-agent environments</li>
+        
+        <li>Models addressing diverse objectives, capabilities, and interactions among multiple agents</li>
+        
+        <li>Approaches to managing conflicts, uncertainties, and strategic behaviors in multi-agent decision-making</li>
+        
+        <li>OR frameworks capable of dynamically adapting to real-time changes and uncertainties</li>
+        
+        <li>Decentralized optimization algorithms and control strategies for distributed systems</li>
+        
+        <li>Online learning and adaptive control techniques to improve system responsiveness and resilience</li>
+        
+        <li>Leveraging machine learning and data analytics to extract insights and patterns for OR applications</li>
+        
+        <li>Learning-based optimization algorithms that improve performance through data feedback</li>
+        
+        <li>Predictive analytics and simulation techniques for enhanced decision-making and risk management</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Annals of Operations Research (SPRINGER)</author>
+        </item>
+    </channel>
+</rss>

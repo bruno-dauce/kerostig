@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: contextual optimization</title>
+        <link>https://callsforpapers.org/tag/contextual-optimization</link>
+        <description>Latest calls for papers tagged with 'contextual optimization'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 21:44:33 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: contextual optimization</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/contextual-optimization</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Contextual Optimization with Side Information: Theory, Methodology, and Applications]]></title>
+            <link>https://callsforpapers.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications</link>
+            <guid>springer-contextual-optimization-with-side-information-theory-methodology-and-applications</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Stelios Bekiros</strong>, University of Turin</p>
+        
+        <p><strong>Andrea D&#39;Ariano</strong>, Roma Tre University</p>
+        
+        <p><strong>Peng Wu</strong>, Fuzhou University</p>
+        
+        <p><strong>Guowei Zhang</strong>, Dalian University of Technology</p>
+        
+    
+    
+    <p>Operations research (OR) problems increasingly arise in data-rich and highly uncertain environments where operational decisions must adapt dynamically to evolving contextual information. Advances in sensing technologies, digital platforms, enterprise systems, and large-scale data collection have significantly expanded the availability of side information related to demand patterns, operational states, user behaviors, market conditions, and environmental factors. In many modern applications, such contextual information provides valuable predictive signals that can substantially improve decision quality when effectively integrated into optimization models.</p>
+    
+    <p>In response, contextual optimization has emerged as a rapidly growing research direction at the intersection of optimization, machine learning, statistics, and prescriptive analytics. Unlike classical optimization paradigms that rely solely on historical averages or predefined uncertainty sets, contextual optimization explicitly incorporates side information into the decision-making process, enabling more adaptive, personalized, and data-driven operational policies. Recent developments in this area include contextual stochastic optimization, distributionally robust optimization with covariates, decision-focused learning, learning-enhanced optimization, online optimization, and adaptive decision-making frameworks.</p>
+    
+    <p>Despite substantial progress, several important challenges remain open. Real-world contextual optimization problems often involve high-dimensional and heterogeneous data, noisy or incomplete observations, distribution shifts, privacy concerns, interpretability requirements, and stringent real-time computational constraints. Moreover, predictive accuracy alone is insufficient in operational settings; the ultimate objective is to improve downstream decision quality and system performance. Consequently, there is a growing need for new theories, methodologies, and computational frameworks that systematically integrate learning, analytics, and optimization under uncertainty.</p>
+    
+    <p>This special issue aims to bring together recent advances in contextual and data-driven optimization methods, with particular emphasis on optimization and decision making under uncertainty using side information. We welcome high-quality contributions that develop novel theories, models, algorithms, and applications integrating optimization with machine learning, statistical learning, and data analytics.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Contextual Stochastic Optimization</li>
+        
+        <li>Distributionally Robust Optimization with Side Information</li>
+        
+        <li>Prescriptive Analytics and Contextual Decision Making</li>
+        
+        <li>Learning-Enhanced Optimization</li>
+        
+        <li>Decision-Focused Learning</li>
+        
+        <li>Online, Dynamic, and Adaptive Optimization</li>
+        
+        <li>Learning-Augmented Algorithms</li>
+        
+        <li>Interpretable and Trustworthy Optimization Models</li>
+        
+        <li>Statistical Guarantees and Generalization in Optimization</li>
+        
+        <li>Data-Driven Optimization Under Uncertainty</li>
+        
+        <li>AI and Machine Learning for OR</li>
+        
+        <li>Human-in-the-Loop Optimization</li>
+        
+        <li>Optimization with Foundation Models or Generative AI</li>
+        
+        <li>Scalable Algorithms for Large-Scale Optimization Problems</li>
+        
+        <li>Digital Twin and Real-Time Decision Systems</li>
+        
+        <li>Contextual Transportation and Logistics Optimization</li>
+        
+        <li>Contextual Supply Chain and Revenue Management</li>
+        
+        <li>Data-Driven Healthcare and Service Operations</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>July 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Annals of Operations Research (SPRINGER)</author>
+        </item>
+    </channel>
+</rss>

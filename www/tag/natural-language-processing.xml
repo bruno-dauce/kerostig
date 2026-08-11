@@ -4,7 +4,7 @@
         <title>Calls for Papers | Tag: natural language processing</title>
         <link>https://callsforpapers.org/tag/natural-language-processing</link>
         <description>Latest calls for papers tagged with 'natural language processing'.</description>
-        <lastBuildDate>Tue, 11 Aug 2026 16:13:48 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 21:44:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -14,6 +14,56 @@
             <link>https://callsforpapers.org/tag/natural-language-processing</link>
         </image>
         <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Artificial Intelligence-based Assistants and Platforms]]></title>
+            <link>https://callsforpapers.org/call/springer-topical-collection-on-ai-based-assistants-and-platforms</link>
+            <guid>springer-topical-collection-on-ai-based-assistants-and-platforms</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Rainer Schmidt</strong>, Munich University of Applied Sciences</p>
+        
+        <p><strong>Rainer Alt</strong>, Leipzig University</p>
+        
+        <p><strong>Alfred Zimmermann</strong>, Reutlingen University</p>
+        
+    
+    
+    <p>The Topical Collection on Artificial Intelligence-based Assistants and Platforms focuses on assistant systems (e.g. chatbots, recommenders) that are based on artificial intelligence and the interaction with users via declarative natural-language interfaces. They are present in various forms as well as industries and often assume a platform logic when services and devices from different providers are included.</p>
+    
+    <p>The Topical Collection relates to a minitrack at the Hawaii International Conference on System Sciences (HICSS) and comprises research on novel methods, models, processes, and approaches related to the design, implementation, deployment, operation, and optimization of AI-based assistants and platforms for the digital economy.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Design, implementation, and deployment of AI-based assistants and platforms</li>
+        
+        <li>Novel methods and models for AI-based assistants (e.g., chatbots, recommenders)</li>
+        
+        <li>Natural language interfaces and user interaction with AI systems</li>
+        
+        <li>Platform logic and integration of services from different providers</li>
+        
+        <li>Operation and optimization of AI-based assistants and platforms for the digital economy</li>
+        
+        <li>AI-based assistants in various industries and applications</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Electronic Markets (SPRINGER)</author>
+        </item>
         <item>
             <title><![CDATA[Text as Knowledge for Innovation Management: Ensuring Research Relevance and Rigor with NLP and LLMs]]></title>
             <link>https://callsforpapers.org/call/elsevier-text-as-knowledge-for-innovation-management-ensuring-research-relevance-and-rigor-with-nlp-and-llms</link>

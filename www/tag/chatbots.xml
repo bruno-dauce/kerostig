@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: chatbots</title>
+        <link>https://callsforpapers.org/tag/chatbots</link>
+        <description>Latest calls for papers tagged with 'chatbots'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 21:44:33 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: chatbots</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/chatbots</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Artificial Intelligence-based Assistants and Platforms]]></title>
+            <link>https://callsforpapers.org/call/springer-topical-collection-on-ai-based-assistants-and-platforms</link>
+            <guid>springer-topical-collection-on-ai-based-assistants-and-platforms</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Rainer Schmidt</strong>, Munich University of Applied Sciences</p>
+        
+        <p><strong>Rainer Alt</strong>, Leipzig University</p>
+        
+        <p><strong>Alfred Zimmermann</strong>, Reutlingen University</p>
+        
+    
+    
+    <p>The Topical Collection on Artificial Intelligence-based Assistants and Platforms focuses on assistant systems (e.g. chatbots, recommenders) that are based on artificial intelligence and the interaction with users via declarative natural-language interfaces. They are present in various forms as well as industries and often assume a platform logic when services and devices from different providers are included.</p>
+    
+    <p>The Topical Collection relates to a minitrack at the Hawaii International Conference on System Sciences (HICSS) and comprises research on novel methods, models, processes, and approaches related to the design, implementation, deployment, operation, and optimization of AI-based assistants and platforms for the digital economy.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Design, implementation, and deployment of AI-based assistants and platforms</li>
+        
+        <li>Novel methods and models for AI-based assistants (e.g., chatbots, recommenders)</li>
+        
+        <li>Natural language interfaces and user interaction with AI systems</li>
+        
+        <li>Platform logic and integration of services from different providers</li>
+        
+        <li>Operation and optimization of AI-based assistants and platforms for the digital economy</li>
+        
+        <li>AI-based assistants in various industries and applications</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Electronic Markets (SPRINGER)</author>
+        </item>
+    </channel>
+</rss>

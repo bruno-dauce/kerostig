@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Calls for Papers | Tag: data science</title>
+        <link>https://callsforpapers.org/tag/data-science</link>
+        <description>Latest calls for papers tagged with 'data science'.</description>
+        <lastBuildDate>Tue, 11 Aug 2026 21:44:33 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Calls for Papers | Tag: data science</title>
+            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://callsforpapers.org/tag/data-science</link>
+        </image>
+        <copyright>Calls for Papers © 2025</copyright>
+        <item>
+            <title><![CDATA[Data Science]]></title>
+            <link>https://callsforpapers.org/call/springer-data-science</link>
+            <guid>springer-data-science</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Dries F. Benoit</strong>, Ghent University</p>
+        
+        <p><strong>Kristof Coussement</strong>, Institut d&#39;Economie Scientifique Et de Gestion</p>
+        
+        <p><strong>Cem İyigün</strong>, Middle East Technical University</p>
+        
+        <p><strong>Asil Oztekin</strong>, University of Massachusetts Lowell</p>
+        
+    
+    
+    <p>The objective of this special section is to publish papers that contribute to both the theory and practice of data science and predictive analytics. While papers describing new techniques have been published in other journals, we would expect to see how the technique could be applied in practice with implications to create value in organizations. Creating value through analytics may lead to, or require, organizational change for it to effective. The relationship with Operations Research is direct but distinct: analytics is an organizational activity that draws on and uses the techniques of data science and operational research as appropriate.</p>
+    
+    <p>Research into data science and analytics should seek to both incorporate the unique aspects of the OR discipline, as well as the innovations, concerns and characteristics of the analytics movement.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Ethics and governance issues in analytics: How should data be obtained? What are the ethical implications of using applications of analytics to influence behavior?</li>
+        
+        <li>Big data and analytics: What are the limitations and applications of optimization and other OR techniques to large datasets? What are the challenges for applications of OR methods within distributed systems? What is the possibility that OR models could in fact be the producers of big data, e.g., large-scale simulation models? What new methods/models in response to big data, e.g., sentiment mining, can be adopted by OR?</li>
+        
+        <li>Organizational issues in analytics adoption: What are the issues facing organizations trying to adopt analytics? What is the role of real-time applications of OR in organizations?</li>
+        
+        <li>Data quality and analytics: What methods can be used for hypothesis testing and model validation in large datasets? How can unstructured data be used effectively in OR models? What is the role of multi-methodology in business analytics? What opportunities do open data present for the OR discipline?</li>
+        
+        <li>Analytics and decision support: How can data visualization techniques be used across the breadth of OR? What role do problem structuring and &quot;soft&quot; OR techniques play in analytics and big data projects?</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Annals of Operations Research (SPRINGER)</author>
+        </item>
+    </channel>
+</rss>
