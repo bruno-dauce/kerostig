@@ -15,5 +15,6 @@ public/
 # --- Ajouts hubecall ---
 .env.local
 .cache-enrichissement/
+.browser-profile/
 .DS_Store
 Thumbs.db

@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 import { integrateCalls } from './diffChecker.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -16,7 +16,7 @@ export async function scrapeAll(browserInstance) {
         const modules = await Promise.all(
             files
                 .filter(file => path.extname(file) === '.mjs')
-                .map(file => import(path.join(folderPath, file)))
+                .map(file => import(pathToFileURL(path.join(folderPath, file))))
         );
 
         const issues = await Promise.all(
