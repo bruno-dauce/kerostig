@@ -7,18 +7,23 @@ const execFileAsync = promisify(execFile);
 // Linux, Schannel sous Windows) -- distinct de celui d'un vrai navigateur.
 // Cloudflare le distingue et bloque specifiquement le fingerprint OpenSSL :
 // constate sur GitHub Actions (Linux, 403 sur le hub SAGE) alors que la meme
-// requete passe en local sous Windows (Schannel). curl-impersonate
-// (https://github.com/lwthiker/curl-impersonate) est un fork de curl qui
-// rejoue le ClientHello exact de Chrome/Firefox -- installe sur le runner
-// CI (cf .github/workflows/scrape.yml) mais absent en local. On l'utilise
-// donc en priorite quand il est present sur le systeme, et on retombe sur
-// curl standard sinon, pour ne pas casser le fonctionnement local existant.
+// requete passe en local sous Windows (Schannel). curl-impersonate est un
+// fork de curl qui rejoue le ClientHello exact d'un navigateur -- installe
+// sur le runner CI (cf .github/workflows/scrape.yml) mais absent en local.
+// On l'utilise donc en priorite quand il est present sur le systeme, et on
+// retombe sur curl standard sinon, pour ne pas casser le fonctionnement
+// local existant.
 //
-// Le nom du binaire est suffixe par version de navigateur (curl_chrome116,
-// curl_ff117, ...) -- il n'existe pas d'alias generique "curl_chrome" dans
-// la derniere release (v0.6.1) du projet. On essaie une liste de candidats,
-// du plus recent au plus ancien.
-const IMPERSONATION_CANDIDATES = ['curl_chrome116', 'curl_chrome110', 'curl_chrome107', 'curl_chrome104', 'curl_ff117'];
+// Le depot original (lwthiker/curl-impersonate, v0.6.1) ne suffit plus :
+// son fingerprint le plus recent (Chrome116, ~2023) se fait aussi bloquer
+// (403 constate en pratique sur SAGE malgre son installation). On installe
+// donc le fork actif lexiforest/curl-impersonate, dont les binaires sont
+// plus recents (jusqu'a Chrome150). Le nom du binaire reste suffixe par
+// version de navigateur (curl_chrome150, curl_chrome116, ...) -- pas
+// d'alias generique "curl_chrome" dans ce projet. On essaie une liste de
+// candidats, du plus recent au plus ancien (couvre aussi une eventuelle
+// installation manuelle de l'ancien depot lwthiker en local).
+const IMPERSONATION_CANDIDATES = ['curl_chrome150', 'curl_chrome136', 'curl_chrome124', 'curl_chrome116', 'curl_chrome110'];
 
 let resolvedBinaryPromise = null;
 let loggedBinary = false;
