@@ -1,5 +1,117 @@
 [
   {
+    "journal": "Accounting History",
+    "abbreviation": "sage",
+    "issn": "1749-3374",
+    "metaTitle": "Women and Accountings Past",
+    "url": "https://journals.sagepub.com/doi/full/10.1177/10323732261437981",
+    "title": "Women and Accounting's Past",
+    "slug": "sage-women-and-accountings-past",
+    "contentHash": "21fa856fa79a87e31e6415ebb1f04011eaaeee9a69290bb4d97833b134028833",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-28T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-11T15:38:12.254Z"
+  },
+  {
+    "journal": "Organizational Psychology Review",
+    "abbreviation": "sage",
+    "issn": "2041-3874",
+    "metaTitle": "Reconceptualizing Careers in Disruptive Times",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/OPR/CFP_Reconceptualizing_Careers_in_Disruptive_Times-1776228180230.pdf",
+    "title": "Reconceptualizing Careers in Disruptive Times",
+    "slug": "sage-reconceptualizing-careers-in-disruptive-times",
+    "contentHash": "3204b37ddfd5a6d2b69f8fdfcd63fc4200d27edaae4cddee31ef449b4c4bec82",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "career development",
+      "organizational change"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-04-01T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-11T15:38:12.254Z"
+  },
+  {
+    "journal": "Medical Decision Making",
+    "abbreviation": "sage",
+    "issn": "1552-681X",
+    "metaTitle": "Interface between Human Users and Machine Learning Models in Medical Decision Making",
+    "url": "https://journals.sagepub.com/doi/full/10.1177/0272989X221145012",
+    "title": "Interface between Human Users and Machine Learning Models in Medical Decision Making",
+    "slug": "sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making",
+    "contentHash": "aa9f1e8472be08e4da381fd30e2f7913c64fba8e9873691b424448345e9aa23c",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "machine learning",
+      "medical decision making",
+      "human-computer interaction"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-11T15:38:12.254Z"
+  },
+  {
+    "journal": "The American Review of Public Administration",
+    "abbreviation": "sage",
+    "issn": "1552-3357",
+    "metaTitle": "General Call for Papers",
+    "url": "https://journals.sagepub.com/author-instructions/arp",
+    "title": "General Call for Papers",
+    "slug": "sage-general-call-for-papers",
+    "contentHash": "b2c40561f1fb603f36e1bb2d89a9127a51f9e08c625eff1e318ecd59805e857b",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-11T15:38:12.254Z",
+    "gracePeriod": "2026-09-10T15:46:28.684Z"
+  },
+  {
     "journal": "Journal of Banking & Finance",
     "abbreviation": "elsevier",
     "issn": "1872-6372",
