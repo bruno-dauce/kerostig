@@ -82,12 +82,18 @@ export const scraperObject = {
 
 async function get_subject_area_ids(browser, hubUrl) {
     const page = await browser.newPage();
-    await page.goto(hubUrl, { waitUntil: 'domcontentloaded' });
-    await waitForCloudflare(page, '[tandf]');
-    await page.waitForSelector(CHECKBOX_SELECTOR, { timeout: 30000 });
-    const ids = await page.$$eval(CHECKBOX_SELECTOR, els => els.map(el => el.value).filter(Boolean));
-    await page.close();
-    return [...new Set(ids)];
+    try {
+        await page.goto(hubUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await waitForCloudflare(page, '[tandf]');
+        await page.waitForSelector(CHECKBOX_SELECTOR, { timeout: 30000 });
+        const ids = await page.$$eval(CHECKBOX_SELECTOR, els => els.map(el => el.value).filter(Boolean));
+        return [...new Set(ids)];
+    } catch (error) {
+        console.warn(`[tandf] Impossible de lire les categories sur ${hubUrl} : ${error.message}`);
+        return [];
+    } finally {
+        await page.close();
+    }
 }
 
 async function get_entries_for_subject_area(browser, subjectAreaId) {
@@ -110,20 +116,24 @@ async function fetch_api_page(browser, subjectAreaId, pageNumber) {
     url.searchParams.set('page', String(pageNumber));
 
     const page = await browser.newPage();
-    await page.goto(url.href, { waitUntil: 'domcontentloaded' });
-    await waitForCloudflare(page, '[tandf]');
+    try {
+        await page.goto(url.href, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await waitForCloudflare(page, '[tandf]');
 
-    const items = await page.evaluate(() => {
-        try {
-            const data = JSON.parse(document.body.innerText);
-            return Array.isArray(data) ? data : [];
-        } catch {
-            return [];
-        }
-    });
-
-    await page.close();
-    return items;
+        return await page.evaluate(() => {
+            try {
+                const data = JSON.parse(document.body.innerText);
+                return Array.isArray(data) ? data : [];
+            } catch {
+                return [];
+            }
+        });
+    } catch (error) {
+        console.warn(`[tandf] Echec de l'appel API ${url.href} : ${error.message}`);
+        return [];
+    } finally {
+        await page.close();
+    }
 }
 
 function parse_entry(item) {
@@ -144,14 +154,20 @@ function parse_entry(item) {
 
 async function get_raw_content(browser, url) {
     const page = await browser.newPage();
-    await page.goto(url, { waitUntil: 'domcontentloaded' });
-    await waitForCloudflare(page, '[tandf]');
-    const rawContent = await page.waitForSelector(DETAIL_CONTENT_SELECTOR, { timeout: 30000 })
-        .then(() => page.$eval(DETAIL_CONTENT_SELECTOR, element => element.innerHTML))
-        .catch(() => null);
-    await page.close();
-    if (!rawContent) {
-        console.warn(`[tandf] Extraction du contenu brut echouee pour ${url}`);
+    try {
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await waitForCloudflare(page, '[tandf]');
+        const rawContent = await page.waitForSelector(DETAIL_CONTENT_SELECTOR, { timeout: 30000 })
+            .then(() => page.$eval(DETAIL_CONTENT_SELECTOR, element => element.innerHTML))
+            .catch(() => null);
+        if (!rawContent) {
+            console.warn(`[tandf] Extraction du contenu brut echouee pour ${url}`);
+        }
+        return rawContent;
+    } catch (error) {
+        console.warn(`[tandf] Erreur (timeout ou navigation) sur ${url} : ${error.message}`);
+        return null;
+    } finally {
+        await page.close();
     }
-    return rawContent;
 }

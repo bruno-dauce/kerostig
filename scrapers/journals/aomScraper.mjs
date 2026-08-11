@@ -90,20 +90,24 @@ async function fetch_api_page(browser, pageNumber) {
     url.searchParams.set('page', String(pageNumber));
 
     const page = await browser.newPage();
-    await page.goto(url.href, { waitUntil: 'domcontentloaded' });
-    await waitForCloudflare(page, '[aom]');
+    try {
+        await page.goto(url.href, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await waitForCloudflare(page, '[aom]');
 
-    const items = await page.evaluate(() => {
-        try {
-            const data = JSON.parse(document.body.innerText);
-            return Array.isArray(data) ? data : [];
-        } catch {
-            return [];
-        }
-    });
-
-    await page.close();
-    return items;
+        return await page.evaluate(() => {
+            try {
+                const data = JSON.parse(document.body.innerText);
+                return Array.isArray(data) ? data : [];
+            } catch {
+                return [];
+            }
+        });
+    } catch (error) {
+        console.warn(`[aom] Echec de l'appel API ${url.href} : ${error.message}`);
+        return [];
+    } finally {
+        await page.close();
+    }
 }
 
 function parse_entry(item) {

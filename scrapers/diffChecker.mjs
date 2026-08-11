@@ -3,7 +3,13 @@ import { promises as fs } from 'fs';
 import { parse } from './llmParser.mjs'
 import { clean } from './dataPreparation.mjs';
 
-export async function integrateCalls(newCalls) {
+// ranAbbreviations : abbreviations des scrapers effectivement lances ce run
+// (cf pageController.mjs / --only). Un ancien appel dont l'abbreviation
+// n'est pas dans cette liste vient d'un scraper qui n'a pas tourne cette
+// fois -- on ne le touche pas (ni active:false, ni gracePeriod), sinon
+// --only marque a tort tous les appels des autres scrapers comme disparus.
+// null = comportement d'origine (tous les scrapers consideres comme lances).
+export async function integrateCalls(newCalls, ranAbbreviations = null) {
     const now = new Date();
     let oldCalls = await readData();
     newCalls = await clean(newCalls);
@@ -47,6 +53,11 @@ export async function integrateCalls(newCalls) {
 
     // Handle existing calls that are no longer present in new calls
     for (const oldCall of oldCalls) {
+        if (ranAbbreviations && !ranAbbreviations.includes(oldCall.abbreviation)) {
+            // Scraper de cet appel non lance ce run (--only) : on le laisse tel quel.
+            resultCalls.push(oldCall);
+            continue;
+        }
         if (!newHashMap.has(oldCall.contentHash) &&
             !newSlugMap.has(oldCall.slug)) {
             // Call is not in new data, add it with active set to false

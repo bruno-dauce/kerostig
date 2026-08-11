@@ -66,22 +66,49 @@ function parseCsv(text) {
     return rows;
 }
 
+function looksLikeIssn(value) {
+    return /^\d{4}-\d{3}[\dXx]$/.test((value || '').trim());
+}
+
+// Quelques lignes source ont un titre contenant une virgule non echappee
+// (ex. "ACCOUNTING, ORGANIZATION AND SOCIETY") combine a un champ "slug"
+// carrement absent (pas juste vide) dans le fichier d'origine. Les deux
+// erreurs se compensent en nombre de colonnes mais decalent silencieusement
+// tout ce qui suit le titre -- issn_cle se retrouve a un index different
+// selon les lignes. editeur/openalex_id/nom_openalex, eux, sont toujours
+// fiables : ce sont les 3 derniers champs, ajoutes proprement (avec
+// echappement correct) par enrich-publishers.mjs, quoi qu'il arrive en
+// amont. On les lit donc depuis la fin de la ligne plutot que par l'index
+// fixe de l'entete, et on retrouve issn_cle en cherchant, en remontant
+// depuis juste avant editeur, la premiere valeur qui a la forme d'un ISSN
+// (issn_cle est toujours le plus proche de slug/editeur parmi pissn/eissn/
+// issn_cle, corrompu ou non).
+function extractRow(row) {
+    const nomOpenalex = row[row.length - 1] ?? '';
+    const editeur = row[row.length - 3] ?? '';
+    let issnCle = null;
+    for (let i = row.length - 4; i >= 0; i--) {
+        if (looksLikeIssn(row[i])) { issnCle = row[i].trim(); break; }
+    }
+    return { titre: row[0] ?? '', nomOpenalex, editeur, issnCle };
+}
+
+async function loadRows() {
+    const text = await fs.readFile(CSV_PATH, 'utf-8');
+    return parseCsv(text).slice(1);
+}
+
 async function loadIssnIndex() {
     if (issnByNormalizedName) return issnByNormalizedName;
 
-    const text = await fs.readFile(CSV_PATH, 'utf-8');
-    const rows = parseCsv(text);
-    const header = rows[0];
-    const col = Object.fromEntries(header.map((h, i) => [h, i]));
-
     issnByNormalizedName = new Map();
-    for (const row of rows.slice(1)) {
-        const issn = row[col.issn_cle];
-        if (!issn) continue;
-        for (const rawName of [row[col.nom_openalex], row[col.titre]]) {
+    for (const row of await loadRows()) {
+        const { titre, nomOpenalex, issnCle } = extractRow(row);
+        if (!issnCle) continue;
+        for (const rawName of [nomOpenalex, titre]) {
             const key = normalize(rawName);
             if (key && !issnByNormalizedName.has(key)) {
-                issnByNormalizedName.set(key, issn);
+                issnByNormalizedName.set(key, issnCle);
             }
         }
     }
@@ -94,4 +121,16 @@ async function loadIssnIndex() {
 export async function matchIssn(journalName) {
     const index = await loadIssnIndex();
     return index.get(normalize(journalName)) || null;
+}
+
+// Renvoie les revues du CSV enrichi dont l'editeur correspond exactement
+// (ex. "Elsevier BV"), avec leur nom OpenAlex et leur ISSN cle.
+export async function getJournalsByPublisher(publisherName) {
+    const journals = [];
+    for (const row of await loadRows()) {
+        const { nomOpenalex, editeur, issnCle } = extractRow(row);
+        if (editeur.trim() !== publisherName || !issnCle || !nomOpenalex) continue;
+        journals.push({ nomOpenalex, issn: issnCle });
+    }
+    return journals;
 }

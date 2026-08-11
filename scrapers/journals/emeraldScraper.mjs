@@ -57,38 +57,47 @@ export const scraperObject = {
 async function get_listings_for_page(browser, baseUrl, pageNumber) {
     const page = await browser.newPage();
     const pageUrl = pageNumber === 1 ? baseUrl : `${baseUrl}?page=${pageNumber}`;
-    await page.goto(pageUrl, { waitUntil: 'domcontentloaded' });
-    await waitForCloudflare(page, '[emerald]');
+    try {
+        await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await waitForCloudflare(page, '[emerald]');
 
-    const found = await page.waitForSelector(LISTING_CARD_SELECTOR, { timeout: 30000 })
-        .then(() => true)
-        .catch(() => false);
-    if (!found) {
-        console.warn(`[emerald] Aucune carte trouvee sur ${pageUrl} (fin de pagination ou probleme de chargement)`);
-        await page.close();
+        const found = await page.waitForSelector(LISTING_CARD_SELECTOR, { timeout: 30000 })
+            .then(() => true)
+            .catch(() => false);
+        if (!found) {
+            console.warn(`[emerald] Aucune carte trouvee sur ${pageUrl} (fin de pagination ou probleme de chargement)`);
+            return [];
+        }
+
+        return await page.$$eval(LISTING_CARD_SELECTOR, (items, selectors) => items.map(item => ({
+            metaTitle: item.querySelector(selectors.title)?.textContent.trim() ?? '',
+            journal: item.querySelector(selectors.journal)?.textContent.trim() ?? '',
+            url: item.href,
+        })), { title: LISTING_TITLE_SELECTOR, journal: LISTING_JOURNAL_SELECTOR });
+    } catch (error) {
+        console.warn(`[emerald] Erreur (timeout ou navigation) sur ${pageUrl} : ${error.message}`);
         return [];
+    } finally {
+        await page.close();
     }
-
-    const listings = await page.$$eval(LISTING_CARD_SELECTOR, (items, selectors) => items.map(item => ({
-        metaTitle: item.querySelector(selectors.title)?.textContent.trim() ?? '',
-        journal: item.querySelector(selectors.journal)?.textContent.trim() ?? '',
-        url: item.href,
-    })), { title: LISTING_TITLE_SELECTOR, journal: LISTING_JOURNAL_SELECTOR });
-
-    await page.close();
-    return listings;
 }
 
 async function get_raw_content(browser, url) {
     const page = await browser.newPage();
-    await page.goto(url, { waitUntil: 'domcontentloaded' });
-    await waitForCloudflare(page, '[emerald]');
-    const rawContent = await page.waitForSelector(DETAIL_CONTENT_SELECTOR, { timeout: 30000 })
-        .then(() => page.$eval(DETAIL_CONTENT_SELECTOR, element => element.innerHTML))
-        .catch(() => null);
-    await page.close();
-    if (!rawContent) {
-        console.warn(`[emerald] Extraction du contenu brut echouee pour ${url}`);
+    try {
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await waitForCloudflare(page, '[emerald]');
+        const rawContent = await page.waitForSelector(DETAIL_CONTENT_SELECTOR, { timeout: 30000 })
+            .then(() => page.$eval(DETAIL_CONTENT_SELECTOR, element => element.innerHTML))
+            .catch(() => null);
+        if (!rawContent) {
+            console.warn(`[emerald] Extraction du contenu brut echouee pour ${url}`);
+        }
+        return rawContent;
+    } catch (error) {
+        console.warn(`[emerald] Erreur (timeout ou navigation) sur ${url} : ${error.message}`);
+        return null;
+    } finally {
+        await page.close();
     }
-    return rawContent;
 }

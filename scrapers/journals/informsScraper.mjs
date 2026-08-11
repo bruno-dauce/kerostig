@@ -63,42 +63,45 @@ export const scraperObject = {
 
 async function get_entries(browser, pageUrl) {
     const page = await browser.newPage();
-    await page.goto(pageUrl, { waitUntil: 'domcontentloaded' });
-    await waitForCloudflare(page, '[informs]');
+    try {
+        await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await waitForCloudflare(page, '[informs]');
 
-    const found = await page.waitForSelector(CONTENT_SELECTOR, { timeout: 30000 })
-        .then(() => true)
-        .catch(() => false);
-    if (!found) {
-        console.warn(`[informs] Conteneur de contenu introuvable sur ${pageUrl}`);
-        await page.close();
-        return [];
-    }
+        const found = await page.waitForSelector(CONTENT_SELECTOR, { timeout: 30000 })
+            .then(() => true)
+            .catch(() => false);
+        if (!found) {
+            console.warn(`[informs] Conteneur de contenu introuvable sur ${pageUrl}`);
+            return [];
+        }
 
-    // Pas de wrapper par appel : on decoupe le contenu en tranches entre
-    // chaque titre h2 (et le h2 suivant, ou la fin du conteneur).
-    const entries = await page.$eval(CONTENT_SELECTOR, (container, [titleSelector, minContentOverTitle]) => {
-        const headings = Array.from(container.querySelectorAll(titleSelector));
-        return headings.map((heading, i) => {
-            const stopAt = headings[i + 1] ?? null;
-            const title = heading.textContent.trim();
-            let html = '';
-            let text = '';
-            let url = null;
-            let node = heading;
-            while (node && node !== stopAt) {
-                html += node.outerHTML;
-                text += node.textContent;
-                if (!url) {
-                    const link = node.querySelector?.('a[href]');
-                    if (link) url = link.href;
+        // Pas de wrapper par appel : on decoupe le contenu en tranches entre
+        // chaque titre h2 (et le h2 suivant, ou la fin du conteneur).
+        return await page.$eval(CONTENT_SELECTOR, (container, [titleSelector, minContentOverTitle]) => {
+            const headings = Array.from(container.querySelectorAll(titleSelector));
+            return headings.map((heading, i) => {
+                const stopAt = headings[i + 1] ?? null;
+                const title = heading.textContent.trim();
+                let html = '';
+                let text = '';
+                let url = null;
+                let node = heading;
+                while (node && node !== stopAt) {
+                    html += node.outerHTML;
+                    text += node.textContent;
+                    if (!url) {
+                        const link = node.querySelector?.('a[href]');
+                        if (link) url = link.href;
+                    }
+                    node = node.nextElementSibling;
                 }
-                node = node.nextElementSibling;
-            }
-            return { title, rawContent: html, url, hasContent: text.trim().length > title.length + minContentOverTitle };
-        }).filter(entry => entry.hasContent);
-    }, [ENTRY_TITLE_SELECTOR, MIN_CONTENT_LENGTH_OVER_TITLE]);
-
-    await page.close();
-    return entries;
+                return { title, rawContent: html, url, hasContent: text.trim().length > title.length + minContentOverTitle };
+            }).filter(entry => entry.hasContent);
+        }, [ENTRY_TITLE_SELECTOR, MIN_CONTENT_LENGTH_OVER_TITLE]);
+    } catch (error) {
+        console.warn(`[informs] Erreur (timeout ou navigation) sur ${pageUrl} : ${error.message}`);
+        return [];
+    } finally {
+        await page.close();
+    }
 }
