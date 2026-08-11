@@ -2,7 +2,7 @@
 layout: layouts/base.html
 ---
 
-{% set nbRevues = journals | length %}
+{% set nbRevues = journals | revuesCouvertesParScraper | length %}
 {% set nbAppels = calls | compterAppelsActifs %}
 
 <div x-data="{
@@ -14,8 +14,19 @@ layout: layouts/base.html
     isReady: false,
     filtersOpen: false,
     isDesktop: window.innerWidth >= 1024,
+    page: 1,
+    perPage: 30,
+    sortTick: 0,
+    showClosed: false,
 
-    show_call(el) {
+    is_closed(el) {
+        const raw = el.getAttribute('data-duedate') || '';
+        if (!raw) return false;
+        const t = Date.parse(raw);
+        return !isNaN(t) && t < Date.now();
+    },
+
+    matches_base_filters(el) {
         const q = this.search.toLowerCase();
         const matchSearch = q === '' ||
             el.getAttribute('data-title').toLowerCase().includes(q) ||
@@ -27,35 +38,117 @@ layout: layouts/base.html
         return matchSearch && matchDisc && matchRang;
     },
 
+    matches_filters(el) {
+        if (!this.matches_base_filters(el)) return false;
+        return this.showClosed || !this.is_closed(el);
+    },
+
+    closed_calls_count() {
+        // Meme besoin que filtered_calls() : forcer la dependance a sortTick pour
+        // etre reevalue apres le premier tri (voir le commentaire de filtered_calls).
+        this.sortTick;
+        if (!this.$refs.calls) return 0;
+        return Array.from(this.$refs.calls.children).filter(el => this.matches_base_filters(el) && this.is_closed(el)).length;
+    },
+
+    // Nombre total d'appels ouverts (echeance non depassee), independant des filtres
+    // actifs -- affiche dans le bandeau du haut. Utilise la meme definition (date)
+    // que le reste de la page, plutot que le flag active du pipeline de scraping
+    // (qui peut rester vrai apres l'echeance et desynchronise les deux chiffres).
+    total_open_count() {
+        this.sortTick;
+        if (!this.$refs.calls) return {{ nbAppels }};
+        return Array.from(this.$refs.calls.children).filter(el => !this.is_closed(el)).length;
+    },
+
+    filtered_calls() {
+        // Lecture de sortTick sans autre usage : force Alpine a retracker cette
+        // fonction comme dependante de sortTick, donc a re-executer show_call sur
+        // chaque carte apres un tri. Sans ca, le reordonnancement physique du DOM
+        // (appendChild dans sort_calls) ne declenche aucune reactivite -- Alpine ne
+        // suit que les proprietes de x-data, pas les mutations du DOM -- et la
+        // pagination reste figee sur l'ordre d'avant le tri.
+        this.sortTick;
+        if (!this.$refs.calls) return [];
+        return Array.from(this.$refs.calls.children).filter(el => this.matches_filters(el));
+    },
+
+    total_pages() {
+        return Math.max(1, Math.ceil(this.filtered_calls().length / this.perPage));
+    },
+
+    page_numbers() {
+        const total = this.total_pages();
+        const current = this.page;
+        const keep = new Set([1, total, current, current - 1, current + 1]);
+        const pages = [...keep].filter(p => p >= 1 && p <= total).sort((a, b) => a - b);
+        const result = [];
+        let previous = null;
+        for (const p of pages) {
+            if (previous !== null && p - previous > 1) result.push('…');
+            result.push(p);
+            previous = p;
+        }
+        return result;
+    },
+
+    go_to_page(n) {
+        this.page = Math.min(Math.max(1, n), this.total_pages());
+        this.$refs.calls.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    },
+
+    show_call(el) {
+        const filtered = this.filtered_calls();
+        const index = filtered.indexOf(el);
+        if (index === -1) return false;
+        const start = (this.page - 1) * this.perPage;
+        return index >= start && index < start + this.perPage;
+    },
+
     sort_calls() {
+        this.page = 1;
         const calls = Array.from(this.$refs.calls.children);
+        const RANG_ORDER = { '1*': 0, '1': 1, '2': 2, '3': 3 };
         switch (this.sort) {
-            case 'title':
-            case 'journal':
-                calls.sort((a, b) => {
-                    const aA = a.getAttribute('data-' + this.sort) || '';
-                    const bA = b.getAttribute('data-' + this.sort) || '';
-                    return this.sortOrder ? bA.localeCompare(aA) : aA.localeCompare(bA);
-                });
-                break;
             case 'pubdate':
-            case 'duedate':
+                // Derniers appels collectes en premier par defaut (nouveautes).
                 calls.sort((a, b) => {
-                    const aA = a.getAttribute('data-' + this.sort) || '';
-                    const bA = b.getAttribute('data-' + this.sort) || '';
+                    const aA = a.getAttribute('data-pubdate') || '';
+                    const bA = b.getAttribute('data-pubdate') || '';
                     return this.sortOrder
                         ? Date.parse(aA) - Date.parse(bA)
                         : Date.parse(bA) - Date.parse(aA);
                 });
                 break;
+            case 'rang':
+                // Revues les mieux classees en premier (1* puis 1, 2, 3) ; les appels
+                // sans revue reconnue sont relegues en fin de liste.
+                calls.sort((a, b) => {
+                    const aVal = RANG_ORDER[a.getAttribute('data-rang') || ''] ?? Infinity;
+                    const bVal = RANG_ORDER[b.getAttribute('data-rang') || ''] ?? Infinity;
+                    return this.sortOrder ? bVal - aVal : aVal - bVal;
+                });
+                break;
+            case 'duedate':
+                // Echeance la plus proche en premier par defaut (urgence) ; les appels
+                // sans echeance connue sont toujours relegues en fin de liste, quel que
+                // soit le sens du tri, plutot que de se disperser au hasard (NaN).
+                calls.sort((a, b) => {
+                    const aT = Date.parse(a.getAttribute('data-duedate') || '');
+                    const bT = Date.parse(b.getAttribute('data-duedate') || '');
+                    const aVal = isNaN(aT) ? Infinity : aT;
+                    const bVal = isNaN(bT) ? Infinity : bT;
+                    return this.sortOrder ? bVal - aVal : aVal - bVal;
+                });
+                break;
         }
         calls.forEach(call => this.$refs.calls.appendChild(call));
+        this.sortTick++;
         this.isReady = true;
     },
 
     count_visible() {
-        if (!this.$refs.calls) return 0;
-        return Array.from(this.$refs.calls.children).filter(el => this.show_call(el)).length;
+        return this.filtered_calls().length;
     },
 
     toggleDisc(code) {
@@ -69,6 +162,7 @@ layout: layouts/base.html
         if (this.search !== '') n++;
         if (this.disciplines.length > 0) n++;
         if (this.rang !== '') n++;
+        if (this.showClosed) n++;
         return n;
     },
 
@@ -76,11 +170,20 @@ layout: layouts/base.html
         this.search = '';
         this.disciplines = [];
         this.rang = '';
+        this.showClosed = false;
+        this.page = 1;
     }
-}" x-init="$nextTick(() => sort_calls()); window.addEventListener('resize', () => isDesktop = window.innerWidth >= 1024)" @keydown.window.prevent.ctrl.k="$refs.search.focus()">
+}" x-init="
+    $nextTick(() => sort_calls());
+    window.addEventListener('resize', () => isDesktop = window.innerWidth >= 1024);
+    $watch('search', () => page = 1);
+    $watch('disciplines', () => page = 1);
+    $watch('rang', () => page = 1);
+    $watch('showClosed', () => page = 1);
+" @keydown.window.prevent.ctrl.k="$refs.search.focus()">
 
     <div class="text-center mb-6">
-        <p class="text-sm opacity-70">{{ nbRevues }} revues de gestion suivies · {{ nbAppels }} appel{{ 's' if nbAppels != 1 }} ouvert{{ 's' if nbAppels != 1 }}</p>
+        <p class="text-sm opacity-70" x-text="'{{ nbRevues }} revues de gestion suivies · ' + total_open_count() + ' appel' + (total_open_count() !== 1 ? 's' : '') + ' ouvert' + (total_open_count() !== 1 ? 's' : '')">{{ nbRevues }} revues de gestion suivies · {{ nbAppels }} appel{{ 's' if nbAppels != 1 }} ouvert{{ 's' if nbAppels != 1 }}</p>
     </div>
 
     <div class="lg:hidden mb-4">
@@ -148,9 +251,8 @@ layout: layouts/base.html
                     <h3 class="text-xs font-semibold uppercase opacity-70 mb-2">Trier par</h3>
                     <select x-model="sort" @change="sort_calls()" class="select select-sm select-bordered bg-base-200 border-base-300 w-full">
                         <option value="duedate">Échéance</option>
-                        <option value="title">Titre</option>
-                        <option value="journal">Revue</option>
-                        <option value="pubdate">Date d'ajout</option>
+                        <option value="pubdate">Récemment ajoutés</option>
+                        <option value="rang">Rang FNEGE</option>
                     </select>
                 </div>
 
@@ -161,9 +263,30 @@ layout: layouts/base.html
 
         <main class="flex-1 min-w-0">
             <div x-show="isReady">
-                <p class="text-sm opacity-70 mb-4" x-text="count_visible() + ' appel' + (count_visible() !== 1 ? 's' : '') + ' correspond' + (count_visible() !== 1 ? 'ent' : '') + ' à vos critères'"></p>
+                <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-4">
+                    <p class="text-sm opacity-70" x-text="count_visible() + ' appel' + (count_visible() !== 1 ? 's' : '') + ' correspond' + (count_visible() !== 1 ? 'ent' : '') + ' à vos critères'"></p>
+                    <button x-show="!showClosed && closed_calls_count() > 0" @click="showClosed = true" class="text-xs opacity-70 hover:opacity-100 underline">
+                        voir aussi les <span x-text="closed_calls_count()"></span> appel<span x-text="closed_calls_count() !== 1 ? 's' : ''"></span> clôturé<span x-text="closed_calls_count() !== 1 ? 's' : ''"></span>
+                    </button>
+                    <button x-show="showClosed" @click="showClosed = false" class="text-xs opacity-70 hover:opacity-100 underline">masquer les appels clôturés</button>
+                </div>
                 <p x-show="count_visible() === 0" class="text-sm opacity-70 text-center py-8">Aucun appel ouvert ne correspond à ces critères. Essayez d'élargir la discipline ou le rang.</p>
                 {{ content | safe }}
+
+                <div x-show="total_pages() > 1" class="flex flex-wrap items-center justify-center gap-1 mt-8">
+                    <button @click="go_to_page(page - 1)" :disabled="page <= 1" class="btn btn-sm btn-ghost border-base-300 disabled:opacity-40" aria-label="Page précédente">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                    </button>
+                    <template x-for="(p, index) in page_numbers()" :key="index">
+                        <span>
+                            <span x-show="p === '…'" class="px-2 text-sm opacity-50">…</span>
+                            <button x-show="p !== '…'" @click="go_to_page(p)" class="btn btn-sm" :class="p === page ? 'btn-primary' : 'btn-ghost border-base-300'" x-text="p"></button>
+                        </span>
+                    </template>
+                    <button @click="go_to_page(page + 1)" :disabled="page >= total_pages()" class="btn btn-sm btn-ghost border-base-300 disabled:opacity-40" aria-label="Page suivante">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
             </div>
         </main>
 

@@ -39,6 +39,32 @@ export default async function (eleventyConfig) {
         return trouverRevueParNom(journals, call.journal);
     });
 
+    // Revues effectivement couvertes par un scraper actif (scrapers/journals/*.mjs).
+    // Correspondance directe entre editeur et scraper : Elsevier, Wiley, SAGE,
+    // Taylor & Francis, Emerald, Springer (3 libelles pour le meme editeur cote
+    // OpenAlex), INFORMS, Academy of Management. Routledge (marque du groupe
+    // Taylor & Francis) est inclus a part : le hub authorservices.taylorandfrancis.com
+    // interroge par nom de revue, pas par editeur, donc les revues Routledge y sont
+    // atteignables au meme titre que les revues Taylor & Francis (verifie manuellement :
+    // 4 des 8 revues Routledge du perimetre y avaient un appel actif au moment du controle).
+    const EDITEURS_COUVERTS = new Set([
+        "Elsevier BV",
+        "Wiley",
+        "SAGE Publishing",
+        "Taylor & Francis",
+        "Routledge",
+        "Emerald Publishing Limited",
+        "Springer Science+Business Media",
+        "Springer Nature",
+        "Springer Nature (Netherlands)",
+        "Institute for Operations Research and the Management Sciences",
+        "Academy of Management",
+    ]);
+    eleventyConfig.addFilter("revuesCouvertesParScraper", function (journals) {
+        if (!journals) return [];
+        return Object.values(journals).filter((revue) => EDITEURS_COUVERTS.has((revue.editeur || "").trim()));
+    });
+
     // Compteur d'appels actifs
     eleventyConfig.addFilter("compterAppelsActifs", function (calls) {
         if (!calls) return 0;
