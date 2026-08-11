@@ -6,6 +6,15 @@
     alias: "tag",
     addAllPagesToCollections: true,
     before: function (paginationData, fullData) {
+      // Regroupe par slug normalise, pas par egalite stricte de chaine :
+      // deux tags qui different seulement par la ponctuation/l'espacement
+      // (ex. "decision making" vs "decision-making") produisent la meme
+      // URL via le filtre "slug" du permalink plus bas, et generaient donc
+      // un conflit de permalink Eleventy s'ils restaient dans des groupes
+      // separes.
+      function normalizeTagKey(tag) {
+        return String(tag).toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+      }
       let tagGroups = [];
       paginationData.forEach(call => {
         if (!Array.isArray(call.tags)) {
@@ -14,7 +23,8 @@
         }
 
         call.tags.forEach(tag => {
-          let tagGroup = tagGroups.find(group => group.name === tag);
+          const key = normalizeTagKey(tag);
+          let tagGroup = tagGroups.find(group => normalizeTagKey(group.name) === key);
           if (!tagGroup) {
             tagGroup = { name: tag, calls: [] };
             tagGroups.push(tagGroup);
