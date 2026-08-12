@@ -21,11 +21,18 @@ export const scraperObject = {
         const abbreviation = this.abbreviation;
 
         let listings = [];
+        const seenUrls = new Set();
         let pageNumber = 1;
         while (pageNumber <= MAX_PAGES) {
             const pageListings = await get_listings_for_page(browser, LISTING_URL, pageNumber);
             if (pageListings.length === 0) break;
-            listings.push(...pageListings);
+            // Le site ignore ?page= et renvoie tout le hub des la page 1 : si
+            // une page ne contient aucune URL inedite, la pagination n'avance
+            // plus (fin reelle, ou site qui rejoue la meme page) -> on arrete.
+            const newListings = pageListings.filter(l => l.url && !seenUrls.has(l.url));
+            if (newListings.length === 0) break;
+            for (const l of newListings) seenUrls.add(l.url);
+            listings.push(...newListings);
             pageNumber++;
         }
         console.log(`[elsevier] ${listings.length} appel(s) trouve(s) sur ${pageNumber - 1} page(s)`);

@@ -4,6 +4,18 @@ import TurndownService from 'turndown';
 import { toText } from './issnMatcher.mjs';
 
 export async function clean(issues) {
+    // Filet de securite : si un scraper renvoie deux fois le meme appel dans
+    // un meme run (ex. bug de pagination), on ne garde que la premiere
+    // occurrence par URL, sinon integrateCalls les fait passer pour deux
+    // appels distincts (meme contentHash, slugs "-2" generes plus bas).
+    const seenUrls = new Set();
+    issues = issues.filter(issue => {
+        if (!issue.url) return true;
+        if (seenUrls.has(issue.url)) return false;
+        seenUrls.add(issue.url);
+        return true;
+    });
+
     // Traitement sequentiel (pas Promise.all) : generateSlug a besoin de
     // connaitre les slugs deja attribues dans ce lot pour garantir leur
     // unicite (ex. deux revues avec le meme titre d'appel -- special issue
