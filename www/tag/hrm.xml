@@ -4,7 +4,7 @@
         <title>hubecall | Tag : hrm</title>
         <link>https://hubecall.com/tag/hrm</link>
         <description>Derniers appels à publications avec le tag 'hrm'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 22:02:01 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Aug 2026 22:05:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,70 @@
             <link>https://hubecall.com/tag/hrm</link>
         </image>
         <copyright>hubecall © 2026</copyright>
+        <item>
+            <title><![CDATA[Recherche quantitative inductive en GRH : enjeux et méthodes]]></title>
+            <link>https://hubecall.com/call/agrh-appel-a-articles-pour-un-numero-special-de-la-revue-grh</link>
+            <guid>agrh-appel-a-articles-pour-un-numero-special-de-la-revue-grh</guid>
+            <pubDate>Wed, 12 Aug 2026 22:00:20 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Clotilde Coron</strong>, Université Paris-Saclay</p>
+        
+    
+    
+    <p>Data is increasingly recognized as a crucial resource for organizational innovation, with extensive and organized data exploitation considered a key driver of the ongoing fourth industrial revolution. HRM is not exempt from this trend, and the methodological challenges of leveraging increasingly diverse and massive datasets present significant stakes for both practitioners and academic researchers.</p>
+    
+    <p>Recent reflections on applicable methods for extracting value from data often emphasize the disruptive potential of big data, presenting it as the foundation for a renewal of empiricism based on intensive exploration of data masses through exploratory methods, aimed at generating new knowledge through purely inductive logic. However, inductive, data-driven approaches remain rare in quantitative HRM studies, despite their capacity to transcend the classical dichotomy between qualitative/inductive and quantitative/deductive approaches in management sciences. Data-driven methodologies also help address criticisms leveled at hypothetico-deductive approaches, such as their strong standardization and difficulty in generating truly innovative theories.</p>
+    
+    <p>This special issue aims to provide an updated overview of the challenges and opportunities of data-driven HRM, as well as inductive quantitative methods applicable in empirical research. Expected contributions may address these themes from methodological perspectives (such as presenting an innovative method with illustration in HRM), empirical perspectives (conducting a quantitative study on a subject by adopting an inductive approach), or conceptual perspectives (analyzing the stakes for HRM of data-driven management). Proposals presenting emerging or underutilized methods in francophone quantitative HRM studies will be particularly appreciated, including supervised learning, data mining, textual statistics, and longitudinal approaches.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Data-driven approaches in HRM</li>
+        
+        <li>Inductive quantitative research methods</li>
+        
+        <li>Big data exploitation and analysis</li>
+        
+        <li>Supervised learning applications in HRM</li>
+        
+        <li>Data mining techniques</li>
+        
+        <li>Textual statistics</li>
+        
+        <li>Longitudinal approaches</li>
+        
+        <li>Innovative quantitative methods in HRM research</li>
+        
+        <li>Theory building from data</li>
+        
+        <li>Emerging methodologies in francophone HRM studies</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Author feedback</li>
+        
+        <li>Invalid DateTime: Second version of articles</li>
+        
+        <li>Invalid DateTime: Final acceptance of articles</li>
+        
+        <li>Invalid DateTime: Publication of special issue</li>
+        
+        <li>March 25, 2023: Submission deadline for articles</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>GRH (AGRH)</author>
+        </item>
         <item>
             <title><![CDATA[The Institutional Fragility of Inclusion in Contemporary HRM Systems]]></title>
             <link>https://hubecall.com/call/tandf-the-institutional-fragility-of-inclusion-in-contemporary-hrm-systems</link>
