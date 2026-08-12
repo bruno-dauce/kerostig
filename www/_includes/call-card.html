@@ -1,5 +1,5 @@
 {% set dueDate = call.dates | selectattr("is_full_paper_submission_deadline") | first if call.dates %}
-{% set revue = journals | revueParNom(call.journal) %}
+{% set revue = journals | revueDeLAppel(call) %}
 <div x-show="show_call($el)"
     data-title="{{ call.title if call.title else call.metaTitle | safe }}"
     data-journal="{{ call.journal | safe }}"
