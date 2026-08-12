@@ -31,6 +31,15 @@ export async function startBrowser() {
         headless: false,
         viewport: null,
         acceptDownloads: true,
+        // agrh.fr (Squarespace) sert un certificat par defaut (*.squarespace.com)
+        // au lieu d'un certificat couvrant le domaine personnalise -- erreur cote
+        // hebergeur (confirme via openssl : meme certificat errone sur www et
+        // non-www), pas un probleme d'URL. ignoreHTTPSErrors est une option de
+        // contexte, non surchargeable par page/navigation ; comme toutes les
+        // pages de tous les scrapers partagent ce contexte persistant unique,
+        // impossible de la limiter au seul scraper agrh sans lui dedier un
+        // contexte a part.
+        ignoreHTTPSErrors: true,
     });
     return browser;
 }
