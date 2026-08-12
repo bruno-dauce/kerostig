@@ -64,23 +64,55 @@ const IGNORED_LINK_TEXT_PATTERN = /^(author guidelines|submission guidelines|gui
 // Papers" inexistant) comme pour les faux positifs Wiley.
 const IGNORED_URL_PATTERN = /\/author-instructions\//i;
 
+// Widget "vous pourriez etre interesse par" affiche sur la page propre
+// d'une revue (systeme CMS distinct de l'accordeon du hub). Constate
+// manuellement sur RAM (Recherche et Applications en Marketing) : son lien
+// "/home/ram" est present dans l'accordeon du hub mais avec un texte vide
+// (bug cote SAGE), et de toute facon aucun appel n'y est liste pour cette
+// revue -- l'appel actif n'existe que sous cette forme, absente du hub.
+// Plusieurs spots coexistent sur une page (pub, reseaux sociaux, "Publish
+// with us"...), d'ou le filtre sur le titre.
+const MARKETING_SPOT_SELECTOR = 'div.marketing-spot';
+const MARKETING_SPOT_TITLE_PATTERN = /^call for papers$/i;
+
+// Revues FNEGE connues pour ne jamais apparaitre dans l'accordeon du hub
+// (constate manuellement au cas par cas, pas une supposition generale) :
+// on les complete individuellement plutot que de naviguer les ~60 revues
+// FNEGE une a une, ce que le hub sert justement a eviter (cf commentaire
+// sur HUB_URL). Ajouter une revue ici seulement apres avoir confirme
+// qu'elle est bien absente du hub malgre un appel actif sur sa propre page.
+const SUPPLEMENTARY_JOURNALS = [
+    { code: 'ram', journal: 'Recherche et Applications en Marketing' },
+];
+
 export const scraperObject = {
     url: HUB_URL,
     abbreviation: 'sage',
     async scraper() {
         const abbreviation = this.abbreviation;
 
+        // Le hub reste la source principale (cf commentaire sur HUB_URL),
+        // mais son indisponibilite ne doit pas empecher de recuperer les
+        // revues complementaires ci-dessous : pas de retour anticipe ici.
         const accordionHtml = await get_accordion_html(HUB_URL);
-        if (!accordionHtml) return [];
 
         // Certaines revues sont classees sous plusieurs disciplines : leur
         // appel apparait alors identique dans plusieurs sections. Deduplique
         // par URL pour ne pas interroger le LLM deux fois pour le meme appel.
         const entriesByUrl = new Map();
-        for (const entry of extract_entries(accordionHtml)) {
-            entriesByUrl.set(entry.url, entry);
+        if (accordionHtml) {
+            for (const entry of extract_entries(accordionHtml)) {
+                entriesByUrl.set(entry.url, entry);
+            }
         }
         console.log(`[sage] ${entriesByUrl.size} appel(s) distinct(s) trouve(s) sur le hub`);
+
+        for (const { code, journal } of SUPPLEMENTARY_JOURNALS) {
+            const supplementaryEntries = await get_marketing_spot_calls(code, journal);
+            for (const entry of supplementaryEntries) {
+                if (!entriesByUrl.has(entry.url)) entriesByUrl.set(entry.url, entry);
+            }
+        }
 
         let skippedCount = 0;
         const calls = [];
@@ -131,6 +163,50 @@ async function get_accordion_html(url) {
         return null;
     }
     return container.html();
+}
+
+// Recupere le(s) appel(s) affiche(s) via le widget "marketing spot" sur la
+// page propre d'une revue (cf commentaire sur MARKETING_SPOT_SELECTOR) --
+// complement cible du hub, pas un remplacement (utilise uniquement pour les
+// revues listees dans SUPPLEMENTARY_JOURNALS).
+async function get_marketing_spot_calls(code, journalName) {
+    const url = `https://journals.sagepub.com/home/${code}`;
+    let response;
+    try {
+        response = await curlGet(url, { cookieJarPath: COOKIE_JAR_PATH, userAgent: USER_AGENT });
+    } catch (error) {
+        console.warn(`[sage] Erreur reseau (curl) sur ${url} (revue complementaire ${journalName}) : ${error.message}`);
+        return [];
+    }
+
+    console.log(`[sage] Statut HTTP ${response.status} sur ${url} (revue complementaire ${journalName})`);
+    if (response.status !== 200) {
+        console.warn(`[sage] Statut HTTP ${response.status} (attendu 200) sur ${url} -- probable blocage anti-bot ou challenge`);
+        return [];
+    }
+
+    const $ = cheerio.load(response.body);
+    const entries = [];
+    $(MARKETING_SPOT_SELECTOR).each((_, el) => {
+        const spot = $(el);
+        const title = spot.find('.marketing-spot__title').first().text().trim();
+        if (!MARKETING_SPOT_TITLE_PATTERN.test(title)) return;
+
+        const href = spot.find('.marketing-spot__footer a[href]').first().attr('href');
+        if (!href) return;
+
+        entries.push({
+            journal: journalName,
+            metaTitle: title,
+            url: new URL(href, url).href,
+            rawContent: spot.html() ?? '',
+        });
+    });
+
+    if (entries.length === 0) {
+        console.log(`[sage] Aucun appel (widget "call for papers") trouve sur ${url} (revue complementaire ${journalName})`);
+    }
+    return entries;
 }
 
 function extract_entries(accordionHtml) {
