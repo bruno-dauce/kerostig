@@ -89,6 +89,41 @@ export default async function (eleventyConfig) {
         );
     });
 
+    // Revues francophones identifiees manuellement (perimetre plus large que
+    // ISSN_COUVERTS ci-dessus : inclut aussi les revues francophones sans
+    // scraper dedie, ex. celles accessibles seulement via Cairn). Sert au
+    // filtre "Revues francophones" de la barre laterale -- liste transmise
+    // telle quelle au template pour un filtrage cote client (Alpine.js), cf
+    // data-issn sur chaque carte d'appel dans call-card.html.
+    const ISSN_REVUES_FRANCOPHONES = [
+        "2313-514X", // Comptabilité - Contrôle - Audit
+        "2269-8469", // Décisions Marketing
+        "2101-0145", // Finance
+        "2261-5512", // Finance Contrôle Stratégie
+        "2406-4734", // Gestion 2000
+        "2116-8865", // Gestion et management public
+        "2295-9149", // GRH (@GRH)
+        "1965-0256", // Innovations
+        "1286-4692", // M@n@gement
+        "1918-9222", // Management international
+        "2271-2836", // Recherches en Sciences de Gestion
+        "1703-8138", // Relations industrielles
+        "2271-2186", // Revue de gestion des ressources humaines
+        "1630-7542", // Revue de l'Entrepreneuriat
+        "2105-3022", // Revue de l'organisation responsable
+        "1777-5663", // Revue française de gestion
+        "1918-9699", // Revue internationale P.M.E.
+        "2271-7188", // Systèmes d'information & management
+        "2051-2821", // Recherche et Applications en Marketing (RAM)
+    ];
+    eleventyConfig.addGlobalData("issnRevuesFrancophones", () => ISSN_REVUES_FRANCOPHONES);
+
+    // Serialisation JSON pour injecter des donnees Eleventy dans un bloc
+    // x-data Alpine.js cote client (ex. issnRevuesFrancophones ci-dessus).
+    eleventyConfig.addFilter("json", function (value) {
+        return JSON.stringify(value);
+    });
+
     // Compteur d'appels actifs
     eleventyConfig.addFilter("compterAppelsActifs", function (calls) {
         if (!calls) return 0;

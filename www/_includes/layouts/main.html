@@ -9,6 +9,8 @@ layout: layouts/base.html
     search: new URLSearchParams(window.location.search).get('q') || '',
     disciplines: [],
     rang: '',
+    francophone: false,
+    issnFrancophones: {{ issnRevuesFrancophones | json }},
     sort: 'duedate',
     sortOrder: false,
     isReady: false,
@@ -35,7 +37,8 @@ layout: layouts/base.html
         const disc = el.getAttribute('data-discipline') || '';
         const matchDisc = this.disciplines.length === 0 || this.disciplines.includes(disc);
         const matchRang = this.rang === '' || el.getAttribute('data-rang') === this.rang;
-        return matchSearch && matchDisc && matchRang;
+        const matchFrancophone = !this.francophone || this.issnFrancophones.includes(el.getAttribute('data-issn') || '');
+        return matchSearch && matchDisc && matchRang && matchFrancophone;
     },
 
     matches_filters(el) {
@@ -162,6 +165,7 @@ layout: layouts/base.html
         if (this.search !== '') n++;
         if (this.disciplines.length > 0) n++;
         if (this.rang !== '') n++;
+        if (this.francophone) n++;
         if (this.showClosed) n++;
         return n;
     },
@@ -170,6 +174,7 @@ layout: layouts/base.html
         this.search = '';
         this.disciplines = [];
         this.rang = '';
+        this.francophone = false;
         this.showClosed = false;
         this.page = 1;
     }
@@ -179,6 +184,7 @@ layout: layouts/base.html
     $watch('search', () => page = 1);
     $watch('disciplines', () => page = 1);
     $watch('rang', () => page = 1);
+    $watch('francophone', () => page = 1);
     $watch('showClosed', () => page = 1);
 " @keydown.window.prevent.ctrl.k="$refs.search.focus()">
 
@@ -214,6 +220,13 @@ layout: layouts/base.html
                         <button @click="rang = '2'" class="btn btn-xs" :class="rang === '2' ? 'btn-primary' : 'btn-ghost border-base-300'">2</button>
                         <button @click="rang = '3'" class="btn btn-xs" :class="rang === '3' ? 'btn-primary' : 'btn-ghost border-base-300'">3</button>
                     </div>
+                </div>
+
+                <div>
+                    <label class="flex items-center gap-2 py-1 px-1 rounded hover:bg-base-300 cursor-pointer text-sm">
+                        <input type="checkbox" class="checkbox checkbox-xs checkbox-primary" x-model="francophone" />
+                        Revues francophones
+                    </label>
                 </div>
 
                 <div>
