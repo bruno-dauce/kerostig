@@ -1,5 +1,773 @@
 [
   {
+    "journal": "Management international",
+    "abbreviation": "mi",
+    "issn": "1918-9222",
+    "metaTitle": "Le concept de « middleground » : de l’analyse de la ville créative à la compréhension des écosystèmes complexes d’innovation et de transformation régionale",
+    "url": "https://www.managementinternational.ca/2026/04/16/le-concept-de-middleground-de-lanalyse-de-la-ville-creative-a-la-comprehension-des-ecosystemes-complexes-dinnovation-et-de-transformation-regionale/",
+    "title": "Le concept de « middleground » : de l'analyse de la ville créative à la compréhension des écosystèmes complexes d'innovation et de transformation régionale",
+    "slug": "mi-le-concept-de-middleground-de-lanalyse-de-la-ville-creative-a-la-comprehension-des-ecosystemes-complexes-dinnovation-et-de-transformation-regionale",
+    "contentHash": "1dbfd35ee62c06f4eb5f5832f9c273876a44c4187e6084e1c644c513b566f824",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "innovation",
+      "creative cities",
+      "regional development",
+      "ecosystems"
+    ],
+    "editors": [
+      {
+        "name": "Patrick Cohendet",
+        "affiliation": "HEC Montréal"
+      },
+      {
+        "name": "Bastian Lange",
+        "affiliation": "Université Humboldt de Berlin"
+      },
+      {
+        "name": "Elke Schüßler",
+        "affiliation": "Université Leuphana de Lüneburg"
+      },
+      {
+        "name": "Laurent Simon",
+        "affiliation": "HEC Montréal"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-31T11:00:00.000Z",
+        "description": "Deadline for paper submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:46:36.302Z"
+  },
+  {
+    "journal": "Management international",
+    "abbreviation": "mi",
+    "issn": "1918-9222",
+    "metaTitle": "Secret et silence dans le management des organisations en Afrique",
+    "url": "https://www.managementinternational.ca/2026/02/09/secret-et-silence-dans-le-management-des-organisations-en-afrique/",
+    "title": "Secret et silence dans le management des organisations en Afrique",
+    "slug": "mi-secret-et-silence-dans-le-management-des-organisations-en-afrique",
+    "contentHash": "214378925d41167210fd672fa9d2f41c9019091ab1f7476d109e2ad36abfc9e9",
+    "topics": [
+      "Secret et silence dans le management des organisations",
+      "Organizational management in African contexts",
+      "Secrecy and silence in organizational settings",
+      "Management practices in African organizations"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue explores the themes of secrecy and silence in the management of organizations across Africa. It examines how these phenomena shape organizational practices, culture, and decision-making processes in African business contexts."
+      ]
+    },
+    "tags": [
+      "organizational management",
+      "africa",
+      "secrecy",
+      "silence"
+    ],
+    "editors": [
+      {
+        "name": "Emmanuel Kamdem",
+        "affiliation": "ESSEC Douala"
+      },
+      {
+        "name": "Zouhour Ben Hamadi",
+        "affiliation": "ESSCA"
+      },
+      {
+        "name": "Helena Karjalainen",
+        "affiliation": "EM Normandie"
+      },
+      {
+        "name": "Konan A. Seny Kan",
+        "affiliation": "emlyon business school"
+      },
+      {
+        "name": "Serge Agbodjo",
+        "affiliation": "Université de Toulouse"
+      },
+      {
+        "name": "Yosra Hammami",
+        "affiliation": "Esprit School of Business"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-11-30T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:46:36.302Z"
+  },
+  {
+    "journal": "Management international",
+    "abbreviation": "mi",
+    "issn": "1918-9222",
+    "metaTitle": "La violence structurelle en Management international: Rendre visible l’invisibilité",
+    "url": "https://www.managementinternational.ca/2026/02/05/la-violence-structurelle-en-management-international-rendre-visible-linvisibilite/",
+    "title": "La violence structurelle en Management international: Rendre visible l'invisibilité",
+    "slug": "mi-la-violence-structurelle-en-management-international-rendre-visible-linvisibilite",
+    "contentHash": "0e4244eb058bdd1765f0802162bce5b85e0cf905ef3f1b2d7abc5685e680fc15",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "structural violence",
+      "international management"
+    ],
+    "editors": [
+      {
+        "name": "Arthur Nguyen",
+        "affiliation": "Université de Rouen Normandie"
+      },
+      {
+        "name": "Ahmed Benmecheddal",
+        "affiliation": "Université de Lorraine"
+      },
+      {
+        "name": "Noémie Dominguez",
+        "affiliation": "Université Jean Moulin Lyon 3"
+      },
+      {
+        "name": "Jack Tillotson",
+        "affiliation": "Université de Vaasa"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-30T11:00:00.000Z",
+        "description": "Deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:46:36.302Z"
+  },
+  {
+    "journal": "Management international",
+    "abbreviation": "mi",
+    "issn": "1918-9222",
+    "metaTitle": "Les Communautés en action au cœur du KM, de la prospective et de la résilience organisationnelle",
+    "url": "https://www.managementinternational.ca/2026/01/26/les-communautes-en-action-au-coeur-du-km-de-la-prospective-et-de-la-resilience-organisationnelle/",
+    "title": "Les Communautés en action au cœur du KM, de la prospective et de la résilience organisationnelle",
+    "slug": "mi-les-communautes-en-action-au-coeur-du-km-de-la-prospective-et-de-la-resilience-organisationnelle",
+    "contentHash": "f6803c9feeeaa943ce0b3d9aba19c1109b2345ecdf61221d5ffd61de101987c1",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "knowledge management",
+      "organizational resilience",
+      "communities of practice"
+    ],
+    "editors": [
+      {
+        "name": "Karine Goglio",
+        "affiliation": "Kedge Business School"
+      },
+      {
+        "name": "Marion Neukam",
+        "affiliation": "Université de Strasbourg"
+      },
+      {
+        "name": "Florence Crespin-Mazet",
+        "affiliation": "Kedge Business School"
+      },
+      {
+        "name": "Patrick Cohendet",
+        "affiliation": "HEC Montréal"
+      },
+      {
+        "name": "Eric Davoine",
+        "affiliation": "Université de Fribourg"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-07-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:46:36.302Z"
+  },
+  {
+    "journal": "Management international",
+    "abbreviation": "mi",
+    "issn": "1918-9222",
+    "metaTitle": "Pour un multilinguisme raisonné dans la recherche internationale en gestion :  un choix essentiel",
+    "url": "https://www.managementinternational.ca/2026/01/21/pour-un-multilinguisme-raisonne-dans-la-recherche-internationale-en-gestion-un-choix-essentiel/",
+    "title": "Pour un multilinguisme raisonné dans la recherche internationale en gestion : un choix essentiel",
+    "slug": "mi-pour-un-multilinguisme-raisonne-dans-la-recherche-internationale-en-gestion-un-choix-essentiel",
+    "contentHash": "f9d92c4b7b80bc3a98e0e5a1058ad248d8cd8983ef3086b133d49b170dee6bdd",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "multilingualism",
+      "international management research"
+    ],
+    "editors": [
+      {
+        "name": "Franck Barès",
+        "affiliation": "HEC Montréal"
+      },
+      {
+        "name": "Jean-François Chanlat",
+        "affiliation": "Université Paris-Dauphine-PSL"
+      },
+      {
+        "name": "Emmanuelle Dubocage",
+        "affiliation": "emlyon business school"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-31T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:46:36.302Z"
+  },
+  {
+    "journal": "Management international",
+    "abbreviation": "mi",
+    "issn": "1918-9222",
+    "metaTitle": "Les entreprises multinationales face aux défis des transitions socio-écologiques durables dans un contexte économique, institutionnel et politique international perturbé",
+    "url": "https://www.managementinternational.ca/2025/01/06/les-entreprises-multinationales-face-aux-defis-des-transitions-socio-ecologiques-durables-dans-un-contexte-economique-institutionnel-et-politique-international-perturbe/",
+    "title": "Les entreprises multinationales face aux défis des transitions socio-écologiques durables dans un contexte économique, institutionnel et politique international perturbé",
+    "slug": "mi-les-entreprises-multinationales-face-aux-defis-des-transitions-socio-ecologiques-durables-dans-un-contexte-economique-institutionnel-et-politique-international-perturbe",
+    "contentHash": "adb4c9c149d14301c689a998bb6a9af01114d1f4a8c49565c1d37eb4764e1ebc",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "multinational enterprises",
+      "sustainability",
+      "socio-ecological transitions",
+      "international business"
+    ],
+    "editors": [
+      {
+        "name": "Vera Ivanaj",
+        "affiliation": "Université de Lorraine"
+      },
+      {
+        "name": "Silvester Ivanaj",
+        "affiliation": "ICN Business School"
+      },
+      {
+        "name": "Niti Bhasin",
+        "affiliation": "Université de Delhi"
+      },
+      {
+        "name": "John McIntyre",
+        "affiliation": "Institut de Technologie de Géorgie"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-04-28T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:46:36.302Z"
+  },
+  {
+    "journal": "Management international",
+    "abbreviation": "mi",
+    "issn": "1918-9222",
+    "metaTitle": "Management, organisations et économie circulaire",
+    "url": "https://www.managementinternational.ca/2025/01/06/management-organisations-et-economie-circulaire/",
+    "title": "Management, organisations et économie circulaire",
+    "slug": "mi-management-organisations-et-economie-circulaire",
+    "contentHash": "bfc467bb2c8f1fceac022e325b1a2536706d851dcced426bd987cec386dd307f",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "circular economy",
+      "management",
+      "organizations"
+    ],
+    "editors": [
+      {
+        "name": "Luc Brès",
+        "affiliation": "Université Laval"
+      },
+      {
+        "name": "Raymond Paquin",
+        "affiliation": "Université Concordia"
+      },
+      {
+        "name": "Thomas Bauwens",
+        "affiliation": "Université Erasmus"
+      },
+      {
+        "name": "Emmanuel Raufflet",
+        "affiliation": "HEC Montréal"
+      },
+      {
+        "name": "Adriane MacDonald",
+        "affiliation": "Université Concordia"
+      },
+      {
+        "name": "Bart van Hoof",
+        "affiliation": "Université des Andes de Bogota"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-03-06T11:00:00.000Z",
+        "description": "|Call for papers announcement date",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:46:36.302Z"
+  },
+  {
+    "journal": "Revue française de gestion",
+    "abbreviation": "rfg",
+    "issn": "1777-5663",
+    "metaTitle": "Être ou ne pas être accompagné·e ? Les nouvelles frontières du soutien entrepreneurial",
+    "url": "https://www.jle.com/library/contenu/RFG/etre-ou-ne-pas-etre-accompagne.pdf",
+    "title": "Être ou ne pas être accompagné·e ? Les nouvelles frontières du soutien entrepreneurial",
+    "slug": "rfg-etre-ou-ne-pas-etre-accompagnee-les-nouvelles-frontieres-du-soutien-entrepreneurial",
+    "contentHash": "43b3453ac368daa90f2c37e89bc0366f699cee537470cbe322fb58cf87ab9e0e",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-11-05T11:00:00.000Z",
+        "description": "Deadline for paper submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:45:57.264Z"
+  },
+  {
+    "journal": "M@n@gement",
+    "abbreviation": "ojsfr",
+    "issn": "1286-4692",
+    "metaTitle": "‘Cold Cases’: Revisiting founding myths, iconic cases, and forgotten stories in management",
+    "url": "https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/48",
+    "title": "Cold Cases: Revisiting founding myths, iconic cases, and forgotten stories in management",
+    "slug": "ojsfr-cold-cases-revisiting-founding-myths-iconic-cases-and-forgotten-stories-in-management",
+    "contentHash": "0c47d2f2d1921a73c9d3de76f080389cb6c4d8e0ee8a2b5d4145431b4a1267ef",
+    "topics": [
+      "Reexamination and reinterpretation of canonical management cases (IBM, Xerox, Nokia, Kodak, Enron, etc.)",
+      "Empirical robustness and theoretical validity of emblematic cases in management scholarship",
+      "Performativity of famous cases and their role as epistemic artifacts",
+      "Processes of canonization and erasure in disciplinary memory",
+      "Circularity in qualitative management research and issues of confirmation bias",
+      "Role of founding myths in structuring management thinking and epistemic communities",
+      "Halo effects and the stratification of knowledge in management research",
+      "Forgotten cases and alternative narratives in management history",
+      "Critical reexamination of the Hawthorne experiments and other foundational studies",
+      "Replication, falsification, and verification in management research",
+      "Archaeology of management knowledge and disciplinary self-reflexivity"
+    ],
+    "description": {
+      "paragraphs": [
+        "Management research has long been populated by celebrated cases that have achieved the status of founding myths. Cases such as IBM's blindness to personal computing, Xerox's strategic myopia toward the graphical user interface, Nokia's fall to smartphones, the Mann Gulch fire, and Elton Mayo's Hawthorne experiments have become ubiquitous in the field's collective memory. These 'cold cases', endlessly cited and taught, structure ways of thinking and provide a shared foundation of representations that are central to the construction of epistemic communities.",
+        "Despite their pervasive influence, few studies scrutinize the empirical robustness, theoretical validity, or performativity of these emblematic cases. In management research, particularly in qualitative research, the risk of circularity is significant. Researchers working with inevitably heterogeneous and incomplete material may, even unconsciously, select data that confirm their theoretical priors, set aside disconfirming evidence, and ultimately favor demonstrations of the 'as if' type.",
+        "Management research's pursuit of 'theoretical gaps' has often privileged the production of new concepts at the expense of verification, reinterpretation, or falsification. This predilection leads to a stratification of knowledge where certain studies become canonical and generate 'halo effects', while others sink into oblivion not because they are invalid, but because they do not fit the dominant narratives of the discipline.",
+        "The aim of this special issue is to 'reopen the files of management' by challenging established truths, revisiting myths, excavating forgotten cases, and analyzing the processes of canonization and erasure that structure disciplinary memory. Famous cases such as Kodak, IBM, Enron, and Nokia must be regarded as epistemic artifacts, produced, reproduced, and sometimes distorted by scholarly communities, bearing narrative, moral, and institutional dimensions.",
+        "M@n@gement has established itself as a privileged venue for critical, reflexive, and interdisciplinary approaches in management research. This special issue continues this tradition by inviting the community to undertake an archaeology of its own knowledge. Revisiting 'cold cases' means interrogating how management research constructs its own history, its certainties, and its silences. It is a call to strengthen the cumulative and self-critical dimension of the field by restoring a rightful place to research grounded in the replication of experiments, the challenging of established findings, and recontextualization.",
+        "At a time when researchers are constantly pressured to produce 'new' knowledge, this special issue proposes to rehabilitate slow, reflexive research capable of revisiting taken-for-granted assumptions, reopening closed debates, and reinvigorating the controversies that are constitutive of knowledge production."
+      ]
+    },
+    "tags": [
+      "management research",
+      "canonical cases",
+      "mythology",
+      "epistemology",
+      "research methods",
+      "organizational history"
+    ],
+    "editors": [
+      {
+        "name": "Anaïs Boutru",
+        "affiliation": "Université Paris-Dauphine, PSL"
+      },
+      {
+        "name": "Linda Rouleau",
+        "affiliation": "HEC Montréal"
+      },
+      {
+        "name": "Géraldine Schmidt",
+        "affiliation": "Université Paris 1 Panthéon-Sorbonne"
+      },
+      {
+        "name": "Albéric Tellier",
+        "affiliation": "Université Paris-Dauphine, PSL"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-14T10:00:00.000Z",
+        "description": "Pre-submission workshop (online)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-31T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:43:57.586Z"
+  },
+  {
+    "journal": "M@n@gement",
+    "abbreviation": "ojsfr",
+    "issn": "1286-4692",
+    "metaTitle": "Is progress taken for granted? Social change, backlash, and resistance in organizations",
+    "url": "https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/50",
+    "title": "Social change, backlash, and resistance in organizations",
+    "slug": "ojsfr-is-progress-taken-for-granted-social-change-backlash-and-resistance-in-organizations",
+    "contentHash": "afbd5553787a7f82695910929b096e19721fbd5d9ba32f7182307a1d17c62a3e",
+    "topics": [
+      "What are the different forms of backlash affecting organizations? Are there 'invisible' forms of backlash?",
+      "How and to what extent does backlash contribute to the deinstitutionalization of established norms (e.g. ESG, DEI, climate)?",
+      "What forms of institutional work produce or hinder backlash?",
+      "What roles do different modes of governance and different forms of organization play in weakening or, conversely, protecting social progress? Are democratic organizations, in particular, more or less prone to backlash?",
+      "How do organizations respond, resist, protect themselves, and participate in backlash?",
+      "What are the risks, uncertainties, and tensions generated by backlash? How can they be managed?",
+      "What forms of collective response are organized to face backlash (e.g. meta-organizations, networks, lobbying)?",
+      "How do individuals participate in or resist backlash (e.g. through employee activism)?",
+      "What is the impact of backlash on individuals (identity, career paths, values, social representations, experience)?",
+      "How does backlash transform or disrupt individuals' relationships with work and the company?",
+      "What forms of individual and collective resistance to backlash can be observed? What are the conditions and effects of this resistance?",
+      "What is the role of researchers and what stance should they adopt in response to this phenomenon?",
+      "What methodological and epistemological approaches are best suited to studying backlash, its mechanisms, and its consequences? What methodological innovations are needed to better understand its contemporary forms?",
+      "How can organizational theory contribute to understanding the phenomenon of backlash?",
+      "What are the multi-level interactions between societal, organizational, and individual backlash?",
+      "How can backlash contribute to the emergence of other backlashes?"
+    ],
+    "description": {
+      "paragraphs": [
+        "The production and dissemination of knowledge, particularly on inequalities, climate change, and biodiversity, are increasingly under attack. These attacks are reflected in some political and administrative decisions adopted across several national contexts, such as the measures taken by President Donald Trump since his return to power. Beyond the US, academic freedom is being directly or indirectly undermined in many countries. For example, in France, controversies surrounding 'Islamo-leftism' within universities, reignited by the Minister of Higher Education, have been accompanied by concrete attacks on several scientific institutions.",
+        "Although research on grand challenges, sustainability, and ecosystem transitions is still ongoing, climate policies and the low-carbon transition are also under attack from many sides. These attacks range from climate scepticism to misinformation and lobbying, and aim to delay or weaken existing or future standards, as illustrated by the recent deregulation movement in Europe around the Omnibus law. Despite research pointing to the depletion of global resources, sustainable finance, ESG investing, and CSR are becoming increasingly polarized. Some asset managers are taking a more cautious approach to their commitments, and major players such as BlackRock announced in 2024 that they would be withdrawing ESG-labelled financial products. Some companies are reviewing their CSR practices and communication by adopting withdrawal or 'silence' strategies.",
+        "At the same time, the movement for equity, equality, and inclusion seems to be reaching a peak when it comes to considering diverse identities within organizations. And yet, it is simultaneously accompanied by growing opposition. The murder of George Floyd and the ensuing protests in 2020 intensified diversity initiatives, while fuelling a conservative backlash. In connection with these events, the public statements of certain companies, far from achieving consensus, have sometimes crystallized negative reactions.",
+        "Finally, the flexibilisation of work is also undergoing changes. While teleworking, part-time work and flexible hours have become the norm, particularly because of the health crisis, the ideal of constant availability remains dominant. Barriers to the use of these arrangements, such as stigmatization and career penalties, persist and are even becoming more pronounced, while calls for a return to the office are growing.",
+        "Whether it be attacks on science, the retreat from climate and financial commitments, the contestation of inclusion policies or the questioning of individualized management systems, these developments reflect a critical re-evaluation of social and ecological advances perceived as progressive: a phenomenon known as 'backlash'.",
+        "At its most basic level, backlash is defined as resistance to social progress. It is an active 'counterattack' against initiatives, programmes, knowledge, and policies that aim to change existing patterns of inequality and injustice. Used at a political level, the term refers to a retrograde goal of returning to a previous social condition, using extraordinary objectives and tactics that challenge dominant narratives to interfere with the dominant public discourse. The concept of 'backlash' emerged in the 1970s in the United States, in political science, to describe and analyse right-wing extremism. The emphasis is then placed on the link between 'backlash' and symbolic investment in the past: beyond simple opposition, backlash is often associated with fear of loss and nostalgia for an idealized past. In the 1990s, the feminist movement took up this notion, suggesting that every advance made by women triggers a hostile reaction to block or reverse their gains. Since then, it has been particularly mobilized in the field of gender studies and research on diversity, equality, and inclusion, which combine backlash with the study of the negative social and economic consequences affecting individuals who go against social norms.",
+        "Today, some researchers attribute a systematic nature to backlash. All projects aiming for social justice encounter resistance from privileged groups seeking to restore or maintain their power, contributing to a growing polarization of opinions. This development has been fuelled by several structural and psychological factors that have broadened its scope, including fear of losing resources, fear of the emergence of new dominant values, and questioning of existing values.",
+        "In management literature, the issue has mainly been explored from the perspective of diversity. Studies have focused on how women, particularly those in leadership positions, who challenge gender stereotypes may face a number of sanctions, such as hostile messages, negative evaluations, lack of promotion, or tensions with colleagues.",
+        "However, in a context where organizations play an increasingly political role, where they constitute a microcosm reflecting societal aspirations, and are part of increasingly connected networks of stakeholders, the phenomenon of backlash impacts organizations as a whole. Management and organization studies, together with other disciplines such as political science, sociology and psychology, can contribute to exploring the phenomenon at the institutional, organizational, managerial, and individual levels to shed new light on these dynamics, help us analyse them critically and position ourselves, as researchers and practitioners, in these debates.",
+        "At the institutional level, backlash can be understood through the three pillars—regulatory, normative, and cultural-cognitive—that structure the legitimacy of practices. It is not simply a matter of decline, but rather the outcome of institutional efforts aimed at undermining or redefining norms that were previously thought to be established. For example, the recent decline in commitment to sustainable development in the United States is based on anti-ESG laws passed in 37 states and decisions by the Supreme Court. At the same time, a 'backlash industry' is mobilizing framing marketing strategies to influence norms and representations. Nevertheless, institutional work does not only serve to destabilize institutions; it can also aim to defend, maintain, or strengthen them through various institutional maintenance practices involving stakeholders both inside and outside organizations.",
+        "At the organizational level, backlash can be overt, as illustrated by the explicit withdrawal of social or environmental policies under pressure following governance or political evolutions. These changes can generate opposition from stakeholders and can prove difficult to implement depending on how deeply rooted they are in regulations, culture, or processes. Alongside these apparent shifts, more subtle forms of backlash are also emerging: resource reductions, the withdrawal of objectives, silence, and changes in vocabulary, generating tensions between discourse and practice. Among stakeholders, trade unions play a central role in protecting existing rights. They constitute a counter-power that can either slow down backlash or contribute to it.",
+        "Managers appear to be key intermediaries, caught up in contexts of ambiguity, conflicting values and contradictory demands. Neither mere executors nor fully autonomous, they are faced with moral and political dilemmas, which sometimes lead them to support strategic changes, and sometimes to resist or attempt to preserve certain commitments. However, backlash remains poorly conceptualized as a specific managerial challenge with both organizational and societal dimensions.",
+        "At the individual level, organizational contexts characterized by normative uncertainty or contested values can exacerbate the identity and moral tensions experienced by individuals, with lasting effects on their commitment, well-being and career choices. These tensions drive action, with employees who are particularly sensitive to social or environmental issues making their voices heard within organizations in the form of internal activism. But threat is as much a cause as a consequence of backlash: it can emerge from perceived threats to the identity, status, or legitimacy of certain dominant groups, revealing ambivalent dynamics.",
+        "Taken together, these different levels do not function in isolation but feed into each other: institutional transformations redefine the organizational and managerial scope for action, which influences individual experiences, which in turn can help to consolidate, influence, or challenge existing institutional frameworks.",
+        "This special issue aims to contribute to the theorization of the backlash phenomenon by analysing its institutional, organizational, managerial, and individual manifestations. The objective is to gain a better understanding of the internal and external mechanisms that promote backlash, as well as its effects and their complex relationships. Ultimately, this special issue will seek to understand the representations and experiences of the various stakeholders faced with backlash, including the multiple forms of resistance it can generate.",
+        "This special issue calls for papers based on a variety of methodological and conceptual approaches and encourages the adoption of multidisciplinary approaches at the intersection of management science, sociology, political science, psychology, communication, philosophy and law, among others. Submitted articles may be conceptual or empirical and based on a variety of ontologies. They may explore in depth one of the manifestations of backlash (e.g. questioning of science, environmental commitments, DEI policies, or flexible work), take a more comprehensive approach to the phenomenon of backlash, or conduct comparative studies. Submitted manuscripts may also offer an analysis focused on a specific level of analysis (individual, managerial, organizational, or institutional) or undertake a multi-level analysis."
+      ]
+    },
+    "tags": [
+      "backlash",
+      "social progress",
+      "diversity and inclusion",
+      "organizational change",
+      "institutional dynamics",
+      "management studies"
+    ],
+    "editors": [
+      {
+        "name": "Sarah Richard",
+        "affiliation": "Audencia Business School"
+      },
+      {
+        "name": "Lucie Noury",
+        "affiliation": "Audencia Business School"
+      },
+      {
+        "name": "Pauline de Becdelièvre",
+        "affiliation": "Université Paris Saclay"
+      },
+      {
+        "name": "Céline Louche",
+        "affiliation": "Waikato Management School—University of Waikato"
+      },
+      {
+        "name": "Stéphan Pezé",
+        "affiliation": "Université Toulouse Capitole"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-19T10:00:00.000Z",
+        "description": "Deadline for paper proposals to workshop (maximum 3,000 words, including references)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-11-19T11:00:00.000Z",
+        "description": "Online paper development workshop organized by the guest editorial team across different time zones",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-02-01T11:00:00.000Z",
+        "description": "Opening of submission period for full papers",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-06-01T10:00:00.000Z",
+        "description": "Deadline for full paper submission",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2028-12-01T11:00:00.000Z",
+        "description": "Publication date",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:43:57.586Z"
+  },
+  {
+    "journal": "Systèmes d'information & management",
+    "abbreviation": "ojsfr",
+    "issn": "2271-7188",
+    "metaTitle": "Call for papers and article development workshop",
+    "url": "https://revuesim.org/index.php/sim/announcement/view/88",
+    "title": "Article Development Workshop",
+    "slug": "ojsfr-call-for-papers-and-article-development-workshop",
+    "contentHash": "a6a17f82450eaaf120cc9dfce7deea1406f7cb8e6f0a009b5ed906fb6a835433",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "SIM, AIM, and Haute école Arc are pleased to announce an article development workshop. A plenary session with the editor-in-chief of SIM will precede this workshop."
+      ]
+    },
+    "tags": [
+      "workshop",
+      "article development"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-04-02T10:00:00.000Z",
+        "description": "Deadline for article submissions",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2026-05-20T10:00:00.000Z",
+        "description": "Workshop date in Neuchâtel, Switzerland",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:43:57.586Z"
+  },
+  {
+    "journal": "Systèmes d'information & management",
+    "abbreviation": "ojsfr",
+    "issn": "2271-7188",
+    "metaTitle": "SPECIAL ISSUE - CALL FOR PAPER The transformative power of digital healthcare: New challenges and research opportunities",
+    "url": "https://revuesim.org/index.php/sim/announcement/view/77",
+    "title": "The transformative power of digital healthcare: New challenges and research opportunities",
+    "slug": "ojsfr-special-issue-call-for-paper-the-transformative-power-of-digital-healthcare-new-challenges-and-research-opportunities",
+    "contentHash": "7c143700fd690416fe95cf2498e87dda13d71fd82deb444edf88797c82976099",
+    "topics": [
+      "The challenges of AI in healthcare (ethics, responsibility, etc.)",
+      "Patient empowerment and healthcare democracy",
+      "The 'techno-push' dynamics of digital health technologies and industrial influence on the pace and direction of innovations in this field (particularly AI)",
+      "The challenge of new forms of multi-level governance in healthcare",
+      "The new generation of digital health technologies and their vulnerabilities",
+      "The care pathway and technologies",
+      "Hospital-city cooperation/coordination"
+    ],
+    "description": {
+      "paragraphs": [
+        "As Orlikowski and Iacono (2001) emphasize, information systems (IS) researchers not only have the opportunity to influence the future, but they also have the responsibility to do so by documenting what digital technologies change, capturing what disappears, and what is being created.",
+        "In the healthcare sector, recent years have been marked by massive growth in innovations and the implementation of digital technologies: the development of mobile health, the deployment of digital patient monitoring devices, the operationalization of integrated electronic medical records systems, the introduction of artificial intelligence applied to clinical diagnostics, the development of immersive therapies via virtual reality, and the use of blockchain technology. However, beyond the proliferation of innovative digital devices, what now stands out seems to be of a different order: their interdependence, which nurtures new forms of complexity, the quantification at work (data-intensive medicine), and the unprecedented modes of instantaneous calculation (algorithmic medicine) that support them, as well as the connectivity challenges (telemedicine).",
+        "Data analysis and Artificial Intelligence (AI), driven by the acceleration of data collection in the sector, are ushering in disruptions and radical innovations in healthcare. Rapid advancements in AI are creating new opportunities in healthcare. These technologies alone have a transformative power on the industry and society. But through their integration, their disruptive effects increase exponentially, raising new issues.",
+        "Thus, the more organizations collect data due to increased integration of digital devices, the more the issue of privacy protection becomes critical. With the dissemination of self-learning algorithms, cybersecurity concerns become even more critical. This new generation of digital innovations also raises new governance questions, particularly regarding the involvement of new stakeholders in healthcare system analysis, represented by the intervention of non-human agents in automated and algorithmic decision systems.",
+        "Similarly, explainability, accountability, relationships between healthcare professionals, and the organization of work represent major challenges associated with the use of AI in healthcare organizations. The complexity of algorithms and the colossal volume of data used by AI make it extremely difficult to understand and thus explain the functioning and results produced by AI. The question of responsibility for healthcare professionals and the organizations to which they belong becomes even more acute when they use this technology. From a managerial perspective, the use of AI is a major disruptive element in healthcare management systems, contributing to the transformation of relationships among stakeholders and the emergence of new work organizations that require new skills. Providing patients with broader access to healthcare via telemedicine or connected devices for remote monitoring profoundly changes the organization of care and the role of the patient. It also raises numerous challenges in terms of health equity and trust.",
+        "For some, this represents a significant break. For others, technological advancements in healthcare oscillate between continuity and a shift. Many studies have shown that the impact of early generations of information technology on healthcare has been far below expectations. And even though the COVID crisis accelerated the digital transformation of the healthcare sector, the sector, and even more so the medico-social sector, remain marked by slow adoption of innovations in digital health technologies.",
+        "The transformative potential of digital technologies in the healthcare sector remains complex to grasp, as it is embedded in structural specificities. The complexity of the domain is related to the multiplicity of competing and/or cooperating actors (industrials, consumers, patients, healthcare professionals, insurance companies), and an institutional environment characterized by multiple levels of regulation and the power of professional bodies. The ongoing challenge of integrating legacy systems, the diversity of technological platforms, and strict regulations pose major interoperability issues. Governments, providers, and users must agree on interoperability and standardization frameworks in a constantly evolving regulatory context. Each new technology integrated into the healthcare pathway introduces a multiplicity of changes in the existing context, creating obstacles and resistance that may affect the social and spatial organization of care, the division of medical and paramedical labor, and interactions among various stakeholders. Power dynamics at play in the healthcare industry are highlighted in studies on IS governance and the direction of AI development, and internal power dynamics within a healthcare organization, as well as external dynamics that often play out between patients and caregivers.",
+        "Is the transformative power of digital technologies in healthcare likely to improve the effectiveness and efficiency of healthcare systems? As the World Health Organization (2021) reminds us, digital innovations aim to transform the delivery of healthcare services, making them more accessible, personalized, and potentially more efficient.",
+        "Emerging technologies in healthcare present new challenges and renew issues due to the unpredictable discontinuities brought about by technologies like AI and their integration, or even their expansion across the entire sector. They offer significant opportunities for future research and the potential to renew theoretical and methodological approaches in IS management. In order to overcome past difficulties and address the complexity of the field, scholars advocate for interdisciplinary approaches in healthcare and information technology. The healthcare field represents a rich environment from which new theories can be developed and existing theories extended in the field of IS.",
+        "This special issue is open to contributions from interdisciplinary and sociotechnical perspectives, often considered one of the foundational viewpoints in IS discipline. Submissions should focus on the ongoing transformations driven by innovative digital health technologies and grasp the magnitude of these changes. Contributions on the medico-social sector, which is currently under-researched, will be appreciated. Contributions may include empirical, theoretical, or meta-analysis papers."
+      ]
+    },
+    "tags": [
+      "digital healthcare",
+      "artificial intelligence",
+      "healthcare information systems",
+      "sociotechnical perspectives"
+    ],
+    "editors": [
+      {
+        "name": "Valérie Fernandez",
+        "affiliation": "Telecom Paris"
+      },
+      {
+        "name": "Bénédicte Geffroy",
+        "affiliation": "IMT Atlantique"
+      },
+      {
+        "name": "Liette Lapointe",
+        "affiliation": "McGill University"
+      },
+      {
+        "name": "Jean-François Berthevas",
+        "affiliation": "Université de La Rochelle"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-09-30T10:00:00.000Z",
+        "description": "Submission Deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2025-12-20T11:00:00.000Z",
+        "description": "First-round Notification",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-03-20T11:00:00.000Z",
+        "description": "Revision Deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-06-01T10:00:00.000Z",
+        "description": "Second/Final Decision by Invited Editors",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-07-01T10:00:00.000Z",
+        "description": "Publication Decision by Editorial Board",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-09-01T10:00:00.000Z",
+        "description": "Publication Date",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:43:57.586Z"
+  },
+  {
+    "journal": "Systèmes d'information & management",
+    "abbreviation": "ojsfr",
+    "issn": "2271-7188",
+    "metaTitle": "Plasticity of working methods in the digital workplace",
+    "url": "https://revuesim.org/index.php/sim/announcement/view/69",
+    "title": "Plasticity of working methods in the digital workplace",
+    "slug": "ojsfr-plasticity-of-working-methods-in-the-digital-workplace",
+    "contentHash": "2dad736abcf8bca97050d9594996460d6f5169ef5b7097293ffdafb7f4f42f69",
+    "topics": [
+      "Plasticity of working methods in digital environments",
+      "Digital workplace practices and adaptability",
+      "Evolution of work methods in response to digital transformation"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue focuses on the plasticity of working methods in the digital workplace, examining how organizations and individuals adapt their work practices in response to digital technologies and transformations. The issue explores the flexibility, malleability, and evolution of work methods as they are shaped by digital tools, platforms, and organizational contexts."
+      ]
+    },
+    "tags": [
+      "digital workplace",
+      "work methods",
+      "plasticity",
+      "digital transformation"
+    ],
+    "editors": [
+      {
+        "name": "Florence Laval",
+        "affiliation": "Université de Poitiers"
+      },
+      {
+        "name": "Anass Mawadia",
+        "affiliation": "Université de Poitiers"
+      },
+      {
+        "name": "Aurélie Dudézert",
+        "affiliation": "IMT-BS"
+      },
+      {
+        "name": "Nathalie Mitev",
+        "affiliation": "University of Münster"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2024-02-03T11:00:00.000Z",
+        "description": "Deadline for submitting an abstract to the workshop organized at the AIM Conference",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2024-04-03T10:00:00.000Z",
+        "description": "Response to the authors for participation in the workshop",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2024-05-27T10:00:00.000Z",
+        "description": "Preparatory workshop to support the authors and offer them constructive feedback in order to improve the articles before submission",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2024-09-01T10:00:00.000Z",
+        "description": "Deadline for submission of manuscripts for the special issue of the journal",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2024-10-15T10:00:00.000Z",
+        "description": "Response to the authors",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2024-11-30T11:00:00.000Z",
+        "description": "Deadline to submit the final version",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:43:57.586Z"
+  },
+  {
     "journal": "Recherche et Applications en Marketing",
     "abbreviation": "sage",
     "issn": "2051-2821",

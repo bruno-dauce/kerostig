@@ -34,7 +34,12 @@ const Call = z.object({
 });
 
 async function parseFuzzyDate(fuzzyDate) {
-    return chrono.parseDate(fuzzyDate);
+    // Le parseur anglais par defaut renvoie null sur des dates francaises
+    // ("31 decembre 2026") -- confirme manuellement. chrono-node fournit un
+    // parseur localise (chrono.fr) qui gere aussi les ordinaux ("1er juin").
+    // Essaye en repli seulement, pour ne rien changer au comportement
+    // existant sur les dates anglaises des autres scrapers.
+    return chrono.parseDate(fuzzyDate) ?? chrono.fr.parseDate(fuzzyDate);
 }
 
 export async function parse(call) {
