@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>hubecall | Tag : post-growth</title>
+        <link>https://hubecall.com/tag/post-growth</link>
+        <description>Derniers appels à publications avec le tag 'post-growth'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 16:58:04 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>hubecall | Tag : post-growth</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/post-growth</link>
+        </image>
+        <copyright>hubecall © 2026</copyright>
+        <item>
+            <title><![CDATA[Imaginer la post-croissance]]></title>
+            <link>https://hubecall.com/call/sage-call-for-papers</link>
+            <guid>sage-call-for-papers</guid>
+            <pubDate>Wed, 12 Aug 2026 13:39:13 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    <p>Call for papers for a special issue on imagining post-growth.</p>
+    
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 15, 2027: Full paper submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Recherche et Applications en Marketing (SAGE)</author>
+        </item>
+    </channel>
+</rss>

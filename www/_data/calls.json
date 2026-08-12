@@ -449,8 +449,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-11T16:52:21.568Z"
   },
   {
     "journal": "M@n@gement",
@@ -557,8 +558,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-11T16:52:21.568Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -593,8 +595,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-11T16:52:21.568Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -685,8 +688,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-11T16:52:21.568Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -764,8 +768,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-11T16:52:21.568Z"
   },
   {
     "journal": "Recherche et Applications en Marketing",
