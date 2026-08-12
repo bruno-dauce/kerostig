@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: practitioner engagement</title>
-        <link>https://callsforpapers.org/tag/practitioner-engagement</link>
-        <description>Latest calls for papers tagged with 'practitioner engagement'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Tag : practitioner engagement</title>
+        <link>https://hubecall.com/tag/practitioner-engagement</link>
+        <description>Derniers appels à publications avec le tag 'practitioner engagement'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: practitioner engagement</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/practitioner-engagement</link>
+            <title>hubecall | Tag : practitioner engagement</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/practitioner-engagement</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[Open Call for Papers]]></title>
-            <link>https://callsforpapers.org/call/aom-amp-open-call-for-papers</link>
+            <link>https://hubecall.com/call/aom-amp-open-call-for-papers</link>
             <guid>aom-amp-open-call-for-papers</guid>
             <pubDate>Tue, 11 Aug 2026 01:40:43 GMT</pubDate>
             <content:encoded><![CDATA[<div>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Journal of Transport Geography</title>
-        <link>https://callsforpapers.org/journal/journal-of-transport-geography</link>
-        <description>Latest calls for papers for Journal of Transport Geography.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Journal of Transport Geography</title>
+        <link>https://hubecall.com/journal/journal-of-transport-geography</link>
+        <description>Derniers appels à publications pour Journal of Transport Geography.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Journal of Transport Geography</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/journal/journal-of-transport-geography</link>
+            <title>hubecall | Journal of Transport Geography</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/journal/journal-of-transport-geography</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[Transport Geographies of Hope]]></title>
-            <link>https://callsforpapers.org/call/elsevier-transport-geographies-of-hope</link>
+            <link>https://hubecall.com/call/elsevier-transport-geographies-of-hope</link>
             <guid>elsevier-transport-geographies-of-hope</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -37,7 +37,7 @@
         </item>
         <item>
             <title><![CDATA[Rethinking Transit-Oriented Development: Territorial restructuring, intermodality and governance]]></title>
-            <link>https://callsforpapers.org/call/elsevier-rethinking-transit-oriented-development-territorial-restructuring-intermodality-and-governance</link>
+            <link>https://hubecall.com/call/elsevier-rethinking-transit-oriented-development-territorial-restructuring-intermodality-and-governance</link>
             <guid>elsevier-rethinking-transit-oriented-development-territorial-restructuring-intermodality-and-governance</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -58,7 +58,7 @@
         </item>
         <item>
             <title><![CDATA[Decolonising Research in Transport Geography]]></title>
-            <link>https://callsforpapers.org/call/elsevier-decolonising-research-in-transport-geography</link>
+            <link>https://hubecall.com/call/elsevier-decolonising-research-in-transport-geography</link>
             <guid>elsevier-decolonising-research-in-transport-geography</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>

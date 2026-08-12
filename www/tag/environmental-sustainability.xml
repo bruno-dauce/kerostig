@@ -1,43 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: environmental sustainability</title>
-        <link>https://callsforpapers.org/tag/environmental-sustainability</link>
-        <description>Latest calls for papers tagged with 'environmental sustainability'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Tag : environmental sustainability</title>
+        <link>https://hubecall.com/tag/environmental-sustainability</link>
+        <description>Derniers appels à publications avec le tag 'environmental sustainability'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: environmental sustainability</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/environmental-sustainability</link>
+            <title>hubecall | Tag : environmental sustainability</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/environmental-sustainability</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[Innovative Technologies, Operational Models and Policies for Achieving Sustainable Logistics]]></title>
-            <link>https://callsforpapers.org/call/elsevier-innovative-technologies-operational-models-and-policies-for-achieving-sustainable-logistics-2</link>
-            <guid>elsevier-innovative-technologies-operational-models-and-policies-for-achieving-sustainable-logistics-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 4, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Transportation Research Part D: Transport and Environment (ELSEVIER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Innovative Technologies, Operational Models and Policies for Achieving Sustainable Logistics]]></title>
-            <link>https://callsforpapers.org/call/elsevier-innovative-technologies-operational-models-and-policies-for-achieving-sustainable-logistics-2</link>
+            <link>https://hubecall.com/call/elsevier-innovative-technologies-operational-models-and-policies-for-achieving-sustainable-logistics-2</link>
             <guid>elsevier-innovative-technologies-operational-models-and-policies-for-achieving-sustainable-logistics-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -58,7 +37,7 @@
         </item>
         <item>
             <title><![CDATA[Sustainable Luxury Tourism: Opportunities, Tensions, and Impacts]]></title>
-            <link>https://callsforpapers.org/call/tandf-sustainable-luxury-tourism-opportunities-tensions-and-impacts</link>
+            <link>https://hubecall.com/call/tandf-sustainable-luxury-tourism-opportunities-tensions-and-impacts</link>
             <guid>tandf-sustainable-luxury-tourism-opportunities-tensions-and-impacts</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>

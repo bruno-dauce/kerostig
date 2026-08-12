@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: biodiversity</title>
-        <link>https://callsforpapers.org/tag/biodiversity</link>
-        <description>Latest calls for papers tagged with 'biodiversity'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Tag : biodiversity</title>
+        <link>https://hubecall.com/tag/biodiversity</link>
+        <description>Derniers appels à publications avec le tag 'biodiversity'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: biodiversity</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/biodiversity</link>
+            <title>hubecall | Tag : biodiversity</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/biodiversity</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[Transformative change for global biodiversity: notes from the field]]></title>
-            <link>https://callsforpapers.org/call/elsevier-transformative-change-for-global-biodiversity-notes-from-the-field</link>
+            <link>https://hubecall.com/call/elsevier-transformative-change-for-global-biodiversity-notes-from-the-field</link>
             <guid>elsevier-transformative-change-for-global-biodiversity-notes-from-the-field</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -37,55 +37,7 @@
         </item>
         <item>
             <title><![CDATA[Transportation Ecology]]></title>
-            <link>https://callsforpapers.org/call/elsevier-transportation-ecology-2</link>
-            <guid>elsevier-transportation-ecology-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    <p>This special issue focuses on the intersection of transportation systems and ecological processes. It addresses the complex relationships between human mobility, infrastructure development, and natural ecosystems, examining both the negative impacts of transportation on biodiversity and environmental quality, as well as solutions that balance transportation needs with ecological conservation.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Ecological impacts of transportation systems</li>
-        
-        <li>Wildlife-vehicle interactions and habitat fragmentation</li>
-        
-        <li>Air and water pollution from transportation</li>
-        
-        <li>Noise pollution and ecosystem effects</li>
-        
-        <li>Climate change impacts of transportation</li>
-        
-        <li>Sustainable transportation and biodiversity conservation</li>
-        
-        <li>Urban ecology and transportation planning</li>
-        
-        <li>Green infrastructure for transportation corridors</li>
-        
-        <li>Restoration ecology in transportation contexts</li>
-        
-        <li>Transportation policy and environmental management</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 30, 2026: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Transportation Research Part D: Transport and Environment (ELSEVIER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Transportation Ecology]]></title>
-            <link>https://callsforpapers.org/call/elsevier-transportation-ecology-2</link>
+            <link>https://hubecall.com/call/elsevier-transportation-ecology-2</link>
             <guid>elsevier-transportation-ecology-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>

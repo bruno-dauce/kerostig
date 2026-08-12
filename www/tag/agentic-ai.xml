@@ -1,43 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: agentic ai</title>
-        <link>https://callsforpapers.org/tag/agentic-ai</link>
-        <description>Latest calls for papers tagged with 'agentic ai'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Tag : agentic ai</title>
+        <link>https://hubecall.com/tag/agentic-ai</link>
+        <description>Derniers appels à publications avec le tag 'agentic ai'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: agentic ai</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/agentic-ai</link>
+            <title>hubecall | Tag : agentic ai</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/agentic-ai</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[Agentic AI and the Future of Leadership: The Emergence of Leadership as a Service]]></title>
-            <link>https://callsforpapers.org/call/elsevier-agentic-ai-and-the-future-of-leadership-the-emergence-of-leadership-as-a-service-2</link>
-            <guid>elsevier-agentic-ai-and-the-future-of-leadership-the-emergence-of-leadership-as-a-service-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>January 31, 2027: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Technological Forecasting and Social Change (ELSEVIER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Agentic AI and the Future of Leadership: The Emergence of Leadership as a Service]]></title>
-            <link>https://callsforpapers.org/call/elsevier-agentic-ai-and-the-future-of-leadership-the-emergence-of-leadership-as-a-service-2</link>
+            <link>https://hubecall.com/call/elsevier-agentic-ai-and-the-future-of-leadership-the-emergence-of-leadership-as-a-service-2</link>
             <guid>elsevier-agentic-ai-and-the-future-of-leadership-the-emergence-of-leadership-as-a-service-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -58,7 +37,7 @@
         </item>
         <item>
             <title><![CDATA[Agentic Artificial Intelligence Across Organizational Functions and Practices]]></title>
-            <link>https://callsforpapers.org/call/emerald-agentic-artificial-intelligence-across-organizational-functions-and-practices</link>
+            <link>https://hubecall.com/call/emerald-agentic-artificial-intelligence-across-organizational-functions-and-practices</link>
             <guid>emerald-agentic-artificial-intelligence-across-organizational-functions-and-practices</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -126,7 +105,7 @@
         </item>
         <item>
             <title><![CDATA[Agentic and Generative AI in Healthcare Organizations: Governance, Clinical Workflow Integration and Responsible Value Creation]]></title>
-            <link>https://callsforpapers.org/call/emerald-agentic-and-generative-ai-in-healthcare-organizations-governance-clinical-workflow-integration-and-responsible-value-creation</link>
+            <link>https://hubecall.com/call/emerald-agentic-and-generative-ai-in-healthcare-organizations-governance-clinical-workflow-integration-and-responsible-value-creation</link>
             <guid>emerald-agentic-and-generative-ai-in-healthcare-organizations-governance-clinical-workflow-integration-and-responsible-value-creation</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -188,7 +167,7 @@
         </item>
         <item>
             <title><![CDATA[Theoretical perspectives on Generative and Agentic AI adoption in service environments]]></title>
-            <link>https://callsforpapers.org/call/emerald-theoretical-perspectives-on-generative-and-agentic-ai-adoption-in-service-environments</link>
+            <link>https://hubecall.com/call/emerald-theoretical-perspectives-on-generative-and-agentic-ai-adoption-in-service-environments</link>
             <guid>emerald-theoretical-perspectives-on-generative-and-agentic-ai-adoption-in-service-environments</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<div>

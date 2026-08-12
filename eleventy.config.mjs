@@ -114,6 +114,7 @@ export default async function (eleventyConfig) {
 
     eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
 
+    eleventyConfig.addPassthroughCopy('www/llms.txt');
     eleventyConfig.addPassthroughCopy('www/rss.xml');
     eleventyConfig.addPassthroughCopy('www/journal/*.xml');
     eleventyConfig.addPassthroughCopy('www/tag/*.xml');

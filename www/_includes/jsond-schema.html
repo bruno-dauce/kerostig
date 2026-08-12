@@ -8,35 +8,35 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Calls for Papers",
-          "item": "https://callsforpapers.org/"
+          "name": "{{ meta.name }}",
+          "item": "{{ meta.url }}/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "{{ call.journal }}",
-          "item": "https://callsforpapers.org/journal/{{ call.journal | slug }}"
+          "item": "{{ meta.url }}/journal/{{ call.journal | slug }}"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "{{ call.title if call.title else call.metaTitle | safe }}",
-          "item": "https://callsforpapers.org/call/{{ call.slug }}/"
+          "item": "{{ meta.url }}/call/{{ call.slug }}/"
         }
       ]
     },
     {
       "@type": "CreativeWork",
-      "@id": "https://callsforpapers.org/call/{{ call.slug }}/#cfp",
-      "mainEntityOfPage": "https://callsforpapers.org/call/{{ call.slug }}/",
+      "@id": "{{ meta.url }}/call/{{ call.slug }}/#cfp",
+      "mainEntityOfPage": "{{ meta.url }}/call/{{ call.slug }}/",
       "name": "Call for Papers: {{ call.title if call.title else call.metaTitle | safe }}",
       "alternateName": "Special Issue CFP - {{ call.journal }}",
       "headline": "Special Issue CFP: {{ call.title if call.title else call.metaTitle | safe }}",
       "description": "{{ call.description.paragraphs[0] | safe if call.description and call.description.paragraphs and call.description.paragraphs|length > 0 else '' }}",
-      "url": "https://callsforpapers.org/call/{{ call.slug }}/",
+      "url": "{{ meta.url }}/call/{{ call.slug }}/",
       "sameAs": "{{ call.url | url }}",
-      "image": "https://callsforpapers.org/public/favicon/android-chrome-96x96.png",
-      "inLanguage": "en",
+      "image": "{{ meta.url }}/public/favicon/android-chrome-96x96.png",
+      "inLanguage": "fr",
       "isAccessibleForFree": true,
       "keywords": [{% for tag in call.tags %}"{{ tag }}"{% if not loop.last %}, {% endif %}{% endfor %}],
       "datePublished": "{{ call.pubdate }}",
@@ -73,19 +73,19 @@
         }
       },
       "subjectOf": [{% for date in call.dates %}
-          { "@id": "https://callsforpapers.org/call/{{ call.slug }}/#event{{ loop.index }}" }{% if not loop.last %},{% endif %}{% endfor %}
+          { "@id": "{{ meta.url }}/call/{{ call.slug }}/#event{{ loop.index }}" }{% if not loop.last %},{% endif %}{% endfor %}
       ]
     }{% if call.dates %},{% endif %}
     {% for date in call.dates %}
     {
       "@type": "Event",
-      "@id": "https://callsforpapers.org/call/{{ call.slug }}/#event{{ loop.index }}",
+      "@id": "{{ meta.url }}/call/{{ call.slug }}/#event{{ loop.index }}",
       "name": "{{ date.description }}",
       "startDate": "{{ date.date }}",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
       "about": {
-        "@id": "https://callsforpapers.org/call/{{ call.slug }}/#cfp"
+        "@id": "{{ meta.url }}/call/{{ call.slug }}/#cfp"
       }
     }{% if not loop.last %},{% endif %}{% endfor %}
   ]

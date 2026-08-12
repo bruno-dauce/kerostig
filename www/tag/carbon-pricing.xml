@@ -1,68 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: carbon pricing</title>
-        <link>https://callsforpapers.org/tag/carbon-pricing</link>
-        <description>Latest calls for papers tagged with 'carbon pricing'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Tag : carbon pricing</title>
+        <link>https://hubecall.com/tag/carbon-pricing</link>
+        <description>Derniers appels à publications avec le tag 'carbon pricing'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: carbon pricing</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/carbon-pricing</link>
+            <title>hubecall | Tag : carbon pricing</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/carbon-pricing</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[Market-Based Measures for Port and Shipping Emissions Mitigation]]></title>
-            <link>https://callsforpapers.org/call/elsevier-market-based-measures-for-port-and-shipping-emissions-mitigation-2</link>
-            <guid>elsevier-market-based-measures-for-port-and-shipping-emissions-mitigation-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    <p>This special issue focuses on market-based measures and economic instruments designed to mitigate emissions from ports and the shipping industry. The collection seeks to advance understanding of how market mechanisms can effectively reduce environmental impacts while maintaining economic competitiveness in the maritime sector.</p>
-    
-    <p>The issue welcomes contributions exploring various market-based approaches including carbon pricing, emission trading systems, green bonds, subsidies for clean technologies, and other economic instruments. Papers may examine these mechanisms from theoretical, empirical, or policy perspectives, with particular interest in their effectiveness, design, implementation challenges, and real-world outcomes.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Market-based mechanisms for reducing port and shipping emissions</li>
-        
-        <li>Carbon pricing and emission trading systems in maritime transport</li>
-        
-        <li>Economic instruments for incentivizing sustainable shipping practices</li>
-        
-        <li>Port authority policies and market-based approaches</li>
-        
-        <li>Life cycle assessment and environmental impact of shipping</li>
-        
-        <li>Technological innovations and market adoption in emissions reduction</li>
-        
-        <li>Regulatory frameworks and market-based policy integration</li>
-        
-        <li>Case studies of successful market-based emissions mitigation strategies</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 28, 2026: Manuscript submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Transportation Research Part D: Transport and Environment (ELSEVIER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Market-Based Measures for Port and Shipping Emissions Mitigation]]></title>
-            <link>https://callsforpapers.org/call/elsevier-market-based-measures-for-port-and-shipping-emissions-mitigation-2</link>
+            <link>https://hubecall.com/call/elsevier-market-based-measures-for-port-and-shipping-emissions-mitigation-2</link>
             <guid>elsevier-market-based-measures-for-port-and-shipping-emissions-mitigation-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>

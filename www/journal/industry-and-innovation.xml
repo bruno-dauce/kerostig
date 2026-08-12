@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Industry and Innovation</title>
-        <link>https://callsforpapers.org/journal/industry-and-innovation</link>
-        <description>Latest calls for papers for Industry and Innovation.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Industry and Innovation</title>
+        <link>https://hubecall.com/journal/industry-and-innovation</link>
+        <description>Derniers appels à publications pour Industry and Innovation.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Industry and Innovation</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/journal/industry-and-innovation</link>
+            <title>hubecall | Industry and Innovation</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/journal/industry-and-innovation</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[Innovation, Security, and Resilience: Firm Strategy and Industrial Dynamics amid Critical Infrastructure Disruption]]></title>
-            <link>https://callsforpapers.org/call/tandf-innovation-security-and-resilience-firm-strategy-and-industrial-dynamics-amid-critical-infrastructure-disruption</link>
+            <link>https://hubecall.com/call/tandf-innovation-security-and-resilience-firm-strategy-and-industrial-dynamics-amid-critical-infrastructure-disruption</link>
             <guid>tandf-innovation-security-and-resilience-firm-strategy-and-industrial-dynamics-amid-critical-infrastructure-disruption</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -96,7 +96,7 @@
         </item>
         <item>
             <title><![CDATA[Open Innovation in the Age of Artificial Intelligence: Reshaping Knowledge Search, Collaboration, and Governance]]></title>
-            <link>https://callsforpapers.org/call/tandf-open-innovation-in-the-age-of-artificial-intelligence-reshaping-knowledge-search-collaboration-and-governance</link>
+            <link>https://hubecall.com/call/tandf-open-innovation-in-the-age-of-artificial-intelligence-reshaping-knowledge-search-collaboration-and-governance</link>
             <guid>tandf-open-innovation-in-the-age-of-artificial-intelligence-reshaping-knowledge-search-collaboration-and-governance</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>

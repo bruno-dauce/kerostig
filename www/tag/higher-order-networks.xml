@@ -1,68 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: higher-order networks</title>
-        <link>https://callsforpapers.org/tag/higher-order-networks</link>
-        <description>Latest calls for papers tagged with 'higher-order networks'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Tag : higher-order networks</title>
+        <link>https://hubecall.com/tag/higher-order-networks</link>
+        <description>Derniers appels à publications avec le tag 'higher-order networks'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: higher-order networks</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/higher-order-networks</link>
+            <title>hubecall | Tag : higher-order networks</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/higher-order-networks</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[Higher-Order Network Representations and Modeling Methods for Transportation Resilience]]></title>
-            <link>https://callsforpapers.org/call/elsevier-higher-order-network-representations-and-modeling-methods-for-transportation-resilience-2</link>
-            <guid>elsevier-higher-order-network-representations-and-modeling-methods-for-transportation-resilience-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    <p>This special issue focuses on the development and application of higher-order network representations and advanced modeling methods to enhance our understanding of transportation resilience. Traditional transportation network models often fail to capture the complex, multi-way interactions and higher-order dependencies that characterize modern transportation systems. This special issue invites contributions that leverage higher-order network approaches, such as hypergraphs and simplicial complexes, to better represent the intricate relationships between transportation components and improve resilience analysis and management.</p>
-    
-    <p>We welcome papers that present novel theoretical frameworks, empirical studies, computational methods, and practical applications of higher-order network representations in transportation contexts. Contributions may address how these advanced representations can help identify vulnerabilities, enhance system robustness, and support decision-making for more resilient transportation infrastructure.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Higher-order network representations (e.g., hypergraphs, simplicial complexes) for transportation systems</li>
-        
-        <li>Modeling methods that capture complex interactions and dependencies in transportation networks</li>
-        
-        <li>Applications of higher-order networks to transportation resilience</li>
-        
-        <li>Resilience assessment and enhancement strategies using advanced network representations</li>
-        
-        <li>Interdependencies between transportation and other critical infrastructure networks</li>
-        
-        <li>Temporal and dynamic aspects of higher-order transportation networks</li>
-        
-        <li>Data collection and empirical studies on higher-order structures in transportation systems</li>
-        
-        <li>Computational methods and algorithms for analyzing higher-order transportation networks</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>March 14, 2027: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Transportation Research Part B: Methodological (ELSEVIER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Higher-Order Network Representations and Modeling Methods for Transportation Resilience]]></title>
-            <link>https://callsforpapers.org/call/elsevier-higher-order-network-representations-and-modeling-methods-for-transportation-resilience-2</link>
+            <link>https://hubecall.com/call/elsevier-higher-order-network-representations-and-modeling-methods-for-transportation-resilience-2</link>
             <guid>elsevier-higher-order-network-representations-and-modeling-methods-for-transportation-resilience-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>

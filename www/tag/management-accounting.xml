@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: management accounting</title>
-        <link>https://callsforpapers.org/tag/management-accounting</link>
-        <description>Latest calls for papers tagged with 'management accounting'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Tag : management accounting</title>
+        <link>https://hubecall.com/tag/management-accounting</link>
+        <description>Derniers appels à publications avec le tag 'management accounting'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: management accounting</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/management-accounting</link>
+            <title>hubecall | Tag : management accounting</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/management-accounting</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[AI and Management Control]]></title>
-            <link>https://callsforpapers.org/call/elsevier-ai-and-management-control</link>
+            <link>https://hubecall.com/call/elsevier-ai-and-management-control</link>
             <guid>elsevier-ai-and-management-control</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -37,7 +37,7 @@
         </item>
         <item>
             <title><![CDATA[Transforming Management Accounting: Digitalisation, Sustainability and Organisational Change]]></title>
-            <link>https://callsforpapers.org/call/emerald-transforming-management-accounting-digitalisation-sustainability-and-organisational-change</link>
+            <link>https://hubecall.com/call/emerald-transforming-management-accounting-digitalisation-sustainability-and-organisational-change</link>
             <guid>emerald-transforming-management-accounting-digitalisation-sustainability-and-organisational-change</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -111,7 +111,7 @@
         </item>
         <item>
             <title><![CDATA[Reflections on the value of management accounting in organizations: Overcoming contemporary challenges]]></title>
-            <link>https://callsforpapers.org/call/emerald-reflections-on-the-value-of-management-accounting-in-organizations-overcoming-contemporary-challenges</link>
+            <link>https://hubecall.com/call/emerald-reflections-on-the-value-of-management-accounting-in-organizations-overcoming-contemporary-challenges</link>
             <guid>emerald-reflections-on-the-value-of-management-accounting-in-organizations-overcoming-contemporary-challenges</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<div>

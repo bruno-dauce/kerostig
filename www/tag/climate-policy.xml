@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: climate policy</title>
-        <link>https://callsforpapers.org/tag/climate-policy</link>
-        <description>Latest calls for papers tagged with 'climate policy'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Tag : climate policy</title>
+        <link>https://hubecall.com/tag/climate-policy</link>
+        <description>Derniers appels à publications avec le tag 'climate policy'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: climate policy</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/climate-policy</link>
+            <title>hubecall | Tag : climate policy</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/climate-policy</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[Anti-Environmentalism and the Future of Green Growth]]></title>
-            <link>https://callsforpapers.org/call/springer-anti-environmentalism-and-the-future-of-green-growth</link>
+            <link>https://hubecall.com/call/springer-anti-environmentalism-and-the-future-of-green-growth</link>
             <guid>springer-anti-environmentalism-and-the-future-of-green-growth</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -76,28 +76,7 @@
         </item>
         <item>
             <title><![CDATA[Climate negotiations and policy design]]></title>
-            <link>https://callsforpapers.org/call/elsevier-climate-negotiations-and-policy-design-2</link>
-            <guid>elsevier-climate-negotiations-and-policy-design-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>July 1, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Resource and Energy Economics (ELSEVIER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Climate negotiations and policy design]]></title>
-            <link>https://callsforpapers.org/call/elsevier-climate-negotiations-and-policy-design-2</link>
+            <link>https://hubecall.com/call/elsevier-climate-negotiations-and-policy-design-2</link>
             <guid>elsevier-climate-negotiations-and-policy-design-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>

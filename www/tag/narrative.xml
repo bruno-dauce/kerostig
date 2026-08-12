@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: narrative</title>
-        <link>https://callsforpapers.org/tag/narrative</link>
-        <description>Latest calls for papers tagged with 'narrative'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Tag : narrative</title>
+        <link>https://hubecall.com/tag/narrative</link>
+        <description>Derniers appels à publications avec le tag 'narrative'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: narrative</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/narrative</link>
+            <title>hubecall | Tag : narrative</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/narrative</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[Discoveries-through-Prose]]></title>
-            <link>https://callsforpapers.org/call/aom-amd-call-for-submissions-discoveries-through-prose</link>
+            <link>https://hubecall.com/call/aom-amd-call-for-submissions-discoveries-through-prose</link>
             <guid>aom-amd-call-for-submissions-discoveries-through-prose</guid>
             <pubDate>Tue, 11 Aug 2026 01:40:43 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -39,7 +39,7 @@
         </item>
         <item>
             <title><![CDATA[Advertising Narratives: Transportation, Imagination, and Brand Storytelling]]></title>
-            <link>https://callsforpapers.org/call/tandf-advertising-narratives-transportation-imagination-and-brand-storytelling</link>
+            <link>https://hubecall.com/call/tandf-advertising-narratives-transportation-imagination-and-brand-storytelling</link>
             <guid>tandf-advertising-narratives-transportation-imagination-and-brand-storytelling</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>

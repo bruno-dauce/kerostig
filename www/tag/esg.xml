@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: esg</title>
-        <link>https://callsforpapers.org/tag/esg</link>
-        <description>Latest calls for papers tagged with 'esg'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Tag : esg</title>
+        <link>https://hubecall.com/tag/esg</link>
+        <description>Derniers appels à publications avec le tag 'esg'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: esg</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/esg</link>
+            <title>hubecall | Tag : esg</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/esg</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[Banks, ESG, and the Climate Transition: Exposure and Corporate Impact]]></title>
-            <link>https://callsforpapers.org/call/elsevier-banks-esg-and-the-climate-transition-exposure-and-corporate-impact</link>
+            <link>https://hubecall.com/call/elsevier-banks-esg-and-the-climate-transition-exposure-and-corporate-impact</link>
             <guid>elsevier-banks-esg-and-the-climate-transition-exposure-and-corporate-impact</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -37,7 +37,7 @@
         </item>
         <item>
             <title><![CDATA[Performance extra-financière et transformation des supply chains : enjeux réglementaires, innovations et défis opérationnels]]></title>
-            <link>https://callsforpapers.org/call/tandf-performance-extra-financiere-et-transformation-des-supply-chains-enjeux-reglementaires-innovations-et-defis-operationnels</link>
+            <link>https://hubecall.com/call/tandf-performance-extra-financiere-et-transformation-des-supply-chains-enjeux-reglementaires-innovations-et-defis-operationnels</link>
             <guid>tandf-performance-extra-financiere-et-transformation-des-supply-chains-enjeux-reglementaires-innovations-et-defis-operationnels</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -95,7 +95,7 @@
         </item>
         <item>
             <title><![CDATA[Implementing the Corporate Sustainability Reporting Directive: Challenges, Opportunities, and Emerging Practices]]></title>
-            <link>https://callsforpapers.org/call/tandf-implementing-the-corporate-sustainability-reporting-directive-challenges-opportunities-and-emerging-practices</link>
+            <link>https://hubecall.com/call/tandf-implementing-the-corporate-sustainability-reporting-directive-challenges-opportunities-and-emerging-practices</link>
             <guid>tandf-implementing-the-corporate-sustainability-reporting-directive-challenges-opportunities-and-emerging-practices</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -161,7 +161,7 @@
         </item>
         <item>
             <title><![CDATA[Sustainability Education: Preparing Future Leaders for a Better World]]></title>
-            <link>https://callsforpapers.org/call/emerald-sustainability-education-preparing-future-leaders-for-a-better-world</link>
+            <link>https://hubecall.com/call/emerald-sustainability-education-preparing-future-leaders-for-a-better-world</link>
             <guid>emerald-sustainability-education-preparing-future-leaders-for-a-better-world</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<div>

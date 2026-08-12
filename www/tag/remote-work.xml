@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: remote work</title>
-        <link>https://callsforpapers.org/tag/remote-work</link>
-        <description>Latest calls for papers tagged with 'remote work'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Tag : remote work</title>
+        <link>https://hubecall.com/tag/remote-work</link>
+        <description>Derniers appels à publications avec le tag 'remote work'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: remote work</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/remote-work</link>
+            <title>hubecall | Tag : remote work</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/remote-work</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[Digital Nomadism and the Future of HRM: Rethinking Work, Workforce, and Workplace]]></title>
-            <link>https://callsforpapers.org/call/tandf-digital-nomadism-and-the-future-of-hrm-rethinking-work-workforce-and-workplace</link>
+            <link>https://hubecall.com/call/tandf-digital-nomadism-and-the-future-of-hrm-rethinking-work-workforce-and-workplace</link>
             <guid>tandf-digital-nomadism-and-the-future-of-hrm-rethinking-work-workforce-and-workplace</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -86,7 +86,7 @@
         </item>
         <item>
             <title><![CDATA[Navigating the Work–Family Interface in the Digital Era: Challenges and Strategies]]></title>
-            <link>https://callsforpapers.org/call/emerald-navigating-the-work-family-interface-in-the-digital-era-challenges-and-strategies</link>
+            <link>https://hubecall.com/call/emerald-navigating-the-work-family-interface-in-the-digital-era-challenges-and-strategies</link>
             <guid>emerald-navigating-the-work-family-interface-in-the-digital-era-challenges-and-strategies</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<div>

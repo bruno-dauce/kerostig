@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: digital governance</title>
-        <link>https://callsforpapers.org/tag/digital-governance</link>
-        <description>Latest calls for papers tagged with 'digital governance'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Tag : digital governance</title>
+        <link>https://hubecall.com/tag/digital-governance</link>
+        <description>Derniers appels à publications avec le tag 'digital governance'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: digital governance</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/digital-governance</link>
+            <title>hubecall | Tag : digital governance</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/digital-governance</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[How is public-private-civic collaboration transforming government?]]></title>
-            <link>https://callsforpapers.org/call/elsevier-govtech-how-is-public-private-civic-collaboration-transforming-government</link>
+            <link>https://hubecall.com/call/elsevier-govtech-how-is-public-private-civic-collaboration-transforming-government</link>
             <guid>elsevier-govtech-how-is-public-private-civic-collaboration-transforming-government</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>

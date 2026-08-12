@@ -1,45 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: anniversary</title>
-        <link>https://callsforpapers.org/tag/anniversary</link>
-        <description>Latest calls for papers tagged with 'anniversary'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Tag : anniversary</title>
+        <link>https://hubecall.com/tag/anniversary</link>
+        <description>Derniers appels à publications avec le tag 'anniversary'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: anniversary</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/anniversary</link>
+            <title>hubecall | Tag : anniversary</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/anniversary</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[50 years of Safety Science Anniversary]]></title>
-            <link>https://callsforpapers.org/call/elsevier-50-years-of-safety-science-anniversary-si-2</link>
-            <guid>elsevier-50-years-of-safety-science-anniversary-si-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    <p>This special issue commemorates 50 years of Safety Science journal.</p>
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>November 1, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Safety Science (ELSEVIER)</author>
-        </item>
-        <item>
-            <title><![CDATA[50 years of Safety Science Anniversary]]></title>
-            <link>https://callsforpapers.org/call/elsevier-50-years-of-safety-science-anniversary-si-2</link>
+            <link>https://hubecall.com/call/elsevier-50-years-of-safety-science-anniversary-si-2</link>
             <guid>elsevier-50-years-of-safety-science-anniversary-si-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>

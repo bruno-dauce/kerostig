@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: health policy</title>
-        <link>https://callsforpapers.org/tag/health-policy</link>
-        <description>Latest calls for papers tagged with 'health policy'.</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:27:25 GMT</lastBuildDate>
+        <title>hubecall | Tag : health policy</title>
+        <link>https://hubecall.com/tag/health-policy</link>
+        <description>Derniers appels à publications avec le tag 'health policy'.</description>
+        <lastBuildDate>Wed, 12 Aug 2026 12:59:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: health policy</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/health-policy</link>
+            <title>hubecall | Tag : health policy</title>
+            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://hubecall.com/tag/health-policy</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>hubecall © 2026</copyright>
         <item>
             <title><![CDATA[Health Economics in Low- and Middle-Income Countries]]></title>
-            <link>https://callsforpapers.org/call/springer-department-collection-health-economics-in-low-and-middle-income-countries</link>
+            <link>https://hubecall.com/call/springer-department-collection-health-economics-in-low-and-middle-income-countries</link>
             <guid>springer-department-collection-health-economics-in-low-and-middle-income-countries</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -58,7 +58,7 @@
         </item>
         <item>
             <title><![CDATA[Polarization and Health Policy in a Global Context]]></title>
-            <link>https://callsforpapers.org/call/elsevier-polarization-and-health-policy-in-a-global-context-2</link>
+            <link>https://hubecall.com/call/elsevier-polarization-and-health-policy-in-a-global-context-2</link>
             <guid>elsevier-polarization-and-health-policy-in-a-global-context-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -79,7 +79,7 @@
         </item>
         <item>
             <title><![CDATA[Improving productivity in health care]]></title>
-            <link>https://callsforpapers.org/call/elsevier-improving-productivity-in-health-care</link>
+            <link>https://hubecall.com/call/elsevier-improving-productivity-in-health-care</link>
             <guid>elsevier-improving-productivity-in-health-care</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -100,7 +100,7 @@
         </item>
         <item>
             <title><![CDATA[Climate Resilient and Low Carbon Health Systems]]></title>
-            <link>https://callsforpapers.org/call/elsevier-climate-resilient-and-low-carbon-health-systems</link>
+            <link>https://hubecall.com/call/elsevier-climate-resilient-and-low-carbon-health-systems</link>
             <guid>elsevier-climate-resilient-and-low-carbon-health-systems</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -118,27 +118,6 @@
     
 </div>]]></content:encoded>
             <author>Health Policy (ELSEVIER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Polarization and Health Policy in a Global Context]]></title>
-            <link>https://callsforpapers.org/call/elsevier-polarization-and-health-policy-in-a-global-context-2</link>
-            <guid>elsevier-polarization-and-health-policy-in-a-global-context-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>October 1, 2026: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Social Science &amp; Medicine (ELSEVIER)</author>
         </item>
     </channel>
 </rss>
