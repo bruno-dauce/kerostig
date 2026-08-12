@@ -1,23 +1,23 @@
 import * as cheerio from 'cheerio';
-import { mkdtempSync } from 'fs';
-import path from 'path';
-import os from 'os';
 import { matchIssn } from '../issnMatcher.mjs';
-import { curlGet } from '../curlClient.mjs';
 
 // M@n@gement et SIM tournent toutes les deux sur OJS/PKP, mais leurs appels
 // vivent a des endroits differents de la plateforme (verifie manuellement,
 // cf commentaires plus bas) -- regroupees ici dans un seul scraper comme
 // suggere pour ce lot, meme si l'extraction reste specifique a chacune.
-const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
-const COOKIE_JAR_PATH = path.join(mkdtempSync(path.join(os.tmpdir(), 'ojsfr-cookies-')), 'cookies.txt');
+//
+// curl (meme curl-impersonate) passe en local mais se fait bloquer sur le
+// runner GitHub Actions -- meme symptome que SAGE/Wiley (fingerprint reseau
+// du runner CI, distinct d'un poste local) alors que ces pages sont du HTML
+// statique sans anti-bot apparent en local. D'ou l'usage du navigateur
+// (patchright, cf miScraper.mjs), qui contourne ce blocage specifique au CI.
 const REQUEST_DELAY_MS = 1000;
 
 // M@n@gement publie tous ses appels actifs sur une page statique unique,
 // maintenue a la main par la redaction (PAS le module Announcements
-// standard d'OJS) -- confirme via curl direct (200). Chaque appel est un
-// bloc <h1>Titre</h1>...contenu... jusqu'au <h1> suivant ; les appels sont
-// separes par un <h1> de simples underscores (repere visuel, pas un appel).
+// standard d'OJS). Chaque appel est un bloc <h1>Titre</h1>...contenu...
+// jusqu'au <h1> suivant ; les appels sont separes par un <h1> de simples
+// underscores (repere visuel, pas un appel).
 const MGMT_CALL_URL = 'https://management-aims.com/index.php/mgmt/call';
 const MGMT_JOURNAL = 'M@n@gement';
 const MGMT_CONTAINER_SELECTOR = '#pkp_content_main';
@@ -39,13 +39,13 @@ const SIM_TITLE_KEYWORD_PATTERN = /call for papers|call for special issue|specia
 export const scraperObject = {
     url: MGMT_CALL_URL,
     abbreviation: 'ojsfr',
-    async scraper() {
+    async scraper(browser) {
         const abbreviation = this.abbreviation;
         const calls = [];
 
         const mgmtIssn = await matchIssn(MGMT_JOURNAL);
         if (mgmtIssn) {
-            const entries = await get_mgmt_entries();
+            const entries = await get_mgmt_entries(browser);
             console.log(`[ojsfr] M@n@gement : ${entries.length} appel(s) trouve(s)`);
             for (const entry of entries) {
                 calls.push({ journal: MGMT_JOURNAL, abbreviation, issn: mgmtIssn, metaTitle: entry.metaTitle, url: entry.url, rawContent: entry.rawContent });
@@ -58,7 +58,7 @@ export const scraperObject = {
 
         const simIssn = await matchIssn(SIM_JOURNAL);
         if (simIssn) {
-            const entries = await get_sim_entries();
+            const entries = await get_sim_entries(browser);
             console.log(`[ojsfr] SIM : ${entries.length} appel(s) trouve(s)`);
             for (const entry of entries) {
                 calls.push({ journal: SIM_JOURNAL, abbreviation, issn: simIssn, metaTitle: entry.metaTitle, url: entry.url, rawContent: entry.rawContent });
@@ -71,22 +71,11 @@ export const scraperObject = {
     }
 }
 
-async function get_mgmt_entries() {
-    let response;
-    try {
-        response = await curlGet(MGMT_CALL_URL, { cookieJarPath: COOKIE_JAR_PATH, userAgent: USER_AGENT });
-    } catch (error) {
-        console.warn(`[ojsfr] Erreur reseau (curl) sur ${MGMT_CALL_URL} : ${error.message}`);
-        return [];
-    }
+async function get_mgmt_entries(browser) {
+    const html = await get_page_html(browser, MGMT_CALL_URL, '[ojsfr]');
+    if (!html) return [];
 
-    console.log(`[ojsfr] Statut HTTP ${response.status} sur ${MGMT_CALL_URL}`);
-    if (response.status !== 200) {
-        console.warn(`[ojsfr] Statut HTTP ${response.status} (attendu 200) sur ${MGMT_CALL_URL} -- probable blocage anti-bot`);
-        return [];
-    }
-
-    const $ = cheerio.load(response.body);
+    const $ = cheerio.load(html);
     const container = $(MGMT_CONTAINER_SELECTOR).first();
     if (container.length === 0) {
         console.warn(`[ojsfr] Conteneur ${MGMT_CONTAINER_SELECTOR} introuvable sur ${MGMT_CALL_URL} (structure modifiee ?)`);
@@ -146,22 +135,11 @@ function heading_text($, el) {
     return clone.text().replace(/\s+/g, ' ').trim();
 }
 
-async function get_sim_entries() {
-    let response;
-    try {
-        response = await curlGet(SIM_ANNOUNCEMENT_LIST_URL, { cookieJarPath: COOKIE_JAR_PATH, userAgent: USER_AGENT });
-    } catch (error) {
-        console.warn(`[ojsfr] Erreur reseau (curl) sur ${SIM_ANNOUNCEMENT_LIST_URL} : ${error.message}`);
-        return [];
-    }
+async function get_sim_entries(browser) {
+    const html = await get_page_html(browser, SIM_ANNOUNCEMENT_LIST_URL, '[ojsfr]');
+    if (!html) return [];
 
-    console.log(`[ojsfr] Statut HTTP ${response.status} sur ${SIM_ANNOUNCEMENT_LIST_URL}`);
-    if (response.status !== 200) {
-        console.warn(`[ojsfr] Statut HTTP ${response.status} (attendu 200) sur ${SIM_ANNOUNCEMENT_LIST_URL} -- probable blocage anti-bot`);
-        return [];
-    }
-
-    const $ = cheerio.load(response.body);
+    const $ = cheerio.load(html);
     const candidates = [];
     $(SIM_SUMMARY_SELECTOR).each((_, el) => {
         const link = $(el).find('h2 a[href]').first();
@@ -175,34 +153,37 @@ async function get_sim_entries() {
     const entries = [];
     for (const candidate of candidates) {
         await sleep(REQUEST_DELAY_MS);
-        const detail = await get_sim_detail(candidate.url);
+        const detail = await get_sim_detail(browser, candidate.url);
         if (!detail) continue;
         entries.push({ metaTitle: candidate.title, url: candidate.url, rawContent: detail });
     }
     return entries;
 }
 
-async function get_sim_detail(url) {
-    let response;
-    try {
-        response = await curlGet(url, { cookieJarPath: COOKIE_JAR_PATH, userAgent: USER_AGENT });
-    } catch (error) {
-        console.warn(`[ojsfr] Erreur reseau (curl) sur ${url} : ${error.message}`);
-        return null;
-    }
+async function get_sim_detail(browser, url) {
+    const html = await get_page_html(browser, url, '[ojsfr]');
+    if (!html) return null;
 
-    if (response.status !== 200) {
-        console.warn(`[ojsfr] Statut HTTP ${response.status} (attendu 200) sur ${url}`);
-        return null;
-    }
-
-    const $ = cheerio.load(response.body);
+    const $ = cheerio.load(html);
     const description = $(SIM_FULL_SELECTOR).first();
     if (description.length === 0) {
         console.warn(`[ojsfr] Contenu (${SIM_FULL_SELECTOR}) introuvable sur ${url} (structure modifiee ?)`);
         return null;
     }
     return description.html() ?? null;
+}
+
+async function get_page_html(browser, url, logPrefix) {
+    const page = await browser.newPage();
+    try {
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        return await page.content();
+    } catch (error) {
+        console.warn(`${logPrefix} Erreur (timeout ou navigation) sur ${url} : ${error.message}`);
+        return null;
+    } finally {
+        await page.close();
+    }
 }
 
 function sleep(ms) {

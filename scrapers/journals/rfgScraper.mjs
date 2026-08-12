@@ -1,18 +1,14 @@
 import * as cheerio from 'cheerio';
-import { mkdtempSync } from 'fs';
-import path from 'path';
-import os from 'os';
 import { matchIssn } from '../issnMatcher.mjs';
-import { curlGet } from '../curlClient.mjs';
 
 // Page revue unique (pas de hub separe) : jle.com y liste les appels
-// ouverts, suivis d'un bloc "Appels clotures" -- confirme manuellement via
-// curl direct (200, HTML statique, aucun blocage constate).
+// ouverts, suivis d'un bloc "Appels clotures". curl passe en local mais se
+// fait bloquer sur le runner GitHub Actions (meme curl-impersonate) --
+// meme symptome que SAGE/Wiley (fingerprint reseau du runner CI, distinct
+// d'un poste local). D'ou l'usage du navigateur (patchright, cf
+// miScraper.mjs), qui contourne ce blocage specifique au CI.
 const PAGE_URL = 'https://www.jle.com/fr/revues/rfg/revue.phtml';
 const JOURNAL_NAME = 'Revue française de gestion';
-
-const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
-const COOKIE_JAR_PATH = path.join(mkdtempSync(path.join(os.tmpdir(), 'rfg-cookies-')), 'cookies.txt');
 
 // Confirme via le HTML reel : une section unique <h2>Appels a articles</h2>
 // contient d'abord les appels ouverts (un <p> par appel : lien vers le PDF
@@ -25,7 +21,7 @@ const CLOSED_HEADING_PATTERN = /appels?\s*cl(ô|o)tur/i;
 export const scraperObject = {
     url: PAGE_URL,
     abbreviation: 'rfg',
-    async scraper() {
+    async scraper(browser) {
         const abbreviation = this.abbreviation;
 
         const issn = await matchIssn(JOURNAL_NAME);
@@ -34,7 +30,10 @@ export const scraperObject = {
             return [];
         }
 
-        const entries = await get_entries();
+        const html = await get_page_html(browser);
+        if (!html) return [];
+
+        const entries = extract_entries(html);
         console.log(`[rfg] ${entries.length} appel(s) ouvert(s) trouve(s) sur ${PAGE_URL}`);
 
         return entries.map(entry => ({
@@ -48,22 +47,21 @@ export const scraperObject = {
     }
 }
 
-async function get_entries() {
-    let response;
+async function get_page_html(browser) {
+    const page = await browser.newPage();
     try {
-        response = await curlGet(PAGE_URL, { cookieJarPath: COOKIE_JAR_PATH, userAgent: USER_AGENT });
+        await page.goto(PAGE_URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        return await page.content();
     } catch (error) {
-        console.warn(`[rfg] Erreur reseau (curl) sur ${PAGE_URL} : ${error.message}`);
-        return [];
+        console.warn(`[rfg] Erreur (timeout ou navigation) sur ${PAGE_URL} : ${error.message}`);
+        return null;
+    } finally {
+        await page.close();
     }
+}
 
-    console.log(`[rfg] Statut HTTP ${response.status} sur ${PAGE_URL}`);
-    if (response.status !== 200) {
-        console.warn(`[rfg] Statut HTTP ${response.status} (attendu 200) sur ${PAGE_URL} -- probable blocage anti-bot`);
-        return [];
-    }
-
-    const $ = cheerio.load(response.body);
+function extract_entries(html) {
+    const $ = cheerio.load(html);
     const openHeading = $('h2').toArray().find(h => OPEN_HEADING_PATTERN.test($(h).text()));
     if (!openHeading) {
         console.warn(`[rfg] Section "Appels a articles" introuvable sur ${PAGE_URL} (structure modifiee ?)`);
