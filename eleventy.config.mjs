@@ -60,9 +60,26 @@ export default async function (eleventyConfig) {
         "Institute for Operations Research and the Management Sciences",
         "Academy of Management",
     ]);
+
+    // Revues francophones couvertes par un scraper dedie a la revue (pas a
+    // l'editeur, cf ojsFrScraper.mjs / miScraper.mjs / rfgScraper.mjs) :
+    // M@n@gement, Management international et SIM n'ont pas d'editeur
+    // renseigne dans journals.json, et Revue francaise de gestion est certes
+    // la seule revue Lavoisier du perimetre actuel, mais son scraper cible
+    // sa page precisement -- pas un hub Lavoisier. Ne pas ajouter "Lavoisier
+    // publishing" a EDITEURS_COUVERTS, qui couvrirait a tort toute future
+    // revue Lavoisier ajoutee au perimetre sans scraper dedie.
+    const ISSN_COUVERTS = new Set([
+        "1286-4692", // M@n@gement
+        "2271-7188", // Systèmes d'information & management
+        "1918-9222", // Management international
+        "1777-5663", // Revue française de gestion
+    ]);
     eleventyConfig.addFilter("revuesCouvertesParScraper", function (journals) {
         if (!journals) return [];
-        return Object.values(journals).filter((revue) => EDITEURS_COUVERTS.has((revue.editeur || "").trim()));
+        return Object.values(journals).filter((revue) =>
+            EDITEURS_COUVERTS.has((revue.editeur || "").trim()) || ISSN_COUVERTS.has((revue.issn_cle || "").trim())
+        );
     });
 
     // Compteur d'appels actifs
