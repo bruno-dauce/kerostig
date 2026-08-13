@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
 /**
- * hubecall - enrichir le CSV de correspondance avec l'éditeur (OpenAlex)
+ * kerostig - enrichir le CSV de correspondance avec l'éditeur (OpenAlex)
  *
  * Usage :
  *   node enrich-publishers.mjs
  *
- * Entrée :  hubecallcorrespondanceissn.csv  (même dossier)
- * Sortie :  hubecallcorrespondanceissn-enrichi.csv
+ * Entrée :  kerostigcorrespondanceissn.csv  (même dossier)
+ * Sortie :  kerostigcorrespondanceissn-enrichi.csv
  *
  * Le script interroge OpenAlex par ISSN (eISSN puis pISSN en repli)
  * et ajoute deux colonnes : editeur et openalex_id.
@@ -20,8 +20,8 @@ import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const INPUT = resolve(__dirname, "hubecall-correspondance-issn.csv");
-const OUTPUT = resolve(__dirname, "hubecall-correspondance-issn-enrichi.csv");
+const INPUT = resolve(__dirname, "kerostig-correspondance-issn.csv");
+const OUTPUT = resolve(__dirname, "kerostig-correspondance-issn-enrichi.csv");
 
 // Lire le CSV
 const raw = readFileSync(INPUT, "utf-8");
@@ -46,7 +46,7 @@ console.log(`${rows.length} revues a enrichir.\n`);
 
 // Interroger OpenAlex
 async function fetchPublisher(issn) {
-  const url = `https://api.openalex.org/sources?filter=issn:${issn}&select=id,display_name,host_organization_name&mailto=contact@hubecall.com`;
+  const url = `https://api.openalex.org/sources?filter=issn:${issn}&select=id,display_name,host_organization_name&mailto=contact@kerostig.com`;
   try {
     const resp = await fetch(url);
     if (!resp.ok) return null;

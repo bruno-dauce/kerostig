@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // enrichir-revues.mjs
 // ---------------------------------------------------------------------------
-// hubecall - etape 3 du guide de developpement.
+// kerostig - etape 3 du guide de developpement.
 // Transforme le CSV de correspondance ISSN en www/_data/journals.json,
 // en enrichissant chaque revue via OpenAlex, DOAJ et Sherpa Romeo.
 //
@@ -49,7 +49,7 @@ function loadEnvFile(path = ".env") {
 // Lecture des arguments de ligne de commande.
 function lireArgs(argv) {
   const args = {
-    input: "hubecall-correspondance-issn.csv",
+    input: "kerostig-correspondance-issn.csv",
     output: "journals.json",
     rapport: "journals-rapport.md",
     limit: Infinity,

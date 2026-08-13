@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const CSV_PATH = path.join(__dirname, '..', 'enrichissement', 'hubecall-correspondance-issn-enrichi.csv');
+const CSV_PATH = path.join(__dirname, '..', 'enrichissement', 'kerostig-correspondance-issn-enrichi.csv');
 
 let issnByNormalizedName = null;
 let loggedUnexpectedNameShape = false;

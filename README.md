@@ -1,10 +1,10 @@
-# hubecall
+# kerostig
 
-Un hub d'appels à publications en gestion. Le site rassemble les appels à publications (calls for papers) des revues de sciences de gestion et management, en affichant leur rang FNEGE et des informations d'accès ouvert.
+Les appels à publications en gestion, classés. Le site rassemble les appels à publications (calls for papers) des revues de sciences de gestion et management, en affichant leur rang FNEGE et des informations d'accès ouvert.
 
 Projet non lucratif. Base technique : fork de callsforpapers (licence MIT), projet de Julian Prester. Site statique alimenté par un pipeline de scraping, sans serveur applicatif. La collecte quotidienne tourne via GitHub Actions, et le site est hébergé sur Cloudflare, redéployé automatiquement à chaque mise à jour du dépôt.
 
-Site : https://hubecall.com (en construction)
+Site : https://kerostig.com (en construction)
 
 ## Structure du dépôt
 
@@ -17,7 +17,7 @@ www/                     le site (générateur Eleventy)
     journals.json        base des 494 revues enrichies (voir enrichissement/)
 enrichissement/          NOTRE ajout : script qui fabrique journals.json
   enrichir-revues.mjs
-  hubecall-correspondance-issn.csv
+  kerostig-correspondance-issn.csv
   .env                   clés API, jamais publié (voir .gitignore)
 .github/workflows/       automatisation quotidienne du scraping
 ```
@@ -67,7 +67,7 @@ Le code est distribué sous licence MIT, dans la continuité de callsforpapers (
 
 ## Soutenir le projet
 
-Un don couvre le nom de domaine et les frais de fonctionnement : https://ko-fi.com/hubecall
+Un don couvre le nom de domaine et les frais de fonctionnement : https://ko-fi.com/kerostig
 
 ## Contact
 

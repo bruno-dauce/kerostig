@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "hubecall-dev",
+      "name": "kerostig-dev",
       "runtimeExecutable": "npx",
       "runtimeArgs": ["eleventy", "--serve", "--port=8123"],
       "port": 8123

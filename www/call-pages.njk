@@ -7,8 +7,8 @@ pagination:
 layout: layouts/base.html
 permalink: "call/{{ call.slug }}/"
 eleventyComputed:
-  title: "hubecall | {{ call.title if call.title else call.metaTitle | safe }}"
-  description: "hubecall rassemble les appels à publications en sciences de gestion et management, comme {{ call.title if call.title else call.metaTitle | safe }}, en un seul endroit."
+  title: "kerostig | {{ call.title if call.title else call.metaTitle | safe }}"
+  description: "kerostig rassemble les appels à publications en sciences de gestion et management, comme {{ call.title if call.title else call.metaTitle | safe }}, en un seul endroit."
 ---
 
 {% set revue = journals | revueDeLAppel(call) %}

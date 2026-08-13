@@ -2,7 +2,7 @@ import { DateTime } from "luxon";
 
 export default async function (eleventyConfig) {
 
-    // --- hubecall : jointure appels <-> revue par ISSN ---
+    // --- kerostig : jointure appels <-> revue par ISSN ---
     eleventyConfig.addFilter("appelsDeLaRevue", function (allCalls, revue) {
         if (!allCalls || !revue) return [];
         const norm = (v) => (v || "").toString().replace(/[^0-9Xx]/g, "").toUpperCase();
@@ -129,7 +129,7 @@ export default async function (eleventyConfig) {
         if (!calls) return 0;
         return calls.filter(c => c.active || (!c.active && Date.now() < new Date(c.gracePeriod))).length;
     });
-    // --- fin hubecall ---
+    // --- fin kerostig ---
 
     eleventyConfig.addFilter("urlEncode", function (str) {
         return encodeURIComponent(str);

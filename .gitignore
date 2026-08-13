@@ -1,6 +1,6 @@
 # =========================================================================
-# .gitignore hubecall (version fusionnee).
-# Reprend les regles du projet d'origine callsforpapers ET les ajouts hubecall.
+# .gitignore kerostig (version fusionnee).
+# Reprend les regles du projet d'origine callsforpapers ET les ajouts kerostig.
 # Cette version est complete : tu peux remplacer le .gitignore existant par
 # celle-ci sans rien perdre.
 # =========================================================================
@@ -12,7 +12,7 @@ public/
 .vscode/
 .env
 
-# --- Ajouts hubecall ---
+# --- Ajouts kerostig ---
 .env.local
 .cache-enrichissement/
 .browser-profile/
