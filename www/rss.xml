@@ -4,7 +4,7 @@
         <title>hubecall</title>
         <link>https://hubecall.com/</link>
         <description>le hub des appels à publications en sciences de gestion et management</description>
-        <lastBuildDate>Wed, 12 Aug 2026 22:09:39 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 04:31:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,27 @@
             <link>https://hubecall.com/</link>
         </image>
         <copyright>hubecall © 2026</copyright>
+        <item>
+            <title><![CDATA[The Chinese Economy: Past, Present and Future]]></title>
+            <link>https://hubecall.com/call/elsevier-the-chinese-economy-past-present-and-future</link>
+            <guid>elsevier-the-chinese-economy-past-present-and-future</guid>
+            <pubDate>Thu, 13 Aug 2026 04:30:23 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 15, 2026: Full paper submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>International Review of Economics &amp; Finance (ELSEVIER)</author>
+        </item>
         <item>
             <title><![CDATA[Recherche quantitative inductive en GRH : enjeux et méthodes]]></title>
             <link>https://hubecall.com/call/agrh-appel-a-articles-pour-un-numero-special-de-la-revue-grh</link>
@@ -491,6 +512,165 @@
             <author>Revue française de gestion (RFG)</author>
         </item>
         <item>
+            <title><![CDATA[Article Development Workshop]]></title>
+            <link>https://hubecall.com/call/ojsfr-call-for-papers-and-article-development-workshop</link>
+            <guid>ojsfr-call-for-papers-and-article-development-workshop</guid>
+            <pubDate>Wed, 12 Aug 2026 16:43:57 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    <p>SIM, AIM, and Haute école Arc are pleased to announce an article development workshop. A plenary session with the editor-in-chief of SIM will precede this workshop.</p>
+    
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>April 2, 2026: Deadline for article submissions</li>
+        
+        <li>May 20, 2026: Workshop date in Neuchâtel, Switzerland</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Systèmes d'information &amp; management (OJSFR)</author>
+        </item>
+        <item>
+            <title><![CDATA[The transformative power of digital healthcare: New challenges and research opportunities]]></title>
+            <link>https://hubecall.com/call/ojsfr-special-issue-call-for-paper-the-transformative-power-of-digital-healthcare-new-challenges-and-research-opportunities</link>
+            <guid>ojsfr-special-issue-call-for-paper-the-transformative-power-of-digital-healthcare-new-challenges-and-research-opportunities</guid>
+            <pubDate>Wed, 12 Aug 2026 16:43:57 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Valérie Fernandez</strong>, Telecom Paris</p>
+        
+        <p><strong>Bénédicte Geffroy</strong>, IMT Atlantique</p>
+        
+        <p><strong>Liette Lapointe</strong>, McGill University</p>
+        
+        <p><strong>Jean-François Berthevas</strong>, Université de La Rochelle</p>
+        
+    
+    
+    <p>As Orlikowski and Iacono (2001) emphasize, information systems (IS) researchers not only have the opportunity to influence the future, but they also have the responsibility to do so by documenting what digital technologies change, capturing what disappears, and what is being created.</p>
+    
+    <p>In the healthcare sector, recent years have been marked by massive growth in innovations and the implementation of digital technologies: the development of mobile health, the deployment of digital patient monitoring devices, the operationalization of integrated electronic medical records systems, the introduction of artificial intelligence applied to clinical diagnostics, the development of immersive therapies via virtual reality, and the use of blockchain technology. However, beyond the proliferation of innovative digital devices, what now stands out seems to be of a different order: their interdependence, which nurtures new forms of complexity, the quantification at work (data-intensive medicine), and the unprecedented modes of instantaneous calculation (algorithmic medicine) that support them, as well as the connectivity challenges (telemedicine).</p>
+    
+    <p>Data analysis and Artificial Intelligence (AI), driven by the acceleration of data collection in the sector, are ushering in disruptions and radical innovations in healthcare. Rapid advancements in AI are creating new opportunities in healthcare. These technologies alone have a transformative power on the industry and society. But through their integration, their disruptive effects increase exponentially, raising new issues.</p>
+    
+    <p>Thus, the more organizations collect data due to increased integration of digital devices, the more the issue of privacy protection becomes critical. With the dissemination of self-learning algorithms, cybersecurity concerns become even more critical. This new generation of digital innovations also raises new governance questions, particularly regarding the involvement of new stakeholders in healthcare system analysis, represented by the intervention of non-human agents in automated and algorithmic decision systems.</p>
+    
+    <p>Similarly, explainability, accountability, relationships between healthcare professionals, and the organization of work represent major challenges associated with the use of AI in healthcare organizations. The complexity of algorithms and the colossal volume of data used by AI make it extremely difficult to understand and thus explain the functioning and results produced by AI. The question of responsibility for healthcare professionals and the organizations to which they belong becomes even more acute when they use this technology. From a managerial perspective, the use of AI is a major disruptive element in healthcare management systems, contributing to the transformation of relationships among stakeholders and the emergence of new work organizations that require new skills. Providing patients with broader access to healthcare via telemedicine or connected devices for remote monitoring profoundly changes the organization of care and the role of the patient. It also raises numerous challenges in terms of health equity and trust.</p>
+    
+    <p>For some, this represents a significant break. For others, technological advancements in healthcare oscillate between continuity and a shift. Many studies have shown that the impact of early generations of information technology on healthcare has been far below expectations. And even though the COVID crisis accelerated the digital transformation of the healthcare sector, the sector, and even more so the medico-social sector, remain marked by slow adoption of innovations in digital health technologies.</p>
+    
+    <p>The transformative potential of digital technologies in the healthcare sector remains complex to grasp, as it is embedded in structural specificities. The complexity of the domain is related to the multiplicity of competing and/or cooperating actors (industrials, consumers, patients, healthcare professionals, insurance companies), and an institutional environment characterized by multiple levels of regulation and the power of professional bodies. The ongoing challenge of integrating legacy systems, the diversity of technological platforms, and strict regulations pose major interoperability issues. Governments, providers, and users must agree on interoperability and standardization frameworks in a constantly evolving regulatory context. Each new technology integrated into the healthcare pathway introduces a multiplicity of changes in the existing context, creating obstacles and resistance that may affect the social and spatial organization of care, the division of medical and paramedical labor, and interactions among various stakeholders. Power dynamics at play in the healthcare industry are highlighted in studies on IS governance and the direction of AI development, and internal power dynamics within a healthcare organization, as well as external dynamics that often play out between patients and caregivers.</p>
+    
+    <p>Is the transformative power of digital technologies in healthcare likely to improve the effectiveness and efficiency of healthcare systems? As the World Health Organization (2021) reminds us, digital innovations aim to transform the delivery of healthcare services, making them more accessible, personalized, and potentially more efficient.</p>
+    
+    <p>Emerging technologies in healthcare present new challenges and renew issues due to the unpredictable discontinuities brought about by technologies like AI and their integration, or even their expansion across the entire sector. They offer significant opportunities for future research and the potential to renew theoretical and methodological approaches in IS management. In order to overcome past difficulties and address the complexity of the field, scholars advocate for interdisciplinary approaches in healthcare and information technology. The healthcare field represents a rich environment from which new theories can be developed and existing theories extended in the field of IS.</p>
+    
+    <p>This special issue is open to contributions from interdisciplinary and sociotechnical perspectives, often considered one of the foundational viewpoints in IS discipline. Submissions should focus on the ongoing transformations driven by innovative digital health technologies and grasp the magnitude of these changes. Contributions on the medico-social sector, which is currently under-researched, will be appreciated. Contributions may include empirical, theoretical, or meta-analysis papers.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>The challenges of AI in healthcare (ethics, responsibility, etc.)</li>
+        
+        <li>Patient empowerment and healthcare democracy</li>
+        
+        <li>The &#39;techno-push&#39; dynamics of digital health technologies and industrial influence on the pace and direction of innovations in this field (particularly AI)</li>
+        
+        <li>The challenge of new forms of multi-level governance in healthcare</li>
+        
+        <li>The new generation of digital health technologies and their vulnerabilities</li>
+        
+        <li>The care pathway and technologies</li>
+        
+        <li>Hospital-city cooperation/coordination</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2025: Submission Deadline</li>
+        
+        <li>December 20, 2025: First-round Notification</li>
+        
+        <li>March 20, 2026: Revision Deadline</li>
+        
+        <li>June 1, 2026: Second/Final Decision by Invited Editors</li>
+        
+        <li>July 1, 2026: Publication Decision by Editorial Board</li>
+        
+        <li>September 1, 2026: Publication Date</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Systèmes d'information &amp; management (OJSFR)</author>
+        </item>
+        <item>
+            <title><![CDATA[Plasticity of working methods in the digital workplace]]></title>
+            <link>https://hubecall.com/call/ojsfr-plasticity-of-working-methods-in-the-digital-workplace</link>
+            <guid>ojsfr-plasticity-of-working-methods-in-the-digital-workplace</guid>
+            <pubDate>Wed, 12 Aug 2026 16:43:57 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Florence Laval</strong>, Université de Poitiers</p>
+        
+        <p><strong>Anass Mawadia</strong>, Université de Poitiers</p>
+        
+        <p><strong>Aurélie Dudézert</strong>, IMT-BS</p>
+        
+        <p><strong>Nathalie Mitev</strong>, University of Münster</p>
+        
+    
+    
+    <p>This special issue focuses on the plasticity of working methods in the digital workplace, examining how organizations and individuals adapt their work practices in response to digital technologies and transformations. The issue explores the flexibility, malleability, and evolution of work methods as they are shaped by digital tools, platforms, and organizational contexts.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Plasticity of working methods in digital environments</li>
+        
+        <li>Digital workplace practices and adaptability</li>
+        
+        <li>Evolution of work methods in response to digital transformation</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>February 3, 2024: Deadline for submitting an abstract to the workshop organized at the AIM Conference</li>
+        
+        <li>April 3, 2024: Response to the authors for participation in the workshop</li>
+        
+        <li>May 27, 2024: Preparatory workshop to support the authors and offer them constructive feedback in order to improve the articles before submission</li>
+        
+        <li>September 1, 2024: Deadline for submission of manuscripts for the special issue of the journal</li>
+        
+        <li>October 15, 2024: Response to the authors</li>
+        
+        <li>November 30, 2024: Deadline to submit the final version</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Systèmes d'information &amp; management (OJSFR)</author>
+        </item>
+        <item>
             <title><![CDATA[Cold Cases: Revisiting founding myths, iconic cases, and forgotten stories in management]]></title>
             <link>https://hubecall.com/call/ojsfr-cold-cases-revisiting-founding-myths-iconic-cases-and-forgotten-stories-in-management</link>
             <guid>ojsfr-cold-cases-revisiting-founding-myths-iconic-cases-and-forgotten-stories-in-management</guid>
@@ -671,165 +851,6 @@
     
 </div>]]></content:encoded>
             <author>M@n@gement (OJSFR)</author>
-        </item>
-        <item>
-            <title><![CDATA[Article Development Workshop]]></title>
-            <link>https://hubecall.com/call/ojsfr-call-for-papers-and-article-development-workshop</link>
-            <guid>ojsfr-call-for-papers-and-article-development-workshop</guid>
-            <pubDate>Wed, 12 Aug 2026 16:43:57 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    <p>SIM, AIM, and Haute école Arc are pleased to announce an article development workshop. A plenary session with the editor-in-chief of SIM will precede this workshop.</p>
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>April 2, 2026: Deadline for article submissions</li>
-        
-        <li>May 20, 2026: Workshop date in Neuchâtel, Switzerland</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Systèmes d'information &amp; management (OJSFR)</author>
-        </item>
-        <item>
-            <title><![CDATA[The transformative power of digital healthcare: New challenges and research opportunities]]></title>
-            <link>https://hubecall.com/call/ojsfr-special-issue-call-for-paper-the-transformative-power-of-digital-healthcare-new-challenges-and-research-opportunities</link>
-            <guid>ojsfr-special-issue-call-for-paper-the-transformative-power-of-digital-healthcare-new-challenges-and-research-opportunities</guid>
-            <pubDate>Wed, 12 Aug 2026 16:43:57 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>Valérie Fernandez</strong>, Telecom Paris</p>
-        
-        <p><strong>Bénédicte Geffroy</strong>, IMT Atlantique</p>
-        
-        <p><strong>Liette Lapointe</strong>, McGill University</p>
-        
-        <p><strong>Jean-François Berthevas</strong>, Université de La Rochelle</p>
-        
-    
-    
-    <p>As Orlikowski and Iacono (2001) emphasize, information systems (IS) researchers not only have the opportunity to influence the future, but they also have the responsibility to do so by documenting what digital technologies change, capturing what disappears, and what is being created.</p>
-    
-    <p>In the healthcare sector, recent years have been marked by massive growth in innovations and the implementation of digital technologies: the development of mobile health, the deployment of digital patient monitoring devices, the operationalization of integrated electronic medical records systems, the introduction of artificial intelligence applied to clinical diagnostics, the development of immersive therapies via virtual reality, and the use of blockchain technology. However, beyond the proliferation of innovative digital devices, what now stands out seems to be of a different order: their interdependence, which nurtures new forms of complexity, the quantification at work (data-intensive medicine), and the unprecedented modes of instantaneous calculation (algorithmic medicine) that support them, as well as the connectivity challenges (telemedicine).</p>
-    
-    <p>Data analysis and Artificial Intelligence (AI), driven by the acceleration of data collection in the sector, are ushering in disruptions and radical innovations in healthcare. Rapid advancements in AI are creating new opportunities in healthcare. These technologies alone have a transformative power on the industry and society. But through their integration, their disruptive effects increase exponentially, raising new issues.</p>
-    
-    <p>Thus, the more organizations collect data due to increased integration of digital devices, the more the issue of privacy protection becomes critical. With the dissemination of self-learning algorithms, cybersecurity concerns become even more critical. This new generation of digital innovations also raises new governance questions, particularly regarding the involvement of new stakeholders in healthcare system analysis, represented by the intervention of non-human agents in automated and algorithmic decision systems.</p>
-    
-    <p>Similarly, explainability, accountability, relationships between healthcare professionals, and the organization of work represent major challenges associated with the use of AI in healthcare organizations. The complexity of algorithms and the colossal volume of data used by AI make it extremely difficult to understand and thus explain the functioning and results produced by AI. The question of responsibility for healthcare professionals and the organizations to which they belong becomes even more acute when they use this technology. From a managerial perspective, the use of AI is a major disruptive element in healthcare management systems, contributing to the transformation of relationships among stakeholders and the emergence of new work organizations that require new skills. Providing patients with broader access to healthcare via telemedicine or connected devices for remote monitoring profoundly changes the organization of care and the role of the patient. It also raises numerous challenges in terms of health equity and trust.</p>
-    
-    <p>For some, this represents a significant break. For others, technological advancements in healthcare oscillate between continuity and a shift. Many studies have shown that the impact of early generations of information technology on healthcare has been far below expectations. And even though the COVID crisis accelerated the digital transformation of the healthcare sector, the sector, and even more so the medico-social sector, remain marked by slow adoption of innovations in digital health technologies.</p>
-    
-    <p>The transformative potential of digital technologies in the healthcare sector remains complex to grasp, as it is embedded in structural specificities. The complexity of the domain is related to the multiplicity of competing and/or cooperating actors (industrials, consumers, patients, healthcare professionals, insurance companies), and an institutional environment characterized by multiple levels of regulation and the power of professional bodies. The ongoing challenge of integrating legacy systems, the diversity of technological platforms, and strict regulations pose major interoperability issues. Governments, providers, and users must agree on interoperability and standardization frameworks in a constantly evolving regulatory context. Each new technology integrated into the healthcare pathway introduces a multiplicity of changes in the existing context, creating obstacles and resistance that may affect the social and spatial organization of care, the division of medical and paramedical labor, and interactions among various stakeholders. Power dynamics at play in the healthcare industry are highlighted in studies on IS governance and the direction of AI development, and internal power dynamics within a healthcare organization, as well as external dynamics that often play out between patients and caregivers.</p>
-    
-    <p>Is the transformative power of digital technologies in healthcare likely to improve the effectiveness and efficiency of healthcare systems? As the World Health Organization (2021) reminds us, digital innovations aim to transform the delivery of healthcare services, making them more accessible, personalized, and potentially more efficient.</p>
-    
-    <p>Emerging technologies in healthcare present new challenges and renew issues due to the unpredictable discontinuities brought about by technologies like AI and their integration, or even their expansion across the entire sector. They offer significant opportunities for future research and the potential to renew theoretical and methodological approaches in IS management. In order to overcome past difficulties and address the complexity of the field, scholars advocate for interdisciplinary approaches in healthcare and information technology. The healthcare field represents a rich environment from which new theories can be developed and existing theories extended in the field of IS.</p>
-    
-    <p>This special issue is open to contributions from interdisciplinary and sociotechnical perspectives, often considered one of the foundational viewpoints in IS discipline. Submissions should focus on the ongoing transformations driven by innovative digital health technologies and grasp the magnitude of these changes. Contributions on the medico-social sector, which is currently under-researched, will be appreciated. Contributions may include empirical, theoretical, or meta-analysis papers.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>The challenges of AI in healthcare (ethics, responsibility, etc.)</li>
-        
-        <li>Patient empowerment and healthcare democracy</li>
-        
-        <li>The &#39;techno-push&#39; dynamics of digital health technologies and industrial influence on the pace and direction of innovations in this field (particularly AI)</li>
-        
-        <li>The challenge of new forms of multi-level governance in healthcare</li>
-        
-        <li>The new generation of digital health technologies and their vulnerabilities</li>
-        
-        <li>The care pathway and technologies</li>
-        
-        <li>Hospital-city cooperation/coordination</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 30, 2025: Submission Deadline</li>
-        
-        <li>December 20, 2025: First-round Notification</li>
-        
-        <li>March 20, 2026: Revision Deadline</li>
-        
-        <li>June 1, 2026: Second/Final Decision by Invited Editors</li>
-        
-        <li>July 1, 2026: Publication Decision by Editorial Board</li>
-        
-        <li>September 1, 2026: Publication Date</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Systèmes d'information &amp; management (OJSFR)</author>
-        </item>
-        <item>
-            <title><![CDATA[Plasticity of working methods in the digital workplace]]></title>
-            <link>https://hubecall.com/call/ojsfr-plasticity-of-working-methods-in-the-digital-workplace</link>
-            <guid>ojsfr-plasticity-of-working-methods-in-the-digital-workplace</guid>
-            <pubDate>Wed, 12 Aug 2026 16:43:57 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>Florence Laval</strong>, Université de Poitiers</p>
-        
-        <p><strong>Anass Mawadia</strong>, Université de Poitiers</p>
-        
-        <p><strong>Aurélie Dudézert</strong>, IMT-BS</p>
-        
-        <p><strong>Nathalie Mitev</strong>, University of Münster</p>
-        
-    
-    
-    <p>This special issue focuses on the plasticity of working methods in the digital workplace, examining how organizations and individuals adapt their work practices in response to digital technologies and transformations. The issue explores the flexibility, malleability, and evolution of work methods as they are shaped by digital tools, platforms, and organizational contexts.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Plasticity of working methods in digital environments</li>
-        
-        <li>Digital workplace practices and adaptability</li>
-        
-        <li>Evolution of work methods in response to digital transformation</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>February 3, 2024: Deadline for submitting an abstract to the workshop organized at the AIM Conference</li>
-        
-        <li>April 3, 2024: Response to the authors for participation in the workshop</li>
-        
-        <li>May 27, 2024: Preparatory workshop to support the authors and offer them constructive feedback in order to improve the articles before submission</li>
-        
-        <li>September 1, 2024: Deadline for submission of manuscripts for the special issue of the journal</li>
-        
-        <li>October 15, 2024: Response to the authors</li>
-        
-        <li>November 30, 2024: Deadline to submit the final version</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Systèmes d'information &amp; management (OJSFR)</author>
         </item>
         <item>
             <title><![CDATA[Imaginer la post-croissance]]></title>
@@ -4445,7 +4466,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>October 31, 2026: Submission deadline</li>
+        <li>July 17, 2027: Full paper submission deadline</li>
         
     </ul>
     
@@ -7873,54 +7894,6 @@
             <author>Annals of Tourism Research (ELSEVIER)</author>
         </item>
         <item>
-            <title><![CDATA[Large Language Models (LLMs) for Tourism and Tourists]]></title>
-            <link>https://hubecall.com/call/elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2</link>
-            <guid>elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    <p>This special issue focuses on the applications and implications of Large Language Models (LLMs) in the tourism sector. We invite research exploring how LLMs can enhance tourist experiences, improve tourism service delivery, and support both tourism businesses and individual travelers. The issue welcomes empirical studies, theoretical frameworks, case studies, and critical analyses of LLM technologies in tourism contexts.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Applications of LLMs in tourism industry</li>
-        
-        <li>LLMs for personalized tourist recommendations</li>
-        
-        <li>Natural language processing for tourism content</li>
-        
-        <li>Chatbots and virtual assistants in tourism</li>
-        
-        <li>Tourist information retrieval using LLMs</li>
-        
-        <li>Language translation for tourism</li>
-        
-        <li>Sentiment analysis of tourist reviews</li>
-        
-        <li>LLM-based travel planning and itinerary generation</li>
-        
-        <li>Multilingual tourism communication</li>
-        
-        <li>AI ethics in tourism applications</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 31, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Information Processing &amp; Management (ELSEVIER)</author>
-        </item>
-        <item>
             <title><![CDATA[Applying AI to Land Use and Transport Integration]]></title>
             <link>https://hubecall.com/call/elsevier-applying-ai-to-land-use-and-transport-integration-2</link>
             <guid>elsevier-applying-ai-to-land-use-and-transport-integration-2</guid>
@@ -9129,48 +9102,6 @@
             <author>Emerging Markets Review (ELSEVIER)</author>
         </item>
         <item>
-            <title><![CDATA[Finance Research Letters - African Research Proposals]]></title>
-            <link>https://hubecall.com/call/elsevier-call-for-african-research-proposals-2</link>
-            <guid>elsevier-call-for-african-research-proposals-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    <p>This call for papers invites research proposals focused on African finance and financial systems. We are interested in original research that advances our understanding of financial markets, institutions, and practices across the African continent.</p>
-    
-    <p>Submissions should present novel findings and insights relevant to African financial contexts, including studies on market structures, regulatory frameworks, institutional development, and financial behavior in African nations and regions.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>African financial markets and institutions</li>
-        
-        <li>International finance and development in Africa</li>
-        
-        <li>Corporate finance in African companies</li>
-        
-        <li>Risk management in African financial systems</li>
-        
-        <li>Financial innovation and technology in Africa</li>
-        
-        <li>Economic development and finance in African countries</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>December 31, 2023: Submission deadline for research proposals</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Finance Research Letters (ELSEVIER)</author>
-        </item>
-        <item>
             <title><![CDATA[Blockchain Technology and Applications]]></title>
             <link>https://hubecall.com/call/elsevier-blockchain-technology-and-applications</link>
             <guid>elsevier-blockchain-technology-and-applications</guid>
@@ -9365,6 +9296,96 @@
             <author>Journal of World Business (ELSEVIER)</author>
         </item>
         <item>
+            <title><![CDATA[Large Language Models (LLMs) for Tourism and Tourists]]></title>
+            <link>https://hubecall.com/call/elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2</link>
+            <guid>elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    <p>This special issue focuses on the applications and implications of Large Language Models (LLMs) in the tourism sector. We invite research exploring how LLMs can enhance tourist experiences, improve tourism service delivery, and support both tourism businesses and individual travelers. The issue welcomes empirical studies, theoretical frameworks, case studies, and critical analyses of LLM technologies in tourism contexts.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Applications of LLMs in tourism industry</li>
+        
+        <li>LLMs for personalized tourist recommendations</li>
+        
+        <li>Natural language processing for tourism content</li>
+        
+        <li>Chatbots and virtual assistants in tourism</li>
+        
+        <li>Tourist information retrieval using LLMs</li>
+        
+        <li>Language translation for tourism</li>
+        
+        <li>Sentiment analysis of tourist reviews</li>
+        
+        <li>LLM-based travel planning and itinerary generation</li>
+        
+        <li>Multilingual tourism communication</li>
+        
+        <li>AI ethics in tourism applications</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>August 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Information Processing &amp; Management (ELSEVIER)</author>
+        </item>
+        <item>
+            <title><![CDATA[Finance Research Letters - African Research Proposals]]></title>
+            <link>https://hubecall.com/call/elsevier-call-for-african-research-proposals-2</link>
+            <guid>elsevier-call-for-african-research-proposals-2</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    <p>This call for papers invites research proposals focused on African finance and financial systems. We are interested in original research that advances our understanding of financial markets, institutions, and practices across the African continent.</p>
+    
+    <p>Submissions should present novel findings and insights relevant to African financial contexts, including studies on market structures, regulatory frameworks, institutional development, and financial behavior in African nations and regions.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>African financial markets and institutions</li>
+        
+        <li>International finance and development in Africa</li>
+        
+        <li>Corporate finance in African companies</li>
+        
+        <li>Risk management in African financial systems</li>
+        
+        <li>Financial innovation and technology in Africa</li>
+        
+        <li>Economic development and finance in African countries</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 31, 2023: Submission deadline for research proposals</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Finance Research Letters (ELSEVIER)</author>
+        </item>
+        <item>
             <title><![CDATA[Advancing demand management policies for more affordable, accessible and efficient transport systems]]></title>
             <link>https://hubecall.com/call/elsevier-advancing-demand-management-policies-for-more-affordable-accessible-and-efficient-transport-systems</link>
             <guid>elsevier-advancing-demand-management-policies-for-more-affordable-accessible-and-efficient-transport-systems</guid>
@@ -9521,7 +9542,7 @@
     
     <p>For this special issue, we encourage conceptual and empirical work that envisions business schools as models of neuroinclusion. Our call also shifts the focus from &#39;accommodating and managing difference&#39; to &#39;learning through difference&#39; and understanding how difference, as a form of diversity, enhances learning and group capabilities. In doing so, it extends the dialogue beyond workplace adaptation to examining how neurodiversity both challenges and enriches the processes through which management knowledge is constructed, taught, and understood by learners, and how this also impacts emergent group functions (i.e., decision-making and morality). We therefore invite a more inclusive understanding of learning and knowing in management education, one that values diverse cognitive styles and experiences as integral to the co-creation of knowledge and practice.</p>
     
-    <p>In this vein, we invite contributors to explore diverse perspectives that enrich and expand conversations on neurodiversity in management learning and education. In particular, we encourage submissions that move beyond single-diagnosis approaches recognizing the breadth within and across neurodivergences, including: developmental (e.g., ADHD, dyslexia, dyspraxia, dyscalculia), acquired (e.g., traumatic brain injury, epilepsy), mental health (e.g., anxiety, obsessive-compulsive disorder), and physical health conditions (e.g., chronic fatigue syndrome, hearing or vision impairment). These categories are not mutually exclusive and neurodivergent conditions often co-occur.</p>
+    <p>In this vein, we invite contributors to explore diverse perspectives that enrich and expand conversations on neurodiversity in management learning and education. In particular, we encourage submissions that move beyond single-diagnosis approaches recognizing the breadth within and across neurodivergences, including: developmental (e.g., ADHD, dyslexia, dyspraxia, dyscalculia), acquired (e.g., traumatic brain injury, epilepsy), mental health (e.g., anxiety, obsessive-compulsive disorder), and physical health conditions (e.g., chronic fatigue syndrome, hearing or vision impairment). These categories are not mutually exclusive and neurodivergent conditions often co-occur. For example, those who present with ADHD and anxiety, or those who are dyspraxic and autistic, may experience both distinctive challenges and synergies in learning and workplaces.</p>
     
     <p>Furthermore, this special issue welcomes contributions that embrace conceptual plurality, engaging with alternative or adjacent conceptualisations of neurodiversity – whether framed as natural variation and ecology or through disability, misfit, being &#39;different&#39; or other evolving terms that capture the complex ways individuals experience (mis)alignment with institutional learning environments and how this also impacts emergent group functions and group-level outcomes. Embracing such plurality also requires turning the lens toward academic and professional staff who shape these environments. Doing so exposes a broader empirical and theoretical blind spot in understanding the attitudes and experiences of academic and professional staff with disabilities and, in particular, those with neurocognitive conditions.</p>
     
@@ -9613,13 +9634,11 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>May 1, 2026: Optional virtual professional development workshop for interested authors</li>
+        <li>May 13, 2026: Deadline for submitting 3,000-word proposal (including references) for optional professional development workshop in May 2026</li>
         
-        <li>May 13, 2026: Deadline for 3,000-word proposal (including references) for optional professional development workshop</li>
+        <li>November 1, 2026: Special issue submission window opens</li>
         
-        <li>November 1, 2026: Submission window opens for special issue papers</li>
-        
-        <li>December 14, 2026: Submission window closes for special issue papers</li>
+        <li>December 14, 2026: Full paper submission deadline</li>
         
     </ul>
     
@@ -9628,6 +9647,8 @@
     <ul>
         
         <li><strong>Katrin Mühlfeld</strong>, University of Trier</li>
+        
+        <li><strong>María José Murcia</strong>, IAE Business School</li>
         
     </ul>
     

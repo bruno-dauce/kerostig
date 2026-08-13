@@ -1,5 +1,33 @@
 [
   {
+    "journal": "International Review of Economics & Finance",
+    "abbreviation": "elsevier",
+    "issn": "1873-8036",
+    "metaTitle": "The Chinese Economy: Past, Present and Future",
+    "url": "https://www.sciencedirect.com/special-issue/321967/the-chinese-economy-past-present-and-future",
+    "title": "The Chinese Economy: Past, Present and Future",
+    "slug": "elsevier-the-chinese-economy-past-present-and-future",
+    "contentHash": "0537000126da70322ee90f53794d517f4cd9db18d9bece74428fedbee1c9692e",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "chinese economy"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-15T12:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-13T04:30:23.141Z"
+  },
+  {
     "journal": "GRH",
     "abbreviation": "agrh",
     "issn": "2295-9149",
@@ -69,8 +97,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T22:00:20.665Z"
+    "active": false,
+    "pubDate": "2026-08-12T22:00:20.665Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "GRH",
@@ -154,8 +183,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T22:00:20.665Z"
+    "active": false,
+    "pubDate": "2026-08-12T22:00:20.665Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "Comptabilité - Contrôle - Audit",
@@ -246,8 +276,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T21:55:46.317Z"
+    "active": false,
+    "pubDate": "2026-08-12T21:55:46.317Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "Management international",
@@ -294,8 +325,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:46:36.302Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:46:36.302Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "Management international",
@@ -357,8 +389,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:46:36.302Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:46:36.302Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "Management international",
@@ -403,8 +436,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:46:36.302Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:46:36.302Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "Management international",
@@ -454,8 +488,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:46:36.302Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:46:36.302Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "Management international",
@@ -496,8 +531,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:46:36.302Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:46:36.302Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "Management international",
@@ -544,8 +580,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:46:36.302Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:46:36.302Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "Management international",
@@ -599,8 +636,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:46:36.302Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:46:36.302Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "Revue française de gestion",
@@ -625,190 +663,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:45:57.264Z"
-  },
-  {
-    "journal": "M@n@gement",
-    "abbreviation": "ojsfr",
-    "issn": "1286-4692",
-    "metaTitle": "‘Cold Cases’: Revisiting founding myths, iconic cases, and forgotten stories in management",
-    "url": "https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/48",
-    "title": "Cold Cases: Revisiting founding myths, iconic cases, and forgotten stories in management",
-    "slug": "ojsfr-cold-cases-revisiting-founding-myths-iconic-cases-and-forgotten-stories-in-management",
-    "contentHash": "0c47d2f2d1921a73c9d3de76f080389cb6c4d8e0ee8a2b5d4145431b4a1267ef",
-    "topics": [
-      "Reexamination and reinterpretation of canonical management cases (IBM, Xerox, Nokia, Kodak, Enron, etc.)",
-      "Empirical robustness and theoretical validity of emblematic cases in management scholarship",
-      "Performativity of famous cases and their role as epistemic artifacts",
-      "Processes of canonization and erasure in disciplinary memory",
-      "Circularity in qualitative management research and issues of confirmation bias",
-      "Role of founding myths in structuring management thinking and epistemic communities",
-      "Halo effects and the stratification of knowledge in management research",
-      "Forgotten cases and alternative narratives in management history",
-      "Critical reexamination of the Hawthorne experiments and other foundational studies",
-      "Replication, falsification, and verification in management research",
-      "Archaeology of management knowledge and disciplinary self-reflexivity"
-    ],
-    "description": {
-      "paragraphs": [
-        "Management research has long been populated by celebrated cases that have achieved the status of founding myths. Cases such as IBM's blindness to personal computing, Xerox's strategic myopia toward the graphical user interface, Nokia's fall to smartphones, the Mann Gulch fire, and Elton Mayo's Hawthorne experiments have become ubiquitous in the field's collective memory. These 'cold cases', endlessly cited and taught, structure ways of thinking and provide a shared foundation of representations that are central to the construction of epistemic communities.",
-        "Despite their pervasive influence, few studies scrutinize the empirical robustness, theoretical validity, or performativity of these emblematic cases. In management research, particularly in qualitative research, the risk of circularity is significant. Researchers working with inevitably heterogeneous and incomplete material may, even unconsciously, select data that confirm their theoretical priors, set aside disconfirming evidence, and ultimately favor demonstrations of the 'as if' type.",
-        "Management research's pursuit of 'theoretical gaps' has often privileged the production of new concepts at the expense of verification, reinterpretation, or falsification. This predilection leads to a stratification of knowledge where certain studies become canonical and generate 'halo effects', while others sink into oblivion not because they are invalid, but because they do not fit the dominant narratives of the discipline.",
-        "The aim of this special issue is to 'reopen the files of management' by challenging established truths, revisiting myths, excavating forgotten cases, and analyzing the processes of canonization and erasure that structure disciplinary memory. Famous cases such as Kodak, IBM, Enron, and Nokia must be regarded as epistemic artifacts, produced, reproduced, and sometimes distorted by scholarly communities, bearing narrative, moral, and institutional dimensions.",
-        "M@n@gement has established itself as a privileged venue for critical, reflexive, and interdisciplinary approaches in management research. This special issue continues this tradition by inviting the community to undertake an archaeology of its own knowledge. Revisiting 'cold cases' means interrogating how management research constructs its own history, its certainties, and its silences. It is a call to strengthen the cumulative and self-critical dimension of the field by restoring a rightful place to research grounded in the replication of experiments, the challenging of established findings, and recontextualization.",
-        "At a time when researchers are constantly pressured to produce 'new' knowledge, this special issue proposes to rehabilitate slow, reflexive research capable of revisiting taken-for-granted assumptions, reopening closed debates, and reinvigorating the controversies that are constitutive of knowledge production."
-      ]
-    },
-    "tags": [
-      "management research",
-      "canonical cases",
-      "mythology",
-      "epistemology",
-      "research methods",
-      "organizational history"
-    ],
-    "editors": [
-      {
-        "name": "Anaïs Boutru",
-        "affiliation": "Université Paris-Dauphine, PSL"
-      },
-      {
-        "name": "Linda Rouleau",
-        "affiliation": "HEC Montréal"
-      },
-      {
-        "name": "Géraldine Schmidt",
-        "affiliation": "Université Paris 1 Panthéon-Sorbonne"
-      },
-      {
-        "name": "Albéric Tellier",
-        "affiliation": "Université Paris-Dauphine, PSL"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-10-14T10:00:00.000Z",
-        "description": "Pre-submission workshop (online)",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-12-31T11:00:00.000Z",
-        "description": "Full paper submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-12T16:43:57.586Z"
-  },
-  {
-    "journal": "M@n@gement",
-    "abbreviation": "ojsfr",
-    "issn": "1286-4692",
-    "metaTitle": "Is progress taken for granted? Social change, backlash, and resistance in organizations",
-    "url": "https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/50",
-    "title": "Social change, backlash, and resistance in organizations",
-    "slug": "ojsfr-is-progress-taken-for-granted-social-change-backlash-and-resistance-in-organizations",
-    "contentHash": "afbd5553787a7f82695910929b096e19721fbd5d9ba32f7182307a1d17c62a3e",
-    "topics": [
-      "What are the different forms of backlash affecting organizations? Are there 'invisible' forms of backlash?",
-      "How and to what extent does backlash contribute to the deinstitutionalization of established norms (e.g. ESG, DEI, climate)?",
-      "What forms of institutional work produce or hinder backlash?",
-      "What roles do different modes of governance and different forms of organization play in weakening or, conversely, protecting social progress? Are democratic organizations, in particular, more or less prone to backlash?",
-      "How do organizations respond, resist, protect themselves, and participate in backlash?",
-      "What are the risks, uncertainties, and tensions generated by backlash? How can they be managed?",
-      "What forms of collective response are organized to face backlash (e.g. meta-organizations, networks, lobbying)?",
-      "How do individuals participate in or resist backlash (e.g. through employee activism)?",
-      "What is the impact of backlash on individuals (identity, career paths, values, social representations, experience)?",
-      "How does backlash transform or disrupt individuals' relationships with work and the company?",
-      "What forms of individual and collective resistance to backlash can be observed? What are the conditions and effects of this resistance?",
-      "What is the role of researchers and what stance should they adopt in response to this phenomenon?",
-      "What methodological and epistemological approaches are best suited to studying backlash, its mechanisms, and its consequences? What methodological innovations are needed to better understand its contemporary forms?",
-      "How can organizational theory contribute to understanding the phenomenon of backlash?",
-      "What are the multi-level interactions between societal, organizational, and individual backlash?",
-      "How can backlash contribute to the emergence of other backlashes?"
-    ],
-    "description": {
-      "paragraphs": [
-        "The production and dissemination of knowledge, particularly on inequalities, climate change, and biodiversity, are increasingly under attack. These attacks are reflected in some political and administrative decisions adopted across several national contexts, such as the measures taken by President Donald Trump since his return to power. Beyond the US, academic freedom is being directly or indirectly undermined in many countries. For example, in France, controversies surrounding 'Islamo-leftism' within universities, reignited by the Minister of Higher Education, have been accompanied by concrete attacks on several scientific institutions.",
-        "Although research on grand challenges, sustainability, and ecosystem transitions is still ongoing, climate policies and the low-carbon transition are also under attack from many sides. These attacks range from climate scepticism to misinformation and lobbying, and aim to delay or weaken existing or future standards, as illustrated by the recent deregulation movement in Europe around the Omnibus law. Despite research pointing to the depletion of global resources, sustainable finance, ESG investing, and CSR are becoming increasingly polarized. Some asset managers are taking a more cautious approach to their commitments, and major players such as BlackRock announced in 2024 that they would be withdrawing ESG-labelled financial products. Some companies are reviewing their CSR practices and communication by adopting withdrawal or 'silence' strategies.",
-        "At the same time, the movement for equity, equality, and inclusion seems to be reaching a peak when it comes to considering diverse identities within organizations. And yet, it is simultaneously accompanied by growing opposition. The murder of George Floyd and the ensuing protests in 2020 intensified diversity initiatives, while fuelling a conservative backlash. In connection with these events, the public statements of certain companies, far from achieving consensus, have sometimes crystallized negative reactions.",
-        "Finally, the flexibilisation of work is also undergoing changes. While teleworking, part-time work and flexible hours have become the norm, particularly because of the health crisis, the ideal of constant availability remains dominant. Barriers to the use of these arrangements, such as stigmatization and career penalties, persist and are even becoming more pronounced, while calls for a return to the office are growing.",
-        "Whether it be attacks on science, the retreat from climate and financial commitments, the contestation of inclusion policies or the questioning of individualized management systems, these developments reflect a critical re-evaluation of social and ecological advances perceived as progressive: a phenomenon known as 'backlash'.",
-        "At its most basic level, backlash is defined as resistance to social progress. It is an active 'counterattack' against initiatives, programmes, knowledge, and policies that aim to change existing patterns of inequality and injustice. Used at a political level, the term refers to a retrograde goal of returning to a previous social condition, using extraordinary objectives and tactics that challenge dominant narratives to interfere with the dominant public discourse. The concept of 'backlash' emerged in the 1970s in the United States, in political science, to describe and analyse right-wing extremism. The emphasis is then placed on the link between 'backlash' and symbolic investment in the past: beyond simple opposition, backlash is often associated with fear of loss and nostalgia for an idealized past. In the 1990s, the feminist movement took up this notion, suggesting that every advance made by women triggers a hostile reaction to block or reverse their gains. Since then, it has been particularly mobilized in the field of gender studies and research on diversity, equality, and inclusion, which combine backlash with the study of the negative social and economic consequences affecting individuals who go against social norms.",
-        "Today, some researchers attribute a systematic nature to backlash. All projects aiming for social justice encounter resistance from privileged groups seeking to restore or maintain their power, contributing to a growing polarization of opinions. This development has been fuelled by several structural and psychological factors that have broadened its scope, including fear of losing resources, fear of the emergence of new dominant values, and questioning of existing values.",
-        "In management literature, the issue has mainly been explored from the perspective of diversity. Studies have focused on how women, particularly those in leadership positions, who challenge gender stereotypes may face a number of sanctions, such as hostile messages, negative evaluations, lack of promotion, or tensions with colleagues.",
-        "However, in a context where organizations play an increasingly political role, where they constitute a microcosm reflecting societal aspirations, and are part of increasingly connected networks of stakeholders, the phenomenon of backlash impacts organizations as a whole. Management and organization studies, together with other disciplines such as political science, sociology and psychology, can contribute to exploring the phenomenon at the institutional, organizational, managerial, and individual levels to shed new light on these dynamics, help us analyse them critically and position ourselves, as researchers and practitioners, in these debates.",
-        "At the institutional level, backlash can be understood through the three pillars—regulatory, normative, and cultural-cognitive—that structure the legitimacy of practices. It is not simply a matter of decline, but rather the outcome of institutional efforts aimed at undermining or redefining norms that were previously thought to be established. For example, the recent decline in commitment to sustainable development in the United States is based on anti-ESG laws passed in 37 states and decisions by the Supreme Court. At the same time, a 'backlash industry' is mobilizing framing marketing strategies to influence norms and representations. Nevertheless, institutional work does not only serve to destabilize institutions; it can also aim to defend, maintain, or strengthen them through various institutional maintenance practices involving stakeholders both inside and outside organizations.",
-        "At the organizational level, backlash can be overt, as illustrated by the explicit withdrawal of social or environmental policies under pressure following governance or political evolutions. These changes can generate opposition from stakeholders and can prove difficult to implement depending on how deeply rooted they are in regulations, culture, or processes. Alongside these apparent shifts, more subtle forms of backlash are also emerging: resource reductions, the withdrawal of objectives, silence, and changes in vocabulary, generating tensions between discourse and practice. Among stakeholders, trade unions play a central role in protecting existing rights. They constitute a counter-power that can either slow down backlash or contribute to it.",
-        "Managers appear to be key intermediaries, caught up in contexts of ambiguity, conflicting values and contradictory demands. Neither mere executors nor fully autonomous, they are faced with moral and political dilemmas, which sometimes lead them to support strategic changes, and sometimes to resist or attempt to preserve certain commitments. However, backlash remains poorly conceptualized as a specific managerial challenge with both organizational and societal dimensions.",
-        "At the individual level, organizational contexts characterized by normative uncertainty or contested values can exacerbate the identity and moral tensions experienced by individuals, with lasting effects on their commitment, well-being and career choices. These tensions drive action, with employees who are particularly sensitive to social or environmental issues making their voices heard within organizations in the form of internal activism. But threat is as much a cause as a consequence of backlash: it can emerge from perceived threats to the identity, status, or legitimacy of certain dominant groups, revealing ambivalent dynamics.",
-        "Taken together, these different levels do not function in isolation but feed into each other: institutional transformations redefine the organizational and managerial scope for action, which influences individual experiences, which in turn can help to consolidate, influence, or challenge existing institutional frameworks.",
-        "This special issue aims to contribute to the theorization of the backlash phenomenon by analysing its institutional, organizational, managerial, and individual manifestations. The objective is to gain a better understanding of the internal and external mechanisms that promote backlash, as well as its effects and their complex relationships. Ultimately, this special issue will seek to understand the representations and experiences of the various stakeholders faced with backlash, including the multiple forms of resistance it can generate.",
-        "This special issue calls for papers based on a variety of methodological and conceptual approaches and encourages the adoption of multidisciplinary approaches at the intersection of management science, sociology, political science, psychology, communication, philosophy and law, among others. Submitted articles may be conceptual or empirical and based on a variety of ontologies. They may explore in depth one of the manifestations of backlash (e.g. questioning of science, environmental commitments, DEI policies, or flexible work), take a more comprehensive approach to the phenomenon of backlash, or conduct comparative studies. Submitted manuscripts may also offer an analysis focused on a specific level of analysis (individual, managerial, organizational, or institutional) or undertake a multi-level analysis."
-      ]
-    },
-    "tags": [
-      "backlash",
-      "social progress",
-      "diversity and inclusion",
-      "organizational change",
-      "institutional dynamics",
-      "management studies"
-    ],
-    "editors": [
-      {
-        "name": "Sarah Richard",
-        "affiliation": "Audencia Business School"
-      },
-      {
-        "name": "Lucie Noury",
-        "affiliation": "Audencia Business School"
-      },
-      {
-        "name": "Pauline de Becdelièvre",
-        "affiliation": "Université Paris Saclay"
-      },
-      {
-        "name": "Céline Louche",
-        "affiliation": "Waikato Management School—University of Waikato"
-      },
-      {
-        "name": "Stéphan Pezé",
-        "affiliation": "Université Toulouse Capitole"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-10-19T10:00:00.000Z",
-        "description": "Deadline for paper proposals to workshop (maximum 3,000 words, including references)",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-11-19T11:00:00.000Z",
-        "description": "Online paper development workshop organized by the guest editorial team across different time zones",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-02-01T11:00:00.000Z",
-        "description": "Opening of submission period for full papers",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-06-01T10:00:00.000Z",
-        "description": "Deadline for full paper submission",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2028-12-01T11:00:00.000Z",
-        "description": "Publication date",
-        "is_full_paper_submission_deadline": false
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:45:57.264Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -1018,6 +875,190 @@
     "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
+    "journal": "M@n@gement",
+    "abbreviation": "ojsfr",
+    "issn": "1286-4692",
+    "metaTitle": "‘Cold Cases’: Revisiting founding myths, iconic cases, and forgotten stories in management",
+    "url": "https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/48",
+    "title": "Cold Cases: Revisiting founding myths, iconic cases, and forgotten stories in management",
+    "slug": "ojsfr-cold-cases-revisiting-founding-myths-iconic-cases-and-forgotten-stories-in-management",
+    "contentHash": "0c47d2f2d1921a73c9d3de76f080389cb6c4d8e0ee8a2b5d4145431b4a1267ef",
+    "topics": [
+      "Reexamination and reinterpretation of canonical management cases (IBM, Xerox, Nokia, Kodak, Enron, etc.)",
+      "Empirical robustness and theoretical validity of emblematic cases in management scholarship",
+      "Performativity of famous cases and their role as epistemic artifacts",
+      "Processes of canonization and erasure in disciplinary memory",
+      "Circularity in qualitative management research and issues of confirmation bias",
+      "Role of founding myths in structuring management thinking and epistemic communities",
+      "Halo effects and the stratification of knowledge in management research",
+      "Forgotten cases and alternative narratives in management history",
+      "Critical reexamination of the Hawthorne experiments and other foundational studies",
+      "Replication, falsification, and verification in management research",
+      "Archaeology of management knowledge and disciplinary self-reflexivity"
+    ],
+    "description": {
+      "paragraphs": [
+        "Management research has long been populated by celebrated cases that have achieved the status of founding myths. Cases such as IBM's blindness to personal computing, Xerox's strategic myopia toward the graphical user interface, Nokia's fall to smartphones, the Mann Gulch fire, and Elton Mayo's Hawthorne experiments have become ubiquitous in the field's collective memory. These 'cold cases', endlessly cited and taught, structure ways of thinking and provide a shared foundation of representations that are central to the construction of epistemic communities.",
+        "Despite their pervasive influence, few studies scrutinize the empirical robustness, theoretical validity, or performativity of these emblematic cases. In management research, particularly in qualitative research, the risk of circularity is significant. Researchers working with inevitably heterogeneous and incomplete material may, even unconsciously, select data that confirm their theoretical priors, set aside disconfirming evidence, and ultimately favor demonstrations of the 'as if' type.",
+        "Management research's pursuit of 'theoretical gaps' has often privileged the production of new concepts at the expense of verification, reinterpretation, or falsification. This predilection leads to a stratification of knowledge where certain studies become canonical and generate 'halo effects', while others sink into oblivion not because they are invalid, but because they do not fit the dominant narratives of the discipline.",
+        "The aim of this special issue is to 'reopen the files of management' by challenging established truths, revisiting myths, excavating forgotten cases, and analyzing the processes of canonization and erasure that structure disciplinary memory. Famous cases such as Kodak, IBM, Enron, and Nokia must be regarded as epistemic artifacts, produced, reproduced, and sometimes distorted by scholarly communities, bearing narrative, moral, and institutional dimensions.",
+        "M@n@gement has established itself as a privileged venue for critical, reflexive, and interdisciplinary approaches in management research. This special issue continues this tradition by inviting the community to undertake an archaeology of its own knowledge. Revisiting 'cold cases' means interrogating how management research constructs its own history, its certainties, and its silences. It is a call to strengthen the cumulative and self-critical dimension of the field by restoring a rightful place to research grounded in the replication of experiments, the challenging of established findings, and recontextualization.",
+        "At a time when researchers are constantly pressured to produce 'new' knowledge, this special issue proposes to rehabilitate slow, reflexive research capable of revisiting taken-for-granted assumptions, reopening closed debates, and reinvigorating the controversies that are constitutive of knowledge production."
+      ]
+    },
+    "tags": [
+      "management research",
+      "canonical cases",
+      "mythology",
+      "epistemology",
+      "research methods",
+      "organizational history"
+    ],
+    "editors": [
+      {
+        "name": "Anaïs Boutru",
+        "affiliation": "Université Paris-Dauphine, PSL"
+      },
+      {
+        "name": "Linda Rouleau",
+        "affiliation": "HEC Montréal"
+      },
+      {
+        "name": "Géraldine Schmidt",
+        "affiliation": "Université Paris 1 Panthéon-Sorbonne"
+      },
+      {
+        "name": "Albéric Tellier",
+        "affiliation": "Université Paris-Dauphine, PSL"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-14T10:00:00.000Z",
+        "description": "Pre-submission workshop (online)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-31T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
+  },
+  {
+    "journal": "M@n@gement",
+    "abbreviation": "ojsfr",
+    "issn": "1286-4692",
+    "metaTitle": "Is progress taken for granted? Social change, backlash, and resistance in organizations",
+    "url": "https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/50",
+    "title": "Social change, backlash, and resistance in organizations",
+    "slug": "ojsfr-is-progress-taken-for-granted-social-change-backlash-and-resistance-in-organizations",
+    "contentHash": "afbd5553787a7f82695910929b096e19721fbd5d9ba32f7182307a1d17c62a3e",
+    "topics": [
+      "What are the different forms of backlash affecting organizations? Are there 'invisible' forms of backlash?",
+      "How and to what extent does backlash contribute to the deinstitutionalization of established norms (e.g. ESG, DEI, climate)?",
+      "What forms of institutional work produce or hinder backlash?",
+      "What roles do different modes of governance and different forms of organization play in weakening or, conversely, protecting social progress? Are democratic organizations, in particular, more or less prone to backlash?",
+      "How do organizations respond, resist, protect themselves, and participate in backlash?",
+      "What are the risks, uncertainties, and tensions generated by backlash? How can they be managed?",
+      "What forms of collective response are organized to face backlash (e.g. meta-organizations, networks, lobbying)?",
+      "How do individuals participate in or resist backlash (e.g. through employee activism)?",
+      "What is the impact of backlash on individuals (identity, career paths, values, social representations, experience)?",
+      "How does backlash transform or disrupt individuals' relationships with work and the company?",
+      "What forms of individual and collective resistance to backlash can be observed? What are the conditions and effects of this resistance?",
+      "What is the role of researchers and what stance should they adopt in response to this phenomenon?",
+      "What methodological and epistemological approaches are best suited to studying backlash, its mechanisms, and its consequences? What methodological innovations are needed to better understand its contemporary forms?",
+      "How can organizational theory contribute to understanding the phenomenon of backlash?",
+      "What are the multi-level interactions between societal, organizational, and individual backlash?",
+      "How can backlash contribute to the emergence of other backlashes?"
+    ],
+    "description": {
+      "paragraphs": [
+        "The production and dissemination of knowledge, particularly on inequalities, climate change, and biodiversity, are increasingly under attack. These attacks are reflected in some political and administrative decisions adopted across several national contexts, such as the measures taken by President Donald Trump since his return to power. Beyond the US, academic freedom is being directly or indirectly undermined in many countries. For example, in France, controversies surrounding 'Islamo-leftism' within universities, reignited by the Minister of Higher Education, have been accompanied by concrete attacks on several scientific institutions.",
+        "Although research on grand challenges, sustainability, and ecosystem transitions is still ongoing, climate policies and the low-carbon transition are also under attack from many sides. These attacks range from climate scepticism to misinformation and lobbying, and aim to delay or weaken existing or future standards, as illustrated by the recent deregulation movement in Europe around the Omnibus law. Despite research pointing to the depletion of global resources, sustainable finance, ESG investing, and CSR are becoming increasingly polarized. Some asset managers are taking a more cautious approach to their commitments, and major players such as BlackRock announced in 2024 that they would be withdrawing ESG-labelled financial products. Some companies are reviewing their CSR practices and communication by adopting withdrawal or 'silence' strategies.",
+        "At the same time, the movement for equity, equality, and inclusion seems to be reaching a peak when it comes to considering diverse identities within organizations. And yet, it is simultaneously accompanied by growing opposition. The murder of George Floyd and the ensuing protests in 2020 intensified diversity initiatives, while fuelling a conservative backlash. In connection with these events, the public statements of certain companies, far from achieving consensus, have sometimes crystallized negative reactions.",
+        "Finally, the flexibilisation of work is also undergoing changes. While teleworking, part-time work and flexible hours have become the norm, particularly because of the health crisis, the ideal of constant availability remains dominant. Barriers to the use of these arrangements, such as stigmatization and career penalties, persist and are even becoming more pronounced, while calls for a return to the office are growing.",
+        "Whether it be attacks on science, the retreat from climate and financial commitments, the contestation of inclusion policies or the questioning of individualized management systems, these developments reflect a critical re-evaluation of social and ecological advances perceived as progressive: a phenomenon known as 'backlash'.",
+        "At its most basic level, backlash is defined as resistance to social progress. It is an active 'counterattack' against initiatives, programmes, knowledge, and policies that aim to change existing patterns of inequality and injustice. Used at a political level, the term refers to a retrograde goal of returning to a previous social condition, using extraordinary objectives and tactics that challenge dominant narratives to interfere with the dominant public discourse. The concept of 'backlash' emerged in the 1970s in the United States, in political science, to describe and analyse right-wing extremism. The emphasis is then placed on the link between 'backlash' and symbolic investment in the past: beyond simple opposition, backlash is often associated with fear of loss and nostalgia for an idealized past. In the 1990s, the feminist movement took up this notion, suggesting that every advance made by women triggers a hostile reaction to block or reverse their gains. Since then, it has been particularly mobilized in the field of gender studies and research on diversity, equality, and inclusion, which combine backlash with the study of the negative social and economic consequences affecting individuals who go against social norms.",
+        "Today, some researchers attribute a systematic nature to backlash. All projects aiming for social justice encounter resistance from privileged groups seeking to restore or maintain their power, contributing to a growing polarization of opinions. This development has been fuelled by several structural and psychological factors that have broadened its scope, including fear of losing resources, fear of the emergence of new dominant values, and questioning of existing values.",
+        "In management literature, the issue has mainly been explored from the perspective of diversity. Studies have focused on how women, particularly those in leadership positions, who challenge gender stereotypes may face a number of sanctions, such as hostile messages, negative evaluations, lack of promotion, or tensions with colleagues.",
+        "However, in a context where organizations play an increasingly political role, where they constitute a microcosm reflecting societal aspirations, and are part of increasingly connected networks of stakeholders, the phenomenon of backlash impacts organizations as a whole. Management and organization studies, together with other disciplines such as political science, sociology and psychology, can contribute to exploring the phenomenon at the institutional, organizational, managerial, and individual levels to shed new light on these dynamics, help us analyse them critically and position ourselves, as researchers and practitioners, in these debates.",
+        "At the institutional level, backlash can be understood through the three pillars—regulatory, normative, and cultural-cognitive—that structure the legitimacy of practices. It is not simply a matter of decline, but rather the outcome of institutional efforts aimed at undermining or redefining norms that were previously thought to be established. For example, the recent decline in commitment to sustainable development in the United States is based on anti-ESG laws passed in 37 states and decisions by the Supreme Court. At the same time, a 'backlash industry' is mobilizing framing marketing strategies to influence norms and representations. Nevertheless, institutional work does not only serve to destabilize institutions; it can also aim to defend, maintain, or strengthen them through various institutional maintenance practices involving stakeholders both inside and outside organizations.",
+        "At the organizational level, backlash can be overt, as illustrated by the explicit withdrawal of social or environmental policies under pressure following governance or political evolutions. These changes can generate opposition from stakeholders and can prove difficult to implement depending on how deeply rooted they are in regulations, culture, or processes. Alongside these apparent shifts, more subtle forms of backlash are also emerging: resource reductions, the withdrawal of objectives, silence, and changes in vocabulary, generating tensions between discourse and practice. Among stakeholders, trade unions play a central role in protecting existing rights. They constitute a counter-power that can either slow down backlash or contribute to it.",
+        "Managers appear to be key intermediaries, caught up in contexts of ambiguity, conflicting values and contradictory demands. Neither mere executors nor fully autonomous, they are faced with moral and political dilemmas, which sometimes lead them to support strategic changes, and sometimes to resist or attempt to preserve certain commitments. However, backlash remains poorly conceptualized as a specific managerial challenge with both organizational and societal dimensions.",
+        "At the individual level, organizational contexts characterized by normative uncertainty or contested values can exacerbate the identity and moral tensions experienced by individuals, with lasting effects on their commitment, well-being and career choices. These tensions drive action, with employees who are particularly sensitive to social or environmental issues making their voices heard within organizations in the form of internal activism. But threat is as much a cause as a consequence of backlash: it can emerge from perceived threats to the identity, status, or legitimacy of certain dominant groups, revealing ambivalent dynamics.",
+        "Taken together, these different levels do not function in isolation but feed into each other: institutional transformations redefine the organizational and managerial scope for action, which influences individual experiences, which in turn can help to consolidate, influence, or challenge existing institutional frameworks.",
+        "This special issue aims to contribute to the theorization of the backlash phenomenon by analysing its institutional, organizational, managerial, and individual manifestations. The objective is to gain a better understanding of the internal and external mechanisms that promote backlash, as well as its effects and their complex relationships. Ultimately, this special issue will seek to understand the representations and experiences of the various stakeholders faced with backlash, including the multiple forms of resistance it can generate.",
+        "This special issue calls for papers based on a variety of methodological and conceptual approaches and encourages the adoption of multidisciplinary approaches at the intersection of management science, sociology, political science, psychology, communication, philosophy and law, among others. Submitted articles may be conceptual or empirical and based on a variety of ontologies. They may explore in depth one of the manifestations of backlash (e.g. questioning of science, environmental commitments, DEI policies, or flexible work), take a more comprehensive approach to the phenomenon of backlash, or conduct comparative studies. Submitted manuscripts may also offer an analysis focused on a specific level of analysis (individual, managerial, organizational, or institutional) or undertake a multi-level analysis."
+      ]
+    },
+    "tags": [
+      "backlash",
+      "social progress",
+      "diversity and inclusion",
+      "organizational change",
+      "institutional dynamics",
+      "management studies"
+    ],
+    "editors": [
+      {
+        "name": "Sarah Richard",
+        "affiliation": "Audencia Business School"
+      },
+      {
+        "name": "Lucie Noury",
+        "affiliation": "Audencia Business School"
+      },
+      {
+        "name": "Pauline de Becdelièvre",
+        "affiliation": "Université Paris Saclay"
+      },
+      {
+        "name": "Céline Louche",
+        "affiliation": "Waikato Management School—University of Waikato"
+      },
+      {
+        "name": "Stéphan Pezé",
+        "affiliation": "Université Toulouse Capitole"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-19T10:00:00.000Z",
+        "description": "Deadline for paper proposals to workshop (maximum 3,000 words, including references)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-11-19T11:00:00.000Z",
+        "description": "Online paper development workshop organized by the guest editorial team across different time zones",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-02-01T11:00:00.000Z",
+        "description": "Opening of submission period for full papers",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-06-01T10:00:00.000Z",
+        "description": "Deadline for full paper submission",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2028-12-01T11:00:00.000Z",
+        "description": "Publication date",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
+  },
+  {
     "journal": "Recherche et Applications en Marketing",
     "abbreviation": "sage",
     "issn": "2051-2821",
@@ -1045,8 +1086,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T13:39:13.215Z"
+    "active": false,
+    "pubDate": "2026-08-12T13:39:13.215Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "Journal of Small Business Management",
@@ -4534,8 +4576,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T15:38:12.254Z"
+    "active": false,
+    "pubDate": "2026-08-11T15:38:12.254Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "Organizational Psychology Review",
@@ -4563,8 +4606,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T15:38:12.254Z"
+    "active": false,
+    "pubDate": "2026-08-11T15:38:12.254Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "Medical Decision Making",
@@ -4593,8 +4637,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T15:38:12.254Z"
+    "active": false,
+    "pubDate": "2026-08-11T15:38:12.254Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "The American Review of Public Administration",
@@ -4846,7 +4891,7 @@
     "url": "https://www.sciencedirect.com/special-issue/335472/economic-and-financial-implications-of-artificial-intelligence",
     "title": "Economic and Financial Implications of Artificial Intelligence",
     "slug": "elsevier-economic-and-financial-implications-of-artificial-intelligence",
-    "contentHash": "f753cf1650998252bc23e627a34c89510699b45d4bf2ce28b6d61cd12498fc44",
+    "contentHash": "1c820e0fc8f6ccf277dc5a21a76353934e6f4c81b0bb3087d5e47f22641e4d46",
     "topics": [],
     "description": {
       "paragraphs": []
@@ -4860,8 +4905,8 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-31T11:00:00.000Z",
-        "description": "Submission deadline",
+        "date": "2027-07-17T12:00:00.000Z",
+        "description": "Full paper submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
@@ -9291,50 +9336,6 @@
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
-    "journal": "Information Processing & Management",
-    "abbreviation": "elsevier",
-    "issn": "1873-5371",
-    "metaTitle": "Joint Special Issue Call for Papers - Large Language Models (LLMs) for Tourism and Tourists",
-    "url": "https://www.sciencedirect.com/special-issue/326025/joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists",
-    "title": "Large Language Models (LLMs) for Tourism and Tourists",
-    "slug": "elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2",
-    "contentHash": "692edeff7d86b6a081ade70f38f82969fb02413c52a5155f9ac0da3e38e0fdd1",
-    "topics": [
-      "Applications of LLMs in tourism industry",
-      "LLMs for personalized tourist recommendations",
-      "Natural language processing for tourism content",
-      "Chatbots and virtual assistants in tourism",
-      "Tourist information retrieval using LLMs",
-      "Language translation for tourism",
-      "Sentiment analysis of tourist reviews",
-      "LLM-based travel planning and itinerary generation",
-      "Multilingual tourism communication",
-      "AI ethics in tourism applications"
-    ],
-    "description": {
-      "paragraphs": [
-        "This special issue focuses on the applications and implications of Large Language Models (LLMs) in the tourism sector. We invite research exploring how LLMs can enhance tourist experiences, improve tourism service delivery, and support both tourism businesses and individual travelers. The issue welcomes empirical studies, theoretical frameworks, case studies, and critical analyses of LLM technologies in tourism contexts."
-      ]
-    },
-    "tags": [
-      "large language models",
-      "tourism",
-      "natural language processing",
-      "artificial intelligence"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-08-31T10:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
-  },
-  {
     "journal": "Transportation Research Part A: Policy and Practice",
     "abbreviation": "elsevier",
     "issn": "1879-2375",
@@ -10926,46 +10927,6 @@
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
-    "journal": "Finance Research Letters",
-    "abbreviation": "elsevier",
-    "issn": "1544-6131",
-    "metaTitle": "Call for African Research Proposals",
-    "url": "https://www.sciencedirect.com/special-issue/270379/call-for-african-research-proposals",
-    "title": "Finance Research Letters - African Research Proposals",
-    "slug": "elsevier-call-for-african-research-proposals-2",
-    "contentHash": "bdd9c051998d92d8616128afaf6217bc1b0162a6509b3338dde3817f6fb33ca0",
-    "topics": [
-      "African financial markets and institutions",
-      "International finance and development in Africa",
-      "Corporate finance in African companies",
-      "Risk management in African financial systems",
-      "Financial innovation and technology in Africa",
-      "Economic development and finance in African countries"
-    ],
-    "description": {
-      "paragraphs": [
-        "This call for papers invites research proposals focused on African finance and financial systems. We are interested in original research that advances our understanding of financial markets, institutions, and practices across the African continent.",
-        "Submissions should present novel findings and insights relevant to African financial contexts, including studies on market structures, regulatory frameworks, institutional development, and financial behavior in African nations and regions."
-      ]
-    },
-    "tags": [
-      "african finance",
-      "financial markets",
-      "development finance"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2023-12-31T11:00:00.000Z",
-        "description": "Submission deadline for research proposals",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
-  },
-  {
     "journal": "Decision Support Systems",
     "abbreviation": "elsevier",
     "issn": "1873-5797",
@@ -11176,6 +11137,92 @@
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
+    "journal": "Information Processing & Management",
+    "abbreviation": "elsevier",
+    "issn": "1873-5371",
+    "metaTitle": "Joint Special Issue Call for Papers - Large Language Models (LLMs) for Tourism and Tourists",
+    "url": "https://www.sciencedirect.com/special-issue/326025/joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists",
+    "title": "Large Language Models (LLMs) for Tourism and Tourists",
+    "slug": "elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2",
+    "contentHash": "692edeff7d86b6a081ade70f38f82969fb02413c52a5155f9ac0da3e38e0fdd1",
+    "topics": [
+      "Applications of LLMs in tourism industry",
+      "LLMs for personalized tourist recommendations",
+      "Natural language processing for tourism content",
+      "Chatbots and virtual assistants in tourism",
+      "Tourist information retrieval using LLMs",
+      "Language translation for tourism",
+      "Sentiment analysis of tourist reviews",
+      "LLM-based travel planning and itinerary generation",
+      "Multilingual tourism communication",
+      "AI ethics in tourism applications"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue focuses on the applications and implications of Large Language Models (LLMs) in the tourism sector. We invite research exploring how LLMs can enhance tourist experiences, improve tourism service delivery, and support both tourism businesses and individual travelers. The issue welcomes empirical studies, theoretical frameworks, case studies, and critical analyses of LLM technologies in tourism contexts."
+      ]
+    },
+    "tags": [
+      "large language models",
+      "tourism",
+      "natural language processing",
+      "artificial intelligence"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-08-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
+  },
+  {
+    "journal": "Finance Research Letters",
+    "abbreviation": "elsevier",
+    "issn": "1544-6131",
+    "metaTitle": "Call for African Research Proposals",
+    "url": "https://www.sciencedirect.com/special-issue/270379/call-for-african-research-proposals",
+    "title": "Finance Research Letters - African Research Proposals",
+    "slug": "elsevier-call-for-african-research-proposals-2",
+    "contentHash": "bdd9c051998d92d8616128afaf6217bc1b0162a6509b3338dde3817f6fb33ca0",
+    "topics": [
+      "African financial markets and institutions",
+      "International finance and development in Africa",
+      "Corporate finance in African companies",
+      "Risk management in African financial systems",
+      "Financial innovation and technology in Africa",
+      "Economic development and finance in African countries"
+    ],
+    "description": {
+      "paragraphs": [
+        "This call for papers invites research proposals focused on African finance and financial systems. We are interested in original research that advances our understanding of financial markets, institutions, and practices across the African continent.",
+        "Submissions should present novel findings and insights relevant to African financial contexts, including studies on market structures, regulatory frameworks, institutional development, and financial behavior in African nations and regions."
+      ]
+    },
+    "tags": [
+      "african finance",
+      "financial markets",
+      "development finance"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2023-12-31T11:00:00.000Z",
+        "description": "Submission deadline for research proposals",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-09-12T04:30:23.141Z"
+  },
+  {
     "journal": "Transportation Research Part A: Policy and Practice",
     "abbreviation": "elsevier",
     "issn": "1879-2375",
@@ -11325,7 +11372,7 @@
     "url": "https://www.aom.org/event/amle-call-for-special-issue-papers-rethinking-business-school-structures-standards-and-success-for-neuroinclusive-management-learning-and-education/",
     "title": "Rethinking Business School Structures, Standards, and Success for Neuroinclusive Management Learning and Education",
     "slug": "aom-amle-call-for-special-issue-papers-rethinking-business-school-structures-standards-and-success-for-neuroinclusive-management-learning-and-education",
-    "contentHash": "cedca2de6f81e84be560bd3886c4e139244b7b2dbab2bfca40140742698c2d6a",
+    "contentHash": "8e987a3389b1584a2f52acf74bca09f33a077fad14ccbe99d3d0df0fb7e8a653",
     "topics": [
       "How does neurodiversity help reimagine social justice and DEI in business schools?",
       "What tensions emerge between performance metrics and inclusion for neurodivergent students, academic and professional staff, and how are such trade-offs effectively managed?",
@@ -11372,7 +11419,7 @@
         "Even when available, neurodivergent learners may be unaware of available support or may refrain from requesting accommodations to which they are entitled due to the fear of stigmatization. These students often attempt to conform to neurotypical norms, masking their difficulties or distinctive traits. They consequently tend to manage their challenges by themselves, a strategy that may prove unsustainable over time for them and their support groups. As a result, and despite being academically capable, degree completions remain low. For many, the consequences extend beyond poorer academic outcomes to diminished access to meaningful employment, an issue particularly stark for autistic individuals whose employment rates remain among the lowest of any disability group.",
         "While several excellent special issues have advanced the conversation on neurodiversity in management and organizations, this special issue offers a fundamentally distinct vantage point. Whereas prior collections center primarily on neurodiversity in relation to employment, inclusion practices, and organizational systems and outcomes, this Academy of Management Learning & Education special issue uniquely foregrounds the importance of reimagining management learning and education to better serve all minds and to develop neurodiversity-informed managers who are equipped to make organizations more neuroinclusive.",
         "For this special issue, we encourage conceptual and empirical work that envisions business schools as models of neuroinclusion. Our call also shifts the focus from 'accommodating and managing difference' to 'learning through difference' and understanding how difference, as a form of diversity, enhances learning and group capabilities. In doing so, it extends the dialogue beyond workplace adaptation to examining how neurodiversity both challenges and enriches the processes through which management knowledge is constructed, taught, and understood by learners, and how this also impacts emergent group functions (i.e., decision-making and morality). We therefore invite a more inclusive understanding of learning and knowing in management education, one that values diverse cognitive styles and experiences as integral to the co-creation of knowledge and practice.",
-        "In this vein, we invite contributors to explore diverse perspectives that enrich and expand conversations on neurodiversity in management learning and education. In particular, we encourage submissions that move beyond single-diagnosis approaches recognizing the breadth within and across neurodivergences, including: developmental (e.g., ADHD, dyslexia, dyspraxia, dyscalculia), acquired (e.g., traumatic brain injury, epilepsy), mental health (e.g., anxiety, obsessive-compulsive disorder), and physical health conditions (e.g., chronic fatigue syndrome, hearing or vision impairment). These categories are not mutually exclusive and neurodivergent conditions often co-occur.",
+        "In this vein, we invite contributors to explore diverse perspectives that enrich and expand conversations on neurodiversity in management learning and education. In particular, we encourage submissions that move beyond single-diagnosis approaches recognizing the breadth within and across neurodivergences, including: developmental (e.g., ADHD, dyslexia, dyspraxia, dyscalculia), acquired (e.g., traumatic brain injury, epilepsy), mental health (e.g., anxiety, obsessive-compulsive disorder), and physical health conditions (e.g., chronic fatigue syndrome, hearing or vision impairment). These categories are not mutually exclusive and neurodivergent conditions often co-occur. For example, those who present with ADHD and anxiety, or those who are dyspraxic and autistic, may experience both distinctive challenges and synergies in learning and workplaces.",
         "Furthermore, this special issue welcomes contributions that embrace conceptual plurality, engaging with alternative or adjacent conceptualisations of neurodiversity – whether framed as natural variation and ecology or through disability, misfit, being 'different' or other evolving terms that capture the complex ways individuals experience (mis)alignment with institutional learning environments and how this also impacts emergent group functions and group-level outcomes. Embracing such plurality also requires turning the lens toward academic and professional staff who shape these environments. Doing so exposes a broader empirical and theoretical blind spot in understanding the attitudes and experiences of academic and professional staff with disabilities and, in particular, those with neurocognitive conditions.",
         "Of interest in this special issue also are how inclusive pedagogy, constructive alignment, Universal Design for Learning (UDL), and learner partnership models can transform educational design and practice to better serve the full spectrum of learners. For example, a management educator might offer students multiple ways to demonstrate learning, such as a written essay, an infographic, or forms of digitalization, or a recorded presentation, thereby valuing diverse modes of cognition and communication. Similarly, predictable course rhythms and clearly scaffolded tasks can reduce cognitive load and anxiety for neurodivergent students while increasing engagement and clarity for everyone. Finally, incorporating learner partnership models—where students collaborate with educators to co-design learning activities, assessment criteria, or feedback processes—can cultivate a sense of shared ownership, agency, and belonging across the entire student cohort. For business schools, this will result in very real considerations of workload models, academic and professional staff training, and the redistribution of institutional resources to ensure that inclusive pedagogical intentions are supported by genuine structural and financial commitment.",
         "Attention should likewise be directed to an intersectional perspective on neurodivergence, which acknowledges that intersecting identities—such as gender, race, and culture—interact and fundamentally shape how neurological differences are understood and enacted. For example, the experience of a dyslexic woman of color in academia or that of a neurodivergent international student navigating an unfamiliar education system may reveal unique intersections of cognitive, cultural, and structural differences, which offers an opportunity to explore the interactions of dispositional and circumstantial diversity. In particular, we encourage research and reflections from diverse cultural and national contexts which support and extend ecological understandings of neurodiversity and challenge dominant epistemological assumptions. Consequently, we provide a space to decenter Eurocentric and Anglophone paradigms of management learning and education, enabling more culturally grounded understandings of neurodivergence. These perspectives will ultimately challenge dominant Western deficit discourses and offer novel pathways for pedagogical and institutional inclusion, as well as opening promising frontiers for the application of institutional theory and intersectionality research.",
@@ -11385,9 +11432,9 @@
       "neurodiversity",
       "business education",
       "inclusive pedagogy",
-      "higher education",
-      "management learning",
-      "neuroinclusion"
+      "neuroinclusion",
+      "management learning and education",
+      "double empathy problem"
     ],
     "editors": [
       {
@@ -11423,27 +11470,26 @@
       {
         "name": "Katrin Mühlfeld",
         "affiliation": "University of Trier"
+      },
+      {
+        "name": "María José Murcia",
+        "affiliation": "IAE Business School"
       }
     ],
     "dates": [
       {
-        "date": "2026-05-01T10:00:00.000Z",
-        "description": "Optional virtual professional development workshop for interested authors",
+        "date": "2026-05-13T12:00:00.000Z",
+        "description": "Deadline for submitting 3,000-word proposal (including references) for optional professional development workshop in May 2026",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-05-13T10:00:00.000Z",
-        "description": "Deadline for 3,000-word proposal (including references) for optional professional development workshop",
+        "date": "2026-11-01T12:00:00.000Z",
+        "description": "Special issue submission window opens",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-11-01T11:00:00.000Z",
-        "description": "Submission window opens for special issue papers",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2026-12-14T11:00:00.000Z",
-        "description": "Submission window closes for special issue papers",
+        "date": "2026-12-14T12:00:00.000Z",
+        "description": "Full paper submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
