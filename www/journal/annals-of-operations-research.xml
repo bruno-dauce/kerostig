@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>hubecall | Annals of Operations Research</title>
-        <link>https://hubecall.com/journal/annals-of-operations-research</link>
+        <title>kerostig | Annals of Operations Research</title>
+        <link>https://kerostig.com/journal/annals-of-operations-research</link>
         <description>Derniers appels à publications pour Annals of Operations Research.</description>
-        <lastBuildDate>Thu, 13 Aug 2026 04:31:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Aug 2026 04:28:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
-            <title>hubecall | Annals of Operations Research</title>
-            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
-            <link>https://hubecall.com/journal/annals-of-operations-research</link>
+            <title>kerostig | Annals of Operations Research</title>
+            <url>https://kerostig.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.com/journal/annals-of-operations-research</link>
         </image>
-        <copyright>hubecall © 2026</copyright>
+        <copyright>kerostig © 2026</copyright>
         <item>
             <title><![CDATA[Contextual Optimization with Side Information: Theory, Methodology, and Applications]]></title>
-            <link>https://hubecall.com/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications</link>
+            <link>https://kerostig.com/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications</link>
             <guid>springer-contextual-optimization-with-side-information-theory-methodology-and-applications</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -96,7 +96,7 @@
         </item>
         <item>
             <title><![CDATA[Game Theoretical Models and Applications SING21]]></title>
-            <link>https://hubecall.com/call/springer-game-theoretical-models-and-applications-sing21</link>
+            <link>https://kerostig.com/call/springer-game-theoretical-models-and-applications-sing21</link>
             <guid>springer-game-theoretical-models-and-applications-sing21</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -164,7 +164,7 @@
         </item>
         <item>
             <title><![CDATA[Advances in Quantitative Finance and Risk Modeling]]></title>
-            <link>https://hubecall.com/call/springer-advances-in-quantitative-finance-and-risk-modeling</link>
+            <link>https://kerostig.com/call/springer-advances-in-quantitative-finance-and-risk-modeling</link>
             <guid>springer-advances-in-quantitative-finance-and-risk-modeling</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -224,7 +224,7 @@
         </item>
         <item>
             <title><![CDATA[Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems]]></title>
-            <link>https://hubecall.com/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</link>
+            <link>https://kerostig.com/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</link>
             <guid>springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -292,7 +292,7 @@
         </item>
         <item>
             <title><![CDATA[Climate Transition and Operational Risk Modelling: Implications for Supply Chains and Financial Decision-Making]]></title>
-            <link>https://hubecall.com/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making</link>
+            <link>https://kerostig.com/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making</link>
             <guid>springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -358,7 +358,7 @@
         </item>
         <item>
             <title><![CDATA[Advanced Machine Learning for System Reliability Management]]></title>
-            <link>https://hubecall.com/call/springer-advanced-machine-learning-for-system-reliability-management</link>
+            <link>https://kerostig.com/call/springer-advanced-machine-learning-for-system-reliability-management</link>
             <guid>springer-advanced-machine-learning-for-system-reliability-management</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -420,7 +420,7 @@
         </item>
         <item>
             <title><![CDATA[Global Supply Chain Reconfiguration Under Tariff Uncertainty]]></title>
-            <link>https://hubecall.com/call/springer-global-supply-chain-reconfiguration-under-tariff-uncertainty</link>
+            <link>https://kerostig.com/call/springer-global-supply-chain-reconfiguration-under-tariff-uncertainty</link>
             <guid>springer-global-supply-chain-reconfiguration-under-tariff-uncertainty</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -486,7 +486,7 @@
         </item>
         <item>
             <title><![CDATA[Collaborative Intelligence in Operations Research: Models, Methods, and Applications]]></title>
-            <link>https://hubecall.com/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</link>
+            <link>https://kerostig.com/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</link>
             <guid>springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -558,7 +558,7 @@
         </item>
         <item>
             <title><![CDATA[Multiple Objective Programming and Goal Programming: Artificial Intelligence for Decision Making in Economic and Social Sciences]]></title>
-            <link>https://hubecall.com/call/springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences</link>
+            <link>https://kerostig.com/call/springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences</link>
             <guid>springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -632,7 +632,7 @@
         </item>
         <item>
             <title><![CDATA[Advances in Reliability and Statistical Computing for Intelligent Systems]]></title>
-            <link>https://hubecall.com/call/springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems</link>
+            <link>https://kerostig.com/call/springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems</link>
             <guid>springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -686,7 +686,7 @@
         </item>
         <item>
             <title><![CDATA[Data Science]]></title>
-            <link>https://hubecall.com/call/springer-data-science</link>
+            <link>https://kerostig.com/call/springer-data-science</link>
             <guid>springer-data-science</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -736,7 +736,7 @@
         </item>
         <item>
             <title><![CDATA[OR for Sustainability in Supply Chain Management]]></title>
-            <link>https://hubecall.com/call/springer-or-for-sustainability-in-supply-chain-management</link>
+            <link>https://kerostig.com/call/springer-or-for-sustainability-in-supply-chain-management</link>
             <guid>springer-or-for-sustainability-in-supply-chain-management</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -782,7 +782,7 @@
         </item>
         <item>
             <title><![CDATA[OR in Medicine and Health Care]]></title>
-            <link>https://hubecall.com/call/springer-or-in-medicine-and-health-care</link>
+            <link>https://kerostig.com/call/springer-or-in-medicine-and-health-care</link>
             <guid>springer-or-in-medicine-and-health-care</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
