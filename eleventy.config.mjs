@@ -124,6 +124,154 @@ export default async function (eleventyConfig) {
         return JSON.stringify(value);
     });
 
+    // --- Donnees structurees schema.org -------------------------------------
+    // Les blocs JSON-LD sont assembles ici, en JavaScript, et non a coups de
+    // virgules conditionnelles dans un gabarit : c'est ce montage manuel qui
+    // produisait du JSON invalide des qu'un tableau etait vide ou qu'un texte
+    // scrape contenait un guillemet.
+
+    const AUDIENCE_KEROSTIG = "Sciences de gestion et management";
+
+    const racine = (meta) => (meta && meta.url ? String(meta.url) : "").replace(/\/+$/, "");
+
+    // Echeance de soumission du manuscrit complet, a defaut la derniere date connue.
+    const echeanceSoumission = (dates) => {
+        if (!Array.isArray(dates) || !dates.length) return null;
+        const principale = dates.find((d) => d.is_full_paper_submission_deadline);
+        return (principale || dates[dates.length - 1]).date || null;
+    };
+
+    // Serialisation pour un bloc <script type="application/ld+json">.
+    // JSON.stringify echappe le contenu ; on neutralise ensuite < > & pour
+    // qu'aucune chaine scrapee ne puisse fermer le script, et pour que
+    // l'auto-echappement de Nunjucks n'ait plus rien a transformer (les
+    // gabarits appliquent | safe apres ce filtre).
+    eleventyConfig.addFilter("jsonld", function (value) {
+        return JSON.stringify(value ?? "", null, 2)
+            .replace(/</g, "\\u003c")
+            .replace(/>/g, "\\u003e")
+            .replace(/&/g, "\\u0026");
+    });
+
+    // Graphe d'une fiche appel : fil d'Ariane + l'appel + une entree par echeance.
+    eleventyConfig.addFilter("schemaAppel", function (call, revue, meta) {
+        if (!call) return {};
+        const base = racine(meta);
+        const urlAppel = `${base}/call/${call.slug}/`;
+        const titre = call.title || call.metaTitle || "";
+        const nomRevue = (revue && revue.titre) || call.journal || "";
+        const dates = (Array.isArray(call.dates) ? call.dates : []).filter((d) => d && d.date);
+
+        // Le niveau revue n'est pose que si la fiche revue existe vraiment :
+        // le slug vient de journals.json, jamais du nom de revue scrape.
+        const fil = [{ "@type": "ListItem", position: 1, name: (meta && meta.name) || "", item: `${base}/` }];
+        if (revue && revue.slug) {
+            fil.push({ "@type": "ListItem", position: fil.length + 1, name: nomRevue, item: `${base}/journal/${revue.slug}/` });
+        }
+        fil.push({ "@type": "ListItem", position: fil.length + 1, name: titre, item: urlAppel });
+
+        const evenements = dates.map((d, i) => ({
+            "@type": "Event",
+            "@id": `${urlAppel}#event${i + 1}`,
+            name: d.description || "Échéance",
+            startDate: d.date,
+            eventAttendanceMode: "https://schema.org/OnlineEventAttendanceMode",
+            eventStatus: "https://schema.org/EventScheduled",
+            about: { "@id": `${urlAppel}#cfp` },
+        }));
+
+        const appel = {
+            "@type": "CreativeWork",
+            "@id": `${urlAppel}#cfp`,
+            mainEntityOfPage: urlAppel,
+            name: `Appel à publications : ${titre}`,
+            headline: titre,
+            url: urlAppel,
+            // Le texte de l'appel (titre, description, sujets) est repris tel
+            // quel de l'editeur, donc en anglais, meme si la page est en francais.
+            inLanguage: "en",
+            isAccessibleForFree: true,
+            audience: { "@type": "Audience", audienceType: AUDIENCE_KEROSTIG },
+        };
+
+        const resume = call.description && call.description.paragraphs && call.description.paragraphs[0];
+        if (resume) appel.description = resume;
+        if (call.url) appel.sameAs = call.url;
+        if (nomRevue) appel.alternateName = `Numéro spécial - ${nomRevue}`;
+        if (Array.isArray(call.tags) && call.tags.length) appel.keywords = call.tags;
+        // Champs reels de calls.json : pubDate (camelCase) et le tableau dates.
+        if (call.pubDate) {
+            appel.datePublished = call.pubDate;
+            appel.dateModified = call.pubDate;
+        }
+        const echeance = echeanceSoumission(dates);
+        if (echeance) appel.expires = echeance;
+        if (nomRevue) {
+            appel.publisher = { "@type": "Organization", name: nomRevue };
+            appel.isPartOf = revue && revue.slug
+                ? { "@id": `${base}/journal/${revue.slug}/#periodical` }
+                : { "@type": "Periodical", name: nomRevue };
+        }
+        const editeurs = (call.editors || []).filter((e) => e && e.name);
+        if (editeurs.length) {
+            appel.editor = editeurs.map((e) => ({ "@type": "Person", name: e.name }));
+        }
+        if (call.url) {
+            appel.potentialAction = {
+                "@type": "ApplyAction",
+                name: "Soumettre un manuscrit",
+                target: {
+                    "@type": "EntryPoint",
+                    urlTemplate: call.url,
+                    actionPlatform: [
+                        "https://schema.org/DesktopWebPlatform",
+                        "https://schema.org/MobileWebPlatform",
+                    ],
+                },
+            };
+        }
+        if (evenements.length) appel.subjectOf = evenements.map((e) => ({ "@id": e["@id"] }));
+
+        return {
+            "@context": "https://schema.org",
+            "@graph": [{ "@type": "BreadcrumbList", itemListElement: fil }, appel, ...evenements],
+        };
+    });
+
+    // Graphe d'une fiche revue : fil d'Ariane + la revue en Periodical de plein droit.
+    eleventyConfig.addFilter("schemaRevue", function (revue, meta) {
+        if (!revue) return {};
+        const base = racine(meta);
+        const urlRevue = `${base}/journal/${revue.slug}/`;
+
+        const periodique = {
+            "@type": "Periodical",
+            "@id": `${urlRevue}#periodical`,
+            name: revue.titre,
+            url: urlRevue,
+        };
+        const issns = [revue.pissn, revue.eissn].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i);
+        if (issns.length) periodique.issn = issns;
+        if (revue.editeur) periodique.publisher = { "@type": "Organization", name: revue.editeur };
+        if (revue.discipline) periodique.genre = revue.discipline;
+        if (revue.metriques && Array.isArray(revue.metriques.thematiques) && revue.metriques.thematiques.length) {
+            periodique.about = revue.metriques.thematiques.map((t) => ({ "@type": "Thing", name: t }));
+        }
+
+        // Deux niveaux seulement : les pages /discipline/ n'existent pas encore,
+        // on ne pose pas de lien vers une route absente.
+        const fil = [
+            { "@type": "ListItem", position: 1, name: (meta && meta.name) || "", item: `${base}/` },
+            { "@type": "ListItem", position: 2, name: revue.titre, item: urlRevue },
+        ];
+
+        return {
+            "@context": "https://schema.org",
+            "@graph": [{ "@type": "BreadcrumbList", itemListElement: fil }, periodique],
+        };
+    });
+    // --- fin donnees structurees ---------------------------------------------
+
     // Compteur d'appels actifs
     eleventyConfig.addFilter("compterAppelsActifs", function (calls) {
         if (!calls) return 0;

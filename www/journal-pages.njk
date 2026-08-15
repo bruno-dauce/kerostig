@@ -15,16 +15,10 @@
 }
 ---
 
+{# Fil d'Ariane + la revue en Periodical de plein droit (name, issn, publisher).
+   Graphe assemble par le filtre schemaRevue, cf eleventy.config.mjs. #}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "{{ meta.url }}" },
-    { "@type": "ListItem", "position": 2, "name": "{{ revue.discipline }}", "item": "{{ meta.url }}discipline/{{ revue.discipline_code | slugify }}/" },
-    { "@type": "ListItem", "position": 3, "name": "{{ revue.titre }}" }
-  ]
-}
+{{ revue | schemaRevue(meta) | jsonld | safe }}
 </script>
 
 <article class="max-w-3xl mx-auto">
