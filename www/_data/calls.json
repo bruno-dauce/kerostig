@@ -700,8 +700,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-14T03:11:30.503Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -792,8 +793,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-14T03:11:30.503Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -871,8 +873,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-14T03:11:30.503Z"
   },
   {
     "journal": "M@n@gement",
