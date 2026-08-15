@@ -10,10 +10,12 @@ node_modules/
 public/
 !www/public/
 .vscode/
-.env
+# Couvre .env, .env.local et toute copie de travail (.env.sauvegarde, .env.old...)
+# qu'un simple motif .env laisserait passer. Le gabarit reste versionne.
+.env*
+!.env.exemple
 
 # --- Ajouts kerostig ---
-.env.local
 .cache-enrichissement/
 .browser-profile/
 .DS_Store

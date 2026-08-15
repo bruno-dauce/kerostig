@@ -14,14 +14,21 @@
 //   node enrichir-revues.mjs --no-cache         (ignorer le cache disque)
 //   node enrichir-revues.mjs --input chemin.csv --output journals.json
 //
-// Cles API (fichier .env a cote du script ou a la racine du depot, ou variables
-// d'environnement) :
+// Cles API : fichier .env a la racine du depot (voir .env.exemple), ou
+// variables d'environnement.
 //   SHERPA_API_KEY=...     requis pour Open Policy Finder (ex-Sherpa Romeo)
 //   OPENALEX_MAILTO=...    recommande (email, pool poli d'OpenAlex)
 // ---------------------------------------------------------------------------
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
-import { join } from "node:path";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+
+// Tous les chemins par defaut (.env, cache, CSV d'entree) sont ancres sur le
+// dossier du script, pas sur le repertoire courant : le script se comporte
+// pareil qu'on l'appelle depuis enrichissement/ ou depuis la racine du depot.
+// Les chemins passes en argument restent, eux, relatifs au repertoire courant.
+const DOSSIER_SCRIPT = dirname(fileURLToPath(import.meta.url));
 
 // --- 1. Petits utilitaires ------------------------------------------------
 
@@ -49,19 +56,19 @@ function loadEnvFile(path = ".env") {
   }
 }
 
-// Le .env peut vivre a cote du script ou a la racine du depot : on lit les deux,
-// le plus proche l'emporte.
+// Les cles vivent dans le .env a la racine du depot. Un .env a cote du script
+// reste possible pour surcharger localement : il est lu en premier et l'emporte.
 function chargerEnvironnement() {
-  loadEnvFile(".env");
-  loadEnvFile(join("..", ".env"));
+  loadEnvFile(join(DOSSIER_SCRIPT, ".env"));
+  loadEnvFile(join(DOSSIER_SCRIPT, "..", ".env"));
 }
 
 // Lecture des arguments de ligne de commande.
 function lireArgs(argv) {
   const args = {
-    input: "kerostig-correspondance-issn.csv",
-    output: "journals.json",
-    rapport: "journals-rapport.md",
+    input: join(DOSSIER_SCRIPT, "kerostig-correspondance-issn.csv"),
+    output: join(DOSSIER_SCRIPT, "journals.json"),
+    rapport: join(DOSSIER_SCRIPT, "journals-rapport.md"),
     limit: Infinity,
     offline: false,
     cache: true,
@@ -108,7 +115,7 @@ function parseCsv(texte) {
 
 // --- 2. Cache disque + fetch robuste --------------------------------------
 
-const DOSSIER_CACHE = ".cache-enrichissement";
+const DOSSIER_CACHE = join(DOSSIER_SCRIPT, ".cache-enrichissement");
 
 function cheminCache(source, issn) {
   return join(DOSSIER_CACHE, `${source}_${issn}.json`);
