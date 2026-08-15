@@ -47,8 +47,11 @@
         <dt class="opacity-70">Dépôt</dt>
         <dd class="font-semibold text-right">
           {% if revue.auto_archivage and revue.auto_archivage.found %}
-            {% if revue.auto_archivage.version_deposable %}{{ revue.auto_archivage.version_deposable }}{% else %}<span class="opacity-60 font-normal">version non précisée</span>{% endif %}
-            {% if revue.auto_archivage.embargo_mois %}<br><span class="font-normal text-xs opacity-80">embargo {{ revue.auto_archivage.embargo_mois }} mois</span>{% endif %}
+            {% if revue.auto_archivage.version_deposable %}
+              {% set version = revue.auto_archivage.version_deposable %}
+              {% if version == 'published' %}version éditeur{% elif version == 'accepted' %}manuscrit accepté{% elif version == 'submitted' %}manuscrit soumis{% else %}{{ version }}{% endif %}
+            {% else %}<span class="opacity-60 font-normal">version non précisée</span>{% endif %}
+            {% if revue.auto_archivage.embargo_mois != null %}<br><span class="font-normal text-xs opacity-80">{% if revue.auto_archivage.embargo_mois > 0 %}embargo {{ revue.auto_archivage.embargo_mois }} mois{% else %}sans embargo{% endif %}</span>{% endif %}
           {% else %}
             <span class="opacity-60 font-normal">non renseigné</span>
           {% endif %}

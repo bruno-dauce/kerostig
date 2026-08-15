@@ -99,11 +99,19 @@
         <dd class="font-semibold">
           {% if revue.auto_archivage and revue.auto_archivage.found %}
             {% if revue.auto_archivage.depot_hal_possible %}<span style="color:#2F7D5C">Possible</span>{% else %}Sous conditions{% endif %}
-            {% if revue.auto_archivage.version_deposable %}<br><span class="font-normal text-xs opacity-80">Version {{ revue.auto_archivage.version_deposable }}</span>{% endif %}
-            {% if revue.auto_archivage.embargo_mois %}<br><span class="font-normal text-xs opacity-80">Embargo {{ revue.auto_archivage.embargo_mois }} mois</span>{% endif %}
+            {% if revue.auto_archivage.version_deposable %}
+              {% set version = revue.auto_archivage.version_deposable %}
+              <br><span class="font-normal text-xs opacity-80">{% if version == 'published' %}Version éditeur{% elif version == 'accepted' %}Manuscrit accepté{% elif version == 'submitted' %}Manuscrit soumis{% else %}Version {{ version }}{% endif %}</span>
+            {% endif %}
+            {% if revue.auto_archivage.embargo_mois != null %}
+              <br><span class="font-normal text-xs opacity-80">{% if revue.auto_archivage.embargo_mois > 0 %}Embargo {{ revue.auto_archivage.embargo_mois }} mois{% else %}Sans embargo{% endif %}</span>
+            {% endif %}
+            {% if revue.auto_archivage.avec_frais_additionnels %}
+              <br><span class="font-normal text-xs opacity-80">Frais supplémentaires demandés</span>
+            {% endif %}
           {% else %}
             Non renseignée
-            <br><a href="https://v2.sherpa.ac.uk/cgi/search/publication/basic?publication_title-auto={{ revue.titre | urlencode }}" target="_blank" rel="noopener" class="font-normal text-xs underline opacity-80">Vérifier sur Sherpa Romeo</a>
+            <br><a href="https://openpolicyfinder.jisc.ac.uk/search" target="_blank" rel="noopener" class="font-normal text-xs underline opacity-80">Vérifier sur Open Policy Finder</a>
           {% endif %}
         </dd>
       </div>
@@ -170,7 +178,7 @@
 </section>
 
 <p class="text-xs opacity-70 mt-6 border-t border-base-300 pt-4">
-  Rang et discipline : classement FNEGE 2025. Indicateurs : OpenAlex. Accès ouvert : DOAJ. Politique de dépôt : Sherpa Romeo.
+  Rang et discipline : classement FNEGE 2025. Indicateurs : OpenAlex. Accès ouvert : DOAJ. Politique de dépôt : Open Policy Finder.
   Les données peuvent comporter des imprécisions, vérifiez toujours sur le site de la revue.
 </p>
 

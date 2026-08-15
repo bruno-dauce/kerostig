@@ -3,7 +3,7 @@
 // ---------------------------------------------------------------------------
 // kerostig - etape 3 du guide de developpement.
 // Transforme le CSV de correspondance ISSN en www/_data/journals.json,
-// en enrichissant chaque revue via OpenAlex, DOAJ et Sherpa Romeo.
+// en enrichissant chaque revue via OpenAlex, DOAJ et Open Policy Finder.
 //
 // Aucune dependance externe : Node 18+ suffit (fetch natif).
 //
@@ -14,8 +14,9 @@
 //   node enrichir-revues.mjs --no-cache         (ignorer le cache disque)
 //   node enrichir-revues.mjs --input chemin.csv --output journals.json
 //
-// Cles API (fichier .env a la racine, ou variables d'environnement) :
-//   SHERPA_API_KEY=...     requis pour l'enrichissement Sherpa Romeo
+// Cles API (fichier .env a cote du script ou a la racine du depot, ou variables
+// d'environnement) :
+//   SHERPA_API_KEY=...     requis pour Open Policy Finder (ex-Sherpa Romeo)
 //   OPENALEX_MAILTO=...    recommande (email, pool poli d'OpenAlex)
 // ---------------------------------------------------------------------------
 
@@ -27,6 +28,8 @@ import { join } from "node:path";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // Chargement minimal d'un fichier .env, sans dependance.
+// Une valeur vide ne masque jamais une valeur deja definie : le .env local peut
+// donc ne renseigner qu'une partie des cles, le .env racine complete le reste.
 function loadEnvFile(path = ".env") {
   if (!existsSync(path)) return;
   for (const ligne of readFileSync(path, "utf8").split(/\r?\n/)) {
@@ -42,8 +45,15 @@ function loadEnvFile(path = ".env") {
     ) {
       val = val.slice(1, -1);
     }
-    if (!(cle in process.env)) process.env[cle] = val;
+    if (val && !process.env[cle]) process.env[cle] = val;
   }
+}
+
+// Le .env peut vivre a cote du script ou a la racine du depot : on lit les deux,
+// le plus proche l'emporte.
+function chargerEnvironnement() {
+  loadEnvFile(".env");
+  loadEnvFile(join("..", ".env"));
 }
 
 // Lecture des arguments de ligne de commande.
@@ -126,7 +136,12 @@ async function fetchJson(url, { headers = {}, essais = 3 } = {}) {
         await sleep(1000 * 2 ** tentative);
         continue;
       }
-      if (!res.ok) return { ok: false, status: res.status, data: null };
+      if (!res.ok) {
+        // Le corps porte souvent le motif exact ({"error": "..."}), utile pour
+        // distinguer une cle invalide d'une requete mal formee.
+        const detail = await res.text().catch(() => "");
+        return { ok: false, status: res.status, data: null, erreur: detail.slice(0, 200) };
+      }
       return { ok: true, status: res.status, data: await res.json() };
     } catch (e) {
       if (tentative < essais) { await sleep(1000 * 2 ** tentative); continue; }
@@ -146,7 +161,9 @@ function issnsAEssayer(row) {
   return l;
 }
 
-const MAILTO = process.env.OPENALEX_MAILTO || "";
+// Renseignees dans main(), une fois le ou les .env charges.
+let MAILTO = "";
+let SHERPA_KEY = "";
 
 // -- OpenAlex : nom propre, editeur, metriques, indicateurs d'acces ouvert.
 async function enrichirOpenAlex(issns, { cache }) {
@@ -251,37 +268,83 @@ function faconnerDoaj(resultat) {
   };
 }
 
-// -- Sherpa Romeo : version deposable, embargo, depot en archive ouverte.
-const SHERPA_KEY = process.env.SHERPA_API_KEY || "";
+// -- Open Policy Finder (ex-Sherpa Romeo) : version deposable, embargo, depot
+//    en archive ouverte. L'ancienne API v2.sherpa.ac.uk est fermee ; le nouveau
+//    point d'entree attend la cle dans l'en-tete x-api-key et non dans l'URL.
+//    La forme des objets publication (publisher_policy > permitted_oa) est
+//    restee identique. Cache disque conserve sous le prefixe "sherpa".
+const SHERPA_ENDPOINT = "https://api.openpolicyfinder.jisc.ac.uk/retrieve";
+const DELAI_SHERPA = 350; // ms entre deux appels, on ne bouscule pas Jisc
+
+// Erreurs OPF rencontrees pendant le passage, reportees dans le rapport final.
+const erreursSherpa = [];
+
+// Une cle refusee doit arreter le programme : sinon on mettrait en cache 492
+// reponses vides et le prochain passage croirait la couverture nulle.
+class ErreurCleSherpa extends Error {}
 
 async function enrichirSherpa(issns, { cache }) {
   if (!SHERPA_KEY) return { sansCle: true };
   for (const issn of issns) {
     let item = cache ? lireCache("sherpa", issn) : undefined;
     if (item === undefined) {
-      const filtre = JSON.stringify([["issn", "equals", issn]]);
-      const url =
-        "https://v2.sherpa.ac.uk/cgi/retrieve?item-type=publication" +
-        `&api-key=${encodeURIComponent(SHERPA_KEY)}&format=Json` +
-        `&filter=${encodeURIComponent(filtre)}`;
-      const { ok, data } = await fetchJson(url);
+      const params = new URLSearchParams({
+        "item-type": "publication",
+        format: "Json",
+        limit: "10",
+        filter: JSON.stringify([["issn", "equals", issn]]),
+      });
+      const { ok, status, data, erreur } = await fetchJson(`${SHERPA_ENDPOINT}?${params}`, {
+        headers: { "x-api-key": SHERPA_KEY, Accept: "application/json" },
+      });
+
+      if (!ok && (status === 401 || status === 403)) {
+        throw new ErreurCleSherpa(
+          `Open Policy Finder a refuse la cle (HTTP ${status}). ${erreur || ""}`.trim()
+        );
+      }
+      if (!ok && status !== 404) {
+        // Panne reseau ou serveur : on ne met rien en cache pour pouvoir
+        // reessayer cette revue au prochain passage.
+        erreursSherpa.push(`${issn} : HTTP ${status || "reseau"} ${erreur || ""}`.trim());
+        await sleep(DELAI_SHERPA);
+        continue;
+      }
+
       item = ok && Array.isArray(data?.items) && data.items.length ? data.items[0] : null;
       ecrireCache("sherpa", issn, item);
-      await sleep(200);
+      await sleep(DELAI_SHERPA);
     }
     if (item) return { issn, item };
   }
   return null;
 }
 
-// Priorite de version pour le depot vert : accepte > publie > soumis.
+// Priorite de version pour le depot vert : pouvoir deposer la version editeur
+// est le cas le plus permissif, puis la version acceptee, puis le manuscrit
+// soumis. On retient donc publie > accepte > soumis.
 const RANG_VERSION = { published: 3, accepted: 2, submitted: 1 };
-const REPOS = ["institutional_repository", "subject_repository", "any_repository", "named_repository"];
+
+// Lieux de depot qui valent "archive ouverte" au sens HAL. La documentation OPF
+// precise que any_website autorise de fait n'importe quel lieu.
+const REPOS = [
+  "institutional_repository",
+  "non_commercial_institutional_repository",
+  "subject_repository",
+  "non_commercial_subject_repository",
+  "any_repository",
+  "non_commercial_repository",
+  "named_repository",
+  "preprint_repository",
+  "any_website",
+];
 
 function embargoEnMois(embargo) {
   if (!embargo || embargo.amount == null) return 0;
   const u = String(embargo.units || "").toLowerCase();
   if (u.startsWith("year")) return embargo.amount * 12;
+  if (u.startsWith("week")) return Math.round(embargo.amount / 4.345);
+  if (u.startsWith("day")) return Math.round(embargo.amount / 30.44);
   return embargo.amount; // months (ou vide)
 }
 
@@ -296,6 +359,7 @@ function faconnerSherpa(resultat) {
   const politiques = resultat.item.publisher_policy || [];
   let meilleure = null; // {version, rang, embargo, avecFrais}
   for (const pol of politiques) {
+    if (pol.open_access_prohibited === "yes") continue;
     for (const voie of pol.permitted_oa || []) {
       const lieux = voie.location?.location || [];
       const enRepo = lieux.some((l) => REPOS.includes(l));
@@ -384,7 +448,11 @@ function construireRevue(row, oa, doaj, sherpa) {
 // --- 5. Programme principal ------------------------------------------------
 
 async function main() {
-  loadEnvFile();
+  chargerEnvironnement();
+  // Lecture apres chargement du .env : ces valeurs etaient auparavant figees a
+  // l'import du module, donc toujours vides.
+  MAILTO = process.env.OPENALEX_MAILTO || "";
+  SHERPA_KEY = process.env.SHERPA_API_KEY || "";
   const args = lireArgs(process.argv);
 
   if (!existsSync(args.input)) {
@@ -397,8 +465,11 @@ async function main() {
   console.log(`Lecture de ${lignes.length} revues, traitement de ${total}.`);
 
   if (args.offline) console.log("Mode hors-ligne : aucune API n'est appelee.");
-  else if (!SHERPA_KEY) console.log("Attention : SHERPA_API_KEY absente, Sherpa Romeo sera ignore.");
-  else if (!MAILTO) console.log("Astuce : renseignez OPENALEX_MAILTO pour le pool poli d'OpenAlex.");
+  else {
+    if (!SHERPA_KEY) console.log("Attention : SHERPA_API_KEY absente, Open Policy Finder sera ignore.");
+    else console.log("Open Policy Finder : cle detectee, interrogation activee.");
+    if (!MAILTO) console.log("Astuce : renseignez OPENALEX_MAILTO pour le pool poli d'OpenAlex.");
+  }
 
   const journaux = {};
   const stats = { oa: 0, doaj: 0, sherpa: 0 };
@@ -448,9 +519,16 @@ async function main() {
     `|---|---|---|`,
     `| OpenAlex | ${stats.oa} | ${total - stats.oa} |`,
     `| DOAJ (acces ouvert) | ${stats.doaj} | ${total - stats.doaj} |`,
-    `| Sherpa Romeo | ${stats.sherpa} | ${total - stats.sherpa} |`,
+    `| Open Policy Finder (auto-archivage) | ${stats.sherpa} | ${total - stats.sherpa} |`,
     ``,
     `Note : une revue absente de DOAJ n'est pas forcement fermee ; DOAJ ne liste que l'acces ouvert integral.`,
+    `Note : une revue absente d'Open Policy Finder est laissee a null, aucune politique n'est deduite.`,
+    ``,
+    `## Erreurs Open Policy Finder`,
+    ``,
+    erreursSherpa.length
+      ? erreursSherpa.map((s) => `- ${s}`).join("\n")
+      : "_Aucune._",
     ``,
     `## Revues sans correspondance OpenAlex`,
     ``,
@@ -466,4 +544,12 @@ async function main() {
 
 export { parseCsv, faconnerOpenAlex, faconnerDoaj, faconnerSherpa, construireRevue, embargoEnMois };
 
-main().catch((e) => { console.error(e); process.exit(1); });
+main().catch((e) => {
+  if (e instanceof ErreurCleSherpa) {
+    console.error(`\n${e.message}`);
+    console.error("Aucune reponse n'a ete mise en cache. Corrigez SHERPA_API_KEY puis relancez.");
+    process.exit(1);
+  }
+  console.error(e);
+  process.exit(1);
+});
