@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>hubecall | Information Systems Frontiers</title>
-        <link>https://hubecall.com/journal/information-systems-frontiers</link>
+        <title>kerostig | Information Systems Frontiers</title>
+        <link>https://kerostig.com/journal/information-systems-frontiers</link>
         <description>Derniers appels à publications pour Information Systems Frontiers.</description>
-        <lastBuildDate>Thu, 13 Aug 2026 04:31:20 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Aug 2026 10:44:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
-            <title>hubecall | Information Systems Frontiers</title>
-            <url>https://hubecall.com/public/favicon/android-chrome-96x96.png</url>
-            <link>https://hubecall.com/journal/information-systems-frontiers</link>
+            <title>kerostig | Information Systems Frontiers</title>
+            <url>https://kerostig.com/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.com/journal/information-systems-frontiers</link>
         </image>
-        <copyright>hubecall © 2026</copyright>
+        <copyright>kerostig © 2026</copyright>
         <item>
             <title><![CDATA[Digital Technologies for Combating Unethical Labour Practices and Promoting Human Rights]]></title>
-            <link>https://hubecall.com/call/springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights</link>
+            <link>https://kerostig.com/call/springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights</link>
             <guid>springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -90,7 +90,7 @@
         </item>
         <item>
             <title><![CDATA[From Adoption to Impact: Post-Adoption, Value Realization, and Societal Transformation of ICT and AI]]></title>
-            <link>https://hubecall.com/call/springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai</link>
+            <link>https://kerostig.com/call/springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai</link>
             <guid>springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -180,7 +180,7 @@
         </item>
         <item>
             <title><![CDATA[Keeping Humans in the Loop in the AI-Driven Future of Information Security]]></title>
-            <link>https://hubecall.com/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security</link>
+            <link>https://kerostig.com/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security</link>
             <guid>springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -258,7 +258,7 @@
         </item>
         <item>
             <title><![CDATA[Artificial Intelligence, Affective Computing and Video Analytics for Intelligent Information Systems]]></title>
-            <link>https://hubecall.com/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</link>
+            <link>https://kerostig.com/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</link>
             <guid>springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
