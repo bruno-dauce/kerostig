@@ -842,9 +842,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-14T03:11:30.503Z"
+    "active": true,
+    "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -935,9 +934,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-14T03:11:30.503Z"
+    "active": true,
+    "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -1015,9 +1013,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-14T03:11:30.503Z"
+    "active": true,
+    "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
     "journal": "M@n@gement",
@@ -7717,35 +7714,6 @@
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
-    "journal": "Industrial Marketing Management",
-    "abbreviation": "elsevier",
-    "issn": "1873-2062",
-    "metaTitle": "The Future of B2B Marketing Communication: New Approaches, Touchpoints, and Theoretical Frontiers",
-    "url": "https://www.sciencedirect.com/special-issue/330206/the-future-of-b2b-marketing-communication-new-approaches-touchpoints-and-theoretical-frontiers",
-    "title": "The Future of B2B Marketing Communication: New Approaches, Touchpoints, and Theoretical Frontiers",
-    "slug": "elsevier-the-future-of-b2b-marketing-communication-new-approaches-touchpoints-and-theoretical-frontiers",
-    "contentHash": "7e6fffcf34f6a708dc2bb4abac4b3a81f40e59b0bc5568e91b37e044b8b1566e",
-    "topics": [],
-    "description": {
-      "paragraphs": []
-    },
-    "tags": [
-      "b2b marketing",
-      "marketing communication"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-08-01T10:00:00.000Z",
-        "description": "Full paper submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
-  },
-  {
     "journal": "Journal of Business Research",
     "abbreviation": "elsevier",
     "issn": "1873-7978",
@@ -10496,35 +10464,6 @@
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
-    "journal": "Research Policy",
-    "abbreviation": "elsevier",
-    "issn": "1873-7625",
-    "metaTitle": "Outside In: Unconventional Pathways to Innovation",
-    "url": "https://www.sciencedirect.com/special-issue/321394/outside-in-unconventional-pathways-to-innovation",
-    "title": "Outside In: Unconventional Pathways to Innovation",
-    "slug": "elsevier-outside-in-unconventional-pathways-to-innovation-2",
-    "contentHash": "8bc07e8c79df8a6cfb20ca452f74706c106ba4aa7c2a14aea74b64e988aa5216",
-    "topics": [],
-    "description": {
-      "paragraphs": []
-    },
-    "tags": [
-      "innovation",
-      "research policy"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-07-15T10:00:00.000Z",
-        "description": "Full paper submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
-  },
-  {
     "journal": "Transportation Research Part D: Transport and Environment",
     "abbreviation": "elsevier",
     "issn": "1879-2340",
@@ -11280,6 +11219,66 @@
     ],
     "active": true,
     "pubDate": "2026-08-11T10:27:21.121Z"
+  },
+  {
+    "journal": "Industrial Marketing Management",
+    "abbreviation": "elsevier",
+    "issn": "1873-2062",
+    "metaTitle": "The Future of B2B Marketing Communication: New Approaches, Touchpoints, and Theoretical Frontiers",
+    "url": "https://www.sciencedirect.com/special-issue/330206/the-future-of-b2b-marketing-communication-new-approaches-touchpoints-and-theoretical-frontiers",
+    "title": "The Future of B2B Marketing Communication: New Approaches, Touchpoints, and Theoretical Frontiers",
+    "slug": "elsevier-the-future-of-b2b-marketing-communication-new-approaches-touchpoints-and-theoretical-frontiers",
+    "contentHash": "7e6fffcf34f6a708dc2bb4abac4b3a81f40e59b0bc5568e91b37e044b8b1566e",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "b2b marketing",
+      "marketing communication"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-08-01T10:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-09-15T03:20:05.343Z"
+  },
+  {
+    "journal": "Research Policy",
+    "abbreviation": "elsevier",
+    "issn": "1873-7625",
+    "metaTitle": "Outside In: Unconventional Pathways to Innovation",
+    "url": "https://www.sciencedirect.com/special-issue/321394/outside-in-unconventional-pathways-to-innovation",
+    "title": "Outside In: Unconventional Pathways to Innovation",
+    "slug": "elsevier-outside-in-unconventional-pathways-to-innovation-2",
+    "contentHash": "8bc07e8c79df8a6cfb20ca452f74706c106ba4aa7c2a14aea74b64e988aa5216",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "innovation",
+      "research policy"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-07-15T10:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-09-15T03:20:05.343Z"
   },
   {
     "journal": "Information Processing & Management",
