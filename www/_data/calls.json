@@ -1,5 +1,501 @@
 [
   {
+    "journal": "Revue internationale P M E Économie et gestion de la petite et moyenne entreprise",
+    "abbreviation": "ojsfr",
+    "issn": "1918-9699",
+    "metaTitle": "Appel à contribution - Artiste",
+    "url": "https://revueinternationalepme.com/index.php/1/announcement/view/68",
+    "title": "Entrepreneurship as an Artist: Subjectivities, Contexts and Collective Dynamics",
+    "slug": "ojsfr-appel-a-contribution-artiste",
+    "contentHash": "5e030f04ebb12866de2957b41979533bcde7ace51d05e46b1f99ee8a934870ae",
+    "topics": [
+      "Personal narratives, emotions and individual artistic trajectories and their influence on entrepreneurial practices",
+      "Context as a creative resource and entrepreneurial catalyst: how artists transform contextual constraints into opportunities",
+      "Individual-collective dynamics in artistic entrepreneurship: articulation between individual artistic expression and community engagement",
+      "Artistic entrepreneurship as a response to contemporary challenges: resilience strategies, alternative economic models, and sustainable development",
+      "Artists' relationship with their personal histories, emotions, identity negotiations and bifurcations, and their influence on entrepreneurial practices",
+      "How broader contextual dynamics (social, technological, environmental, political) shape and inspire artists' entrepreneurial trajectories",
+      "Interaction dynamics between individual artistic interests and collective action, particularly regarding tensions between personal creative expression and collaborative community engagement",
+      "Hybrid organizational models emerging between individual creation and collective action",
+      "Collaborative practices and their role in generating collective intelligence and artistic innovation",
+      "Governance mechanisms in artistic collectives for balancing individual expression and shared objectives",
+      "Role of artistic interventions in community resilience and social transformation",
+      "Artists' strategies for resisting and adapting to market pressures while maintaining economic viability",
+      "Balance between creative integrity and institutional or commercial commitments",
+      "Social and environmental innovations developed by artist-entrepreneurs",
+      "Contributions of artistic entrepreneurship to sustainable development objectives"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines entrepreneurial practices of artists in their activities of creation, production and dissemination. While management has long been characterized as an art due to its creative and non-iterative dimension, the relationship between artistic and managerial spheres has historically been presented as antagonistic or dichotomous. However, contemporary research reveals a growing convergence between the figures of the artist and the entrepreneur, notably through shared practices and approaches.",
+        "This convergence also reflects the growing proportion of artists becoming entrepreneurs in a socioeconomic context marked by injunctions to entrepreneurship and innovation, as well as by increasing precarity in artistic creation activities. These approaches highlight initiatives carried out by individuals often marginalized geographically or socio-culturally who mobilize cultural, social and emotional resources to create value within their communities. They also reveal the interrelations, sometimes fruitful and sometimes more harmful, between artistic creation and entrepreneurial practices and the challenges facing artistic entrepreneurs.",
+        "Several artistic and cultural sectors—visual and media arts, performing arts, popular music, etc.—can constitute privileged fields of observation. Urban art, for example, by mobilizing public space as both an artistic resource and vector of meaning, embodies new dynamics articulating creation, community engagement and economic constraints. Artists in this field develop forms of resilience and collaboration revealing tensions inherent between cultural expression and market imperatives, particularly in contexts marked by precarity and intense competition.",
+        "In this era of increased precarity of artistic work, massive use of digital technologies for creation and distribution of cultural goods affecting artists' remuneration, reconfiguration of cultural policies, ecological and territorial crises as well as persistent social and identity tensions, artistic creation is no longer limited to an aesthetic function but becomes a space for action, experimentation and reflection on the societal impact of art and its interrelations with entrepreneurship. This special issue invites contributions exploring these interrelations.",
+        "This call invites contributions exploring the interrelations between art and entrepreneurship through the lived experience of artists, their subjectivities, their trajectories and the tensions they negotiate daily. It distinguishes itself from approaches mobilizing art as a metaphorical or methodological resource for entrepreneurship (arts-based methods, art thinking) as well as work focused on support mechanisms, public policies or action levers of cultural entrepreneurship.",
+        "Despite growing interest in artistic entrepreneurship, many existing works approach this phenomenon through classical frameworks of entrepreneurship, privileging market logic and institutional perspectives. Moreover, research has historically examined entrepreneurship in artistic and cultural spheres from the figure of the entrepreneur, concentrating on their characteristics, tensions, identity, training, tools and know-how, financing mechanisms or collaborative practices.",
+        "To complement these approaches and deepen the fundamental dynamics at work in the entrepreneurial process of artists, three paths appear worthy of exploration: artists' trajectories, which existing literature neglects in terms of the relationship artists maintain with themselves and how intrinsic dimensions influence their entrepreneurial practices; context as creative resource and constraint, to which little attention has been paid regarding how broader contextual dynamics actively shape and inspire artists' entrepreneurial trajectories; and the individual-collective dialectic, which remains insufficiently explored regarding interaction dynamics between individual artistic interests and collective action, particularly regarding tensions between personal creative expression and collaborative community engagement.",
+        "This special issue aims to advance both theory and practice by inscribing anew artistic entrepreneurship in a perspective of subjectivity, context and collective dynamics, thereby contributing to research in management and organizational studies. We seek both conceptual and empirical contributions bringing new insights into how artistic identity, contextual factors and collective dynamics shape entrepreneurial practices. We particularly seek studies presenting original results or challenging dominant assumptions of artistic entrepreneurship through a critical approach. Interdisciplinary approaches from other research fields are also welcome, provided they maintain clear relevance to managerial theory and organizational practice."
+      ]
+    },
+    "tags": [
+      "artistic entrepreneurship",
+      "creative industries",
+      "artist identity",
+      "entrepreneurship"
+    ],
+    "editors": [
+      {
+        "name": "Joëlle Bissonnette",
+        "affiliation": "Université du Québec à Montréal"
+      },
+      {
+        "name": "Elen Riot",
+        "affiliation": "Université Paris 8"
+      },
+      {
+        "name": "Christian Makaya",
+        "affiliation": "Ascencia School of Business"
+      },
+      {
+        "name": "Céline Barredy",
+        "affiliation": "Université Paris Nanterre"
+      },
+      {
+        "name": "Vanessa Serret",
+        "affiliation": "Université de Lorraine"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Launch webinar for the call for contributions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-07-01T10:00:00.000Z",
+        "description": "Submission of complete articles meeting journal standards on the RIPME digital platform",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2026-07-15T10:00:00.000Z",
+        "description": "Decision of rejection or sending for evaluation",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-10-15T10:00:00.000Z",
+        "description": "Communication of first decision to authors",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-15T11:00:00.000Z",
+        "description": "Submission of revised version and, if applicable, second evaluation",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-01T11:00:00.000Z",
+        "description": "Communication of decision to authors",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-04-01T10:00:00.000Z",
+        "description": "Reception of final versions",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T22:58:24.455Z"
+  },
+  {
+    "journal": "Revue internationale P M E Économie et gestion de la petite et moyenne entreprise",
+    "abbreviation": "ojsfr",
+    "issn": "1918-9699",
+    "metaTitle": "Appel à contribution",
+    "url": "https://revueinternationalepme.com/index.php/1/announcement/view/66",
+    "title": "SMEs: Towards New Business Models?",
+    "slug": "ojsfr-appel-a-contribution",
+    "contentHash": "9abccc730008b84deb3b8a34bdb279d86ad846d32471be992a50a3d568d9e882",
+    "topics": [
+      "Atypical strategic trajectories and diversification of SME leader profiles: profiles, motivations, relationship to work and risk, career bifurcations",
+      "Redefining performance in SMEs: alternative indicators, rejection of growth, work-life balance, territorial anchoring, relationship to living systems",
+      "SMEs, ecology and resource scarcity: frugal business models, circular economy, chosen degrowth, regenerative enterprise, ecological impact",
+      "SMEs and technologies: appropriation, marginalization or resistance to digitization, artificial intelligence, uberization or platform economy",
+      "Alternative forms of organization and innovation: bricolage, mutualization, cooperation, hybridization of statuses, informal or hybrid practices",
+      "Role of SMEs in social and territorial transitions: local resilience, inclusion dynamics, responses to systemic crises, economic justice",
+      "Research methodologies and epistemologies adapted to SMEs: partnership research, critical approaches, life narratives, entrepreneurial ethnography"
+    ],
+    "description": {
+      "paragraphs": [
+        "For a long time considered as the \"small scale\" of SMEs, Very Small Enterprises (SMEs) remain marginalized as an autonomous object of study in management research. Yet the foundational work of P.-A. Julien and M. Marchesnay laid essential foundations: the first by highlighting the constitutive heterogeneity of the SME population, the second by identifying the characteristics specific to the management system of the \"hypofirm.\" This special issue follows in their footsteps, reinterrogating their contributions to SME research without, however, leading to an in-depth exploration of their most reduced segment, particularly SMEs. Beyond the size effect, can SMEs be distinguished from SMEs by their nature?",
+        "If we move away from the purely dimensional question, SMEs appear as singular organizational forms, capable of functioning in environments marked by uncertainty. Their light structuring, the high intensity of interactions they mobilize daily, and their proximity to their local ecosystem give them rapid and often innovative adjustment modes. They do not merely reproduce the SME model in miniature: they develop specific ways of coping with constraints, managing resources and envisioning the future, giving rise to original entrepreneurial dynamics, sometimes more sober, more resilient or more iterative than those observed in more established organizations.",
+        "Their theoretical discretion contrasts with their statistical and social reality: enterprises with fewer than 10 employees represent more than 90% of enterprises in most European economies. They play an essential role in local ecosystems and embody entrepreneurial projects in their own right: their leaders do not aspire to become SME leaders, they choose the SME through strategic will. This specificity invites us to reconsider the SME as an object of study in itself, endowed with organizational logics and a capacity for continuous evolution that merit closer analysis.",
+        "Since 2020, several systemic mutations – health crises, ecological disruptions, resource depletion, inflation, rising inequalities, massive digitization – have fundamentally questioned the foundations of the dominant socio-economic model that tends towards productivity and competitiveness. In this context of chronic instability, SMEs appear as a central heuristic object for thinking differently about the enterprise from an economic, social and even societal point of view. Far from being simple \"small enterprises,\" they constitute a place of experimentation for new models, to be differentiated from models focused on growth or rationalization of processes. Halfway between the micro-entrepreneur and SMEs, does it not prefigure an (or) SME-ist model(s) in its own right?",
+        "New forms of projects are developing, oriented towards chosen subsistence, societal contribution, or the search for ethical coherence. These forms are driven by post-materialist aspirations: creating an activity to live differently, to anchor oneself in a territory, to make society differently.",
+        "From a socio-economic point of view, the relationship to performance is being reconfigured. For many SMEs, it is no longer a matter of growing at all costs, but of aiming for balance, sustainability, or local impact. Performance becomes multiform: relational, ecological, existential. This choice reflects not opposition to a model, but rather an aspiration to flourish in a proxemic activity, in the space that surrounds the individual, \"within reach\" (here, of the manager).",
+        "The scarcity of resources, no longer perceived as a constraint, becomes a source of innovative strategic behaviors. SMEs engage in processes of resourcefulness, combining frugality, bricolage, mutualization, and reasoned resource management. In a world facing the depletion of natural resources, their ability to make do with little, to invent bold solutions, becomes a strategic competence, even a source of inspiration for other economic models.",
+        "The social aspect guides the action of SMEs: the link to material constraint is not limited to economics. From a perspective involving cooperative logics and social and solidarity economy, some SMEs reconfigure their action through a renewed relationship with the living. They integrate natural ecosystems into their governance, relying on participatory and territorialized organizational modes, characteristics of cooperative dynamics. This repositioning leads to practices sometimes informal, but profoundly innovative, that put tension on classical categories of performance and innovation, while reaffirming the role of the enterprise in the preservation and care of environments.",
+        "Societal developments, and more specifically the massive arrival of new technologies – digital platforms, automation, AI – profoundly transform the conditions of existence of SMEs, which occupy a particular position between individual entrepreneurship and structured SMEs, that is, organizations that are both very small, flexible, but subject to growing professional and economic demands. Some seize these technologies to create new forms of activity; others are fragile due to processes of uberization and algorithmic dependency; still others develop thanks to the emergence of new needs related to digitization. These transformations also raise social, ethical and political issues concerning the future of self-employment, digital sovereignty and control of tools.",
+        "From a micro-economic point of view, the profound renewal of leadership figures: post-salaried career changes, women entrepreneurs, neo-rural residents, young graduates seeking meaning, engaged entrepreneurs. This diversity produces new forms of relationship to work, to growth, and to risk, which merit specific attention. They do not hesitate to question the performance criteria that sit at the center of managerial concerns.",
+        "From a meso-economic point of view, the SME is not merely inserted into a local environment: it participates fully in the configuration and evolution of the territorial entrepreneurial system. If some work on entrepreneurial ecosystems has proposed relatively disembodied models, sometimes disconnected from concrete socio-territorial anchors, recent research instead invites us to reaffirm the territorial depth of these dynamics. In the lineage of local productive systems and industrial districts developed by the Italian school, the territory must be understood not as a simple physical support, but as a socio-economic space endowed with identities, resources and specific practices that shape entrepreneurial trajectories. This perspective aligns with the conclusions of the Terram Institute report (2024), according to which SMEs structure the vitality and cohesion of territories. Yet this finding reveals a paradox: dependent on social resources and local networks, they simultaneously contribute to transforming them. Therefore, how can we understand their impact when they are both shaped by the territory and actors in its recomposition?",
+        "In total, SMEs can no longer be thought of as reduced versions of SMEs, but as original and pertinent forms of organizations, adapted to an era marked by complexity, uncertainty and planetary limits. They constitute laboratories of resilience, sobriety and entrepreneurial reinvention, often ignored by classical analytical frameworks. They express the essence of robustness, characterized by a high density of interactions. This dynamic creates fertile ground for the development of a continuous evolution capability."
+      ]
+    },
+    "tags": [
+      "small enterprises",
+      "business models",
+      "entrepreneurship",
+      "sustainability",
+      "territorial development"
+    ],
+    "editors": [
+      {
+        "name": "Marion Polge",
+        "affiliation": "Université de Montpellier"
+      },
+      {
+        "name": "Isabelle Calmé",
+        "affiliation": "Université de Tours"
+      },
+      {
+        "name": "Colette Fourcade",
+        "affiliation": "Université de Montpellier"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Launch webinar for call for contributions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-10-30T11:00:00.000Z",
+        "description": "Submission of complete articles, meeting the journal's standards, on the RIPME digital platform",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2026-11-13T11:00:00.000Z",
+        "description": "Decision of rejection or sending for evaluation",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-15T11:00:00.000Z",
+        "description": "First evaluation decision transmitted to authors",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-26T11:00:00.000Z",
+        "description": "Return of 2nd version and sending for evaluation if necessary",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-06-01T10:00:00.000Z",
+        "description": "Decision transmitted to authors",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-09-20T10:00:00.000Z",
+        "description": "Return of 3rd version and final evaluation by editorial committee",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-11-20T11:00:00.000Z",
+        "description": "Receipt of final versions",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T22:58:24.455Z"
+  },
+  {
+    "journal": "Revue internationale P M E Économie et gestion de la petite et moyenne entreprise",
+    "abbreviation": "ojsfr",
+    "issn": "1918-9699",
+    "metaTitle": "Appel à contributions",
+    "url": "https://revueinternationalepme.com/index.php/1/announcement/view/62",
+    "title": "The Double Transition of Family SMEs: Tensions, Trade-offs and Paradoxes of Sustainable and Digital Transformation",
+    "slug": "ojsfr-appel-a-contributions",
+    "contentHash": "1f7e854f10c5bebdf512fd20df2f3a7cae7dadaaae8a0dbc291593536a3f7ff5",
+    "topics": [
+      "How family dynamics (values, generations, roles, etc.) influence the strategies of digital and ecological transition in family SMEs",
+      "Specific levers and barriers to double transition in family SMEs, particularly in relation to intergenerational tensions or available resources",
+      "Specific tensions and paradoxes that emerge when family SMEs engage simultaneously in digitalization and sustainability",
+      "Management strategies and practices that family SMEs implement to manage paradoxes related to double transition",
+      "How business models evolve under the pressure of double transition, in a context of transmission or generational change of family SMEs",
+      "Effects of double transition on the sustainability and overall performance of family SMEs",
+      "Family governance, decision-making logics and double transition",
+      "Innovation, dynamic capabilities and organizational paradoxes in family SMEs facing double transition",
+      "Institutional contexts, local cultures and international comparisons of family SME transitions"
+    ],
+    "description": {
+      "paragraphs": [
+        "Family and medium-sized enterprises (family SMEs) have distinct characteristics from both large family businesses and non-family SMEs. They are characterized by governance dominated by the family, strong emotional involvement, intergenerational transmission logic, and often more informal and conservative decision-making modes. In these organizations, the coexistence of family logic and entrepreneurial logic generates unique complexity. Family SME leaders must simultaneously pursue classical economic objectives and socio-emotional objectives linked to the owning family. Socioemotional wealth—meaning the family's affective attachment to the enterprise and willingness to preserve family heritage—strongly influences strategic decisions. Consequently, these enterprises display longer-term vision, increased aversion to losing family control, and governance centered on aligning family and organizational interests. Their small size and limited resources reinforce agility and flexibility but limit investment capacity and strategic formalization. Studies show that family SMEs tend to invest less in R&D than other SMEs while innovating more incrementally through improvements driven by family tacit experience. Family SMEs are characterized by a constant paradox between tradition and change, as they value continuity and sustainability of family patrimony while facing imperatives of competitivity and innovation in their environment.",
+        "In recent years, these tensions intrinsic to family SMEs are exacerbated by two major and simultaneous societal challenges: digital transformation and sustainable transition (CSR and sustainable development commitment). This 'double transition' is defined as 'the combination of digital technologies and the objectives of the European Green Deal.' This double transition places family SMEs before competing requirements that can be difficult to reconcile. On one hand, digital transformation implies adopting new technologies, digitizing processes and often challenging traditional business models, with high investments and strong uncertainty. On the other, sustainable transition requires integrating environmentally respectful and socially responsible practices, potentially requiring costly trade-offs in the short term for long-term societal benefit. The conjunction of these two transitions poses particular challenges to family SMEs: how to innovate and digitalize without betraying family values, past heritage and identity transmitted between generations? How to invest in clean and digital technologies with limited resources without compromising enterprise sustainability for family successors? These enterprises must navigate between the need for technological efficiency and the desire to remain faithful to an identity, between competitive pressure to modernize and moral commitment to sustainable practices and community.",
+        "The structure of family SMEs can both facilitate and hinder this double transformation. Their small size and centralization of power in family hands can confer decision-making agility and rapid adaptation capacity necessary for innovation and rethinking business models. Several family SMEs have successfully transformed their offerings through digital means while strengthening sustainable local anchoring, demonstrating possible alignment between economic, technological and socio-environmental objectives. Recent studies demonstrate that family SMEs, despite limited resources, engage significantly in the economic, social and environmental dimensions of sustainability, notably due to their local anchoring, transgenerational logic and family reputation. The presence of a new generation of leaders familiar with technologies can constitute a powerful lever for accelerating digitalization while raising enterprise awareness of sustainability issues. Generational succession can represent a critical moment for initiating or blocking double transition dynamics, as it often presents an opportunity for rebalancing between traditional values and transformation ambitions. Conversely, family tradition and conservatism of some leaders can slow adoption of overly disruptive changes, whether technological or ecological. Recent research shows that family SMEs often adopt pragmatic and incremental approaches to digital transformation, favoring small adjustments over radical upheaval, and remaining sometimes reactive rather than anticipatory regarding technological evolution. These enterprises may also be tempted to minimize or symbolize their sustainable commitment to protect family image without deeply modifying operations.",
+        "This dual observation suggests a paradox of capacity and willingness showing that family SMEs possess assets (local anchoring, strong relational network and transgenerational vision) that could theoretically facilitate joint integration of digital and sustainable elements, but these same factors can generate reluctance toward change, from fear of diluting family identity or exposing the enterprise to poorly controlled risks. This cautious approach leads to reluctance to collaborate with external actors, although studies demonstrate that R&D collaborations significantly improve innovation potential. Social capital is a key factor influencing family SME performance by facilitating access to resources and opportunities. Family SMEs find themselves in an ambivalent position regarding digital transformation insofar as their concentrated governance and reactivity can make them agile actors, but their desire to preserve family control and prudent logics can also render them refractory to profound technological changes. This paradoxical dynamic has been described as a 'Janus-faced' posture, highlighting ambivalence between openness and closure to change.",
+        "This special issue proposes analyzing double digital and sustainable transition through the lens of tensions, trade-offs and paradoxes specific to family SMEs. The objective is to understand to what extent the family nature of these SMEs influences their capacity to conduct these two intertwined transformations, and how they manage resulting dilemmas. An approach through organizational paradoxes appears particularly fruitful for studying situations where a priori contradictory objectives must be pursued simultaneously. Family SMEs face the tradition vs innovation paradox: how to integrate breakthrough digital technologies while preserving knowledge inherited from the family? This dilemma takes particular intensity during intergenerational succession phases, where the new generation must both respect the predecessor's history and practices while affirming their own strategic vision, often more open to innovation or digitalization. They also face the socio-emotional vs financial paradox: how to reconcile pursuit of non-economic goals (family cohesion and local reputation) with investments—sometimes significant—required by digitalization and ecological transition? This paradox takes particular form in family SMEs, as they are structurally engaged in delicate balance between economic and family logic, where decisions are influenced by emotional, patrimonial or identity considerations that can conflict with short-term financial imperatives. Finally, they must resolve the local vs global paradox: digitalization opens global markets and new collaborations, while sustainability often reinforces local anchoring and consideration of proximate stakeholders. These paradoxes, if poorly managed, can obstruct double transition by generating family conflicts around strategic orientations. Conversely, if recognized and actively managed, they can become sources of creativity and organizational renewal.",
+        "This challenge of family SME double transition holds worldwide importance. While most studies on family enterprises and digitalization or sustainability have concentrated on Europe or North America, family SMEs play a capital role in Latin American, Asian and African economies, where they represent significant portions of entrepreneurial tissue. Varied institutional, cultural and economic contexts of these regions can accentuate certain issues. This special issue welcomes contributions addressing diverse geographic contexts to broaden knowledge beyond sole European and North American frameworks. International comparison can notably illuminate how different environments (regulations, public support, business culture, etc.) influence how family SMEs approach this double challenge of sustainable and digital transformation. Moreover, studying family SME double transition raises major theoretical and managerial questions. From a scientific perspective, it offers opportunity to cross research fields in family enterprise, SME innovation/digitalization and corporate social responsibility to generate new perspectives. Expected added value of this special issue resides in fine understanding of specific trade-offs operated by family SME leaders and strategies they deploy to resolve (or exploit) tensions linked to joint—simultaneous or sequential—conduct of digital and sustainable transformation of their organization. Articles can mobilize varied conceptual frameworks such as paradox theory, resource dependence theory, socio-emotional theory, effectuation theory, etc., to analyze this complex phenomenon. However, expected contributions, whether theoretical, quantitative or qualitative (case studies, ethnographies, comparative analyses…), must all maintain central focus on family SMEs and how their family character orients their trajectory of digital and sustainable transformation.",
+        "The expected contributions must highlight contrasting hypotheses or new results on the subject by demonstrating, for example, that under certain conditions, the family character of an SME constitutes a decisive asset for conducting double transition, while in other situations it can represent significant barrier. This effort to clarify conditions of success or failure of double transformation is crucial for advancing both theory (by identifying mechanisms at work) and managerial practice (by providing family leaders benchmarks to orient their strategies)."
+      ]
+    },
+    "tags": [
+      "family smes",
+      "digital transformation",
+      "sustainable transition",
+      "business model innovation",
+      "organizational paradoxes"
+    ],
+    "editors": [
+      {
+        "name": "Mohamed Ouiakoub",
+        "affiliation": "Université de Lorraine"
+      },
+      {
+        "name": "Sandrine Berger-Douce",
+        "affiliation": "Mines Saint-Etienne"
+      },
+      {
+        "name": "Christophe Schmitt",
+        "affiliation": "Université de Lorraine"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-04-30T10:00:00.000Z",
+        "description": "Full article submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2026-05-20T10:00:00.000Z",
+        "description": "Decision on rejection or submission for evaluation",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-07-01T10:00:00.000Z",
+        "description": "First evaluation decision communicated to authors",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-08-24T10:00:00.000Z",
+        "description": "Return of second version and submission for evaluation if necessary",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-10-01T10:00:00.000Z",
+        "description": "Decision communicated to authors",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-20T11:00:00.000Z",
+        "description": "Return of third version and final evaluation by editorial committee",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-02-20T11:00:00.000Z",
+        "description": "Reception of final versions",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T22:58:24.455Z"
+  },
+  {
+    "journal": "Revue internationale P M E Économie et gestion de la petite et moyenne entreprise",
+    "abbreviation": "ojsfr",
+    "issn": "1918-9699",
+    "metaTitle": "Appel à contributions",
+    "url": "https://revueinternationalepme.com/index.php/1/announcement/view/61",
+    "title": "Entrepreneurial Ecosystems & Digital Transformation",
+    "slug": "ojsfr-appel-a-contributions-2",
+    "contentHash": "e2d17d8d85639a687a3881ed0c224ad4a3733e23d920994ab4a34b1b61739ebe",
+    "topics": [
+      "Digitization of entrepreneurial ecosystems (EEs): Impact of digital transformation on EEs, new relationships and governance possibilities within entrepreneurial ecosystems",
+      "Relationships between ecosystems: Infra/international cooperation and coopetition",
+      "Digital challenges for entrepreneurial ecosystem actors: incubators, accelerators, financial actors, SMEs, etc.",
+      "Consequences of digitization: dehumanization, environmental impact, Sustainable Development Goals (SDGs), inequalities (gender, emerging countries)",
+      "Behavior and strategy of stakeholders in Digital Entrepreneurial Ecosystems (DEEs): impacts on startups and SMEs",
+      "Relational approaches within DEEs: network structures between EEs and entrepreneurs, intra and inter DEEs",
+      "Inclusion and openness to social, territorial, gender and ethnocultural diversity through DEE development",
+      "Boundaries between EEs and DEEs for entrepreneurial stimulation",
+      "Conceptual proximity and diversity, overlaps between concepts? Substitution and/or complementarity?",
+      "Public policy issues, entrepreneurial processes and innovation practices in the context of DEEs",
+      "Economic models and digital transformation for SMEs and EEs",
+      "Interactions between digital platforms and EEs",
+      "Ecosystem for supporting entrepreneurs and SMEs in their digital transformation",
+      "Digital maturity of companies and entrepreneurial ecosystems in digital transformation"
+    ],
+    "description": {
+      "paragraphs": [
+        "Although the entrepreneurial ecosystem (EE) has become a crucial concept for territorial economic development, digital transformation tends to reshape the architecture of EEs and reduce spatial dependencies. This constant evolution results in the regular emergence of new actors in the digital spectrum, and fundamentally modifies the design of EEs and their boundaries, which are no longer limited to a predefined set of actors concentrated on a given territory, but to a multi-dimensional approach: 1) entrepreneurial actors, 2) entrepreneurial organizations, and 3) institutions, which can coordinate formally and informally to help generate and improve entrepreneurial activity within a specific local environment.",
+        "Consequently, the concept of the digital entrepreneurial ecosystem (DEE), visualized as a sub-ecosystem within the territorial entrepreneurial ecosystem, has considerably expanded with the involvement of multiple diverse and interdependent actors who contribute to supporting the digital transformation of companies, at national and international levels. This concept provides a theoretical framework to help conceptualize digital entrepreneurship based on main structural components, notably infrastructure, governance, digital market and digital citizenship, or by analyzing the role of opportunities offered by digital technology.",
+        "However, companies and particularly SMEs seem to struggle today to rely on an ecosystem adapted and favorable to digital transformation. This ecosystem could become a catalyst for the competitiveness and resilience of SMEs seeking digital transformation. Management literature reports numerous ecosystems that clearly revolve around SMEs without clearly identifying their role(s): entrepreneurial ecosystems (EEs); innovation and platform ecosystems; digital ecosystems. These ecosystems are complementary and interdependent, capable of enriching each other mutually.",
+        "However, the level of analysis of existing research on digital transformation pays very little attention to the ecosystems in which SMEs develop and evolve. Interactions within these ecosystems are both physical and digital and can evolve over time, influenced by the development of shared meanings and communities of practice. Additionally, co-creation dynamics can emerge between a project leader and a community gathered around entrepreneurial initiatives in third spaces within the digital context. However, their role and boundaries between them in terms of geographic scope and functioning currently seem impermeable. For this reason, it is essential to understand the interactions between ecosystems to grasp ecosystem performance and effectiveness.",
+        "To address the relationship between EEs and digital transformation, this special issue highlights two main possible axes: i) the evolution of EEs through digital transformation, and ii) the evolution of EEs for supporting SME digital transformation. The first axis raises questions about the challenges of digitizing traditional EEs and the challenges of digital entrepreneurial ecosystems (DEEs). The second axis reflects questions about the support needs of SMEs and entrepreneurs in navigating the complex digital landscape, accessing critical resources, and integrating new technologies into their operations and strategies to fully embrace the cultural, organizational and environmental changes necessary for complete digital transition, far beyond simple technology adoption.",
+        "These multi-level readings and sub-ecosystems lead to questioning the role played by the digital entrepreneurial ecosystem (from the perspective of companies) whether regional, sectoral or technological, in supporting digital transformation (from the perspective of entrepreneurial support actors). To define entrepreneurial ecosystems that support digital transformation, it is important to better understand their role and impact on the digital maturity of companies. Understanding the impacts of digital transformation on the structuring and performance of EEs is crucial, particularly regarding digital challenges, collaboration mechanisms in EEs, the role of platforms, resource allocation and institutional arrangements, digital challenges in terms of inclusivity, and understanding the impact of EEs on the digital maturity of companies."
+      ]
+    },
+    "tags": [
+      "entrepreneurial ecosystems",
+      "digital transformation",
+      "smes",
+      "digital entrepreneurship"
+    ],
+    "editors": [
+      {
+        "name": "Christina Theodoraki",
+        "affiliation": "IAE Aix-Marseille Université"
+      },
+      {
+        "name": "Lynda Saoudi",
+        "affiliation": "Université Claude Bernard Lyon 1"
+      },
+      {
+        "name": "Mathilde Aubry",
+        "affiliation": "EM Normandie"
+      },
+      {
+        "name": "Jean-Michel Sahut",
+        "affiliation": "IDRAC Business School"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2020-02-01T11:00:00.000Z",
+        "description": "Submission of complete articles conforming to journal standards on the RIPME digital platform",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2024-10-22T10:00:00.000Z",
+        "description": "Presentation of the call for papers at the CIFEPME conference",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-03-15T11:00:00.000Z",
+        "description": "Decision on rejection or send for evaluation",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-05-20T10:00:00.000Z",
+        "description": "First evaluation decision transmitted to authors",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-09-20T10:00:00.000Z",
+        "description": "Return of second version and send for evaluation if necessary",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-10-01T10:00:00.000Z",
+        "description": "Decision transmitted to authors",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-12-20T11:00:00.000Z",
+        "description": "Return of third version and final evaluation by editorial committee",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-02-20T11:00:00.000Z",
+        "description": "Reception of final versions",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T22:58:24.455Z"
+  },
+  {
+    "journal": "Finance Contrôle Stratégie",
+    "abbreviation": "ojsfr",
+    "issn": "2261-5512",
+    "metaTitle": "Appel à contributions : Reconfigurations des pratiques managériales et des outils de pilotage dans un monde en mutation et fluctuant — 4e Journée de recherche Finance Contrôle Stratégie — 4 Septembre 2026",
+    "url": "https://journals.openedition.org/fcs/15601",
+    "title": "Reconfigurations des pratiques managériales et des outils de pilotage dans un monde en mutation et fluctuant",
+    "slug": "ojsfr-appel-a-contributions-reconfigurations-des-pratiques-manageriales-et-des-outils-de-pilotage-dans-un-monde-en-mutation-et-fluctuant-4e-journee-de-recherche-finance-controle-strategie-4-septembre-2026",
+    "contentHash": "6cfe91679061e5b535a349904ca14892a1d9edfea68a3360dac5fcc0c5cd221c",
+    "topics": [
+      "Intégration du risque géopolitique (conflits, migrations, sanctions) dans les modèles financiers",
+      "Impact des sanctions économiques, gels d'actifs et compliance internationale sur le coût du capital",
+      "Financement de la souveraineté industrielle et technologique : rôle des fonds souverains, banques publiques, partenariats public-privé",
+      "Effets des ruptures géopolitiques et des flux migratoires sur les marchés financiers et les décisions d'investissement",
+      "Politique monétaire, crypto-actifs et souveraineté monétaire",
+      "Évolution des systèmes de mesure et de pilotage de la performance en contexte d'instabilité (budgets, prévisions, scénarios géopolitiques)",
+      "Pratiques de pilotage des résultats et mise en œuvre de dispositifs de window-dressing",
+      "Adaptation des dispositifs de contrôle interne et de conformité internationale face aux sanctions et réglementations extraterritoriales",
+      "Reporting extra-financier et durabilité dans un environnement géopolitique mouvant (indicateurs, traçabilité des actifs, intégration des enjeux de souveraineté et des flux migratoires)",
+      "Normalisation comptable internationale et fiscalité globale sous tensions géopolitiques (prix de transfert, optimisation fiscale, souveraineté économique)",
+      "Rôle stratégique des fonctions comptables et de contrôle dans l'arbitrage entre résilience, coût et efficacité",
+      "Transformation des outils de pilotage et des modes de coordination interinstitutionnelle en période de crise",
+      "Reconfiguration des chaînes de valeur : relocalisation, friend-shoring, diversification des fournisseurs sous contrainte géopolitique et migratoire",
+      "Stratégies d'autonomie ou d'indépendance stratégique face aux rivalités de puissance",
+      "Rôle des entreprises dans la souveraineté nationale, la sécurité économique et l'intégration migratoire",
+      "Gouvernance stratégique face aux normes extraterritoriales, aux sanctions et aux pressions internationales",
+      "Gouvernance des institutions publiques face aux tensions géopolitiques et aux enjeux de souveraineté",
+      "Alliances internationales, coopétition et diplomatie d'entreprise dans un contexte de mobilité humaine accrue",
+      "Coopération entre acteurs publics, privés et territoriaux pour la stabilité, la paix économique et la durabilité"
+    ],
+    "description": {
+      "paragraphs": [
+        "La revue Finance Contrôle Stratégie (FCS) est une revue en sciences de gestion consacrée aux recherches de pointe dans les domaines de la finance, de la comptabilité, du contrôle de gestion et de la stratégie. Elle vise à favoriser les échanges entre chercheurs de ces spécialités, en encourageant des approches transversales sur des thèmes d'actualité.",
+        "Dans un contexte international caractérisé par la recrudescence des conflits armés, l'exacerbation des tensions entre grandes puissances et le recours accru aux sanctions économiques et aux guerres commerciales, ainsi que par la persistance de déficits publics en Europe, les perturbations des chaînes d'approvisionnement et l'intensité des flux migratoires, les enjeux de souveraineté technologique et énergétique prennent une importance croissante.",
+        "Dans cet environnement instable, les organisations - qu'elles soient publiques, privées ou issues de l'économie sociale et solidaire - sont confrontées à des défis accrus pour assurer leur pérennité et atteindre leurs objectifs. Ceci pose la question de la résilience institutionnelle et des modalités de gouvernance des organisations. Quand elles sont publiques, ce questionnement fait écho à l'Objectif de développement durable (ODJ) 16 (\"Paix, justice et institutions efficaces\"), qui promeut la transparence et le renforcement des institutions.",
+        "Cette quatrième journée de recherche FCS a pour ambition de réunir des travaux qui interrogent les reconfigurations des organisations engendrées par ces tensions géopolitiques. Elle offre une plateforme pour partager des recherches en cours, stimuler les échanges interdisciplinaires et identifier de futurs axes de recherche."
+      ]
+    },
+    "tags": [
+      "finance",
+      "comptabilité",
+      "contrôle de gestion",
+      "stratégie",
+      "tensions géopolitiques",
+      "gouvernance"
+    ],
+    "editors": [
+      {
+        "name": "François Aubert",
+        "affiliation": "Université Clermont Auvergne"
+      },
+      {
+        "name": "Emmanuelle Dubocage",
+        "affiliation": "emlyon Business School"
+      },
+      {
+        "name": "Célia Lemaire",
+        "affiliation": "Université Jean Moulin Lyon 3"
+      },
+      {
+        "name": "Bérangère Szostak",
+        "affiliation": "Université Versailles Saint-Quentin-en-Yvelines"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Date limite d'envoi des propositions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": null,
+        "description": "Notification d'acceptation des propositions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": null,
+        "description": "Soumission des manuscrits complets",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2026-09-04T10:00:00.000Z",
+        "description": "4e Journée de recherche Finance Contrôle Stratégie",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T22:58:24.455Z"
+  },
+  {
     "journal": "Journal of Financial Services Research",
     "abbreviation": "springer",
     "issn": "1573-0735",
@@ -1167,6 +1663,188 @@
     "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
+    "journal": "M@n@gement",
+    "abbreviation": "ojsfr",
+    "issn": "1286-4692",
+    "metaTitle": "‘Cold Cases’: Revisiting founding myths, iconic cases, and forgotten stories in management",
+    "url": "https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/48",
+    "title": "Cold Cases: Revisiting founding myths, iconic cases, and forgotten stories in management",
+    "slug": "ojsfr-cold-cases-revisiting-founding-myths-iconic-cases-and-forgotten-stories-in-management",
+    "contentHash": "0c47d2f2d1921a73c9d3de76f080389cb6c4d8e0ee8a2b5d4145431b4a1267ef",
+    "topics": [
+      "Reexamination and reinterpretation of canonical management cases (IBM, Xerox, Nokia, Kodak, Enron, etc.)",
+      "Empirical robustness and theoretical validity of emblematic cases in management scholarship",
+      "Performativity of famous cases and their role as epistemic artifacts",
+      "Processes of canonization and erasure in disciplinary memory",
+      "Circularity in qualitative management research and issues of confirmation bias",
+      "Role of founding myths in structuring management thinking and epistemic communities",
+      "Halo effects and the stratification of knowledge in management research",
+      "Forgotten cases and alternative narratives in management history",
+      "Critical reexamination of the Hawthorne experiments and other foundational studies",
+      "Replication, falsification, and verification in management research",
+      "Archaeology of management knowledge and disciplinary self-reflexivity"
+    ],
+    "description": {
+      "paragraphs": [
+        "Management research has long been populated by celebrated cases that have achieved the status of founding myths. Cases such as IBM's blindness to personal computing, Xerox's strategic myopia toward the graphical user interface, Nokia's fall to smartphones, the Mann Gulch fire, and Elton Mayo's Hawthorne experiments have become ubiquitous in the field's collective memory. These 'cold cases', endlessly cited and taught, structure ways of thinking and provide a shared foundation of representations that are central to the construction of epistemic communities.",
+        "Despite their pervasive influence, few studies scrutinize the empirical robustness, theoretical validity, or performativity of these emblematic cases. In management research, particularly in qualitative research, the risk of circularity is significant. Researchers working with inevitably heterogeneous and incomplete material may, even unconsciously, select data that confirm their theoretical priors, set aside disconfirming evidence, and ultimately favor demonstrations of the 'as if' type.",
+        "Management research's pursuit of 'theoretical gaps' has often privileged the production of new concepts at the expense of verification, reinterpretation, or falsification. This predilection leads to a stratification of knowledge where certain studies become canonical and generate 'halo effects', while others sink into oblivion not because they are invalid, but because they do not fit the dominant narratives of the discipline.",
+        "The aim of this special issue is to 'reopen the files of management' by challenging established truths, revisiting myths, excavating forgotten cases, and analyzing the processes of canonization and erasure that structure disciplinary memory. Famous cases such as Kodak, IBM, Enron, and Nokia must be regarded as epistemic artifacts, produced, reproduced, and sometimes distorted by scholarly communities, bearing narrative, moral, and institutional dimensions.",
+        "M@n@gement has established itself as a privileged venue for critical, reflexive, and interdisciplinary approaches in management research. This special issue continues this tradition by inviting the community to undertake an archaeology of its own knowledge. Revisiting 'cold cases' means interrogating how management research constructs its own history, its certainties, and its silences. It is a call to strengthen the cumulative and self-critical dimension of the field by restoring a rightful place to research grounded in the replication of experiments, the challenging of established findings, and recontextualization.",
+        "At a time when researchers are constantly pressured to produce 'new' knowledge, this special issue proposes to rehabilitate slow, reflexive research capable of revisiting taken-for-granted assumptions, reopening closed debates, and reinvigorating the controversies that are constitutive of knowledge production."
+      ]
+    },
+    "tags": [
+      "management research",
+      "canonical cases",
+      "mythology",
+      "epistemology",
+      "research methods",
+      "organizational history"
+    ],
+    "editors": [
+      {
+        "name": "Anaïs Boutru",
+        "affiliation": "Université Paris-Dauphine, PSL"
+      },
+      {
+        "name": "Linda Rouleau",
+        "affiliation": "HEC Montréal"
+      },
+      {
+        "name": "Géraldine Schmidt",
+        "affiliation": "Université Paris 1 Panthéon-Sorbonne"
+      },
+      {
+        "name": "Albéric Tellier",
+        "affiliation": "Université Paris-Dauphine, PSL"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-14T10:00:00.000Z",
+        "description": "Pre-submission workshop (online)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-31T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:43:57.586Z"
+  },
+  {
+    "journal": "M@n@gement",
+    "abbreviation": "ojsfr",
+    "issn": "1286-4692",
+    "metaTitle": "Is progress taken for granted? Social change, backlash, and resistance in organizations",
+    "url": "https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/50",
+    "title": "Social change, backlash, and resistance in organizations",
+    "slug": "ojsfr-is-progress-taken-for-granted-social-change-backlash-and-resistance-in-organizations",
+    "contentHash": "afbd5553787a7f82695910929b096e19721fbd5d9ba32f7182307a1d17c62a3e",
+    "topics": [
+      "What are the different forms of backlash affecting organizations? Are there 'invisible' forms of backlash?",
+      "How and to what extent does backlash contribute to the deinstitutionalization of established norms (e.g. ESG, DEI, climate)?",
+      "What forms of institutional work produce or hinder backlash?",
+      "What roles do different modes of governance and different forms of organization play in weakening or, conversely, protecting social progress? Are democratic organizations, in particular, more or less prone to backlash?",
+      "How do organizations respond, resist, protect themselves, and participate in backlash?",
+      "What are the risks, uncertainties, and tensions generated by backlash? How can they be managed?",
+      "What forms of collective response are organized to face backlash (e.g. meta-organizations, networks, lobbying)?",
+      "How do individuals participate in or resist backlash (e.g. through employee activism)?",
+      "What is the impact of backlash on individuals (identity, career paths, values, social representations, experience)?",
+      "How does backlash transform or disrupt individuals' relationships with work and the company?",
+      "What forms of individual and collective resistance to backlash can be observed? What are the conditions and effects of this resistance?",
+      "What is the role of researchers and what stance should they adopt in response to this phenomenon?",
+      "What methodological and epistemological approaches are best suited to studying backlash, its mechanisms, and its consequences? What methodological innovations are needed to better understand its contemporary forms?",
+      "How can organizational theory contribute to understanding the phenomenon of backlash?",
+      "What are the multi-level interactions between societal, organizational, and individual backlash?",
+      "How can backlash contribute to the emergence of other backlashes?"
+    ],
+    "description": {
+      "paragraphs": [
+        "The production and dissemination of knowledge, particularly on inequalities, climate change, and biodiversity, are increasingly under attack. These attacks are reflected in some political and administrative decisions adopted across several national contexts, such as the measures taken by President Donald Trump since his return to power. Beyond the US, academic freedom is being directly or indirectly undermined in many countries. For example, in France, controversies surrounding 'Islamo-leftism' within universities, reignited by the Minister of Higher Education, have been accompanied by concrete attacks on several scientific institutions.",
+        "Although research on grand challenges, sustainability, and ecosystem transitions is still ongoing, climate policies and the low-carbon transition are also under attack from many sides. These attacks range from climate scepticism to misinformation and lobbying, and aim to delay or weaken existing or future standards, as illustrated by the recent deregulation movement in Europe around the Omnibus law. Despite research pointing to the depletion of global resources, sustainable finance, ESG investing, and CSR are becoming increasingly polarized. Some asset managers are taking a more cautious approach to their commitments, and major players such as BlackRock announced in 2024 that they would be withdrawing ESG-labelled financial products. Some companies are reviewing their CSR practices and communication by adopting withdrawal or 'silence' strategies.",
+        "At the same time, the movement for equity, equality, and inclusion seems to be reaching a peak when it comes to considering diverse identities within organizations. And yet, it is simultaneously accompanied by growing opposition. The murder of George Floyd and the ensuing protests in 2020 intensified diversity initiatives, while fuelling a conservative backlash. In connection with these events, the public statements of certain companies, far from achieving consensus, have sometimes crystallized negative reactions.",
+        "Finally, the flexibilisation of work is also undergoing changes. While teleworking, part-time work and flexible hours have become the norm, particularly because of the health crisis, the ideal of constant availability remains dominant. Barriers to the use of these arrangements, such as stigmatization and career penalties, persist and are even becoming more pronounced, while calls for a return to the office are growing.",
+        "Whether it be attacks on science, the retreat from climate and financial commitments, the contestation of inclusion policies or the questioning of individualized management systems, these developments reflect a critical re-evaluation of social and ecological advances perceived as progressive: a phenomenon known as 'backlash'.",
+        "At its most basic level, backlash is defined as resistance to social progress. It is an active 'counterattack' against initiatives, programmes, knowledge, and policies that aim to change existing patterns of inequality and injustice. Used at a political level, the term refers to a retrograde goal of returning to a previous social condition, using extraordinary objectives and tactics that challenge dominant narratives to interfere with the dominant public discourse. The concept of 'backlash' emerged in the 1970s in the United States, in political science, to describe and analyse right-wing extremism. The emphasis is then placed on the link between 'backlash' and symbolic investment in the past: beyond simple opposition, backlash is often associated with fear of loss and nostalgia for an idealized past. In the 1990s, the feminist movement took up this notion, suggesting that every advance made by women triggers a hostile reaction to block or reverse their gains. Since then, it has been particularly mobilized in the field of gender studies and research on diversity, equality, and inclusion, which combine backlash with the study of the negative social and economic consequences affecting individuals who go against social norms.",
+        "Today, some researchers attribute a systematic nature to backlash. All projects aiming for social justice encounter resistance from privileged groups seeking to restore or maintain their power, contributing to a growing polarization of opinions. This development has been fuelled by several structural and psychological factors that have broadened its scope, including fear of losing resources, fear of the emergence of new dominant values, and questioning of existing values.",
+        "In management literature, the issue has mainly been explored from the perspective of diversity. Studies have focused on how women, particularly those in leadership positions, who challenge gender stereotypes may face a number of sanctions, such as hostile messages, negative evaluations, lack of promotion, or tensions with colleagues.",
+        "However, in a context where organizations play an increasingly political role, where they constitute a microcosm reflecting societal aspirations, and are part of increasingly connected networks of stakeholders, the phenomenon of backlash impacts organizations as a whole. Management and organization studies, together with other disciplines such as political science, sociology and psychology, can contribute to exploring the phenomenon at the institutional, organizational, managerial, and individual levels to shed new light on these dynamics, help us analyse them critically and position ourselves, as researchers and practitioners, in these debates.",
+        "At the institutional level, backlash can be understood through the three pillars—regulatory, normative, and cultural-cognitive—that structure the legitimacy of practices. It is not simply a matter of decline, but rather the outcome of institutional efforts aimed at undermining or redefining norms that were previously thought to be established. For example, the recent decline in commitment to sustainable development in the United States is based on anti-ESG laws passed in 37 states and decisions by the Supreme Court. At the same time, a 'backlash industry' is mobilizing framing marketing strategies to influence norms and representations. Nevertheless, institutional work does not only serve to destabilize institutions; it can also aim to defend, maintain, or strengthen them through various institutional maintenance practices involving stakeholders both inside and outside organizations.",
+        "At the organizational level, backlash can be overt, as illustrated by the explicit withdrawal of social or environmental policies under pressure following governance or political evolutions. These changes can generate opposition from stakeholders and can prove difficult to implement depending on how deeply rooted they are in regulations, culture, or processes. Alongside these apparent shifts, more subtle forms of backlash are also emerging: resource reductions, the withdrawal of objectives, silence, and changes in vocabulary, generating tensions between discourse and practice. Among stakeholders, trade unions play a central role in protecting existing rights. They constitute a counter-power that can either slow down backlash or contribute to it.",
+        "Managers appear to be key intermediaries, caught up in contexts of ambiguity, conflicting values and contradictory demands. Neither mere executors nor fully autonomous, they are faced with moral and political dilemmas, which sometimes lead them to support strategic changes, and sometimes to resist or attempt to preserve certain commitments. However, backlash remains poorly conceptualized as a specific managerial challenge with both organizational and societal dimensions.",
+        "At the individual level, organizational contexts characterized by normative uncertainty or contested values can exacerbate the identity and moral tensions experienced by individuals, with lasting effects on their commitment, well-being and career choices. These tensions drive action, with employees who are particularly sensitive to social or environmental issues making their voices heard within organizations in the form of internal activism. But threat is as much a cause as a consequence of backlash: it can emerge from perceived threats to the identity, status, or legitimacy of certain dominant groups, revealing ambivalent dynamics.",
+        "Taken together, these different levels do not function in isolation but feed into each other: institutional transformations redefine the organizational and managerial scope for action, which influences individual experiences, which in turn can help to consolidate, influence, or challenge existing institutional frameworks.",
+        "This special issue aims to contribute to the theorization of the backlash phenomenon by analysing its institutional, organizational, managerial, and individual manifestations. The objective is to gain a better understanding of the internal and external mechanisms that promote backlash, as well as its effects and their complex relationships. Ultimately, this special issue will seek to understand the representations and experiences of the various stakeholders faced with backlash, including the multiple forms of resistance it can generate.",
+        "This special issue calls for papers based on a variety of methodological and conceptual approaches and encourages the adoption of multidisciplinary approaches at the intersection of management science, sociology, political science, psychology, communication, philosophy and law, among others. Submitted articles may be conceptual or empirical and based on a variety of ontologies. They may explore in depth one of the manifestations of backlash (e.g. questioning of science, environmental commitments, DEI policies, or flexible work), take a more comprehensive approach to the phenomenon of backlash, or conduct comparative studies. Submitted manuscripts may also offer an analysis focused on a specific level of analysis (individual, managerial, organizational, or institutional) or undertake a multi-level analysis."
+      ]
+    },
+    "tags": [
+      "backlash",
+      "social progress",
+      "diversity and inclusion",
+      "organizational change",
+      "institutional dynamics",
+      "management studies"
+    ],
+    "editors": [
+      {
+        "name": "Sarah Richard",
+        "affiliation": "Audencia Business School"
+      },
+      {
+        "name": "Lucie Noury",
+        "affiliation": "Audencia Business School"
+      },
+      {
+        "name": "Pauline de Becdelièvre",
+        "affiliation": "Université Paris Saclay"
+      },
+      {
+        "name": "Céline Louche",
+        "affiliation": "Waikato Management School—University of Waikato"
+      },
+      {
+        "name": "Stéphan Pezé",
+        "affiliation": "Université Toulouse Capitole"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-19T10:00:00.000Z",
+        "description": "Deadline for paper proposals to workshop (maximum 3,000 words, including references)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-11-19T11:00:00.000Z",
+        "description": "Online paper development workshop organized by the guest editorial team across different time zones",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-02-01T11:00:00.000Z",
+        "description": "Opening of submission period for full papers",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-06-01T10:00:00.000Z",
+        "description": "Deadline for full paper submission",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2028-12-01T11:00:00.000Z",
+        "description": "Publication date",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:43:57.586Z"
+  },
+  {
     "journal": "Systèmes d'information & management",
     "abbreviation": "ojsfr",
     "issn": "2271-7188",
@@ -1372,190 +2050,6 @@
     ],
     "active": true,
     "pubDate": "2026-08-12T16:43:57.586Z"
-  },
-  {
-    "journal": "M@n@gement",
-    "abbreviation": "ojsfr",
-    "issn": "1286-4692",
-    "metaTitle": "‘Cold Cases’: Revisiting founding myths, iconic cases, and forgotten stories in management",
-    "url": "https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/48",
-    "title": "Cold Cases: Revisiting founding myths, iconic cases, and forgotten stories in management",
-    "slug": "ojsfr-cold-cases-revisiting-founding-myths-iconic-cases-and-forgotten-stories-in-management",
-    "contentHash": "0c47d2f2d1921a73c9d3de76f080389cb6c4d8e0ee8a2b5d4145431b4a1267ef",
-    "topics": [
-      "Reexamination and reinterpretation of canonical management cases (IBM, Xerox, Nokia, Kodak, Enron, etc.)",
-      "Empirical robustness and theoretical validity of emblematic cases in management scholarship",
-      "Performativity of famous cases and their role as epistemic artifacts",
-      "Processes of canonization and erasure in disciplinary memory",
-      "Circularity in qualitative management research and issues of confirmation bias",
-      "Role of founding myths in structuring management thinking and epistemic communities",
-      "Halo effects and the stratification of knowledge in management research",
-      "Forgotten cases and alternative narratives in management history",
-      "Critical reexamination of the Hawthorne experiments and other foundational studies",
-      "Replication, falsification, and verification in management research",
-      "Archaeology of management knowledge and disciplinary self-reflexivity"
-    ],
-    "description": {
-      "paragraphs": [
-        "Management research has long been populated by celebrated cases that have achieved the status of founding myths. Cases such as IBM's blindness to personal computing, Xerox's strategic myopia toward the graphical user interface, Nokia's fall to smartphones, the Mann Gulch fire, and Elton Mayo's Hawthorne experiments have become ubiquitous in the field's collective memory. These 'cold cases', endlessly cited and taught, structure ways of thinking and provide a shared foundation of representations that are central to the construction of epistemic communities.",
-        "Despite their pervasive influence, few studies scrutinize the empirical robustness, theoretical validity, or performativity of these emblematic cases. In management research, particularly in qualitative research, the risk of circularity is significant. Researchers working with inevitably heterogeneous and incomplete material may, even unconsciously, select data that confirm their theoretical priors, set aside disconfirming evidence, and ultimately favor demonstrations of the 'as if' type.",
-        "Management research's pursuit of 'theoretical gaps' has often privileged the production of new concepts at the expense of verification, reinterpretation, or falsification. This predilection leads to a stratification of knowledge where certain studies become canonical and generate 'halo effects', while others sink into oblivion not because they are invalid, but because they do not fit the dominant narratives of the discipline.",
-        "The aim of this special issue is to 'reopen the files of management' by challenging established truths, revisiting myths, excavating forgotten cases, and analyzing the processes of canonization and erasure that structure disciplinary memory. Famous cases such as Kodak, IBM, Enron, and Nokia must be regarded as epistemic artifacts, produced, reproduced, and sometimes distorted by scholarly communities, bearing narrative, moral, and institutional dimensions.",
-        "M@n@gement has established itself as a privileged venue for critical, reflexive, and interdisciplinary approaches in management research. This special issue continues this tradition by inviting the community to undertake an archaeology of its own knowledge. Revisiting 'cold cases' means interrogating how management research constructs its own history, its certainties, and its silences. It is a call to strengthen the cumulative and self-critical dimension of the field by restoring a rightful place to research grounded in the replication of experiments, the challenging of established findings, and recontextualization.",
-        "At a time when researchers are constantly pressured to produce 'new' knowledge, this special issue proposes to rehabilitate slow, reflexive research capable of revisiting taken-for-granted assumptions, reopening closed debates, and reinvigorating the controversies that are constitutive of knowledge production."
-      ]
-    },
-    "tags": [
-      "management research",
-      "canonical cases",
-      "mythology",
-      "epistemology",
-      "research methods",
-      "organizational history"
-    ],
-    "editors": [
-      {
-        "name": "Anaïs Boutru",
-        "affiliation": "Université Paris-Dauphine, PSL"
-      },
-      {
-        "name": "Linda Rouleau",
-        "affiliation": "HEC Montréal"
-      },
-      {
-        "name": "Géraldine Schmidt",
-        "affiliation": "Université Paris 1 Panthéon-Sorbonne"
-      },
-      {
-        "name": "Albéric Tellier",
-        "affiliation": "Université Paris-Dauphine, PSL"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-10-14T10:00:00.000Z",
-        "description": "Pre-submission workshop (online)",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-12-31T11:00:00.000Z",
-        "description": "Full paper submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
-  },
-  {
-    "journal": "M@n@gement",
-    "abbreviation": "ojsfr",
-    "issn": "1286-4692",
-    "metaTitle": "Is progress taken for granted? Social change, backlash, and resistance in organizations",
-    "url": "https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/50",
-    "title": "Social change, backlash, and resistance in organizations",
-    "slug": "ojsfr-is-progress-taken-for-granted-social-change-backlash-and-resistance-in-organizations",
-    "contentHash": "afbd5553787a7f82695910929b096e19721fbd5d9ba32f7182307a1d17c62a3e",
-    "topics": [
-      "What are the different forms of backlash affecting organizations? Are there 'invisible' forms of backlash?",
-      "How and to what extent does backlash contribute to the deinstitutionalization of established norms (e.g. ESG, DEI, climate)?",
-      "What forms of institutional work produce or hinder backlash?",
-      "What roles do different modes of governance and different forms of organization play in weakening or, conversely, protecting social progress? Are democratic organizations, in particular, more or less prone to backlash?",
-      "How do organizations respond, resist, protect themselves, and participate in backlash?",
-      "What are the risks, uncertainties, and tensions generated by backlash? How can they be managed?",
-      "What forms of collective response are organized to face backlash (e.g. meta-organizations, networks, lobbying)?",
-      "How do individuals participate in or resist backlash (e.g. through employee activism)?",
-      "What is the impact of backlash on individuals (identity, career paths, values, social representations, experience)?",
-      "How does backlash transform or disrupt individuals' relationships with work and the company?",
-      "What forms of individual and collective resistance to backlash can be observed? What are the conditions and effects of this resistance?",
-      "What is the role of researchers and what stance should they adopt in response to this phenomenon?",
-      "What methodological and epistemological approaches are best suited to studying backlash, its mechanisms, and its consequences? What methodological innovations are needed to better understand its contemporary forms?",
-      "How can organizational theory contribute to understanding the phenomenon of backlash?",
-      "What are the multi-level interactions between societal, organizational, and individual backlash?",
-      "How can backlash contribute to the emergence of other backlashes?"
-    ],
-    "description": {
-      "paragraphs": [
-        "The production and dissemination of knowledge, particularly on inequalities, climate change, and biodiversity, are increasingly under attack. These attacks are reflected in some political and administrative decisions adopted across several national contexts, such as the measures taken by President Donald Trump since his return to power. Beyond the US, academic freedom is being directly or indirectly undermined in many countries. For example, in France, controversies surrounding 'Islamo-leftism' within universities, reignited by the Minister of Higher Education, have been accompanied by concrete attacks on several scientific institutions.",
-        "Although research on grand challenges, sustainability, and ecosystem transitions is still ongoing, climate policies and the low-carbon transition are also under attack from many sides. These attacks range from climate scepticism to misinformation and lobbying, and aim to delay or weaken existing or future standards, as illustrated by the recent deregulation movement in Europe around the Omnibus law. Despite research pointing to the depletion of global resources, sustainable finance, ESG investing, and CSR are becoming increasingly polarized. Some asset managers are taking a more cautious approach to their commitments, and major players such as BlackRock announced in 2024 that they would be withdrawing ESG-labelled financial products. Some companies are reviewing their CSR practices and communication by adopting withdrawal or 'silence' strategies.",
-        "At the same time, the movement for equity, equality, and inclusion seems to be reaching a peak when it comes to considering diverse identities within organizations. And yet, it is simultaneously accompanied by growing opposition. The murder of George Floyd and the ensuing protests in 2020 intensified diversity initiatives, while fuelling a conservative backlash. In connection with these events, the public statements of certain companies, far from achieving consensus, have sometimes crystallized negative reactions.",
-        "Finally, the flexibilisation of work is also undergoing changes. While teleworking, part-time work and flexible hours have become the norm, particularly because of the health crisis, the ideal of constant availability remains dominant. Barriers to the use of these arrangements, such as stigmatization and career penalties, persist and are even becoming more pronounced, while calls for a return to the office are growing.",
-        "Whether it be attacks on science, the retreat from climate and financial commitments, the contestation of inclusion policies or the questioning of individualized management systems, these developments reflect a critical re-evaluation of social and ecological advances perceived as progressive: a phenomenon known as 'backlash'.",
-        "At its most basic level, backlash is defined as resistance to social progress. It is an active 'counterattack' against initiatives, programmes, knowledge, and policies that aim to change existing patterns of inequality and injustice. Used at a political level, the term refers to a retrograde goal of returning to a previous social condition, using extraordinary objectives and tactics that challenge dominant narratives to interfere with the dominant public discourse. The concept of 'backlash' emerged in the 1970s in the United States, in political science, to describe and analyse right-wing extremism. The emphasis is then placed on the link between 'backlash' and symbolic investment in the past: beyond simple opposition, backlash is often associated with fear of loss and nostalgia for an idealized past. In the 1990s, the feminist movement took up this notion, suggesting that every advance made by women triggers a hostile reaction to block or reverse their gains. Since then, it has been particularly mobilized in the field of gender studies and research on diversity, equality, and inclusion, which combine backlash with the study of the negative social and economic consequences affecting individuals who go against social norms.",
-        "Today, some researchers attribute a systematic nature to backlash. All projects aiming for social justice encounter resistance from privileged groups seeking to restore or maintain their power, contributing to a growing polarization of opinions. This development has been fuelled by several structural and psychological factors that have broadened its scope, including fear of losing resources, fear of the emergence of new dominant values, and questioning of existing values.",
-        "In management literature, the issue has mainly been explored from the perspective of diversity. Studies have focused on how women, particularly those in leadership positions, who challenge gender stereotypes may face a number of sanctions, such as hostile messages, negative evaluations, lack of promotion, or tensions with colleagues.",
-        "However, in a context where organizations play an increasingly political role, where they constitute a microcosm reflecting societal aspirations, and are part of increasingly connected networks of stakeholders, the phenomenon of backlash impacts organizations as a whole. Management and organization studies, together with other disciplines such as political science, sociology and psychology, can contribute to exploring the phenomenon at the institutional, organizational, managerial, and individual levels to shed new light on these dynamics, help us analyse them critically and position ourselves, as researchers and practitioners, in these debates.",
-        "At the institutional level, backlash can be understood through the three pillars—regulatory, normative, and cultural-cognitive—that structure the legitimacy of practices. It is not simply a matter of decline, but rather the outcome of institutional efforts aimed at undermining or redefining norms that were previously thought to be established. For example, the recent decline in commitment to sustainable development in the United States is based on anti-ESG laws passed in 37 states and decisions by the Supreme Court. At the same time, a 'backlash industry' is mobilizing framing marketing strategies to influence norms and representations. Nevertheless, institutional work does not only serve to destabilize institutions; it can also aim to defend, maintain, or strengthen them through various institutional maintenance practices involving stakeholders both inside and outside organizations.",
-        "At the organizational level, backlash can be overt, as illustrated by the explicit withdrawal of social or environmental policies under pressure following governance or political evolutions. These changes can generate opposition from stakeholders and can prove difficult to implement depending on how deeply rooted they are in regulations, culture, or processes. Alongside these apparent shifts, more subtle forms of backlash are also emerging: resource reductions, the withdrawal of objectives, silence, and changes in vocabulary, generating tensions between discourse and practice. Among stakeholders, trade unions play a central role in protecting existing rights. They constitute a counter-power that can either slow down backlash or contribute to it.",
-        "Managers appear to be key intermediaries, caught up in contexts of ambiguity, conflicting values and contradictory demands. Neither mere executors nor fully autonomous, they are faced with moral and political dilemmas, which sometimes lead them to support strategic changes, and sometimes to resist or attempt to preserve certain commitments. However, backlash remains poorly conceptualized as a specific managerial challenge with both organizational and societal dimensions.",
-        "At the individual level, organizational contexts characterized by normative uncertainty or contested values can exacerbate the identity and moral tensions experienced by individuals, with lasting effects on their commitment, well-being and career choices. These tensions drive action, with employees who are particularly sensitive to social or environmental issues making their voices heard within organizations in the form of internal activism. But threat is as much a cause as a consequence of backlash: it can emerge from perceived threats to the identity, status, or legitimacy of certain dominant groups, revealing ambivalent dynamics.",
-        "Taken together, these different levels do not function in isolation but feed into each other: institutional transformations redefine the organizational and managerial scope for action, which influences individual experiences, which in turn can help to consolidate, influence, or challenge existing institutional frameworks.",
-        "This special issue aims to contribute to the theorization of the backlash phenomenon by analysing its institutional, organizational, managerial, and individual manifestations. The objective is to gain a better understanding of the internal and external mechanisms that promote backlash, as well as its effects and their complex relationships. Ultimately, this special issue will seek to understand the representations and experiences of the various stakeholders faced with backlash, including the multiple forms of resistance it can generate.",
-        "This special issue calls for papers based on a variety of methodological and conceptual approaches and encourages the adoption of multidisciplinary approaches at the intersection of management science, sociology, political science, psychology, communication, philosophy and law, among others. Submitted articles may be conceptual or empirical and based on a variety of ontologies. They may explore in depth one of the manifestations of backlash (e.g. questioning of science, environmental commitments, DEI policies, or flexible work), take a more comprehensive approach to the phenomenon of backlash, or conduct comparative studies. Submitted manuscripts may also offer an analysis focused on a specific level of analysis (individual, managerial, organizational, or institutional) or undertake a multi-level analysis."
-      ]
-    },
-    "tags": [
-      "backlash",
-      "social progress",
-      "diversity and inclusion",
-      "organizational change",
-      "institutional dynamics",
-      "management studies"
-    ],
-    "editors": [
-      {
-        "name": "Sarah Richard",
-        "affiliation": "Audencia Business School"
-      },
-      {
-        "name": "Lucie Noury",
-        "affiliation": "Audencia Business School"
-      },
-      {
-        "name": "Pauline de Becdelièvre",
-        "affiliation": "Université Paris Saclay"
-      },
-      {
-        "name": "Céline Louche",
-        "affiliation": "Waikato Management School—University of Waikato"
-      },
-      {
-        "name": "Stéphan Pezé",
-        "affiliation": "Université Toulouse Capitole"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-10-19T10:00:00.000Z",
-        "description": "Deadline for paper proposals to workshop (maximum 3,000 words, including references)",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-11-19T11:00:00.000Z",
-        "description": "Online paper development workshop organized by the guest editorial team across different time zones",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-02-01T11:00:00.000Z",
-        "description": "Opening of submission period for full papers",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-06-01T10:00:00.000Z",
-        "description": "Deadline for full paper submission",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2028-12-01T11:00:00.000Z",
-        "description": "Publication date",
-        "is_full_paper_submission_deadline": false
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
   },
   {
     "journal": "Recherche et Applications en Marketing",
