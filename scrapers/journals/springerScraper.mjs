@@ -86,6 +86,44 @@ const JOURNALS = [
 const CARD_SELECTOR = 'article.app-card-collection';
 const CARD_TITLE_LINK_SELECTOR = 'h2.app-card-collection__heading a.app-card-collection__heading-link';
 
+// RUSTINE, a remplacer par un vrai filtre. Certaines revues utilisent le
+// mecanisme "collections" de Springer non pas pour des appels mais pour
+// leurs rubriques permanentes (types d'article, filieres de soumission,
+// sections editoriales). Elles apparaissent en "Open" indefiniment, sans
+// echeance : ce ne sont pas des appels a publications et elles n'ont rien a
+// faire sur le site.
+//
+// Liste etablie a la main en relisant les 23 appels Springer sans date de
+// soumission presents en base le 17/08/2026. On filtre par URL et non par
+// titre : "Data Papers" ou "Editorials" pourraient etre le nom legitime
+// d'un numero special ailleurs.
+//
+// Limite assumee : ne protege que des 11 collections deja reperees, pas des
+// rubriques equivalentes sur les autres revues ni de celles a venir. Le
+// vrai critere est a chercher dans le HTML de la page de detail (les vraies
+// collections se presentent comme "Special Collection"/"Topical Collection"
+// avec un appel a soumission, les rubriques decrivent ce que la revue
+// publie habituellement) -- attention, le nombre d'editeurs invites ne
+// discrimine pas : de vrais appels au fil de l'eau en affichent zero.
+const IGNORED_COLLECTION_URLS = new Set([
+    // Journal of International Business Studies
+    'https://link.springer.com/collections/hdefhffcad', // Book Reviews
+    'https://link.springer.com/collections/efhbejagjh', // Editorials
+    'https://link.springer.com/collections/feajigebbb', // Review Articles
+    // Transportation
+    'https://link.springer.com/collections/eeecdijhba', // Data Papers
+    // Marketing Letters
+    'https://link.springer.com/collections/fadijefbcb', // Replication Corner
+    // Journal of Business and Psychology
+    'https://link.springer.com/collections/jgecdgcfee', // Results-masked or Registered Report Review Process
+    // The European Journal of Health Economics (les 5 "department collections")
+    'https://link.springer.com/collections/cefjbgbaeb', // Economics of Insurance and Care Providers
+    'https://link.springer.com/collections/ahdbfeeefa', // Economics of Prevention, Health Behaviors, and Equity
+    'https://link.springer.com/collections/febebcjcbj', // Innovation, Technology Diffusion, and Organizational Change in Health Care
+    'https://link.springer.com/collections/aicebhehid', // Methodology of Economic Evaluation, Including Valuation of Health and Wellbeing
+    'https://link.springer.com/collections/hibdgjdfic', // Health Economics in Low- and Middle-Income Countries
+]);
+
 // Confirme via le HTML reel d'une page de detail /collections/{code} : le
 // titre et la revue participante (div.app-collection-masthead) sont hors de
 // <main id="main"> (freres dans le document, pas un parent commun exploitable
@@ -114,6 +152,7 @@ export const scraperObject = {
 
         const calls = [];
         let notFoundCount = 0;
+        let ignoredCount = 0;
         for (const journal of JOURNALS) {
             const issn = await matchIssn(journal.name);
             if (!issn) {
@@ -126,6 +165,13 @@ export const scraperObject = {
             const entries = await get_listings(browser, listingUrl);
 
             for (const entry of entries) {
+                // Filtre avant get_raw_content : une rubrique permanente
+                // ecartee ici, c'est aussi une page de detail non chargee.
+                if (IGNORED_COLLECTION_URLS.has(entry.url)) {
+                    ignoredCount++;
+                    continue;
+                }
+
                 await sleep(REQUEST_DELAY_MS);
                 const rawContent = await get_raw_content(browser, entry.url);
                 if (!rawContent) {
@@ -144,6 +190,7 @@ export const scraperObject = {
         }
         console.log(`[springer] ${calls.length} appel(s) trouve(s) sur ${JOURNALS.length} revue(s)`);
         console.log(`[springer] ${notFoundCount} appel(s) ignore(s), extraction du contenu brut echouee`);
+        console.log(`[springer] ${ignoredCount} rubrique(s) permanente(s) ecartee(s) sur ${IGNORED_COLLECTION_URLS.size} listee(s)`);
 
         return calls;
     }
