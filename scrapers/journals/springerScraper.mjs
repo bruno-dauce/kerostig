@@ -19,6 +19,23 @@ import { waitForCloudflare } from '../cloudflare.mjs';
 // (revue transferee chez Elsevier/ScienceDirect, confirme par recherche :
 // Springer n'en publie plus). Deja couverte par elsevierScraper.mjs si des
 // appels y paraissent.
+//
+// Les revues Palgrave Macmillan (editeur du groupe Springer Nature) sont
+// servies par la meme plateforme link.springer.com, au meme format : 4 des 6
+// revues Palgrave du perimetre FNEGE sont donc ajoutees ici (ID resolus par
+// le champ homepage_url d'OpenAlex comme ci-dessus, sauf 41267/JIBS dont le
+// homepage_url pointe vers l'ancien jibs.net -- ID confirme manuellement par
+// le <title> de la page /collections).
+//
+// European Journal of Information Systems (1476-9344) et Journal of the
+// Operational Research Society (1476-9360) sont exclues bien que le CSV les
+// rattache encore a Palgrave : les deux revues sont passees chez Taylor &
+// Francis (confirme via api.crossref.org/journals/{pissn}, qui renvoie
+// "Informa UK (Taylor & Francis)"). Leurs pages link.springer.com existent
+// toujours (41303 et 41274, statut 200) mais ne sont que des coquilles
+// d'archive : zero app-card-collection, verifie manuellement. Elles sont
+// couvertes par tfScraper.mjs, dont le matching par nom resout bien les deux
+// ISSN. Ne pas les rajouter ici sans reverifier Crossref.
 const JOURNALS = [
     { id: '11142', name: 'Review of Accounting Studies' },
     { id: '10640', name: 'Environmental and Resource Economics' },
@@ -53,6 +70,11 @@ const JOURNALS = [
     { id: '12525', name: 'Electronic Markets' },
     { id: '10257', name: 'Information Systems and e-Business Management' },
     { id: '11151', name: 'Review of Industrial Organization' },
+    // Palgrave Macmillan (cf. commentaire ci-dessus)
+    { id: '41267', name: 'Journal of International Business Studies' },
+    { id: '41288', name: 'The Geneva Papers on Risk and Insurance Issues and Practice' },
+    { id: '10713', name: 'The Geneva Risk and Insurance Review' },
+    { id: '41262', name: 'Journal of Brand Management' },
 ];
 
 // Confirme via le HTML reel de la page /collections?filter=Open : chaque

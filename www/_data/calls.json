@@ -1,5 +1,455 @@
 [
   {
+    "journal": "Journal of Financial Services Research",
+    "abbreviation": "springer",
+    "issn": "1573-0735",
+    "metaTitle": "Banking and Finance in Cross-Strait Economies (*BY INVITATION ONLY*)",
+    "url": "https://link.springer.com/collections/ieiifbfhcf",
+    "title": "Banking and Finance in Cross-Strait Economies",
+    "slug": "springer-banking-and-finance-in-cross-strait-economies-by-invitation-only",
+    "contentHash": "0c06805e8271135be591573428c55dfe766abc966361ca304bafd9ce34cd726d",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue welcomes invited submissions on banking and finance in cross-strait economies. Please note that this special issue is by invitation only. Papers submitted by non-invited authors will be sent back for submission to the general journal."
+      ]
+    },
+    "tags": [
+      "banking",
+      "finance",
+      "cross-strait economies"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-30T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T21:44:37.523Z"
+  },
+  {
+    "journal": "Information Systems Frontiers",
+    "abbreviation": "springer",
+    "issn": "1572-9419",
+    "metaTitle": "Advancing towards a Responsible and Resilient Digital Future",
+    "url": "https://link.springer.com/collections/ffhgdbhbad",
+    "title": "Advancing towards a Responsible and Resilient Digital Future",
+    "slug": "springer-advancing-towards-a-responsible-and-resilient-digital-future",
+    "contentHash": "a9b192562d446c046957322cf9bb99e501c83d65f785fa9669f0ab64a6f37922",
+    "topics": [
+      "Responsible AI and AI Governance",
+      "Resilient Information Systems and Digital Platforms",
+      "Human–AI Collaboration and Decision Making",
+      "Digital Transformation and Innovation",
+      "User Behaviour in Digital Environment",
+      "Digital Trust, Privacy, and Cybersecurity",
+      "Data Governance and AI-Enabled Decision Making",
+      "Digital Inclusion, Accessibility, and Societal Impact",
+      "Policy and Governance of Digital Technologies",
+      "Design Science Research for Responsible and Resilient IS",
+      "AI and future of work and education",
+      "Opportunities and challenges does AI create for society",
+      "Skills and mindsets that will remain uniquely human in an AI-driven world"
+    ],
+    "description": {
+      "paragraphs": [
+        "Digital technologies have become foundational to contemporary organizations, markets, governments, and society. Artificial intelligence (AI), digital platforms, blockchain, cloud computing, and the Internet of Things (IoT) are transforming how people work, learn, interact, and create value. These technologies create significant economic, organizational, and societal value. They help businesses transform, support better decisions, and open new services for communities. At the same time, they bring serious risks, including algorithmic bias, privacy violations, cybersecurity threats, misinformation, digital exclusion, and workforce disruption. Recent research shows that adopting a technology does not always lead to real benefits for organizations or society, and value from digital investment is often uneven and varies across situations. There is rising concern about the dark side of digital technologies, including misuse, overuse, and unintended harm.",
+        "Addressing these challenges requires information systems that are simultaneously responsible and resilient. Responsible digital systems should be fair, transparent, ethical, and accountable. They should protect human rights, respect privacy, and keep humans in control of important decisions. Resilient digital systems should withstand disruptions, resist attacks, recover from failures, and continue delivering value under changing conditions. Responsibility and resilience are mutually reinforcing. Systems perceived as unfair will lose user trust. Similarly, systems that cannot withstand disruptions are unlikely to sustain long-term organizational or societal value. Despite their interdependence, responsibility and resilience have largely evolved as separate streams of research.",
+        "Information systems researchers are uniquely positioned to examine the interplay between digital technologies, individuals, organizations, institutions, and society. It provides a unique lens for understanding how humans and AI collaborate, how users interact with digital platforms, how organizations realize value from digital technologies, and how governance and policy shape digital outcomes. It can also show how digital tools can serve communities, including vulnerable groups, and support accessibility for all. Nevertheless, significant opportunities remain for theory-driven and empirically rigorous research. We need studies that go beyond simple adoption stories and give deeper insight into post-adoption use, value realization, human–machine collaboration, governance of AI, and the long-term impact of digital systems on business and society.",
+        "This special issue responds to that need. It invites scholars and practitioners to examine how information systems can advance a responsible and resilient digital future. We invite theoretically grounded, methodologically rigorous, and practically relevant research that advances understanding of responsible and resilient digital futures. Submissions may use various research methods, such as conceptual and theoretical work, surveys, experiments, case studies, and design science methods.",
+        "This special issue is linked to the India Conference on Information Systems (InCIS 2027), which carries the same theme. The authors of selected high-quality papers from the conference will be invited to submit substantially extended versions to this special issue. The special issue is also open to all authors through this open call, even if not submitted to the conference.",
+        "We encourage studies that move beyond surface-level narratives and offer nuanced insight into how responsibility and resilience can be built into digital systems. Submissions that challenge existing paradigms, explore underexamined dimensions, or offer new frameworks are especially encouraged. Submissions must clearly identify the specific digital technologies and contexts examined. Purely technical or system-level papers without an IS, behavioural, organisational, or societal contribution are outside the scope of this special issue."
+      ]
+    },
+    "tags": [
+      "responsible ai",
+      "resilient systems",
+      "digital governance",
+      "information systems"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-09-15T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T21:44:37.523Z"
+  },
+  {
+    "journal": "Journal of International Business Studies",
+    "abbreviation": "springer",
+    "issn": "1478-6990",
+    "metaTitle": "Microfoundations of International Business",
+    "url": "https://link.springer.com/collections/fbcifgfdga",
+    "title": "Microfoundations of International Business",
+    "slug": "springer-microfoundations-of-international-business",
+    "contentHash": "07b5c086375eea35a43bab1004707f718b320b443c12e6689c3c97e1d774b690",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "Journal of International Business Studies (JIBS) is a multidisciplinary journal publishing innovative research across eight sub-domains of international business studies."
+      ]
+    },
+    "tags": [
+      "international business",
+      "microfoundations"
+    ],
+    "editors": [
+      {
+        "name": "Jeoung Yul Lee",
+        "affiliation": "EMLYON Business School"
+      },
+      {
+        "name": "Riikka M. Sarala",
+        "affiliation": "University of North Carolina at Greensboro"
+      },
+      {
+        "name": "Nadia Zahoor",
+        "affiliation": "Queen Mary University of London"
+      },
+      {
+        "name": "Samuel Adomako",
+        "affiliation": "University of Birmingham"
+      },
+      {
+        "name": "Fang Lee Cooke",
+        "affiliation": "Monash University"
+      },
+      {
+        "name": "Herman Aguinis",
+        "affiliation": "The George Washington University"
+      },
+      {
+        "name": "Pawan Budhwar",
+        "affiliation": "Aston University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-11-30T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T21:44:37.523Z"
+  },
+  {
+    "journal": "Journal of International Business Studies",
+    "abbreviation": "springer",
+    "issn": "1478-6990",
+    "metaTitle": "Book Reviews",
+    "url": "https://link.springer.com/collections/hdefhffcad",
+    "title": "Book Reviews",
+    "slug": "springer-book-reviews",
+    "contentHash": "109cb6e9801c113c1f345d2b342ef530a19483dd63f8ea887aa1f7c88153dd1f",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "JIBS book reviews consider both recent scholarship and enduring classics that are relevant to the JIBS readership and the multidisciplinary scope of the journal. The purpose of book reviews is to make these publications accessible, reflect on their key themes, evaluate their contribution to the field, and set out the future agenda that they may inspire."
+      ]
+    },
+    "tags": [
+      "book reviews",
+      "international business"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T21:44:37.523Z"
+  },
+  {
+    "journal": "Journal of International Business Studies",
+    "abbreviation": "springer",
+    "issn": "1478-6990",
+    "metaTitle": "Editorials",
+    "url": "https://link.springer.com/collections/efhbejagjh",
+    "title": "Editorials",
+    "slug": "springer-editorials",
+    "contentHash": "9a9d8bad0ef8cb8dc8680c8e9e46420f4cdae8a6bcf7cff413d969aeb9862461",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "JIBS editorials not only give a compelling snapshot of the content of a particular issue, they also provide a cogent synthesis of themes running through particular issues and of current topicality and concern."
+      ]
+    },
+    "tags": [
+      "editorial",
+      "international business"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T21:44:37.523Z"
+  },
+  {
+    "journal": "Journal of International Business Studies",
+    "abbreviation": "springer",
+    "issn": "1478-6990",
+    "metaTitle": "Review Articles",
+    "url": "https://link.springer.com/collections/feajigebbb",
+    "title": "Review Articles",
+    "slug": "springer-review-articles",
+    "contentHash": "b654871d0dbfd40aaecb8a9fa3bbe83f756001c1071707e40096743b1aee536b",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "JIBS Review Articles provide a compelling summary of the state-of-the-art in a well-researched subject area within the IB field, explore the links between this subject area and complementary research streams in related disciplines, establish an agenda for future research."
+      ]
+    },
+    "tags": [
+      "international business",
+      "review articles"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T21:44:37.523Z"
+  },
+  {
+    "journal": "The Geneva Papers on Risk and Insurance Issues and Practice",
+    "abbreviation": "springer",
+    "issn": "1468-0440",
+    "metaTitle": "Legal and economic issues of emerging (liability) risks and insurance",
+    "url": "https://link.springer.com/collections/cfejjafgag",
+    "title": "Legal and economic issues of emerging (liability) risks and insurance",
+    "slug": "springer-legal-and-economic-issues-of-emerging-liability-risks-and-insurance",
+    "contentHash": "bfe0d0bda2279343624cd62d551e86a13afdd5cb6cfd696c881c6d73feadc048",
+    "topics": [
+      "Legal aspects of emerging liability risks",
+      "Economic analysis of emerging risks",
+      "Insurance coverage for emerging risks",
+      "Liability risk assessment and management"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue is organized on the back of the 21st Joint Seminar of the European Association of Law and Economics (EALE) and the Geneva Association that took place on 18–19 June 2026 in Cambridge. The special issue focuses on legal and economic issues related to emerging liability risks and insurance, bringing together scholarly work presented and discussed at this seminar."
+      ]
+    },
+    "tags": [
+      "insurance",
+      "liability risks",
+      "law and economics",
+      "emerging risks"
+    ],
+    "editors": [
+      {
+        "name": "Christophe Courbage",
+        "affiliation": "The Geneva Association"
+      },
+      {
+        "name": "Senara Eggleton",
+        "affiliation": "University of Cambridge"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-01T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T21:44:37.523Z"
+  },
+  {
+    "journal": "The Geneva Papers on Risk and Insurance Issues and Practice",
+    "abbreviation": "springer",
+    "issn": "1468-0440",
+    "metaTitle": "Digital and AI Transformation in Insurance",
+    "url": "https://link.springer.com/collections/ehfjdjbhdd",
+    "title": "Digital and AI Transformation in Insurance",
+    "slug": "springer-digital-and-ai-transformation-in-insurance",
+    "contentHash": "727f6842bbc8623641d8776153c7f3abfada7e6ea26d395c74c4973948f09b00",
+    "topics": [
+      "Digital technologies and their impact on insurance",
+      "Artificial intelligence applications in insurance",
+      "Data science in risk identification and pricing",
+      "InsurTechs and automation in insurance",
+      "Risk mitigation and transfer in digital contexts",
+      "Insurance regulation in the digital age",
+      "Consumer implications of digital transformation",
+      "Societal impacts of AI in insurance"
+    ],
+    "description": {
+      "paragraphs": [
+        "Digital technologies, artificial intelligence, data science, InsurTechs, and automation are reshaping how risks are identified, priced, mitigated, transferred, managed, and regulated. These developments raise important questions not only for re/insurers and regulators, but also for the wider research community.",
+        "This special issue welcomes high-quality empirical, experimental, policy-oriented, and practice-based contributions that deepen our understanding of digital and AI transformation in insurance and related risk-transfer markets. We particularly encourage submissions that speak to broad academic debates while offering clear implications for insurance markets, insurers, consumers, regulators, and society."
+      ]
+    },
+    "tags": [
+      "digital transformation",
+      "artificial intelligence",
+      "insurance",
+      "risk management",
+      "insurtech"
+    ],
+    "editors": [
+      {
+        "name": "Anja Grujovic-Vischer",
+        "affiliation": "The Geneva Association"
+      },
+      {
+        "name": "Ruo Jia",
+        "affiliation": "Peking University"
+      },
+      {
+        "name": "Zhiyu Quan",
+        "affiliation": "University of Illinois Urbana-Champaign"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T21:44:37.523Z"
+  },
+  {
+    "journal": "The Geneva Papers on Risk and Insurance Issues and Practice",
+    "abbreviation": "springer",
+    "issn": "1468-0440",
+    "metaTitle": "Longevity Risks, Insurance and the Pensions Gap",
+    "url": "https://link.springer.com/collections/hgbeadhdfg",
+    "title": "Longevity Risks, Insurance and the Pensions Gap",
+    "slug": "springer-longevity-risks-insurance-and-the-pensions-gap",
+    "contentHash": "e9436e94e28469fedd667f41fec92778e3827632e5661478fde996b686bee60b",
+    "topics": [
+      "Economics of the pensions gap",
+      "Market responses to longevity and pension risks",
+      "Policy responses to longevity and pension risks",
+      "Insurance-based solutions to the pensions gap",
+      "Long-term risk management by households",
+      "Defined-benefit pensions decline and alternatives",
+      "Public finance pressures and pension systems",
+      "Longevity risk transfer mechanisms"
+    ],
+    "description": {
+      "paragraphs": [
+        "Rising longevity and declining fertility are widening the pensions gap. The decline of defined-benefit pensions and pressures on public finances have shifted complex long-term risks onto households that are often ill-prepared to manage them. This special issue explores the economics of the pensions gap as well as market and policy responses to it, with a particular focus on insurance-based solutions."
+      ]
+    },
+    "tags": [
+      "longevity risk",
+      "pensions",
+      "insurance",
+      "retirement",
+      "social security"
+    ],
+    "editors": [
+      {
+        "name": "Hélène Schernberg",
+        "affiliation": "The Geneva Association"
+      },
+      {
+        "name": "Cheng Wan",
+        "affiliation": "ETH Zurich"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-25T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T21:44:37.523Z"
+  },
+  {
+    "journal": "The Geneva Risk and Insurance Review",
+    "abbreviation": "springer",
+    "issn": "1554-9658",
+    "metaTitle": "Transformative Challenges in Agricultural Insurance",
+    "url": "https://link.springer.com/collections/dcdedhgcgb",
+    "title": "Transformative Challenges in Agricultural Insurance",
+    "slug": "springer-transformative-challenges-in-agricultural-insurance",
+    "contentHash": "fdf048e2f05cfd0fc858e56b41248bf6ca3fd60f3ed5f64240ec7875866ee974",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "The Geneva Risk and Insurance Review and the European Group of Risk and Insurance Economists are pleased to announce a colloquium and special issue on Transformative Challenges in Agricultural Insurance."
+      ]
+    },
+    "tags": [
+      "agricultural insurance",
+      "risk management",
+      "insurance economics"
+    ],
+    "editors": [
+      {
+        "name": "Christoph Heinzel",
+        "affiliation": "INRAE"
+      },
+      {
+        "name": "Cécile Aubert",
+        "affiliation": "BSE"
+      },
+      {
+        "name": "Marielle Brunette",
+        "affiliation": "INRAE"
+      },
+      {
+        "name": "Shawn Cole",
+        "affiliation": "HBS"
+      },
+      {
+        "name": "Alexandre Gohin",
+        "affiliation": "INRAE"
+      },
+      {
+        "name": "Jörg Schiller",
+        "affiliation": "University of Hohenheim"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-23T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-16T21:44:37.523Z"
+  },
+  {
     "journal": "European Journal of Marketing",
     "abbreviation": "emerald",
     "issn": "1758-7123",
@@ -1383,9 +1833,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Environmental and Resource Economics",
@@ -1442,9 +1891,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Environmental and Resource Economics",
@@ -1502,9 +1950,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Environmental and Resource Economics",
@@ -1559,9 +2006,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Journal of Business and Psychology",
@@ -1606,9 +2052,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "The Journal of Technology Transfer",
@@ -1672,9 +2117,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "The Journal of Technology Transfer",
@@ -1684,7 +2128,7 @@
     "url": "https://link.springer.com/collections/haciddhhcg",
     "title": "Ecosystems in Chaos: Addressing Grand Societal Challenges",
     "slug": "springer-ecosystems-in-chaos-addressing-grand-societal-challenges",
-    "contentHash": "c78963426bbcbaea209968a851214ddeb20d50af4a71961839262c7200d7c958",
+    "contentHash": "1addde589b7a22444383caff781e4a9e3bf070b2d5bce98edde2662595ad8691",
     "topics": [],
     "description": {
       "paragraphs": []
@@ -1696,20 +2140,20 @@
     ],
     "editors": [
       {
-        "name": "Wisdom Kanda",
-        "affiliation": "Linköping University"
-      },
-      {
-        "name": "David Audretsch",
-        "affiliation": "Indiana University Bloomington"
-      },
-      {
-        "name": "Magnus Klofsten",
-        "affiliation": "Linköping University"
+        "name": "David B. Audretsch",
+        "affiliation": "Indiana University"
       },
       {
         "name": "Maribel Guerrero",
         "affiliation": "Arizona State University"
+      },
+      {
+        "name": "Wisdom Kanda",
+        "affiliation": "Linköping University"
+      },
+      {
+        "name": "Magnus Klofsten",
+        "affiliation": "Linköping University"
       }
     ],
     "associate_editors": [],
@@ -1720,9 +2164,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "International Entrepreneurship and Management Journal",
@@ -1770,9 +2213,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "International Entrepreneurship and Management Journal",
@@ -1836,9 +2278,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "International Entrepreneurship and Management Journal",
@@ -1896,9 +2337,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Scientometrics",
@@ -1940,9 +2380,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Management International Review",
@@ -2011,9 +2450,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Management International Review",
@@ -2073,9 +2511,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Journal of Business Ethics",
@@ -2145,9 +2582,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Journal of Business Ethics",
@@ -2216,9 +2652,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Journal of Business Ethics",
@@ -2228,7 +2663,7 @@
     "url": "https://link.springer.com/collections/gghhfcdbgh",
     "title": "Animals and Business Ethics: Reimagining Multispecies Co-existence In Business and Society",
     "slug": "springer-call-for-papers-animals-and-business-ethics-reimagining-multispecies-co-existence-in-business-and-society",
-    "contentHash": "87497c632ef1a675e5557486f241ea4e88263c2bab810a97c4d8a083ec74953f",
+    "contentHash": "e0b9cbaa5e2963a2c74b1eb147c0f9035713a210b5968988e305fd5bdadf3e2a",
     "topics": [
       "Applying animal ethics theories to business ethics: Using specific animal ethics theories (e.g., rights-based, utilitarian, care ethics) to address business ethics issues",
       "Corporate disclosure, CSR, and accounting for animals: Examining how businesses disclose and account for their impact on animals",
@@ -2244,19 +2679,19 @@
     ],
     "description": {
       "paragraphs": [
-        "Whilst human treatment of animals has long been a subject of considerable debate within the ethics literature, it is only in more recent years that scholars in business have examined ethical issues around the tourism and food industries, innovation, business education, animal rights and business failure, posthumanism, art, work involving animals, multispecies space, animal protection work, and stakeholder theory. Such interest is to be welcomed. Nevertheless, the interest that business scholars have shown in non-human animals remains piecemeal, and often seems unaware of non-Western or indigenous perspectives. Additionally, ongoing technological developments that have the potential to radically transform the moral demarcations we make between humans and other non-human animals have hitherto received limited attention. Such transformations could slow down, or potentially reverse, the exponential increase in human domination over animals that has been evidenced over the past two centuries, and could significantly impact producers who still depend on traditional ways of animal production.",
-        "The present call seeks studies that critically examine human-animal relations in the workplace, industry, or other societally organized spaces. We invite contributions that take an ethical, political, and/or multispecies lens to bring animals from the margins to the center of focus and analysis. We are especially interested in scholarly work that builds on interdisciplinary insights from animal ethics in general.",
-        "Industrial animal agriculture not only causes enormous animal suffering but also has severe negative ramifications for our planetary ecosystem, biodiversity, climate change, and species extinction. Despite this, meat production is at its highest level ever, with an expanding animal industry. Given that these animals are commonly raised in inhumane and unnatural circumstances, further discussion on the ethical challenges of killing sentient animals for food and alternative ways of producing animal products is required.",
+        "Whilst human treatment of animals has long been a subject of considerable debate within the ethics literature, it is only in more recent years that scholars in business have examined ethical issues around the tourism and food industries, innovation, business education, animal rights and business failure, posthumanism, art, work involving animals, multispecies space, animal protection work, and stakeholder theory. Such interest is to be welcomed. Nevertheless, the interest that business scholars have shown in animals remains piecemeal, and often seems unaware of non-Western or indigenous perspectives. Additionally, ongoing technological developments that have the potential to radically transform the moral demarcations we make between humans and animals have hitherto received limited attention. Such transformations could slow down, or potentially reverse, the exponential increase in human domination over animals that has been evidenced over the past two centuries, and could significantly impact producers who still depend on traditional ways of animal production.",
+        "In light of such considerations, this special issue seeks studies that critically examine human-animal relations in the workplace, industry, or other societally organized spaces. Contributions should take an ethical, political, and/or multispecies lens to bring animals from the margins to the center of focus and analysis. The editors are especially interested in scholarly work that builds on interdisciplinary insights from animal ethics in general.",
+        "Industrial animal agriculture not only causes enormous animal suffering but also has severe negative ramifications for our planetary ecosystem, biodiversity, climate change, and species extinction. Despite this, meat production is at its highest level ever, with an expanding animal industry. The world consumption per capita of poultry, for instance, went from 10 to 15 kg in the period 2000-2019. Given that these animals are commonly raised in inhumane and unnatural circumstances, further discussion on the ethical challenges of killing sentient animals for food, and of alternative ways of producing animal products such as slaughter-free meat technology, is required.",
         "Corporate disclosure concerning animal welfare also awaits further discussion. Companies may be reluctant to include animals in their CSR reports and codes of ethics, fearing potential accountability issues from powerful activists and social movements. Only a few recent scholarly efforts have explored the question of CSR and animal welfare. Some scholars have chosen to be deliberately critical and provoke change by, for example, advocating for an accounting of animal welfare as a potential avenue forward.",
-        "Recent work on DEI has highlighted the overlapping inequalities animals and marginalised humans face, requiring equality policies that are both multispecies and intersectional. Others have called for more research around intersecting issues of asymmetrical power and care, like the ecofeminist tradition, as well as interspecies solidarity and justice. Developing multispecies inclusivity based on illuminating the animal's standpoint moves the traditional organizational lens to a post-anthropocentric way of perceiving, fostering multispecies wellbeing. Scholars might thus also seek inspiration from Indigenous ontologies which perceive life as interconnected."
+        "Recent work on DEI has highlighted the overlapping inequalities animals and marginalised humans face, requiring equality policies that are both multispecies and intersectional. Others too have called for more research around intersecting issues of asymmetrical power and care, like the ecofeminist tradition, as well as interspecies solidarity and justice. Developing multispecies inclusivity based on illuminating the animal's standpoint moves the traditional organizational lens to a post-anthropocentric way of perceiving, fostering multispecies wellbeing. Scholars might also seek inspiration from Indigenous ontologies which perceive life as interconnected."
       ]
     },
     "tags": [
       "animal ethics",
       "business ethics",
       "multispecies",
-      "csr",
-      "corporate responsibility"
+      "corporate social responsibility",
+      "animal welfare"
     ],
     "editors": [
       {
@@ -2292,13 +2727,12 @@
     "dates": [
       {
         "date": "2026-08-31T10:00:00.000Z",
-        "description": "Full paper submission deadline",
+        "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -2369,9 +2803,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -2435,9 +2868,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -2501,9 +2933,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -2561,9 +2992,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -2628,9 +3058,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -2693,9 +3122,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -2757,9 +3185,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -2830,9 +3257,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -2898,9 +3324,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -2950,9 +3375,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -3007,9 +3431,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -3019,26 +3442,35 @@
     "url": "https://link.springer.com/collections/hcgebaicga",
     "title": "OR for Sustainability in Supply Chain Management",
     "slug": "springer-or-for-sustainability-in-supply-chain-management",
-    "contentHash": "0b16f5d89aa16586ea46ba9281865dfc4c8148feee8bd4e335f0313c416aca69",
+    "contentHash": "010fe43dd92f048e13f475172f11d918b1382500545bdda38c90b6dbe6451387",
     "topics": [
-      "Designing and policymaking in SDGs through stakeholder support: to provide examples of sustainable policy and design making with multi-stakeholder perspectives and to define how sustainability is considered in framing policies and enumerating success factors and challenges on supply chain management",
-      "Implementing SDGs in supply chains through innovative strategies and practices: to identify the sustainable goals, indicators, and practices related to the implementation of sustainable supply chain management and to explore how this knowledge may be used to effectively manage and conserve resources with less environmental and societal impact",
-      "Monitoring supply chain governance and implications with a focus on SDGs: to elaborate practices and supporting mechanisms in measuring, monitoring, and reporting progress toward achieving targets, and to further emphasize various challenges related to the implementation of SDGs in supply chain management in different applications/context/economies"
+      "Designing and policymaking in SDGs through stakeholder support",
+      "Implementing SDGs in supply chains through innovative strategies and practices",
+      "Monitoring supply chain governance and implications with a focus on SDGs",
+      "Multi-attribute decision making (MADM) and multi-objective decision making (MODM) applications",
+      "Green and lean supply chain approaches",
+      "Resource conservation and efficiency in supply chains",
+      "Eco-efficient and socio-economic systems",
+      "Sustainable policy and design making with multi-stakeholder perspectives",
+      "Sustainable goals, indicators, and practices in supply chain management",
+      "Measuring, monitoring, and reporting progress toward SDG targets"
     ],
     "description": {
       "paragraphs": [
-        "Organizations must rethink and optimize their existing strategies to meet their sustainable business goals, due to the constant depletion of vital resources and the greater demands of societal issues. The increasing population not only has an impact on natural resources, but it also results in greater pollution and contributes to greater levels of poverty. With these considerations, on September 25, 2015, some countries adopted a new set of sustainability development goals (SDGs) to end poverty and to improve prosperity worldwide. Seventeen sustainable development goals have been targeted to achieve by 2030 under the new sustainable development agenda. Further, these sustainable development goals encompass a range of perspectives and various levels of applications, including supply chain management.",
-        "In recent years, researchers and practitioners have addressed supply chain management issues because of their significant impacts on organizational developments regardless of the field of applications. Over the years, researchers have proven that an inefficient supply chain can force an organization to fail. Hence, integrating SDGs in operations and supply chain management areas is an important topic to explore. Many studies sought to explore sustainability in supply chain management with a wide range of concepts and strategies, including green, lean, and other approaches with a special focus on newly targeted SDGs. Research is needed to further analyze and shape the implementation of SDGs in supply chain management environments with the help of advanced operations research (OR) methods, including multi-attribute decision making (MADM) and multi-objective decision making (MODM).",
-        "The main objective of this special section is to invite academic practitioners to contribute a better understanding of the scientific basis for decoupling economic growth from resource depletion and environmental degradation while improving human lives with the assistance of advanced OR methods. It is believed that advanced optimization models and algorithms can improve data-driven decision models by either formulating pattern discoveries and knowledge extraction problems or by defining efficient algorithms for implementing SDGs in supply chain management at a macro level. Additionally, new algorithms continually make efficiency gains and improve the applicability of older algorithms. Virtually every numerical analysis includes several optimization algorithms that can be applied to design sustainability in supply chain. With these concerns, this special section pertains to sustainable supply chain management (SSCM) by making direct connections between resources, the environment, the economy, and the goal of achieving SDGs in different parts of the world through OR methods.",
-        "These themes should incorporate an integrated approach: looking at possibilities of connecting the conservation of resources with sustainable human economic activities (from a supply chain perspective), and monitoring progress towards sustainable indicator strategies with the support of multi stakeholders in predominant inter- and intra- organizational management fields. This special section will comprise a significant body of knowledge about how natural resources are being utilized in various economies and will address the impact of this use on the eco-efficient and socio-economic systems, and suggest pathways of transitioning to a more sustainable future. This perspective includes building on and expounding the significance of resource conservation and efficiency along with a societal focus to improve sustainable development in supply chain management by achieving the proposed SDGs.",
-        "This special section seeks to be specific regarding the different kinds of sustainable supply chains because they can affect the policy implications of different sustainable indicators. In addition to these ideas, this special section welcomes authors to contact us to discuss other possible subtopics. To encourage effective methods and thereby motivate the authors to adopt a variety of sustainable supply chain perspectives in approaching this subject, the special section Editor has purposely kept the above list of suggested topics short. However, all submissions must suit within the domain statement of the journal."
+        "Organizations must rethink and optimize their existing strategies to meet their sustainable business goals, due to the constant depletion of vital resources and the greater demands of societal issues. The increasing population not only has an impact on natural resources, but it also results in greater pollution and contributes to greater levels of poverty. On September 25, 2015, some countries adopted a new set of sustainability development goals (SDGs) to end poverty and to improve prosperity worldwide. Seventeen sustainable development goals have been targeted to achieve by 2030 under the new sustainable development agenda. These sustainable development goals encompass a range of perspectives and various levels of applications, including supply chain management.",
+        "In recent years, researchers and practitioners have addressed supply chain management issues because of their significant impacts on organizational developments regardless of the field of applications. An inefficient supply chain can force an organization to fail. Hence, integrating SDGs in operations and supply chain management areas is an important topic to explore. Many studies sought to explore sustainability in supply chain management with a wide range of concepts and strategies, including green, lean, and other approaches with a special focus on newly targeted SDGs. Research is needed to further analyze and shape the implementation of SDGs in supply chain management environments with the help of advanced operations research (OR) methods, including multi-attribute decision making (MADM) and multi-objective decision making (MODM).",
+        "The main objective of this special section is to invite academic practitioners to contribute a better understanding of the scientific basis for decoupling economic growth from resource depletion and environmental degradation while improving human lives with the assistance of advanced OR methods. It is believed that advanced optimization models and algorithms can improve data-driven decision models by either formulating pattern discoveries and knowledge extraction problems or by defining efficient algorithms for implementing SDGs in supply chain management at a macro level. Additionally, new algorithms continually make efficiency gains and improve the applicability of older algorithms. Virtually every numerical analysis includes several optimization algorithms that can be applied to design sustainability in supply chain.",
+        "This special section pertains to sustainable supply chain management (SSCM) by making direct connections between resources, the environment, the economy, and the goal of achieving SDGs in different parts of the world through OR methods. The themes should incorporate an integrated approach: looking at possibilities of connecting the conservation of resources with sustainable human economic activities (from a supply chain perspective), and monitoring progress towards sustainable indicator strategies with the support of multi stakeholders in predominant inter- and intra- organizational management fields.",
+        "This special section will comprise a significant body of knowledge about how natural resources are being utilized in various economies and will address the impact of this use on the eco-efficient and socio-economic systems, and suggest pathways of transitioning to a more sustainable future. This perspective includes building on and expounding the significance of resource conservation and efficiency along with a societal focus to improve sustainable development in supply chain management by achieving the proposed SDGs.",
+        "This special section seeks to be specific regarding the different kinds of sustainable supply chains because they can affect the policy implications of different sustainable indicators. In addition to the suggested themes, this special section welcomes authors to contact the editors to discuss other possible subtopics. All submissions must suit within the domain statement of the journal."
       ]
     },
     "tags": [
-      "sustainability",
-      "supply chain management",
+      "sustainable supply chains",
+      "sustainable development goals",
       "operations research",
-      "sustainable development goals"
+      "supply chain management",
+      "optimization"
     ],
     "editors": [
       {
@@ -3054,9 +3486,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -3111,9 +3542,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Asia Pacific Journal of Management",
@@ -3170,9 +3600,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Asia Pacific Journal of Management",
@@ -3182,24 +3611,25 @@
     "url": "https://link.springer.com/collections/cijfhfhifa",
     "title": "Techno-Nationalism, State Strategy, and Corporate Innovation in the Asia-Pacific",
     "slug": "springer-techno-nationalism-state-strategy-and-corporate-innovation-in-the-asia-pacific",
-    "contentHash": "67a8851bddc60b0f4d52e3c1a509b1cc1d01b27ce5bfc97e7aa89d7c69db6033",
+    "contentHash": "c086e7251afeff3ff97e611056ef769ed9ce6e6792e7b6c13c7f1663306d7771",
     "topics": [
-      "Techno-nationalism and national competitiveness",
-      "Strategic importance of technology in institutional security and social stability",
-      "Impact of techno-nationalism on corporate innovation and strategy",
-      "Macro-level politics and micro-level firm practices in the context of technology",
-      "Resilience-building pathways of Asia-Pacific firms",
-      "Innovation strategies in response to techno-nationalism"
+      "Techno-nationalism and its impact on corporate innovation",
+      "State strategy and technology policy in the Asia-Pacific region",
+      "Corporate innovation pathways in response to techno-nationalism",
+      "National competitiveness and strategic importance of technology",
+      "Institutional security and social stability through technology",
+      "Resilience-building strategies for Asia-Pacific firms",
+      "International business research on macro-level politics and micro-level firm practices"
     ],
     "description": {
       "paragraphs": [
-        "In today's highly digitalized and knowledge-driven global economy, technology has come to signify far more than traditional notions of productivity and efficiency. Its strategic importance has risen to the level of a critical determinant of national competitiveness, institutional security, and social stability. Against this backdrop, the emergence of techno-nationalism represents a salient new trend.",
-        "Investigating how techno-nationalism reshapes corporate innovation and strategy can not only fill the theoretical gap in existing IB research between macro-level politics and micro-level firm practices, but also provide new insights into the resilience-building and innovation pathways of Asia-Pacific firms in this new normal."
+        "In today's highly digitalized and knowledge-driven global economy, technology has come to signify far more than traditional notions of productivity and efficiency. Its strategic importance has risen to the level of a critical determinant of national competitiveness, institutional security, and social stability.",
+        "Against this backdrop, the emergence of techno-nationalism represents a salient new trend. Investigating how techno-nationalism reshapes corporate innovation and strategy can not only fill the theoretical gap in existing IB research between macro-level politics and micro-level firm practices, but also provide new insights into the resilience-building and innovation pathways of Asia-Pacific firms in this new normal."
       ]
     },
     "tags": [
       "techno-nationalism",
-      "corporate innovation",
+      "innovation",
       "asia-pacific",
       "international business"
     ],
@@ -3224,14 +3654,13 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-08-31T12:00:00.000Z",
+        "date": "2026-08-31T10:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Review of Managerial Science",
@@ -3334,9 +3763,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Journal of the Academy of Marketing Science",
@@ -3383,9 +3811,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Marketing Letters",
@@ -3395,12 +3822,12 @@
     "url": "https://link.springer.com/collections/fadijefbcb",
     "title": "Replication Corner",
     "slug": "springer-replication-corner",
-    "contentHash": "d3600680ae04f3f89db8196a759cc6ec792d5b6b2e296f0355c1b7880437c8b3",
+    "contentHash": "fb4a86be3b8c208a796a5a8bc657960be865cf83c5c09096f8fba950aaf7619a",
     "topics": [
-      "Replication of important and highly cited published papers in marketing and consumer behavior",
-      "Establishment of empirical generalizations",
-      "Identification of boundary conditions and moderators of effects",
-      "Complementary work on existing published papers"
+      "Complementary work on important existing published papers in marketing and consumer behavior",
+      "Establishing empirical generalizations and boundary conditions of effects",
+      "Replicating highly cited papers on important marketing topics",
+      "Testing moderators of published effects"
     ],
     "description": {
       "paragraphs": [
@@ -3427,9 +3854,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "The European Journal of Health Economics",
@@ -3477,9 +3903,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "The European Journal of Health Economics",
@@ -3523,9 +3948,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "The European Journal of Health Economics",
@@ -3570,9 +3994,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "The European Journal of Health Economics",
@@ -3613,9 +4036,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "The European Journal of Health Economics",
@@ -3655,9 +4077,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Quality of Life Research",
@@ -3706,9 +4127,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Quality of Life Research",
@@ -3759,9 +4179,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Quality of Life Research",
@@ -3811,9 +4230,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Transportation",
@@ -3857,9 +4275,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Information Systems Frontiers",
@@ -3934,9 +4351,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Information Systems Frontiers",
@@ -4042,9 +4458,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Information Systems Frontiers",
@@ -4141,9 +4556,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Information Systems Frontiers",
@@ -4214,9 +4628,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Electronic Markets",
@@ -4282,9 +4695,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Electronic Markets",
@@ -4357,9 +4769,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Electronic Markets",
@@ -4432,9 +4843,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Electronic Markets",
@@ -4505,9 +4915,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Electronic Markets",
@@ -4571,9 +4980,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Electronic Markets",
@@ -4635,9 +5043,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Electronic Markets",
@@ -4691,9 +5098,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
     "journal": "Accounting History",
