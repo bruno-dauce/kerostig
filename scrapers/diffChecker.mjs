@@ -4,19 +4,21 @@ import { parse } from './llmParser.mjs'
 import { clean } from './dataPreparation.mjs';
 import { echeanceDepassee, joursDepuisEcheance } from './echeance.mjs';
 
-// Au-dela de ce nombre d'appels au passage precedent, un scraper qui ne
-// remonte plus rien est juge suspect plutot que legitimement vide.
-const SEUIL_SCRAPER_VIDE = 10;
-
 // Delai apres l'echeance de soumission au-dela duquel un appel encore actif
 // est archive d'office. Plus large que la tolerance d'affichage de 7 jours
 // (eleventy.config.mjs) : on masque vite, on ne touche aux donnees qu'a coup sur.
 const JOURS_APRES_ECHEANCE = 30;
 
-// Un editeur ne retire pas dix appels ou plus le meme jour : un scraper qui
-// passe de dix appels a zero a bien plus probablement echoue en silence (site
-// injoignable, anti-bot, HTML refondu). On le signale et on gele ses appels
-// au lieu de les archiver, la decision de vrai retrait restant humaine.
+// Un scraper qui alimentait la base et qui rentre brutalement bredouille a
+// bien plus probablement echoue en silence (site injoignable, anti-bot, HTML
+// refondu) qu'assiste au retrait simultane de tous ses appels. Des un appel
+// actif au passage precedent contre zero au passage courant, on le signale et
+// on gele ses appels au lieu de les archiver, la decision de vrai retrait
+// restant humaine. Pas de seuil plancher : les petits producteurs (AFC, AGRH,
+// DM, RE, SAGE) mouraient en silence tant qu'il en existait un.
+// Le comptage cote ancien ne retient que les appels actifs : un scraper dont
+// tous les appels sont deja archives n'a plus rien a perdre, il n'alerte donc
+// qu'une fois, au passage ou il tombe.
 // Fonction pure, exportee pour pouvoir etre testee isolement.
 export function detecterScrapersVides(newCalls, oldCalls, ranAbbreviations) {
     if (!ranAbbreviations) return [];
@@ -28,10 +30,10 @@ export function detecterScrapersVides(newCalls, oldCalls, ranAbbreviations) {
         return total;
     };
     const nouveaux = compter(newCalls);
-    const anciens = compter(oldCalls);
+    const anciensActifs = compter(oldCalls.filter(call => call.active));
     return ranAbbreviations
-        .filter(abbr => (nouveaux.get(abbr) || 0) === 0 && (anciens.get(abbr) || 0) >= SEUIL_SCRAPER_VIDE)
-        .map(abbr => ({ abbreviation: abbr, avant: anciens.get(abbr) }));
+        .filter(abbr => (nouveaux.get(abbr) || 0) === 0 && (anciensActifs.get(abbr) || 0) > 0)
+        .map(abbr => ({ abbreviation: abbr, avant: anciensActifs.get(abbr) }));
 }
 
 // ranAbbreviations : abbreviations des scrapers effectivement lances ce run
@@ -47,8 +49,8 @@ export async function integrateCalls(newCalls, ranAbbreviations = null) {
 
     const scrapersVides = detecterScrapersVides(newCalls, oldCalls, ranAbbreviations);
     for (const { abbreviation, avant } of scrapersVides) {
-        console.warn(`\n[ALERTE] ${abbreviation} : 0 appel remonte, contre ${avant} au passage precedent.`);
-        console.warn(`[ALERTE] Ses ${avant} appels sont conserves tels quels, aucun n'est bascule en inactif.`);
+        console.warn(`\n[ALERTE] ${abbreviation} : 0 appel remonte, contre ${avant} appel(s) actif(s) au passage precedent.`);
+        console.warn(`[ALERTE] Ses ${avant} appel(s) actif(s) sont conserves tels quels, aucun n'est bascule en inactif.`);
         console.warn(`[ALERTE] A verifier a la main : vrai retrait de l'editeur, ou echec silencieux du scraper ?\n`);
     }
     // Le pipeline continue : on gele ces appels, on ne bloque pas le passage.
