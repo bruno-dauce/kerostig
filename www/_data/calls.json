@@ -1,5 +1,1188 @@
 [
   {
+    "journal": "Human Resource Management Journal",
+    "abbreviation": "wiley",
+    "issn": "1748-8583",
+    "metaTitle": "Call for Special Issue Proposals",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/17488583/cfp/HRMJ-Call-for-SI-Proposals-July2026-1784073913747.pdf",
+    "title": "Special Issue Proposals",
+    "slug": "wiley-call-for-special-issue-proposals",
+    "contentHash": "75f77d4a1c74a60e870690e9111e38c6a4105bac4352c424b217ab6621b55258",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "The Editors of the Human Resource Management Journal (HRMJ) invite applications for special issue proposals on themes related to the core aims and scope of the Journal. Special issue proposals will need to be cutting edge in terms of theoretical contributions, methodological innovation and rigour, with a level of critical scholarship that engages with policy and/or practice."
+      ]
+    },
+    "tags": [
+      "human resource management",
+      "special issue"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-08-25T10:00:00.000Z",
+        "description": "Submission deadline for special issue proposals",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Human Resource Management Journal",
+    "abbreviation": "wiley",
+    "issn": "1748-8583",
+    "metaTitle": "From Human Resource Management (HRM) to Artificial Intelligence Management (AIM)? — Algorithms and the Changing Governance of People at Work",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/17488583/cfp/HRMJ-SI-Aroles-et-al-CfP-2026-1775667338823.pdf",
+    "title": "From Human Resource Management (HRM) to Artificial Intelligence Management (AIM)? — Algorithms and the Changing Governance of People at Work",
+    "slug": "wiley-from-human-resource-management-hrm-to-artificial-intelligence-management-aim-algorithms-and-the-changing-governance-of-people-at-work",
+    "contentHash": "ff995f4f7dd3796b2dc00a265fd8f7310bde8dea3872704a01e4a6417ef8a73b",
+    "topics": [
+      "AI and algorithmic management in organizational contexts",
+      "The role of algorithms in HR decision-making and workforce management",
+      "Transformation of HR practices through artificial intelligence",
+      "Governance of people at work in the age of algorithms",
+      "Impact of AI on employment relationships and worker autonomy",
+      "Ethical considerations in algorithmic management",
+      "Data-driven HR and talent management systems",
+      "Worker surveillance and monitoring through algorithms",
+      "Resistance and adaptation to algorithmic management",
+      "Regulatory and policy frameworks for AI in HR"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue explores the fundamental shift from traditional Human Resource Management (HRM) to Artificial Intelligence Management (AIM), examining how algorithms are reshaping the governance of people at work. As organizations increasingly deploy algorithmic systems to manage recruitment, performance evaluation, scheduling, and other HR functions, we need to critically understand the implications for workers, organizations, and society.",
+        "The collection seeks to bring together diverse perspectives on how algorithms are transforming workplace governance, the mechanisms through which algorithmic management operates, and the consequences for employment relationships, worker agency, and organizational practices. We welcome contributions that examine both the promises and perils of algorithmic management across different sectors, geographies, and worker populations."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "human resource management",
+      "algorithmic management",
+      "workforce governance",
+      "employment"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-15T10:00:00.000Z",
+        "description": "Extended abstract submission deadline",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Human Resource Management Journal",
+    "abbreviation": "wiley",
+    "issn": "1748-8583",
+    "metaTitle": "Advancing Robust Scale Development for Human Resource Management Research",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/17488583/cfp/CfP-SI-HRMScales2025-1749142310090.pdf",
+    "title": "Advancing Robust Scale Development for Human Resource Management Research",
+    "slug": "wiley-advancing-robust-scale-development-for-human-resource-management-research",
+    "contentHash": "ea56f75c4ab5896dd74c14122181bbc15e2d6b3095e21fa6879ef8e2716a9c48",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-10-01T10:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-11-30T11:00:00.000Z",
+        "description": "Submission window closes",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Human Resource Management Journal",
+    "abbreviation": "wiley",
+    "issn": "1748-8583",
+    "metaTitle": "New Vistas for Human Resources Management Research in the Global South",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/17488583/cfp/HRMJ_NewVistasHRM_GlobalSouth_HRMJSI_REVISED-1775735682930.pdf",
+    "title": "New Vistas for Human Resources Management Research in the Global South",
+    "slug": "wiley-new-vistas-for-human-resources-management-research-in-the-global-south",
+    "contentHash": "b2df65bf8cfe0b0205e521bc8eb451a8a2c18bfa438e451eeaf75658e7279874",
+    "topics": [
+      "Exploring alternative theoretical frameworks and paradigms for HRM in the Global South",
+      "Indigenous and culturally-rooted HRM approaches and practices",
+      "HRM in informal economies and non-traditional work arrangements",
+      "Human agency, worker voice, and resistance in HRM systems",
+      "HRM's role in addressing inequality, social justice, and sustainable development",
+      "Technology, digitalization, and their impacts on HRM in emerging economies",
+      "HRM in post-colonial and transitional contexts",
+      "Labor standards, worker protection, and ethical HRM practices in the Global South",
+      "Comparative HRM studies across Global South regions",
+      "Organizational learning and knowledge management in Global South contexts"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue seeks to advance Human Resources Management (HRM) research by centering perspectives, experiences, and contexts from the Global South. While HRM scholarship has traditionally been dominated by Western theoretical frameworks and assumptions, there is a critical need to develop contextually-grounded HRM knowledge that reflects the unique institutional, economic, social, and cultural realities of countries and regions in Africa, Asia, Latin America, the Middle East, and other parts of the Global South.",
+        "The special issue welcomes empirical studies, theoretical contributions, critical reviews, and methodological innovations that challenge dominant HRM paradigms and offer new insights into how organizations manage human resources in Global South contexts. We are particularly interested in research that moves beyond adapting Western HRM models and instead develops indigenous, culturally-sensitive, and locally-relevant approaches to understanding people management.",
+        "Contributors are encouraged to engage with diverse epistemologies, research methodologies, and analytical frameworks that honor the complexity and diversity of HRM practices across the Global South. This includes qualitative, quantitative, mixed-methods, and participatory action research approaches that center local voices and experiences."
+      ]
+    },
+    "tags": [
+      "human resources management",
+      "global south",
+      "hrm research",
+      "emerging economies",
+      "organizational management"
+    ],
+    "editors": [
+      {
+        "name": "Edwina Pio",
+        "affiliation": "Auckland University of Technology"
+      },
+      {
+        "name": "Stephen Kalilpakdee",
+        "affiliation": "Assumption University of Thailand"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-01T11:00:00.000Z",
+        "description": "Submission window",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Human Resource Management Journal",
+    "abbreviation": "wiley",
+    "issn": "1748-8583",
+    "metaTitle": "Overqualification and Sustainable Talent Management: Challenges and Opportunities for Human Resource Management",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/17488583/cfp/HRMJ-SI-Luksyte-et-al-CfP-2026-1775667340130.pdf",
+    "title": "Overqualification and Sustainable Talent Management: Challenges and Opportunities for Human Resource Management",
+    "slug": "wiley-overqualification-and-sustainable-talent-management-challenges-and-opportunities-for-human-resource-management",
+    "contentHash": "d7b4a77a390819b1e113a534102594eda95f0e9ab06899049a55280181f6a9b0",
+    "topics": [
+      "Overqualification and person-job (PJ) fit",
+      "Overqualification and person-organization (PO) fit",
+      "Overqualification and sustainable HRM practices",
+      "Career development and advancement opportunities for overqualified employees",
+      "Retention strategies for overqualified talent",
+      "Underemployment and its organizational consequences",
+      "Skills utilization and employee engagement among overqualified workers",
+      "Diversity, equity, and inclusion implications of overqualification",
+      "Global perspectives on overqualification and talent management",
+      "Technological change and overqualification trends",
+      "Organizational culture and overqualification",
+      "Psychological contract violations and overqualified employees",
+      "Training and development for overqualified talent",
+      "Selection and recruitment practices addressing overqualification",
+      "Organizational performance implications of overqualification"
+    ],
+    "description": {
+      "paragraphs": [
+        "Overqualification—when employees possess education, skills, or experience exceeding job requirements—represents a significant and growing challenge in contemporary organizations. This phenomenon has become increasingly prevalent due to economic fluctuations, technological disruption, and shifting labor market dynamics. Despite its prevalence, overqualification remains under-researched in human resource management (HRM) literature, with limited guidance for practitioners navigating its complexities.",
+        "The sustainability of talent management practices depends on effectively addressing overqualification to ensure organizational viability, employee well-being, and long-term competitive advantage. Overqualified employees often experience underutilization of their capabilities, which can lead to reduced engagement, increased turnover, and diminished organizational performance. Conversely, organizations that strategically manage overqualified talent may unlock opportunities for innovation, enhanced performance, and sustainable competitive advantage.",
+        "This special issue seeks to advance scholarly understanding of overqualification and its implications for sustainable HRM. We welcome empirical studies, theoretical contributions, and practical insights that illuminate how organizations can effectively manage overqualified talent while promoting employee well-being, organizational effectiveness, and sustainable talent management practices. Research exploring the intersection of overqualification with diversity, equity, and inclusion initiatives, as well as global perspectives on this phenomenon, is particularly encouraged."
+      ]
+    },
+    "tags": [
+      "overqualification",
+      "talent management",
+      "human resource management",
+      "sustainable hrm",
+      "employee engagement"
+    ],
+    "editors": [
+      {
+        "name": "Asta Luksyte",
+        "affiliation": "+affiliation not provided in source"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-01T11:00:00.000Z",
+        "description": "Submission window",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Human Resource Management Journal",
+    "abbreviation": "wiley",
+    "issn": "1748-8583",
+    "metaTitle": "Reconsidering Careers in Post-Covid-19 Workplaces",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/17488583/HRMJ_SI_CfP_Reconsidering-careers-in-post-Covid-19-workplaces-1695915202630.pdf",
+    "title": "Previous Calls for Papers",
+    "slug": "wiley-reconsidering-careers-in-post-covid-19-workplaces",
+    "contentHash": "61841fdd9bbe1794cde3307ecdf848818e9c64aed3931aead1fb513840aa14cd",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This section lists previous calls for papers from the Human Resource Management Journal. The calls include topics such as reconsidering careers in post-Covid-19 workplaces, caring for healthcare workers and advancing human resource management research in healthcare contexts, research methodologies that offer insights, and interfacing artificial intelligence technologies with human resource management in new firms."
+      ]
+    },
+    "tags": [
+      "human resource management",
+      "previous calls"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "International Journal of Selection and Assessment",
+    "abbreviation": "wiley",
+    "issn": "1468-2389",
+    "metaTitle": "seen here",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14682389/IJSA%20Special%20Issue%20Call%20for%20Proposals-1616513564887.pdf",
+    "title": "Call for Papers",
+    "slug": "wiley-seen-here",
+    "contentHash": "5d84e731fe9495869bb7f03e4f803ae2fc9eb1dbaba479e32fdb6dd063587b1c",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This page is dedicated to current Calls for Papers. The journal welcomes submissions within the scope of each individual call.",
+        "Submissions should be prepared according to the Author Guidelines.",
+        "The Editorial team are also inviting submissions of new special issue proposals."
+      ]
+    },
+    "tags": [
+      "general call",
+      "journal submissions"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Creativity and Innovation Management",
+    "abbreviation": "wiley",
+    "issn": "1467-8691",
+    "metaTitle": "Fostering Bottom-up Innovation in Organizations",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14678691/cfp/CIM-special-issue-Bottom-up-innovation-Final-version-August-2025-1-27-1754647979803.pdf",
+    "title": "Fostering Bottom-up Innovation in Organizations",
+    "slug": "wiley-fostering-bottom-up-innovation-in-organizations",
+    "contentHash": "888cff34417da6d215282ec307e40835c89aa1456a3c344508755a8e63be0019",
+    "topics": [
+      "Generation of ideas from lower-level employees (shop-floor, front-line, blue-collar workers)",
+      "Evaluation and selection of bottom-up ideas",
+      "Implementation of bottom-up innovation in organizations",
+      "Mechanisms and processes of bottom-up innovation",
+      "Organizational structures and cultures that enable bottom-up innovation",
+      "Comparison between top-down and bottom-up innovation approaches",
+      "Underlying assumptions in bottom-up innovation research",
+      "Strategic benefits and competitive advantages of bottom-up innovation"
+    ],
+    "description": {
+      "paragraphs": [
+        "Innovation in general, encompassing the generation, selection, and implementation of ideas, is an indispensable asset for organizations and networks aiming for strategic rejuvenation and a competitive edge. Traditionally, organizations organize innovation top down, relying on the expertise of R&D departments or senior managers.",
+        "In contrast, bottom-up innovation is the generation, evaluation/selection, and implementation of new ideas originating from lower level employees such as shop-floor employees, front line employees or blue collar workers.",
+        "This special issue aims to further our knowledge on how ideas from the lower levels of the organization are generated and implemented. Adopting a problematization methodology for generating research questions, it aims to identify, articulate and explore underlying assumptions in extant research, so that they can be challenged and lead to the development of influential theory."
+      ]
+    },
+    "tags": [
+      "bottom-up innovation",
+      "organizational innovation",
+      "employee-driven innovation",
+      "innovation management"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-01-31T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Creativity and Innovation Management",
+    "abbreviation": "wiley",
+    "issn": "1467-8691",
+    "metaTitle": "The Sociomateriality of Creativity: Objects, Methods, and Spaces",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14678691/cfp/SI-CIM-The-Sociomateriality-of-Creativity-final-UPDATED-1771355061670.pdf",
+    "title": "The Sociomateriality of Creativity: Objects, Methods, and Spaces",
+    "slug": "wiley-the-sociomateriality-of-creativity-objects-methods-and-spaces",
+    "contentHash": "54cd9ddf876c5e63ebac0a463c1b561fd4783429aec72f342af82cace825b21c",
+    "topics": [
+      "Role of sociomateriality in the emergence of creativity within organizations and institutions",
+      "How creativity is shaped by sociomaterial configurations",
+      "Interplay of objects, tools, methods, technologies, and spaces with human actors",
+      "Entangled interactions between people and material environments"
+    ],
+    "description": {
+      "paragraphs": [
+        "Creativity is not only the product of cognitive processes or social dynamics—it also unfolds through the entangled interactions between people and the material environments they evolve in. This call invites contributions that explore how creativity is shaped by sociomaterial configurations: the interplay of objects, tools, methods, technologies, and spaces with human actors."
+      ]
+    },
+    "tags": [
+      "creativity",
+      "sociomateriality",
+      "organizational studies",
+      "material culture"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-03-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Creativity and Innovation Management",
+    "abbreviation": "wiley",
+    "issn": "1467-8691",
+    "metaTitle": "Methodological Advances for Creativity and Innovation Management Research",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14678691/CIM_Special%20Issue%20CfP_Research%20Methods_MAY2024-1716301921140.pdf",
+    "title": "Methodological Advances for Creativity and Innovation Management Research",
+    "slug": "wiley-methodological-advances-for-creativity-and-innovation-management-research",
+    "contentHash": "7b65491dfe2c0762df4e06ee10b930df23b3a73edb8f1c02a8b3adb217d46bd0",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Supply Chain Management",
+    "abbreviation": "wiley",
+    "issn": "1745-493X",
+    "metaTitle": "here.",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/1745493x/cfp/2025-JSCM-Call-for-Special-Issue-Proposals-1761236614287.pdf",
+    "title": "Special Issues Proposal",
+    "slug": "wiley-here",
+    "contentHash": "4c00b67be41bd923b53666cd1d663a67afda576a615b228a66a92ea9be1aafa0",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This is a call for special issue proposals for the Journal of Supply Chain Management. Proposals should follow the Special Issues Proposal Guidelines available in the provided document."
+      ]
+    },
+    "tags": [
+      "supply chain management",
+      "special issue"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-12-31T11:00:00.000Z",
+        "description": "Deadline for submissions",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Supply Chain Management",
+    "abbreviation": "wiley",
+    "issn": "1745-493X",
+    "metaTitle": "Moving Marginalized Communities toward the Centre: Balancing Diverse Perspectives",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/1745493X/cfp/2025.04.08-CfP-JSCM-SI-Final-1782332237403.pdf",
+    "title": "Moving Marginalized Communities toward the Centre: Balancing Diverse Perspectives",
+    "slug": "wiley-moving-marginalized-communities-toward-the-centre-balancing-diverse-perspectives",
+    "contentHash": "0693d9413894e9337c897772d0aeb401dc647a80227b2fa14b3f687b8c4680aa",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-07-31T10:00:00.000Z",
+        "description": "Deadline for submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Supply Chain Management",
+    "abbreviation": "wiley",
+    "issn": "1745-493X",
+    "metaTitle": "Toward novel ways of doing qualitative research in SCM: a developmental initiative",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/1745493X/cfp/Revised-CfP_JSCM-Qual-Initiative_Rosca-Seepma-Stephens-Grimm-1780423236870.pdf",
+    "title": "Toward novel ways of doing qualitative research in SCM: a developmental initiative",
+    "slug": "wiley-toward-novel-ways-of-doing-qualitative-research-in-scm-a-developmental-initiative",
+    "contentHash": "9535186516bdfa036fb838aac407ace9bc02114aad2386212e616f0de27b3b5c",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue invites submissions that explore innovative approaches to qualitative research in supply chain management. The initiative aims to advance methodological practices and contribute to novel ways of conducting qualitative investigations in the SCM field."
+      ]
+    },
+    "tags": [
+      "qualitative research",
+      "supply chain management",
+      "methodology"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-30T10:00:00.000Z",
+        "description": "Deadline for submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Supply Chain Management",
+    "abbreviation": "wiley",
+    "issn": "1745-493X",
+    "metaTitle": "Improving quantitative empirics in supply chain management",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/1745493X/cfp/Quantitative-empirics-SCM-SI-CfP-JSCM-26Apr2026-1778616699817.pdf",
+    "title": "Improving quantitative empirics in supply chain management",
+    "slug": "wiley-improving-quantitative-empirics-in-supply-chain-management",
+    "contentHash": "360c1ef0527932225d0a70f44b933523e09624e12a767708bb042a2640bc0716",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "supply chain management",
+      "quantitative research"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-02-01T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Supply Chain Management",
+    "abbreviation": "wiley",
+    "issn": "1745-493X",
+    "metaTitle": "Expanding the Frontiers of Supply Chain Management through Traditional Knowledge and\nIndigenous Worldviews",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/1745493X/cfp/JSCM-SI-Expanding-Frontiers-SCM-through-Indigenous-worldviews-1778616696727.pdf",
+    "title": "Expanding the Frontiers of Supply Chain Management through Traditional Knowledge and Indigenous Worldviews",
+    "slug": "wiley-expanding-the-frontiers-of-supply-chain-management-through-traditional-knowledge-and-indigenous-worldviews",
+    "contentHash": "f6b7a0442c20bfd42fd9c58d61a06f3bcb4db2c7c9861f62e1d6e3309b75839f",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "supply chain management",
+      "indigenous knowledge"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-10-31T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Supply Chain Management",
+    "abbreviation": "wiley",
+    "issn": "1745-493X",
+    "metaTitle": "Emerging Discourse Incubator: Complex Adaptive Supply Networks in Turbulent Times",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/1745493X/cfp/CASN_JSCM%20EDI_final-1708727292310.pdf",
+    "title": "Complex Adaptive Supply Networks in Turbulent Times",
+    "slug": "wiley-emerging-discourse-incubator-complex-adaptive-supply-networks-in-turbulent-times",
+    "contentHash": "67fdade7d27eadb5c98601d8d3dcbada1904b17480e9185e244fc51aebc3ec51",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Open call for papers",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Supply Chain Management",
+    "abbreviation": "wiley",
+    "issn": "1745-493X",
+    "metaTitle": "Listen to the Editors,",
+    "url": "https://oscm.aom.org/viewdocument/journal-of-supply-chain-management?CommunityKey=a6ede3d3-269f-49bf-9dcf-3e06ebe1d133tab=librarydocuments",
+    "title": "",
+    "slug": "wiley-listen-to-the-editors",
+    "contentHash": "b8dae6faed90debca1dfe4ff52ff622c6121c132443a97a03a48dfa3569d3efb",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "International Journal of Management Reviews",
+    "abbreviation": "wiley",
+    "issn": "1468-2370",
+    "metaTitle": "Theorising Organisational Coevolution in a Complex World",
+    "url": "https://www.bam.ac.uk/resource/theorising-organisational-coevolution-in-a-complex-world.html",
+    "title": "Theorising Organisational Coevolution in a Complex World",
+    "slug": "wiley-theorising-organisational-coevolution-in-a-complex-world",
+    "contentHash": "89544edd56c3d21d00bd5191c600b6092bca473ed4589167e0c2fb8a442bfe26",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "organizational coevolution",
+      "complexity"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-03-01T11:00:00.000Z",
+        "description": "Full paper submission window",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Corporate Governance An International Review",
+    "abbreviation": "wiley",
+    "issn": "1467-8683",
+    "metaTitle": "Call for Special Issue Proposals",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14678683/cfp/CORG-CFP-for-special-issues-2xyear-1767900981420.pdf",
+    "title": "Corporate Governance: An International Review Special Issue Proposals",
+    "slug": "wiley-call-for-special-issue-proposals-2",
+    "contentHash": "0b8aeaba65b6f8e8f1c74322e21d13ff550782a7148a259f12ec46a897e78f86",
+    "topics": [
+      "Corporate governance research with broad appeal",
+      "International business research on corporate governance phenomena",
+      "Exercise of power over corporate entities",
+      "Stakeholder value creation",
+      "Stakeholder accountability",
+      "Wealth protection, generation, and distribution in firms"
+    ],
+    "description": {
+      "paragraphs": [
+        "Corporate Governance: An International Review invites proposals for special issues that focus on a specific area of research that has broad appeal and fits with the aims and scope of the journal.",
+        "The mission of CGIR is to publish cutting-edge international business research on the phenomena of corporate governance throughout the global economy. Corporate governance is defined broadly as the exercise of power over corporate entities so as to increase the value provided to the organization's various stakeholders, as well as making those stakeholders accountable for acting responsibly with regard to the protection, generation, and distribution of wealth invested in the firm."
+      ]
+    },
+    "tags": [
+      "corporate governance",
+      "business research",
+      "stakeholder management"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-03-01T11:00:00.000Z",
+        "description": "Submission window opening",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-04-01T10:00:00.000Z",
+        "description": "First submission window closing",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-09-01T10:00:00.000Z",
+        "description": "Second submission window opening",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-10-01T10:00:00.000Z",
+        "description": "Second submission window closing",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Corporate Governance An International Review",
+    "abbreviation": "wiley",
+    "issn": "1467-8683",
+    "metaTitle": "Artificial Intelligence in Corporate Governance",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14678683/cfp/CGIR_AI_CFP_SI_final_UPDATED-1772623171337.pdf",
+    "title": "Artificial Intelligence in Corporate Governance",
+    "slug": "wiley-artificial-intelligence-in-corporate-governance",
+    "contentHash": "1e17602be9c45b84454c16b54ca11951eec56d845b77e7d91dbab9bf5fcb5f4f",
+    "topics": [
+      "AI practices in corporate governance",
+      "Theoretical perspectives on AI in corporate governance",
+      "Practical applications of AI in corporate governance",
+      "Understanding AI's role in corporate governance",
+      "Prediction and explanation of AI outcomes in governance",
+      "Improving corporate governance practices with AI"
+    ],
+    "description": {
+      "paragraphs": [
+        "The special issue is intended to enhance corporate governance AI practices and knowledge by providing insights from both theoretical and practical lenses. All research methodologies are welcome, and papers that enhance understanding, provide explanation/prediction, and improve corporate governance practices of AI are particularly encouraged. In addition to traditional research papers, insights and commentary from practice may be considered."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "corporate governance"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-03-31T10:00:00.000Z",
+        "description": "Proposal submission deadline",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Corporate Governance An International Review",
+    "abbreviation": "wiley",
+    "issn": "1467-8683",
+    "metaTitle": "Stakeholder Theory and Responsible Business: The Future of Corporate Governance",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14678683/cfp/CGIR-SI-Stakeholders-and-CG-2026-1780653790257.pdf",
+    "title": "Stakeholder Theory and Responsible Business: The Future of Corporate Governance",
+    "slug": "wiley-stakeholder-theory-and-responsible-business-the-future-of-corporate-governance",
+    "contentHash": "b6939f10620e92202b05fc928cb88e1fc1459076562696c9c0a888755346cca1",
+    "topics": [
+      "Stakeholder theory and its applications in corporate governance",
+      "Responsible business practices and stakeholder management",
+      "Stakeholder governance in contemporary institutional environments",
+      "Corporate governance mechanisms and stakeholder protection",
+      "Interdisciplinary perspectives on stakeholder theory (management, strategy, ethics, finance, accounting, law)"
+    ],
+    "description": {
+      "paragraphs": [
+        "This Special Issue seeks to address challenges by advancing scholarship on stakeholder theory, responsible business, and corporate governance. The issue welcomes conceptual, empirical, and theory-building contributions that examine stakeholder governance in contemporary institutional environments. Submissions from corporate governance scholars across a range of disciplines are particularly encouraged, including perspectives from management, strategy, ethics, finance, accounting, and law."
+      ]
+    },
+    "tags": [
+      "stakeholder theory",
+      "corporate governance",
+      "responsible business"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-01T11:00:00.000Z",
+        "description": "Proposal submissions deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Corporate Governance An International Review",
+    "abbreviation": "wiley",
+    "issn": "1467-8683",
+    "metaTitle": "Governance in Family Firms: In Search of New Paradigms?",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14678683/cfp/CGIR-SI-New-Governance-Paradigms-Family-Business-2026-1781720531830.pdf",
+    "title": "Governance in Family Firms: In Search of New Paradigms?",
+    "slug": "wiley-governance-in-family-firms-in-search-of-new-paradigms",
+    "contentHash": "8b0e3f7707bbd057ce8d8b5f6b1ad9b0ab3f2ff59897d955b7e9c4f47b2572ba",
+    "topics": [
+      "Evolution and response of governance systems in family firms to contemporary challenges",
+      "Rise of public intervention in the economy",
+      "Advent of AI",
+      "Geopolitical turmoil",
+      "Boards of directors",
+      "Ownership structures",
+      "Executive leadership",
+      "Succession arrangements",
+      "Family governance systems",
+      "Value creation in family firms",
+      "Continuity preservation in family firms",
+      "Adaptation to changing environments"
+    ],
+    "description": {
+      "paragraphs": [
+        "This Special Issue seeks to advance theory and evidence on the evolution and response of governance systems in family firms to contemporary challenges such as the rise of public intervention in the economy, the advent of AI, and geopolitical turmoil. The special issue invites contributions that examine how governance mechanisms - including boards of directors, ownership structures, executive leadership, succession arrangements, and family governance systems - shape the ability of family firms to create value, preserve continuity, and adapt to changing environments."
+      ]
+    },
+    "tags": [
+      "family firms",
+      "governance",
+      "corporate governance"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-15T11:00:00.000Z",
+        "description": "Deadline for proposal submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Consumer Behaviour",
+    "abbreviation": "wiley",
+    "issn": "1479-1838",
+    "metaTitle": "outlined here",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/Final_2025_JCB_SI_Template-1743697545893.docx",
+    "title": "Special Issue Proposals",
+    "slug": "wiley-outlined-here",
+    "contentHash": "83d2d5c295ce5c00a8f79d563345797d002f704303ac879ec73ddc354d08e8d8",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "The Journal of Consumer Behaviour has put in place a new process for proposing new Special Issues. Authors wishing to propose a Special Issue should follow the procedure outlined and fill in the attached application form."
+      ]
+    },
+    "tags": [
+      "special issue",
+      "journal of consumer behaviour"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-08-01T10:00:00.000Z",
+        "description": "Application submission window for Special Issue Proposals",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-08-15T10:00:00.000Z",
+        "description": "Submission deadline for Special Issue Proposal applications",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Consumer Behaviour",
+    "abbreviation": "wiley",
+    "issn": "1479-1838",
+    "metaTitle": "see here",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/JCB-CFP-Shifting-Priorities-1761267631797.pdf",
+    "title": "Customers' Shifting Priorities in the Digital Age: Boundaries and Benefits",
+    "slug": "wiley-see-here",
+    "contentHash": "baa777520a9a0775c174d5cda43f74d20f05d25514bff3b87a4c7d4c1de8b507",
+    "topics": [
+      "How consumers' expectations and demands have changed in the digital era",
+      "Impact of technology on customer priorities",
+      "Evolution of consumer behavior in the digital age",
+      "Digital transformation and customer expectations"
+    ],
+    "description": {
+      "paragraphs": [
+        "The objective of this special issue is to investigate how consumers' expectations and demands have changed and increased in the new era of technology."
+      ]
+    },
+    "tags": [
+      "consumer behavior",
+      "digital transformation",
+      "customer expectations"
+    ],
+    "editors": [
+      {
+        "name": "Madhurima Deb",
+        "affiliation": "Indian Institute of Management Kashipur"
+      },
+      {
+        "name": "Sheetal Jain",
+        "affiliation": "Luxe Analytics"
+      },
+      {
+        "name": "Yupal Shukla",
+        "affiliation": "IRSSM"
+      },
+      {
+        "name": "Sita Mishra",
+        "affiliation": "Institute of Management Technology"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-06-18T10:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-11-18T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Consumer Behaviour",
+    "abbreviation": "wiley",
+    "issn": "1479-1838",
+    "metaTitle": "see here",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/JCB-SI-Proposal-Innovating-Sustainable-Behaviour-Consumption-through-AI-UPDATED-1763054379377.pdf",
+    "title": "Innovating Sustainable Behaviour and Consumption through AI: Future Opportunities and Challenges",
+    "slug": "wiley-see-here-2",
+    "contentHash": "0d1ebd6447e38f1ebf61bb153107245f849bf7e05cd2c00e5a31939018d0aecf",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "The Special Issue aims to consolidate interdisciplinary perspectives from marketing, consumer behaviour, sustainability studies, information systems, and public policy. Theoretical, empirical, and conceptual contributions employing diverse methods are welcome, including big data analytics, AI-based simulations, experimental designs, longitudinal studies, and cross-cultural research."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "sustainable consumption",
+      "consumer behavior",
+      "sustainability"
+    ],
+    "editors": [
+      {
+        "name": "Nora Bezaz",
+        "affiliation": "University of Lorraine"
+      },
+      {
+        "name": "Varsha Jain",
+        "affiliation": "ESSCA School of Management"
+      },
+      {
+        "name": "Atul A. Kulkarni",
+        "affiliation": "Southern Connecticut State University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-03-01T11:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-04-30T10:00:00.000Z",
+        "description": "Submission window closes",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Consumer Behaviour",
+    "abbreviation": "wiley",
+    "issn": "1479-1838",
+    "metaTitle": "see here",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/CB_Malaga_AKIEK_SI_CFP_NOV2025-1763558040947.pdf",
+    "title": "A new way of doing business: From Business Innovation to Social Change",
+    "slug": "wiley-see-here-3",
+    "contentHash": "85dfde0b7ae675041b10e551452b94ac7de7c869ac2fbd6cc0696dfd29b5e169",
+    "topics": [
+      "Identity mechanisms in business innovation",
+      "Norms and their role in social change",
+      "Trust and fairness in organizational design",
+      "Agency in consumer behavior and social impact",
+      "Risk-value trade-offs in business models",
+      "Consumer behavior and social impact achievement",
+      "Design of enduring and equitable organizational change",
+      "Scalable business models for social change"
+    ],
+    "description": {
+      "paragraphs": [
+        "By centring mechanisms (identity, norms, trust/fairness, agency, and risk–value trade-offs), this special issue aims to explain when and why new ways of doing business achieve social impact through consumer behaviour, and how organisations can design enduring, equitable, and scalable change."
+      ]
+    },
+    "tags": [
+      "business innovation",
+      "social change",
+      "consumer behavior",
+      "organizational design"
+    ],
+    "editors": [
+      {
+        "name": "Ricardo Costa-Climent",
+        "affiliation": "University of Valencia"
+      },
+      {
+        "name": "Steve D'Alessandro",
+        "affiliation": "Edith Cowan University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-02-15T11:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-09-15T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Consumer Behaviour",
+    "abbreviation": "wiley",
+    "issn": "1479-1838",
+    "metaTitle": "see here",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/JCB-SI-Emotion-by-Design-14102025-UPDATED-1763054382310.pdf",
+    "title": "Emotion by Design: The Emotional Architecture of Consumer Behaviour in an Era of Emerging Technologies",
+    "slug": "wiley-see-here-4",
+    "contentHash": "91b8778acd9742700db495c28a056669a86e1818110deb306fd7e471d776baaa",
+    "topics": [
+      "How emerging technologies (AI, AR, VR, XR, and others) shape consumer emotions",
+      "Influence of technology-induced emotions on consumer identity and behaviour",
+      "Mechanisms and processes of technology-enabled emotion engineering",
+      "Consequences of emotionally engineered consumer behaviour",
+      "Consumer autonomy in the context of emotional technology design",
+      "Consumer well-being implications of emotion engineering",
+      "Broader societal implications of emotionally engineered consumer behaviour"
+    ],
+    "description": {
+      "paragraphs": [
+        "This Special Issue invites interdisciplinary contributions exploring how emerging technologies like AI, AR, VR, XR, and others dynamically shape consumer emotions, eventually influencing identity and behaviour. The issue welcomes theoretical, empirical, and methodological paper submissions from consumer behaviour, consumer psychology, human technology interaction, digital media, and related areas.",
+        "The focus is on exploring the mechanisms, processes, and consequences in the context of technology-enabled emotion engineering. Additionally, discussions are encouraged on consumer autonomy, well-being, and broader implications of emotionally engineered consumer behaviour."
+      ]
+    },
+    "tags": [
+      "consumer behaviour",
+      "emerging technologies",
+      "emotion engineering",
+      "ai",
+      "virtual reality"
+    ],
+    "editors": [
+      {
+        "name": "Aude Rychalski",
+        "affiliation": "ESSCA School of Management"
+      },
+      {
+        "name": "Varsha Jain",
+        "affiliation": "ESSCA School of Management"
+      },
+      {
+        "name": "Elodie Jouny-Rivier",
+        "affiliation": "ESSCA School of Management"
+      },
+      {
+        "name": "Anupama Ambika",
+        "affiliation": "IMT"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-11-01T11:00:00.000Z",
+        "description": "Submissions window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-30T11:00:00.000Z",
+        "description": "Submissions window closes",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Consumer Behaviour",
+    "abbreviation": "wiley",
+    "issn": "1479-1838",
+    "metaTitle": "see here",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/CFP_Consumer_Vulnerability_in_the_Age_of_Algorithmic_Persuasion_2025-1758888872373.pdf",
+    "title": "Consumer Vulnerability in the Age of Algorithmic Persuasion: Risks, Responsibilities, and Remedies",
+    "slug": "wiley-see-here-5",
+    "contentHash": "556899e774560739b21602cde39380ca6f88a4b718eb84cec499ff56602dee3c",
+    "topics": [
+      "Mechanisms by which AI technologies construct, amplify, or mitigate consumer vulnerability",
+      "Privacy risks and their intersection with persuasion strategies",
+      "Ethical principles in the design of AI-powered marketing systems",
+      "Ethics of algorithmic persuasion in marketing"
+    ],
+    "description": {
+      "paragraphs": [
+        "This Special Issue aims to advance ethics of algorithmic persuasion in marketing. It seeks to fill the critical gaps related to the underexplored mechanisms by which AI technologies construct, amplify, or mitigate consumer vulnerability; the limited empirical evidence on how privacy risks intersect with persuasion strategies; and the insufficient integration of ethical principles into the design of AI-powered marketing systems."
+      ]
+    },
+    "tags": [
+      "algorithmic persuasion",
+      "consumer vulnerability",
+      "ai ethics",
+      "marketing"
+    ],
+    "editors": [
+      {
+        "name": "Jenny Le",
+        "affiliation": "VinUniversity"
+      },
+      {
+        "name": "Helen Chun",
+        "affiliation": "Cornell University"
+      },
+      {
+        "name": "Sara Quach",
+        "affiliation": "Griffith University"
+      },
+      {
+        "name": "Park Thaichon",
+        "affiliation": "University of Southern Queensland"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-07-01T10:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-08-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Consumer Behaviour",
+    "abbreviation": "wiley",
+    "issn": "1479-1838",
+    "metaTitle": "see here.",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/JCB-CFP-AgenticAI-2025-UPDATED-1776416688423.pdf",
+    "title": "Influence of Agentic AI in Consumer Behaviour: Future Landscape",
+    "slug": "wiley-see-here-6",
+    "contentHash": "df8a405b5773ab96fef6ebe34e2bf9171abe16346984635718f68a58e75e594a",
+    "topics": [
+      "Consumer decision-making with autonomous AI agents",
+      "Trust in agentic AI systems",
+      "Perceived autonomy in AI-influenced consumer processes",
+      "Consumer engagement with autonomous AI agents",
+      "Theoretical frameworks for agentic AI and consumer behavior",
+      "Practical applications of agentic AI in consumer markets",
+      "Autonomous agents and fundamental consumer processes"
+    ],
+    "description": {
+      "paragraphs": [
+        "This Special Issue aims to advance both theory and practice regarding consumer behavior in the age of agentic AI. Theoretically, it seeks to deepen understanding of how autonomous AI agents influence fundamental consumer processes such as decision-making, trust, perceived autonomy, and engagement."
+      ]
+    },
+    "tags": [
+      "agentic ai",
+      "consumer behavior",
+      "autonomous agents",
+      "decision-making"
+    ],
+    "editors": [
+      {
+        "name": "Rahul Sindhwani",
+        "affiliation": "Indian Institute of Management – Sambalpur"
+      },
+      {
+        "name": "Varsha Jain",
+        "affiliation": "ESSCA School of Management"
+      },
+      {
+        "name": "Justin Zhang",
+        "affiliation": "University of North Florida"
+      },
+      {
+        "name": "Sudhir Rana",
+        "affiliation": "Liwa University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-07-01T10:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-12-31T11:00:00.000Z",
+        "description": "Submission window closes",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
+    "journal": "Journal of Consumer Behaviour",
+    "abbreviation": "wiley",
+    "issn": "1479-1838",
+    "metaTitle": "Exploring Consumers Journey from Physical Ownership to Digital Assets",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/JCB_SI_Boukis_2024-1722855057000.pdf",
+    "title": "",
+    "slug": "wiley-exploring-consumers-journey-from-physical-ownership-to-digital-assets",
+    "contentHash": "32213b1dbefb11e6108d925f3e266b34c77b699d7472581ebf3449afb01cce62",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
+  },
+  {
     "journal": "Revue de l'Entrepreneuriat",
     "abbreviation": "re",
     "issn": "1630-7542",
@@ -2560,9 +3743,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-12T13:39:13.215Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "active": true,
+    "pubDate": "2026-08-12T13:39:13.215Z"
   },
   {
     "journal": "Journal of Small Business Management",
@@ -5649,9 +6831,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T15:38:12.254Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "active": true,
+    "pubDate": "2026-08-11T15:38:12.254Z"
   },
   {
     "journal": "Organizational Psychology Review",
@@ -5680,8 +6861,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-11T15:38:12.254Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "pubDate": "2026-08-11T15:38:12.254Z"
   },
   {
     "journal": "Medical Decision Making",
@@ -5710,9 +6890,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T15:38:12.254Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "active": true,
+    "pubDate": "2026-08-11T15:38:12.254Z"
   },
   {
     "journal": "The American Review of Public Administration",
