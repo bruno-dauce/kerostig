@@ -71,16 +71,20 @@ eleventyComputed:
     <div class="float-none md:float-end w-xs md:ms-8 mb-8">
       {% include "timeline.html" %}
     </div>
+    {% if call.editors | length > 0 %}
     <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Editors</h2>
     <ul>
       {% for editor in call.editors %}
       <li><strong>{{ editor.name }}</strong>, {{ editor.affiliation }}</li>
       {% endfor %}
     </ul>
+    {% endif %}
+    {% if call.description and call.description.paragraphs | length > 0 %}
     <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Description</h2>
     {% for paragraph in call.description.paragraphs %}
     <p class="text-justify mb-4">{{ paragraph }}</p>
     {% endfor %}
+    {% endif %}
     {% if call.topics | length > 0 %}
     <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Potential topics</h2>
     <ul class="list-disc ps-7">
