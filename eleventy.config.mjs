@@ -1,6 +1,17 @@
+import { readFileSync } from "node:fs";
+
 import { DateTime } from "luxon";
 
 import { echeanceDepassee } from "./scrapers/echeance.mjs";
+
+// Les 17 disciplines du classement FNEGE. Table editoriale : elle porte le nom
+// d'affichage et le slug de la route /discipline/, que journals.json ne fournit
+// pas (son champ discipline est un libelle brut, parfois sans apostrophe --
+// "Systemes d information"). La jointure se fait donc toujours sur le code.
+const disciplines = JSON.parse(
+    readFileSync(new URL("./www/_data/disciplines.json", import.meta.url), "utf8")
+);
+const disciplineDuCode = (code) => disciplines.find((d) => d.code === code) || null;
 
 // Marge apres l'echeance avant de masquer un appel : couvre les decalages de
 // fuseau horaire et les prolongations que la source n'a pas encore publiees.
@@ -14,6 +25,13 @@ const TOLERANCE_ECHEANCE_JOURS = 7;
 const appelAffichable = (call) =>
     (call.active || Date.now() < new Date(call.gracePeriod)) &&
     !echeanceDepassee(call, TOLERANCE_ECHEANCE_JOURS);
+
+// Echeance de soumission du manuscrit complet, a defaut la derniere date connue.
+const echeanceSoumission = (dates) => {
+    if (!Array.isArray(dates) || !dates.length) return null;
+    const principale = dates.find((d) => d.is_full_paper_submission_deadline);
+    return (principale || dates[dates.length - 1]).date || null;
+};
 
 export default async function (eleventyConfig) {
 
@@ -47,11 +65,60 @@ export default async function (eleventyConfig) {
     eleventyConfig.addFilter("revueParNom", trouverRevueParNom);
 
     // Jointure appel -> revue : par ISSN (clé directe de journals.json), avec repli sur le nom
-    eleventyConfig.addFilter("revueDeLAppel", function (journals, call) {
+    const trouverRevueDeLAppel = (journals, call) => {
         if (!journals || !call) return null;
         if (call.issn && journals[call.issn]) return journals[call.issn];
         return trouverRevueParNom(journals, call.journal);
+    };
+    eleventyConfig.addFilter("revueDeLAppel", trouverRevueDeLAppel);
+
+    // --- kerostig : pages hub par discipline FNEGE ---------------------------
+    // Ces deux filtres alimentent /discipline/:slug. La discipline d'un appel
+    // n'est jamais lue dans ses tags (extraits par le modele, systeme distinct) :
+    // elle vient de la revue, atteinte par ISSN, qui porte le code FNEGE.
+
+    eleventyConfig.addFilter("disciplineDuCode", disciplineDuCode);
+
+    // Ordre du classement, pas ordre alphabetique : "1*" precede "1", qui precede
+    // "2". Un rang inconnu ferme la liste plutot que de la ouvrir.
+    const ORDRE_RANG_FNEGE = ["1*", "1", "2", "3"];
+    const positionRang = (rang) => {
+        const i = ORDRE_RANG_FNEGE.indexOf(rang);
+        return i === -1 ? ORDRE_RANG_FNEGE.length : i;
+    };
+
+    eleventyConfig.addFilter("revuesDeLaDiscipline", function (journals, code) {
+        if (!journals || !code) return [];
+        return Object.values(journals)
+            .filter((revue) => revue.discipline_code === code)
+            .sort((a, b) => {
+                const ecart = positionRang(a.rang_fnege_2025) - positionRang(b.rang_fnege_2025);
+                if (ecart !== 0) return ecart;
+                // localeCompare fr : sans lui les titres accentues partiraient apres le Z.
+                return (a.titre || "").localeCompare(b.titre || "", "fr", { sensitivity: "base" });
+            });
     });
+
+    eleventyConfig.addFilter("appelsDeLaDiscipline", function (allCalls, journals, code) {
+        if (!allCalls || !journals || !code) return [];
+        return allCalls
+            .filter((call) => {
+                if (!appelAffichable(call)) return false;
+                const revue = trouverRevueDeLAppel(journals, call);
+                return revue ? revue.discipline_code === code : false;
+            })
+            .sort((a, b) => {
+                // Echeance la plus proche d'abord ; les appels sans date exploitable
+                // ferment la liste au lieu de se disperser au hasard (NaN).
+                const ta = Date.parse(echeanceSoumission(a.dates) || "");
+                const tb = Date.parse(echeanceSoumission(b.dates) || "");
+                const va = isNaN(ta) ? Infinity : ta;
+                const vb = isNaN(tb) ? Infinity : tb;
+                if (va === vb) return 0;
+                return va - vb;
+            });
+    });
+    // --- fin pages discipline -------------------------------------------------
 
     // Revues effectivement couvertes par un scraper actif (scrapers/journals/*.mjs).
     // Correspondance directe entre editeur et scraper : Elsevier, Wiley, SAGE,
@@ -151,13 +218,6 @@ export default async function (eleventyConfig) {
     const AUDIENCE_KEROSTIG = "Sciences de gestion et management";
 
     const racine = (meta) => (meta && meta.url ? String(meta.url) : "").replace(/\/+$/, "");
-
-    // Echeance de soumission du manuscrit complet, a defaut la derniere date connue.
-    const echeanceSoumission = (dates) => {
-        if (!Array.isArray(dates) || !dates.length) return null;
-        const principale = dates.find((d) => d.is_full_paper_submission_deadline);
-        return (principale || dates[dates.length - 1]).date || null;
-    };
 
     // Serialisation pour un bloc <script type="application/ld+json">.
     // JSON.stringify echappe le contenu ; on neutralise ensuite < > & pour
@@ -276,16 +336,32 @@ export default async function (eleventyConfig) {
             periodique.about = revue.metriques.thematiques.map((t) => ({ "@type": "Thing", name: t }));
         }
 
-        // Deux niveaux seulement : les pages /discipline/ n'existent pas encore,
-        // on ne pose pas de lien vers une route absente.
-        const fil = [
-            { "@type": "ListItem", position: 1, name: (meta && meta.name) || "", item: `${base}/` },
-            { "@type": "ListItem", position: 2, name: revue.titre, item: urlRevue },
-        ];
+        // Le niveau discipline n'est pose que si le code FNEGE de la revue
+        // correspond a une page /discipline/ reellement generee.
+        const fil = [{ "@type": "ListItem", position: 1, name: (meta && meta.name) || "", item: `${base}/` }];
+        const disc = disciplineDuCode(revue.discipline_code);
+        if (disc) {
+            fil.push({ "@type": "ListItem", position: fil.length + 1, name: disc.nom, item: `${base}/discipline/${disc.slug}/` });
+        }
+        fil.push({ "@type": "ListItem", position: fil.length + 1, name: revue.titre, item: urlRevue });
 
         return {
             "@context": "https://schema.org",
             "@graph": [{ "@type": "BreadcrumbList", itemListElement: fil }, periodique],
+        };
+    });
+
+    // Fil d'Ariane d'une page hub discipline : Accueil > Discipline.
+    eleventyConfig.addFilter("schemaDiscipline", function (discipline, meta) {
+        if (!discipline) return {};
+        const base = racine(meta);
+        const fil = [
+            { "@type": "ListItem", position: 1, name: (meta && meta.name) || "", item: `${base}/` },
+            { "@type": "ListItem", position: 2, name: discipline.nom, item: `${base}/discipline/${discipline.slug}/` },
+        ];
+        return {
+            "@context": "https://schema.org",
+            "@graph": [{ "@type": "BreadcrumbList", itemListElement: fil }],
         };
     });
     // --- fin donnees structurees ---------------------------------------------

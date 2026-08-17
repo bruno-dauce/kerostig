@@ -1,0 +1,174 @@
+---js
+{
+  pagination: {
+    data: "disciplines",
+    size: 1,
+    alias: "discipline",
+    // Sans ce drapeau, seule la premiere des 17 pages entrerait dans
+    // collections.all, donc dans sitemap.xml.
+    addAllPagesToCollections: true
+  },
+  layout: "layouts/base.html",
+  permalink: "discipline/{{ discipline.slug }}/",
+  eleventyComputed: {
+    // | safe sur le nom : sans lui, l'apostrophe de « Systèmes d'information »
+    // serait echappee ici (&#39;) puis une seconde fois par meta.html (&amp;#39;).
+    // C'est meta.html qui echappe, une fois, au moment d'ecrire l'attribut.
+    title: "Appels à publications en {{ discipline.nom | safe }}, revues classées FNEGE (calls for papers)",
+    // « des revues de {nom} » butait sur l'elision des disciplines a initiale
+    // vocalique (Enseignement, Innovation, Etudes organisationnelles...) :
+    // la tournure « en {nom} » passe sur les 17, et reprend celle du H1.
+    description: "Les appels ouverts (calls for papers) des revues classées FNEGE en {{ discipline.nom | safe }}, filtrables par rang et triés par échéance. Mis à jour chaque semaine."
+  }
+}
+---
+
+{# Fil d'Ariane Accueil > Discipline, assemble par schemaDiscipline (cf eleventy.config.mjs). #}
+<script type="application/ld+json">
+{{ discipline | schemaDiscipline(meta) | jsonld | safe }}
+</script>
+
+{# La jointure passe par la revue (ISSN -> code FNEGE), jamais par les tags de l'appel. #}
+{% set appels = calls | appelsDeLaDiscipline(journals, discipline.code) %}
+{% set revues = journals | revuesDeLaDiscipline(discipline.code) %}
+
+<article class="max-w-5xl mx-auto">
+
+<nav class="text-sm mb-6" aria-label="fil d'ariane">
+  <span class="opacity-70"><a href="{{ '/' | url }}" class="hover:underline">Accueil</a>
+  <span class="mx-1">/</span>
+  {{ discipline.nom }}</span>
+</nav>
+
+<header class="mb-8">
+  <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mb-2">Appels à publications en {{ discipline.nom }} (calls for papers)</h1>
+  {# Accord au pluriel a partir de deux : une discipline sans appel affiche
+     « 0 appel ouvert », pas « 0 appels ouverts ». #}
+  <p class="text-sm opacity-70">
+    {{ appels.length }} appel{{ 's' if appels.length > 1 }} ouvert{{ 's' if appels.length > 1 }}
+    · {{ revues.length }} revue{{ 's' if revues.length > 1 }} classée{{ 's' if revues.length > 1 }} FNEGE dans cette discipline
+  </p>
+  {% if discipline.description %}
+  <p class="text-sm opacity-80 mt-3 max-w-3xl">{{ discipline.description }}</p>
+  {% endif %}
+</header>
+
+<section class="mb-12">
+  <h2 class="text-lg font-bold mb-4">Appels ouverts</h2>
+
+  {% if appels.length %}
+  {# Filtre autonome : call-card.html n'appelle qu'une methode Alpine, show_call($el),
+     et lit ses criteres dans les data-attributs de la carte. On redefinit donc ici la
+     meme signature avec un jeu de filtres reduit, sans toucher a la carte ni au
+     gabarit principal de l'accueil. #}
+  <div x-data="{
+      rang: '',
+      oaOnly: false,
+      counts: { rang: {}, total: 0, visible: 0 },
+
+      match_rang(el) {
+          return this.rang === '' || (el.getAttribute('data-rang') || '') === this.rang;
+      },
+
+      match_oa(el) {
+          return !this.oaOnly || el.getAttribute('data-oa') === 'true';
+      },
+
+      show_call(el) {
+          return this.match_rang(el) && this.match_oa(el);
+      },
+
+      // Un seul passage sur les cartes, declenche par un $watch. Chaque puce annonce
+      // ce qu'on obtiendrait en la choisissant : on rejoue l'autre filtre, jamais
+      // celui qu'on mesure.
+      recount() {
+          const rang = {};
+          let total = 0, visible = 0;
+          if (this.$refs.calls) {
+              for (const el of this.$refs.calls.children) {
+                  if (this.match_oa(el)) {
+                      total++;
+                      const r = el.getAttribute('data-rang') || '';
+                      if (r) rang[r] = (rang[r] || 0) + 1;
+                  }
+                  if (this.show_call(el)) visible++;
+              }
+          }
+          this.counts = { rang, total, visible };
+      },
+
+      // Le total ne se lit pas dans les cles : un appel dont la revue n'annonce
+      // aucun rang serait compte deux fois s'il partageait la cle du total.
+      count_rang(r) {
+          return r === '' ? this.counts.total : (this.counts.rang[r] || 0);
+      }
+  }" x-init="
+      $nextTick(() => recount());
+      ['rang', 'oaOnly'].forEach(cle => $watch(cle, () => recount()));
+  ">
+
+    <div class="flex flex-wrap items-center justify-between gap-x-6 gap-y-3 mb-4 pb-4 border-b border-base-300">
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-xs opacity-70">Rang FNEGE</span>
+        <template x-for="r in ['', '1*', '1', '2', '3']" :key="r">
+          <button @click="rang = r"
+                  class="btn btn-xs gap-1 font-normal"
+                  :class="rang === r ? 'btn-primary' : 'btn-ghost border-base-300 ' + (count_rang(r) === 0 ? 'opacity-40' : '')">
+            <span x-text="r === '' ? 'Tous' : r"></span>
+            <span class="opacity-60 font-normal" x-text="'(' + count_rang(r) + ')'"></span>
+          </button>
+        </template>
+      </div>
+      <label class="flex items-center gap-2 cursor-pointer text-sm">
+        <span>Accès ouvert uniquement</span>
+        <input type="checkbox" class="toggle toggle-sm flex-shrink-0" x-model="oaOnly"
+               :style="oaOnly ? 'background-color:var(--color-open-access);' : ''" />
+      </label>
+    </div>
+
+    <p x-show="counts.visible === 0" class="text-sm opacity-70 text-center py-8">Aucun appel ne correspond à ces critères dans cette discipline. Essayez d'élargir le rang.</p>
+
+    <div x-ref="calls" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {% for call in appels %}
+      {% include "call-card.html" %}
+      {% endfor %}
+    </div>
+
+  </div>
+  {% else %}
+  <div class="card bg-base-200 border border-base-300 rounded-lg">
+    <div class="card-body p-5 text-center">
+      <p class="text-sm opacity-70 mb-3">Aucun appel ouvert dans cette discipline pour le moment.</p>
+      <a href="{{ '/' | url }}" class="btn btn-sm btn-primary">Consulter tous les appels ouverts</a>
+    </div>
+  </div>
+  {% endif %}
+</section>
+
+<section class="mb-8">
+  <h2 class="text-lg font-bold mb-4">Revues de cette discipline</h2>
+  {% if revues.length %}
+  <ul class="divide-y divide-base-300 border-t border-base-300">
+    {% for revue in revues %}
+    <li class="py-2.5 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+      <a href="{{ ('/journal/' + revue.slug) | url }}" class="text-sm hover:underline">{{ revue.titre }}</a>
+      <span class="flex flex-wrap items-center gap-1.5 flex-shrink-0">
+        <span class="badge badge-sm badge-outline font-semibold" style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</span>
+        {% if revue.acces_ouvert.est_oa %}
+        <span class="badge badge-sm badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C">accès ouvert</span>
+        {% endif %}
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="text-sm opacity-70">Aucune revue classée FNEGE dans cette discipline.</p>
+  {% endif %}
+</section>
+
+<p class="text-xs opacity-70 mt-6 border-t border-base-300 pt-4">
+  Rang et discipline : classement FNEGE 2025. Accès ouvert : DOAJ.
+  Les données peuvent comporter des imprécisions, vérifiez toujours sur le site de la revue.
+</p>
+
+</article>

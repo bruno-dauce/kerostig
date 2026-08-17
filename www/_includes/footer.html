@@ -6,6 +6,14 @@
         <a class="link link-hover" href="/rss.xml">RSS</a>
         <a class="link link-hover" href="https://ko-fi.com/kerostig" target="_blank" rel="noopener">Soutenir kerostig</a>
     </nav>
+    <nav class="max-w-4xl">
+        <p class="text-xs opacity-60 mb-2">Parcourir par discipline</p>
+        <div class="flex flex-wrap justify-center gap-x-3 gap-y-1 text-xs">
+            {% for d in disciplines %}
+            <a class="link link-hover opacity-70 hover:opacity-100" href="{{ ('/discipline/' + d.slug + '/') | url }}">{{ d.nom }}</a>
+            {% endfor %}
+        </div>
+    </nav>
     <aside>
         <p class="text-xs opacity-70">appels à publications en sciences de gestion et management, classés par rang FNEGE</p>
         <p class="text-xs opacity-70">kerostig © {% currentYear %}</p>

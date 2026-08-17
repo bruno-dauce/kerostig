@@ -5,26 +5,6 @@ layout: layouts/base.html
 {% set nbRevues = journals | revuesCouvertesParScraper | length %}
 {% set nbAppels = calls | compterAppelsActifs %}
 
-{% set discList = [
-    ["ACC", "Comptabilité"],
-    ["EDUC", "Enseignement"],
-    ["BUS SOC", "Entreprise et société"],
-    ["ORG STUD", "Études organisationnelles"],
-    ["FIN", "Finance"],
-    ["HRM", "GRH"],
-    ["BUS HIST", "Histoire des affaires"],
-    ["INNOV", "Innovation"],
-    ["INT", "International"],
-    ["LOG", "Logistique"],
-    ["GEN MAN", "Management général"],
-    ["PUB MAN", "Management public"],
-    ["MKG", "Marketing"],
-    ["HLTH", "Santé"],
-    ["SECTOR", "Sectoriel"],
-    ["STRAT", "Stratégie"],
-    ["MIS", "Systèmes d'information"]
-] %}
-
 <div x-data="{
     search: new URLSearchParams(window.location.search).get('q') || '',
     discipline: '',
@@ -33,7 +13,9 @@ layout: layouts/base.html
     oaOnly: false,
     francophone: false,
     issnFrancophones: {{ issnRevuesFrancophones | json }},
-    discList: {{ discList | json }},
+    // Les 17 disciplines FNEGE viennent de _data/disciplines.json, seule source
+    // du nom d'affichage et du slug de la route /discipline/.
+    discList: {{ disciplines | json }},
     echeanceList: [['', 'Toutes'], ['30', '< 30 jours'], ['90', '1 – 3 mois'], ['90+', '> 3 mois']],
     sort: 'duedate',
     sortOrder: false,
@@ -263,8 +245,13 @@ layout: layouts/base.html
     },
 
     disc_label(code) {
-        const entree = this.discList.find(d => d[0] === code);
-        return entree ? entree[1] : code;
+        const entree = this.discList.find(d => d.code === code);
+        return entree ? entree.nom : code;
+    },
+
+    disc_slug(code) {
+        const entree = this.discList.find(d => d.code === code);
+        return entree ? entree.slug : '';
     },
 
     echeance_label(valeur) {
@@ -367,10 +354,17 @@ layout: layouts/base.html
                         <h3 class="text-xs opacity-70 mb-1.5">Discipline</h3>
                         <select x-model="discipline" class="select select-sm select-bordered bg-base-200 border-base-300 w-full font-normal">
                             <option value="" x-text="'Toutes les disciplines (' + count_disc('') + ')'"></option>
-                            <template x-for="d in discList" :key="d[0]">
-                                <option :value="d[0]" x-text="d[1] + ' (' + count_disc(d[0]) + ')'"></option>
+                            <template x-for="d in discList" :key="d.code">
+                                <option :value="d.code" x-text="d.nom + ' (' + count_disc(d.code) + ')'"></option>
                             </template>
                         </select>
+                        {# Un <option> ne peut pas etre un lien : la page hub de la discipline
+                           choisie s'atteint par ce lien, sous le menu. #}
+                        <template x-if="discipline !== ''">
+                            <a :href="'/discipline/' + disc_slug(discipline) + '/'" class="text-xs opacity-70 hover:opacity-100 underline mt-1.5 inline-block">
+                                <span x-text="'Voir la page ' + disc_label(discipline)"></span> →
+                            </a>
+                        </template>
                     </div>
 
                     <div class="mb-4">

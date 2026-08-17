@@ -23,10 +23,14 @@
 
 <article class="max-w-3xl mx-auto">
 
+{# Nom et slug de la discipline viennent de disciplines.json via le code FNEGE :
+   le champ revue.discipline est un libelle brut, parfois sans apostrophe. #}
+{% set disc = revue.discipline_code | disciplineDuCode %}
+
 <nav class="text-sm mb-6" aria-label="fil d'ariane">
   <span class="opacity-70"><a href="{{ '/' | url }}" class="hover:underline">Accueil</a>
   <span class="mx-1">/</span>
-  {{ revue.discipline }}</span>
+  {% if disc %}<a href="{{ ('/discipline/' + disc.slug + '/') | url }}" class="hover:underline">{{ disc.nom }}</a>{% else %}{{ revue.discipline }}{% endif %}</span>
 </nav>
 
 <header class="mb-8">
@@ -85,7 +89,9 @@
 
       <div>
         <dt class="opacity-70">Discipline</dt>
-        <dd class="font-semibold">{{ revue.discipline }}</dd>
+        <dd class="font-semibold">
+          {% if disc %}<a href="{{ ('/discipline/' + disc.slug + '/') | url }}" class="hover:underline">{{ disc.nom }}</a>{% else %}{{ revue.discipline }}{% endif %}
+        </dd>
       </div>
 
       <div>

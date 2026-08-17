@@ -12,7 +12,10 @@
       {% if revue.rang_fnege_2025 %}
       <span class="badge badge-sm badge-outline font-semibold" style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</span>
       {% endif %}
-      {% if revue.discipline %}
+      {% set disc = revue.discipline_code | disciplineDuCode %}
+      {% if disc %}
+      <a href="{{ ('/discipline/' + disc.slug + '/') | url }}" class="badge badge-sm badge-outline hover:border-primary">{{ disc.nom }}</a>
+      {% elif revue.discipline %}
       <span class="badge badge-sm badge-outline">{{ revue.discipline }}</span>
       {% endif %}
       {% if revue.acces_ouvert.est_oa %}

@@ -1,0 +1,19 @@
+[
+  { "code": "ACC", "nom": "Comptabilité", "slug": "comptabilite", "description": "" },
+  { "code": "EDUC", "nom": "Enseignement", "slug": "enseignement", "description": "" },
+  { "code": "BUS SOC", "nom": "Entreprise et société", "slug": "entreprise-et-societe", "description": "" },
+  { "code": "ORG STUD", "nom": "Études organisationnelles", "slug": "etudes-organisationnelles", "description": "" },
+  { "code": "FIN", "nom": "Finance", "slug": "finance", "description": "" },
+  { "code": "HRM", "nom": "GRH", "slug": "grh", "description": "" },
+  { "code": "BUS HIST", "nom": "Histoire des affaires", "slug": "histoire-des-affaires", "description": "" },
+  { "code": "INNOV", "nom": "Innovation", "slug": "innovation", "description": "" },
+  { "code": "INT", "nom": "International", "slug": "international", "description": "" },
+  { "code": "LOG", "nom": "Logistique", "slug": "logistique", "description": "" },
+  { "code": "GEN MAN", "nom": "Management général", "slug": "management-general", "description": "" },
+  { "code": "PUB MAN", "nom": "Management public", "slug": "management-public", "description": "" },
+  { "code": "MKG", "nom": "Marketing", "slug": "marketing", "description": "" },
+  { "code": "HLTH", "nom": "Santé", "slug": "sante", "description": "" },
+  { "code": "SECTOR", "nom": "Sectoriel", "slug": "sectoriel", "description": "" },
+  { "code": "STRAT", "nom": "Stratégie", "slug": "strategie", "description": "" },
+  { "code": "MIS", "nom": "Systèmes d'information", "slug": "systemes-d-information", "description": "" }
+]
