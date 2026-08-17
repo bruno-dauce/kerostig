@@ -8,6 +8,7 @@
     data-discipline="{{ revue.discipline_code if revue else '' }}"
     data-rang="{{ revue.rang_fnege_2025 if revue else '' }}"
     data-issn="{{ revue.issn_cle if revue else '' }}"
+    data-oa="{{ 'true' if revue and revue.acces_ouvert and revue.acces_ouvert.est_oa else 'false' }}"
     data-tags="{{ call.tags | join(' ') if call.tags else '' }}"
     class="card bg-base-200 border border-base-300 rounded-lg hover:border-primary/30 transition-colors">
     <div class="card-body p-5 gap-3">

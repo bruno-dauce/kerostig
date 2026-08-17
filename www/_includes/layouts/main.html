@@ -5,12 +5,36 @@ layout: layouts/base.html
 {% set nbRevues = journals | revuesCouvertesParScraper | length %}
 {% set nbAppels = calls | compterAppelsActifs %}
 
+{% set discList = [
+    ["ACC", "Comptabilité"],
+    ["EDUC", "Enseignement"],
+    ["BUS SOC", "Entreprise et société"],
+    ["ORG STUD", "Études organisationnelles"],
+    ["FIN", "Finance"],
+    ["HRM", "GRH"],
+    ["BUS HIST", "Histoire des affaires"],
+    ["INNOV", "Innovation"],
+    ["INT", "International"],
+    ["LOG", "Logistique"],
+    ["GEN MAN", "Management général"],
+    ["PUB MAN", "Management public"],
+    ["MKG", "Marketing"],
+    ["HLTH", "Santé"],
+    ["SECTOR", "Sectoriel"],
+    ["STRAT", "Stratégie"],
+    ["MIS", "Systèmes d'information"]
+] %}
+
 <div x-data="{
     search: new URLSearchParams(window.location.search).get('q') || '',
-    disciplines: [],
+    discipline: '',
     rang: '',
+    echeance: '',
+    oaOnly: false,
     francophone: false,
     issnFrancophones: {{ issnRevuesFrancophones | json }},
+    discList: {{ discList | json }},
+    echeanceList: [['', 'Toutes'], ['30', '< 30 jours'], ['90', '1 – 3 mois'], ['90+', '> 3 mois']],
     sort: 'duedate',
     sortOrder: false,
     isReady: false,
@@ -20,6 +44,7 @@ layout: layouts/base.html
     perPage: 30,
     sortTick: 0,
     showClosed: false,
+    counts: { rang: {}, disc: {}, rangTotal: 0, discTotal: 0 },
 
     is_closed(el) {
         const raw = el.getAttribute('data-duedate') || '';
@@ -28,17 +53,59 @@ layout: layouts/base.html
         return !isNaN(t) && t < Date.now();
     },
 
-    matches_base_filters(el) {
+    // Jours restants avant l'echeance ; null quand l'appel n'annonce aucune date
+    // exploitable, ce qui n'est pas la meme chose que zero jour.
+    days_left(el) {
+        const raw = el.getAttribute('data-duedate') || '';
+        if (!raw) return null;
+        const t = Date.parse(raw);
+        if (isNaN(t)) return null;
+        return Math.ceil((t - Date.now()) / 86400000);
+    },
+
+    // Les predicats sont separes un par un : recount() a besoin de rejouer tous
+    // les filtres SAUF celui qu'il mesure, ce qu'un unique bloc monolithique
+    // interdirait.
+    match_search(el) {
         const q = this.search.toLowerCase();
-        const matchSearch = q === '' ||
-            el.getAttribute('data-title').toLowerCase().includes(q) ||
+        if (q === '') return true;
+        return el.getAttribute('data-title').toLowerCase().includes(q) ||
             el.getAttribute('data-journal').toLowerCase().includes(q) ||
             (el.getAttribute('data-tags') || '').toLowerCase().includes(q);
-        const disc = el.getAttribute('data-discipline') || '';
-        const matchDisc = this.disciplines.length === 0 || this.disciplines.includes(disc);
-        const matchRang = this.rang === '' || el.getAttribute('data-rang') === this.rang;
-        const matchFrancophone = !this.francophone || this.issnFrancophones.includes(el.getAttribute('data-issn') || '');
-        return matchSearch && matchDisc && matchRang && matchFrancophone;
+    },
+
+    match_disc(el) {
+        return this.discipline === '' || (el.getAttribute('data-discipline') || '') === this.discipline;
+    },
+
+    match_rang(el) {
+        return this.rang === '' || el.getAttribute('data-rang') === this.rang;
+    },
+
+    match_francophone(el) {
+        return !this.francophone || this.issnFrancophones.includes(el.getAttribute('data-issn') || '');
+    },
+
+    match_oa(el) {
+        return !this.oaOnly || el.getAttribute('data-oa') === 'true';
+    },
+
+    // Un appel sans date connue reste visible quelle que soit la tranche : rien ne
+    // permet d'affirmer qu'il tombe en dehors. Un appel deja cloture n'appartient
+    // en revanche a aucune tranche, qui se lisent toutes vers l'avenir.
+    match_echeance(el) {
+        if (this.echeance === '') return true;
+        const j = this.days_left(el);
+        if (j === null) return true;
+        if (j < 0) return false;
+        if (this.echeance === '30') return j <= 30;
+        if (this.echeance === '90') return j > 30 && j <= 90;
+        return j > 90;
+    },
+
+    matches_base_filters(el) {
+        return this.match_search(el) && this.match_disc(el) && this.match_rang(el) &&
+            this.match_echeance(el) && this.match_oa(el) && this.match_francophone(el);
     },
 
     matches_filters(el) {
@@ -111,7 +178,6 @@ layout: layouts/base.html
     sort_calls() {
         this.page = 1;
         const calls = Array.from(this.$refs.calls.children);
-        const RANG_ORDER = { '1*': 0, '1': 1, '2': 2, '3': 3 };
         switch (this.sort) {
             case 'pubdate':
                 // Derniers appels collectes en premier par defaut (nouveautes).
@@ -123,13 +189,17 @@ layout: layouts/base.html
                         : Date.parse(bA) - Date.parse(aA);
                 });
                 break;
-            case 'rang':
-                // Revues les mieux classees en premier (1* puis 1, 2, 3) ; les appels
-                // sans revue reconnue sont relegues en fin de liste.
+            case 'title':
+            case 'journal':
+                // Ordre alphabetique francais : localeCompare gere les accents, qu'un
+                // tri brut sur les codes UTF-16 releguerait apres le Z.
                 calls.sort((a, b) => {
-                    const aVal = RANG_ORDER[a.getAttribute('data-rang') || ''] ?? Infinity;
-                    const bVal = RANG_ORDER[b.getAttribute('data-rang') || ''] ?? Infinity;
-                    return this.sortOrder ? bVal - aVal : aVal - bVal;
+                    const attr = 'data-' + this.sort;
+                    const aT = a.getAttribute(attr) || '';
+                    const bT = b.getAttribute(attr) || '';
+                    return this.sortOrder
+                        ? bT.localeCompare(aT, 'fr', { sensitivity: 'base' })
+                        : aT.localeCompare(bT, 'fr', { sensitivity: 'base' });
                 });
                 break;
             case 'duedate':
@@ -154,136 +224,208 @@ layout: layouts/base.html
         return this.filtered_calls().length;
     },
 
-    toggleDisc(code) {
-        const i = this.disciplines.indexOf(code);
-        if (i === -1) this.disciplines.push(code);
-        else this.disciplines.splice(i, 1);
+    // Compteurs annonces dans les puces de rang et le menu discipline. Chaque option
+    // affiche ce qu'on obtiendrait en la choisissant : on rejoue donc tous les autres
+    // filtres, mais jamais celui qu'on mesure. Un seul passage sur les cartes, declenche
+    // par un $watch, plutot qu'un balayage par option a chaque rendu -- 22 options
+    // relues a chaque frappe au clavier couteraient bien plus cher.
+    recount() {
+        const rang = {}, disc = {};
+        let rangTotal = 0, discTotal = 0;
+        if (this.$refs.calls) {
+            for (const el of this.$refs.calls.children) {
+                if (!this.showClosed && this.is_closed(el)) continue;
+                if (!(this.match_search(el) && this.match_echeance(el) &&
+                      this.match_oa(el) && this.match_francophone(el))) continue;
+                if (this.match_disc(el)) {
+                    rangTotal++;
+                    const r = el.getAttribute('data-rang') || '';
+                    if (r) rang[r] = (rang[r] || 0) + 1;
+                }
+                if (this.match_rang(el)) {
+                    discTotal++;
+                    const d = el.getAttribute('data-discipline') || '';
+                    if (d) disc[d] = (disc[d] || 0) + 1;
+                }
+            }
+        }
+        this.counts = { rang, disc, rangTotal, discTotal };
+    },
+
+    // Le total ne se lit pas dans les cles : un appel sans revue reconnue porte un
+    // rang vide et serait compte deux fois s'il partageait la cle du total.
+    count_rang(r) {
+        return r === '' ? this.counts.rangTotal : (this.counts.rang[r] || 0);
+    },
+
+    count_disc(c) {
+        return c === '' ? this.counts.discTotal : (this.counts.disc[c] || 0);
+    },
+
+    disc_label(code) {
+        const entree = this.discList.find(d => d[0] === code);
+        return entree ? entree[1] : code;
+    },
+
+    echeance_label(valeur) {
+        const entree = this.echeanceList.find(e => e[0] === valeur);
+        return entree ? entree[1] : valeur;
+    },
+
+    // Resume mobile : chaque filtre actif devient un badge qu'un clic retire.
+    active_filters() {
+        const list = [];
+        if (this.search !== '') list.push({ key: 'search', label: '« ' + this.search + ' »' });
+        if (this.rang !== '') list.push({ key: 'rang', label: 'FNEGE ' + this.rang });
+        if (this.discipline !== '') list.push({ key: 'discipline', label: this.disc_label(this.discipline) });
+        if (this.echeance !== '') list.push({ key: 'echeance', label: 'échéance ' + this.echeance_label(this.echeance) });
+        if (this.francophone) list.push({ key: 'francophone', label: 'revues francophones' });
+        if (this.oaOnly) list.push({ key: 'oaOnly', label: 'accès ouvert' });
+        if (this.showClosed) list.push({ key: 'showClosed', label: 'appels clôturés inclus' });
+        return list;
+    },
+
+    clear_filter(key) {
+        if (key === 'francophone' || key === 'oaOnly' || key === 'showClosed') this[key] = false;
+        else this[key] = '';
     },
 
     activeFilterCount() {
-        let n = 0;
-        if (this.search !== '') n++;
-        if (this.disciplines.length > 0) n++;
-        if (this.rang !== '') n++;
-        if (this.francophone) n++;
-        if (this.showClosed) n++;
-        return n;
+        return this.active_filters().length;
     },
 
     resetFilters() {
         this.search = '';
-        this.disciplines = [];
+        this.discipline = '';
         this.rang = '';
+        this.echeance = '';
         this.francophone = false;
+        this.oaOnly = false;
         this.showClosed = false;
         this.page = 1;
     }
 }" x-init="
-    $nextTick(() => sort_calls());
+    $nextTick(() => { sort_calls(); recount(); });
     window.addEventListener('resize', () => isDesktop = window.innerWidth >= 1024);
-    $watch('search', () => page = 1);
-    $watch('disciplines', () => page = 1);
-    $watch('rang', () => page = 1);
-    $watch('francophone', () => page = 1);
-    $watch('showClosed', () => page = 1);
+    ['search', 'discipline', 'rang', 'echeance', 'francophone', 'oaOnly', 'showClosed']
+        .forEach(cle => $watch(cle, () => { page = 1; recount(); }));
 " @keydown.window.prevent.ctrl.k="$refs.search.focus()">
 
     <div class="text-center mb-6">
         <p class="text-sm opacity-70" x-text="'{{ nbRevues }} revues de gestion suivies · ' + total_open_count() + ' appel' + (total_open_count() !== 1 ? 's' : '') + ' ouvert' + (total_open_count() !== 1 ? 's' : '')">{{ nbRevues }} revues de gestion suivies · {{ nbAppels }} appel{{ 's' if nbAppels != 1 }} ouvert{{ 's' if nbAppels != 1 }}</p>
     </div>
 
-    <div class="lg:hidden mb-4">
-        <button @click="filtersOpen = !filtersOpen" class="btn btn-sm bg-base-200 border-base-300 w-full justify-between">
-            <span>Filtres <span x-show="activeFilterCount() > 0" x-text="'(' + activeFilterCount() + ')'" class="font-semibold"></span></span>
+    <div class="lg:hidden mb-4 space-y-2">
+        <button @click="filtersOpen = !filtersOpen" class="btn btn-sm bg-base-200 border-base-300 w-full justify-between font-normal">
+            <span>filtres <span x-show="activeFilterCount() > 0" x-text="'(' + activeFilterCount() + ')'" class="font-semibold"></span></span>
             <svg class="w-4 h-4 transition-transform" :class="filtersOpen ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>
+
+        <div x-show="active_filters().length > 0" x-transition class="flex flex-wrap gap-1.5">
+            <template x-for="filtre in active_filters()" :key="filtre.key">
+                <button @click="clear_filter(filtre.key)"
+                        :aria-label="'retirer le filtre ' + filtre.label"
+                        class="badge badge-sm bg-base-200 border-base-300 gap-1 font-normal h-auto py-1">
+                    <span x-text="filtre.label"></span>
+                    <svg class="w-3 h-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                </button>
+            </template>
+        </div>
     </div>
 
     <div class="flex flex-col lg:flex-row gap-6">
 
-        <aside class="w-full lg:w-60 flex-shrink-0" x-show="isDesktop || filtersOpen" x-transition>
-            <div class="lg:sticky lg:top-4 space-y-5">
+        <aside class="w-full lg:w-64 flex-shrink-0" x-show="isDesktop || filtersOpen" x-transition>
+            <div class="lg:sticky lg:top-4 divide-y divide-base-300">
 
-                <div>
+                <section class="pb-5">
+                    <h2 class="text-[11px] font-semibold tracking-[0.08em] opacity-70 mb-2.5">Chercher</h2>
                     <label class="input input-sm input-bordered bg-base-200 border-base-300 flex items-center gap-2 w-full">
-                        <svg class="w-4 h-4 opacity-70" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
-                        <input type="text" x-ref="search" x-model="search" @keydown.escape="search = ''; $refs.search.blur()" class="grow" placeholder="Rechercher..." />
+                        <svg class="w-4 h-4 opacity-50" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+                        <input type="text" x-ref="search" x-model="search" @keydown.escape="search = ''; $refs.search.blur()" class="grow" placeholder="revue, thème, mot-clé..." />
                     </label>
-                </div>
+                </section>
 
-                <div>
-                    <h3 class="text-xs font-semibold uppercase opacity-70 mb-2">Rang FNEGE</h3>
-                    <div class="flex flex-wrap gap-1">
-                        <button @click="rang = ''" class="btn btn-xs" :class="rang === '' ? 'btn-primary' : 'btn-ghost border-base-300'">Tous</button>
-                        <button @click="rang = '1*'" class="btn btn-xs" :class="rang === '1*' ? 'btn-primary' : 'btn-ghost border-base-300'">1*</button>
-                        <button @click="rang = '1'" class="btn btn-xs" :class="rang === '1' ? 'btn-primary' : 'btn-ghost border-base-300'">1</button>
-                        <button @click="rang = '2'" class="btn btn-xs" :class="rang === '2' ? 'btn-primary' : 'btn-ghost border-base-300'">2</button>
-                        <button @click="rang = '3'" class="btn btn-xs" :class="rang === '3' ? 'btn-primary' : 'btn-ghost border-base-300'">3</button>
+                <section class="py-5">
+                    <h2 class="text-[11px] font-semibold tracking-[0.08em] opacity-70 mb-3">Filtrer</h2>
+
+                    <div class="mb-4">
+                        <h3 class="text-xs opacity-70 mb-1.5">Rang FNEGE</h3>
+                        <div class="flex flex-wrap gap-1">
+                            <template x-for="r in ['', '1*', '1', '2', '3']" :key="r">
+                                <button @click="rang = r"
+                                        class="btn btn-xs gap-1 font-normal"
+                                        :class="rang === r ? 'btn-primary' : 'btn-ghost border-base-300 ' + (count_rang(r) === 0 ? 'opacity-40' : '')">
+                                    <span x-text="r === '' ? 'Tous' : r"></span>
+                                    <span class="opacity-60 font-normal" x-text="'(' + count_rang(r) + ')'"></span>
+                                </button>
+                            </template>
+                        </div>
                     </div>
-                </div>
 
-                <div>
-                    <label class="flex items-center gap-2 py-1 px-1 rounded hover:bg-base-300 cursor-pointer text-sm">
-                        <input type="checkbox" class="checkbox checkbox-xs checkbox-primary" x-model="francophone" />
-                        Revues francophones
-                    </label>
-                </div>
+                    <div class="mb-4">
+                        <h3 class="text-xs opacity-70 mb-1.5">Discipline</h3>
+                        <select x-model="discipline" class="select select-sm select-bordered bg-base-200 border-base-300 w-full font-normal">
+                            <option value="" x-text="'Toutes les disciplines (' + count_disc('') + ')'"></option>
+                            <template x-for="d in discList" :key="d[0]">
+                                <option :value="d[0]" x-text="d[1] + ' (' + count_disc(d[0]) + ')'"></option>
+                            </template>
+                        </select>
+                    </div>
 
-                <div>
-                    <h3 class="text-xs font-semibold uppercase opacity-70 mb-2">Disciplines</h3>
-                    <div class="space-y-1 max-h-64 overflow-y-auto">
-                        {% set discList = [
-                            ["ACC", "Comptabilité"],
-                            ["EDUC", "Enseignement"],
-                            ["BUS SOC", "Entreprise et société"],
-                            ["ORG STUD", "Études organisationnelles"],
-                            ["FIN", "Finance"],
-                            ["HRM", "GRH"],
-                            ["BUS HIST", "Histoire des affaires"],
-                            ["INNOV", "Innovation"],
-                            ["INT", "International"],
-                            ["LOG", "Logistique"],
-                            ["GEN MAN", "Management général"],
-                            ["PUB MAN", "Management public"],
-                            ["MKG", "Marketing"],
-                            ["HLTH", "Santé"],
-                            ["SECTOR", "Sectoriel"],
-                            ["STRAT", "Stratégie"],
-                            ["MIS", "Systèmes d'information"]
-                        ] %}
-                        {% for code, nom in discList %}
-                        <label class="flex items-center gap-2 py-1 px-1 rounded hover:bg-base-300 cursor-pointer text-sm">
-                            <input type="checkbox" class="checkbox checkbox-xs checkbox-primary" :checked="disciplines.includes('{{ code }}')" @change="toggleDisc('{{ code }}')" />
-                            {{ nom }}
+                    <div class="mb-4">
+                        <h3 class="text-xs opacity-70 mb-1.5">Échéance</h3>
+                        <div class="flex flex-wrap gap-1">
+                            <template x-for="e in echeanceList" :key="e[0]">
+                                <button @click="echeance = e[0]"
+                                        class="btn btn-xs font-normal"
+                                        :class="echeance === e[0] ? 'btn-primary' : 'btn-ghost border-base-300'"
+                                        x-text="e[1]"></button>
+                            </template>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2.5">
+                        <label class="flex items-center justify-between gap-3 cursor-pointer text-sm">
+                            <span>Revues francophones</span>
+                            <input type="checkbox" class="toggle toggle-sm toggle-primary flex-shrink-0" x-model="francophone" />
                         </label>
-                        {% endfor %}
+                        <label class="flex items-center justify-between gap-3 cursor-pointer text-sm">
+                            <span>Accès ouvert uniquement</span>
+                            <input type="checkbox" class="toggle toggle-sm flex-shrink-0" x-model="oaOnly"
+                                   :style="oaOnly ? 'background-color:var(--color-open-access);' : ''" />
+                        </label>
                     </div>
-                </div>
+                </section>
 
-                <div>
-                    <h3 class="text-xs font-semibold uppercase opacity-70 mb-2">Trier par</h3>
-                    <select x-model="sort" @change="sort_calls()" class="select select-sm select-bordered bg-base-200 border-base-300 w-full">
-                        <option value="duedate">Échéance</option>
-                        <option value="pubdate">Récemment ajoutés</option>
-                        <option value="rang">Rang FNEGE</option>
-                    </select>
-                </div>
-
-                <button x-show="activeFilterCount() > 0" @click="resetFilters()" x-transition class="text-xs opacity-70 hover:opacity-100 underline">Réinitialiser les filtres</button>
+                <section x-show="activeFilterCount() > 0" x-transition class="pt-5">
+                    <button @click="resetFilters()" class="text-xs opacity-70 hover:opacity-100 underline">réinitialiser les filtres</button>
+                </section>
 
             </div>
         </aside>
 
         <main class="flex-1 min-w-0">
             <div x-show="isReady">
-                <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-4">
-                    <p class="text-sm opacity-70" x-text="count_visible() + ' appel' + (count_visible() !== 1 ? 's' : '') + ' correspond' + (count_visible() !== 1 ? 'ent' : '') + ' à vos critères'"></p>
-                    <button x-show="!showClosed && closed_calls_count() > 0" @click="showClosed = true" class="text-xs opacity-70 hover:opacity-100 underline">
-                        voir aussi les <span x-text="closed_calls_count()"></span> appel<span x-text="closed_calls_count() !== 1 ? 's' : ''"></span> clôturé<span x-text="closed_calls_count() !== 1 ? 's' : ''"></span>
-                    </button>
-                    <button x-show="showClosed" @click="showClosed = false" class="text-xs opacity-70 hover:opacity-100 underline">masquer les appels clôturés</button>
+                <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mb-4">
+                    <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                        <p class="text-sm opacity-70" x-text="count_visible() + ' appel' + (count_visible() !== 1 ? 's' : '') + ' correspond' + (count_visible() !== 1 ? 'ent' : '') + ' à vos critères'"></p>
+                        <button x-show="!showClosed && closed_calls_count() > 0" @click="showClosed = true" class="text-xs opacity-70 hover:opacity-100 underline">
+                            voir aussi les <span x-text="closed_calls_count()"></span> appel<span x-text="closed_calls_count() !== 1 ? 's' : ''"></span> clôturé<span x-text="closed_calls_count() !== 1 ? 's' : ''"></span>
+                        </button>
+                        <button x-show="showClosed" @click="showClosed = false" class="text-xs opacity-70 hover:opacity-100 underline">masquer les appels clôturés</button>
+                    </div>
+                    <label class="flex items-center gap-2 flex-shrink-0">
+                        <span class="text-xs opacity-60">trier par</span>
+                        <select x-model="sort" @change="sort_calls()" class="select select-xs select-bordered bg-base-200 border-base-300 font-normal">
+                            <option value="duedate">échéance</option>
+                            <option value="title">titre</option>
+                            <option value="journal">revue</option>
+                            <option value="pubdate">date d'ajout</option>
+                        </select>
+                    </label>
                 </div>
-                <p x-show="count_visible() === 0" class="text-sm opacity-70 text-center py-8">Aucun appel ouvert ne correspond à ces critères. Essayez d'élargir la discipline ou le rang.</p>
+                <p x-show="count_visible() === 0" class="text-sm opacity-70 text-center py-8">Aucun appel ouvert ne correspond à ces critères. Essayez d'élargir la discipline, le rang ou l'échéance.</p>
                 {{ content | safe }}
 
                 <div x-show="total_pages() > 1" class="flex flex-wrap items-center justify-center gap-1 mt-8">
