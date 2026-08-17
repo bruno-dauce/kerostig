@@ -40,8 +40,12 @@
 
         <div class="flex flex-wrap gap-1.5">
             {% if revue %}
+            {# Nom propre de la discipline : revue.discipline est le libelle brut de
+               journals.json, parfois ampute de son apostrophe. Repli sur le brut si
+               le code FNEGE est inconnu. #}
+            {% set disc = revue.discipline_code | disciplineDuCode %}
             <span class="badge badge-sm badge-outline font-semibold" style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</span>
-            <span class="badge badge-sm badge-outline">{{ revue.discipline }}</span>
+            <span class="badge badge-sm badge-outline">{% if disc %}{{ disc.nom }}{% else %}{{ revue.discipline }}{% endif %}</span>
             {% if revue.acces_ouvert.est_oa %}
             <span class="badge badge-sm badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C">accès ouvert</span>
             {% endif %}
