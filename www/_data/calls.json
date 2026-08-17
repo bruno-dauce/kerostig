@@ -160,7 +160,7 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-17T09:54:24.575Z"
   },
   {
@@ -195,7 +195,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-17T09:54:24.575Z"
   },
   {
@@ -274,7 +274,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-17T09:53:54.682Z"
   },
   {
@@ -317,7 +317,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-17T09:53:54.682Z"
   },
   {
@@ -582,7 +582,7 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-16T22:58:24.455Z"
   },
   {
@@ -776,7 +776,7 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-16T22:58:24.455Z"
   },
   {
@@ -881,7 +881,7 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-16T22:58:24.455Z"
   },
   {
@@ -1689,7 +1689,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-12T21:57:58.158Z"
   },
   {
@@ -2174,7 +2174,7 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
@@ -2266,7 +2266,7 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
@@ -2345,7 +2345,7 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
@@ -3958,7 +3958,7 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T21:25:02.631Z"
   },
   {
@@ -7050,7 +7050,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -9135,7 +9135,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -9169,7 +9169,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -9359,7 +9359,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -10334,7 +10334,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -10691,7 +10691,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -10731,7 +10731,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -10851,7 +10851,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -11576,7 +11576,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -11609,7 +11609,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -11744,7 +11744,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -11775,7 +11775,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -11845,7 +11845,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -11877,7 +11877,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -11909,7 +11909,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -11938,7 +11938,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -18858,7 +18858,7 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T00:55:16.972Z"
   },
   {
@@ -19250,7 +19250,7 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T00:55:16.972Z"
   },
   {
@@ -19897,7 +19897,7 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-10T23:47:12.235Z"
   },
   {
@@ -20691,7 +20691,7 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-10T23:47:12.235Z"
   },
   {
@@ -20835,7 +20835,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-10T23:47:12.235Z"
   },
   {
