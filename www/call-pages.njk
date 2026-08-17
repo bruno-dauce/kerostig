@@ -12,6 +12,38 @@ eleventyComputed:
 ---
 
 {% set revue = journals | revueDeLAppel(call) %}
+{% if call | estAppelCloture %}
+{% set echeanceClose = call.dates | echeancePrincipale %}
+{% set appelsOuvertsRevue = calls | appelsDeLaRevue(revue) if revue else [] %}
+<aside class="border border-base-300 bg-base-200 rounded-lg p-4 mb-6">
+  <p class="font-semibold" style="color:#C15A34">appel clôturé</p>
+  <p class="text-sm opacity-80 mt-1">
+    {% if echeanceClose and echeanceClose.date %}
+    La date limite de soumission était le {{ echeanceClose.date | dateOnly }}.
+    {% else %}
+    Cet appel n'est plus ouvert aux soumissions.
+    {% endif %}
+    Cette page est conservée pour archive.
+  </p>
+  {% if revue %}
+  <p class="text-sm mt-2">
+    <a href="{{ '/journal/' + revue.slug | url }}" class="font-semibold hover:underline" style="color:#2B5F8E">
+      {% if appelsOuvertsRevue.length == 1 %}
+      1 appel ouvert dans {{ revue.titre }}
+      {% elif appelsOuvertsRevue.length %}
+      {{ appelsOuvertsRevue.length }} appels ouverts dans {{ revue.titre }}
+      {% else %}
+      Voir la fiche de {{ revue.titre }}
+      {% endif %}
+    </a>
+    {% if not appelsOuvertsRevue.length %}<span class="opacity-70"> — aucun appel ouvert pour cette revue en ce moment.</span>{% endif %}
+  </p>
+  {% endif %}
+  <p class="text-sm mt-1">
+    <a href="{{ '/' | url }}" class="hover:underline opacity-70">Tous les appels ouverts</a>
+  </p>
+</aside>
+{% endif %}
 <h1 class="text-4xl font-extrabold leading-tight mb-3.5">{{ call.title if call.title else call.metaTitle | safe }}</h1>
 <div class="flex">
   <div>

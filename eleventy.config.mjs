@@ -337,6 +337,13 @@ export default async function (eleventyConfig) {
         return calls.filter(appelAffichable);
     });
 
+    // Un appel clos garde sa page (call-pages.njk pagine sur tous les appels,
+    // les URLs restent valides), mais elle porte un bandeau d'archive.
+    eleventyConfig.addFilter("estAppelCloture", function (call) {
+        if (!call) return false;
+        return !appelAffichable(call);
+    });
+
     eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
 
     eleventyConfig.addPassthroughCopy('www/llms.txt');
