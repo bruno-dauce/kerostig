@@ -7,8 +7,12 @@ pagination:
 layout: layouts/base.html
 permalink: "call/{{ call.slug }}/"
 eleventyComputed:
-  title: "kerostig | {{ call.title if call.title else call.metaTitle | safe }}"
-  description: "kerostig rassemble les appels à publications en sciences de gestion et management, comme {{ call.title if call.title else call.metaTitle | safe }}, en un seul endroit."
+  # Parentheses indispensables : sans elles, | safe ne portait que sur
+  # call.metaTitle, jamais sur call.title. Un titre porteur d'une apostrophe
+  # droite etait donc echappe ici (&#39;) puis une seconde fois par meta.html
+  # (&amp;#39;). meta.html reste le seul point d'echappement.
+  title: "kerostig | {{ (call.title if call.title else call.metaTitle) | safe }}"
+  description: "kerostig rassemble les appels à publications en sciences de gestion et management, comme {{ (call.title if call.title else call.metaTitle) | safe }}, en un seul endroit."
 ---
 
 {% set revue = journals | revueDeLAppel(call) %}
