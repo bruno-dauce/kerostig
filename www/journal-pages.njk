@@ -8,9 +8,12 @@
   },
   layout: "layouts/base.html",
   permalink: "journal/{{ revue.slug }}/",
+  // | safe : sans lui, l'esperluette des titres du type « Information &
+  // Management » serait echappee ici puis une seconde fois par meta.html au
+  // moment d'ecrire l'attribut. meta.html reste le seul point d'echappement.
   eleventyComputed: {
-    title: "{{ revue.titre }} : rang FNEGE {{ revue.rang_fnege_2025 }}, accès ouvert et appels en cours",
-    description: "{{ revue.titre }} en {{ revue.discipline }}. Rang FNEGE 2025 : {{ revue.rang_fnege_2025 }}. Appels à publications ouverts, accès ouvert et dépôt en archive ouverte."
+    title: "{{ revue.titre | safe }} : rang FNEGE {{ revue.rang_fnege_2025 }}, accès ouvert et appels en cours",
+    description: "{{ revue.titre | safe }} en {{ revue.discipline | safe }}. Rang FNEGE 2025 : {{ revue.rang_fnege_2025 }}. Appels à publications ouverts, accès ouvert et dépôt en archive ouverte."
   }
 }
 ---

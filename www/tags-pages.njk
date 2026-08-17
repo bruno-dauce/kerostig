@@ -38,9 +38,12 @@
   },
   layout: "layouts/main.html",
   permalink: "tag/{{ tag.name | slug }}/",
+  // | safe : sans lui, une esperluette ou une apostrophe dans le tag serait
+  // echappee ici puis une seconde fois par meta.html au moment d'ecrire
+  // l'attribut (m&a -> m&amp;amp;a). meta.html reste le seul point d'echappement.
   eleventyComputed: {
-    title: "kerostig | {{ tag.name }}",
-    description: "kerostig rassemble les derniers appels à publications pour {{ tag.name }}, en un seul endroit."
+    title: "kerostig | {{ tag.name | safe }}",
+    description: "kerostig rassemble les derniers appels à publications pour {{ tag.name | safe }}, en un seul endroit."
   }
 }
 ---
