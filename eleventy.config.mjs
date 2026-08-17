@@ -322,6 +322,12 @@ export default async function (eleventyConfig) {
         const base = racine(meta);
         const urlRevue = `${base}/journal/${revue.slug}/`;
 
+        // Nom propre de la discipline, a preferer partout au champ revue.discipline,
+        // libelle brut de journals.json parfois ampute de son apostrophe
+        // ("Systemes d information"). Repli sur le brut si le code est inconnu.
+        const disc = disciplineDuCode(revue.discipline_code);
+        const nomDiscipline = disc ? disc.nom : revue.discipline;
+
         const periodique = {
             "@type": "Periodical",
             "@id": `${urlRevue}#periodical`,
@@ -331,7 +337,7 @@ export default async function (eleventyConfig) {
         const issns = [revue.pissn, revue.eissn].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i);
         if (issns.length) periodique.issn = issns;
         if (revue.editeur) periodique.publisher = { "@type": "Organization", name: revue.editeur };
-        if (revue.discipline) periodique.genre = revue.discipline;
+        if (nomDiscipline) periodique.genre = nomDiscipline;
         if (revue.metriques && Array.isArray(revue.metriques.thematiques) && revue.metriques.thematiques.length) {
             periodique.about = revue.metriques.thematiques.map((t) => ({ "@type": "Thing", name: t }));
         }
@@ -339,7 +345,6 @@ export default async function (eleventyConfig) {
         // Le niveau discipline n'est pose que si le code FNEGE de la revue
         // correspond a une page /discipline/ reellement generee.
         const fil = [{ "@type": "ListItem", position: 1, name: (meta && meta.name) || "", item: `${base}/` }];
-        const disc = disciplineDuCode(revue.discipline_code);
         if (disc) {
             fil.push({ "@type": "ListItem", position: fil.length + 1, name: disc.nom, item: `${base}/discipline/${disc.slug}/` });
         }

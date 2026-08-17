@@ -13,7 +13,7 @@
   // moment d'ecrire l'attribut. meta.html reste le seul point d'echappement.
   eleventyComputed: {
     title: "{{ revue.titre | safe }} : rang FNEGE {{ revue.rang_fnege_2025 }}, accès ouvert et appels en cours",
-    description: "{{ revue.titre | safe }} en {{ revue.discipline | safe }}. Rang FNEGE 2025 : {{ revue.rang_fnege_2025 }}. Appels à publications ouverts, accès ouvert et dépôt en archive ouverte."
+    description: "{{ revue.titre | safe }} en {{ (revue.discipline_code | disciplineDuCode).nom | default(revue.discipline) | safe }}. Rang FNEGE 2025 : {{ revue.rang_fnege_2025 }}. Appels à publications ouverts, accès ouvert et dépôt en archive ouverte."
   }
 }
 ---
@@ -42,7 +42,7 @@
 
   <div class="flex flex-wrap gap-2 mt-3 text-xs">
     <span class="badge badge-outline font-semibold" style="color:#2B5F8E;border-color:#2B5F8E">rang FNEGE {{ revue.rang_fnege_2025 }}</span>
-    <span class="badge badge-outline">{{ revue.discipline }}</span>
+    <span class="badge badge-outline">{% if disc %}{{ disc.nom }}{% else %}{{ revue.discipline }}{% endif %}</span>
     {% if revue.acces_ouvert.est_oa %}
     <span class="badge badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C">accès ouvert</span>
     {% endif %}
