@@ -81,6 +81,10 @@ export default async function (eleventyConfig) {
         "2116-8865", // Gestion et management public
         "2295-9149", // GRH (@GRH)
         "2313-514X", // Comptabilité - Contrôle - Audit
+        "2261-5512", // Finance Contrôle Stratégie (ojsFrScraper, OpenEdition)
+        "1918-9699", // Revue internationale P.M.E. (ojsFrScraper, OJS autonome)
+        "2269-8469", // Décisions Marketing (dmScraper, site de l'AFM)
+        "1630-7542", // Revue de l'Entrepreneuriat (reScraper, API WordPress de l'AEI)
     ]);
     eleventyConfig.addFilter("revuesCouvertesParScraper", function (journals) {
         if (!journals) return [];

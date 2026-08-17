@@ -1,5 +1,326 @@
 [
   {
+    "journal": "Revue de l'Entrepreneuriat",
+    "abbreviation": "re",
+    "issn": "1630-7542",
+    "metaTitle": "📣 Appel à contributions - Numéro spécial Jeunes Chercheurs 2026  – Revue de l’Entrepreneuriat",
+    "url": "https://entrepreneuriat.com/%f0%9f%93%a3-appel-a-contributions-numero-special-jeunes-chercheurs-2026-revue-de-lentrepreneuriat/",
+    "title": "Jeunes Chercheurs 2026",
+    "slug": "re-appel-a-contributions-numero-special-jeunes-chercheurs-2026-revue-de-lentrepreneuriat",
+    "contentHash": "a68d72c64b46a925b8ce192351abd91014333353c963dc47829abffbfab2741c",
+    "topics": [
+      "Perspectives nouvelles en entrepreneuriat",
+      "Recherches innovantes de la nouvelle génération de chercheurs en entrepreneuriat",
+      "Travaux de doctorants en fin de thèse et jeunes docteurs"
+    ],
+    "description": {
+      "paragraphs": [
+        "Ce numéro spécial a pour vocation de mettre en lumière les perspectives nouvelles et les recherches innovantes de la nouvelle génération de chercheurs en entrepreneuriat issus de nos communautés scientifiques.",
+        "Fidèle à la mission de la revue de soutenir sa communauté et de favoriser le développement académique de ses membres, ce numéro spécial offre aux jeunes chercheurs une opportunité privilégiée de publier leurs travaux et de les faire connaître auprès de la communauté scientifique.",
+        "Afin de contribuer au développement des talents des jeunes chercheurs, tous les articles soumis à ce numéro spécial bénéficieront d'un processus d'évaluation accéléré."
+      ]
+    },
+    "tags": [
+      "entrepreneurship",
+      "early career researchers",
+      "young scholars"
+    ],
+    "editors": [
+      {
+        "name": "Julie Hermans-Pouplard",
+        "affiliation": "Académie de l'Entrepreneuriat et de l'Innovation"
+      },
+      {
+        "name": "Guillaume Thévenet",
+        "affiliation": "Académie de l'Entrepreneuriat et de l'Innovation"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Publication du numéro spécial",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-09-30T10:00:00.000Z",
+        "description": "Date limite de soumission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T09:54:24.575Z"
+  },
+  {
+    "journal": "Revue de l'Entrepreneuriat",
+    "abbreviation": "re",
+    "issn": "1630-7542",
+    "metaTitle": "Appel à propositions de numéros spéciaux - Revue de l’Entrepreneuriat",
+    "url": "https://entrepreneuriat.com/appel-a-propositions-de-numeros-speciaux-revue-de-lentrepreneuriat/",
+    "title": "Special Issues Call for Proposals",
+    "slug": "re-appel-a-propositions-de-numeros-speciaux-revue-de-lentrepreneuriat",
+    "contentHash": "35a25001f7aa2ef02791db24a6a3fe76a8b183cddac997045913cc9e9f3d3b08",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "The Revue de l'Entrepreneuriat / Review of Entrepreneurship invites you to submit proposals for special issues. Proposals must be submitted in English."
+      ]
+    },
+    "tags": [
+      "entrepreneurship"
+    ],
+    "editors": [
+      {
+        "name": "Guillaume Thévenet",
+        "affiliation": "Aix-Marseille Université"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-01T10:00:00.000Z",
+        "description": "Deadline for special issue proposals",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T09:54:24.575Z"
+  },
+  {
+    "journal": "Revue de l'Entrepreneuriat",
+    "abbreviation": "re",
+    "issn": "1630-7542",
+    "metaTitle": "Appel à propositions - Numéro spécial – Revue de l’Entrepreneuriat",
+    "url": "https://entrepreneuriat.com/appel-a-propositions-numero-special-revue-de-lentrepreneuriat/",
+    "title": "Call for Special Issue Proposals",
+    "slug": "re-appel-a-propositions-numero-special-revue-de-lentrepreneuriat",
+    "contentHash": "36046c03b8cccc1cb72b44c39e1c92f34df1cadacad86947f3d791fe53c12031",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "The Revue de l'Entrepreneuriat / Review of Entrepreneurship invites submissions of special issue proposals. Proposals must be written in English. Details of the call are available on the journal's LinkedIn page and can be requested by email from the contact below."
+      ]
+    },
+    "tags": [
+      "entrepreneurship"
+    ],
+    "editors": [
+      {
+        "name": "Jean-Loup Soula",
+        "affiliation": "University of Strasbourg"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-12-15T11:00:00.000Z",
+        "description": "Deadline for special issue proposals",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T09:54:24.575Z"
+  },
+  {
+    "journal": "Revue de l'Entrepreneuriat",
+    "abbreviation": "re",
+    "issn": "1630-7542",
+    "metaTitle": "Appel à contributions - Numéro spécial Doctorants / Jeunes docteurs – Revue de l’Entrepreneuriat",
+    "url": "https://entrepreneuriat.com/appel-a-contributions-numero-special-doctorants-jeunes-docteurs-revue-de-lentrepreneuriat/",
+    "title": "Doctorants / Jeunes docteurs",
+    "slug": "re-appel-a-contributions-numero-special-doctorants-jeunes-docteurs-revue-de-lentrepreneuriat",
+    "contentHash": "267cc7bda59e26a380c907e7fa10d7ff7d4372bafa4097378289b520ff1f20ae",
+    "topics": [
+      "Innovative research in entrepreneurship",
+      "Emerging perspectives from early-career researchers",
+      "New ideas from doctoral candidates and recent PhD graduates"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue invites doctoral candidates in their final year of thesis and early-career researchers (up to 2 years after PhD defense) to submit their innovative research works in the field of entrepreneurship as first authors. The issue aims to highlight emerging perspectives and new ideas from the next generation of academics.",
+        "This project is part of the journal's DNA, which is developmental and committed to supporting its community by providing a space for recognition and publication of young researchers."
+      ]
+    },
+    "tags": [
+      "entrepreneurship",
+      "early-career researchers",
+      "doctoral candidates"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-09-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2026-01-15T11:00:00.000Z",
+        "description": "Guaranteed response",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T09:54:24.575Z"
+  },
+  {
+    "journal": "Revue de l'Entrepreneuriat",
+    "abbreviation": "re",
+    "issn": "1630-7542",
+    "metaTitle": "Appel à propositions de numéros spéciaux",
+    "url": "https://entrepreneuriat.com/appel-a-propositions-de-numeros-speciaux/",
+    "title": "Special Issue - Revue de l'Entrepreneuriat",
+    "slug": "re-appel-a-propositions-de-numeros-speciaux",
+    "contentHash": "b8af5db4f95dedce5a1f3c883d7457fc890cb50ecd98155dbaba95486831a270",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "The Revue de l'Entrepreneuriat / Review of Entrepreneurship invites submissions for a special issue. Only proposals in English are accepted."
+      ]
+    },
+    "tags": [
+      "entrepreneurship"
+    ],
+    "editors": [
+      {
+        "name": "Jean-Loup Soula",
+        "affiliation": "University of Strasbourg"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2024-12-15T11:00:00.000Z",
+        "description": "Proposal submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T09:54:24.575Z"
+  },
+  {
+    "journal": "Décisions Marketing",
+    "abbreviation": "dm",
+    "issn": "2269-8469",
+    "metaTitle": "Numéro spécial DM 2027 — La relation client",
+    "url": "https://www.afm-marketing.org/media/numeros-speciaux/CFP%20DM%202027-1.pdf",
+    "title": "La relation client",
+    "slug": "dm-numero-special-dm-2027-la-relation-client",
+    "contentHash": "971fc535d2a1586c1d596606754370d453b35ba52ecca4ec7cf32ba352feeae3",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "customer relationship",
+      "marketing"
+    ],
+    "editors": [
+      {
+        "name": "Stéphanie Nguyen",
+        "affiliation": "Aix-Marseille Université"
+      },
+      {
+        "name": "Isabelle Prim-Allaz",
+        "affiliation": "Université Lyon 2"
+      },
+      {
+        "name": "Valérie Renaudin",
+        "affiliation": "Université Paris Dauphine - PSL"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-30T10:00:00.000Z",
+        "description": "Date limite de soumission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T09:53:54.682Z"
+  },
+  {
+    "journal": "Décisions Marketing",
+    "abbreviation": "dm",
+    "issn": "2269-8469",
+    "metaTitle": "Numéro spécial DM 2025 — Marketing des services",
+    "url": "https://www.afm-marketing.org/media/Revues-de-l-afm/DM-SI-2026_Num%C3%A9ro%20sp%C3%A9cial%20Services%20Final.pdf",
+    "title": "Marketing des services",
+    "slug": "dm-numero-special-dm-2025-marketing-des-services",
+    "contentHash": "634503e56933908a39baff85cbc68f28be74082f780755d9a9954a4001000585",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "services marketing"
+    ],
+    "editors": [
+      {
+        "name": "Renaud Lunardo",
+        "affiliation": "Kedge BS"
+      },
+      {
+        "name": "William Sabadie",
+        "affiliation": "IAE Lyon School of Management"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-09-30T10:00:00.000Z",
+        "description": "Date limite de soumission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T09:53:54.682Z"
+  },
+  {
+    "journal": "Décisions Marketing",
+    "abbreviation": "dm",
+    "issn": "2269-8469",
+    "metaTitle": "Numéro spécial DM 2025 — La place des marques dans la société",
+    "url": "https://www.afm-marketing.org/media/Revues-de-l-afm/CFP%20Num%C3%A9ro%20Sp%C3%A9cial%202025%20-%20FR.pdf",
+    "title": "La place des marques dans la société",
+    "slug": "dm-numero-special-dm-2025-la-place-des-marques-dans-la-societe",
+    "contentHash": "963d1b40858a2a7f6e53eab56d946202d62039f7afb867c2bdba0285a857d07e",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "brands",
+      "society",
+      "marketing"
+    ],
+    "editors": [
+      {
+        "name": "Géraldine Michel",
+        "affiliation": "IAE Paris-Sorbonne"
+      },
+      {
+        "name": "Nathalie Veg-Sala",
+        "affiliation": "Université Paris Nanterre"
+      },
+      {
+        "name": "Aaron Ahuvia",
+        "affiliation": "University of Michigan-Dearborn"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2024-10-15T10:00:00.000Z",
+        "description": "Deadline for submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-17T09:53:54.682Z"
+  },
+  {
     "journal": "Consumption Markets & Culture",
     "abbreviation": "tandf",
     "issn": "1477-223X",
