@@ -1,5 +1,20 @@
 import { DateTime } from "luxon";
 
+import { echeanceDepassee } from "./scrapers/echeance.mjs";
+
+// Marge apres l'echeance avant de masquer un appel : couvre les decalages de
+// fuseau horaire et les prolongations que la source n'a pas encore publiees.
+const TOLERANCE_ECHEANCE_JOURS = 7;
+
+// Un appel est affiche s'il est actif (ou encore dans son delai de grace)
+// ET si son echeance de soumission n'est pas passee. Le drapeau active seul
+// ne suffit pas : sur les sources de type archive permanente, un appel ne
+// disparait jamais et resterait affiche comme courant indefiniment.
+// Un appel sans echeance identifiee reste juge sur active seul (cf echeance.mjs).
+const appelAffichable = (call) =>
+    (call.active || Date.now() < new Date(call.gracePeriod)) &&
+    !echeanceDepassee(call, TOLERANCE_ECHEANCE_JOURS);
+
 export default async function (eleventyConfig) {
 
     // --- kerostig : jointure appels <-> revue par ISSN ---
@@ -8,8 +23,7 @@ export default async function (eleventyConfig) {
         const norm = (v) => (v || "").toString().replace(/[^0-9Xx]/g, "").toUpperCase();
         const cibles = new Set([norm(revue.eissn), norm(revue.pissn), norm(revue.issn_cle)].filter(Boolean));
         return allCalls.filter((call) => {
-            const actif = call.active || (!call.active && Date.now() < new Date(call.gracePeriod));
-            if (!actif) return false;
+            if (!appelAffichable(call)) return false;
             const issnAppel = norm(call.issn);
             return issnAppel && cibles.has(issnAppel);
         });
@@ -279,7 +293,7 @@ export default async function (eleventyConfig) {
     // Compteur d'appels actifs
     eleventyConfig.addFilter("compterAppelsActifs", function (calls) {
         if (!calls) return 0;
-        return calls.filter(c => c.active || (!c.active && Date.now() < new Date(c.gracePeriod))).length;
+        return calls.filter(appelAffichable).length;
     });
     // --- fin kerostig ---
 
@@ -320,7 +334,7 @@ export default async function (eleventyConfig) {
     });
 
     eleventyConfig.addFilter("isActiveCall", function (calls) {
-        return calls.filter(call => call.active || (!call.active && Date.now() < new Date(call.gracePeriod)));
+        return calls.filter(appelAffichable);
     });
 
     eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
