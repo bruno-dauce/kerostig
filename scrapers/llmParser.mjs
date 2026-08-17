@@ -42,11 +42,25 @@ async function parseFuzzyDate(fuzzyDate) {
     return chrono.parseDate(fuzzyDate) ?? chrono.fr.parseDate(fuzzyDate);
 }
 
+// Un rawContent absent, ou trop maigre pour porter un vrai titre (Elsevier :
+// pages de detail bloquees par Cloudflare, contenu reconstruit a partir de la
+// seule carte de liste), laisse le titre vide -- soit parce qu'on n'appelle
+// jamais le modele, soit parce qu'il refuse a juste titre d'inventer un titre
+// a partir d'un code comme "CMResponsibleScience26". Le metaTitle du scraper
+// est toujours present : il sert de repli honnete. Sans lui, l'appel se
+// retrouve stocke sans titre, et son contentHash le fige dans cet etat.
+function replierSurMetaTitle(call) {
+    if (!call.title || call.title.trim() === '') {
+        call.title = call.metaTitle ?? '';
+    }
+    return call;
+}
+
 export async function parse(call) {
     if (!call.rawContent || call.rawContent.length == 0) {
         delete call.rawContent;
         call.tags = [];
-        return call;
+        return replierSurMetaTitle(call);
     }
     const completion = await openai.beta.chat.completions.parse({
         model: process.env.MODEL_NAME,
@@ -67,5 +81,5 @@ export async function parse(call) {
     call.tags = await Promise.all(call.tags.map(async tag => {
         return tag.toLowerCase();
     }));
-    return call;
+    return replierSurMetaTitle(call);
 }

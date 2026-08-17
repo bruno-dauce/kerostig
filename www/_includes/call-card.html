@@ -14,15 +14,15 @@
     <div class="card-body p-5 gap-3">
 
         <div class="flex items-start justify-between gap-3">
-            {% if call.title %}
+            {# Le titre mene toujours vers la fiche interne : call-pages.njk pagine sur
+               tous les appels, la page /call/ existe donc meme quand l'extraction n'a
+               rien donne. Un appel sans titre extrait (rawContent trop maigre) retombe
+               sur le metaTitle du scraper plutot que de sortir du site vers la source,
+               qui peut etre un PDF ou une page d'editeur sans rapport. #}
+            {% set titreAffiche = call.title if call.title else call.metaTitle %}
             <a href="{{ ('/call/' + call.slug) | url }}" class="hover:underline">
-                <h2 class="text-lg font-bold leading-snug">{{ call.title | safe }}</h2>
+                <h2 class="text-lg font-bold leading-snug">{{ titreAffiche | safe }}</h2>
             </a>
-            {% else %}
-            <a href="{{ call.url | url }}" class="hover:underline">
-                <h2 class="text-lg font-bold leading-snug">{{ call.metaTitle | safe }}</h2>
-            </a>
-            {% endif %}
             {% if dueDate %}
             <span x-data="{ jours: Math.ceil((new Date('{{ dueDate.date }}') - new Date()) / 86400000) }"
                   x-show="jours > 0"
