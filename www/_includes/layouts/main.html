@@ -278,10 +278,10 @@ layout: layouts/base.html
         if (this.search !== '') list.push({ key: 'search', label: '« ' + this.search + ' »' });
         if (this.rang !== '') list.push({ key: 'rang', label: 'FNEGE ' + this.rang });
         if (this.discipline !== '') list.push({ key: 'discipline', label: this.disc_label(this.discipline) });
-        if (this.echeance !== '') list.push({ key: 'echeance', label: 'échéance ' + this.echeance_label(this.echeance) });
-        if (this.francophone) list.push({ key: 'francophone', label: 'revues francophones' });
-        if (this.oaOnly) list.push({ key: 'oaOnly', label: 'accès ouvert' });
-        if (this.showClosed) list.push({ key: 'showClosed', label: 'appels clôturés inclus' });
+        if (this.echeance !== '') list.push({ key: 'echeance', label: 'Échéance ' + this.echeance_label(this.echeance) });
+        if (this.francophone) list.push({ key: 'francophone', label: 'Revues francophones' });
+        if (this.oaOnly) list.push({ key: 'oaOnly', label: 'Accès ouvert' });
+        if (this.showClosed) list.push({ key: 'showClosed', label: 'Appels clôturés inclus' });
         return list;
     },
 
@@ -317,7 +317,7 @@ layout: layouts/base.html
 
     <div class="lg:hidden mb-4 space-y-2">
         <button @click="filtersOpen = !filtersOpen" class="btn btn-sm bg-base-200 border-base-300 w-full justify-between font-normal">
-            <span>filtres <span x-show="activeFilterCount() > 0" x-text="'(' + activeFilterCount() + ')'" class="font-semibold"></span></span>
+            <span>Filtres <span x-show="activeFilterCount() > 0" x-text="'(' + activeFilterCount() + ')'" class="font-semibold"></span></span>
             <svg class="w-4 h-4 transition-transform" :class="filtersOpen ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>
 
@@ -399,7 +399,7 @@ layout: layouts/base.html
                 </section>
 
                 <section x-show="activeFilterCount() > 0" x-transition class="pt-5">
-                    <button @click="resetFilters()" class="text-xs opacity-70 hover:opacity-100 underline">réinitialiser les filtres</button>
+                    <button @click="resetFilters()" class="text-xs opacity-70 hover:opacity-100 underline">Réinitialiser les filtres</button>
                 </section>
 
             </div>
@@ -411,17 +411,17 @@ layout: layouts/base.html
                     <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                         <p class="text-sm opacity-70" x-text="count_visible() + ' appel' + (count_visible() !== 1 ? 's' : '') + ' correspond' + (count_visible() !== 1 ? 'ent' : '') + ' à vos critères'"></p>
                         <button x-show="!showClosed && closed_calls_count() > 0" @click="showClosed = true" class="text-xs opacity-70 hover:opacity-100 underline">
-                            voir aussi les <span x-text="closed_calls_count()"></span> appel<span x-text="closed_calls_count() !== 1 ? 's' : ''"></span> clôturé<span x-text="closed_calls_count() !== 1 ? 's' : ''"></span>
+                            Voir aussi les <span x-text="closed_calls_count()"></span> appel<span x-text="closed_calls_count() !== 1 ? 's' : ''"></span> clôturé<span x-text="closed_calls_count() !== 1 ? 's' : ''"></span>
                         </button>
-                        <button x-show="showClosed" @click="showClosed = false" class="text-xs opacity-70 hover:opacity-100 underline">masquer les appels clôturés</button>
+                        <button x-show="showClosed" @click="showClosed = false" class="text-xs opacity-70 hover:opacity-100 underline">Masquer les appels clôturés</button>
                     </div>
                     <label class="flex items-center gap-2 flex-shrink-0">
-                        <span class="text-xs opacity-60">trier par</span>
+                        <span class="text-xs opacity-60">Trier par</span>
                         <select x-model="sort" @change="sort_calls()" class="select select-xs select-bordered bg-base-200 border-base-300 font-normal">
-                            <option value="duedate">échéance</option>
-                            <option value="title">titre</option>
-                            <option value="journal">revue</option>
-                            <option value="pubdate">date d'ajout</option>
+                            <option value="duedate">Échéance</option>
+                            <option value="title">Titre</option>
+                            <option value="journal">Revue</option>
+                            <option value="pubdate">Date d'ajout</option>
                         </select>
                     </label>
                 </div>
