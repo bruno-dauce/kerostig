@@ -2,10 +2,16 @@ import { promises as fs } from 'fs';
 
 import { parse } from './llmParser.mjs'
 import { clean } from './dataPreparation.mjs';
+import { echeanceDepassee, joursDepuisEcheance } from './echeance.mjs';
 
 // Au-dela de ce nombre d'appels au passage precedent, un scraper qui ne
 // remonte plus rien est juge suspect plutot que legitimement vide.
 const SEUIL_SCRAPER_VIDE = 10;
+
+// Delai apres l'echeance de soumission au-dela duquel un appel encore actif
+// est archive d'office. Plus large que la tolerance d'affichage de 7 jours
+// (eleventy.config.mjs) : on masque vite, on ne touche aux donnees qu'a coup sur.
+const JOURS_APRES_ECHEANCE = 30;
 
 // Un editeur ne retire pas dix appels ou plus le meme jour : un scraper qui
 // passe de dix appels a zero a bien plus probablement echoue en silence (site
@@ -118,6 +124,23 @@ export async function integrateCalls(newCalls, ranAbbreviations = null) {
             delete call.gracePeriod;
         }
         return call;
+    });
+
+    // Archivage par echeance depassee. Filet de securite pour les sources de
+    // type archive permanente (RIPME, Decisions Marketing, Revue de
+    // l'Entrepreneuriat), ou un appel ne disparait jamais et n'est donc jamais
+    // rattrape par la logique de disparition ci-dessus. Les deux mecanismes
+    // sont complementaires : celui-ci ne touche qu'aux appels dont l'echeance
+    // de soumission est identifiee, l'autre couvre tous les autres cas.
+    // S'applique volontairement a tous les appels, y compris ceux des scrapers
+    // non lances ce run (--only) : une echeance passee ne depend pas de la source.
+    // Pas de gracePeriod ici, l'appel est deja clos depuis un mois.
+    resultCalls = resultCalls.map(call => {
+        if (!call.active) return call;
+        if (!echeanceDepassee(call, JOURS_APRES_ECHEANCE, now.getTime())) return call;
+        const jours = joursDepuisEcheance(call, now.getTime());
+        console.log(`[diffChecker] ${call.slug} marque inactif (echeance depassee depuis ${jours} jours)`);
+        return { ...call, active: false };
     });
 
     await fs.writeFile("./www/_data/calls.json", JSON.stringify(resultCalls, null, 2), err => {
