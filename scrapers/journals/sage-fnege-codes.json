@@ -1,0 +1,302 @@
+[
+    {
+        "code": "aasb",
+        "issn": "1552-3039",
+        "titre": "Administration & Society"
+    },
+    {
+        "code": "acha",
+        "issn": "1749-3374",
+        "titre": "Accounting History"
+    },
+    {
+        "code": "arpb",
+        "issn": "1552-3357",
+        "titre": "The American Review of Public Administration"
+    },
+    {
+        "code": "asqa",
+        "issn": "1930-3815",
+        "titre": "Administrative Science Quarterly"
+    },
+    {
+        "code": "asra",
+        "issn": "1939-8271",
+        "titre": "American Sociological Review"
+    },
+    {
+        "code": "basa",
+        "issn": "1552-4205",
+        "titre": "Business & Society"
+    },
+    {
+        "code": "ccha",
+        "issn": "1477-2221",
+        "titre": "Competition & Change"
+    },
+    {
+        "code": "cmra",
+        "issn": "2162-8564",
+        "titre": "California Management Review"
+    },
+    {
+        "code": "eida",
+        "issn": "1461-7099",
+        "titre": "Economic and Industrial Democracy"
+    },
+    {
+        "code": "ejda",
+        "issn": "1461-7129",
+        "titre": "European Journal of Industrial Relations"
+    },
+    {
+        "code": "enja",
+        "issn": "1944-9089",
+        "titre": "The Energy Journal"
+    },
+    {
+        "code": "epna",
+        "issn": "1472-3409",
+        "titre": "Environment and Planning A Economy and Space"
+    },
+    {
+        "code": "etpb",
+        "issn": "1540-6520",
+        "titre": "Entrepreneurship Theory and Practice"
+    },
+    {
+        "code": "evia",
+        "issn": "1461-7153",
+        "titre": "Evaluation"
+    },
+    {
+        "code": "fbra",
+        "issn": "1741-6248",
+        "titre": "Family Business Review"
+    },
+    {
+        "code": "gasa",
+        "issn": "1552-3977",
+        "titre": "Gender & Society"
+    },
+    {
+        "code": "gomb",
+        "issn": "1552-3993",
+        "titre": "Group & Organization Management"
+    },
+    {
+        "code": "gpia",
+        "issn": "1461-7188",
+        "titre": "Group Processes & Intergroup Relations"
+    },
+    {
+        "code": "hsrb",
+        "issn": "1758-1060",
+        "titre": "Journal of Health Services Research & Policy"
+    },
+    {
+        "code": "huma",
+        "issn": "1741-282X",
+        "titre": "Human Relations"
+    },
+    {
+        "code": "ilra",
+        "issn": "2162-271X",
+        "titre": "Industrial and Labor Relations Review"
+    },
+    {
+        "code": "isbb",
+        "issn": "1741-2870",
+        "titre": "International Small Business Journal Researching Entrepreneurship"
+    },
+    {
+        "code": "jaba",
+        "issn": "1552-6879",
+        "titre": "The Journal of Applied Behavioral Science"
+    },
+    {
+        "code": "jafa",
+        "issn": "2160-4061",
+        "titre": "Journal of Accounting Auditing & Finance"
+    },
+    {
+        "code": "jcaa",
+        "issn": "1552-4590",
+        "titre": "Journal of Career Assessment"
+    },
+    {
+        "code": "jcrb",
+        "issn": "1552-8766",
+        "titre": "Journal of Conflict Resolution"
+    },
+    {
+        "code": "jhtd",
+        "issn": "1557-7554",
+        "titre": "Journal of Hospitality & Tourism Research"
+    },
+    {
+        "code": "jiga",
+        "issn": "1547-7215",
+        "titre": "Journal of International Marketing"
+    },
+    {
+        "code": "jina",
+        "issn": "1466-4437",
+        "titre": "Journal of Information Technology"
+    },
+    {
+        "code": "jmed",
+        "issn": "1552-6658",
+        "titre": "Organizational Behavior Teaching Review"
+    },
+    {
+        "code": "jmia",
+        "issn": "1552-6542",
+        "titre": "Journal of Management Inquiry"
+    },
+    {
+        "code": "jmka",
+        "issn": "1552-6534",
+        "titre": "Journal of Macromarketing"
+    },
+    {
+        "code": "jmxa",
+        "issn": "1547-7185",
+        "titre": "Journal of Marketing"
+    },
+    {
+        "code": "jnma",
+        "issn": "1520-6653",
+        "titre": "Journal of Interactive Marketing"
+    },
+    {
+        "code": "joma",
+        "issn": "1557-1211",
+        "titre": "Journal of Management"
+    },
+    {
+        "code": "jsra",
+        "issn": "1552-7379",
+        "titre": "Journal of Service Research"
+    },
+    {
+        "code": "jtrb",
+        "issn": "1552-6763",
+        "titre": "Journal of Travel Research"
+    },
+    {
+        "code": "mdma",
+        "issn": "1552-681X",
+        "titre": "Medical Decision Making"
+    },
+    {
+        "code": "mlqb",
+        "issn": "1461-7307",
+        "titre": "Management Learning"
+    },
+    {
+        "code": "mrea",
+        "issn": "2515-2173",
+        "titre": "International Journal of Market Research"
+    },
+    {
+        "code": "mrja",
+        "issn": "1547-7193",
+        "titre": "Journal of Marketing Research"
+    },
+    {
+        "code": "mtqa",
+        "issn": "1741-301X",
+        "titre": "Marketing Theory"
+    },
+    {
+        "code": "nvsb",
+        "issn": "1552-7395",
+        "titre": "Nonprofit and Voluntary Sector Quarterly"
+    },
+    {
+        "code": "oaec",
+        "issn": "1552-7417",
+        "titre": "Organization & Environment"
+    },
+    {
+        "code": "opra",
+        "issn": "2041-3874",
+        "titre": "Organizational Psychology Review"
+    },
+    {
+        "code": "orga",
+        "issn": "1461-7323",
+        "titre": "Organization"
+    },
+    {
+        "code": "orma",
+        "issn": "1552-7425",
+        "titre": "Organizational Research Methods"
+    },
+    {
+        "code": "ossa",
+        "issn": "1741-3044",
+        "titre": "Organization Studies"
+    },
+    {
+        "code": "ppoa",
+        "issn": "1547-7207",
+        "titre": "Journal of Public Policy & Marketing"
+    },
+    {
+        "code": "pssa",
+        "issn": "1467-9280",
+        "titre": "Psychological Science"
+    },
+    {
+        "code": "ram",
+        "issn": "2051-2821",
+        "titre": "Recherche et Applications en Marketing (French Edition)"
+    },
+    {
+        "code": "rasb",
+        "issn": "1461-7226",
+        "titre": "International Review of Administrative Sciences"
+    },
+    {
+        "code": "sgrd",
+        "issn": "1552-8278",
+        "titre": "Small Group Research"
+    },
+    {
+        "code": "soca",
+        "issn": "1469-8684",
+        "titre": "Sociology"
+    },
+    {
+        "code": "soqa",
+        "issn": "1741-315X",
+        "titre": "Strategic Organization"
+    },
+    {
+        "code": "sthd",
+        "issn": "1552-8251",
+        "titre": "Science Technology & Human Values"
+    },
+    {
+        "code": "tcsa",
+        "issn": "1460-3616",
+        "titre": "Theory Culture & Society"
+    },
+    {
+        "code": "usja",
+        "issn": "1360-063X",
+        "titre": "Urban Studies"
+    },
+    {
+        "code": "wesa",
+        "issn": "1469-8722",
+        "titre": "Work Employment and Society"
+    },
+    {
+        "code": "woxb",
+        "issn": "1552-8464",
+        "titre": "Work and Occupations"
+    }
+]

@@ -1,9 +1,26 @@
 import * as cheerio from 'cheerio';
-import { mkdtempSync } from 'fs';
+import { mkdtempSync, readFileSync } from 'fs';
 import path from 'path';
 import os from 'os';
 import { matchIssn } from '../issnMatcher.mjs';
 import { curlGet } from '../curlClient.mjs';
+
+// COLLECTE LOCALE UNIQUEMENT (decision v1, 2026-08-18).
+//
+// journals.sagepub.com renvoie un 403 Cloudflare depuis GitHub Actions, y
+// compris avec curl-impersonate installe et fonctionnel : la variable
+// discriminante est la reputation de l'IP de sortie (plages Azure du
+// runner), pas le fingerprint TLS -- les memes requetes passent depuis une
+// IP domestique avec un curl standard, moins credible. Ce scraper ne
+// rapporte donc rien en CI ; ses appels sont collectes en lancant le
+// pipeline a la main (`npm run scrape -- --only sage`) depuis un poste
+// personnel. La contrainte est assumee pour la v1 : la sortir demanderait
+// de router SAGE par un service tiers ou un runner auto-heberge.
+//
+// Consequence a garder en tete : le garde-fou "scraper vide" de
+// diffChecker.mjs voit ce scraper rentrer bredouille a chaque passage CI.
+// C'est bien lui qui evite que les appels SAGE deja en base basculent en
+// active:false faute d'avoir ete revus -- ne pas le contourner ici.
 
 // SAGE centralise les appels de (quasi) toutes ses revues sur ce hub unique,
 // classe par discipline (accordeon) -- une seule page a visiter au lieu de
@@ -62,7 +79,14 @@ const IGNORED_LINK_TEXT_PATTERN = /^(author guidelines|submission guidelines|gui
 // Administration, qui y pointe malgre son intitule. Filtre sur l'URL (pas
 // seulement le texte du lien, qui peut annoncer un "General Call for
 // Papers" inexistant) comme pour les faux positifs Wiley.
-const IGNORED_URL_PATTERN = /\/author-instructions\//i;
+//
+// /toc/{code}/{volume}/{numero} est le sommaire d'un numero DEJA PARU : un
+// appel ne pointe jamais vers un sommaire. C'est la forme que prennent les
+// encarts "Special issue" a bouton "Read Now" (4 faux positifs au passage du
+// 2026-08-18 : Journal of International Marketing, Journal of Interactive
+// Marketing, Medical Decision Making, Journal of Public Policy & Marketing),
+// dont l'intitule seul ne permet pas de les distinguer d'un vrai appel.
+const IGNORED_URL_PATTERN = /\/author-instructions\/|\/toc\//i;
 
 // Widget "vous pourriez etre interesse par" affiche sur la page propre
 // d'une revue (systeme CMS distinct de l'accordeon du hub). Constate
@@ -73,17 +97,88 @@ const IGNORED_URL_PATTERN = /\/author-instructions\//i;
 // Plusieurs spots coexistent sur une page (pub, reseaux sociaux, "Publish
 // with us"...), d'ou le filtre sur le titre.
 const MARKETING_SPOT_SELECTOR = 'div.marketing-spot';
-const MARKETING_SPOT_TITLE_PATTERN = /^call for papers$/i;
 
-// Revues FNEGE connues pour ne jamais apparaitre dans l'accordeon du hub
-// (constate manuellement au cas par cas, pas une supposition generale) :
-// on les complete individuellement plutot que de naviguer les ~60 revues
-// FNEGE une a une, ce que le hub sert justement a eviter (cf commentaire
-// sur HUB_URL). Ajouter une revue ici seulement apres avoir confirme
-// qu'elle est bien absente du hub malgre un appel actif sur sa propre page.
-const SUPPLEMENTARY_JOURNALS = [
-    { code: 'ram', journal: 'Recherche et Applications en Marketing' },
-];
+// Retenu large a dessein : le releve des 60 pages FNEGE (2026-08-18) donne
+// 35 intitules distincts pour 87 encarts -- "Call for papers", "Special
+// issue call for papers", "Special issue", "SO! Call for papers", "Grand
+// Challenges Special Issue CFP"... Un motif strict en rate la majorite (le
+// precedent, /^call for papers$/, laissait passer 16 encarts sur 87 et
+// ratait justement le Journal of International Marketing). Le tri fin ne se
+// fait donc pas ici mais par exclusion (cf NON_CALL_PATTERN).
+const MARKETING_SPOT_TITLE_PATTERN = /call for paper|call for submission|special issue|\bcfp\b/i;
+
+// Critere de tri, par EXCLUSION. Un premier essai en sens inverse (ne
+// garder que les encarts annoncant une echeance) a ete abandonne apres
+// mesure sur 8 pages FNEGE : il laissait passer 6 appels et en ratait au
+// moins 6, parce que beaucoup de revues n'affichent que le titre de l'appel
+// et un bouton "Learn more", l'echeance vivant sur la page liee (constate
+// sur Entrepreneurship Theory and Practice, Human Relations, Urban Studies).
+// L'exclusion resiste mieux aux variations de mise en page : les encarts qui
+// ne sont PAS des appels se nomment, eux, de facon tres reguliere.
+//
+//  - "Virtual special issue", "Latest special issues", "Read our latest
+//    Special Issue", "Special Issues in Process" : collections d'articles
+//    deja publies, bouton "Read Now".
+//  - "proposals" : sollicite une PROPOSITION de numero special aupres de
+//    futurs editeurs invites, pas des articles. Meme distinction que la
+//    section "Call For Special Issue Proposals" deja ecartee chez Wiley.
+//    Le mot apparait tantot dans le titre de l'encart ("Special Issue
+//    Proposals", ETP), tantot seulement dans le corps ("Deadlines for
+//    Special Issue Proposals", Organization Studies) -- d'ou le test sur
+//    les deux.
+//  - "conference" : appel a communications pour un colloque (deux encarts
+//    "BSA Conference call for papers" sur Sociology), hors perimetre d'un
+//    site d'appels a publications. Conserve du filtre precedent.
+const NON_CALL_PATTERN = /virtual special issue|latest special issue|read our (?:latest )?special issue|special issues in process|\bproposals?\b|\bconference\b/i;
+
+// Les appels d'une meme revue peuvent etre listes dans un seul encart, sous
+// forme de <li> (un appel par puce, avec son lien et son echeance) au lieu
+// d'un encart par appel avec bouton en pied. Constate sur le Journal of
+// International Marketing : 3 appels dans un unique encart "Call for
+// papers", liens dans le corps et pied de widget vide -- l'extracteur
+// d'origine, qui ne lisait que le premier lien du pied, n'en rendait aucun.
+const MARKETING_SPOT_LIST_ITEM_SELECTOR = '.marketing-spot__list li';
+const MARKETING_SPOT_TEXT_SELECTOR = '.marketing-spot__text';
+const MARKETING_SPOT_FOOTER_SELECTOR = '.marketing-spot__footer';
+
+// Liens de navigation generiques, jamais le lien d'un appel (meme garde-fou
+// que sur le hub et chez Wiley).
+const IGNORED_SPOT_LINK_TEXT_PATTERN = /^(author guidelines|submission guidelines|guide for authors|aims (and|&) scope)$/i;
+
+// Certains liens d'encart sont enrobes par le Safe Links d'Outlook : l'URL
+// reelle est passee dans le parametre ?url= d'un domaine
+// *.safelinks.protection.outlook.com (les appels du Journal of International
+// Marketing pointent ainsi vers ama.org via nam12.safelinks...). Stocker le
+// lien enrobe donnerait une URL illisible sur la fiche, instable dans le
+// temps (jeton de tracking) et donc un slug instable : on deballe.
+const SAFELINK_HOST_PATTERN = /(^|\.)safelinks\.protection\.outlook\.com$/i;
+
+// Les 60 revues FNEGE publiees par SAGE, avec le code de leur page
+// /home/{code} et leur ISSN canonique (cle de jointure avec journals.json).
+//
+// C'est desormais la source PRINCIPALE de ce scraper. Le releve du
+// 2026-08-18 a montre que le hub ne liste que 4 de ces 60 revues : sa
+// section "Business & Management" est dominee par des revues hors
+// perimetre, et des revues aussi importantes que le Journal of
+// International Marketing n'y figurent pas du tout alors que leur propre
+// page affiche des appels ouverts. Le pari initial "un hub unique evite de
+// naviguer revue par revue" ne tient pas pour la gestion.
+//
+// Le mapping vit dans un fichier a part (donnee de reference, pas du code)
+// et a ete construit depuis le repertoire /action/showPublications, puis
+// verifie revue par revue en comparant l'ISSN affiche sur la page a celui
+// de journals.json. Piege releve a cette occasion : le repertoire donne
+// "rmea" pour Recherche et Applications en Marketing, qui est l'edition
+// ANGLAISE (eISSN 2051-5707) ; l'edition francaise du perimetre FNEGE est
+// "ram". Refaire cette verification par l'ISSN avant d'ajouter une revue.
+const JOURNAL_PAGES = JSON.parse(
+    readFileSync(new URL('./sage-fnege-codes.json', import.meta.url), 'utf8')
+);
+
+// 60 requetes par passage au lieu d'une seule : on espace, comme chez
+// Wiley, ou un rythme trop soutenu finit par declencher un challenge
+// Cloudflare apres quelques dizaines de requetes.
+const REQUEST_DELAY_MS = 1000;
 
 export const scraperObject = {
     url: HUB_URL,
@@ -91,9 +186,10 @@ export const scraperObject = {
     async scraper() {
         const abbreviation = this.abbreviation;
 
-        // Le hub reste la source principale (cf commentaire sur HUB_URL),
-        // mais son indisponibilite ne doit pas empecher de recuperer les
-        // revues complementaires ci-dessous : pas de retour anticipe ici.
+        // Le hub est conserve en complement (il couvre 4 revues du
+        // perimetre, cf commentaire sur JOURNAL_PAGES), mais son
+        // indisponibilite ne doit pas empecher de parcourir les pages
+        // revue : pas de retour anticipe ici.
         const accordionHtml = await get_accordion_html(HUB_URL);
 
         // Certaines revues sont classees sous plusieurs disciplines : leur
@@ -107,17 +203,32 @@ export const scraperObject = {
         }
         console.log(`[sage] ${entriesByUrl.size} appel(s) distinct(s) trouve(s) sur le hub`);
 
-        for (const { code, journal } of SUPPLEMENTARY_JOURNALS) {
-            const supplementaryEntries = await get_marketing_spot_calls(code, journal);
-            for (const entry of supplementaryEntries) {
-                if (!entriesByUrl.has(entry.url)) entriesByUrl.set(entry.url, entry);
+        // Les pages revue portent deja leur ISSN (cf JOURNAL_PAGES) : leurs
+        // appels arrivent apparies, sans passer par matchIssn. Un appel deja
+        // vu sur le hub n'est pas remplace -- meme URL, meme appel.
+        let journauxAvecAppel = 0;
+        let pagesInjoignables = 0;
+        for (const { code, titre, issn } of JOURNAL_PAGES) {
+            await sleep(REQUEST_DELAY_MS);
+            const pageEntries = await get_marketing_spot_calls(code, titre);
+            if (pageEntries === null) {
+                pagesInjoignables++;
+                continue;
             }
+            if (pageEntries.length > 0) journauxAvecAppel++;
+            for (const entry of pageEntries) {
+                if (!entriesByUrl.has(entry.url)) entriesByUrl.set(entry.url, { ...entry, issn });
+            }
+        }
+        console.log(`[sage] ${journauxAvecAppel} revue(s) FNEGE sur ${JOURNAL_PAGES.length} avec au moins un appel sur leur page`);
+        if (pagesInjoignables > 0) {
+            console.warn(`[sage] ${pagesInjoignables} page(s) revue injoignable(s) -- appels de ces revues absents de ce passage`);
         }
 
         let skippedCount = 0;
         const calls = [];
         for (const entry of entriesByUrl.values()) {
-            const issn = await matchIssn(entry.journal);
+            const issn = entry.issn ?? await matchIssn(entry.journal);
             if (!issn) {
                 skippedCount++;
                 continue;
@@ -131,7 +242,8 @@ export const scraperObject = {
                 rawContent: entry.rawContent,
             });
         }
-        console.log(`[sage] ${skippedCount} appel(s) ignore(s), revue hors perimetre FNEGE`);
+        console.log(`[sage] ${skippedCount} appel(s) du hub ignore(s), revue hors perimetre FNEGE`);
+        console.log(`[sage] ${calls.length} appel(s) retenu(s)`);
 
         return calls;
     }
@@ -165,48 +277,142 @@ async function get_accordion_html(url) {
     return container.html();
 }
 
-// Recupere le(s) appel(s) affiche(s) via le widget "marketing spot" sur la
-// page propre d'une revue (cf commentaire sur MARKETING_SPOT_SELECTOR) --
-// complement cible du hub, pas un remplacement (utilise uniquement pour les
-// revues listees dans SUPPLEMENTARY_JOURNALS).
+// Recupere le(s) appel(s) affiche(s) via les widgets "marketing spot" sur la
+// page propre d'une revue (cf commentaire sur MARKETING_SPOT_SELECTOR).
+//
+// Renvoie null si la page n'a pas pu etre lue, [] si elle a ete lue et
+// n'annonce aucun appel : la distinction compte, une page injoignable n'est
+// pas une revue sans appel. Le statut n'est logue que s'il n'est pas 200 --
+// 60 lignes "Statut HTTP 200" a chaque passage noieraient les vrais
+// problemes dans les logs.
 async function get_marketing_spot_calls(code, journalName) {
     const url = `https://journals.sagepub.com/home/${code}`;
     let response;
     try {
         response = await curlGet(url, { cookieJarPath: COOKIE_JAR_PATH, userAgent: USER_AGENT });
     } catch (error) {
-        console.warn(`[sage] Erreur reseau (curl) sur ${url} (revue complementaire ${journalName}) : ${error.message}`);
-        return [];
+        console.warn(`[sage] Erreur reseau (curl) sur ${url} (${journalName}) : ${error.message}`);
+        return null;
     }
 
-    console.log(`[sage] Statut HTTP ${response.status} sur ${url} (revue complementaire ${journalName})`);
     if (response.status !== 200) {
-        console.warn(`[sage] Statut HTTP ${response.status} (attendu 200) sur ${url} -- probable blocage anti-bot ou challenge`);
-        return [];
+        console.warn(`[sage] Statut HTTP ${response.status} (attendu 200) sur ${url} (${journalName}) -- probable blocage anti-bot ou challenge`);
+        return null;
     }
 
-    const $ = cheerio.load(response.body);
+    return extract_spot_calls(response.body, url, journalName);
+}
+
+// Fonction pure (HTML -> appels), exportee pour pouvoir etre rejouee sur du
+// HTML reel sans navigateur ni reseau.
+export function extract_spot_calls(html, pageUrl, journalName) {
+    const $ = cheerio.load(html);
     const entries = [];
+
     $(MARKETING_SPOT_SELECTOR).each((_, el) => {
         const spot = $(el);
         const title = spot.find('.marketing-spot__title').first().text().trim();
         if (!MARKETING_SPOT_TITLE_PATTERN.test(title)) return;
+        if (NON_CALL_PATTERN.test(title)) return;
 
-        const href = spot.find('.marketing-spot__footer a[href]').first().attr('href');
-        if (!href) return;
-
-        entries.push({
-            journal: journalName,
-            metaTitle: title,
-            url: new URL(href, url).href,
-            rawContent: spot.html() ?? '',
-        });
+        for (const call of read_spot($, spot, title, pageUrl)) {
+            if (!call.url || !call.rawContent.trim()) continue;
+            if (IGNORED_URL_PATTERN.test(call.url)) continue;
+            // Teste sur le texte visible et non sur le HTML : le balisage
+            // peut couper "special issue proposals" par une balise, et une
+            // classe CSS ne doit pas declencher l'exclusion.
+            if (NON_CALL_PATTERN.test(cheerio.load(call.rawContent).text())) continue;
+            // Et sur l'URL : un appel a propositions de numero special peut
+            // n'annoncer sa nature que la (constate sur Family Business
+            // Review, dont l'encart affiche "Family Offices in the
+            // Spotlight:" et pointe vers .../call-for-fbr-special-issue-
+            // proposals-...). Separateurs remis en espaces pour que le motif
+            // s'applique de la meme facon que sur du texte.
+            if (NON_CALL_PATTERN.test(call.url.replace(/[-_+]+|%20/g, ' '))) continue;
+            entries.push({ journal: journalName, ...call });
+        }
     });
 
-    if (entries.length === 0) {
-        console.log(`[sage] Aucun appel (widget "call for papers") trouve sur ${url} (revue complementaire ${journalName})`);
-    }
     return entries;
+}
+
+// Un encart prend l'une des deux formes rencontrees sur les pages revue :
+// une liste de puces (un appel par <li>) ou un bloc de texte unique avec
+// bouton en pied. On lit la liste en priorite : quand elle existe, le pied
+// de l'encart est vide et le texte global melangerait tous les appels.
+function read_spot($, spot, spotTitle, pageUrl) {
+    const items = spot.find(MARKETING_SPOT_LIST_ITEM_SELECTOR).toArray();
+    if (items.length > 0) {
+        return items.map(item => {
+            const li = $(item);
+            const link = find_call_link($, li);
+            const url = link ? resolve_call_url(link.attr('href'), pageUrl) : null;
+            // Le lien est reecrit AVANT de serialiser rawContent : un
+            // safelink Outlook porte un jeton de tracking regenere par
+            // l'editeur, qui ferait changer le contentHash sans que l'appel
+            // ait bouge -- donc un rappel du modele a chaque passage. Le
+            // mecanisme de diff repose sur un rawContent stable.
+            if (link && url) link.attr('href', url);
+            return {
+                // Le texte du lien porte le vrai titre de l'appel ("Global
+                // Endorsers in Marketing"), bien plus utile que l'intitule
+                // de l'encart, commun a toutes les puces.
+                metaTitle: link ? link.text().trim() : null,
+                url,
+                rawContent: $.html(li),
+            };
+        });
+    }
+
+    const text = spot.find(MARKETING_SPOT_TEXT_SELECTOR).first();
+    // Le pied de l'encart d'abord (bouton "Learn More"), puis le corps en
+    // repli : certaines revues n'ont pas de pied du tout.
+    const link = find_call_link($, spot.find(MARKETING_SPOT_FOOTER_SELECTOR).first())
+        ?? find_call_link($, text);
+    const url = link ? resolve_call_url(link.attr('href'), pageUrl) : null;
+    if (link && url) link.attr('href', url); // cf commentaire ci-dessus
+    return [{
+        // Forme simple : l'encart entier ne decrit qu'un appel, son intitule
+        // reste le meilleur repli disponible (et garder ce choix preserve le
+        // slug des appels deja en base, cf dataPreparation.generateSlug).
+        metaTitle: spotTitle,
+        url,
+        rawContent: text.length ? ($.html(text) ?? '') : '',
+    }];
+}
+
+function find_call_link($, scope) {
+    if (!scope || scope.length === 0) return null;
+    return scope.find('a[href]').toArray()
+        .map(a => $(a))
+        .find(a => {
+            const href = a.attr('href') ?? '';
+            if (href.startsWith('mailto:') || href.includes('cdn-cgi/l/email-protection')) return false;
+            return !IGNORED_SPOT_LINK_TEXT_PATTERN.test(a.text().trim());
+        }) ?? null;
+}
+
+function resolve_call_url(href, pageUrl) {
+    if (!href) return null;
+    let url;
+    try {
+        url = new URL(href, pageUrl);
+    } catch {
+        return null;
+    }
+    if (!SAFELINK_HOST_PATTERN.test(url.hostname)) return url.href;
+
+    // Le parametre ?url= porte l'URL reelle, encodee. On ne renvoie le lien
+    // deballe que s'il est exploitable : mieux vaut le lien enrobe qu'un
+    // appel sans URL du tout (pageController ecarte les appels sans contenu,
+    // et un slug se construit sur le metaTitle, pas sur l'URL).
+    const inner = url.searchParams.get('url');
+    if (!inner) return url.href;
+    try {
+        return new URL(inner).href;
+    } catch {
+        return url.href;
+    }
 }
 
 function extract_entries(accordionHtml) {
@@ -261,4 +467,8 @@ function extract_entries(accordionHtml) {
         });
     }
     return entries;
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
