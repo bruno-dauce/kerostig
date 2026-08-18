@@ -1,5 +1,276 @@
 [
   {
+    "journal": "Organizational Psychology Review",
+    "abbreviation": "sage",
+    "issn": "2041-3874",
+    "metaTitle": "Reconceptualizing Careers in Disruptive Times",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/OPR/CFP_Reconceptualizing_Careers_in_Disruptive_Times-1776228180230.pdf",
+    "title": "Reconceptualizing Careers in Disruptive Times",
+    "slug": "sage-reconceptualizing-careers-in-disruptive-times",
+    "contentHash": "3204b37ddfd5a6d2b69f8fdfcd63fc4200d27edaae4cddee31ef449b4c4bec82",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "careers",
+      "disruption"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T18:07:56.472Z"
+  },
+  {
+    "journal": "Competition & Change",
+    "abbreviation": "sage",
+    "issn": "1477-2221",
+    "metaTitle": "Beyond the Contradictions of Capitalist Green Finance: Alternative Paths to Sustainability",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/CfP%20-%20Sustainability%20contradictions%20of%20green%20capitalism-1747889657.pdf",
+    "title": "Beyond the Contradictions of Capitalist Green Finance: Alternative Paths to Sustainability",
+    "slug": "sage-beyond-the-contradictions-of-capitalist-green-finance-alternative-paths-to-sustainability",
+    "contentHash": "c548f859bf9cc947880f69f45dfbeda9b88c38e860ce4c789e961576249a5163",
+    "topics": [
+      "Critiques of green finance and green capitalism",
+      "Alternative financing models for sustainability",
+      "Just transition and equity in green finance",
+      "Community-based and cooperative finance approaches",
+      "Indigenous and traditional sustainable practices",
+      "Degrowth and post-growth economic models",
+      "Financialization of nature and environmental commodification",
+      "State regulation and intervention in green finance",
+      "Corporate accountability and greenwashing",
+      "Renewable energy financing and ownership models",
+      "Sustainable agriculture and food systems financing",
+      "Climate justice and reparations",
+      "Labor rights in green transitions",
+      "Local currency and alternative banking systems",
+      "Blockchain and digital currencies for sustainability"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue seeks to move beyond the technocratic and market-based approaches to sustainability that characterize much of the green finance discourse. While green finance has become increasingly mainstream, it often reproduces the fundamental contradictions of capitalism, concentrating wealth, maintaining unequal power structures, and failing to address the root causes of environmental degradation.",
+        "We invite contributions that critically examine the limitations and failures of green finance and green capitalism, while exploring genuinely alternative approaches to funding and organizing sustainable economies. Papers should engage with debates about how to achieve environmental sustainability in ways that prioritize justice, equity, and democratic control over resources.",
+        "Contributions may explore the structural contradictions within green finance capitalism, including how market mechanisms and financialization perpetuate inequality and environmental harm. They may also propose and analyze alternative models that challenge the fundamental assumptions of capitalist green finance."
+      ]
+    },
+    "tags": [
+      "green finance",
+      "sustainability",
+      "political economy",
+      "environmental justice",
+      "alternative economics"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T18:07:56.472Z"
+  },
+  {
+    "journal": "Entrepreneurship Theory and Practice",
+    "abbreviation": "sage",
+    "issn": "1540-6520",
+    "metaTitle": "Entrepreneurship Ex Machina: Transformative AI for Theory and Practice",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/ETP%20Special%20Issue%20CFP-%20AI%20and%20Entrepreneurship-upd-1738731870777.pdf",
+    "title": "Entrepreneurship Ex Machina: Transformative AI for Theory and Practice",
+    "slug": "sage-entrepreneurship-ex-machina-transformative-ai-for-theory-and-practice",
+    "contentHash": "419e102393b44df3e57dabf1d706a4242f385abf4159bae8df64522997b79275",
+    "topics": [
+      "AI's transformative impact on entrepreneurial ecosystems",
+      "Machine learning applications in startup scaling and growth",
+      "Algorithmic decision-making in venture capital and funding allocation",
+      "AI-driven business model innovation and experimentation",
+      "Automation and augmentation of entrepreneurial tasks",
+      "Ethical implications and responsible AI use in entrepreneurship",
+      "AI's role in identifying and exploiting market opportunities",
+      "Digital transformation of entrepreneurial processes",
+      "Human-AI collaboration in entrepreneurial ventures",
+      "Generative AI and creative entrepreneurship",
+      "Data analytics for entrepreneurial decision-making",
+      "AI-enabled new venture creation and ideation"
+    ],
+    "description": {
+      "paragraphs": [
+        "Artificial intelligence (AI) is fundamentally reshaping entrepreneurship and the broader entrepreneurial ecosystem. From AI-powered ideation and opportunity recognition to automated scaling and intelligent resource allocation, AI technologies are transforming how entrepreneurs identify opportunities, make decisions, and execute their ventures. This special issue seeks to advance our understanding of how AI is reshaping entrepreneurial theory and practice, and to explore both the opportunities and challenges that emerge from this transformation.",
+        "We invite submissions that explore the intersection of AI and entrepreneurship across multiple dimensions. This includes understanding how entrepreneurs leverage AI tools and platforms, how AI influences venture funding and investment decisions, how AI enables new business models and competitive advantages, and how AI impacts entrepreneurial ecosystems and the broader economy. We are particularly interested in work that examines both the promise and pitfalls of AI adoption in entrepreneurial contexts.",
+        "The special issue welcomes empirical studies, theoretical contributions, methodological innovations, and practitioner perspectives that shed light on AI's role in entrepreneurship. Submissions may examine startups, established companies pursuing entrepreneurial initiatives, or the broader institutional and infrastructural changes enabled by AI. We encourage interdisciplinary approaches that integrate insights from entrepreneurship, artificial intelligence, management, economics, and related fields."
+      ]
+    },
+    "tags": [
+      "ai and entrepreneurship",
+      "machine learning",
+      "business model innovation",
+      "venture funding"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T18:07:56.472Z"
+  },
+  {
+    "journal": "Entrepreneurship Theory and Practice",
+    "abbreviation": "sage",
+    "issn": "1540-6520",
+    "metaTitle": "Enhancing Transparency and Replicability in Entrepreneurship Research with Preregistrations, Registered Reports, and Registered Revisions",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/2025-11-27%20ETP%20Special%20Issue%20CALL-1769503414487.pdf",
+    "title": "Enhancing Transparency and Replicability in Entrepreneurship Research with Preregistrations, Registered Reports, and Registered Revisions",
+    "slug": "sage-enhancing-transparency-and-replicability-in-entrepreneurship-research-with-preregistrations-registered-reports-and-registered-revisions",
+    "contentHash": "b261899ed0d749c21b661030ad173ec0f32a0546d65fcb4ae0c0264d85965fd8",
+    "topics": [
+      "Preregistration of studies",
+      "Registered reports as a publication format",
+      "Registered revisions to address reviewer comments",
+      "Transparency in entrepreneurship research methodology",
+      "Replication studies in entrepreneurship",
+      "Open science practices in entrepreneurship",
+      "Research design and analysis plans",
+      "Managing researcher degrees of freedom",
+      "Reducing publication bias in entrepreneurship research",
+      "Challenges and best practices for implementing transparency methods"
+    ],
+    "description": {
+      "paragraphs": [
+        "Entrepreneurship research, like many social sciences, faces challenges related to publication bias, selective reporting, and limited replicability of findings. While transparency and open science initiatives have gained traction in psychology and other fields, entrepreneurship research has been slower to adopt preregistration and registered reports. This special issue seeks to advance entrepreneurship scholarship by promoting transparency, replicability, and rigorous methodology through preregistration, registered reports, and registered revisions.",
+        "We welcome submissions that demonstrate how preregistration, registered reports, and registered revisions can enhance entrepreneurship research quality. Studies using these methods to examine key entrepreneurship questions, as well as methodological papers discussing implementation challenges, best practices, and frameworks for adoption within the entrepreneurship community, are encouraged."
+      ]
+    },
+    "tags": [
+      "entrepreneurship",
+      "transparency",
+      "replicability",
+      "preregistration",
+      "registered reports",
+      "open science"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T18:07:56.472Z"
+  },
+  {
+    "journal": "Entrepreneurship Theory and Practice",
+    "abbreviation": "sage",
+    "issn": "1540-6520",
+    "metaTitle": "The Startup Workforce",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/etp-start-up-workforce-call-for-papers_final-1776855656320.pdf",
+    "title": "The Startup Workforce",
+    "slug": "sage-the-startup-workforce",
+    "contentHash": "a982c978e1f8a7d5172f47743dc657611bc2da9fda10a2fe00c782d04489cc96",
+    "topics": [
+      "Hiring and recruitment in startups",
+      "Employee retention and turnover in startups",
+      "Compensation and benefits in startup environments",
+      "Organizational culture and dynamics in early-stage companies",
+      "Leadership and management styles in startups",
+      "Skills development and training in startups",
+      "Diversity and inclusion in startup workforces",
+      "Remote work and distributed teams in startups",
+      "Employee motivation and engagement in startups",
+      "Career trajectories and job transitions in startup contexts",
+      "Human resource practices and policies in startups",
+      "Entrepreneurial teams and co-founder dynamics"
+    ],
+    "description": {
+      "paragraphs": [
+        "Startups operate in unique organizational contexts characterized by resource constraints, rapid growth, uncertainty, and dynamic change. These distinctive features shape how startups attract, develop, and retain talent, creating workforce challenges and opportunities that differ significantly from established organizations.",
+        "The startup workforce represents a critical yet understudied area of organizational research. While entrepreneurship literature has traditionally focused on founders and venture capital, the employees who join startups and contribute to their success deserve greater scholarly attention. Understanding startup employment practices, workforce composition, and employee experiences provides important insights into contemporary work arrangements and organizational dynamics.",
+        "This special issue seeks papers that examine all aspects of the startup workforce, including recruitment strategies, retention mechanisms, organizational culture, compensation approaches, employee well-being, team dynamics, diversity considerations, and the experiences of workers in early-stage ventures. We welcome empirical studies, theoretical contributions, and practical insights that advance our knowledge of how startups build and manage their human capital.",
+        "Research on startup workforces has implications for multiple stakeholder groups including startup founders and managers seeking to build effective teams, employees considering careers in startups, policymakers designing support for entrepreneurial ecosystems, and scholars interested in organizational behavior and human resource management in non-traditional contexts."
+      ]
+    },
+    "tags": [
+      "startups",
+      "workforce management",
+      "human resources",
+      "organizational culture",
+      "employment"
+    ],
+    "editors": [
+      {
+        "name": "Edited for Entrepreneurship Theory and Practice",
+        "affiliation": "."
+      }
+    ],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T18:07:56.472Z"
+  },
+  {
+    "journal": "Entrepreneurship Theory and Practice",
+    "abbreviation": "sage",
+    "issn": "1540-6520",
+    "metaTitle": "Time in Entrepreneurship: New Perspectives and Approaches",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/ETP/CfPs%20ETP%20SI%20on%20time%20final-1777312657737.pdf",
+    "title": "Time in Entrepreneurship: New Perspectives and Approaches",
+    "slug": "sage-time-in-entrepreneurship-new-perspectives-and-approaches",
+    "contentHash": "d1f72fe64e783caca5cd01e7d478ac9a7de02a5fdeff9dc51012886375cd4db6",
+    "topics": [
+      "Temporal dimensions of entrepreneurial processes",
+      "Time perception and decision-making in entrepreneurship",
+      "Temporal aspects of opportunity recognition and exploitation",
+      "Speed of venture creation and growth",
+      "Long-term orientation and sustainability in entrepreneurial ventures",
+      "Timing and market entry strategies",
+      "Temporal patterns in entrepreneurial ecosystems",
+      "Historical and longitudinal perspectives on entrepreneurship",
+      "Temporal heterogeneity among entrepreneurs",
+      "Time management and work-life balance in entrepreneurship",
+      "Rhythms and cycles in entrepreneurial activities",
+      "Future orientation and strategic planning in new ventures"
+    ],
+    "description": {
+      "paragraphs": [
+        "Entrepreneurship is inherently a temporal phenomenon. Entrepreneurs navigate through time as they create and develop new ventures, make critical decisions under uncertainty, and manage the tensions between short-term pressures and long-term vision. Despite the pervasive role of time in entrepreneurial processes, entrepreneurship scholarship has largely overlooked temporal dimensions in favor of static, cross-sectional analyses. This special issue aims to address this gap by bringing together research that explicitly examines time-related aspects of entrepreneurship.",
+        "We seek papers that advance our understanding of how time shapes entrepreneurial activities and outcomes. This includes research on temporal dimensions of opportunity recognition, the timing of resource acquisition, the speed of venture development, temporal aspects of team dynamics, historical perspectives on entrepreneurial ventures, and how entrepreneurs' time orientation influences strategic choices. We also welcome studies that employ temporal methodologies such as longitudinal designs, event history analysis, and qualitative process studies.",
+        "Papers should make meaningful theoretical or empirical contributions to our understanding of time in entrepreneurship. We encourage interdisciplinary approaches that draw on insights from psychology, sociology, economics, and management studies. Research examining time across different contexts—geographic, sectoral, and institutional—is particularly welcome."
+      ]
+    },
+    "tags": [
+      "entrepreneurship",
+      "temporal analysis",
+      "time perspectives"
+    ],
+    "editors": [
+      {
+        "name": "Katrin B. Hussinger",
+        "affiliation": "University of Luxembourg"
+      },
+      {
+        "name": "Philipp Zahn",
+        "affiliation": "Lund University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T18:07:56.472Z"
+  },
+  {
+    "journal": "Organization & Environment",
+    "abbreviation": "sage",
+    "issn": "1552-7417",
+    "metaTitle": "Organizing Sustainably with Nature in the Global South",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/OE%20SI%20Organizing%20with%20Nature-08-March-2026-1773307228597.pdf",
+    "title": "Organizing Sustainably with Nature in the Global South",
+    "slug": "sage-organizing-sustainably-with-nature-in-the-global-south",
+    "contentHash": "bf95c0047f9f0c55c34234ce8f727602977ce37225654133653c7701dc460423",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T18:07:56.472Z"
+  },
+  {
     "journal": "Accounting History",
     "abbreviation": "sage",
     "issn": "1749-3374",
@@ -298,71 +569,6 @@
     "pubDate": "2026-08-18T17:57:56.114Z"
   },
   {
-    "journal": "Competition & Change",
-    "abbreviation": "sage",
-    "issn": "1477-2221",
-    "metaTitle": "Beyond the Contradictions of Capitalist Green Finance: Alternative Paths to Sustainability",
-    "url": "https://journals.sagepub.com/pb-assets/PDF/CfP%20-%20Sustainability%20contradictions%20of%20green%20capitalism-1747889657.pdf",
-    "title": "Beyond the Contradictions of Capitalist Green Finance: Alternative Paths to Sustainability",
-    "slug": "sage-beyond-the-contradictions-of-capitalist-green-finance-alternative-paths-to-sustainability",
-    "contentHash": "c548f859bf9cc947880f69f45dfbeda9b88c38e860ce4c789e961576249a5163",
-    "topics": [
-      "The role of financial markets and institutions in enabling or constraining sustainable transitions",
-      "Green bonds, sustainability-linked finance and their actual environmental and social outcomes",
-      "The performativity of Environmental, Social and Governance (ESG) metrics and ratings in financial markets",
-      "Financial innovation for sustainability and its contradictions",
-      "The relationship between financialization and ecological sustainability",
-      "Private finance, public goods and the commons",
-      "Degrowth and post-growth finance",
-      "Alternative finance models (cooperative finance, solidarity finance, Islamic finance, community development finance)",
-      "Reparative and decolonial approaches to sustainable finance",
-      "Feminist perspectives on finance and sustainability",
-      "Critical perspectives on carbon markets and offsetting",
-      "The political economy of green finance and its distributional consequences",
-      "Nature-based solutions and their financialization",
-      "Just transitions and the role of finance in enabling worker and community voice"
-    ],
-    "description": {
-      "paragraphs": [
-        "The integration of sustainability into financial markets is often presented as a panacea for addressing the ecological crisis. Green bonds, ESG investments, and climate finance are widely promoted as mechanisms to redirect capital toward sustainable development. However, mounting evidence suggests that these mechanisms frequently reproduce the extractive logics of conventional finance while performing sustainability credentials. This special issue examines the contradictions inherent in market-based approaches to sustainability and explores alternative pathways that prioritize ecological integrity, social justice, and genuine transformation.",
-        "Green capitalism and the financialization of nature raise critical questions about whose interests are served by current sustainability frameworks. Rather than challenging the fundamental logics of capital accumulation and endless growth, green finance often legitimizes them by creating new profit opportunities. This special issue invites contributions that critically interrogate the role of finance in shaping sustainability transitions, while exploring heterodox, decolonial, feminist, and alternative finance perspectives that center ecological limits and social justice.",
-        "We welcome interdisciplinary submissions from scholars, activists, and practitioners working at the intersection of finance, sustainability, political economy, and social movements. Contributions should engage with both empirical critique and constructive alternatives to capitalist green finance."
-      ]
-    },
-    "tags": [
-      "green finance",
-      "sustainability",
-      "political economy",
-      "alternative finance",
-      "esg",
-      "financialization"
-    ],
-    "editors": [
-      {
-        "name": "Daniela Gabor",
-        "affiliation": "University of the West of England"
-      },
-      {
-        "name": "Ekaterina Chertkovskaya",
-        "affiliation": "Örebro University"
-      },
-      {
-        "name": "Adrienne Roberts",
-        "affiliation": "University of Michigan"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2025-01-15T11:00:00.000Z",
-        "description": "Deadline for article submissions",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-18T17:57:56.114Z"
-  },
-  {
     "journal": "Environment and Planning A Economy and Space",
     "abbreviation": "sage",
     "issn": "1472-3409",
@@ -411,265 +617,6 @@
     "associate_editors": [],
     "dates": [],
     "active": true,
-    "pubDate": "2026-08-18T17:57:56.114Z"
-  },
-  {
-    "journal": "Entrepreneurship Theory and Practice",
-    "abbreviation": "sage",
-    "issn": "1540-6520",
-    "metaTitle": "Entrepreneurship Ex Machina: Transformative AI for Theory and Practice",
-    "url": "https://journals.sagepub.com/pb-assets/PDF/ETP%20Special%20Issue%20CFP-%20AI%20and%20Entrepreneurship-upd-1738731870777.pdf",
-    "title": "Entrepreneurship Ex Machina: Transformative AI for Theory and Practice",
-    "slug": "sage-entrepreneurship-ex-machina-transformative-ai-for-theory-and-practice",
-    "contentHash": "419e102393b44df3e57dabf1d706a4242f385abf4159bae8df64522997b79275",
-    "topics": [
-      "AI applications in entrepreneurship and new venture creation",
-      "Machine learning for entrepreneurial decision-making and business model innovation",
-      "Generative AI and creative problem-solving in entrepreneurial contexts",
-      "AI-driven market analysis, opportunity recognition, and evaluation",
-      "Natural language processing for entrepreneurial communication and pitching",
-      "Computer vision and robotics in entrepreneurial ventures",
-      "AI ethics, governance, and responsible innovation in entrepreneurship",
-      "Algorithmic bias and fairness in AI-enabled entrepreneurial ecosystems",
-      "Human-AI collaboration and augmented entrepreneurship",
-      "AI's impact on entrepreneurial ecosystems and startup acceleration programs",
-      "Large language models (LLMs) and their applications in entrepreneurial processes",
-      "Data-driven entrepreneurship and predictive analytics for venture success",
-      "AI for social entrepreneurship and impact measurement",
-      "Organizational implications of AI adoption by entrepreneurs and SMEs",
-      "Future of work: AI, automation, and entrepreneurial employment"
-    ],
-    "description": {
-      "paragraphs": [
-        "Artificial Intelligence (AI) is fundamentally reshaping the landscape of entrepreneurship, promising transformative potential for both theory and practice. From identifying new market opportunities to automating routine tasks, AI technologies are enabling entrepreneurs to make data-driven decisions, optimize operations, and unlock innovation at unprecedented scale. Yet, while AI's capabilities continue to expand rapidly, many critical questions remain about how entrepreneurs can effectively leverage these tools, what organizational changes are necessary to harness AI's potential, and what ethical considerations must guide AI adoption in entrepreneurial ventures.",
-        "This special issue seeks to bridge the gap between AI capabilities and entrepreneurial practice by publishing cutting-edge research that explores the intersection of AI and entrepreneurship. We welcome empirical studies, conceptual papers, case studies, and methodological contributions that advance our understanding of how AI is reshaping entrepreneurial processes, decision-making, organizational structures, and outcomes. Research should address both opportunities and challenges associated with AI adoption, including issues of equity, access, and responsible innovation.",
-        "The goal is to create a comprehensive knowledge base that informs both entrepreneurs and scholars about how to effectively integrate AI into entrepreneurial ventures while navigating ethical complexities and maximizing positive impact on business performance and society."
-      ]
-    },
-    "tags": [
-      "artificial intelligence",
-      "entrepreneurship",
-      "machine learning",
-      "generative ai",
-      "innovation"
-    ],
-    "editors": [
-      {
-        "name": "Ethan Mollick",
-        "affiliation": "University of Pennsylvania"
-      },
-      {
-        "name": "Llewellyn D. W. Thomas",
-        "affiliation": "Imperial College London"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2025-03-15T11:00:00.000Z",
-        "description": "Full paper submission deadline",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2025-08-15T10:00:00.000Z",
-        "description": "Expected publication date",
-        "is_full_paper_submission_deadline": false
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-18T17:57:56.114Z"
-  },
-  {
-    "journal": "Entrepreneurship Theory and Practice",
-    "abbreviation": "sage",
-    "issn": "1540-6520",
-    "metaTitle": "Enhancing Transparency and Replicability in Entrepreneurship Research with Preregistrations, Registered Reports, and Registered Revisions",
-    "url": "https://journals.sagepub.com/pb-assets/PDF/2025-11-27%20ETP%20Special%20Issue%20CALL-1769503414487.pdf",
-    "title": "Enhancing Transparency and Replicability in Entrepreneurship Research with Preregistrations, Registered Reports, and Registered Revisions",
-    "slug": "sage-enhancing-transparency-and-replicability-in-entrepreneurship-research-with-preregistrations-registered-reports-and-registered-revisions",
-    "contentHash": "b261899ed0d749c21b661030ad173ec0f32a0546d65fcb4ae0c0264d85965fd8",
-    "topics": [
-      "Empirical studies using preregistration, registered reports, or registered revisions",
-      "Meta-scientific research examining the adoption and impact of transparency tools in entrepreneurship research",
-      "Methodological papers discussing best practices for implementing preregistration, registered reports, or registered revisions in entrepreneurship studies",
-      "Studies replicating or extending existing entrepreneurship research using transparent methods",
-      "Qualitative or mixed-methods research employing preregistration or registered reports",
-      "Research examining barriers to and facilitators of adopting transparency practices in entrepreneurship scholarship"
-    ],
-    "description": {
-      "paragraphs": [
-        "This special issue seeks to advance transparency and replicability in entrepreneurship research by publishing high-quality studies that employ preregistrations, registered reports, and registered revisions. These methods represent significant steps toward open science practices and help mitigate concerns about questionable research practices, such as p-hacking and HARKing (Hypothesizing After Results are Known).",
-        "Entrepreneurship research, like many social science disciplines, has faced scrutiny regarding the reproducibility of findings. Preregistrations, registered reports, and registered revisions offer mechanisms to increase transparency in research design, data analysis, and reporting. By committing researchers to their analytical plans before data collection or analysis, these methods reduce the flexibility in statistical testing and improve the credibility of findings.",
-        "We welcome submissions that demonstrate the application of these transparency tools across diverse entrepreneurship topics and methodological approaches. Studies may examine venture creation, corporate entrepreneurship, social entrepreneurship, innovation, ecosystem development, or other entrepreneurship-related phenomena. We encourage research that not only applies these methods but also contributes to our understanding of how transparency practices can enhance the quality and impact of entrepreneurship scholarship."
-      ]
-    },
-    "tags": [
-      "open science",
-      "transparency",
-      "preregistration",
-      "registered reports",
-      "entrepreneurship research",
-      "replicability"
-    ],
-    "editors": [
-      {
-        "name": "Michael Hatak",
-        "affiliation": "WU Vienna University of Economics and Business"
-      },
-      {
-        "name": "Nicola Breugst",
-        "affiliation": "University of Kassel"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": null,
-        "description": "Publication timeline",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2025-12-15T11:00:00.000Z",
-        "description": "Deadline for manuscript submissions",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-18T17:57:56.114Z"
-  },
-  {
-    "journal": "Entrepreneurship Theory and Practice",
-    "abbreviation": "sage",
-    "issn": "1540-6520",
-    "metaTitle": "The Startup Workforce",
-    "url": "https://journals.sagepub.com/pb-assets/PDF/etp-start-up-workforce-call-for-papers_final-1776855656320.pdf",
-    "title": "The Startup Workforce",
-    "slug": "sage-the-startup-workforce",
-    "contentHash": "a982c978e1f8a7d5172f47743dc657611bc2da9fda10a2fe00c782d04489cc96",
-    "topics": [
-      "Startup recruitment and talent acquisition strategies",
-      "Employee retention and turnover in startups",
-      "Organizational culture development in early-stage companies",
-      "Compensation, equity, and benefits structures in startups",
-      "Leadership and management practices in startup environments",
-      "Remote work and flexible work arrangements in startups",
-      "Diversity, equity, and inclusion in startup workforces",
-      "Employee well-being and work-life balance in startups",
-      "Career development and learning opportunities in startups",
-      "Team dynamics and collaboration in startup settings",
-      "Founder-employee relationships and dynamics",
-      "Scaling human resources as startups grow",
-      "Attracting and retaining specialized talent in competitive markets",
-      "Employee motivation and engagement in resource-constrained environments",
-      "Gender and demographic representation in startup teams"
-    ],
-    "description": {
-      "paragraphs": [
-        "The startup workforce represents a distinctive and rapidly evolving domain of organizational practice and scholarly inquiry. As startups have become increasingly central to economic innovation and job creation, understanding the human dimensions of startup employment has become critical. Startups operate under unique constraints and opportunities that fundamentally shape employment relationships, organizational culture, and workforce dynamics in ways that differ significantly from established organizations.",
-        "Startups face distinctive challenges in attracting, developing, and retaining talent despite limited resources, uncertain futures, and competitive labor markets. The startup workforce is characterized by high intensity, rapid change, entrepreneurial energy, and often unconventional organizational structures. These factors create unique opportunities for innovation in human resource management and distinctive challenges for workforce development.",
-        "This special issue seeks to advance our understanding of startup workforce dynamics, practices, and outcomes. We welcome empirical research, conceptual contributions, and practice-oriented papers that illuminate the complexities of managing and experiencing work in startup environments. Contributions may examine workforce issues at the individual, team, organizational, or multi-organizational levels."
-      ]
-    },
-    "tags": [
-      "startups",
-      "workforce management",
-      "entrepreneurship",
-      "organizational culture",
-      "human resources"
-    ],
-    "editors": [
-      {
-        "name": "Noémie Younjung Loi",
-        "affiliation": "University of Melbourne"
-      },
-      {
-        "name": "Andrew Nyberg",
-        "affiliation": "University of Western Australia"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2025-01-31T11:00:00.000Z",
-        "description": "Full paper submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-18T17:57:56.114Z"
-  },
-  {
-    "journal": "Entrepreneurship Theory and Practice",
-    "abbreviation": "sage",
-    "issn": "1540-6520",
-    "metaTitle": "Time in Entrepreneurship: New Perspectives and Approaches",
-    "url": "https://journals.sagepub.com/pb-assets/cmscontent/ETP/CfPs%20ETP%20SI%20on%20time%20final-1777312657737.pdf",
-    "title": "Time in Entrepreneurship: New Perspectives and Approaches",
-    "slug": "sage-time-in-entrepreneurship-new-perspectives-and-approaches",
-    "contentHash": "d1f72fe64e783caca5cd01e7d478ac9a7de02a5fdeff9dc51012886375cd4db6",
-    "topics": [
-      "Temporal patterns in entrepreneurial processes and ventures",
-      "Temporal dimensions of opportunity recognition, evaluation, and exploitation",
-      "Time perspectives, temporal cognition, and entrepreneurial decision-making",
-      "Rhythms, routines, and temporal structures in new venture creation",
-      "Temporal aspects of entrepreneurial teams and their formation",
-      "Time and resource constraints in entrepreneurial contexts",
-      "Temporal dynamics of stakeholder relationships and networks",
-      "Time horizons and long-term versus short-term orientations in entrepreneurship",
-      "Historical and longitudinal approaches to studying entrepreneurship",
-      "Timing of entry, growth, and exit decisions in new ventures",
-      "Temporal aspects of innovation and product development in entrepreneurial firms",
-      "Seasonality and cyclical patterns in entrepreneurial activity"
-    ],
-    "description": {
-      "paragraphs": [
-        "Time is a fundamental dimension of entrepreneurship yet remains underexplored in entrepreneurship research. While temporal aspects appear implicitly in many entrepreneurship studies, explicit theoretical and empirical attention to time has been limited. This special issue seeks to advance our understanding of how time shapes entrepreneurial processes, decisions, and outcomes.",
-        "Entrepreneurship is inherently a temporal phenomenon. From opportunity recognition to venture growth and eventual exit, entrepreneurs navigate multiple time dimensions including clock time, cyclical time, and psychological time. Understanding how entrepreneurs perceive, manage, and utilize time is critical to understanding entrepreneurial action and success.",
-        "This special issue invites manuscripts that explicitly examine temporal dimensions of entrepreneurship. We welcome theoretical contributions that develop new temporal frameworks for understanding entrepreneurship, as well as empirical studies that investigate how time shapes entrepreneurial processes and outcomes. Research employing longitudinal designs, historical analyses, or other temporal methodologies is particularly encouraged.",
-        "Papers may examine time at multiple levels of analysis including the individual entrepreneur, the entrepreneurial team, the organization, or the broader ecosystem. We are interested in how temporal factors influence key entrepreneurial outcomes such as opportunity recognition, resource acquisition, strategic decisions, and venture performance."
-      ]
-    },
-    "tags": [
-      "entrepreneurship",
-      "time",
-      "temporal dynamics",
-      "opportunity recognition",
-      "venture creation"
-    ],
-    "editors": [
-      {
-        "name": "Alain Fayolle",
-        "affiliation": "EM Lyon Business School"
-      },
-      {
-        "name": "Per Davidsson",
-        "affiliation": "Queensland University of Technology"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2024-10-31T11:00:00.000Z",
-        "description": "Manuscript submission deadline",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2025-03-31T10:00:00.000Z",
-        "description": "First round of reviews completed",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2025-05-31T10:00:00.000Z",
-        "description": "Revisions due",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2025-12-01T11:00:00.000Z",
-        "description": "Publication date",
-        "is_full_paper_submission_deadline": false
-      }
-    ],
-    "active": false,
     "pubDate": "2026-08-18T17:57:56.114Z"
   },
   {
@@ -1687,67 +1634,6 @@
     "associate_editors": [],
     "dates": [],
     "active": true,
-    "pubDate": "2026-08-18T17:57:56.114Z"
-  },
-  {
-    "journal": "Organization & Environment",
-    "abbreviation": "sage",
-    "issn": "1552-7417",
-    "metaTitle": "Organizing Sustainably with Nature in the Global South",
-    "url": "https://journals.sagepub.com/pb-assets/PDF/OE%20SI%20Organizing%20with%20Nature-08-March-2026-1773307228597.pdf",
-    "title": "Organizing Sustainably with Nature in the Global South",
-    "slug": "sage-organizing-sustainably-with-nature-in-the-global-south",
-    "contentHash": "bf95c0047f9f0c55c34234ce8f727602977ce37225654133653c7701dc460423",
-    "topics": [
-      "How organizations in the Global South address nature-related challenges and opportunities",
-      "Indigenous and traditional knowledge systems in organizational sustainability practices",
-      "Community-based and grassroots organizing for environmental sustainability",
-      "Organizational responses to biodiversity loss, climate change, and resource scarcity",
-      "The role of social enterprises and cooperative models in sustainable organizing",
-      "Decolonial approaches to sustainability and organizational practice",
-      "Nature-inclusive business models and circular economy initiatives in the Global South",
-      "Tensions between development, livelihoods, and environmental conservation in organizational contexts",
-      "Power dynamics and stakeholder engagement in sustainability initiatives",
-      "Gender dimensions of sustainable organizing with nature"
-    ],
-    "description": {
-      "paragraphs": [
-        "This special issue seeks to advance understanding of how organizations in the Global South engage with nature and promote sustainability in ways that are contextually appropriate and aligned with local values, knowledge systems, and development aspirations. Rather than applying frameworks developed in the Global North, we invite contributions that center the experiences, innovations, and perspectives of organizations operating in diverse Global South contexts.",
-        "We welcome empirical studies, conceptual pieces, and critical reflections that examine organizational approaches to sustainability that work with nature rather than against it, that respect ecological limits, and that contribute to social and environmental well-being. We are particularly interested in scholarship that highlights how organizations navigate the complex intersections of sustainability, development, economic livelihoods, and social justice.",
-        "This special issue recognizes that the Global South encompasses diverse contexts, geographies, and organizational forms. We encourage submissions that reflect this diversity while contributing to broader conversations about sustainable organizing practices that can inspire and inform organizations globally."
-      ]
-    },
-    "tags": [
-      "sustainability",
-      "global south",
-      "organizational management",
-      "environmental conservation",
-      "indigenous knowledge"
-    ],
-    "editors": [
-      {
-        "name": "Nitya Sharma",
-        "affiliation": "+JMC Institute"
-      },
-      {
-        "name": "Chiara Storti",
-        "affiliation": "Università della Svizzera italiana"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": null,
-        "description": "Anticipated publication date",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2025-04-30T10:00:00.000Z",
-        "description": "Manuscript submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
     "pubDate": "2026-08-18T17:57:56.114Z"
   },
   {
@@ -9531,35 +9417,6 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T15:38:12.254Z"
-  },
-  {
-    "journal": "Organizational Psychology Review",
-    "abbreviation": "sage",
-    "issn": "2041-3874",
-    "metaTitle": "Reconceptualizing Careers in Disruptive Times",
-    "url": "https://journals.sagepub.com/pb-assets/cmscontent/OPR/CFP_Reconceptualizing_Careers_in_Disruptive_Times-1776228180230.pdf",
-    "title": "Reconceptualizing Careers in Disruptive Times",
-    "slug": "sage-reconceptualizing-careers-in-disruptive-times",
-    "contentHash": "3204b37ddfd5a6d2b69f8fdfcd63fc4200d27edaae4cddee31ef449b4c4bec82",
-    "topics": [],
-    "description": {
-      "paragraphs": []
-    },
-    "tags": [
-      "career development",
-      "organizational change"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-04-01T10:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
     "pubDate": "2026-08-11T15:38:12.254Z"
   },
   {
