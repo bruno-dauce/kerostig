@@ -201,6 +201,17 @@ export default async function (eleventyConfig) {
         "1558-8009", // Behavioral Research in Accounting
         "1558-8025", // Journal of International Accounting Research
         "1558-8033", // Journal of Management Accounting Research
+
+        // American Psychological Association (apaScraper) : 4 des revues APA du
+        // périmètre, chacune via sa page /pubs/journals/{slug}/calls-for-papers.
+        // "American Psychological Association" n'est volontairement pas ajouté à
+        // EDITEURS_COUVERTS -- le scraper porte une liste de slugs APA en dur (un
+        // code à 3 lettres indéduisible du nom FNEGE), donc une future revue APA
+        // ajoutée au périmètre serait comptée sans être scrapée.
+        "1939-1854", // Journal of Applied Psychology
+        "1939-1307", // Journal of Occupational Health Psychology
+        "1939-1315", // Journal of Personality and Social Psychology
+        "1930-7802", // Group Dynamics: Theory, Research and Practice
     ]);
     eleventyConfig.addFilter("revuesCouvertesParScraper", function (journals) {
         if (!journals) return [];
