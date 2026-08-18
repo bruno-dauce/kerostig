@@ -28,7 +28,7 @@
   "homepage": "https://callsforpapers.org",
   "type": "module",
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy": "^3.1.6",
     "alpinejs": "^3.14.8",
     "concurrently": "^10.0.4",
     "cross-env": "^10.1.0",
