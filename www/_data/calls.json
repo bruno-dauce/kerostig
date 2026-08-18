@@ -3358,7 +3358,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-17T03:15:48.759Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -3450,7 +3451,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-17T03:15:48.759Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -3529,7 +3531,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-17T03:15:48.759Z"
   },
   {
     "journal": "M@n@gement",
@@ -17639,7 +17642,7 @@
     "url": "https://think.taylorandfrancis.com/special_issues/ai-and-the-future-of-advertising-creativity/",
     "title": "AI and the Future of Advertising Creativity",
     "slug": "tandf-ai-and-the-future-of-advertising-creativity",
-    "contentHash": "6d6093ad56ecd403db7f40f13adf2b01c55d7da15b9861d2301162dec2394c0a",
+    "contentHash": "2a320b520c178796fc222fc3b4620d321e62dc38a1ec9abf716f378ebce47594",
     "topics": [
       "How does AI change the way creative ideas are generated, selected, and refined, and where in that process is human judgment most valuable?",
       "When does AI assistance widen the range of creative directions a team explores, and when does it narrow it?",
@@ -17647,7 +17650,7 @@
       "What is the most effective division of labor between human creatives and AI across ideation, drafting, and refinement?",
       "How does near-zero marginal cost production change what advertising creative gets made, and how much of it?",
       "What is gained and lost when finished assets are generated rather than crafted?",
-      "How does AI-produced creative compare with human-produced work on effectiveness, quality, and cost?",
+      "How does AI-produced creative compare with human-produced work on effectiveness, quality, and cost (for example, click-through, attention, and brand lift)?",
       "How does production at scale change media planning, creative testing, and iteration?",
       "How does generative AI change dynamic creative optimization and one-to-one message tailoring?",
       "How can brands produce thousands of variants without eroding distinctiveness and brand consistency?",
@@ -17661,7 +17664,7 @@
       "How should originality, distinctiveness, and craft be valued when execution becomes commoditized?",
       "Does widespread AI use homogenize advertising creative, and how can brands resist sameness?",
       "How should creative awards, evaluation standards, and quality benchmarks adapt?",
-      "What methods best capture the effect of AI on creative outcomes?",
+      "What methods (field experiments, computational and multimodal analysis, large-scale A/B testing) best capture the effect of AI on creative outcomes?",
       "How can creativity itself be measured at scale across large volumes of AI-generated work?",
       "How can researchers study homogenization, distinctiveness, and the diversity of creative output?",
       "When does AI-generated creative help or hurt brand building and long-term equity, and what guardrails keep it on-brand and effective?"
@@ -17672,7 +17675,7 @@
         "Creativity has always been central to how advertising works. Decades of research establish that creative advertising, generally defined as work that is both divergent and relevant, drives attention, processing, memory, and ultimately sales. Yet what counts as creative has never been settled. It is judged differently by creatives, account managers, and clients, and it turns on originality, artistry, and strategic fit in ways that resist easy measurement. Generative AI forces these questions open again. When a model can produce a polished, on-brief execution in seconds, the premium may shift from craft and execution toward ideas, taste, judgment, and the ability to direct the machine. Early evidence is mixed: AI appears able to lift the measured creativity and effectiveness of individual work, in some field settings to apparently superhuman levels, while tending to push outputs across many users toward sameness. Whether AI expands the creative frontier or flattens it is now an empirical and managerial question of importance.",
         "These dynamics are touching every stage of the creative process. In ideation and concepting, AI can act as a brainstorming partner that generates and recombines directions faster than most teams, shifting the human role toward editing, curating, and directing. In asset production, text-to-image and text-to-video systems are compressing the cost and time of finished creative, making volume and localization feasible where they were once uneconomic. In personalization, the same tools make it possible to generate near-infinite variants tuned to context, audience, and moment, reviving long-standing ambitions for dynamic, one-to-one creative while raising fresh questions about distinctiveness and brand coherence. Each shift promises scale, but scale at the expense of differentiation may be a poor trade for brands that compete on standing out.",
         "The people and organizations that make advertising are being remade alongside the work. Generative AI is reshaping which skills are scarce, which tasks are automated, and how value is captured across the agency and client relationship. It raises hard questions about the future of creative talent: which roles disappear, which are augmented, and which new ones, such as prompt strategist, AI creative director, or model curator, emerge. It may also unsettle agency business models built on billable hours and production fees as the marginal cost of production approaches zero. How agencies, in-house teams, and platforms reorganize creative labor, and how they preserve the human judgment clients still pay for, is likely to shape the structure of the industry in the coming years.",
-        "Building on a fast-growing body of scholarship, this special issue invites theoretically rigorous and managerially useful research on how AI is changing advertising creativity. Consistent with the mission of the Journal of Advertising Research and its strong practitioner readership, submissions should make a clear contribution to advertising theory while offering actionable guidance for the creatives, agencies, brands, and platforms living through this transition. The special issue is especially interested in work that moves past the observation that AI is disruptive to specify how, where, why, and for whom it improves or degrades creative outcomes."
+        "Building on a fast-growing body of scholarship, this special issue invites theoretically rigorous and managerially useful research on how AI is changing advertising creativity. Consistent with the mission of the Journal of Advertising Research and its strong practitioner readership, submissions should make a clear contribution to advertising theory while offering actionable guidance for the creatives, agencies, brands, and platforms living through this transition. We are especially interested in work that moves past the observation that AI is disruptive to specify how, where, why, and for whom it improves or degrades creative outcomes."
       ]
     },
     "tags": [
@@ -17680,7 +17683,7 @@
       "advertising creativity",
       "generative ai",
       "human-ai collaboration",
-      "creative strategy"
+      "creative process"
     ],
     "editors": [
       {
@@ -17695,22 +17698,22 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2027-01-15T11:00:00.000Z",
+        "date": "2027-01-15T12:00:00.000Z",
         "description": "GMC Tokyo 2027 submission deadline",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-07-22T10:00:00.000Z",
+        "date": "2027-07-22T12:00:00.000Z",
         "description": "GMC Tokyo 2027 conference",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-09-01T10:00:00.000Z",
+        "date": "2027-09-01T12:00:00.000Z",
         "description": "Special issue submission window opens",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-10-15T10:00:00.000Z",
+        "date": "2027-10-15T12:00:00.000Z",
         "description": "Special issue manuscript deadline",
         "is_full_paper_submission_deadline": true
       }

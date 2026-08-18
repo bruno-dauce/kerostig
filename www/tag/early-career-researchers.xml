@@ -1,40 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>kerostig | Tag : early-career researchers</title>
+        <title>kerostig | Tag : early career researchers</title>
         <link>https://kerostig.com/tag/early-career-researchers</link>
-        <description>Derniers appels à publications avec le tag 'early-career researchers'.</description>
-        <lastBuildDate>Mon, 17 Aug 2026 10:00:18 GMT</lastBuildDate>
+        <description>Derniers appels à publications avec le tag 'early career researchers'.</description>
+        <lastBuildDate>Tue, 18 Aug 2026 03:16:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
-            <title>kerostig | Tag : early-career researchers</title>
+            <title>kerostig | Tag : early career researchers</title>
             <url>https://kerostig.com/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.com/tag/early-career-researchers</link>
         </image>
         <copyright>kerostig © 2026</copyright>
         <item>
-            <title><![CDATA[Doctorants / Jeunes docteurs]]></title>
-            <link>https://kerostig.com/call/re-appel-a-contributions-numero-special-doctorants-jeunes-docteurs-revue-de-lentrepreneuriat</link>
-            <guid>re-appel-a-contributions-numero-special-doctorants-jeunes-docteurs-revue-de-lentrepreneuriat</guid>
+            <title><![CDATA[Jeunes Chercheurs 2026]]></title>
+            <link>https://kerostig.com/call/re-appel-a-contributions-numero-special-jeunes-chercheurs-2026-revue-de-lentrepreneuriat</link>
+            <guid>re-appel-a-contributions-numero-special-jeunes-chercheurs-2026-revue-de-lentrepreneuriat</guid>
             <pubDate>Mon, 17 Aug 2026 09:54:24 GMT</pubDate>
             <content:encoded><![CDATA[<div>
     
+        
+        <p><strong>Julie Hermans-Pouplard</strong>, Académie de l&#39;Entrepreneuriat et de l&#39;Innovation</p>
+        
+        <p><strong>Guillaume Thévenet</strong>, Académie de l&#39;Entrepreneuriat et de l&#39;Innovation</p>
+        
     
-    <p>This special issue invites doctoral candidates in their final year of thesis and early-career researchers (up to 2 years after PhD defense) to submit their innovative research works in the field of entrepreneurship as first authors. The issue aims to highlight emerging perspectives and new ideas from the next generation of academics.</p>
     
-    <p>This project is part of the journal&#39;s DNA, which is developmental and committed to supporting its community by providing a space for recognition and publication of young researchers.</p>
+    <p>Ce numéro spécial a pour vocation de mettre en lumière les perspectives nouvelles et les recherches innovantes de la nouvelle génération de chercheurs en entrepreneuriat issus de nos communautés scientifiques.</p>
+    
+    <p>Fidèle à la mission de la revue de soutenir sa communauté et de favoriser le développement académique de ses membres, ce numéro spécial offre aux jeunes chercheurs une opportunité privilégiée de publier leurs travaux et de les faire connaître auprès de la communauté scientifique.</p>
+    
+    <p>Afin de contribuer au développement des talents des jeunes chercheurs, tous les articles soumis à ce numéro spécial bénéficieront d&#39;un processus d&#39;évaluation accéléré.</p>
     
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Innovative research in entrepreneurship</li>
+        <li>Perspectives nouvelles en entrepreneuriat</li>
         
-        <li>Emerging perspectives from early-career researchers</li>
+        <li>Recherches innovantes de la nouvelle génération de chercheurs en entrepreneuriat</li>
         
-        <li>New ideas from doctoral candidates and recent PhD graduates</li>
+        <li>Travaux de doctorants en fin de thèse et jeunes docteurs</li>
         
     </ul>
     
@@ -42,9 +50,9 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>September 30, 2025: Submission deadline</li>
+        <li>Invalid DateTime: Publication du numéro spécial</li>
         
-        <li>January 15, 2026: Guaranteed response</li>
+        <li>September 30, 2026: Date limite de soumission</li>
         
     </ul>
     

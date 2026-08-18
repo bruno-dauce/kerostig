@@ -4,7 +4,7 @@
         <title>kerostig | Tag : methodology</title>
         <link>https://kerostig.com/tag/methodology</link>
         <description>Derniers appels à publications avec le tag 'methodology'.</description>
-        <lastBuildDate>Mon, 17 Aug 2026 10:00:18 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 03:16:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,29 @@
             <link>https://kerostig.com/tag/methodology</link>
         </image>
         <copyright>kerostig © 2026</copyright>
+        <item>
+            <title><![CDATA[Toward novel ways of doing qualitative research in SCM: a developmental initiative]]></title>
+            <link>https://kerostig.com/call/wiley-toward-novel-ways-of-doing-qualitative-research-in-scm-a-developmental-initiative</link>
+            <guid>wiley-toward-novel-ways-of-doing-qualitative-research-in-scm-a-developmental-initiative</guid>
+            <pubDate>Mon, 17 Aug 2026 15:52:40 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    <p>This special issue invites submissions that explore innovative approaches to qualitative research in supply chain management. The initiative aims to advance methodological practices and contribute to novel ways of conducting qualitative investigations in the SCM field.</p>
+    
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Deadline for submissions</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Journal of Supply Chain Management (WILEY)</author>
+        </item>
         <item>
             <title><![CDATA[Registered Reports]]></title>
             <link>https://kerostig.com/call/aom-amd-call-for-submissions-registered-reports</link>
@@ -53,68 +76,6 @@
     
 </div>]]></content:encoded>
             <author>Academy of Management Discoveries (AOM)</author>
-        </item>
-        <item>
-            <title><![CDATA[Partial Least Squares Structural Equation Modeling in Service Research]]></title>
-            <link>https://kerostig.com/call/emerald-partial-least-squares-structural-equation-modeling-in-service-research-special-section</link>
-            <guid>emerald-partial-least-squares-structural-equation-modeling-in-service-research-special-section</guid>
-            <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    <p>Service research is characterized by complex theoretical frameworks involving latent variables (constructs), complex structural relationships, including higher-order models, and a growing emphasis on prediction. Under these conditions, partial least squares structural equation modeling (PLS-SEM) has gained increasing prominence as a methodological approach well suited to provide answers to research questions in the service domain. As a result, PLS-SEM has become widely adopted across a broad spectrum of applications in the service domain.</p>
-    
-    <p>These applications span technology-enabled services—such as consumers&#39; responses to service robots, smart voice assistants, AI-based services, and chatbots—as well as market-related phenomena, including ownership perceptions in the sharing economy. Moreover, PLS-SEM has been extensively used to examine employee- and organization-related issues, such as frontline employee characteristics and servitization, service failure and recovery, employee–AI collaboration, customer experience management, value co-creation, and leadership styles.</p>
-    
-    <p>At the same time, methodological developments in PLS-SEM have progressed rapidly. Recent advances include its combination into a necessary condition analysis framework, advanced types of mediation analysis, model comparison techniques, endogeneity assessment, and predictive model evaluation. Frameworks for assessing the robustness of results have further expanded the methodological toolkit available to service researchers.</p>
-    
-    <p>Together, these developments offer significant opportunities—but also challenges—for service research. They call for more transparent, theoretically grounded, and methodologically purposeful applications of PLS-SEM that clearly articulate whether models are intended to explain, predict, or both. This special section aims to leverage these opportunities by advancing the methodological sophistication and substantive contribution of PLS-SEM-based research in the service domain.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Methodological developments in PLS-SEM with direct relevance for service research</li>
-        
-        <li>Scale development and diagnosing common method variance in PLS-SEM</li>
-        
-        <li>Differences in model development from explanatory versus predictive perspectives</li>
-        
-        <li>Explanatory versus predictive model evaluation and reporting</li>
-        
-        <li>Novel metrics and guidelines for goodness-of-fit assessment and predictive power assessment</li>
-        
-        <li>Endogeneity issues and remedies in PLS-SEM</li>
-        
-        <li>Observed heterogeneity (e.g., multigroup analysis, moderation, conditional mediation) and unobserved heterogeneity (e.g., segmentation) in PLS-SEM</li>
-        
-        <li>Applications and extensions of necessary condition analysis in PLS-SEM</li>
-        
-        <li>Multimethod SEM involving PLS-SEM</li>
-        
-        <li>Empirical studies on contemporary service research topics (e.g., technology-enabled services, transformative service research, customer experience) employing recent advances in PLS-SEM</li>
-        
-        <li>Demonstrations of best practices in the application, reporting, and interpretation of PLS-SEM results</li>
-        
-        <li>Extensions of PLS-SEM research designs</li>
-        
-        <li>Integration of PLS-SEM with complementary analytical approaches</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>January 12, 2026: Closing date for manuscripts submission</li>
-        
-        <li>September 15, 2026: Opening date for manuscripts submissions</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Journal of Service Management (EMERALD)</author>
         </item>
     </channel>
 </rss>

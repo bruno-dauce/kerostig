@@ -4,7 +4,7 @@
         <title>kerostig | Tag : machine learning</title>
         <link>https://kerostig.com/tag/machine-learning</link>
         <description>Derniers appels à publications avec le tag 'machine learning'.</description>
-        <lastBuildDate>Mon, 17 Aug 2026 10:00:18 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 03:16:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -155,68 +155,6 @@
     <ul>
         
         <li>July 31, 2027: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Advanced Machine Learning for System Reliability Management]]></title>
-            <link>https://kerostig.com/call/springer-advanced-machine-learning-for-system-reliability-management</link>
-            <guid>springer-advanced-machine-learning-for-system-reliability-management</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>Xu-Feng Zhao</strong>, Nanjing University of Aeronautics and Astronautics</p>
-        
-        <p><strong>Yan-Fu Li</strong>, Tsinghua University</p>
-        
-        <p><strong>Hoang Pham</strong>, Rutgers University</p>
-        
-    
-    
-    <p>Modern industrial systems generate massive datasets from sensor monitoring, which presents computational and memory challenges in data processing. Advanced machine learning technologies such as transfer learning, federated learning, quantum machine learning, and reinforcement learning offer effective and scalable solutions for processing and analyzing large volumes of data, as well as supporting subsequent decision-making.</p>
-    
-    <p>Recently, various new techniques of advanced machine learning have already been applied to system reliability management, such as fault diagnosis, health condition assessment, remaining useful life prediction, degradation modeling, and maintenance optimization. Yet, ongoing research works continue to explore this exciting research area.</p>
-    
-    <p>This special issue invites high-quality original research papers, review papers, and case studies that delve into advancements in advanced machine learning for system reliability management.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Deep learning for anomaly detection and/or fault detection</li>
-        
-        <li>Machine learning-enhanced maintenance optimization</li>
-        
-        <li>Federated learning for system monitoring and predictive maintenance</li>
-        
-        <li>Reinforcement learning for maintenance decision making</li>
-        
-        <li>Transfer learning for cross-domain maintenance</li>
-        
-        <li>Generative models for synthetic data generation for predictive maintenance</li>
-        
-        <li>Self-supervised learning for unlabeled data for fault detection</li>
-        
-        <li>Large models for fault detection and/or diagnosis</li>
-        
-        <li>Generative models for reliability testing</li>
-        
-        <li>Meta-heuristics for large-scale reliability design optimization</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>May 30, 2026: Manuscript submission deadline</li>
-        
-        <li>August 31, 2026: Submission deadline for special issue</li>
         
     </ul>
     
