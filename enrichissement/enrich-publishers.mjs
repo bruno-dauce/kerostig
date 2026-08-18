@@ -46,7 +46,7 @@ console.log(`${rows.length} revues a enrichir.\n`);
 
 // Interroger OpenAlex
 async function fetchPublisher(issn) {
-  const url = `https://api.openalex.org/sources?filter=issn:${issn}&select=id,display_name,host_organization_name&mailto=contact@kerostig.com`;
+  const url = `https://api.openalex.org/sources?filter=issn:${issn}&select=id,display_name,host_organization_name&mailto=bruno.dauce@univ-angers.fr`;
   try {
     const resp = await fetch(url);
     if (!resp.ok) return null;
