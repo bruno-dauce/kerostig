@@ -187,6 +187,20 @@ export default async function (eleventyConfig) {
         // Finance fait exception : ses appels sont publiés sur revfin.org, hors
         // academic.oup.com.
         "1573-692X", // Review of Finance (revfin.org, ex-European Finance Review)
+
+        // American Accounting Association (aaaScraper) : les 6 revues AAA du
+        // périmètre sont couvertes par le hub aaahq.org/Research/Calls-for-Submissions.
+        // "American Accounting Association" n'est volontairement pas ajouté à
+        // EDITEURS_COUVERTS -- le hub mélange les appels de toutes les revues AAA
+        // (dont plusieurs hors périmètre) et le scraper filtre sur une liste de
+        // 6 noms en dur, donc une future revue AAA ajoutée au périmètre serait
+        // comptée sans être scrapée.
+        "1558-7967", // The Accounting Review
+        "1558-7975", // Accounting Horizons
+        "1558-7991", // Auditing: A Journal of Practice & Theory
+        "1558-8009", // Behavioral Research in Accounting
+        "1558-8025", // Journal of International Accounting Research
+        "1558-8033", // Journal of Management Accounting Research
     ]);
     eleventyConfig.addFilter("revuesCouvertesParScraper", function (journals) {
         if (!journals) return [];
