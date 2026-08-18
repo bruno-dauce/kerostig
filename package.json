@@ -21,11 +21,11 @@
     "research",
     "science"
   ],
-  "author": "Julian Prester",
+  "author": "Bruno Daucé",
   "bugs": {
     "url": "https://github.com/julianprester/calls-for-papers/issues"
   },
-  "homepage": "https://callsforpapers.org",
+  "homepage": "https://kerostig.org",
   "type": "module",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
