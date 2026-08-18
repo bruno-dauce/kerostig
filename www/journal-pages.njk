@@ -4,7 +4,10 @@
     data: "journals",
     size: 1,
     alias: "revue",
-    resolve: "values"
+    resolve: "values",
+    // Sans ce drapeau, seule la premiere des 492 pages entrerait dans
+    // collections.all, donc dans sitemap.xml (cf discipline-pages.njk).
+    addAllPagesToCollections: true
   },
   layout: "layouts/base.html",
   permalink: "journal/{{ revue.slug }}/",
