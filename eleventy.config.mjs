@@ -166,6 +166,27 @@ export default async function (eleventyConfig) {
         "1918-9699", // Revue internationale P.M.E. (ojsFrScraper, OJS autonome)
         "2269-8469", // Décisions Marketing (dmScraper, site de l'AFM)
         "1630-7542", // Revue de l'Entrepreneuriat (reScraper, API WordPress de l'AEI)
+
+        // Cambridge (cupScraper) : les 7 revues Cambridge du périmètre sont
+        // couvertes, mais "Cambridge University Press" n'est volontairement pas
+        // ajouté à EDITEURS_COUVERTS -- le scraper porte une liste de slugs en
+        // dur (le slug CUP ne se déduit pas du nom FNEGE), donc une future revue
+        // Cambridge ajoutée au périmètre serait comptée sans être scrapée.
+        "1756-6916", // Journal of Financial and Quantitative Analysis
+        "2153-3326", // Business Ethics Quarterly
+        "2044-768X", // The Business History Review
+        "1783-1350", // Astin Bulletin
+        "1467-2235", // Enterprise & Society
+        "1930-2975", // Judgment and Decision Making
+        "1740-8784", // Management and Organization Review
+
+        // Oxford (oupScraper) : 1 seule des 13 revues Oxford du périmètre.
+        // academic.oup.com répond 403 sur toutes ses pages d'appels, y compris
+        // en local, donc aucune revue qui y est hébergée n'est couverte -- ne pas
+        // les recompter ici sans avoir rouvert une voie d'accès. Review of
+        // Finance fait exception : ses appels sont publiés sur revfin.org, hors
+        // academic.oup.com.
+        "1573-692X", // Review of Finance (revfin.org, ex-European Finance Review)
     ]);
     eleventyConfig.addFilter("revuesCouvertesParScraper", function (journals) {
         if (!journals) return [];
