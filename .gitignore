@@ -30,6 +30,9 @@ wiley-page.html
 elsevier-hub.html
 informs-page.html
 aom-page.html
+# Liste de titres T&F produite en cours de mise au point. Ramassee une fois
+# par le git add -A du workflow de scraping, d'ou cette regle.
+tf_titles.json
 _tmp
 
 # Fichiers supplementaires a ignorer
