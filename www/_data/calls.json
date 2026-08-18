@@ -1,5 +1,2019 @@
 [
   {
+    "journal": "Accounting History",
+    "abbreviation": "sage",
+    "issn": "1749-3374",
+    "metaTitle": "Announcing two Special Issues",
+    "url": "https://journals.sagepub.com/doi/full/10.1177/10323732251358004",
+    "title": "Accounting and Totalitarianism in an Historical Perspective",
+    "slug": "sage-announcing-two-special-issues",
+    "contentHash": "302b93aa9239dd6a9c113a48b083e197e2818838a4c7a2090dced60ce356cbd0",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "accounting history",
+      "totalitarianism"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-31T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Business & Society",
+    "abbreviation": "sage",
+    "issn": "1552-4205",
+    "metaTitle": "Understanding and Confronting Organizational Corruption and Wrongdoing in the Era of Grand Societal Challenges",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/BAS%20Corruption%20CFP%2010-16-2023%20(002)-1697714760.pdf",
+    "title": "Understanding and Confronting Organizational Corruption and Wrongdoing in the Era of Grand Societal Challenges",
+    "slug": "sage-understanding-and-confronting-organizational-corruption-and-wrongdoing-in-the-era-of-grand-societal-challenges",
+    "contentHash": "31e6124cdb6b1fd9d3a640adfba2d964062dfb929a9c112bc677c6da7af978d8",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Business & Society",
+    "abbreviation": "sage",
+    "issn": "1552-4205",
+    "metaTitle": "Studying Caste in Business and Society",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/Studying%20Caste%20in%20Business%20and%20Society%20CfP-1729512517.pdf",
+    "title": "Studying Caste in Business and Society",
+    "slug": "sage-studying-caste-in-business-and-society",
+    "contentHash": "468523aa4c413f0803b23b6bf1afb4f658baa55dec2d7a047306ec4d7e472f49",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Business & Society",
+    "abbreviation": "sage",
+    "issn": "1552-4205",
+    "metaTitle": "Reimagining the governance of cooperatives",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/Innovations%20in%20the%20Governance%20of%20Cooperatives_Complete%20CfP-1706860327.pdf",
+    "title": "Reimagining the governance of cooperatives",
+    "slug": "sage-reimagining-the-governance-of-cooperatives",
+    "contentHash": "6e6f07f0c76715e51e84e476c46c08c1cc1e51370e51e3d9d1403b559f3634b8",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-02-28T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Business & Society",
+    "abbreviation": "sage",
+    "issn": "1552-4205",
+    "metaTitle": "AI, Business, and Epochal Change",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/BAS%20SI%20Final%20Call%20-%20AI%20and%20Epochal%20Change-1761893348500.pdf",
+    "title": "AI, Business, and Epochal Change",
+    "slug": "sage-ai-business-and-epochal-change",
+    "contentHash": "7e415dc5ab8c2e4451438d73f6d1e430d3a1dd037e88756335f0037b243edc30",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "Unable to access the PDF document. The call for papers content could not be parsed from the provided link."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "business"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-01T10:00:00.000Z",
+        "description": "Submission period",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Business & Society",
+    "abbreviation": "sage",
+    "issn": "1552-4205",
+    "metaTitle": "Collective Actorhood and Organizationality",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/B&S%20SI%20call%20for%20papers%20Actorhood_trilingual_UPDATED.pdf",
+    "title": "Collective Actorhood and Organizationality",
+    "slug": "sage-collective-actorhood-and-organizationality",
+    "contentHash": "5c6d796023bbae58be95be3626bc1e8b159307d1baf94597680d228419ee2cc9",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue invites submissions exploring the concepts of collective actorhood and organizationality in contemporary society."
+      ]
+    },
+    "tags": [
+      "collective actorhood",
+      "organizationality",
+      "organizations"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-01T10:00:00.000Z",
+        "description": "Submission period",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Business & Society",
+    "abbreviation": "sage",
+    "issn": "1552-4205",
+    "metaTitle": "Multinational Enterprises and the Sustainable Development Goals",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/B&S_SI_Nov%202025.pdf",
+    "title": "Multinational Enterprises and the Sustainable Development Goals",
+    "slug": "sage-multinational-enterprises-and-the-sustainable-development-goals",
+    "contentHash": "21db7ecf98cd3aa9d90f2eb010cf737e8287b22cc3425350406a70f3fbf3bf6e",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-01T10:00:00.000Z",
+        "description": "Submission period",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Business & Society",
+    "abbreviation": "sage",
+    "issn": "1552-4205",
+    "metaTitle": "Business and Peace: Theoretical Contributions to Advance the Business and Society Debate",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/BAS/Special%20Issue%20Call%20for%20Papers%20Business%20and%20Peace%20final%20version-1771865953867.pdf",
+    "title": "Business and Peace: Theoretical Contributions to Advance the Business and Society Debate",
+    "slug": "sage-business-and-peace-theoretical-contributions-to-advance-the-business-and-society-debate",
+    "contentHash": "058803c175912ec8480b180e5dfb6f42a207fbd4670f9ddcf67afffb6a3ea59f",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-31T11:00:00.000Z",
+        "description": "Submission opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-01T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Business & Society",
+    "abbreviation": "sage",
+    "issn": "1552-4205",
+    "metaTitle": "Our Oceans as a Business-Society Nexus",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/BAS/2026-BS-Blue%20Economy-Revised-23Feb2026_final-1771866037403.pdf",
+    "title": "Our Oceans as a Business-Society Nexus",
+    "slug": "sage-our-oceans-as-a-business-society-nexus",
+    "contentHash": "4daa550fabc4cd7f5c945b5e7cf44c6b7812a6b1b86ca2beabd69250e9a11873",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-15T11:00:00.000Z",
+        "description": "Submissions open",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-05-15T10:00:00.000Z",
+        "description": "Submissions close",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Business & Society",
+    "abbreviation": "sage",
+    "issn": "1552-4205",
+    "metaTitle": "Corporate Social Responsibility in Times of Societal Polarization, Politicization, and Securitization",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/BAS/20260424%20BAS_CSR_CfP-1777405294690.pdf",
+    "title": "Corporate Social Responsibility in Times of Societal Polarization, Politicization, and Securitization",
+    "slug": "sage-corporate-social-responsibility-in-times-of-societal-polarization-politicization-and-securitization",
+    "contentHash": "4a7a90ce415691a3d3063f9fd2100223948546e9dc6abb3acb77bcfd2fef443e",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-01T11:00:00.000Z",
+        "description": "Submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Business & Society",
+    "abbreviation": "sage",
+    "issn": "1552-4205",
+    "metaTitle": "Collective Actorhood and Organizationality: Recalibrating Responsibility in Business-Society Relations",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/B&S%20SI%20call%20for%20papers%20Actorhood_trilingual_UPDATED-1758078884.pdf",
+    "title": "Collective Actorhood and Organizationality: Recalibrating Responsibility in Business-Society Relations",
+    "slug": "sage-collective-actorhood-and-organizationality-recalibrating-responsibility-in-business-society-relations",
+    "contentHash": "293185d90edde1905e68ba695d3480860977161544539f0e6e6ea05a4e9563a1",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-01T10:00:00.000Z",
+        "description": "Paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Competition & Change",
+    "abbreviation": "sage",
+    "issn": "1477-2221",
+    "metaTitle": "Beyond the Contradictions of Capitalist Green Finance: Alternative Paths to Sustainability",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/CfP%20-%20Sustainability%20contradictions%20of%20green%20capitalism-1747889657.pdf",
+    "title": "Beyond the Contradictions of Capitalist Green Finance: Alternative Paths to Sustainability",
+    "slug": "sage-beyond-the-contradictions-of-capitalist-green-finance-alternative-paths-to-sustainability",
+    "contentHash": "c548f859bf9cc947880f69f45dfbeda9b88c38e860ce4c789e961576249a5163",
+    "topics": [
+      "The role of financial markets and institutions in enabling or constraining sustainable transitions",
+      "Green bonds, sustainability-linked finance and their actual environmental and social outcomes",
+      "The performativity of Environmental, Social and Governance (ESG) metrics and ratings in financial markets",
+      "Financial innovation for sustainability and its contradictions",
+      "The relationship between financialization and ecological sustainability",
+      "Private finance, public goods and the commons",
+      "Degrowth and post-growth finance",
+      "Alternative finance models (cooperative finance, solidarity finance, Islamic finance, community development finance)",
+      "Reparative and decolonial approaches to sustainable finance",
+      "Feminist perspectives on finance and sustainability",
+      "Critical perspectives on carbon markets and offsetting",
+      "The political economy of green finance and its distributional consequences",
+      "Nature-based solutions and their financialization",
+      "Just transitions and the role of finance in enabling worker and community voice"
+    ],
+    "description": {
+      "paragraphs": [
+        "The integration of sustainability into financial markets is often presented as a panacea for addressing the ecological crisis. Green bonds, ESG investments, and climate finance are widely promoted as mechanisms to redirect capital toward sustainable development. However, mounting evidence suggests that these mechanisms frequently reproduce the extractive logics of conventional finance while performing sustainability credentials. This special issue examines the contradictions inherent in market-based approaches to sustainability and explores alternative pathways that prioritize ecological integrity, social justice, and genuine transformation.",
+        "Green capitalism and the financialization of nature raise critical questions about whose interests are served by current sustainability frameworks. Rather than challenging the fundamental logics of capital accumulation and endless growth, green finance often legitimizes them by creating new profit opportunities. This special issue invites contributions that critically interrogate the role of finance in shaping sustainability transitions, while exploring heterodox, decolonial, feminist, and alternative finance perspectives that center ecological limits and social justice.",
+        "We welcome interdisciplinary submissions from scholars, activists, and practitioners working at the intersection of finance, sustainability, political economy, and social movements. Contributions should engage with both empirical critique and constructive alternatives to capitalist green finance."
+      ]
+    },
+    "tags": [
+      "green finance",
+      "sustainability",
+      "political economy",
+      "alternative finance",
+      "esg",
+      "financialization"
+    ],
+    "editors": [
+      {
+        "name": "Daniela Gabor",
+        "affiliation": "University of the West of England"
+      },
+      {
+        "name": "Ekaterina Chertkovskaya",
+        "affiliation": "Örebro University"
+      },
+      {
+        "name": "Adrienne Roberts",
+        "affiliation": "University of Michigan"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-01-15T11:00:00.000Z",
+        "description": "Deadline for article submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Environment and Planning A Economy and Space",
+    "abbreviation": "sage",
+    "issn": "1472-3409",
+    "metaTitle": "The editors of EPA: Economy & Space invite submissions to the journal’s Exchanges section that make distinctive and original interventions",
+    "url": "https://journals.sagepub.com/page/epn/collections/cfp",
+    "title": "Method, Methodology, and the Construction of Explanations in Economic Geography",
+    "slug": "sage-the-editors-of-epa-economy-and-space-invite-submissions-to-the-journals-exchanges-section-that-make-distinctive-and-original-interventions",
+    "contentHash": "ef7e9595915b60fb7ade9443fff32f14a2e9b3e58da0e38633940a4ca678a6bd",
+    "topics": [
+      "Method and methodology in economic geography",
+      "Construction of explanations in economic geography",
+      "Innovative approaches to economic geography research",
+      "Perspectives and vantage points on economic geography"
+    ],
+    "description": {
+      "paragraphs": [
+        "The editors of Economy & Space invite submissions to the journal's Exchanges section that make distinctive and original interventions concerned with method, methodology, and the construction of explanations in economic geography (broadly defined) from a variety of perspectives and vantage points. Relatively short, focused, and 'methods positive' interventions are especially welcome, preferably in the region of 1,500-2,500 words in length."
+      ]
+    },
+    "tags": [
+      "economic geography",
+      "methodology",
+      "methods"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Entrepreneurship Theory and Practice",
+    "abbreviation": "sage",
+    "issn": "1540-6520",
+    "metaTitle": "Inclusive or Exclusive?",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/Call%20for%20papers%20EE%20ETP%20(1)-1729495635.pdf",
+    "title": "Inclusive or Exclusive? Diversity and Inclusion in Entrepreneurial Ecosystems Research",
+    "slug": "sage-inclusive-or-exclusive",
+    "contentHash": "04fd5b1afb4ff21d73f396f86191f69c0e26f93a2de157c926dcdae09b4f7f4d",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Entrepreneurship Theory and Practice",
+    "abbreviation": "sage",
+    "issn": "1540-6520",
+    "metaTitle": "Entrepreneurship Ex Machina: Transformative AI for Theory and Practice",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/ETP%20Special%20Issue%20CFP-%20AI%20and%20Entrepreneurship-upd-1738731870777.pdf",
+    "title": "Entrepreneurship Ex Machina: Transformative AI for Theory and Practice",
+    "slug": "sage-entrepreneurship-ex-machina-transformative-ai-for-theory-and-practice",
+    "contentHash": "419e102393b44df3e57dabf1d706a4242f385abf4159bae8df64522997b79275",
+    "topics": [
+      "AI applications in entrepreneurship and new venture creation",
+      "Machine learning for entrepreneurial decision-making and business model innovation",
+      "Generative AI and creative problem-solving in entrepreneurial contexts",
+      "AI-driven market analysis, opportunity recognition, and evaluation",
+      "Natural language processing for entrepreneurial communication and pitching",
+      "Computer vision and robotics in entrepreneurial ventures",
+      "AI ethics, governance, and responsible innovation in entrepreneurship",
+      "Algorithmic bias and fairness in AI-enabled entrepreneurial ecosystems",
+      "Human-AI collaboration and augmented entrepreneurship",
+      "AI's impact on entrepreneurial ecosystems and startup acceleration programs",
+      "Large language models (LLMs) and their applications in entrepreneurial processes",
+      "Data-driven entrepreneurship and predictive analytics for venture success",
+      "AI for social entrepreneurship and impact measurement",
+      "Organizational implications of AI adoption by entrepreneurs and SMEs",
+      "Future of work: AI, automation, and entrepreneurial employment"
+    ],
+    "description": {
+      "paragraphs": [
+        "Artificial Intelligence (AI) is fundamentally reshaping the landscape of entrepreneurship, promising transformative potential for both theory and practice. From identifying new market opportunities to automating routine tasks, AI technologies are enabling entrepreneurs to make data-driven decisions, optimize operations, and unlock innovation at unprecedented scale. Yet, while AI's capabilities continue to expand rapidly, many critical questions remain about how entrepreneurs can effectively leverage these tools, what organizational changes are necessary to harness AI's potential, and what ethical considerations must guide AI adoption in entrepreneurial ventures.",
+        "This special issue seeks to bridge the gap between AI capabilities and entrepreneurial practice by publishing cutting-edge research that explores the intersection of AI and entrepreneurship. We welcome empirical studies, conceptual papers, case studies, and methodological contributions that advance our understanding of how AI is reshaping entrepreneurial processes, decision-making, organizational structures, and outcomes. Research should address both opportunities and challenges associated with AI adoption, including issues of equity, access, and responsible innovation.",
+        "The goal is to create a comprehensive knowledge base that informs both entrepreneurs and scholars about how to effectively integrate AI into entrepreneurial ventures while navigating ethical complexities and maximizing positive impact on business performance and society."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "entrepreneurship",
+      "machine learning",
+      "generative ai",
+      "innovation"
+    ],
+    "editors": [
+      {
+        "name": "Ethan Mollick",
+        "affiliation": "University of Pennsylvania"
+      },
+      {
+        "name": "Llewellyn D. W. Thomas",
+        "affiliation": "Imperial College London"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-03-15T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2025-08-15T10:00:00.000Z",
+        "description": "Expected publication date",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Entrepreneurship Theory and Practice",
+    "abbreviation": "sage",
+    "issn": "1540-6520",
+    "metaTitle": "Enhancing Transparency and Replicability in Entrepreneurship Research with Preregistrations, Registered Reports, and Registered Revisions",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/2025-11-27%20ETP%20Special%20Issue%20CALL-1769503414487.pdf",
+    "title": "Enhancing Transparency and Replicability in Entrepreneurship Research with Preregistrations, Registered Reports, and Registered Revisions",
+    "slug": "sage-enhancing-transparency-and-replicability-in-entrepreneurship-research-with-preregistrations-registered-reports-and-registered-revisions",
+    "contentHash": "b261899ed0d749c21b661030ad173ec0f32a0546d65fcb4ae0c0264d85965fd8",
+    "topics": [
+      "Empirical studies using preregistration, registered reports, or registered revisions",
+      "Meta-scientific research examining the adoption and impact of transparency tools in entrepreneurship research",
+      "Methodological papers discussing best practices for implementing preregistration, registered reports, or registered revisions in entrepreneurship studies",
+      "Studies replicating or extending existing entrepreneurship research using transparent methods",
+      "Qualitative or mixed-methods research employing preregistration or registered reports",
+      "Research examining barriers to and facilitators of adopting transparency practices in entrepreneurship scholarship"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue seeks to advance transparency and replicability in entrepreneurship research by publishing high-quality studies that employ preregistrations, registered reports, and registered revisions. These methods represent significant steps toward open science practices and help mitigate concerns about questionable research practices, such as p-hacking and HARKing (Hypothesizing After Results are Known).",
+        "Entrepreneurship research, like many social science disciplines, has faced scrutiny regarding the reproducibility of findings. Preregistrations, registered reports, and registered revisions offer mechanisms to increase transparency in research design, data analysis, and reporting. By committing researchers to their analytical plans before data collection or analysis, these methods reduce the flexibility in statistical testing and improve the credibility of findings.",
+        "We welcome submissions that demonstrate the application of these transparency tools across diverse entrepreneurship topics and methodological approaches. Studies may examine venture creation, corporate entrepreneurship, social entrepreneurship, innovation, ecosystem development, or other entrepreneurship-related phenomena. We encourage research that not only applies these methods but also contributes to our understanding of how transparency practices can enhance the quality and impact of entrepreneurship scholarship."
+      ]
+    },
+    "tags": [
+      "open science",
+      "transparency",
+      "preregistration",
+      "registered reports",
+      "entrepreneurship research",
+      "replicability"
+    ],
+    "editors": [
+      {
+        "name": "Michael Hatak",
+        "affiliation": "WU Vienna University of Economics and Business"
+      },
+      {
+        "name": "Nicola Breugst",
+        "affiliation": "University of Kassel"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Publication timeline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-12-15T11:00:00.000Z",
+        "description": "Deadline for manuscript submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Entrepreneurship Theory and Practice",
+    "abbreviation": "sage",
+    "issn": "1540-6520",
+    "metaTitle": "The Startup Workforce",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/etp-start-up-workforce-call-for-papers_final-1776855656320.pdf",
+    "title": "The Startup Workforce",
+    "slug": "sage-the-startup-workforce",
+    "contentHash": "a982c978e1f8a7d5172f47743dc657611bc2da9fda10a2fe00c782d04489cc96",
+    "topics": [
+      "Startup recruitment and talent acquisition strategies",
+      "Employee retention and turnover in startups",
+      "Organizational culture development in early-stage companies",
+      "Compensation, equity, and benefits structures in startups",
+      "Leadership and management practices in startup environments",
+      "Remote work and flexible work arrangements in startups",
+      "Diversity, equity, and inclusion in startup workforces",
+      "Employee well-being and work-life balance in startups",
+      "Career development and learning opportunities in startups",
+      "Team dynamics and collaboration in startup settings",
+      "Founder-employee relationships and dynamics",
+      "Scaling human resources as startups grow",
+      "Attracting and retaining specialized talent in competitive markets",
+      "Employee motivation and engagement in resource-constrained environments",
+      "Gender and demographic representation in startup teams"
+    ],
+    "description": {
+      "paragraphs": [
+        "The startup workforce represents a distinctive and rapidly evolving domain of organizational practice and scholarly inquiry. As startups have become increasingly central to economic innovation and job creation, understanding the human dimensions of startup employment has become critical. Startups operate under unique constraints and opportunities that fundamentally shape employment relationships, organizational culture, and workforce dynamics in ways that differ significantly from established organizations.",
+        "Startups face distinctive challenges in attracting, developing, and retaining talent despite limited resources, uncertain futures, and competitive labor markets. The startup workforce is characterized by high intensity, rapid change, entrepreneurial energy, and often unconventional organizational structures. These factors create unique opportunities for innovation in human resource management and distinctive challenges for workforce development.",
+        "This special issue seeks to advance our understanding of startup workforce dynamics, practices, and outcomes. We welcome empirical research, conceptual contributions, and practice-oriented papers that illuminate the complexities of managing and experiencing work in startup environments. Contributions may examine workforce issues at the individual, team, organizational, or multi-organizational levels."
+      ]
+    },
+    "tags": [
+      "startups",
+      "workforce management",
+      "entrepreneurship",
+      "organizational culture",
+      "human resources"
+    ],
+    "editors": [
+      {
+        "name": "Noémie Younjung Loi",
+        "affiliation": "University of Melbourne"
+      },
+      {
+        "name": "Andrew Nyberg",
+        "affiliation": "University of Western Australia"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-01-31T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Entrepreneurship Theory and Practice",
+    "abbreviation": "sage",
+    "issn": "1540-6520",
+    "metaTitle": "Time in Entrepreneurship: New Perspectives and Approaches",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/ETP/CfPs%20ETP%20SI%20on%20time%20final-1777312657737.pdf",
+    "title": "Time in Entrepreneurship: New Perspectives and Approaches",
+    "slug": "sage-time-in-entrepreneurship-new-perspectives-and-approaches",
+    "contentHash": "d1f72fe64e783caca5cd01e7d478ac9a7de02a5fdeff9dc51012886375cd4db6",
+    "topics": [
+      "Temporal patterns in entrepreneurial processes and ventures",
+      "Temporal dimensions of opportunity recognition, evaluation, and exploitation",
+      "Time perspectives, temporal cognition, and entrepreneurial decision-making",
+      "Rhythms, routines, and temporal structures in new venture creation",
+      "Temporal aspects of entrepreneurial teams and their formation",
+      "Time and resource constraints in entrepreneurial contexts",
+      "Temporal dynamics of stakeholder relationships and networks",
+      "Time horizons and long-term versus short-term orientations in entrepreneurship",
+      "Historical and longitudinal approaches to studying entrepreneurship",
+      "Timing of entry, growth, and exit decisions in new ventures",
+      "Temporal aspects of innovation and product development in entrepreneurial firms",
+      "Seasonality and cyclical patterns in entrepreneurial activity"
+    ],
+    "description": {
+      "paragraphs": [
+        "Time is a fundamental dimension of entrepreneurship yet remains underexplored in entrepreneurship research. While temporal aspects appear implicitly in many entrepreneurship studies, explicit theoretical and empirical attention to time has been limited. This special issue seeks to advance our understanding of how time shapes entrepreneurial processes, decisions, and outcomes.",
+        "Entrepreneurship is inherently a temporal phenomenon. From opportunity recognition to venture growth and eventual exit, entrepreneurs navigate multiple time dimensions including clock time, cyclical time, and psychological time. Understanding how entrepreneurs perceive, manage, and utilize time is critical to understanding entrepreneurial action and success.",
+        "This special issue invites manuscripts that explicitly examine temporal dimensions of entrepreneurship. We welcome theoretical contributions that develop new temporal frameworks for understanding entrepreneurship, as well as empirical studies that investigate how time shapes entrepreneurial processes and outcomes. Research employing longitudinal designs, historical analyses, or other temporal methodologies is particularly encouraged.",
+        "Papers may examine time at multiple levels of analysis including the individual entrepreneur, the entrepreneurial team, the organization, or the broader ecosystem. We are interested in how temporal factors influence key entrepreneurial outcomes such as opportunity recognition, resource acquisition, strategic decisions, and venture performance."
+      ]
+    },
+    "tags": [
+      "entrepreneurship",
+      "time",
+      "temporal dynamics",
+      "opportunity recognition",
+      "venture creation"
+    ],
+    "editors": [
+      {
+        "name": "Alain Fayolle",
+        "affiliation": "EM Lyon Business School"
+      },
+      {
+        "name": "Per Davidsson",
+        "affiliation": "Queensland University of Technology"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2024-10-31T11:00:00.000Z",
+        "description": "Manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2025-03-31T10:00:00.000Z",
+        "description": "First round of reviews completed",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-05-31T10:00:00.000Z",
+        "description": "Revisions due",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-12-01T11:00:00.000Z",
+        "description": "Publication date",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Entrepreneurship Theory and Practice",
+    "abbreviation": "sage",
+    "issn": "1540-6520",
+    "metaTitle": "Reexamining and Replicating Foundational Studies in Entrepreneurship Research",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/ETP/SI_CFP_ETP_JC-1777667705570.pdf",
+    "title": "Reexamining and Replicating Foundational Studies in Entrepreneurship Research",
+    "slug": "sage-reexamining-and-replicating-foundational-studies-in-entrepreneurship-research",
+    "contentHash": "12a5e009583874697bcd4dabe2a6c070db6c597d44187477d7413f32d35c61f9",
+    "topics": [
+      "Replication studies of foundational entrepreneurship research",
+      "Conceptual replications that extend foundational work in new contexts or with new populations",
+      "Direct replications of seminal empirical studies",
+      "Meta-analyses of foundational entrepreneurship research",
+      "Critiques and reexaminations of influential theories and models in entrepreneurship",
+      "Studies that challenge or refine existing entrepreneurship frameworks",
+      "Investigations into the generalizability of foundational entrepreneurship findings across cultures, time periods, and industries"
+    ],
+    "description": {
+      "paragraphs": [
+        "Entrepreneurship research has accumulated a substantial body of foundational work over the past several decades. These seminal studies have shaped our understanding of entrepreneurial processes, behaviors, and outcomes. However, the field would benefit from systematic efforts to reexamine and replicate these foundational studies to assess their robustness, generalizability, and continued relevance.",
+        "This special issue invites submissions that directly engage with foundational entrepreneurship research through replication, reexamination, and extension. We seek studies that either directly replicate foundational work, conduct conceptual replications in new contexts, perform meta-analyses of key findings, or critically reexamine the theoretical foundations of influential entrepreneurship research.",
+        "Such work is crucial for establishing the credibility and reliability of our knowledge base, identifying boundary conditions for existing theories, and determining which foundational findings hold across diverse contexts and populations. This special issue aims to strengthen entrepreneurship research by promoting transparency, reproducibility, and critical evaluation of our most influential work."
+      ]
+    },
+    "tags": [
+      "replication",
+      "entrepreneurship",
+      "foundational research",
+      "research methodology"
+    ],
+    "editors": [
+      {
+        "name": "James O. Fiet",
+        "affiliation": ","
+      },
+      {
+        "name": "Per Davidsson",
+        "affiliation": ""
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Entrepreneurship Theory and Practice",
+    "abbreviation": "sage",
+    "issn": "1540-6520",
+    "metaTitle": "The Startup Workforce",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/etp-start-up-workforce-call-for-papers_final-1777651698920.pdf",
+    "title": "The Startup Workforce",
+    "slug": "sage-the-startup-workforce-2",
+    "contentHash": "c1ca85974e8da1a34cb8287a9eab3e42c86ab6e113b8e87db04ce3b49ecf8d39",
+    "topics": [
+      "Employment relationships in startups",
+      "Work organization and management practices in startup contexts",
+      "Workforce diversity and inclusion in startups",
+      "Entrepreneurship and human resource management",
+      "Employee motivation and retention in startups",
+      "Organizational culture in startup environments",
+      "Skills development and training in startups",
+      "Labor market dynamics and startup employment",
+      "Remote work and flexible arrangements in startups",
+      "Founder-employee relationships",
+      "Work-life balance in startup settings"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue aims to explore the multifaceted dimensions of workforce dynamics, human resource management, and employment relationships within startup organizations. Startups present unique organizational contexts that differ significantly from established corporations in terms of resource constraints, growth trajectories, organizational structures, and employment practices."
+      ]
+    },
+    "tags": [
+      "startups",
+      "human resources",
+      "employment",
+      "entrepreneurship",
+      "organizational management"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Family Business Review",
+    "abbreviation": "sage",
+    "issn": "1741-6248",
+    "metaTitle": "2027 Family Business Review (FBR) Theories of Family Business Research",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/FBR/FBR%20FInal%20Call%20for%20Papers-1712123473.pdf",
+    "title": "Theories of Family Business Research",
+    "slug": "sage-2027-family-business-review-fbr-theories-of-family-business-research",
+    "contentHash": "52c1bdc85c058ddea6251b1ca7d8bc437177e49dda55ac8b78668d3015a3450c",
+    "topics": [
+      "Institutional theory and family business",
+      "Resource-based view in family business contexts",
+      "Stakeholder theory applications in family firms",
+      "Agency theory and family business governance",
+      "Stewardship theory in family business",
+      "Behavioral theories of family business decision-making",
+      "Social capital theory in family business",
+      "Organizational identity and family business",
+      "Dynamic capabilities in family business",
+      "Evolutionary perspectives on family business",
+      "Network theory and family business ecosystems",
+      "Psychological ownership in family contexts"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue invites scholarly contributions that advance theoretical understanding of family business phenomena. The issue seeks to explore how established theories from organizational science, management, and related disciplines can be adapted, extended, or challenged through family business research.",
+        "Contributions should critically examine existing theoretical frameworks and their applicability to family business contexts, or propose novel theoretical perspectives that enhance our understanding of how family dynamics, ownership structures, and generational transitions shape business behavior and outcomes."
+      ]
+    },
+    "tags": [
+      "family business",
+      "theory",
+      "organizational management"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Family Business Review",
+    "abbreviation": "sage",
+    "issn": "1741-6248",
+    "metaTitle": "Family Business Review (FBR) Modern Family Firms",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/FBR_SI_Modern%20family%20firms-1726822568.pdf",
+    "title": "Modern Family Firms",
+    "slug": "sage-family-business-review-fbr-modern-family-firms",
+    "contentHash": "c67289b8edaf39d58e876bf67df0b4aa0f9b61a7119f42c9b77f2a69435439b9",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "Family Business Review (FBR) is calling for papers for a special issue on Modern Family Firms. This special issue aims to explore contemporary issues, challenges, and opportunities facing family businesses in the modern era."
+      ]
+    },
+    "tags": [
+      "family business"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Family Business Review",
+    "abbreviation": "sage",
+    "issn": "1741-6248",
+    "metaTitle": "Modern Family Firms",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/FBR_SI_Modern%20family%20firms-1726822568447.pdf",
+    "title": "Modern Family Firms",
+    "slug": "sage-modern-family-firms",
+    "contentHash": "7952171b13460c278b1266210923f5ba1be9d649657294051668d3ed0da5fb2f",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-10-01T10:00:00.000Z",
+        "description": "Submissions due",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Family Business Review",
+    "abbreviation": "sage",
+    "issn": "1741-6248",
+    "metaTitle": "Theories of Family Business Research",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/FBR/FBR%20FInal%20Call%20for%20Papers-1720458898167.pdf",
+    "title": "Theories of Family Business Research",
+    "slug": "sage-theories-of-family-business-research",
+    "contentHash": "401f4228b6dd29acb2ac417aa1a40109d7e2546ab04b6c636fd2bfc124d9157d",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue seeks to advance theoretical understanding of family business phenomena through rigorous scholarly research. The call invites submissions that develop, test, or apply theories to family business contexts, contributing to both family business literature and broader organizational theory."
+      ]
+    },
+    "tags": [
+      "family business",
+      "theory",
+      "organizational research"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2024-10-01T10:00:00.000Z",
+        "description": "Submissions due",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Group & Organization Management",
+    "abbreviation": "sage",
+    "issn": "1552-3993",
+    "metaTitle": "Neurodiversity in the Workplace: A Relational Perspective",
+    "url": "https://journals.sagepub.com/page/gom/cfp/neurodiversity",
+    "title": "Neurodiversity in the Workplace: A Relational Perspective",
+    "slug": "sage-neurodiversity-in-the-workplace-a-relational-perspective",
+    "contentHash": "84546637c467a0e5a393e3a3e66dafdbf2c90501a2d6370697abc317acfa0c88",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-11-01T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Group & Organization Management",
+    "abbreviation": "sage",
+    "issn": "1552-3993",
+    "metaTitle": "Family Firms as Context for Organizational Behavior Processes",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/2025April_Special_Issue_Call_for_Papers_GOM-1780953676187.pdf",
+    "title": "Family Firms as Context for Organizational Behavior Processes",
+    "slug": "sage-family-firms-as-context-for-organizational-behavior-processes",
+    "contentHash": "4711acfaaa34676df29a1586495c7275f71dc5635ea4c51c81cf08ebe23e1ff3",
+    "topics": [
+      "How do family dynamics (e.g., family conflict, cohesion, intergenerational relationships) shape organizational behavior processes?",
+      "How do family ownership structures and governance arrangements influence employee motivation, commitment, and organizational culture?",
+      "How do succession planning and leadership transitions in family firms affect organizational behavior outcomes?",
+      "What is the role of family social capital and networks in shaping organizational behavior processes?",
+      "How do family firm values and mission influence employee behavior, organizational identity, and stakeholder relationships?",
+      "What are the implications of family involvement in management for organizational learning, innovation, and change processes?",
+      "How do family firms balance family interests with organizational effectiveness and employee well-being?",
+      "What role does emotional attachment to the firm play in shaping organizational behavior in family contexts?",
+      "How do family firm characteristics influence diversity, inclusion, and equity in organizational practices?",
+      "What are the unique challenges and opportunities for managing organizational behavior in multigenerational family firms?"
+    ],
+    "description": {
+      "paragraphs": [
+        "Family firms represent a significant and distinct organizational context that shapes how people behave, interact, and perform within organizations. Despite their prevalence globally and their substantial economic impact, family firms remain understudied in organizational behavior research. The unique characteristics of family firms—including family involvement in ownership and management, overlapping family and business systems, long-term orientations, and preservation of family legacy—create a distinctive context that influences organizational behavior processes in ways that differ fundamentally from non-family firms.",
+        "This special issue seeks to advance our understanding of how family firm contexts shape organizational behavior. We invite empirical and theoretical contributions that examine organizational behavior processes—including but not limited to motivation, leadership, organizational culture, change management, conflict resolution, team dynamics, organizational learning, and employee well-being—within family firm settings. We are particularly interested in research that illuminates the mechanisms through which family dynamics, governance structures, ownership arrangements, and family values influence these organizational behavior processes.",
+        "We welcome quantitative, qualitative, and mixed-methods studies that provide novel insights into organizational behavior in family firms. Submissions may focus on family firms of any size or industry, and may examine intra-organizational dynamics as well as family firm interactions with external stakeholders. We are especially interested in research that addresses underexplored questions, applies novel theoretical perspectives, or challenges conventional wisdom about family firms and organizational behavior."
+      ]
+    },
+    "tags": [
+      "family firms",
+      "organizational behavior",
+      "family dynamics",
+      "management",
+      "succession planning"
+    ],
+    "editors": [
+      {
+        "name": "Cristina Cruz",
+        "affiliation": "Universitat Autònoma de Barcelona"
+      },
+      {
+        "name": "Luis Gomez-Mejia",
+        "affiliation": "Arizona State University"
+      },
+      {
+        "name": "Justin Craig",
+        "affiliation": "University of Alberta"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-02-01T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Group & Organization Management",
+    "abbreviation": "sage",
+    "issn": "1552-3993",
+    "metaTitle": "Advancing Management Research Through Theory Testing: A Special Issue of Replication and Reproducibility Studies",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/GOM/Replication_SI_CFP_20260319-1786373182787.pdf",
+    "title": "Replication and Reproducibility Studies",
+    "slug": "sage-advancing-management-research-through-theory-testing-a-special-issue-of-replication-and-reproducibility-studies",
+    "contentHash": "bac13fd3ee671f476c938aad3e7954475e5de421349d66484fb499c789cf3488",
+    "topics": [
+      "Replication studies that test established management theories and findings",
+      "Direct replications of seminal management studies",
+      "Conceptual replications that extend findings to new contexts or populations",
+      "Meta-analyses and systematic reviews of management research",
+      "Studies examining the reproducibility of quantitative findings in management",
+      "Studies examining the reproducibility of qualitative findings in management",
+      "Investigations of methodological rigor and transparency in management research",
+      "Studies addressing publication bias and selective reporting in management",
+      "Research examining effect sizes and statistical power in management studies",
+      "Studies on open science practices and preregistration in management research"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue seeks to advance management research through systematic examination of replication and reproducibility in the field. The management discipline faces significant challenges regarding the replicability and reproducibility of research findings, with concerns about publication bias, selective reporting, and methodological rigor. This special issue provides a platform for rigorous empirical work that directly tests and validates existing management theories and findings.",
+        "We welcome contributions that contribute to our understanding of which management theories and findings are robust and reproducible, and which require refinement or reconsideration. Both studies that successfully replicate previous findings and studies that fail to replicate are valuable contributions to the literature, as they help establish the boundary conditions of management knowledge.",
+        "This special issue aims to promote transparency, rigor, and open science practices in management research. We encourage authors to employ preregistration, share data and materials, and adopt other open science practices that enhance research quality and reproducibility."
+      ]
+    },
+    "tags": [
+      "replication",
+      "reproducibility",
+      "management research",
+      "open science",
+      "research methodology"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-06-30T10:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Group & Organization Management",
+    "abbreviation": "sage",
+    "issn": "1552-3993",
+    "metaTitle": "A Critical Perspective on the Leadership-Inclusion Relationship",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/GOM/CFP_SI_leadership-inclusion_Knol_Schleu_Harvey_Randel-1715858201.pdf",
+    "title": "A Critical Perspective on the Leadership-Inclusion Relationship",
+    "slug": "sage-a-critical-perspective-on-the-leadership-inclusion-relationship",
+    "contentHash": "776e5764ef8f4aad406dc4d5fea5144e3d7e22bc3feda000037f1324abf38205",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Group Processes & Intergroup Relations",
+    "abbreviation": "sage",
+    "issn": "1461-7188",
+    "metaTitle": "Special Issues of GPIR",
+    "url": "https://journals.sagepub.com/page/gpi/collections/special-issues",
+    "title": "Special Issues",
+    "slug": "sage-special-issues-of-gpir",
+    "contentHash": "a3c8bfc7e702b45ac951f11827e825cab32e14d63a931bb480b824af9a506d79",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This is a collection of special issues from GPIR (Global Public Interest Review)"
+      ]
+    },
+    "tags": [
+      "special issues"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Group Processes & Intergroup Relations",
+    "abbreviation": "sage",
+    "issn": "1461-7188",
+    "metaTitle": "Group Processes & Intergroup Relations is calling for papers!",
+    "url": "https://journals.sagepub.com/page/gpi/call-for-papers",
+    "title": "Call for Papers",
+    "slug": "sage-group-processes-and-intergroup-relations-is-calling-for-papers",
+    "contentHash": "7184b0cb4cb9eecf808bf82c6eeab3e5969679f2fc1acdfff74c6c416a5410c2",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "Group Processes & Intergroup Relations is calling for papers."
+      ]
+    },
+    "tags": [
+      "group processes",
+      "intergroup relations"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Journal of Health Services Research & Policy",
+    "abbreviation": "sage",
+    "issn": "1758-1060",
+    "metaTitle": "Submit to the upcoming special issue ‘Disability and Health Services Research and Policy’",
+    "url": "https://journals.sagepub.com/page/hsr/call_for_papers",
+    "title": "Disability and Health Services Research and Policy",
+    "slug": "sage-submit-to-the-upcoming-special-issue-disability-and-health-services-research-and-policy",
+    "contentHash": "865232fc89971ea13598127cf4060f1705080a6e4ca153bc310bcf14cadb5c81",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "disability",
+      "health services",
+      "research",
+      "policy"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-06-30T10:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "International Small Business Journal Researching Entrepreneurship",
+    "abbreviation": "sage",
+    "issn": "1741-2870",
+    "metaTitle": "Explore current calls for Special Issues of ISBJ and contribute to advancing small business and entrepreneurship research",
+    "url": "https://journals.sagepub.com/page/isb/call-for-papers/index",
+    "title": "Special Issues of ISBJ",
+    "slug": "sage-explore-current-calls-for-special-issues-of-isbj-and-contribute-to-advancing-small-business-and-entrepreneurship-research",
+    "contentHash": "def77c782baa7330b96d063852fdfdcfc384d39b7dd2b99585fd7cd93aed2aa7",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "Explore current calls for Special Issues of ISBJ and contribute to advancing small business and entrepreneurship research."
+      ]
+    },
+    "tags": [
+      "small business",
+      "entrepreneurship"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "The Journal of Applied Behavioral Science",
+    "abbreviation": "sage",
+    "issn": "1552-6879",
+    "metaTitle": "JABS welcomes submissions for the upcoming special issue, From Near and Far: On the Role of Distance in Changing Professional Services",
+    "url": "https://journals.sagepub.com/page/jab/cfp-from-near-and-far",
+    "title": "From Near and Far: On the Role of Distance in Changing Professional Services",
+    "slug": "sage-jabs-welcomes-submissions-for-the-upcoming-special-issue-from-near-and-far-on-the-role-of-distance-in-changing-professional-services",
+    "contentHash": "0be031949479bd1cd1fde0be7f0ab63ec431871df0fc453e0191086191c92543",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "JABS welcomes submissions for the upcoming special issue on the role of distance in changing professional services."
+      ]
+    },
+    "tags": [
+      "professional services",
+      "distance"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2024-02-15T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Journal of Hospitality & Tourism Research",
+    "abbreviation": "sage",
+    "issn": "1557-7554",
+    "metaTitle": "The Impact of the Political Environment on Tourism and Hospitality",
+    "url": "https://journals.sagepub.com/page/jht/cfp-political-environment",
+    "title": "The Impact of the Political Environment on Tourism and Hospitality",
+    "slug": "sage-the-impact-of-the-political-environment-on-tourism-and-hospitality",
+    "contentHash": "1c7963d3db7bbb5b9bef0cf6c25bda0652c53bebef221fd4a36ddfcb9fd5d38a",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue seeks to explore the multifaceted ways in which political environments shape and influence the tourism and hospitality sectors. The political context encompasses governmental policies, political stability, regulatory frameworks, international relations, and geopolitical events that directly and indirectly affect tourism flows, hospitality operations, and industry development.",
+        "We invite submissions that examine how political factors influence destination competitiveness, tourism demand and supply, hospitality business strategies, employment patterns, and sustainable development in the sector. We particularly welcome research that addresses contemporary political challenges and opportunities in tourism and hospitality.",
+        "Contributions may include empirical studies, theoretical frameworks, case studies, and comparative analyses that provide insights into the complex relationships between political environments and tourism and hospitality industries globally."
+      ]
+    },
+    "tags": [
+      "political environment",
+      "tourism",
+      "hospitality",
+      "policy"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Journal of Hospitality & Tourism Research",
+    "abbreviation": "sage",
+    "issn": "1557-7554",
+    "metaTitle": "Featured Section: Insight & Foresight",
+    "url": "https://journals.sagepub.com/page/jht/insight-foresight",
+    "title": "Insight & Foresight",
+    "slug": "sage-featured-section-insight-and-foresight",
+    "contentHash": "48786d409442715d5d08de33b3c5549542f3242ea27fa090c392f54546b89323",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "featured section"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Journal of International Marketing",
+    "abbreviation": "sage",
+    "issn": "1547-7215",
+    "metaTitle": "Global Endorsers in Marketing",
+    "url": "https://www.ama.org/2025/08/18/call-for-papers-journal-of-international-marketing-global-endorsers-in-marketing/",
+    "title": "Global Endorsers in Marketing",
+    "slug": "sage-global-endorsers-in-marketing",
+    "contentHash": "8f62f906454667121296f1e372d595c221c34939020c810c4a22973216091449",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "marketing",
+      "international marketing",
+      "endorsers"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-31T11:00:00.000Z",
+        "description": "Manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Journal of International Marketing",
+    "abbreviation": "sage",
+    "issn": "1547-7215",
+    "metaTitle": "Foreign Market Entry, Reentry, and Exit Strategies",
+    "url": "https://www.ama.org/2025/10/09/call-for-papers-journal-of-international-marketing-foreign-market-entry-reentry-and-exit-strategies/",
+    "title": "Foreign Market Entry, Reentry, and Exit Strategies",
+    "slug": "sage-foreign-market-entry-reentry-and-exit-strategies",
+    "contentHash": "218dd220a413f224caa0d7ead5b1fac5d339bf5eca6185972aa1c761bd9e00d3",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "international marketing",
+      "market entry",
+      "market exit"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-06-30T10:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Journal of International Marketing",
+    "abbreviation": "sage",
+    "issn": "1547-7215",
+    "metaTitle": "Global Sustainability and Innovation in International Marketing",
+    "url": "https://www.ama.org/2025/07/22/call-for-papers-journal-of-international-marketing-global-sustainability-and-innovation-in-international-marketing/",
+    "title": "Global Sustainability and Innovation in International Marketing",
+    "slug": "sage-global-sustainability-and-innovation-in-international-marketing",
+    "contentHash": "227f0eb8d6cb9161390e14b206385ed5fe8f622e9415a3b879d1b34485bb4166",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue calls for papers addressing global sustainability and innovation in the context of international marketing."
+      ]
+    },
+    "tags": [
+      "sustainability",
+      "international marketing",
+      "innovation"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-30T10:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Journal of Information Technology",
+    "abbreviation": "sage",
+    "issn": "1466-4437",
+    "metaTitle": "For JIT Special Issue Calls for Papers and published Special Issues, follow this link",
+    "url": "https://journals.sagepub.com/page/jin/call-for-papers",
+    "title": "For JIT Special Issue Calls for Papers and published Special Issues, follow this link",
+    "slug": "sage-for-jit-special-issue-calls-for-papers-and-published-special-issues-follow-this-link",
+    "contentHash": "d98af6703cc259442dbac9a5b8f61176cff3ba9c982c5f3f6df0c526a6e642db",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This appears to be a header or navigation link for a Journal of Information Technology (JIT) special issues section, not a complete call for papers. No substantive content about a specific call for papers is provided."
+      ]
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Organizational Behavior Teaching Review",
+    "abbreviation": "sage",
+    "issn": "1552-6658",
+    "metaTitle": "Management Education in Africa CFP",
+    "url": "https://journals.sagepub.com/doi/full/10.1177/10525629241245671",
+    "title": "Management Education in Africa",
+    "slug": "sage-management-education-in-africa-cfp",
+    "contentHash": "b32446d5b183ab28e49a73ffa75419bd4741615fd2380b5aaaf31241a16a3668",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This is a call for papers on Management Education in Africa for the Journal of Management Education."
+      ]
+    },
+    "tags": [
+      "management education",
+      "africa"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-01-15T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Organizational Behavior Teaching Review",
+    "abbreviation": "sage",
+    "issn": "1552-6658",
+    "metaTitle": "50th anniversary call for papers!",
+    "url": "https://journals.sagepub.com/page/JME/50-years-of-JME",
+    "title": "50 Years of Journal of Management Education: Developing Insights from the Archives",
+    "slug": "sage-50th-anniversary-call-for-papers",
+    "contentHash": "0e5c16bea3d14faf1edf074aefd630be1f41f6a0ea78fc7a01cea78fceaafd62",
+    "topics": [
+      "Critical examination of past research and scholarship in management education",
+      "Reflective analysis of how management education has evolved over the last 50 years",
+      "Lessons from historical research that inform current and future management education practice",
+      "Tracing the development of key themes, debates, and approaches in management education",
+      "Bridging historical insights with contemporary challenges in management education"
+    ],
+    "description": {
+      "paragraphs": [
+        "The Journal of Management Education is celebrating its 50th anniversary with a special issue that invites scholars to develop insights from the journal's archives. This special issue seeks work that looks forward by looking back with a critical eye, examining how past scholarship can inform current and future directions in management education."
+      ]
+    },
+    "tags": [
+      "management education",
+      "journal history",
+      "archival analysis"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Organizational Behavior Teaching Review",
+    "abbreviation": "sage",
+    "issn": "1552-6658",
+    "metaTitle": "Grand Challenges Special Issue CFP",
+    "url": "https://journals.sagepub.com/page/JME/SI-Preparing-Leaders-to-Tackle-Grand-Challenges",
+    "title": "Management Education and Grand Challenges",
+    "slug": "sage-grand-challenges-special-issue-cfp",
+    "contentHash": "e296d2f6b0eef204a141dcd436c9f725f76eab29b0d147a17d3fea8394f41a2c",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue invites submissions that aim to stimulate advances on how management education can develop leaders who are ready to tackle Grand Challenges."
+      ]
+    },
+    "tags": [
+      "management education",
+      "leadership development",
+      "grand challenges"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2024-08-01T10:00:00.000Z",
+        "description": "Final submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Journal of Service Research",
+    "abbreviation": "sage",
+    "issn": "1552-7379",
+    "metaTitle": "10th Anniversary Organizational Frontlines Special Issue",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/JSR/JSR%20Special%20Issue%2010OF%20CFP-V9-1724173895.pdf",
+    "title": "10th Anniversary Organizational Frontlines",
+    "slug": "sage-10th-anniversary-organizational-frontlines-special-issue",
+    "contentHash": "125867d4f8e6b105ead7551a87a35728ea0e4f71a40fb3f457014842620599e1",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue commemorates the 10th anniversary of Organizational Frontlines Research (OFR) and invites submissions from authors interested in contributing to the field. The issue is coordinated with the 2025 OFR Symposium, which includes JSR-SI (Journal of Strategic Research - Special Issue) workshops designed to support and develop interested authors."
+      ]
+    },
+    "tags": [
+      "organizational research",
+      "special issue",
+      "anniversary"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Journal of Service Research",
+    "abbreviation": "sage",
+    "issn": "1552-7379",
+    "metaTitle": "AI-Enabled Experience Innovation",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/JSR%20CFP%20for%20AI-enabled%20experience%20innovation-1771929055970.pdf",
+    "title": "AI-Enabled Experience Innovation",
+    "slug": "sage-ai-enabled-experience-innovation",
+    "contentHash": "c2707e2437aab5d92f1bf67ea1d70998124c900809dca7782a0b583f6bacc347",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "artificial intelligence",
+      "experience innovation"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-30T10:00:00.000Z",
+        "description": "Full papers due",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Management Learning",
+    "abbreviation": "sage",
+    "issn": "1461-7307",
+    "metaTitle": "(Un)Learning from the Margins in Management and Organization Research",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/MLQ/(Un)Learning%20from%20the%20Margins%20-%20ML%20SI%20-%20deadline%20date%20extension-1726479518.docx",
+    "title": "(Un)Learning from the Margins in Management and Organization Research",
+    "slug": "sage-unlearning-from-the-margins-in-management-and-organization-research",
+    "contentHash": "602872e1c02409ab128df2e58df2b1d262d9e82db9d1f1724cb11fc0e4661204",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2024-10-01T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Management Learning",
+    "abbreviation": "sage",
+    "issn": "1461-7307",
+    "metaTitle": "Learning to do careers differently: challenges, tensions, and possibilities",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/MLQ/MLQ%20special%20issue%20-%20CFP-1721280711.pdf",
+    "title": "Learning to do careers differently: challenges, tensions, and possibilities",
+    "slug": "sage-learning-to-do-careers-differently-challenges-tensions-and-possibilities",
+    "contentHash": "75862b35d0c07c037d3e624c1e9d48cc09f236c1ed2080d69d0bca9500c0ccb1",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue invites submissions examining how individuals and organizations are reimagining and reconstructing career practices, identities, and experiences in contemporary contexts. The collection seeks to explore the challenges, tensions, and possibilities that emerge as traditional career models and frameworks are questioned and reimagined in response to shifting economic, technological, social, and personal circumstances."
+      ]
+    },
+    "tags": [
+      "careers",
+      "career development"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2024-10-02T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Management Learning",
+    "abbreviation": "sage",
+    "issn": "1461-7307",
+    "metaTitle": "Management Learning invites submissions for Special Issue Immanent Critique in Management Learning and Education",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/MLQ/Call_for_Submission_on_Immanent_Critique-Management_Learning_SI_final-1783060874590.pdf",
+    "title": "Immanent Critique in Management Learning and Education",
+    "slug": "sage-management-learning-invites-submissions-for-special-issue-immanent-critique-in-management-learning-and-education",
+    "contentHash": "362049d8828421453abf413753481cabf927ac56cac277bdbf7b4aeb491b877a",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "Management Learning invites submissions for a special issue on Immanent Critique in Management Learning and Education."
+      ]
+    },
+    "tags": [
+      "management learning",
+      "critique",
+      "education"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-09-15T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "International Journal of Market Research",
+    "abbreviation": "sage",
+    "issn": "2515-2173",
+    "metaTitle": "AI in market research",
+    "url": "https://www.mrs.org.uk/article/anytype/call-for-submissions-ijmr-special-edition-on-ai-in-market-research",
+    "title": "AI in market research",
+    "slug": "sage-ai-in-market-research",
+    "contentHash": "fb6be89c84571e235732a0cb17c9435bf8e53012278fb76dcce9cac329adcd7b",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "artificial intelligence",
+      "market research"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2024-10-31T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Marketing Theory",
+    "abbreviation": "sage",
+    "issn": "1741-301X",
+    "metaTitle": "To find out more about Marketing Theorys current Call for Papers, click the link below",
+    "url": "https://journals.sagepub.com/page/mtq/call-for-papers",
+    "title": "Call for Papers",
+    "slug": "sage-to-find-out-more-about-marketing-theorys-current-call-for-papers-click-the-link-below",
+    "contentHash": "cdc6b3e5fd662e71b6ebfabf82dafdec1c721e7ff6515a6d9da690716cb5ac39",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Organization & Environment",
+    "abbreviation": "sage",
+    "issn": "1552-7417",
+    "metaTitle": "Accelerating Sustainability Mainstreaming: Exploring the Challenges and Opportunities",
+    "url": "https://journals.sagepub.com/doi/full/10.1177/10860266241235774",
+    "title": "Exploring the Challenges and Opportunities of Accelerating Sustainability Mainstreaming",
+    "slug": "sage-accelerating-sustainability-mainstreaming-exploring-the-challenges-and-opportunities",
+    "contentHash": "87e40f658c888ab087f14a844755c22e45327890ace88699f8b8505398d897c6",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Organization & Environment",
+    "abbreviation": "sage",
+    "issn": "1552-7417",
+    "metaTitle": "Organizing within the Planetary Boundaries",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/O&E%20SI%20Planetary%20Boundaries_25-10-30.pdf",
+    "title": "Organizing within the Planetary Boundaries",
+    "slug": "sage-organizing-within-the-planetary-boundaries",
+    "contentHash": "8c6488af55d3b56c35e7b78bbe18af7ca2c1235ef8ac005b6f3cfbff489ffa9c",
+    "topics": [
+      "How organizations can operate within planetary boundaries",
+      "Sustainable business models and practices",
+      "Corporate environmental responsibility and accountability",
+      "Circular economy and resource management",
+      "Climate change mitigation strategies in organizations",
+      "Biodiversity conservation in business operations",
+      "Water and pollution management in corporate contexts",
+      "Ethical considerations in environmental sustainability",
+      "Stakeholder engagement for sustainable organizing",
+      "Measuring and reporting organizational environmental impact"
+    ],
+    "description": {
+      "paragraphs": [
+        "Organizations worldwide face unprecedented challenges from climate change, biodiversity loss, pollution, and resource depletion. The concept of planetary boundaries provides a scientific framework for understanding the safe operating space for humanity. This special issue explores how organizations can align their operations, strategies, and governance with these planetary boundaries while maintaining economic viability and social responsibility.",
+        "We seek contributions that examine the tensions, opportunities, and innovations emerging as organizations navigate the transition toward sustainable practices. This includes research on how companies can transform their business models, supply chains, and operational processes to operate within environmental limits. We are particularly interested in studies that provide practical insights into organizational change, stakeholder collaboration, and the integration of sustainability into core business strategy.",
+        "The special issue welcomes diverse perspectives from management, organizational behavior, sustainability science, economics, and related fields. We encourage empirical studies, conceptual frameworks, case studies, and comparative analyses that advance our understanding of sustainable organizing in a world of planetary constraints."
+      ]
+    },
+    "tags": [
+      "sustainability",
+      "planetary boundaries",
+      "organizational management",
+      "corporate environmental responsibility",
+      "circular economy"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Organization & Environment",
+    "abbreviation": "sage",
+    "issn": "1552-7417",
+    "metaTitle": "Organizing Sustainably with Nature in the Global South",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/OE%20SI%20Organizing%20with%20Nature-08-March-2026-1773307228597.pdf",
+    "title": "Organizing Sustainably with Nature in the Global South",
+    "slug": "sage-organizing-sustainably-with-nature-in-the-global-south",
+    "contentHash": "bf95c0047f9f0c55c34234ce8f727602977ce37225654133653c7701dc460423",
+    "topics": [
+      "How organizations in the Global South address nature-related challenges and opportunities",
+      "Indigenous and traditional knowledge systems in organizational sustainability practices",
+      "Community-based and grassroots organizing for environmental sustainability",
+      "Organizational responses to biodiversity loss, climate change, and resource scarcity",
+      "The role of social enterprises and cooperative models in sustainable organizing",
+      "Decolonial approaches to sustainability and organizational practice",
+      "Nature-inclusive business models and circular economy initiatives in the Global South",
+      "Tensions between development, livelihoods, and environmental conservation in organizational contexts",
+      "Power dynamics and stakeholder engagement in sustainability initiatives",
+      "Gender dimensions of sustainable organizing with nature"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue seeks to advance understanding of how organizations in the Global South engage with nature and promote sustainability in ways that are contextually appropriate and aligned with local values, knowledge systems, and development aspirations. Rather than applying frameworks developed in the Global North, we invite contributions that center the experiences, innovations, and perspectives of organizations operating in diverse Global South contexts.",
+        "We welcome empirical studies, conceptual pieces, and critical reflections that examine organizational approaches to sustainability that work with nature rather than against it, that respect ecological limits, and that contribute to social and environmental well-being. We are particularly interested in scholarship that highlights how organizations navigate the complex intersections of sustainability, development, economic livelihoods, and social justice.",
+        "This special issue recognizes that the Global South encompasses diverse contexts, geographies, and organizational forms. We encourage submissions that reflect this diversity while contributing to broader conversations about sustainable organizing practices that can inspire and inform organizations globally."
+      ]
+    },
+    "tags": [
+      "sustainability",
+      "global south",
+      "organizational management",
+      "environmental conservation",
+      "indigenous knowledge"
+    ],
+    "editors": [
+      {
+        "name": "Nitya Sharma",
+        "affiliation": "+JMC Institute"
+      },
+      {
+        "name": "Chiara Storti",
+        "affiliation": "Università della Svizzera italiana"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Anticipated publication date",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-04-30T10:00:00.000Z",
+        "description": "Manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Organizational Psychology Review",
+    "abbreviation": "sage",
+    "issn": "2041-3874",
+    "metaTitle": "Please see Organizational Psychology Reviews current Call for Papers, Artificial Intelligence at Work and Organizational Psychology: Are",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/OPR%20AI%20Special%20Issue-1729063461.pdf",
+    "title": "Artificial Intelligence at Work and Organizational Psychology: Are Our Theories Ready?",
+    "slug": "sage-please-see-organizational-psychology-reviews-current-call-for-papers-artificial-intelligence-at-work-and-organizational-psychology-are",
+    "contentHash": "514138e2fed7b40f7620d1f2066099874e4715030bda852c567bcd73d355ec57",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "artificial intelligence",
+      "organizational psychology",
+      "work"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Organization",
+    "abbreviation": "sage",
+    "issn": "1461-7323",
+    "metaTitle": "Learn more about the current Organization calls for papers",
+    "url": "https://journals.sagepub.com/page/org/call-for-papers",
+    "title": "Learn more about the current Organization calls for papers",
+    "slug": "sage-learn-more-about-the-current-organization-calls-for-papers",
+    "contentHash": "17328b0d25d7b42ab0a466f5765f43b4f5e87fc3588e2cf0824f8fb2773816c0",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Organizational Research Methods",
+    "abbreviation": "sage",
+    "issn": "1552-7425",
+    "metaTitle": "Feature Topic on Advanced analytic approaches to theorize from qualitative research",
+    "url": "https://journals.sagepub.com/doi/10.1177/10944281251314059",
+    "title": "Advanced analytic approaches to theorize from qualitative research",
+    "slug": "sage-feature-topic-on-advanced-analytic-approaches-to-theorize-from-qualitative-research",
+    "contentHash": "83bd0069d7b471a16ab5e14dc0e01a1ad54a480ac5180ad2ae6e01b6e842c54e",
+    "topics": [
+      "Advanced analytic approaches to theorize from qualitative research"
+    ],
+    "description": {
+      "paragraphs": [
+        "This feature topic invites submissions that demonstrate advanced analytic approaches for theorizing from qualitative research data."
+      ]
+    },
+    "tags": [
+      "qualitative research",
+      "advanced analytics",
+      "theory development"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-02-15T11:00:00.000Z",
+        "description": "Paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Organization Studies",
+    "abbreviation": "sage",
+    "issn": "1741-3044",
+    "metaTitle": "Current Calls for Papers",
+    "url": "https://journals.sagepub.com/page/oss/call-for-papers",
+    "title": "Current Calls for Papers",
+    "slug": "sage-current-calls-for-papers",
+    "contentHash": "df999584ece8e88c6223e0035fd9f2418a9ffc1a89c2d98f9c431041b7d4fa61",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Recherche et Applications en Marketing (French Edition)",
+    "abbreviation": "sage",
+    "issn": "2051-2821",
+    "metaTitle": "Imaginer la post-croissance",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/CfP_RAM_Postgrowth_fr-1767780763727.pdf",
+    "title": "Imaginer la post-croissance",
+    "slug": "sage-imaginer-la-post-croissance",
+    "contentHash": "2f7e173e873d1c18a2fd2c9760404a58b5e154e4eb7beb27fdb0e90c2fccb110",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-15T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "International Review of Administrative Sciences",
+    "abbreviation": "sage",
+    "issn": "1461-7226",
+    "metaTitle": "To find out more about International Review of Administrative Sciences current Call for Papers, click the link below",
+    "url": "https://journals.sagepub.com/page/ras/call-for-papers",
+    "title": "International Review of Administrative Sciences Call for Papers",
+    "slug": "sage-to-find-out-more-about-international-review-of-administrative-sciences-current-call-for-papers-click-the-link-below",
+    "contentHash": "1b43dde6b90fe9aa7b51c629c256b78c126fdbb3d5d9fd6ba2a6e7d557faee06",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Small Group Research",
+    "abbreviation": "sage",
+    "issn": "1552-8278",
+    "metaTitle": "Check out the current SGR call for papers here",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/SGR/SGR%20CFP%20Meeting%20Science%20Call%20for%20Papers-1783984842077.pdf",
+    "title": "The Science of Group Meetings",
+    "slug": "sage-check-out-the-current-sgr-call-for-papers-here",
+    "contentHash": "499a7bec1bac198d36a6acc15f12af6f3be15f5757dc1f3622020a8e26b08204",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "group meetings",
+      "meeting science"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-01T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Sociology",
+    "abbreviation": "sage",
+    "issn": "1469-8684",
+    "metaTitle": "Call for Papers - The Normative Turn in Sociology",
+    "url": "https://www.britsoc.co.uk/media/26815/socsi_normative_turn_dl220126.pdf",
+    "title": "The Normative Turn in Sociology",
+    "slug": "sage-call-for-papers-the-normative-turn-in-sociology",
+    "contentHash": "253b598cf821c30494f988f8eed4ee001db54d05fdbfd3fb31babe71bdceecf2",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "sociology",
+      "normative theory"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-01-22T11:00:00.000Z",
+        "description": "Deadline for submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Strategic Organization",
+    "abbreviation": "sage",
+    "issn": "1741-315X",
+    "metaTitle": "Strategy and Aesthetics",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/SOQ/SO%20strategy%20and%20aesthetics%20cfp%20final-1769773724690.pdf",
+    "title": "Strategy and Aesthetics",
+    "slug": "sage-strategy-and-aesthetics",
+    "contentHash": "2c735f3190023e7850c440b767c022105639f165eaf85b517cbe5afe355ab0ec",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "strategy",
+      "aesthetics"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-01T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
+    "journal": "Work Employment and Society",
+    "abbreviation": "sage",
+    "issn": "1469-8722",
+    "metaTitle": "Call for papers - Earning While Learning: Experiences, patterns and the political economy of working students",
+    "url": "https://www.britsoc.co.uk/media/26914/wes_si_earning_while_learning_dl270226.pdf",
+    "title": "Earning While Learning: Experiences, patterns and the political economy of working students",
+    "slug": "sage-call-for-papers-earning-while-learning-experiences-patterns-and-the-political-economy-of-working-students",
+    "contentHash": "3959fdc6285ab767028fef2f4c2e7eeec0630fb3da34286a5368272d9f0e34f4",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This call for papers focuses on the experiences, patterns, and political economy of students who work while pursuing their education."
+      ]
+    },
+    "tags": [
+      "working students",
+      "student employment",
+      "political economy"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-02-27T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-18T17:57:56.114Z"
+  },
+  {
     "journal": "Journal of Applied Psychology",
     "abbreviation": "apa",
     "issn": "1939-1854",
@@ -4427,8 +6441,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T13:39:13.215Z"
+    "active": false,
+    "pubDate": "2026-08-12T13:39:13.215Z",
+    "gracePeriod": "2026-09-17T17:57:56.114Z"
   },
   {
     "journal": "Journal of Small Business Management",
