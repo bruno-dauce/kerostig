@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | Energy Economics</title>
-        <link>https://kerostig.com/journal/energy-economics</link>
+        <link>https://kerostig.org/journal/energy-economics</link>
         <description>Derniers appels à publications pour Energy Economics.</description>
-        <lastBuildDate>Tue, 18 Aug 2026 03:16:12 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 16:07:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | Energy Economics</title>
-            <url>https://kerostig.com/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.com/journal/energy-economics</link>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/journal/energy-economics</link>
         </image>
         <copyright>kerostig © 2026</copyright>
         <item>
             <title><![CDATA[The Future of Electrification in Transportation]]></title>
-            <link>https://kerostig.com/call/elsevier-the-future-of-electrification-in-transportation</link>
+            <link>https://kerostig.org/call/elsevier-the-future-of-electrification-in-transportation</link>
             <guid>elsevier-the-future-of-electrification-in-transportation</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -37,7 +37,7 @@
         </item>
         <item>
             <title><![CDATA[The Role of Geopolitics in Energy Markets]]></title>
-            <link>https://kerostig.com/call/elsevier-the-role-of-geopolitics-in-energy-markets</link>
+            <link>https://kerostig.org/call/elsevier-the-role-of-geopolitics-in-energy-markets</link>
             <guid>elsevier-the-role-of-geopolitics-in-energy-markets</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>

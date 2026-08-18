@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | Futures</title>
-        <link>https://kerostig.com/journal/futures</link>
+        <link>https://kerostig.org/journal/futures</link>
         <description>Derniers appels à publications pour Futures.</description>
-        <lastBuildDate>Tue, 18 Aug 2026 03:16:12 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 16:07:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | Futures</title>
-            <url>https://kerostig.com/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.com/journal/futures</link>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/journal/futures</link>
         </image>
         <copyright>kerostig © 2026</copyright>
         <item>
             <title><![CDATA[Socioeconomic futures frameworks for motivating actions for sustainability]]></title>
-            <link>https://kerostig.com/call/elsevier-socioeconomic-futures-frameworks-for-motivating-actions-for-sustainability</link>
+            <link>https://kerostig.org/call/elsevier-socioeconomic-futures-frameworks-for-motivating-actions-for-sustainability</link>
             <guid>elsevier-socioeconomic-futures-frameworks-for-motivating-actions-for-sustainability</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -37,7 +37,7 @@
         </item>
         <item>
             <title><![CDATA[Hopeful Futures]]></title>
-            <link>https://kerostig.com/call/elsevier-prefiguring-hopeful-futures</link>
+            <link>https://kerostig.org/call/elsevier-prefiguring-hopeful-futures</link>
             <guid>elsevier-prefiguring-hopeful-futures</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -75,7 +75,7 @@
         </item>
         <item>
             <title><![CDATA[Constructing futures through climate modelling]]></title>
-            <link>https://kerostig.com/call/elsevier-constructing-futures-through-climate-modelling</link>
+            <link>https://kerostig.org/call/elsevier-constructing-futures-through-climate-modelling</link>
             <guid>elsevier-constructing-futures-through-climate-modelling</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -96,7 +96,7 @@
         </item>
         <item>
             <title><![CDATA[Reparative Futures]]></title>
-            <link>https://kerostig.com/call/elsevier-reparative-futures</link>
+            <link>https://kerostig.org/call/elsevier-reparative-futures</link>
             <guid>elsevier-reparative-futures</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>

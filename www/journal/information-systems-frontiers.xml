@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | Information Systems Frontiers</title>
-        <link>https://kerostig.com/journal/information-systems-frontiers</link>
+        <link>https://kerostig.org/journal/information-systems-frontiers</link>
         <description>Derniers appels à publications pour Information Systems Frontiers.</description>
-        <lastBuildDate>Tue, 18 Aug 2026 03:16:12 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 16:07:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | Information Systems Frontiers</title>
-            <url>https://kerostig.com/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.com/journal/information-systems-frontiers</link>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/journal/information-systems-frontiers</link>
         </image>
         <copyright>kerostig © 2026</copyright>
         <item>
             <title><![CDATA[Advancing towards a Responsible and Resilient Digital Future]]></title>
-            <link>https://kerostig.com/call/springer-advancing-towards-a-responsible-and-resilient-digital-future</link>
+            <link>https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future</link>
             <guid>springer-advancing-towards-a-responsible-and-resilient-digital-future</guid>
             <pubDate>Sun, 16 Aug 2026 21:44:37 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -80,7 +80,7 @@
         </item>
         <item>
             <title><![CDATA[Digital Technologies for Combating Unethical Labour Practices and Promoting Human Rights]]></title>
-            <link>https://kerostig.com/call/springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights</link>
+            <link>https://kerostig.org/call/springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights</link>
             <guid>springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -154,7 +154,7 @@
         </item>
         <item>
             <title><![CDATA[From Adoption to Impact: Post-Adoption, Value Realization, and Societal Transformation of ICT and AI]]></title>
-            <link>https://kerostig.com/call/springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai</link>
+            <link>https://kerostig.org/call/springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai</link>
             <guid>springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -244,7 +244,7 @@
         </item>
         <item>
             <title><![CDATA[Keeping Humans in the Loop in the AI-Driven Future of Information Security]]></title>
-            <link>https://kerostig.com/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security</link>
+            <link>https://kerostig.org/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security</link>
             <guid>springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -322,7 +322,7 @@
         </item>
         <item>
             <title><![CDATA[Artificial Intelligence, Affective Computing and Video Analytics for Intelligent Information Systems]]></title>
-            <link>https://kerostig.com/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</link>
+            <link>https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</link>
             <guid>springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>

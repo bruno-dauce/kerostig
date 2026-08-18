@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | GRH</title>
-        <link>https://kerostig.com/journal/grh</link>
+        <link>https://kerostig.org/journal/grh</link>
         <description>Derniers appels à publications pour GRH.</description>
-        <lastBuildDate>Tue, 18 Aug 2026 03:16:12 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 16:07:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | GRH</title>
-            <url>https://kerostig.com/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.com/journal/grh</link>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/journal/grh</link>
         </image>
         <copyright>kerostig © 2026</copyright>
         <item>
             <title><![CDATA[Recherche quantitative inductive en GRH : enjeux et méthodes]]></title>
-            <link>https://kerostig.com/call/agrh-appel-a-articles-pour-un-numero-special-de-la-revue-grh</link>
+            <link>https://kerostig.org/call/agrh-appel-a-articles-pour-un-numero-special-de-la-revue-grh</link>
             <guid>agrh-appel-a-articles-pour-un-numero-special-de-la-revue-grh</guid>
             <pubDate>Wed, 12 Aug 2026 22:00:20 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -80,7 +80,7 @@
         </item>
         <item>
             <title><![CDATA[Dialogue social sur le travail en mutations : quels défis, acteurs, espaces et modalités ?]]></title>
-            <link>https://kerostig.com/call/agrh-dialogue-social-sur-le-travail-en-mutations-quels-defis-acteurs-espaces-et-modalites-dl-15-janvier-2025</link>
+            <link>https://kerostig.org/call/agrh-dialogue-social-sur-le-travail-en-mutations-quels-defis-acteurs-espaces-et-modalites-dl-15-janvier-2025</link>
             <guid>agrh-dialogue-social-sur-le-travail-en-mutations-quels-defis-acteurs-espaces-et-modalites-dl-15-janvier-2025</guid>
             <pubDate>Wed, 12 Aug 2026 22:00:20 GMT</pubDate>
             <content:encoded><![CDATA[<div>

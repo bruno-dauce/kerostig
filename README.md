@@ -4,7 +4,7 @@ Les appels à publications en gestion, classés. Le site rassemble les appels à
 
 Projet non lucratif. Base technique : fork de callsforpapers (licence MIT), projet de Julian Prester. Site statique alimenté par un pipeline de scraping, sans serveur applicatif. La collecte quotidienne tourne via GitHub Actions, et le site est hébergé sur Cloudflare, redéployé automatiquement à chaque mise à jour du dépôt.
 
-Site : https://kerostig.com (en construction)
+Site : https://kerostig.org (en construction)
 
 ## Structure du dépôt
 

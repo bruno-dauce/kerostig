@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | Omega</title>
-        <link>https://kerostig.com/journal/omega</link>
+        <link>https://kerostig.org/journal/omega</link>
         <description>Derniers appels à publications pour Omega.</description>
-        <lastBuildDate>Tue, 18 Aug 2026 03:16:12 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 16:07:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | Omega</title>
-            <url>https://kerostig.com/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.com/journal/omega</link>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/journal/omega</link>
         </image>
         <copyright>kerostig © 2026</copyright>
         <item>
             <title><![CDATA[Data Envelopment Analysis at Fifty: From efficiency measurement to intelligent data-enabled analytics and decision making]]></title>
-            <link>https://kerostig.com/call/elsevier-omega-55th-anniversary-special-issue-data-envelopment-analysis-at-fifty-from-efficiency-measurement-to-intelligent-data-enabled-analytics-and-decision-making</link>
+            <link>https://kerostig.org/call/elsevier-omega-55th-anniversary-special-issue-data-envelopment-analysis-at-fifty-from-efficiency-measurement-to-intelligent-data-enabled-analytics-and-decision-making</link>
             <guid>elsevier-omega-55th-anniversary-special-issue-data-envelopment-analysis-at-fifty-from-efficiency-measurement-to-intelligent-data-enabled-analytics-and-decision-making</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -39,7 +39,7 @@
         </item>
         <item>
             <title><![CDATA[AI-Augmented MS/OR for Digital Operations and Emerging Technologies]]></title>
-            <link>https://kerostig.com/call/elsevier-ai-augmented-msor-for-digital-operations-and-emerging-technologies</link>
+            <link>https://kerostig.org/call/elsevier-ai-augmented-msor-for-digital-operations-and-emerging-technologies</link>
             <guid>elsevier-ai-augmented-msor-for-digital-operations-and-emerging-technologies</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -60,7 +60,7 @@
         </item>
         <item>
             <title><![CDATA[Data-Enabled Analytics for Insightful and Responsible Decision-Making]]></title>
-            <link>https://kerostig.com/call/elsevier-data-enabled-analytics-for-insightful-and-responsible-decision-making</link>
+            <link>https://kerostig.org/call/elsevier-data-enabled-analytics-for-insightful-and-responsible-decision-making</link>
             <guid>elsevier-data-enabled-analytics-for-insightful-and-responsible-decision-making</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -81,7 +81,7 @@
         </item>
         <item>
             <title><![CDATA[10th Workshop of the VeRoLog EWG]]></title>
-            <link>https://kerostig.com/call/elsevier-special-issue-10th-workshop-of-the-verolog-ewg</link>
+            <link>https://kerostig.org/call/elsevier-special-issue-10th-workshop-of-the-verolog-ewg</link>
             <guid>elsevier-special-issue-10th-workshop-of-the-verolog-ewg</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>

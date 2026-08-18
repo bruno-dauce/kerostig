@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | Revue de l'Entrepreneuriat</title>
-        <link>https://kerostig.com/journal/revue-de-lentrepreneuriat</link>
+        <link>https://kerostig.org/journal/revue-de-lentrepreneuriat</link>
         <description>Derniers appels à publications pour Revue de l'Entrepreneuriat.</description>
-        <lastBuildDate>Tue, 18 Aug 2026 03:16:12 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 16:07:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | Revue de l'Entrepreneuriat</title>
-            <url>https://kerostig.com/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.com/journal/revue-de-lentrepreneuriat</link>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/journal/revue-de-lentrepreneuriat</link>
         </image>
         <copyright>kerostig © 2026</copyright>
         <item>
             <title><![CDATA[Jeunes Chercheurs 2026]]></title>
-            <link>https://kerostig.com/call/re-appel-a-contributions-numero-special-jeunes-chercheurs-2026-revue-de-lentrepreneuriat</link>
+            <link>https://kerostig.org/call/re-appel-a-contributions-numero-special-jeunes-chercheurs-2026-revue-de-lentrepreneuriat</link>
             <guid>re-appel-a-contributions-numero-special-jeunes-chercheurs-2026-revue-de-lentrepreneuriat</guid>
             <pubDate>Mon, 17 Aug 2026 09:54:24 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -62,7 +62,7 @@
         </item>
         <item>
             <title><![CDATA[Special Issues Call for Proposals]]></title>
-            <link>https://kerostig.com/call/re-appel-a-propositions-de-numeros-speciaux-revue-de-lentrepreneuriat</link>
+            <link>https://kerostig.org/call/re-appel-a-propositions-de-numeros-speciaux-revue-de-lentrepreneuriat</link>
             <guid>re-appel-a-propositions-de-numeros-speciaux-revue-de-lentrepreneuriat</guid>
             <pubDate>Mon, 17 Aug 2026 09:54:24 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -89,7 +89,7 @@
         </item>
         <item>
             <title><![CDATA[Call for Special Issue Proposals]]></title>
-            <link>https://kerostig.com/call/re-appel-a-propositions-numero-special-revue-de-lentrepreneuriat</link>
+            <link>https://kerostig.org/call/re-appel-a-propositions-numero-special-revue-de-lentrepreneuriat</link>
             <guid>re-appel-a-propositions-numero-special-revue-de-lentrepreneuriat</guid>
             <pubDate>Mon, 17 Aug 2026 09:54:24 GMT</pubDate>
             <content:encoded><![CDATA[<div>

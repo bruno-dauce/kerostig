@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | Tag : operations research</title>
-        <link>https://kerostig.com/tag/operations-research</link>
+        <link>https://kerostig.org/tag/operations-research</link>
         <description>Derniers appels à publications avec le tag 'operations research'.</description>
-        <lastBuildDate>Tue, 18 Aug 2026 03:16:12 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 16:07:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | Tag : operations research</title>
-            <url>https://kerostig.com/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.com/tag/operations-research</link>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/operations-research</link>
         </image>
         <copyright>kerostig © 2026</copyright>
         <item>
             <title><![CDATA[Contextual Optimization with Side Information: Theory, Methodology, and Applications]]></title>
-            <link>https://kerostig.com/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications</link>
+            <link>https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications</link>
             <guid>springer-contextual-optimization-with-side-information-theory-methodology-and-applications</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -96,7 +96,7 @@
         </item>
         <item>
             <title><![CDATA[Game Theoretical Models and Applications SING21]]></title>
-            <link>https://kerostig.com/call/springer-game-theoretical-models-and-applications-sing21</link>
+            <link>https://kerostig.org/call/springer-game-theoretical-models-and-applications-sing21</link>
             <guid>springer-game-theoretical-models-and-applications-sing21</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -164,7 +164,7 @@
         </item>
         <item>
             <title><![CDATA[Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems]]></title>
-            <link>https://kerostig.com/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</link>
+            <link>https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</link>
             <guid>springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -232,7 +232,7 @@
         </item>
         <item>
             <title><![CDATA[Global Supply Chain Reconfiguration Under Tariff Uncertainty]]></title>
-            <link>https://kerostig.com/call/springer-global-supply-chain-reconfiguration-under-tariff-uncertainty</link>
+            <link>https://kerostig.org/call/springer-global-supply-chain-reconfiguration-under-tariff-uncertainty</link>
             <guid>springer-global-supply-chain-reconfiguration-under-tariff-uncertainty</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -298,7 +298,7 @@
         </item>
         <item>
             <title><![CDATA[Collaborative Intelligence in Operations Research: Models, Methods, and Applications]]></title>
-            <link>https://kerostig.com/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</link>
+            <link>https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</link>
             <guid>springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -370,7 +370,7 @@
         </item>
         <item>
             <title><![CDATA[Data Science]]></title>
-            <link>https://kerostig.com/call/springer-data-science</link>
+            <link>https://kerostig.org/call/springer-data-science</link>
             <guid>springer-data-science</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -420,7 +420,7 @@
         </item>
         <item>
             <title><![CDATA[OR for Sustainability in Supply Chain Management]]></title>
-            <link>https://kerostig.com/call/springer-or-for-sustainability-in-supply-chain-management</link>
+            <link>https://kerostig.org/call/springer-or-for-sustainability-in-supply-chain-management</link>
             <guid>springer-or-for-sustainability-in-supply-chain-management</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -482,7 +482,7 @@
         </item>
         <item>
             <title><![CDATA[OR in Medicine and Health Care]]></title>
-            <link>https://kerostig.com/call/springer-or-in-medicine-and-health-care</link>
+            <link>https://kerostig.org/call/springer-or-in-medicine-and-health-care</link>
             <guid>springer-or-in-medicine-and-health-care</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -540,7 +540,7 @@
         </item>
         <item>
             <title><![CDATA[Operations Research and AI in logistics: methodology, case studies and applications]]></title>
-            <link>https://kerostig.com/call/elsevier-special-issue-on-operations-research-and-ai-in-logistics-methodology-case-studies-and-applications</link>
+            <link>https://kerostig.org/call/elsevier-special-issue-on-operations-research-and-ai-in-logistics-methodology-case-studies-and-applications</link>
             <guid>elsevier-special-issue-on-operations-research-and-ai-in-logistics-methodology-case-studies-and-applications</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
