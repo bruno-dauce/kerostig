@@ -16,8 +16,17 @@ import { waitForCloudflare } from '../cloudflare.mjs';
 // Association, qui n'oppose aucun blocage. C'est la revue que la table FNEGE
 // liste encore sous son ancien nom "European Finance Review" (meme eISSN
 // 1573-692X, les deux noms sont resolus par matchIssn).
+// DESACTIVE en attendant la correction du selecteur de contenu de revfin.org.
+// Le premier run reel n'a extrait qu'une coquille vide : titre "Special Issues"
+// (repris du h1 de la page), zero paragraphe, zero echeance, zero thematique.
+// La cascade CONTENT_SELECTORS ci-dessous a donc bien trouve un conteneur, mais
+// pas celui qui porte les numeros speciaux -- soit ils sont charges en JS apres
+// domcontentloaded, soit ils vivent hors de ces selecteurs. Laisser la revue
+// active publierait une fiche d'appel sans contenu a chaque collecte.
+// Reactiver en decommentant la ligne une fois le bon conteneur identifie (la
+// ligne de log "[oup] Conteneur ... retenu" indique celui qui a repondu).
 const JOURNALS = [
-    { name: 'Review of Finance', url: 'https://revfin.org/for-authors/special-issues/' },
+    // { name: 'Review of Finance', url: 'https://revfin.org/for-authors/special-issues/' },
 ];
 
 // ATTENTION, selecteurs non confirmes sur le HTML reel de revfin.org. On essaie
@@ -44,6 +53,13 @@ export const scraperObject = {
     abbreviation: 'oup',
     async scraper(browser) {
         const abbreviation = this.abbreviation;
+
+        // Sortie explicite plutot qu'une boucle sur une liste vide : dans les
+        // logs, un "0 appel" doit se distinguer d'un scraper casse ou bloque.
+        if (JOURNALS.length === 0) {
+            console.log('[oup] Scraper desactive, aucune revue active (cf le commentaire sur JOURNALS)');
+            return [];
+        }
 
         const calls = [];
         for (const journal of JOURNALS) {
