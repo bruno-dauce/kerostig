@@ -117,8 +117,11 @@ const MARKETING_SPOT_TITLE_PATTERN = /call for paper|call for submission|special
 // ne sont PAS des appels se nomment, eux, de facon tres reguliere.
 //
 //  - "Virtual special issue", "Latest special issues", "Read our latest
-//    Special Issue", "Special Issues in Process" : collections d'articles
-//    deja publies, bouton "Read Now".
+//    Special Issue", "Read recent Sociology Special Issues here", "Special
+//    Issues in Process" : collections d'articles deja publies, bouton
+//    "Read Now". Le "read ... special issue" est volontairement tolerant a
+//    ce qui s'intercale (nom de la revue le plus souvent), mais borne a la
+//    phrase en cours.
 //  - "proposals" : sollicite une PROPOSITION de numero special aupres de
 //    futurs editeurs invites, pas des articles. Meme distinction que la
 //    section "Call For Special Issue Proposals" deja ecartee chez Wiley.
@@ -129,7 +132,7 @@ const MARKETING_SPOT_TITLE_PATTERN = /call for paper|call for submission|special
 //  - "conference" : appel a communications pour un colloque (deux encarts
 //    "BSA Conference call for papers" sur Sociology), hors perimetre d'un
 //    site d'appels a publications. Conserve du filtre precedent.
-const NON_CALL_PATTERN = /virtual special issue|latest special issue|read our (?:latest )?special issue|special issues in process|\bproposals?\b|\bconference\b/i;
+const NON_CALL_PATTERN = /virtual special issue|latest special issue|\bread\b[^.]{0,40}\bspecial issues?\b|special issues in process|\bproposals?\b|\bconference\b/i;
 
 // Les appels d'une meme revue peuvent etre listes dans un seul encart, sous
 // forme de <li> (un appel par puce, avec son lien et son echeance) au lieu
@@ -142,8 +145,10 @@ const MARKETING_SPOT_TEXT_SELECTOR = '.marketing-spot__text';
 const MARKETING_SPOT_FOOTER_SELECTOR = '.marketing-spot__footer';
 
 // Liens de navigation generiques, jamais le lien d'un appel (meme garde-fou
-// que sur le hub et chez Wiley).
-const IGNORED_SPOT_LINK_TEXT_PATTERN = /^(author guidelines|submission guidelines|guide for authors|aims (and|&) scope)$/i;
+// que sur le hub et chez Wiley). "Published articles" pointe vers une
+// collection d'articles parus (constate sur Journal of Hospitality &
+// Tourism Research, dont l'encart "Call for papers" n'a pas d'autre lien).
+const IGNORED_SPOT_LINK_TEXT_PATTERN = /^(author guidelines|submission guidelines|guide for authors|aims (and|&) scope|published articles)$/i;
 
 // Certains liens d'encart sont enrobes par le Safe Links d'Outlook : l'URL
 // reelle est passee dans le parametre ?url= d'un domaine
@@ -336,49 +341,134 @@ export function extract_spot_calls(html, pageUrl, journalName) {
     return entries;
 }
 
-// Un encart prend l'une des deux formes rencontrees sur les pages revue :
-// une liste de puces (un appel par <li>) ou un bloc de texte unique avec
-// bouton en pied. On lit la liste en priorite : quand elle existe, le pied
-// de l'encart est vide et le texte global melangerait tous les appels.
+// Un encart prend l'une des trois formes rencontrees sur les pages revue :
+// une liste de puces (un appel par <li>), plusieurs paragraphes portant
+// chacun le lien d'un appel, ou un bloc de texte unique avec bouton en
+// pied. Les deux premieres sont la meme chose a la balise pres : plusieurs
+// appels sous un intitule commun, chacun avec son lien.
 function read_spot($, spot, spotTitle, pageUrl) {
     const items = spot.find(MARKETING_SPOT_LIST_ITEM_SELECTOR).toArray();
-    if (items.length > 0) {
-        return items.map(item => {
-            const li = $(item);
-            const link = find_call_link($, li);
-            const url = link ? resolve_call_url(link.attr('href'), pageUrl) : null;
-            // Le lien est reecrit AVANT de serialiser rawContent : un
-            // safelink Outlook porte un jeton de tracking regenere par
-            // l'editeur, qui ferait changer le contentHash sans que l'appel
-            // ait bouge -- donc un rappel du modele a chaque passage. Le
-            // mecanisme de diff repose sur un rawContent stable.
-            if (link && url) link.attr('href', url);
-            return {
-                // Le texte du lien porte le vrai titre de l'appel ("Global
-                // Endorsers in Marketing"), bien plus utile que l'intitule
-                // de l'encart, commun a toutes les puces.
-                metaTitle: link ? link.text().trim() : null,
-                url,
-                rawContent: $.html(li),
-            };
-        });
-    }
+    if (items.length > 0) return items.map(item => read_call_block($, $(item), pageUrl));
 
     const text = spot.find(MARKETING_SPOT_TEXT_SELECTOR).first();
+
+    // Plusieurs paragraphes AVEC CHACUN UN LIEN : un appel par paragraphe
+    // (constate sur Entrepreneurship Theory and Practice, dont un encart
+    // "Special issue call for papers" en porte deux).
+    //
+    // Deux garde-fous, tires du HTML reel :
+    //  - au moins deux paragraphes lies, sinon on decouperait un appel
+    //    unique dont la description tient en plusieurs paragraphes (Journal
+    //    of Service Research : deux <p>, aucun lien dans le corps) ;
+    //  - le PREMIER paragraphe doit lui-meme porter un lien. Quand une
+    //    liste d'appels commence, elle commence par un appel. Un premier
+    //    paragraphe sans lien signale au contraire un appel unique suivi de
+    //    ses liens annexes -- cas d'Organizational Research Methods, dont
+    //    l'encart enchaine le titre du feature topic, son echeance, puis un
+    //    webinaire YouTube et un billet LinkedIn : les decouper produisait
+    //    deux faux appels intitules "Webinar..." et "Paper Development
+    //    Workshops".
+    const paragraphs = text.children('p').toArray().map(p => $(p));
+    const linked = paragraphs.filter(p => find_call_link($, p) !== null);
+    if (linked.length > 1 && paragraphs.length > 0 && find_call_link($, paragraphs[0]) !== null) {
+        return linked.map(p => read_call_block($, p, pageUrl));
+    }
+
+    // Forme simple : l'encart entier ne decrit qu'un appel.
     // Le pied de l'encart d'abord (bouton "Learn More"), puis le corps en
     // repli : certaines revues n'ont pas de pied du tout.
     const link = find_call_link($, spot.find(MARKETING_SPOT_FOOTER_SELECTOR).first())
         ?? find_call_link($, text);
     const url = link ? resolve_call_url(link.attr('href'), pageUrl) : null;
-    if (link && url) link.attr('href', url); // cf commentaire ci-dessus
+    if (link && url) link.attr('href', url); // cf commentaire dans read_call_block
     return [{
-        // Forme simple : l'encart entier ne decrit qu'un appel, son intitule
-        // reste le meilleur repli disponible (et garder ce choix preserve le
-        // slug des appels deja en base, cf dataPreparation.generateSlug).
-        metaTitle: spotTitle,
+        metaTitle: spot_metaTitle($, spotTitle, text),
         url,
         rawContent: text.length ? ($.html(text) ?? '') : '',
     }];
+}
+
+// Un bloc = un appel : une puce de liste ou un paragraphe portant son lien.
+function read_call_block($, block, pageUrl) {
+    const link = find_call_link($, block);
+    const url = link ? resolve_call_url(link.attr('href'), pageUrl) : null;
+    // Le lien est reecrit AVANT de serialiser rawContent : un safelink
+    // Outlook porte un jeton de tracking regenere par l'editeur, qui ferait
+    // changer le contentHash sans que l'appel ait bouge -- donc un rappel du
+    // modele a chaque passage. Le mecanisme de diff repose sur un
+    // rawContent stable.
+    if (link && url) link.attr('href', url);
+    return {
+        // Le texte du lien porte le vrai titre de l'appel ("Global Endorsers
+        // in Marketing"), bien plus utile que l'intitule de l'encart, commun
+        // a tous les blocs.
+        metaTitle: link ? link.text().trim() : null,
+        url,
+        rawContent: $.html(block),
+    };
+}
+
+// Le metaTitle d'un appel de forme simple. L'intitule de l'encart suffit
+// quand il est distinctif ("Painting Special Issue", "Management Education
+// in Africa CFP"), mais la majorite des encarts s'appellent "Special issue
+// call for papers" ou "Call for papers" : le slug est construit dessus, AVANT
+// que le modele n'ait extrait le vrai titre (dataPreparation.generateSlug),
+// et 34 des 64 appels du passage du 2026-08-18 se retrouvaient ainsi avec un
+// slug numerote du type sage-special-issue-call-for-papers-8. Dans ce cas on
+// prend le titre dans le corps de l'encart, ou il figure toujours en tete.
+function spot_metaTitle($, spotTitle, text) {
+    if (!is_generic_spot_title(spotTitle)) return spotTitle;
+    return first_significant_line($, text) ?? spotTitle;
+}
+
+// "Generique" = il ne reste aucun mot porteur de sens une fois retires les
+// mots de l'appareil editorial. Teste sur les intitules reels : "Call for
+// papers", "Special Issue Calls", "Current Calls for Papers" et "SO! Call
+// for papers" sont generiques ; "Painting Special Issue", "50th anniversary
+// call for papers!" et "Grand Challenges Special Issue CFP" ne le sont pas.
+// Le seuil de 4 lettres ecarte les sigles de revue ("SO!") sans toucher aux
+// vrais mots.
+const GENERIC_TITLE_WORDS_PATTERN = /\b(calls?|for|papers?|submissions?|special|issues?|current|open|new|the|a|of|cfps?)\b/gi;
+
+function is_generic_spot_title(title) {
+    const reste = title.replace(GENERIC_TITLE_WORDS_PATTERN, ' ').replace(/[^a-z0-9]+/gi, ' ');
+    return !reste.split(/\s+/).some(mot => mot.length >= 4);
+}
+
+// Le titre de l'appel dans le corps de l'encart : premier paragraphe, ou a
+// defaut texte du premier lien, ou a defaut le texte entier (souvent du
+// texte nu, sans balise). Le paragraphe passe AVANT le lien parce que les
+// liens annexes se glissent apres le titre sans que celui-ci soit lie --
+// Organizational Research Methods annonce son feature topic en texte nu,
+// puis un webinaire YouTube et un billet LinkedIn : partir du premier lien
+// donnait "Webinar: Advanced Qualitative Analysis information" comme titre
+// d'appel. On coupe ensuite ce qui suit le titre, l'echeance venant
+// regulierement a sa suite sur la meme ligne ("Imaginer la post-croissance.
+// Deadline: 15 January 2027. Find out more...").
+const TRAILING_NOISE_PATTERN = /\s*(?:[-–—]\s*)?\b(?:submission\s+|abstract\s+)?deadlines?\b.*$/i;
+const METATITLE_MAX_LENGTH = 140;
+
+function first_significant_line($, text) {
+    if (!text || text.length === 0) return null;
+    const brut = text.children('p').first().text().trim()
+        || find_call_link($, text)?.text().trim()
+        || text.text().trim();
+
+    let ligne = brut.replace(/\s+/g, ' ').replace(TRAILING_NOISE_PATTERN, '').trim();
+    // Une phrase entiere n'est pas un titre : on s'arrete a la premiere
+    // ponctuation forte suivie d'une majuscule ("... post-croissance. Find
+    // out more via the link below.").
+    ligne = ligne.split(/(?<=[.!?])\s+(?=[A-Z])/)[0].trim();
+    // Ponctuation ouvrante comprise : couper l'echeance laisse volontiers
+    // une parenthese orpheline ("Special Issue on Strategy and Aesthetics
+    // (Submission Deadline December 1st, 2026)").
+    ligne = ligne.replace(/[.,;:\s([–—-]+$/, '').trim();
+
+    if (ligne.length > METATITLE_MAX_LENGTH) {
+        const coupe = ligne.slice(0, METATITLE_MAX_LENGTH);
+        ligne = coupe.slice(0, coupe.lastIndexOf(' ')).trim() || coupe.trim();
+    }
+    return ligne.length > 0 ? ligne : null;
 }
 
 function find_call_link($, scope) {
