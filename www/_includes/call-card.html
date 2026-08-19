@@ -1,10 +1,18 @@
 {% set dueDate = call.dates | selectattr("is_full_paper_submission_deadline") | first if call.dates %}
 {% set revue = journals | revueDeLAppel(call) %}
+{# Aucun | safe dans cette carte : tout ce qui suit est du texte scrape rendu
+   dans un attribut ou dans le corps de la page, il doit etre echappe. Le piege
+   ici etait la precedence de Nunjucks, celle-la meme que documente le front
+   matter de call-pages.njk : dans « a if a else b | safe », le filtre ne porte
+   que sur b. La branche call.title etait donc echappee et la branche de repli
+   call.metaTitle ne l'etait pas -- un metaTitle contenant un guillemet droit
+   tronquait data-title et transformait la suite en attributs parasites, ce qui
+   faisait rater l'appel a la recherche de main.html. #}
 <div x-show="show_call($el)"
-    data-title="{{ call.title if call.title else call.metaTitle | safe }}"
-    data-journal="{{ call.journal | safe }}"
-    data-pubdate="{{ call.pubDate | safe }}"
-    data-duedate="{{ dueDate.date | safe }}"
+    data-title="{{ call.title if call.title else call.metaTitle }}"
+    data-journal="{{ call.journal }}"
+    data-pubdate="{{ call.pubDate }}"
+    data-duedate="{{ dueDate.date }}"
     data-discipline="{{ revue.discipline_code if revue else '' }}"
     data-rang="{{ revue.rang_fnege_2025 if revue else '' }}"
     data-issn="{{ revue.issn_cle if revue else '' }}"
@@ -21,7 +29,7 @@
                qui peut etre un PDF ou une page d'editeur sans rapport. #}
             {% set titreAffiche = call.title if call.title else call.metaTitle %}
             <a href="{{ ('/call/' + call.slug) | url }}" class="hover:underline">
-                <h2 class="text-lg font-bold leading-snug">{{ titreAffiche | safe }}</h2>
+                <h2 class="text-lg font-bold leading-snug">{{ titreAffiche }}</h2>
             </a>
             {% if dueDate %}
             <span x-data="{ jours: Math.ceil((new Date('{{ dueDate.date }}') - new Date()) / 86400000) }"
@@ -35,7 +43,7 @@
         </div>
 
         <a href="{{ '/journal/' + (revue.slug if revue else (call.journal | slug)) | url }}" class="text-xs font-semibold opacity-70 hover:opacity-100 uppercase">
-            {{ call.journal | safe }}
+            {{ call.journal }}
         </a>
 
         <div class="flex flex-wrap gap-1.5">

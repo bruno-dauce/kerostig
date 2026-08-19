@@ -48,7 +48,11 @@ eleventyComputed:
   </p>
 </aside>
 {% endif %}
-<h1 class="text-4xl font-extrabold leading-tight mb-3.5">{{ call.title if call.title else call.metaTitle | safe }}</h1>
+{# Pas de | safe ici, contrairement au front matter ci-dessus : le titre est
+   rendu dans le corps de la page, c'est donc ici qu'il doit etre echappe. Sans
+   parentheses le filtre ne portait de toute facon que sur la branche de repli
+   call.metaTitle, seule a sortir non echappee. #}
+<h1 class="text-4xl font-extrabold leading-tight mb-3.5">{{ call.title if call.title else call.metaTitle }}</h1>
 <div class="flex">
   <div>
     {% for tag in call.tags %}
