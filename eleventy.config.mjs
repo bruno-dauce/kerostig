@@ -443,15 +443,20 @@ export default async function (eleventyConfig) {
         return dateTime.setLocale('fr').toLocaleString(DateTime.DATE_FULL);
     });
 
+    // toISODate() rend null des que la chaine n'est pas analysable. Les dates
+    // viennent de l'extraction par le modele : une seule valeur aberrante ("TBD",
+    // "2026-13-01", un mois ecrit en lettres) ne doit pas faire tomber tout le
+    // build sur une TypeError. Ces deux filtres rendent donc null, ce que Nunjucks
+    // ecrit comme une chaine vide : le lien d'agenda est vide, la page passe.
     eleventyConfig.addFilter("googleCalendarDate", function (timestamp) {
-        const dateTime = DateTime.fromISO(timestamp);
-        return dateTime.toISODate().replace(/-/g, '');
+        const jour = DateTime.fromISO(timestamp).toISODate();
+        return jour ? jour.replace(/-/g, '') : null;
     });
 
     eleventyConfig.addFilter("outlookCalendarDate", function (timestamp) {
-        const dateTime = DateTime.fromISO(timestamp);
         // Outlook expects the date in 2016-02-29T19:00:00 format
-        return dateTime.toISODate() + 'T00:00:00';
+        const jour = DateTime.fromISO(timestamp).toISODate();
+        return jour ? jour + 'T00:00:00' : null;
     });
 
     eleventyConfig.addFilter("isInPast", function (timestamp) {
