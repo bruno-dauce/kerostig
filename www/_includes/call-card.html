@@ -46,9 +46,21 @@
             {% endif %}
         </div>
 
-        <a href="{{ '/journal/' + (revue.slug if revue else (call.journal | slug)) | url }}" class="text-xs font-semibold opacity-70 hover:opacity-100 uppercase">
+        {# Pas de lien quand la jointure echoue : les pages /journal/ ne sont
+           generees que depuis les slugs de journals.json, et le repli sur
+           call.journal | slug fabriquait une URL qui n'existe nulle part (les
+           3 appels JASIST, revue absente de journals.json, menaient a un 404).
+           Le nom reste affiche, en texte simple.
+           TODO: la solution structurelle viendra avec la migration de la
+           jointure appel-revue vers l'ISSN ; ce garde-fou reste utile apres,
+           pour toute revue hors perimetre FNEGE. #}
+        {% if revue %}
+        <a href="{{ ('/journal/' + revue.slug) | url }}" class="text-xs font-semibold opacity-70 hover:opacity-100 uppercase">
             {{ call.journal }}
         </a>
+        {% else %}
+        <span class="text-xs font-semibold opacity-70 uppercase">{{ call.journal }}</span>
+        {% endif %}
 
         <div class="flex flex-wrap gap-1.5">
             {% if revue %}
