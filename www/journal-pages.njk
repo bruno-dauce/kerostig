@@ -167,7 +167,10 @@
     {% set dueDate = call.dates | echeancePrincipale %}
     <div class="card bg-base-200 border border-base-300 rounded-lg">
       <div class="card-body p-4">
-        <a href="{{ ('/call/' + call.slug) | url }}"><h3 class="card-title text-base">{{ call.title | safe }}</h3></a>
+        {# Meme repli que call-card.html et call-pages.njk : un appel dont
+           l'extraction n'a rien donne retombe sur le metaTitle du scraper,
+           sans quoi le lien porte un libelle vide, donc incliquable. #}
+        <a href="{{ ('/call/' + call.slug) | url }}"><h3 class="card-title text-base">{{ call.title if call.title else call.metaTitle }}</h3></a>
         {% if dueDate %}<p class="text-xs font-medium" style="color:#C15A34">Échéance {{ dueDate.date | dateOnly }}</p>{% endif %}
       </div>
     </div>
