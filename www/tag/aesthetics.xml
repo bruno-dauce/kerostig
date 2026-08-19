@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : aesthetics</title>
+        <link>https://kerostig.org/tag/aesthetics</link>
+        <description>Derniers appels à publications avec le tag 'aesthetics'.</description>
+        <lastBuildDate>Wed, 19 Aug 2026 03:20:48 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : aesthetics</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/aesthetics</link>
+        </image>
+        <copyright>kerostig © 2026</copyright>
+        <item>
+            <title><![CDATA[Strategy and Aesthetics]]></title>
+            <link>https://kerostig.org/call/sage-strategy-and-aesthetics</link>
+            <guid>sage-strategy-and-aesthetics</guid>
+            <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 1, 2026: Full paper submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Strategic Organization (SAGE)</author>
+        </item>
+    </channel>
+</rss>
