@@ -26,11 +26,31 @@ const appelAffichable = (call) =>
     (call.active || Date.now() < new Date(call.gracePeriod)) &&
     !echeanceDepassee(call, TOLERANCE_ECHEANCE_JOURS);
 
-// Echeance de soumission du manuscrit complet, a defaut la derniere date connue.
+// Echeance de soumission du manuscrit complet, en chaine ISO, ou null.
+// Meme regle que echeanceSoumission dans scrapers/echeance.mjs, qui rend la
+// meme date en ms epoch : seules les dates portant le drapeau comptent, et
+// parmi elles la plus tardive (prolongations, doublons du modele).
+//
+// Aucun repli sur dates[dates.length - 1] : un appel dont le modele n'a
+// identifie aucune date de soumission est un appel sans echeance connue, pas
+// un appel qui expire a sa derniere date connue -- laquelle est souvent une
+// notification d'acceptation, une ouverture de fenetre de soumission ou une
+// date de publication. Ce repli faisait diverger les deux fonctions homonymes
+// et posait un expires JSON-LD que la page elle-meme contredisait.
 const echeanceSoumission = (dates) => {
-    if (!Array.isArray(dates) || !dates.length) return null;
-    const principale = dates.find((d) => d.is_full_paper_submission_deadline);
-    return (principale || dates[dates.length - 1]).date || null;
+    if (!Array.isArray(dates)) return null;
+    let retenue = null;
+    let retenueMs = null;
+    for (const d of dates) {
+        if (!d || !d.is_full_paper_submission_deadline || !d.date) continue;
+        const t = Date.parse(d.date);
+        if (Number.isNaN(t)) continue;
+        if (retenueMs === null || t > retenueMs) {
+            retenueMs = t;
+            retenue = d.date;
+        }
+    }
+    return retenue;
 };
 
 export default async function (eleventyConfig) {
