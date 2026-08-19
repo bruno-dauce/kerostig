@@ -37,7 +37,7 @@ const appelAffichable = (call) =>
 // notification d'acceptation, une ouverture de fenetre de soumission ou une
 // date de publication. Ce repli faisait diverger les deux fonctions homonymes
 // et posait un expires JSON-LD que la page elle-meme contredisait.
-const echeanceSoumission = (dates) => {
+const echeancePrincipaleDe = (dates) => {
     if (!Array.isArray(dates)) return null;
     let retenue = null;
     let retenueMs = null;
@@ -47,10 +47,14 @@ const echeanceSoumission = (dates) => {
         if (Number.isNaN(t)) continue;
         if (retenueMs === null || t > retenueMs) {
             retenueMs = t;
-            retenue = d.date;
+            retenue = d;
         }
     }
     return retenue;
+};
+const echeanceSoumission = (dates) => {
+    const retenue = echeancePrincipaleDe(dates);
+    return retenue ? retenue.date : null;
 };
 
 export default async function (eleventyConfig) {
@@ -67,10 +71,13 @@ export default async function (eleventyConfig) {
         });
     });
 
-    eleventyConfig.addFilter("echeancePrincipale", function (dates) {
-        if (!dates) return null;
-        return dates.find((d) => d.is_full_paper_submission_deadline) || null;
-    });
+    // L'entree de date qui fait foi comme echeance de soumission. La plus
+    // tardive des dates flaguees, jamais la premiere : quand le modele en
+    // extrait plusieurs (prolongation annoncee, doublon), la premiere est
+    // souvent deja passee. La carte annoncait alors une echeance depassee et
+    // se comptait comme cloturee cote client, pendant que le serveur tenait
+    // l'appel pour ouvert sur la base de la plus tardive.
+    eleventyConfig.addFilter("echeancePrincipale", echeancePrincipaleDe);
 
     // Recherche de revue par nom de journal (fallback quand l'ISSN n'est pas encore sur l'appel)
     const trouverRevueParNom = (journals, journalName) => {
@@ -437,10 +444,17 @@ export default async function (eleventyConfig) {
     });
     // --- fin donnees structurees ---------------------------------------------
 
-    // Compteur d'appels actifs
+    // Compteur d'appels ouverts. Ce n'est PAS appelAffichable : celui-la decide
+    // ce qui est rendu dans la page, avec 7 jours de tolerance apres l'echeance,
+    // et laisse donc entrer dans le DOM quelques appels que le lecteur voit
+    // barres. Le compteur, lui, annonce les appels ouverts au sens strict --
+    // echeance non passee, ou pas d'echeance connue -- exactement le critere que
+    // is_closed() rejoue cote client dans main.html. Sans cet alignement, le
+    // chiffre du bandeau sautait des qu'Alpine s'initialisait.
+    const appelOuvert = (call) => appelAffichable(call) && !echeanceDepassee(call, 0);
     eleventyConfig.addFilter("compterAppelsActifs", function (calls) {
         if (!calls) return 0;
-        return calls.filter(appelAffichable).length;
+        return calls.filter(appelOuvert).length;
     });
     // --- fin kerostig ---
 

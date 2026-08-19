@@ -1,4 +1,8 @@
-{% set dueDate = call.dates | selectattr("is_full_paper_submission_deadline") | first if call.dates %}
+{# echeancePrincipale, pas selectattr | first : le filtre retient la plus
+   tardive des dates flaguees, seule regle partagee avec le compteur serveur
+   (compterAppelsActifs) et avec scrapers/echeance.mjs. data-duedate est lu
+   ensuite par is_closed() cote client, les deux doivent designer la meme date. #}
+{% set dueDate = call.dates | echeancePrincipale %}
 {% set revue = journals | revueDeLAppel(call) %}
 {# Aucun | safe dans cette carte : tout ce qui suit est du texte scrape rendu
    dans un attribut ou dans le corps de la page, il doit etre echappe. Le piege
