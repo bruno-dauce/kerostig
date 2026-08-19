@@ -4,7 +4,7 @@
         <title>kerostig | Tag : audit</title>
         <link>https://kerostig.org/tag/audit</link>
         <description>Derniers appels à publications avec le tag 'audit'.</description>
-        <lastBuildDate>Tue, 18 Aug 2026 16:07:23 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Aug 2026 03:20:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,29 @@
             <link>https://kerostig.org/tag/audit</link>
         </image>
         <copyright>kerostig © 2026</copyright>
+        <item>
+            <title><![CDATA[Pratiques Contemporaines de l'Audit]]></title>
+            <link>https://kerostig.org/call/afc-appel-a-communication-conference-ccaaac-6-fevrier-2026-concordia-montreal</link>
+            <guid>afc-appel-a-communication-conference-ccaaac-6-fevrier-2026-concordia-montreal</guid>
+            <pubDate>Wed, 12 Aug 2026 21:57:58 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    <p>La 5e conférence de la revue CCA se tiendra à Concordia (Montréal) le 6 février 2026.</p>
+    
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 1, 2025: Date limite de soumission</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Comptabilité - Contrôle - Audit (AFC)</author>
+        </item>
         <item>
             <title><![CDATA[Registered Report Proposals]]></title>
             <link>https://kerostig.org/call/informs-call-for-registered-report-proposals</link>

@@ -5454,7 +5454,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T21:57:58.158Z"
+    "pubDate": "2026-08-12T21:57:58.158Z",
+    "gracePeriod": "2026-09-18T03:20:09.044Z"
   },
   {
     "journal": "Relations industrielles",
@@ -5939,8 +5940,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-17T03:15:48.759Z"
+    "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -6032,8 +6032,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-17T03:15:48.759Z"
+    "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -6112,8 +6111,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-17T03:15:48.759Z"
+    "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
     "journal": "M@n@gement",
@@ -18876,16 +18874,16 @@
     "url": "https://think.taylorandfrancis.com/special_issues/ejis-digital-visibility/",
     "title": "Digital Visibility: Design, Management, & Impacts",
     "slug": "tandf-digital-visibility-design-management-and-impacts-incl-paper-development-workshop",
-    "contentHash": "d5a6ab87009a832ecda3badeb03d552bc22effd1d19fe8652c25a6a344dea44f",
+    "contentHash": "9949e036afb6d71c55aa89560db83d94a71aaa7a33e65f21f1e10d31a8546021",
     "topics": [
       "Technologies and Infrastructures of Visibility: How new technologies (e.g., blockchains, algorithmic social media feeds, and AI-generated content) selectively produce visibility and concealment; The architecture and construction of data and compute infrastructures that shape digital visibility; The development of systems for trust, such as through blockchain and automatically enforced transactions, and its role in enabling cooperation without central authority.",
       "Non-Human Agents and Automated Systems: The design and deployment of non-human agents (e.g., bots, digital twins, or avatars) as participants in constructing visibility, including visibility constructed by non-humans for non-humans; The role of automated systems in mediating what becomes visible or invisible.",
       "Data Practices and Visibility Construction: Inquiries into data practices and the systems that influence what data is captured, included, or omitted in various artifacts, such as summaries or analyses produced by generative AI technologies; How design choices in data collection, storage, and analysis shape what becomes visible and invisible; The politics of data inclusion and exclusion.",
       "Decision Support and Critical Systems: The design of systems that mediate critical decisions in domains like healthcare, security, engineering, and hiring, and how they influence what is visible to human observers and experts; How visibility design in decision support systems shapes organizational outcomes and stakeholder experiences; Design considerations for balancing visibility and opacity in high-stakes decision-making contexts.",
-      "Experiences and Social Dynamics of Digital (In)visibility: Experiences of digital (in)visibility and the effort required for visibility work (e.g., keeping a topic on the agenda); Experiences, construction and resistance to siloed experiences of digital (in)visibility (e.g. isolation, filter bubbles, and hyper-personalization); The trade-offs of being digitally present or absent; Interactions with non-human representations (e.g., digital twins, proxies, avatars) and dematerialization of experience and social connection; Theorizing actor experiences of digital visibility compared to foundational social theories (e.g., the simulacra, expression games, symbolic interactionism); Temporal and spatial shaping of digital visibility, including how visibility emerges, fades, shifts, or reappears.",
-      "Strategy, Power, and Digital Identity Management: How actors strategically manage visibility, including engaging in dancing for algorithms, and the emergence of digital visibility games; Controlling digital identity assets and who can see and capture value from them, which is crucial for technical, legal, economic, and organizational leadership; Power dynamics associated with being (in)visible and em(de)powered; Digital visibility as a transformational factor of open strategy; The governance of infrastructures and apparatus of visibility.",
-      "Non-Human Governance and Political Economies: Network-based approaches to understanding visibility and organizational structures; The role of non-human governance of humans and bots, including the shift from algorithmic to agentic management, games of attention and concealment, and backstage non-human politics (e.g. AI organizing to elude human oversight); Digital visibility in blockchain.",
-      "Trust, Truth, and Security: Security and privacy safeguards in digitally visible environments; Trust and truth in what is made digitally visible (e.g., through verification and watermarks; tools to differentiate between the digital and the real in the age of synthetic and algorithmic visibility).",
+      "Experiences and Social Dynamics of Digital (In)visibility: Experiences of digital (in)visibility and the effort required for 'visibility work' (e.g., keeping a topic on the agenda); Experiences, construction and resistance to siloed experiences of digital (in)visibility (e.g. isolation, filter bubbles, and hyper-personalization); The trade-offs of being digitally present or absent; Interactions with non-human representations (e.g., digital twins, proxies, avatars) and dematerialization of experience and social connection; Theorizing actor experiences of digital visibility compared to foundational social theories (e.g., the simulacra, expression games, symbolic interactionism); Temporal and spatial shaping of digital visibility, including how visibility emerges, fades, shifts, or reappears.",
+      "Strategy, Power, and Digital Identity Management: How actors strategically manage visibility, including engaging in 'dancing' for algorithms, and the emergence of 'digital visibility games'; Controlling digital identity assets and who can see and capture value from them, which is crucial for technical, legal, economic, and organizational leadership; Power dynamics associated with being (in)visible and em(de)powered; Digital visibility as a transformational factor of open strategy; The governance of infrastructures and apparatus of visibility.",
+      "Non-Human Governance and Political Economies: Network-based approaches to understanding visibility and organizational structures; The role of non-human governance of humans and bots, including the shift from algorithmic to agentic management, games of attention and concealment, and 'backstage' non-human politics (e.g. AI organizing to elude human oversight); Digital visibility in blockchain.",
+      "Trust, Truth, and Security: Security and privacy safeguards in digitally visible environments; Trust and truth in what is made digitally visible (e.g., through verification and watermarks; tools to differentiate between the digital and the 'real' in the age of synthetic and algorithmic visibility).",
       "Individual and Societal Impacts: Impacts of digital visibility on individual well-being, identity formation, and autonomy; How digital visibility systems reshape social relations and community formation; The distributional consequences of visibility systems; Effects on democracy, public discourse, civil liberties, and human rights; Cross-cultural and contextual variations of digital visibility.",
       "Organizational and Workplace Consequences: Long-term organizational impacts of digital visibility on trust, autonomy, and innovation; The transformation of work practices, performance evaluation, and managerial control; How digital visibility affects organizational learning, knowledge sharing, and collaborative dynamics; Unintended consequences and hidden costs of visibility systems, including surveillance fatigue, performative behaviors, privacy costs, and resistance strategies.",
       "Ethical & Governance Consequences: Ethical dilemmas and moral consequences of digital visibility systems; Accountability mechanisms and governance addressing negative consequences of visibility systems; The role of different stakeholders (platforms, regulators, civil society, users) in shaping responses to visibility-related harms; Historical trajectories and future scenarios for the evolution of digital visibility and its consequences; New forms of organizing with digital (in)visibility in the center; Conceptualizations and typologies of digital visibility and invisibility."
@@ -18893,23 +18891,21 @@
     "description": {
       "paragraphs": [
         "Digital visibility - the practice of making oneself or others visible through digital technologies - has become a defining condition of modern society, though it remains theoretically fragmented. Across organizations, platforms, and communities, algorithmic systems, digital and data infrastructures increasingly shape how individuals and collectives become visible, valued, and heard or alternatively are rendered invisible, precarious, and excluded. This creates ongoing reconfiguration to the conditions under which actors coordinate, communicate and collaborate.",
-        "A shift is underway where visibility is no longer a secondary organizational feature or a byproduct of digitalization but a primary mechanism through which strategy, performance, power, identity, and modes of organizing and collaboration are constructed. Digital technologies produce new forms of visibility by identifying patterns in human behavior to inform managerial action and decision-making. Digitally informed visibility shapes identity and recognition, redefines actor expertise and legitimacy, and determines who becomes empowered. In digital work environments, visibility becomes both a resource and a burden, generating pressure and fear of exclusion. In response, actors engage in visibility games - individual and collective strategies aimed at managing digital presence, algorithmic performance, and evaluative signals.",
-        "Control over digital identity assets and over who can see, circulate, and capture value is becoming a central concern of technical, legal, economic, and organizational leadership in the twenty-first century and defines who participates, and under what conditions. AI combined with digital visibility enables decentralized autonomous organizations (DAOs), where records and tracing from blockchain smart contracts reshape how trust and reciprocity can be granted to strangers.",
-        "These developments challenge longstanding assumptions that visibility is a desirable feature of how we organize and collaborate, as often emphasized in the literatures on open-source software, wikis, and open innovation. Automated tools increasingly shape visibility by highlighting valuable contributions, flagging problematic behavior, or recommending collaborators, thereby creating new hierarchies of visibility. Digital visibility filters community activity, enabling new ways to balance transparency and opacity. The rise of bots further complicates these dynamics, as automated agents can shape human visibility and even evade human oversight.",
-        "Where visibility and transparency were once predominantly viewed as virtuous organizing principles enabling accountability and widespread participation, the contemporary landscape reveals a far more contested picture. The rise of surveillance capitalism demonstrates how platforms weaponize visibility to extract behavioral surplus from consumers and gig workers. The spread of digital authoritarianism reveals how state actors leverage visibility infrastructures to monitor and punish dissent, forcing actors to actively manage digital invisibility as a matter of safety and survival. In these contexts, increased visibility is not necessarily a benevolent condition but a potential instrument of control and extraction. This raises key questions: whose visibility serves whose interests, under what conditions digital visibility becomes beneficial or harmful, and which factors and processes shape who sees and who is seen.",
-        "While digital visibility dramatically transforms all aspects of modern organizations, theories for understanding such changes systematically are lagging. Established theoretical frameworks were largely developed for bounded, human-mediated and non-digital visibility and require re-thinking to grasp contemporary forms of visibility that are algorithmic, synthetic, and infrastructural in nature. There is an urgent need for new conceptual frameworks, research agendas and empirical insights that can account for how digital visibility can be understood, designed, analyzed, and leveraged in modern organizing.",
+        "We are witnessing a shift where visibility is no longer a secondary organizational feature or a byproduct of digitalization but a primary mechanism through which strategy, performance, power, identity, and modes of organizing and collaboration are constructed. Digital technologies produce new forms of visibility by identifying patterns in human behavior to inform managerial action and decision-making. For example, digitally informed visibility shapes identity and recognition, redefines actor expertise and legitimacy and who becomes empowered. In digital work environments, visibility becomes both a resource and a burden, generating pressure and fear of exile. In response, actors engage in visibility games - individual and collective strategies aimed at managing digital presence, algorithmic performance, and evaluative signals. Under such conditions, control over digital identity assets and over who can see, circulate, and capture value is becoming a central concern of technical, legal, economic, and organizational leadership in the twenty-first century and defines who participates, and under what conditions. AI combined with digital visibility enables decentralized autonomous organizations (DAOs), where records and tracing from blockchain smart contracts reshapes how trust and reciprocity can be granted to strangers.",
+        "These developments challenge longstanding assumptions that visibility is a desirable feature of how we organize and collaborate, as often emphasized in the literatures on open-source software, wikis, and open innovation. Automated tools increasingly shape visibility by highlighting valuable contributions, flagging problematic behavior, or recommending collaborators, thereby creating new hierarchies of visibility. At the same time, digital visibility filters community activity, enabling new ways to balance transparency and opacity. The rise of bots further complicates these dynamics, as automated agents can shape human visibility and even evade human oversight.",
+        "Where visibility and transparency were once predominantly viewed as virtuous organizing principles (i.e., through enabling accountability and widespread participation), the contemporary landscape reveals a far more contested picture. The rise of surveillance capitalism demonstrates how platforms weaponize visibility to extract behavioral surplus from consumers and gig workers. Similarly, the spread of digital authoritarianism reveals how state actors leverage visibility infrastructures to monitor and punish dissent, forcing them to actively manage digital invisibility as a matter of safety and survival. In these contexts, increased visibility is not necessarily a benevolent condition but a potential instrument of control and extraction. This raises key questions: whose visibility serves whose interests, under what conditions digital visibility becomes beneficial or harmful, and which factors and processes shape who sees and who is seen.",
+        "While digital visibility dramatically transforms all aspects of modern organizations, our theories for understanding such changes systematically are lagging. Established theoretical frameworks were largely developed for bounded, human-mediated and non-digital visibility and require re-thinking to grasp contemporary forms of visibility that are algorithmic, synthetic, and infrastructural in nature. There is an urgent need for new conceptual frameworks, research agendas and empirical insights that can account for how digital visibility can be understood, designed, analyzed, and leveraged in modern organizing.",
         "This Special Issue focuses on the implications of digital visibility and invisibility and how they are altering the nature, scope, and stakes involved in organizing and managing the activities of human and non-human agents. By bringing together research on design, infrastructures, work, organizing, technology, power, agency, decision-making, and data, this Special Issue seeks to advance a coherent and timely research agenda on digital visibility and its implications for the present and future of organizing.",
-        "This Special Issue adopts an intentionally broad and inclusive scope, welcoming contributions not only from the Information Systems field but also from related disciplines such as organization studies, the sociology of technology, science and technology studies, strategy, accounting and control, and adjacent fields concerned with digital, algorithmic, and data-driven forms of organizing. Submissions may address topics such as social media, platforms, data and analytics, system design and development, digital innovation, governance, and emerging digital infrastructures.",
-        "A wide range of methodological approaches are invited, including empirical and conceptual work, theory-building and philosophical contributions, qualitative, quantitative, computational, simulation, econometric, critical, and design science research, as well as opinion and commentary pieces, and methodological innovations that develop new ways of studying digital visibility."
+        "This Special Issue adopts an intentionally broad and inclusive scope, welcoming contributions not only from the Information Systems field but also from related disciplines such as organization studies, the sociology of technology, science and technology studies, strategy, accounting and control, and adjacent fields concerned with digital, algorithmic, and data-driven forms of organizing. Submissions may address, but are not limited to, topics such as social media, platforms, data and analytics, system design and development, digital innovation, governance, and emerging digital infrastructures.",
+        "We invite a wide range of methodological approaches, including empirical and conceptual work, theory-building and philosophical contributions, qualitative, quantitative, computational, simulation, econometric, critical, and design science research, as well as opinion and commentary pieces, and methodological innovations that develop new ways of studying digital visibility.",
+        "This year's Paper Development Workshop (PDW) will be held fully online. We made this change to widen participation and simplify logistics for authors joining from around the world. Submission to the EJIS Special Issue is open to all authors regardless of participation in the PDW. Authors may optionally submit a short abstract (up to 1,000 words) ahead of the workshop. Each submission will receive brief, personalized feedback from the editorial team, highlighting the strengths of the submission and aspects that need further development, rather than a detailed review. Authors invited to proceed will then prepare a five-page abstract for discussion at the online PDW."
       ]
     },
     "tags": [
       "digital visibility",
-      "algorithms",
-      "organizational visibility",
-      "digital infrastructure",
-      "platforms",
-      "surveillance"
+      "algorithmic systems",
+      "organizational design",
+      "digital transformation"
     ],
     "editors": [
       {
@@ -19029,59 +19025,9 @@
     ],
     "dates": [
       {
-        "date": "2026-09-07T10:00:00.000Z",
-        "description": "Optional abstract submission due",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-10-05T10:00:00.000Z",
-        "description": "Feedback on abstracts (via email)",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-12-01T11:00:00.000Z",
-        "description": "Invited five-page abstract due",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-12-09T11:00:00.000Z",
-        "description": "Online Paper Development Workshop",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-03-31T10:00:00.000Z",
+        "date": "2027-03-31T12:00:00.000Z",
         "description": "First-round submissions to the journal due",
         "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2027-06-30T10:00:00.000Z",
-        "description": "First-round decisions expected",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-07-30T10:00:00.000Z",
-        "description": "Revision Plan Meeting with SI Editors (optional)",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-09-30T10:00:00.000Z",
-        "description": "Second-round revisions due",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-11-30T11:00:00.000Z",
-        "description": "Second-round decisions expected",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2028-02-28T11:00:00.000Z",
-        "description": "Third and final revisions submissions due",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2028-04-30T10:00:00.000Z",
-        "description": "Final decisions expected",
-        "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
@@ -22769,85 +22715,6 @@
     "pubDate": "2026-08-11T00:55:16.972Z"
   },
   {
-    "journal": "Knowledge Management Research & Practice",
-    "abbreviation": "tandf",
-    "issn": "1477-8246",
-    "metaTitle": "Intelligent Knowledge Management Systems: Integrating Human and AI Cognition for Organizational Innovation",
-    "url": "https://think.taylorandfrancis.com/special_issues/intelligent-knowledge-management-systems/",
-    "title": "Intelligent Knowledge Management Systems: Integrating Human and AI Cognition for Organizational Innovation",
-    "slug": "tandf-intelligent-knowledge-management-systems-integrating-human-and-ai-cognition-for-organizational-innovation",
-    "contentHash": "aed2ab1e8d98dd79a5826d34bdd5b0d978384e3f06ed65c167c7b79cbc4f2b36",
-    "topics": [
-      "The design of intelligent knowledge systems integrating AI technologies and human cognitive capacities",
-      "Reimagining knowledge management (KM) practices to align with ESG commitments and sustainable development goals (SDGs)",
-      "Human-AI collaboration models to augment human expertise in knowledge work",
-      "The transformative impact of generative AI and large language models (LLMs) on knowledge processes",
-      "Integrating Human cognitive systems with AI-enabled technologies",
-      "Human-based emotional knowledge and AI-based rational knowledge",
-      "Challenges in Managing Tacit and Explicit Knowledge in AI-Enhanced Knowledge Management Environments",
-      "Development of transformative leadership competencies for navigating digital complexity and fostering sustainable innovation",
-      "Strategic knowledge intelligence approaches for building resilience, responsible innovation, and adaptive capabilities",
-      "Democratization of knowledge access and support for inclusive value co-creation through intelligent knowledge systems",
-      "Risks and challenges of automated knowledge production and ensuring the sustainability of AI-generated knowledge",
-      "Governance models and policy frameworks to guide the ethical evolution of intelligent knowledge systems"
-    ],
-    "description": {
-      "paragraphs": [
-        "The intersection of Knowledge Management (KM) and Artificial Intelligence (AI) is rapidly transforming how organizations create, share, and apply knowledge to pursue sustainability. In this context, 'intelligent knowledge' refers to the management of knowledge systems that dynamically combine human cognitive capacities with advanced AI-driven tools and models to facilitate ethical, inclusive, and purpose-driven innovation. This Special Issue examines how intelligent knowledge management systems can enhance organizations' innovation capacity and align their efforts with environmental, social, and governance (ESG) commitments and the Sustainable Development Goals (SDGs).",
-        "The convergence of Knowledge Management (KM) and Artificial Intelligence (AI) is increasingly recognized as a pivotal driver for advancing organizational sustainability in the digital era. In today's complex business landscape, organizations face challenges in developing intelligent knowledge systems—AI-augmented frameworks designed to support sustainable decision-making, foster innovation, and ensure strategic alignment with long-term value creation goals. The emergence of generative AI and large language models (LLMs) is transforming knowledge processes, enabling organizations to dynamically retrieve, synthesize, and apply knowledge to address complex sustainability challenges.",
-        "While traditional Knowledge Management (KM) has primarily focused on the systematic processes of creating, storing, sharing, and applying knowledge, the integration of Artificial Intelligence (AI) introduces new dimensions of computational intelligence that enhance and, in some cases, automate these foundational functions. AI-driven technologies are increasingly supporting knowledge-based decision-making, thereby fostering the emergence of intelligent knowledge systems that can reason, learn, and act based on context-aware insights to promote sustainable and purpose-driven outcomes. Within KM theory, the enduring distinction between tacit and explicit knowledge remains highly relevant: while AI excels in processing and managing explicit knowledge, the challenge of capturing and leveraging tacit knowledge persists, particularly in enabling meaningful and ethical human-AI collaboration. Recent studies emphasize that AI should be viewed as augmenting, rather than replacing, human expertise in sustainability-oriented knowledge work, thereby reaffirming the centrality of co-creation within contemporary knowledge management frameworks.",
-        "The evolution of KM in the AI era thus calls for new conceptual models and dynamic strategies that can support knowledge environments aligned with long-term sustainability objectives. As organizations strive to integrate human and AI cognition into their knowledge systems, the ability to flexibly interact with and adapt through AI-generated insights becomes a defining capability for intelligent knowledge management. The impact of AI on organizational learning and strategic knowledge flows must be critically assessed from a sustainability perspective, recognizing that AI technologies can either enhance or threaten knowledge-based resilience and responsible innovation. Generative AI and machine learning models are reshaping the landscape of KM, revolutionizing how organizations capture, synthesize, and apply knowledge to create sustainable value.",
-        "While large language models (LLMs) and AI-driven knowledge repositories significantly increase the speed and scope of knowledge retrieval and decision support, they also introduce critical risks related to epistemic validity, algorithmic bias, and the sustainability of automated knowledge production. These challenges are especially acute when AI-generated knowledge informs decisions with significant social or environmental implications, where the accuracy, contextual sensitivity, and ethical integrity of outputs are vital for maintaining organizational trust, legitimacy, and long-term innovation capacity.",
-        "This Special Issue aims to foster a deeper understanding of how intelligent knowledge systems, powered by the integration of AI technologies, human cognition, and contemporary KM practices, are transforming the pursuit of sustainability, innovation, and responsible governance within organizations. We invite contributions that critically explore how human-AI collaboration can be harnessed to develop resilient, ethical, and sustainability-oriented knowledge ecosystems. Beyond conceptual and theoretical contributions, we particularly encourage empirical studies that provide evidence-based insights into how intelligent knowledge processes enhance sustainability performance, strengthen ESG strategies, and promote adaptive, long-term value creation. Given the transformative impact of AI on knowledge flows and strategic decision-making, special attention will be devoted to research that examines the capabilities, limitations, and practical applications of AI-enabled knowledge systems, including generative AI tools and large language models (LLMs), in advancing sustainable organizational practices."
-      ]
-    },
-    "tags": [
-      "knowledge management",
-      "artificial intelligence",
-      "sustainability",
-      "organizational innovation",
-      "generative ai"
-    ],
-    "editors": [
-      {
-        "name": "Giovanni Schiuma",
-        "affiliation": "Università LUM"
-      },
-      {
-        "name": "Péter Baranyi",
-        "affiliation": "Corvinus University"
-      },
-      {
-        "name": "Francesco Santarsiero",
-        "affiliation": "Università della Basilicata"
-      },
-      {
-        "name": "Dagmara Lewicka",
-        "affiliation": "AGH University of Science and Technology"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-01-15T11:00:00.000Z",
-        "description": "Submissions open",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-06-01T10:00:00.000Z",
-        "description": "Review process on a rolling basis",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-08-16T10:00:00.000Z",
-        "description": "Manuscript submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
-  },
-  {
     "journal": "International Journal of Production Research",
     "abbreviation": "tandf",
     "issn": "1366-588X",
@@ -23360,6 +23227,86 @@
     ],
     "active": true,
     "pubDate": "2026-08-11T00:55:16.972Z"
+  },
+  {
+    "journal": "Knowledge Management Research & Practice",
+    "abbreviation": "tandf",
+    "issn": "1477-8246",
+    "metaTitle": "Intelligent Knowledge Management Systems: Integrating Human and AI Cognition for Organizational Innovation",
+    "url": "https://think.taylorandfrancis.com/special_issues/intelligent-knowledge-management-systems/",
+    "title": "Intelligent Knowledge Management Systems: Integrating Human and AI Cognition for Organizational Innovation",
+    "slug": "tandf-intelligent-knowledge-management-systems-integrating-human-and-ai-cognition-for-organizational-innovation",
+    "contentHash": "aed2ab1e8d98dd79a5826d34bdd5b0d978384e3f06ed65c167c7b79cbc4f2b36",
+    "topics": [
+      "The design of intelligent knowledge systems integrating AI technologies and human cognitive capacities",
+      "Reimagining knowledge management (KM) practices to align with ESG commitments and sustainable development goals (SDGs)",
+      "Human-AI collaboration models to augment human expertise in knowledge work",
+      "The transformative impact of generative AI and large language models (LLMs) on knowledge processes",
+      "Integrating Human cognitive systems with AI-enabled technologies",
+      "Human-based emotional knowledge and AI-based rational knowledge",
+      "Challenges in Managing Tacit and Explicit Knowledge in AI-Enhanced Knowledge Management Environments",
+      "Development of transformative leadership competencies for navigating digital complexity and fostering sustainable innovation",
+      "Strategic knowledge intelligence approaches for building resilience, responsible innovation, and adaptive capabilities",
+      "Democratization of knowledge access and support for inclusive value co-creation through intelligent knowledge systems",
+      "Risks and challenges of automated knowledge production and ensuring the sustainability of AI-generated knowledge",
+      "Governance models and policy frameworks to guide the ethical evolution of intelligent knowledge systems"
+    ],
+    "description": {
+      "paragraphs": [
+        "The intersection of Knowledge Management (KM) and Artificial Intelligence (AI) is rapidly transforming how organizations create, share, and apply knowledge to pursue sustainability. In this context, 'intelligent knowledge' refers to the management of knowledge systems that dynamically combine human cognitive capacities with advanced AI-driven tools and models to facilitate ethical, inclusive, and purpose-driven innovation. This Special Issue examines how intelligent knowledge management systems can enhance organizations' innovation capacity and align their efforts with environmental, social, and governance (ESG) commitments and the Sustainable Development Goals (SDGs).",
+        "The convergence of Knowledge Management (KM) and Artificial Intelligence (AI) is increasingly recognized as a pivotal driver for advancing organizational sustainability in the digital era. In today's complex business landscape, organizations face challenges in developing intelligent knowledge systems—AI-augmented frameworks designed to support sustainable decision-making, foster innovation, and ensure strategic alignment with long-term value creation goals. The emergence of generative AI and large language models (LLMs) is transforming knowledge processes, enabling organizations to dynamically retrieve, synthesize, and apply knowledge to address complex sustainability challenges.",
+        "While traditional Knowledge Management (KM) has primarily focused on the systematic processes of creating, storing, sharing, and applying knowledge, the integration of Artificial Intelligence (AI) introduces new dimensions of computational intelligence that enhance and, in some cases, automate these foundational functions. AI-driven technologies are increasingly supporting knowledge-based decision-making, thereby fostering the emergence of intelligent knowledge systems that can reason, learn, and act based on context-aware insights to promote sustainable and purpose-driven outcomes. Within KM theory, the enduring distinction between tacit and explicit knowledge remains highly relevant: while AI excels in processing and managing explicit knowledge, the challenge of capturing and leveraging tacit knowledge persists, particularly in enabling meaningful and ethical human-AI collaboration. Recent studies emphasize that AI should be viewed as augmenting, rather than replacing, human expertise in sustainability-oriented knowledge work, thereby reaffirming the centrality of co-creation within contemporary knowledge management frameworks.",
+        "The evolution of KM in the AI era thus calls for new conceptual models and dynamic strategies that can support knowledge environments aligned with long-term sustainability objectives. As organizations strive to integrate human and AI cognition into their knowledge systems, the ability to flexibly interact with and adapt through AI-generated insights becomes a defining capability for intelligent knowledge management. The impact of AI on organizational learning and strategic knowledge flows must be critically assessed from a sustainability perspective, recognizing that AI technologies can either enhance or threaten knowledge-based resilience and responsible innovation. Generative AI and machine learning models are reshaping the landscape of KM, revolutionizing how organizations capture, synthesize, and apply knowledge to create sustainable value.",
+        "While large language models (LLMs) and AI-driven knowledge repositories significantly increase the speed and scope of knowledge retrieval and decision support, they also introduce critical risks related to epistemic validity, algorithmic bias, and the sustainability of automated knowledge production. These challenges are especially acute when AI-generated knowledge informs decisions with significant social or environmental implications, where the accuracy, contextual sensitivity, and ethical integrity of outputs are vital for maintaining organizational trust, legitimacy, and long-term innovation capacity.",
+        "This Special Issue aims to foster a deeper understanding of how intelligent knowledge systems, powered by the integration of AI technologies, human cognition, and contemporary KM practices, are transforming the pursuit of sustainability, innovation, and responsible governance within organizations. We invite contributions that critically explore how human-AI collaboration can be harnessed to develop resilient, ethical, and sustainability-oriented knowledge ecosystems. Beyond conceptual and theoretical contributions, we particularly encourage empirical studies that provide evidence-based insights into how intelligent knowledge processes enhance sustainability performance, strengthen ESG strategies, and promote adaptive, long-term value creation. Given the transformative impact of AI on knowledge flows and strategic decision-making, special attention will be devoted to research that examines the capabilities, limitations, and practical applications of AI-enabled knowledge systems, including generative AI tools and large language models (LLMs), in advancing sustainable organizational practices."
+      ]
+    },
+    "tags": [
+      "knowledge management",
+      "artificial intelligence",
+      "sustainability",
+      "organizational innovation",
+      "generative ai"
+    ],
+    "editors": [
+      {
+        "name": "Giovanni Schiuma",
+        "affiliation": "Università LUM"
+      },
+      {
+        "name": "Péter Baranyi",
+        "affiliation": "Corvinus University"
+      },
+      {
+        "name": "Francesco Santarsiero",
+        "affiliation": "Università della Basilicata"
+      },
+      {
+        "name": "Dagmara Lewicka",
+        "affiliation": "AGH University of Science and Technology"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-01-15T11:00:00.000Z",
+        "description": "Submissions open",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-06-01T10:00:00.000Z",
+        "description": "Review process on a rolling basis",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-08-16T10:00:00.000Z",
+        "description": "Manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-09-18T03:20:09.044Z"
   },
   {
     "journal": "Behaviour & Information Technology",
