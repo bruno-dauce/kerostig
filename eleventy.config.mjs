@@ -1,8 +1,27 @@
-import { readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 
 import { DateTime } from "luxon";
 
 import { echeanceDepassee } from "./scrapers/echeance.mjs";
+
+// Flux RSS par tag reellement disponibles. Ces fichiers sont ecrits par
+// scrapers/feedgen.mjs dans www/tag/ et recopies en passthrough : le build ne
+// les genere pas et ne peut donc pas les supposer presents. Deux raisons de
+// verifier plutot que de supposer. D'abord feedgen slugifie avec le paquet
+// slugify quand le permalink des pages tag passe par le filtre slug d'Eleventy,
+// et les deux ne s'accordent pas partout ("ms/or" -> msor contre ms-or,
+// "cross-border m&a" -> cross-border-manda contre cross-border-m-and-a,
+// "industry 4.0" -> industry-40 contre industry-4-0). Ensuite www/tag/ date du
+// dernier passage du scraper, pas du build en cours : un tag apparu depuis n'a
+// pas encore de flux. Dans les deux cas l'icone RSS menait a un 404.
+const dossierFluxTags = new URL("./www/tag/", import.meta.url);
+const fluxTagsDisponibles = new Set(
+    existsSync(dossierFluxTags)
+        ? readdirSync(dossierFluxTags)
+            .filter((f) => f.endsWith(".xml"))
+            .map((f) => f.slice(0, -".xml".length))
+        : []
+);
 
 // Les 17 disciplines du classement FNEGE. Table editoriale : elle porte le nom
 // d'affichage et le slug de la route /discipline/, que journals.json ne fournit
@@ -457,6 +476,8 @@ export default async function (eleventyConfig) {
         return calls.filter(appelOuvert).length;
     });
     // --- fin kerostig ---
+
+    eleventyConfig.addFilter("fluxTagExiste", (slugTag) => fluxTagsDisponibles.has(slugTag));
 
     eleventyConfig.addFilter("urlEncode", function (str) {
         return encodeURIComponent(str);
