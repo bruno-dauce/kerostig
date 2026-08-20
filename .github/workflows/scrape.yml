@@ -14,8 +14,18 @@ jobs:
       contents: write
     steps:
       - name: Checkout this repository
-        uses: actions/checkout@v4
-      - run: npm ci
+        # Action epinglee au SHA du tag v4 : un tag git est mutable, un SHA
+        # non. Si le depot actions/checkout etait compromis et le tag v4
+        # redeplace, ce job continuerait a executer le code verifie.
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      # --ignore-scripts neutralise les hooks preinstall/postinstall des
+      # dependances, vecteur principal des compromissions de la chaine npm
+      # (type Shai-Hulud). Aucun des paquets de l'arbre n'a de script
+      # d'installation, et les scrapers utilisent le Chrome preinstalle du
+      # runner (channel: "chrome" dans scrapers/browser.mjs) plutot qu'un
+      # navigateur telecharge par Playwright : rien ne depend de ces hooks.
+      # A revoir si une future dependance en exige un.
+      - run: npm ci --ignore-scripts
       # curl standard sous Linux expose un fingerprint TLS (OpenSSL)
       # detecte et bloque par Cloudflare sur certains editeurs (SAGE,
       # Wiley) alors que la meme requete passe en local sous Windows
@@ -36,9 +46,19 @@ jobs:
           VERSION=v2.1.0
           ASSET="curl-impersonate-${VERSION}.x86_64-linux-gnu.tar.gz"
           URL="https://github.com/lexiforest/curl-impersonate/releases/download/${VERSION}/${ASSET}"
+          # Condense releve via l'API GitHub (champ digest de l'asset, calcule
+          # cote serveur a l'upload) le 2026-08-20. Le job a les droits
+          # contents:write : on ne fait pas tourner un binaire non verifie
+          # dans un runner qui peut pousser sur le depot. Si l'archive change
+          # (release rejouee, depot amont compromis), la verification echoue,
+          # le PATH n'est pas modifie et les scrapers retombent sur curl
+          # standard via continue-on-error -- degrade, jamais compromis.
+          SHA256=f75fc543ba0e5a64765b18041e382ddd2f961cd7491e5642e67438551a01af2f
 
           echo "Telechargement de ${URL}"
           curl -sSL -o /tmp/curl-impersonate.tar.gz "$URL"
+
+          echo "${SHA256}  /tmp/curl-impersonate.tar.gz" | sha256sum -c -
 
           mkdir -p /tmp/curl-impersonate
           tar -xzf /tmp/curl-impersonate.tar.gz -C /tmp/curl-impersonate
