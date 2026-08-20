@@ -4,17 +4,52 @@ eleventyExcludeFromCollections: true
 ---
 Sitemap: {{ meta.url }}/sitemap.xml
 
+# Un robot n'obeit qu'a UN seul groupe : le plus specifique dont le nom
+# correspond au sien, sans jamais fusionner avec le groupe *. Les bots d'IA
+# nommes plus bas ne lisent donc pas le Disallow de ce groupe-ci et gardent
+# l'acces a /data/. Tout le reste, moteurs de recherche compris, suit ce
+# groupe : site entierement explorable, flux JSON excepte.
+#
+# Allow: / et Disallow: /data/ ne se contredisent pas -- a chemin concurrent,
+# c'est la regle la plus longue qui l'emporte, donc /data/ reste ferme.
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /data/
 
+# Bots d'IA autorises explicitement, /data/ compris. Un jeton par groupe :
+# chaque editeur en declare plusieurs, un par usage, et ils ne se deduisent pas
+# les uns des autres. Autoriser GPTBot ne dit rien de OAI-SearchBot.
+
+# OpenAI : entrainement, index de recherche ChatGPT, puis recuperation a la
+# demande quand un utilisateur fait suivre un lien.
 User-agent: GPTBot
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic : meme decoupage en trois usages.
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Perplexity : index de recherche, puis recuperation a la demande.
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: Perplexity-User
+Allow: /
+
+# Google-Extended n'explore rien : ce jeton dit seulement a Google s'il peut
+# utiliser le contenu deja indexe pour ses modeles. Sa presence ici vaut
+# autorisation, et ne retire pas Googlebot du groupe * ci-dessus.
 User-agent: Google-Extended
 Allow: /

@@ -475,6 +475,55 @@ export default async function (eleventyConfig) {
         if (!calls) return 0;
         return calls.filter(appelOuvert).length;
     });
+
+    // Flux public /data/open-calls.json. Volontairement pauvre : six champs qui
+    // identifient l'appel et menent a sa source, rien de plus. Aucune donnee
+    // enrichie de la revue n'y passe -- ni rang FNEGE, ni discipline, ni APC, ni
+    // politique d'auto-archivage, ni metriques OpenAlex. Le rang FNEGE surtout :
+    // un flux JSON de toutes les revues ouvertes avec leur rang serait la liste
+    // integrale telechargeable que le projet s'interdit de republier.
+    //
+    // Le critere est appelOuvert (tolerance zero), pas appelAffichable : les
+    // pages du site laissent entrer sept jours d'appels echus pour couvrir les
+    // fuseaux et les prolongations tardives, et le lecteur les voit barres. Un
+    // consommateur du flux, lui, n'a pas ce signal visuel -- un fichier nomme
+    // open-calls ne doit contenir que des appels ouverts au sens strict.
+    //
+    // Le montage se fait ici, en JavaScript, et non dans le gabarit : c'est la
+    // meme raison que pour les blocs JSON-LD plus haut. Un titre scrape contenant
+    // un guillemet ou un tableau vide suffit a produire du JSON invalide des que
+    // les virgules sont posees a la main.
+    eleventyConfig.addFilter("fluxAppelsOuverts", function (calls, journals) {
+        const appels = (calls || [])
+            .filter(appelOuvert)
+            .map((call) => {
+                const revue = trouverRevueDeLAppel(journals, call);
+                return {
+                    title: call.title || call.metaTitle || null,
+                    // Nom d'affichage de journals.json, jamais le texte brut
+                    // scrape ; call.journal ne sert que si la jointure echoue.
+                    journal: (revue && revue.titre) || call.journal || null,
+                    issn: call.issn || (revue && revue.issn_cle) || null,
+                    // null quand le modele n'a extrait aucune date de soumission :
+                    // valeur absente explicite, jamais une echeance deduite d'une
+                    // autre date de l'appel (notification, publication).
+                    deadline: echeanceSoumission(call.dates),
+                    url: call.url || null,
+                    slug: call.slug || null,
+                };
+            })
+            .sort((a, b) => {
+                // Echeance la plus proche d'abord, les appels sans date en fin
+                // de liste plutot que disperses au hasard (NaN).
+                const ta = Date.parse(a.deadline || "");
+                const tb = Date.parse(b.deadline || "");
+                const va = isNaN(ta) ? Infinity : ta;
+                const vb = isNaN(tb) ? Infinity : tb;
+                return va === vb ? 0 : va - vb;
+            });
+
+        return { generated: new Date().toISOString(), count: appels.length, calls: appels };
+    });
     // --- fin kerostig ---
 
     eleventyConfig.addFilter("fluxTagExiste", (slugTag) => fluxTagsDisponibles.has(slugTag));
