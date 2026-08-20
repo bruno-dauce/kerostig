@@ -2004,59 +2004,6 @@
     "journal": "Auditing A Journal of Practice & Theory",
     "abbreviation": "aaa",
     "issn": "1558-7991",
-    "metaTitle": "Mixed Method Papers - Auditing: A Journal of Practice & Theory (AJPT)",
-    "url": "https://aaahq.org/portals/0/documents/calls/2025/AJPT%20Mixed%20Method%20Papers.pdf",
-    "title": "Mixed Method Papers",
-    "slug": "aaa-mixed-method-papers-auditing-a-journal-of-practice-and-theory-ajpt",
-    "contentHash": "093a376da88af0cc64caac7e80fe203da1bfe3d909c3b8e64f34700e5e406d35",
-    "topics": [
-      "Studies using at least two different research methods (e.g., archival, analytical, experimental, interviews, surveys, other) to gain comprehensive answers to research questions",
-      "Research that blends and draws inferences from different methodological approaches",
-      "Studies giving relatively equal weighting to discussion of research design choices for each method",
-      "Analyses from each method making significant contributions to the paper"
-    ],
-    "description": {
-      "paragraphs": [
-        "In recent years, many researchers have begun broadening their methodological expertise and/or collaborating with researchers with different methodological expertise. In response, AJPT is issuing a Call for Mixed Methods Papers. The purpose of the Call is to provide a forum for research that blends and draws inferences from different methodological approaches.",
-        "Studies should use at least two different research methods to gain a more comprehensive answer to the research question(s) being investigated than can be achieved by a single method alone. Studies should give relatively equal weighting to a discussion of the research design choices for each method, and analyses from each method should make significant contributions to the paper. Papers that only present descriptive statistics from a survey or descriptive quotes from a few interviews that are then used to motivate archival analyses would not be considered mixed methods papers under this Call.",
-        "Studies using method(s) incorporating human participants must obtain Institutional Review Board (IRB) approval.",
-        "Papers will be published in a Special Section as they are accepted, coordinating the timing of acceptances and space availability in individual journal issues."
-      ]
-    },
-    "tags": [
-      "mixed methods research",
-      "auditing",
-      "research methodology"
-    ],
-    "editors": [
-      {
-        "name": "Matt Ege",
-        "affiliation": "Texas A&M University"
-      },
-      {
-        "name": "Kim Westermann",
-        "affiliation": "California Polytechnic University"
-      },
-      {
-        "name": "Mike Wilkins",
-        "affiliation": "University of Kansas"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-09-30T10:00:00.000Z",
-        "description": "Deadline for submissions",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-18T08:15:27.740Z"
-  },
-  {
-    "journal": "Auditing A Journal of Practice & Theory",
-    "abbreviation": "aaa",
-    "issn": "1558-7991",
     "metaTitle": "Methodological Papers - Auditing: A Journal of Practice & Theory (AJPT)",
     "url": "https://aaahq.org/portals/0/documents/calls/2025/AJPT%20Methodological%20Papers.pdf",
     "title": "Methodological Papers",
@@ -2090,6 +2037,59 @@
       {
         "name": "Quinn Swanquist",
         "affiliation": "University of Alabama"
+      },
+      {
+        "name": "Mike Wilkins",
+        "affiliation": "University of Kansas"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-30T10:00:00.000Z",
+        "description": "Deadline for submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T08:15:27.740Z"
+  },
+  {
+    "journal": "Auditing A Journal of Practice & Theory",
+    "abbreviation": "aaa",
+    "issn": "1558-7991",
+    "metaTitle": "Mixed Method Papers - Auditing: A Journal of Practice & Theory (AJPT)",
+    "url": "https://aaahq.org/portals/0/documents/calls/2025/AJPT%20Mixed%20Method%20Papers.pdf",
+    "title": "Mixed Method Papers",
+    "slug": "aaa-mixed-method-papers-auditing-a-journal-of-practice-and-theory-ajpt",
+    "contentHash": "093a376da88af0cc64caac7e80fe203da1bfe3d909c3b8e64f34700e5e406d35",
+    "topics": [
+      "Studies using at least two different research methods (e.g., archival, analytical, experimental, interviews, surveys, other) to gain comprehensive answers to research questions",
+      "Research that blends and draws inferences from different methodological approaches",
+      "Studies giving relatively equal weighting to discussion of research design choices for each method",
+      "Analyses from each method making significant contributions to the paper"
+    ],
+    "description": {
+      "paragraphs": [
+        "In recent years, many researchers have begun broadening their methodological expertise and/or collaborating with researchers with different methodological expertise. In response, AJPT is issuing a Call for Mixed Methods Papers. The purpose of the Call is to provide a forum for research that blends and draws inferences from different methodological approaches.",
+        "Studies should use at least two different research methods to gain a more comprehensive answer to the research question(s) being investigated than can be achieved by a single method alone. Studies should give relatively equal weighting to a discussion of the research design choices for each method, and analyses from each method should make significant contributions to the paper. Papers that only present descriptive statistics from a survey or descriptive quotes from a few interviews that are then used to motivate archival analyses would not be considered mixed methods papers under this Call.",
+        "Studies using method(s) incorporating human participants must obtain Institutional Review Board (IRB) approval.",
+        "Papers will be published in a Special Section as they are accepted, coordinating the timing of acceptances and space availability in individual journal issues."
+      ]
+    },
+    "tags": [
+      "mixed methods research",
+      "auditing",
+      "research methodology"
+    ],
+    "editors": [
+      {
+        "name": "Matt Ege",
+        "affiliation": "Texas A&M University"
+      },
+      {
+        "name": "Kim Westermann",
+        "affiliation": "California Polytechnic University"
       },
       {
         "name": "Mike Wilkins",
@@ -5940,7 +5940,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-19T03:17:33.291Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -6032,7 +6033,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-19T03:17:33.291Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -6111,7 +6113,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-19T03:17:33.291Z"
   },
   {
     "journal": "M@n@gement",
