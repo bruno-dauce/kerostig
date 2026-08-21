@@ -42,7 +42,7 @@ async function downloadFile(browser, url) {
     }
 }
 
-async function getContent(buffer, type) {
+export async function getContent(buffer, type) {
     if (type === 'pdf') {
         try {
             const uint8Array = new Uint8Array(buffer);

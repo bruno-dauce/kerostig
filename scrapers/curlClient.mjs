@@ -81,3 +81,48 @@ export async function curlGet(url, { cookieJarPath, userAgent }) {
     const status = parseInt(stdout.slice(markerIndex + marker.length).trim(), 10);
     return { status, body };
 }
+
+// Meme requete que curlGet, meme resolution de binaire, meme jar de
+// cookies -- seule la sortie change : body est un Buffer et non une
+// chaine. curlGet decode stdout en UTF-8, ce qui detruit un contenu
+// binaire : mesure sur un PDF SAGE de 261 888 octets, il en pese 468 035
+// apres decodage, chaque octet invalide ayant ete remplace par U+FFFD. Le
+// fichier est alors irrecuperable, pas seulement abime.
+//
+// Le bloc de resolution et de log est repris tel quel plutot que factorise
+// : le mutualiser demanderait de toucher a curlGet, qui fonctionne et
+// alimente deja Wiley et le hub SAGE. loggedBinary etant partage, le
+// binaire retenu n'est logue qu'une fois, quelle que soit la fonction
+// appelee en premier.
+export async function curlGetBuffer(url, { cookieJarPath, userAgent }) {
+    if (!resolvedBinaryPromise) resolvedBinaryPromise = resolveCurlBinary();
+    const binary = await resolvedBinaryPromise;
+
+    if (!loggedBinary) {
+        loggedBinary = true;
+        console.log(binary === 'curl'
+            ? `[curl] curl-impersonate non trouve sur ce systeme, repli sur curl standard`
+            : `[curl] Utilisation de ${binary} (curl-impersonate)`);
+    }
+
+    const args = ['-s', '-L', '-c', cookieJarPath, '-b', cookieJarPath];
+    if (binary === 'curl' && userAgent) {
+        args.push('-A', userAgent);
+    }
+
+    const marker = '\n__HTTP_STATUS__:';
+    const { stdout } = await execFileAsync(binary, [
+        ...args,
+        '-w', `${marker}%{http_code}`,
+        url,
+    ], { maxBuffer: 20 * 1024 * 1024, encoding: 'buffer' });
+
+    // lastIndexOf accepte une aiguille chaine sur un Buffer, et subarray
+    // decoupe sans copier. Ne pas ecrire slice ici : sur un Buffer c'est un
+    // alias herite de subarray, dont la ressemblance avec
+    // String.prototype.slice invite a la confusion.
+    const markerIndex = stdout.lastIndexOf(marker);
+    const body = stdout.subarray(0, markerIndex);
+    const status = parseInt(stdout.subarray(markerIndex + marker.length).toString().trim(), 10);
+    return { status, body };
+}

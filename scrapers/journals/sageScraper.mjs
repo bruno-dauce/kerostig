@@ -3,7 +3,8 @@ import { mkdtempSync, readFileSync } from 'fs';
 import path from 'path';
 import os from 'os';
 import { matchIssn } from '../issnMatcher.mjs';
-import { curlGet } from '../curlClient.mjs';
+import { curlGet, curlGetBuffer } from '../curlClient.mjs';
+import { getContent } from '../fileParser.mjs';
 
 // COLLECTE LOCALE UNIQUEMENT (decision v1, 2026-08-18).
 //
@@ -185,6 +186,19 @@ const JOURNAL_PAGES = JSON.parse(
 // Cloudflare apres quelques dizaines de requetes.
 const REQUEST_DELAY_MS = 1000;
 
+// 27 des 65 appels du passage du 2026-08-21 se reduisent, cote HTML, a un
+// titre et un lien vers un PDF. Le modele ne recevait alors rien
+// d'exploitable et rendait une fiche vide, parfois assortie d'une excuse
+// ("Unable to access the PDF document") ou d'une echeance devinee. Le PDF
+// porte tout le contenu : 5 pages et 18 220 caracteres pour l'appel "AI,
+// Business, and Epochal Change" de Business & Society.
+//
+// Recupere via curlGetBuffer et non via fileParser.parse : ce dernier
+// telecharge avec patchright, que journals.sagepub.com bloque (cf bandeau
+// en tete de fichier). curlGet ne convient pas davantage, il decode stdout
+// en UTF-8 et detruit le binaire.
+const PDF_URL_PATTERN = /\.pdf(\?|#|$)/i;
+
 export const scraperObject = {
     url: HUB_URL,
     abbreviation: 'sage',
@@ -231,6 +245,8 @@ export const scraperObject = {
         }
 
         let skippedCount = 0;
+        let pdfLus = 0;
+        let pdfEnEchec = 0;
         const calls = [];
         for (const entry of entriesByUrl.values()) {
             const issn = entry.issn ?? await matchIssn(entry.journal);
@@ -238,16 +254,34 @@ export const scraperObject = {
                 skippedCount++;
                 continue;
             }
+
+            // Repli explicite sur le HTML de l'encart quand le PDF n'est
+            // pas lisible : un appel au contenu maigre reste preferable a
+            // un appel absent du site.
+            let rawContent = entry.rawContent;
+            if (entry.url && PDF_URL_PATTERN.test(entry.url)) {
+                const texte = await get_pdf_text(entry.url);
+                if (texte) {
+                    rawContent = texte;
+                    pdfLus++;
+                } else {
+                    pdfEnEchec++;
+                }
+            }
+
             calls.push({
                 journal: entry.journal,
                 abbreviation,
                 issn,
                 metaTitle: entry.metaTitle,
                 url: entry.url,
-                rawContent: entry.rawContent,
+                rawContent,
             });
         }
         console.log(`[sage] ${skippedCount} appel(s) du hub ignore(s), revue hors perimetre FNEGE`);
+        if (pdfLus > 0 || pdfEnEchec > 0) {
+            console.log(`[sage] ${pdfLus} PDF lu(s), ${pdfEnEchec} repli(s) sur le HTML de l'encart`);
+        }
         console.log(`[sage] ${calls.length} appel(s) retenu(s)`);
 
         return calls;
@@ -306,6 +340,41 @@ async function get_marketing_spot_calls(code, journalName) {
     }
 
     return extract_spot_calls(response.body, url, journalName);
+}
+
+// Texte d'un appel dont le lien pointe vers un PDF, ou null si le PDF n'a
+// pas pu etre lu. Aucun echec ne remonte en exception : l'appelant retombe
+// sur le HTML de l'encart, comme chez aaaScraper.
+async function get_pdf_text(url) {
+    // Une requete de plus par appel PDF, au meme rythme que les pages
+    // revue : le hub et les 60 pages sont deja espaces, ces ~27 telechar-
+    // gements s'ajoutent au meme hote.
+    await sleep(REQUEST_DELAY_MS);
+
+    let response;
+    try {
+        response = await curlGetBuffer(url, { cookieJarPath: COOKIE_JAR_PATH, userAgent: USER_AGENT });
+    } catch (error) {
+        console.warn(`[sage] Erreur reseau (curl) sur le PDF ${url} : ${error.message}`);
+        return null;
+    }
+
+    if (response.status !== 200) {
+        console.warn(`[sage] Statut HTTP ${response.status} (attendu 200) sur le PDF ${url}`);
+        return null;
+    }
+
+    try {
+        const texte = await getContent(response.body, 'pdf');
+        if (!texte || texte.trim().length === 0) {
+            console.warn(`[sage] PDF vide ou illisible : ${url}`);
+            return null;
+        }
+        return texte;
+    } catch (error) {
+        console.warn(`[sage] Erreur d'extraction du PDF ${url} : ${error.message}`);
+        return null;
+    }
 }
 
 // Fonction pure (HTML -> appels), exportee pour pouvoir etre rejouee sur du
