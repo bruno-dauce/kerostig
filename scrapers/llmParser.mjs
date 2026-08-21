@@ -16,7 +16,7 @@ const Academic = z.object({
 const Date = z.object({
     date: z.string().describe("The date of the submission timeline event, exactly as written in the text. Never infer, complete or guess a date that is not written in the text provided."),
     description: z.string().describe("The description of the submission timeline event").nullable(),
-    is_full_paper_submission_deadline: z.boolean().describe("A flag that indicates whether the date is the full paper submission deadline. The most important date on a call for papers.").nullable(),
+    is_full_paper_submission_deadline: z.boolean().describe("A flag that indicates whether the date is the full paper submission deadline. The most important date on a call for papers. When submissions are expressed as a window or a range -- 'submissions open from September 1 to September 30, 2026', 'between August 1 and August 31, 2027' -- ONLY the closing bound of that range may be true. The opening bound must be false: opening a submission window is not a deadline.").nullable(),
 });
 
 const Description = z.object({
@@ -30,7 +30,7 @@ const Call = z.object({
     tags: z.string().array().describe("Tags that describe the content of the call for papers. Use as few tags as possible."),
     editors: Academic.array().describe("The editors of the special issue. This is a list of academics who are responsible for the special issue."),
     associate_editors: Academic.array().describe("The associate editors or editorial review board of the special issue. This is a list of academics who are assisting the editors with the special issue."),
-    dates: Date.array().describe("This is a list of important dates for the call for papers. Include ONLY dates that appear verbatim in the text provided. If the text announces no date at all, return an empty list -- an empty list is the correct answer, never a reason to supply a plausible date from memory or from the surrounding URLs."),
+    dates: Date.array().describe("This is a list of important dates for the call for papers. Include ONLY dates that appear verbatim in the text provided. If the text announces no date at all, return an empty list -- an empty list is the correct answer, never a reason to supply a plausible date from memory or from the surrounding URLs. When a submission window is expressed as a range, return BOTH bounds as two separate entries, each with its own description -- never collapse a range into a single date."),
 });
 
 async function parseFuzzyDate(fuzzyDate) {
@@ -77,23 +77,76 @@ function replierSurMetaTitle(call) {
 // une date de publication ou de mise en ligne, jamais l'echeance -- les
 // laisser suffirait a valider une date inventee (constate sur les appels
 // d'Entrepreneurship Theory and Practice).
-function millesimesCites(rawContent) {
-    const texte = rawContent
+//
+// Les espaces sont normalises en plus : le texte extrait d'un PDF par pdfjs
+// colle les fragments avec des espaces surnumeraires ("August 31 , 2027"),
+// ce qui empeche de retrouver la date telle que le modele l'a recopiee.
+// Sans effet sur la recherche de millesimes, qui ne travaille pas sur les
+// offsets.
+function texteNormalise(rawContent) {
+    return rawContent
         .replace(/\]\([^)]*\)/g, ']')
-        .replace(/https?:\/\/\S+/g, ' ');
-    return new Set(texte.match(/\b(?:19|20)\d{2}\b/g) ?? []);
+        .replace(/https?:\/\/\S+/g, ' ')
+        .replace(/\s+/g, ' ')
+        // pdfjs concatene les fragments de texte avec un espace, et coupe le
+        // millesime quand le PDF applique un crenage inhabituel : "June 30,
+        // 202 7" au lieu de "2027" (constate sur l'appel Theory Testing de
+        // Group & Organization Management). La regex de millesime ne
+        // reconnait alors plus l'annee, et une echeance legitime est
+        // ecartee. Les bornes de mot encadrent le motif pour ne pas mordre
+        // sur une suite de chiffres plus longue ("202 77" reste intact).
+        .replace(/\b(199|200|201|202) (\d)\b/g, '$1$2');
 }
 
-function ecarterDatesNonSourcees(dates, rawContent, titre) {
+function millesimesCites(rawContent) {
+    return new Set(texteNormalise(rawContent).match(/\b(?:19|20)\d{2}\b/g) ?? []);
+}
+
+// Largeur de la fenetre de recherche, de part et d'autre de la date telle
+// que le modele l'a recopiee. 120 caracteres couvrent une ligne de
+// calendrier entiere ("Submission window open from September 1 - September
+// 30, 2026") sans deborder sur le paragraphe suivant.
+const FENETRE_MILLESIME = 120;
+
+// true ou false : verdict de proximite. null : test impossible, parce que le
+// modele a reformate la date au lieu de la recopier, ou ne l'a pas fournie.
+// L'appelant retombe alors sur le test global.
+function millesimeProche(texte, dateSource, annees) {
+    if (!dateSource) return null;
+    const aiguille = String(dateSource).replace(/\s+/g, ' ').trim();
+    if (!aiguille) return null;
+    const index = texte.indexOf(aiguille);
+    if (index === -1) return null;
+    const fenetre = texte.slice(
+        Math.max(0, index - FENETRE_MILLESIME),
+        index + aiguille.length + FENETRE_MILLESIME,
+    );
+    return annees.some(annee => fenetre.includes(annee));
+}
+
+// Fonction pure, exportee pour pouvoir etre rejouee sur du texte reel sans
+// appel au modele (meme usage que extract_spot_calls chez sageScraper).
+export function ecarterDatesNonSourcees(dates, rawContent, titre) {
+    const texte = texteNormalise(rawContent);
     const millesimes = millesimesCites(rawContent);
     return dates.filter(date => {
         if (!date.date) return true; // date non interpretable, deja sans effet
         // Les deux millesimes, local et UTC : chrono date a midi les dates
         // sans heure, mais une eventuelle date a minuit un 1er janvier
         // basculerait d'une annee au passage en UTC.
-        const annee = String(date.date.getUTCFullYear());
-        if (millesimes.has(annee) || millesimes.has(String(date.date.getFullYear()))) return true;
-        console.warn(`[llm] "${titre}" : date ${date.date.toISOString().slice(0, 10)} ecartee, l'annee ${annee} n'apparait pas dans le texte source`);
+        const annees = [String(date.date.getUTCFullYear()), String(date.date.getFullYear())];
+        const iso = date.date.toISOString().slice(0, 10);
+
+        const proche = millesimeProche(texte, date.dateSource, annees);
+        if (proche === true) return true;
+        if (proche === false) {
+            console.warn(`[llm] "${titre}" : date ${iso} ecartee, l'annee ${annees[0]} n'apparait pas a moins de ${FENETRE_MILLESIME} caracteres de "${date.dateSource}" dans le texte source`);
+            return false;
+        }
+
+        // Repli : date non reperable dans le texte, test global comme avant.
+        if (annees.some(annee => millesimes.has(annee))) return true;
+        console.warn(`[llm] "${titre}" : date ${iso} ecartee, l'annee ${annees[0]} n'apparait pas dans le texte source`);
         return false;
     });
 }
@@ -117,10 +170,17 @@ export async function parse(call) {
     call = { ...call, ...completion.choices[0].message.parsed };
     delete call.rawContent
     call.dates = await Promise.all(call.dates.map(async date => {
+        // La chaine brute du modele est conservee le temps du controle de
+        // proximite : parseFuzzyDate ecrase date.date, et sans elle on ne
+        // peut plus reperer la date dans le texte source.
+        date.dateSource = date.date;
         date.date = await parseFuzzyDate(date.date);
         return date;
     }));
-    call.dates = ecarterDatesNonSourcees(call.dates, rawContent, call.metaTitle ?? call.title);
+    // dateSource est retiree aussitot : elle ne doit pas atterrir dans
+    // calls.json, ou elle changerait la forme des donnees et le contentHash.
+    call.dates = ecarterDatesNonSourcees(call.dates, rawContent, call.metaTitle ?? call.title)
+        .map(({ dateSource, ...reste }) => reste);
     call.dates.sort((a, b) => a.date - b.date);
     call.tags = await Promise.all(call.tags.map(async tag => {
         return tag.toLowerCase();
