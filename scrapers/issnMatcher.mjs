@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const CSV_PATH = path.join(__dirname, '..', 'enrichissement', 'kerostig-correspondance-issn-enrichi.csv');
 
-let issnByNormalizedName = null;
+let issnIndexPromise = null;
 let loggedUnexpectedNameShape = false;
 
 // Certaines API (WordPress REST) renvoient un champ texte sous forme
@@ -98,21 +98,33 @@ async function loadRows() {
     return parseCsv(text).slice(1);
 }
 
-async function loadIssnIndex() {
-    if (issnByNormalizedName) return issnByNormalizedName;
-
-    issnByNormalizedName = new Map();
+async function buildIssnIndex() {
+    const index = new Map();
     for (const row of await loadRows()) {
         const { titre, nomOpenalex, issnCle } = extractRow(row);
         if (!issnCle) continue;
         for (const rawName of [nomOpenalex, titre]) {
             const key = normalize(rawName);
-            if (key && !issnByNormalizedName.has(key)) {
-                issnByNormalizedName.set(key, issnCle);
+            if (key && !index.has(key)) {
+                index.set(key, issnCle);
             }
         }
     }
-    return issnByNormalizedName;
+    return index;
+}
+
+// On memorise la PROMESSE de l'index, jamais l'index en cours de
+// construction. Les scrapers tournent en Promise.all (pageController) : avec
+// un cache pose avant l'await de lecture du CSV, tout appelant arrivant
+// pendant cette lecture recevait la Map encore vide et voyait donc chacune de
+// ses revues comme absente du CSV. Un scraper qui enchaine ses matchIssn sans
+// attente reseau entre deux (springer, apa, cup, dm, re) perdait ainsi la
+// totalite de ses revues, silencieusement, et ne remontait aucun appel.
+// Cacher la promesse fait attendre la meme lecture a tous : le CSV n'est
+// toujours lu qu'une fois, mais personne ne lit un index a moitie construit.
+function loadIssnIndex() {
+    if (!issnIndexPromise) issnIndexPromise = buildIssnIndex();
+    return issnIndexPromise;
 }
 
 // Retrouve l'ISSN cle d'une revue par correspondance normalisee (minuscules,
