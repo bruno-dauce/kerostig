@@ -5,12 +5,8 @@ on:
       only:
         description: 'Scraper unique a lancer (ex: sage, emerald)'
         required: false
-  # Cron suspendu le 2026-08-21 : sageScraper ne lit pas encore les PDF,
-  # les reextractions tournent sur contenu vide et peuvent deplacer des
-  # echeances en silence. A retablir apres le correctif
-  # fileParser/curlClient sur SAGE.
-  # schedule:
-  #   - cron: '10 2 * * *'
+  schedule:
+    - cron: '10 2 * * *'
 jobs:
   scrape:
     runs-on: ubuntu-latest

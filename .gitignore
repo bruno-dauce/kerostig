@@ -33,6 +33,10 @@ aom-page.html
 # Liste de titres T&F produite en cours de mise au point. Ramassee une fois
 # par le git add -A du workflow de scraping, d'ou cette regle.
 tf_titles.json
+# Sortie complete de `npm run scrape` capturee a la racine lors des audits de
+# pipeline (resserrement des dates, 2026-08-23). Meme raison que ci-dessus :
+# sans cette regle, le git add -A du workflow la committerait au premier run.
+scrape-audit.log
 _tmp
 
 # Fichiers supplementaires a ignorer
