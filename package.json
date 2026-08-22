@@ -8,7 +8,8 @@
     "build": "cross-env ELEVENTY_PRODUCTION=true eleventy && cross-env NODE_ENV=production tailwind -i www/public/css/tailwind.css -o public/public/css/style.css --minify",
     "scrape": "node --env-file .env ./scrapers/scraper.mjs",
     "rss": "node ./scrapers/feedgen.mjs",
-    "test": "node --env-file .env ./scrapers/scraper.mjs"
+    "test": "node --env-file .env ./scrapers/scraper.mjs",
+    "test:unit": "cross-env OPENAI_API_KEY=cle-factice-tests node --test \"scrapers/**/*.test.mjs\""
   },
   "repository": {
     "type": "git",

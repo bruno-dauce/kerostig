@@ -9,13 +9,28 @@ import { echeanceDepassee, joursDepuisEcheance } from './echeance.mjs';
 // (eleventy.config.mjs) : on masque vite, on ne touche aux donnees qu'a coup sur.
 const JOURS_APRES_ECHEANCE = 30;
 
+// Une remontee amputee de plus de la moitie est traitee comme un echec, pas
+// comme un retrait. Seuil calibre sur l'historique du depot : la variation de
+// routine d'un scraper d'un passage a l'autre vaut 1 a 3 appels. Les grosses
+// chutes constatees (ojsfr 8->2, sage 51->42) viennent de l'archivage par
+// echeance, qui opere en aval de cette detection sur resultCalls -- elles ne
+// remontent donc jamais ici et ne peuvent pas declencher de faux positif.
+const CHUTE_RATIO = 0.5;
+// Plancher absolu, pour que les petits producteurs (AFC, DM, RE) ne soient pas
+// geles sur un depart d'un ou deux appels, ou la moitie est vite atteinte.
+const CHUTE_PLANCHER = 5;
+
 // Un scraper qui alimentait la base et qui rentre brutalement bredouille a
 // bien plus probablement echoue en silence (site injoignable, anti-bot, HTML
 // refondu) qu'assiste au retrait simultane de tous ses appels. Des un appel
 // actif au passage precedent contre zero au passage courant, on le signale et
 // on gele ses appels au lieu de les archiver, la decision de vrai retrait
-// restant humaine. Pas de seuil plancher : les petits producteurs (AFC, AGRH,
-// DM, RE, SAGE) mouraient en silence tant qu'il en existait un.
+// restant humaine. Pas de seuil plancher sur ce cas : les petits producteurs
+// (AFC, AGRH, DM, RE, SAGE) mouraient en silence tant qu'il en existait un.
+// Meme traitement pour une chute brutale sans aller jusqu'a zero (motif
+// 'chute') : une pagination interrompue en cours de route rendait une liste
+// tronquee, et les appels manquants partaient en archive sans un mot parce que
+// seul le zero exact etait surveille.
 // Le comptage cote ancien ne retient que les appels actifs : un scraper dont
 // tous les appels sont deja archives n'a plus rien a perdre, il n'alerte donc
 // qu'une fois, au passage ou il tombe.
@@ -32,8 +47,17 @@ export function detecterScrapersVides(newCalls, oldCalls, ranAbbreviations) {
     const nouveaux = compter(newCalls);
     const anciensActifs = compter(oldCalls.filter(call => call.active));
     return ranAbbreviations
-        .filter(abbr => (nouveaux.get(abbr) || 0) === 0 && (anciensActifs.get(abbr) || 0) > 0)
-        .map(abbr => ({ abbreviation: abbr, avant: anciensActifs.get(abbr) }));
+        .map(abbr => ({
+            abbreviation: abbr,
+            avant: anciensActifs.get(abbr) || 0,
+            apres: nouveaux.get(abbr) || 0,
+        }))
+        .filter(({ avant, apres }) => {
+            if (avant === 0) return false;
+            if (apres === 0) return true;
+            return apres < avant * CHUTE_RATIO && avant - apres >= CHUTE_PLANCHER;
+        })
+        .map(compte => ({ ...compte, motif: compte.apres === 0 ? 'zero' : 'chute' }));
 }
 
 // ranAbbreviations : abbreviations des scrapers effectivement lances ce run
@@ -48,8 +72,11 @@ export async function integrateCalls(newCalls, ranAbbreviations = null) {
     newCalls = await clean(newCalls);
 
     const scrapersVides = detecterScrapersVides(newCalls, oldCalls, ranAbbreviations);
-    for (const { abbreviation, avant } of scrapersVides) {
-        console.warn(`\n[ALERTE] ${abbreviation} : 0 appel remonte, contre ${avant} appel(s) actif(s) au passage precedent.`);
+    for (const { abbreviation, avant, apres, motif } of scrapersVides) {
+        const constat = motif === 'zero'
+            ? `0 appel remonte, contre ${avant} appel(s) actif(s) au passage precedent`
+            : `${apres} appel(s) remontes seulement, contre ${avant} actif(s) au passage precedent`;
+        console.warn(`\n[ALERTE] ${abbreviation} : ${constat}.`);
         console.warn(`[ALERTE] Ses ${avant} appel(s) actif(s) sont conserves tels quels, aucun n'est bascule en inactif.`);
         console.warn(`[ALERTE] A verifier a la main : vrai retrait de l'editeur, ou echec silencieux du scraper ?\n`);
     }
@@ -103,6 +130,11 @@ export async function integrateCalls(newCalls, ranAbbreviations = null) {
         if (abbreviationsGelees.has(oldCall.abbreviation)) {
             // Scraper lance mais rentre bredouille alors qu'il etait fourni :
             // meme traitement, on preserve l'existant en attendant l'arbitrage.
+            // Sur un gel pour cause de chute, une partie des appels est bien
+            // remontee et a deja ete reprise par la boucle des nouveaux : sans
+            // ce garde, on la reinjecterait ici en double. Le cas 'zero' n'est
+            // pas concerne, ses deux maps sont vides pour cette abbreviation.
+            if (newHashMap.has(oldCall.contentHash) || newSlugMap.has(oldCall.slug)) continue;
             resultCalls.push(oldCall);
             continue;
         }
