@@ -16,6 +16,28 @@ function getOnlyFilter() {
     return args[index + 1].toLowerCase();
 }
 
+// Le repertoire journals/ est balaye pour y trouver les scrapers, mais tout
+// ce qui s'y trouve n'en est pas un : un fichier de test voisin y a ete
+// charge comme un scraper le 23 aout 2026, faisant tomber le run entier.
+// Fonction pure, exportee pour test.
+export function estFichierScraper(nom) {
+    return path.extname(nom) === '.mjs' && !nom.endsWith('.test.mjs');
+}
+
+// Second garde-fou, independant du nom du fichier : un module qui n'expose
+// pas de scraperObject exploitable est ecarte avec un avertissement qui le
+// nomme, au lieu de lever un TypeError. Le try/catch de scrapeAll avalait
+// cette erreur et sautait integrateCalls : un seul fichier mal forme suffisait
+// a priver de collecte les vingt et un scrapers valides.
+// Fonction pure, exportee pour test.
+export function retenirModulesValides(charges) {
+    return charges.filter(({ fichier, module }) => {
+        if (module?.scraperObject?.abbreviation) return true;
+        console.warn(`[pageController] ${fichier} ignore : aucun export scraperObject exploitable`);
+        return false;
+    });
+}
+
 export async function scrapeAll(browserInstance) {
     let browser;
     try {
@@ -23,15 +45,19 @@ export async function scrapeAll(browserInstance) {
         const folderPath = path.join(__dirname, 'journals');
         const only = getOnlyFilter();
 
-        let files = (await fs.readdir(folderPath)).filter(file => path.extname(file) === '.mjs');
+        let files = (await fs.readdir(folderPath)).filter(estFichierScraper);
         if (only) {
             files = files.filter(file => file.toLowerCase().includes(only));
             console.log(`--only ${only} : ${files.length} scraper(s) selectionne(s) (${files.join(', ') || 'aucun'})`);
         }
 
-        const modules = await Promise.all(
-            files.map(file => import(pathToFileURL(path.join(folderPath, file))))
+        const charges = await Promise.all(
+            files.map(async file => ({
+                fichier: file,
+                module: await import(pathToFileURL(path.join(folderPath, file))),
+            }))
         );
+        const modules = retenirModulesValides(charges).map(({ module }) => module);
         const ranAbbreviations = modules.map(module => module.scraperObject.abbreviation);
 
         const issues = await Promise.all(
