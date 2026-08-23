@@ -95,6 +95,18 @@ async function dansUnDepotTemporaire(anciens, executer) {
     }
 }
 
+test('rend ses alertes a l appelant, pour que la CI puisse les afficher', async () => {
+    const source = brut('sage', 3);
+    const anciens = (await clean(source.map(c => ({ ...c })))).map(c => ({ ...c, active: true }));
+
+    let alertes;
+    await dansUnDepotTemporaire(anciens, async () => { alertes = await integrateCalls([], ['sage']); });
+
+    assert.equal(alertes.length, 1);
+    assert.equal(alertes[0].abbreviation, 'sage');
+    assert.equal(alertes[0].avant, 3);
+});
+
 test('une remontee tronquee ne duplique pas les appels conserves', async () => {
     const source = brut('emerald', 47);
     // Les anciens passent par clean() : leurs slugs et contentHash sont donc

@@ -182,6 +182,11 @@ export async function integrateCalls(newCalls, ranAbbreviations = null) {
             console.error(err);
         }
     });
+
+    // Rendu a l'appelant : pageController en fait un resume visible sur la
+    // page du run, et decide s'il faut faire echouer le passage. Les alertes
+    // ne vivaient jusqu'ici que dans un console.warn noye dans le log.
+    return scrapersVides;
 }
 
 async function readData() {

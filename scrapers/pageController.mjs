@@ -2,6 +2,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { integrateCalls } from './diffChecker.mjs';
+import { depasseSeuilEchec, formaterResumeAlertes, publierResumeCI } from './alerteCI.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -70,10 +71,22 @@ export async function scrapeAll(browserInstance) {
         .then(results => results.flat())
         .then(results => results.filter(call => call && call.rawContent));
 
-        await integrateCalls(issues, ranAbbreviations);
+        const alertes = await integrateCalls(issues, ranAbbreviations);
+
+        await publierResumeCI(formaterResumeAlertes(alertes, ranAbbreviations.length));
+        if (depasseSeuilEchec(alertes.length, ranAbbreviations.length)) {
+            console.error(`\n[pageController] ${alertes.length} scraper(s) en alerte sur ${ranAbbreviations.length} : passage traite comme une panne.`);
+            process.exitCode = 1;
+        }
     }
     catch (err) {
         console.log("Could not resolve the browser instance => ", err);
+        // Sans cette ligne, le passage du 23 aout 2026 a conclu en success
+        // alors qu'il n'avait rien collecte du tout : l'exception etait
+        // avalee ici et integrateCalls n'avait jamais tourne. Un plantage
+        // avant la collecte ne produit aucune alerte, donc le seuil
+        // ci-dessus ne peut pas le rattraper.
+        process.exitCode = 1;
     }
     finally {
         if (browser) await browser.close()

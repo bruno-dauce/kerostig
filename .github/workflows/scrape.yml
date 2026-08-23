@@ -90,8 +90,15 @@ jobs:
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           MODEL_NAME: ${{ secrets.MODEL_NAME }}
         run: xvfb-run node ./scrapers/scraper.mjs ${{ inputs.only && format('--only {0}', inputs.only) || '' }}
+      # Les deux etapes suivantes tournent meme si le scraping a echoue. Un
+      # passage peut sortir en erreur (trop de scrapers en alerte, ou plantage
+      # avant la collecte) tout en ayant produit des donnees valides, deja
+      # passees par le modele : les jeter ferait repayer l'extraction au
+      # passage suivant. Le job reste rouge, seul le resultat est conserve.
       - run: npm run rss --if-present
+        if: always()
       - name: Commit and push if it changed
+        if: always()
         run: |-
           git config user.name "Calls for Papers Scraper"
           git config user.email "actions@users.noreply.github.com"
