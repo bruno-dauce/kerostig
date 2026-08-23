@@ -4,7 +4,7 @@
         <title>kerostig | Business &amp; Society</title>
         <link>https://kerostig.org/journal/business-and-society</link>
         <description>Derniers appels à publications pour Business &amp; Society.</description>
-        <lastBuildDate>Fri, 21 Aug 2026 03:25:16 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 03:13:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,116 +15,379 @@
         </image>
         <copyright>kerostig © 2026</copyright>
         <item>
-            <title><![CDATA[Understanding and Confronting Organizational Corruption and Wrongdoing in the Era of Grand Societal Challenges]]></title>
-            <link>https://kerostig.org/call/sage-understanding-and-confronting-organizational-corruption-and-wrongdoing-in-the-era-of-grand-societal-challenges</link>
-            <guid>sage-understanding-and-confronting-organizational-corruption-and-wrongdoing-in-the-era-of-grand-societal-challenges</guid>
-            <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    
-</div>]]></content:encoded>
-            <author>Business &amp; Society (SAGE)</author>
-        </item>
-        <item>
-            <title><![CDATA[Studying Caste in Business and Society]]></title>
-            <link>https://kerostig.org/call/sage-studying-caste-in-business-and-society</link>
-            <guid>sage-studying-caste-in-business-and-society</guid>
-            <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    
-</div>]]></content:encoded>
-            <author>Business &amp; Society (SAGE)</author>
-        </item>
-        <item>
-            <title><![CDATA[AI, Business, and Epochal Change]]></title>
+            <title><![CDATA[Artificial Intelligence, Business, and Epochal Change]]></title>
             <link>https://kerostig.org/call/sage-ai-business-and-epochal-change</link>
             <guid>sage-ai-business-and-epochal-change</guid>
             <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
             <content:encoded><![CDATA[<div>
     
+        
+        <p><strong>Glen Whelan</strong>, ESG UQÀM</p>
+        
+        <p><strong>Gabriel Weber</strong>, ESSCA School of Management</p>
+        
+        <p><strong>Yann Truong</strong>, ESSCA School of Management</p>
+        
     
-    <p>Unable to access the PDF document. The call for papers content could not be parsed from the provided link.</p>
     
+    <p>Ongoing developments in Artificial Intelligence (AI) indicate that machine learning technologies will not simply match, but will potentially significantly surpass, a wide range of human cognitive abilities. Given this trend, there is reason to believe that AI could threaten humanity&#39;s hegemonic, agentic, positioning and that it could be a driver of civilizational, epochal change.</p>
+    
+    <p>Business actors occupy a unique dual-position within this context. First, as leading architects of AI development, high-tech corporations are rebuilding the organizational structures, labour markets, and human-machinic assemblages that will define social existence for decades to come by impacting upon such fundamental concerns as democracy, peace, and human flourishing. Second, the institution of business and markets as a whole will also find itself the subject of transformative forces that it cannot control despite the fact that certain actors therewithin – such as high-tech corporations – have given rise to them.</p>
+    
+    <p>AI developments that impact on matters of governance and control, energy demands, and the competitive viability of entire industries and labour forces are thus transforming the business landscape. Indeed, they threaten to undermine widespread assumptions regarding organizational agency and accountability, and raise difficult questions as to who or what might fill such responsibility voids.</p>
+    
+    <p>The Special Issue aims to develop conceptually sophisticated perspectives on the dual-position that business occupies with regards to artificial intelligence and epochal change. Rather than focusing on lower, more specific, levels of analysis – such as AI and organizational efficiency, AI and human resources, or AI and privacy – we invite submissions that seek to account for the full richness of AI&#39;s impacts by adopting a higher-order point of view. As a general purpose technology, AI will have existential impacts that shape all aspects of daily life. Consequently, we encourage submissions that employ a philosophical interdisciplinary approach so as to further our understanding of the two positions that business occupies with regards to AI and epochal change.</p>
+    
+    <p>Alphabet, Amazon, Anthropic, Meta, Microsoft, Nvidia, and OpenAI are all leading players in AI development given the immense knowledge capital they can direct and the significant technical resources they have at their disposal. Further to these US luminaries, other corporations from other parts of the world – such as China&#39;s Alibaba and DeepSeek, India&#39;s Ola Group, France&#39;s Mistral, and the UK headquartered Synthesia – are similarly seeking to be at the frontier of AI developments. Such corporate actors all have a strong tendency to instrumentally converge on financial wealth as a means by which to realize grander goals. But if we are to understand these grander goals and the contours of technologocial development more generally, then we need to identify and explicate the cultural, moral, and political ideals that inform them. In particular, we need a much fuller understanding of the ideological presumptions that underlie the shifting fears and desires of the world&#39;s corporate and political elite. The business and society literature has only just begun to offer the conceptual tools that can explicate how these considerations inform high-tech corporations and frontier AI developments. Consequently, if the field of business and society is to make fuller sense of the ideologies, policies and practices that inform corporate led AI developments, and that society may well need to redirect, then the further enrichment of such conceptual tools is needed.</p>
+    
+    <p>The internet is widely recognized to have transformed business and societies. Commerce, search, and meeting platforms are now so ubiquitous that it can be difficult to remember how people managed to conduct any business at all prior to their proliferation. Whilst significant, these differences between the pre- and post-internet era could pale in comparison with those being created by AI. This is because AI can massively increase the capacity for individual humans, or groups of humans, to accomplish various tasks; and because AI can do things that humans have little or no hope of doing by themselves.</p>
+    
+    <p>Generative AI, for example, is proving transformative for those employed in the fields of communication, creation and information, such as coding, filming, illustrating, and writing. More radically, AI advances made by the Alphabet-owned DeepMind have had effects akin to an &#39;earthquake&#39; within the biological sciences given their capacity to predict protein structures. Thanks to the role they played in these advances, DeepMind&#39;s Demis Hasabbis and John Jumper were awarded the Nobel Prize for Chemistry in 2024. That same year, the former Google employee Geoffrey Hinton also won the Nobel Prize for Physics for his foundational work in the deep learning field.</p>
+    
+    <p>The awarding of such prizes clearly illustrates the immense AI power that the megacorporation Alphabet wields. Furthermore, such prizes point towards AI having widespread and profound impacts on business, markets, and society as a whole. Such awards thus highlight the relatively unique dual-positioning of business with regards to AI and epochal change: they point towards the ways in which business must be conceived as both an agent that creates and an agent that needs to account for or react to general purpose technological advances.</p>
+    
+    <p>Unlike prior examples of general purpose technological advances in which business has occupied a dual-position – such as the steam engine or even the internet – the AI technologies that are now being developed suggest the unprecedented emergence of superintelligent agents that can plan and strategize by themselves and that are concerned – like many, if not all, humans – with self-preservation. Suffice it to note that business and markets, and the societies and cultures of which they form a part, could be radically transformed in the coming decades as a result of this emergent agentic entity.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Speed versus safety in the rush to develop (super-intelligent) AI</li>
+        
+        <li>Competition and conflict over AI resources</li>
+        
+        <li>Defense, offense, and critical AI infrastructure</li>
+        
+        <li>(Rogue) AI and principal-agent misalignment</li>
+        
+        <li>AI and &#39;responsibility gaps&#39;</li>
+        
+        <li>Existential threats and AI</li>
+        
+        <li>AI and the implicit/explicit embodiment of political goals and values</li>
+        
+        <li>Corporate elites (e.g., owners/founders) and the control of AI</li>
+        
+        <li>Corporate governance within the AI political context</li>
+        
+        <li>Ideological conflict in the era of AI</li>
+        
+        <li>The algocratic and epistocratic underpinnings of AI developments</li>
+        
+        <li>AI and planetary boundaries</li>
+        
+        <li>Environmental justice and AI</li>
+        
+        <li>The global south and the AI workforce</li>
+        
+        <li>Resource creation, extraction and commodification in the era of AI</li>
+        
+        <li>AI and exosomatic energy use</li>
+        
+        <li>AI and the changing value of human labour and human leisure</li>
+        
+        <li>The possibility of human excellence and flourishing in AI impacted societies</li>
+        
+        <li>AI and the transformation of markets for consumption and production</li>
+        
+        <li>The implications of AI for how we conceive and value human rights, democracy and justice</li>
+        
+        <li>AI and peace</li>
+        
+    </ul>
     
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>September 1, 2026: Submission period</li>
+        <li>April 1, 2026: Paper Development Workshop submission window</li>
+        
+        <li>May 20, 2026: Online pre-submission workshop (optional)</li>
+        
+        <li>September 1, 2026: Submission window opens</li>
+        
+        <li>September 30, 2026: Submission window closes</li>
+        
+        <li>January 1, 2027: Online post-submission workshop (tentative, participation optional)</li>
         
     </ul>
     
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Simon Pek</strong>, University of Victoria</li>
+        
+    </ul>
     
 </div>]]></content:encoded>
             <author>Business &amp; Society (SAGE)</author>
         </item>
         <item>
-            <title><![CDATA[Collective Actorhood and Organizationality]]></title>
-            <link>https://kerostig.org/call/sage-collective-actorhood-and-organizationality</link>
-            <guid>sage-collective-actorhood-and-organizationality</guid>
+            <title><![CDATA[Collective actorhood and organizationality: Recalibrating responsibility in business-society relations]]></title>
+            <link>https://kerostig.org/call/sage-collective-actorhood-and-organizationality-recalibrating-responsibility-in-business-society-relations</link>
+            <guid>sage-collective-actorhood-and-organizationality-recalibrating-responsibility-in-business-society-relations</guid>
             <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
             <content:encoded><![CDATA[<div>
     
+        
+        <p><strong>Dennis Schoeneborn</strong>, Copenhagen Business School</p>
+        
+        <p><strong>Héloïse Berkowitz</strong>, CNRS, Aix Marseille University</p>
+        
+        <p><strong>Leonhard Dobusch</strong>, University of Innsbruck</p>
+        
+        <p><strong>Frank de Bakker</strong>, IÉSEG School of Management</p>
+        
+        <p><strong>Consuelo Vásquez</strong>, Université du Québec à Montréal (UQAM)</p>
+        
     
-    <p>This special issue invites submissions exploring the concepts of collective actorhood and organizationality in contemporary society.</p>
     
+    <p>Over the past decades, the relations between business and society have fundamentally changed. We are entering an age of digital futures with artificial intelligence taking over more and more human tasks at rapid speed, as well as broken futures with accelerating dynamics of climate change, in which the survival of humankind will depend on our ability to organize in collective ways and imagine alternatives to tackle such complex social problems, amidst growing inequalities and ecological destruction on a planetary scale.</p>
+    
+    <p>Collective actorhood, defined as the capacity of a social group to act on a supra-individual level and to become considered as an agent in its own right, has been argued to be the main criterion that distinguishes organizations from other social phenomena. However, the current crisis of civilization—a crisis of climate, energy, poverty, inequality, food, and meaning—can only be addressed if we consider that collective actorhood often requires to reach beyond the boundaries of single organizations and involve a much broader spectrum of organizational phenomena. Examples like cross-sector partnerships, meta-organizations, or open organizing phenomena that resemble social movements all tend to have in common that their status as collective actor is far less clear-cut or that collective agency may be accomplished in different ways.</p>
+    
+    <p>For studying such recalibrations of business-society relations, organization and management scholarship has started to draw on gradual understandings of organization. Prominent examples of this view are the notions of partial organization or organizationality. These gradual theories of organization hold much promise for rethinking collective actorhood beyond the boundaries of formal organizations. Similarly, indigenous, feminist, and decolonial approaches further invite us to question the Global North&#39;s conceptualizations of organizations and to consider also how organizing happens at the margins. Most research on organizationality takes the starting point in situations of privilege where actors deliberately choose to organize themselves in loose and fluid ways. Adopting alternative ontologies invites a better account for situations in which marginalized actors are forced into fluid and precarious ways of organizing.</p>
+    
+    <p>If we relate gradual understandings of organization to matters of collective actorhood, we can observe that actorhood can vary by degree, as well. Corporations increasingly portray themselves as collective actors in their own right, for instance, by positioning themselves as corporate citizens, thus strongly emphasizing their responsibility as collective actors vis-à-vis society. However, the question arises whether trends of an over-organization of the business-society relations fosters or rather dilutes the responsibility of the collective actors involved. On the other hand, we see trends of less pronounced collective actorhood. Digital platform organizations have been shown to strategically downplay their status as collective actors to diminish their collective responsibility for the malicious content that is shared on their platforms, while profiteering from such sharing at the same time. Furthermore, multinational corporations strategize to escape actorhood and avoid taking responsibility for the destruction of people and nature.</p>
+    
+    <p>This Special Issue invites scholarship to further explore both these empirical trends and the new theoretical approaches that shed a different light on the changing relations between business and society with regard to more or less pronounced forms of collective actorhood. We are interested in strategic as well as emergent processes that allow for different degrees of collective actorhood over time and the respective implications for business-society relations. We also encourage critical reflections on the very notion of collective actorhood, along with alternative conceptualizations that may deepen our understanding of how organizations can be made more responsive and accountable in the face of contemporary societal crises. We invite conceptual and empirical inquiries into the dynamics of collective actorhood from a broad variety of theoretical perspectives, including gradual understandings of organization, as well as a broad set of methodological approaches.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>How is collective actorhood performed and organized?</li>
+        
+        <li>Is a legal status/legal person needed to accomplish collective actorhood?</li>
+        
+        <li>Why and how do actors strategically downplay or amplify collective actorhood? How do these strategic efforts affect responsibility attributions?</li>
+        
+        <li>What are the implications and limitations of collective actorhood for reenvisioning the business-society relationship and offer alternative solutions in crises of civilization?</li>
+        
+        <li>Where and how does actorhood emerge? How do institutional contexts affect actorhood?</li>
+        
+        <li>How does actorhood evolve over time or space, and how do organizations transition between different degrees of organizationality?</li>
+        
+        <li>Can social collectives be perpetuated and maintained even with a low degree of organizationality – or do they feel pressures either to be dissolved or evolve toward higher degrees of organizationality eventually?</li>
+        
+        <li>How to explain asymmetric dynamics between the organized (e.g., established formal organizations; high degree of organizationality) and the (rather) unorganized as their counterparts (e.g., social media firestorm; low degree of organizationality)?</li>
+        
+        <li>What can we learn from alternative forms of organizing, including those in marginalized settings?</li>
+        
+        <li>How is collective actorhood conceptualized in the various geographies, including the Global South? How does this translate, circulate, and adapt across geographies?</li>
+        
+        <li>What are the contributions of other collective notions stemming from indigenous cosmovisions and decolonial approaches?</li>
+        
+        <li>How does actorhood affect the interactions between organizations from different domains (for profit and non-profit, scientific organizations, public actors, etc.)?</li>
+        
+        <li>When does collective actorhood create relations of domination and exploitation?</li>
+        
+        <li>At what point does collective actorhood become constitutive of societal problems and crises (incl. fascism, techno-feudalism, etc.) – rather than a solution for addressing them?</li>
+        
+        <li>How does actorhood (or the lack of) affect the relationship between privileged and marginal communities?</li>
+        
+        <li>Can living (forests, rivers, soils) and non-living (algorithms, technologies) entities be attributed actorhood and be held accountable? How does it differ from &#39;human&#39; organizing?</li>
+        
+        <li>How can alternative ontologies help inform this analysis?</li>
+        
+        <li>How can a gradual understanding of organization help us to understand variations in the degree of organizational actorhood and responsibility attributions in the relations between businesses and society?</li>
+        
+        <li>What are the parameters of organizationality required for a responsible collective actorhood?</li>
+        
+        <li>How can alternative ontologies, cosmovisions, and organizing experiences inform this critical reflection?</li>
+        
+        <li>How to better account for situations in which marginalized actors are forced into fluid and precarious ways of organizing and/or have no choice to lessen the degree of organizationality to cope or survive?</li>
+        
+    </ul>
     
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>September 1, 2026: Submission period</li>
+        <li>October 3, 2025: Deadline to register for Meet-the-Editors session</li>
+        
+        <li>October 7, 2025: Virtual Meet-the-Editors session at 2.00-3.00pm CET</li>
+        
+        <li>January 31, 2026: Deadline to submit proposal or extended abstract for presubmission workshop</li>
+        
+        <li>February 25, 2026: Virtual presubmission workshop</li>
+        
+        <li>August 1, 2026: Submission window opens</li>
+        
+        <li>September 30, 2026: Submission deadline for manuscripts</li>
         
     </ul>
     
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Devi Vijay</strong>, Indian Institute of Management (IIM) Calcutta</li>
+        
+    </ul>
     
 </div>]]></content:encoded>
             <author>Business &amp; Society (SAGE)</author>
         </item>
         <item>
-            <title><![CDATA[Multinational Enterprises and the Sustainable Development Goals]]></title>
+            <title><![CDATA[Multinational Enterprises and the Sustainable Development Goals: Evolving Roles, Challenges, and Opportunities Beyond 2030]]></title>
             <link>https://kerostig.org/call/sage-multinational-enterprises-and-the-sustainable-development-goals</link>
             <guid>sage-multinational-enterprises-and-the-sustainable-development-goals</guid>
             <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
             <content:encoded><![CDATA[<div>
     
+        
+        <p><strong>Huda Khan</strong>, University of Aberdeen</p>
+        
+        <p><strong>Hussain Rammal</strong>, Adelaide University</p>
+        
+        <p><strong>Pervez Ghauri</strong>, University of Birmingham</p>
+        
+        <p><strong>Zaheer Khan</strong>, University of Aberdeen</p>
+        
+        <p><strong>Martin Meyer</strong>, University of Vaasa</p>
+        
     
+    
+    <p>The United Nations&#39; Sustainable Development Goals (SDGs), adopted in 2015, provide a comprehensive global agenda addressing critical social, economic, and environmental challenges, with the target of achieving these goals by 2030. These 17 interconnected goals range from eradicating poverty and ensuring quality education to combating climate change and fostering sustainable economic growth. As the global community works toward this ambitious target, the role of Multinational Enterprises (MNEs) has become increasingly vital. MNEs, with their significant financial resources, innovation capabilities, and extensive global reach, are uniquely positioned to contribute meaningfully to the realization of these global objectives. However, integrating the SDGs into business strategies presents considerable challenges, especially in light of evolving institutional, political, and social dynamics.</p>
+    
+    <p>In this context, it is essential to critically assess the progress made by MNEs in supporting the SDGs, focusing not only on successes but also on areas where progress has stalled or where the current trajectory requires recalibration. As the world struggles to meet the deadline for the SDG agenda, there is an urgent need to reassess the contributions of MNEs and to explore how these enterprises can adapt in response to the shifting global landscape. This will ensure that MNEs&#39; operations remain aligned with the sustainability and social equity goals. Additionally, the rise of backlash against Environmental, Social, and Governance (ESG) initiatives presents new challenges that may influence MNEs&#39; strategies, especially their long-term commitment to the SDGs as we move beyond 2030.</p>
+    
+    <p>This special issue aims to explore the evolving and multifaceted role of MNEs in advancing the SDGs, with a dual focus on the remaining years of the current SDG agenda and the post-2030 sustainability framework. We aim to assess how MNEs can contribute meaningfully to achieving the SDGs by 2030 while addressing the complexities of changing political, social, and economic contexts. Furthermore, how these enterprises will adapt to, and engage in shaping, sustainability frameworks beyond 2030, particularly given the shifting global trends and the growing scepticism surrounding ESG commitments.</p>
+    
+    <p>MNEs are critical enablers of global sustainability due to their market power, innovation potential, and financial resources. With their global value chains spanning several nations, MNEs influence the markets in which they operate and impact the communities. As key players in industrial transformation, they can drive positive change by aligning their business strategies with the SDGs. Their ability to innovate, scale sustainable practices, and set industry standards enables them to be significant actors in addressing global challenges, such as climate change, poverty, and inequality. They can drive disruptive societal change through their global experience.</p>
+    
+    <p>However, MNEs&#39; involvement in the SDGs must extend beyond mere profit-driven motives. To contribute effectively to the SDGs, MNEs must prioritize inclusive business practices and environmental stewardship, ensuring that their operations create shared value across economic, social, and environmental dimensions. This involves addressing global inequalities through inclusive business models, promoting responsible production and consumption, and investing in sustainable innovations that mitigate long-term global risks, such as resource depletion, biodiversity loss, and climate change.</p>
+    
+    <p>Integrating the SDGs into business operations is a complex and multifaceted endeavour. MNEs face several barriers, including institutional inertia, political uncertainties, and varying regulatory frameworks across different markets. The political economy of each host country significantly influences how effectively SDGs can be pursued, particularly in regions with weak governance systems or where sustainability initiatives are not adequately incentivized. Moreover, cross-sector collaboration models that are often considered essential for addressing complex SDG challenges can be hindered by competing interests or regulatory barriers.</p>
+    
+    <p>Internally, MNEs face challenges aligning sustainability strategies with shareholder interests. The increasing pressure to deliver short-term financial performance can sometimes conflict with the long-term investments required for sustainable development. Measuring the impact of MNE activities on the SDGs also presents a significant challenge, with accountability and transparency emerging as critical issues. While frameworks for impact measurement and reporting are still evolving, many MNEs struggle to quantify their contributions to the SDGs in ways that are meaningful to stakeholders.</p>
+    
+    <p>As we approach the final years of the SDG agenda, it is important to critically reflect on the lessons learned thus far and evaluate where gaps remain. While many MNEs have made significant strides toward integrating the SDGs into their operations, the pace of change has been uneven across industries and regions. For instance, in sectors such as renewable energy, MNEs have made substantial contributions toward achieving SDG 7 (Affordable and Clean Energy). In contrast, other areas, such as climate action (SDG 13) and responsible consumption (SDG 12), still face significant challenges.</p>
+    
+    <p>Looking beyond 2030, the post-SDG sustainability framework will necessitate that MNEs adapt to an increasingly complex landscape. Political shifts, economic transformations, and societal changes are likely to continue shaping the global sustainability agenda. Evolving ESG expectations, alongside the increasing backlash against these initiatives, will play a pivotal role in shaping how businesses engage with the SDGs. As societal expectations around climate action, diversity, and corporate responsibility grow, MNEs will need to navigate a delicate balance between business imperatives and public expectations.</p>
+    
+    <p>This dynamic context requires MNEs to adopt a long-term perspective, committing to sustainable business practices that focus not only on short-term financial returns but also on their broader impact on global sustainability. The post-2030 agenda may require MNEs to take on more active roles in developing global frameworks for climate action, economic inclusivity, and social equity, with greater accountability and transparency in reporting their contributions toward these goals.</p>
+    
+    <p>The evolving role of MNEs in shaping global sustainability frameworks necessitates an integrated approach to International Business (IB) and Business and Society (BAS) scholarship. By merging insights from the IB and societal domains, a more comprehensive understanding of the factors that drive MNEs&#39; engagement with the SDGs can be developed, alongside the mechanisms through which they can exert influence. Understanding the interplay between these factors is crucial for both academia and practitioners, who seek to guide MNEs toward more effective sustainability practices that drive tangible, long-term impacts.</p>
+    
+    <p>By examining both the successes and shortcomings of MNEs in relation to the SDGs, this special issue aims to explore strategies for scaling successful initiatives, overcoming barriers, and adapting to a rapidly changing global environment. The goal is to provide actionable insights that can guide MNEs in navigating the complex terrain of SDGs&#39; integration and contribute to the development of a post-2030 sustainability framework that is inclusive, equitable, and resilient in the face of future challenges.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>MNEs&#39; Evolving Role in the SDGs&#39; Agenda: Achievements, Gaps, and Future Directions - How can MNEs evaluate their contributions to the SDGs and adjust their strategies to meet the 2030 targets? What opportunities and challenges will MNEs face post-2030 in continuing to support the SDGs&#39; agenda? How can MNEs address the lagging targets of the SDGs in their operations?</li>
+        
+        <li>Managing ESG Backlash and its impact on MNEs&#39; SDGs&#39; Alignment - How does the ESG backlash impact MNEs&#39; strategies for achieving the SDGs? In what ways do political and institutional pressures shape MNEs&#39; SDG agendas? How can MNEs maintain their commitment to the SDGs amidst the growing scepticism toward ESG?</li>
+        
+        <li>Institutional Dynamics and MNEs&#39; SDGs&#39; Engagement - How do formal and informal institutional logics influence MNEs&#39; strategies for addressing SDGs in different host countries? How do institutional voids in emerging markets shape MNEs&#39; SDG engagement? What roles do institutional actors (governments, NGOs, civil society) play in shaping MNEs&#39; SDG commitments?</li>
+        
+        <li>Business and Society Perspectives on MNEs and SDGs: Bridging IB and B&amp;S Literature - How can IB literature inform B&amp;S&#39;s understandings of MNEs&#39; contributions to SDGs? How do MNEs reconcile profit motives with societal goals in their SDGs&#39; strategies? What are the synergies between business model innovation and sustainable development in the context of the SDGs?</li>
+        
+        <li>Leveraging Global Value Chains for Sustainable Development - What practical strategies can MNEs adopt to integrate sustainability into their global value chains to meet SDGs&#39; targets? What are the opportunities for MNEs to collaborate with supply chain partners on SDGs&#39; initiatives? How can knowledge transfer across value chains improve SDGs&#39; outcomes?</li>
+        
+        <li>Organizational Forms and Alliance for SDGs: Bridging IB and BAS Perspectives - How can MNEs and their partners in cross-sector alliances navigate the challenges of aligning values, beliefs, and power dynamics in SDG-driven initiatives? In what ways can partnerships between MNEs, governments, NGOs, and CSOs enhance the achievement of SDGs, particularly in areas such as inclusive development and climate action? What role do MNE headquarters play in supporting subsidiaries and local network partners to integrate global sustainability principles into their operations? How can MNEs collaborate with SMEs to achieve SDGs, and what benefits does this collaboration bring to local communities? How do strategic alliances contribute to the long-term sustainability of SDG initiatives, and what organizational forms are most effective in fostering these collaborations?</li>
+        
+        <li>Micro-foundations of MNEs&#39; Engagement with SDGs: Motivations, Leadership, and Human Capital - How do the personal experiences and values of top management, including the CEO, influence MNEs&#39; strategies for addressing the SDGs? What role does diversity, equity, and inclusion (DEI) play in shaping top management&#39;s engagement with sustainability goals and advancing SDGs? How do leadership styles and top management teams influence employee engagement with SDG initiatives within MNEs? What mechanisms within MNEs&#39; governance structures support or hinder the integration of SDGs into business models, particularly in the areas of poverty eradication, climate action, and social equity? How do individual decision-makers contribute to business model innovations that advance SDGs, and how do these innovations affect the company&#39;s long-term sustainability efforts?</li>
+        
+    </ul>
     
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>October 1, 2026: Submission period</li>
+        <li>October 1, 2026: Submission window opens</li>
+        
+        <li>October 30, 2026: Submission window closes</li>
         
     </ul>
     
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Maoliang Bu</strong>, Nanjing University</li>
+        
+    </ul>
     
 </div>]]></content:encoded>
             <author>Business &amp; Society (SAGE)</author>
         </item>
         <item>
-            <title><![CDATA[Business and Peace: Theoretical Contributions to Advance the Business and Society Debate]]></title>
+            <title><![CDATA[Theoretical Contributions to Advance the Business and Society Debate]]></title>
             <link>https://kerostig.org/call/sage-business-and-peace-theoretical-contributions-to-advance-the-business-and-society-debate</link>
             <guid>sage-business-and-peace-theoretical-contributions-to-advance-the-business-and-society-debate</guid>
             <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
             <content:encoded><![CDATA[<div>
     
+        
+        <p><strong>Jay Joseph</strong>, American University of Beirut</p>
+        
+        <p><strong>Harry Van Buren III</strong>, University of Tennessee at Chattanooga</p>
+        
+        <p><strong>Jennifer Oetzel</strong>, American University</p>
+        
+        <p><strong>Angelika Rettberg</strong>, Universidad de los Andes</p>
+        
     
+    
+    <p>Global peace is needed now more than ever, yet &quot;peace&quot; still fails to feature in mainstream business and society debates. For over 20 years, &quot;business and peace&quot; has led this debate in business and management studies. Business and peace has generated a broad array of research studies that link business activity to peacebuilding; however, the high volume of descriptive, case-based, and practice-based research in the field, combined with the growing number of parallel contributions to conflict and peace-related topics in general management studies, presents challenges for moving a coherent debate on peace and business forward.</p>
+    
+    <p>Business and peace is a sub-field of business and management studies with origins dating back to the turn of the millennium. The field historically adopted a positive view toward the role that business can play in conflict zones, promoting a series of aspirational and strategically oriented activities that businesses can adopt to drive peace. From this starting point, the field has fragmented into several different areas, with various studies largely failing to speak to or build upon one another. The end result has been a field that has little epistemological coherence or consistent line of inquiry.</p>
+    
+    <p>Despite over 20 years of progress being made on the topic, the fragmentation of research and inability to advance a consistent research agenda have undermined the field&#39;s ability to move &quot;peace&quot; into mainstream business and society debates. Several field-specific factors present opportunities to advance research: porous field boundaries due to the complexity of this research phenomenon and multidisciplinary array of contributions; and theoretical stagnation, as most research in business and peace has been descriptive, case-based, or practice-based, with the theoretical base of the field remaining shallow.</p>
+    
+    <p>This special issue for Business &amp; Society seeks to clarify the boundaries and central claims of the business and peace field as well as encourage scholarship that advances theoretical development within it. Recognizing that peace research in business requires contributions from business and management scholars alongside those from political science, international relations, development, and law, this special issue will encourage high-quality interdisciplinary scholarship that either advances existing theoretical frames used in business and peace or presents new ones. The special issue provides a platform for greater participation in business and peace, which aims to advance efforts to move &quot;peace&quot; into mainstream business and society debates.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Stakeholder-based theories associated with business and peace</li>
+        
+        <li>Systems perspectives on business and peace</li>
+        
+        <li>Intergroup and contact theories in business contexts</li>
+        
+        <li>Business and human rights frameworks</li>
+        
+        <li>Corporate Social Responsibility (CSR) and political CSR</li>
+        
+        <li>Governance processes in business and peace</li>
+        
+        <li>Organizing processes and organization studies</li>
+        
+        <li>Normative and ethical frameworks addressing corruption and corporate misconduct</li>
+        
+        <li>International business frameworks in conflict settings</li>
+        
+        <li>Entrepreneurship and entrepreneurial models for conflict-resolution and peace</li>
+        
+        <li>Advanced conceptual development for conflict and peace research</li>
+        
+        <li>Boundary work to clarify field domains in business and peace</li>
+        
+        <li>Theoretical consolidation and advancement of business and peace foundations</li>
+        
+    </ul>
     
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>January 31, 2027: Submission opens</li>
+        <li>June 4, 2026: 2nd Annual IABS Business and Peace Workshop and IABS Conference in Providence, RI</li>
         
-        <li>March 1, 2027: Full paper submission deadline</li>
+        <li>January 31, 2027: Submission window opens for first submission due</li>
+        
+        <li>March 1, 2027: First submission due - Full paper submissions due</li>
+        
+        <li>June 1, 2027: Reject and resubmit decisions made for first submission</li>
+        
+        <li>October 1, 2027: Second submission due</li>
+        
+        <li>May 1, 2028: Reject and resubmit decisions made for second submission</li>
         
     </ul>
     
@@ -133,21 +396,80 @@
             <author>Business &amp; Society (SAGE)</author>
         </item>
         <item>
-            <title><![CDATA[Our Oceans as a Business-Society Nexus]]></title>
+            <title><![CDATA[Our Oceans as a Business-Society Nexus: Advancing the Interplay of Blue Economy, Blue Governance and Blue Justice]]></title>
             <link>https://kerostig.org/call/sage-our-oceans-as-a-business-society-nexus</link>
             <guid>sage-our-oceans-as-a-business-society-nexus</guid>
             <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
             <content:encoded><![CDATA[<div>
     
+        
+        <p><strong>Matevž Rašković</strong>, Auckland University of Technology</p>
+        
+        <p><strong>Noemi Sinkovics</strong>, Newcastle University</p>
+        
+        <p><strong>Michelle Voyer</strong>, University of Wollongong</p>
+        
+        <p><strong>Nives Dolšak</strong>, University of Washington</p>
+        
+        <p><strong>Gurmeet Singh</strong>, University of the South Pacific</p>
+        
     
+    
+    <p>Our oceans make up 70% of our planet, provide transportation for 80% of global goods in volume and ensure the livelihood of over 3 billion people, including many of the global poor. Oceans represent the largest environment-humanity nexus on Earth in environmental, economic, geopolitical and global security, and socio-cultural terms. Yet, as planetary spaces, our oceans are often thought of as separate from humans in a human-nature duality, which limits research on the place-space embeddedness of business in particular environmental materialities like our oceans.</p>
+    
+    <p>Despite the critical role played by the world&#39;s oceans, management scholarship has engaged with oceanic contexts in a relatively limited and uneven way. Existing contributions have frequently framed ocean-based activities through blue growth lenses centred on economic value and growth under the banner of neo-classical capitalism, which promotes the exploitation of common pool resources, erodes public goods and incentivizes business to externalize costs. Given that over 60% of our oceans are considered international waters beyond national jurisdictions, these dynamics are especially salient in oceanic contexts, which helps to explain their depletion and the prevalence of various kinds of socio-economic injustices.</p>
+    
+    <p>Despite their critical role for the Planet, our oceans are economically exploited by a small number of powerful state and business actors. For example, over 80% of global fishing is carried out by only 25 countries, the top 100 blue economy firms account for 60% of gross revenues generated from exploiting our oceans, and 97% of marine genetic resources have been patented by multinational enterprises in 10 rich countries. Although some progress has been made with regards to sustainable development of our oceans under the banner of the blue economy, only about 2% of countries worldwide appear to be on track to meet the targets under UN SDG#14 by 2030.</p>
+    
+    <p>Conceptualizing the relationships between the blue economy, blue governance and blue justice remains challenging; however, understanding how they interplay together is essential for achieving a sustainable, equitable and just blue commons. This can in turn revitalize and advance existing business-society debates linked to ethics and social justice, helping to address some of the societal grand challenges.</p>
+    
+    <p>The blue economy represents at least US$24 trillion in economic assets and generates around US$3 trillion in economic value annually, set to double by 2030. This makes it the seventh largest economy globally. In terms of sectoral coverage, it covers fishing and aquaculture, deep-sea mining and energy production, shipping, transportation, tourism and, sometimes, even national defence. The multisector nature of the blue economy makes it a particularly fruitful research area for exploring multi- and cross-sectoral approaches on how to address grand societal challenges against a particular environmental materiality, transnationality and aterritoriality.</p>
+    
+    <p>Blue governance is a blue economy derivative from the general governance concept. It functions more as an umbrella concept covering a range of governance approaches linked to coastal governance, marine governance and ocean governance at local, national and supranational levels. It spans various sectors from fish and aquaculture species to seabed minerals, energy and tourism. As governance spaces, our oceans are highly contested because of the high economic, ecological, and strategic value of their resources. From a business-society perspective, the idea of blue governance extends beyond just spatial reach; it highlights a holistic and integrated approach to blue spaces and resources, focusing on plural knowledge, values, principles, identities, securities, in addition to the connectivity of marine species and human activities.</p>
+    
+    <p>Examining how businesses, states, and civil society interact offers an important way to reassess assumptions about responsibilities, power, and coordination among actors engaged in transnational governance. The transnational and aterritorial nature of ocean contexts, along with their particular environmental materiality, offer a fruitful avenue for exploring the relationship between statehood and governance, which is especially interesting from the perspective of limited or diminished statehood in some emerging and developing countries and overseas territories. In such contexts, powerful non-state actors often emerge and fill the governance void. Firms, particularly multinational enterprises, often take on strong political roles, either in the pursuit of their interests or to fill the void in the governance of global public goods.</p>
+    
+    <p>Exploring blue governance also offers an opportunity to problematize the ineffectiveness and deficiencies of Western governance approaches and philosophies in non-Western and indigenous contexts. There is a need to decolonize field structures, create hybrid institutional logics and diversify actor agency as particularities of indigenous contexts under limited statehood conditions, which are specifically linked to the exploitation of natural resources. Even where ocean-based initiatives contribute to sustainable development and are supported by effective forms of transnational governance, important social risks and inequities often still remain and require attention.</p>
+    
+    <p>Compared to the blue economy and blue governance, the blue justice concept is a much younger concept. It serves as a normative benchmark between political actors and other stakeholder groups, and is underpinned by distributive, procedural, recognitional and restorative justice principles. The most comprehensive typology of blue justice issues includes: dispossession, displacement and ocean grabbing; waste and pollution environmental injustices; environmental degradation and erosion of environmental ecosystem goods; livelihood impacts for small-scale fisheries; access to marine resources supporting livelihoods and wellbeing; inequitable distribution of socio-economic benefits; social and cultural threats; marginalization of women and minorities; human and indigenous rights&#39; abuses; and governance exclusion.</p>
+    
+    <p>The aim of this Special Issue is to encourage cross-disciplinary research that examines oceans as a business–society nexus. It focuses on how blue economy activities interact with governance arrangements and social justice considerations, and how such interactions shape the economic, social, and ecological dimensions of ocean use. We welcome contributions that examine business–society relations in contexts related to oceans and coastal environments. Submissions may be empirical, conceptual, or review-based, including case studies at country, sectoral, or firm level, provided they move beyond description to generate broader insights into business–society dynamics in these settings.</p>
+    
+    <p>We particularly welcome work that takes ocean- and coast-related phenomena as its starting point and reflects on how insights from these contexts inform existing debates in business-society research and beyond. Research involving human participants should be conducted with appropriate sensitivity to local contexts and research practices, including culturally appropriate methods and meaningful engagement with local communities. Indigenous-centered submissions should reflect relational ontologies and worldviews in which relationships among humans, non-humans, ancestors, and the land are constitutive of identity, and should honor indigenous ways of knowing and being, empower collective indigenous agency, benefit indigenous communities and advance indigenous rights.</p>
+    
+    <p>The Special Issue also encourages submissions that engage with perspectives and regions that have been underrepresented in business and management research. This includes coastal and Indigenous communities and scholars based in the Small Pacific Island Nations, Southeast Asia, Africa, and Latin America and the Caribbean. Contributions may examine how economic, social, and environmental considerations intersect in ocean- and coast-related contexts, including the trade-offs and tensions that arise between climate-related concerns and other sustainability challenges, and how these shape interactions between business actors, societal stakeholders, and governance arrangements in practice.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Business models, value creation, and distribution: How do different ocean-based business models create value, who captures the value and who bears costs across communities, ecosystems, and value/supply chains? What trade-offs and paradoxes emerge between economic growth and social/environmental objectives, and how are they justified, negotiated, or contested by various stakeholders and at different levels? How do firms build, maintain, or lose social licence to operate in ocean- and coast-related activities, and what triggers shifts in legitimacy?</li>
+        
+        <li>Governance, accountability, and power across levels: How do governance arrangements (e.g., local, national, regional, transnational) shape who gets access, who is included/excluded, and how rules are enforced in ocean and coastal settings? When and why do &#39;good governance&#39; arrangements still produce undesired social outcomes (e.g., exclusion, livelihood disruption), and what mechanisms explain this? How do firms, states, NGOs, and community actors coordinate or compete to frame problems, set standards, and allocate responsibilities and resources?</li>
+        
+        <li>Justice, equity, and lived impacts: How are distributive, procedural, recognitional, and restorative justice concerns expressed in ocean and coastal contexts, and how do they translate into organisational and policy decisions? What forms of inequity arise in practice (e.g., displacement, access restrictions, benefit-sharing), and what interventions have been effective (or ineffective) in redressing them? How do gender, indigeneity, and marginalisation shape participation in governance and benefit-sharing, and what organisational and policy practices enable or constrain inclusion?</li>
+        
+        <li>Ownership, stewardship, and legitimacy: Under what conditions are oceans treated as shared spaces versus commodified resources, and how do firms and states influence these framings? What governance designs or institutional arrangements support credible stewardship (beyond compliance), and how are these maintained or evolve over time? How do alternative understandings of stewardship and collective rights (including Indigenous governance) reshape corporate strategy, accountability, and legitimacy?</li>
+        
+        <li>Risk, contestation, and the &#39;dark side&#39;: How do illegal, informal, or harmful practices (e.g., illegal, unreported and unregulated fishing, labour abuses, illicit trade) become embedded in ocean-related industries, and what enables accountability or impunity? How do firms manage reputational, legal, and operational risks linked to ocean-related activities, and when do risk-management approaches conflict with justice and sustainability aims?</li>
+        
+    </ul>
     
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>March 15, 2027: Submissions open</li>
+        <li>May 1, 2026: Online idea generation workshop</li>
         
-        <li>May 15, 2027: Submissions close</li>
+        <li>August 1, 2026: Online research capacity building workshop for PhD students, early-career scholars and emerging market scholars</li>
+        
+        <li>March 15, 2027: Submission window opens for full papers</li>
+        
+        <li>May 15, 2027: Submission window closes for full papers</li>
+        
+        <li>June 1, 2027: Hybrid PDW for R&amp;R papers at the University of the South Pacific in Fiji</li>
+        
+        <li>November 1, 2027: Online &#39;Delphi method&#39; workshop for writing a scene-setting future research agenda as part of the Introduction to the Special Issue</li>
         
     </ul>
     
@@ -162,34 +484,96 @@
             <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
             <content:encoded><![CDATA[<div>
     
+        
+        <p><strong>Dorothee Maria Winkler</strong>, Bern University of Applied Sciences</p>
+        
+        <p><strong>David Risi</strong>, Bern University of Applied Sciences</p>
+        
+        <p><strong>Christopher Wickert</strong>, Vrije Universiteit Amsterdam</p>
+        
+        <p><strong>Onna Malou van den Broek</strong>, Copenhagen Business School</p>
+        
     
     
+    <p>Corporate Social Responsibility (CSR) has a long and influential history as one of the dominant paradigms in managing the business-society interface. For years, CSR has served as the normative and strategic blueprint for companies in managing growing societal expectations such as climate change, corruption, and inequality, fundamentally shaping corporate behavior across sustainability, ethics, and stakeholder engagement. Over the past decade, environmental, social, and governance (ESG) criteria seemed to be moving from the periphery to the center of attention for companies, and the formalization and legalization of CSR-related criteria have reinforced the importance of corporate responsibility and consolidated its position as a central area of concern for business firms.</p>
     
-    <h2>Timeline</h2>
+    <p>However, after a long period of broad consensus on the desirability of business responsibility, the global political, social, and economic landscape has shifted in ways that fundamentally challenge the taken-for-granted position of CSR and related ideas about the role of business in society. These shifts occur amid widespread societal polarization, in which democratic countries face a profound sociocultural struggle between contending conservative and progressive visions, contributing to the erosion of democratic norms. We observe an active dismantling of CSR alongside the contraction and de-institutionalization of moral markets. As a result, CSR and sustainability have become highly polarized, reflecting broader political conflicts over the role of business in society.</p>
+    
+    <p>The consequences of these developments are visible in corporate behavior. Businesses have begun to withdraw from seemingly firm commitments to sustainability and are recalibrating their strategies and operational activities. Leading firms, including major U.S. Big Tech companies such as Meta and Amazon, have rolled back or abandoned diversity, equity, and inclusion (DEI) initiatives almost overnight, potentially to align with shifting political priorities. U.S. firms increasingly adopt a reverse CSR approach, curtailing DEI efforts to appease political leadership or engaging in symbolic acts of proximity to power. Concepts such as &quot;greenhushing&quot;—the deliberate under-communication of CSR activities to avoid public and political attention—are once again becoming more important.</p>
+    
+    <p>Overall, we witness the rise of populist and nationalist movements across Western democracies that eroded the political consensus and Zeitgeist supporting corporate responsibility frameworks. Alongside polarization, geopolitical tensions such as the persistence of violent conflicts like the Russia-Ukraine war and the escalation of competition among major economic and political powers have shifted state and corporate priorities away from shared responsibility toward national interests and security concerns. For instance, in November 2025, the European Parliament voted to substantially weaken corporate sustainability rules and green investments, exempting over 80% of companies from due diligence requirements, in favor of rearmament and economic competitiveness priorities.</p>
+    
+    <p>This trend has redefined sustainability itself. ESG funds that once excluded weapon manufacturers on ethical grounds are now promoting &quot;defense funds&quot; framed around protecting freedom and democracy. Similarly, the British government has encouraged private investors to reassess defense as a positive ESG category. Overall, rising polarization, particularly in Europe following the Russia-Ukraine war as well as the Israel-U.S.-Iran war, has enabled political and business actors to reshape CSR and ESG frameworks to morally legitimize investments in the arms industry, long regarded as a &quot;sin industry&quot; and excluded by sustainable investors.</p>
+    
+    <p>The instrumentalization of CSR for political purposes is not a new phenomenon. In autocratic contexts such as China or in many African countries, CSR has often been used to strengthen governmental relations and fulfill political rather than social objectives. What is new is the growing reconceptualization of CSR in democratic contexts to serve national and geopolitical interests rather than universal social or environmental goals as well as the concern that elites in these countries have been more accepting of autocratization and democratic backsliding to serve geopolitical interests.</p>
+    
+    <p>The consequence of these developments is that the intersection and repercussions of societal polarization, politicization, and securitization are fragmenting CSR itself: its overall meaning and scope, its broader role in guiding business&#39;s place in society, and the way CSR is being strategized and operationalized by business firms. As corporations realign around national interests rather than universal norms, CSR is becoming more diverse and context-specific, leading to divergent approaches shaped by geopolitical and domestic political factors. These emerging CSR models remain poorly understood. Against this backdrop, this special issue is guided by the overarching question: What does Corporate Social Responsibility entail in times of societal polarization, politicization, and securitization?</p>
+    
+    
+    <h2>Potential topics</h2>
     <ul>
         
-        <li>March 1, 2027: Submissions</li>
+        <li>What responsibilities do firms assume when navigating heightened political and societal tensions?</li>
+        
+        <li>What does &quot;responsible&quot; corporate behavior mean in today&#39;s polarized global political economy?</li>
+        
+        <li>How is CSR evolving to address the complex moral and strategic challenges of an increasingly divided world?</li>
+        
+        <li>Do corporations counter populist and illiberal politics, or primarily align with dominant power structures?</li>
+        
+        <li>How do firms recalibrate ESG and CSR commitments while maintaining legitimacy across diverse stakeholders?</li>
+        
+        <li>Which role does CSR play in specific industries such as defense industrial complex, including defense-focused tech firms?</li>
+        
+        <li>To what extent has CSR enabled corporate political activity (CPA) that influences democratic governance in ways that advance corporate interests?</li>
+        
+        <li>How do new forms of &quot;reverse CSR&quot; or politically adaptive responsibility emerge?</li>
+        
+        <li>How does the geographical context influence the conceptualization of CSR?</li>
+        
+        <li>Is CSR diffusing from autocratic to democratic contexts as a tool of political signaling rather than social progress?</li>
+        
+        <li>How do the underlying philosophical and epistemological assumptions of CSR differ across contexts?</li>
+        
+        <li>How can established theoretical perspectives account for geopolitically fragmented CSR models?</li>
+        
+        <li>How can nationalistic or &quot;Western populist&quot; CSR be conceptualized in a priori democratic contexts?</li>
+        
+        <li>What theoretical frameworks need to be developed to account for the instrumentalization of CSR for national and geopolitical purposes?</li>
+        
+        <li>Which role does CSR play in contexts of violent conflict?</li>
+        
+        <li>How do security demands shape CSR&#39;s definition and scope?</li>
+        
+        <li>What new priorities emerge when CSR is applied in the defense industry, particularly regarding process vs. product dimensions?</li>
+        
+        <li>How do polarization, politicization, and securitization collectively shape CSR trajectories, and what role do businesses, governments, and other stakeholders play?</li>
+        
+        <li>How do businesses weigh and prioritize imperatives posed by polarization, politicization, and securitization, and how does this influence their CSR agendas?</li>
+        
+        <li>How do businesses recalibrate their CSR strategies to account for new and competing societal priorities?</li>
+        
+        <li>How do governments integrate these dynamics when devising or revising CSR regulations?</li>
+        
+        <li>Do we see emerging surveillance states arising from mutually beneficial collaborations between the defense-industrial complex (including tech firms) and governments?</li>
+        
+        <li>Do we observe any sidelining or dismantling of international institutions and cooperation structures established after the Second World War?</li>
+        
+        <li>How do societal stakeholders navigate this nexus when formulating expectations towards businesses and exerting pressure?</li>
         
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Business &amp; Society (SAGE)</author>
-        </item>
-        <item>
-            <title><![CDATA[Collective Actorhood and Organizationality: Recalibrating Responsibility in Business-Society Relations]]></title>
-            <link>https://kerostig.org/call/sage-collective-actorhood-and-organizationality-recalibrating-responsibility-in-business-society-relations</link>
-            <guid>sage-collective-actorhood-and-organizationality-recalibrating-responsibility-in-business-society-relations</guid>
-            <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
     <h2>Timeline</h2>
     <ul>
         
-        <li>September 1, 2026: Paper submission deadline</li>
+        <li>September 1, 2026: Deadline for extended abstract submission for paper development workshop</li>
+        
+        <li>October 5, 2026: Online pre-submission workshop (participation optional)</li>
+        
+        <li>August 1, 2027: Submission window opens</li>
+        
+        <li>August 31, 2027: Submission window closes</li>
         
     </ul>
     

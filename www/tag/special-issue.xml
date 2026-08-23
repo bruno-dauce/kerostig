@@ -4,7 +4,7 @@
         <title>kerostig | Tag : special issue</title>
         <link>https://kerostig.org/tag/special-issue</link>
         <description>Derniers appels à publications avec le tag 'special issue'.</description>
-        <lastBuildDate>Fri, 21 Aug 2026 03:25:16 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 03:13:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,22 +14,6 @@
             <link>https://kerostig.org/tag/special-issue</link>
         </image>
         <copyright>kerostig © 2026</copyright>
-        <item>
-            <title><![CDATA[10th Anniversary Organizational Frontlines]]></title>
-            <link>https://kerostig.org/call/sage-10th-anniversary-organizational-frontlines-special-issue</link>
-            <guid>sage-10th-anniversary-organizational-frontlines-special-issue</guid>
-            <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    <p>This special issue commemorates the 10th anniversary of Organizational Frontlines Research (OFR) and invites submissions from authors interested in contributing to the field. The issue is coordinated with the 2025 OFR Symposium, which includes JSR-SI (Journal of Strategic Research - Special Issue) workshops designed to support and develop interested authors.</p>
-    
-    
-    
-    
-</div>]]></content:encoded>
-            <author>Journal of Service Research (SAGE)</author>
-        </item>
         <item>
             <title><![CDATA[Special Issue Proposals]]></title>
             <link>https://kerostig.org/call/wiley-call-for-special-issue-proposals</link>
@@ -75,31 +59,6 @@
     
 </div>]]></content:encoded>
             <author>Journal of Supply Chain Management (WILEY)</author>
-        </item>
-        <item>
-            <title><![CDATA[Special Issue Proposals]]></title>
-            <link>https://kerostig.org/call/wiley-outlined-here</link>
-            <guid>wiley-outlined-here</guid>
-            <pubDate>Mon, 17 Aug 2026 15:52:40 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    <p>The Journal of Consumer Behaviour has put in place a new process for proposing new Special Issues. Authors wishing to propose a Special Issue should follow the procedure outlined and fill in the attached application form.</p>
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 1, 2025: Application submission window for Special Issue Proposals</li>
-        
-        <li>August 15, 2025: Submission deadline for Special Issue Proposal applications</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Journal of Consumer Behaviour (WILEY)</author>
         </item>
     </channel>
 </rss>
