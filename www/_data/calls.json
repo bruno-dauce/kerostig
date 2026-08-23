@@ -17875,39 +17875,6 @@
     "gracePeriod": "2026-09-11T04:26:53.283Z"
   },
   {
-    "journal": "Transportation Research Part A: Policy and Practice",
-    "abbreviation": "elsevier",
-    "issn": "1879-2375",
-    "metaTitle": "Advancing demand management policies for more affordable, accessible and efficient transport systems",
-    "url": "https://www.sciencedirect.com/special-issue/324272/advancing-demand-management-policies-for-more-affordable-accessible-and-efficient-transport-systems",
-    "title": "Advancing demand management policies for more affordable, accessible and efficient transport systems",
-    "slug": "elsevier-advancing-demand-management-policies-for-more-affordable-accessible-and-efficient-transport-systems-2",
-    "contentHash": "5cdaf45b92cede4bf89ad3f5e1ccb1feee7234401ac40ac1a604cffb805ec65b",
-    "topics": [],
-    "description": {
-      "paragraphs": [
-        "This special issue seeks to advance our understanding of demand management policies and strategies that contribute to more affordable, accessible, and efficient transport systems."
-      ]
-    },
-    "tags": [
-      "transportation",
-      "demand management",
-      "transport policy"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-07-30T10:00:00.000Z",
-        "description": "Full paper submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
-  },
-  {
     "journal": "Academy of Management Perspectives",
     "abbreviation": "aom",
     "issn": "1558-9080",
