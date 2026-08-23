@@ -30,7 +30,29 @@ export async function clean(issues) {
         issue = await hash(issue);
         results.push(issue);
     }
-    return results;
+
+    // Second filet, apres calcul du contentHash : le meme appel peut arriver
+    // deux fois sous deux URL differentes (constate sur SAGE le 23 aout 2026,
+    // deux liens PDF vers le meme document). Le filtre par URL ci-dessus ne
+    // les voit pas. integrateCalls resolvait alors les deux vers la meme
+    // entree ancienne via oldHashMap et la poussait deux fois, d'ou des
+    // doublons stricts dans calls.json et un build en echec sur
+    // DuplicatePermalinkOutputError. On garde la premiere occurrence, qui
+    // porte le slug de base -- la suivante aurait le suffixe -2.
+    // Pas de faux positif quand rawContent est vide : le hash retombe alors
+    // sur le slug, unique par construction dans ce lot.
+    const seenHashes = new Set();
+    const dedoublonnes = results.filter(issue => {
+        if (seenHashes.has(issue.contentHash)) return false;
+        seenHashes.add(issue.contentHash);
+        return true;
+    });
+    if (dedoublonnes.length < results.length) {
+        // Sans cette ligne, l'evenement est indetectable : c'est ce qui a
+        // rendu le cas SAGE si long a identifier.
+        console.warn(`[clean] ${results.length - dedoublonnes.length} appel(s) ecarte(s), contenu deja vu sous une autre URL`);
+    }
+    return dedoublonnes;
 }
 
 // Certains scrapers (API JSON, ex. Taylor & Francis) peuvent fournir ces
