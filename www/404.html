@@ -1,7 +1,18 @@
 ---
 layout: layouts/base.html
 eleventyExcludeFromCollections: true
+title: "kerostig | Page introuvable"
+description: "La page demandée n'existe pas."
+permalink: /404.html
 ---
 
-<h1 class="text-7xl font-extrabold leading-tight mb-8 mt-16">Oops!</h1>
-<p class="text-xl">We can't seem to find the call for papers you're looking for.</p>
+{# permalink: /404.html, et non le permalink par defaut qui aurait ecrit
+   public/404/index.html. Cloudflare Pages ne cherche la page d'erreur qu'a un
+   seul endroit, 404.html a la racine de la sortie ; faute de l'y trouver il
+   bascule sur son repli mono-page et sert index.html en 200. Toute URL erronee
+   devenait donc un clone indexable de l'accueil, avec sa canonique vers /.
+   Ne pas remettre ce fichier dans un dossier. #}
+
+<h1 class="text-4xl font-extrabold leading-tight mb-4 mt-16">Cette page n'existe pas</h1>
+<p class="text-lg opacity-80 mb-8">L'appel ou la revue que vous cherchez n'est peut-être plus disponible.</p>
+<a href="{{ '/' | url }}" class="btn btn-sm btn-primary">Consulter tous les appels ouverts</a>

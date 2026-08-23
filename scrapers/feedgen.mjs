@@ -44,7 +44,7 @@ for (const call of calls) {
     rssFeed.addItem({
         title: call.title ? call.title : call.metaTitle,
         id: call.slug,
-        link: `${siteUrl}/call/${call.slug}`,
+        link: `${siteUrl}/call/${call.slug}/`,
         date: new Date(call.pubDate),
         author: [
             {
@@ -75,7 +75,7 @@ for (const [key, journalCalls] of Object.entries(journalGroups)) {
         title: `${siteName} | ${firstCall.journal}`,
         description: `Derniers appels à publications pour ${firstCall.journal}.`,
         id: `${siteUrl}/journal/${slugify(firstCall.journal, { lower: true, strict: true })}`,
-        link: `${siteUrl}/journal/${slugify(firstCall.journal, { lower: true, strict: true })}`,
+        link: `${siteUrl}/journal/${slugify(firstCall.journal, { lower: true, strict: true })}/`,
         language: "fr",
         image: `${siteUrl}/public/favicon/android-chrome-96x96.png`,
         favicon: `${siteUrl}/public/favicon/favicon.ico`,
@@ -91,7 +91,7 @@ for (const [key, journalCalls] of Object.entries(journalGroups)) {
         journalFeed.addItem({
             title: call.title ? call.title : call.metaTitle,
             id: call.slug,
-            link: `${siteUrl}/call/${call.slug}`,
+            link: `${siteUrl}/call/${call.slug}/`,
             date: new Date(call.pubDate),
             author: [
                 {
@@ -129,7 +129,7 @@ for (const [tag, tagCalls] of Object.entries(tagGroups)) {
         title: `${siteName} | Tag : ${tag}`,
         description: `Derniers appels à publications avec le tag '${tag}'.`,
         id: `${siteUrl}/tag/${slugify(tag, { lower: true, strict: true })}`,
-        link: `${siteUrl}/tag/${slugify(tag, { lower: true, strict: true })}`,
+        link: `${siteUrl}/tag/${slugify(tag, { lower: true, strict: true })}/`,
         language: "fr",
         image: `${siteUrl}/public/favicon/android-chrome-96x96.png`,
         favicon: `${siteUrl}/public/favicon/favicon.ico`,
@@ -145,7 +145,7 @@ for (const [tag, tagCalls] of Object.entries(tagGroups)) {
         tagFeed.addItem({
             title: call.title ? call.title : call.metaTitle,
             id: call.slug,
-            link: `${siteUrl}/call/${call.slug}`,
+            link: `${siteUrl}/call/${call.slug}/`,
             date: new Date(call.pubDate),
             author: [
                 {

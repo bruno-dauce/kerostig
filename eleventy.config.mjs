@@ -573,6 +573,31 @@ export default async function (eleventyConfig) {
         return calls.filter(appelAffichable);
     });
 
+    // Seuil d'indexation d'une page tag, en nombre d'appels reellement affiches.
+    //
+    // Sur les 1266 pages tag generees, 226 n'affichent aucun appel (leur unique
+    // appel est clos, isActiveCall le retire) et 822 n'en affichent qu'un. Des
+    // centaines de pages qui ne different que par un titre : Google les regroupe
+    // en doublons et choisit lui-meme un representant, d'ou les motifs « page en
+    // double » de la Search Console. En dessous du seuil, la page part en
+    // noindex -- elle reste generee et navigable pour qui arrive par un lien ou
+    // filtre par mot-cle, seule l'indexation tombe.
+    //
+    // Le compte se fait sur appelAffichable, exactement ce que isActiveCall
+    // applique dans tags-pages.njk pour rendre les cartes. La balise doit
+    // decrire ce que la page montre : appelOuvert, plus strict, ne convient pas
+    // ici (il masquerait des pages qui affichent encore deux appels).
+    const SEUIL_INDEXATION_TAG = 2;
+
+    // Un seul point de verite, appele par meta.html pour la balise robots et par
+    // sitemap.xml.njk pour l'inclusion de l'URL. Les deux doivent dire la meme
+    // chose : annoncer dans le sitemap une URL qu'on marque noindex est une
+    // contradiction que la Search Console remonte telle quelle.
+    eleventyConfig.addFilter("pageTagIndexable", function (tag) {
+        if (!tag || !Array.isArray(tag.calls)) return true;
+        return tag.calls.filter(appelAffichable).length >= SEUIL_INDEXATION_TAG;
+    });
+
     // Un appel clos garde sa page (call-pages.njk pagine sur tous les appels,
     // les URLs restent valides), mais elle porte un bandeau d'archive.
     eleventyConfig.addFilter("estAppelCloture", function (call) {

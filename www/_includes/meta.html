@@ -1,7 +1,19 @@
 <title>{{ title }}</title>
 
 <meta name="description" content="{{ description }}">
+{# Le site est indexable par defaut ; une page peut demander l'inverse en posant
+   robots dans ses donnees. Le seul cas automatique aujourd'hui est celui des
+   pages tag trop maigres : la regle et son pourquoi sont dans le filtre
+   pageTagIndexable (eleventy.config.mjs), que sitemap.xml.njk lit aussi.
+   follow est conserve dans tous les cas, pour que les liens de la page vers les
+   fiches appel continuent de compter. #}
+{% if robots %}
+<meta name="robots" content="{{ robots }}">
+{% elif tag | pageTagIndexable %}
 <meta name="robots" content="index,follow">
+{% else %}
+<meta name="robots" content="noindex,follow">
+{% endif %}
 <meta name="author" content="{{ author }}">
 
 <link rel="canonical" href="{{ meta.url }}{{ page.url | url }}">

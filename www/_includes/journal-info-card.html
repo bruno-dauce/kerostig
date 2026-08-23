@@ -4,7 +4,7 @@
 
     <div>
       <p class="text-xs uppercase opacity-60 font-semibold mb-1">La revue</p>
-      <a href="{{ '/journal/' + revue.slug | url }}" class="font-bold leading-snug hover:underline">{{ revue.titre }}</a>
+      <a href="{{ ('/journal/' + revue.slug + '/') | url }}" class="font-bold leading-snug hover:underline">{{ revue.titre }}</a>
       {% if revue.editeur %}<p class="text-xs opacity-70 mt-0.5">{{ revue.editeur }}</p>{% endif %}
     </div>
 
@@ -79,7 +79,7 @@
 
     </dl>
 
-    <a href="{{ '/journal/' + revue.slug | url }}" class="btn btn-sm btn-outline mt-1">Voir la fiche revue</a>
+    <a href="{{ ('/journal/' + revue.slug + '/') | url }}" class="btn btn-sm btn-outline mt-1">Voir la fiche revue</a>
 
   </div>
 </aside>

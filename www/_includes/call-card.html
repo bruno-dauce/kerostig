@@ -32,7 +32,7 @@
                sur le metaTitle du scraper plutot que de sortir du site vers la source,
                qui peut etre un PDF ou une page d'editeur sans rapport. #}
             {% set titreAffiche = call.title if call.title else call.metaTitle %}
-            <a href="{{ ('/call/' + call.slug) | url }}" class="hover:underline">
+            <a href="{{ ('/call/' + call.slug + '/') | url }}" class="hover:underline">
                 <h2 class="text-lg font-bold leading-snug">{{ titreAffiche }}</h2>
             </a>
             {% if dueDate %}
@@ -55,7 +55,7 @@
            jointure appel-revue vers l'ISSN ; ce garde-fou reste utile apres,
            pour toute revue hors perimetre FNEGE. #}
         {% if revue %}
-        <a href="{{ ('/journal/' + revue.slug) | url }}" class="text-xs font-semibold opacity-70 hover:opacity-100 uppercase">
+        <a href="{{ ('/journal/' + revue.slug + '/') | url }}" class="text-xs font-semibold opacity-70 hover:opacity-100 uppercase">
             {{ call.journal }}
         </a>
         {% else %}
@@ -83,13 +83,13 @@
         {% if call.tags and call.tags.length %}
         <div class="flex flex-wrap gap-1">
             {% for tag in call.tags %}
-            <a href="{{ '/tag/' + (tag | slug) | url }}" class="badge badge-sm bg-base-100 border-0 opacity-70 hover:opacity-100 text-xs">{{ tag }}</a>
+            <a href="{{ ('/tag/' + (tag | slug) + '/') | url }}" class="badge badge-sm bg-base-100 border-0 opacity-70 hover:opacity-100 text-xs">{{ tag }}</a>
             {% endfor %}
         </div>
         {% endif %}
 
         <div class="flex items-center justify-between mt-1 pt-2 border-t border-base-300">
-            <a href="{{ ('/call/' + call.slug) | url }}" class="text-xs font-semibold hover:underline" style="color:#2B5F8E">Voir l'appel</a>
+            <a href="{{ ('/call/' + call.slug + '/') | url }}" class="text-xs font-semibold hover:underline" style="color:#2B5F8E">Voir l'appel</a>
             {% if call.url %}
             <a href="{{ call.url }}" target="_blank" rel="noopener" class="text-xs opacity-70 hover:opacity-100 flex items-center gap-1">
                 Source
