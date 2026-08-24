@@ -4645,18 +4645,20 @@
     "issn": "1468-2389",
     "metaTitle": "seen here",
     "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14682389/IJSA%20Special%20Issue%20Call%20for%20Proposals-1616513564887.pdf",
-    "title": "seen here",
+    "title": "Current Calls for Papers",
     "slug": "wiley-seen-here",
-    "contentHash": "d0b5209ad13c1f59ba22fa5d5dc5574981591ce276913e52a35c72415b69ffdf",
+    "contentHash": "5b8b44a878be82f1945d108c9690699012d9909dc65fe30f55b48c320807ea30",
     "topics": [],
     "description": {
       "paragraphs": [
-        "This page is dedicated to current Calls for Papers. This journal welcomes submissions within the scope of each individual call.",
-        "Submissions should be prepared according to the Author Guidelines.",
+        "This journal welcomes submissions within the scope of each individual call. Submissions should be prepared according to the Author Guidelines.",
         "The Editorial team are also inviting submissions of new special issue proposals."
       ]
     },
-    "tags": [],
+    "tags": [
+      "calls for papers",
+      "special issues"
+    ],
     "editors": [],
     "associate_editors": [],
     "dates": [],
@@ -5171,28 +5173,29 @@
     "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/Final_2025_JCB_SI_Template-1743697545893.docx",
     "title": "Special Issue Proposals",
     "slug": "wiley-outlined-here",
-    "contentHash": "8dd86431477b5e1b15786dfe16eae067d86749e210aa1655a8d90cbf2b963ed4",
+    "contentHash": "82de30f48f17e88127abdff13702ee5145e244f7f06fdd6c3567fc4f97909884",
     "topics": [],
     "description": {
       "paragraphs": [
-        "The Journal of Consumer Behaviour has put in place a new process for proposing new Special Issues. Authors wishing to propose a Special Issue should follow the procedure outlined and fill in the attached application form."
+        "The Journal of Consumer Behaviour has put in place a new process for proposing new Special Issues. Authors wishing to propose a Special Issue should follow the procedure outlined in the template and fill in the attached application form."
       ]
     },
     "tags": [
-      "special issue proposals"
+      "special issue proposals",
+      "journal of consumer behaviour"
     ],
     "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2025-08-15T10:00:00.000Z",
-        "description": "Application submission deadline for Special Issue Proposals (i.e., Special Issue Proposals for 2026/2027)",
-        "is_full_paper_submission_deadline": true
+        "date": "2025-08-01T10:00:00.000Z",
+        "description": "Window for application submission for Special Issue Proposals",
+        "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-08-01T10:00:00.000Z",
-        "description": "Application submission window opens for Special Issue Proposals",
-        "is_full_paper_submission_deadline": false
+        "date": "2025-08-15T10:00:00.000Z",
+        "description": "Submission deadline for an application for a Special Issue Proposal",
+        "is_full_paper_submission_deadline": true
       }
     ],
     "active": false,
@@ -17847,6 +17850,520 @@
     "gracePeriod": "2026-09-11T04:26:53.283Z"
   },
   {
+    "journal": "Management Science",
+    "abbreviation": "informs",
+    "issn": "1526-5501",
+    "metaTitle": "Business and Its Interrelationship with Democratic Resilience, Geopolitics, and Society in a Time of Change",
+    "url": "https://doi.org/10.1287/mnsc.2025.call.v71.n9",
+    "title": "Business and Its Interrelationship with Democratic Resilience, Geopolitics, and Society in a Time of Change",
+    "slug": "informs-business-and-its-interrelationship-with-democratic-resilience-geopolitics-and-society-in-a-time-of-change",
+    "contentHash": "408f23d107099d9c422a5c303ffe1a14ef5a93acc393a67b693395b25453ec87",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "In the 2020s, the business environment is changing faster and more profoundly than at any time since the middle of the previous century. Many of these trends increase the exposure to systemic risks for business, endangering their thriving, growing, and successful integration in their societies.",
+        "What are the implications of these trends for the private sector? Do companies need to worry about these changes? More academic research is needed to better understand the impact of the outlined trends on business."
+      ]
+    },
+    "tags": [
+      "business",
+      "democratic resilience",
+      "geopolitics",
+      "systemic risk"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-10-06T10:00:00.000Z",
+        "description": "Submission Deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
+    "journal": "Management Science",
+    "abbreviation": "informs",
+    "issn": "1526-5501",
+    "metaTitle": "Call for Registered Report Proposals",
+    "url": "https://pubsonline.informs.org/pb-assets/filesmnsc/Submission_Criteria_PCAOB_Conference-1743615318603.pdf",
+    "title": "Registered Report Proposals",
+    "slug": "informs-call-for-registered-report-proposals",
+    "contentHash": "d2feb8cd25fe9a1aa2ea63f83b928a3f5641828264a878f8d16515460bdf4588",
+    "topics": [
+      "Audit-related research topics",
+      "Areas of significance to the PCAOB's mission",
+      "Emerging challenges in the audit landscape",
+      "Collaboration between academics, practitioners, and regulators"
+    ],
+    "description": {
+      "paragraphs": [
+        "Management Science (MS) and the Public Company Accounting Oversight Board (PCAOB) are pleased to announce a joint conference focused on registered report proposals relating to audit-related topics.",
+        "The conference will be held in-person in Washington, D.C., on September 26-27, 2025. Researchers are invited to submit registered report proposals for consideration for presentation at the conference.",
+        "The PCAOB and MS conference aims to facilitate collaboration among academics, practitioners, and regulators to address emerging challenges in the audit landscape by stimulating academic interest in areas of significance to the PCAOB's mission."
+      ]
+    },
+    "tags": [
+      "audit",
+      "registered reports",
+      "accounting"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-05-15T10:00:00.000Z",
+        "description": "Submission deadline for registered report proposals",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2025-09-26T10:00:00.000Z",
+        "description": "Conference in Washington, D.C.",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
+    "journal": "Management Science",
+    "abbreviation": "informs",
+    "issn": "1526-5501",
+    "metaTitle": "Virtual AI for Business and Finance Decisions",
+    "url": "https://pubsonline.informs.org/pb-assets/filesmnsc/Submission_Criteria_2025_PCAOB-1744123378127.pdf",
+    "title": "AI for Business and Finance Decisions",
+    "slug": "informs-virtual-ai-for-business-and-finance-decisions",
+    "contentHash": "c45021b035652aa5577190b400a813be706683f589802d6f8af0fef3c900f5ed",
+    "topics": [
+      "Economics of AI and machine learning",
+      "Methodology and algorithms for decision making, optimization, inference and prediction",
+      "Applications of AI and novel data analytics in finance and business",
+      "Theoretical and empirical work on AI in practice",
+      "Interdisciplinary research combining AI with business and finance",
+      "Novel frameworks transcending traditional departmental boundaries"
+    ],
+    "description": {
+      "paragraphs": [
+        "The interdepartmental virtual special issue on AI for finance and business decisions aims to explore the transformative impact of AI and attract top-quality research on the economics, methodology, and applications of AI and novel data analytics in practice and research in finance and business decisions.",
+        "Both theoretical and empirical work is welcome, and studies developing new methods for decision making, optimization, inference and prediction, and interdisciplinary research are encouraged. The special issue especially welcomes submissions that transcend the departmental boundaries and explore unconventional frameworks."
+      ]
+    },
+    "tags": [
+      "ai",
+      "finance",
+      "business decisions",
+      "machine learning",
+      "data analytics"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-12-31T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
+    "journal": "Management Science",
+    "abbreviation": "informs",
+    "issn": "1526-5501",
+    "metaTitle": "Virtual Digital Finance",
+    "url": "https://doi.org/10.1287/mnsc.2024.call.v70.n8",
+    "title": "Digital Finance",
+    "slug": "informs-virtual-digital-finance",
+    "contentHash": "2541f083c36e09a3d8967c3d0dc2028596a70dd95aa485cc29a897261f02b9a6",
+    "topics": [
+      "Mobile banking and digital wallets",
+      "Fintech innovations and robo-advisors",
+      "Financial inclusion strategies in the digital age",
+      "Risk management frameworks for digital finance",
+      "Capital and information flow in digital financial systems",
+      "Systemic impacts of digital finance",
+      "Novel methodologies for analyzing digital finance",
+      "Regulatory frameworks for digital finance",
+      "Consumer behavior in digital financial environments",
+      "Integration of digital technologies into existing financial ecosystems",
+      "Economic implications of digital finance growth"
+    ],
+    "description": {
+      "paragraphs": [
+        "In the ever-evolving landscape of finance, digital technologies have carved out a transformative path that challenges traditional paradigms and induces impactful financial innovations. The emergence of digital finance, encompassing everything from mobile banking and digital wallets to fintech innovations and robo-advisors, has not only reshaped consumer behavior, but also redefined the architecture of financial systems worldwide.",
+        "This digital revolution prompts a reevaluation of financial inclusion strategies, risk management frameworks, and the overall fluidity of capital and information. As these technologies advance, there is an increasing need for robust theoretical foundations and extensive empirical studies to guide their development, optimize their integration into existing financial ecosystems, and ensure that their regulation keeps pace with innovation.",
+        "The special issue aims to explore these themes, seeking contributions that address the systemic impacts of digital finance, propose novel methodologies for its analysis, and examine the broader economic implications of its rapid growth."
+      ]
+    },
+    "tags": [
+      "digital finance",
+      "fintech",
+      "financial technology",
+      "financial innovation"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-06-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
+    "journal": "Management Science",
+    "abbreviation": "informs",
+    "issn": "1526-5501",
+    "metaTitle": "The Human-Algorithm Connection",
+    "url": "https://pubsonline.informs.org/pb-assets/filesmnsc/MS_Special_Issue_on_The_Human-Algorithm_Connection_Final-1633375494960.pdf",
+    "title": "The Human-Algorithm Connection",
+    "slug": "informs-the-human-algorithm-connection",
+    "contentHash": "de15f3116ae0d85108c4c6781c8e702b1568015cc47f2e492b85c447cea98c71",
+    "topics": [
+      "Research on human-algorithm coexistence and interaction",
+      "Decision-making with algorithms and machines",
+      "Human factors in algorithmic systems",
+      "Improving human-algorithm collaboration",
+      "Applications of algorithms, machines, and apps in organizational contexts"
+    ],
+    "description": {
+      "paragraphs": [
+        "The special issue on the human-algorithm connection seeks to attract research that gives decision-makers a better understanding of the coexistence of humans with algorithms and how to improve it. The work must have an important human component (i.e., purely focusing on algorithms won't suffice) and algorithms can be understood in a broad sense including machines and apps.",
+        "Top quality papers in any of the research areas represented by Management Science are welcome, both theoretical and empirical. Interdisciplinary studies are also highly encouraged."
+      ]
+    },
+    "tags": [
+      "human-algorithm interaction",
+      "decision-making",
+      "algorithms",
+      "interdisciplinary"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2022-12-22T11:00:00.000Z",
+        "description": "Submission Deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
+    "journal": "Organization Science",
+    "abbreviation": "informs",
+    "issn": "1526-5455",
+    "metaTitle": "AI-Enabled Frontiers in Organizational Science",
+    "url": "https://pubsonline.informs.org/pb-assets/filesorsc/CFP_AI-Enabled%20Frontiers%20in%20Organizational%20Science-1785685920943.pdf",
+    "title": "AI-Enabled Frontiers in Organizational Science",
+    "slug": "informs-ai-enabled-frontiers-in-organizational-science",
+    "contentHash": "4321d848c9bf76ed748a6986c9242fd8bc933b94529ec06a704af1a86d074dd7",
+    "topics": [
+      "AI-enabled research loops under human direction",
+      "Reusable research infrastructure",
+      "New forms of measurement",
+      "AI-enabled qualitative and theory-building work",
+      "Synthetic social systems",
+      "New approaches to established research designs",
+      "Critical or boundary-setting work on the limits of AI-enabled science",
+      "Reimagining social science research contributions in an AI-enabled world"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue asks a fundamental question about artificial intelligence and social science: do we want it to produce faster, cheaper versions of what we already do, or do we want fundamentally new science? Returning to Organization Science's founding mission—Daft and Lewin's 1990 call to break out of the \"normal science straitjacket\" and March's \"exploration of new possibilities\"—we want to shift our focus to how AI is changing the production of science and how it can expand our knowledge, rather than merely increasing the number of papers through efficiency and reduced labor.",
+        "In this call for science, we seek contributions that reimagine what a social science research contribution is in an AI-enabled world, encouraging wild ideas and radical innovation over obvious incremental improvement. We are not looking for conventional full-length papers with AI-related content, nor \"AI slop\"—we want the innovative applications themselves.",
+        "The issue follows a three-stage process—a research proposal and prototype, a collaborative development phase with an in-person workshop, and finalization—culminating in short Science/Nature-style articles and shorter \"letters,\" all treated as true peer-reviewed contributions. We welcome submissions from scholars across the social sciences and adjacent fields, so long as they address organizational or managerial implications, broadly interpreted."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "organizational science",
+      "research methodology",
+      "social science"
+    ],
+    "editors": [
+      {
+        "name": "Claudine Gartenberg",
+        "affiliation": ".pop"
+      },
+      {
+        "name": "Sharique Hasan",
+        "affiliation": ".pop"
+      },
+      {
+        "name": "Lamar Pierce",
+        "affiliation": ".pop"
+      },
+      {
+        "name": "Christopher Bail",
+        "affiliation": ".pop"
+      },
+      {
+        "name": "Hengchen Dai",
+        "affiliation": ".pop"
+      },
+      {
+        "name": "Oliver Hauser",
+        "affiliation": ".pop"
+      },
+      {
+        "name": "Hatim Rahman",
+        "affiliation": ".pop"
+      },
+      {
+        "name": "Dennis Zhang",
+        "affiliation": ".pop"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-01T10:00:00.000Z",
+        "description": "Submissions Open",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-11-01T11:00:00.000Z",
+        "description": "Submissions Close",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
+    "journal": "Organization Science",
+    "abbreviation": "informs",
+    "issn": "1526-5455",
+    "metaTitle": "Agency in the Age of AI",
+    "url": "https://pubsonline.informs.org/pb-assets/filesorsc/CFP_Agency%20in%20the%20Age%20of%20AI_post-1785685921070.pdf",
+    "title": "Agency in the Age of AI",
+    "slug": "informs-agency-in-the-age-of-ai",
+    "contentHash": "8c1778609c2f079cdf3cf2a2366e5ec33217506de511951e2500ff7388714189",
+    "topics": [
+      "Agency in organizations and how it changes with AI participation",
+      "Co-production of action by people and machines",
+      "Reconceptualizing agency: what it is, where it resides, and how it operates",
+      "Impact on organizational behavior and careers",
+      "Management and control in the age of AI",
+      "Strategy and entrepreneurship with agentic technologies",
+      "Institutional implications of changing agency",
+      "Sociology of work and AI",
+      "Information systems and autonomous action",
+      "Governance of autonomous action",
+      "Motivation, leadership, and decision-making with AI",
+      "Value creation with intelligent technologies"
+    ],
+    "description": {
+      "paragraphs": [
+        "Agency is central to organizational sciences and heavily debated. Assumptions about who can act, what acting requires, and who is answerable for results underlie theories of motivation, leadership, decision making, control, value creation, careers, institutions, and technological change. These views largely developed before intelligent technologies began participating in organizational action. As analytic, generative, and agentic AI increasingly participate in organizational action, intention, execution, and consequence—traditionally assumed to reside in a single human actor—are coming apart, and with them our settled sense of who exercises agency.",
+        "This special issue seeks theoretically ambitious work, whether conceptual or empirically grounded, that takes the changing production of action as its starting point. The issue is organized around two complementary aims: to reconsider agency itself—what it is, where it resides, and how it operates when action is co-produced by people and machines—and to understand how the changing nature of agency reshapes the phenomena in organizational fields, from organizational behavior and careers to management and control, strategy, entrepreneurship, institutions, the sociology of work, information systems, and the governance of autonomous action.",
+        "Submissions are welcomed from across the organizational sciences and from neighboring disciplines in sociology, economics, psychology, and the philosophy of action. Given the rapid pace of change in agentic technologies, the issue will follow an accelerated review process."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "agency",
+      "organizational theory",
+      "organizational behavior"
+    ],
+    "editors": [
+      {
+        "name": "Paul Leonardi",
+        "affiliation": ".pop"
+      },
+      {
+        "name": "Alex Murray",
+        "affiliation": ".pop"
+      },
+      {
+        "name": "Frank Nagle",
+        "affiliation": ".pop"
+      },
+      {
+        "name": "Nelson Phillips",
+        "affiliation": ".pop"
+      },
+      {
+        "name": "Juliana Schroeder",
+        "affiliation": ".pop"
+      },
+      {
+        "name": "Paula Ungureanu",
+        "affiliation": ".pop"
+      },
+      {
+        "name": "Elisa Villani",
+        "affiliation": ".pop"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-02-01T11:00:00.000Z",
+        "description": "Submissions due",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
+    "journal": "Manufacturing & Service Operations Management",
+    "abbreviation": "informs",
+    "issn": "1526-5498",
+    "metaTitle": "Operations Management for Developing Economies",
+    "url": "mailto: eftekhar@asu.edu",
+    "title": "Operations Management for Developing Economies",
+    "slug": "informs-operations-management-for-developing-economies",
+    "contentHash": "3c9f92532b1e753011b33c21fcc9e3ab3eb28f8ca2539a63054eb81ab731a980",
+    "topics": [
+      "Extending OM theory to economies at the bottom of the pyramid",
+      "Promoting economic prosperity in less-developed regions",
+      "Enhancing OM practice by integrating innovations from developing economies",
+      "Supply chain management in developing countries",
+      "Market dynamics and institutional constraints in developing economies",
+      "Cultural factors and local supply chains",
+      "Infrastructure and institutional challenges in resource-constrained environments",
+      "Currency fluctuations and foreign exchange risks",
+      "Informal sector operations",
+      "Local content requirements and domestic reliance"
+    ],
+    "description": {
+      "paragraphs": [
+        "According to the International Monetary Fund, 152 countries—home to approximately 6.87 billion people—are classified as emerging and developing economies. Despite this, much of the research published in top operations management journals remains focused on industrialized nations. Emerging and developing economies, home to over 85% of the global population, remain underrepresented in top OM journals.",
+        "This special issue aims to expand the field by advancing Development Operations Management (DOM)—a subfield akin to development economics. DOM focuses on designing and implementing strategies, policies, and solutions to enhance economic prosperity and industrial competitiveness in resource-constrained environments, aligning with the United Nations Sustainable Development Goals. This vision is inspired by impactful studies conducted by renowned development economists and Nobel laureates, whose work has shaped evidence-based approaches to addressing economic and social challenges in developing countries.",
+        "Although developed and developing economies may encounter similar supply chain and operations management issues, solutions effective in developed contexts often fail to translate due to structural differences. These include inadequate infrastructure, fragile institutions, political instability, currency fluctuations, and the prevalence of informal sectors. To tackle these complexities, it is vital to account for a range of local factors, including legal frameworks and foreign exchange risks, market dynamics, cultural norms, religious influences, and local content requirements such as reliance on domestic goods, services, and labor. Broadening the scope of research may necessitate incorporating new theories, tools, and methodologies designed to address the unique challenges that firms in developing nations face.",
+        "We welcome theoretical, empirical, and field-based research that focuses on the unique characteristics of developing countries—including market dynamics, institutional constraints, cultural factors, and local supply chains. Studies centered on multinational firms' operations in developing economies or humanitarian logistics fall outside the scope of this special issue."
+      ]
+    },
+    "tags": [
+      "operations management",
+      "developing economies",
+      "supply chain management",
+      "development economics"
+    ],
+    "editors": [
+      {
+        "name": "Mahyar Eftekhar",
+        "affiliation": "Arizona State University"
+      },
+      {
+        "name": "Serguei Netessine",
+        "affiliation": "University of Pennsylvania"
+      },
+      {
+        "name": "Yanchong Zheng",
+        "affiliation": "Massachusetts Institute of Technology"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-06-01T10:00:00.000Z",
+        "description": "Deadline for submission",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2026-09-01T10:00:00.000Z",
+        "description": "First-round decision and feedback",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-01T11:00:00.000Z",
+        "description": "Second-round submission (for papers invited to revise)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-06-01T10:00:00.000Z",
+        "description": "Final decisions (subject to minor revisions)",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
+    "journal": "Manufacturing & Service Operations Management",
+    "abbreviation": "informs",
+    "issn": "1526-5498",
+    "metaTitle": "M&SOM Responsible Retail Operations",
+    "url": "mailto:jan.fransoo@tilburguniversity.edu",
+    "title": "Responsible Retail Operations",
+    "slug": "informs-mandsom-responsible-retail-operations",
+    "contentHash": "53d4a57a7f7ae467647ec4f84913ae940b17b2fe697be2f41fcf8a6867ea7047",
+    "topics": [
+      "Waste in food, apparel and electronics retail",
+      "Labor conditions in stores and delivery operations",
+      "Carbon emissions generated by highly responsive online or on-demand retail operations",
+      "The role of retail stores in the livability of rural communities",
+      "The presence of food deserts and food banks in low-income urban communities",
+      "The subsistence role of retail stores in developing countries and communities",
+      "Data privacy concerns such as face recognition in stores or data tracking online"
+    ],
+    "description": {
+      "paragraphs": [
+        "Retail, defined as the activity of selling goods or services directly to the end consumers, is among the largest employers and largest industry sectors in both developed and developing economies. Research in retail operations has grown tremendously over the last two decades since the initial seminal work by Fisher et al. (2000). Since then, the retail landscape has changed enormously, specifically because the development of online and on-demand retail. This development has been characterized in a review of 20 years of research in this journal (Caro et al. 2020). Research in operations management has followed this change in industry structure, with both modeling and empirical papers studying a wide variety of retail formats and retail channels. However, with little exception, the focus of these studies is more or less entirely on profit-maximizing objectives of the retailer, without much attention to considerations of sustainability and social responsibility.",
+        "Within the wider scope of responsible operations, retail has an important and visible role to play that has received increasing attention in the society at large. We strongly believe that it is the role of academic research to address the wider scope of responsible operations in retail, beyond the mere profitability of companies and business models in the sector.",
+        "With this special issue, we call for innovative and impactful research that advances the theoretical and empirical understanding of responsible retail operations, and provides managers and educators with tools and insights to deploy more responsibility in retail operations. We are open to any research methods, including theoretical, empirical and behavioral work.",
+        "For a paper to qualify, two conditions need to be met: (1) The outcome variable/objective function needs to include a responsible metric, i.e., it is not enough to have a traditional cost/profit outcome variable/model that evaluates the effects on a responsible outcome, or a traditional cost/profit outcome variable/model that is set in a setting where responsible outcomes play a role. (2) The setting must be retail, defined as a directly consumer-facing activity, with the end-consumer (households or individuals) paying for a product or a service. In this definition, we decide to include not only physical stores and online retail for physical products, but also restaurants, banks, airlines, amusement parks, etc., but decide to exclude healthcare services."
+      ]
+    },
+    "tags": [
+      "retail operations",
+      "responsible operations",
+      "sustainability",
+      "social responsibility"
+    ],
+    "editors": [
+      {
+        "name": "Jan C. Fransoo",
+        "affiliation": "Tilburg University"
+      },
+      {
+        "name": "Dorothee Honhon",
+        "affiliation": "University of Texas at Dallas"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-01-01T11:00:00.000Z",
+        "description": "Deadline for confidential extended abstract scope check submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-08-01T10:00:00.000Z",
+        "description": "Deadline for submissions",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2025-11-01T11:00:00.000Z",
+        "description": "First-round decisions and feedback",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-05-01T10:00:00.000Z",
+        "description": "Second-round submission for papers invited to revise",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-09-01T10:00:00.000Z",
+        "description": "Final decisions subject to minor revisions",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
     "journal": "Academy of Management Perspectives",
     "abbreviation": "aom",
     "issn": "1558-9080",
@@ -18245,529 +18762,6 @@
     ],
     "active": true,
     "pubDate": "2026-08-11T01:40:43.907Z"
-  },
-  {
-    "journal": "Management Science",
-    "abbreviation": "informs",
-    "issn": "1526-5501",
-    "metaTitle": "Business and Its Interrelationship with Democratic Resilience, Geopolitics, and Society in a Time of Change",
-    "url": "https://doi.org/10.1287/mnsc.2025.call.v71.n9",
-    "title": "Business and Its Interrelationship with Democratic Resilience, Geopolitics, and Society in a Time of Change",
-    "slug": "informs-business-and-its-interrelationship-with-democratic-resilience-geopolitics-and-society-in-a-time-of-change",
-    "contentHash": "408f23d107099d9c422a5c303ffe1a14ef5a93acc393a67b693395b25453ec87",
-    "topics": [],
-    "description": {
-      "paragraphs": [
-        "In the 2020s, the business environment is changing faster and more profoundly than at any time since the middle of the previous century. Many of these trends increase the exposure to systemic risks for business, endangering their thriving, growing, and successful integration in their societies.",
-        "What are the implications of these trends for the private sector? Do companies need to worry about these changes? More academic research is needed to better understand the impact of the outlined trends on business."
-      ]
-    },
-    "tags": [
-      "business",
-      "democratic resilience",
-      "geopolitics",
-      "systemic risk"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2025-10-06T10:00:00.000Z",
-        "description": "Submission Deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-11T01:40:43.907Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
-  },
-  {
-    "journal": "Management Science",
-    "abbreviation": "informs",
-    "issn": "1526-5501",
-    "metaTitle": "Call for Registered Report Proposals",
-    "url": "https://pubsonline.informs.org/pb-assets/filesmnsc/Submission_Criteria_PCAOB_Conference-1743615318603.pdf",
-    "title": "Registered Report Proposals",
-    "slug": "informs-call-for-registered-report-proposals",
-    "contentHash": "d2feb8cd25fe9a1aa2ea63f83b928a3f5641828264a878f8d16515460bdf4588",
-    "topics": [
-      "Audit-related research topics",
-      "Areas of significance to the PCAOB's mission",
-      "Emerging challenges in the audit landscape",
-      "Collaboration between academics, practitioners, and regulators"
-    ],
-    "description": {
-      "paragraphs": [
-        "Management Science (MS) and the Public Company Accounting Oversight Board (PCAOB) are pleased to announce a joint conference focused on registered report proposals relating to audit-related topics.",
-        "The conference will be held in-person in Washington, D.C., on September 26-27, 2025. Researchers are invited to submit registered report proposals for consideration for presentation at the conference.",
-        "The PCAOB and MS conference aims to facilitate collaboration among academics, practitioners, and regulators to address emerging challenges in the audit landscape by stimulating academic interest in areas of significance to the PCAOB's mission."
-      ]
-    },
-    "tags": [
-      "audit",
-      "registered reports",
-      "accounting"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2025-05-15T10:00:00.000Z",
-        "description": "Submission deadline for registered report proposals",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2025-09-26T10:00:00.000Z",
-        "description": "Conference in Washington, D.C.",
-        "is_full_paper_submission_deadline": false
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-11T01:40:43.907Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
-  },
-  {
-    "journal": "Management Science",
-    "abbreviation": "informs",
-    "issn": "1526-5501",
-    "metaTitle": "Virtual AI for Business and Finance Decisions",
-    "url": "https://pubsonline.informs.org/pb-assets/filesmnsc/Submission_Criteria_2025_PCAOB-1744123378127.pdf",
-    "title": "AI for Business and Finance Decisions",
-    "slug": "informs-virtual-ai-for-business-and-finance-decisions",
-    "contentHash": "c45021b035652aa5577190b400a813be706683f589802d6f8af0fef3c900f5ed",
-    "topics": [
-      "Economics of AI and machine learning",
-      "Methodology and algorithms for decision making, optimization, inference and prediction",
-      "Applications of AI and novel data analytics in finance and business",
-      "Theoretical and empirical work on AI in practice",
-      "Interdisciplinary research combining AI with business and finance",
-      "Novel frameworks transcending traditional departmental boundaries"
-    ],
-    "description": {
-      "paragraphs": [
-        "The interdepartmental virtual special issue on AI for finance and business decisions aims to explore the transformative impact of AI and attract top-quality research on the economics, methodology, and applications of AI and novel data analytics in practice and research in finance and business decisions.",
-        "Both theoretical and empirical work is welcome, and studies developing new methods for decision making, optimization, inference and prediction, and interdisciplinary research are encouraged. The special issue especially welcomes submissions that transcend the departmental boundaries and explore unconventional frameworks."
-      ]
-    },
-    "tags": [
-      "ai",
-      "finance",
-      "business decisions",
-      "machine learning",
-      "data analytics"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2025-12-31T11:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-11T01:40:43.907Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
-  },
-  {
-    "journal": "Management Science",
-    "abbreviation": "informs",
-    "issn": "1526-5501",
-    "metaTitle": "Virtual Digital Finance",
-    "url": "https://doi.org/10.1287/mnsc.2024.call.v70.n8",
-    "title": "Digital Finance",
-    "slug": "informs-virtual-digital-finance",
-    "contentHash": "2541f083c36e09a3d8967c3d0dc2028596a70dd95aa485cc29a897261f02b9a6",
-    "topics": [
-      "Mobile banking and digital wallets",
-      "Fintech innovations and robo-advisors",
-      "Financial inclusion strategies in the digital age",
-      "Risk management frameworks for digital finance",
-      "Capital and information flow in digital financial systems",
-      "Systemic impacts of digital finance",
-      "Novel methodologies for analyzing digital finance",
-      "Regulatory frameworks for digital finance",
-      "Consumer behavior in digital financial environments",
-      "Integration of digital technologies into existing financial ecosystems",
-      "Economic implications of digital finance growth"
-    ],
-    "description": {
-      "paragraphs": [
-        "In the ever-evolving landscape of finance, digital technologies have carved out a transformative path that challenges traditional paradigms and induces impactful financial innovations. The emergence of digital finance, encompassing everything from mobile banking and digital wallets to fintech innovations and robo-advisors, has not only reshaped consumer behavior, but also redefined the architecture of financial systems worldwide.",
-        "This digital revolution prompts a reevaluation of financial inclusion strategies, risk management frameworks, and the overall fluidity of capital and information. As these technologies advance, there is an increasing need for robust theoretical foundations and extensive empirical studies to guide their development, optimize their integration into existing financial ecosystems, and ensure that their regulation keeps pace with innovation.",
-        "The special issue aims to explore these themes, seeking contributions that address the systemic impacts of digital finance, propose novel methodologies for its analysis, and examine the broader economic implications of its rapid growth."
-      ]
-    },
-    "tags": [
-      "digital finance",
-      "fintech",
-      "financial technology",
-      "financial innovation"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2025-06-30T10:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-11T01:40:43.907Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
-  },
-  {
-    "journal": "Management Science",
-    "abbreviation": "informs",
-    "issn": "1526-5501",
-    "metaTitle": "The Human-Algorithm Connection",
-    "url": "https://pubsonline.informs.org/pb-assets/filesmnsc/MS_Special_Issue_on_The_Human-Algorithm_Connection_Final-1633375494960.pdf",
-    "title": "The Human-Algorithm Connection",
-    "slug": "informs-the-human-algorithm-connection",
-    "contentHash": "de15f3116ae0d85108c4c6781c8e702b1568015cc47f2e492b85c447cea98c71",
-    "topics": [
-      "Research on human-algorithm coexistence and interaction",
-      "Decision-making with algorithms and machines",
-      "Human factors in algorithmic systems",
-      "Improving human-algorithm collaboration",
-      "Applications of algorithms, machines, and apps in organizational contexts"
-    ],
-    "description": {
-      "paragraphs": [
-        "The special issue on the human-algorithm connection seeks to attract research that gives decision-makers a better understanding of the coexistence of humans with algorithms and how to improve it. The work must have an important human component (i.e., purely focusing on algorithms won't suffice) and algorithms can be understood in a broad sense including machines and apps.",
-        "Top quality papers in any of the research areas represented by Management Science are welcome, both theoretical and empirical. Interdisciplinary studies are also highly encouraged."
-      ]
-    },
-    "tags": [
-      "human-algorithm interaction",
-      "decision-making",
-      "algorithms",
-      "interdisciplinary"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2022-12-22T11:00:00.000Z",
-        "description": "Submission Deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-11T01:40:43.907Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
-  },
-  {
-    "journal": "Organization Science",
-    "abbreviation": "informs",
-    "issn": "1526-5455",
-    "metaTitle": "AI-Enabled Frontiers in Organizational Science",
-    "url": "https://pubsonline.informs.org/pb-assets/filesorsc/CFP_AI-Enabled%20Frontiers%20in%20Organizational%20Science-1785685920943.pdf",
-    "title": "AI-Enabled Frontiers in Organizational Science",
-    "slug": "informs-ai-enabled-frontiers-in-organizational-science",
-    "contentHash": "4321d848c9bf76ed748a6986c9242fd8bc933b94529ec06a704af1a86d074dd7",
-    "topics": [
-      "AI-enabled research loops under human direction",
-      "Reusable research infrastructure",
-      "New forms of measurement",
-      "AI-enabled qualitative and theory-building work",
-      "Synthetic social systems",
-      "New approaches to established research designs",
-      "Critical or boundary-setting work on the limits of AI-enabled science",
-      "Reimagining social science research contributions in an AI-enabled world"
-    ],
-    "description": {
-      "paragraphs": [
-        "This special issue asks a fundamental question about artificial intelligence and social science: do we want it to produce faster, cheaper versions of what we already do, or do we want fundamentally new science? Returning to Organization Science's founding mission—Daft and Lewin's 1990 call to break out of the \"normal science straitjacket\" and March's \"exploration of new possibilities\"—we want to shift our focus to how AI is changing the production of science and how it can expand our knowledge, rather than merely increasing the number of papers through efficiency and reduced labor.",
-        "In this call for science, we seek contributions that reimagine what a social science research contribution is in an AI-enabled world, encouraging wild ideas and radical innovation over obvious incremental improvement. We are not looking for conventional full-length papers with AI-related content, nor \"AI slop\"—we want the innovative applications themselves.",
-        "The issue follows a three-stage process—a research proposal and prototype, a collaborative development phase with an in-person workshop, and finalization—culminating in short Science/Nature-style articles and shorter \"letters,\" all treated as true peer-reviewed contributions. We welcome submissions from scholars across the social sciences and adjacent fields, so long as they address organizational or managerial implications, broadly interpreted."
-      ]
-    },
-    "tags": [
-      "artificial intelligence",
-      "organizational science",
-      "research methodology",
-      "social science"
-    ],
-    "editors": [
-      {
-        "name": "Claudine Gartenberg",
-        "affiliation": ".pop"
-      },
-      {
-        "name": "Sharique Hasan",
-        "affiliation": ".pop"
-      },
-      {
-        "name": "Lamar Pierce",
-        "affiliation": ".pop"
-      },
-      {
-        "name": "Christopher Bail",
-        "affiliation": ".pop"
-      },
-      {
-        "name": "Hengchen Dai",
-        "affiliation": ".pop"
-      },
-      {
-        "name": "Oliver Hauser",
-        "affiliation": ".pop"
-      },
-      {
-        "name": "Hatim Rahman",
-        "affiliation": ".pop"
-      },
-      {
-        "name": "Dennis Zhang",
-        "affiliation": ".pop"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-10-01T10:00:00.000Z",
-        "description": "Submissions Open",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-11-01T11:00:00.000Z",
-        "description": "Submissions Close",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-11T01:40:43.907Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
-  },
-  {
-    "journal": "Organization Science",
-    "abbreviation": "informs",
-    "issn": "1526-5455",
-    "metaTitle": "Agency in the Age of AI",
-    "url": "https://pubsonline.informs.org/pb-assets/filesorsc/CFP_Agency%20in%20the%20Age%20of%20AI_post-1785685921070.pdf",
-    "title": "Agency in the Age of AI",
-    "slug": "informs-agency-in-the-age-of-ai",
-    "contentHash": "8c1778609c2f079cdf3cf2a2366e5ec33217506de511951e2500ff7388714189",
-    "topics": [
-      "Agency in organizations and how it changes with AI participation",
-      "Co-production of action by people and machines",
-      "Reconceptualizing agency: what it is, where it resides, and how it operates",
-      "Impact on organizational behavior and careers",
-      "Management and control in the age of AI",
-      "Strategy and entrepreneurship with agentic technologies",
-      "Institutional implications of changing agency",
-      "Sociology of work and AI",
-      "Information systems and autonomous action",
-      "Governance of autonomous action",
-      "Motivation, leadership, and decision-making with AI",
-      "Value creation with intelligent technologies"
-    ],
-    "description": {
-      "paragraphs": [
-        "Agency is central to organizational sciences and heavily debated. Assumptions about who can act, what acting requires, and who is answerable for results underlie theories of motivation, leadership, decision making, control, value creation, careers, institutions, and technological change. These views largely developed before intelligent technologies began participating in organizational action. As analytic, generative, and agentic AI increasingly participate in organizational action, intention, execution, and consequence—traditionally assumed to reside in a single human actor—are coming apart, and with them our settled sense of who exercises agency.",
-        "This special issue seeks theoretically ambitious work, whether conceptual or empirically grounded, that takes the changing production of action as its starting point. The issue is organized around two complementary aims: to reconsider agency itself—what it is, where it resides, and how it operates when action is co-produced by people and machines—and to understand how the changing nature of agency reshapes the phenomena in organizational fields, from organizational behavior and careers to management and control, strategy, entrepreneurship, institutions, the sociology of work, information systems, and the governance of autonomous action.",
-        "Submissions are welcomed from across the organizational sciences and from neighboring disciplines in sociology, economics, psychology, and the philosophy of action. Given the rapid pace of change in agentic technologies, the issue will follow an accelerated review process."
-      ]
-    },
-    "tags": [
-      "artificial intelligence",
-      "agency",
-      "organizational theory",
-      "organizational behavior"
-    ],
-    "editors": [
-      {
-        "name": "Paul Leonardi",
-        "affiliation": ".pop"
-      },
-      {
-        "name": "Alex Murray",
-        "affiliation": ".pop"
-      },
-      {
-        "name": "Frank Nagle",
-        "affiliation": ".pop"
-      },
-      {
-        "name": "Nelson Phillips",
-        "affiliation": ".pop"
-      },
-      {
-        "name": "Juliana Schroeder",
-        "affiliation": ".pop"
-      },
-      {
-        "name": "Paula Ungureanu",
-        "affiliation": ".pop"
-      },
-      {
-        "name": "Elisa Villani",
-        "affiliation": ".pop"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2027-02-01T11:00:00.000Z",
-        "description": "Submissions due",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-11T01:40:43.907Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
-  },
-  {
-    "journal": "Manufacturing & Service Operations Management",
-    "abbreviation": "informs",
-    "issn": "1526-5498",
-    "metaTitle": "Operations Management for Developing Economies",
-    "url": "mailto: eftekhar@asu.edu",
-    "title": "Operations Management for Developing Economies",
-    "slug": "informs-operations-management-for-developing-economies",
-    "contentHash": "3c9f92532b1e753011b33c21fcc9e3ab3eb28f8ca2539a63054eb81ab731a980",
-    "topics": [
-      "Extending OM theory to economies at the bottom of the pyramid",
-      "Promoting economic prosperity in less-developed regions",
-      "Enhancing OM practice by integrating innovations from developing economies",
-      "Supply chain management in developing countries",
-      "Market dynamics and institutional constraints in developing economies",
-      "Cultural factors and local supply chains",
-      "Infrastructure and institutional challenges in resource-constrained environments",
-      "Currency fluctuations and foreign exchange risks",
-      "Informal sector operations",
-      "Local content requirements and domestic reliance"
-    ],
-    "description": {
-      "paragraphs": [
-        "According to the International Monetary Fund, 152 countries—home to approximately 6.87 billion people—are classified as emerging and developing economies. Despite this, much of the research published in top operations management journals remains focused on industrialized nations. Emerging and developing economies, home to over 85% of the global population, remain underrepresented in top OM journals.",
-        "This special issue aims to expand the field by advancing Development Operations Management (DOM)—a subfield akin to development economics. DOM focuses on designing and implementing strategies, policies, and solutions to enhance economic prosperity and industrial competitiveness in resource-constrained environments, aligning with the United Nations Sustainable Development Goals. This vision is inspired by impactful studies conducted by renowned development economists and Nobel laureates, whose work has shaped evidence-based approaches to addressing economic and social challenges in developing countries.",
-        "Although developed and developing economies may encounter similar supply chain and operations management issues, solutions effective in developed contexts often fail to translate due to structural differences. These include inadequate infrastructure, fragile institutions, political instability, currency fluctuations, and the prevalence of informal sectors. To tackle these complexities, it is vital to account for a range of local factors, including legal frameworks and foreign exchange risks, market dynamics, cultural norms, religious influences, and local content requirements such as reliance on domestic goods, services, and labor. Broadening the scope of research may necessitate incorporating new theories, tools, and methodologies designed to address the unique challenges that firms in developing nations face.",
-        "We welcome theoretical, empirical, and field-based research that focuses on the unique characteristics of developing countries—including market dynamics, institutional constraints, cultural factors, and local supply chains. Studies centered on multinational firms' operations in developing economies or humanitarian logistics fall outside the scope of this special issue."
-      ]
-    },
-    "tags": [
-      "operations management",
-      "developing economies",
-      "supply chain management",
-      "development economics"
-    ],
-    "editors": [
-      {
-        "name": "Mahyar Eftekhar",
-        "affiliation": "Arizona State University"
-      },
-      {
-        "name": "Serguei Netessine",
-        "affiliation": "University of Pennsylvania"
-      },
-      {
-        "name": "Yanchong Zheng",
-        "affiliation": "Massachusetts Institute of Technology"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-06-01T10:00:00.000Z",
-        "description": "Deadline for submission",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2026-09-01T10:00:00.000Z",
-        "description": "First-round decision and feedback",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-03-01T11:00:00.000Z",
-        "description": "Second-round submission (for papers invited to revise)",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-06-01T10:00:00.000Z",
-        "description": "Final decisions (subject to minor revisions)",
-        "is_full_paper_submission_deadline": false
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-11T01:40:43.907Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
-  },
-  {
-    "journal": "Manufacturing & Service Operations Management",
-    "abbreviation": "informs",
-    "issn": "1526-5498",
-    "metaTitle": "M&SOM Responsible Retail Operations",
-    "url": "mailto:jan.fransoo@tilburguniversity.edu",
-    "title": "Responsible Retail Operations",
-    "slug": "informs-mandsom-responsible-retail-operations",
-    "contentHash": "53d4a57a7f7ae467647ec4f84913ae940b17b2fe697be2f41fcf8a6867ea7047",
-    "topics": [
-      "Waste in food, apparel and electronics retail",
-      "Labor conditions in stores and delivery operations",
-      "Carbon emissions generated by highly responsive online or on-demand retail operations",
-      "The role of retail stores in the livability of rural communities",
-      "The presence of food deserts and food banks in low-income urban communities",
-      "The subsistence role of retail stores in developing countries and communities",
-      "Data privacy concerns such as face recognition in stores or data tracking online"
-    ],
-    "description": {
-      "paragraphs": [
-        "Retail, defined as the activity of selling goods or services directly to the end consumers, is among the largest employers and largest industry sectors in both developed and developing economies. Research in retail operations has grown tremendously over the last two decades since the initial seminal work by Fisher et al. (2000). Since then, the retail landscape has changed enormously, specifically because the development of online and on-demand retail. This development has been characterized in a review of 20 years of research in this journal (Caro et al. 2020). Research in operations management has followed this change in industry structure, with both modeling and empirical papers studying a wide variety of retail formats and retail channels. However, with little exception, the focus of these studies is more or less entirely on profit-maximizing objectives of the retailer, without much attention to considerations of sustainability and social responsibility.",
-        "Within the wider scope of responsible operations, retail has an important and visible role to play that has received increasing attention in the society at large. We strongly believe that it is the role of academic research to address the wider scope of responsible operations in retail, beyond the mere profitability of companies and business models in the sector.",
-        "With this special issue, we call for innovative and impactful research that advances the theoretical and empirical understanding of responsible retail operations, and provides managers and educators with tools and insights to deploy more responsibility in retail operations. We are open to any research methods, including theoretical, empirical and behavioral work.",
-        "For a paper to qualify, two conditions need to be met: (1) The outcome variable/objective function needs to include a responsible metric, i.e., it is not enough to have a traditional cost/profit outcome variable/model that evaluates the effects on a responsible outcome, or a traditional cost/profit outcome variable/model that is set in a setting where responsible outcomes play a role. (2) The setting must be retail, defined as a directly consumer-facing activity, with the end-consumer (households or individuals) paying for a product or a service. In this definition, we decide to include not only physical stores and online retail for physical products, but also restaurants, banks, airlines, amusement parks, etc., but decide to exclude healthcare services."
-      ]
-    },
-    "tags": [
-      "retail operations",
-      "responsible operations",
-      "sustainability",
-      "social responsibility"
-    ],
-    "editors": [
-      {
-        "name": "Jan C. Fransoo",
-        "affiliation": "Tilburg University"
-      },
-      {
-        "name": "Dorothee Honhon",
-        "affiliation": "University of Texas at Dallas"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2025-01-01T11:00:00.000Z",
-        "description": "Deadline for confidential extended abstract scope check submissions",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2025-08-01T10:00:00.000Z",
-        "description": "Deadline for submissions",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2025-11-01T11:00:00.000Z",
-        "description": "First-round decisions and feedback",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-05-01T10:00:00.000Z",
-        "description": "Second-round submission for papers invited to revise",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-09-01T10:00:00.000Z",
-        "description": "Final decisions subject to minor revisions",
-        "is_full_paper_submission_deadline": false
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-11T01:40:43.907Z",
-    "gracePeriod": "2026-09-11T04:26:53.283Z"
   },
   {
     "journal": "The European Journal of Finance",
