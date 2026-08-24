@@ -26,6 +26,14 @@ const DETAIL_CONTENT_SELECTORS = ['article .entry-content', '.entry-content', 'a
 
 const REQUEST_DELAY_MS = 1000;
 
+// Le passage du 2026-08-24 a perdu les 7 appels du site sur un depassement
+// des 30 s de page.goto, alors que le meme scraper les a tous rendus au
+// passage suivant : site lent par intermittence, pas bloque. On double la
+// patience plutot que d'accepter un trou aleatoire dans la couverture.
+// Ne concerne que la navigation ; l'attente du selecteur reste a 30 s,
+// c'est bien la navigation qui a expire et non le rendu.
+const NAVIGATION_TIMEOUT_MS = 60000;
+
 export const scraperObject = {
     url: LISTING_URL,
     abbreviation: 'mi',
@@ -62,7 +70,7 @@ export const scraperObject = {
 async function get_listings(browser) {
     const page = await browser.newPage();
     try {
-        await page.goto(LISTING_URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.goto(LISTING_URL, { waitUntil: 'domcontentloaded', timeout: NAVIGATION_TIMEOUT_MS });
 
         const found = await page.waitForSelector(TITLE_LINK_SELECTOR, { timeout: 30000 })
             .then(() => true)
@@ -96,7 +104,7 @@ async function get_listings(browser) {
 async function get_detail_content(browser, url) {
     const page = await browser.newPage();
     try {
-        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: NAVIGATION_TIMEOUT_MS });
 
         for (const selector of DETAIL_CONTENT_SELECTORS) {
             const html = await page.$eval(selector, el => el.innerHTML).catch(() => null);
