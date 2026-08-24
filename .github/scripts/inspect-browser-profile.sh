@@ -18,7 +18,18 @@ set -u
 
 MOMENT="${1:-}"
 PROFILE=".browser-profile"
-JAR="$PROFILE/userdir/Default/Network/Cookies"
+
+# L'emplacement du jar depend de la plateforme : Chrome 151 sur le runner
+# Linux ecrit Default/Cookies, le profil local sous Windows porte
+# Default/Network/Cookies. On essaie les deux plutot que de parier sur l'un
+# des deux -- c'est precisement ce pari qui avait rendu le cache inerte.
+JAR=""
+for candidat in \
+    "$PROFILE/userdir/Default/Cookies" \
+    "$PROFILE/userdir/Default/Network/Cookies"
+do
+    if [ -f "$candidat" ]; then JAR="$candidat"; break; fi
+done
 
 echo "=== Profil navigateur ${MOMENT} ==="
 
@@ -27,8 +38,8 @@ if [ ! -d "$PROFILE" ]; then
     exit 0
 fi
 
-if [ ! -f "$JAR" ]; then
-    echo "Jar absent au chemin attendu ($JAR)."
+if [ -z "$JAR" ]; then
+    echo "Jar absent des deux emplacements connus."
 
     echo "-- Un jar existe-t-il ailleurs dans le profil ?"
     trouves=$(find "$PROFILE" -name 'Cookies*' 2>/dev/null)
@@ -38,9 +49,13 @@ if [ ! -f "$JAR" ]; then
         echo "   Aucun fichier nomme Cookies* dans tout le profil."
     fi
 
+    # sort ecrit dans un fichier plutot que dans un tube ferme par head :
+    # la variante en pipe faisait sortir des "sort: write failed: Broken
+    # pipe" au milieu du releve.
     echo "-- Arborescence du profil (40 plus gros fichiers, taille en octets)"
     find "$PROFILE" -type f -printf '%10s  %p\n' 2>/dev/null \
-        | sort -rn | head -40 | sed 's/^/   /'
+        | sort -rn > /tmp/inspect-profile-tree.txt
+    head -40 /tmp/inspect-profile-tree.txt | sed 's/^/   /'
     echo "-- Total : $(find "$PROFILE" -type f 2>/dev/null | wc -l) fichier(s)"
 
     # Deux causes possibles a un profil sans cookies : Chrome n'a pas su
@@ -55,7 +70,7 @@ if [ ! -f "$JAR" ]; then
     exit 0
 fi
 
-echo "Jar : $(wc -c < "$JAR") octets"
+echo "Jar : $JAR ($(wc -c < "$JAR") octets)"
 
 if ! command -v sqlite3 >/dev/null 2>&1; then
     # Repli si sqlite3 manque a l'image du runner : le comptage brut ne dit

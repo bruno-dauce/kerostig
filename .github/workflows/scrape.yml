@@ -93,11 +93,19 @@ jobs:
       # restait insoluble (constate le 2026-08-24 : 0 appel sur 209).
       #
       # On ne met en cache que ce qui porte l'identite (jar de cookies et
-      # etat reseau, ~400 Ko), pas le profil entier : il pese 444 Mo en
-      # local, dont des caches de rendu et de shaders qui n'ont aucun
-      # interet ici. "Local State" est volontairement absent : il ne
-      # contient la cle de chiffrement des cookies que sous Windows et
-      # macOS, pas sous Linux (cf --password-store=basic dans browser.mjs).
+      # etat reseau), pas le profil entier : il pese 444 Mo en local et
+      # plus de 60 Mo sur le runner, dont des modeles tflite et des caches
+      # de shaders sans aucun interet ici. "Local State" est volontairement
+      # absent : il ne contient la cle de chiffrement des cookies que sous
+      # Windows et macOS, pas sous Linux (cf --password-store=basic dans
+      # browser.mjs, et "Trousseau en session : aucun" releve sur le runner).
+      #
+      # Les deux emplacements du jar sont listes parce qu'ils different
+      # d'une plateforme a l'autre : Chrome 151 ecrit Default/Cookies sur
+      # le runner Linux, la ou le profil local sous Windows porte
+      # Default/Network/Cookies. Le run 32714124605 a tranche ; la premiere
+      # version de ce cache, deduite du seul profil local, sauvegardait un
+      # chemin qui n'existe pas en CI.
       #
       # Reserve : cf_clearance est lie par Cloudflare au couple IP + User-
       # Agent. L'IP des runners GitHub changeant d'un run a l'autre, le
@@ -109,6 +117,8 @@ jobs:
         uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: |
+            .browser-profile/userdir/Default/Cookies
+            .browser-profile/userdir/Default/Cookies-journal
             .browser-profile/userdir/Default/Network
             .browser-profile/userdir/Default/Preferences
           key: browser-profile-${{ runner.os }}-${{ github.run_id }}
@@ -141,6 +151,8 @@ jobs:
         uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: |
+            .browser-profile/userdir/Default/Cookies
+            .browser-profile/userdir/Default/Cookies-journal
             .browser-profile/userdir/Default/Network
             .browser-profile/userdir/Default/Preferences
           key: browser-profile-${{ runner.os }}-${{ github.run_id }}
