@@ -15,12 +15,20 @@ export function toText(name) {
     if (typeof name === 'string') return name;
     if (name == null) return '';
     if (typeof name === 'object') {
-        const text = name.rendered ?? name.raw ?? name.value ?? name.text ?? null;
+        const champ = name.rendered ?? name.raw ?? name.value ?? name.text ?? null;
+        // Le repli String(name) rend "Nom" sur un tableau d'un seul element,
+        // forme sous laquelle l'API WordPress de T&F sert parfois
+        // _special_issues_journal_title -- le nom est donc bien recupere et la
+        // jointure ISSN aboutit. L'ancien message annoncait la valeur du champ
+        // nomme, soit "" dans ce cas, et faisait croire a une perte de donnee
+        // qui n'a jamais eu lieu. On annonce desormais la valeur reellement
+        // rendue.
+        const valeurRendue = typeof champ === 'string' ? champ : String(name);
         if (!loggedUnexpectedNameShape) {
             loggedUnexpectedNameShape = true;
-            console.warn(`[issnMatcher] Nom de revue recu sous forme d'objet, cles : ${Object.keys(name).join(', ')} -> valeur utilisee : "${text ?? ''}"`);
+            console.warn(`[issnMatcher] Nom de revue recu sous forme d'objet, cles : ${Object.keys(name).join(', ')} -> valeur utilisee : "${valeurRendue}"`);
         }
-        if (typeof text === 'string') return text;
+        return valeurRendue;
     }
     return String(name);
 }
