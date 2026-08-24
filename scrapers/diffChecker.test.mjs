@@ -4,7 +4,7 @@ import { promises as fs } from 'fs';
 import os from 'os';
 import path from 'path';
 
-import { detecterScrapersVides, integrateCalls } from './diffChecker.mjs';
+import { detecterScrapersVides, estNouvelArchivage, integrateCalls } from './diffChecker.mjs';
 import { clean } from './dataPreparation.mjs';
 
 // Fabrique d'appels : n appels actifs pour une abbreviation donnee.
@@ -119,4 +119,66 @@ test('une remontee tronquee ne duplique pas les appels conserves', async () => {
     const slugs = resultat.map(call => call.slug);
     assert.equal(new Set(slugs).size, slugs.length, 'aucun slug ne doit apparaitre deux fois');
     assert.equal(resultat.length, 47, 'les 47 appels sont conserves, ni perdus ni dupliques');
+});
+
+test('estNouvelArchivage distingue un premier archivage d une repetition', () => {
+    assert.equal(estNouvelArchivage({ active: true }), true, 'appel encore actif : premier archivage');
+    assert.equal(estNouvelArchivage(undefined), true, 'appel inconnu au passage precedent : premier archivage');
+    assert.equal(estNouvelArchivage({ active: false }), false, 'deja archive : rien de nouveau');
+});
+
+// Capture les lignes de console.log le temps d'un appel.
+async function journalDe(executer) {
+    const lignes = [];
+    const original = console.log;
+    console.log = (...args) => lignes.push(args.join(' '));
+    try {
+        await executer();
+    } finally {
+        console.log = original;
+    }
+    return lignes;
+}
+
+// Un appel d'archive permanente, echeance largement depassee, re-remonte a
+// chaque passage. Les anciens passent par clean() pour porter exactement les
+// slugs et contentHash que integrateCalls recalculera.
+async function appelEcheanceDepassee(actifEnBase) {
+    const source = brut('dm', 1);
+    const anciens = (await clean(source.map(c => ({ ...c })))).map(c => ({
+        ...c,
+        active: actifEnBase,
+        dates: [{ date: '2024-01-01', is_full_paper_submission_deadline: true }],
+    }));
+    return { source, anciens };
+}
+
+test('annonce l archivage par echeance au passage ou il a lieu', async () => {
+    const { source, anciens } = await appelEcheanceDepassee(true);
+
+    let resultat;
+    const lignes = await journalDe(async () => {
+        resultat = await dansUnDepotTemporaire(anciens, () => integrateCalls(source, ['dm']));
+    });
+
+    assert.equal(resultat[0].active, false, 'l appel est bien archive');
+    assert.equal(
+        lignes.filter(l => l.includes('marque inactif')).length, 1,
+        'le premier archivage est annonce une fois'
+    );
+});
+
+test('ne repete pas l annonce pour un appel deja archive au passage precedent', async () => {
+    const { source, anciens } = await appelEcheanceDepassee(false);
+
+    let resultat;
+    const lignes = await journalDe(async () => {
+        resultat = await dansUnDepotTemporaire(anciens, () => integrateCalls(source, ['dm']));
+    });
+
+    assert.equal(resultat[0].active, false, 'l appel reste archive');
+    assert.deepEqual(
+        lignes.filter(l => l.includes('marque inactif')), [],
+        'rien a annoncer : l etat n a pas change'
+    );
 });

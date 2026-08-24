@@ -60,6 +60,19 @@ export function detecterScrapersVides(newCalls, oldCalls, ranAbbreviations) {
         .map(compte => ({ ...compte, motif: compte.apres === 0 ? 'zero' : 'chute' }));
 }
 
+// Un appel issu d'une source de type archive permanente (CUP, Decisions
+// Marketing, Revue de l'Entrepreneuriat, RIPME) est re-remonte a chaque
+// passage : la boucle des nouveaux le repositionne en active:true, puis
+// l'archivage par echeance le rebascule aussitot en false. L'etat sur disque
+// ne bouge pas d'un run a l'autre, mais le message d'archivage se repetait
+// chaque fois -- 34 lignes le 2026-08-24, dont une pour un appel clos depuis
+// 646 jours. A la lecture du log, cela donnait une hecatombe quotidienne la
+// ou il ne se passait rien. On ne journalise donc que le premier archivage,
+// celui qui change reellement l'etat. Fonction pure, exportee pour test.
+export function estNouvelArchivage(ancienAppel) {
+    return !ancienAppel || ancienAppel.active !== false;
+}
+
 // ranAbbreviations : abbreviations des scrapers effectivement lances ce run
 // (cf pageController.mjs / --only). Un ancien appel dont l'abbreviation
 // n'est pas dans cette liste vient d'un scraper qui n'a pas tourne cette
@@ -172,8 +185,10 @@ export async function integrateCalls(newCalls, ranAbbreviations = null) {
     resultCalls = resultCalls.map(call => {
         if (!call.active) return call;
         if (!echeanceDepassee(call, JOURS_APRES_ECHEANCE, now.getTime())) return call;
-        const jours = joursDepuisEcheance(call, now.getTime());
-        console.log(`[diffChecker] ${call.slug} marque inactif (echeance depassee depuis ${jours} jours)`);
+        if (estNouvelArchivage(oldSlugMap.get(call.slug))) {
+            const jours = joursDepuisEcheance(call, now.getTime());
+            console.log(`[diffChecker] ${call.slug} marque inactif (echeance depassee depuis ${jours} jours)`);
+        }
         return { ...call, active: false };
     });
 
