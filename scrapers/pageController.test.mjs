@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { estFichierScraper, retenirModulesValides } from './pageController.mjs';
+import { analyserFiltreOnly, estFichierScraper, filtrerParOnly, retenirModulesValides } from './pageController.mjs';
 
 // Le 23 aout 2026, emeraldScraper.test.mjs pose dans scrapers/journals a ete
 // charge comme un scraper : il n'exporte pas scraperObject, la lecture de son
@@ -41,4 +41,38 @@ test('ecarte un scraperObject prive d abbreviation', () => {
     const charges = [{ fichier: 'casse.mjs', module: { scraperObject: { url: 'https://exemple.test' } } }];
 
     assert.deepEqual(retenirModulesValides(charges), []);
+});
+
+const FICHIERS = [
+    'aomScraper.mjs', 'elsevierScraper.mjs', 'emeraldScraper.mjs',
+    'informsScraper.mjs', 'sageScraper.mjs', 'springerScraper.mjs',
+    'tfScraper.mjs', 'wileyScraper.mjs',
+];
+
+test('--only accepte une liste separee par des virgules', () => {
+    const termes = analyserFiltreOnly('emerald,sage,wiley,informs');
+
+    assert.deepEqual(
+        filtrerParOnly(FICHIERS, termes),
+        ['emeraldScraper.mjs', 'informsScraper.mjs', 'sageScraper.mjs', 'wileyScraper.mjs']
+    );
+});
+
+test('--only garde le comportement d origine sur un seul nom', () => {
+    assert.deepEqual(
+        filtrerParOnly(FICHIERS, analyserFiltreOnly('elsevier')),
+        ['elsevierScraper.mjs']
+    );
+});
+
+test('--only tolere les espaces et la casse autour des virgules', () => {
+    assert.deepEqual(analyserFiltreOnly(' Emerald , SAGE '), ['emerald', 'sage']);
+});
+
+test('--only sans valeur exploitable ne filtre rien', () => {
+    // null fait tourner tous les scrapers : mieux vaut un run complet
+    // qu'un run vide sur une valeur mal saisie.
+    assert.equal(analyserFiltreOnly(undefined), null);
+    assert.equal(analyserFiltreOnly(''), null);
+    assert.equal(analyserFiltreOnly(' , , '), null);
 });

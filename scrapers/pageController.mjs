@@ -7,14 +7,38 @@ import { depasseSeuilEchec, formaterResumeAlertes, publierResumeCI } from './ale
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// --only <nom> : ne lance que le(s) scraper(s) dont le nom de fichier
-// contient <nom> (ex. --only elsevier -> elsevierScraper.mjs). Absent :
-// tous les scrapers tournent, comme avant.
+// --only <noms> : ne lance que le(s) scraper(s) dont le nom de fichier
+// contient l'un des <noms> (ex. --only elsevier -> elsevierScraper.mjs).
+// Absent : tous les scrapers tournent, comme avant.
+//
+// La liste separee par des virgules sert a rejouer d'un coup un lot
+// d'editeurs qu'on instruit ensemble -- les quatre bloques en CI, par
+// exemple : --only emerald,sage,wiley,informs. Aucune sous-chaine unique
+// ne les couvre, et quatre passages successifs relisent et reecrivent
+// calls.json quatre fois.
+// Fonction pure, exportee pour test.
+export function analyserFiltreOnly(valeur) {
+    if (!valeur) return null;
+    const termes = valeur
+        .toLowerCase()
+        .split(',')
+        .map(terme => terme.trim())
+        .filter(terme => terme.length > 0);
+    return termes.length > 0 ? termes : null;
+}
+
+// Fonction pure, exportee pour test.
+export function filtrerParOnly(fichiers, termes) {
+    return fichiers.filter(fichier =>
+        termes.some(terme => fichier.toLowerCase().includes(terme))
+    );
+}
+
 function getOnlyFilter() {
     const args = process.argv.slice(2);
     const index = args.indexOf('--only');
-    if (index === -1 || !args[index + 1]) return null;
-    return args[index + 1].toLowerCase();
+    if (index === -1) return null;
+    return analyserFiltreOnly(args[index + 1]);
 }
 
 // Le repertoire journals/ est balaye pour y trouver les scrapers, mais tout
@@ -48,8 +72,8 @@ export async function scrapeAll(browserInstance) {
 
         let files = (await fs.readdir(folderPath)).filter(estFichierScraper);
         if (only) {
-            files = files.filter(file => file.toLowerCase().includes(only));
-            console.log(`--only ${only} : ${files.length} scraper(s) selectionne(s) (${files.join(', ') || 'aucun'})`);
+            files = filtrerParOnly(files, only);
+            console.log(`--only ${only.join(',')} : ${files.length} scraper(s) selectionne(s) (${files.join(', ') || 'aucun'})`);
         }
 
         const charges = await Promise.all(
