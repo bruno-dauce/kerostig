@@ -31,6 +31,16 @@ export async function startBrowser() {
         headless: false,
         viewport: null,
         acceptDownloads: true,
+        // Sous Linux, Chrome chiffre les valeurs de cookies avec la cle du
+        // trousseau de session (gnome-keyring, kwallet) quand il en trouve
+        // un, et avec une cle de repli fixe sinon. Un jar ecrit avec la cle
+        // d'un trousseau est illisible au run suivant, qui a un autre
+        // trousseau : le cache du profil (cf .github/workflows/scrape.yml)
+        // restaurerait des cf_clearance indechiffrables. On force donc le
+        // mode de repli, seul deterministe d'un run a l'autre. Sans effet
+        // sous Windows et macOS, qui utilisent DPAPI/Keychain et ignorent
+        // ce commutateur -- verifie en local, Emerald charge a l'identique.
+        args: ['--password-store=basic'],
         // agrh.fr (Squarespace) sert un certificat par defaut (*.squarespace.com)
         // au lieu d'un certificat couvrant le domaine personnalise -- erreur cote
         // hebergeur (confirme via openssl : meme certificat errone sur www et

@@ -1,0 +1,5 @@
+# Le depot est edite sous Windows, ou core.autocrlf convertit les fins de
+# ligne. Un script shell commite en CRLF echoue sur le runner Linux avec un
+# "$'\r': command not found" difficile a relier a sa cause. On force donc LF
+# dans le depot pour tout ce qui est execute par bash en CI.
+*.sh text eol=lf

@@ -84,12 +84,66 @@ jobs:
           else
             echo "curl_chrome150 non disponible -- les scrapers curl utiliseront le repli curl standard"
           fi
+      # Le profil Chrome persistant (scrapers/browser.mjs) porte les cookies
+      # cf_clearance obtenus en resolvant un challenge Cloudflare. En local
+      # ils durent un an et Emerald se charge en moins d'une seconde ; en CI
+      # le profil etait recree a chaque run, donc chaque passage se
+      # presentait a Cloudflare comme un visiteur jamais vu, depuis une IP
+      # de datacenter -- la pire combinaison, et le challenge d'Emerald
+      # restait insoluble (constate le 2026-08-24 : 0 appel sur 209).
+      #
+      # On ne met en cache que ce qui porte l'identite (jar de cookies et
+      # etat reseau, ~400 Ko), pas le profil entier : il pese 444 Mo en
+      # local, dont des caches de rendu et de shaders qui n'ont aucun
+      # interet ici. "Local State" est volontairement absent : il ne
+      # contient la cle de chiffrement des cookies que sous Windows et
+      # macOS, pas sous Linux (cf --password-store=basic dans browser.mjs).
+      #
+      # Reserve : cf_clearance est lie par Cloudflare au couple IP + User-
+      # Agent. L'IP des runners GitHub changeant d'un run a l'autre, le
+      # cookie restaure a de bonnes chances d'etre refuse. Les deux etapes
+      # d'inspection ci-dessous servent a trancher sur pieces plutot qu'a
+      # supposer. Si le cookie ne survit pas, ce cache est a retirer et il
+      # faut passer a une sortie reseau hors datacenter.
+      - name: Restore browser profile
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            .browser-profile/userdir/Default/Network
+            .browser-profile/userdir/Default/Preferences
+          key: browser-profile-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            browser-profile-${{ runner.os }}-
+      - name: Inspect restored profile
+        continue-on-error: true
+        # Invoque via bash plutot qu'en executable : le depot est edite sous
+        # Windows, ou le bit d'execution ne survit pas toujours au commit.
+        run: bash ./.github/scripts/inspect-browser-profile.sh "avant le scraping"
       - name: Scrape
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           MODEL_NAME: ${{ secrets.MODEL_NAME }}
         run: xvfb-run node ./scrapers/scraper.mjs ${{ inputs.only && format('--only {0}', inputs.only) || '' }}
+      - name: Inspect profile after scraping
+        if: always()
+        continue-on-error: true
+        # Invoque via bash plutot qu'en executable : le depot est edite sous
+        # Windows, ou le bit d'execution ne survit pas toujours au commit.
+        run: bash ./.github/scripts/inspect-browser-profile.sh "apres le scraping"
+      # if: always() -- un run qui sort en erreur (scraper en alerte) a tout
+      # de meme pu obtenir un cf_clearance exploitable au passage suivant.
+      # La cle porte le run_id : chaque passage ecrit sa propre entree, et
+      # restore-keys rend la plus recente. Pas de mise a jour en place, une
+      # entree de cache etant immuable une fois ecrite.
+      - name: Save browser profile
+        if: always()
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            .browser-profile/userdir/Default/Network
+            .browser-profile/userdir/Default/Preferences
+          key: browser-profile-${{ runner.os }}-${{ github.run_id }}
       # Les deux etapes suivantes tournent meme si le scraping a echoue. Un
       # passage peut sortir en erreur (trop de scrapers en alerte, ou plantage
       # avant la collecte) tout en ayant produit des donnees valides, deja
