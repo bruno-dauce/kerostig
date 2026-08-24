@@ -3924,55 +3924,6 @@
     "journal": "Auditing A Journal of Practice & Theory",
     "abbreviation": "aaa",
     "issn": "1558-7991",
-    "metaTitle": "Call for Papers Auditing: A Journal of Practice & Theory (AJPT) Shorter Papers",
-    "url": "https://aaahq.org/portals/0/documents/calls/2026/AJPT%20Call%20for%20Shorter%20Papers%20v2.pdf",
-    "title": "Shorter Papers",
-    "slug": "aaa-call-for-papers-auditing-a-journal-of-practice-and-theory-ajpt-shorter-papers",
-    "contentHash": "2511cde55b64560a8f041267e6f752f8ec48ac931fc604fa8387e96865b99b31",
-    "topics": [
-      "Papers that intentionally have been shortened from standard-length submissions",
-      "Replications and extensions that generate new insights",
-      "Timely issues particularly important to the auditing profession with narrower scope",
-      "All research methodologies and auditing topics"
-    ],
-    "description": {
-      "paragraphs": [
-        "Recent trends in academic research have resulted in longer journal articles and a substantial increase in the length of the academic review process. In 2024, AJPT initiated a Call for shorter papers, resulting in 114 submissions. This is now a second Call for shorter papers that also accommodates (but is not limited to) replications and extensions that generate new insights.",
-        "The Call encompasses two general types of high-quality submissions: (1) papers that typically would be standard-length but that intentionally have been shortened to satisfy the requirements of the Call; (2) papers targeting issues that are timely and/or particularly important to the auditing profession that may have a narrower scope and contribution. All research methodologies and auditing topics are welcome.",
-        "Submissions should be approximately 20 pages of text (roughly 5,000 words) exclusive of references, appendices, and tables. Submissions should include no more than five or six tables. In most instances, the greatest adjustment relative to a standard-length paper is likely to be in the background and empirical sections. Despite the reduced length, submissions must demonstrate sufficient rigor.",
-        "Papers will be published in a Special Section as they are accepted, coordinating the timing of acceptances and space availability in individual journal issues rather than assembling a cohort of papers for publication at a future date. Submissions will be screened and assigned to handling editors by Matt Ege and Tamara Lambert. Handling editors will then assign submissions to two reviewers, consistent with AJPT's standard review process. Given the goals of the Call, an expedited review process is targeted with a goal of decreasing time to publication. Authors will be encouraged to resubmit within three to six months if invited to submit a revision, and editors and reviewers will target a decision after two rounds."
-      ]
-    },
-    "tags": [
-      "auditing",
-      "shorter papers",
-      "special section"
-    ],
-    "editors": [
-      {
-        "name": "Matt Ege",
-        "affiliation": "Texas A&M University"
-      },
-      {
-        "name": "Tamara Lambert",
-        "affiliation": "The University of Manchester"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2027-08-31T10:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-18T08:15:27.740Z"
-  },
-  {
-    "journal": "Auditing A Journal of Practice & Theory",
-    "abbreviation": "aaa",
-    "issn": "1558-7991",
     "metaTitle": "Call for Papers Auditing: A Journal of Practice & Theory (AJPT) Unexpected or Non-Significant Results in Experimental Research",
     "url": "https://aaahq.org/portals/0/documents/calls/2026/AJPT%20Unexpected%20or%20Non-significant%20Results%20in%20Experimental%20Research%20v2.pdf",
     "title": "Unexpected or Non-Significant Results in Experimental Research",
@@ -4018,6 +3969,55 @@
       {
         "date": "2027-08-31T10:00:00.000Z",
         "description": "Deadline for submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T08:15:27.740Z"
+  },
+  {
+    "journal": "Auditing A Journal of Practice & Theory",
+    "abbreviation": "aaa",
+    "issn": "1558-7991",
+    "metaTitle": "Call for Papers Auditing: A Journal of Practice & Theory (AJPT) Shorter Papers",
+    "url": "https://aaahq.org/portals/0/documents/calls/2026/AJPT%20Call%20for%20Shorter%20Papers%20v2.pdf",
+    "title": "Shorter Papers",
+    "slug": "aaa-call-for-papers-auditing-a-journal-of-practice-and-theory-ajpt-shorter-papers",
+    "contentHash": "2511cde55b64560a8f041267e6f752f8ec48ac931fc604fa8387e96865b99b31",
+    "topics": [
+      "Papers that intentionally have been shortened from standard-length submissions",
+      "Replications and extensions that generate new insights",
+      "Timely issues particularly important to the auditing profession with narrower scope",
+      "All research methodologies and auditing topics"
+    ],
+    "description": {
+      "paragraphs": [
+        "Recent trends in academic research have resulted in longer journal articles and a substantial increase in the length of the academic review process. In 2024, AJPT initiated a Call for shorter papers, resulting in 114 submissions. This is now a second Call for shorter papers that also accommodates (but is not limited to) replications and extensions that generate new insights.",
+        "The Call encompasses two general types of high-quality submissions: (1) papers that typically would be standard-length but that intentionally have been shortened to satisfy the requirements of the Call; (2) papers targeting issues that are timely and/or particularly important to the auditing profession that may have a narrower scope and contribution. All research methodologies and auditing topics are welcome.",
+        "Submissions should be approximately 20 pages of text (roughly 5,000 words) exclusive of references, appendices, and tables. Submissions should include no more than five or six tables. In most instances, the greatest adjustment relative to a standard-length paper is likely to be in the background and empirical sections. Despite the reduced length, submissions must demonstrate sufficient rigor.",
+        "Papers will be published in a Special Section as they are accepted, coordinating the timing of acceptances and space availability in individual journal issues rather than assembling a cohort of papers for publication at a future date. Submissions will be screened and assigned to handling editors by Matt Ege and Tamara Lambert. Handling editors will then assign submissions to two reviewers, consistent with AJPT's standard review process. Given the goals of the Call, an expedited review process is targeted with a goal of decreasing time to publication. Authors will be encouraged to resubmit within three to six months if invited to submit a revision, and editors and reviewers will target a decision after two rounds."
+      ]
+    },
+    "tags": [
+      "auditing",
+      "shorter papers",
+      "special section"
+    ],
+    "editors": [
+      {
+        "name": "Matt Ege",
+        "affiliation": "Texas A&M University"
+      },
+      {
+        "name": "Tamara Lambert",
+        "affiliation": "The University of Manchester"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-08-31T10:00:00.000Z",
+        "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
@@ -7096,79 +7096,6 @@
     "journal": "GRH",
     "abbreviation": "agrh",
     "issn": "2295-9149",
-    "metaTitle": "Appel à articles pour un numéro spécial de la Revue @grh",
-    "url": "https://www.agrh.fr/s/Appel-Recherche-Quantitative-inductive-Vdef-mapx.pdf",
-    "title": "Recherche quantitative inductive en GRH : enjeux et méthodes",
-    "slug": "agrh-appel-a-articles-pour-un-numero-special-de-la-revue-grh",
-    "contentHash": "e9c28a009e706d8a7ce49c46d31ecd0463abfc9ec5be78dad603bad553eb9502",
-    "topics": [
-      "Data-driven approaches in HRM",
-      "Inductive quantitative research methods",
-      "Big data exploitation and analysis",
-      "Supervised learning applications in HRM",
-      "Data mining techniques",
-      "Textual statistics",
-      "Longitudinal approaches",
-      "Innovative quantitative methods in HRM research",
-      "Theory building from data",
-      "Emerging methodologies in francophone HRM studies"
-    ],
-    "description": {
-      "paragraphs": [
-        "Data is increasingly recognized as a crucial resource for organizational innovation, with extensive and organized data exploitation considered a key driver of the ongoing fourth industrial revolution. HRM is not exempt from this trend, and the methodological challenges of leveraging increasingly diverse and massive datasets present significant stakes for both practitioners and academic researchers.",
-        "Recent reflections on applicable methods for extracting value from data often emphasize the disruptive potential of big data, presenting it as the foundation for a renewal of empiricism based on intensive exploration of data masses through exploratory methods, aimed at generating new knowledge through purely inductive logic. However, inductive, data-driven approaches remain rare in quantitative HRM studies, despite their capacity to transcend the classical dichotomy between qualitative/inductive and quantitative/deductive approaches in management sciences. Data-driven methodologies also help address criticisms leveled at hypothetico-deductive approaches, such as their strong standardization and difficulty in generating truly innovative theories.",
-        "This special issue aims to provide an updated overview of the challenges and opportunities of data-driven HRM, as well as inductive quantitative methods applicable in empirical research. Expected contributions may address these themes from methodological perspectives (such as presenting an innovative method with illustration in HRM), empirical perspectives (conducting a quantitative study on a subject by adopting an inductive approach), or conceptual perspectives (analyzing the stakes for HRM of data-driven management). Proposals presenting emerging or underutilized methods in francophone quantitative HRM studies will be particularly appreciated, including supervised learning, data mining, textual statistics, and longitudinal approaches."
-      ]
-    },
-    "tags": [
-      "hrm",
-      "quantitative research",
-      "inductive methods",
-      "data-driven approaches",
-      "big data",
-      "research methodology"
-    ],
-    "editors": [
-      {
-        "name": "Clotilde Coron",
-        "affiliation": "Université Paris-Saclay"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": null,
-        "description": "Author feedback",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": null,
-        "description": "Second version of articles",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": null,
-        "description": "Final acceptance of articles",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": null,
-        "description": "Publication of special issue",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2023-03-25T11:00:00.000Z",
-        "description": "Submission deadline for articles",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-12T22:00:20.665Z"
-  },
-  {
-    "journal": "GRH",
-    "abbreviation": "agrh",
-    "issn": "2295-9149",
     "metaTitle": "Dialogue social sur le travail en mutations : quels défis, acteurs, espaces et modalités ? (DL 15 janvier 2025)",
     "url": "https://www.agrh.fr/s/Proposition-dAAC_grh_Dialogue-social_Fronty-Havard.pdf",
     "title": "Dialogue social sur le travail en mutations : quels défis, acteurs, espaces et modalités ?",
@@ -7249,6 +7176,80 @@
     ],
     "active": false,
     "pubDate": "2026-08-12T22:00:20.665Z"
+  },
+  {
+    "journal": "GRH",
+    "abbreviation": "agrh",
+    "issn": "2295-9149",
+    "metaTitle": "Appel à articles pour un numéro spécial de la Revue @grh",
+    "url": "https://www.agrh.fr/s/Appel-Recherche-Quantitative-inductive-Vdef-mapx.pdf",
+    "title": "Recherche quantitative inductive en GRH : enjeux et méthodes",
+    "slug": "agrh-appel-a-articles-pour-un-numero-special-de-la-revue-grh",
+    "contentHash": "e9c28a009e706d8a7ce49c46d31ecd0463abfc9ec5be78dad603bad553eb9502",
+    "topics": [
+      "Data-driven approaches in HRM",
+      "Inductive quantitative research methods",
+      "Big data exploitation and analysis",
+      "Supervised learning applications in HRM",
+      "Data mining techniques",
+      "Textual statistics",
+      "Longitudinal approaches",
+      "Innovative quantitative methods in HRM research",
+      "Theory building from data",
+      "Emerging methodologies in francophone HRM studies"
+    ],
+    "description": {
+      "paragraphs": [
+        "Data is increasingly recognized as a crucial resource for organizational innovation, with extensive and organized data exploitation considered a key driver of the ongoing fourth industrial revolution. HRM is not exempt from this trend, and the methodological challenges of leveraging increasingly diverse and massive datasets present significant stakes for both practitioners and academic researchers.",
+        "Recent reflections on applicable methods for extracting value from data often emphasize the disruptive potential of big data, presenting it as the foundation for a renewal of empiricism based on intensive exploration of data masses through exploratory methods, aimed at generating new knowledge through purely inductive logic. However, inductive, data-driven approaches remain rare in quantitative HRM studies, despite their capacity to transcend the classical dichotomy between qualitative/inductive and quantitative/deductive approaches in management sciences. Data-driven methodologies also help address criticisms leveled at hypothetico-deductive approaches, such as their strong standardization and difficulty in generating truly innovative theories.",
+        "This special issue aims to provide an updated overview of the challenges and opportunities of data-driven HRM, as well as inductive quantitative methods applicable in empirical research. Expected contributions may address these themes from methodological perspectives (such as presenting an innovative method with illustration in HRM), empirical perspectives (conducting a quantitative study on a subject by adopting an inductive approach), or conceptual perspectives (analyzing the stakes for HRM of data-driven management). Proposals presenting emerging or underutilized methods in francophone quantitative HRM studies will be particularly appreciated, including supervised learning, data mining, textual statistics, and longitudinal approaches."
+      ]
+    },
+    "tags": [
+      "hrm",
+      "quantitative research",
+      "inductive methods",
+      "data-driven approaches",
+      "big data",
+      "research methodology"
+    ],
+    "editors": [
+      {
+        "name": "Clotilde Coron",
+        "affiliation": "Université Paris-Saclay"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Author feedback",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": null,
+        "description": "Second version of articles",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": null,
+        "description": "Final acceptance of articles",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": null,
+        "description": "Publication of special issue",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2023-03-25T11:00:00.000Z",
+        "description": "Submission deadline for articles",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-12T22:00:20.665Z",
+    "gracePeriod": "2026-09-23T09:49:49.976Z"
   },
   {
     "journal": "Comptabilité - Contrôle - Audit",
@@ -7387,9 +7388,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-12T16:46:36.302Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "active": true,
+    "pubDate": "2026-08-12T16:46:36.302Z"
   },
   {
     "journal": "Management international",
@@ -7451,9 +7451,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-12T16:46:36.302Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "active": true,
+    "pubDate": "2026-08-12T16:46:36.302Z"
   },
   {
     "journal": "Management international",
@@ -7498,9 +7497,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-12T16:46:36.302Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "active": true,
+    "pubDate": "2026-08-12T16:46:36.302Z"
   },
   {
     "journal": "Management international",
@@ -7550,9 +7548,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-12T16:46:36.302Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "active": true,
+    "pubDate": "2026-08-12T16:46:36.302Z"
   },
   {
     "journal": "Management international",
@@ -7593,9 +7590,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-12T16:46:36.302Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "active": true,
+    "pubDate": "2026-08-12T16:46:36.302Z"
   },
   {
     "journal": "Management international",
@@ -7643,8 +7639,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:46:36.302Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "pubDate": "2026-08-12T16:46:36.302Z"
   },
   {
     "journal": "Management international",
@@ -7698,9 +7693,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-12T16:46:36.302Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "active": true,
+    "pubDate": "2026-08-12T16:46:36.302Z"
   },
   {
     "journal": "Revue française de gestion",
@@ -8942,32 +8936,33 @@
     "url": "https://link.springer.com/collections/hjaabaggai",
     "title": "Ethics and Entrepreneurship: Foundations and Philosophical Perspectives",
     "slug": "springer-call-for-papers-ethics-and-entrepreneurship-foundations-and-philosophical-perspectives",
-    "contentHash": "bc3189fcb39995f3cee6cde98b5056336d691add4888671ff5328ff058754072",
+    "contentHash": "c098f95d29777e5a277969a96412fd66a148080d0b789157ca11e43b311fccfe",
     "topics": [
-      "Philosophical Dimensions of Ethics - How do different philosophical traditions (e.g., virtue ethics, deontology, utilitarianism, phenomenology, hermeneutics) inform our understanding of entrepreneurship as an ethical practice? How are traditions confirmed or transformed when ethics is viewed through an entrepreneurial lens?",
-      "Phenomenology of the Entrepreneurial Experience - In what sense are entrepreneurial experiences of uncertainty, autonomy, and decision-making ethical, and how does phenomenology illuminate Kierkegaard's 'finitude' of lived reality?",
-      "The Entrepreneur and Ethical Subjectivity - How can ethical theories of 'subjecthood', agency, embodiment, and 'self' inform understandings of the entrepreneur, and how might post-human ethics further enrich the question 'Who is the entrepreneur'?",
-      "Ethics and Rule-Breaking - Ethically, what is the connection between following and breaking rules, and how might entrepreneurial theory enrich understandings of this connection?",
-      "Stakeholder Relations and Trust - How do entrepreneurs navigate stakeholder dynamics and trust-building while pursuing ethical objectives and are these forms of trust akin to those envisaged in current ethical theorising?",
-      "Entrepreneurship as Inherently Ethical or Unethical - Is entrepreneurship inherently ethical or exploitative, and how can these views inform a more nuanced understanding of entrepreneurial ethics? How core are ethics to entrepreneurship?",
-      "Entrepreneurship and Technological Mediation - In the digital age of machine protocols, does judgment still matter—and is entrepreneurship a break from, or reinvention of, the network, platform, and stack?",
-      "Ethics, Value, and Entrepreneurial Goals - Can ethical theories of value and worth contribute to the framing of entrepreneurial goals and opportunity?",
-      "Temporal Dimensions of Entrepreneurial Ethics - How do entrepreneurial decisions compare immediate gains with long-term ethical considerations? In what ways does the entrepreneurial relationship to time create unique ethical challenges and opportunities?"
+      "Philosophical Dimensions of Ethics: How do different philosophical traditions (e.g., virtue ethics, deontology, utilitarianism, phenomenology, hermeneutics) inform our understanding of entrepreneurship as an ethical practice? How are traditions confirmed or transformed when ethics is viewed through an entrepreneurial lens?",
+      "Phenomenology of the Entrepreneurial Experience: In what sense are entrepreneurial experiences of uncertainty, autonomy, and decision-making ethical, and how does phenomenology illuminate Kierkegaard's 'finitude' of lived reality?",
+      "The Entrepreneur and Ethical Subjectivity: How can ethical theories of 'subjecthood', agency, embodiment, and 'self' inform understandings of the entrepreneur, and how might post-human ethics further enrich the question 'Who is the entrepreneur'?",
+      "Ethics and Rule-Breaking: Ethically, what is the connection between following and breaking rules, and how might entrepreneurial theory enrich understandings of this connection?",
+      "Stakeholder Relations and Trust: How do entrepreneurs navigate stakeholder dynamics and trust-building while pursuing ethical objectives and are these forms of trust akin to those envisaged in current ethical theorising?",
+      "Entrepreneurship as Inherently Ethical or Unethical: Is entrepreneurship inherently ethical or exploitative, and how can these views inform a more nuanced understanding of entrepreneurial ethics? How core are ethics to entrepreneurship?",
+      "Entrepreneurship and Technological Mediation: In the digital age of machine protocols, does judgment still matter—and is entrepreneurship a break from, or reinvention of, the network, platform, and stack?",
+      "Ethics, Value, and Entrepreneurial Goals: Can ethical theories of value and worth contribute to the framing of entrepreneurial goals and opportunity?",
+      "Temporal Dimensions of Entrepreneurial Ethics: How do entrepreneurial decisions compare immediate gains with long-term ethical considerations? In what ways does the entrepreneurial relationship to time create unique ethical challenges and opportunities?"
     ],
     "description": {
       "paragraphs": [
         "This Special Issue seeks to foreground the ethical dimensions of venture creation, opportunity recognition, and stakeholder engagement. It invites scholars to reimagine entrepreneurship as an inherently ethical practice, instead of viewing ethics as a constraint or an afterthought in the pursuit of economic gain. The intersection of ethics and entrepreneurship presents a unique opportunity to rethink and shape new ethical paradigms and foster innovative approaches to the persistent questions of responsibility, justice, and human flourishing. Entrepreneurship is often celebrated as a catalyst for creativity, imagination, and the capacity to disrupt, yet it has also drawn criticism for promoting ideals that valorize self-optimization and commodification. The foundational activities of entrepreneurship – venture creation, opportunity enactment, and creative destruction – are themselves inextricably bound to questions of ethics.",
-        "At the core of any entrepreneurial act is its willing encounter with, and encouragement of, 'the other' - whether this means novel products, new practices, uncertain futures, or transformed habits. From some philosophical perspectives, such as phenomenology, ethical experience also involves engagement with the 'other,' coupled with a refusal to confine or transform 'the other' to the norm. Yet this raises a critical question: if entrepreneurship courts 'the other,' does it then corrupt and empty this otherness in the calculated pursuit of economic returns? If ethics entails a life lived alongside difference, then how do entrepreneurial lives compare to those shaped and scripted by the certainty and commitment to principled forms of the good advocated by other philosophical positions, such as deontology? This Special Issue is dedicated to papers investigating this uneasy yet intimate relationship between ethics and entrepreneurship.",
-        "Different philosophical perspectives can offer unique insights into the interplay between ethics and entrepreneurship, including virtue ethics, care ethics, pragmatism, capabilities approaches, as well as deontology and phenomenology. Similarly, different schools in entrepreneurship studies, from early traditions in evolutionary economics or trait theory, to more recent perspectives associated with alertness to opportunity, emergence and creativity, and actualization, provide different stimulus for ethicists. While entrepreneurship is often associated with opportunity-seeking and value creation, its concern with seeking support from others, and with growing an organizational form that sustains the livelihood of others, extends its modus operandi beyond economic and industrial narratives of profit, and product- and service innovation. Entrepreneurial ventures are embedded within complex networks of stakeholders, including employees, customers, investors, non-human systems, and communities. Navigating these relationships demands ethical judgment that balances competing interests, priorities, and values. Unlike managerial decision-making, which tends to rely on established protocols, systems, and formalized structures, entrepreneurial judgment occurs in a context of greater uncertainty and fluidity, where ethical considerations are threaded into the very fabric of entrepreneurial practice.",
-        "Entrepreneurs must establish trust, negotiate power dynamics, and create shared meaning among diverse stakeholders, all while remaining attuned to the broader societal and environmental implications of their actions. They continually navigate competing values, and face unpredictable consequences within 'spaces of ambiguity,' where loosened norms make ethical reasoning both precarious and generative. In such spaces, distinguishing a 'good reason' for action from simply 'a reason to act' carry significant personal, social and commercial resonance, raising fundamental questions about the nature of ethical responsibility in conditions of flux and uncertainty; about the requirement to follow rules or break them; about the intimacy between the social and ethical commitments inherent in entrepreneurship; and about the relationship between entrepreneurial flourishing and care.",
+        "At the core of any entrepreneurial act is its willing encounter with, and encouragement of, 'the other' - whether this means novel products, new practices, uncertain futures, or transformed habits. From some philosophical perspectives, such as phenomenology, ethical experience also involves engagement with the 'other,' coupled with a refusal to confine or transform 'the other' to the norm. Yet this raises a critical question: if entrepreneurship courts 'the other,' does it then corrupt and empty this otherness in the calculated pursuit of economic returns? If ethics entails a life lived alongside difference, then how do entrepreneurial lives compare to those shaped and scripted by the certainty and commitment to principled forms of the good advocated by other philosophical positions, such as deontology? This SI is dedicated to papers investigating this uneasy yet intimate relationship between ethics and entrepreneurship.",
+        "Different philosophical perspectives can offer unique insights into the interplay between ethics and entrepreneurship, including virtue ethics, care ethics, pragmatism, capabilities approaches, as well as deontology and phenomenology. Similarly, different schools in entrepreneurship studies, from early traditions in evolutionary economics or trait theory, to more recent perspectives associated with alertness to opportunity, emergence and creativity, and actualization, provide different stimulus for ethicists. While entrepreneurship is often associated with opportunity-seeking and value creation, its concern with seeking support from others, and with growing an organizational form that sustains the livelihood of others, extends its modus operandi beyond economic and industrial narratives of profit, and product- and service innovation. Entrepreneurial ventures are embedded within complex networks of stakeholders, including employees, customers, investors, non-human systems, and communities. Navigating these relationships demands ethical judgment that balances competing interests, priorities, and values.",
+        "Unlike managerial decision-making, which tends to rely on established protocols, systems, and formalized structures, entrepreneurial judgment occurs in a context of greater uncertainty and fluidity, where ethical considerations are threaded into the very fabric of entrepreneurial practice. Entrepreneurs must establish trust, negotiate power dynamics, and create shared meaning among diverse stakeholders, all while remaining attuned to the broader societal and environmental implications of their actions. They continually navigate competing values, and face unpredictable consequences within 'spaces of ambiguity,' where loosened norms make ethical reasoning both precarious and generative. In such spaces, distinguishing a 'good reason' for action from simply 'a reason to act' carry significant personal, social and commercial resonance, raising fundamental questions about the nature of ethical responsibility in conditions of flux and uncertainty; about the requirement to follow rules or break them; about the intimacy between the social and ethical commitments inherent in entrepreneurship; and about the relationship between entrepreneurial flourishing and care.",
         "If we can still speak of 'the entrepreneur,' it is as a figure that challenges the viability of the sovereign self, continually narrating identity through stories of venturing and novelty. The entrepreneurial self emerges through an ongoing process of becoming – an engagement with chance, contingency and creative responsiveness. Arguably, no other figure more fully embodies Friedrich Nietzsche's observation that in contemporary society we are beset by diverse, irreconcilable values, requiring each of us to set our own standards. The entrepreneur lives out this experimental existence, embracing uncertainty and 'becoming' through the act of venturing into the unknown, through proffering of alternatives, often oppositional ones. This insight invites deeper explorations of both how organizations are formed, and stakeholders are engaged in sustaining what we might call 'good shape' – a venture that remains dynamic yet coherent amidst uncertainty and change.",
         "In bringing entrepreneurship and ethics into philosophical dialogue, each field can deepen its appreciation of itself and the other. Entrepreneurship studies can learn from how ethicists have conceptualized difference, authenticity, autonomy, duty, care and recognition. These ethical-philosophical concepts invite a deeper reflection on the responsibilities of entrepreneurs – not only towards stakeholders but towards the wider social and ecological systems in which they operate. In turn, ethical theorists can learn from entrepreneurship's philosophical examination of contingency, creativity, and emergent futures that foregrounds fluidity, moral luck, and improvisation."
       ]
     },
     "tags": [
+      "ethics",
       "entrepreneurship",
-      "business ethics",
-      "philosophy"
+      "philosophy",
+      "business ethics"
     ],
     "editors": [
       {
@@ -16499,22 +16494,22 @@
     "url": "https://www.sciencedirect.com/special-issue/324562/challenges-and-advances-in-the-biofuel-industry-navigating-production-and-supply-chain-dynamics",
     "title": "Challenges and Advances in the Biofuel Industry: Navigating Production and Supply Chain Dynamics",
     "slug": "elsevier-challenges-and-advances-in-the-biofuel-industry-navigating-production-and-supply-chain-dynamics",
-    "contentHash": "5d75613f1674150cb779165f8d2e91efab28858f8fe05d4897c82c53e27539c5",
+    "contentHash": "c93692f335118d30b7a3d589db9d8e5ad6687426a78f5e14b5891d3edf62037c",
     "topics": [],
     "description": {
       "paragraphs": []
     },
     "tags": [
       "biofuels",
-      "energy",
-      "supply chain",
-      "environmental management"
+      "environmental management",
+      "production",
+      "supply chain"
     ],
     "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-30T12:00:00.000Z",
+        "date": "2027-01-31T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
