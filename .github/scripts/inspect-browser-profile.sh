@@ -7,17 +7,51 @@
 # Sans ces deux releves, on ne peut pas distinguer "cache inutile" de
 # "cache jamais restaure".
 #
+# Le run 32712644782 (2026-08-24) a montre un troisieme cas non prevu : pas
+# de jar du tout apres le scraping, alors que Chrome avait bien tourne
+# (Elsevier 205 appels, Springer 54, T&F 78). D'ou le releve d'arborescence
+# ci-dessous, qui dit si le jar est ailleurs ou nulle part.
+#
 # Ne fait jamais echouer le job : c'est un instrument de mesure, pas une
 # etape du pipeline.
 set -u
 
 MOMENT="${1:-}"
-JAR=".browser-profile/userdir/Default/Network/Cookies"
+PROFILE=".browser-profile"
+JAR="$PROFILE/userdir/Default/Network/Cookies"
 
 echo "=== Profil navigateur ${MOMENT} ==="
 
+if [ ! -d "$PROFILE" ]; then
+    echo "Repertoire $PROFILE absent : le navigateur n'a pas encore tourne."
+    exit 0
+fi
+
 if [ ! -f "$JAR" ]; then
-    echo "Aucun jar de cookies : profil neuf, rien n'a ete restaure."
+    echo "Jar absent au chemin attendu ($JAR)."
+
+    echo "-- Un jar existe-t-il ailleurs dans le profil ?"
+    trouves=$(find "$PROFILE" -name 'Cookies*' 2>/dev/null)
+    if [ -n "$trouves" ]; then
+        echo "$trouves" | sed 's/^/   /'
+    else
+        echo "   Aucun fichier nomme Cookies* dans tout le profil."
+    fi
+
+    echo "-- Arborescence du profil (40 plus gros fichiers, taille en octets)"
+    find "$PROFILE" -type f -printf '%10s  %p\n' 2>/dev/null \
+        | sort -rn | head -40 | sed 's/^/   /'
+    echo "-- Total : $(find "$PROFILE" -type f 2>/dev/null | wc -l) fichier(s)"
+
+    # Deux causes possibles a un profil sans cookies : Chrome n'a pas su
+    # initialiser son backend de chiffrement, ou il tourne dans un mode qui
+    # ne persiste rien. Ces deux releves aident a trancher.
+    echo "-- Environnement"
+    echo "   Chrome : $(google-chrome --version 2>/dev/null || echo 'introuvable')"
+    # Sortie vide et code de retour nul quand rien ne tourne : le repli doit
+    # porter sur la variable, pas sur le code de sortie du pipeline.
+    trousseau=$(pgrep -l 'gnome-keyring|kwalletd' 2>/dev/null | tr '\n' ' ')
+    echo "   Trousseau en session : ${trousseau:-aucun}"
     exit 0
 fi
 
