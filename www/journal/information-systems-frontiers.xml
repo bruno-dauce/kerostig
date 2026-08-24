@@ -2,35 +2,45 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | Information Systems Frontiers</title>
-        <link>https://kerostig.org/journal/information-systems-frontiers</link>
+        <link>https://kerostig.org/journal/information-systems-frontiers/</link>
         <description>Derniers appels à publications pour Information Systems Frontiers.</description>
-        <lastBuildDate>Sun, 23 Aug 2026 03:13:15 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Aug 2026 03:29:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | Information Systems Frontiers</title>
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.org/journal/information-systems-frontiers</link>
+            <link>https://kerostig.org/journal/information-systems-frontiers/</link>
         </image>
         <copyright>kerostig © 2026</copyright>
         <item>
             <title><![CDATA[Advancing towards a Responsible and Resilient Digital Future]]></title>
-            <link>https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future</link>
+            <link>https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future/</link>
             <guid>springer-advancing-towards-a-responsible-and-resilient-digital-future</guid>
             <pubDate>Sun, 16 Aug 2026 21:44:37 GMT</pubDate>
             <content:encoded><![CDATA[<div>
     
+        
+        <p><strong>Imon Chakraborty</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Saji K Mathew</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Nargis Pervin</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Viswanath Venkatesh</strong>, Virginia Polytechnic Institute and State University</p>
+        
     
-    <p>Digital technologies have become foundational to contemporary organizations, markets, governments, and society. Artificial intelligence (AI), digital platforms, blockchain, cloud computing, and the Internet of Things (IoT) are transforming how people work, learn, interact, and create value. These technologies create significant economic, organizational, and societal value. They help businesses transform, support better decisions, and open new services for communities. At the same time, they bring serious risks, including algorithmic bias, privacy violations, cybersecurity threats, misinformation, digital exclusion, and workforce disruption. Recent research shows that adopting a technology does not always lead to real benefits for organizations or society, and value from digital investment is often uneven and varies across situations. There is rising concern about the dark side of digital technologies, including misuse, overuse, and unintended harm.</p>
     
-    <p>Addressing these challenges requires information systems that are simultaneously responsible and resilient. Responsible digital systems should be fair, transparent, ethical, and accountable. They should protect human rights, respect privacy, and keep humans in control of important decisions. Resilient digital systems should withstand disruptions, resist attacks, recover from failures, and continue delivering value under changing conditions. Responsibility and resilience are mutually reinforcing. Systems perceived as unfair will lose user trust. Similarly, systems that cannot withstand disruptions are unlikely to sustain long-term organizational or societal value. Despite their interdependence, responsibility and resilience have largely evolved as separate streams of research.</p>
+    <p>Digital technologies have become foundational to contemporary organizations, markets, governments, and society. Artificial intelligence (AI), digital platforms, blockchain, cloud computing, and the Internet of Things (IoT) are transforming how people work, learn, interact, and create value. These technologies create significant economic, organizational, and societal value. They help businesses transform, support better decisions, and open new services for communities. At the same time, they bring serious risks. However, these technologies also introduce substantial challenges, including algorithmic bias, privacy violations, cybersecurity threats, misinformation, digital exclusion, and workforce disruption. Recent research shows that adopting a technology does not always lead to real benefits for organizations or society. Value from digital investment is often uneven and varies across situations. There is also rising concern about the dark side of digital technologies, including misuse, overuse, and unintended harm.</p>
+    
+    <p>Addressing these challenges requires information systems that are simultaneously responsible and resilient. Responsible digital systems should be fair, transparent, ethical, and accountable. They should protect human rights, respect privacy, and keep humans in control of important decisions. Resilient digital systems should withstand disruptions, resist attacks, recover from failures, and continue delivering value under changing conditions. Responsibility and resilience are mutually reinforcing. Systems perceived as unfair will lose user trust. Similarly, systems that cannot withstand disruptions are unlikely to sustain long-term organizational or societal value. Despite their interdependence, responsibility and resilience have largely evolved as separate streams of research. There is limited work that brings them together and asks how information systems (IS) can be designed, implemented, used, and governed to be both responsible and resilient.</p>
     
     <p>Information systems researchers are uniquely positioned to examine the interplay between digital technologies, individuals, organizations, institutions, and society. It provides a unique lens for understanding how humans and AI collaborate, how users interact with digital platforms, how organizations realize value from digital technologies, and how governance and policy shape digital outcomes. It can also show how digital tools can serve communities, including vulnerable groups, and support accessibility for all. Nevertheless, significant opportunities remain for theory-driven and empirically rigorous research. We need studies that go beyond simple adoption stories and give deeper insight into post-adoption use, value realization, human–machine collaboration, governance of AI, and the long-term impact of digital systems on business and society.</p>
     
     <p>This special issue responds to that need. It invites scholars and practitioners to examine how information systems can advance a responsible and resilient digital future. We invite theoretically grounded, methodologically rigorous, and practically relevant research that advances understanding of responsible and resilient digital futures. Submissions may use various research methods, such as conceptual and theoretical work, surveys, experiments, case studies, and design science methods.</p>
     
-    <p>This special issue is linked to the India Conference on Information Systems (InCIS 2027), which carries the same theme. The authors of selected high-quality papers from the conference will be invited to submit substantially extended versions to this special issue. The special issue is also open to all authors through this open call, even if not submitted to the conference.</p>
+    <p>This special issue is linked to the India Conference on Information Systems (InCIS 2027), which carries the same theme, &quot;Advancing towards a Responsible and Resilient Digital Future&quot;. The authors of selected high-quality papers from the conference will be invited to submit substantially extended versions to this special issue. The special issue is also open to all authors through this open call, even if not submitted to the conference.</p>
     
     <p>We encourage studies that move beyond surface-level narratives and offer nuanced insight into how responsibility and resilience can be built into digital systems. Submissions that challenge existing paradigms, explore underexamined dimensions, or offer new frameworks are especially encouraged. Submissions must clearly identify the specific digital technologies and contexts examined. Purely technical or system-level papers without an IS, behavioural, organisational, or societal contribution are outside the scope of this special issue.</p>
     
@@ -80,7 +90,7 @@
         </item>
         <item>
             <title><![CDATA[Digital Technologies for Combating Unethical Labour Practices and Promoting Human Rights]]></title>
-            <link>https://kerostig.org/call/springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights</link>
+            <link>https://kerostig.org/call/springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights/</link>
             <guid>springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -154,7 +164,7 @@
         </item>
         <item>
             <title><![CDATA[From Adoption to Impact: Post-Adoption, Value Realization, and Societal Transformation of ICT and AI]]></title>
-            <link>https://kerostig.org/call/springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai</link>
+            <link>https://kerostig.org/call/springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai/</link>
             <guid>springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -244,7 +254,7 @@
         </item>
         <item>
             <title><![CDATA[Keeping Humans in the Loop in the AI-Driven Future of Information Security]]></title>
-            <link>https://kerostig.org/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security</link>
+            <link>https://kerostig.org/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security/</link>
             <guid>springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -322,7 +332,7 @@
         </item>
         <item>
             <title><![CDATA[Artificial Intelligence, Affective Computing and Video Analytics for Intelligent Information Systems]]></title>
-            <link>https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</link>
+            <link>https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/</link>
             <guid>springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>

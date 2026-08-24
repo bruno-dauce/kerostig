@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | Information &amp; Management</title>
-        <link>https://kerostig.org/journal/information-and-management</link>
+        <link>https://kerostig.org/journal/information-and-management/</link>
         <description>Derniers appels à publications pour Information &amp; Management.</description>
-        <lastBuildDate>Sun, 23 Aug 2026 03:13:15 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Aug 2026 03:29:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | Information &amp; Management</title>
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.org/journal/information-and-management</link>
+            <link>https://kerostig.org/journal/information-and-management/</link>
         </image>
         <copyright>kerostig © 2026</copyright>
         <item>
             <title><![CDATA[Emerging Methods in Information Systems]]></title>
-            <link>https://kerostig.org/call/elsevier-emerging-methods-in-information-systems</link>
+            <link>https://kerostig.org/call/elsevier-emerging-methods-in-information-systems/</link>
             <guid>elsevier-emerging-methods-in-information-systems</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -37,7 +37,7 @@
         </item>
         <item>
             <title><![CDATA[Information Systems in Asia-Pacific Context]]></title>
-            <link>https://kerostig.org/call/elsevier-special-issue-for-the-pacific-asia-conference-on-information-systems-pacis-2026</link>
+            <link>https://kerostig.org/call/elsevier-special-issue-for-the-pacific-asia-conference-on-information-systems-pacis-2026/</link>
             <guid>elsevier-special-issue-for-the-pacific-asia-conference-on-information-systems-pacis-2026</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>

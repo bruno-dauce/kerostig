@@ -2,21 +2,95 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | Tag : digital transformation</title>
-        <link>https://kerostig.org/tag/digital-transformation</link>
+        <link>https://kerostig.org/tag/digital-transformation/</link>
         <description>Derniers appels à publications avec le tag 'digital transformation'.</description>
-        <lastBuildDate>Sun, 23 Aug 2026 03:13:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Aug 2026 03:29:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | Tag : digital transformation</title>
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.org/tag/digital-transformation</link>
+            <link>https://kerostig.org/tag/digital-transformation/</link>
         </image>
         <copyright>kerostig © 2026</copyright>
         <item>
+            <title><![CDATA[Advancing towards a Responsible and Resilient Digital Future]]></title>
+            <link>https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future/</link>
+            <guid>springer-advancing-towards-a-responsible-and-resilient-digital-future</guid>
+            <pubDate>Sun, 16 Aug 2026 21:44:37 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Imon Chakraborty</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Saji K Mathew</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Nargis Pervin</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Viswanath Venkatesh</strong>, Virginia Polytechnic Institute and State University</p>
+        
+    
+    
+    <p>Digital technologies have become foundational to contemporary organizations, markets, governments, and society. Artificial intelligence (AI), digital platforms, blockchain, cloud computing, and the Internet of Things (IoT) are transforming how people work, learn, interact, and create value. These technologies create significant economic, organizational, and societal value. They help businesses transform, support better decisions, and open new services for communities. At the same time, they bring serious risks. However, these technologies also introduce substantial challenges, including algorithmic bias, privacy violations, cybersecurity threats, misinformation, digital exclusion, and workforce disruption. Recent research shows that adopting a technology does not always lead to real benefits for organizations or society. Value from digital investment is often uneven and varies across situations. There is also rising concern about the dark side of digital technologies, including misuse, overuse, and unintended harm.</p>
+    
+    <p>Addressing these challenges requires information systems that are simultaneously responsible and resilient. Responsible digital systems should be fair, transparent, ethical, and accountable. They should protect human rights, respect privacy, and keep humans in control of important decisions. Resilient digital systems should withstand disruptions, resist attacks, recover from failures, and continue delivering value under changing conditions. Responsibility and resilience are mutually reinforcing. Systems perceived as unfair will lose user trust. Similarly, systems that cannot withstand disruptions are unlikely to sustain long-term organizational or societal value. Despite their interdependence, responsibility and resilience have largely evolved as separate streams of research. There is limited work that brings them together and asks how information systems (IS) can be designed, implemented, used, and governed to be both responsible and resilient.</p>
+    
+    <p>Information systems researchers are uniquely positioned to examine the interplay between digital technologies, individuals, organizations, institutions, and society. It provides a unique lens for understanding how humans and AI collaborate, how users interact with digital platforms, how organizations realize value from digital technologies, and how governance and policy shape digital outcomes. It can also show how digital tools can serve communities, including vulnerable groups, and support accessibility for all. Nevertheless, significant opportunities remain for theory-driven and empirically rigorous research. We need studies that go beyond simple adoption stories and give deeper insight into post-adoption use, value realization, human–machine collaboration, governance of AI, and the long-term impact of digital systems on business and society.</p>
+    
+    <p>This special issue responds to that need. It invites scholars and practitioners to examine how information systems can advance a responsible and resilient digital future. We invite theoretically grounded, methodologically rigorous, and practically relevant research that advances understanding of responsible and resilient digital futures. Submissions may use various research methods, such as conceptual and theoretical work, surveys, experiments, case studies, and design science methods.</p>
+    
+    <p>This special issue is linked to the India Conference on Information Systems (InCIS 2027), which carries the same theme, &quot;Advancing towards a Responsible and Resilient Digital Future&quot;. The authors of selected high-quality papers from the conference will be invited to submit substantially extended versions to this special issue. The special issue is also open to all authors through this open call, even if not submitted to the conference.</p>
+    
+    <p>We encourage studies that move beyond surface-level narratives and offer nuanced insight into how responsibility and resilience can be built into digital systems. Submissions that challenge existing paradigms, explore underexamined dimensions, or offer new frameworks are especially encouraged. Submissions must clearly identify the specific digital technologies and contexts examined. Purely technical or system-level papers without an IS, behavioural, organisational, or societal contribution are outside the scope of this special issue.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Responsible AI and AI Governance</li>
+        
+        <li>Resilient Information Systems and Digital Platforms</li>
+        
+        <li>Human–AI Collaboration and Decision Making</li>
+        
+        <li>Digital Transformation and Innovation</li>
+        
+        <li>User Behaviour in Digital Environment</li>
+        
+        <li>Digital Trust, Privacy, and Cybersecurity</li>
+        
+        <li>Data Governance and AI-Enabled Decision Making</li>
+        
+        <li>Digital Inclusion, Accessibility, and Societal Impact</li>
+        
+        <li>Policy and Governance of Digital Technologies</li>
+        
+        <li>Design Science Research for Responsible and Resilient IS</li>
+        
+        <li>AI and future of work and education</li>
+        
+        <li>Opportunities and challenges does AI create for society</li>
+        
+        <li>Skills and mindsets that will remain uniquely human in an AI-driven world</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 15, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Information Systems Frontiers (SPRINGER)</author>
+        </item>
+        <item>
             <title><![CDATA[Digital and AI Transformation in Insurance]]></title>
-            <link>https://kerostig.org/call/springer-digital-and-ai-transformation-in-insurance</link>
+            <link>https://kerostig.org/call/springer-digital-and-ai-transformation-in-insurance/</link>
             <guid>springer-digital-and-ai-transformation-in-insurance</guid>
             <pubDate>Sun, 16 Aug 2026 21:44:37 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -69,80 +143,8 @@
             <author>The Geneva Papers on Risk and Insurance Issues and Practice (SPRINGER)</author>
         </item>
         <item>
-            <title><![CDATA[Dialogue social sur le travail en mutations : quels défis, acteurs, espaces et modalités ?]]></title>
-            <link>https://kerostig.org/call/agrh-dialogue-social-sur-le-travail-en-mutations-quels-defis-acteurs-espaces-et-modalites-dl-15-janvier-2025</link>
-            <guid>agrh-dialogue-social-sur-le-travail-en-mutations-quels-defis-acteurs-espaces-et-modalites-dl-15-janvier-2025</guid>
-            <pubDate>Wed, 12 Aug 2026 22:00:20 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>Juliette Fronty</strong>, IUT Toulouse 3</p>
-        
-        <p><strong>Christelle Havard</strong>, BSB Education</p>
-        
-    
-    
-    <p>Work in organizations is experiencing numerous changes and is questioned by several challenges. The integration of ecological issues in productive and organizational choices, along with the development of digital technologies and artificial intelligence, is modifying the nature of work performed, its modalities, and the relationships that workers develop with each other and with various organizational stakeholders such as managers, clients, and suppliers. The rise of digital platforms is also changing the relationship to work and the nature of services provided by workers, who become to some extent independent. The growing diversity of worker profiles and expectations, combined with increasing aspiration for remote work, complexifies work situations and disrupts team functioning and managerial relationships.</p>
-    
-    <p>These challenges put tension on work and on the various forms of social dialogue existing in organizations: institutionalized social dialogue (formal and informal) involving management and employee representatives in instances and negotiation spaces, as well as proximity social dialogue occurring between workers, their direct managers, and employee representatives present in teams. New subjects must be addressed at both dialogue levels: the consequences of ecological and digital transition on work, such as remote work arrangements. New forms of collective representation are also emerging at organizational boundaries, challenging traditional social dialogue actors: neo-unions are emerging around ecological issues; non-unionized collectives represent digital platform workers. Direct participation spaces called professional dialogue by practitioners are created at team levels and question proximity social dialogue. These challenges therefore interrogate social dialogue through its actors (traditional actors like unions and new actors), its objects (work and its regulation), its spaces (infra-organizational and at organizational boundaries), and its modalities (mechanisms aiming to organize these different types and levels of dialogue).</p>
-    
-    <p>In accordance with the editorial line of the journal @grh, this special issue can welcome theoretical or empirical contributions based on qualitative or quantitative methodologies. Contributions can be written in French or English and concern organizations in France or internationally.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Effects of remote work on collective representation modalities, proximity social dialogue, and professional dialogue</li>
-        
-        <li>How networked or flattened organizational forms modify spaces and modalities of social dialogue on work</li>
-        
-        <li>Articulations between social dialogue and professional dialogue, between formal and informal social dialogue concerning work mutations</li>
-        
-        <li>Employee access to organizational governance, new forms of participation and voice, and dialogue about work</li>
-        
-        <li>Use of virtual tools and artificial intelligence, their effects on work, and dialogue by actors about these technologies</li>
-        
-        <li>Spaces where ecological transformation effects on work are discussed, actors involved, and the nature of ecological social dialogue</li>
-        
-        <li>Collective representation of independent workers and platform workers, conceptions of work they promote, and dialogue instances</li>
-        
-        <li>Digital transformation and artificial intelligence effects on work nature, modalities, and worker relationships</li>
-        
-        <li>Ecological transition challenges in productive and organizational choices</li>
-        
-        <li>Diversity of worker profiles and expectations, remote work aspirations, and impacts on team functioning and managerial relations</li>
-        
-        <li>New collective representation forms emerging at organizational boundaries challenging traditional social dialogue actors</li>
-        
-        <li>Direct participation spaces called professional dialogue created at team levels</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>June 1, 2024: Publication of call for contributions</li>
-        
-        <li>January 15, 2025: Paper submission deadline</li>
-        
-        <li>April 1, 2025: Feedback to authors</li>
-        
-        <li>June 1, 2025: Reception of revised article versions</li>
-        
-        <li>September 1, 2025: Final acceptance of selected articles</li>
-        
-        <li>December 1, 2025: Publication of special issue</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>GRH (AGRH)</author>
-        </item>
-        <item>
             <title><![CDATA[Building Digital Capabilities for Improved ESG Performance of Entrepreneurial Firms: Strategies for Tackling Challenges and Capitalizing on Opportunities]]></title>
-            <link>https://kerostig.org/call/springer-building-digital-capabilities-for-improved-esg-performance-of-entrepreneurial-firms-strategies-for-tackling-challenges-and-capitalizing-on-opportunities</link>
+            <link>https://kerostig.org/call/springer-building-digital-capabilities-for-improved-esg-performance-of-entrepreneurial-firms-strategies-for-tackling-challenges-and-capitalizing-on-opportunities/</link>
             <guid>springer-building-digital-capabilities-for-improved-esg-performance-of-entrepreneurial-firms-strategies-for-tackling-challenges-and-capitalizing-on-opportunities</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -162,13 +164,11 @@
     
     <p>In an ever-changing technological milieu where technological proficiency is synonymous with competitive advantage, fostering digital capabilities becomes a survival necessity, empowering firms to orchestrate agility, resilience, and sustainable performance. The digital age has ushered in transformative opportunities and challenges, redefining the landscape for entrepreneurial firms striving to align with ethical, social, and environmental responsibilities.</p>
     
-    <p>Entrepreneurial ventures, characterized by innovation, agility, and risk-taking, are at the forefront of shaping the future of business. Their unique characteristics make them prime actors in navigating the complexities of integrating digital capabilities for improved ESG outcomes. Improving ESG performance is imperative for organizations, transcending mere compliance to embody a commitment to sustainable and ethical practices. This commitment holds profound implications for various stakeholders, ranging from shareholders to customers, suppliers, employees, and others.</p>
-    
-    <p>Improved ESG performance mitigates risks associated with environmental impact and social responsibility, enhances corporate reputation, and attracts conscientious investors. Stakeholders increasingly scrutinize ESG metrics as a reflection of an organization&#39;s ethical standing and long-term viability. It fosters a symbiotic relationship, aligning corporate objectives with societal expectations and contributing to building a more responsible and resilient business ecosystem.</p>
+    <p>As mentioned in the aims and scope of the International Entrepreneurship and Management Journal, entrepreneurial ventures, characterized by innovation, agility, and risk-taking, are at the forefront of shaping the future of business. Their unique characteristics make them prime actors in navigating the complexities of integrating digital capabilities for improved ESG outcomes. Improving ESG performance is imperative for organizations, transcending mere compliance to embody a commitment to sustainable and ethical practices. This commitment holds profound implications for various stakeholders, ranging from shareholders to customers, suppliers, employees, and others. Improved ESG performance mitigates risks associated with environmental impact and social responsibility, enhances corporate reputation, and attracts conscientious investors. Stakeholders increasingly scrutinize ESG metrics as a reflection of an organization&#39;s ethical standing and long-term viability. It fosters a symbiotic relationship, aligning corporate objectives with societal expectations and contributing to building a more responsible and resilient business ecosystem.</p>
     
     <p>This Collection aims to unravel the intricate role of building digital capabilities in entrepreneurial firms&#39; improved ESG performance. By exploring this intersection, we seek to understand how digital capabilities can contribute to a more environmentally and socially responsible entrepreneurial firm with a strong governance structure. We invite experimental, conceptual, theoretical, and empirical studies exploring the convergence of digital capabilities in shaping entrepreneurial firms&#39; ESG performance, shed light on challenges, and explain solutions.</p>
     
-    <p>While the listed topics and questions are primary interests, we remain open to manuscripts that explain other complexities relevant to digital capabilities and ESG performance. We are keen to receive manuscripts that employ innovative methods and engage deeply with the prevailing dilemmas and dialogues in entrepreneurial research. Your insights and academic rigor will help broaden our collective comprehension of the complexities, challenges, and impacts surrounding building digital capabilities strategies and their implications for ESG performance.</p>
+    <p>While these topics and questions are our primary interests, we remain open to manuscripts that explain other complexities relevant to digital capabilities and ESG performance. We are keen to receive manuscripts that employ innovative methods and engage deeply with the prevailing dilemmas and dialogues in entrepreneurial research. Your insights and academic rigor will help broaden our collective comprehension of the complexities, challenges, and impacts surrounding building digital capabilities strategies and their implications for ESG performance.</p>
     
     
     <h2>Potential topics</h2>
@@ -212,7 +212,7 @@
         </item>
         <item>
             <title><![CDATA[Unpacking Digitalization: Antecedents, Strategies, and Performance Implications]]></title>
-            <link>https://kerostig.org/call/springer-unpacking-digitalization-antecedents-strategies-and-performance-implications</link>
+            <link>https://kerostig.org/call/springer-unpacking-digitalization-antecedents-strategies-and-performance-implications/</link>
             <guid>springer-unpacking-digitalization-antecedents-strategies-and-performance-implications</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -306,7 +306,7 @@
         </item>
         <item>
             <title><![CDATA[From Adoption to Impact: Post-Adoption, Value Realization, and Societal Transformation of ICT and AI]]></title>
-            <link>https://kerostig.org/call/springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai</link>
+            <link>https://kerostig.org/call/springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai/</link>
             <guid>springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -396,7 +396,7 @@
         </item>
         <item>
             <title><![CDATA[Responsible and Trustworthy Artificial Intelligence in Tourism and Hospitality]]></title>
-            <link>https://kerostig.org/call/springer-special-issue-on-responsible-and-trustworthy-artificial-intelligence-in-tourism-and-hospitality</link>
+            <link>https://kerostig.org/call/springer-special-issue-on-responsible-and-trustworthy-artificial-intelligence-in-tourism-and-hospitality/</link>
             <guid>springer-special-issue-on-responsible-and-trustworthy-artificial-intelligence-in-tourism-and-hospitality</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -476,7 +476,7 @@
         </item>
         <item>
             <title><![CDATA[Digital Transformation and Service]]></title>
-            <link>https://kerostig.org/call/springer-topical-collection-on-digital-transformation-and-service</link>
+            <link>https://kerostig.org/call/springer-topical-collection-on-digital-transformation-and-service/</link>
             <guid>springer-topical-collection-on-digital-transformation-and-service</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -540,7 +540,7 @@
         </item>
         <item>
             <title><![CDATA[Service research in the digital era]]></title>
-            <link>https://kerostig.org/call/springer-topical-collection-on-service-research-in-the-digital-era</link>
+            <link>https://kerostig.org/call/springer-topical-collection-on-service-research-in-the-digital-era/</link>
             <guid>springer-topical-collection-on-service-research-in-the-digital-era</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -600,7 +600,7 @@
         </item>
         <item>
             <title><![CDATA[Reconfiguring Commerce, Capabilities and Culture in Age of Technological Acceleration]]></title>
-            <link>https://kerostig.org/call/elsevier-india-at-the-intersection-reconfiguring-commerce-capabilities-and-culture-in-age-of-technological-acceleration</link>
+            <link>https://kerostig.org/call/elsevier-india-at-the-intersection-reconfiguring-commerce-capabilities-and-culture-in-age-of-technological-acceleration/</link>
             <guid>elsevier-india-at-the-intersection-reconfiguring-commerce-capabilities-and-culture-in-age-of-technological-acceleration</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -623,7 +623,7 @@
         </item>
         <item>
             <title><![CDATA[Managing Innovation and Technology in the Digital and Intelligent Age]]></title>
-            <link>https://kerostig.org/call/elsevier-managing-innovation-and-technology-in-the-digital-and-intelligent-age-2</link>
+            <link>https://kerostig.org/call/elsevier-managing-innovation-and-technology-in-the-digital-and-intelligent-age-2/</link>
             <guid>elsevier-managing-innovation-and-technology-in-the-digital-and-intelligent-age-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -644,7 +644,7 @@
         </item>
         <item>
             <title><![CDATA[Strategizing for Sustainable Business Model Innovation in the Digital Age]]></title>
-            <link>https://kerostig.org/call/elsevier-strategizing-for-sustainable-business-model-innovation-in-the-digital-age</link>
+            <link>https://kerostig.org/call/elsevier-strategizing-for-sustainable-business-model-innovation-in-the-digital-age/</link>
             <guid>elsevier-strategizing-for-sustainable-business-model-innovation-in-the-digital-age</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -665,7 +665,7 @@
         </item>
         <item>
             <title><![CDATA[Hybrid Human-AI Collaborative Networks]]></title>
-            <link>https://kerostig.org/call/tandf-hybrid-human-ai-collaborative-networks</link>
+            <link>https://kerostig.org/call/tandf-hybrid-human-ai-collaborative-networks/</link>
             <guid>tandf-hybrid-human-ai-collaborative-networks</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -753,7 +753,7 @@
         </item>
         <item>
             <title><![CDATA[Digital Visibility: Design, Management, & Impacts]]></title>
-            <link>https://kerostig.org/call/tandf-digital-visibility-design-management-and-impacts-incl-paper-development-workshop</link>
+            <link>https://kerostig.org/call/tandf-digital-visibility-design-management-and-impacts-incl-paper-development-workshop/</link>
             <guid>tandf-digital-visibility-design-management-and-impacts-incl-paper-development-workshop</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -882,7 +882,7 @@
         </item>
         <item>
             <title><![CDATA[Native IS Theories]]></title>
-            <link>https://kerostig.org/call/tandf-native-is-theories</link>
+            <link>https://kerostig.org/call/tandf-native-is-theories/</link>
             <guid>tandf-native-is-theories</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -962,7 +962,7 @@
         </item>
         <item>
             <title><![CDATA[Theorising Time in a Digital Era: New Horizons for IS Research]]></title>
-            <link>https://kerostig.org/call/tandf-theorising-time-in-a-digital-era-new-horizons-for-is-research</link>
+            <link>https://kerostig.org/call/tandf-theorising-time-in-a-digital-era-new-horizons-for-is-research/</link>
             <guid>tandf-theorising-time-in-a-digital-era-new-horizons-for-is-research</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -1097,7 +1097,7 @@
         </item>
         <item>
             <title><![CDATA[Managing the digitally-savvy workforce: Human Resource Management in an evolving digital landscape]]></title>
-            <link>https://kerostig.org/call/tandf-managing-the-digitally-savvy-workforce-human-resource-management-in-an-evolving-digital-landscape</link>
+            <link>https://kerostig.org/call/tandf-managing-the-digitally-savvy-workforce-human-resource-management-in-an-evolving-digital-landscape/</link>
             <guid>tandf-managing-the-digitally-savvy-workforce-human-resource-management-in-an-evolving-digital-landscape</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -1177,7 +1177,7 @@
         </item>
         <item>
             <title><![CDATA[Organizing for the future – how do OSCM processes and organization design need to evolve in the wake of technological and/or geopolitical disruptions?]]></title>
-            <link>https://kerostig.org/call/emerald-organizing-for-the-future-how-do-oscm-processes-and-organization-design-need-to-evolve-in-the-wake-of-technological-andor-geopolitical-disruptions</link>
+            <link>https://kerostig.org/call/emerald-organizing-for-the-future-how-do-oscm-processes-and-organization-design-need-to-evolve-in-the-wake-of-technological-andor-geopolitical-disruptions/</link>
             <guid>emerald-organizing-for-the-future-how-do-oscm-processes-and-organization-design-need-to-evolve-in-the-wake-of-technological-andor-geopolitical-disruptions</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -1231,7 +1231,7 @@
         </item>
         <item>
             <title><![CDATA[Multinational enterprises, sustainability and innovation in the digital age: Global, regional and local perspectives]]></title>
-            <link>https://kerostig.org/call/emerald-multinational-enterprises-sustainability-and-innovation-in-the-digital-age-global-regional-and-local-perspectives</link>
+            <link>https://kerostig.org/call/emerald-multinational-enterprises-sustainability-and-innovation-in-the-digital-age-global-regional-and-local-perspectives/</link>
             <guid>emerald-multinational-enterprises-sustainability-and-innovation-in-the-digital-age-global-regional-and-local-perspectives</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -1295,7 +1295,7 @@
         </item>
         <item>
             <title><![CDATA[Crossing Methodological Borders: Mixed-/Multi-Methods in Contemporary Industrial and Information Systems management]]></title>
-            <link>https://kerostig.org/call/emerald-crossing-methodological-borders-mixed-multi-methods-in-contemporary-industrial-and-information-systems-management</link>
+            <link>https://kerostig.org/call/emerald-crossing-methodological-borders-mixed-multi-methods-in-contemporary-industrial-and-information-systems-management/</link>
             <guid>emerald-crossing-methodological-borders-mixed-multi-methods-in-contemporary-industrial-and-information-systems-management</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -1347,7 +1347,7 @@
         </item>
         <item>
             <title><![CDATA[Thriving Through Transformation: Employee Experience, Resilience, and Human Sustainability in Changing Workplaces]]></title>
-            <link>https://kerostig.org/call/emerald-thriving-through-transformation-employee-experience-resilience-and-human-sustainability-in-changing-workplaces</link>
+            <link>https://kerostig.org/call/emerald-thriving-through-transformation-employee-experience-resilience-and-human-sustainability-in-changing-workplaces/</link>
             <guid>emerald-thriving-through-transformation-employee-experience-resilience-and-human-sustainability-in-changing-workplaces</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<div>
@@ -1401,7 +1401,7 @@
         </item>
         <item>
             <title><![CDATA[Critical National Infrastructure]]></title>
-            <link>https://kerostig.org/call/jmis-critical-national-infrastructure</link>
+            <link>https://kerostig.org/call/jmis-critical-national-infrastructure/</link>
             <guid>jmis-critical-national-infrastructure</guid>
             <pubDate>Mon, 26 May 2025 03:20:42 GMT</pubDate>
             <content:encoded><![CDATA[<div>

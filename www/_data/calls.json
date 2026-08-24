@@ -3924,6 +3924,55 @@
     "journal": "Auditing A Journal of Practice & Theory",
     "abbreviation": "aaa",
     "issn": "1558-7991",
+    "metaTitle": "Call for Papers Auditing: A Journal of Practice & Theory (AJPT) Shorter Papers",
+    "url": "https://aaahq.org/portals/0/documents/calls/2026/AJPT%20Call%20for%20Shorter%20Papers%20v2.pdf",
+    "title": "Shorter Papers",
+    "slug": "aaa-call-for-papers-auditing-a-journal-of-practice-and-theory-ajpt-shorter-papers",
+    "contentHash": "2511cde55b64560a8f041267e6f752f8ec48ac931fc604fa8387e96865b99b31",
+    "topics": [
+      "Papers that intentionally have been shortened from standard-length submissions",
+      "Replications and extensions that generate new insights",
+      "Timely issues particularly important to the auditing profession with narrower scope",
+      "All research methodologies and auditing topics"
+    ],
+    "description": {
+      "paragraphs": [
+        "Recent trends in academic research have resulted in longer journal articles and a substantial increase in the length of the academic review process. In 2024, AJPT initiated a Call for shorter papers, resulting in 114 submissions. This is now a second Call for shorter papers that also accommodates (but is not limited to) replications and extensions that generate new insights.",
+        "The Call encompasses two general types of high-quality submissions: (1) papers that typically would be standard-length but that intentionally have been shortened to satisfy the requirements of the Call; (2) papers targeting issues that are timely and/or particularly important to the auditing profession that may have a narrower scope and contribution. All research methodologies and auditing topics are welcome.",
+        "Submissions should be approximately 20 pages of text (roughly 5,000 words) exclusive of references, appendices, and tables. Submissions should include no more than five or six tables. In most instances, the greatest adjustment relative to a standard-length paper is likely to be in the background and empirical sections. Despite the reduced length, submissions must demonstrate sufficient rigor.",
+        "Papers will be published in a Special Section as they are accepted, coordinating the timing of acceptances and space availability in individual journal issues rather than assembling a cohort of papers for publication at a future date. Submissions will be screened and assigned to handling editors by Matt Ege and Tamara Lambert. Handling editors will then assign submissions to two reviewers, consistent with AJPT's standard review process. Given the goals of the Call, an expedited review process is targeted with a goal of decreasing time to publication. Authors will be encouraged to resubmit within three to six months if invited to submit a revision, and editors and reviewers will target a decision after two rounds."
+      ]
+    },
+    "tags": [
+      "auditing",
+      "shorter papers",
+      "special section"
+    ],
+    "editors": [
+      {
+        "name": "Matt Ege",
+        "affiliation": "Texas A&M University"
+      },
+      {
+        "name": "Tamara Lambert",
+        "affiliation": "The University of Manchester"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-08-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T08:15:27.740Z"
+  },
+  {
+    "journal": "Auditing A Journal of Practice & Theory",
+    "abbreviation": "aaa",
+    "issn": "1558-7991",
     "metaTitle": "Call for Papers Auditing: A Journal of Practice & Theory (AJPT) Unexpected or Non-Significant Results in Experimental Research",
     "url": "https://aaahq.org/portals/0/documents/calls/2026/AJPT%20Unexpected%20or%20Non-significant%20Results%20in%20Experimental%20Research%20v2.pdf",
     "title": "Unexpected or Non-Significant Results in Experimental Research",
@@ -3969,55 +4018,6 @@
       {
         "date": "2027-08-31T10:00:00.000Z",
         "description": "Deadline for submissions",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-18T08:15:27.740Z"
-  },
-  {
-    "journal": "Auditing A Journal of Practice & Theory",
-    "abbreviation": "aaa",
-    "issn": "1558-7991",
-    "metaTitle": "Call for Papers Auditing: A Journal of Practice & Theory (AJPT) Shorter Papers",
-    "url": "https://aaahq.org/portals/0/documents/calls/2026/AJPT%20Call%20for%20Shorter%20Papers%20v2.pdf",
-    "title": "Shorter Papers",
-    "slug": "aaa-call-for-papers-auditing-a-journal-of-practice-and-theory-ajpt-shorter-papers",
-    "contentHash": "2511cde55b64560a8f041267e6f752f8ec48ac931fc604fa8387e96865b99b31",
-    "topics": [
-      "Papers that intentionally have been shortened from standard-length submissions",
-      "Replications and extensions that generate new insights",
-      "Timely issues particularly important to the auditing profession with narrower scope",
-      "All research methodologies and auditing topics"
-    ],
-    "description": {
-      "paragraphs": [
-        "Recent trends in academic research have resulted in longer journal articles and a substantial increase in the length of the academic review process. In 2024, AJPT initiated a Call for shorter papers, resulting in 114 submissions. This is now a second Call for shorter papers that also accommodates (but is not limited to) replications and extensions that generate new insights.",
-        "The Call encompasses two general types of high-quality submissions: (1) papers that typically would be standard-length but that intentionally have been shortened to satisfy the requirements of the Call; (2) papers targeting issues that are timely and/or particularly important to the auditing profession that may have a narrower scope and contribution. All research methodologies and auditing topics are welcome.",
-        "Submissions should be approximately 20 pages of text (roughly 5,000 words) exclusive of references, appendices, and tables. Submissions should include no more than five or six tables. In most instances, the greatest adjustment relative to a standard-length paper is likely to be in the background and empirical sections. Despite the reduced length, submissions must demonstrate sufficient rigor.",
-        "Papers will be published in a Special Section as they are accepted, coordinating the timing of acceptances and space availability in individual journal issues rather than assembling a cohort of papers for publication at a future date. Submissions will be screened and assigned to handling editors by Matt Ege and Tamara Lambert. Handling editors will then assign submissions to two reviewers, consistent with AJPT's standard review process. Given the goals of the Call, an expedited review process is targeted with a goal of decreasing time to publication. Authors will be encouraged to resubmit within three to six months if invited to submit a revision, and editors and reviewers will target a decision after two rounds."
-      ]
-    },
-    "tags": [
-      "auditing",
-      "shorter papers",
-      "special section"
-    ],
-    "editors": [
-      {
-        "name": "Matt Ege",
-        "affiliation": "Texas A&M University"
-      },
-      {
-        "name": "Tamara Lambert",
-        "affiliation": "The University of Manchester"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2027-08-31T10:00:00.000Z",
-        "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
@@ -6587,7 +6587,7 @@
     "url": "https://link.springer.com/collections/ffhgdbhbad",
     "title": "Advancing towards a Responsible and Resilient Digital Future",
     "slug": "springer-advancing-towards-a-responsible-and-resilient-digital-future",
-    "contentHash": "a9b192562d446c046957322cf9bb99e501c83d65f785fa9669f0ab64a6f37922",
+    "contentHash": "c3cc73ed1488ee9a597092ca24252987f3ae73fdddadf5c17c88e917a55d6cce",
     "topics": [
       "Responsible AI and AI Governance",
       "Resilient Information Systems and Digital Platforms",
@@ -6605,25 +6605,43 @@
     ],
     "description": {
       "paragraphs": [
-        "Digital technologies have become foundational to contemporary organizations, markets, governments, and society. Artificial intelligence (AI), digital platforms, blockchain, cloud computing, and the Internet of Things (IoT) are transforming how people work, learn, interact, and create value. These technologies create significant economic, organizational, and societal value. They help businesses transform, support better decisions, and open new services for communities. At the same time, they bring serious risks, including algorithmic bias, privacy violations, cybersecurity threats, misinformation, digital exclusion, and workforce disruption. Recent research shows that adopting a technology does not always lead to real benefits for organizations or society, and value from digital investment is often uneven and varies across situations. There is rising concern about the dark side of digital technologies, including misuse, overuse, and unintended harm.",
-        "Addressing these challenges requires information systems that are simultaneously responsible and resilient. Responsible digital systems should be fair, transparent, ethical, and accountable. They should protect human rights, respect privacy, and keep humans in control of important decisions. Resilient digital systems should withstand disruptions, resist attacks, recover from failures, and continue delivering value under changing conditions. Responsibility and resilience are mutually reinforcing. Systems perceived as unfair will lose user trust. Similarly, systems that cannot withstand disruptions are unlikely to sustain long-term organizational or societal value. Despite their interdependence, responsibility and resilience have largely evolved as separate streams of research.",
+        "Digital technologies have become foundational to contemporary organizations, markets, governments, and society. Artificial intelligence (AI), digital platforms, blockchain, cloud computing, and the Internet of Things (IoT) are transforming how people work, learn, interact, and create value. These technologies create significant economic, organizational, and societal value. They help businesses transform, support better decisions, and open new services for communities. At the same time, they bring serious risks. However, these technologies also introduce substantial challenges, including algorithmic bias, privacy violations, cybersecurity threats, misinformation, digital exclusion, and workforce disruption. Recent research shows that adopting a technology does not always lead to real benefits for organizations or society. Value from digital investment is often uneven and varies across situations. There is also rising concern about the dark side of digital technologies, including misuse, overuse, and unintended harm.",
+        "Addressing these challenges requires information systems that are simultaneously responsible and resilient. Responsible digital systems should be fair, transparent, ethical, and accountable. They should protect human rights, respect privacy, and keep humans in control of important decisions. Resilient digital systems should withstand disruptions, resist attacks, recover from failures, and continue delivering value under changing conditions. Responsibility and resilience are mutually reinforcing. Systems perceived as unfair will lose user trust. Similarly, systems that cannot withstand disruptions are unlikely to sustain long-term organizational or societal value. Despite their interdependence, responsibility and resilience have largely evolved as separate streams of research. There is limited work that brings them together and asks how information systems (IS) can be designed, implemented, used, and governed to be both responsible and resilient.",
         "Information systems researchers are uniquely positioned to examine the interplay between digital technologies, individuals, organizations, institutions, and society. It provides a unique lens for understanding how humans and AI collaborate, how users interact with digital platforms, how organizations realize value from digital technologies, and how governance and policy shape digital outcomes. It can also show how digital tools can serve communities, including vulnerable groups, and support accessibility for all. Nevertheless, significant opportunities remain for theory-driven and empirically rigorous research. We need studies that go beyond simple adoption stories and give deeper insight into post-adoption use, value realization, human–machine collaboration, governance of AI, and the long-term impact of digital systems on business and society.",
         "This special issue responds to that need. It invites scholars and practitioners to examine how information systems can advance a responsible and resilient digital future. We invite theoretically grounded, methodologically rigorous, and practically relevant research that advances understanding of responsible and resilient digital futures. Submissions may use various research methods, such as conceptual and theoretical work, surveys, experiments, case studies, and design science methods.",
-        "This special issue is linked to the India Conference on Information Systems (InCIS 2027), which carries the same theme. The authors of selected high-quality papers from the conference will be invited to submit substantially extended versions to this special issue. The special issue is also open to all authors through this open call, even if not submitted to the conference.",
+        "This special issue is linked to the India Conference on Information Systems (InCIS 2027), which carries the same theme, \"Advancing towards a Responsible and Resilient Digital Future\". The authors of selected high-quality papers from the conference will be invited to submit substantially extended versions to this special issue. The special issue is also open to all authors through this open call, even if not submitted to the conference.",
         "We encourage studies that move beyond surface-level narratives and offer nuanced insight into how responsibility and resilience can be built into digital systems. Submissions that challenge existing paradigms, explore underexamined dimensions, or offer new frameworks are especially encouraged. Submissions must clearly identify the specific digital technologies and contexts examined. Purely technical or system-level papers without an IS, behavioural, organisational, or societal contribution are outside the scope of this special issue."
       ]
     },
     "tags": [
       "responsible ai",
-      "resilient systems",
-      "digital governance",
-      "information systems"
+      "digital resilience",
+      "information systems",
+      "digital transformation",
+      "governance"
     ],
-    "editors": [],
+    "editors": [
+      {
+        "name": "Imon Chakraborty",
+        "affiliation": "Indian Institute of Technology Madras"
+      },
+      {
+        "name": "Saji K Mathew",
+        "affiliation": "Indian Institute of Technology Madras"
+      },
+      {
+        "name": "Nargis Pervin",
+        "affiliation": "Indian Institute of Technology Madras"
+      },
+      {
+        "name": "Viswanath Venkatesh",
+        "affiliation": "Virginia Polytechnic Institute and State University"
+      }
+    ],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2027-09-15T10:00:00.000Z",
+        "date": "2027-09-15T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -7145,8 +7163,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T22:00:20.665Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "pubDate": "2026-08-12T22:00:20.665Z"
   },
   {
     "journal": "GRH",
@@ -7231,8 +7248,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T22:00:20.665Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "pubDate": "2026-08-12T22:00:20.665Z"
   },
   {
     "journal": "Comptabilité - Contrôle - Audit",
@@ -7263,8 +7279,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T21:57:58.158Z",
-    "gracePeriod": "2026-09-18T03:20:09.044Z"
+    "pubDate": "2026-08-12T21:57:58.158Z"
   },
   {
     "journal": "Relations industrielles",
@@ -7324,9 +7339,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-12T21:55:46.317Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "active": true,
+    "pubDate": "2026-08-12T21:55:46.317Z"
   },
   {
     "journal": "Management international",
@@ -7711,9 +7725,190 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-12T16:45:57.264Z",
-    "gracePeriod": "2026-09-12T04:30:23.141Z"
+    "active": true,
+    "pubDate": "2026-08-12T16:45:57.264Z"
+  },
+  {
+    "journal": "M@n@gement",
+    "abbreviation": "ojsfr",
+    "issn": "1286-4692",
+    "metaTitle": "‘Cold Cases’: Revisiting founding myths, iconic cases, and forgotten stories in management",
+    "url": "https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/48",
+    "title": "Cold Cases: Revisiting founding myths, iconic cases, and forgotten stories in management",
+    "slug": "ojsfr-cold-cases-revisiting-founding-myths-iconic-cases-and-forgotten-stories-in-management",
+    "contentHash": "0c47d2f2d1921a73c9d3de76f080389cb6c4d8e0ee8a2b5d4145431b4a1267ef",
+    "topics": [
+      "Reexamination and reinterpretation of canonical management cases (IBM, Xerox, Nokia, Kodak, Enron, etc.)",
+      "Empirical robustness and theoretical validity of emblematic cases in management scholarship",
+      "Performativity of famous cases and their role as epistemic artifacts",
+      "Processes of canonization and erasure in disciplinary memory",
+      "Circularity in qualitative management research and issues of confirmation bias",
+      "Role of founding myths in structuring management thinking and epistemic communities",
+      "Halo effects and the stratification of knowledge in management research",
+      "Forgotten cases and alternative narratives in management history",
+      "Critical reexamination of the Hawthorne experiments and other foundational studies",
+      "Replication, falsification, and verification in management research",
+      "Archaeology of management knowledge and disciplinary self-reflexivity"
+    ],
+    "description": {
+      "paragraphs": [
+        "Management research has long been populated by celebrated cases that have achieved the status of founding myths. Cases such as IBM's blindness to personal computing, Xerox's strategic myopia toward the graphical user interface, Nokia's fall to smartphones, the Mann Gulch fire, and Elton Mayo's Hawthorne experiments have become ubiquitous in the field's collective memory. These 'cold cases', endlessly cited and taught, structure ways of thinking and provide a shared foundation of representations that are central to the construction of epistemic communities.",
+        "Despite their pervasive influence, few studies scrutinize the empirical robustness, theoretical validity, or performativity of these emblematic cases. In management research, particularly in qualitative research, the risk of circularity is significant. Researchers working with inevitably heterogeneous and incomplete material may, even unconsciously, select data that confirm their theoretical priors, set aside disconfirming evidence, and ultimately favor demonstrations of the 'as if' type.",
+        "Management research's pursuit of 'theoretical gaps' has often privileged the production of new concepts at the expense of verification, reinterpretation, or falsification. This predilection leads to a stratification of knowledge where certain studies become canonical and generate 'halo effects', while others sink into oblivion not because they are invalid, but because they do not fit the dominant narratives of the discipline.",
+        "The aim of this special issue is to 'reopen the files of management' by challenging established truths, revisiting myths, excavating forgotten cases, and analyzing the processes of canonization and erasure that structure disciplinary memory. Famous cases such as Kodak, IBM, Enron, and Nokia must be regarded as epistemic artifacts, produced, reproduced, and sometimes distorted by scholarly communities, bearing narrative, moral, and institutional dimensions.",
+        "M@n@gement has established itself as a privileged venue for critical, reflexive, and interdisciplinary approaches in management research. This special issue continues this tradition by inviting the community to undertake an archaeology of its own knowledge. Revisiting 'cold cases' means interrogating how management research constructs its own history, its certainties, and its silences. It is a call to strengthen the cumulative and self-critical dimension of the field by restoring a rightful place to research grounded in the replication of experiments, the challenging of established findings, and recontextualization.",
+        "At a time when researchers are constantly pressured to produce 'new' knowledge, this special issue proposes to rehabilitate slow, reflexive research capable of revisiting taken-for-granted assumptions, reopening closed debates, and reinvigorating the controversies that are constitutive of knowledge production."
+      ]
+    },
+    "tags": [
+      "management research",
+      "canonical cases",
+      "mythology",
+      "epistemology",
+      "research methods",
+      "organizational history"
+    ],
+    "editors": [
+      {
+        "name": "Anaïs Boutru",
+        "affiliation": "Université Paris-Dauphine, PSL"
+      },
+      {
+        "name": "Linda Rouleau",
+        "affiliation": "HEC Montréal"
+      },
+      {
+        "name": "Géraldine Schmidt",
+        "affiliation": "Université Paris 1 Panthéon-Sorbonne"
+      },
+      {
+        "name": "Albéric Tellier",
+        "affiliation": "Université Paris-Dauphine, PSL"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-14T10:00:00.000Z",
+        "description": "Pre-submission workshop (online)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-31T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:43:57.586Z"
+  },
+  {
+    "journal": "M@n@gement",
+    "abbreviation": "ojsfr",
+    "issn": "1286-4692",
+    "metaTitle": "Is progress taken for granted? Social change, backlash, and resistance in organizations",
+    "url": "https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/50",
+    "title": "Social change, backlash, and resistance in organizations",
+    "slug": "ojsfr-is-progress-taken-for-granted-social-change-backlash-and-resistance-in-organizations",
+    "contentHash": "afbd5553787a7f82695910929b096e19721fbd5d9ba32f7182307a1d17c62a3e",
+    "topics": [
+      "What are the different forms of backlash affecting organizations? Are there 'invisible' forms of backlash?",
+      "How and to what extent does backlash contribute to the deinstitutionalization of established norms (e.g. ESG, DEI, climate)?",
+      "What forms of institutional work produce or hinder backlash?",
+      "What roles do different modes of governance and different forms of organization play in weakening or, conversely, protecting social progress? Are democratic organizations, in particular, more or less prone to backlash?",
+      "How do organizations respond, resist, protect themselves, and participate in backlash?",
+      "What are the risks, uncertainties, and tensions generated by backlash? How can they be managed?",
+      "What forms of collective response are organized to face backlash (e.g. meta-organizations, networks, lobbying)?",
+      "How do individuals participate in or resist backlash (e.g. through employee activism)?",
+      "What is the impact of backlash on individuals (identity, career paths, values, social representations, experience)?",
+      "How does backlash transform or disrupt individuals' relationships with work and the company?",
+      "What forms of individual and collective resistance to backlash can be observed? What are the conditions and effects of this resistance?",
+      "What is the role of researchers and what stance should they adopt in response to this phenomenon?",
+      "What methodological and epistemological approaches are best suited to studying backlash, its mechanisms, and its consequences? What methodological innovations are needed to better understand its contemporary forms?",
+      "How can organizational theory contribute to understanding the phenomenon of backlash?",
+      "What are the multi-level interactions between societal, organizational, and individual backlash?",
+      "How can backlash contribute to the emergence of other backlashes?"
+    ],
+    "description": {
+      "paragraphs": [
+        "The production and dissemination of knowledge, particularly on inequalities, climate change, and biodiversity, are increasingly under attack. These attacks are reflected in some political and administrative decisions adopted across several national contexts, such as the measures taken by President Donald Trump since his return to power. Beyond the US, academic freedom is being directly or indirectly undermined in many countries. For example, in France, controversies surrounding 'Islamo-leftism' within universities, reignited by the Minister of Higher Education, have been accompanied by concrete attacks on several scientific institutions.",
+        "Although research on grand challenges, sustainability, and ecosystem transitions is still ongoing, climate policies and the low-carbon transition are also under attack from many sides. These attacks range from climate scepticism to misinformation and lobbying, and aim to delay or weaken existing or future standards, as illustrated by the recent deregulation movement in Europe around the Omnibus law. Despite research pointing to the depletion of global resources, sustainable finance, ESG investing, and CSR are becoming increasingly polarized. Some asset managers are taking a more cautious approach to their commitments, and major players such as BlackRock announced in 2024 that they would be withdrawing ESG-labelled financial products. Some companies are reviewing their CSR practices and communication by adopting withdrawal or 'silence' strategies.",
+        "At the same time, the movement for equity, equality, and inclusion seems to be reaching a peak when it comes to considering diverse identities within organizations. And yet, it is simultaneously accompanied by growing opposition. The murder of George Floyd and the ensuing protests in 2020 intensified diversity initiatives, while fuelling a conservative backlash. In connection with these events, the public statements of certain companies, far from achieving consensus, have sometimes crystallized negative reactions.",
+        "Finally, the flexibilisation of work is also undergoing changes. While teleworking, part-time work and flexible hours have become the norm, particularly because of the health crisis, the ideal of constant availability remains dominant. Barriers to the use of these arrangements, such as stigmatization and career penalties, persist and are even becoming more pronounced, while calls for a return to the office are growing.",
+        "Whether it be attacks on science, the retreat from climate and financial commitments, the contestation of inclusion policies or the questioning of individualized management systems, these developments reflect a critical re-evaluation of social and ecological advances perceived as progressive: a phenomenon known as 'backlash'.",
+        "At its most basic level, backlash is defined as resistance to social progress. It is an active 'counterattack' against initiatives, programmes, knowledge, and policies that aim to change existing patterns of inequality and injustice. Used at a political level, the term refers to a retrograde goal of returning to a previous social condition, using extraordinary objectives and tactics that challenge dominant narratives to interfere with the dominant public discourse. The concept of 'backlash' emerged in the 1970s in the United States, in political science, to describe and analyse right-wing extremism. The emphasis is then placed on the link between 'backlash' and symbolic investment in the past: beyond simple opposition, backlash is often associated with fear of loss and nostalgia for an idealized past. In the 1990s, the feminist movement took up this notion, suggesting that every advance made by women triggers a hostile reaction to block or reverse their gains. Since then, it has been particularly mobilized in the field of gender studies and research on diversity, equality, and inclusion, which combine backlash with the study of the negative social and economic consequences affecting individuals who go against social norms.",
+        "Today, some researchers attribute a systematic nature to backlash. All projects aiming for social justice encounter resistance from privileged groups seeking to restore or maintain their power, contributing to a growing polarization of opinions. This development has been fuelled by several structural and psychological factors that have broadened its scope, including fear of losing resources, fear of the emergence of new dominant values, and questioning of existing values.",
+        "In management literature, the issue has mainly been explored from the perspective of diversity. Studies have focused on how women, particularly those in leadership positions, who challenge gender stereotypes may face a number of sanctions, such as hostile messages, negative evaluations, lack of promotion, or tensions with colleagues.",
+        "However, in a context where organizations play an increasingly political role, where they constitute a microcosm reflecting societal aspirations, and are part of increasingly connected networks of stakeholders, the phenomenon of backlash impacts organizations as a whole. Management and organization studies, together with other disciplines such as political science, sociology and psychology, can contribute to exploring the phenomenon at the institutional, organizational, managerial, and individual levels to shed new light on these dynamics, help us analyse them critically and position ourselves, as researchers and practitioners, in these debates.",
+        "At the institutional level, backlash can be understood through the three pillars—regulatory, normative, and cultural-cognitive—that structure the legitimacy of practices. It is not simply a matter of decline, but rather the outcome of institutional efforts aimed at undermining or redefining norms that were previously thought to be established. For example, the recent decline in commitment to sustainable development in the United States is based on anti-ESG laws passed in 37 states and decisions by the Supreme Court. At the same time, a 'backlash industry' is mobilizing framing marketing strategies to influence norms and representations. Nevertheless, institutional work does not only serve to destabilize institutions; it can also aim to defend, maintain, or strengthen them through various institutional maintenance practices involving stakeholders both inside and outside organizations.",
+        "At the organizational level, backlash can be overt, as illustrated by the explicit withdrawal of social or environmental policies under pressure following governance or political evolutions. These changes can generate opposition from stakeholders and can prove difficult to implement depending on how deeply rooted they are in regulations, culture, or processes. Alongside these apparent shifts, more subtle forms of backlash are also emerging: resource reductions, the withdrawal of objectives, silence, and changes in vocabulary, generating tensions between discourse and practice. Among stakeholders, trade unions play a central role in protecting existing rights. They constitute a counter-power that can either slow down backlash or contribute to it.",
+        "Managers appear to be key intermediaries, caught up in contexts of ambiguity, conflicting values and contradictory demands. Neither mere executors nor fully autonomous, they are faced with moral and political dilemmas, which sometimes lead them to support strategic changes, and sometimes to resist or attempt to preserve certain commitments. However, backlash remains poorly conceptualized as a specific managerial challenge with both organizational and societal dimensions.",
+        "At the individual level, organizational contexts characterized by normative uncertainty or contested values can exacerbate the identity and moral tensions experienced by individuals, with lasting effects on their commitment, well-being and career choices. These tensions drive action, with employees who are particularly sensitive to social or environmental issues making their voices heard within organizations in the form of internal activism. But threat is as much a cause as a consequence of backlash: it can emerge from perceived threats to the identity, status, or legitimacy of certain dominant groups, revealing ambivalent dynamics.",
+        "Taken together, these different levels do not function in isolation but feed into each other: institutional transformations redefine the organizational and managerial scope for action, which influences individual experiences, which in turn can help to consolidate, influence, or challenge existing institutional frameworks.",
+        "This special issue aims to contribute to the theorization of the backlash phenomenon by analysing its institutional, organizational, managerial, and individual manifestations. The objective is to gain a better understanding of the internal and external mechanisms that promote backlash, as well as its effects and their complex relationships. Ultimately, this special issue will seek to understand the representations and experiences of the various stakeholders faced with backlash, including the multiple forms of resistance it can generate.",
+        "This special issue calls for papers based on a variety of methodological and conceptual approaches and encourages the adoption of multidisciplinary approaches at the intersection of management science, sociology, political science, psychology, communication, philosophy and law, among others. Submitted articles may be conceptual or empirical and based on a variety of ontologies. They may explore in depth one of the manifestations of backlash (e.g. questioning of science, environmental commitments, DEI policies, or flexible work), take a more comprehensive approach to the phenomenon of backlash, or conduct comparative studies. Submitted manuscripts may also offer an analysis focused on a specific level of analysis (individual, managerial, organizational, or institutional) or undertake a multi-level analysis."
+      ]
+    },
+    "tags": [
+      "backlash",
+      "social progress",
+      "diversity and inclusion",
+      "organizational change",
+      "institutional dynamics",
+      "management studies"
+    ],
+    "editors": [
+      {
+        "name": "Sarah Richard",
+        "affiliation": "Audencia Business School"
+      },
+      {
+        "name": "Lucie Noury",
+        "affiliation": "Audencia Business School"
+      },
+      {
+        "name": "Pauline de Becdelièvre",
+        "affiliation": "Université Paris Saclay"
+      },
+      {
+        "name": "Céline Louche",
+        "affiliation": "Waikato Management School—University of Waikato"
+      },
+      {
+        "name": "Stéphan Pezé",
+        "affiliation": "Université Toulouse Capitole"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-19T10:00:00.000Z",
+        "description": "Deadline for paper proposals to workshop (maximum 3,000 words, including references)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-11-19T11:00:00.000Z",
+        "description": "Online paper development workshop organized by the guest editorial team across different time zones",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-02-01T11:00:00.000Z",
+        "description": "Opening of submission period for full papers",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-06-01T10:00:00.000Z",
+        "description": "Deadline for full paper submission",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2028-12-01T11:00:00.000Z",
+        "description": "Publication date",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -7921,190 +8116,6 @@
     ],
     "active": false,
     "pubDate": "2026-08-12T16:43:57.586Z"
-  },
-  {
-    "journal": "M@n@gement",
-    "abbreviation": "ojsfr",
-    "issn": "1286-4692",
-    "metaTitle": "‘Cold Cases’: Revisiting founding myths, iconic cases, and forgotten stories in management",
-    "url": "https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/48",
-    "title": "Cold Cases: Revisiting founding myths, iconic cases, and forgotten stories in management",
-    "slug": "ojsfr-cold-cases-revisiting-founding-myths-iconic-cases-and-forgotten-stories-in-management",
-    "contentHash": "0c47d2f2d1921a73c9d3de76f080389cb6c4d8e0ee8a2b5d4145431b4a1267ef",
-    "topics": [
-      "Reexamination and reinterpretation of canonical management cases (IBM, Xerox, Nokia, Kodak, Enron, etc.)",
-      "Empirical robustness and theoretical validity of emblematic cases in management scholarship",
-      "Performativity of famous cases and their role as epistemic artifacts",
-      "Processes of canonization and erasure in disciplinary memory",
-      "Circularity in qualitative management research and issues of confirmation bias",
-      "Role of founding myths in structuring management thinking and epistemic communities",
-      "Halo effects and the stratification of knowledge in management research",
-      "Forgotten cases and alternative narratives in management history",
-      "Critical reexamination of the Hawthorne experiments and other foundational studies",
-      "Replication, falsification, and verification in management research",
-      "Archaeology of management knowledge and disciplinary self-reflexivity"
-    ],
-    "description": {
-      "paragraphs": [
-        "Management research has long been populated by celebrated cases that have achieved the status of founding myths. Cases such as IBM's blindness to personal computing, Xerox's strategic myopia toward the graphical user interface, Nokia's fall to smartphones, the Mann Gulch fire, and Elton Mayo's Hawthorne experiments have become ubiquitous in the field's collective memory. These 'cold cases', endlessly cited and taught, structure ways of thinking and provide a shared foundation of representations that are central to the construction of epistemic communities.",
-        "Despite their pervasive influence, few studies scrutinize the empirical robustness, theoretical validity, or performativity of these emblematic cases. In management research, particularly in qualitative research, the risk of circularity is significant. Researchers working with inevitably heterogeneous and incomplete material may, even unconsciously, select data that confirm their theoretical priors, set aside disconfirming evidence, and ultimately favor demonstrations of the 'as if' type.",
-        "Management research's pursuit of 'theoretical gaps' has often privileged the production of new concepts at the expense of verification, reinterpretation, or falsification. This predilection leads to a stratification of knowledge where certain studies become canonical and generate 'halo effects', while others sink into oblivion not because they are invalid, but because they do not fit the dominant narratives of the discipline.",
-        "The aim of this special issue is to 'reopen the files of management' by challenging established truths, revisiting myths, excavating forgotten cases, and analyzing the processes of canonization and erasure that structure disciplinary memory. Famous cases such as Kodak, IBM, Enron, and Nokia must be regarded as epistemic artifacts, produced, reproduced, and sometimes distorted by scholarly communities, bearing narrative, moral, and institutional dimensions.",
-        "M@n@gement has established itself as a privileged venue for critical, reflexive, and interdisciplinary approaches in management research. This special issue continues this tradition by inviting the community to undertake an archaeology of its own knowledge. Revisiting 'cold cases' means interrogating how management research constructs its own history, its certainties, and its silences. It is a call to strengthen the cumulative and self-critical dimension of the field by restoring a rightful place to research grounded in the replication of experiments, the challenging of established findings, and recontextualization.",
-        "At a time when researchers are constantly pressured to produce 'new' knowledge, this special issue proposes to rehabilitate slow, reflexive research capable of revisiting taken-for-granted assumptions, reopening closed debates, and reinvigorating the controversies that are constitutive of knowledge production."
-      ]
-    },
-    "tags": [
-      "management research",
-      "canonical cases",
-      "mythology",
-      "epistemology",
-      "research methods",
-      "organizational history"
-    ],
-    "editors": [
-      {
-        "name": "Anaïs Boutru",
-        "affiliation": "Université Paris-Dauphine, PSL"
-      },
-      {
-        "name": "Linda Rouleau",
-        "affiliation": "HEC Montréal"
-      },
-      {
-        "name": "Géraldine Schmidt",
-        "affiliation": "Université Paris 1 Panthéon-Sorbonne"
-      },
-      {
-        "name": "Albéric Tellier",
-        "affiliation": "Université Paris-Dauphine, PSL"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-10-14T10:00:00.000Z",
-        "description": "Pre-submission workshop (online)",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-12-31T11:00:00.000Z",
-        "description": "Full paper submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-16T03:21:31.090Z"
-  },
-  {
-    "journal": "M@n@gement",
-    "abbreviation": "ojsfr",
-    "issn": "1286-4692",
-    "metaTitle": "Is progress taken for granted? Social change, backlash, and resistance in organizations",
-    "url": "https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/50",
-    "title": "Social change, backlash, and resistance in organizations",
-    "slug": "ojsfr-is-progress-taken-for-granted-social-change-backlash-and-resistance-in-organizations",
-    "contentHash": "afbd5553787a7f82695910929b096e19721fbd5d9ba32f7182307a1d17c62a3e",
-    "topics": [
-      "What are the different forms of backlash affecting organizations? Are there 'invisible' forms of backlash?",
-      "How and to what extent does backlash contribute to the deinstitutionalization of established norms (e.g. ESG, DEI, climate)?",
-      "What forms of institutional work produce or hinder backlash?",
-      "What roles do different modes of governance and different forms of organization play in weakening or, conversely, protecting social progress? Are democratic organizations, in particular, more or less prone to backlash?",
-      "How do organizations respond, resist, protect themselves, and participate in backlash?",
-      "What are the risks, uncertainties, and tensions generated by backlash? How can they be managed?",
-      "What forms of collective response are organized to face backlash (e.g. meta-organizations, networks, lobbying)?",
-      "How do individuals participate in or resist backlash (e.g. through employee activism)?",
-      "What is the impact of backlash on individuals (identity, career paths, values, social representations, experience)?",
-      "How does backlash transform or disrupt individuals' relationships with work and the company?",
-      "What forms of individual and collective resistance to backlash can be observed? What are the conditions and effects of this resistance?",
-      "What is the role of researchers and what stance should they adopt in response to this phenomenon?",
-      "What methodological and epistemological approaches are best suited to studying backlash, its mechanisms, and its consequences? What methodological innovations are needed to better understand its contemporary forms?",
-      "How can organizational theory contribute to understanding the phenomenon of backlash?",
-      "What are the multi-level interactions between societal, organizational, and individual backlash?",
-      "How can backlash contribute to the emergence of other backlashes?"
-    ],
-    "description": {
-      "paragraphs": [
-        "The production and dissemination of knowledge, particularly on inequalities, climate change, and biodiversity, are increasingly under attack. These attacks are reflected in some political and administrative decisions adopted across several national contexts, such as the measures taken by President Donald Trump since his return to power. Beyond the US, academic freedom is being directly or indirectly undermined in many countries. For example, in France, controversies surrounding 'Islamo-leftism' within universities, reignited by the Minister of Higher Education, have been accompanied by concrete attacks on several scientific institutions.",
-        "Although research on grand challenges, sustainability, and ecosystem transitions is still ongoing, climate policies and the low-carbon transition are also under attack from many sides. These attacks range from climate scepticism to misinformation and lobbying, and aim to delay or weaken existing or future standards, as illustrated by the recent deregulation movement in Europe around the Omnibus law. Despite research pointing to the depletion of global resources, sustainable finance, ESG investing, and CSR are becoming increasingly polarized. Some asset managers are taking a more cautious approach to their commitments, and major players such as BlackRock announced in 2024 that they would be withdrawing ESG-labelled financial products. Some companies are reviewing their CSR practices and communication by adopting withdrawal or 'silence' strategies.",
-        "At the same time, the movement for equity, equality, and inclusion seems to be reaching a peak when it comes to considering diverse identities within organizations. And yet, it is simultaneously accompanied by growing opposition. The murder of George Floyd and the ensuing protests in 2020 intensified diversity initiatives, while fuelling a conservative backlash. In connection with these events, the public statements of certain companies, far from achieving consensus, have sometimes crystallized negative reactions.",
-        "Finally, the flexibilisation of work is also undergoing changes. While teleworking, part-time work and flexible hours have become the norm, particularly because of the health crisis, the ideal of constant availability remains dominant. Barriers to the use of these arrangements, such as stigmatization and career penalties, persist and are even becoming more pronounced, while calls for a return to the office are growing.",
-        "Whether it be attacks on science, the retreat from climate and financial commitments, the contestation of inclusion policies or the questioning of individualized management systems, these developments reflect a critical re-evaluation of social and ecological advances perceived as progressive: a phenomenon known as 'backlash'.",
-        "At its most basic level, backlash is defined as resistance to social progress. It is an active 'counterattack' against initiatives, programmes, knowledge, and policies that aim to change existing patterns of inequality and injustice. Used at a political level, the term refers to a retrograde goal of returning to a previous social condition, using extraordinary objectives and tactics that challenge dominant narratives to interfere with the dominant public discourse. The concept of 'backlash' emerged in the 1970s in the United States, in political science, to describe and analyse right-wing extremism. The emphasis is then placed on the link between 'backlash' and symbolic investment in the past: beyond simple opposition, backlash is often associated with fear of loss and nostalgia for an idealized past. In the 1990s, the feminist movement took up this notion, suggesting that every advance made by women triggers a hostile reaction to block or reverse their gains. Since then, it has been particularly mobilized in the field of gender studies and research on diversity, equality, and inclusion, which combine backlash with the study of the negative social and economic consequences affecting individuals who go against social norms.",
-        "Today, some researchers attribute a systematic nature to backlash. All projects aiming for social justice encounter resistance from privileged groups seeking to restore or maintain their power, contributing to a growing polarization of opinions. This development has been fuelled by several structural and psychological factors that have broadened its scope, including fear of losing resources, fear of the emergence of new dominant values, and questioning of existing values.",
-        "In management literature, the issue has mainly been explored from the perspective of diversity. Studies have focused on how women, particularly those in leadership positions, who challenge gender stereotypes may face a number of sanctions, such as hostile messages, negative evaluations, lack of promotion, or tensions with colleagues.",
-        "However, in a context where organizations play an increasingly political role, where they constitute a microcosm reflecting societal aspirations, and are part of increasingly connected networks of stakeholders, the phenomenon of backlash impacts organizations as a whole. Management and organization studies, together with other disciplines such as political science, sociology and psychology, can contribute to exploring the phenomenon at the institutional, organizational, managerial, and individual levels to shed new light on these dynamics, help us analyse them critically and position ourselves, as researchers and practitioners, in these debates.",
-        "At the institutional level, backlash can be understood through the three pillars—regulatory, normative, and cultural-cognitive—that structure the legitimacy of practices. It is not simply a matter of decline, but rather the outcome of institutional efforts aimed at undermining or redefining norms that were previously thought to be established. For example, the recent decline in commitment to sustainable development in the United States is based on anti-ESG laws passed in 37 states and decisions by the Supreme Court. At the same time, a 'backlash industry' is mobilizing framing marketing strategies to influence norms and representations. Nevertheless, institutional work does not only serve to destabilize institutions; it can also aim to defend, maintain, or strengthen them through various institutional maintenance practices involving stakeholders both inside and outside organizations.",
-        "At the organizational level, backlash can be overt, as illustrated by the explicit withdrawal of social or environmental policies under pressure following governance or political evolutions. These changes can generate opposition from stakeholders and can prove difficult to implement depending on how deeply rooted they are in regulations, culture, or processes. Alongside these apparent shifts, more subtle forms of backlash are also emerging: resource reductions, the withdrawal of objectives, silence, and changes in vocabulary, generating tensions between discourse and practice. Among stakeholders, trade unions play a central role in protecting existing rights. They constitute a counter-power that can either slow down backlash or contribute to it.",
-        "Managers appear to be key intermediaries, caught up in contexts of ambiguity, conflicting values and contradictory demands. Neither mere executors nor fully autonomous, they are faced with moral and political dilemmas, which sometimes lead them to support strategic changes, and sometimes to resist or attempt to preserve certain commitments. However, backlash remains poorly conceptualized as a specific managerial challenge with both organizational and societal dimensions.",
-        "At the individual level, organizational contexts characterized by normative uncertainty or contested values can exacerbate the identity and moral tensions experienced by individuals, with lasting effects on their commitment, well-being and career choices. These tensions drive action, with employees who are particularly sensitive to social or environmental issues making their voices heard within organizations in the form of internal activism. But threat is as much a cause as a consequence of backlash: it can emerge from perceived threats to the identity, status, or legitimacy of certain dominant groups, revealing ambivalent dynamics.",
-        "Taken together, these different levels do not function in isolation but feed into each other: institutional transformations redefine the organizational and managerial scope for action, which influences individual experiences, which in turn can help to consolidate, influence, or challenge existing institutional frameworks.",
-        "This special issue aims to contribute to the theorization of the backlash phenomenon by analysing its institutional, organizational, managerial, and individual manifestations. The objective is to gain a better understanding of the internal and external mechanisms that promote backlash, as well as its effects and their complex relationships. Ultimately, this special issue will seek to understand the representations and experiences of the various stakeholders faced with backlash, including the multiple forms of resistance it can generate.",
-        "This special issue calls for papers based on a variety of methodological and conceptual approaches and encourages the adoption of multidisciplinary approaches at the intersection of management science, sociology, political science, psychology, communication, philosophy and law, among others. Submitted articles may be conceptual or empirical and based on a variety of ontologies. They may explore in depth one of the manifestations of backlash (e.g. questioning of science, environmental commitments, DEI policies, or flexible work), take a more comprehensive approach to the phenomenon of backlash, or conduct comparative studies. Submitted manuscripts may also offer an analysis focused on a specific level of analysis (individual, managerial, organizational, or institutional) or undertake a multi-level analysis."
-      ]
-    },
-    "tags": [
-      "backlash",
-      "social progress",
-      "diversity and inclusion",
-      "organizational change",
-      "institutional dynamics",
-      "management studies"
-    ],
-    "editors": [
-      {
-        "name": "Sarah Richard",
-        "affiliation": "Audencia Business School"
-      },
-      {
-        "name": "Lucie Noury",
-        "affiliation": "Audencia Business School"
-      },
-      {
-        "name": "Pauline de Becdelièvre",
-        "affiliation": "Université Paris Saclay"
-      },
-      {
-        "name": "Céline Louche",
-        "affiliation": "Waikato Management School—University of Waikato"
-      },
-      {
-        "name": "Stéphan Pezé",
-        "affiliation": "Université Toulouse Capitole"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-10-19T10:00:00.000Z",
-        "description": "Deadline for paper proposals to workshop (maximum 3,000 words, including references)",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-11-19T11:00:00.000Z",
-        "description": "Online paper development workshop organized by the guest editorial team across different time zones",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-02-01T11:00:00.000Z",
-        "description": "Opening of submission period for full papers",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-06-01T10:00:00.000Z",
-        "description": "Deadline for full paper submission",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2028-12-01T11:00:00.000Z",
-        "description": "Publication date",
-        "is_full_paper_submission_deadline": false
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-16T03:21:31.090Z"
   },
   {
     "journal": "Recherche et Applications en Marketing",
@@ -8634,7 +8645,7 @@
     "url": "https://link.springer.com/collections/jhaecfgfgg",
     "title": "Building Digital Capabilities for Improved ESG Performance of Entrepreneurial Firms: Strategies for Tackling Challenges and Capitalizing on Opportunities",
     "slug": "springer-building-digital-capabilities-for-improved-esg-performance-of-entrepreneurial-firms-strategies-for-tackling-challenges-and-capitalizing-on-opportunities",
-    "contentHash": "ea6f3bc5c5d0bd4077a31d91f9470b1fa18f2955195fca764c3eeafb11efea6b",
+    "contentHash": "1a3328acb51805ae705315b3689b8bfb3c988bd6294907ae7dd0ee687c122de4",
     "topics": [
       "How do entrepreneurial ventures define and measure ESG performance in the digital era? And what critical digital capabilities contribute to their improved ESG performance?",
       "What challenges do entrepreneurial firms face in integrating digital solutions to enhance environmental sustainability? What could be the best practices for tackling those challenges?",
@@ -8653,18 +8664,17 @@
         "In today's dynamic evolving technology landscape, firms face a transformative wave caused by technological advancements which are omnipresent, from automating manufacturing processes to leveraging big data analytics for strategic decisions. This development warrants entrepreneurial firms to develop digital capabilities strategically to navigate these changes, effectively positioning themselves for innovation and growth and enabling them to improve their Environmental, Social, and Governance (ESG) performance.",
         "This call for papers focuses on exploring the strategies employed by entrepreneurial firms in building digital capabilities to enhance their ESG performance, addressing challenges, and leveraging opportunities in sustainable business practices.",
         "In an ever-changing technological milieu where technological proficiency is synonymous with competitive advantage, fostering digital capabilities becomes a survival necessity, empowering firms to orchestrate agility, resilience, and sustainable performance. The digital age has ushered in transformative opportunities and challenges, redefining the landscape for entrepreneurial firms striving to align with ethical, social, and environmental responsibilities.",
-        "Entrepreneurial ventures, characterized by innovation, agility, and risk-taking, are at the forefront of shaping the future of business. Their unique characteristics make them prime actors in navigating the complexities of integrating digital capabilities for improved ESG outcomes. Improving ESG performance is imperative for organizations, transcending mere compliance to embody a commitment to sustainable and ethical practices. This commitment holds profound implications for various stakeholders, ranging from shareholders to customers, suppliers, employees, and others.",
-        "Improved ESG performance mitigates risks associated with environmental impact and social responsibility, enhances corporate reputation, and attracts conscientious investors. Stakeholders increasingly scrutinize ESG metrics as a reflection of an organization's ethical standing and long-term viability. It fosters a symbiotic relationship, aligning corporate objectives with societal expectations and contributing to building a more responsible and resilient business ecosystem.",
+        "As mentioned in the aims and scope of the International Entrepreneurship and Management Journal, entrepreneurial ventures, characterized by innovation, agility, and risk-taking, are at the forefront of shaping the future of business. Their unique characteristics make them prime actors in navigating the complexities of integrating digital capabilities for improved ESG outcomes. Improving ESG performance is imperative for organizations, transcending mere compliance to embody a commitment to sustainable and ethical practices. This commitment holds profound implications for various stakeholders, ranging from shareholders to customers, suppliers, employees, and others. Improved ESG performance mitigates risks associated with environmental impact and social responsibility, enhances corporate reputation, and attracts conscientious investors. Stakeholders increasingly scrutinize ESG metrics as a reflection of an organization's ethical standing and long-term viability. It fosters a symbiotic relationship, aligning corporate objectives with societal expectations and contributing to building a more responsible and resilient business ecosystem.",
         "This Collection aims to unravel the intricate role of building digital capabilities in entrepreneurial firms' improved ESG performance. By exploring this intersection, we seek to understand how digital capabilities can contribute to a more environmentally and socially responsible entrepreneurial firm with a strong governance structure. We invite experimental, conceptual, theoretical, and empirical studies exploring the convergence of digital capabilities in shaping entrepreneurial firms' ESG performance, shed light on challenges, and explain solutions.",
-        "While the listed topics and questions are primary interests, we remain open to manuscripts that explain other complexities relevant to digital capabilities and ESG performance. We are keen to receive manuscripts that employ innovative methods and engage deeply with the prevailing dilemmas and dialogues in entrepreneurial research. Your insights and academic rigor will help broaden our collective comprehension of the complexities, challenges, and impacts surrounding building digital capabilities strategies and their implications for ESG performance."
+        "While these topics and questions are our primary interests, we remain open to manuscripts that explain other complexities relevant to digital capabilities and ESG performance. We are keen to receive manuscripts that employ innovative methods and engage deeply with the prevailing dilemmas and dialogues in entrepreneurial research. Your insights and academic rigor will help broaden our collective comprehension of the complexities, challenges, and impacts surrounding building digital capabilities strategies and their implications for ESG performance."
       ]
     },
     "tags": [
-      "digital capabilities",
+      "digital transformation",
       "esg performance",
       "entrepreneurship",
       "sustainability",
-      "digital transformation"
+      "digital capabilities"
     ],
     "editors": [
       {
@@ -8871,7 +8881,7 @@
     "url": "https://link.springer.com/collections/hgahebbgdh",
     "title": "Strategizing in a Fractured World: MNE Responses to Fragmented Stakeholder and Institutional Pressures",
     "slug": "springer-strategizing-in-a-fractured-world-mne-responses-to-fragmented-stakeholder-and-institutional-pressures",
-    "contentHash": "9c7baec1081c6705dd837a194b2944be656d237dfed278dedebdd16edb45c500",
+    "contentHash": "95db8b04290f167d7c9166fd7c0106b2435f1705d4c51d4dacd88b865eeb9af6",
     "topics": [
       "What drives the exposure of MNEs to institutional fragmentation and fracturing?",
       "When and how do MNEs integrate market- and non-market strategies across global markets in response to fragmented stakeholder and institutional pressures?",
@@ -8880,43 +8890,43 @@
     ],
     "description": {
       "paragraphs": [
-        "Rising national security concerns, populist politics, and societal pressures have produced fragmentation, i.e., the coexistence of overlapping, conflicting, or weakly coordinated rules and pressures across national, supranational, and societal spheres. MNEs must navigate the triality of home, host, and supranational institutions in cross-border business. Multilateral frameworks that could shape MNE sustainability initiatives, such as the UN SDGs and the Paris Agreement, face domestic resistance in some countries and are part of the legal basis in others. Such tensions between supranational frameworks and nationalist movements or policies can create conflicting institutional logics and institutional schisms. While international institutions shape firms' assessments of their domestic environments, in adapting to these fractured environments, MNEs may also amplify institutional pluralism through local responses.",
-        "This focused issue seeks to advance understanding of how MNEs strategize in fractured environments and the resulting stakeholder pressures. Papers may address the proposed areas of focus or other relevant areas related to MNE responses to fragmentation and stakeholder pressures. The issue welcomes interdisciplinary submissions that complement business perspectives with approaches from other disciplines, particularly political science. Both conceptual and empirical papers are welcome, including contributions focused on methodological advances, theory testing, and theory development."
+        "Firms and policymakers are struggling to address a seemingly 'perfect storm' of political, social and economic disruptions. Rising national security concerns, populist politics, and societal pressures have produced fragmentation, i.e., the coexistence of overlapping, conflicting, or weakly coordinated rules and pressures across national, supranational, and societal spheres. MNEs must navigate the triality of home, host, and supranational institutions in cross-border business. For example, multilateral frameworks that could shape MNE sustainability initiatives, such as the UN SDGs and the Paris Agreement, face domestic resistance in some countries and are part of the legal basis in others. Such tensions between supranational frameworks and nationalist movements or policies can create conflicting institutional logics and institutional schisms. While international institutions shape firms' assessments of their domestic environments, in adapting to these fractured environments, MNEs may also amplify institutional pluralism through local responses.",
+        "In light of these contradictory institutional and stakeholder pressures, this focused issue seeks to advance understanding of how MNEs strategize in fractured environments and the resulting stakeholder pressures. Papers may address one of the proposed areas or other relevant areas related to MNE responses to fragmentation and stakeholder pressures. Interdisciplinary submissions that complement business perspectives with approaches from other disciplines, particularly political science, are welcome. Both conceptual and empirical papers (quantitative, qualitative, and mixed methods) are welcome. The focused issue is open to contributions focused on methodological advances, theory testing, and theory development."
       ]
     },
     "tags": [
       "multinational enterprises",
       "institutional fragmentation",
       "geopolitics",
-      "stakeholder pressures",
-      "international business strategy"
+      "strategy",
+      "stakeholder pressures"
     ],
     "editors": [
       {
-        "name": "Jonas Puck",
-        "affiliation": "WU Vienna"
-      },
-      {
         "name": "Srividya Jandhyala",
-        "affiliation": "ESSEC Business School"
+        "affiliation": "École Supérieure des Sciences Économiques et Commerciales"
       },
       {
         "name": "Vera Kunczer",
         "affiliation": "Copenhagen Business School"
       },
       {
+        "name": "Jonas Puck",
+        "affiliation": "Vienna University of Economics and Business"
+      },
+      {
         "name": "Harald Puhr",
-        "affiliation": "University of Innsbruck"
+        "affiliation": "Universität Innsbruck"
       },
       {
         "name": "Michael Wolfesberger",
-        "affiliation": "WU Vienna"
+        "affiliation": "Vienna University of Economics and Business"
       }
     ],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-30T10:00:00.000Z",
+        "date": "2026-09-30T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -8932,40 +8942,37 @@
     "url": "https://link.springer.com/collections/hjaabaggai",
     "title": "Ethics and Entrepreneurship: Foundations and Philosophical Perspectives",
     "slug": "springer-call-for-papers-ethics-and-entrepreneurship-foundations-and-philosophical-perspectives",
-    "contentHash": "bcad8df98e9db13dbf330bb2cc222773898d69a0ac9113c3f0b8459c5a2d0069",
+    "contentHash": "bc3189fcb39995f3cee6cde98b5056336d691add4888671ff5328ff058754072",
     "topics": [
-      "Philosophical Dimensions of Ethics: How do different philosophical traditions (e.g., virtue ethics, deontology, utilitarianism, phenomenology, hermeneutics) inform our understanding of entrepreneurship as an ethical practice? How are traditions confirmed or transformed when ethics is viewed through an entrepreneurial lens?",
-      "Phenomenology of the Entrepreneurial Experience: In what sense are entrepreneurial experiences of uncertainty, autonomy, and decision-making ethical, and how does phenomenology illuminate Kierkegaard's 'finitude' of lived reality?",
-      "The Entrepreneur and Ethical Subjectivity: How can ethical theories of 'subjecthood', agency, embodiment, and 'self' inform understandings of the entrepreneur, and how might post-human ethics further enrich the question 'Who is the entrepreneur'?",
-      "Ethics and Rule-Breaking: Ethically, what is the connection between following and breaking rules, and how might entrepreneurial theory enrich understandings of this connection?",
-      "Stakeholder Relations and Trust: How do entrepreneurs navigate stakeholder dynamics and trust-building while pursuing ethical objectives and are these forms of trust akin to those envisaged in current ethical theorising?",
-      "Entrepreneurship as Inherently Ethical or Unethical: Is entrepreneurship inherently ethical or exploitative, and how can these views inform a more nuanced understanding of entrepreneurial ethics? How core are ethics to entrepreneurship?",
-      "Entrepreneurship and Technological Mediation: In the digital age of machine protocols, does judgment still matter—and is entrepreneurship a break from, or reinvention of, the network, platform, and stack?",
-      "Ethics, Value, and Entrepreneurial Goals: Can ethical theories of value and worth contribute to the framing of entrepreneurial goals and opportunity?",
-      "Temporal Dimensions of Entrepreneurial Ethics: How do entrepreneurial decisions compare immediate gains with long-term ethical considerations? In what ways does the entrepreneurial relationship to time create unique ethical challenges and opportunities?"
+      "Philosophical Dimensions of Ethics - How do different philosophical traditions (e.g., virtue ethics, deontology, utilitarianism, phenomenology, hermeneutics) inform our understanding of entrepreneurship as an ethical practice? How are traditions confirmed or transformed when ethics is viewed through an entrepreneurial lens?",
+      "Phenomenology of the Entrepreneurial Experience - In what sense are entrepreneurial experiences of uncertainty, autonomy, and decision-making ethical, and how does phenomenology illuminate Kierkegaard's 'finitude' of lived reality?",
+      "The Entrepreneur and Ethical Subjectivity - How can ethical theories of 'subjecthood', agency, embodiment, and 'self' inform understandings of the entrepreneur, and how might post-human ethics further enrich the question 'Who is the entrepreneur'?",
+      "Ethics and Rule-Breaking - Ethically, what is the connection between following and breaking rules, and how might entrepreneurial theory enrich understandings of this connection?",
+      "Stakeholder Relations and Trust - How do entrepreneurs navigate stakeholder dynamics and trust-building while pursuing ethical objectives and are these forms of trust akin to those envisaged in current ethical theorising?",
+      "Entrepreneurship as Inherently Ethical or Unethical - Is entrepreneurship inherently ethical or exploitative, and how can these views inform a more nuanced understanding of entrepreneurial ethics? How core are ethics to entrepreneurship?",
+      "Entrepreneurship and Technological Mediation - In the digital age of machine protocols, does judgment still matter—and is entrepreneurship a break from, or reinvention of, the network, platform, and stack?",
+      "Ethics, Value, and Entrepreneurial Goals - Can ethical theories of value and worth contribute to the framing of entrepreneurial goals and opportunity?",
+      "Temporal Dimensions of Entrepreneurial Ethics - How do entrepreneurial decisions compare immediate gains with long-term ethical considerations? In what ways does the entrepreneurial relationship to time create unique ethical challenges and opportunities?"
     ],
     "description": {
       "paragraphs": [
         "This Special Issue seeks to foreground the ethical dimensions of venture creation, opportunity recognition, and stakeholder engagement. It invites scholars to reimagine entrepreneurship as an inherently ethical practice, instead of viewing ethics as a constraint or an afterthought in the pursuit of economic gain. The intersection of ethics and entrepreneurship presents a unique opportunity to rethink and shape new ethical paradigms and foster innovative approaches to the persistent questions of responsibility, justice, and human flourishing. Entrepreneurship is often celebrated as a catalyst for creativity, imagination, and the capacity to disrupt, yet it has also drawn criticism for promoting ideals that valorize self-optimization and commodification. The foundational activities of entrepreneurship – venture creation, opportunity enactment, and creative destruction – are themselves inextricably bound to questions of ethics.",
-        "At the core of any entrepreneurial act is its willing encounter with, and encouragement of, 'the other' - whether this means novel products, new practices, uncertain futures, or transformed habits. From some philosophical perspectives, such as phenomenology, ethical experience also involves engagement with the 'other,' coupled with a refusal to confine or transform 'the other' to the norm. Yet this raises a critical question: if entrepreneurship courts 'the other,' does it then corrupt and empty this otherness in the calculated pursuit of economic returns? If ethics entails a life lived alongside difference, then how do entrepreneurial lives compare to those shaped and scripted by the certainty and commitment to principled forms of the good advocated by other philosophical positions, such as deontology? This SI is dedicated to papers investigating this uneasy yet intimate relationship between ethics and entrepreneurship.",
-        "Different philosophical perspectives can offer unique insights into the interplay between ethics and entrepreneurship, including virtue ethics, care ethics, pragmatism, capabilities approaches, as well as deontology and phenomenology. Similarly, different schools in entrepreneurship studies, from early traditions in evolutionary economics or trait theory, to more recent perspectives associated with alertness to opportunity, emergence and creativity, and actualization, provide different stimulus for ethicists. While entrepreneurship is often associated with opportunity-seeking and value creation, its concern with seeking support from others, and with growing an organizational form that sustains the livelihood of others, extends its operations beyond economic and industrial narratives of profit, and product- and service innovation.",
-        "Entrepreneurial ventures are embedded within complex networks of stakeholders, including employees, customers, investors, non-human systems, and communities. Navigating these relationships demands ethical judgment that balances competing interests, priorities, and values. Unlike managerial decision-making, which tends to rely on established protocols, systems, and formalized structures, entrepreneurial judgment occurs in a context of greater uncertainty and fluidity, where ethical considerations are threaded into the very fabric of entrepreneurial practice.",
-        "Entrepreneurs must establish trust, negotiate power dynamics, and create shared meaning among diverse stakeholders, all while remaining attuned to the broader societal and environmental implications of their actions. They continually navigate competing values, and face unpredictable consequences within 'spaces of ambiguity,' where loosened norms make ethical reasoning both precarious and generative. In such spaces, distinguishing a 'good reason' for action from simply 'a reason to act' carry significant personal, social and commercial resonance, raising fundamental questions about the nature of ethical responsibility in conditions of flux and uncertainty, about the requirement to follow rules or break them, about the intimacy between the social and ethical commitments inherent in entrepreneurship, and about the relationship between entrepreneurial flourishing and care.",
-        "If we can still speak of 'the entrepreneur,' it is as a figure that challenges the viability of the sovereign self, continually narrating identity through stories of venturing and novelty. The entrepreneurial self emerges through an ongoing process of becoming – an engagement with chance, contingency and creative responsiveness. The entrepreneur lives out an experimental existence, embracing uncertainty and 'becoming' through the act of venturing into the unknown, through proffering of alternatives, often oppositional ones. This insight invites deeper explorations of both how organizations are formed, and stakeholders are engaged in sustaining what we might call 'good shape' – a venture that remains dynamic yet coherent amidst uncertainty and change.",
+        "At the core of any entrepreneurial act is its willing encounter with, and encouragement of, 'the other' - whether this means novel products, new practices, uncertain futures, or transformed habits. From some philosophical perspectives, such as phenomenology, ethical experience also involves engagement with the 'other,' coupled with a refusal to confine or transform 'the other' to the norm. Yet this raises a critical question: if entrepreneurship courts 'the other,' does it then corrupt and empty this otherness in the calculated pursuit of economic returns? If ethics entails a life lived alongside difference, then how do entrepreneurial lives compare to those shaped and scripted by the certainty and commitment to principled forms of the good advocated by other philosophical positions, such as deontology? This Special Issue is dedicated to papers investigating this uneasy yet intimate relationship between ethics and entrepreneurship.",
+        "Different philosophical perspectives can offer unique insights into the interplay between ethics and entrepreneurship, including virtue ethics, care ethics, pragmatism, capabilities approaches, as well as deontology and phenomenology. Similarly, different schools in entrepreneurship studies, from early traditions in evolutionary economics or trait theory, to more recent perspectives associated with alertness to opportunity, emergence and creativity, and actualization, provide different stimulus for ethicists. While entrepreneurship is often associated with opportunity-seeking and value creation, its concern with seeking support from others, and with growing an organizational form that sustains the livelihood of others, extends its modus operandi beyond economic and industrial narratives of profit, and product- and service innovation. Entrepreneurial ventures are embedded within complex networks of stakeholders, including employees, customers, investors, non-human systems, and communities. Navigating these relationships demands ethical judgment that balances competing interests, priorities, and values. Unlike managerial decision-making, which tends to rely on established protocols, systems, and formalized structures, entrepreneurial judgment occurs in a context of greater uncertainty and fluidity, where ethical considerations are threaded into the very fabric of entrepreneurial practice.",
+        "Entrepreneurs must establish trust, negotiate power dynamics, and create shared meaning among diverse stakeholders, all while remaining attuned to the broader societal and environmental implications of their actions. They continually navigate competing values, and face unpredictable consequences within 'spaces of ambiguity,' where loosened norms make ethical reasoning both precarious and generative. In such spaces, distinguishing a 'good reason' for action from simply 'a reason to act' carry significant personal, social and commercial resonance, raising fundamental questions about the nature of ethical responsibility in conditions of flux and uncertainty; about the requirement to follow rules or break them; about the intimacy between the social and ethical commitments inherent in entrepreneurship; and about the relationship between entrepreneurial flourishing and care.",
+        "If we can still speak of 'the entrepreneur,' it is as a figure that challenges the viability of the sovereign self, continually narrating identity through stories of venturing and novelty. The entrepreneurial self emerges through an ongoing process of becoming – an engagement with chance, contingency and creative responsiveness. Arguably, no other figure more fully embodies Friedrich Nietzsche's observation that in contemporary society we are beset by diverse, irreconcilable values, requiring each of us to set our own standards. The entrepreneur lives out this experimental existence, embracing uncertainty and 'becoming' through the act of venturing into the unknown, through proffering of alternatives, often oppositional ones. This insight invites deeper explorations of both how organizations are formed, and stakeholders are engaged in sustaining what we might call 'good shape' – a venture that remains dynamic yet coherent amidst uncertainty and change.",
         "In bringing entrepreneurship and ethics into philosophical dialogue, each field can deepen its appreciation of itself and the other. Entrepreneurship studies can learn from how ethicists have conceptualized difference, authenticity, autonomy, duty, care and recognition. These ethical-philosophical concepts invite a deeper reflection on the responsibilities of entrepreneurs – not only towards stakeholders but towards the wider social and ecological systems in which they operate. In turn, ethical theorists can learn from entrepreneurship's philosophical examination of contingency, creativity, and emergent futures that foregrounds fluidity, moral luck, and improvisation."
       ]
     },
     "tags": [
-      "ethics",
       "entrepreneurship",
-      "philosophy",
-      "stakeholder engagement",
-      "business ethics"
+      "business ethics",
+      "philosophy"
     ],
     "editors": [
       {
         "name": "Tina Dacin",
-        "affiliation": "Queen's University"
+        "affiliation": "Wilfrid Laurier University"
       },
       {
         "name": "Robin Holt",
@@ -8987,8 +8994,8 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-30T10:00:00.000Z",
-        "description": "Full paper submission deadline",
+        "date": "2026-09-30T12:00:00.000Z",
+        "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
@@ -9354,7 +9361,7 @@
     "url": "https://link.springer.com/collections/igdgfheeeh",
     "title": "Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems",
     "slug": "springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems",
-    "contentHash": "b217185aaa8d46cdd597e19049e369c584c5ce388086b6426ebee5fd75efc04e",
+    "contentHash": "7ef96883e9de594e389adee27b3e08b2d52f5966558c0d4646da883dd94cf454",
     "topics": [
       "Data-driven reliability modeling and parameter estimation using operational data",
       "Reliability analysis using statistical learning and machine learning methods",
@@ -9384,9 +9391,8 @@
       "reliability modeling",
       "data-driven methods",
       "machine learning",
-      "decision support",
       "industrial engineering",
-      "operations research"
+      "decision support systems"
     ],
     "editors": [
       {
@@ -9397,7 +9403,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2027-07-31T10:00:00.000Z",
+        "date": "2027-07-31T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -9413,7 +9419,7 @@
     "url": "https://link.springer.com/collections/baifaedejd",
     "title": "Climate Transition and Operational Risk Modelling: Implications for Supply Chains and Financial Decision-Making",
     "slug": "springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making",
-    "contentHash": "851336bf3df5b4a6a93b45a946aef699a28b69b5a21919d86d0509f06ee52bc7",
+    "contentHash": "c5c4877da16543c5747b7c80ec4239dbdece8f7679b5c1ff276f5000713d591a",
     "topics": [
       "Robust stochastic optimization methods for climate transition risks",
       "Portfolio optimization and risk-adjusted return modelling under climate policy uncertainty",
@@ -9436,11 +9442,12 @@
       ]
     },
     "tags": [
-      "climate transition",
+      "climate risk",
       "operational risk",
       "supply chain",
-      "financial risk",
-      "stochastic optimization"
+      "financial decision-making",
+      "stochastic optimization",
+      "machine learning"
     ],
     "editors": [
       {
@@ -9463,7 +9470,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-12-31T11:00:00.000Z",
+        "date": "2026-12-31T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -9479,7 +9486,7 @@
     "url": "https://link.springer.com/collections/eeifhiecjh",
     "title": "Advanced Machine Learning for System Reliability Management",
     "slug": "springer-advanced-machine-learning-for-system-reliability-management",
-    "contentHash": "0b27553ac795b95aa2cf1b80145b31aa59b389ef423514b76493485755d0eeb8",
+    "contentHash": "4eb9a1316609a7646cf4a1b1182c1eb62c630877227a3de3a762055a5626e66a",
     "topics": [
       "Deep learning for anomaly detection and/or fault detection",
       "Machine learning-enhanced maintenance optimization",
@@ -9495,8 +9502,7 @@
     "description": {
       "paragraphs": [
         "Modern industrial systems generate massive datasets from sensor monitoring, which presents computational and memory challenges in data processing. Advanced machine learning technologies such as transfer learning, federated learning, quantum machine learning, and reinforcement learning offer effective and scalable solutions for processing and analyzing large volumes of data, as well as supporting subsequent decision-making.",
-        "Recently, various new techniques of advanced machine learning have already been applied to system reliability management, such as fault diagnosis, health condition assessment, remaining useful life prediction, degradation modeling, and maintenance optimization. Yet, ongoing research works continue to explore this exciting research area.",
-        "This special issue invites high-quality original research papers, review papers, and case studies that delve into advancements in advanced machine learning for system reliability management."
+        "Recently, various new techniques of advanced machine learning have already been applied to system reliability management, such as fault diagnosis, health condition assessment, remaining useful life prediction, degradation modeling, and maintenance optimization. Yet, ongoing research works continue to explore this exciting research area. Therefore, we invite high-quality original research papers, review papers, and case studies that delve into these advancements."
       ]
     },
     "tags": [
@@ -9522,13 +9528,13 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-05-30T10:00:00.000Z",
+        "date": "2026-05-30T12:00:00.000Z",
         "description": "Manuscript submission deadline",
         "is_full_paper_submission_deadline": true
       },
       {
-        "date": "2026-08-31T10:00:00.000Z",
-        "description": "Submission deadline for special issue",
+        "date": "2026-08-31T12:00:00.000Z",
+        "description": "Submission deadline",
         "is_full_paper_submission_deadline": false
       }
     ],
@@ -9678,7 +9684,7 @@
     "url": "https://link.springer.com/collections/bffeaajcfi",
     "title": "Multiple Objective Programming and Goal Programming: Artificial Intelligence for Decision Making in Economic and Social Sciences",
     "slug": "springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences",
-    "contentHash": "ee82c5019f7178aa430ff918b63c2c67a80a5cac208d5b39847521421d528779",
+    "contentHash": "66d3c604bbdaed6fd1053cc4406ea6c77d7c0a9cf012224787f21433a4389bb8",
     "topics": [
       "Advancements in Multiple Objective Programming Techniques",
       "Goal Programming Techniques and Formulations",
@@ -9700,17 +9706,16 @@
     ],
     "description": {
       "paragraphs": [
-        "This special issue aims to publish selected papers presented during the 16th International Conference on Multiple Objective Programming and Goal Programming (MOPGP'25) that will be held on 1–3 July 2025, in Varese, Italy. Contributions arising from papers presented at the conference should be substantially extended and cite the conference paper where appropriate. The special issue will also consider papers not presented during the conference. Original and unpublished work not currently under consideration in any other journal is welcome.",
-        "The intersection of Multiple Objective Optimization (MOP), Goal Programming (GP), and Artificial Intelligence (AI) creates a robust framework for addressing complex decision-making challenges in Economic and Social Sciences. MOP provides structured methods to evaluate and prioritize conflicting objectives, while GP helps setting specific goals to be achieved by the decision maker. AI leverages data analytics and machine learning to process large datasets, revealing insights that improve the accuracy and the robustness of decision models and predictions.",
-        "The scientific quality of the contributions is the main criterion in the selection process."
+        "This special issue aims to publish selected papers presented during the 16th International Conference on Multiple Objective Programming and Goal Programming (MOPGP'25) that will be held on 1–3 July 2025, in Varese, Italy. Contributions arising from papers presented at the conference should be substantially extended and cite the conference paper where appropriate. The special issue will also consider papers not presented during the conference. Original and unpublished work not currently under consideration in any other journal is sought.",
+        "The intersection of Multiple Objective Optimization (MOP), Goal Programming (GP), and Artificial Intelligence (AI) creates a robust framework for addressing complex decision-making challenges in Economic and Social Sciences. MOP provides structured methods to evaluate and prioritize conflicting objectives, while GP helps setting specific goals to be achieved by the decision maker. AI leverages data analytics and machine learning to process large datasets, revealing insights that improve the accuracy and the robustness of decision models and predictions."
       ]
     },
     "tags": [
       "multiple objective programming",
       "goal programming",
       "artificial intelligence",
-      "decision-making",
-      "economic and social sciences"
+      "decision making",
+      "operations research"
     ],
     "editors": [
       {
@@ -9729,7 +9734,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2027-06-30T10:00:00.000Z",
+        "date": "2027-06-30T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -9745,7 +9750,7 @@
     "url": "https://link.springer.com/collections/gjbdjhfbdg",
     "title": "Advances in Reliability and Statistical Computing for Intelligent Systems",
     "slug": "springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems",
-    "contentHash": "c6a2ddd100b835b72c717d6756c83253cb7a1854d4a485e76c1c5af79fdf9275",
+    "contentHash": "26fb229fc5b199c68e89247575b3b24bb79e8007d6127cb23e9bbe6b79e1edc9",
     "topics": [
       "Mathematical reliability and statistical methods",
       "Big data modeling and prediction",
@@ -9780,7 +9785,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-30T10:00:00.000Z",
+        "date": "2026-09-30T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -9852,35 +9857,24 @@
     "url": "https://link.springer.com/collections/hcgebaicga",
     "title": "OR for Sustainability in Supply Chain Management",
     "slug": "springer-or-for-sustainability-in-supply-chain-management",
-    "contentHash": "010fe43dd92f048e13f475172f11d918b1382500545bdda38c90b6dbe6451387",
+    "contentHash": "ba2456e3eda778bbe839b2d7a8aa8c059e82c32dfd12f926662890bc7701ab34",
     "topics": [
-      "Designing and policymaking in SDGs through stakeholder support",
-      "Implementing SDGs in supply chains through innovative strategies and practices",
-      "Monitoring supply chain governance and implications with a focus on SDGs",
-      "Multi-attribute decision making (MADM) and multi-objective decision making (MODM) applications",
-      "Green and lean supply chain approaches",
-      "Resource conservation and efficiency in supply chains",
-      "Eco-efficient and socio-economic systems",
-      "Sustainable policy and design making with multi-stakeholder perspectives",
-      "Sustainable goals, indicators, and practices in supply chain management",
-      "Measuring, monitoring, and reporting progress toward SDG targets"
+      "Designing and policymaking in SDGs through stakeholder support: to provide examples of sustainable policy and design making with multi-stakeholder perspectives and to define how sustainability is considered in framing policies and enumerating success factors and challenges on supply chain management",
+      "Implementing SDGs in supply chains through innovative strategies and practices: to identify the sustainable goals, indicators, and practices related to the implementation of sustainable supply chain management and to explore how this knowledge may be used to effectively manage and conserve resources with less environmental and societal impact",
+      "Monitoring supply chain governance and implications with a focus on SDGs: to elaborate practices and supporting mechanisms in measuring, monitoring, and reporting progress toward achieving targets, and to further emphasize various challenges related to the implementation of SDGs in supply chain management in different applications/context/economies"
     ],
     "description": {
       "paragraphs": [
-        "Organizations must rethink and optimize their existing strategies to meet their sustainable business goals, due to the constant depletion of vital resources and the greater demands of societal issues. The increasing population not only has an impact on natural resources, but it also results in greater pollution and contributes to greater levels of poverty. On September 25, 2015, some countries adopted a new set of sustainability development goals (SDGs) to end poverty and to improve prosperity worldwide. Seventeen sustainable development goals have been targeted to achieve by 2030 under the new sustainable development agenda. These sustainable development goals encompass a range of perspectives and various levels of applications, including supply chain management.",
-        "In recent years, researchers and practitioners have addressed supply chain management issues because of their significant impacts on organizational developments regardless of the field of applications. An inefficient supply chain can force an organization to fail. Hence, integrating SDGs in operations and supply chain management areas is an important topic to explore. Many studies sought to explore sustainability in supply chain management with a wide range of concepts and strategies, including green, lean, and other approaches with a special focus on newly targeted SDGs. Research is needed to further analyze and shape the implementation of SDGs in supply chain management environments with the help of advanced operations research (OR) methods, including multi-attribute decision making (MADM) and multi-objective decision making (MODM).",
-        "The main objective of this special section is to invite academic practitioners to contribute a better understanding of the scientific basis for decoupling economic growth from resource depletion and environmental degradation while improving human lives with the assistance of advanced OR methods. It is believed that advanced optimization models and algorithms can improve data-driven decision models by either formulating pattern discoveries and knowledge extraction problems or by defining efficient algorithms for implementing SDGs in supply chain management at a macro level. Additionally, new algorithms continually make efficiency gains and improve the applicability of older algorithms. Virtually every numerical analysis includes several optimization algorithms that can be applied to design sustainability in supply chain.",
-        "This special section pertains to sustainable supply chain management (SSCM) by making direct connections between resources, the environment, the economy, and the goal of achieving SDGs in different parts of the world through OR methods. The themes should incorporate an integrated approach: looking at possibilities of connecting the conservation of resources with sustainable human economic activities (from a supply chain perspective), and monitoring progress towards sustainable indicator strategies with the support of multi stakeholders in predominant inter- and intra- organizational management fields.",
-        "This special section will comprise a significant body of knowledge about how natural resources are being utilized in various economies and will address the impact of this use on the eco-efficient and socio-economic systems, and suggest pathways of transitioning to a more sustainable future. This perspective includes building on and expounding the significance of resource conservation and efficiency along with a societal focus to improve sustainable development in supply chain management by achieving the proposed SDGs.",
-        "This special section seeks to be specific regarding the different kinds of sustainable supply chains because they can affect the policy implications of different sustainable indicators. In addition to the suggested themes, this special section welcomes authors to contact the editors to discuss other possible subtopics. All submissions must suit within the domain statement of the journal."
+        "Organizations must rethink and optimize their existing strategies to meet their sustainable business goals, due to the constant depletion of vital resources and the greater demands of societal issues. The increasing population not only has an impact on natural resources, but it also results in greater pollution and contributes to greater levels of poverty. With these considerations, on September 25, 2015, some countries adopted a new set of sustainability development goals (SDGs) to end poverty and to improve prosperity worldwide. Seventeen sustainable development goals have been targeted to achieve by 2030 under the new sustainable development agenda. Further, these sustainable development goals encompass a range of perspectives and various levels of applications, including supply chain management. In recent years, researchers and practitioners have addressed supply chain management issues because of their significant impacts on organizational developments regardless of the field of applications. Over the years, researchers have proven that an inefficient supply chain can force an organization to fail. Hence, integrating SDGs in operations and supply chain management areas is an important topic to explore. Many studies sought to explore sustainability in supply chain management with a wide range of concepts and strategies, including green, lean, and other approaches with a special focus on newly targeted SDGs. Research is needed to further analyze and shape the implementation of SDGs in supply chain management environments with the help of advanced operations research (OR) methods, including multi-attribute decision making (MADM) and multi-objective decision making (MODM).",
+        "The main objective of this special section is to invite academic practitioners to contribute a better understanding of the scientific basis for decoupling economic growth from resource depletion and environmental degradation while improving human lives with the assistance of advanced OR methods. It is believed that advanced optimization models and algorithms can improve data-driven decision models by either formulating pattern discoveries and knowledge extraction problems or by defining efficient algorithms for implementing SDGs in supply chain management at a macro level. Additionally, new algorithms continually make efficiency gains and improve the applicability of older algorithms. Virtually every numerical analysis includes several optimization algorithms that can be applied to design sustainability in supply chain. With these concerns, this special section pertains to sustainable supply chain management (SSCM) by making direct connections between resources, the environment, the economy, and the goal of achieving SDGs in different parts of the world through OR methods.",
+        "These themes should incorporate an integrated approach: looking at possibilities of connecting the conservation of resources with sustainable human economic activities (from a supply chain perspective), and monitoring progress towards sustainable indicator strategies with the support of multi stakeholders in predominant inter- and intra- organizational management fields. This special section will comprise a significant body of knowledge about how natural resources are being utilized in various economies and will address the impact of this use on the eco-efficient and socio-economic systems, and suggest pathways of transitioning to a more sustainable future. This perspective includes building on and expounding the significance of resource conservation and efficiency along with a societal focus to improve sustainable development in supply chain management by achieving the proposed SDGs.",
+        "This special section seeks to be specific regarding the different kinds of sustainable supply chains because they can affect the policy implications of different sustainable indicators. In addition to these ideas, this special section welcomes authors to contact us to discuss other possible subtopics. To encourage effective methods and thereby motivate the authors to adopt a variety of sustainable supply chain perspectives in approaching this subject, the special section Editor has purposely kept the above list of suggested topics short. However, all submissions must suit within the domain statement of the journal."
       ]
     },
     "tags": [
-      "sustainable supply chains",
-      "sustainable development goals",
+      "sustainable supply chain management",
       "operations research",
-      "supply chain management",
-      "optimization"
+      "sustainable development goals"
     ],
     "editors": [
       {
@@ -9889,13 +9883,7 @@
       }
     ],
     "associate_editors": [],
-    "dates": [
-      {
-        "date": null,
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
+    "dates": [],
     "active": true,
     "pubDate": "2026-08-11T21:25:02.631Z"
   },
@@ -9907,7 +9895,7 @@
     "url": "https://link.springer.com/collections/debcfieibd",
     "title": "OR in Medicine and Health Care",
     "slug": "springer-or-in-medicine-and-health-care",
-    "contentHash": "42a2820489fa13fbfdb8bfb8b65dabde928d40986b1a4475788a4470da1b341b",
+    "contentHash": "06706d2c87feea1e19d8b196c469962c897745417538d95d84e588517265f9b2",
     "topics": [
       "Disease modeling",
       "Medical diagnosis",
@@ -9915,9 +9903,9 @@
       "Biological and medical imaging",
       "Epidemiology",
       "Molecular biology",
-      "Continuous linear and nonlinear optimization applied to medical and biological applications",
-      "Integer programming applied to medical and biological applications",
-      "Combinatorial optimization applied to medical and biological applications",
+      "Continuous linear and nonlinear optimization",
+      "Integer programming",
+      "Combinatorial optimization",
       "Stochastic approaches applied to medical and biological applications"
     ],
     "description": {
@@ -9929,9 +9917,9 @@
     },
     "tags": [
       "operations research",
-      "optimization",
       "medicine",
-      "healthcare",
+      "health care",
+      "optimization",
       "medical applications"
     ],
     "editors": [
@@ -9949,7 +9937,7 @@
       {
         "date": null,
         "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
+        "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
@@ -9963,49 +9951,40 @@
     "url": "https://link.springer.com/collections/bceifhhajc",
     "title": "Inclusive Entrepreneurship in the Asia-Pacific Region: Challenges, Opportunities, and Future Directions",
     "slug": "springer-inclusive-entrepreneurship-in-the-asia-pacific-region-challenges-opportunities-and-future-directions",
-    "contentHash": "70c04a85f533e88b6b8ae862ebd13b75e4561c2f94cddf63f7e3be874ef85776",
-    "topics": [
-      "Inclusive entrepreneurship in the Asia-Pacific region",
-      "Entrepreneurial responses to geopolitical tensions",
-      "Supply chain realignment and entrepreneurship",
-      "Technological disruption and entrepreneurial innovation",
-      "Digital progress and inclusive business models",
-      "Climate and demographic trends affecting entrepreneurship",
-      "Economic growth and inclusive entrepreneurship in Asia-Pacific"
-    ],
+    "contentHash": "8718ff7e242b91cd0ed55225039f00157f2b3d2c43fc1bdcb1a9272aac636959",
+    "topics": [],
     "description": {
       "paragraphs": [
         "The global entrepreneurial landscape is being reshaped by geopolitical tensions, realigning supply chains, technological disruption, digital progress, and long-term climate and demographic trends. As a leading engine of global economic growth, the Asia-Pacific is a critical arena in which these transformations unfold. This Collection aims to provide a platform for advancing theories, methodologies, and practices that enhance understanding of inclusive entrepreneurship in the region."
       ]
     },
     "tags": [
-      "inclusive entrepreneurship",
-      "asia-pacific",
       "entrepreneurship",
-      "regional studies"
+      "asia-pacific",
+      "inclusive business"
     ],
     "editors": [
+      {
+        "name": "Vikas Kumar",
+        "affiliation": "The University of Sydney"
+      },
       {
         "name": "Yiji Su",
         "affiliation": "Tongji University"
       },
       {
-        "name": "Shaker A. Zahra",
-        "affiliation": "University of Minnesota"
-      },
-      {
-        "name": "Vikas Kumar",
-        "affiliation": "University of Sydney"
-      },
-      {
         "name": "Sihong Wu",
         "affiliation": "University of Auckland"
+      },
+      {
+        "name": "Shaker A. Zahra",
+        "affiliation": "University of Minnesota"
       }
     ],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-08-31T10:00:00.000Z",
+        "date": "2026-08-31T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -10021,50 +10000,48 @@
     "url": "https://link.springer.com/collections/cijfhfhifa",
     "title": "Techno-Nationalism, State Strategy, and Corporate Innovation in the Asia-Pacific",
     "slug": "springer-techno-nationalism-state-strategy-and-corporate-innovation-in-the-asia-pacific",
-    "contentHash": "c086e7251afeff3ff97e611056ef769ed9ce6e6792e7b6c13c7f1663306d7771",
+    "contentHash": "53cc0904a46c4ab2aa0691f7bef6320b7c56c3510700ac59d661ddfe63274a90",
     "topics": [
-      "Techno-nationalism and its impact on corporate innovation",
-      "State strategy and technology policy in the Asia-Pacific region",
-      "Corporate innovation pathways in response to techno-nationalism",
-      "National competitiveness and strategic importance of technology",
-      "Institutional security and social stability through technology",
-      "Resilience-building strategies for Asia-Pacific firms",
-      "International business research on macro-level politics and micro-level firm practices"
+      "How techno-nationalism reshapes corporate innovation and strategy",
+      "Macro-level politics and micro-level firm practices in international business",
+      "Resilience-building and innovation pathways of Asia-Pacific firms",
+      "Technology as a critical determinant of national competitiveness, institutional security, and social stability",
+      "Strategic importance of technology in the knowledge-driven global economy"
     ],
     "description": {
       "paragraphs": [
-        "In today's highly digitalized and knowledge-driven global economy, technology has come to signify far more than traditional notions of productivity and efficiency. Its strategic importance has risen to the level of a critical determinant of national competitiveness, institutional security, and social stability.",
-        "Against this backdrop, the emergence of techno-nationalism represents a salient new trend. Investigating how techno-nationalism reshapes corporate innovation and strategy can not only fill the theoretical gap in existing IB research between macro-level politics and micro-level firm practices, but also provide new insights into the resilience-building and innovation pathways of Asia-Pacific firms in this new normal."
+        "In today's highly digitalized and knowledge-driven global economy, technology has come to signify far more than traditional notions of productivity and efficiency. Its strategic importance has risen to the level of a critical determinant of national competitiveness, institutional security, and social stability. Against this backdrop, the emergence of techno-nationalism represents a salient new trend. Investigating how techno-nationalism reshapes corporate innovation and strategy can not only fill the theoretical gap in existing IB research between macro-level politics and micro-level firm practices, but also provide new insights into the resilience-building and innovation pathways of Asia-Pacific firms in this new normal."
       ]
     },
     "tags": [
       "techno-nationalism",
-      "innovation",
+      "corporate innovation",
       "asia-pacific",
-      "international business"
+      "international business",
+      "state strategy"
     ],
     "editors": [
       {
-        "name": "Jiatao Li",
-        "affiliation": "Hong Kong University of Science and Technology"
+        "name": "Siah Hwee Ang",
+        "affiliation": "Victoria University of Wellington"
       },
       {
         "name": "Di (David) Fan",
         "affiliation": "RMIT University"
       },
       {
-        "name": "Wei Liu",
-        "affiliation": "Qingdao University"
+        "name": "Jiatao Li",
+        "affiliation": "Hong Kong University of Science and Technology"
       },
       {
-        "name": "Siah Hwee Ang",
-        "affiliation": "Victoria University of Wellington"
+        "name": "Wei Liu",
+        "affiliation": "Qingdao University"
       }
     ],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-08-31T10:00:00.000Z",
+        "date": "2026-08-31T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -16522,14 +16499,14 @@
     "url": "https://www.sciencedirect.com/special-issue/324562/challenges-and-advances-in-the-biofuel-industry-navigating-production-and-supply-chain-dynamics",
     "title": "Challenges and Advances in the Biofuel Industry: Navigating Production and Supply Chain Dynamics",
     "slug": "elsevier-challenges-and-advances-in-the-biofuel-industry-navigating-production-and-supply-chain-dynamics",
-    "contentHash": "c93692f335118d30b7a3d589db9d8e5ad6687426a78f5e14b5891d3edf62037c",
+    "contentHash": "5d75613f1674150cb779165f8d2e91efab28858f8fe05d4897c82c53e27539c5",
     "topics": [],
     "description": {
       "paragraphs": []
     },
     "tags": [
       "biofuels",
-      "production",
+      "energy",
       "supply chain",
       "environmental management"
     ],
@@ -16537,7 +16514,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2027-01-31T11:00:00.000Z",
+        "date": "2026-09-30T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
