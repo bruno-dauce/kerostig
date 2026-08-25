@@ -3924,6 +3924,55 @@
     "journal": "Auditing A Journal of Practice & Theory",
     "abbreviation": "aaa",
     "issn": "1558-7991",
+    "metaTitle": "Call for Papers Auditing: A Journal of Practice & Theory (AJPT) Shorter Papers",
+    "url": "https://aaahq.org/portals/0/documents/calls/2026/AJPT%20Call%20for%20Shorter%20Papers%20v2.pdf",
+    "title": "Shorter Papers",
+    "slug": "aaa-call-for-papers-auditing-a-journal-of-practice-and-theory-ajpt-shorter-papers",
+    "contentHash": "2511cde55b64560a8f041267e6f752f8ec48ac931fc604fa8387e96865b99b31",
+    "topics": [
+      "Papers that intentionally have been shortened from standard-length submissions",
+      "Replications and extensions that generate new insights",
+      "Timely issues particularly important to the auditing profession with narrower scope",
+      "All research methodologies and auditing topics"
+    ],
+    "description": {
+      "paragraphs": [
+        "Recent trends in academic research have resulted in longer journal articles and a substantial increase in the length of the academic review process. In 2024, AJPT initiated a Call for shorter papers, resulting in 114 submissions. This is now a second Call for shorter papers that also accommodates (but is not limited to) replications and extensions that generate new insights.",
+        "The Call encompasses two general types of high-quality submissions: (1) papers that typically would be standard-length but that intentionally have been shortened to satisfy the requirements of the Call; (2) papers targeting issues that are timely and/or particularly important to the auditing profession that may have a narrower scope and contribution. All research methodologies and auditing topics are welcome.",
+        "Submissions should be approximately 20 pages of text (roughly 5,000 words) exclusive of references, appendices, and tables. Submissions should include no more than five or six tables. In most instances, the greatest adjustment relative to a standard-length paper is likely to be in the background and empirical sections. Despite the reduced length, submissions must demonstrate sufficient rigor.",
+        "Papers will be published in a Special Section as they are accepted, coordinating the timing of acceptances and space availability in individual journal issues rather than assembling a cohort of papers for publication at a future date. Submissions will be screened and assigned to handling editors by Matt Ege and Tamara Lambert. Handling editors will then assign submissions to two reviewers, consistent with AJPT's standard review process. Given the goals of the Call, an expedited review process is targeted with a goal of decreasing time to publication. Authors will be encouraged to resubmit within three to six months if invited to submit a revision, and editors and reviewers will target a decision after two rounds."
+      ]
+    },
+    "tags": [
+      "auditing",
+      "shorter papers",
+      "special section"
+    ],
+    "editors": [
+      {
+        "name": "Matt Ege",
+        "affiliation": "Texas A&M University"
+      },
+      {
+        "name": "Tamara Lambert",
+        "affiliation": "The University of Manchester"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-08-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T08:15:27.740Z"
+  },
+  {
+    "journal": "Auditing A Journal of Practice & Theory",
+    "abbreviation": "aaa",
+    "issn": "1558-7991",
     "metaTitle": "Call for Papers Auditing: A Journal of Practice & Theory (AJPT) Unexpected or Non-Significant Results in Experimental Research",
     "url": "https://aaahq.org/portals/0/documents/calls/2026/AJPT%20Unexpected%20or%20Non-significant%20Results%20in%20Experimental%20Research%20v2.pdf",
     "title": "Unexpected or Non-Significant Results in Experimental Research",
@@ -3969,55 +4018,6 @@
       {
         "date": "2027-08-31T10:00:00.000Z",
         "description": "Deadline for submissions",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-18T08:15:27.740Z"
-  },
-  {
-    "journal": "Auditing A Journal of Practice & Theory",
-    "abbreviation": "aaa",
-    "issn": "1558-7991",
-    "metaTitle": "Call for Papers Auditing: A Journal of Practice & Theory (AJPT) Shorter Papers",
-    "url": "https://aaahq.org/portals/0/documents/calls/2026/AJPT%20Call%20for%20Shorter%20Papers%20v2.pdf",
-    "title": "Shorter Papers",
-    "slug": "aaa-call-for-papers-auditing-a-journal-of-practice-and-theory-ajpt-shorter-papers",
-    "contentHash": "2511cde55b64560a8f041267e6f752f8ec48ac931fc604fa8387e96865b99b31",
-    "topics": [
-      "Papers that intentionally have been shortened from standard-length submissions",
-      "Replications and extensions that generate new insights",
-      "Timely issues particularly important to the auditing profession with narrower scope",
-      "All research methodologies and auditing topics"
-    ],
-    "description": {
-      "paragraphs": [
-        "Recent trends in academic research have resulted in longer journal articles and a substantial increase in the length of the academic review process. In 2024, AJPT initiated a Call for shorter papers, resulting in 114 submissions. This is now a second Call for shorter papers that also accommodates (but is not limited to) replications and extensions that generate new insights.",
-        "The Call encompasses two general types of high-quality submissions: (1) papers that typically would be standard-length but that intentionally have been shortened to satisfy the requirements of the Call; (2) papers targeting issues that are timely and/or particularly important to the auditing profession that may have a narrower scope and contribution. All research methodologies and auditing topics are welcome.",
-        "Submissions should be approximately 20 pages of text (roughly 5,000 words) exclusive of references, appendices, and tables. Submissions should include no more than five or six tables. In most instances, the greatest adjustment relative to a standard-length paper is likely to be in the background and empirical sections. Despite the reduced length, submissions must demonstrate sufficient rigor.",
-        "Papers will be published in a Special Section as they are accepted, coordinating the timing of acceptances and space availability in individual journal issues rather than assembling a cohort of papers for publication at a future date. Submissions will be screened and assigned to handling editors by Matt Ege and Tamara Lambert. Handling editors will then assign submissions to two reviewers, consistent with AJPT's standard review process. Given the goals of the Call, an expedited review process is targeted with a goal of decreasing time to publication. Authors will be encouraged to resubmit within three to six months if invited to submit a revision, and editors and reviewers will target a decision after two rounds."
-      ]
-    },
-    "tags": [
-      "auditing",
-      "shorter papers",
-      "special section"
-    ],
-    "editors": [
-      {
-        "name": "Matt Ege",
-        "affiliation": "Texas A&M University"
-      },
-      {
-        "name": "Tamara Lambert",
-        "affiliation": "The University of Manchester"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2027-08-31T10:00:00.000Z",
-        "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
@@ -7099,6 +7099,79 @@
     "journal": "GRH",
     "abbreviation": "agrh",
     "issn": "2295-9149",
+    "metaTitle": "Appel à articles pour un numéro spécial de la Revue @grh",
+    "url": "https://www.agrh.fr/s/Appel-Recherche-Quantitative-inductive-Vdef-mapx.pdf",
+    "title": "Recherche quantitative inductive en GRH : enjeux et méthodes",
+    "slug": "agrh-appel-a-articles-pour-un-numero-special-de-la-revue-grh",
+    "contentHash": "e9c28a009e706d8a7ce49c46d31ecd0463abfc9ec5be78dad603bad553eb9502",
+    "topics": [
+      "Data-driven approaches in HRM",
+      "Inductive quantitative research methods",
+      "Big data exploitation and analysis",
+      "Supervised learning applications in HRM",
+      "Data mining techniques",
+      "Textual statistics",
+      "Longitudinal approaches",
+      "Innovative quantitative methods in HRM research",
+      "Theory building from data",
+      "Emerging methodologies in francophone HRM studies"
+    ],
+    "description": {
+      "paragraphs": [
+        "Data is increasingly recognized as a crucial resource for organizational innovation, with extensive and organized data exploitation considered a key driver of the ongoing fourth industrial revolution. HRM is not exempt from this trend, and the methodological challenges of leveraging increasingly diverse and massive datasets present significant stakes for both practitioners and academic researchers.",
+        "Recent reflections on applicable methods for extracting value from data often emphasize the disruptive potential of big data, presenting it as the foundation for a renewal of empiricism based on intensive exploration of data masses through exploratory methods, aimed at generating new knowledge through purely inductive logic. However, inductive, data-driven approaches remain rare in quantitative HRM studies, despite their capacity to transcend the classical dichotomy between qualitative/inductive and quantitative/deductive approaches in management sciences. Data-driven methodologies also help address criticisms leveled at hypothetico-deductive approaches, such as their strong standardization and difficulty in generating truly innovative theories.",
+        "This special issue aims to provide an updated overview of the challenges and opportunities of data-driven HRM, as well as inductive quantitative methods applicable in empirical research. Expected contributions may address these themes from methodological perspectives (such as presenting an innovative method with illustration in HRM), empirical perspectives (conducting a quantitative study on a subject by adopting an inductive approach), or conceptual perspectives (analyzing the stakes for HRM of data-driven management). Proposals presenting emerging or underutilized methods in francophone quantitative HRM studies will be particularly appreciated, including supervised learning, data mining, textual statistics, and longitudinal approaches."
+      ]
+    },
+    "tags": [
+      "hrm",
+      "quantitative research",
+      "inductive methods",
+      "data-driven approaches",
+      "big data",
+      "research methodology"
+    ],
+    "editors": [
+      {
+        "name": "Clotilde Coron",
+        "affiliation": "Université Paris-Saclay"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Author feedback",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": null,
+        "description": "Second version of articles",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": null,
+        "description": "Final acceptance of articles",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": null,
+        "description": "Publication of special issue",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2023-03-25T11:00:00.000Z",
+        "description": "Submission deadline for articles",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-12T22:00:20.665Z"
+  },
+  {
+    "journal": "GRH",
+    "abbreviation": "agrh",
+    "issn": "2295-9149",
     "metaTitle": "Dialogue social sur le travail en mutations : quels défis, acteurs, espaces et modalités ? (DL 15 janvier 2025)",
     "url": "https://www.agrh.fr/s/Proposition-dAAC_grh_Dialogue-social_Fronty-Havard.pdf",
     "title": "Dialogue social sur le travail en mutations : quels défis, acteurs, espaces et modalités ?",
@@ -7179,80 +7252,6 @@
     ],
     "active": false,
     "pubDate": "2026-08-12T22:00:20.665Z"
-  },
-  {
-    "journal": "GRH",
-    "abbreviation": "agrh",
-    "issn": "2295-9149",
-    "metaTitle": "Appel à articles pour un numéro spécial de la Revue @grh",
-    "url": "https://www.agrh.fr/s/Appel-Recherche-Quantitative-inductive-Vdef-mapx.pdf",
-    "title": "Recherche quantitative inductive en GRH : enjeux et méthodes",
-    "slug": "agrh-appel-a-articles-pour-un-numero-special-de-la-revue-grh",
-    "contentHash": "e9c28a009e706d8a7ce49c46d31ecd0463abfc9ec5be78dad603bad553eb9502",
-    "topics": [
-      "Data-driven approaches in HRM",
-      "Inductive quantitative research methods",
-      "Big data exploitation and analysis",
-      "Supervised learning applications in HRM",
-      "Data mining techniques",
-      "Textual statistics",
-      "Longitudinal approaches",
-      "Innovative quantitative methods in HRM research",
-      "Theory building from data",
-      "Emerging methodologies in francophone HRM studies"
-    ],
-    "description": {
-      "paragraphs": [
-        "Data is increasingly recognized as a crucial resource for organizational innovation, with extensive and organized data exploitation considered a key driver of the ongoing fourth industrial revolution. HRM is not exempt from this trend, and the methodological challenges of leveraging increasingly diverse and massive datasets present significant stakes for both practitioners and academic researchers.",
-        "Recent reflections on applicable methods for extracting value from data often emphasize the disruptive potential of big data, presenting it as the foundation for a renewal of empiricism based on intensive exploration of data masses through exploratory methods, aimed at generating new knowledge through purely inductive logic. However, inductive, data-driven approaches remain rare in quantitative HRM studies, despite their capacity to transcend the classical dichotomy between qualitative/inductive and quantitative/deductive approaches in management sciences. Data-driven methodologies also help address criticisms leveled at hypothetico-deductive approaches, such as their strong standardization and difficulty in generating truly innovative theories.",
-        "This special issue aims to provide an updated overview of the challenges and opportunities of data-driven HRM, as well as inductive quantitative methods applicable in empirical research. Expected contributions may address these themes from methodological perspectives (such as presenting an innovative method with illustration in HRM), empirical perspectives (conducting a quantitative study on a subject by adopting an inductive approach), or conceptual perspectives (analyzing the stakes for HRM of data-driven management). Proposals presenting emerging or underutilized methods in francophone quantitative HRM studies will be particularly appreciated, including supervised learning, data mining, textual statistics, and longitudinal approaches."
-      ]
-    },
-    "tags": [
-      "hrm",
-      "quantitative research",
-      "inductive methods",
-      "data-driven approaches",
-      "big data",
-      "research methodology"
-    ],
-    "editors": [
-      {
-        "name": "Clotilde Coron",
-        "affiliation": "Université Paris-Saclay"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": null,
-        "description": "Author feedback",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": null,
-        "description": "Second version of articles",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": null,
-        "description": "Final acceptance of articles",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": null,
-        "description": "Publication of special issue",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2023-03-25T11:00:00.000Z",
-        "description": "Submission deadline for articles",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-12T22:00:20.665Z",
-    "gracePeriod": "2026-09-23T09:49:49.976Z"
   },
   {
     "journal": "Comptabilité - Contrôle - Audit",
@@ -7796,8 +7795,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-24T03:22:46.586Z"
   },
   {
     "journal": "M@n@gement",
@@ -7904,8 +7904,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-24T03:22:46.586Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -7941,7 +7942,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-24T03:22:46.586Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -8033,7 +8035,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-24T03:22:46.586Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -8112,7 +8115,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-24T03:22:46.586Z"
   },
   {
     "journal": "Recherche et Applications en Marketing",
@@ -9748,7 +9752,7 @@
     "url": "https://link.springer.com/collections/gjbdjhfbdg",
     "title": "Advances in Reliability and Statistical Computing for Intelligent Systems",
     "slug": "springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems",
-    "contentHash": "26fb229fc5b199c68e89247575b3b24bb79e8007d6127cb23e9bbe6b79e1edc9",
+    "contentHash": "0864691c4f084033179a117b0ab12355848e15b40de69c40c741345b14927ed0",
     "topics": [
       "Mathematical reliability and statistical methods",
       "Big data modeling and prediction",
@@ -9771,13 +9775,12 @@
       "reliability",
       "statistical computing",
       "intelligent systems",
-      "machine learning",
-      "ai"
+      "machine learning"
     ],
     "editors": [
       {
         "name": "Hoang Pham",
-        "affiliation": "Rutgers, The State University of New Jersey"
+        "affiliation": "Rutgers University"
       }
     ],
     "associate_editors": [],
@@ -16497,14 +16500,13 @@
     "url": "https://www.sciencedirect.com/special-issue/324562/challenges-and-advances-in-the-biofuel-industry-navigating-production-and-supply-chain-dynamics",
     "title": "Challenges and Advances in the Biofuel Industry: Navigating Production and Supply Chain Dynamics",
     "slug": "elsevier-challenges-and-advances-in-the-biofuel-industry-navigating-production-and-supply-chain-dynamics",
-    "contentHash": "c93692f335118d30b7a3d589db9d8e5ad6687426a78f5e14b5891d3edf62037c",
+    "contentHash": "5d75613f1674150cb779165f8d2e91efab28858f8fe05d4897c82c53e27539c5",
     "topics": [],
     "description": {
       "paragraphs": []
     },
     "tags": [
       "biofuels",
-      "environmental management",
       "production",
       "supply chain"
     ],
@@ -16512,7 +16514,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2027-01-31T12:00:00.000Z",
+        "date": "2026-09-30T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -17850,6 +17852,406 @@
     "gracePeriod": "2026-09-11T04:26:53.283Z"
   },
   {
+    "journal": "Academy of Management Perspectives",
+    "abbreviation": "aom",
+    "issn": "1558-9080",
+    "metaTitle": "AMP Call for Special Issue Papers: Turning Implications Into Evidence",
+    "url": "https://www.aom.org/event/amp-call-for-special-issue-papers-turning-implications-into-evidence/",
+    "title": "Turning Implications Into Evidence: Actionable Solutions to Real-World Problems of Practice and Policy Based on Prior Academy of Management Publications",
+    "slug": "aom-amp-call-for-special-issue-papers-turning-implications-into-evidence",
+    "contentHash": "ac946b8a35cc0d665ea702016a3648b05b99d95510b7ce3d40c644d034e93f9e",
+    "topics": [
+      "Developing actionable solutions from previously published managerial implications",
+      "Novel empirical or conceptual analysis of practice and policy implications",
+      "Real-world problems of practice and policy overlooked in managerial implications sections",
+      "Robust analysis providing specific guidance for practitioners and policy makers",
+      "Building on theory developed in Academy of Management journals to enrich and reveal nuances of their usefulness"
+    ],
+    "description": {
+      "paragraphs": [
+        "Amid rising concern about the relevance of their contents, many scholarly journals mandate inclusion of a managerial implications section. This section may be relegated to a few paragraphs at the end of an article and comprised of speculative statements loosely connected to the paper's empirical or theoretical content. And there these unvalidated implications tend to remain, largely unaddressed in future research studies and having little relevance to practice or policy.",
+        "This special issue calls for original research that develops actionable solutions from previously published managerial implications. By developing actionable insights from underdeveloped or dormant implications, this special issue furthers the core function of any science: the development of a corpus of valid and reliable knowledge. An applied science has the added demand that knowledge be usable outside of academia.",
+        "The portfolio of Academy of Management journals forms a system of knowledge production in which each journal has a complementary specialization. Within this system, Academy of Management Perspectives papers provide actionable insights that guide practitioner behavior and influence policy decisions. These papers build on theory developed, tested, and organized in other journals and enrich these theories by revealing nuances and boundaries of their usefulness.",
+        "This special issue is limited to papers that analyze practice and policy implications previously published in any of the seven established Academy of Management journals: Academy of Management Annals, Academy of Management Collections, Academy of Management Discoveries, Academy of Management Journal, Academy of Management Learning & Education, Academy of Management Review, and Academy of Management Perspectives. The article containing the focal implication on which a submission is based must have been published in or fully accepted to any of these journals at any point up to 31 December 2026.",
+        "Submissions must conduct novel empirical or conceptual analysis. Academy of Management Perspectives does not accept managerial translations that restate previously published work in more practice-friendly terms. Moreover, papers that address managerial implications for which actionable solutions have already been adequately developed through prior publications are not accepted. Authors submitting to this special issue may be, but are not required to be, an author of the published article containing the managerial implication.",
+        "Academy of Management Perspectives' mission and format differ from many other leading academic journals. Though the format differs, the journal's analytical standards are the same as at any other Academy of Management journal, demanding robust analysis that fulfills current social science standards. Papers should be grounded in evidence or robust conceptual frameworks, address relevant real-world managerial and policy issues, offer actionable insights, avoid theory fetish, and be written in a style accessible to non-specialists and practitioners.",
+        "A Paper Development Workshop will be hosted at the Academy of Management 2026 Conference in Philadelphia for selected authors to further develop their manuscripts. Participation in this workshop is neither a guarantee nor a prerequisite for publication."
+      ]
+    },
+    "tags": [
+      "actionable insights",
+      "practice and policy",
+      "managerial implications",
+      "applied research"
+    ],
+    "editors": [
+      {
+        "name": "Julian Birkinshaw",
+        "affiliation": "Western University"
+      },
+      {
+        "name": "Thomas P. Lyon",
+        "affiliation": "University of Michigan"
+      },
+      {
+        "name": "Denise M. Rousseau",
+        "affiliation": "Carnegie Mellon University"
+      },
+      {
+        "name": "Majken Schultz",
+        "affiliation": "Copenhagen Business School"
+      },
+      {
+        "name": "Mo Wang",
+        "affiliation": "University of Florida"
+      }
+    ],
+    "associate_editors": [
+      {
+        "name": "Michael L. Barnett",
+        "affiliation": "Rutgers University"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2026-01-01T11:00:00.000Z",
+        "description": "Call for papers opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-31T11:00:00.000Z",
+        "description": "Submission deadline at 23:59 ET",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
+    "journal": "Academy of Management Learning and Education",
+    "abbreviation": "aom",
+    "issn": "1944-9585",
+    "metaTitle": "AMLE Call for Special Issue Papers: Rethinking Business School Structures, Standards, and Success for Neuroinclusive Management Learning and Education",
+    "url": "https://www.aom.org/event/amle-call-for-special-issue-papers-rethinking-business-school-structures-standards-and-success-for-neuroinclusive-management-learning-and-education/",
+    "title": "Rethinking Business School Structures, Standards, and Success for Neuroinclusive Management Learning and Education",
+    "slug": "aom-amle-call-for-special-issue-papers-rethinking-business-school-structures-standards-and-success-for-neuroinclusive-management-learning-and-education",
+    "contentHash": "8e987a3389b1584a2f52acf74bca09f33a077fad14ccbe99d3d0df0fb7e8a653",
+    "topics": [
+      "How does neurodiversity help reimagine social justice and DEI in business schools?",
+      "What tensions emerge between performance metrics and inclusion for neurodivergent students, academic and professional staff, and how are such trade-offs effectively managed?",
+      "How do policies on reasonable accommodations align (or conflict) with institutional objectives and wider institutional logics?",
+      "How is neurodiversity effectively addressed in non-WEIRD (Western, Educated, Industrialized, Rich, and Democratic) environments and institutional settings in higher education contexts?",
+      "How does a country's legal context shape the expectations, obligations, and opportunities for business schools to develop and deliver more neuroinclusive pedagogy?",
+      "How can existing practices and processes within business schools be adjusted and/or redesigned to be more neuroinclusive (e.g., recruiting and selection, onboarding, networking, and organizational culture)?",
+      "How can business schools attract and retain neurodivergent talent (learners, academics and professional staff)?",
+      "How can business schools support neurodivergent academic and professional staff and challenge ableism as an organizational paradigm?",
+      "How do business schools address the neurodiversity of learners, academic, and professional staff at different levels (i.e., undergraduate, postgraduate, executive education) and in different cultural and institutional contexts?",
+      "How do neurodivergent learners, academic and professional staff experience management learning processes differently and what unique challenges do they face?",
+      "What are the experiences of learners and academic and professional staff with intersectional social identities involving neurodiversity?",
+      "What is the role of institutional logics/culture, pedagogy, peer learners, and academic and professional staff in the way neurodivergent individuals and groups experience and navigate their management education, including from an intersectionality perspective?",
+      "What insights can be gleaned from the experiences of neurodivergent learners and academic and professional staff regarding neurotypical norms in management education? What role do visibility and representation specifically play in this?",
+      "How can cross-neurotype (between neurodivergent and neurotypical individuals) collaboration and connection be fostered and leveraged in the classroom and outside it (i.e., bridging the double empathy problem)?",
+      "How do neurodiverse groups of learners (i.e., those with neurotypical and neurodivergent members) work together (e.g., the biases experienced or avoided, the interpersonal challenges) and perform (e.g., task performance, creativity)?",
+      "How do neurodivergent individuals experience the transition into the workforce as well as from secondary school into management education? What practices, supports, and tools aid more successful transitions? How do these transitional practices vary across global cultures?",
+      "What role does executive functioning, sensory processing, or divergent social cognition play in shaping reflection and feedback loops within learning processes?",
+      "In what ways can experiential learning or study abroad be adapted for neurodivergent learners and educators?",
+      "How does neurodiversity inform alternative models of learner identity and transformation?",
+      "What is the impact of educational support on academic achievements and the employability of neurodivergent individuals?",
+      "What role do internships and mentoring play in the academic achievements and work-readiness of neurodivergent management learners?",
+      "How can business schools foster neuro-inclusion as a leadership and management capability?",
+      "How can universal design for learning and inclusive pedagogy reshape management education?",
+      "How can constructive alignment more effectively incorporate the needs and experiences of neurodivergent learners and educators across different levels and contexts?",
+      "What can we learn from neuro-inclusive education in other fields? What best practices, policies, and procedures can be identified?",
+      "How do assessment and participation norms impact neurodivergent learners' educational outcomes?",
+      "How does neurodiversity intersect with other (potentially) stigmatizing attributes or sources of social identities, such as gender, age, race, ethnicity, sexual orientation, or other disabilities among management learners?",
+      "How do individuals with multiple co-occurring neurocognitive conditions navigate higher management education?",
+      "What teaching innovations have emerged in neurodiversity-informed business courses and programs?",
+      "How important is visibility and representation among academic and professional staff?",
+      "How may internalized ableism and embodied pedagogy affect neurodivergent academic and professional staff?",
+      "How do inclusive pedagogies engage with issues of masking, disclosure, and psychological safety?",
+      "How can technology, and in particular artificial intelligence, be meaningfully leveraged to support neurodivergent learners in management education? How can such technologies be used to enhance cross-neurotype collaborations and relationships?",
+      "How are higher education institutions and educators adapting AI-driven educational technologies to support neurodivergent learners in management programs?"
+    ],
+    "description": {
+      "paragraphs": [
+        "Business schools around the world are undergoing rapid transformation, reflecting questions about their social license, legitimacy and identity, changing student demographics, technological developments, and evolving understandings of social justice, equity, inclusion, and belonging. Amid this period of re-evaluation and change, recognition is growing that an estimated 15-20% of the global population is neurodivergent. With more than half of Gen Z now identifying as neurodivergent, it underscores the urgency of advancing theoretical, empirical, and pedagogical conversations about whom business school systems of teaching, assessment, and professional formation are designed to serve – and how they might evolve to achieve greater neuroinclusion.",
+        "Neurodiversity, a term collectively developed by neurodivergent individuals, refers to the full spectrum of natural variation in human cognitive functioning. Individuals who diverge from dominant neurocognitive norms are often described as neurodivergent, encompassing cognitive profiles such as Autism Spectrum Conditions (ASC), Attention Deficit Hyperactivity Disorder (ADHD), dyslexia, dysgraphia, dyscalculia, dyspraxia, Tourette Syndrome, and other forms of neurodivergence. These forms of neurodivergence are not deficits to be 'fixed' but reflect different patterns of perception, attention, memory, and communication, which may entail both distinct challenges and unique strengths in educational and workplace settings. ADHD individuals, for example, may excel in high-energy, fast-paced problem-solving but face difficulties with sustained concentration during lengthy case discussions or traditional assessments. Dyslexic learners often demonstrate strong visual-spatial reasoning and creativity yet may encounter barriers when coursework relies heavily on time-pressured reading and written tasks.",
+        "There has been a marked increase in the number of neurodivergent learners entering higher education in recent years, driven by rising awareness and improved access pathways. In the UK, for example, up to 2% of university students may meet diagnostic criteria for ASC, with an additional 2-8% potentially being ADHD. Dyslexia is also widespread, with approximately 5% of higher education students being dyslexic. Nonetheless, these figures likely underestimate the true prevalence of neurodivergence in business and higher education as many learners remain undiagnosed or choose not to disclose their neurodivergent status.",
+        "Business schools traditionally tend to privilege narrow forms of learning, expression, and social interaction that assume neurotypicality and place the burden of adaptation on neurodivergent individuals. This approach fails to recognize that the challenges of neurodiversity are fundamentally breakdowns in mutual understanding between neurodivergent and neurotypical people grounded in differences in their patterns of attention, communication, and interpretation of social information—a double empathy problem rather than one party's mind blindness or lack of empathy. Failing to see the double empathy problem produces pedagogical expectations that can disadvantage those whose strengths and needs do not align with these implicit norms, limiting their ability to fully participate and succeed.",
+        "Pedagogically, group work, a core element of many business schools, similarly assumes strong relational and communication skills, which may not align with all neurocognitive profiles. Similarly, particularities of neurodivergent students, such as hyperfocus among those with ADHD or monotropism, referring to the tendency to focus one's attention on a small or singular number of interests, common among autistic students, are often ignored or positioned as irrelevant. Moreover, challenges faced by neurodivergent learners are intensified for postgraduate students, mature learners, and those diagnosed later in life, who often encounter disbelief, inconsistent support, or are completely overlooked by institutions.",
+        "Even when available, neurodivergent learners may be unaware of available support or may refrain from requesting accommodations to which they are entitled due to the fear of stigmatization. These students often attempt to conform to neurotypical norms, masking their difficulties or distinctive traits. They consequently tend to manage their challenges by themselves, a strategy that may prove unsustainable over time for them and their support groups. As a result, and despite being academically capable, degree completions remain low. For many, the consequences extend beyond poorer academic outcomes to diminished access to meaningful employment, an issue particularly stark for autistic individuals whose employment rates remain among the lowest of any disability group.",
+        "While several excellent special issues have advanced the conversation on neurodiversity in management and organizations, this special issue offers a fundamentally distinct vantage point. Whereas prior collections center primarily on neurodiversity in relation to employment, inclusion practices, and organizational systems and outcomes, this Academy of Management Learning & Education special issue uniquely foregrounds the importance of reimagining management learning and education to better serve all minds and to develop neurodiversity-informed managers who are equipped to make organizations more neuroinclusive.",
+        "For this special issue, we encourage conceptual and empirical work that envisions business schools as models of neuroinclusion. Our call also shifts the focus from 'accommodating and managing difference' to 'learning through difference' and understanding how difference, as a form of diversity, enhances learning and group capabilities. In doing so, it extends the dialogue beyond workplace adaptation to examining how neurodiversity both challenges and enriches the processes through which management knowledge is constructed, taught, and understood by learners, and how this also impacts emergent group functions (i.e., decision-making and morality). We therefore invite a more inclusive understanding of learning and knowing in management education, one that values diverse cognitive styles and experiences as integral to the co-creation of knowledge and practice.",
+        "In this vein, we invite contributors to explore diverse perspectives that enrich and expand conversations on neurodiversity in management learning and education. In particular, we encourage submissions that move beyond single-diagnosis approaches recognizing the breadth within and across neurodivergences, including: developmental (e.g., ADHD, dyslexia, dyspraxia, dyscalculia), acquired (e.g., traumatic brain injury, epilepsy), mental health (e.g., anxiety, obsessive-compulsive disorder), and physical health conditions (e.g., chronic fatigue syndrome, hearing or vision impairment). These categories are not mutually exclusive and neurodivergent conditions often co-occur. For example, those who present with ADHD and anxiety, or those who are dyspraxic and autistic, may experience both distinctive challenges and synergies in learning and workplaces.",
+        "Furthermore, this special issue welcomes contributions that embrace conceptual plurality, engaging with alternative or adjacent conceptualisations of neurodiversity – whether framed as natural variation and ecology or through disability, misfit, being 'different' or other evolving terms that capture the complex ways individuals experience (mis)alignment with institutional learning environments and how this also impacts emergent group functions and group-level outcomes. Embracing such plurality also requires turning the lens toward academic and professional staff who shape these environments. Doing so exposes a broader empirical and theoretical blind spot in understanding the attitudes and experiences of academic and professional staff with disabilities and, in particular, those with neurocognitive conditions.",
+        "Of interest in this special issue also are how inclusive pedagogy, constructive alignment, Universal Design for Learning (UDL), and learner partnership models can transform educational design and practice to better serve the full spectrum of learners. For example, a management educator might offer students multiple ways to demonstrate learning, such as a written essay, an infographic, or forms of digitalization, or a recorded presentation, thereby valuing diverse modes of cognition and communication. Similarly, predictable course rhythms and clearly scaffolded tasks can reduce cognitive load and anxiety for neurodivergent students while increasing engagement and clarity for everyone. Finally, incorporating learner partnership models—where students collaborate with educators to co-design learning activities, assessment criteria, or feedback processes—can cultivate a sense of shared ownership, agency, and belonging across the entire student cohort. For business schools, this will result in very real considerations of workload models, academic and professional staff training, and the redistribution of institutional resources to ensure that inclusive pedagogical intentions are supported by genuine structural and financial commitment.",
+        "Attention should likewise be directed to an intersectional perspective on neurodivergence, which acknowledges that intersecting identities—such as gender, race, and culture—interact and fundamentally shape how neurological differences are understood and enacted. For example, the experience of a dyslexic woman of color in academia or that of a neurodivergent international student navigating an unfamiliar education system may reveal unique intersections of cognitive, cultural, and structural differences, which offers an opportunity to explore the interactions of dispositional and circumstantial diversity. In particular, we encourage research and reflections from diverse cultural and national contexts which support and extend ecological understandings of neurodiversity and challenge dominant epistemological assumptions. Consequently, we provide a space to decenter Eurocentric and Anglophone paradigms of management learning and education, enabling more culturally grounded understandings of neurodivergence. These perspectives will ultimately challenge dominant Western deficit discourses and offer novel pathways for pedagogical and institutional inclusion, as well as opening promising frontiers for the application of institutional theory and intersectionality research.",
+        "At a theoretical level, management learning and education continues to be informed by approaches that presume and privilege neurotypicality and associate neurodivergence with medicalized deficits rather than as part of a natural ecology. We posit that institutions that implement inclusive teaching practices often do so without interrogating the deeper epistemic assumptions that define what counts as legitimate knowledge, effective pedagogy, or good learning. To illustrate, efforts to engage neurodiversity in practice and management learning and education research have largely been narrow and at the individual-level, overlooking a more ecological perspective that focuses on the interplay of factors at micro, meso, and macro levels. Drawing on Bronfenbrenner's ecological systems theory—which posits that individual development is shaped by multiple, interrelated environmental layers—may offer a valuable lens for examining how business schools can become more inclusive. For this special issue, we therefore encourage pursuing the above-mentioned ideas and contexts from various theoretical perspectives, epistemological assumptions, and levels of analysis.",
+        "In conjunction with the ecological systems view, a range of theoretical lenses, such as social identity theory and identity work, critical race or critical disability theories, queer theory and power lenses, but also decolonial perspectives may be pertinent to studying intersectional identities, forms of oppression, and co-occurring conditions. Social learning theory and especially self-efficacy beliefs, learned helplessness, and the internalization of negative beliefs about their competencies or stigma might likewise be relevant to studying educational outcomes as well as the school-to-work transition of neurodivergent students in business schools. This is supported by empirical research showing that neurodivergent students often report lower self-efficacy than their neurotypical peers, which may hinder confidence and career readiness.",
+        "In sum, we encourage contributions that critically examine how insights from neuroscience and neuro-ethics can inform, but should not uncritically determine, approaches to neuroinclusive management learning and education. We invite scholars, educational practitioners, business school leaders, policymakers, and even practitioners from across inclusive education, disability studies, critical management studies, organizational behavior and theory, and other fields to enrich neurodiversity discourse and contribute to a more expansive, socially just, and humanizing vision of management learning and education."
+      ]
+    },
+    "tags": [
+      "neurodiversity",
+      "business education",
+      "inclusive pedagogy",
+      "neuroinclusion",
+      "management learning and education",
+      "double empathy problem"
+    ],
+    "editors": [
+      {
+        "name": "Miriam Moeller",
+        "affiliation": "University of Queensland"
+      },
+      {
+        "name": "Dana L. Ott",
+        "affiliation": "University of Otago"
+      },
+      {
+        "name": "Matevž Rašković",
+        "affiliation": "University of Technology Auckland"
+      },
+      {
+        "name": "Sophie Hennekam",
+        "affiliation": "Audencia Business School"
+      },
+      {
+        "name": "Timothy J. Vogus",
+        "affiliation": "Vanderbilt University"
+      },
+      {
+        "name": "Joy E. Beatty",
+        "affiliation": "Eastern Michigan University"
+      },
+      {
+        "name": "Judith Clair",
+        "affiliation": "Boston College"
+      }
+    ],
+    "associate_editors": [
+      {
+        "name": "Katrin Mühlfeld",
+        "affiliation": "University of Trier"
+      },
+      {
+        "name": "María José Murcia",
+        "affiliation": "IAE Business School"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2026-05-13T12:00:00.000Z",
+        "description": "Deadline for submitting 3,000-word proposal (including references) for optional professional development workshop in May 2026",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-11-01T12:00:00.000Z",
+        "description": "Special issue submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-14T12:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
+    "journal": "Academy of Management Discoveries",
+    "abbreviation": "aom",
+    "issn": "2168-1007",
+    "metaTitle": "AMD Call for Submissions: Registered Reports",
+    "url": "https://www.aom.org/event/call-for-submissions-amd-registered-reports/",
+    "title": "Registered Reports",
+    "slug": "aom-amd-call-for-submissions-registered-reports",
+    "contentHash": "ac6ecac452e2369838e699190815aa49ba310aaca68e0d5c44e996351be46ef4",
+    "topics": [
+      "Empirical studies with important theoretical or practical implications",
+      "Research with rigorous methodological design",
+      "Studies reporting null or negligible effects",
+      "Organizational and management research"
+    ],
+    "description": {
+      "paragraphs": [
+        "In cases in which results, whether present or not, may have important theoretical or practical implications, scholars are encouraged to submit a Registered Report. In this type of submission, authors submit the introduction, methods, measurement info, and analysis plan (but not the results) of a completed or planned study.",
+        "This abbreviated paper is then evaluated on the basis of the importance of the topic, the merit of the selected analytic approach, methodological rigor and quality, and potential for impacting down-the-road theorizing and/or practice/policy. As results are not included in the registered report, what was or is likely to be found has no bearing on the outcome of the evaluation. This is in line with the journal's willingness to publish papers reporting negligible or non-effects."
+      ]
+    },
+    "tags": [
+      "registered reports",
+      "methodology",
+      "open science"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-01-01T11:00:00.000Z",
+        "description": "Call for submissions opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-31T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
+    "journal": "Academy of Management Discoveries",
+    "abbreviation": "aom",
+    "issn": "2168-1007",
+    "metaTitle": "AMD Call for Submissions: Discoveries-through-Prose",
+    "url": "https://www.aom.org/event/call-for-submissions-amd-discoveries-through-prose/",
+    "title": "Discoveries-through-Prose",
+    "slug": "aom-amd-call-for-submissions-discoveries-through-prose",
+    "contentHash": "078e9f0f6bb59c9d530706f4b6c169b9f11924cf2fdbd2f474f685d67513f4e5",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "Discoveries-through-Prose empower authors to craft their manuscripts in nontraditional ways that make for tighter, more engaging narratives."
+      ]
+    },
+    "tags": [
+      "manuscript writing",
+      "narrative"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-31T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
+    "journal": "Academy of Management Perspectives",
+    "abbreviation": "aom",
+    "issn": "1558-9080",
+    "metaTitle": "AMP Call for Special Issue Papers: Managing Under Political Turbulence",
+    "url": "https://www.aom.org/event/amp-call-for-special-issue-papers-managing-under-political-turbulence/",
+    "title": "Managing Under Political Turbulence",
+    "slug": "aom-amp-call-for-special-issue-papers-managing-under-political-turbulence",
+    "contentHash": "92832b4d484ebfb54f02b927d125d8cbafac6c5fb150db2242d088be69da490a",
+    "topics": [
+      "Understanding Different Types and Forms of Political Turbulence",
+      "Rethinking Corporate Political Strategies",
+      "Reorganizing and Realigning Geographically Diversified Operations",
+      "Managing Stakeholder Nationalism",
+      "The Role of New Technologies",
+      "Managing Corporate Innovation",
+      "Navigating the Race for Talent"
+    ],
+    "description": {
+      "paragraphs": [
+        "Political turbulence is on the rise, as evidenced most dramatically in violent conflicts (e.g., wars, terrorism attacks), volatile political transitions (e.g., dramatic regime change, cuts to government employees, new geopolitical alliances, coups), and geopolitical tensions (e.g., trade wars, democratic backsliding, sanctions). This escalated political turbulence exacerbates geopolitical risks for organizations and their stakeholders.",
+        "Whether anticipatory (e.g., fear of cyberattacks) or actual (e.g., ongoing trade wars, competition over territories), rising geopolitical risks affect organizations in many ways. The rise of techno-nationalism, driven by national security and ideological concerns, challenges the resilience of global technology supply chains. With the rapid development of AI comes misinformation and disinformation that further aggravate political tensions and ideologies. Tariffs, sanctions, and protectionist trade restrictions bring escalating compliance risks. Rising populist sentiment drives immigration restrictions and is creating a shortage of high-skill talent for MNEs.",
+        "Political turbulence has long been a strategic consideration in some sectors such as energy and defense, but it is now affecting organizations in nearly all sectors, both at home and abroad. At home, organizations encounter scrutiny from civil society for their operations in countries with questionable international standing. Abroad, they may face interventions by host country governments that vary with their country of origin or type of ownership. All of this presents considerable challenges for managers and their organizations.",
+        "This special issue aims to provide actionable, evidence-based insights that clearly and credibly guide managers and their organizations in navigating the political turbulence that increasingly characterizes the international, national, and subnational landscape. We seek to fill in the 'glaring white space' of how organizations can best operate under political turbulence, providing robust insights on which practitioners and policy makers can rely.",
+        "AMP papers are managerially driven, not theory driven. Successful submissions clearly define the managerial issue from the outset and make a compelling case for its importance. They do not simply tack managerial implications onto a standard academic study. Rather, AMP papers evidence actionable insights that can credibly guide managerial behavior and influence policy decisions.",
+        "We welcome both conceptual and empirical papers that are grounded in rigorous analysis and directly evidence specific and significant managerial and policy actions. We welcome accounts of embodied, lived experiences of specific political turbulence and the use of reflexive methodologies. Quantitative analyses of large databases, qualitative comparative analyses, and extensive data analysis using linguistic programs and algorithms are also welcome. Papers should prove what can or does work in ways that managers and policymakers can use."
+      ]
+    },
+    "tags": [
+      "geopolitical risk",
+      "political turbulence",
+      "corporate strategy",
+      "international business"
+    ],
+    "editors": [
+      {
+        "name": "Jonathan Doh",
+        "affiliation": "Villanova University"
+      },
+      {
+        "name": "Srividya Jandhyala",
+        "affiliation": "ESSEC Business School"
+      },
+      {
+        "name": "Yadong Luo",
+        "affiliation": "University of Miami"
+      },
+      {
+        "name": "Grazia D. Santangelo",
+        "affiliation": "Copenhagen Business School"
+      }
+    ],
+    "associate_editors": [
+      {
+        "name": "Tazeeb Rajwani",
+        "affiliation": "University of Surrey"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2026-09-01T10:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-09-30T10:00:00.000Z",
+        "description": "Final deadline for submissions at 23:59 ET",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
+    "journal": "Academy of Management Perspectives",
+    "abbreviation": "aom",
+    "issn": "1558-9080",
+    "metaTitle": "AMP Open Call for Papers",
+    "url": "https://www.aom.org/event/amp-open-call-for-papers/",
+    "title": "Open Call for Papers",
+    "slug": "aom-amp-open-call-for-papers",
+    "contentHash": "69d2fb78f5bdfef2b3c61020a5944b8b04f737f5ecf77e40b3825b255af2d83d",
+    "topics": [
+      "Papers that inform managerial practice and policy",
+      "Work addressing issues of evident importance to managerial practice and/or policy",
+      "Rigorous and original conceptual or empirical analysis",
+      "Papers accessible to non-specialized audiences and practitioners",
+      "Work grounded in evidence or robust conceptual frameworks",
+      "Papers offering actionable insights for managers and policymakers"
+    ],
+    "description": {
+      "paragraphs": [
+        "Academy of Management Perspectives (AMP) publishes papers that matter to managers. The journal seeks to realize the field's long-standing call for managerially relevant work. AMP papers must be managerially driven from the start, not theory-driven papers with managerial implications added as an afterthought. Papers rejected from theory-focused journals are not suitable for AMP unless they are fundamentally reoriented toward managerial relevance.",
+        "AMP papers must meet three core criteria: they must be RELEVANT, RIGOROUS, and READABLE. Relevant papers inform an issue of evident importance to managerial practice and/or policy. Rigorous papers engage in rigorous and original conceptual or empirical analysis. Readable papers concisely and clearly convey key ideas to a non-specialized audience. All three criteria must be satisfied.",
+        "While managerial relevance is the journal's most prominent characteristic, it does not come at the expense of rigor. AMP does not publish papers lacking rigorous original analysis. The analytical standards are the same as those of other elite journals. Opinions, overviews, descriptive arguments, and philosophical treatises are not within the journal's purview, even if they convey interesting perspectives on management. The managers who rely on AMP content need evidence, not conjecture.",
+        "AMP manuscripts differ in format from other Academy of Management journals to enhance accessibility for non-specialized audiences. The journal uses endnotes, places detailed analyses in supplements, and limits body pages to approximately 20 pages rather than the standard 30+. AMP papers favor plain language over jargon and make the practical case from the start rather than appending managerial implications at the end.",
+        "A typical AMP manuscript includes the following components: an engaging title and concise abstract of no more than 200 words; a concise introduction serving as an executive summary; a problem statement that clearly articulates the focal managerial issue and makes a convincing case for its importance; a review of relevant literature portraying baseline knowledge; identification of gaps in current understanding; rigorous conceptual or empirical analysis providing evidence to address the identified gaps; discussion of what has been learned including implementation steps and boundary conditions; and a brief conclusion restating the paper's contributions and significance."
+      ]
+    },
+    "tags": [
+      "management practice",
+      "relevance",
+      "rigor",
+      "practitioner engagement",
+      "business policy"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-31T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-11T01:40:43.907Z"
+  },
+  {
     "journal": "Management Science",
     "abbreviation": "informs",
     "issn": "1526-5501",
@@ -18361,406 +18763,6 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-11T01:40:43.907Z"
-  },
-  {
-    "journal": "Academy of Management Perspectives",
-    "abbreviation": "aom",
-    "issn": "1558-9080",
-    "metaTitle": "AMP Call for Special Issue Papers: Turning Implications Into Evidence",
-    "url": "https://www.aom.org/event/amp-call-for-special-issue-papers-turning-implications-into-evidence/",
-    "title": "Turning Implications Into Evidence: Actionable Solutions to Real-World Problems of Practice and Policy Based on Prior Academy of Management Publications",
-    "slug": "aom-amp-call-for-special-issue-papers-turning-implications-into-evidence",
-    "contentHash": "ac946b8a35cc0d665ea702016a3648b05b99d95510b7ce3d40c644d034e93f9e",
-    "topics": [
-      "Developing actionable solutions from previously published managerial implications",
-      "Novel empirical or conceptual analysis of practice and policy implications",
-      "Real-world problems of practice and policy overlooked in managerial implications sections",
-      "Robust analysis providing specific guidance for practitioners and policy makers",
-      "Building on theory developed in Academy of Management journals to enrich and reveal nuances of their usefulness"
-    ],
-    "description": {
-      "paragraphs": [
-        "Amid rising concern about the relevance of their contents, many scholarly journals mandate inclusion of a managerial implications section. This section may be relegated to a few paragraphs at the end of an article and comprised of speculative statements loosely connected to the paper's empirical or theoretical content. And there these unvalidated implications tend to remain, largely unaddressed in future research studies and having little relevance to practice or policy.",
-        "This special issue calls for original research that develops actionable solutions from previously published managerial implications. By developing actionable insights from underdeveloped or dormant implications, this special issue furthers the core function of any science: the development of a corpus of valid and reliable knowledge. An applied science has the added demand that knowledge be usable outside of academia.",
-        "The portfolio of Academy of Management journals forms a system of knowledge production in which each journal has a complementary specialization. Within this system, Academy of Management Perspectives papers provide actionable insights that guide practitioner behavior and influence policy decisions. These papers build on theory developed, tested, and organized in other journals and enrich these theories by revealing nuances and boundaries of their usefulness.",
-        "This special issue is limited to papers that analyze practice and policy implications previously published in any of the seven established Academy of Management journals: Academy of Management Annals, Academy of Management Collections, Academy of Management Discoveries, Academy of Management Journal, Academy of Management Learning & Education, Academy of Management Review, and Academy of Management Perspectives. The article containing the focal implication on which a submission is based must have been published in or fully accepted to any of these journals at any point up to 31 December 2026.",
-        "Submissions must conduct novel empirical or conceptual analysis. Academy of Management Perspectives does not accept managerial translations that restate previously published work in more practice-friendly terms. Moreover, papers that address managerial implications for which actionable solutions have already been adequately developed through prior publications are not accepted. Authors submitting to this special issue may be, but are not required to be, an author of the published article containing the managerial implication.",
-        "Academy of Management Perspectives' mission and format differ from many other leading academic journals. Though the format differs, the journal's analytical standards are the same as at any other Academy of Management journal, demanding robust analysis that fulfills current social science standards. Papers should be grounded in evidence or robust conceptual frameworks, address relevant real-world managerial and policy issues, offer actionable insights, avoid theory fetish, and be written in a style accessible to non-specialists and practitioners.",
-        "A Paper Development Workshop will be hosted at the Academy of Management 2026 Conference in Philadelphia for selected authors to further develop their manuscripts. Participation in this workshop is neither a guarantee nor a prerequisite for publication."
-      ]
-    },
-    "tags": [
-      "actionable insights",
-      "practice and policy",
-      "managerial implications",
-      "applied research"
-    ],
-    "editors": [
-      {
-        "name": "Julian Birkinshaw",
-        "affiliation": "Western University"
-      },
-      {
-        "name": "Thomas P. Lyon",
-        "affiliation": "University of Michigan"
-      },
-      {
-        "name": "Denise M. Rousseau",
-        "affiliation": "Carnegie Mellon University"
-      },
-      {
-        "name": "Majken Schultz",
-        "affiliation": "Copenhagen Business School"
-      },
-      {
-        "name": "Mo Wang",
-        "affiliation": "University of Florida"
-      }
-    ],
-    "associate_editors": [
-      {
-        "name": "Michael L. Barnett",
-        "affiliation": "Rutgers University"
-      }
-    ],
-    "dates": [
-      {
-        "date": "2026-01-01T11:00:00.000Z",
-        "description": "Call for papers opens",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-01-31T11:00:00.000Z",
-        "description": "Submission deadline at 23:59 ET",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-11T01:40:43.907Z"
-  },
-  {
-    "journal": "Academy of Management Learning and Education",
-    "abbreviation": "aom",
-    "issn": "1944-9585",
-    "metaTitle": "AMLE Call for Special Issue Papers: Rethinking Business School Structures, Standards, and Success for Neuroinclusive Management Learning and Education",
-    "url": "https://www.aom.org/event/amle-call-for-special-issue-papers-rethinking-business-school-structures-standards-and-success-for-neuroinclusive-management-learning-and-education/",
-    "title": "Rethinking Business School Structures, Standards, and Success for Neuroinclusive Management Learning and Education",
-    "slug": "aom-amle-call-for-special-issue-papers-rethinking-business-school-structures-standards-and-success-for-neuroinclusive-management-learning-and-education",
-    "contentHash": "8e987a3389b1584a2f52acf74bca09f33a077fad14ccbe99d3d0df0fb7e8a653",
-    "topics": [
-      "How does neurodiversity help reimagine social justice and DEI in business schools?",
-      "What tensions emerge between performance metrics and inclusion for neurodivergent students, academic and professional staff, and how are such trade-offs effectively managed?",
-      "How do policies on reasonable accommodations align (or conflict) with institutional objectives and wider institutional logics?",
-      "How is neurodiversity effectively addressed in non-WEIRD (Western, Educated, Industrialized, Rich, and Democratic) environments and institutional settings in higher education contexts?",
-      "How does a country's legal context shape the expectations, obligations, and opportunities for business schools to develop and deliver more neuroinclusive pedagogy?",
-      "How can existing practices and processes within business schools be adjusted and/or redesigned to be more neuroinclusive (e.g., recruiting and selection, onboarding, networking, and organizational culture)?",
-      "How can business schools attract and retain neurodivergent talent (learners, academics and professional staff)?",
-      "How can business schools support neurodivergent academic and professional staff and challenge ableism as an organizational paradigm?",
-      "How do business schools address the neurodiversity of learners, academic, and professional staff at different levels (i.e., undergraduate, postgraduate, executive education) and in different cultural and institutional contexts?",
-      "How do neurodivergent learners, academic and professional staff experience management learning processes differently and what unique challenges do they face?",
-      "What are the experiences of learners and academic and professional staff with intersectional social identities involving neurodiversity?",
-      "What is the role of institutional logics/culture, pedagogy, peer learners, and academic and professional staff in the way neurodivergent individuals and groups experience and navigate their management education, including from an intersectionality perspective?",
-      "What insights can be gleaned from the experiences of neurodivergent learners and academic and professional staff regarding neurotypical norms in management education? What role do visibility and representation specifically play in this?",
-      "How can cross-neurotype (between neurodivergent and neurotypical individuals) collaboration and connection be fostered and leveraged in the classroom and outside it (i.e., bridging the double empathy problem)?",
-      "How do neurodiverse groups of learners (i.e., those with neurotypical and neurodivergent members) work together (e.g., the biases experienced or avoided, the interpersonal challenges) and perform (e.g., task performance, creativity)?",
-      "How do neurodivergent individuals experience the transition into the workforce as well as from secondary school into management education? What practices, supports, and tools aid more successful transitions? How do these transitional practices vary across global cultures?",
-      "What role does executive functioning, sensory processing, or divergent social cognition play in shaping reflection and feedback loops within learning processes?",
-      "In what ways can experiential learning or study abroad be adapted for neurodivergent learners and educators?",
-      "How does neurodiversity inform alternative models of learner identity and transformation?",
-      "What is the impact of educational support on academic achievements and the employability of neurodivergent individuals?",
-      "What role do internships and mentoring play in the academic achievements and work-readiness of neurodivergent management learners?",
-      "How can business schools foster neuro-inclusion as a leadership and management capability?",
-      "How can universal design for learning and inclusive pedagogy reshape management education?",
-      "How can constructive alignment more effectively incorporate the needs and experiences of neurodivergent learners and educators across different levels and contexts?",
-      "What can we learn from neuro-inclusive education in other fields? What best practices, policies, and procedures can be identified?",
-      "How do assessment and participation norms impact neurodivergent learners' educational outcomes?",
-      "How does neurodiversity intersect with other (potentially) stigmatizing attributes or sources of social identities, such as gender, age, race, ethnicity, sexual orientation, or other disabilities among management learners?",
-      "How do individuals with multiple co-occurring neurocognitive conditions navigate higher management education?",
-      "What teaching innovations have emerged in neurodiversity-informed business courses and programs?",
-      "How important is visibility and representation among academic and professional staff?",
-      "How may internalized ableism and embodied pedagogy affect neurodivergent academic and professional staff?",
-      "How do inclusive pedagogies engage with issues of masking, disclosure, and psychological safety?",
-      "How can technology, and in particular artificial intelligence, be meaningfully leveraged to support neurodivergent learners in management education? How can such technologies be used to enhance cross-neurotype collaborations and relationships?",
-      "How are higher education institutions and educators adapting AI-driven educational technologies to support neurodivergent learners in management programs?"
-    ],
-    "description": {
-      "paragraphs": [
-        "Business schools around the world are undergoing rapid transformation, reflecting questions about their social license, legitimacy and identity, changing student demographics, technological developments, and evolving understandings of social justice, equity, inclusion, and belonging. Amid this period of re-evaluation and change, recognition is growing that an estimated 15-20% of the global population is neurodivergent. With more than half of Gen Z now identifying as neurodivergent, it underscores the urgency of advancing theoretical, empirical, and pedagogical conversations about whom business school systems of teaching, assessment, and professional formation are designed to serve – and how they might evolve to achieve greater neuroinclusion.",
-        "Neurodiversity, a term collectively developed by neurodivergent individuals, refers to the full spectrum of natural variation in human cognitive functioning. Individuals who diverge from dominant neurocognitive norms are often described as neurodivergent, encompassing cognitive profiles such as Autism Spectrum Conditions (ASC), Attention Deficit Hyperactivity Disorder (ADHD), dyslexia, dysgraphia, dyscalculia, dyspraxia, Tourette Syndrome, and other forms of neurodivergence. These forms of neurodivergence are not deficits to be 'fixed' but reflect different patterns of perception, attention, memory, and communication, which may entail both distinct challenges and unique strengths in educational and workplace settings. ADHD individuals, for example, may excel in high-energy, fast-paced problem-solving but face difficulties with sustained concentration during lengthy case discussions or traditional assessments. Dyslexic learners often demonstrate strong visual-spatial reasoning and creativity yet may encounter barriers when coursework relies heavily on time-pressured reading and written tasks.",
-        "There has been a marked increase in the number of neurodivergent learners entering higher education in recent years, driven by rising awareness and improved access pathways. In the UK, for example, up to 2% of university students may meet diagnostic criteria for ASC, with an additional 2-8% potentially being ADHD. Dyslexia is also widespread, with approximately 5% of higher education students being dyslexic. Nonetheless, these figures likely underestimate the true prevalence of neurodivergence in business and higher education as many learners remain undiagnosed or choose not to disclose their neurodivergent status.",
-        "Business schools traditionally tend to privilege narrow forms of learning, expression, and social interaction that assume neurotypicality and place the burden of adaptation on neurodivergent individuals. This approach fails to recognize that the challenges of neurodiversity are fundamentally breakdowns in mutual understanding between neurodivergent and neurotypical people grounded in differences in their patterns of attention, communication, and interpretation of social information—a double empathy problem rather than one party's mind blindness or lack of empathy. Failing to see the double empathy problem produces pedagogical expectations that can disadvantage those whose strengths and needs do not align with these implicit norms, limiting their ability to fully participate and succeed.",
-        "Pedagogically, group work, a core element of many business schools, similarly assumes strong relational and communication skills, which may not align with all neurocognitive profiles. Similarly, particularities of neurodivergent students, such as hyperfocus among those with ADHD or monotropism, referring to the tendency to focus one's attention on a small or singular number of interests, common among autistic students, are often ignored or positioned as irrelevant. Moreover, challenges faced by neurodivergent learners are intensified for postgraduate students, mature learners, and those diagnosed later in life, who often encounter disbelief, inconsistent support, or are completely overlooked by institutions.",
-        "Even when available, neurodivergent learners may be unaware of available support or may refrain from requesting accommodations to which they are entitled due to the fear of stigmatization. These students often attempt to conform to neurotypical norms, masking their difficulties or distinctive traits. They consequently tend to manage their challenges by themselves, a strategy that may prove unsustainable over time for them and their support groups. As a result, and despite being academically capable, degree completions remain low. For many, the consequences extend beyond poorer academic outcomes to diminished access to meaningful employment, an issue particularly stark for autistic individuals whose employment rates remain among the lowest of any disability group.",
-        "While several excellent special issues have advanced the conversation on neurodiversity in management and organizations, this special issue offers a fundamentally distinct vantage point. Whereas prior collections center primarily on neurodiversity in relation to employment, inclusion practices, and organizational systems and outcomes, this Academy of Management Learning & Education special issue uniquely foregrounds the importance of reimagining management learning and education to better serve all minds and to develop neurodiversity-informed managers who are equipped to make organizations more neuroinclusive.",
-        "For this special issue, we encourage conceptual and empirical work that envisions business schools as models of neuroinclusion. Our call also shifts the focus from 'accommodating and managing difference' to 'learning through difference' and understanding how difference, as a form of diversity, enhances learning and group capabilities. In doing so, it extends the dialogue beyond workplace adaptation to examining how neurodiversity both challenges and enriches the processes through which management knowledge is constructed, taught, and understood by learners, and how this also impacts emergent group functions (i.e., decision-making and morality). We therefore invite a more inclusive understanding of learning and knowing in management education, one that values diverse cognitive styles and experiences as integral to the co-creation of knowledge and practice.",
-        "In this vein, we invite contributors to explore diverse perspectives that enrich and expand conversations on neurodiversity in management learning and education. In particular, we encourage submissions that move beyond single-diagnosis approaches recognizing the breadth within and across neurodivergences, including: developmental (e.g., ADHD, dyslexia, dyspraxia, dyscalculia), acquired (e.g., traumatic brain injury, epilepsy), mental health (e.g., anxiety, obsessive-compulsive disorder), and physical health conditions (e.g., chronic fatigue syndrome, hearing or vision impairment). These categories are not mutually exclusive and neurodivergent conditions often co-occur. For example, those who present with ADHD and anxiety, or those who are dyspraxic and autistic, may experience both distinctive challenges and synergies in learning and workplaces.",
-        "Furthermore, this special issue welcomes contributions that embrace conceptual plurality, engaging with alternative or adjacent conceptualisations of neurodiversity – whether framed as natural variation and ecology or through disability, misfit, being 'different' or other evolving terms that capture the complex ways individuals experience (mis)alignment with institutional learning environments and how this also impacts emergent group functions and group-level outcomes. Embracing such plurality also requires turning the lens toward academic and professional staff who shape these environments. Doing so exposes a broader empirical and theoretical blind spot in understanding the attitudes and experiences of academic and professional staff with disabilities and, in particular, those with neurocognitive conditions.",
-        "Of interest in this special issue also are how inclusive pedagogy, constructive alignment, Universal Design for Learning (UDL), and learner partnership models can transform educational design and practice to better serve the full spectrum of learners. For example, a management educator might offer students multiple ways to demonstrate learning, such as a written essay, an infographic, or forms of digitalization, or a recorded presentation, thereby valuing diverse modes of cognition and communication. Similarly, predictable course rhythms and clearly scaffolded tasks can reduce cognitive load and anxiety for neurodivergent students while increasing engagement and clarity for everyone. Finally, incorporating learner partnership models—where students collaborate with educators to co-design learning activities, assessment criteria, or feedback processes—can cultivate a sense of shared ownership, agency, and belonging across the entire student cohort. For business schools, this will result in very real considerations of workload models, academic and professional staff training, and the redistribution of institutional resources to ensure that inclusive pedagogical intentions are supported by genuine structural and financial commitment.",
-        "Attention should likewise be directed to an intersectional perspective on neurodivergence, which acknowledges that intersecting identities—such as gender, race, and culture—interact and fundamentally shape how neurological differences are understood and enacted. For example, the experience of a dyslexic woman of color in academia or that of a neurodivergent international student navigating an unfamiliar education system may reveal unique intersections of cognitive, cultural, and structural differences, which offers an opportunity to explore the interactions of dispositional and circumstantial diversity. In particular, we encourage research and reflections from diverse cultural and national contexts which support and extend ecological understandings of neurodiversity and challenge dominant epistemological assumptions. Consequently, we provide a space to decenter Eurocentric and Anglophone paradigms of management learning and education, enabling more culturally grounded understandings of neurodivergence. These perspectives will ultimately challenge dominant Western deficit discourses and offer novel pathways for pedagogical and institutional inclusion, as well as opening promising frontiers for the application of institutional theory and intersectionality research.",
-        "At a theoretical level, management learning and education continues to be informed by approaches that presume and privilege neurotypicality and associate neurodivergence with medicalized deficits rather than as part of a natural ecology. We posit that institutions that implement inclusive teaching practices often do so without interrogating the deeper epistemic assumptions that define what counts as legitimate knowledge, effective pedagogy, or good learning. To illustrate, efforts to engage neurodiversity in practice and management learning and education research have largely been narrow and at the individual-level, overlooking a more ecological perspective that focuses on the interplay of factors at micro, meso, and macro levels. Drawing on Bronfenbrenner's ecological systems theory—which posits that individual development is shaped by multiple, interrelated environmental layers—may offer a valuable lens for examining how business schools can become more inclusive. For this special issue, we therefore encourage pursuing the above-mentioned ideas and contexts from various theoretical perspectives, epistemological assumptions, and levels of analysis.",
-        "In conjunction with the ecological systems view, a range of theoretical lenses, such as social identity theory and identity work, critical race or critical disability theories, queer theory and power lenses, but also decolonial perspectives may be pertinent to studying intersectional identities, forms of oppression, and co-occurring conditions. Social learning theory and especially self-efficacy beliefs, learned helplessness, and the internalization of negative beliefs about their competencies or stigma might likewise be relevant to studying educational outcomes as well as the school-to-work transition of neurodivergent students in business schools. This is supported by empirical research showing that neurodivergent students often report lower self-efficacy than their neurotypical peers, which may hinder confidence and career readiness.",
-        "In sum, we encourage contributions that critically examine how insights from neuroscience and neuro-ethics can inform, but should not uncritically determine, approaches to neuroinclusive management learning and education. We invite scholars, educational practitioners, business school leaders, policymakers, and even practitioners from across inclusive education, disability studies, critical management studies, organizational behavior and theory, and other fields to enrich neurodiversity discourse and contribute to a more expansive, socially just, and humanizing vision of management learning and education."
-      ]
-    },
-    "tags": [
-      "neurodiversity",
-      "business education",
-      "inclusive pedagogy",
-      "neuroinclusion",
-      "management learning and education",
-      "double empathy problem"
-    ],
-    "editors": [
-      {
-        "name": "Miriam Moeller",
-        "affiliation": "University of Queensland"
-      },
-      {
-        "name": "Dana L. Ott",
-        "affiliation": "University of Otago"
-      },
-      {
-        "name": "Matevž Rašković",
-        "affiliation": "University of Technology Auckland"
-      },
-      {
-        "name": "Sophie Hennekam",
-        "affiliation": "Audencia Business School"
-      },
-      {
-        "name": "Timothy J. Vogus",
-        "affiliation": "Vanderbilt University"
-      },
-      {
-        "name": "Joy E. Beatty",
-        "affiliation": "Eastern Michigan University"
-      },
-      {
-        "name": "Judith Clair",
-        "affiliation": "Boston College"
-      }
-    ],
-    "associate_editors": [
-      {
-        "name": "Katrin Mühlfeld",
-        "affiliation": "University of Trier"
-      },
-      {
-        "name": "María José Murcia",
-        "affiliation": "IAE Business School"
-      }
-    ],
-    "dates": [
-      {
-        "date": "2026-05-13T12:00:00.000Z",
-        "description": "Deadline for submitting 3,000-word proposal (including references) for optional professional development workshop in May 2026",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-11-01T12:00:00.000Z",
-        "description": "Special issue submission window opens",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-12-14T12:00:00.000Z",
-        "description": "Full paper submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-11T01:40:43.907Z"
-  },
-  {
-    "journal": "Academy of Management Discoveries",
-    "abbreviation": "aom",
-    "issn": "2168-1007",
-    "metaTitle": "AMD Call for Submissions: Registered Reports",
-    "url": "https://www.aom.org/event/call-for-submissions-amd-registered-reports/",
-    "title": "Registered Reports",
-    "slug": "aom-amd-call-for-submissions-registered-reports",
-    "contentHash": "ac6ecac452e2369838e699190815aa49ba310aaca68e0d5c44e996351be46ef4",
-    "topics": [
-      "Empirical studies with important theoretical or practical implications",
-      "Research with rigorous methodological design",
-      "Studies reporting null or negligible effects",
-      "Organizational and management research"
-    ],
-    "description": {
-      "paragraphs": [
-        "In cases in which results, whether present or not, may have important theoretical or practical implications, scholars are encouraged to submit a Registered Report. In this type of submission, authors submit the introduction, methods, measurement info, and analysis plan (but not the results) of a completed or planned study.",
-        "This abbreviated paper is then evaluated on the basis of the importance of the topic, the merit of the selected analytic approach, methodological rigor and quality, and potential for impacting down-the-road theorizing and/or practice/policy. As results are not included in the registered report, what was or is likely to be found has no bearing on the outcome of the evaluation. This is in line with the journal's willingness to publish papers reporting negligible or non-effects."
-      ]
-    },
-    "tags": [
-      "registered reports",
-      "methodology",
-      "open science"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2025-01-01T11:00:00.000Z",
-        "description": "Call for submissions opens",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-12-31T11:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-11T01:40:43.907Z"
-  },
-  {
-    "journal": "Academy of Management Discoveries",
-    "abbreviation": "aom",
-    "issn": "2168-1007",
-    "metaTitle": "AMD Call for Submissions: Discoveries-through-Prose",
-    "url": "https://www.aom.org/event/call-for-submissions-amd-discoveries-through-prose/",
-    "title": "Discoveries-through-Prose",
-    "slug": "aom-amd-call-for-submissions-discoveries-through-prose",
-    "contentHash": "078e9f0f6bb59c9d530706f4b6c169b9f11924cf2fdbd2f474f685d67513f4e5",
-    "topics": [],
-    "description": {
-      "paragraphs": [
-        "Discoveries-through-Prose empower authors to craft their manuscripts in nontraditional ways that make for tighter, more engaging narratives."
-      ]
-    },
-    "tags": [
-      "manuscript writing",
-      "narrative"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-12-31T11:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-11T01:40:43.907Z"
-  },
-  {
-    "journal": "Academy of Management Perspectives",
-    "abbreviation": "aom",
-    "issn": "1558-9080",
-    "metaTitle": "AMP Call for Special Issue Papers: Managing Under Political Turbulence",
-    "url": "https://www.aom.org/event/amp-call-for-special-issue-papers-managing-under-political-turbulence/",
-    "title": "Managing Under Political Turbulence",
-    "slug": "aom-amp-call-for-special-issue-papers-managing-under-political-turbulence",
-    "contentHash": "92832b4d484ebfb54f02b927d125d8cbafac6c5fb150db2242d088be69da490a",
-    "topics": [
-      "Understanding Different Types and Forms of Political Turbulence",
-      "Rethinking Corporate Political Strategies",
-      "Reorganizing and Realigning Geographically Diversified Operations",
-      "Managing Stakeholder Nationalism",
-      "The Role of New Technologies",
-      "Managing Corporate Innovation",
-      "Navigating the Race for Talent"
-    ],
-    "description": {
-      "paragraphs": [
-        "Political turbulence is on the rise, as evidenced most dramatically in violent conflicts (e.g., wars, terrorism attacks), volatile political transitions (e.g., dramatic regime change, cuts to government employees, new geopolitical alliances, coups), and geopolitical tensions (e.g., trade wars, democratic backsliding, sanctions). This escalated political turbulence exacerbates geopolitical risks for organizations and their stakeholders.",
-        "Whether anticipatory (e.g., fear of cyberattacks) or actual (e.g., ongoing trade wars, competition over territories), rising geopolitical risks affect organizations in many ways. The rise of techno-nationalism, driven by national security and ideological concerns, challenges the resilience of global technology supply chains. With the rapid development of AI comes misinformation and disinformation that further aggravate political tensions and ideologies. Tariffs, sanctions, and protectionist trade restrictions bring escalating compliance risks. Rising populist sentiment drives immigration restrictions and is creating a shortage of high-skill talent for MNEs.",
-        "Political turbulence has long been a strategic consideration in some sectors such as energy and defense, but it is now affecting organizations in nearly all sectors, both at home and abroad. At home, organizations encounter scrutiny from civil society for their operations in countries with questionable international standing. Abroad, they may face interventions by host country governments that vary with their country of origin or type of ownership. All of this presents considerable challenges for managers and their organizations.",
-        "This special issue aims to provide actionable, evidence-based insights that clearly and credibly guide managers and their organizations in navigating the political turbulence that increasingly characterizes the international, national, and subnational landscape. We seek to fill in the 'glaring white space' of how organizations can best operate under political turbulence, providing robust insights on which practitioners and policy makers can rely.",
-        "AMP papers are managerially driven, not theory driven. Successful submissions clearly define the managerial issue from the outset and make a compelling case for its importance. They do not simply tack managerial implications onto a standard academic study. Rather, AMP papers evidence actionable insights that can credibly guide managerial behavior and influence policy decisions.",
-        "We welcome both conceptual and empirical papers that are grounded in rigorous analysis and directly evidence specific and significant managerial and policy actions. We welcome accounts of embodied, lived experiences of specific political turbulence and the use of reflexive methodologies. Quantitative analyses of large databases, qualitative comparative analyses, and extensive data analysis using linguistic programs and algorithms are also welcome. Papers should prove what can or does work in ways that managers and policymakers can use."
-      ]
-    },
-    "tags": [
-      "geopolitical risk",
-      "political turbulence",
-      "corporate strategy",
-      "international business"
-    ],
-    "editors": [
-      {
-        "name": "Jonathan Doh",
-        "affiliation": "Villanova University"
-      },
-      {
-        "name": "Srividya Jandhyala",
-        "affiliation": "ESSEC Business School"
-      },
-      {
-        "name": "Yadong Luo",
-        "affiliation": "University of Miami"
-      },
-      {
-        "name": "Grazia D. Santangelo",
-        "affiliation": "Copenhagen Business School"
-      }
-    ],
-    "associate_editors": [
-      {
-        "name": "Tazeeb Rajwani",
-        "affiliation": "University of Surrey"
-      }
-    ],
-    "dates": [
-      {
-        "date": "2026-09-01T10:00:00.000Z",
-        "description": "Submission window opens",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-09-30T10:00:00.000Z",
-        "description": "Final deadline for submissions at 23:59 ET",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-11T01:40:43.907Z"
-  },
-  {
-    "journal": "Academy of Management Perspectives",
-    "abbreviation": "aom",
-    "issn": "1558-9080",
-    "metaTitle": "AMP Open Call for Papers",
-    "url": "https://www.aom.org/event/amp-open-call-for-papers/",
-    "title": "Open Call for Papers",
-    "slug": "aom-amp-open-call-for-papers",
-    "contentHash": "69d2fb78f5bdfef2b3c61020a5944b8b04f737f5ecf77e40b3825b255af2d83d",
-    "topics": [
-      "Papers that inform managerial practice and policy",
-      "Work addressing issues of evident importance to managerial practice and/or policy",
-      "Rigorous and original conceptual or empirical analysis",
-      "Papers accessible to non-specialized audiences and practitioners",
-      "Work grounded in evidence or robust conceptual frameworks",
-      "Papers offering actionable insights for managers and policymakers"
-    ],
-    "description": {
-      "paragraphs": [
-        "Academy of Management Perspectives (AMP) publishes papers that matter to managers. The journal seeks to realize the field's long-standing call for managerially relevant work. AMP papers must be managerially driven from the start, not theory-driven papers with managerial implications added as an afterthought. Papers rejected from theory-focused journals are not suitable for AMP unless they are fundamentally reoriented toward managerial relevance.",
-        "AMP papers must meet three core criteria: they must be RELEVANT, RIGOROUS, and READABLE. Relevant papers inform an issue of evident importance to managerial practice and/or policy. Rigorous papers engage in rigorous and original conceptual or empirical analysis. Readable papers concisely and clearly convey key ideas to a non-specialized audience. All three criteria must be satisfied.",
-        "While managerial relevance is the journal's most prominent characteristic, it does not come at the expense of rigor. AMP does not publish papers lacking rigorous original analysis. The analytical standards are the same as those of other elite journals. Opinions, overviews, descriptive arguments, and philosophical treatises are not within the journal's purview, even if they convey interesting perspectives on management. The managers who rely on AMP content need evidence, not conjecture.",
-        "AMP manuscripts differ in format from other Academy of Management journals to enhance accessibility for non-specialized audiences. The journal uses endnotes, places detailed analyses in supplements, and limits body pages to approximately 20 pages rather than the standard 30+. AMP papers favor plain language over jargon and make the practical case from the start rather than appending managerial implications at the end.",
-        "A typical AMP manuscript includes the following components: an engaging title and concise abstract of no more than 200 words; a concise introduction serving as an executive summary; a problem statement that clearly articulates the focal managerial issue and makes a convincing case for its importance; a review of relevant literature portraying baseline knowledge; identification of gaps in current understanding; rigorous conceptual or empirical analysis providing evidence to address the identified gaps; discussion of what has been learned including implementation steps and boundary conditions; and a brief conclusion restating the paper's contributions and significance."
-      ]
-    },
-    "tags": [
-      "management practice",
-      "relevance",
-      "rigor",
-      "practitioner engagement",
-      "business policy"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2027-01-31T11:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
     "pubDate": "2026-08-11T01:40:43.907Z"
   },
   {
