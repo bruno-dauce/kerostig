@@ -4,7 +4,7 @@
         <title>kerostig | Tag : empirical research</title>
         <link>https://kerostig.org/tag/empirical-research/</link>
         <description>Derniers appels à publications avec le tag 'empirical research'.</description>
-        <lastBuildDate>Tue, 25 Aug 2026 03:22:56 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Aug 2026 03:27:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,80 @@
             <link>https://kerostig.org/tag/empirical-research/</link>
         </image>
         <copyright>kerostig © 2026</copyright>
+        <item>
+            <title><![CDATA[Artificial Intelligence–Enabled Production Systems: Empirical Evidence, Implementation Pipelines, and Industrial Applications]]></title>
+            <link>https://kerostig.org/call/tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications/</link>
+            <guid>tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications</guid>
+            <pubDate>Wed, 26 Aug 2026 03:26:19 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+        
+        <p><strong>Ruoqi Geng</strong>, Cardiff University</p>
+        
+        <p><strong>Di Li</strong>, Warwick University</p>
+        
+        <p><strong>Yang Cheng</strong>, Aalborg University</p>
+        
+    
+    
+    <p>Artificial intelligence is rapidly moving from a standalone analytics tool to an operational capability that reshapes how production systems are planned, controlled, and improved in real time. In production contexts, AI can be understood as digital technologies performing tasks and decisions traditionally associated with human intelligence. Recent operations and production research highlights that AI&#39;s operational value increasingly depends on data availability, interoperability, and sharing across heterogeneous systems, enabling AI to sense, learn, and act within production environments rather than merely supporting off-line analysis.</p>
+    
+    <p>As AI becomes embedded in industrial practice, it increasingly augments other production technologies by enabling learning-driven planning and control, data-driven quality and maintenance decisions, and closed-loop optimisation across cyber–physical production environments. Empirical studies demonstrate promising task-level pathways such as deep reinforcement learning for shop-floor rescheduling, deep learning approaches for predicting breakdowns from maintenance logs, and data-driven methods for multi-robot task allocation. However, what remains underdeveloped is system-level, empirically validated knowledge on how these point solutions are integrated with production technologies and operational data environments to form reliable end-to-end decision-and-execution workflows that generalise beyond individual tasks or single settings.</p>
+    
+    <p>In practice, AI will not augment production technologies as expected unless implementation conditions are addressed across the relationships between business needs, data readiness, and AI-enabled decision workflows. Before AI can be operationalised, organisations must clarify the business decision and process context, specify what data are needed for those decisions, and prepare usable production data through definition, collection, storage, integration, and cleaning. Evidence indicates that beyond the how-to-combine question, we still lack robust empirical insight into the enabling and constraining factors—data readiness, organisational readiness, and human–AI interaction—that determine whether AI-enabled solutions can be adopted, implemented, and routinised as operational workflows in real production settings. This Special Issue focuses on empirical studies that examine the contexts of using AI to augment production technologies, while also addressing the upstream implementation pipeline and socio-technical conditions that determine whether such augmentation can be realised in practice.</p>
+    
+    <p>This Special Issue seeks to advance understanding of how AI is embedded in, and enhances, digital production technologies, with a clear emphasis on empirical evidence from real operational contexts such as industrial datasets, system deployments, case studies, field experiments, digital trace data, and production/maintenance logs. Submissions that are purely conceptual, literature-review based, or modelling-driven without empirical validation are outside the scope of this Special Issue.</p>
+    
+    <p>Empirical research is defined as studies that use real-world operational evidence, such as production and maintenance logs, IoT/sensor streams, machine/robot telemetry, MES/ERP traces, digital twin event logs linked to real operations, image/video inspection data, industrial case studies, field experiments, or multi-site archival datasets. Empirical studies may employ machine learning, optimisation, simulation, or digital twin experimentation, but only when the analysis is grounded in real operational data and/or validated in industrial settings with measurable outcomes. Studies based solely on synthetic data, stylised simulations, benchmark datasets without production-operational grounding, or purely conceptual/literature-review contributions are outside the scope of this Special Issue.</p>
+    
+    <p>In addition to application-focused empirical papers, this Special Issue explicitly encourages submissions that examine the full AI implementation pipeline in production systems, including business–AI alignment, where production decision problems are translated into AI use cases and data requirements; data readiness, where governance/standards, monitoring, preparation/cleaning, and query/access enable reliable AI use; and deployment and workflow embedding, where AI outputs are integrated into human–AI decision workflows and operational routines. The Special Issue organises topics along two dimensions: stages of AI implementation in production systems—from business–AI alignment (design), to data readiness (pre-implementation), to deployment and workflow embedding (implementation)—and the production technologies and operational contexts in which AI is used to augment decision-making and execution.</p>
+    
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>AI-Augmented Production Planning and Control: predictive and prescriptive analytics for production planning, sequencing, scheduling, and dispatching; reinforcement learning and autonomous decision-making for factory operations; AI-supported capacity management and workflow optimisation</li>
+        
+        <li>Business–AI Alignment and AI Readiness Pipeline for Production Systems: translation of production decisions into AI use cases and data requirements; data governance, quality monitoring, preparation, cleaning, and integration; measures of AI readiness</li>
+        
+        <li>AI-enabled Quality and Process Control: machine learning and deep learning for defect detection and predictive quality control; sensor data and image analytics for automated inspection; AI-driven adaptive process regulation</li>
+        
+        <li>Agentic and Workflow-Oriented Deployment in Production: AI-enabled workflows connecting data preparation to production decisions; natural-language interfaces and AI-assisted decision support; production agents operationalising decision guidance</li>
+        
+        <li>AI-Enabled Cyber–Physical Production Systems and Digital Twins: intelligent digital twins for real-time optimisation; hybrid physics–AI approaches; continuous learning and data synchronisation; edge AI for decentralised decision-making; human–robot collaboration</li>
+        
+        <li>AI and Additive Manufacturing: generative design and topology optimisation; AI-enabled defect prediction and build-path optimisation; distributed AM network coordination; end-user leverage of AI for customisation</li>
+        
+        <li>AI and Blockchain for Production Systems: AI-enhanced traceability and secure data sharing; AI-blockchain integration for auditability and transparency; smart contracts in production automation</li>
+        
+        <li>Human–AI Interaction and Organisational Transformation: human-in-the-loop AI and operator–AI collaboration; organisational readiness and capability development; explainability, trust, transparency, and governance mechanisms</li>
+        
+        <li>Empirical Innovations in Data, Measurement, and Evaluation: field experiments, industry datasets, IoT streams, and digital twin logs; measurable improvements in productivity, quality, flexibility, and decision accuracy</li>
+        
+        <li>Extended Production Contexts: AI in warehousing and fulfilment operations; AI-enabled autonomous mobile robots; real-time slotting and vision systems for object recognition</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 1, 2026: Call for Papers released</li>
+        
+        <li>June 30, 2027: Manuscript submission deadline</li>
+        
+        <li>September 1, 2027: First-round decisions</li>
+        
+        <li>December 1, 2027: Revised manuscripts due</li>
+        
+        <li>June 1, 2028: Final decisions</li>
+        
+    </ul>
+    
+    
+</div>]]></content:encoded>
+            <author>Production Planning &amp; Control (TANDF)</author>
+        </item>
         <item>
             <title><![CDATA[Studies of Auditing "On-the-Ground" in the Majority World]]></title>
             <link>https://kerostig.org/call/elsevier-studies-of-auditing-on-the-ground-in-the-majority-world/</link>

@@ -1,5 +1,88 @@
 [
   {
+    "journal": "Production Planning & Control",
+    "abbreviation": "tandf",
+    "issn": "1366-5871",
+    "metaTitle": "Artificial Intelligence-Enabled Production Systems: Empirical Evidence, Implementation Pipelines, and Industrial Applications",
+    "url": "https://think.taylorandfrancis.com/special_issues/ai-enabled-production-systems/",
+    "title": "Artificial Intelligence–Enabled Production Systems: Empirical Evidence, Implementation Pipelines, and Industrial Applications",
+    "slug": "tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications",
+    "contentHash": "cc0d2734e22355e1ea69a75f1e59edc594937f5e7f1479d82024ae93ea4be166",
+    "topics": [
+      "AI-Augmented Production Planning and Control: predictive and prescriptive analytics for production planning, sequencing, scheduling, and dispatching; reinforcement learning and autonomous decision-making for factory operations; AI-supported capacity management and workflow optimisation",
+      "Business–AI Alignment and AI Readiness Pipeline for Production Systems: translation of production decisions into AI use cases and data requirements; data governance, quality monitoring, preparation, cleaning, and integration; measures of AI readiness",
+      "AI-enabled Quality and Process Control: machine learning and deep learning for defect detection and predictive quality control; sensor data and image analytics for automated inspection; AI-driven adaptive process regulation",
+      "Agentic and Workflow-Oriented Deployment in Production: AI-enabled workflows connecting data preparation to production decisions; natural-language interfaces and AI-assisted decision support; production agents operationalising decision guidance",
+      "AI-Enabled Cyber–Physical Production Systems and Digital Twins: intelligent digital twins for real-time optimisation; hybrid physics–AI approaches; continuous learning and data synchronisation; edge AI for decentralised decision-making; human–robot collaboration",
+      "AI and Additive Manufacturing: generative design and topology optimisation; AI-enabled defect prediction and build-path optimisation; distributed AM network coordination; end-user leverage of AI for customisation",
+      "AI and Blockchain for Production Systems: AI-enhanced traceability and secure data sharing; AI-blockchain integration for auditability and transparency; smart contracts in production automation",
+      "Human–AI Interaction and Organisational Transformation: human-in-the-loop AI and operator–AI collaboration; organisational readiness and capability development; explainability, trust, transparency, and governance mechanisms",
+      "Empirical Innovations in Data, Measurement, and Evaluation: field experiments, industry datasets, IoT streams, and digital twin logs; measurable improvements in productivity, quality, flexibility, and decision accuracy",
+      "Extended Production Contexts: AI in warehousing and fulfilment operations; AI-enabled autonomous mobile robots; real-time slotting and vision systems for object recognition"
+    ],
+    "description": {
+      "paragraphs": [
+        "Artificial intelligence is rapidly moving from a standalone analytics tool to an operational capability that reshapes how production systems are planned, controlled, and improved in real time. In production contexts, AI can be understood as digital technologies performing tasks and decisions traditionally associated with human intelligence. Recent operations and production research highlights that AI's operational value increasingly depends on data availability, interoperability, and sharing across heterogeneous systems, enabling AI to sense, learn, and act within production environments rather than merely supporting off-line analysis.",
+        "As AI becomes embedded in industrial practice, it increasingly augments other production technologies by enabling learning-driven planning and control, data-driven quality and maintenance decisions, and closed-loop optimisation across cyber–physical production environments. Empirical studies demonstrate promising task-level pathways such as deep reinforcement learning for shop-floor rescheduling, deep learning approaches for predicting breakdowns from maintenance logs, and data-driven methods for multi-robot task allocation. However, what remains underdeveloped is system-level, empirically validated knowledge on how these point solutions are integrated with production technologies and operational data environments to form reliable end-to-end decision-and-execution workflows that generalise beyond individual tasks or single settings.",
+        "In practice, AI will not augment production technologies as expected unless implementation conditions are addressed across the relationships between business needs, data readiness, and AI-enabled decision workflows. Before AI can be operationalised, organisations must clarify the business decision and process context, specify what data are needed for those decisions, and prepare usable production data through definition, collection, storage, integration, and cleaning. Evidence indicates that beyond the how-to-combine question, we still lack robust empirical insight into the enabling and constraining factors—data readiness, organisational readiness, and human–AI interaction—that determine whether AI-enabled solutions can be adopted, implemented, and routinised as operational workflows in real production settings. This Special Issue focuses on empirical studies that examine the contexts of using AI to augment production technologies, while also addressing the upstream implementation pipeline and socio-technical conditions that determine whether such augmentation can be realised in practice.",
+        "This Special Issue seeks to advance understanding of how AI is embedded in, and enhances, digital production technologies, with a clear emphasis on empirical evidence from real operational contexts such as industrial datasets, system deployments, case studies, field experiments, digital trace data, and production/maintenance logs. Submissions that are purely conceptual, literature-review based, or modelling-driven without empirical validation are outside the scope of this Special Issue.",
+        "Empirical research is defined as studies that use real-world operational evidence, such as production and maintenance logs, IoT/sensor streams, machine/robot telemetry, MES/ERP traces, digital twin event logs linked to real operations, image/video inspection data, industrial case studies, field experiments, or multi-site archival datasets. Empirical studies may employ machine learning, optimisation, simulation, or digital twin experimentation, but only when the analysis is grounded in real operational data and/or validated in industrial settings with measurable outcomes. Studies based solely on synthetic data, stylised simulations, benchmark datasets without production-operational grounding, or purely conceptual/literature-review contributions are outside the scope of this Special Issue.",
+        "In addition to application-focused empirical papers, this Special Issue explicitly encourages submissions that examine the full AI implementation pipeline in production systems, including business–AI alignment, where production decision problems are translated into AI use cases and data requirements; data readiness, where governance/standards, monitoring, preparation/cleaning, and query/access enable reliable AI use; and deployment and workflow embedding, where AI outputs are integrated into human–AI decision workflows and operational routines. The Special Issue organises topics along two dimensions: stages of AI implementation in production systems—from business–AI alignment (design), to data readiness (pre-implementation), to deployment and workflow embedding (implementation)—and the production technologies and operational contexts in which AI is used to augment decision-making and execution."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "production systems",
+      "manufacturing",
+      "operations management",
+      "empirical research"
+    ],
+    "editors": [
+      {
+        "name": "Ruoqi Geng",
+        "affiliation": "Cardiff University"
+      },
+      {
+        "name": "Di Li",
+        "affiliation": "Warwick University"
+      },
+      {
+        "name": "Yang Cheng",
+        "affiliation": "Aalborg University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-01T12:00:00.000Z",
+        "description": "Call for Papers released",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-06-30T12:00:00.000Z",
+        "description": "Manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2027-09-01T12:00:00.000Z",
+        "description": "First-round decisions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-12-01T12:00:00.000Z",
+        "description": "Revised manuscripts due",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-06-01T12:00:00.000Z",
+        "description": "Final decisions",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-26T03:26:19.168Z"
+  },
+  {
     "journal": "Organizational Psychology Review",
     "abbreviation": "sage",
     "issn": "2041-3874",
@@ -3924,55 +4007,6 @@
     "journal": "Auditing A Journal of Practice & Theory",
     "abbreviation": "aaa",
     "issn": "1558-7991",
-    "metaTitle": "Call for Papers Auditing: A Journal of Practice & Theory (AJPT) Shorter Papers",
-    "url": "https://aaahq.org/portals/0/documents/calls/2026/AJPT%20Call%20for%20Shorter%20Papers%20v2.pdf",
-    "title": "Shorter Papers",
-    "slug": "aaa-call-for-papers-auditing-a-journal-of-practice-and-theory-ajpt-shorter-papers",
-    "contentHash": "2511cde55b64560a8f041267e6f752f8ec48ac931fc604fa8387e96865b99b31",
-    "topics": [
-      "Papers that intentionally have been shortened from standard-length submissions",
-      "Replications and extensions that generate new insights",
-      "Timely issues particularly important to the auditing profession with narrower scope",
-      "All research methodologies and auditing topics"
-    ],
-    "description": {
-      "paragraphs": [
-        "Recent trends in academic research have resulted in longer journal articles and a substantial increase in the length of the academic review process. In 2024, AJPT initiated a Call for shorter papers, resulting in 114 submissions. This is now a second Call for shorter papers that also accommodates (but is not limited to) replications and extensions that generate new insights.",
-        "The Call encompasses two general types of high-quality submissions: (1) papers that typically would be standard-length but that intentionally have been shortened to satisfy the requirements of the Call; (2) papers targeting issues that are timely and/or particularly important to the auditing profession that may have a narrower scope and contribution. All research methodologies and auditing topics are welcome.",
-        "Submissions should be approximately 20 pages of text (roughly 5,000 words) exclusive of references, appendices, and tables. Submissions should include no more than five or six tables. In most instances, the greatest adjustment relative to a standard-length paper is likely to be in the background and empirical sections. Despite the reduced length, submissions must demonstrate sufficient rigor.",
-        "Papers will be published in a Special Section as they are accepted, coordinating the timing of acceptances and space availability in individual journal issues rather than assembling a cohort of papers for publication at a future date. Submissions will be screened and assigned to handling editors by Matt Ege and Tamara Lambert. Handling editors will then assign submissions to two reviewers, consistent with AJPT's standard review process. Given the goals of the Call, an expedited review process is targeted with a goal of decreasing time to publication. Authors will be encouraged to resubmit within three to six months if invited to submit a revision, and editors and reviewers will target a decision after two rounds."
-      ]
-    },
-    "tags": [
-      "auditing",
-      "shorter papers",
-      "special section"
-    ],
-    "editors": [
-      {
-        "name": "Matt Ege",
-        "affiliation": "Texas A&M University"
-      },
-      {
-        "name": "Tamara Lambert",
-        "affiliation": "The University of Manchester"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2027-08-31T10:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-18T08:15:27.740Z"
-  },
-  {
-    "journal": "Auditing A Journal of Practice & Theory",
-    "abbreviation": "aaa",
-    "issn": "1558-7991",
     "metaTitle": "Call for Papers Auditing: A Journal of Practice & Theory (AJPT) Unexpected or Non-Significant Results in Experimental Research",
     "url": "https://aaahq.org/portals/0/documents/calls/2026/AJPT%20Unexpected%20or%20Non-significant%20Results%20in%20Experimental%20Research%20v2.pdf",
     "title": "Unexpected or Non-Significant Results in Experimental Research",
@@ -4018,6 +4052,55 @@
       {
         "date": "2027-08-31T10:00:00.000Z",
         "description": "Deadline for submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-18T08:15:27.740Z"
+  },
+  {
+    "journal": "Auditing A Journal of Practice & Theory",
+    "abbreviation": "aaa",
+    "issn": "1558-7991",
+    "metaTitle": "Call for Papers Auditing: A Journal of Practice & Theory (AJPT) Shorter Papers",
+    "url": "https://aaahq.org/portals/0/documents/calls/2026/AJPT%20Call%20for%20Shorter%20Papers%20v2.pdf",
+    "title": "Shorter Papers",
+    "slug": "aaa-call-for-papers-auditing-a-journal-of-practice-and-theory-ajpt-shorter-papers",
+    "contentHash": "2511cde55b64560a8f041267e6f752f8ec48ac931fc604fa8387e96865b99b31",
+    "topics": [
+      "Papers that intentionally have been shortened from standard-length submissions",
+      "Replications and extensions that generate new insights",
+      "Timely issues particularly important to the auditing profession with narrower scope",
+      "All research methodologies and auditing topics"
+    ],
+    "description": {
+      "paragraphs": [
+        "Recent trends in academic research have resulted in longer journal articles and a substantial increase in the length of the academic review process. In 2024, AJPT initiated a Call for shorter papers, resulting in 114 submissions. This is now a second Call for shorter papers that also accommodates (but is not limited to) replications and extensions that generate new insights.",
+        "The Call encompasses two general types of high-quality submissions: (1) papers that typically would be standard-length but that intentionally have been shortened to satisfy the requirements of the Call; (2) papers targeting issues that are timely and/or particularly important to the auditing profession that may have a narrower scope and contribution. All research methodologies and auditing topics are welcome.",
+        "Submissions should be approximately 20 pages of text (roughly 5,000 words) exclusive of references, appendices, and tables. Submissions should include no more than five or six tables. In most instances, the greatest adjustment relative to a standard-length paper is likely to be in the background and empirical sections. Despite the reduced length, submissions must demonstrate sufficient rigor.",
+        "Papers will be published in a Special Section as they are accepted, coordinating the timing of acceptances and space availability in individual journal issues rather than assembling a cohort of papers for publication at a future date. Submissions will be screened and assigned to handling editors by Matt Ege and Tamara Lambert. Handling editors will then assign submissions to two reviewers, consistent with AJPT's standard review process. Given the goals of the Call, an expedited review process is targeted with a goal of decreasing time to publication. Authors will be encouraged to resubmit within three to six months if invited to submit a revision, and editors and reviewers will target a decision after two rounds."
+      ]
+    },
+    "tags": [
+      "auditing",
+      "shorter papers",
+      "special section"
+    ],
+    "editors": [
+      {
+        "name": "Matt Ege",
+        "affiliation": "Texas A&M University"
+      },
+      {
+        "name": "Tamara Lambert",
+        "affiliation": "The University of Manchester"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-08-31T10:00:00.000Z",
+        "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
@@ -7795,9 +7878,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-24T03:22:46.586Z"
+    "active": true,
+    "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
     "journal": "M@n@gement",
@@ -7904,9 +7986,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-24T03:22:46.586Z"
+    "active": true,
+    "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -7942,8 +8023,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-24T03:22:46.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -8035,8 +8115,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-24T03:22:46.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -8115,8 +8194,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z",
-    "gracePeriod": "2026-09-24T03:22:46.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
     "journal": "Recherche et Applications en Marketing",
@@ -10857,7 +10935,7 @@
     "url": "https://link.springer.com/collections/chdbfcddeg",
     "title": "Responsible and Trustworthy Artificial Intelligence in Tourism and Hospitality",
     "slug": "springer-special-issue-on-responsible-and-trustworthy-artificial-intelligence-in-tourism-and-hospitality",
-    "contentHash": "9126c5628d8bd20e6969bbb2a3b50e231291da771eb76b9dbcb2c3ad86268ed7",
+    "contentHash": "6b60abafbc560b6b5ce8c6dc4485fbb86db04f8d839d4fdccd21db6c3d65a12d",
     "topics": [
       "Ethical AI frameworks in tourism and hospitality: fairness, accountability, transparency, and inclusivity.",
       "AI-driven consumer experiences: balancing personalization, convenience, and privacy.",
@@ -10881,17 +10959,17 @@
     ],
     "description": {
       "paragraphs": [
-        "The aim of this special issue is to advance scholarly understanding of Responsible and Trustworthy Artificial Intelligence in tourism and hospitality, by assembling cutting-edge research, innovative methodologies, and critical reflections. As AI technologies become embedded in service delivery, marketing, operations, and consumer experience, transformative opportunities are accompanied by potential ethical challenges. Issues of fairness, accountability, transparency, and trust are particularly pressing as the sector adopts AI in pursuit of personalization, efficiency, and engagement. Responsible AI is linked with the concept of trustworthy AI, which reflects a stronger technological view and focuses on systems that are lawful, ethical, and robust throughout their lifecycle. Earlier research in tourism and hospitality has shown the need for interdisciplinary inquiry regarding the technical, managerial, legal, and societal dimensions of responsible AI adoption.",
-        "This special issue aims to provide a dedicated forum for interdisciplinary inquiry into the tensions and synergies that are evident between innovation, ethical responsibility, and human experience. It particularly encourages submissions that highlight the design, adoption, and governance of AI-enabled digital platforms, data-sharing ecosystems, and information infrastructures shaping tourism and hospitality. Papers may investigate the broader societal impacts of AI and topics such as bias and fairness in algorithmic decision-making, consumer trust in AI systems, sustainable and frugal AI applications, digital twins for experience innovation, and governance and regulatory frameworks and human-centered design. This builds on prior Electronic Markets contributions on responsible and trustworthy AI and extends them into the domain of tourism and hospitality. This special issue will foster dialogue across disciplines to highlight best practices as well as challenges in the design, deployment, and governance of responsible AI systems. Ultimately, it seeks to open up pathways that will ensure enhanced customer experiences through AI-driven innovation in tourism and hospitality, while upholding ethical, social, and environmental responsibility.",
-        "Electronic Markets is a Social Science Citation Index (SSCI)-listed journal in the area of information management and information systems. All papers should fit the journal scope. This special issue invites submissions that investigate the critical dynamics, challenges, and transformative potential of responsible and trustworthy AI in tourism and hospitality. We welcome studies that deploy quantitative, qualitative, or mixed methods approaches, providing that they demonstrate methodological rigor and scholarly relevance. Suitable contributions may include conceptual and theoretical papers, empirical investigations, case-based analyses, position papers, and integrative reviews."
+        "The aim of this special issue is to advance scholarly understanding of Responsible and Trustworthy Artificial Intelligence in tourism and hospitality, by assembling cutting-edge research, innovative methodologies, and critical reflections. As AI technologies become embedded in-service delivery, marketing, operations, and consumer experience, transformative opportunities are accompanied by potential ethical challenges. Issues of fairness, accountability, transparency, and trust are particularly pressing as the sector adopts AI in pursuit of personalization, efficiency, and engagement. Responsible AI is linked with the concept of \"trustworthy AI,\" which reflects a stronger technological view and focuses on systems that are lawful, ethical, and robust throughout their lifecycle. Earlier research in tourism and hospitality has shown the need for interdisciplinary inquiry regarding the technical, managerial, legal, and societal dimensions of responsible AI adoption.",
+        "This special issue aims to provide a dedicated forum for interdisciplinary inquiry into the tensions and synergies that are evident between innovation, ethical responsibility, and human experience. It particularly encourages submissions that highlight the design, adoption, and governance of AI-enabled digital platforms, data-sharing ecosystems, and information infrastructures shaping tourism and hospitality. Papers may investigate the broader societal impacts of AI and topics such as bias and fairness in algorithmic decision-making, consumer trust in AI systems, sustainable and frugal AI applications, digital twins for experience innovation, governance and regulatory frameworks and human-centered design. This special issue will foster dialogue across disciplines to highlight best practices as well as challenges in the design, deployment, and governance of responsible AI systems. Ultimately, it seeks to open up pathways that will ensure enhanced customer experiences through AI-driven innovation in tourism and hospitality, while upholding ethical, social, and environmental responsibility."
       ]
     },
     "tags": [
       "artificial intelligence",
       "responsible ai",
       "trustworthy ai",
-      "tourism and hospitality",
-      "ai ethics",
+      "tourism",
+      "hospitality",
+      "ethics",
       "digital transformation"
     ],
     "editors": [
@@ -10900,22 +10978,22 @@
         "affiliation": "Texas A&M University"
       },
       {
-        "name": "Babak Taheri",
-        "affiliation": "Texas A&M University"
+        "name": "Kyoung Jun Lee",
+        "affiliation": "Kyung Hee University"
       },
       {
         "name": "Danae Manika",
         "affiliation": "Brunel University of London"
       },
       {
-        "name": "Kyoung Jun Lee",
-        "affiliation": "Kyung Hee University"
+        "name": "Babak Taheri",
+        "affiliation": "Texas A&M University"
       }
     ],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-15T10:00:00.000Z",
+        "date": "2026-09-15T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
