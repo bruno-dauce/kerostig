@@ -1,5 +1,141 @@
 [
   {
+    "journal": "Journal of International Management",
+    "abbreviation": "elsevier",
+    "issn": "1873-0620",
+    "metaTitle": "China and the Reconfiguration of International Management in a Transitional Global Order",
+    "url": "https://www.sciencedirect.com/special-issue/336689/china-and-the-reconfiguration-of-international-management-in-a-transitional-global-order",
+    "title": "China and the Reconfiguration of International Management in a Transitional Global Order",
+    "slug": "elsevier-china-and-the-reconfiguration-of-international-management-in-a-transitional-global-order",
+    "contentHash": "dd5733af1045ed97430a3a75aa4ab4732c707601be58b5082fbd38f8bc75d436",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "china",
+      "international management",
+      "global order"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-07-31T12:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-27T12:56:30.925Z"
+  },
+  {
+    "journal": "Ecological Economics",
+    "abbreviation": "elsevier",
+    "issn": "1989-2021",
+    "metaTitle": "From Growth Addiction to Sustainable Wellbeing: Understanding Societal Traps, Lock-ins, and Barriers to Progress",
+    "url": "https://www.sciencedirect.com/special-issue/336640/from-growth-addiction-to-sustainable-wellbeing-understanding-societal-traps-lock-ins-and-barriers-to-progress",
+    "title": "From Growth Addiction to Sustainable Wellbeing: Understanding Societal Traps, Lock-ins, and Barriers to Progress",
+    "slug": "elsevier-from-growth-addiction-to-sustainable-wellbeing-understanding-societal-traps-lock-ins-and-barriers-to-progress",
+    "contentHash": "9d211aef5546952af5f814c24ac4ccf996ce45807dab35f04054604ca689d6da",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "ecological economics",
+      "sustainability",
+      "growth addiction",
+      "societal transformation"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-08-31T12:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-27T12:56:30.925Z"
+  },
+  {
+    "journal": "Health Policy",
+    "abbreviation": "elsevier",
+    "issn": "1872-6054",
+    "metaTitle": "Health security and health and care workforce resilience: conflicts, crises and capacities",
+    "url": "https://www.sciencedirect.com/special-issue/336634/health-security-and-health-and-care-workforce-resilience-conflicts-crises-and-capacities",
+    "title": "Health security and health and care workforce resilience: conflicts, crises and capacities",
+    "slug": "elsevier-health-security-and-health-and-care-workforce-resilience-conflicts-crises-and-capacities",
+    "contentHash": "d8e08c4a2e1f83885360b0b066c34cb06f13961575191dfe9ff618f60674ee06",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "health security",
+      "health workforce",
+      "care workforce",
+      "resilience",
+      "conflicts",
+      "crises"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-31T12:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-27T12:56:30.925Z"
+  },
+  {
+    "journal": "Technovation",
+    "abbreviation": "elsevier",
+    "issn": "1879-2383",
+    "metaTitle": "How Government Policy Shapes Business Incubation and Acceleration Systems: Insights from National Policy Frameworks",
+    "url": "https://www.sciencedirect.com/special-issue/330030/how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks",
+    "title": "How Government Policy Influences Business Incubation and Acceleration Systems: Insights from National Policy Frameworks",
+    "slug": "elsevier-how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks",
+    "contentHash": "337ec3d4ed3401da899a1971e79d2aaee945f5747d773fa6b651185677e901c0",
+    "topics": [
+      "Government policy frameworks and their impact on business incubation ecosystems",
+      "Regulatory environments that support or hinder business acceleration",
+      "National policies promoting entrepreneurship and startup development",
+      "Policy mechanisms for fostering innovation and economic growth",
+      "Comparative analysis of government support systems across countries",
+      "Public sector investment in incubation and acceleration infrastructure",
+      "Policy barriers and enablers in startup ecosystems"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how government policies shape the development, effectiveness, and sustainability of business incubation and acceleration systems across different national contexts. The focus is on understanding the policy frameworks that influence the structure, operations, and outcomes of these critical entrepreneurial support mechanisms."
+      ]
+    },
+    "tags": [
+      "government policy",
+      "business incubation",
+      "startup acceleration",
+      "entrepreneurship",
+      "innovation ecosystems"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-31T12:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-27T12:56:30.925Z"
+  },
+  {
     "journal": "Production Planning & Control",
     "abbreviation": "tandf",
     "issn": "1366-5871",
@@ -9566,7 +9702,7 @@
     "url": "https://link.springer.com/collections/eeifhiecjh",
     "title": "Advanced Machine Learning for System Reliability Management",
     "slug": "springer-advanced-machine-learning-for-system-reliability-management",
-    "contentHash": "4eb9a1316609a7646cf4a1b1182c1eb62c630877227a3de3a762055a5626e66a",
+    "contentHash": "05d2e87d5da278bacd580e9257af5d95ba9ef78a606cfdba4270908bf7d00888",
     "topics": [
       "Deep learning for anomaly detection and/or fault detection",
       "Machine learning-enhanced maintenance optimization",
@@ -9582,20 +9718,15 @@
     "description": {
       "paragraphs": [
         "Modern industrial systems generate massive datasets from sensor monitoring, which presents computational and memory challenges in data processing. Advanced machine learning technologies such as transfer learning, federated learning, quantum machine learning, and reinforcement learning offer effective and scalable solutions for processing and analyzing large volumes of data, as well as supporting subsequent decision-making.",
-        "Recently, various new techniques of advanced machine learning have already been applied to system reliability management, such as fault diagnosis, health condition assessment, remaining useful life prediction, degradation modeling, and maintenance optimization. Yet, ongoing research works continue to explore this exciting research area. Therefore, we invite high-quality original research papers, review papers, and case studies that delve into these advancements."
+        "Recently, various new techniques of advanced machine learning have already been applied to system reliability management, such as fault diagnosis, health condition assessment, remaining useful life prediction, degradation modeling, and maintenance optimization. Yet, ongoing research works continue to explore this exciting research area."
       ]
     },
     "tags": [
       "machine learning",
       "system reliability",
-      "maintenance optimization",
-      "fault detection"
+      "maintenance optimization"
     ],
     "editors": [
-      {
-        "name": "Xu-Feng Zhao",
-        "affiliation": "Nanjing University of Aeronautics and Astronautics"
-      },
       {
         "name": "Yan-Fu Li",
         "affiliation": "Tsinghua University"
@@ -9603,6 +9734,10 @@
       {
         "name": "Hoang Pham",
         "affiliation": "Rutgers University"
+      },
+      {
+        "name": "Xu-Feng Zhao",
+        "affiliation": "Nanjing University of Aeronautics and Astronautics"
       }
     ],
     "associate_editors": [],
@@ -14556,36 +14691,6 @@
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
-    "journal": "Technovation",
-    "abbreviation": "elsevier",
-    "issn": "1879-2383",
-    "metaTitle": "How Government Policy Shapes Business Incubation and Acceleration Systems: Insights from National Policy Frameworks",
-    "url": "https://www.sciencedirect.com/special-issue/330030/how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks",
-    "title": "How Government Policy Shapes Business Incubation and Acceleration Systems: Insights from National Policy Frameworks",
-    "slug": "elsevier-how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks-2",
-    "contentHash": "115319f1d2d5384cbadd6397805df5ab731c0e17b8a3c68cd62c91899f5a37d5",
-    "topics": [],
-    "description": {
-      "paragraphs": []
-    },
-    "tags": [
-      "government policy",
-      "business incubation",
-      "acceleration systems"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-09-30T10:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
-  },
-  {
     "journal": "Journal of Behavioral and Experimental Economics",
     "abbreviation": "elsevier",
     "issn": "2214-8051",
@@ -16578,7 +16683,7 @@
     "url": "https://www.sciencedirect.com/special-issue/324562/challenges-and-advances-in-the-biofuel-industry-navigating-production-and-supply-chain-dynamics",
     "title": "Challenges and Advances in the Biofuel Industry: Navigating Production and Supply Chain Dynamics",
     "slug": "elsevier-challenges-and-advances-in-the-biofuel-industry-navigating-production-and-supply-chain-dynamics",
-    "contentHash": "5d75613f1674150cb779165f8d2e91efab28858f8fe05d4897c82c53e27539c5",
+    "contentHash": "c93692f335118d30b7a3d589db9d8e5ad6687426a78f5e14b5891d3edf62037c",
     "topics": [],
     "description": {
       "paragraphs": []
@@ -16592,7 +16697,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-30T12:00:00.000Z",
+        "date": "2027-01-31T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -17749,6 +17854,37 @@
     ],
     "active": true,
     "pubDate": "2026-08-11T10:27:21.121Z"
+  },
+  {
+    "journal": "Technovation",
+    "abbreviation": "elsevier",
+    "issn": "1879-2383",
+    "metaTitle": "How Government Policy Shapes Business Incubation and Acceleration Systems: Insights from National Policy Frameworks",
+    "url": "https://www.sciencedirect.com/special-issue/330030/how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks",
+    "title": "How Government Policy Shapes Business Incubation and Acceleration Systems: Insights from National Policy Frameworks",
+    "slug": "elsevier-how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks-2",
+    "contentHash": "115319f1d2d5384cbadd6397805df5ab731c0e17b8a3c68cd62c91899f5a37d5",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "government policy",
+      "business incubation",
+      "acceleration systems"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-09-26T12:56:30.925Z"
   },
   {
     "journal": "Industrial Marketing Management",
