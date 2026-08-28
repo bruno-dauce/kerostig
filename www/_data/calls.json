@@ -1,5 +1,182 @@
 [
   {
+    "journal": "Journal of Small Business Management",
+    "abbreviation": "tandf",
+    "issn": "1540-627X",
+    "metaTitle": "La Sapienza Colloquium:  Reimagining Small Business Futures - AI, Inclusion, and Territorial Innovation",
+    "url": "https://think.taylorandfrancis.com/special_issues/la-sapienza-colloquium-reimagining-small-business-futures-ai-inclusion-and-territorial-innovation/",
+    "title": "Reimagining Small Business Futures - AI, Inclusion, and Territorial Innovation",
+    "slug": "tandf-la-sapienza-colloquium-reimagining-small-business-futures-ai-inclusion-and-territorial-innovation",
+    "contentHash": "ecb1d55899a61aeca87df60def798c794b6c30b3da6e677928b3721c4e87e6a0",
+    "topics": [
+      "AI-driven business model innovation in SMEs",
+      "Digital transformation pathways under technological turbulence",
+      "AI and sustainable competitive advantage in resource-constrained firms",
+      "AI-enabled work redesign and organizational reconfiguration in SMEs",
+      "Inclusive AI ecosystems for minority, women, migrant, and informal entrepreneurs",
+      "Algorithmic Bias and transparency in AI-assisted SMEs",
+      "AI-enabled territorial innovation and smart regional development",
+      "Public policies supporting equitable AI adoption among SMEs",
+      "AI, cybersecurity, and risk governance in small businesses",
+      "Human–AI collaboration and entrepreneurial decision-making",
+      "Data strategies and knowledge management in SMEs",
+      "Data ownership and territorial digital autonomy in AI-driven SME development",
+      "Ethical, social, and governance implications of AI adoption",
+      "AI platforms and SME participation in digital value chains",
+      "AI for local resilience, crisis response, and adaptive entrepreneurship"
+    ],
+    "description": {
+      "paragraphs": [
+        "The global innovation landscape is undergoing a profound restructuring. Collaboration among geographically distributed innovation ecosystems is intensifying. At the same time, the rapid advancement and diffusion of artificial intelligence (AI) are reshaping the dynamics of global industrial competition. New innovation hubs are emerging across the Asia-Pacific region, Europe, and several emerging economies. In parallel, digital technologies, platformization, and the decentralization of computing power are reducing traditional geographical and scale barriers. As a result, the conditions for competition and innovation are being fundamentally redefined. In this context, small and medium-sized enterprises (SMEs) are no longer structurally disadvantaged. Instead, they can increasingly act as agile and innovation-driven players within global value chains.",
+        "AI-enabled technologies offer SMEs unprecedented opportunities. They can enhance productivity, improve decision-making, automate processes, and reconfigure business models toward more scalable and data-driven architectures. At the same time, AI adoption poses significant challenges related to investment capacity, skills gaps, cybersecurity risks, ethical concerns, and unequal access to digital infrastructures. Unlike large corporations, SMEs operate as socio-economic infrastructures deeply intertwined with local production systems, community networks, and place-based development trajectories.",
+        "This special issue examines how AI can reshape the future of small and medium-sized enterprises through three interconnected lenses: (1) Technological transformation - how SMEs can scientifically adopt and adapt AI technologies and integrate them into daily operations, medium- and long-term development strategies, and business model innovation to achieve technological transformation and sustainable growth; (2) Inclusive innovation - how AI can build a universally beneficial digital ecosystem for diverse entrepreneurial entities and disadvantaged or marginalized entrepreneurial groups to alleviate structural inequalities and promote more equitable and inclusive innovative development; and (3) Territorial and ecosystem development - how AI-enabled SMEs can enhance territorial economic resilience, improve territorial innovation systems, and support the implementation of local intelligent specialization strategies.",
+        "Contributions are particularly encouraged that move beyond technology adoption perspectives to explore how AI reconfigures organizational capabilities, entrepreneurial cognition, stakeholder relationships, and value creation mechanisms in SMEs."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "small and medium-sized enterprises",
+      "business model innovation",
+      "inclusive innovation",
+      "territorial development"
+    ],
+    "editors": [
+      {
+        "name": "Nicola Cucari",
+        "affiliation": "Sapienza University of Rome"
+      },
+      {
+        "name": "Guanglei Zhang",
+        "affiliation": "Wuhan University of Technology"
+      },
+      {
+        "name": "Jintao Lu",
+        "affiliation": "Shanxi University of Electronic Science and Technology"
+      },
+      {
+        "name": "Hua Fan",
+        "affiliation": "Shanghai International Studies University"
+      },
+      {
+        "name": "Eric Liguori",
+        "affiliation": "Florida State University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-25T12:00:00.000Z",
+        "description": "Colloquium Extended Abstract Submission Deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-10-01T12:00:00.000Z",
+        "description": "Colloquium Invitations Issued",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-10-26T12:00:00.000Z",
+        "description": "Colloquium Dates",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-01T12:00:00.000Z",
+        "description": "Full Paper Journal Submissions Open",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-31T12:00:00.000Z",
+        "description": "Full Paper Journal Submissions Deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-28T14:33:02.824Z"
+  },
+  {
+    "journal": "Journal of Small Business Management",
+    "abbreviation": "tandf",
+    "issn": "1540-627X",
+    "metaTitle": "Bridging digitalisation, sustainability, and resilience through systems thinking tools: Integrated perspectives and collaborative practices for SMEs",
+    "url": "https://think.taylorandfrancis.com/special_issues/bridging-digitalisation-sustainability-and-resilience-through-systems-thinking-tools-integrated-perspectives-and-collaborative-practices-for-smes/",
+    "title": "Bridging digitalisation, sustainability, and resilience through systems thinking tools: Integrated perspectives and collaborative practices for SMEs",
+    "slug": "tandf-bridging-digitalisation-sustainability-and-resilience-through-systems-thinking-tools-integrated-perspectives-and-collaborative-practices-for-smes",
+    "contentHash": "b8ca8a088d635506ca3695eb91ec223cc563470c82038d93f49571460a4c0569",
+    "topics": [
+      "Applications of systems thinking tools, such as causal loop diagrams (CLDs), system archetypes, and system dynamics modeling, in addressing sustainability challenges",
+      "Development and validation of systems-level frameworks and methodologies for sustainable development",
+      "Case studies demonstrating the impact of systems thinking on real-world sustainability and/or digitalisation initiatives",
+      "Use of group model building and participatory system dynamics to support interdisciplinary and ecosystem solutions",
+      "Exploration of system archetypes and system dynamics models to identify leverage points for driving transformational change and to investigate levers in cross-boundary settings",
+      "The role of digital technologies, including IoT, AI, big data, and blockchain, in enabling systems-level insights and solutions in the circular economy and sustainability initiatives",
+      "Integration of digitalisation with circular economy strategies and Industry 5.0 principles and potentials",
+      "Innovative approaches to digital transformation that promote sustainable development",
+      "Cross-sectoral and interdisciplinary research to foster collaboration in bridging sustainability and digitalisation, using systems thinking",
+      "The role of ecosystems in sustainable business models and the boundaries of entrepreneurial ecosystems",
+      "Methodologies for recognising, assessing and addressing the interconnectedness of environmental, economic, and social systems",
+      "Open innovation in new sustainable businesses, considering distinct institutional contexts and economic systems, such as emerging and developed economies"
+    ],
+    "description": {
+      "paragraphs": [
+        "The 21st century presents a range of complex and interdependent challenges, including climate change, resource depletion, economic inequality, and technological disruptions. These so-called wicked problems demand a paradigm shift in our approach to problem-solving. Addressing such challenges requires multi-stakeholder partnerships and holistic, systems-level approaches that transcend traditional, siloed methodologies. Systems thinking, a powerful tool for understanding complexity and interconnections, offers a pathway to sustainable solutions.",
+        "Although systems theory became foundational in fields such as environmental sciences during the 20th century, its adoption in strategic management research has been more limited. This reluctance may be tied to the enduring influence of reductionist approaches rooted in early scientific management and innovation models. A systems perspective is critical as it views organizations as complex adaptive systems or 'functioning wholes', which contrasts with problem-solving focusing on isolated components. This special collection aims to bring systems thinking methodologies to the forefront and inspire a deeper engagement with systems-based frameworks and tools, advancing both theoretical and practical understanding of their application in business and management contexts, as well as their transformative potential in addressing complex, interconnected challenges.",
+        "By shifting away from traditional reductionist approaches, we seek to highlight how systems thinking can uncover hidden dynamics, identify leverage points, and foster innovative solutions at the intersection of sustainability and digitalization. The new technologies of the Industry 4.0 revolution, including data-driven insights, automation and increased transparency, are changing the way businesses operate. However, it is important to better understand the impact of these disruptive innovations as a result of rapidly progressing digital technologies, as they often convey a dark side of digital change in the social and environmental context. This duality highlights the importance of applying systems thinking to ensure that digital transformation aligns with sustainability goals. Within the sustainability domain, the circular economy introduces a new economic system and logic that also fundamentally disrupts business-as-usual. This requires a shift from individual-level innovation to collective solutions, thus relying on an ecosystem and systemic approaches to achieve a whole-of-lifecycle perspective and integrate supply chains to create closed-loop systems. However, existing tools and frameworks often fail to accommodate the complexity of such an interconnected approach, limiting their effectiveness in addressing the challenges of circularity and disruptive digital solutions.",
+        "Recent literature increasingly calls for holistic, systems-level assessments and methodologies to address complex sustainability challenges. While 'system change' and 'systems thinking' often appear in the political, industry and academic discourse, these calls have yet to be fully realized. Nonetheless, the superficial adoption of systems thinking, which neglects the tools and methods to uncover underlying feedback mechanisms and behaviour over time, risks creating a façade of systemic awareness while inadvertently exacerbating issues and rebound effects, ultimately worsening the planetary crisis. This online collection seeks to bridge this gap by highlighting innovative research and practices and by advancing our understanding of interconnected systems and the leverage points within them, we can develop more effective business strategies for achieving resilience and sustainable development.",
+        "In this call for papers, we emphasize the importance of 'real' systemic change in the contexts of sustainability, digitalization, and resilience. By aspiring to a real system change, we recognize that defining what constitutes a 'real' systemic shift remains a challenging, often contested but also underdeveloped issue, with scholars often using terms such as 'systemic change', 'system change' or 'transformative change', or using 'systems thinking' without the adequate tools and methodologies applied. There is also a variety among the types of systems across disciplines, definitions used and their scale, which makes this even more difficult to clarify. The literature points to examples, such as large-scale system changes that involve both the breadth of engaging large numbers of people, institutions, and geographies, as well as the depth of transforming the complex power structures and relationships within these systems. Cross-sector partnerships navigating wicked problems are often marked by knowledge uncertainty, value conflicts, and complexity, which require adaptable governance processes to continuously reassess the problem over time. Addressing a complex issue often requires assessing the levers and solutions by examining cross-boundary impacts across different systems and sectors. Expanding the boundary can offer additional insights into intervention points, revealing hidden mechanisms or suggesting that the most effective leverage may lie on someone else's patch. Thus, there is a need for new studies and frameworks that capture the complex interactions between actors, partnerships, and societal issues, across different levels, metrics and scales. Together, these perspectives illustrate that 'real' systemic change is not a static, singular transformation, but an evolving process shaped by diverse and often conflicting stakeholder interests, involving cross-boundary and cross-sector connections.",
+        "We invite contributions that explore and contribute to the better understanding of 'real' systemic change, through investigating the synergy between systems thinking, sustainability, and digitalisation. Accordingly, this online collection aims to address the urgent need for a paradigm shift in how we conceptualise and tackle grand challenges, building upon cross-sector partnerships and value co-creation, leveraging frameworks like the Sustainable Development Goals (SDGs), circular economy principles, and the transformative potential of Industry 4.0 and 5.0 technologies. We invite contributors to discover and use a wide range of tools within systems thinking, including but not limited to causal loop diagrams, system archetypes, system maps, system dynamics models, group model building, and participatory methods."
+      ]
+    },
+    "tags": [
+      "systems thinking",
+      "sustainability",
+      "digitalization",
+      "smes",
+      "circular economy",
+      "resilience"
+    ],
+    "editors": [
+      {
+        "name": "Rui Torres de Oliveira",
+        "affiliation": "Deakin University"
+      },
+      {
+        "name": "Agnes Toth-Peter",
+        "affiliation": "University of Queensland"
+      },
+      {
+        "name": "Martie-Louise Verreynne",
+        "affiliation": "University of Queensland"
+      },
+      {
+        "name": "David Audretsch",
+        "affiliation": "Indiana University"
+      },
+      {
+        "name": "Domenico Dentoni",
+        "affiliation": "MBS School of Business"
+      },
+      {
+        "name": "Andrea Chiarini",
+        "affiliation": "University of Verona"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-01T12:00:00.000Z",
+        "description": "Rolling submissions begin",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-05-31T12:00:00.000Z",
+        "description": "Manuscript deadline for rolling submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-28T14:33:02.824Z"
+  },
+  {
     "journal": "Journal of International Management",
     "abbreviation": "elsevier",
     "issn": "1873-0620",
@@ -10015,7 +10192,7 @@
     "url": "https://link.springer.com/collections/egaahfecfe",
     "title": "Data Science",
     "slug": "springer-data-science",
-    "contentHash": "775d8a10c011c8594a2d332a305b6bf5d81cd62d2b93ecd7789bd350e8a68b5c",
+    "contentHash": "141b637b93e29a744f1a1b80b8b0e1b8681d113a5f7666bd99ee277637720f05",
     "topics": [
       "Ethics and governance issues in analytics: How should data be obtained? What are the ethical implications of using applications of analytics to influence behavior?",
       "Big data and analytics: What are the limitations and applications of optimization and other OR techniques to large datasets? What are the challenges for applications of OR methods within distributed systems? What is the possibility that OR models could in fact be the producers of big data, e.g., large-scale simulation models? What new methods/models in response to big data, e.g., sentiment mining, can be adopted by OR?",
@@ -10025,8 +10202,8 @@
     ],
     "description": {
       "paragraphs": [
-        "The objective of this special section is to publish papers that contribute to both the theory and practice of data science and predictive analytics. While papers describing new techniques have been published in other journals, we would expect to see how the technique could be applied in practice with implications to create value in organizations. Creating value through analytics may lead to, or require, organizational change for it to effective. The relationship with Operations Research is direct but distinct: analytics is an organizational activity that draws on and uses the techniques of data science and operational research as appropriate.",
-        "Research into data science and analytics should seek to both incorporate the unique aspects of the OR discipline, as well as the innovations, concerns and characteristics of the analytics movement."
+        "The objective of this special section is to publish papers that contribute to both the theory and practice of data science and predictive analytics. While papers describing new techniques have been published in other journals, we would expect to see how the technique could be applied in practice with implications to create value in organizations. Creating value through analytics may lead to, or require, organizational change for it to effective.",
+        "The relationship with Operations Research is direct but distinct: analytics is an organizational activity that draws on and uses the techniques of data science and operational research as appropriate. Research into data science and analytics should seek to both incorporate the unique aspects of the OR discipline, as well as the innovations, concerns and characteristics of the analytics movement."
       ]
     },
     "tags": [
@@ -10041,7 +10218,7 @@
       },
       {
         "name": "Kristof Coussement",
-        "affiliation": "Institut d'Economie Scientifique Et de Gestion"
+        "affiliation": "IÉSEG School of Management"
       },
       {
         "name": "Cem İyigün",
@@ -10057,7 +10234,7 @@
       {
         "date": null,
         "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
+        "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
@@ -22793,7 +22970,7 @@
     "url": "https://think.taylorandfrancis.com/special_issues/gender-diversity-in-the-public-sector/",
     "title": "Gender diversity in the public sector: reforms, challenges, and emerging opportunities",
     "slug": "tandf-gender-diversity-in-the-public-sector-reforms-challenges-and-emerging-opportunities",
-    "contentHash": "dafbd49bbd73da584eec70ea16cde5bd7b3be954c2f9d0ae0769b19ef0666c27",
+    "contentHash": "d6763118b77cd7c5e9f242b755d562f04ae70a2867ff82bcb863951e6f4319cb",
     "topics": [
       "Gender diversity and public sector performance",
       "Women in SOEs",
@@ -22817,9 +22994,7 @@
     "tags": [
       "gender diversity",
       "public sector",
-      "governance",
-      "women leadership",
-      "state-owned enterprises"
+      "governance"
     ],
     "editors": [
       {
@@ -22842,12 +23017,12 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-01T10:00:00.000Z",
+        "date": "2026-11-30T12:00:00.000Z",
         "description": "Submission deadline for research articles and new development pieces",
         "is_full_paper_submission_deadline": true
       },
       {
-        "date": "2026-11-01T11:00:00.000Z",
+        "date": "2027-01-01T12:00:00.000Z",
         "description": "Submission deadline for debate pieces",
         "is_full_paper_submission_deadline": false
       }
