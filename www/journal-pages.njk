@@ -50,7 +50,15 @@
     <a href="{{ '/' | url }}?rang={{ revue.rang_fnege_2025 | urlencode }}"
        class="badge badge-outline font-semibold transition-colors hover:bg-primary/10"
        style="color:#2B5F8E;border-color:#2B5F8E">rang FNEGE {{ revue.rang_fnege_2025 }}</a>
-    <span class="badge badge-outline">{% if disc %}{{ disc.nom }}{% else %}{{ revue.discipline }}{% endif %}</span>
+    {# Meme lien que le badge de discipline des cartes (cf. call-card.html). Le fil
+       d'Ariane pointe deja vers la meme page : deux acces au meme endroit, comme le
+       titre et « Voir l'appel » d'une carte. Repli en texte simple sans le code FNEGE,
+       les pages /discipline/ ne sont generees que depuis disciplines.json. #}
+    {% if disc %}
+    <a href="{{ ('/discipline/' + disc.slug + '/') | url }}" class="badge badge-outline transition-colors hover:border-primary hover:text-primary">{{ disc.nom }}</a>
+    {% else %}
+    <span class="badge badge-outline">{{ revue.discipline }}</span>
+    {% endif %}
     {% if revue.acces_ouvert.est_oa %}
     <span class="badge badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C">accès ouvert</span>
     {% endif %}
