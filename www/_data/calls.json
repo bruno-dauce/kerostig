@@ -1,5 +1,35 @@
 [
   {
+    "journal": "Journal of Business Research",
+    "abbreviation": "elsevier",
+    "issn": "1873-7978",
+    "metaTitle": "Extending the Reach and Rigor of Qualitative Methods in OB/HR",
+    "url": "https://www.sciencedirect.com/special-issue/336711/extending-the-reach-and-rigor-of-qualitative-methods-in-obhr",
+    "title": "Extending the Reach and Rigor of Qualitative Methods in OB/HR",
+    "slug": "elsevier-extending-the-reach-and-rigor-of-qualitative-methods-in-obhr",
+    "contentHash": "a481e8c609f2c925db7332f634052ec45d518706b51682e1e56ed91e336524dc",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [
+      "qualitative methods",
+      "organizational behavior",
+      "human resources"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-31T12:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-29T09:09:21.693Z"
+  },
+  {
     "journal": "Journal of Small Business Management",
     "abbreviation": "tandf",
     "issn": "1540-627X",
@@ -8191,8 +8221,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-28T09:09:21.693Z"
   },
   {
     "journal": "M@n@gement",
@@ -8299,8 +8330,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "active": false,
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-28T09:09:21.693Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -8336,7 +8368,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-28T09:09:21.693Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -8428,7 +8461,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-28T09:09:21.693Z"
   },
   {
     "journal": "Systèmes d'information & management",
@@ -8507,7 +8541,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T16:43:57.586Z"
+    "pubDate": "2026-08-12T16:43:57.586Z",
+    "gracePeriod": "2026-09-28T09:09:21.693Z"
   },
   {
     "journal": "Recherche et Applications en Marketing",
@@ -19400,7 +19435,7 @@
     "url": "https://think.taylorandfrancis.com/special_issues/smart-systems-and-the-governance-of-sociotechnical-transformation/",
     "title": "Smart systems and the governance of sociotechnical transformation",
     "slug": "tandf-smart-systems-and-the-governance-of-sociotechnical-transformation",
-    "contentHash": "8646c91ec3524b523ad46ffe27ea10f53db66dc98db0473f31615f1f44732ec4",
+    "contentHash": "c252cb0ad203ba91453b3f684bcdaa096b74f6efd30597731d63a9e1849abd72",
     "topics": [
       "Smart systems in homes, workplaces, healthcare, education, mobility, public services and platform-mediated environments",
       "Human-centred AI, hybrid intelligence and human-AI collaboration in organisational and everyday settings",
@@ -19427,12 +19462,12 @@
       "ai governance",
       "sociotechnical transformation",
       "human-ai collaboration",
-      "digital systems"
+      "digital innovation"
     ],
     "editors": [
       {
         "name": "Wanhao Zhang",
-        "affiliation": "Norwegian University of Science and Technology (NTNU)"
+        "affiliation": "Norwegian University of Science and Technology"
       },
       {
         "name": "Younghoon Chang",
@@ -19446,7 +19481,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-20T10:00:00.000Z",
+        "date": "2026-10-20T12:00:00.000Z",
         "description": "Manuscript deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -19462,7 +19497,7 @@
     "url": "https://think.taylorandfrancis.com/special_issues/persuasive-technology-2026/",
     "title": "Persuasive Technology 2026",
     "slug": "tandf-persuasive-technology-2026",
-    "contentHash": "16af6856b87d9bca79ea55d0bd06e006d83c54b956e6b3cfb65ed3e225fa4c8a",
+    "contentHash": "c5a85c8c051e0206896c00b65d1f21ae58eaf539bbc45c7808aad60eba651e82",
     "topics": [
       "Persuasive systems design",
       "Behaviour change support systems",
@@ -19481,12 +19516,12 @@
     "description": {
       "paragraphs": [
         "The special issue will include selected papers from the 21st International Conference on Persuasive Technology. The special issue will be by invitation only.",
-        "This special issue is by invitation only. Invited papers must have at least 35% extra content from the conference paper. The additional content cannot be related work only or an extended discussion, but should include at least 35% of new results."
+        "Invited papers must have at least 35% extra content from the conference paper. The additional content cannot be related work only or an extended discussion, but should include at least 35% of new results."
       ]
     },
     "tags": [
       "persuasive technology",
-      "behaviour change",
+      "behavior change",
       "human-computer interaction"
     ],
     "editors": [
@@ -19506,7 +19541,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-01T10:00:00.000Z",
+        "date": "2026-09-01T12:00:00.000Z",
         "description": "Manuscript deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -20302,7 +20337,7 @@
     "url": "https://think.taylorandfrancis.com/special_issues/innovation-intermediaries-capability-building/",
     "title": "Innovation intermediaries and capability-building: institutional, economic and social change in regional innovation systems",
     "slug": "tandf-innovation-intermediaries-and-capability-building-institutional-economic-and-social-change-in-regional-innovation-systems",
-    "contentHash": "f1d9388119d2f5ba665d8b114b0e9dfdd15b54c5d69be8101ea604d84af1b52b",
+    "contentHash": "46f83d409069428a9b53c22d3c0d64f8d1b74ca5da5dc393b0612b282755c8a7",
     "topics": [
       "Analyse how different configurations of IIs foster knowledge transfer, upgrade value chains and enable regional diversification or resilience",
       "Analyse what are the structural conditions (i.e., institutional, economic, production and technology related) that lead to the emergence of specific types of IIs",
@@ -20319,8 +20354,7 @@
       "paragraphs": [
         "Over the past two decades, the advent of digital technologies, the pressing need to shift productive structures towards greener systems, as well as recessions due to the Global Financial Crisis, Covid-19 and recent geopolitical tensions have increased the challenges for regions' structural transformation process. At the same time, organisations try to keep pace with increasingly rapid innovation processes by embracing open innovation and co-creation practices. These dynamics have opened a space for public intervention, to solve issues and to coordinate a growing number of stakeholders and activities related to innovation and industrial capabilities.",
         "One of the ways in which governments can intervene is through the funding of innovation intermediaries (IIs). IIs can be organisations of several kinds, such as research and technology organisations, incubators, innovation centres, technopoles, knowledge-intensive business-services providers. They translate early-stage innovation into scale-up and usable products or processes, and they are key in orchestrating innovation and knowledge transfer by filling gaps along the innovation cycles, through the organisation of complex networks of players to solve complex problems. IIs increasingly act as market architects by shaping demand, standards, and regulatory frameworks that enable the emergence of new markets. The emergence of IIs as key actors in the process calls for in-depth analyses of the role, functions and activities that IIs play for regional development.",
-        "IIs are key players within regional ecosystems and are increasingly in a position to engage in regional restructuring and diversification processes. Even when IIs do not have an explicit regional mandate, they participate in a dynamic local ecosystem where institutional, technological and economic linkages evolve and shape the regional context. The structure of the ecosystem itself influences the design and the functioning of IIs and it is pivotal to support the processes of knowledge search and generation that IIs are supposed to contribute to. IIs can actively contribute to related and unrelated diversification processes and leverage their role as knowledge repositories, shapers and facilitators within and across industrial value chain structures in different ecosystems.",
-        "Effective regional development requires not just any institutions, but the right configurations and capacities in those institutions to adapt to a changing context. By examining IIs, this Special Issue aims to observe institutional work in action – how these organisations evolve new practices to meet emerging challenges like digitalisation or decarbonization. It also intends to provide further theoretical understandings of key concepts, such as the functions of IIs within an ecosystem, specifically addressing what the unique features of IIs and their functions are in the innovation life cycle and within the ecosystem where they operate.",
+        "IIs are key players within regional ecosystems and are increasingly in a position to engage in regional restructuring and diversification processes. Even when IIs do not have an explicit regional mandate, they participate in a dynamic local ecosystem where institutional, technological and economic linkages evolve and shape the regional context. The structure of the ecosystem itself influences the design and the functioning of IIs and it is pivotal to support the processes of knowledge search and generation that IIs are supposed to contribute to. IIs can actively contribute to related and unrelated diversification processes and leverage their role as knowledge repositories, shapers and facilitators within and across industrial value chain structures in different ecosystems. Effective regional development requires not just any institutions, but the right configurations and capacities in those institutions to adapt to a changing context. By examining IIs, this Special Issue aims to observe institutional work in action – how these organisations evolve new practices to meet emerging challenges like digitalisation or decarbonization. It also intends to provide further theoretical understandings of key concepts, such as the functions of IIs within an ecosystem, specifically addressing what the unique features of IIs and their functions are in the innovation life cycle and within the ecosystem where they operate.",
         "This Special Issue invites conceptual, empirical and policy-focused papers that unpack the interrelations between evolving innovation IIs and regional economic change. We particularly encourage interdisciplinary approaches bridging economic geography, innovation studies, operations management, industrial economics and public policy, as well as studies based on qualitative or quantitative methods and mixed-method designs that combine qualitative case work with large-scale datasets. We also aim to include papers that cover a variety of empirical settings."
       ]
     },
@@ -20351,12 +20385,12 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-06-30T10:00:00.000Z",
+        "date": "2026-06-30T12:00:00.000Z",
         "description": "Abstract deadline",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-12-31T11:00:00.000Z",
+        "date": "2026-12-31T12:00:00.000Z",
         "description": "Manuscript deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -20439,7 +20473,7 @@
     "url": "https://think.taylorandfrancis.com/special_issues/ppc-human-ai/",
     "title": "Hybrid Human-AI Collaborative Networks",
     "slug": "tandf-hybrid-human-ai-collaborative-networks",
-    "contentHash": "2561f23adecc7a93f3b27d69d2780b357f2a78f5391386f6298728e102a6709e",
+    "contentHash": "b8960becb261717ea739d4c0bc8bab40aaf4a1f9219b78d945f0b6e68ead6252",
     "topics": [
       "Digital platforms for HCNs",
       "Collaborative dynamics among human and AI teams",
@@ -20465,8 +20499,7 @@
     ],
     "description": {
       "paragraphs": [
-        "Hybrid Collaborative Networks (HCNs), involving human-AI collaboration, are emerging as central to value creation in digitally enabled, globally distributed and socio-technically managed ecosystems. Based on the complex interplay between humans and artificial intelligence, these networks combine very heterogeneous actors—such as organizations, individuals, intelligent systems, embodied AI, and platforms—interacting across physical, digital, and organizational boundaries. Understanding the dynamics of such networks is critical to ensure their design, management, resilience, adaptability and sustained performance in rapidly changing environments. Analysing and managing the dynamic nature of HCNs includes examining how hybrid collaborative structures emerge, evolve, adapt, and dissolve over time.",
-        "The dynamics of interactive performance and role distribution for such networks, but also the change of collaboration patterns over time, together with the managerial frameworks required to ensure adaptive governance of HCNs open strong scientific challenges, where technological added-value should be deeply associated with socio-human approaches.",
+        "Hybrid Collaborative Networks (HCNs), involving human-AI collaboration, are emerging as central to value creation in digitally enabled, globally distributed and socio-technically managed ecosystems. Based on the complex interplay between humans and artificial intelligence, these networks combine very heterogeneous actors—such as organizations, individuals, intelligent systems, embodied AI, and platforms—interacting across physical, digital, and organizational boundaries. Understanding the dynamics of such networks is critical to ensure their design, management, resilience, adaptability and sustained performance in rapidly changing environments. Analysing and managing the dynamic nature of HCNs includes examining how hybrid collaborative structures emerge, evolve, adapt, and dissolve over time. The dynamics of interactive performance and role distribution for such networks, but also the change of collaboration patterns over time, together with the managerial frameworks required to ensure adaptive governance of HCNs open strong scientific challenges, where technological added-value should be deeply associated with socio-human approaches.",
         "The 26 years of scientific background developed by PRO-VE in designing and managing collaborative networks stands as the basis to design and manage the life cycle of hybrid human – AI collaborative networks. The very adaptative and changing nature of HCNs calls for a very open multidisciplinary science of collaborative networks, where engineering disciplines collaborate constantly with socio-human and managerial scientists. Beyond the complexity to ensure effective human-AI integration, scalability and evolution of AI systems or trust in hybrid collaboration, require defining innovative design methods and frameworks, adaptive governance and life-cycle management models.",
         "PRO-VE 2026 is a forum for sharing and discussing current developments and experiences regarding the role of collaborative networks in the age of combined intelligence between humans and AI. Contributions to this special issue are selected from the papers submitted to the conference. A limited number of self-submission papers can be accepted for publication in this SI.",
         "The SI aims to integrate multiple and diverse disciplines such as Engineering, Managerial and Socio-Human sciences: industrial and electrical engineering, computer science, manufacturing, organization science, logistics, management, and social sciences, among others."
@@ -20474,9 +20507,8 @@
     },
     "tags": [
       "human-ai collaboration",
-      "collaborative networks",
-      "hybrid systems",
-      "intelligent manufacturing",
+      "hybrid collaborative networks",
+      "collaborative systems",
       "digital transformation"
     ],
     "editors": [
@@ -20500,7 +20532,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2027-03-31T10:00:00.000Z",
+        "date": "2027-03-31T12:00:00.000Z",
         "description": "Manuscript deadline",
         "is_full_paper_submission_deadline": true
       }
