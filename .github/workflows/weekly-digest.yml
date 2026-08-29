@@ -1,0 +1,63 @@
+name: Digest hebdomadaire
+on:
+  workflow_dispatch:
+  schedule:
+    # Dimanche 18h00 UTC : 20h00 a Paris en heure d'ete, 19h00 en heure
+    # d'hiver. GitHub ne connait que UTC ; l'heure d'arrivee du mail se
+    # decale donc d'une heure au changement d'heure, ce qui est sans
+    # consequence pour un digest.
+    - cron: '0 18 * * 0'
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    # Le job ne fait que lire le depot et envoyer un mail : aucun droit
+    # d'ecriture, contrairement au job de scraping qui pousse ses resultats.
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout this repository
+        # Action epinglee au SHA du tag v4 : un tag git est mutable, un SHA
+        # non. Meme regle que dans scrape.yml.
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      # Pas d'etape setup-node : scrape.yml n'en a pas non plus et tourne sur
+      # le Node par defaut du runner. Les deux workflows restent ainsi sur la
+      # meme version, quelle qu'elle soit.
+      #
+      # --ignore-scripts neutralise les hooks preinstall/postinstall des
+      # dependances, comme dans scrape.yml. weekly-digest.mjs n'utilise que
+      # des modules natifs, mais npm ci garantit que le depot est installable
+      # et laisse la porte ouverte a un digest qui lirait plus tard une
+      # dependance du projet.
+      - run: npm ci --ignore-scripts
+      # La sortie passe par un fichier avant d'aller dans GITHUB_OUTPUT : le
+      # cat intermediaire laisse une copie lisible dans le log du run, utile
+      # quand le mail n'arrive pas et qu'il faut savoir si le probleme vient
+      # du script ou de l'envoi. Delimiteur aleatoire : une sortie qui
+      # contiendrait la ligne du delimiteur pourrait sinon injecter ce
+      # qu'elle veut dans les sorties de l'etape.
+      - name: Produire le digest
+        id: digest
+        run: |
+          node scripts/weekly-digest.mjs > digest.txt
+          cat digest.txt
+          DELIM="digest-$(openssl rand -hex 12)"
+          {
+            echo "texte<<${DELIM}"
+            cat digest.txt
+            echo "${DELIM}"
+          } >> "$GITHUB_OUTPUT"
+      # Mot de passe d'application Google, pas le mot de passe du compte :
+      # la validation en deux etapes doit etre active sur le compte
+      # DIGEST_GMAIL_USER pour pouvoir en generer un.
+      - name: Envoyer le digest par email
+        uses: dawidd6/action-send-mail@4226df7daafa6fc901a43789c49bf7ab309066e7 # v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.DIGEST_GMAIL_USER }}
+          password: ${{ secrets.DIGEST_GMAIL_PASSWORD }}
+          subject: kerostig - nouveaux appels cette semaine
+          to: bruno.dauce@univ-angers.fr
+          from: kerostig <${{ secrets.DIGEST_GMAIL_USER }}>
+          body: ${{ steps.digest.outputs.texte }}
