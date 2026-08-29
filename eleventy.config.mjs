@@ -476,12 +476,18 @@ export default async function (eleventyConfig) {
         return calls.filter(appelOuvert).length;
     });
 
-    // Flux public /data/open-calls.json. Volontairement pauvre : six champs qui
-    // identifient l'appel et menent a sa source, rien de plus. Aucune donnee
-    // enrichie de la revue n'y passe -- ni rang FNEGE, ni discipline, ni APC, ni
-    // politique d'auto-archivage, ni metriques OpenAlex. Le rang FNEGE surtout :
-    // un flux JSON de toutes les revues ouvertes avec leur rang serait la liste
-    // integrale telechargeable que le projet s'interdit de republier.
+    // Flux public /data/open-calls.json. Volontairement pauvre : sept champs qui
+    // identifient l'appel et menent a sa source -- la sienne chez l'editeur, et
+    // sa fiche ici. Presque aucune donnee enrichie de la revue n'y passe : ni
+    // rang FNEGE, ni discipline, ni APC, ni politique d'auto-archivage, ni
+    // metriques OpenAlex. Le rang FNEGE surtout : un flux JSON de toutes les
+    // revues ouvertes avec leur rang serait la liste integrale telechargeable
+    // que le projet s'interdit de republier. Cette exclusion a ete reexaminee
+    // le 2026-08-29 et maintenue.
+    //
+    // Seule exception : open_access, un booleen deja public chez DOAJ et
+    // OpenAlex, que le flux se contente de relayer. null -- et non false --
+    // quand la jointure ISSN echoue : valeur absente explicite.
     //
     // Le critere est appelOuvert (tolerance zero), pas appelAffichable : les
     // pages du site laissent entrer sept jours d'appels echus pour couvrir les
@@ -493,23 +499,30 @@ export default async function (eleventyConfig) {
     // meme raison que pour les blocs JSON-LD plus haut. Un titre scrape contenant
     // un guillemet ou un tableau vide suffit a produire du JSON invalide des que
     // les virgules sont posees a la main.
-    eleventyConfig.addFilter("fluxAppelsOuverts", function (calls, journals) {
+    eleventyConfig.addFilter("fluxAppelsOuverts", function (calls, journals, meta) {
+        const base = racine(meta);
         const appels = (calls || [])
             .filter(appelOuvert)
             .map((call) => {
                 const revue = trouverRevueDeLAppel(journals, call);
+                const oa = revue && revue.acces_ouvert;
                 return {
                     title: call.title || call.metaTitle || null,
-                    // Nom d'affichage de journals.json, jamais le texte brut
-                    // scrape ; call.journal ne sert que si la jointure echoue.
-                    journal: (revue && revue.titre) || call.journal || null,
-                    issn: call.issn || (revue && revue.issn_cle) || null,
+                    url: call.url || null,
+                    // Fiche de l'appel ici. Meme forme que le permalink de
+                    // call-pages.njk, barre finale comprise : un consommateur
+                    // qui recolle les URLs a la main se trompe de forme et
+                    // recolte une redirection a chaque appel.
+                    kerostig_url: call.slug ? `${base}/call/${call.slug}/` : null,
                     // null quand le modele n'a extrait aucune date de soumission :
                     // valeur absente explicite, jamais une echeance deduite d'une
                     // autre date de l'appel (notification, publication).
                     deadline: echeanceSoumission(call.dates),
-                    url: call.url || null,
-                    slug: call.slug || null,
+                    // Nom d'affichage de journals.json, jamais le texte brut
+                    // scrape ; call.journal ne sert que si la jointure echoue.
+                    journal: (revue && revue.titre) || call.journal || null,
+                    issn: call.issn || (revue && revue.issn_cle) || null,
+                    open_access: oa ? oa.est_oa === true : null,
                 };
             })
             .sort((a, b) => {

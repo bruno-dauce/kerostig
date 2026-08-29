@@ -2,4 +2,4 @@
 permalink: /data/open-calls.json
 eleventyExcludeFromCollections: true
 ---
-{{ calls | fluxAppelsOuverts(journals) | json | safe }}
+{{ calls | fluxAppelsOuverts(journals, meta) | json | safe }}
