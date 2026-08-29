@@ -10,7 +10,12 @@
 
     <div class="flex flex-wrap gap-1.5">
       {% if revue.rang_fnege_2025 %}
-      <span class="badge badge-sm badge-outline font-semibold" style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</span>
+      {# Meme lien que le badge de rang des cartes (cf. call-card.html). Pas de &disc
+         ici : cette carte n'est incluse que par la fiche appel, dont le contexte de
+         page est l'appel et non une discipline. #}
+      <a href="{{ '/' | url }}?rang={{ revue.rang_fnege_2025 | urlencode }}"
+         class="badge badge-sm badge-outline font-semibold transition-colors hover:bg-primary/10"
+         style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</a>
       {% endif %}
       {% set disc = revue.discipline_code | disciplineDuCode %}
       {% if disc %}

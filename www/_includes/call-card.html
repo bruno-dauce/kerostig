@@ -68,12 +68,30 @@
                journals.json, parfois ampute de son apostrophe. Repli sur le brut si
                le code FNEGE est inconnu. #}
             {% set disc = revue.discipline_code | disciplineDuCode %}
-            <span class="badge badge-sm badge-outline font-semibold" style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</span>
+            {# Le rang mene vers l'accueil pre-filtre sur ce rang : il n'existe pas de
+               page statique par rang, le filtrage par rang est client (cf. CLAUDE.md,
+               le filtrage cote client evite les pages parametrees dupliquees). La
+               canonique de l'accueil, meta.url + page.url, ignore la query string :
+               /?rang=1 se canonicalise donc vers / et n'ajoute aucune page a indexer.
+               urlencode a cause du rang « 1* », dont l'asterisque n'a rien a faire brut
+               dans une URL.
+               &disc n'est ajoute que sur les pages discipline : la variable Nunjucks
+               discipline est l'alias de pagination de discipline-pages.njk, et n'existe
+               nulle part ailleurs. Le parametre porte le contexte de la PAGE quittee,
+               pas la discipline de la revue -- depuis l'accueil, cliquer un rang ne
+               doit filtrer que le rang.
+               Le survol ne reprend pas le hover:text-primary du badge de discipline :
+               celui-ci passe de l'encre au bleu, or le badge de rang est deja bleu, et
+               sa couleur est posee en style inline qu'aucune classe ne peut surcharger.
+               Fond legerement teinte a la place, meme bleu, meme sobriete. #}
+            <a href="{{ '/' | url }}?rang={{ revue.rang_fnege_2025 | urlencode }}{% if discipline %}&amp;disc={{ discipline.code | urlencode }}{% endif %}"
+               class="badge badge-sm badge-outline font-semibold transition-colors hover:bg-primary/10"
+               style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</a>
             {# Le badge mene vers la page hub de la discipline, comme les tags plus bas
                menent vers /tag/. Un lien plutot qu'un declenchement du filtre Alpine :
-               la carte est aussi incluse par les pages revue, tag et appel, dont le
-               scope Alpine n'expose aucune propriete discipline -- un @click="discipline = ..."
-               y leverait une erreur. Le slug vient de _data/disciplines.json, seule
+               la carte est aussi incluse par discipline-pages.njk, qui redefinit son
+               propre scope Alpine, reduit, sans aucune propriete discipline -- un
+               @click="discipline = ..." y leverait une erreur. Le slug vient de _data/disciplines.json, seule
                source des routes /discipline/ : pas de slug fabrique depuis le libelle,
                qui menerait a un 404 quand le code FNEGE est inconnu. Aucun lien vers
                soi-meme sur la page de la discipline en cours. #}

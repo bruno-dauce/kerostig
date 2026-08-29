@@ -44,7 +44,12 @@
   {% if revue.editeur %}<p class="text-sm opacity-80">{{ revue.editeur }}</p>{% endif %}
 
   <div class="flex flex-wrap gap-2 mt-3 text-xs">
-    <span class="badge badge-outline font-semibold" style="color:#2B5F8E;border-color:#2B5F8E">rang FNEGE {{ revue.rang_fnege_2025 }}</span>
+    {# Meme lien que les trois autres badges de rang du site (cf. call-card.html) :
+       l'accueil pre-filtre sur ce rang. Pas de &disc ici, le contexte de page est
+       une revue et non une discipline. #}
+    <a href="{{ '/' | url }}?rang={{ revue.rang_fnege_2025 | urlencode }}"
+       class="badge badge-outline font-semibold transition-colors hover:bg-primary/10"
+       style="color:#2B5F8E;border-color:#2B5F8E">rang FNEGE {{ revue.rang_fnege_2025 }}</a>
     <span class="badge badge-outline">{% if disc %}{{ disc.nom }}{% else %}{{ revue.discipline }}{% endif %}</span>
     {% if revue.acces_ouvert.est_oa %}
     <span class="badge badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C">accès ouvert</span>

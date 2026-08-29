@@ -7,8 +7,20 @@ layout: layouts/base.html
 
 <div x-data="{
     search: new URLSearchParams(window.location.search).get('q') || '',
-    discipline: '',
-    rang: '',
+    // Discipline et rang pre-selectionnes par ?disc= et ?rang=, les liens que portent
+    // les badges des cartes. Les deux valeurs sont filtrees sur les valeurs connues :
+    // sans ce garde-fou, un ?rang=zz tape a la main traverserait match_rang et
+    // masquerait tous les appels, sans qu'aucune puce ni aucune option du menu
+    // n'apparaisse active pour expliquer la liste vide.
+    // Le rang se valide ici, sur la liste litterale des quatre rangs FNEGE, celle-la
+    // meme que parcourt le x-for des puces. Le code de discipline se valide dans
+    // x-init : sa seule source est discList, et une propriete d'objet litteral ne peut
+    // pas en lire une autre.
+    discipline: new URLSearchParams(window.location.search).get('disc') || '',
+    rang: (() => {
+        const r = new URLSearchParams(window.location.search).get('rang') || '';
+        return ['1*', '1', '2', '3'].includes(r) ? r : '';
+    })(),
     echeance: '',
     oaOnly: false,
     francophone: false,
@@ -292,7 +304,19 @@ layout: layouts/base.html
         this.page = 1;
     }
 }" x-init="
-    $nextTick(() => { sort_calls(); recount(); });
+    // Assainissement de ?disc= : discList n'est lisible qu'ici. Avant les $watch, pour
+    // qu'un code rejete ne declenche pas un recount inutile au chargement.
+    discipline = discList.some(d => d.code === discipline) ? discipline : '';
+    $nextTick(() => {
+        sort_calls(); recount();
+        // Resynchronisation du menu discipline sur l'etat initial. Ses options sont
+        // produites par un x-for, evalue apres le x-model du select : quand Alpine
+        // pose la valeur venue de ?disc=, l'option correspondante n'existe pas encore
+        // et le menu retombe sur « Toutes » pendant que la liste, elle, est bien
+        // filtree. Le select n'a besoin de ce rattrapage qu'une fois, au chargement ;
+        // ensuite x-model fait son travail dans les deux sens.
+        if (discipline) $refs.discSelect.value = discipline;
+    });
     window.addEventListener('resize', () => isDesktop = window.innerWidth >= 1024);
     ['search', 'discipline', 'rang', 'echeance', 'francophone', 'oaOnly', 'showClosed']
         .forEach(cle => $watch(cle, () => { page = 1; recount(); }));
@@ -352,7 +376,7 @@ layout: layouts/base.html
 
                     <div class="mb-4">
                         <h3 class="text-xs opacity-70 mb-1.5">Discipline</h3>
-                        <select x-model="discipline" class="select select-sm select-bordered bg-base-200 border-base-300 w-full font-normal">
+                        <select x-model="discipline" x-ref="discSelect" class="select select-sm select-bordered bg-base-200 border-base-300 w-full font-normal">
                             <option value="" x-text="'Toutes les disciplines (' + count_disc('') + ')'"></option>
                             <template x-for="d in discList" :key="d.code">
                                 <option :value="d.code" x-text="d.nom + ' (' + count_disc(d.code) + ')'"></option>
