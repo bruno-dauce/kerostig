@@ -55,7 +55,7 @@ function build_urls(issn) {
 //   "Latest Special Issues"            -> numeros deja publies
 // Chaque appel dans la premiere section est un groupe de <p> separes par
 // des <hr>.
-const SECTION_HEADING_PATTERN = /call.*for.*papers/i;
+const SECTION_HEADING_PATTERN = /call.*for.*papers|special issue calls/i;
 const NON_CALL_LINK_TEXT_PATTERN = /^(author guidelines|submission guidelines|guide for authors)$/i;
 
 // Un delai trop court entre requetes declenche un challenge Cloudflare
@@ -127,8 +127,22 @@ async function find_page(journalName, urls) {
     return null;
 }
 
-function extract_entries(html, pageUrl, journalName) {
+export function extract_entries(html, pageUrl, journalName) {
     const $ = cheerio.load(html);
+
+    // Structure moderne Wiley : chaque appel est un bloc autonome
+    // .DST-CFP-listing-item (titre en h3 > a, echeance dans
+    // p.DST-CFP-listing-item__deadline). Le premier bloc porte le
+    // modificateur --intro : c'est le chapeau de la section (h2 "Calls for
+    // Papers" + texte de presentation), pas un appel. Cette structure ne
+    // passe pas par la decoupe h2/hr ci-dessous, d'ou une strategie propre
+    // essayee en premier ; les revues encore sur l'ancien gabarit
+    // retombent sur la logique historique.
+    const listingEntries = extract_listing_items($, pageUrl);
+    if (listingEntries.length > 0) {
+        return listingEntries;
+    }
+
     const headings = $('h2').toArray();
     const startHeading = headings.find(h => SECTION_HEADING_PATTERN.test($(h).text()));
 
@@ -141,37 +155,16 @@ function extract_entries(html, pageUrl, journalName) {
     }
 
     const sectionNodes = $(startHeading).nextUntil('h2').toArray();
-    const groups = [];
-    let current = [];
-    for (const node of sectionNodes) {
-        if (node.tagName === 'hr') {
-            if (current.length) groups.push(current);
-            current = [];
-        } else {
-            current.push(node);
-        }
-    }
-    if (current.length) groups.push(current);
+    const groups = sectionNodes.some(node => node.tagName === 'hr')
+        ? split_on_separators(sectionNodes)
+        : split_on_call_links($, sectionNodes);
 
     const entries = groups
         .map(group => {
-            // Ignore les liens mail obscurcis par Cloudflare
-            // (/cdn-cgi/l/email-protection, texte affiche "[email protected]"),
-            // les mailto: directs, et les liens de navigation generiques
-            // (ex. "Author Guidelines" dans le paragraphe d'intro) -- jamais
-            // le vrai lien d'un appel.
             let link = null;
             for (const node of group) {
-                const candidate = $(node).find('a[href]').toArray()
-                    .map(a => $(a))
-                    .find(a => {
-                        const href = a.attr('href') ?? '';
-                        const text = a.text().trim();
-                        return !href.includes('cdn-cgi/l/email-protection')
-                            && !href.startsWith('mailto:')
-                            && !NON_CALL_LINK_TEXT_PATTERN.test(text);
-                    });
-                if (candidate) { link = candidate; break; }
+                link = find_call_link($, node);
+                if (link) break;
             }
             return {
                 metaTitle: link ? link.text().trim() : null,
@@ -188,6 +181,77 @@ function extract_entries(html, pageUrl, journalName) {
     }
 
     return entries;
+}
+
+// Ignore les liens mail obscurcis par Cloudflare
+// (/cdn-cgi/l/email-protection, texte affiche "[email protected]"), les
+// mailto: directs, et les liens de navigation generiques (ex. "Author
+// Guidelines" dans le paragraphe d'intro) -- jamais le vrai lien d'un appel.
+function find_call_link($, node) {
+    return $(node).find('a[href]').toArray()
+        .map(a => $(a))
+        .find(a => {
+            const href = a.attr('href') ?? '';
+            const text = a.text().trim();
+            return !href.includes('cdn-cgi/l/email-protection')
+                && !href.startsWith('mailto:')
+                && !NON_CALL_LINK_TEXT_PATTERN.test(text);
+        }) ?? null;
+}
+
+function split_on_separators(nodes) {
+    const groups = [];
+    let current = [];
+    for (const node of nodes) {
+        if (node.tagName === 'hr') {
+            if (current.length) groups.push(current);
+            current = [];
+        } else {
+            current.push(node);
+        }
+    }
+    if (current.length) groups.push(current);
+    return groups;
+}
+
+// Certaines sections listent plusieurs appels sans aucun <hr> (ex. Journal
+// of Management Studies : quatre <p>, chacun avec son lien PDF et sa propre
+// echeance). Sans separateur, la decoupe ci-dessus renvoie un groupe unique
+// qui agglomere tous les appels : un seul enregistrement, avec le titre du
+// premier et les echeances de tous les autres dans le rawContent. On repli
+// donc sur un decoupage par lien : un nouveau groupe demarre des qu'un noeud
+// porte un lien d'appel alors que le groupe courant en a deja un. Les noeuds
+// sans lien (chapeau, precisions) restent rattaches au groupe en cours.
+function split_on_call_links($, nodes) {
+    const groups = [];
+    let current = [];
+    let currentHasLink = false;
+    for (const node of nodes) {
+        const hasLink = Boolean(find_call_link($, node));
+        if (hasLink && currentHasLink) {
+            groups.push(current);
+            current = [];
+            currentHasLink = false;
+        }
+        current.push(node);
+        currentHasLink = currentHasLink || hasLink;
+    }
+    if (current.length) groups.push(current);
+    return groups;
+}
+
+function extract_listing_items($, pageUrl) {
+    return $('.DST-CFP-listing-item:not(.DST-CFP-listing-item--intro)').toArray()
+        .map(item => {
+            const link = $(item).find('h3 a[href]').first();
+            if (link.length === 0) return null;
+            return {
+                metaTitle: link.text().trim(),
+                url: new URL(link.attr('href'), pageUrl).href,
+                rawContent: $.html(item),
+            };
+        })
+        .filter(entry => entry && entry.metaTitle && entry.url);
 }
 
 function sleep(ms) {
