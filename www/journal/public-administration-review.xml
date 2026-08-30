@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Public Administration Review</title>
+        <link>https://kerostig.org/journal/public-administration-review/</link>
+        <description>Derniers appels à publications pour Public Administration Review.</description>
+        <lastBuildDate>Sun, 30 Aug 2026 08:28:09 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Public Administration Review</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/journal/public-administration-review/</link>
+        </image>
+        <copyright>kerostig © 2026</copyright>
+        <item>
+            <title><![CDATA[Ethics in Government & Nonprofit Organizations]]></title>
+            <link>https://kerostig.org/call/wiley-ethics-in-government-and-nonprofit-organizations/</link>
+            <guid>wiley-ethics-in-government-and-nonprofit-organizations</guid>
+            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
+            <content:encoded><![CDATA[<div>
+    
+    
+    
+    
+    
+</div>]]></content:encoded>
+            <author>Public Administration Review (WILEY)</author>
+        </item>
+    </channel>
+</rss>
