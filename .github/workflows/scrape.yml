@@ -6,7 +6,22 @@ on:
         description: 'Scraper(s) a lancer, separes par des virgules (ex: sage ou emerald,sage,wiley,informs)'
         required: false
   schedule:
-    - cron: '10 2 * * *'
+    # Lundi 02h10 UTC : 04h10 a Paris en heure d'ete, 03h10 en heure d'hiver.
+    # Passage d'un rythme quotidien a hebdomadaire le 2026-08-31. La collecte
+    # quotidienne n'apportait pas grand-chose -- les appels a publications
+    # bougent a l'echelle de la semaine, pas de la journee -- et elle
+    # multipliait par sept les requetes chez les editeurs comme les commits
+    # dans le depot. Le site annonce « mis a jour chaque semaine » (about.html,
+    # index.html, llms.txt) : le cron rejoint enfin ce qui est promis.
+    #
+    # Choix du lundi tot : les donnees sont fraiches quand la semaine
+    # universitaire commence. Le digest par mail part le dimanche 18h UTC
+    # (weekly-digest.yml) et regarde sept jours en arriere ; un scraping du
+    # lundi 02h10 tombe donc dans sa fenetre, avec plus de huit heures de
+    # marge. Ne pas repousser ce cron au-dela du lundi apres-midi sans
+    # deplacer le digest, sinon les appels de la semaine sortiraient de la
+    # fenetre et ne seraient jamais annonces.
+    - cron: '10 2 * * 1'
 jobs:
   scrape:
     runs-on: ubuntu-latest
