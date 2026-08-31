@@ -2,11 +2,24 @@ name: Digest hebdomadaire
 on:
   workflow_dispatch:
   schedule:
-    # Dimanche 18h00 UTC : 20h00 a Paris en heure d'ete, 19h00 en heure
-    # d'hiver. GitHub ne connait que UTC ; l'heure d'arrivee du mail se
-    # decale donc d'une heure au changement d'heure, ce qui est sans
-    # consequence pour un digest.
-    - cron: '0 18 * * 0'
+    # Lundi 08h00 UTC : 10h00 a Paris en heure d'ete, 09h00 en heure d'hiver.
+    # GitHub ne connait que UTC ; l'heure d'arrivee du mail se decale donc
+    # d'une heure au changement d'heure, ce qui est sans consequence pour un
+    # digest.
+    #
+    # Deplace du dimanche 18h00 au lundi 08h00 le 2026-08-31, en meme temps
+    # que le passage du scraping a l'hebdomadaire. Le digest suit desormais le
+    # scraping du lundi 02h10 UTC (scrape.yml) d'environ six heures : le mail
+    # arrive le lundi matin avec les appels collectes la nuit meme, au lieu de
+    # rendre compte le dimanche soir d'une collecte vieille de six jours.
+    #
+    # Les deux crons vont de pair. La fenetre de sept jours du digest (cf
+    # FENETRE_JOURS dans scripts/weekly-digest.mjs) s'etend du lundi 08h00 au
+    # lundi 08h00 precedent : elle contient exactement un scraping, celui du
+    # matin meme, le precedent tombant juste avant son debut. Chaque appel est
+    # ainsi annonce une fois et une seule. Ne pas deplacer l'un sans l'autre,
+    # et ne jamais faire passer le digest avant le scraping.
+    - cron: '0 8 * * 1'
 jobs:
   digest:
     runs-on: ubuntu-latest
