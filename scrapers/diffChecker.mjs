@@ -9,6 +9,32 @@ import { echeanceDepassee, joursDepuisEcheance } from './echeance.mjs';
 // (eleventy.config.mjs) : on masque vite, on ne touche aux donnees qu'a coup sur.
 const JOURS_APRES_ECHEANCE = 30;
 
+// Le tri par pubDate seul n'etait pas un ordre total : au 2026-08-31, 644 des
+// 703 appels partageaient leur pubDate avec au moins un autre, dont 207 a la
+// meme milliseconde. Array.sort etant stable, ces ex aequo conservaient
+// l'ordre d'entree -- lequel change d'un passage a l'autre selon que l'appel
+// arrive par la branche des nouveaux ou par celle des anciens. Des blocs
+// entiers permutaient : 53 000 lignes de diff sur calls.json pour un seul
+// appel ajoute, un historique Git illisible, et une vraie perte de donnees
+// indetectable a la revue.
+//
+// Le slug departage : il est unique sur l'ensemble des appels (verifie,
+// 703/703). Comparaison par unites de code plutot que localeCompare, dont le
+// resultat depend de l'ICU de la machine -- le poste Windows et le runner
+// Linux doivent produire exactement le meme fichier.
+//
+// Un pubDate absent ou illisible rend NaN, qui est faux : on retombe alors
+// sur le slug, donc l'ordre reste defini meme sur donnee abimee.
+// Fonction pure, exportee pour test.
+export function trierAppels(calls) {
+    return [...calls].sort((a, b) => {
+        const parDate = new Date(b.pubDate) - new Date(a.pubDate);
+        if (parDate) return parDate;
+        if (a.slug === b.slug) return 0;
+        return a.slug < b.slug ? -1 : 1;
+    });
+}
+
 // Une remontee amputee de plus de la moitie est traitee comme un echec, pas
 // comme un retrait. Seuil calibre sur l'historique du depot : la variation de
 // routine d'un scraper d'un passage a l'autre vaut 1 a 3 appels. Les grosses
@@ -162,9 +188,7 @@ export async function integrateCalls(newCalls, ranAbbreviations = null) {
         }
     }
 
-    resultCalls.sort((a, b) => {
-        return new Date(b.pubDate) - new Date(a.pubDate);
-    });
+    resultCalls = trierAppels(resultCalls);
 
     resultCalls = resultCalls.map(call => {
         if (call.active) {

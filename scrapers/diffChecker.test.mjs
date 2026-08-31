@@ -4,7 +4,7 @@ import { promises as fs } from 'fs';
 import os from 'os';
 import path from 'path';
 
-import { detecterScrapersVides, estNouvelArchivage, integrateCalls } from './diffChecker.mjs';
+import { detecterScrapersVides, estNouvelArchivage, integrateCalls, trierAppels } from './diffChecker.mjs';
 import { clean } from './dataPreparation.mjs';
 
 // Fabrique d'appels : n appels actifs pour une abbreviation donnee.
@@ -14,6 +14,52 @@ const appels = (abbreviation, n, actif = true) =>
         slug: `${abbreviation}-${i}`,
         active: actif,
     }));
+
+// Fabrique d'appels dates : slug explicite, pubDate partagee a volonte.
+const date = (slug, pubDate) => ({ slug, pubDate, active: true });
+
+test('ordonne les appels du plus recent au plus ancien', () => {
+    const trie = trierAppels([
+        date('vieux', '2026-08-01T00:00:00.000Z'),
+        date('recent', '2026-08-30T00:00:00.000Z'),
+        date('median', '2026-08-15T00:00:00.000Z'),
+    ]);
+
+    assert.deepEqual(trie.map(c => c.slug), ['recent', 'median', 'vieux']);
+});
+
+test('departage par slug les appels de meme pubDate', () => {
+    const meme = '2026-08-11T10:27:21.121Z';
+    const trie = trierAppels([date('charlie', meme), date('alpha', meme), date('bravo', meme)]);
+
+    assert.deepEqual(trie.map(c => c.slug), ['alpha', 'bravo', 'charlie']);
+});
+
+test('rend le meme ordre quel que soit l ordre d entree', () => {
+    // La regression du 2026-08-31 : 644 appels sur 703 partageaient leur
+    // pubDate avec au moins un autre, dont 207 a la meme milliseconde. Le tri
+    // par pubDate seul est stable, donc les ex aequo gardaient l'ordre
+    // d'entree -- lequel change d'un run a l'autre selon que l'appel passe par
+    // la branche des nouveaux ou celle des anciens. Des blocs entiers
+    // permutaient et calls.json etait reecrit en totalite.
+    const meme = '2026-08-11T10:27:21.121Z';
+    const autre = '2026-08-29T11:29:31.659Z';
+    const appelsDates = [
+        date('emerald-1', meme), date('tandf-2', meme), date('sage-3', meme),
+        date('informs-4', autre), date('elsevier-5', autre), date('wiley-6', meme),
+    ];
+
+    const attendu = trierAppels(appelsDates).map(c => c.slug);
+    const permutations = [
+        [...appelsDates].reverse(),
+        [appelsDates[3], appelsDates[0], appelsDates[5], appelsDates[2], appelsDates[4], appelsDates[1]],
+        [appelsDates[2], appelsDates[4], appelsDates[1], appelsDates[5], appelsDates[0], appelsDates[3]],
+    ];
+
+    for (const permutation of permutations) {
+        assert.deepEqual(trierAppels(permutation).map(c => c.slug), attendu);
+    }
+});
 
 test('signale une troncature muette : 47 appels au passage precedent, 12 au passage courant', () => {
     const anciens = appels('emerald', 47);
