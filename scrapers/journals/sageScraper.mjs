@@ -1,22 +1,36 @@
 import * as cheerio from 'cheerio';
-import { mkdtempSync, readFileSync } from 'fs';
-import path from 'path';
-import os from 'os';
+import { readFileSync } from 'fs';
 import { matchIssn } from '../issnMatcher.mjs';
-import { curlGet, curlGetBuffer } from '../curlClient.mjs';
+import { waitForCloudflare } from '../cloudflare.mjs';
 import { getContent } from '../fileParser.mjs';
 
-// COLLECTE LOCALE UNIQUEMENT (decision v1, 2026-08-18).
+// COLLECTE LOCALE UNIQUEMENT (decision v1, 2026-08-18 ; voie d'acces changee
+// le 2026-08-31).
 //
 // journals.sagepub.com renvoie un 403 Cloudflare depuis GitHub Actions, y
 // compris avec curl-impersonate installe et fonctionnel : la variable
 // discriminante est la reputation de l'IP de sortie (plages Azure du
-// runner), pas le fingerprint TLS -- les memes requetes passent depuis une
-// IP domestique avec un curl standard, moins credible. Ce scraper ne
-// rapporte donc rien en CI ; ses appels sont collectes en lancant le
-// pipeline a la main (`npm run scrape -- --only sage`) depuis un poste
-// personnel. La contrainte est assumee pour la v1 : la sortir demanderait
-// de router SAGE par un service tiers ou un runner auto-heberge.
+// runner), pas le fingerprint TLS. Ce scraper ne rapporte donc rien en CI ;
+// ses appels sont collectes en lancant le pipeline a la main
+// (`npm run scrape -- --only sage`) depuis un poste personnel.
+//
+// CHANGEMENT DU 2026-08-31 : curl ne passe plus non plus depuis le poste
+// local. SAGE a etendu son challenge Cloudflare (type "managed") a toutes ses
+// routes HTML -- 403 mesure ce jour sur le hub, les pages revue, les pages
+// /page/{code}/call-for-papers, le repertoire /action/showPublications et le
+// sitemap, avec le curl Windows (Schannel) qui passait jusque-la. Le repli
+// manuel etait donc mort lui aussi.
+//
+// Ce scraper passe pour cette raison par le navigateur (patchright + profil
+// persistant) au lieu de curl : le challenge est franchi en ~1,8 s au premier
+// contact, le cf_clearance obtenu vaut un an, et les pages repondent ensuite
+// 200 d'emblee en ~1,2 s. Cela ne debloque PAS le CI -- cf_clearance est lie
+// au couple IP + User-Agent, un jeton obtenu ici ne vaudra rien depuis Azure.
+//
+// Piste non retenue avant celle-ci : les flux RSS de SAGE. Ils existent
+// (/action/showFeed) mais ne portent que des articles parus, aucun appel, et
+// le robots.txt interdit /action comme /rss. Verifie le 2026-08-31, ne pas y
+// revenir.
 //
 // Consequence a garder en tete : le garde-fou "scraper vide" de
 // diffChecker.mjs voit ce scraper rentrer bredouille a chaque passage CI.
@@ -31,33 +45,21 @@ import { getContent } from '../fileParser.mjs';
 // issue" sont deja listes ici, melanges aux appels generaux, par revue.
 const HUB_URL = 'https://journals.sagepub.com/open-call-for-papers';
 
-// Le hub est du HTML statique (confirme manuellement via curl, aucun script
-// requis pour voir le contenu complet), mais Chromium/patchright s'y fait
-// bloquer (403) malgre les evasions de patchright -- fingerprint detecte sur
-// ce point precis, alors qu'un simple curl passe. On shell out donc vers
-// curl plutot que d'ouvrir une page. ATTENTION, meme piege que sur Wiley :
-// curl sous Windows (Schannel) peut passer la ou curl sous Linux/GitHub
-// Actions (OpenSSL) est bloque (fingerprint TLS distingue par Cloudflare) --
-// c'est pour ca que curlClient.mjs utilise curl-impersonate quand il est
-// installe (cf .github/workflows/scrape.yml) plutot que curl standard. Le
-// statut HTTP est logue explicitement a chaque run (dans curlClient.mjs)
-// pour verifier en CI plutot que de supposer que ca marche partout parce
-// que ca marche ici.
-const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
-
-// Le hub fait un aller-retour de cookie avant de servir le vrai contenu
-// (302 -> ?cookieSet=1 -> contenu) : sans moteur de cookies actif, curl ne
-// renvoie pas le cookie recu lors du saut de redirection et se retrouve
-// bascule vers la page d'accueil generique (200 mais contenu vide de tout
-// appel) -- constate en pratique, intermittent selon les requetes. -c/-b
-// avec un jar (meme vide au depart) suffit a fiabiliser le passage, verifie
-// sur plusieurs execution successives.
-const COOKIE_JAR_PATH = path.join(mkdtempSync(path.join(os.tmpdir(), 'sage-cookies-')), 'cookies.txt');
-
 // Confirme via le HTML reel : conteneur unique regroupant toutes les
 // sections disciplinaires. ".bs-accordion__control"/"__content" sont des
 // classes distinctes (tokens differents), pas de collision avec ce selecteur.
 const ACCORDION_SELECTOR = 'div.bs-accordion';
+
+// Marqueur de page chargee, present exactement une fois sur toutes les pages
+// revue mesurees (basa, asqa, joma, ram, cmra) : c'est le conteneur de la
+// plateforme Atypon. Il sert a distinguer une page REELLEMENT lue d'une page
+// injoignable -- distinction qui compte, une revue sans appel n'etant pas une
+// revue inaccessible. Attendre directement les encarts confondrait les deux.
+const PAGE_MARKER_SELECTOR = '#pb-page-content';
+
+// Delai de navigation. Genereux : le premier contact de la session paie en
+// plus la resolution du challenge Cloudflare.
+const NAVIGATION_TIMEOUT_MS = 45000;
 
 // Contenu CMS libre, sans wrapper dedie par appel : chaque revue apparait
 // comme un lien <a href="/home/CODE">Nom de la revue</a>, suivi d'un ou
@@ -193,124 +195,146 @@ const REQUEST_DELAY_MS = 1000;
 // porte tout le contenu : 5 pages et 18 220 caracteres pour l'appel "AI,
 // Business, and Epochal Change" de Business & Society.
 //
-// Recupere via curlGetBuffer et non via fileParser.parse : ce dernier
-// telecharge avec patchright, que journals.sagepub.com bloque (cf bandeau
-// en tete de fichier). curlGet ne convient pas davantage, il decode stdout
-// en UTF-8 et detruit le binaire.
+// Recupere par un fetch execute DANS la page (cf get_pdf_text) et non via
+// fileParser.parse : le telechargement doit porter le cf_clearance de la
+// session, sinon Cloudflare renvoie son challenge a la place du fichier.
 const PDF_URL_PATTERN = /\.pdf(\?|#|$)/i;
 
 export const scraperObject = {
     url: HUB_URL,
     abbreviation: 'sage',
-    async scraper() {
+    async scraper(browser) {
         const abbreviation = this.abbreviation;
 
-        // Le hub est conserve en complement (il couvre 4 revues du
-        // perimetre, cf commentaire sur JOURNAL_PAGES), mais son
-        // indisponibilite ne doit pas empecher de parcourir les pages
-        // revue : pas de retour anticipe ici.
-        const accordionHtml = await get_accordion_html(HUB_URL);
-
-        // Certaines revues sont classees sous plusieurs disciplines : leur
-        // appel apparait alors identique dans plusieurs sections. Deduplique
-        // par URL pour ne pas interroger le LLM deux fois pour le meme appel.
-        const entriesByUrl = new Map();
-        if (accordionHtml) {
-            for (const entry of extract_entries(accordionHtml)) {
-                entriesByUrl.set(entry.url, entry);
-            }
+        // Une seule page pour tout le passage : le hub, les 60 pages revue
+        // puis les PDF. Le challenge n'est franchi qu'une fois, et le
+        // cf_clearance obtenu vaut pour les navigations suivantes.
+        const page = await browser.newPage();
+        try {
+            return await collecter(page, abbreviation);
+        } finally {
+            await page.close();
         }
-        console.log(`[sage] ${entriesByUrl.size} appel(s) distinct(s) trouve(s) sur le hub`);
-
-        // Les pages revue portent deja leur ISSN (cf JOURNAL_PAGES) : leurs
-        // appels arrivent apparies, sans passer par matchIssn. Un appel deja
-        // vu sur le hub n'est pas remplace -- meme URL, meme appel.
-        let journauxAvecAppel = 0;
-        let pagesInjoignables = 0;
-        for (const { code, titre, issn } of JOURNAL_PAGES) {
-            await sleep(REQUEST_DELAY_MS);
-            const pageEntries = await get_marketing_spot_calls(code, titre);
-            if (pageEntries === null) {
-                pagesInjoignables++;
-                continue;
-            }
-            if (pageEntries.length > 0) journauxAvecAppel++;
-            for (const entry of pageEntries) {
-                if (!entriesByUrl.has(entry.url)) entriesByUrl.set(entry.url, { ...entry, issn });
-            }
-        }
-        console.log(`[sage] ${journauxAvecAppel} revue(s) FNEGE sur ${JOURNAL_PAGES.length} avec au moins un appel sur leur page`);
-        if (pagesInjoignables > 0) {
-            console.warn(`[sage] ${pagesInjoignables} page(s) revue injoignable(s) -- appels de ces revues absents de ce passage`);
-        }
-
-        let skippedCount = 0;
-        let pdfLus = 0;
-        let pdfEnEchec = 0;
-        const calls = [];
-        for (const entry of entriesByUrl.values()) {
-            const issn = entry.issn ?? await matchIssn(entry.journal);
-            if (!issn) {
-                skippedCount++;
-                continue;
-            }
-
-            // Repli explicite sur le HTML de l'encart quand le PDF n'est
-            // pas lisible : un appel au contenu maigre reste preferable a
-            // un appel absent du site.
-            let rawContent = entry.rawContent;
-            if (entry.url && PDF_URL_PATTERN.test(entry.url)) {
-                const texte = await get_pdf_text(entry.url);
-                if (texte) {
-                    rawContent = texte;
-                    pdfLus++;
-                } else {
-                    pdfEnEchec++;
-                }
-            }
-
-            calls.push({
-                journal: entry.journal,
-                abbreviation,
-                issn,
-                metaTitle: entry.metaTitle,
-                url: entry.url,
-                rawContent,
-            });
-        }
-        console.log(`[sage] ${skippedCount} appel(s) du hub ignore(s), revue hors perimetre FNEGE`);
-        if (pdfLus > 0 || pdfEnEchec > 0) {
-            console.log(`[sage] ${pdfLus} PDF lu(s), ${pdfEnEchec} repli(s) sur le HTML de l'encart`);
-        }
-        console.log(`[sage] ${calls.length} appel(s) retenu(s)`);
-
-        return calls;
     }
 }
 
-async function get_accordion_html(url) {
-    let response;
+async function collecter(page, abbreviation) {
+    // Le hub est conserve en complement (il couvre 4 revues du
+    // perimetre, cf commentaire sur JOURNAL_PAGES), mais son
+    // indisponibilite ne doit pas empecher de parcourir les pages
+    // revue : pas de retour anticipe ici.
+    const accordionHtml = await get_accordion_html(page, HUB_URL);
+
+    // Certaines revues sont classees sous plusieurs disciplines : leur
+    // appel apparait alors identique dans plusieurs sections. Deduplique
+    // par URL pour ne pas interroger le LLM deux fois pour le meme appel.
+    const entriesByUrl = new Map();
+    if (accordionHtml) {
+        for (const entry of extract_entries(accordionHtml)) {
+            entriesByUrl.set(entry.url, entry);
+        }
+    }
+    console.log(`[sage] ${entriesByUrl.size} appel(s) distinct(s) trouve(s) sur le hub`);
+
+    // Les pages revue portent deja leur ISSN (cf JOURNAL_PAGES) : leurs
+    // appels arrivent apparies, sans passer par matchIssn. Un appel deja
+    // vu sur le hub n'est pas remplace -- meme URL, meme appel.
+    let journauxAvecAppel = 0;
+    let pagesInjoignables = 0;
+    for (const { code, titre, issn } of JOURNAL_PAGES) {
+        await sleep(REQUEST_DELAY_MS);
+        const pageEntries = await get_marketing_spot_calls(page, code, titre);
+        if (pageEntries === null) {
+            pagesInjoignables++;
+            continue;
+        }
+        if (pageEntries.length > 0) journauxAvecAppel++;
+        for (const entry of pageEntries) {
+            if (!entriesByUrl.has(entry.url)) entriesByUrl.set(entry.url, { ...entry, issn });
+        }
+    }
+    console.log(`[sage] ${journauxAvecAppel} revue(s) FNEGE sur ${JOURNAL_PAGES.length} avec au moins un appel sur leur page`);
+    if (pagesInjoignables > 0) {
+        console.warn(`[sage] ${pagesInjoignables} page(s) revue injoignable(s) -- appels de ces revues absents de ce passage`);
+    }
+
+    let skippedCount = 0;
+    let pdfLus = 0;
+    let pdfEnEchec = 0;
+    const calls = [];
+    for (const entry of entriesByUrl.values()) {
+        const issn = entry.issn ?? await matchIssn(entry.journal);
+        if (!issn) {
+            skippedCount++;
+            continue;
+        }
+
+        // Repli explicite sur le HTML de l'encart quand le PDF n'est
+        // pas lisible : un appel au contenu maigre reste preferable a
+        // un appel absent du site.
+        let rawContent = entry.rawContent;
+        if (entry.url && PDF_URL_PATTERN.test(entry.url)) {
+            const texte = await get_pdf_text(page, entry.url);
+            if (texte) {
+                rawContent = texte;
+                pdfLus++;
+            } else {
+                pdfEnEchec++;
+            }
+        }
+
+        calls.push({
+            journal: entry.journal,
+            abbreviation,
+            issn,
+            metaTitle: entry.metaTitle,
+            url: entry.url,
+            rawContent,
+        });
+    }
+    console.log(`[sage] ${skippedCount} appel(s) du hub ignore(s), revue hors perimetre FNEGE`);
+    if (pdfLus > 0 || pdfEnEchec > 0) {
+        console.log(`[sage] ${pdfLus} PDF lu(s), ${pdfEnEchec} repli(s) sur le HTML de l'encart`);
+    }
+    console.log(`[sage] ${calls.length} appel(s) retenu(s)`);
+
+    return calls;
+}
+
+// Navigue et rend le HTML de la page une fois son contenu present, ou null si
+// la page n'a pas pu etre lue.
+//
+// Le statut de la reponse de navigation n'est PAS un critere : sur un premier
+// contact, Cloudflare sert son interstitiel en 403 puis la vraie page apres
+// resolution du challenge -- goto rapporte le 403, la page est pourtant
+// bonne. Seule la presence du contenu attendu tranche. Le statut n'est donc
+// logue qu'en cas d'echec, pour aider au diagnostic.
+async function charger_page(page, url, selecteurContenu, libelle) {
+    let statut = null;
     try {
-        response = await curlGet(url, { cookieJarPath: COOKIE_JAR_PATH, userAgent: USER_AGENT });
+        const reponse = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: NAVIGATION_TIMEOUT_MS });
+        statut = reponse ? reponse.status() : null;
     } catch (error) {
-        console.warn(`[sage] Erreur reseau (curl) sur ${url} : ${error.message}`);
+        console.warn(`[sage] Navigation impossible sur ${url}${libelle} : ${error.message.split('\n')[0]}`);
         return null;
     }
 
-    // Logue toujours le statut, succes ou echec : c'est le seul moyen de
-    // verifier depuis les logs GitHub Actions si curl (ou curl-impersonate)
-    // passe aussi bien sous Linux que sous Windows (cf commentaire sur
-    // USER_AGENT plus haut).
-    console.log(`[sage] Statut HTTP ${response.status} sur ${url}`);
-    if (response.status !== 200) {
-        console.warn(`[sage] Statut HTTP ${response.status} (attendu 200) sur ${url} -- probable blocage anti-bot ou challenge`);
+    if (!await waitForCloudflare(page, '[sage]', selecteurContenu)) {
+        console.warn(`[sage] Contenu absent sur ${url}${libelle} (statut de navigation ${statut}) -- challenge non franchi, ou gabarit modifie`);
         return null;
     }
 
-    const $ = cheerio.load(response.body);
+    return await page.content();
+}
+
+async function get_accordion_html(page, url) {
+    const html = await charger_page(page, url, ACCORDION_SELECTOR, '');
+    if (html === null) return null;
+
+    const $ = cheerio.load(html);
     const container = $(ACCORDION_SELECTOR).first();
     if (container.length === 0) {
-        console.warn(`[sage] Conteneur d'accordeon introuvable sur ${url} (structure modifiee, ou page bloquee malgre un statut 200)`);
+        console.warn(`[sage] Conteneur d'accordeon introuvable sur ${url} (structure modifiee)`);
         return null;
     }
     return container.html();
@@ -321,51 +345,98 @@ async function get_accordion_html(url) {
 //
 // Renvoie null si la page n'a pas pu etre lue, [] si elle a ete lue et
 // n'annonce aucun appel : la distinction compte, une page injoignable n'est
-// pas une revue sans appel. Le statut n'est logue que s'il n'est pas 200 --
-// 60 lignes "Statut HTTP 200" a chaque passage noieraient les vrais
-// problemes dans les logs.
-async function get_marketing_spot_calls(code, journalName) {
+// pas une revue sans appel.
+//
+// C'est pour cette distinction qu'on attend PAGE_MARKER_SELECTOR et non les
+// encarts eux-memes : la majorite des 60 revues n'a aucun appel ouvert a un
+// instant donne, attendre les encarts declarerait ces pages injoignables et
+// gonflerait le compteur d'alerte pour rien.
+async function get_marketing_spot_calls(page, code, journalName) {
     const url = `https://journals.sagepub.com/home/${code}`;
-    let response;
-    try {
-        response = await curlGet(url, { cookieJarPath: COOKIE_JAR_PATH, userAgent: USER_AGENT });
-    } catch (error) {
-        console.warn(`[sage] Erreur reseau (curl) sur ${url} (${journalName}) : ${error.message}`);
-        return null;
-    }
+    const html = await charger_page(page, url, PAGE_MARKER_SELECTOR, ` (${journalName})`);
+    if (html === null) return null;
 
-    if (response.status !== 200) {
-        console.warn(`[sage] Statut HTTP ${response.status} (attendu 200) sur ${url} (${journalName}) -- probable blocage anti-bot ou challenge`);
-        return null;
-    }
-
-    return extract_spot_calls(response.body, url, journalName);
+    return extract_spot_calls(html, url, journalName);
 }
 
 // Texte d'un appel dont le lien pointe vers un PDF, ou null si le PDF n'a
 // pas pu etre lu. Aucun echec ne remonte en exception : l'appelant retombe
 // sur le HTML de l'encart, comme chez aaaScraper.
-async function get_pdf_text(url) {
+//
+// Le telechargement se fait par un fetch execute DANS la page, et non par une
+// requete Node : la page est deja sur journals.sagepub.com, donc le fetch est
+// de meme origine et part avec le cf_clearance de la session. Une requete
+// depuis Node repartirait sans cookie et recevrait le challenge a la place du
+// fichier. Le binaire transite en base64, seule facon de faire franchir la
+// frontiere navigateur/Node a des octets sans les abimer -- un Uint8Array
+// serialise en JSON deviendrait un objet indexe, et une chaine decodee en
+// UTF-8 detruirait le PDF (mesure : 261 888 octets devenus 468 035).
+async function get_pdf_text(page, url) {
     // Une requete de plus par appel PDF, au meme rythme que les pages
     // revue : le hub et les 60 pages sont deja espaces, ces ~27 telechar-
     // gements s'ajoutent au meme hote.
     await sleep(REQUEST_DELAY_MS);
 
-    let response;
+    // Un appel SAGE peut pointer vers un PDF heberge ailleurs (constate sur
+    // Sociology et Work Employment and Society, dont deux appels renvoient a
+    // britsoc.co.uk). Le fetch dans la page s'y casse sur CORS -- "Failed to
+    // fetch", sans statut. Ces hotes-la n'ont ni challenge ni cookie a
+    // presenter : une requete Node ordinaire suffit et rend le contenu.
+    if (!est_meme_origine(url)) return await get_pdf_text_externe(url);
+
+    let resultat;
     try {
-        response = await curlGetBuffer(url, { cookieJarPath: COOKIE_JAR_PATH, userAgent: USER_AGENT });
+        resultat = await page.evaluate(async (adresse) => {
+            const reponse = await fetch(adresse, { credentials: 'include' });
+            const octets = new Uint8Array(await reponse.arrayBuffer());
+            // Par tranches : String.fromCharCode sur un tableau de 200 000
+            // elements depasse la taille d'appel maximale.
+            let binaire = '';
+            for (let i = 0; i < octets.length; i += 8192) {
+                binaire += String.fromCharCode(...octets.subarray(i, i + 8192));
+            }
+            return { status: reponse.status, base64: btoa(binaire) };
+        }, url);
     } catch (error) {
-        console.warn(`[sage] Erreur reseau (curl) sur le PDF ${url} : ${error.message}`);
+        console.warn(`[sage] Telechargement impossible du PDF ${url} : ${error.message.split('\n')[0]}`);
         return null;
     }
 
-    if (response.status !== 200) {
-        console.warn(`[sage] Statut HTTP ${response.status} (attendu 200) sur le PDF ${url}`);
+    if (resultat.status !== 200) {
+        console.warn(`[sage] Statut HTTP ${resultat.status} (attendu 200) sur le PDF ${url}`);
         return null;
     }
 
+    return await extraire_texte_pdf(Buffer.from(resultat.base64, 'base64'), url);
+}
+
+function est_meme_origine(url) {
     try {
-        const texte = await getContent(response.body, 'pdf');
+        return new URL(url).hostname === new URL(HUB_URL).hostname;
+    } catch {
+        return false;
+    }
+}
+
+async function get_pdf_text_externe(url) {
+    let octets;
+    try {
+        const reponse = await fetch(url);
+        if (!reponse.ok) {
+            console.warn(`[sage] Statut HTTP ${reponse.status} (attendu 200) sur le PDF externe ${url}`);
+            return null;
+        }
+        octets = Buffer.from(await reponse.arrayBuffer());
+    } catch (error) {
+        console.warn(`[sage] Telechargement impossible du PDF externe ${url} : ${error.message}`);
+        return null;
+    }
+    return await extraire_texte_pdf(octets, url);
+}
+
+async function extraire_texte_pdf(octets, url) {
+    try {
+        const texte = await getContent(octets, 'pdf');
         if (!texte || texte.trim().length === 0) {
             console.warn(`[sage] PDF vide ou illisible : ${url}`);
             return null;
