@@ -1,5 +1,106 @@
 [
   {
+    "journal": "Information Systems Research",
+    "abbreviation": "informs",
+    "issn": "1526-5536",
+    "metaTitle": "ISR Generative AI and New Methods of Inquiry in Information Systems Research",
+    "url": "https://pubsonline.informs.org/page/isre/calls-for-papers",
+    "title": "Generative AI and New Methods of Inquiry in Information Systems Research",
+    "slug": "informs-isr-generative-ai-and-new-methods-of-inquiry-in-information-systems-research",
+    "contentHash": "60b24ad29de1088be6453e089d2bbf6dc0cc1de522b257287ebfa10edde619df",
+    "topics": [
+      "Hybrid human–AI workflows for coding, classification, or sensemaking",
+      "GenAI-supported measurement development, construct validation, or scale refinement",
+      "GenAI-supported survey design, sampling, and survey administration",
+      "GenAI-supported experimental design, treatment generation, and implementation",
+      "GenAI-supported computational theory construction",
+      "Simulation, agent-based modeling, or scenario generation",
+      "GenAI-enabled qualitative analysis, theory building, or inductive discovery",
+      "GenAI-assisted econometric modeling, estimation, or robustness analysis",
+      "AI-supported proof search, counterexample generation, or equilibrium exploration",
+      "Discovery or validation of analytical models using generative simulation",
+      "GenAI-assisted testing of operational utility and/or design validity",
+      "Design and evaluation of GenAI-based tools for IS research",
+      "Reproducible pipelines, benchmarks, and evaluation harnesses",
+      "Systems supporting transparency, provenance, and verification"
+    ],
+    "description": {
+      "paragraphs": [
+        "Generative Artificial Intelligence (GenAI) is rapidly reshaping not only organizations, markets, and technologies, but also the practice of scientific research itself. Large language models, multimodal foundation models, and increasingly agentic AI systems now participate in activities such as literature discovery, theorizing, data analysis, simulation, coding, and writing.",
+        "This Special Issue seeks papers that push the boundaries of what can be achieved through innovative, rigorous, and responsible use of Generative AI in the information systems research process. Rather than focusing on GenAI solely as an object of empirical study, the SI emphasizes GenAI as a research collaborator, instrument, and infrastructure.",
+        "The ambition of the SI is twofold: to publish a small number of exemplary papers that demonstrate novel research capabilities enabled by GenAI, and to advance shared principles, frameworks, and practices that will shape how information systems research is conducted and reported in an era of human–AI collaboration.",
+        "The SI is not intended to be a general outlet for any study that uses GenAI. GenAI must be constitutive of the research contribution—not merely supportive. The central theoretical, methodological, or design advance should depend on the capabilities of generative or agentic systems.",
+        "Submissions must satisfy both of the following criteria: GenAI must make a substantive and consequential contribution in the research process—enabling outcomes that would be difficult, infeasible, or qualitatively different without it, and each paper must meet the high standards of Information Systems Research, including clear theoretical, methodological, or design contributions to Information Systems.",
+        "Authors must explicitly document and reflect on how GenAI was used in the research process, including its benefits, limitations, risks, and the role of human judgment. Papers that are not appropriate for the special issue include pure performance benchmarks of GenAI models without IS insight, papers where GenAI is only a data preprocessing convenience, opinion pieces without empirical, analytical, or design grounding, and studies treating GenAI solely as the object of the study.",
+        "Transparency is a core evaluation criterion. Each submission should document in a replicable way the technical details of how GenAI was used. Technical details should be provided in a separate GenAI Use Appendix describing tools and models used, stages of the research process involved, prompting strategies or agentic workflows, nature of human oversight and verification, and limitations or failure modes encountered.",
+        "The editorial team will experiment with GenAI to augment—never replace—human judgment. This may include identifying inconsistencies, verifying citations, or enhancing consistency across reviews. All editorial decisions will remain fully under human control. No submitted manuscripts or reviewer reports will be used to train models, and all AI support will operate within ISR's confidentiality and data-handling standards."
+      ]
+    },
+    "tags": [
+      "generative ai",
+      "research methods",
+      "information systems",
+      "ai-assisted research"
+    ],
+    "editors": [
+      {
+        "name": "Ahmed Abbasi",
+        "affiliation": "University of Notre Dame"
+      },
+      {
+        "name": "Martin Bichler",
+        "affiliation": "Technical University of Munich"
+      },
+      {
+        "name": "Ram Gopal",
+        "affiliation": "University of Warwick"
+      },
+      {
+        "name": "Elena Karahanna",
+        "affiliation": "University of Georgia"
+      },
+      {
+        "name": "Suprateek Sarker",
+        "affiliation": "University of Virginia"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-07T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2026-11-20T11:00:00.000Z",
+        "description": "First-round decisions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-13T11:00:00.000Z",
+        "description": "ICIS Workshop",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-15T11:00:00.000Z",
+        "description": "Optional online workshop",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-02-15T11:00:00.000Z",
+        "description": "Final version submitted",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-05-01T10:00:00.000Z",
+        "description": "Final decisions",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-31T11:13:20.333Z"
+  },
+  {
     "journal": "Journal of Management Studies",
     "abbreviation": "wiley",
     "issn": "1467-6486",
