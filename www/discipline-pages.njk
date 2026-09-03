@@ -23,6 +23,8 @@
 }
 ---
 
+{% import "fnege.html" as fnege %}
+
 {# Fil d'Ariane Accueil > Discipline, assemble par schemaDiscipline (cf eleventy.config.mjs). #}
 <script type="application/ld+json">
 {{ discipline | schemaDiscipline(meta) | jsonld | safe }}
@@ -146,7 +148,10 @@
 </section>
 
 <section class="mb-8">
-  <h2 class="text-lg font-bold mb-4">Revues de cette discipline</h2>
+  {# Le renvoi vers la FNEGE se pose sur l'intitule de la section et non sur
+     chaque ligne : la liste depasse la centaine de revues dans plusieurs
+     disciplines, et les badges de rang sont deja des liens. #}
+  <h2 class="text-lg font-bold mb-4">Revues de cette discipline <span class="text-xs font-normal opacity-70">(rang : {{ fnege.texte('source FNEGE') }})</span></h2>
   {% if revues.length %}
   <ul class="divide-y divide-base-300 border-t border-base-300">
     {% for revue in revues %}
@@ -171,7 +176,7 @@
 </section>
 
 <p class="text-xs opacity-70 mt-6 border-t border-base-300 pt-4">
-  Rang et discipline : classement FNEGE 2025. Accès ouvert : DOAJ.
+  Rang et discipline : {{ fnege.texte('classement FNEGE 2025') }}. Accès ouvert : DOAJ.
   Les données peuvent comporter des imprécisions, vérifiez toujours sur le site de la revue.
 </p>
 

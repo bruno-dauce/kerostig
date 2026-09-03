@@ -1,0 +1,27 @@
+{# Renvoi vers la source du classement FNEGE.
+
+   /about et /terms annoncent que kerostig « affiche le rang au niveau de
+   chaque revue et renvoie vers la source ». Ce n'etait vrai nulle part : le
+   rang s'affichait nu sur les quatre surfaces qui le portent, sans un seul
+   lien vers la FNEGE dans tout le depot.
+
+   Deux contraintes ont dicte la forme :
+
+   - Les badges de rang sont deja des liens, vers l'accueil pre-filtre sur ce
+     rang. Le renvoi vers la FNEGE ne peut donc pas les envelopper (un <a>
+     dans un <a> est invalide) : il se place a cote.
+
+   - Un seul renvoi par contexte de page, et non un par badge. Sur la page
+     discipline, la liste des revues compte plus de cent lignes : y repeter
+     le meme lien serait du bruit, contraire a la sobriete du reste. Le
+     renvoi se pose donc une fois, la ou le rang est nomme.
+
+   L'URL et l'intitule du title ne vivent qu'ici : quatre gabarits les
+   partagent. #}
+
+{% macro texte(libelle='source') %}<a href="https://www.fnege.org/classement/" target="_blank" rel="noopener" title="Source : classement FNEGE" class="font-normal underline decoration-dotted underline-offset-2 hover:opacity-100">{{ libelle }}</a>{% endmacro %}
+
+{# Forme icone, pour les cartes de l'accueil : la carte est deja dense, et le
+   badge de rang y voisine ceux de discipline et d'acces ouvert. Meme fleche
+   sortante que le lien « Source » en pied de carte, meme bleu d'etude. #}
+{% macro icone() %}<a href="https://www.fnege.org/classement/" target="_blank" rel="noopener" title="Source : classement FNEGE" aria-label="Source : classement FNEGE" class="inline-flex items-center opacity-50 hover:opacity-100 transition-opacity" style="color:#2B5F8E"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg></a>{% endmacro %}

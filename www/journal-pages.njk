@@ -21,6 +21,8 @@
 }
 ---
 
+{% import "fnege.html" as fnege %}
+
 {# Fil d'Ariane + la revue en Periodical de plein droit (name, issn, publisher).
    Graphe assemble par le filtre schemaRevue, cf eleventy.config.mjs. #}
 <script type="application/ld+json">
@@ -78,7 +80,10 @@
     <dl class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-4 text-sm">
 
       <div>
-        <dt class="opacity-70">Rang FNEGE 2025</dt>
+        {# Le renvoi vers la FNEGE se pose ici, sur l'intitule du rang, et non
+           sur le badge de l'en-tete : celui-ci est deja un lien vers l'accueil
+           pre-filtre, et un <a> ne peut pas en envelopper un autre. #}
+        <dt class="opacity-70">Rang FNEGE 2025 ({{ fnege.texte() }})</dt>
         <dd class="font-bold text-xl">{{ revue.rang_fnege_2025 }}</dd>
       </div>
 
@@ -200,7 +205,7 @@
 </section>
 
 <p class="text-xs opacity-70 mt-6 border-t border-base-300 pt-4">
-  Rang et discipline : classement FNEGE 2025. Indicateurs : OpenAlex. Accès ouvert : DOAJ. Politique de dépôt : Open Policy Finder.
+  Rang et discipline : {{ fnege.texte('classement FNEGE 2025') }}. Indicateurs : OpenAlex. Accès ouvert : DOAJ. Politique de dépôt : Open Policy Finder.
   Les données peuvent comporter des imprécisions, vérifiez toujours sur le site de la revue.
 </p>
 

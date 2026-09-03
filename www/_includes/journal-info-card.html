@@ -1,3 +1,4 @@
+{% import "fnege.html" as fnege %}
 {% if revue %}
 <aside class="card bg-base-200 border border-base-300 rounded-lg lg:sticky lg:top-4">
   <div class="card-body p-5 gap-3">
@@ -16,6 +17,9 @@
       <a href="{{ '/' | url }}?rang={{ revue.rang_fnege_2025 | urlencode }}"
          class="badge badge-sm badge-outline font-semibold transition-colors hover:bg-primary/10"
          style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</a>
+      {# Le renvoi vers la FNEGE se pose a cote du badge et non autour : le
+         badge est deja un lien, vers l'accueil pre-filtre sur ce rang. #}
+      <span class="text-xs opacity-70 self-center">({{ fnege.texte() }})</span>
       {% endif %}
       {% set disc = revue.discipline_code | disciplineDuCode %}
       {% if disc %}

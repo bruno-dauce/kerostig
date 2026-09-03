@@ -2,6 +2,7 @@
    tardive des dates flaguees, seule regle partagee avec le compteur serveur
    (compterAppelsActifs) et avec scrapers/echeance.mjs. data-duedate est lu
    ensuite par is_closed() cote client, les deux doivent designer la meme date. #}
+{% import "fnege.html" as fnege %}
 {% set dueDate = call.dates | echeancePrincipale %}
 {% set revue = journals | revueDeLAppel(call) %}
 {# Aucun | safe dans cette carte : tout ce qui suit est du texte scrape rendu
@@ -86,7 +87,7 @@
                Fond legerement teinte a la place, meme bleu, meme sobriete. #}
             <a href="{{ '/' | url }}?rang={{ revue.rang_fnege_2025 | urlencode }}{% if discipline %}&amp;disc={{ discipline.code | urlencode }}{% endif %}"
                class="badge badge-sm badge-outline font-semibold transition-colors hover:bg-primary/10"
-               style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</a>
+               style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</a>{{ fnege.icone() }}
             {# Le badge mene vers la page hub de la discipline, comme les tags plus bas
                menent vers /tag/. Un lien plutot qu'un declenchement du filtre Alpine :
                la carte est aussi incluse par discipline-pages.njk, qui redefinit son
