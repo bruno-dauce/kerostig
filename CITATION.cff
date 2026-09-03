@@ -17,7 +17,8 @@ abstract: >-
   Agrégateur des appels à publications (calls for papers) des revues
   de sciences de gestion et management classées FNEGE, enrichi
   d'informations d'accès ouvert (APC, dépôt HAL, embargo) à partir
-  d'OpenAlex, DOAJ et Sherpa Romeo.
+  d'OpenAlex, DOAJ et Open Policy Finder (anciennement Sherpa Romeo,
+  service opéré par Jisc).
 keywords:
   - call for papers
   - appel à publications
