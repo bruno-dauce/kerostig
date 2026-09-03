@@ -95,11 +95,27 @@ eleventyComputed:
       {% endfor %}
     </ul>
     {% endif %}
-    {% if call.description and call.description.paragraphs | length > 0 %}
+    {# Extrait borne, jamais le texte integral : cf scrapers/extrait.mjs et la
+       promesse faite dans /terms. Le renvoi vers l'editeur n'apparait que sur
+       un extrait reellement coupe, et seulement si l'appel a une URL
+       exploitable -- trois appels de calls.json n'en ont pas. #}
+    {% set extrait = call.description | extraitDescription %}
+    {% if extrait.paragraphes | length > 0 %}
     <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Description</h2>
-    {% for paragraph in call.description.paragraphs %}
+    {% for paragraph in extrait.paragraphes %}
     <p class="text-justify mb-4">{{ paragraph }}</p>
     {% endfor %}
+    {% if extrait.tronque %}
+    {% set urlSource = call | lienSource %}
+    <p class="text-sm opacity-70 mb-4">
+      Extrait.
+      {% if urlSource %}
+      <a href="{{ urlSource }}" target="_blank" rel="noopener noreferrer" class="underline" style="color:#2B5F8E">Lire l'appel complet sur le site de l'éditeur</a>.
+      {% else %}
+      Le texte complet est publié par l'éditeur.
+      {% endif %}
+    </p>
+    {% endif %}
     {% endif %}
     {% if call.topics | length > 0 %}
     <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Potential topics</h2>

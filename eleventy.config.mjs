@@ -3,6 +3,7 @@ import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { DateTime } from "luxon";
 
 import { echeanceDepassee } from "./scrapers/echeance.mjs";
+import { extraireDescription, resumerDescription, lienSourceOriginale } from "./scrapers/extrait.mjs";
 
 // Flux RSS par tag reellement disponibles. Ces fichiers sont ecrits par
 // scrapers/feedgen.mjs dans www/tag/ et recopies en passthrough : le build ne
@@ -364,7 +365,10 @@ export default async function (eleventyConfig) {
             audience: { "@type": "Audience", audienceType: AUDIENCE_KEROSTIG },
         };
 
-        const resume = call.description && call.description.paragraphs && call.description.paragraphs[0];
+        // Extrait borne et non premier paragraphe entier : ce champ part dans
+        // les resultats des moteurs, un pave de 2 000 caracteres repris de
+        // l'editeur y serait la republication la plus visible du site.
+        const resume = resumerDescription(call.description);
         if (resume) appel.description = resume;
         if (call.url) appel.sameAs = call.url;
         if (nomRevue) appel.alternateName = `Numéro spécial - ${nomRevue}`;
@@ -536,6 +540,20 @@ export default async function (eleventyConfig) {
             });
 
         return { generated: new Date().toISOString(), count: appels.length, calls: appels };
+    });
+
+    // Extrait borne du texte d'un appel, cf scrapers/extrait.mjs. Rend
+    // { paragraphes, tronque } : le gabarit doit afficher le renvoi vers
+    // l'editeur des que tronque est vrai, sans quoi l'extrait se lit comme
+    // un texte complet.
+    eleventyConfig.addFilter("extraitDescription", function (description) {
+        return extraireDescription(description && description.paragraphs);
+    });
+
+    // URL de l'appel chez son editeur, null quand elle est inexploitable
+    // (chaine vide, mailto:). Meme garde que le lien « Source » des cartes.
+    eleventyConfig.addFilter("lienSource", function (call) {
+        return lienSourceOriginale(call);
     });
     // --- fin kerostig ---
 

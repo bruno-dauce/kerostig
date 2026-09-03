@@ -19,14 +19,21 @@ const Date = z.object({
     is_full_paper_submission_deadline: z.boolean().describe("A flag that indicates whether the date is the full paper submission deadline. The most important date on a call for papers. When submissions are expressed as a window or a range -- 'submissions open from September 1 to September 30, 2026', 'between August 1 and August 31, 2027' -- ONLY the closing bound of that range may be true. The opening bound must be false: opening a submission window is not a deadline.").nullable(),
 });
 
+// Un resume, et non les paragraphes du texte source. Le champ portait
+// jusqu'ici « the main content of the call for papers », ce que le modele
+// executait a la lettre : verification faite sur un appel Springer, les 6
+// paragraphes stockes etaient identiques mot pour mot a la page de l'editeur,
+// soit 4 318 caracteres republies. Le site annonce l'inverse dans /terms.
+// La borne est doublee d'une borne d'affichage (scrapers/extrait.mjs), seule
+// a couvrir les appels deja stockes.
 const Description = z.object({
-    paragraphs: z.string().array().describe("The paragraphs of the description. This is the main content of the call for papers. Do NOT include headings as paragraphs. Do NOT include topics that appear in bullet point format. Do NOT include information related to formatting and submission instructions. If there is no paragraph structure in the text provided, you can organize the text into meaningful paragraphs."),
+    paragraphs: z.string().array().describe("A SHORT SUMMARY of the call, written in your own words. This is NOT an extract: do NOT copy or lightly edit sentences from the text provided, rephrase them. At most 3 paragraphs, and at most 900 characters in total for all paragraphs combined. Write the summary in the same language as the text provided -- never translate it. Cover only what the text states: the research problem, what the special issue is looking for, and who it is addressed to. Do NOT include headings, bullet-point topics, formatting rules or submission instructions."),
 });
 
 const Call = z.object({
     title: z.string().describe("Title of the call for papers. Only include the actual title here. Do NOT include statements such as 'call for papers' or 'special issue' or the journal name here."),
     topics: z.string().array().describe("Topics of the call for papers. This is a list of topics that the call for papers is interested in. This is usually in bullet point format. Bullet points can also include example research questions."),
-    description: Description.describe("Description of the call for papers. This is the main content of the call for papers."),
+    description: Description.describe("A short summary of the call for papers, written in your own words. Never a copy of the source text."),
     tags: z.string().array().describe("Tags that describe the content of the call for papers. Use as few tags as possible."),
     editors: Academic.array().describe("The editors of the special issue. This is a list of academics who are responsible for the special issue."),
     associate_editors: Academic.array().describe("The associate editors or editorial review board of the special issue. This is a list of academics who are assisting the editors with the special issue."),
@@ -160,7 +167,7 @@ export async function parse(call) {
     const completion = await openai.beta.chat.completions.parse({
         model: process.env.MODEL_NAME,
         messages: [
-            { role: "system", content: "You are an expert parser of calls for papers for special issues of academic journals. You do NOT make up any information. You only copy information from the call directly. This applies to dates above all: some of the texts you are given are very short -- a title and a link, nothing more -- and you may recognise the call from your own knowledge. Do not use that knowledge. If a submission deadline is not written in the text in front of you, it does not exist for the purposes of this task, and the list of dates must stay empty." },
+            { role: "system", content: "You are an expert parser of calls for papers for special issues of academic journals. You do NOT make up any information: every fact you output must come from the text in front of you. Titles, names, topics and dates are copied from the call directly. The description is the single exception: it is a short summary you write in your own words, and it must still introduce no fact that is absent from the text. The rule against making things up applies to dates above all: some of the texts you are given are very short -- a title and a link, nothing more -- and you may recognise the call from your own knowledge. Do not use that knowledge. If a submission deadline is not written in the text in front of you, it does not exist for the purposes of this task, and the list of dates must stay empty." },
             { role: "user", content: `Parse the following call for papers:\n\n${call.rawContent}` },
         ],
         response_format: zodResponseFormat(Call, "call_parsing"),

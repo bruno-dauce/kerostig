@@ -4,16 +4,41 @@ import nunjucks from 'nunjucks';
 import { DateTime } from "luxon";
 import slugify from 'slugify';
 
+import { extraireDescription, lienSourceOriginale } from './extrait.mjs';
+
 var env = nunjucks.configure('www/_includes', { autoescape: true });
 env.addFilter('dateOnly', function (str) {
     const dateTime = DateTime.fromISO(str);
     return dateTime.setLocale('en-us').toLocaleString(DateTime.DATE_FULL);
+});
+// Meme filtre et meme borne que le site, cf scrapers/extrait.mjs : le flux
+// est la surface la plus republiee du site, c'est la derniere ou l'extrait
+// devrait etre plus large qu'ailleurs.
+env.addFilter('extraitDescription', function (description) {
+    return extraireDescription(description && description.paragraphs);
 });
 
 const meta = JSON.parse(fs.readFileSync("./www/_data/meta.json", "utf8"));
 const siteUrl = meta.url.replace(/\/$/, '');
 const siteName = meta.name;
 const siteYear = new Date().getFullYear();
+
+// Le copyright du flux ne peut pas se resumer a « kerostig © » : ce que le
+// flux transporte, ce sont des extraits d'appels ecrits par les editeurs.
+// Seules les notices -- selection, mise en forme, rattachement a la revue --
+// sont de kerostig.
+const COPYRIGHT = `Notices : ${siteName} © ${siteYear}. Le texte des appels appartient à leurs éditeurs.`;
+
+// Contenu d'un article, commun aux trois flux (global, par revue, par tag).
+// Le gabarit recoit le lien vers l'editeur et celui vers la fiche kerostig :
+// un article de flux se lit hors du site, il doit porter ses deux renvois.
+function contenuArticle(call) {
+    return nunjucks.render('rss.html', {
+        call,
+        lienSource: lienSourceOriginale(call),
+        pageKerostig: `${siteUrl}/call/${call.slug}/`,
+    });
+}
 
 const rssFeed = new Feed({
     title: siteName,
@@ -23,7 +48,7 @@ const rssFeed = new Feed({
     language: "fr",
     image: `${siteUrl}/public/favicon/android-chrome-96x96.png`,
     favicon: `${siteUrl}/public/favicon/favicon.ico`,
-    copyright: `${siteName} © ${siteYear}`,
+    copyright: COPYRIGHT,
     date: new Date(),
     feedLinks: {
         json: `${siteUrl}/json`,
@@ -46,13 +71,12 @@ for (const call of calls) {
         id: call.slug,
         link: `${siteUrl}/call/${call.slug}/`,
         date: new Date(call.pubDate),
-        author: [
-            {
-                name: call.abbreviation.toUpperCase(),
-                email: call.journal
-            }
-        ],
-        content: nunjucks.render('rss.html', { call: call })
+        // Pas de bloc author : la bibliotheque n'ecrit <author> que si name et
+        // email sont tous deux fournis, et le champ email portait ici le nom
+        // de la revue -- un lecteur de flux affichait donc « Management
+        // Learning (ML) » comme adresse de l'auteur. La revue est nommee dans
+        // le corps de l'article, avec le lien vers l'editeur.
+        content: contenuArticle(call)
     });
 }
 fs.writeFileSync("./www/rss.xml", rssFeed.rss2());
@@ -79,7 +103,7 @@ for (const [key, journalCalls] of Object.entries(journalGroups)) {
         language: "fr",
         image: `${siteUrl}/public/favicon/android-chrome-96x96.png`,
         favicon: `${siteUrl}/public/favicon/favicon.ico`,
-        copyright: `${siteName} © ${siteYear}`,
+        copyright: COPYRIGHT,
         date: new Date(),
         feedLinks: {
             json: `${siteUrl}/journal/${slugify(firstCall.journal, { lower: true, strict: true })}.json`,
@@ -93,13 +117,7 @@ for (const [key, journalCalls] of Object.entries(journalGroups)) {
             id: call.slug,
             link: `${siteUrl}/call/${call.slug}/`,
             date: new Date(call.pubDate),
-            author: [
-                {
-                    name: call.abbreviation.toUpperCase(),
-                    email: call.journal
-                }
-            ],
-            content: nunjucks.render('rss.html', { call: call })
+            content: contenuArticle(call)
         });
     }
     // Write journal RSS file using slugified journal name
@@ -133,7 +151,7 @@ for (const [tag, tagCalls] of Object.entries(tagGroups)) {
         language: "fr",
         image: `${siteUrl}/public/favicon/android-chrome-96x96.png`,
         favicon: `${siteUrl}/public/favicon/favicon.ico`,
-        copyright: `${siteName} © ${siteYear}`,
+        copyright: COPYRIGHT,
         date: new Date(),
         feedLinks: {
             json: `${siteUrl}/tag/${slugify(tag, { lower: true, strict: true })}.json`,
@@ -147,13 +165,7 @@ for (const [tag, tagCalls] of Object.entries(tagGroups)) {
             id: call.slug,
             link: `${siteUrl}/call/${call.slug}/`,
             date: new Date(call.pubDate),
-            author: [
-                {
-                    name: call.abbreviation ? call.abbreviation.toUpperCase() : '',
-                    email: call.journal
-                }
-            ],
-            content: nunjucks.render('rss.html', { call: call })
+            content: contenuArticle(call)
         });
     }
     // Write tag RSS file using slugified tag name

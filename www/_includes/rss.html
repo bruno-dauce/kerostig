@@ -1,12 +1,28 @@
+{# Contenu d'un article de flux. Rendu par scrapers/feedgen.mjs uniquement
+   (Eleventy ne rend pas les fichiers de _includes), avec le filtre
+   extraitDescription et les variables lienSource / pageKerostig fournies par
+   le contexte de rendu.
+
+   Le flux ne diffuse qu'un extrait borne : il partait auparavant avec la
+   description entiere, jusqu'a 13 000 caracteres repris mot pour mot de
+   l'editeur, et sans le moindre lien vers lui. #}
 <div>
     {% if call.editors | length > 0 %}
         {% for editor in call.editors %}
         <p><strong>{{ editor.name }}</strong>, {{ editor.affiliation }}</p>
         {% endfor %}
     {% endif %}
-    {% for paragraph in call.description.paragraphs %}
+    {% set extrait = call.description | extraitDescription %}
+    {% for paragraph in extrait.paragraphes %}
     <p>{{ paragraph }}</p>
     {% endfor %}
+    <p>
+        Appel publié par {{ call.journal }}.
+        {% if lienSource %}
+        <a href="{{ lienSource }}">{% if extrait.tronque %}Lire l'appel complet sur le site de l'éditeur{% else %}Voir l'appel sur le site de l'éditeur{% endif %}</a>.
+        {% endif %}
+        <a href="{{ pageKerostig }}">Fiche de l'appel sur kerostig</a>.
+    </p>
     {% if call.topics | length > 0 %}
     <h2>Potential topics</h2>
     <ul>
