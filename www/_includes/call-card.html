@@ -64,7 +64,12 @@
         <span class="text-xs font-semibold opacity-70 uppercase">{{ call.journal }}</span>
         {% endif %}
 
-        <div class="flex flex-wrap gap-1.5">
+        {# Badges a gauche, echeance a droite sur la meme ligne. Sur une carte
+           pleine largeur, l'echeance occupait seule une ligne pour trois mots.
+           Le groupe de badges est un enfant a part entiere pour que
+           justify-between n'ecarte que les deux blocs, et non chaque badge. #}
+        <div class="flex flex-wrap items-center justify-between gap-x-3 gap-y-1.5">
+            <div class="flex flex-wrap items-center gap-1.5">
             {% if revue %}
             {# Nom propre de la discipline : revue.discipline est le libelle brut de
                journals.json, parfois ampute de son apostrophe. Repli sur le brut si
@@ -111,11 +116,22 @@
             <span class="badge badge-sm badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C" title="{{ srcOa.infobulle(revue) }}">accès ouvert</span>
             {% endif %}
             {% endif %}
-        </div>
+            </div>
 
-        {% if dueDate %}
-        <p class="text-xs opacity-80">Échéance : {{ dueDate.date | dateOnly }}</p>
-        {% endif %}
+            {# span et non p : daisyUI pose « .card-body :where(p) { flex-grow: 1 } »
+               pour que le texte d'une carte repousse ses actions vers le bas.
+               En <p>, l'echeance s'etirait donc sur toute la place restante --
+               mesure a 502 px pour un texte de 160 -- et justify-between n'avait
+               plus rien a repartir : le texte restait colle aux badges, aligne a
+               gauche dans sa boite etiree.
+               whitespace-nowrap : « Échéance : 4 septembre 2026 » ne doit pas se
+               couper en deux. Quand la place manque -- mobile, ou nom de
+               discipline long -- le flex-wrap la fait repasser sous les badges,
+               ou elle retrouve l'alignement a gauche qu'elle avait avant. #}
+            {% if dueDate %}
+            <span class="text-xs opacity-80 whitespace-nowrap">Échéance : {{ dueDate.date | dateOnly }}</span>
+            {% endif %}
+        </div>
 
         {% if call.tags and call.tags.length %}
         <div class="flex flex-wrap gap-1">
