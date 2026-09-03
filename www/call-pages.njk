@@ -131,6 +131,32 @@ eleventyComputed:
       {% endif %}
     </p>
     {% endif %}
+    {% else %}
+    {# 22 appels sur 709 n'ont ni description, ni sujets, ni dates, ni editeurs :
+       leur page source etait injoignable ou trop maigre a la collecte, presque
+       toujours chez un editeur bloque (Wiley, SAGE, Elsevier). La fiche garde
+       une valeur -- revue, rang FNEGE, acces ouvert, politique de depot -- mais
+       elle doit dire ce qui manque plutot que de laisser un blanc, et rendre le
+       renvoi vers l'editeur evident.
+       Un lien texte et non un bouton : celui de l'en-tete est a quelques
+       centimetres, et deux boutons identiques sur la meme fiche font doublon.
+       Le renvoi porte la phrase elle-meme plutot que de la suivre -- « voir
+       l'appel original » apres « consulter l'appel sur le site de l'editeur »
+       aurait dit deux fois la meme chose. Meme forme que le lien du bloc
+       « Extrait » plus haut, et meme garde-fou : rien a pointer, rien a
+       cliquer. #}
+    <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Description</h2>
+    {% if urlSource %}
+    <p class="mb-4 opacity-80">Description non disponible.
+      <a href="{{ urlSource }}" target="_blank" rel="noopener noreferrer" class="underline" style="color:#2B5F8E">Consulter l'appel directement sur le site de l'éditeur</a>.
+    </p>
+    {% elif contactEditeurs %}
+    <p class="mb-4 opacity-80">Description non disponible. L'éditeur n'a diffusé qu'une adresse :
+      <a href="{{ contactEditeurs }}" class="underline" style="color:#2B5F8E">contacter les éditeurs</a>.
+    </p>
+    {% else %}
+    <p class="mb-4 opacity-80">Description non disponible, et aucun lien vers l'appel d'origine n'a été collecté.</p>
+    {% endif %}
     {% endif %}
     {% if call.topics | length > 0 %}
     <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Potential topics</h2>
