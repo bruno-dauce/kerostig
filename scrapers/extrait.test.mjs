@@ -5,6 +5,7 @@ import {
     extraireDescription,
     resumerDescription,
     lienSourceOriginale,
+    lienContactEditeurs,
     LIMITE_EXTRAIT_CARACTERES,
 } from './extrait.mjs';
 
@@ -68,4 +69,25 @@ test('lienSourceOriginale ecarte les URL inexploitables de calls.json', () => {
     assert.equal(lienSourceOriginale({ url: 'mailto:eftekhar@asu.edu' }), null);
     assert.equal(lienSourceOriginale({}), null);
     assert.equal(lienSourceOriginale(null), null);
+});
+
+test('lienContactEditeurs ne retient que les mailto, et normalise l adresse', () => {
+    assert.equal(
+        lienContactEditeurs({ url: 'mailto:jan.fransoo@tilburguniversity.edu' }),
+        'mailto:jan.fransoo@tilburguniversity.edu',
+    );
+    // L'espace apres les deux-points existe reellement dans calls.json.
+    assert.equal(lienContactEditeurs({ url: 'mailto: eftekhar@asu.edu' }), 'mailto:eftekhar@asu.edu');
+    assert.equal(lienContactEditeurs({ url: 'MAILTO:x@y.org' }), 'mailto:x@y.org');
+    assert.equal(lienContactEditeurs({ url: 'mailto:' }), null);
+    assert.equal(lienContactEditeurs({ url: 'https://example.org/cfp' }), null);
+    assert.equal(lienContactEditeurs({ url: '' }), null);
+    assert.equal(lienContactEditeurs(null), null);
+});
+
+test('les deux liens ne sont jamais non nuls ensemble', () => {
+    for (const url of ['https://example.org/cfp', 'mailto:x@y.org', '', 'ftp://example.org']) {
+        const call = { url };
+        assert.ok(!(lienSourceOriginale(call) && lienContactEditeurs(call)), url);
+    }
 });

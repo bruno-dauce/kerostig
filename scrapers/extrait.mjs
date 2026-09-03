@@ -87,3 +87,19 @@ export function lienSourceOriginale(call) {
     const url = call && typeof call.url === 'string' ? call.url.trim() : '';
     return /^https?:\/\//i.test(url) ? url : null;
 }
+
+// L'adresse de contact, pour les appels dont l'editeur n'a diffuse qu'un
+// courriel a la place d'une page. Deux chez INFORMS au 2026-09-03, dont un
+// « mailto: eftekhar@asu.edu » avec une espace apres les deux-points : elle
+// est retiree ici, sans quoi l'adresse part telle quelle dans le href.
+//
+// Complementaire de lienSourceOriginale : les deux ne peuvent pas etre non
+// nulles pour le meme appel, et toutes deux rendent null sur une URL vide.
+// Un gabarit qui les enchaine n'affiche donc rien quand il n'y a rien a
+// pointer, au lieu du « href="." » que produisait le lien non garde.
+export function lienContactEditeurs(call) {
+    const url = call && typeof call.url === 'string' ? call.url.trim() : '';
+    if (!/^mailto:/i.test(url)) return null;
+    const adresse = url.slice('mailto:'.length).trim();
+    return adresse ? `mailto:${adresse}` : null;
+}

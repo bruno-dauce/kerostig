@@ -70,12 +70,27 @@ eleventyComputed:
   {% else %}
   <h2 class="text-2xl uppercase font-bold text-gray-600 leading-snug mt-4 mb-4">{{ call.journal }}</h2>
   {% endif %}
-  <a class="btn btn-primary" href="{{ call.url | url }}" target="_blank" rel="noopener noreferrer">
+  {# Meme garde que le lien « Source » des cartes (call-card.html), qui lui
+     l'avait depuis toujours : le lien n'etait pas conditionne ici, et
+     l'appel sans URL (misq-digital-technologies-and-social-justice) rendait
+     un « href="." » qui renvoyait la fiche vers elle-meme.
+     Les deux filtres sont exclusifs et rendent null sur une URL vide : rien
+     ne s'affiche quand il n'y a rien a pointer. #}
+  {% set urlSource = call | lienSource %}
+  {% set contactEditeurs = call | lienContact %}
+  {% if urlSource %}
+  <a class="btn btn-primary" href="{{ urlSource }}" target="_blank" rel="noopener noreferrer">
       <svg class="w-6 h-6" fill="none" stroke="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
       </svg>
-      Find out more
+      View original call
   </a>
+  {% elif contactEditeurs %}
+  {# Pas un bouton : l'editeur n'a diffuse aucune page, seulement une adresse.
+     Un bouton d'appel a l'action promettrait l'appel et ouvrirait un client
+     de messagerie. #}
+  <a class="text-sm underline whitespace-nowrap" href="{{ contactEditeurs }}" style="color:#2B5F8E">Contacter les éditeurs</a>
+  {% endif %}
 </div>
 <div class="flex flex-col lg:flex-row lg:items-start gap-8">
   {% if revue %}

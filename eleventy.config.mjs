@@ -3,7 +3,7 @@ import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { DateTime } from "luxon";
 
 import { echeanceDepassee } from "./scrapers/echeance.mjs";
-import { extraireDescription, resumerDescription, lienSourceOriginale } from "./scrapers/extrait.mjs";
+import { extraireDescription, resumerDescription, lienSourceOriginale, lienContactEditeurs } from "./scrapers/extrait.mjs";
 
 // Flux RSS par tag reellement disponibles. Ces fichiers sont ecrits par
 // scrapers/feedgen.mjs dans www/tag/ et recopies en passthrough : le build ne
@@ -554,6 +554,13 @@ export default async function (eleventyConfig) {
     // (chaine vide, mailto:). Meme garde que le lien « Source » des cartes.
     eleventyConfig.addFilter("lienSource", function (call) {
         return lienSourceOriginale(call);
+    });
+
+    // Adresse de contact quand l'editeur n'a diffuse qu'un courriel. Exclusif
+    // de lienSource : le gabarit enchaine les deux et n'affiche rien si les
+    // deux sont nuls.
+    eleventyConfig.addFilter("lienContact", function (call) {
+        return lienContactEditeurs(call);
     });
     // --- fin kerostig ---
 
