@@ -131,7 +131,9 @@
 
     <p x-show="counts.visible === 0" class="text-sm opacity-70 text-center py-8">Aucun appel ne correspond à ces critères dans cette discipline. Essayez d'élargir le rang.</p>
 
-    <div x-ref="calls" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    {# Une seule colonne a toutes les tailles, comme sur l'accueil : la carte
+       occupe la largeur disponible. Le mobile ne change pas. #}
+    <div x-ref="calls" class="grid grid-cols-1 gap-4">
       {% for call in appels %}
       {% include "call-card.html" %}
       {% endfor %}
