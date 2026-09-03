@@ -80,15 +80,17 @@ export const scraperObject = {
         console.log(`[wiley] ${journals.length} revue(s) a traiter`);
 
         const calls = [];
-        let notFoundCount = 0;
+        const motifs = { bloque: 0, absent: 0, reseau: 0, autre: 0 };
+        let atteintes = 0;
         for (const journal of journals) {
-            const page = await find_page(journal.nomOpenalex, build_urls(journal.issn));
-            if (!page) {
-                notFoundCount++;
+            const resultat = await find_page(journal.nomOpenalex, build_urls(journal.issn));
+            if (!resultat.page) {
+                motifs[resultat.motif] += 1;
                 continue;
             }
+            atteintes += 1;
 
-            const entries = extract_entries(page.html, page.url, journal.nomOpenalex);
+            const entries = extract_entries(resultat.page.html, resultat.page.url, journal.nomOpenalex);
             for (const entry of entries) {
                 calls.push({
                     journal: journal.nomOpenalex,
@@ -100,31 +102,78 @@ export const scraperObject = {
                 });
             }
         }
-        console.log(`[wiley] ${calls.length} appel(s) trouve(s)`);
-        console.log(`[wiley] ${notFoundCount} revue(s) sans page de calls-for-papers trouvee (aucun des chemins d'URL essayes n'a repondu)`);
+        console.log(`[wiley] ${calls.length} appel(s) trouve(s) sur ${atteintes} revue(s) atteinte(s)`);
+        // Un blocage n'est pas une absence : il passe en avertissement, avec sa
+        // cause probable, parce qu'il se repare (curl-impersonate) la ou une
+        // page reellement absente ne se repare pas.
+        if (motifs.bloque) {
+            console.warn(`[wiley] ${motifs.bloque} revue(s) BLOQUEE(S) : 403 ou redirection vers un challenge Cloudflare. Leur page existe peut-etre. Cause la plus frequente : curl-impersonate absent du systeme, curl standard etant filtre sur son empreinte TLS.`);
+        }
+        if (motifs.absent) {
+            console.log(`[wiley] ${motifs.absent} revue(s) sans page de calls-for-papers (404 sur les ${PATH_CANDIDATES.length} chemins essayes)`);
+        }
+        if (motifs.reseau) {
+            console.warn(`[wiley] ${motifs.reseau} revue(s) injoignable(s) (erreur reseau sur tous les chemins)`);
+        }
+        if (motifs.autre) {
+            console.warn(`[wiley] ${motifs.autre} revue(s) ecartee(s) sur un statut inattendu (ni 200, ni 404, ni blocage)`);
+        }
 
         return calls;
     }
 }
 
+// Pourquoi aucune des URL candidates n'a rendu de page.
+//
+// Le compteur disait « aucun des chemins d'URL essayes n'a repondu » quel que
+// soit le motif. C'etait faux et trompeur : verifie le 2026-09-03 sur quatre
+// revues portant des appels actifs (Gender Work and Organization, Journal of
+// Product Innovation Management, Information Systems Journal, Psychology and
+// Marketing), les chemins ont bien repondu -- 403 ou 302 -- et les pages
+// existent, a des URL que cette fonction essaie deja. Un navigateur y obtient
+// 200 et plus de 100 Ko. Le blocage vient de curl standard, dont l'empreinte
+// TLS Schannel est filtree par Cloudflare quand curl-impersonate n'est pas
+// installe. Rapporter cela comme une page absente envoie le prochain
+// diagnostic sur une fausse piste : on cherche des chemins d'URL alors que le
+// probleme est le client HTTP.
+//
+// L'ordre des tests compte : le blocage l'emporte, parce qu'il masque tout le
+// reste -- une revue bloquee peut aussi bien avoir une page qu'aucune, on n'en
+// sait rien.
+// Fonction pure, exportee pour test.
+export function classerTentatives(tentatives) {
+    if (!tentatives.length) return 'autre';
+    // 403 ou redirection : chez Wiley, les deux menent au challenge Cloudflare.
+    if (tentatives.some(t => t.challenge || t.statut === 403 || (t.statut >= 300 && t.statut < 400))) return 'bloque';
+    if (tentatives.some(t => t.erreur)) return 'reseau';
+    if (tentatives.every(t => t.statut === 404)) return 'absent';
+    return 'autre';
+}
+
 // Essaie chaque URL candidate jusqu'a en trouver une qui repond 200.
+// Rend { page } en cas de succes, { motif } sinon -- l'appelant compte les
+// motifs separement au lieu de tout verser dans « page introuvable ».
 async function find_page(journalName, urls) {
+    const tentatives = [];
     for (const url of urls) {
         await sleep(REQUEST_DELAY_MS);
         try {
             const response = await curlGet(url, { cookieJarPath: COOKIE_JAR_PATH, userAgent: USER_AGENT });
             if (response.status === 200) {
-                return { html: response.body, url };
+                return { page: { html: response.body, url } };
             }
-            if (!challengeLogged && CHALLENGE_PATTERN.test(response.body)) {
+            const challenge = CHALLENGE_PATTERN.test(response.body ?? '');
+            tentatives.push({ statut: response.status, challenge });
+            if (!challengeLogged && challenge) {
                 challengeLogged = true;
                 console.warn(`[wiley] Challenge Cloudflare detecte sur ${url} (statut ${response.status}) -- augmenter REQUEST_DELAY_MS si ca se reproduit souvent.`);
             }
         } catch (error) {
+            tentatives.push({ erreur: error.message });
             console.warn(`[wiley] "${journalName}" : erreur reseau sur ${url} : ${error.message}`);
         }
     }
-    return null;
+    return { motif: classerTentatives(tentatives) };
 }
 
 export function extract_entries(html, pageUrl, journalName) {
