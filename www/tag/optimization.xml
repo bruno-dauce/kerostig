@@ -4,7 +4,7 @@
         <title>kerostig | Tag : optimization</title>
         <link>https://kerostig.org/tag/optimization/</link>
         <description>Derniers appels à publications avec le tag 'optimization'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,6 +15,81 @@
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
+            <title><![CDATA[Recent Advances in Optimization and Decision Making under Uncertainty: Theory and Algorithms]]></title>
+            <link>https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/</link>
+            <guid>springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms</guid>
+            <pubDate>Thu, 03 Sep 2026 17:13:45 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Abdel Lisser</strong>, CentraleSupélec</p>
+        
+        <p><strong>Jia Liu</strong>, Xi&#39;an Jiaotong University</p>
+        
+        <p><strong>Francesca Maggioni</strong>, University of Bergamo</p>
+        
+        <p><strong>S. K. Neogy</strong>, Indian Statistical Institute</p>
+        
+        <p><strong>Vikas Vikram Singh</strong>, Indian Institute of Technology Delhi</p>
+        
+    
+    
+    
+    <p>This special issue in Annals of Operations Research seeks original research advancing theoretical foundations, modeling approaches, and algorithms for optimization and decision making under uncertainty. The focus encompasses mathematical optimization, stochastic and robust optimization, game theory, and learning-based optimization techniques, welcoming contributions that develop new models, analytical results, and computational methodologies.</p>
+    
+    <p>The special issue is organized alongside the International Conference on Operations Research: Theory, Applications and Emerging Technologies (ICORSI 2026) at Indian Institute of Technology Delhi, though participation is not required. It welcomes all researchers working on recent advances in optimization theory and methods for decision making under uncertainty.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/ehagifafae">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Mathematical programming</li>
+        
+        <li>Convex, nonconvex, and mixed-integer optimization</li>
+        
+        <li>Stochastic, robust, and distributionally robust optimization</li>
+        
+        <li>Chance-constrained optimization</li>
+        
+        <li>Variational inequalities and equilibrium problems</li>
+        
+        <li>Game theory and multi-agent optimization</li>
+        
+        <li>Markov decision processes and stochastic games</li>
+        
+        <li>Reinforcement learning for sequential decision making</li>
+        
+        <li>Online and data-driven optimization</li>
+        
+        <li>Optimization under risk measures</li>
+        
+        <li>Bayesian optimization</li>
+        
+        <li>Black-box optimization</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 31, 2028: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Collaborative Intelligence in Operations Research: Models, Methods, and Applications]]></title>
             <link>https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/</link>
             <guid>springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</guid>
@@ -23,25 +98,27 @@
 <div>
     
         
-        <p><strong>Madjid Tavana</strong>, La Salle University</p>
-        
-        <p><strong>Olga Battaïa</strong>, KEDGE Business School</p>
+        <p><strong>Olga Battaïa</strong>, Kedge Business School</p>
         
         <p><strong>Yasser Dessouky</strong>, San Jose State University</p>
         
-        <p><strong>Masood Fathi</strong>, University of Skövde</p>
-        
         <p><strong>Reza Zanjirani Farahani</strong>, Paris School of Business</p>
         
+        <p><strong>Masood Fathi</strong>, University of Skövde</p>
+        
+        <p><strong>Madjid Tavana</strong>, La Salle University</p>
+        
     
     
     
-    <p>The increasing complexity of modern decision-making demands advanced Operations Research (OR) models that integrate Collaborative Intelligence—the synergy between human expertise, Artificial Intelligence (AI)-driven decision support, and distributed problem-solving frameworks. This paradigm enhances adaptability, efficiency, and resilience in complex operations by leveraging multi-agent coordination, human-AI collaboration, decentralized optimization, and machine learning-enhanced decision-making.</p>
+    <p>This special issue investigates how collaborative intelligence—combining human expertise, artificial intelligence, and distributed problem-solving—can advance operations research to address modern decision-making challenges. Traditional OR methods struggle with the dynamic and interconnected nature of contemporary problems, from logistics to emergency response. The collection seeks contributions that demonstrate how human-AI collaboration can enhance decision-making, boost system resilience, and optimize complex operational environments.</p>
+    
+    <p>The call invites theoretical, computational, and applied research on human-AI collaboration in OR models, optimization and game-theoretic approaches for multi-agent systems, adaptive and decentralized frameworks, and data-driven learning-based optimization. Submissions should demonstrate both theoretical rigor and practical relevance, with innovative methodologies and real-world applications that advance collaborative intelligence in operations research.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
         
-        <a href="https://link.springer.com/collections/fihchfagfc">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/fihchfagfc">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -88,61 +165,75 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Global Supply Chain Reconfiguration Under Tariff Uncertainty]]></title>
-            <link>https://kerostig.org/call/springer-global-supply-chain-reconfiguration-under-tariff-uncertainty/</link>
-            <guid>springer-global-supply-chain-reconfiguration-under-tariff-uncertainty</guid>
+            <title><![CDATA[Contextual Optimization with Side Information: Theory, Methodology, and Applications]]></title>
+            <link>https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/</link>
+            <guid>springer-contextual-optimization-with-side-information-theory-methodology-and-applications</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
         
-        <p><strong>Guoqing Zhang</strong>, University of Windsor</p>
+        <p><strong>Stelios Bekiros</strong>, University of Turin</p>
         
-        <p><strong>Jiaguo Liu</strong>, Dalian Maritime University</p>
+        <p><strong>Andrea D&#39;Ariano</strong>, Roma Tre University</p>
         
-        <p><strong>Hakan Yildiz</strong>, Wayne State University</p>
+        <p><strong>Peng Wu</strong>, Fuzhou University</p>
+        
+        <p><strong>Guowei Zhang</strong>, Dalian University of Technology</p>
         
     
     
     
-    <p>The reconfiguration of global supply chains has become increasingly urgent amid escalating tariff uncertainty and shifting international trade policies. Tariff-induced disruptions are reshaping sourcing strategies, manufacturing footprints, logistics networks, and market access worldwide.</p>
+    <p>Modern operations research increasingly involves complex decision-making in data-rich environments where contextual information can significantly improve operational policies. This special issue focuses on integrating side information into optimization frameworks, combining advances from optimization, machine learning, and statistical learning. The challenge is to develop methods that go beyond historical averages to create adaptive, personalized solutions that effectively handle high-dimensional data, distribution shifts, and real-time computational demands.</p>
     
-    <p>While tariff-related supply chain research is not new, today&#39;s environment is marked by unprecedented levels of uncertainty and complexity. High tariff rates, retaliatory measures, and escalating trade tensions have created significant challenges for supply chain reconfiguration and management in practice. The unprecedented challenges of tariff uncertainty highlight the need for new decision-making models, offering significant opportunities to advance the literature and address pressing real-world challenges.</p>
+    <p>The special issue welcomes contributions that develop novel theories, algorithms, and practical applications merging optimization with machine learning and data analytics. Priority is given to methods that address uncertainty while leveraging contextual information, with emphasis on improving actual decision quality and system performance rather than predictive accuracy alone.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
         
-        <a href="https://link.springer.com/collections/gdhggicicb">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/iajhfddihe">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/springer-global-supply-chain-reconfiguration-under-tariff-uncertainty/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Supply network redesign and optimization under tariff uncertainty</li>
+        <li>Contextual Stochastic Optimization</li>
         
-        <li>Robust and stochastic optimization models for tariff-driven supply chain planning</li>
+        <li>Distributionally Robust Optimization with Side Information</li>
         
-        <li>Global supply chain reconfiguration under trade policy uncertainty</li>
+        <li>Prescriptive Analytics and Contextual Decision Making</li>
         
-        <li>AI-powered dynamic supply chain adaptation and tariff response strategies</li>
+        <li>Learning-Enhanced Optimization</li>
         
-        <li>Dynamic production, sourcing, and logistics strategies facing tariff risks</li>
+        <li>Decision-Focused Learning</li>
         
-        <li>Supply chain resilience and risk management for tariff disruptions</li>
+        <li>Online, Dynamic, and Adaptive Optimization</li>
         
-        <li>Logistics and warehousing for global e-commerce and omnichannel supply chains</li>
+        <li>Learning-Augmented Algorithms</li>
         
-        <li>Maritime network and logistics optimization with tariff impacts</li>
+        <li>Interpretable and Trustworthy Optimization Models</li>
         
-        <li>Hybrid OR–machine learning for adaptive decision-making in global supply chains</li>
+        <li>Statistical Guarantees and Generalization in Optimization</li>
         
-        <li>Multi-echelon inventory management under fluctuating tariff policies</li>
+        <li>Data-Driven Optimization Under Uncertainty</li>
         
-        <li>AI and data-driven methods for trade policy analysis and supply chain impacts</li>
+        <li>AI and Machine Learning for OR</li>
         
-        <li>Optimization models and algorithms for large-scale global supply chain problems</li>
+        <li>Human-in-the-Loop Optimization</li>
+        
+        <li>Optimization with Foundation Models or Generative AI</li>
+        
+        <li>Scalable Algorithms for Large-Scale Optimization Problems</li>
+        
+        <li>Digital Twin and Real-Time Decision Systems</li>
+        
+        <li>Contextual Transportation and Logistics Optimization</li>
+        
+        <li>Contextual Supply Chain and Revenue Management</li>
+        
+        <li>Data-Driven Healthcare and Service Operations</li>
         
     </ul>
     
@@ -150,7 +241,137 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>October 31, 2026: Manuscript submission deadline</li>
+        <li>July 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Multiple Objective Programming and Goal Programming: Artificial Intelligence for Decision Making in Economic and Social Sciences]]></title>
+            <link>https://kerostig.org/call/springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences/</link>
+            <guid>springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Matteo Rocca</strong>, University of Insubria</p>
+        
+        <p><strong>Davide La Torre</strong>, Skema Business School</p>
+        
+        <p><strong>Constantin Zopounidis</strong>, Technical University of Crete</p>
+        
+    
+    
+    
+    <p>This special issue brings together research at the intersection of multiple objective optimization, goal programming, and artificial intelligence to address complex decision-making problems in economic and social sciences. By combining structured methods for evaluating conflicting objectives with machine learning approaches that process large datasets, the issue seeks to advance both theoretical understanding and practical applications of these integrated methodologies.</p>
+    
+    <p>The special issue welcomes original research papers, including substantially extended versions of presentations from the 16th International Conference on Multiple Objective Programming and Goal Programming (MOPGP&#39;25, held July 1-3, 2025, in Varese, Italy), as well as papers not presented at the conference. Contributions should address theory or applications of multiple objective programming, goal programming, or artificial intelligence with relevance to economic or social decision-making contexts.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/bffeaajcfi">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Advancements in Multiple Objective Programming Techniques</li>
+        
+        <li>Goal Programming Techniques and Formulations</li>
+        
+        <li>Goal Programming Approaches in Public Policy</li>
+        
+        <li>AI-Enhanced Decision Support Systems for Resource Allocation</li>
+        
+        <li>Data-Driven Methods in Economic and Social Decision-Making</li>
+        
+        <li>Integrating Machine Learning with MOP</li>
+        
+        <li>Multicriteria Deep Learning</li>
+        
+        <li>Applications of MOP and GP in Sustainable Development</li>
+        
+        <li>Real-Time Decision-Making Frameworks Using AI</li>
+        
+        <li>Comparative Studies of MOP and GP in Various Contexts</li>
+        
+        <li>Multi-Criteria Decision Analysis in Sustainable Economics</li>
+        
+        <li>Multiple Criteria Decision Making in Environmental Economics</li>
+        
+        <li>Optimization Models for Social Welfare</li>
+        
+        <li>Behavioural Insights in Multi-Objective Decision-Making</li>
+        
+        <li>Metaheuristics and Computational Methods in MOP</li>
+        
+        <li>MOP and MCDM in AI applications</li>
+        
+        <li>Innovative Applications to Economic and Social Sciences</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>June 30, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[OR for Sustainability in Supply Chain Management]]></title>
+            <link>https://kerostig.org/call/springer-or-for-sustainability-in-supply-chain-management/</link>
+            <guid>springer-or-for-sustainability-in-supply-chain-management</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Kannan Govindan</strong>, University of Southern Denmark</p>
+        
+    
+    
+    
+    <p>This special section addresses the integration of sustainable development goals (SDGs) into supply chain management using advanced operations research methods. Organizations face mounting pressure to balance economic growth with resource conservation and environmental protection, making this research area crucial for achieving the UN&#39;s 2030 sustainability agenda.</p>
+    
+    <p>The special section seeks research applying optimization models, algorithms, and decision-making techniques such as multi-attribute and multi-objective decision making to design and implement sustainable supply chains. Contributions should explore how operations research can support stakeholder engagement in sustainability policymaking, innovative practices for resource management, and mechanisms for monitoring progress toward SDG targets across different economic contexts.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/hcgebaicga">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-or-for-sustainability-in-supply-chain-management/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Designing and policymaking in SDGs through stakeholder support: to provide examples of sustainable policy and design making with multi-stakeholder perspectives and to define how sustainability is considered in framing policies and enumerating success factors and challenges on supply chain management</li>
+        
+        <li>Implementing SDGs in supply chains through innovative strategies and practices: to identify the sustainable goals, indicators, and practices related to the implementation of sustainable supply chain management and to explore how this knowledge may be used to effectively manage and conserve resources with less environmental and societal impact</li>
+        
+        <li>Monitoring supply chain governance and implications with a focus on SDGs: to elaborate practices and supporting mechanisms in measuring, monitoring, and reporting progress toward achieving targets, and to further emphasize various challenges related to the implementation of SDGs in supply chain management in different applications/context/economies</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Submission deadline</li>
         
     </ul>
     
@@ -174,12 +395,14 @@
     
     
     
-    <p>Optimization has long been a cornerstone for advancement of various industrial, government, and military applications. In recent years, it has become increasingly important in advancing research and development related to medical and biological applications. Complexity of medical devices and delivery systems demands solutions to complex decision problems; and biological and clinical applications provide rich, sometimes overwhelming, sources of data upon which challenging optimization problems must be formulated and solved. Such challenges stimulate partnerships between members of the mathematical programming community and biologists, clinicians, public health officials, and others. These partnerships provide excellent opportunities to push the frontier of theoretical and computational optimization while solving important problems that benefit society and mankind.</p>
+    <p>This special section seeks research that applies optimization and computational methods to medical and biological problems. The initiative recognizes that healthcare complexity and data-rich biological systems require rigorous mathematical and algorithmic approaches to advance treatment and prevention strategies.</p>
+    
+    <p>Contributions should address theoretical or methodological developments in optimization models and algorithms, including continuous, integer, combinatorial, and stochastic methods, with direct applications to healthcare delivery, disease management, medical imaging, and biological research. The special section welcomes partnerships between operations research and medical communities to solve problems benefiting public health.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
         
-        <a href="https://link.springer.com/collections/debcfieibd">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/debcfieibd">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/springer-or-in-medicine-and-health-care/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -187,25 +410,17 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Disease modeling</li>
+        <li>Continuous linear and nonlinear optimization applied to medical and biological applications</li>
         
-        <li>Medical diagnosis</li>
+        <li>Integer programming for disease modeling, medical diagnosis, and treatment planning</li>
         
-        <li>Treatment planning</li>
+        <li>Combinatorial optimization in biological and medical imaging</li>
         
-        <li>Biological and medical imaging</li>
+        <li>Stochastic approaches to epidemiology and molecular biology</li>
         
-        <li>Epidemiology</li>
+        <li>Medical device and delivery systems optimization</li>
         
-        <li>Molecular biology</li>
-        
-        <li>Continuous linear and nonlinear optimization</li>
-        
-        <li>Integer programming</li>
-        
-        <li>Combinatorial optimization</li>
-        
-        <li>Stochastic approaches applied to medical and biological applications</li>
+        <li>Complex decision problems in clinical applications</li>
         
     </ul>
     

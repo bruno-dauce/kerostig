@@ -4,7 +4,7 @@
         <title>kerostig | Tag : research evaluation</title>
         <link>https://kerostig.org/tag/research-evaluation/</link>
         <description>Derniers appels à publications avec le tag 'research evaluation'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -24,12 +24,14 @@
     
     
     
-    <p>Bibliometrics has a long-standing interest in tracing epistemic change. The question of how epistemic change is reflected in publications is implicit to evaluative bibliometrics because the quality of a paper is measured through its impact, which can be understood as the extent to which a paper changes later research. Beyond this idea underlying bibliometric assessments, the question of how to identify and trace emerging fields or emerging technologies has attracted considerable attention, and the dynamics of topics has been traced with bibliometric methods. These approaches either identify emerging topics and technologies by searching for rapidly growing clusters of publication or trace changes that are known to exist and trace them using citation patterns, keywords or combinations thereof. The current interest in the identification of exceptional papers reflects a similar interest in epistemic change.</p>
+    <p>Bibliometrics has long sought to measure epistemic change through publication data, but current approaches are constrained by methodological conventions. Recent indicators attempting to measure novelty, originality, or disruptiveness in individual papers rely on three problematic assumptions: that epistemic change is a discrete event rather than a process, that it is fully contained in a single paper, and that quantifiable measures can replace detailed descriptions of the specific nature of changes.</p>
+    
+    <p>The field faces fundamental challenges in validating bibliometric measures of epistemic change, including reliance on bibliographic metadata whose relationship to actual paper content remains unclear, the need for ground truths to test new methods, and questions about what information in metadata can support such measurement. This special collection brings together work from a series of workshops addressing how epistemic change can be properly conceptualized, operationalized, validated, and identified using both traditional bibliometric approaches and emerging computational methods.</p>
     
     <p>
         Appel publié par Scientometrics.
         
-        <a href="https://link.springer.com/collections/fdiagaeghc">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/fdiagaeghc">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/springer-bibliometric-measures-of-epistemic-change/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -39,9 +41,9 @@
         
         <li>Conceptualisation and operationalisation of epistemic change for bibliometric tracing</li>
         
-        <li>Construction of ground truths for development and testing of bibliometric methods</li>
+        <li>Construction of ground truths for developing and testing bibliometric methods</li>
         
-        <li>Metadata content related to epistemic change in bibliographic records</li>
+        <li>Metadata content relevant to epistemic change in bibliographic records</li>
         
         <li>Validation of established bibliometric indicators against ground truths</li>
         

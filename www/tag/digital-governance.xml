@@ -4,7 +4,7 @@
         <title>kerostig | Tag : digital governance</title>
         <link>https://kerostig.org/tag/digital-governance/</link>
         <description>Derniers appels à publications avec le tag 'digital governance'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,83 @@
             <link>https://kerostig.org/tag/digital-governance/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Advancing towards a Responsible and Resilient Digital Future]]></title>
+            <link>https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future/</link>
+            <guid>springer-advancing-towards-a-responsible-and-resilient-digital-future</guid>
+            <pubDate>Sun, 16 Aug 2026 21:44:37 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Imon Chakraborty</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Saji K Mathew</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Nargis Pervin</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Viswanath Venkatesh</strong>, Virginia Polytechnic Institute and State University</p>
+        
+    
+    
+    
+    <p>Digital technologies like AI, platforms, and IoT are transforming organizations and society, creating both significant value and serious risks including algorithmic bias, privacy violations, and cybersecurity threats. This special issue seeks research on information systems that are simultaneously responsible—fair, transparent, ethical, and respectful of human rights—and resilient, able to withstand disruptions and recover from failures.</p>
+    
+    <p>The research community needs theoretically grounded and empirically rigorous studies that move beyond simple technology adoption narratives to examine post-adoption use, value realization, human-machine collaboration, and the long-term impacts of digital systems. Information systems researchers are uniquely positioned to explore how responsibility and resilience interplay across individuals, organizations, institutions, and society.</p>
+    
+    <p>The special issue welcomes submissions using various research methods that advance understanding of responsible and resilient digital futures in specific technological and organizational contexts. It is linked to the InCIS 2027 conference but is also open to all authors through direct submission.</p>
+    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/ffhgdbhbad">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Responsible AI and AI Governance</li>
+        
+        <li>Resilient Information Systems and Digital Platforms</li>
+        
+        <li>Human–AI Collaboration and Decision Making</li>
+        
+        <li>Digital Transformation and Innovation</li>
+        
+        <li>User Behaviour in Digital Environment</li>
+        
+        <li>Digital Trust, Privacy, and Cybersecurity</li>
+        
+        <li>Data Governance and AI-Enabled Decision Making</li>
+        
+        <li>Digital Inclusion, Accessibility, and Societal Impact</li>
+        
+        <li>Policy and Governance of Digital Technologies</li>
+        
+        <li>Design Science Research for Responsible and Resilient IS</li>
+        
+        <li>AI and future of work and education</li>
+        
+        <li>Opportunities and challenges does AI create for society</li>
+        
+        <li>Skills and mindsets that will remain uniquely human in an AI-driven world</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 15, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[How is public-private-civic collaboration transforming government?]]></title>
             <link>https://kerostig.org/call/elsevier-govtech-how-is-public-private-civic-collaboration-transforming-government/</link>

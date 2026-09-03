@@ -4,7 +4,7 @@
         <title>kerostig | Tag : affective computing</title>
         <link>https://kerostig.org/tag/affective-computing/</link>
         <description>Derniers appels à publications avec le tag 'affective computing'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -38,14 +38,14 @@
     
     
     
-    <p>The past decade has seen explosive growth in video data (live and on-demand), driven by ubiquitous cameras, mobile devices, and online platforms. From city CCTV and body-cams to retail, sports, tele-health, and social live commerce, organizations now operate end-to-end video streaming pipelines at massive scale. In parallel, advances in deep learning, spanning video transformers, self-supervised pretraining, and multimodal large models, have transformed what intelligent systems can infer from continuous visual data, moving beyond static clips to long-horizon, low-latency understanding of events, activities, and interactions.</p>
+    <p>This special issue addresses the intersection of video analytics and affective computing in intelligent information systems. With video data rapidly expanding across surveillance, retail, sports, and social platforms, combined with advances in deep learning and multimodal models, there is growing potential to extract emotional and social signals from visual content to enhance user engagement, recommendation systems, and decision-making processes.</p>
     
-    <p>Affective computing adds a new dimension by interpreting emotional and social signals in video and multimedia. For example, research shows that portraying positive emotions and trust cues in video significantly increases viewer engagement. By combining facial expression, gesture, and acoustic analysis, advanced AI can infer user sentiment and intent. These capabilities enrich social-media intelligence, recommender systems, and customer journey analysis.</p>
+    <p>The collection seeks original research, surveys, and perspectives on methods that fuse visual, auditory, and textual data to detect emotion, sentiment, engagement, and intent in real time. Topics include scalable video processing architectures, emotion recognition from video, multimodal analysis techniques, streaming-native AI systems, explainability and fairness in affective AI, and domain-specific applications in healthcare, finance, education, and smart environments.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
         
-        <a href="https://link.springer.com/collections/hfgbffihjb">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/hfgbffihjb">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -61,7 +61,7 @@
         
         <li>Streaming-native AI and MLOps: online inference under tight latency budgets, stream processing/windowing, drift detection, A/B testing and safe rollouts, cost–latency–accuracy trade-offs, and end-to-end observability for production pipelines.</li>
         
-        <li>Video(-language) models for streaming: multimodal LLMs/VLMs, memory and token compression for long-horizon video, retrieval-augmented streaming</li>
+        <li>Video(-language) models for streaming: multimodal LLMs/VLMs, memory and token compression for long-horizon video, retrieval-augmented streaming.</li>
         
         <li>Real-time and distributed architectures: edge/cloud or federated systems for real-time video analytics at scale, including considerations of latency, bandwidth and privacy.</li>
         

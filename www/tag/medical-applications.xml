@@ -4,7 +4,7 @@
         <title>kerostig | Tag : medical applications</title>
         <link>https://kerostig.org/tag/medical-applications/</link>
         <description>Derniers appels à publications avec le tag 'medical applications'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -30,12 +30,14 @@
     
     
     
-    <p>Optimization has long been a cornerstone for advancement of various industrial, government, and military applications. In recent years, it has become increasingly important in advancing research and development related to medical and biological applications. Complexity of medical devices and delivery systems demands solutions to complex decision problems; and biological and clinical applications provide rich, sometimes overwhelming, sources of data upon which challenging optimization problems must be formulated and solved. Such challenges stimulate partnerships between members of the mathematical programming community and biologists, clinicians, public health officials, and others. These partnerships provide excellent opportunities to push the frontier of theoretical and computational optimization while solving important problems that benefit society and mankind.</p>
+    <p>This special section seeks research that applies optimization and computational methods to medical and biological problems. The initiative recognizes that healthcare complexity and data-rich biological systems require rigorous mathematical and algorithmic approaches to advance treatment and prevention strategies.</p>
+    
+    <p>Contributions should address theoretical or methodological developments in optimization models and algorithms, including continuous, integer, combinatorial, and stochastic methods, with direct applications to healthcare delivery, disease management, medical imaging, and biological research. The special section welcomes partnerships between operations research and medical communities to solve problems benefiting public health.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
         
-        <a href="https://link.springer.com/collections/debcfieibd">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/debcfieibd">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/springer-or-in-medicine-and-health-care/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -43,25 +45,17 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Disease modeling</li>
+        <li>Continuous linear and nonlinear optimization applied to medical and biological applications</li>
         
-        <li>Medical diagnosis</li>
+        <li>Integer programming for disease modeling, medical diagnosis, and treatment planning</li>
         
-        <li>Treatment planning</li>
+        <li>Combinatorial optimization in biological and medical imaging</li>
         
-        <li>Biological and medical imaging</li>
+        <li>Stochastic approaches to epidemiology and molecular biology</li>
         
-        <li>Epidemiology</li>
+        <li>Medical device and delivery systems optimization</li>
         
-        <li>Molecular biology</li>
-        
-        <li>Continuous linear and nonlinear optimization</li>
-        
-        <li>Integer programming</li>
-        
-        <li>Combinatorial optimization</li>
-        
-        <li>Stochastic approaches applied to medical and biological applications</li>
+        <li>Complex decision problems in clinical applications</li>
         
     </ul>
     

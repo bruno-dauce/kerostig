@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : contextual decision making</title>
+        <link>https://kerostig.org/tag/contextual-decision-making/</link>
+        <description>Derniers appels à publications avec le tag 'contextual decision making'.</description>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : contextual decision making</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/contextual-decision-making/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Contextual Optimization with Side Information: Theory, Methodology, and Applications]]></title>
+            <link>https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/</link>
+            <guid>springer-contextual-optimization-with-side-information-theory-methodology-and-applications</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Stelios Bekiros</strong>, University of Turin</p>
+        
+        <p><strong>Andrea D&#39;Ariano</strong>, Roma Tre University</p>
+        
+        <p><strong>Peng Wu</strong>, Fuzhou University</p>
+        
+        <p><strong>Guowei Zhang</strong>, Dalian University of Technology</p>
+        
+    
+    
+    
+    <p>Modern operations research increasingly involves complex decision-making in data-rich environments where contextual information can significantly improve operational policies. This special issue focuses on integrating side information into optimization frameworks, combining advances from optimization, machine learning, and statistical learning. The challenge is to develop methods that go beyond historical averages to create adaptive, personalized solutions that effectively handle high-dimensional data, distribution shifts, and real-time computational demands.</p>
+    
+    <p>The special issue welcomes contributions that develop novel theories, algorithms, and practical applications merging optimization with machine learning and data analytics. Priority is given to methods that address uncertainty while leveraging contextual information, with emphasis on improving actual decision quality and system performance rather than predictive accuracy alone.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/iajhfddihe">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Contextual Stochastic Optimization</li>
+        
+        <li>Distributionally Robust Optimization with Side Information</li>
+        
+        <li>Prescriptive Analytics and Contextual Decision Making</li>
+        
+        <li>Learning-Enhanced Optimization</li>
+        
+        <li>Decision-Focused Learning</li>
+        
+        <li>Online, Dynamic, and Adaptive Optimization</li>
+        
+        <li>Learning-Augmented Algorithms</li>
+        
+        <li>Interpretable and Trustworthy Optimization Models</li>
+        
+        <li>Statistical Guarantees and Generalization in Optimization</li>
+        
+        <li>Data-Driven Optimization Under Uncertainty</li>
+        
+        <li>AI and Machine Learning for OR</li>
+        
+        <li>Human-in-the-Loop Optimization</li>
+        
+        <li>Optimization with Foundation Models or Generative AI</li>
+        
+        <li>Scalable Algorithms for Large-Scale Optimization Problems</li>
+        
+        <li>Digital Twin and Real-Time Decision Systems</li>
+        
+        <li>Contextual Transportation and Logistics Optimization</li>
+        
+        <li>Contextual Supply Chain and Revenue Management</li>
+        
+        <li>Data-Driven Healthcare and Service Operations</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>July 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

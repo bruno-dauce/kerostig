@@ -4,7 +4,7 @@
         <title>kerostig | Tag : data science</title>
         <link>https://kerostig.org/tag/data-science/</link>
         <description>Derniers appels à publications avec le tag 'data science'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -34,9 +34,9 @@
     
     
     
-    <p>The objective of this special section is to publish papers that contribute to both the theory and practice of data science and predictive analytics. While papers describing new techniques have been published in other journals, we would expect to see how the technique could be applied in practice with implications to create value in organizations. Creating value through analytics may lead to, or require, organizational change for it to effective.</p>
+    <p>This special section seeks to publish research that bridges data science and operations research, emphasizing both theoretical advances and practical organizational applications. The focus extends beyond technical innovation to address how analytics creates measurable value within organizations and drives necessary organizational change.</p>
     
-    <p>The relationship with Operations Research is direct but distinct: analytics is an organizational activity that draws on and uses the techniques of data science and operational research as appropriate. Research into data science and analytics should seek to both incorporate the unique aspects of the OR discipline, as well as the innovations, concerns and characteristics of the analytics movement.</p>
+    <p>The collection invites contributions exploring the intersection of OR and analytics across multiple dimensions: ethical and governance considerations in data usage, challenges of applying OR techniques to big data and distributed systems, organizational barriers to analytics adoption, data quality and validation methods for large datasets, and the role of visualization and soft OR techniques in supporting data-driven decision making.</p>
     
     <p>
         Appel publié par Annals of Operations Research.

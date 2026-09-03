@@ -2,40 +2,43 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | Tag : decision support</title>
-        <link>https://kerostig.org/tag/decision-support</link>
+        <link>https://kerostig.org/tag/decision-support/</link>
         <description>Derniers appels à publications avec le tag 'decision support'.</description>
-        <lastBuildDate>Sun, 23 Aug 2026 03:13:16 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | Tag : decision support</title>
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.org/tag/decision-support</link>
+            <link>https://kerostig.org/tag/decision-support/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems]]></title>
-            <link>https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</link>
+            <link>https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/</link>
             <guid>springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Yi-Kuei Lin</strong>, National Yang Ming Chiao Tung University</p>
         
     
     
-    <p>Industrial engineering systems, including manufacturing systems, supply chains, logistics networks, energy and power systems, transportation systems, and service operations, play a critical role in modern society. The reliable operation of such systems is essential for ensuring efficiency, safety, and robustness in the presence of uncertainty, disruptions, and complex interactions among system components. Failures or performance degradation in these systems may lead to significant economic losses, operational inefficiencies, and societal impacts.</p>
     
-    <p>Traditionally, reliability modeling in industrial engineering has been grounded in probabilistic analysis, stochastic modeling, and analytical evaluation techniques. While these approaches remain fundamental, recent advances in sensing technologies, industrial Internet of Things, and information systems have enabled the collection of large-scale operational and condition-monitoring data. This has led to a growing interest in data-driven and intelligent reliability modeling, where statistical learning, machine learning, and other statistical analytical approaches complement classical reliability theory.</p>
+    <p>This special issue focuses on reliability modeling and decision support for industrial engineering systems such as manufacturing, supply chains, logistics, energy, and transportation networks. While traditional reliability approaches rely on probabilistic analysis, advances in sensing technologies and data collection have enabled data-driven methods combining machine learning with classical reliability theory. The special issue seeks to bridge reliability analysis with practical decision-making for maintenance planning, resource allocation, and system optimization.</p>
     
-    <p>At the same time, reliability analysis is increasingly expected to support decision-making processes, such as maintenance planning, resource allocation, system design, and operational optimization. Integrating reliability modeling with decision support frameworks allows practitioners and decision-makers to move beyond reliability assessment toward actionable, reliability-informed decisions under uncertainty.</p>
+    <p>Research contributions should demonstrate both theoretical rigor and practical relevance to industrial applications. The issue welcomes papers on data-driven reliability modeling, machine learning approaches, decision support frameworks, predictive maintenance, and optimization informed by reliability performance. Submissions illustrating how data-driven analysis enhances system performance and decision outcomes are particularly encouraged.</p>
     
-    <p>We invite submissions on topics related to reliability modeling and decision support for industrial engineering systems using Operations Research, industrial engineering, and data-driven methodologies. Contributions addressing both theoretical developments and practical applications are welcome.</p>
-    
-    <p>We welcome the submission of original research papers that provide new insights and practical solutions to challenges in reliability modeling and decision support for industrial engineering systems. Submissions should demonstrate methodological rigor and clearly highlight their relevance to real-world industrial applications. Papers that illustrate how data-driven reliability analysis can enhance decision-making and system performance are particularly encouraged.</p>
-    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/igdgfheeeh">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -79,8 +82,67 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Data Science]]></title>
+            <link>https://kerostig.org/call/springer-data-science/</link>
+            <guid>springer-data-science</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Dries F. Benoit</strong>, Ghent University</p>
+        
+        <p><strong>Kristof Coussement</strong>, IÉSEG School of Management</p>
+        
+        <p><strong>Cem İyigün</strong>, Middle East Technical University</p>
+        
+        <p><strong>Asil Oztekin</strong>, University of Massachusetts Lowell</p>
+        
+    
+    
+    
+    <p>This special section seeks to publish research that bridges data science and operations research, emphasizing both theoretical advances and practical organizational applications. The focus extends beyond technical innovation to address how analytics creates measurable value within organizations and drives necessary organizational change.</p>
+    
+    <p>The collection invites contributions exploring the intersection of OR and analytics across multiple dimensions: ethical and governance considerations in data usage, challenges of applying OR techniques to big data and distributed systems, organizational barriers to analytics adoption, data quality and validation methods for large datasets, and the role of visualization and soft OR techniques in supporting data-driven decision making.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/egaahfecfe">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-data-science/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Ethics and governance issues in analytics: How should data be obtained? What are the ethical implications of using applications of analytics to influence behavior?</li>
+        
+        <li>Big data and analytics: What are the limitations and applications of optimization and other OR techniques to large datasets? What are the challenges for applications of OR methods within distributed systems? What is the possibility that OR models could in fact be the producers of big data, e.g., large-scale simulation models? What new methods/models in response to big data, e.g., sentiment mining, can be adopted by OR?</li>
+        
+        <li>Organizational issues in analytics adoption: What are the issues facing organizations trying to adopt analytics? What is the role of real-time applications of OR in organizations?</li>
+        
+        <li>Data quality and analytics: What methods can be used for hypothesis testing and model validation in large datasets? How can unstructured data be used effectively in OR models? What is the role of multi-methodology in business analytics? What opportunities do open data present for the OR discipline?</li>
+        
+        <li>Analytics and decision support: How can data visualization techniques be used across the breadth of OR? What role do problem structuring and &quot;soft&quot; OR techniques play in analytics and big data projects?</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

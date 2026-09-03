@@ -4,7 +4,7 @@
         <title>kerostig | Tag : human-ai collaboration</title>
         <link>https://kerostig.org/tag/human-ai-collaboration/</link>
         <description>Derniers appels à publications avec le tag 'human-ai collaboration'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -23,25 +23,27 @@
 <div>
     
         
-        <p><strong>Madjid Tavana</strong>, La Salle University</p>
-        
-        <p><strong>Olga Battaïa</strong>, KEDGE Business School</p>
+        <p><strong>Olga Battaïa</strong>, Kedge Business School</p>
         
         <p><strong>Yasser Dessouky</strong>, San Jose State University</p>
         
-        <p><strong>Masood Fathi</strong>, University of Skövde</p>
-        
         <p><strong>Reza Zanjirani Farahani</strong>, Paris School of Business</p>
         
+        <p><strong>Masood Fathi</strong>, University of Skövde</p>
+        
+        <p><strong>Madjid Tavana</strong>, La Salle University</p>
+        
     
     
     
-    <p>The increasing complexity of modern decision-making demands advanced Operations Research (OR) models that integrate Collaborative Intelligence—the synergy between human expertise, Artificial Intelligence (AI)-driven decision support, and distributed problem-solving frameworks. This paradigm enhances adaptability, efficiency, and resilience in complex operations by leveraging multi-agent coordination, human-AI collaboration, decentralized optimization, and machine learning-enhanced decision-making.</p>
+    <p>This special issue investigates how collaborative intelligence—combining human expertise, artificial intelligence, and distributed problem-solving—can advance operations research to address modern decision-making challenges. Traditional OR methods struggle with the dynamic and interconnected nature of contemporary problems, from logistics to emergency response. The collection seeks contributions that demonstrate how human-AI collaboration can enhance decision-making, boost system resilience, and optimize complex operational environments.</p>
+    
+    <p>The call invites theoretical, computational, and applied research on human-AI collaboration in OR models, optimization and game-theoretic approaches for multi-agent systems, adaptive and decentralized frameworks, and data-driven learning-based optimization. Submissions should demonstrate both theoretical rigor and practical relevance, with innovative methodologies and real-world applications that advance collaborative intelligence in operations research.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
         
-        <a href="https://link.springer.com/collections/fihchfagfc">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/fihchfagfc">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -80,6 +82,89 @@
     <ul>
         
         <li>December 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Keeping Humans in the Loop in the AI-Driven Future of Information Security]]></title>
+            <link>https://kerostig.org/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security/</link>
+            <guid>springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Laura Amo</strong>, University at Buffalo, State University of New York</p>
+        
+        <p><strong>Richard Baskerville</strong>, Georgia State University</p>
+        
+        <p><strong>Rui Chen</strong>, Iowa State University</p>
+        
+        <p><strong>Matthew Hashim</strong>, University of Arizona</p>
+        
+        <p><strong>Yaojie (William) Li</strong>, University of New Orleans</p>
+        
+        <p><strong>Yuan Li</strong>, University of Tennessee at Knoxville</p>
+        
+    
+    
+    
+    <p>As artificial intelligence increasingly dominates both offensive and defensive cybersecurity, this special issue emphasizes the critical importance of maintaining human involvement in security systems and decisions. The issue addresses concerns about AI-driven threats such as sophisticated phishing attacks, deepfakes, and behavioral data exploitation, while acknowledging that defensive reliance on AI-based threat detection creates cognitive challenges for practitioners.</p>
+    
+    <p>Human-in-the-loop (HITL) is presented as a design principle that ensures human participation in system training, decision-making, and error mitigation, recognizing that fully automated security systems may be restrictive or dangerous. The special issue calls for behavioral information security research that balances AI&#39;s growing role with sustained focus on human behavior, cognition, and motivation in secure systems, training, and technologies.</p>
+    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/egdbefhiee">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Neurosecurity (NeuroIS) investigations of information security behavior</li>
+        
+        <li>Behavioral analyses of design science treatments enhancing or balancing security and privacy tradeoffs</li>
+        
+        <li>The behavioral intersection of cybersecurity/privacy research and AI/ML advancements</li>
+        
+        <li>AI-enabled security awareness, training, nudging, and behavioral intervention systems</li>
+        
+        <li>Human-AI collaboration in security decision-making, compliance, monitoring, and response</li>
+        
+        <li>Behavioral security implications of generative AI, including phishing, social engineering, misinformation, insider threats, and user overreliance on AI tools</li>
+        
+        <li>Design science approaches to developing, evaluating, and theorizing intelligent security artifacts with behavioral implications</li>
+        
+        <li>Adaptive, personalized, and context-aware security interventions enabled by AI and analytics</li>
+        
+        <li>Theoretical extensions or reconceptualizations of established behavioral security theories in AI-mediated environments</li>
+        
+        <li>Security behaviors in pervasive and post-pandemic work environments, including remote work, hybrid work, IoT, cloud platforms, and platform ecosystems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 15, 2027: Submission deadline</li>
+        
+        <li>May 15, 2027: Notification of first round reviews</li>
+        
+        <li>July 15, 2027: Revised manuscript due</li>
+        
+        <li>September 1, 2027: Notification of second round reviews</li>
+        
+        <li>October 15, 2027: Final version due</li>
+        
+        <li>January 30, 2028: Tentative publication date</li>
         
     </ul>
     

@@ -4,7 +4,7 @@
         <title>kerostig | Tag : stochastic optimization</title>
         <link>https://kerostig.org/tag/stochastic-optimization/</link>
         <description>Derniers appels à publications avec le tag 'stochastic optimization'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,59 +15,65 @@
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Climate Transition and Operational Risk Modelling: Implications for Supply Chains and Financial Decision-Making]]></title>
-            <link>https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/</link>
-            <guid>springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <title><![CDATA[Recent Advances in Optimization and Decision Making under Uncertainty: Theory and Algorithms]]></title>
+            <link>https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/</link>
+            <guid>springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms</guid>
+            <pubDate>Thu, 03 Sep 2026 17:13:45 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
         
-        <p><strong>Andrea Flori</strong>, Politecnico di Milano</p>
+        <p><strong>Abdel Lisser</strong>, CentraleSupélec</p>
         
-        <p><strong>Anna Maria Gambaro</strong>, Università del Piemonte Orientale</p>
+        <p><strong>Jia Liu</strong>, Xi&#39;an Jiaotong University</p>
         
-        <p><strong>Ioannis Kyriakou</strong>, University of London</p>
+        <p><strong>Francesca Maggioni</strong>, University of Bergamo</p>
         
-        <p><strong>Duc Khuong Nguyen</strong>, EMLV Business School</p>
+        <p><strong>S. K. Neogy</strong>, Indian Statistical Institute</p>
+        
+        <p><strong>Vikas Vikram Singh</strong>, Indian Institute of Technology Delhi</p>
         
     
     
     
-    <p>Climate-related risks, viewed through a systems operation&#39;s lens, can disrupt the coordination, flow, and stability of financial and economic processes. Although their importance is increasingly acknowledged by academic, regulatory, and practitioner communities, quantifying environmental externalities and designing effective mitigation policies remain open to debate and subject to contention. A key source of uncertainty stems from the transition to a low-carbon economy, particularly concerning its timing and pace. This transition may induce substantial effects on firms, especially those in carbon-intensive sectors, posing systemic challenges to their stability. This underscores the urgent need for rigorous analytical solutions to model climate-related risks and to study their transmission mechanisms within interconnected economic systems.</p>
+    <p>This special issue in Annals of Operations Research seeks original research advancing theoretical foundations, modeling approaches, and algorithms for optimization and decision making under uncertainty. The focus encompasses mathematical optimization, stochastic and robust optimization, game theory, and learning-based optimization techniques, welcoming contributions that develop new models, analytical results, and computational methodologies.</p>
+    
+    <p>The special issue is organized alongside the International Conference on Operations Research: Theory, Applications and Emerging Technologies (ICORSI 2026) at Indian Institute of Technology Delhi, though participation is not required. It welcomes all researchers working on recent advances in optimization theory and methods for decision making under uncertainty.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
         
-        <a href="https://link.springer.com/collections/baifaedejd">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/ehagifafae">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Robust stochastic optimization methods for climate transition risks</li>
+        <li>Mathematical programming</li>
         
-        <li>Portfolio optimization and risk-adjusted return modelling under climate policy uncertainty</li>
+        <li>Convex, nonconvex, and mixed-integer optimization</li>
         
-        <li>Credit and counterparty risk assessment under low-carbon transition scenarios</li>
+        <li>Stochastic, robust, and distributionally robust optimization</li>
         
-        <li>Risk-sharing mechanisms and insurance models for climate-related disruptions</li>
+        <li>Chance-constrained optimization</li>
         
-        <li>Supply chain risk management in climate transition</li>
+        <li>Variational inequalities and equilibrium problems</li>
         
-        <li>Operational decision-making in emission trading schemes and carbon pricing</li>
+        <li>Game theory and multi-agent optimization</li>
         
-        <li>Predictive modelling of carbon stranding risk via supervised learning</li>
+        <li>Markov decision processes and stochastic games</li>
         
-        <li>Machine learning and big data analytics for climate risk scenario classification</li>
+        <li>Reinforcement learning for sequential decision making</li>
         
-        <li>Natural language processing applications in climate policy risk analysis</li>
+        <li>Online and data-driven optimization</li>
         
-        <li>Bayesian network approaches to modelling climate transition risk propagation</li>
+        <li>Optimization under risk measures</li>
         
-        <li>Agent-based models of climate transition dynamics and systemic effects</li>
+        <li>Bayesian optimization</li>
+        
+        <li>Black-box optimization</li>
         
     </ul>
     
@@ -75,7 +81,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>December 31, 2026: Submission deadline</li>
+        <li>March 31, 2028: Submission deadline</li>
         
     </ul>
     

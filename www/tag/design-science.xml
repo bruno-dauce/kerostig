@@ -4,7 +4,7 @@
         <title>kerostig | Tag : design science</title>
         <link>https://kerostig.org/tag/design-science/</link>
         <description>Derniers appels à publications avec le tag 'design science'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -38,12 +38,14 @@
     
     
     
-    <p>As automation and AI explode, artificial intelligence is positioned to become the primary force in offensive and defensive cybersecurity practices. Attackers use generative AI to launch sophisticated spear-phishing attacks and deepfake campaigns targeting individuals; they also leverage Internet-of-Behaviors data to customize attacks based on user behavior patterns. AI companionship tools, while offering emotional support and practical assistance, also pose significant security and privacy concerns. Defensively, practitioners increasingly rely on AI-based threat detection tools just to keep pace with AI-fueled external threats, simultaneously facing cognitive issues associated with AI-based cybersecurity incident responses.</p>
+    <p>As artificial intelligence increasingly dominates both offensive and defensive cybersecurity, this special issue emphasizes the critical importance of maintaining human involvement in security systems and decisions. The issue addresses concerns about AI-driven threats such as sophisticated phishing attacks, deepfakes, and behavioral data exploitation, while acknowledging that defensive reliance on AI-based threat detection creates cognitive challenges for practitioners.</p>
+    
+    <p>Human-in-the-loop (HITL) is presented as a design principle that ensures human participation in system training, decision-making, and error mitigation, recognizing that fully automated security systems may be restrictive or dangerous. The special issue calls for behavioral information security research that balances AI&#39;s growing role with sustained focus on human behavior, cognition, and motivation in secure systems, training, and technologies.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
         
-        <a href="https://link.springer.com/collections/egdbefhiee">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/egdbefhiee">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security/">Fiche de l'appel sur kerostig</a>.
     </p>

@@ -2,72 +2,82 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | Tag : political economy</title>
-        <link>https://kerostig.org/tag/political-economy</link>
+        <link>https://kerostig.org/tag/political-economy/</link>
         <description>Derniers appels à publications avec le tag 'political economy'.</description>
-        <lastBuildDate>Fri, 21 Aug 2026 03:25:16 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | Tag : political economy</title>
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.org/tag/political-economy</link>
+            <link>https://kerostig.org/tag/political-economy/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Beyond the Contradictions of Capitalist Green Finance: Alternative Paths to Sustainability]]></title>
-            <link>https://kerostig.org/call/sage-beyond-the-contradictions-of-capitalist-green-finance-alternative-paths-to-sustainability</link>
-            <guid>sage-beyond-the-contradictions-of-capitalist-green-finance-alternative-paths-to-sustainability</guid>
-            <pubDate>Tue, 18 Aug 2026 18:07:56 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <title><![CDATA[Anti-Environmentalism and the Future of Green Growth]]></title>
+            <link>https://kerostig.org/call/springer-anti-environmentalism-and-the-future-of-green-growth/</link>
+            <guid>springer-anti-environmentalism-and-the-future-of-green-growth</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Anastasios Xepapadeas</strong>, Athens University of Economics and Business</p>
+        
+        <p><strong>Simone Marsiglio</strong>, University of Pisa</p>
+        
+        <p><strong>Luca Gori</strong>, University of Pisa</p>
+        
     
     
-    <p>This special issue seeks to move beyond the technocratic and market-based approaches to sustainability that characterize much of the green finance discourse. While green finance has become increasingly mainstream, it often reproduces the fundamental contradictions of capitalism, concentrating wealth, maintaining unequal power structures, and failing to address the root causes of environmental degradation.</p>
     
-    <p>We invite contributions that critically examine the limitations and failures of green finance and green capitalism, while exploring genuinely alternative approaches to funding and organizing sustainable economies. Papers should engage with debates about how to achieve environmental sustainability in ways that prioritize justice, equity, and democratic control over resources.</p>
+    <p>The special issue examines anti-environmentalism—opposition to environmental regulation, renewable energy expansion, and climate mitigation efforts—and its implications for achieving green growth and sustainable development. It addresses how public attitudes, political polarization, and institutional factors shape the feasibility and design of environmental policies in the context of escalating climate risks and planetary boundaries.</p>
     
-    <p>Contributions may explore the structural contradictions within green finance capitalism, including how market mechanisms and financialization perpetuate inequality and environmental harm. They may also propose and analyze alternative models that challenge the fundamental assumptions of capitalist green finance.</p>
+    <p>The collection seeks research across environmental economics, macroeconomics, political economy, and behavioral economics that explores the causes, dynamics, and consequences of anti-environmental movements for sustainable economic transitions. It welcomes diverse methodological approaches, with particular emphasis on studies that clarify the complex relationships between anti-environmentalism, economic incentives, and policy effectiveness in facilitating low-carbon development.</p>
     
+    <p>
+        Appel publié par Environmental and Resource Economics.
+        
+        <a href="https://link.springer.com/collections/efdadfbcjd">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-anti-environmentalism-and-the-future-of-green-growth/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Critiques of green finance and green capitalism</li>
+        <li>Economic, social and political determinants of anti-environmental attitudes and behavior</li>
         
-        <li>Alternative financing models for sustainability</li>
+        <li>The impact of populism, misinformation, and lobbying on climate and environmental policy outcomes</li>
         
-        <li>Just transition and equity in green finance</li>
+        <li>Public perception and resistance to carbon taxation, green industrial policies, and regulation</li>
         
-        <li>Community-based and cooperative finance approaches</li>
+        <li>Distributional and equity aspects of green growth as sources of policy backlash</li>
         
-        <li>Indigenous and traditional sustainable practices</li>
+        <li>The role of institutions and governance in shaping environmental resistance</li>
         
-        <li>Degrowth and post-growth economic models</li>
+        <li>International and comparative analyses of anti-environmental movements and climate cooperation</li>
         
-        <li>Financialization of nature and environmental commodification</li>
+        <li>Behavioral and cultural dimensions of environmental skepticism and pro-growth narratives</li>
         
-        <li>State regulation and intervention in green finance</li>
+        <li>Policy strategies for overcoming anti-environmentalist sentiment and fostering green, just and inclusive transitions</li>
         
-        <li>Corporate accountability and greenwashing</li>
-        
-        <li>Renewable energy financing and ownership models</li>
-        
-        <li>Sustainable agriculture and food systems financing</li>
-        
-        <li>Climate justice and reparations</li>
-        
-        <li>Labor rights in green transitions</li>
-        
-        <li>Local currency and alternative banking systems</li>
-        
-        <li>Blockchain and digital currencies for sustainability</li>
+        <li>Economic growth under increasing climate-related extreme event risk, and the costs of climate skepticism</li>
         
     </ul>
     
     
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 31, 2027: Submission deadline</li>
+        
+    </ul>
     
-</div>]]></content:encoded>
-            <author>Competition &amp; Change (SAGE)</author>
+    
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : deep learning</title>
+        <link>https://kerostig.org/tag/deep-learning/</link>
+        <description>Derniers appels à publications avec le tag 'deep learning'.</description>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : deep learning</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/deep-learning/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Artificial Intelligence, Affective Computing and Video Analytics for Intelligent Information Systems]]></title>
+            <link>https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/</link>
+            <guid>springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Andrea Generosi</strong>, Pegaso University</p>
+        
+        <p><strong>Luigi Gallo</strong>, Pegaso University</p>
+        
+        <p><strong>Valerio De Luca</strong>, Pegaso University</p>
+        
+        <p><strong>Maura Mengoni</strong>, Marche Polytechnic University</p>
+        
+        <p><strong>Josef Spjut</strong>, NVIDIA</p>
+        
+        <p><strong>Lucio De Paolis</strong>, University of Salento</p>
+        
+    
+    
+    
+    <p>This special issue addresses the intersection of video analytics and affective computing in intelligent information systems. With video data rapidly expanding across surveillance, retail, sports, and social platforms, combined with advances in deep learning and multimodal models, there is growing potential to extract emotional and social signals from visual content to enhance user engagement, recommendation systems, and decision-making processes.</p>
+    
+    <p>The collection seeks original research, surveys, and perspectives on methods that fuse visual, auditory, and textual data to detect emotion, sentiment, engagement, and intent in real time. Topics include scalable video processing architectures, emotion recognition from video, multimodal analysis techniques, streaming-native AI systems, explainability and fairness in affective AI, and domain-specific applications in healthcare, finance, education, and smart environments.</p>
+    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/hfgbffihjb">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Scalable video understanding: algorithms and architectures for analyzing large-scale video streams (e.g. in surveillance, social media or enterprise) to support decision-making and business analytics.</li>
+        
+        <li>Emotion and sentiment analysis: detection of affective and engagement cues in video (e.g. customer-journey recordings, advertisement viewing, user-generated content).</li>
+        
+        <li>Multimodal fusion: methods that combine vision with audio, text or other modalities to enrich social-media intelligence and contextual analysis.</li>
+        
+        <li>Streaming-native AI and MLOps: online inference under tight latency budgets, stream processing/windowing, drift detection, A/B testing and safe rollouts, cost–latency–accuracy trade-offs, and end-to-end observability for production pipelines.</li>
+        
+        <li>Video(-language) models for streaming: multimodal LLMs/VLMs, memory and token compression for long-horizon video, retrieval-augmented streaming.</li>
+        
+        <li>Real-time and distributed architectures: edge/cloud or federated systems for real-time video analytics at scale, including considerations of latency, bandwidth and privacy.</li>
+        
+        <li>Explainability, fairness and compliance: approaches to make affective video AI transparent and trustworthy, addressing ethical, legal and regulatory challenges.</li>
+        
+        <li>Adaptive learning: techniques for domain adaptation, continual learning or few-shot learning to handle evolving video streams and reduce the need for large labeled datasets.</li>
+        
+        <li>Case studies and applications: empirical studies in domains such as healthcare (e.g. remote patient monitoring), finance (e.g. behavioral analytics), education (e.g. XR/serious games environments), and smart environments.</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>October 30, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

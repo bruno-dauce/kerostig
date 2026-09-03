@@ -4,7 +4,7 @@
         <title>kerostig | Tag : decision support systems</title>
         <link>https://kerostig.org/tag/decision-support-systems/</link>
         <description>Derniers appels à publications avec le tag 'decision support systems'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,77 +14,6 @@
             <link>https://kerostig.org/tag/decision-support-systems/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
-        <item>
-            <title><![CDATA[Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems]]></title>
-            <link>https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/</link>
-            <guid>springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Yi-Kuei Lin</strong>, National Yang Ming Chiao Tung University</p>
-        
-    
-    
-    
-    <p>Industrial engineering systems, including manufacturing systems, supply chains, logistics networks, energy and power systems, transportation systems, and service operations, play a critical role in modern society. The reliable operation of such systems is essential for ensuring efficiency, safety, and robustness in the presence of uncertainty, disruptions, and complex interactions among system components. Failures or performance degradation in these systems may lead to significant economic losses, operational inefficiencies, and societal impacts.</p>
-    
-    <p>Traditionally, reliability modeling in industrial engineering has been grounded in probabilistic analysis, stochastic modeling, and analytical evaluation techniques. While these approaches remain fundamental, recent advances in sensing technologies, industrial Internet of Things, and information systems have enabled the collection of large-scale operational and condition-monitoring data. This has led to a growing interest in data-driven and intelligent reliability modeling, where statistical learning, machine learning, and other statistical analytical approaches complement classical reliability theory.</p>
-    
-    <p>
-        Appel publié par Annals of Operations Research.
-        
-        <a href="https://link.springer.com/collections/igdgfheeeh">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Data-driven reliability modeling and parameter estimation using operational data</li>
-        
-        <li>Reliability analysis using statistical learning and machine learning methods</li>
-        
-        <li>Reliability models combining analytical formulations with data-driven learning approaches</li>
-        
-        <li>Decision support systems incorporating reliability analysis and risk information</li>
-        
-        <li>Optimization and decision-making problems informed by reliability performance</li>
-        
-        <li>Predictive maintenance and condition monitoring using data and learning models</li>
-        
-        <li>Multistate system and network reliability analysis</li>
-        
-        <li>Reliability evaluation of manufacturing, logistics, and supply chain systems</li>
-        
-        <li>Reliability modeling in energy, power, and infrastructure systems</li>
-        
-        <li>Stochastic modeling and uncertainty analysis in data-driven reliability studies</li>
-        
-        <li>Simulation, enumeration, and approximation methods for reliability evaluation</li>
-        
-        <li>System design and resource allocation considering reliability and operational data</li>
-        
-        <li>Reliability analysis supported by digital twins, data analytics, and intelligent systems</li>
-        
-        <li>Reliability, robustness, and resilience of industrial engineering systems</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>July 31, 2027: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
         <item>
             <title><![CDATA[Blockchain Technology and Applications]]></title>
             <link>https://kerostig.org/call/elsevier-blockchain-technology-and-applications/</link>

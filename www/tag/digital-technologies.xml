@@ -4,7 +4,7 @@
         <title>kerostig | Tag : digital technologies</title>
         <link>https://kerostig.org/tag/digital-technologies/</link>
         <description>Derniers appels à publications avec le tag 'digital technologies'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -36,12 +36,14 @@
     
     
     
-    <p>Unethical labour practices represent a pressing global issue, with an estimated 50 million people currently living in such conditions worldwide. The prevalence of unethical labour practices is expected to increase due to ongoing regional conflicts, economic downturns, and restrictive migration policies in major Western countries. Digital technologies, such as blockchain, artificial intelligence (AI), and cloud computing, promise significant benefits in addressing unethical labour practices and have consequently attracted increasing scholarly attention.</p>
+    <p>An estimated 50 million people worldwide experience unethical labour practices, with numbers expected to rise due to regional conflicts and restrictive migration policies. While digital technologies such as blockchain, AI, and cloud computing offer potential solutions for monitoring and addressing these practices, research in this area remains limited. This special issue seeks to understand how digital technologies can theoretically and empirically be deployed to monitor, detect, report, and remediate unethical labour practices.</p>
+    
+    <p>The special issue welcomes original research using various methodologies that examines the relationship between digital technologies and unethical labour practices. Submissions should identify specific technologies examined and move beyond surface-level analysis to provide nuanced insights. The collection particularly encourages studies that challenge existing paradigms, explore underexamined aspects, or propose innovative frameworks for leveraging digital solutions to advance ethical and sustainable societies while informing policymakers, business leaders, and practitioners.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
         
-        <a href="https://link.springer.com/collections/baegbehdda">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/baegbehdda">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -49,25 +51,25 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Role of blockchain, artificial intelligence, and cloud computing in addressing unethical labour practices</li>
+        <li>Role of digital technologies (blockchain, AI, cloud computing, IoT, big data analytics, virtual and augmented reality) in monitoring and detecting unethical labour practices</li>
         
-        <li>Monitoring and detection of modern slavery and human trafficking using digital technologies</li>
+        <li>Application of digital technologies to address modern slavery, human trafficking, forced labour, and other forms of labour exploitation</li>
         
-        <li>Machine learning and AI applications for identifying trafficking patterns and at-risk populations</li>
+        <li>Digital technologies for reporting and remediating unethical labour practices in supply chains</li>
         
-        <li>Blockchain technology for supply chain transparency and labour exploitation mitigation</li>
+        <li>Use of machine learning and AI for identifying trafficking patterns and at-risk populations</li>
         
-        <li>Remote sensors and worker voice technologies for identifying unethical practices in supply chains</li>
+        <li>Blockchain applications for tracking labour exploitation in global supply chains</li>
         
-        <li>Digital technologies for supporting social inclusion and reintegration of modern slavery survivors</li>
+        <li>Digital technologies for social inclusion and reintegration of survivors of modern slavery</li>
         
         <li>Biometric recognition and satellite imagery applications by governments and NGOs</li>
         
-        <li>Digital technology adoption mechanisms for mitigating unethical labour practices</li>
+        <li>Comparative analysis of multiple digital technologies versus single-technology approaches</li>
         
-        <li>Theoretical and empirical frameworks for digital technology deployment in combating labour exploitation</li>
+        <li>Theoretical frameworks and conceptual models for understanding digital technology adoption in addressing unethical labour practices</li>
         
-        <li>Policy implications and business leadership strategies for leveraging digital technologies against unethical labour practices</li>
+        <li>Empirical studies on the effectiveness and limitations of digital solutions in combating labour exploitation</li>
         
     </ul>
     
@@ -84,67 +86,87 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Digitalization for responsive and circular supply chains]]></title>
-            <link>https://kerostig.org/call/springer-special-issue-on-digitalization-for-responsive-and-circular-supply-chains/</link>
-            <guid>springer-special-issue-on-digitalization-for-responsive-and-circular-supply-chains</guid>
+            <title><![CDATA[Unpacking Digitalization: Antecedents, Strategies, and Performance Implications]]></title>
+            <link>https://kerostig.org/call/springer-unpacking-digitalization-antecedents-strategies-and-performance-implications/</link>
+            <guid>springer-unpacking-digitalization-antecedents-strategies-and-performance-implications</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
         
-        <p><strong>Günter Prockl</strong>, Copenhagen Business School</p>
+        <p><strong>Jasmina Berbegal-Mirabent</strong>, Universitat Politècnica de Catalunya</p>
         
-        <p><strong>Alexander Pflaum</strong>, University of Bamberg</p>
+        <p><strong>Angelo Cavallo</strong>, Politecnico di Milano</p>
         
-        <p><strong>Haozhe Chen</strong>, Iowa State University</p>
+        <p><strong>Antje Fiedler</strong>, University of Auckland</p>
         
-        <p><strong>Marcel Papert</strong>, University of Bamberg</p>
+        <p><strong>Esteban Lafuente</strong>, Instituto Tecnológico de Costa Rica</p>
         
     
     
     
-    <p>The economic environment in which companies create value today is characterized by greater vulnerability, uncertainty, complexity and ambiguity than ever before. Natural disasters, geopolitical conflicts and other disruptions are affecting global supply chains and presenting great changes to established supply chain management models, processes and tools. In the meantime, Planet Earth has reached its limits; climate change and shortages of raw materials are forcing companies and supply chains to transition to more sustainable operations. The commoditization of high-tech products, which is evident in many sectors, is driving the servitization of the manufacturing industry. This presents a golden opportunity for companies to cope with the above-mentioned challenges with greater responsiveness and sustainability.</p>
+    <p>Digital technologies are fundamentally reshaping how both private and public organizations—including universities, hospitals, and local administrations—conceive strategy, innovate, and compete. However, scholarly understanding remains fragmented regarding how digitalization operates across different functional areas and organizational levels, and literature has not fully clarified the mechanisms through which technological adoption generates performance gains or the conditions under which it falters.</p>
     
     <p>
-        Appel publié par Electronic Markets.
+        Appel publié par Review of Managerial Science.
         
-        <a href="https://link.springer.com/collections/cchghgejbh">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/eghcgfcedb">Lire l'appel complet sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/springer-special-issue-on-digitalization-for-responsive-and-circular-supply-chains/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/springer-unpacking-digitalization-antecedents-strategies-and-performance-implications/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Contribution of digital technologies to responsiveness, agility, flexibility, adaptability, improvisation, and resilience, sustainability, circularity, and regeneration</li>
+        <li>Antecedents of digital technologies adoption: Strategic approaches including organizational, technological, institutional, and market-related factors influencing SMEs&#39; digitalization strategies</li>
         
-        <li>Increasing supply chain visibility based on digital technologies</li>
+        <li>Differences in digitalization strategies between industries or economic contexts</li>
         
-        <li>AI methods supporting forecasting, planning, decision making and optimization</li>
+        <li>Strategic choices and prerequisites supporting digitally-induced organizational actions</li>
         
-        <li>Division of labour and interactions between humans and machines in AI-supported supply chains</li>
+        <li>Socio-technical system readiness factors including technical infrastructure, organizational culture, workforce capabilities, and data governance maturity</li>
         
-        <li>Virtualization and simulation of supply chains based on digital twins</li>
+        <li>Ecosystem characteristics and their role in shaping digitally enabled interactions</li>
         
-        <li>Blockchain and smart contracts in logistics and supply chain management</li>
+        <li>Human-technology interaction and integration of digital technologies into firm operations</li>
         
-        <li>The role of digital platforms in supply chain management</li>
+        <li>Value-adding strategies promoted through digital technology integration</li>
         
-        <li>Effects of smart product-service-systems on supply chains and supply chain management</li>
+        <li>Organizational resources, processes, and competencies supporting digital technology integration</li>
         
-        <li>Ecosystems and federated data ecosystems enabling new data-driven R strategies</li>
+        <li>Strategic purposes for technology integration: automation, augmentation, cybersecurity, and innovation</li>
         
-        <li>Models, methods and tools enabling the triple transformation of supply chains</li>
+        <li>Digital literacy, ethical concerns, organizational culture, and managerial practices in technology adoption</li>
         
-        <li>Barriers and challenges hindering digitalization, servitization and transition to sustainability and circularity</li>
+        <li>Digital transformation in the public sector with constrained resources</li>
         
-        <li>Data security and cyber security challenges in digital supply chain structures</li>
+        <li>Leadership, governance structures, and resource orchestration in public institutions</li>
         
-        <li>Legal aspects within the digital, servitized, circular supply chain</li>
+        <li>E-administration, hybrid learning platforms, and AI-enabled service delivery in public organizations</li>
         
-        <li>Potential of digital technologies for ensuring compliance with legal requirements in the context of sustainability and circularity</li>
+        <li>Spillover effects of public digital initiatives on regional SMEs</li>
         
-        <li>Relationship management mechanisms and governance structures in the era of digitalized supply chains</li>
+        <li>Public-private partnerships and cross-sector collaborations for digital solutions</li>
+        
+        <li>Governance models and knowledge-sharing mechanisms enhancing digital co-creation</li>
+        
+        <li>Absorptive capacity development through partnerships</li>
+        
+        <li>Sector and regional ecosystem factors affecting partnership effectiveness</li>
+        
+        <li>Performance outcomes of digital technologies and technology-enabled strategies</li>
+        
+        <li>Individual-level outcomes including productivity, learning, creativity, and decision quality</li>
+        
+        <li>Firm-level outcomes including innovation, internationalization, operational efficiency, and sustainability</li>
+        
+        <li>Mechanisms explaining heterogeneous digitalization outcomes across individuals, teams, and firms</li>
+        
+        <li>Digital literacy and human-technology interactions shaping performance outcomes</li>
+        
+        <li>Strategic alignment of competencies and digital technologies for competitive advantage</li>
+        
+        <li>Digital transformation impacts on power dynamics between entrants and incumbents</li>
         
     </ul>
     
@@ -152,7 +174,19 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>October 15, 2026: Submission deadline</li>
+        <li>February 28, 2026: Open for submissions</li>
+        
+        <li>January 31, 2027: Paper submission deadline</li>
+        
+        <li>April 30, 2027: First-round review decision to authors</li>
+        
+        <li>July 30, 2027: Revised manuscript due</li>
+        
+        <li>October 31, 2027: Second-round review decision to authors</li>
+        
+        <li>January 31, 2028: Final revised manuscript due</li>
+        
+        <li>April 30, 2028: Final author notification of acceptance</li>
         
     </ul>
     

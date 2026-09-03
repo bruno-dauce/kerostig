@@ -4,7 +4,7 @@
         <title>kerostig | Tag : industrial engineering</title>
         <link>https://kerostig.org/tag/industrial-engineering/</link>
         <description>Derniers appels à publications avec le tag 'industrial engineering'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -28,14 +28,14 @@
     
     
     
-    <p>Industrial engineering systems, including manufacturing systems, supply chains, logistics networks, energy and power systems, transportation systems, and service operations, play a critical role in modern society. The reliable operation of such systems is essential for ensuring efficiency, safety, and robustness in the presence of uncertainty, disruptions, and complex interactions among system components. Failures or performance degradation in these systems may lead to significant economic losses, operational inefficiencies, and societal impacts.</p>
+    <p>This special issue focuses on reliability modeling and decision support for industrial engineering systems such as manufacturing, supply chains, logistics, energy, and transportation networks. While traditional reliability approaches rely on probabilistic analysis, advances in sensing technologies and data collection have enabled data-driven methods combining machine learning with classical reliability theory. The special issue seeks to bridge reliability analysis with practical decision-making for maintenance planning, resource allocation, and system optimization.</p>
     
-    <p>Traditionally, reliability modeling in industrial engineering has been grounded in probabilistic analysis, stochastic modeling, and analytical evaluation techniques. While these approaches remain fundamental, recent advances in sensing technologies, industrial Internet of Things, and information systems have enabled the collection of large-scale operational and condition-monitoring data. This has led to a growing interest in data-driven and intelligent reliability modeling, where statistical learning, machine learning, and other statistical analytical approaches complement classical reliability theory.</p>
+    <p>Research contributions should demonstrate both theoretical rigor and practical relevance to industrial applications. The issue welcomes papers on data-driven reliability modeling, machine learning approaches, decision support frameworks, predictive maintenance, and optimization informed by reliability performance. Submissions illustrating how data-driven analysis enhances system performance and decision outcomes are particularly encouraged.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
         
-        <a href="https://link.springer.com/collections/igdgfheeeh">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/igdgfheeeh">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/">Fiche de l'appel sur kerostig</a>.
     </p>

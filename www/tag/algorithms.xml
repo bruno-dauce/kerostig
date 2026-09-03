@@ -4,7 +4,7 @@
         <title>kerostig | Tag : algorithms</title>
         <link>https://kerostig.org/tag/algorithms/</link>
         <description>Derniers appels à publications avec le tag 'algorithms'.</description>
-        <lastBuildDate>Mon, 24 Aug 2026 16:17:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,32 +13,67 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/algorithms/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[The Human-Algorithm Connection]]></title>
-            <link>https://kerostig.org/call/informs-the-human-algorithm-connection/</link>
-            <guid>informs-the-human-algorithm-connection</guid>
-            <pubDate>Tue, 11 Aug 2026 01:40:43 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <title><![CDATA[Recent Advances in Optimization and Decision Making under Uncertainty: Theory and Algorithms]]></title>
+            <link>https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/</link>
+            <guid>springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms</guid>
+            <pubDate>Thu, 03 Sep 2026 17:13:45 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Abdel Lisser</strong>, CentraleSupélec</p>
+        
+        <p><strong>Jia Liu</strong>, Xi&#39;an Jiaotong University</p>
+        
+        <p><strong>Francesca Maggioni</strong>, University of Bergamo</p>
+        
+        <p><strong>S. K. Neogy</strong>, Indian Statistical Institute</p>
+        
+        <p><strong>Vikas Vikram Singh</strong>, Indian Institute of Technology Delhi</p>
+        
     
     
-    <p>The special issue on the human-algorithm connection seeks to attract research that gives decision-makers a better understanding of the coexistence of humans with algorithms and how to improve it. The work must have an important human component (i.e., purely focusing on algorithms won&#39;t suffice) and algorithms can be understood in a broad sense including machines and apps.</p>
     
-    <p>Top quality papers in any of the research areas represented by Management Science are welcome, both theoretical and empirical. Interdisciplinary studies are also highly encouraged.</p>
+    <p>This special issue in Annals of Operations Research seeks original research advancing theoretical foundations, modeling approaches, and algorithms for optimization and decision making under uncertainty. The focus encompasses mathematical optimization, stochastic and robust optimization, game theory, and learning-based optimization techniques, welcoming contributions that develop new models, analytical results, and computational methodologies.</p>
     
+    <p>The special issue is organized alongside the International Conference on Operations Research: Theory, Applications and Emerging Technologies (ICORSI 2026) at Indian Institute of Technology Delhi, though participation is not required. It welcomes all researchers working on recent advances in optimization theory and methods for decision making under uncertainty.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/ehagifafae">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Research on human-algorithm coexistence and interaction</li>
+        <li>Mathematical programming</li>
         
-        <li>Decision-making with algorithms and machines</li>
+        <li>Convex, nonconvex, and mixed-integer optimization</li>
         
-        <li>Human factors in algorithmic systems</li>
+        <li>Stochastic, robust, and distributionally robust optimization</li>
         
-        <li>Improving human-algorithm collaboration</li>
+        <li>Chance-constrained optimization</li>
         
-        <li>Applications of algorithms, machines, and apps in organizational contexts</li>
+        <li>Variational inequalities and equilibrium problems</li>
+        
+        <li>Game theory and multi-agent optimization</li>
+        
+        <li>Markov decision processes and stochastic games</li>
+        
+        <li>Reinforcement learning for sequential decision making</li>
+        
+        <li>Online and data-driven optimization</li>
+        
+        <li>Optimization under risk measures</li>
+        
+        <li>Bayesian optimization</li>
+        
+        <li>Black-box optimization</li>
         
     </ul>
     
@@ -46,13 +81,100 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>December 22, 2022: Submission Deadline</li>
+        <li>March 31, 2028: Submission deadline</li>
         
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Management Science (INFORMS)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[OR in Medicine and Health Care]]></title>
+            <link>https://kerostig.org/call/springer-or-in-medicine-and-health-care/</link>
+            <guid>springer-or-in-medicine-and-health-care</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Eva K. Lee</strong>, Georgia Institute of Technology</p>
+        
+        <p><strong>Ariela Sofer</strong>, George Mason University</p>
+        
+    
+    
+    
+    <p>This special section seeks research that applies optimization and computational methods to medical and biological problems. The initiative recognizes that healthcare complexity and data-rich biological systems require rigorous mathematical and algorithmic approaches to advance treatment and prevention strategies.</p>
+    
+    <p>Contributions should address theoretical or methodological developments in optimization models and algorithms, including continuous, integer, combinatorial, and stochastic methods, with direct applications to healthcare delivery, disease management, medical imaging, and biological research. The special section welcomes partnerships between operations research and medical communities to solve problems benefiting public health.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/debcfieibd">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-or-in-medicine-and-health-care/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Continuous linear and nonlinear optimization applied to medical and biological applications</li>
+        
+        <li>Integer programming for disease modeling, medical diagnosis, and treatment planning</li>
+        
+        <li>Combinatorial optimization in biological and medical imaging</li>
+        
+        <li>Stochastic approaches to epidemiology and molecular biology</li>
+        
+        <li>Medical device and delivery systems optimization</li>
+        
+        <li>Complex decision problems in clinical applications</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Algorithmic Assemblages—Fields, Ecosystems, and Platforms: An Interpretive Approach]]></title>
+            <link>https://kerostig.org/call/elsevier-algorithmic-assemblagesfields-ecosystems-and-platforms-an-interpretive-approach/</link>
+            <guid>elsevier-algorithmic-assemblagesfields-ecosystems-and-platforms-an-interpretive-approach</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Information and Organization.
+        
+        <a href="https://www.sciencedirect.com/special-issue/325053/algorithmic-assemblages-fields-ecosystems-and-platforms-an-interpretive-approach">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-algorithmic-assemblagesfields-ecosystems-and-platforms-an-interpretive-approach/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>July 15, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

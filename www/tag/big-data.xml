@@ -4,7 +4,7 @@
         <title>kerostig | Tag : big data</title>
         <link>https://kerostig.org/tag/big-data/</link>
         <description>Derniers appels à publications avec le tag 'big data'.</description>
-        <lastBuildDate>Mon, 24 Aug 2026 16:17:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,48 +13,51 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/big-data/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Recherche quantitative inductive en GRH : enjeux et méthodes]]></title>
-            <link>https://kerostig.org/call/agrh-appel-a-articles-pour-un-numero-special-de-la-revue-grh/</link>
-            <guid>agrh-appel-a-articles-pour-un-numero-special-de-la-revue-grh</guid>
-            <pubDate>Wed, 12 Aug 2026 22:00:20 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <title><![CDATA[Data Science]]></title>
+            <link>https://kerostig.org/call/springer-data-science/</link>
+            <guid>springer-data-science</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
     
         
-        <p><strong>Clotilde Coron</strong>, Université Paris-Saclay</p>
+        <p><strong>Dries F. Benoit</strong>, Ghent University</p>
+        
+        <p><strong>Kristof Coussement</strong>, IÉSEG School of Management</p>
+        
+        <p><strong>Cem İyigün</strong>, Middle East Technical University</p>
+        
+        <p><strong>Asil Oztekin</strong>, University of Massachusetts Lowell</p>
         
     
     
-    <p>Data is increasingly recognized as a crucial resource for organizational innovation, with extensive and organized data exploitation considered a key driver of the ongoing fourth industrial revolution. HRM is not exempt from this trend, and the methodological challenges of leveraging increasingly diverse and massive datasets present significant stakes for both practitioners and academic researchers.</p>
     
-    <p>Recent reflections on applicable methods for extracting value from data often emphasize the disruptive potential of big data, presenting it as the foundation for a renewal of empiricism based on intensive exploration of data masses through exploratory methods, aimed at generating new knowledge through purely inductive logic. However, inductive, data-driven approaches remain rare in quantitative HRM studies, despite their capacity to transcend the classical dichotomy between qualitative/inductive and quantitative/deductive approaches in management sciences. Data-driven methodologies also help address criticisms leveled at hypothetico-deductive approaches, such as their strong standardization and difficulty in generating truly innovative theories.</p>
+    <p>This special section seeks to publish research that bridges data science and operations research, emphasizing both theoretical advances and practical organizational applications. The focus extends beyond technical innovation to address how analytics creates measurable value within organizations and drives necessary organizational change.</p>
     
-    <p>This special issue aims to provide an updated overview of the challenges and opportunities of data-driven HRM, as well as inductive quantitative methods applicable in empirical research. Expected contributions may address these themes from methodological perspectives (such as presenting an innovative method with illustration in HRM), empirical perspectives (conducting a quantitative study on a subject by adopting an inductive approach), or conceptual perspectives (analyzing the stakes for HRM of data-driven management). Proposals presenting emerging or underutilized methods in francophone quantitative HRM studies will be particularly appreciated, including supervised learning, data mining, textual statistics, and longitudinal approaches.</p>
+    <p>The collection invites contributions exploring the intersection of OR and analytics across multiple dimensions: ethical and governance considerations in data usage, challenges of applying OR techniques to big data and distributed systems, organizational barriers to analytics adoption, data quality and validation methods for large datasets, and the role of visualization and soft OR techniques in supporting data-driven decision making.</p>
     
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/egaahfecfe">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-data-science/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Data-driven approaches in HRM</li>
+        <li>Ethics and governance issues in analytics: How should data be obtained? What are the ethical implications of using applications of analytics to influence behavior?</li>
         
-        <li>Inductive quantitative research methods</li>
+        <li>Big data and analytics: What are the limitations and applications of optimization and other OR techniques to large datasets? What are the challenges for applications of OR methods within distributed systems? What is the possibility that OR models could in fact be the producers of big data, e.g., large-scale simulation models? What new methods/models in response to big data, e.g., sentiment mining, can be adopted by OR?</li>
         
-        <li>Big data exploitation and analysis</li>
+        <li>Organizational issues in analytics adoption: What are the issues facing organizations trying to adopt analytics? What is the role of real-time applications of OR in organizations?</li>
         
-        <li>Supervised learning applications in HRM</li>
+        <li>Data quality and analytics: What methods can be used for hypothesis testing and model validation in large datasets? How can unstructured data be used effectively in OR models? What is the role of multi-methodology in business analytics? What opportunities do open data present for the OR discipline?</li>
         
-        <li>Data mining techniques</li>
-        
-        <li>Textual statistics</li>
-        
-        <li>Longitudinal approaches</li>
-        
-        <li>Innovative quantitative methods in HRM research</li>
-        
-        <li>Theory building from data</li>
-        
-        <li>Emerging methodologies in francophone HRM studies</li>
+        <li>Analytics and decision support: How can data visualization techniques be used across the breadth of OR? What role do problem structuring and &quot;soft&quot; OR techniques play in analytics and big data projects?</li>
         
     </ul>
     
@@ -62,21 +65,13 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>Invalid DateTime: Author feedback</li>
-        
-        <li>Invalid DateTime: Second version of articles</li>
-        
-        <li>Invalid DateTime: Final acceptance of articles</li>
-        
-        <li>Invalid DateTime: Publication of special issue</li>
-        
-        <li>March 25, 2023: Submission deadline for articles</li>
+        <li>Invalid DateTime: Submission deadline</li>
         
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>GRH (AGRH)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

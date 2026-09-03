@@ -4,7 +4,7 @@
         <title>kerostig | Tag : service</title>
         <link>https://kerostig.org/tag/service/</link>
         <description>Derniers appels à publications avec le tag 'service'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -34,12 +34,14 @@
     
     
     
-    <p>Digital transformation continues to reshape how organizations create, deliver, and capture value. At the same time, service has become a crucial lens for understanding contemporary information systems (IS) phenomena. Value is co-created across organizational boundaries, enacted through digital technologies, and embedded in networks, platforms, and ecosystems. The Topical Collection on Digital Transformation &amp; Service at Electronic Markets seeks to advance theoretically grounded and relevant IS research at the intersection of digital transformation and service.</p>
+    <p>This topical collection examines how digital transformation and service shape contemporary information systems, particularly focusing on value creation across organizational boundaries through digital technologies, platforms, and ecosystems. The collection seeks theoretically grounded research that goes beyond broad claims about digital transformation to instead examine how IT artifacts are designed and applied to enable value co-creation in service contexts.</p>
+    
+    <p>The collection prioritizes submissions that explicitly analyze IT artifacts rather than treating them as black boxes, showing how these artifacts shape and are shaped by organizational digital transformation. Research should be grounded in IS literature and address relevant gaps for both theory and practice, with particular interest in inter-organizational and platform-based service scenarios relevant to Electronic Markets.</p>
     
     <p>
         Appel publié par Electronic Markets.
         
-        <a href="https://link.springer.com/collections/aebjbihcdb">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/aebjbihcdb">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/springer-topical-collection-on-digital-transformation-and-service/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -49,9 +51,9 @@
         
         <li>Digital transformation and service in information systems</li>
         
-        <li>Design and application of IT artifacts to foster value co-creation</li>
+        <li>Design and application of IT artifacts for value co-creation</li>
         
-        <li>Smart service systems and ecosystems at multiple levels (communities, organizations, inter-organizational arrangements, platforms, data spaces, and society)</li>
+        <li>Smart service systems and ecosystems at multiple levels (communities, organizations, inter-organizational arrangements, platforms, data spaces, society)</li>
         
         <li>Customer relations, value propositions, and service exchange enabled by digital technologies</li>
         
@@ -59,11 +61,11 @@
         
         <li>Inter-organizational contexts such as service networks, digital platforms, data spaces, and business ecosystems</li>
         
-        <li>Digital transformation in established organizations, start-ups, public-sector organizations, and communities</li>
+        <li>Digital technologies in established organizations, start-ups, public-sector organizations, and communities</li>
         
-        <li>IT artifacts using or expanding large language models and other large-scale artificial intelligence technologies</li>
+        <li>Generative AI and large-scale artificial intelligence in service and digital transformation contexts</li>
         
-        <li>Generative AI and digital responsibility in service contexts</li>
+        <li>Digital responsibility in digital transformation</li>
         
     </ul>
     

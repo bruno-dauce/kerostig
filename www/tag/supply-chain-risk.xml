@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : supply chain risk</title>
+        <link>https://kerostig.org/tag/supply-chain-risk/</link>
+        <description>Derniers appels à publications avec le tag 'supply chain risk'.</description>
+        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : supply chain risk</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/supply-chain-risk/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Climate Transition and Operational Risk Modelling: Implications for Supply Chains and Financial Decision-Making]]></title>
+            <link>https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/</link>
+            <guid>springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Andrea Flori</strong>, Politecnico di Milano</p>
+        
+        <p><strong>Anna Maria Gambaro</strong>, Università del Piemonte Orientale</p>
+        
+        <p><strong>Ioannis Kyriakou</strong>, University of London</p>
+        
+        <p><strong>Duc Khuong Nguyen</strong>, EMLV Business School</p>
+        
+    
+    
+    
+    <p>This special issue addresses how climate transition risks affect financial and operational systems, particularly through supply chain interconnections. The transition to a low-carbon economy creates uncertainty for firms, especially those in carbon-intensive sectors, requiring them to balance sustainability objectives with competitive performance and resilience to sudden shocks. Climate-related disruptions can propagate through global supply chains, amplifying operational risks across multiple tiers.</p>
+    
+    <p>The integration of financial markets means that climate risks are transmitted through asset price movements, volatility, and liquidity effects, potentially leading to market instability. Recent work has begun exploring carbon pricing effects on asset values, portfolio realignment for low-carbon transitions, and investment horizons under uncertainty. The special issue seeks contributions that examine how financial institutions manage portfolio allocation and risk under evolving climate regulations and uncertain transition pathways.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/baifaedejd">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Robust stochastic optimization methods for climate transition risks</li>
+        
+        <li>Portfolio optimization and risk-adjusted return modelling under climate policy uncertainty</li>
+        
+        <li>Credit and counterparty risk assessment under low-carbon transition scenarios</li>
+        
+        <li>Risk-sharing mechanisms and insurance models for climate-related disruptions</li>
+        
+        <li>Supply chain risk management in climate transition</li>
+        
+        <li>Operational decision-making in emission trading schemes and carbon pricing</li>
+        
+        <li>Predictive modelling of carbon stranding risk via supervised learning</li>
+        
+        <li>Machine learning and big data analytics for climate risk scenario classification</li>
+        
+        <li>Natural language processing applications in climate policy risk analysis</li>
+        
+        <li>Bayesian network approaches to modelling climate transition risk propagation</li>
+        
+        <li>Agent-based models of climate transition dynamics and systemic effects</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>
