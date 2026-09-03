@@ -3,6 +3,7 @@
    (compterAppelsActifs) et avec scrapers/echeance.mjs. data-duedate est lu
    ensuite par is_closed() cote client, les deux doivent designer la meme date. #}
 {% import "fnege.html" as fnege %}
+{% import "source-oa.html" as srcOa %}
 {% set dueDate = call.dates | echeancePrincipale %}
 {% set revue = journals | revueDeLAppel(call) %}
 {# Aucun | safe dans cette carte : tout ce qui suit est du texte scrape rendu
@@ -107,7 +108,7 @@
             <span class="badge badge-sm badge-outline">{{ revue.discipline }}</span>
             {% endif %}
             {% if revue.acces_ouvert.est_oa %}
-            <span class="badge badge-sm badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C">accès ouvert</span>
+            <span class="badge badge-sm badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C" title="{{ srcOa.infobulle(revue) }}">accès ouvert</span>
             {% endif %}
             {% endif %}
         </div>

@@ -29,6 +29,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -72,6 +73,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -119,6 +121,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -166,6 +169,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -213,6 +217,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -260,6 +265,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -307,6 +313,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -354,6 +361,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -401,6 +409,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -444,6 +453,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -487,6 +497,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -530,6 +541,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -577,6 +589,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -620,6 +633,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -667,6 +681,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -710,6 +725,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -757,6 +773,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -804,6 +821,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -851,6 +869,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -898,6 +917,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -941,6 +961,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -988,6 +1009,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -1035,6 +1057,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -1078,6 +1101,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -1125,6 +1149,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -1172,6 +1197,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": true,
+      "source_oa": "DOAJ",
       "est_oa": true,
       "apc": {
         "gratuit": true,
@@ -1219,6 +1245,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -1266,6 +1293,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -1309,6 +1337,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -1352,6 +1381,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -1399,6 +1429,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -1442,6 +1473,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -1489,6 +1521,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -1536,6 +1569,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -1579,6 +1613,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -1622,6 +1657,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -1665,6 +1701,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -1708,6 +1745,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -1755,6 +1793,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -1798,6 +1837,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -1841,6 +1881,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -1884,6 +1925,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -1927,6 +1969,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -1970,6 +2013,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -2013,6 +2057,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -2056,6 +2101,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -2103,6 +2149,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -2146,6 +2193,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -2189,6 +2237,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -2236,6 +2285,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -2283,6 +2333,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -2326,6 +2377,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -2373,6 +2425,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -2420,6 +2473,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -2467,6 +2521,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -2510,6 +2565,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -2553,6 +2609,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -2600,6 +2657,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -2647,6 +2705,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -2694,6 +2753,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -2737,6 +2797,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -2784,6 +2845,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -2827,6 +2889,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -2874,6 +2937,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -2921,6 +2985,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -2964,6 +3029,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -3007,6 +3073,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3054,6 +3121,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3101,6 +3169,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3148,6 +3217,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3195,6 +3265,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3242,6 +3313,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -3285,6 +3357,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3332,6 +3405,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -3375,6 +3449,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3422,6 +3497,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3469,6 +3545,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -3512,6 +3589,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -3555,6 +3633,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3602,6 +3681,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -3645,6 +3725,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3692,6 +3773,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3739,6 +3821,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3786,6 +3869,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3833,6 +3917,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3880,6 +3965,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3927,6 +4013,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -3974,6 +4061,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4021,6 +4109,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4068,6 +4157,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4115,6 +4205,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -4158,6 +4249,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -4201,6 +4293,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4248,6 +4341,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4295,6 +4389,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4342,6 +4437,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -4385,6 +4481,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4432,6 +4529,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4479,6 +4577,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4526,6 +4625,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4573,6 +4673,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4620,6 +4721,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4667,6 +4769,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": true,
+      "source_oa": "DOAJ",
       "est_oa": true,
       "apc": {
         "gratuit": false,
@@ -4714,6 +4817,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4761,6 +4865,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4808,6 +4913,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -4851,6 +4957,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4898,6 +5005,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -4945,6 +5053,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -4988,6 +5097,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5035,6 +5145,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5082,6 +5193,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -5125,6 +5237,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5172,6 +5285,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -5215,6 +5329,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5262,6 +5377,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -5305,6 +5421,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5352,6 +5469,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5399,6 +5517,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5446,6 +5565,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5493,6 +5613,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5540,6 +5661,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -5583,6 +5705,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5630,6 +5753,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5677,6 +5801,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -5720,6 +5845,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5767,6 +5893,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5814,6 +5941,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -5857,6 +5985,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5904,6 +6033,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5951,6 +6081,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -5998,6 +6129,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -6041,6 +6173,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -6088,6 +6221,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -6135,6 +6269,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -6182,6 +6317,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -6225,6 +6361,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -6272,6 +6409,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -6315,6 +6453,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -6362,6 +6501,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -6405,6 +6545,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -6452,6 +6593,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -6495,6 +6637,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -6538,6 +6681,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -6585,6 +6729,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -6628,6 +6773,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -6671,6 +6817,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -6718,6 +6865,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -6761,6 +6909,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -6808,6 +6957,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -6855,6 +7005,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -6898,6 +7049,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -6945,6 +7097,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -6988,6 +7141,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -7035,6 +7189,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7078,6 +7233,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7121,6 +7277,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7164,6 +7321,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7207,6 +7365,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -7254,6 +7413,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7297,6 +7457,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7340,6 +7501,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -7387,6 +7549,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7430,6 +7593,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -7477,6 +7641,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7520,6 +7685,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -7567,6 +7733,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7610,6 +7777,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7653,6 +7821,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7696,6 +7865,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7739,6 +7909,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7782,6 +7953,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7825,6 +7997,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7868,6 +8041,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -7911,6 +8085,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -7958,6 +8133,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -8001,6 +8177,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -8044,6 +8221,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -8087,6 +8265,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -8130,6 +8309,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -8177,6 +8357,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -8224,6 +8405,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -8271,6 +8453,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -8318,6 +8501,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -8361,6 +8545,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -8404,6 +8589,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -8447,6 +8633,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -8490,6 +8677,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -8537,6 +8725,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -8584,6 +8773,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -8631,6 +8821,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -8674,6 +8865,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": true,
       "apc": null,
       "licence": null,
@@ -8717,6 +8909,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -8764,6 +8957,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -8811,6 +9005,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -8858,6 +9053,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -8905,6 +9101,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -8948,6 +9145,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -8991,6 +9189,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -9034,6 +9233,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -9081,6 +9281,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -9128,6 +9329,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -9171,6 +9373,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -9214,6 +9417,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -9261,6 +9465,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -9304,6 +9509,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -9347,6 +9553,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -9394,6 +9601,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -9441,6 +9649,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": true,
+      "source_oa": "DOAJ",
       "est_oa": true,
       "apc": {
         "gratuit": false,
@@ -9488,6 +9697,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -9531,6 +9741,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -9574,6 +9785,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -9617,6 +9829,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -9664,6 +9877,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -9711,6 +9925,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -9758,6 +9973,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -9805,6 +10021,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -9852,6 +10069,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": true,
       "apc": null,
       "licence": null,
@@ -9895,6 +10113,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -9942,6 +10161,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -9985,6 +10205,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -10028,6 +10249,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -10071,6 +10293,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -10118,6 +10341,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -10165,6 +10389,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -10208,6 +10433,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -10255,6 +10481,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -10302,6 +10529,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -10349,6 +10577,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -10392,6 +10621,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -10439,6 +10669,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -10482,6 +10713,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -10529,6 +10761,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -10576,6 +10809,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -10619,6 +10853,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -10666,6 +10901,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -10709,6 +10945,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -10756,6 +10993,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -10803,6 +11041,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -10850,6 +11089,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -10893,6 +11133,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -10936,6 +11177,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -10979,6 +11221,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -11026,6 +11269,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -11069,6 +11313,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -11112,6 +11357,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -11155,6 +11401,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -11198,6 +11445,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -11241,6 +11489,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -11284,6 +11533,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -11327,6 +11577,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -11370,6 +11621,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -11413,6 +11665,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -11460,6 +11713,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -11507,6 +11761,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -11550,6 +11805,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -11597,6 +11853,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -11644,6 +11901,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -11687,6 +11945,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -11734,6 +11993,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -11781,6 +12041,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -11824,6 +12085,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -11871,6 +12133,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -11914,6 +12177,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -11961,6 +12225,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -12008,6 +12273,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -12055,6 +12321,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -12098,6 +12365,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -12141,6 +12409,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -12184,6 +12453,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -12227,6 +12497,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -12270,6 +12541,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -12317,6 +12589,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -12364,6 +12637,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -12407,6 +12681,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -12450,6 +12725,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -12497,6 +12773,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -12544,6 +12821,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -12587,6 +12865,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -12634,6 +12913,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -12681,6 +12961,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -12728,6 +13009,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -12771,6 +13053,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -12818,6 +13101,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -12861,6 +13145,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -12908,6 +13193,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -12951,6 +13237,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -12994,6 +13281,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -13037,6 +13325,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -13084,6 +13373,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -13127,6 +13417,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -13170,6 +13461,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -13217,6 +13509,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -13264,6 +13557,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -13307,6 +13601,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -13354,6 +13649,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -13401,6 +13697,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -13448,6 +13745,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -13495,6 +13793,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -13538,6 +13837,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -13585,6 +13885,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -13632,6 +13933,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -13675,6 +13977,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -13718,6 +14021,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -13761,6 +14065,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -13804,6 +14109,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -13847,6 +14153,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -13890,6 +14197,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -13937,6 +14245,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -13980,6 +14289,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -14027,6 +14337,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -14070,6 +14381,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -14113,6 +14425,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -14160,6 +14473,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -14203,6 +14517,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -14250,6 +14565,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -14293,6 +14609,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -14336,6 +14653,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -14379,6 +14697,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -14426,6 +14745,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -14473,6 +14793,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -14520,6 +14841,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -14563,6 +14885,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -14610,6 +14933,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -14653,6 +14977,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -14700,6 +15025,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -14743,6 +15069,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -14786,6 +15113,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -14829,6 +15157,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -14876,6 +15205,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -14923,6 +15253,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -14966,6 +15297,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -15009,6 +15341,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -15052,6 +15385,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -15099,6 +15433,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -15142,6 +15477,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -15189,6 +15525,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -15236,6 +15573,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -15279,6 +15617,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -15322,6 +15661,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -15365,6 +15705,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -15412,6 +15753,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -15455,6 +15797,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -15502,6 +15845,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -15545,6 +15889,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -15588,6 +15933,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -15635,6 +15981,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -15678,6 +16025,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -15725,6 +16073,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -15772,6 +16121,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -15819,6 +16169,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -15862,6 +16213,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -15905,6 +16257,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -15948,6 +16301,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -15995,6 +16349,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -16038,6 +16393,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": true,
+      "source_oa": "DOAJ",
       "est_oa": true,
       "apc": {
         "gratuit": false,
@@ -16085,6 +16441,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -16128,6 +16485,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -16175,6 +16533,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -16218,6 +16577,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -16265,6 +16625,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -16312,6 +16673,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -16359,6 +16721,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -16402,6 +16765,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -16449,6 +16813,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -16492,6 +16857,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -16539,6 +16905,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -16586,6 +16953,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -16629,6 +16997,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -16672,6 +17041,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -16715,6 +17085,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -16762,6 +17133,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -16809,6 +17181,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -16856,6 +17229,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -16903,6 +17277,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -16950,6 +17325,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -16997,6 +17373,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -17040,6 +17417,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -17087,6 +17465,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -17130,6 +17509,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -17173,6 +17553,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -17216,6 +17597,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -17259,6 +17641,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -17306,6 +17689,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -17353,6 +17737,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -17396,6 +17781,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -17443,6 +17829,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -17486,6 +17873,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -17529,6 +17917,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": true,
+      "source_oa": "DOAJ",
       "est_oa": true,
       "apc": {
         "gratuit": false,
@@ -17576,6 +17965,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -17619,6 +18009,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -17662,6 +18053,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -17709,6 +18101,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -17756,6 +18149,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -17799,6 +18193,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -17842,6 +18237,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -17885,6 +18281,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -17928,6 +18325,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -17975,6 +18373,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -18018,6 +18417,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -18061,6 +18461,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": true,
+      "source_oa": "DOAJ",
       "est_oa": true,
       "apc": {
         "gratuit": false,
@@ -18108,6 +18509,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -18155,6 +18557,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -18202,6 +18605,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -18249,6 +18653,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -18292,6 +18697,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -18339,6 +18745,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -18386,6 +18793,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -18433,6 +18841,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -18476,6 +18885,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -18523,6 +18933,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -18570,6 +18981,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -18617,6 +19029,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -18664,6 +19077,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -18707,6 +19121,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -18754,6 +19169,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": true,
+      "source_oa": "DOAJ",
       "est_oa": true,
       "apc": {
         "gratuit": true,
@@ -18801,6 +19217,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -18844,6 +19261,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -18891,6 +19309,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -18938,6 +19357,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -18985,6 +19405,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -19028,6 +19449,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -19071,6 +19493,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -19114,6 +19537,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -19157,6 +19581,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -19204,6 +19629,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -19251,6 +19677,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -19298,6 +19725,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -19341,6 +19769,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -19388,6 +19817,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -19431,6 +19861,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -19474,6 +19905,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -19521,6 +19953,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -19568,6 +20001,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -19611,6 +20045,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -19654,6 +20089,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -19701,6 +20137,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -19748,6 +20185,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -19791,6 +20229,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -19834,6 +20273,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -19881,6 +20321,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": true,
+      "source_oa": "DOAJ",
       "est_oa": true,
       "apc": {
         "gratuit": true,
@@ -19928,6 +20369,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": true,
       "apc": null,
       "licence": null,
@@ -19971,6 +20413,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": true,
       "apc": null,
       "licence": null,
@@ -20014,6 +20457,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -20057,6 +20501,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -20104,6 +20549,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -20151,6 +20597,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -20194,6 +20641,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -20237,6 +20685,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -20280,6 +20729,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -20327,6 +20777,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -20374,6 +20825,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -20421,6 +20873,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -20464,6 +20917,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -20511,6 +20965,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -20558,6 +21013,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -20601,6 +21057,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -20644,6 +21101,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -20687,6 +21145,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -20730,6 +21189,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -20773,6 +21233,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -20820,6 +21281,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -20867,6 +21329,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -20914,6 +21377,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -20957,6 +21421,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21000,6 +21465,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": true,
       "apc": null,
       "licence": null,
@@ -21043,6 +21509,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21086,6 +21553,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21129,6 +21597,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21172,6 +21641,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21215,6 +21685,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21258,6 +21729,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21301,6 +21773,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -21348,6 +21821,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21391,6 +21865,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21434,6 +21909,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -21481,6 +21957,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21524,6 +22001,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21567,6 +22045,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21610,6 +22089,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -21657,6 +22137,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -21704,6 +22185,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21747,6 +22229,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21790,6 +22273,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21833,6 +22317,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21876,6 +22361,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -21923,6 +22409,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -21966,6 +22453,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -22009,6 +22497,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -22052,6 +22541,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,
@@ -22095,6 +22585,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": {
         "gratuit": false,
@@ -22142,6 +22633,7 @@
     },
     "acces_ouvert": {
       "dans_doaj": false,
+      "source_oa": "OpenAlex",
       "est_oa": false,
       "apc": null,
       "licence": null,

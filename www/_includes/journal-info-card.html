@@ -1,4 +1,5 @@
 {% import "fnege.html" as fnege %}
+{% import "source-oa.html" as srcOa %}
 {% if revue %}
 <aside class="card bg-base-200 border border-base-300 rounded-lg lg:sticky lg:top-4">
   <div class="card-body p-5 gap-3">
@@ -28,7 +29,7 @@
       <span class="badge badge-sm badge-outline">{{ revue.discipline }}</span>
       {% endif %}
       {% if revue.acces_ouvert.est_oa %}
-      <span class="badge badge-sm badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C">accès ouvert</span>
+      <span class="badge badge-sm badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C" title="{{ srcOa.infobulle(revue) }}">accès ouvert</span>
       {% endif %}
     </div>
 
@@ -52,6 +53,7 @@
             <br><span class="font-normal text-xs opacity-80">option hybride · APC {{ revue.acces_ouvert.apc.montant }} {{ revue.acces_ouvert.apc.devise }}</span>
             {% endif %}
           {% endif %}
+          {{ srcOa.note(revue) }}
         </dd>
       </div>
 

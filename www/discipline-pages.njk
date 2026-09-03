@@ -24,6 +24,7 @@
 ---
 
 {% import "fnege.html" as fnege %}
+{% import "source-oa.html" as srcOa %}
 
 {# Fil d'Ariane Accueil > Discipline, assemble par schemaDiscipline (cf eleventy.config.mjs). #}
 <script type="application/ld+json">
@@ -164,7 +165,7 @@
            class="badge badge-sm badge-outline font-semibold transition-colors hover:bg-primary/10"
            style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</a>
         {% if revue.acces_ouvert.est_oa %}
-        <span class="badge badge-sm badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C">accès ouvert</span>
+        <span class="badge badge-sm badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C" title="{{ srcOa.infobulle(revue) }}">accès ouvert</span>
         {% endif %}
       </span>
     </li>
@@ -176,7 +177,10 @@
 </section>
 
 <p class="text-xs opacity-70 mt-6 border-t border-base-300 pt-4">
-  Rang et discipline : {{ fnege.texte('classement FNEGE 2025') }}. Accès ouvert : DOAJ.
+  {# « DOAJ et OpenAlex » ici, et non la source d'une revue : la page en couvre
+     des dizaines, dont les sources different. Le detail se lit sur chaque
+     fiche revue et au survol des badges. #}
+  Rang et discipline : {{ fnege.texte('classement FNEGE 2025') }}. Accès ouvert : DOAJ et OpenAlex.
   Les données peuvent comporter des imprécisions, vérifiez toujours sur le site de la revue.
 </p>
 

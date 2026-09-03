@@ -435,6 +435,12 @@ function construireRevue(row, oa, doaj, sherpa) {
     // Acces ouvert (DOAJ + indicateurs OpenAlex en secours)
     acces_ouvert: {
       dans_doaj: doaj.found,
+      // De quelle base vient reellement ce qui s'affiche. Le site attribuait
+      // le bloc « acces ouvert » a DOAJ sans condition, alors que la moitie
+      // des valeurs vient du repli OpenAlex : sur 492 revues, 8 seulement
+      // sont indexees dans DOAJ. Les gabarits lisent ce champ plutot que
+      // d'ecrire « DOAJ » en dur, et signalent le repli au lecteur.
+      source_oa: doaj.found ? "DOAJ" : "OpenAlex",
       est_oa: doaj.found ? true : oa.is_oa,    // DOAJ prime, sinon signal OpenAlex
       apc: doaj.apc ?? (oa.apc_usd != null ? { gratuit: false, montant: oa.apc_usd, devise: "USD" } : null),
       licence: doaj.licence,
