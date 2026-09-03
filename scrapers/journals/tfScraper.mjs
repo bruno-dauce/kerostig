@@ -1,5 +1,6 @@
 import { matchIssn } from '../issnMatcher.mjs';
 import { waitForCloudflare } from '../cloudflare.mjs';
+import { interpreterReponseApi, estFinDePagination, doitDemanderPageSuivante } from '../apiJson.mjs';
 
 // Le hub authorservices.taylorandfrancis.com interroge cette API REST
 // WordPress (think.taylorandfrancis.com, meme site que les pages de detail)
@@ -36,66 +37,6 @@ const API_PAGE_SIZE = 100;
 const DETAIL_CONTENT_SELECTOR = 'article';
 
 let loggedUnexpectedShape = false;
-
-// Interprete une reponse de l'API. Rend le tableau d'items, ou LEVE.
-//
-// Le mode de panne que cette fonction ferme : l'ancien code faisait
-// JSON.parse puis « Array.isArray(data) ? data : [] ». Une reponse d'erreur
-// WordPress etant du JSON parfaitement valide, elle franchissait le parse et
-// ressortait en tableau vide -- soit exactement le signal de fin de
-// pagination. Un echec total devenait « plus rien a lire », en silence. C'est
-// la meme confusion entre [] et l'echec qui avait fait archiver 41 appels
-// vivants chez Emerald.
-//
-// Un tableau valide est accepte quel que soit le statut : page.goto rend
-// celui de la PREMIERE reponse, et Cloudflare sert son interstitiel en 403
-// avant de remplacer le document sur place (cf scrapers/cloudflare.mjs). Le
-// corps final est donc la seule autorite ; sans cette tolerance, un challenge
-// franchi passerait pour une panne.
-//
-// Fonction pure, exportee pour test.
-export function interpreterReponseApi({ statut, corps, url }) {
-    let donnees = null;
-    let lisible = true;
-    try {
-        donnees = JSON.parse(corps);
-    } catch {
-        lisible = false;
-    }
-
-    if (lisible && Array.isArray(donnees)) return donnees;
-
-    const detail = !lisible
-        ? ' (reponse non JSON)'
-        : donnees && donnees.code
-            ? ` (${donnees.code})`
-            : ' (JSON valide mais pas un tableau)';
-    const prefixe = statut != null && (statut < 200 || statut >= 300)
-        ? `HTTP ${statut}`
-        : 'reponse inattendue';
-    throw new Error(`[tandf] ${prefixe} sur ${url}${detail}`);
-}
-
-// WordPress refuse une page au-dela de la derniere avec ce code. Ce n'est pas
-// une panne mais une fin de liste : la boucle de pagination s'arrete au lieu
-// d'invalider la categorie. Filet derriere doitDemanderPageSuivante, qui evite
-// deja de demander cette page dans le cas courant -- il reste le cas ou le
-// nombre d'appels d'une categorie est un multiple exact de la taille de page.
-const CODE_PAGE_HORS_BORNES = 'rest_post_invalid_page_number';
-
-// Fonction pure, exportee pour test.
-export function estFinDePagination(erreur) {
-    return Boolean(erreur && typeof erreur.message === 'string' && erreur.message.includes(CODE_PAGE_HORS_BORNES));
-}
-
-// Une page incomplete est la derniere : la demander quand meme valait a
-// l'ancien code un 400 systematique en fin de chaque categorie, avale en []
-// et pris pour une fin de pagination. La boucle ne terminait donc que grace au
-// repli muet qu'on vient de supprimer.
-// Fonction pure, exportee pour test.
-export function doitDemanderPageSuivante(nombreItems, taillePage) {
-    return nombreItems > 0 && nombreItems >= taillePage;
-}
 
 // Term ID entiers de la reponse de taxonomie. Tout ce qui n'est pas un entier
 // est ecarte : c'est precisement ce que rendaient les cases a cocher du hub
@@ -193,7 +134,7 @@ async function lire_json_api(browser, url) {
         const reponse = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
         await waitForCloudflare(page, '[tandf]');
         const corps = await page.evaluate(() => document.body.innerText);
-        return interpreterReponseApi({ statut: reponse ? reponse.status() : null, corps, url });
+        return interpreterReponseApi({ statut: reponse ? reponse.status() : null, corps, url, prefixe: '[tandf]' });
     } finally {
         await page.close();
     }

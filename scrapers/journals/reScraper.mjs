@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio';
 import { matchIssn } from '../issnMatcher.mjs';
+import { interpreterReponseApi, estFinDePagination } from '../apiJson.mjs';
 
 // La Revue de l'Entrepreneuriat est diffusee sur Cairn, mais ses appels sont
 // publies par l'Academie de l'Entrepreneuriat et de l'Innovation, qui edite
@@ -51,7 +52,18 @@ export const scraperObject = {
             return [];
         }
 
-        const posts = await fetch_posts(browser);
+        // Un echec rend [] et ne leve pas : scrapeAll enchaine les scrapers
+        // dans un Promise.all, une exception ferait echouer le passage
+        // entier et aucune donnee ne serait ecrite, pour tous les
+        // editeurs. La decision reste au garde-fou de diffChecker, qui
+        // gele les appels existants au lieu de les archiver.
+        let posts;
+        try {
+            posts = await fetch_posts(browser);
+        } catch (error) {
+            console.error(`[re] ECHEC de la collecte : ${error.message}. Liste abandonnee plutot que publiee tronquee.`);
+            return [];
+        }
         console.log(`[re] ${posts.length} post(s) publie(s) depuis ${MAX_AGE_MONTHS} mois dans la categorie ${CATEGORY_ID}`);
 
         const calls = [];
@@ -89,7 +101,17 @@ async function fetch_posts(browser) {
     const posts = [];
     let pageNumber = 1;
     while (true) {
-        const items = await fetch_api_page(browser, cutoff, pageNumber);
+        let items;
+        try {
+            items = await fetch_api_page(browser, cutoff, pageNumber);
+        } catch (error) {
+            // Le garde de page incomplete ci-dessous evite deja de demander
+            // une page hors bornes, sauf si le nombre de posts est un multiple
+            // exact de la taille de page. Sans ce filet, ce cas deviendrait
+            // une fausse panne maintenant que fetch_api_page leve.
+            if (estFinDePagination(error)) break;
+            throw error;
+        }
         if (items.length === 0) break;
         posts.push(...items);
         if (items.length < API_PAGE_SIZE) break;
@@ -109,21 +131,14 @@ async function fetch_api_page(browser, cutoff, pageNumber) {
 
     const page = await browser.newPage();
     try {
-        await page.goto(url.href, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        const reponse = await page.goto(url.href, { waitUntil: 'domcontentloaded', timeout: 30000 });
 
-        // Meme extraction que aomScraper/tfScraper : la reponse JSON est
-        // servie telle quelle dans le body, on la relit depuis la page.
-        return await page.evaluate(() => {
-            try {
-                const data = JSON.parse(document.body.innerText);
-                return Array.isArray(data) ? data : [];
-            } catch {
-                return [];
-            }
-        });
-    } catch (error) {
-        console.warn(`[re] Echec de l'appel API ${url.href} : ${error.message}`);
-        return [];
+        // Interpretation partagee avec aomScraper et tfScraper : la reponse
+        // JSON est servie telle quelle dans le body, on la relit depuis la
+        // page. Aucun catch qui rend [] -- c'est ce repli qui rendait la
+        // panne muette.
+        const corps = await page.evaluate(() => document.body.innerText);
+        return interpreterReponseApi({ statut: reponse ? reponse.status() : null, corps, url: url.href, prefixe: '[re]' });
     } finally {
         await page.close();
     }
@@ -132,7 +147,8 @@ async function fetch_api_page(browser, cutoff, pageNumber) {
 // Les titres WordPress arrivent encodes (&rsquo;, &#8211;, &laquo;) : sans
 // decodage, le filtre sur le titre et le libelle transmis au LLM traitent
 // des entites plutot que du texte.
-function decode_html(value) {
+// Fonction pure, exportee pour test.
+export function decode_html(value) {
     if (!value) return '';
     return cheerio.load(`<x>${value}</x>`)('x').text().replace(/\s+/g, ' ').trim();
 }

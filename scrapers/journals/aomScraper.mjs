@@ -1,5 +1,6 @@
 import { matchIssn } from '../issnMatcher.mjs';
 import { waitForCloudflare } from '../cloudflare.mjs';
+import { interpreterReponseApi, estFinDePagination, doitDemanderPageSuivante } from '../apiJson.mjs';
 
 // journals.aom.org/callforsubmissions (essaye en premier) s'est avere etre
 // une page morte, maintenue a la main, dont le contenu le plus recent date
@@ -31,7 +32,19 @@ export const scraperObject = {
     async scraper(browser) {
         const abbreviation = this.abbreviation;
 
-        const entries = await get_entries(browser);
+        // Un echec rend [] et ne leve pas : scrapeAll enchaine les scrapers
+        // dans un Promise.all, une exception ferait echouer le passage entier
+        // et integrateCalls ne s'executerait pas -- aucune donnee ecrite, pour
+        // tous les editeurs. Rendre [] laisse la decision au garde-fou des
+        // scrapers vides (diffChecker), qui gele les appels existants au lieu
+        // de les archiver. Le bruit passe par console.error.
+        let entries;
+        try {
+            entries = await get_entries(browser);
+        } catch (error) {
+            console.error(`[aom] ECHEC de la collecte : ${error.message}. Liste abandonnee plutot que publiee tronquee.`);
+            return [];
+        }
         const entriesByLink = new Map(entries.filter(e => e.link).map(e => [e.link, e]));
         console.log(`[aom] ${entriesByLink.size} appel(s) distinct(s) trouve(s)`);
 
@@ -63,7 +76,8 @@ export const scraperObject = {
     }
 }
 
-function detect_journal(title) {
+// Fonction pure, exportee pour test.
+export function detect_journal(title) {
     if (!title) return null;
     const abbreviation = Object.keys(JOURNAL_ABBREVIATIONS).find(abbr =>
         new RegExp(`\\b${abbr}\\b`, 'i').test(title)
@@ -75,9 +89,21 @@ async function get_entries(browser) {
     const entries = [];
     let pageNumber = 1;
     while (true) {
-        const items = await fetch_api_page(browser, pageNumber);
+        let items;
+        try {
+            items = await fetch_api_page(browser, pageNumber);
+        } catch (error) {
+            // Une page au-dela de la derniere n'est pas une panne : WordPress
+            // la refuse avec rest_post_invalid_page_number. Tout le reste
+            // remonte a l'appelant, qui abandonne la collecte.
+            if (estFinDePagination(error)) break;
+            throw error;
+        }
         if (items.length === 0) break;
         entries.push(...items.map(parse_entry));
+        // Sans ce garde, la boucle demandait la page suivante sans condition
+        // et ne terminait que grace au repli muet de fetch_api_page.
+        if (!doitDemanderPageSuivante(items.length, API_PAGE_SIZE)) break;
         pageNumber++;
     }
     return entries;
@@ -89,22 +115,15 @@ async function fetch_api_page(browser, pageNumber) {
     url.searchParams.set('per_page', String(API_PAGE_SIZE));
     url.searchParams.set('page', String(pageNumber));
 
+    // Aucun catch qui rend [] : c'est ce repli qui rendait la panne muette,
+    // une reponse d'erreur WordPress etant du JSON valide qu'Array.isArray
+    // transformait en tableau vide, indistinguable d'une fin de pagination.
     const page = await browser.newPage();
     try {
-        await page.goto(url.href, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        const reponse = await page.goto(url.href, { waitUntil: 'domcontentloaded', timeout: 30000 });
         await waitForCloudflare(page, '[aom]');
-
-        return await page.evaluate(() => {
-            try {
-                const data = JSON.parse(document.body.innerText);
-                return Array.isArray(data) ? data : [];
-            } catch {
-                return [];
-            }
-        });
-    } catch (error) {
-        console.warn(`[aom] Echec de l'appel API ${url.href} : ${error.message}`);
-        return [];
+        const corps = await page.evaluate(() => document.body.innerText);
+        return interpreterReponseApi({ statut: reponse ? reponse.status() : null, corps, url: url.href, prefixe: '[aom]' });
     } finally {
         await page.close();
     }
