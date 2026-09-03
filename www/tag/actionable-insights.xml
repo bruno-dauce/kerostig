@@ -4,7 +4,7 @@
         <title>kerostig | Tag : actionable insights</title>
         <link>https://kerostig.org/tag/actionable-insights/</link>
         <description>Derniers appels à publications avec le tag 'actionable insights'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/actionable-insights/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Turning Implications Into Evidence: Actionable Solutions to Real-World Problems of Practice and Policy Based on Prior Academy of Management Publications]]></title>
             <link>https://kerostig.org/call/aom-amp-call-for-special-issue-papers-turning-implications-into-evidence/</link>
             <guid>aom-amp-call-for-special-issue-papers-turning-implications-into-evidence</guid>
             <pubDate>Tue, 11 Aug 2026 01:40:43 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Julian Birkinshaw</strong>, Western University</p>
@@ -34,20 +35,18 @@
         
     
     
+    
     <p>Amid rising concern about the relevance of their contents, many scholarly journals mandate inclusion of a managerial implications section. This section may be relegated to a few paragraphs at the end of an article and comprised of speculative statements loosely connected to the paper&#39;s empirical or theoretical content. And there these unvalidated implications tend to remain, largely unaddressed in future research studies and having little relevance to practice or policy.</p>
     
     <p>This special issue calls for original research that develops actionable solutions from previously published managerial implications. By developing actionable insights from underdeveloped or dormant implications, this special issue furthers the core function of any science: the development of a corpus of valid and reliable knowledge. An applied science has the added demand that knowledge be usable outside of academia.</p>
     
-    <p>The portfolio of Academy of Management journals forms a system of knowledge production in which each journal has a complementary specialization. Within this system, Academy of Management Perspectives papers provide actionable insights that guide practitioner behavior and influence policy decisions. These papers build on theory developed, tested, and organized in other journals and enrich these theories by revealing nuances and boundaries of their usefulness.</p>
-    
-    <p>This special issue is limited to papers that analyze practice and policy implications previously published in any of the seven established Academy of Management journals: Academy of Management Annals, Academy of Management Collections, Academy of Management Discoveries, Academy of Management Journal, Academy of Management Learning &amp; Education, Academy of Management Review, and Academy of Management Perspectives. The article containing the focal implication on which a submission is based must have been published in or fully accepted to any of these journals at any point up to 31 December 2026.</p>
-    
-    <p>Submissions must conduct novel empirical or conceptual analysis. Academy of Management Perspectives does not accept managerial translations that restate previously published work in more practice-friendly terms. Moreover, papers that address managerial implications for which actionable solutions have already been adequately developed through prior publications are not accepted. Authors submitting to this special issue may be, but are not required to be, an author of the published article containing the managerial implication.</p>
-    
-    <p>Academy of Management Perspectives&#39; mission and format differ from many other leading academic journals. Though the format differs, the journal&#39;s analytical standards are the same as at any other Academy of Management journal, demanding robust analysis that fulfills current social science standards. Papers should be grounded in evidence or robust conceptual frameworks, address relevant real-world managerial and policy issues, offer actionable insights, avoid theory fetish, and be written in a style accessible to non-specialists and practitioners.</p>
-    
-    <p>A Paper Development Workshop will be hosted at the Academy of Management 2026 Conference in Philadelphia for selected authors to further develop their manuscripts. Participation in this workshop is neither a guarantee nor a prerequisite for publication.</p>
-    
+    <p>
+        Appel publié par Academy of Management Perspectives.
+        
+        <a href="https://www.aom.org/event/amp-call-for-special-issue-papers-turning-implications-into-evidence/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/aom-amp-call-for-special-issue-papers-turning-implications-into-evidence/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -82,8 +81,8 @@
         
     </ul>
     
-</div>]]></content:encoded>
-            <author>Academy of Management Perspectives (AOM)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

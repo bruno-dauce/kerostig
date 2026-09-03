@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : ai-assisted research</title>
+        <link>https://kerostig.org/tag/ai-assisted-research/</link>
+        <description>Derniers appels à publications avec le tag 'ai-assisted research'.</description>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : ai-assisted research</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/ai-assisted-research/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Generative AI and New Methods of Inquiry in Information Systems Research]]></title>
+            <link>https://kerostig.org/call/informs-isr-generative-ai-and-new-methods-of-inquiry-in-information-systems-research/</link>
+            <guid>informs-isr-generative-ai-and-new-methods-of-inquiry-in-information-systems-research</guid>
+            <pubDate>Mon, 31 Aug 2026 11:13:20 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Ahmed Abbasi</strong>, University of Notre Dame</p>
+        
+        <p><strong>Martin Bichler</strong>, Technical University of Munich</p>
+        
+        <p><strong>Ram Gopal</strong>, University of Warwick</p>
+        
+        <p><strong>Elena Karahanna</strong>, University of Georgia</p>
+        
+        <p><strong>Suprateek Sarker</strong>, University of Virginia</p>
+        
+    
+    
+    
+    <p>Generative Artificial Intelligence (GenAI) is rapidly reshaping not only organizations, markets, and technologies, but also the practice of scientific research itself. Large language models, multimodal foundation models, and increasingly agentic AI systems now participate in activities such as literature discovery, theorizing, data analysis, simulation, coding, and writing.</p>
+    
+    <p>This Special Issue seeks papers that push the boundaries of what can be achieved through innovative, rigorous, and responsible use of Generative AI in the information systems research process. Rather than focusing on GenAI solely as an object of empirical study, the SI emphasizes GenAI as a research collaborator, instrument, and infrastructure.</p>
+    
+    <p>The ambition of the SI is twofold: to publish a small number of exemplary papers that demonstrate novel research capabilities enabled by GenAI, and to advance shared principles, frameworks, and practices that will shape how information systems research is conducted and reported in an era of human–AI collaboration.</p>
+    
+    <p>
+        Appel publié par Information Systems Research.
+        
+        <a href="https://pubsonline.informs.org/page/isre/calls-for-papers">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/informs-isr-generative-ai-and-new-methods-of-inquiry-in-information-systems-research/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Hybrid human–AI workflows for coding, classification, or sensemaking</li>
+        
+        <li>GenAI-supported measurement development, construct validation, or scale refinement</li>
+        
+        <li>GenAI-supported survey design, sampling, and survey administration</li>
+        
+        <li>GenAI-supported experimental design, treatment generation, and implementation</li>
+        
+        <li>GenAI-supported computational theory construction</li>
+        
+        <li>Simulation, agent-based modeling, or scenario generation</li>
+        
+        <li>GenAI-enabled qualitative analysis, theory building, or inductive discovery</li>
+        
+        <li>GenAI-assisted econometric modeling, estimation, or robustness analysis</li>
+        
+        <li>AI-supported proof search, counterexample generation, or equilibrium exploration</li>
+        
+        <li>Discovery or validation of analytical models using generative simulation</li>
+        
+        <li>GenAI-assisted testing of operational utility and/or design validity</li>
+        
+        <li>Design and evaluation of GenAI-based tools for IS research</li>
+        
+        <li>Reproducible pipelines, benchmarks, and evaluation harnesses</li>
+        
+        <li>Systems supporting transparency, provenance, and verification</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 7, 2026: Submission deadline</li>
+        
+        <li>November 20, 2026: First-round decisions</li>
+        
+        <li>December 13, 2026: ICIS Workshop</li>
+        
+        <li>January 15, 2027: Optional online workshop</li>
+        
+        <li>February 15, 2027: Final version submitted</li>
+        
+        <li>May 1, 2027: Final decisions</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

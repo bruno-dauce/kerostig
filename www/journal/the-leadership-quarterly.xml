@@ -4,7 +4,7 @@
         <title>kerostig | The Leadership Quarterly</title>
         <link>https://kerostig.org/journal/the-leadership-quarterly/</link>
         <description>Derniers appels à publications pour The Leadership Quarterly.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,38 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/the-leadership-quarterly/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
-        <item>
-            <title><![CDATA[The 2028 Leadership Quarterly Yearly Review Issue]]></title>
-            <link>https://kerostig.org/call/elsevier-the-2028-leadership-quarterly-yearly-review-lqyr-issue/</link>
-            <guid>elsevier-the-2028-leadership-quarterly-yearly-review-lqyr-issue</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 15, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>The Leadership Quarterly (ELSEVIER)</author>
-        </item>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Grounded in Causality: Elevating Evidence for Leadership Practice]]></title>
             <link>https://kerostig.org/call/elsevier-grounded-in-causality-elevating-evidence-for-leadership-practice/</link>
             <guid>elsevier-grounded-in-causality-elevating-evidence-for-leadership-practice</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue of The Leadership Quarterly seeks empirical research that advances our understanding of leadership through rigorous causal inference methods. We invite submissions that employ experimental designs, quasi-experimental approaches, longitudinal studies, or other methodologically sound approaches to establish causal relationships in leadership phenomena.</p>
     
+    <p>
+        Appel publié par The Leadership Quarterly.
+        
+        <a href="https://www.sciencedirect.com/special-issue/327582/grounded-in-causality-elevating-evidence-for-leadership-practice">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-grounded-in-causality-elevating-evidence-for-leadership-practice/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -55,8 +43,38 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>The Leadership Quarterly (ELSEVIER)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The 2028 Leadership Quarterly Yearly Review Issue]]></title>
+            <link>https://kerostig.org/call/elsevier-the-2028-leadership-quarterly-yearly-review-lqyr-issue/</link>
+            <guid>elsevier-the-2028-leadership-quarterly-yearly-review-lqyr-issue</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par The Leadership Quarterly.
+        
+        <a href="https://www.sciencedirect.com/special-issue/335056/the-2028-leadership-quarterly-yearly-review-lqyr-issue">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-the-2028-leadership-quarterly-yearly-review-lqyr-issue/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 15, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

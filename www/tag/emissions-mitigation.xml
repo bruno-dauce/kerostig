@@ -4,7 +4,7 @@
         <title>kerostig | Tag : emissions mitigation</title>
         <link>https://kerostig.org/tag/emissions-mitigation/</link>
         <description>Derniers appels à publications avec le tag 'emissions mitigation'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,19 +13,28 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/emissions-mitigation/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Market-Based Measures for Port and Shipping Emissions Mitigation]]></title>
             <link>https://kerostig.org/call/elsevier-market-based-measures-for-port-and-shipping-emissions-mitigation-2/</link>
             <guid>elsevier-market-based-measures-for-port-and-shipping-emissions-mitigation-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue focuses on market-based measures and economic instruments designed to mitigate emissions from ports and the shipping industry. The collection seeks to advance understanding of how market mechanisms can effectively reduce environmental impacts while maintaining economic competitiveness in the maritime sector.</p>
     
     <p>The issue welcomes contributions exploring various market-based approaches including carbon pricing, emission trading systems, green bonds, subsidies for clean technologies, and other economic instruments. Papers may examine these mechanisms from theoretical, empirical, or policy perspectives, with particular interest in their effectiveness, design, implementation challenges, and real-world outcomes.</p>
     
+    <p>
+        Appel publié par Transportation Research Part D: Transport and Environment.
+        
+        <a href="https://www.sciencedirect.com/special-issue/323281/market-based-measures-for-port-and-shipping-emissions-mitigation">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-market-based-measures-for-port-and-shipping-emissions-mitigation-2/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -57,8 +66,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Transportation Research Part D: Transport and Environment (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

@@ -4,7 +4,7 @@
         <title>kerostig | Tag : totalitarianism</title>
         <link>https://kerostig.org/tag/totalitarianism/</link>
         <description>Derniers appels à publications avec le tag 'totalitarianism'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,15 +13,24 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/totalitarianism/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Accounting and Totalitarianism in an Historical Perspective]]></title>
             <link>https://kerostig.org/call/sage-announcing-two-special-issues/</link>
             <guid>sage-announcing-two-special-issues</guid>
             <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Accounting History.
+        
+        <a href="https://journals.sagepub.com/doi/full/10.1177/10323732251358004">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/sage-announcing-two-special-issues/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -32,8 +41,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Accounting History (SAGE)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

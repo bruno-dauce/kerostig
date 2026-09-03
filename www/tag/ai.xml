@@ -4,7 +4,7 @@
         <title>kerostig | Tag : ai</title>
         <link>https://kerostig.org/tag/ai/</link>
         <description>Derniers appels à publications avec le tag 'ai'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,15 +13,54 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/ai/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[AI and the Future of Work]]></title>
+            <link>https://kerostig.org/call/wiley-ai-and-the-future-of-work/</link>
+            <guid>wiley-ai-and-the-future-of-work</guid>
+            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Information Systems Journal.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/13652575/homepage/call-for-papers/si-2026-000678">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-ai-and-the-future-of-work/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 31, 2027: Deadline for Submissions</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[The Downsides of AI and Global Inequities: Why Good Governance Matters]]></title>
             <link>https://kerostig.org/call/wiley-the-downsides-of-ai-and-global-inequities-why-good-governance-matters/</link>
             <guid>wiley-the-downsides-of-ai-and-global-inequities-why-good-governance-matters</guid>
             <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Public Administration and Development.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/1099162x/homepage/call-for-papers/ai-global-inequities">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-the-downsides-of-ai-and-global-inequities-why-good-governance-matters/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -32,17 +71,26 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Public Administration and Development (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Trust, Authenticity, and Consumer Agency in AI-Mediated Omnichannel and Phygital Experiences]]></title>
             <link>https://kerostig.org/call/wiley-trust-authenticity-and-consumer-agency-in-ai-mediated-omnichannel-and-phygital-experiences/</link>
             <guid>wiley-trust-authenticity-and-consumer-agency-in-ai-mediated-omnichannel-and-phygital-experiences</guid>
             <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Psychology and Marketing.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/15206793/call-for-papers/si-2026-000341">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-trust-authenticity-and-consumer-agency-in-ai-mediated-omnichannel-and-phygital-experiences/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -53,36 +101,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Psychology and Marketing (WILEY)</author>
-        </item>
-        <item>
-            <title><![CDATA[AI and the Future of Work]]></title>
-            <link>https://kerostig.org/call/wiley-ai-and-the-future-of-work/</link>
-            <guid>wiley-ai-and-the-future-of-work</guid>
-            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>January 31, 2027: Deadline for Submissions</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Information Systems Journal (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[AI-Enabled Experience Innovation]]></title>
             <link>https://kerostig.org/call/sage-ai-enabled-experience-innovation/</link>
             <guid>sage-ai-enabled-experience-innovation</guid>
             <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Bernd Schmitt</strong>, Columbia University</p>
@@ -95,14 +123,18 @@
         
     
     
+    
     <p>AI is innovating how service experiences can be designed, curated, and delivered. Service that emphasizes experiential components, such as sensory, affective, cognitive, behavioral and social elements, are considered experiential service. Customer experience is multidimensional across multiple touchpoints, unfolds over the customer journey, can be enabled by various AI technologies, and can establish emotional connections with customers.</p>
     
     <p>This special issue seeks to advance our understanding of how AI can enable experience innovation. By enabling personalization, adaptive interaction, and multisensory engagement, AI allows service providers to create new, innovative experiences and enables customers to participate in journeys that evolve dynamically with their needs and preferences. For examples, augmented and virtual reality technologies (AR/VR) are used in retailing to innovate experiences; extended-reality technologies (XR) are used to bring static museum exhibitions to life, mixed-reality technologies (MR) are used to blend real and virtual skill development, and AI technologies are used to enhance sports or entertainment experiences through digital images and surround sound.</p>
     
-    <p>The special issue welcomes submissions from all disciplines with a service interest, such as consumer research, service marketing, strategic management, information systems, operations research, psychology, and sociology. Mixed methods blending conceptual, empirical, or computational approaches are encouraged.</p>
-    
-    <p>Papers will undergo no more than two rounds of full peer review. After the second round, a final decision will be made to ensure timely publication. The special issue operates on a tight timeline, and authors should expect quick turnarounds for reviews and revisions.</p>
-    
+    <p>
+        Appel publié par Journal of Service Research.
+        
+        <a href="https://journals.sagepub.com/pb-assets/PDF/JSR%20CFP%20for%20AI-enabled%20experience%20innovation-1771929055970.pdf">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/sage-ai-enabled-experience-innovation/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -134,15 +166,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Service Research (SAGE)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emotion by Design: The Emotional Architecture of Consumer Behaviour in an Era of Emerging Technologies]]></title>
             <link>https://kerostig.org/call/wiley-see-here-4/</link>
             <guid>wiley-see-here-4</guid>
             <pubDate>Mon, 17 Aug 2026 15:52:40 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Aude Rychalski</strong>, ESSCA School of Management</p>
@@ -155,10 +188,18 @@
         
     
     
+    
     <p>This Special Issue invites interdisciplinary contributions exploring how emerging technologies like AI, AR, VR, XR, and others dynamically shape consumer emotions, eventually influencing identity and behaviour. The issue welcomes theoretical, empirical, and methodological paper submissions from consumer behaviour, consumer psychology, human technology interaction, digital media, and related areas.</p>
     
     <p>The focus is on exploring the mechanisms, processes, and consequences in the context of technology-enabled emotion engineering. Additionally, discussions are encouraged on consumer autonomy, well-being, and broader implications of emotionally engineered consumer behaviour.</p>
     
+    <p>
+        Appel publié par Journal of Consumer Behaviour.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/JCB-SI-Emotion-by-Design-14102025-UPDATED-1763054382310.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-see-here-4/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -190,15 +231,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Consumer Behaviour (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Digital Transformation and Service]]></title>
             <link>https://kerostig.org/call/springer-topical-collection-on-digital-transformation-and-service/</link>
             <guid>springer-topical-collection-on-digital-transformation-and-service</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Christian Bartelheimer</strong>, University of Göttingen</p>
@@ -211,16 +253,16 @@
         
     
     
+    
     <p>Digital transformation continues to reshape how organizations create, deliver, and capture value. At the same time, service has become a crucial lens for understanding contemporary information systems (IS) phenomena. Value is co-created across organizational boundaries, enacted through digital technologies, and embedded in networks, platforms, and ecosystems. The Topical Collection on Digital Transformation &amp; Service at Electronic Markets seeks to advance theoretically grounded and relevant IS research at the intersection of digital transformation and service.</p>
     
-    <p>We invite submissions that foreground service and digital transformation as they are established, debated, and further developed within the IS discipline, and in particular in Electronic Markets. Submitted articles should demonstrate a clear engagement with core IS literature to identify a well-defined research gap that matters for practice and theory, and articulate a convincing contribution to recent IS conversations. We are particularly interested in papers that move beyond broad claims about the consequences of digital transformation and instead examine how information technology (IT) artifacts ought to be designed and how they can be applied to foster value co-creation.</p>
-    
-    <p>A central expectation of this Topical Collection is that submissions &#39;white-box&#39; the role of IT artifacts. We seek papers that explicate how IT artifacts shape and are shaped by the digital transformation of organizations, for instance by enabling or transforming customer relations, value propositions, and service exchange. Studies may focus on (smart) service systems or ecosystems at varied levels, including communities, organizations, inter-organizational arrangements, platforms, data spaces, and society. In contrast, we do not seek papers that treat information systems as &#39;black boxes&#39; or limit their analysis to summative business implications without theorizing the underlying structures, mechanisms, and affordances of IT artifacts through which these implications emerge. Manuscripts presenting IT artifacts that use or expand large language models or other large-scale artificial intelligence technologies must also be unpacked and contextualized, and presented in a way that is theoretically anchored and generates contributions at the intersection of digital transformation, service, and information systems.</p>
-    
-    <p>We invite contributions from various epistemological positions and methodological traditions common in the IS discipline. Suitable submissions may include (action) design science, conceptual papers, qualitative studies, including case studies and Delphi studies, quantitative research, including experiments, surveys, and data-driven studies, and mixed-methods work. Literature reviews are also welcome, provided that they deliver strong theoretical implications and develop a forward-looking research agenda that reaches considerably beyond reporting the current state of research.</p>
-    
-    <p>We particularly encourage submissions that investigate the role of digital technologies in real-world service scenarios. Studies that focus on inter-organizational contexts such as service networks, digital platforms, data spaces, or business ecosystems are especially relevant, as they touch on core topics of Electronic Markets. Submissions may examine established organizations, start-ups, public-sector organizations, communities, or other actor constellations in which digital technologies enable, constrain, or transform service exchange and value co-creation.</p>
-    
+    <p>
+        Appel publié par Electronic Markets.
+        
+        <a href="https://link.springer.com/collections/aebjbihcdb">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-topical-collection-on-digital-transformation-and-service/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -254,101 +296,26 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Electronic Markets (SPRINGER)</author>
-        </item>
-        <item>
-            <title><![CDATA[The agentic economy: AI, consumers, and the future of commerce]]></title>
-            <link>https://kerostig.org/call/elsevier-the-agentic-economy-ai-consumers-and-the-future-of-commerce/</link>
-            <guid>elsevier-the-agentic-economy-ai-consumers-and-the-future-of-commerce</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 1, 2026: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Business Horizons (ELSEVIER)</author>
-        </item>
-        <item>
-            <title><![CDATA[AI and Management Control]]></title>
-            <link>https://kerostig.org/call/elsevier-ai-and-management-control/</link>
-            <guid>elsevier-ai-and-management-control</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 30, 2027: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Management Accounting Research (ELSEVIER)</author>
-        </item>
-        <item>
-            <title><![CDATA[AI-Driven Governance Transformation in China: Dynamics, Mechanisms, Institutions and Contexts]]></title>
-            <link>https://kerostig.org/call/elsevier-ai-driven-governance-transformation-in-china-dynamics-mechanisms-institutions-and-contexts/</link>
-            <guid>elsevier-ai-driven-governance-transformation-in-china-dynamics-mechanisms-institutions-and-contexts</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>December 1, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Government Information Quarterly (ELSEVIER)</author>
-        </item>
-        <item>
-            <title><![CDATA[AI-Augmented MS/OR for Digital Operations and Emerging Technologies]]></title>
-            <link>https://kerostig.org/call/elsevier-ai-augmented-msor-for-digital-operations-and-emerging-technologies/</link>
-            <guid>elsevier-ai-augmented-msor-for-digital-operations-and-emerging-technologies</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>December 31, 2026: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Omega (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[AI and IB: Theoretical Challenges and Strategic Implications]]></title>
             <link>https://kerostig.org/call/elsevier-ai-and-ib-theoretical-challenges-and-strategic-implications/</link>
             <guid>elsevier-ai-and-ib-theoretical-challenges-and-strategic-implications</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Journal of World Business.
+        
+        <a href="https://www.sciencedirect.com/special-issue/330028/ai-and-ib-theoretical-challenges-and-strategic-implications">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-ai-and-ib-theoretical-challenges-and-strategic-implications/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -359,17 +326,86 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of World Business (ELSEVIER)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AI and Management Control]]></title>
+            <link>https://kerostig.org/call/elsevier-ai-and-management-control/</link>
+            <guid>elsevier-ai-and-management-control</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Management Accounting Research.
+        
+        <a href="https://www.sciencedirect.com/special-issue/334500/ai-and-management-control">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-ai-and-management-control/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AI-Augmented MS/OR for Digital Operations and Emerging Technologies]]></title>
+            <link>https://kerostig.org/call/elsevier-ai-augmented-msor-for-digital-operations-and-emerging-technologies/</link>
+            <guid>elsevier-ai-augmented-msor-for-digital-operations-and-emerging-technologies</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Omega.
+        
+        <a href="https://www.sciencedirect.com/special-issue/330123/ai-augmented-msor-for-digital-operations-and-emerging-technologies">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-ai-augmented-msor-for-digital-operations-and-emerging-technologies/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 31, 2026: Full paper submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[AI-Driven Behavioral Analytics for Sustainable Shared Mobility: Advancing Models, Policies, and Implementation]]></title>
             <link>https://kerostig.org/call/elsevier-ai-driven-behavioral-analytics-for-sustainable-shared-mobility-advancing-models-policies-and-implementation-2/</link>
             <guid>elsevier-ai-driven-behavioral-analytics-for-sustainable-shared-mobility-advancing-models-policies-and-implementation-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Transportation Research Part D: Transport and Environment.
+        
+        <a href="https://www.sciencedirect.com/special-issue/325771/ai-driven-behavioral-analytics-for-sustainable-shared-mobility-advancing-models-policies-and-implementation">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-ai-driven-behavioral-analytics-for-sustainable-shared-mobility-advancing-models-policies-and-implementation-2/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -380,15 +416,76 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Transportation Research Part D: Transport and Environment (ELSEVIER)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AI-Driven Governance Transformation in China: Dynamics, Mechanisms, Institutions and Contexts]]></title>
+            <link>https://kerostig.org/call/elsevier-ai-driven-governance-transformation-in-china-dynamics-mechanisms-institutions-and-contexts/</link>
+            <guid>elsevier-ai-driven-governance-transformation-in-china-dynamics-mechanisms-institutions-and-contexts</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Government Information Quarterly.
+        
+        <a href="https://www.sciencedirect.com/special-issue/334065/ai-driven-governance-transformation-in-china-dynamics-mechanisms-institutions-and-contexts">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-ai-driven-governance-transformation-in-china-dynamics-mechanisms-institutions-and-contexts/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 1, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The agentic economy: AI, consumers, and the future of commerce]]></title>
+            <link>https://kerostig.org/call/elsevier-the-agentic-economy-ai-consumers-and-the-future-of-commerce/</link>
+            <guid>elsevier-the-agentic-economy-ai-consumers-and-the-future-of-commerce</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Business Horizons.
+        
+        <a href="https://www.sciencedirect.com/special-issue/335058/the-agentic-economy-ai-consumers-and-the-future-of-commerce">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-the-agentic-economy-ai-consumers-and-the-future-of-commerce/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 1, 2026: Full paper submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[AI-Driven Decision Making under Uncertain Environments: Theory, Methods, and Industrial Applications]]></title>
             <link>https://kerostig.org/call/tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications/</link>
             <guid>tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Hyun-Jung Kim</strong>, KAIST</p>
@@ -405,14 +502,16 @@
         
     
     
+    
     <p>Recent advances in artificial intelligence (AI), optimization, and data-driven analytics are fundamentally transforming decision-making processes in complex systems operating under uncertainty. Modern industrial and service systems, including manufacturing, logistics, supply chains, transportation, energy, and healthcare, increasingly face dynamic and stochastic environments characterized by demand fluctuations, disruptions, incomplete information, evolving system states, and operational risks. To effectively manage such complexity, there is growing interest in intelligent decision-making methodologies that integrate learning, prediction, optimization, simulation, and adaptation. In particular, emerging technologies such as reinforcement learning, foundation models, generative AI, agentic AI, digital twins, and hybrid AI-optimization frameworks are enabling the development of more autonomous, adaptive, and data-driven operational systems. Despite these advances, significant challenges remain regarding scalability, robustness, interpretability, real-time implementation, and the successful deployment of AI-driven decision-making approaches in real-world industrial environments.</p>
     
-    <p>This Special Issue aims to provide a platform for cutting-edge research on AI-driven decision making under uncertain environments, with particular emphasis on methodologies and real-world applications that combine AI techniques with operations research, optimization, simulation, control, and industrial engineering approaches. The issue welcomes both theoretical and applied contributions addressing uncertainty-aware intelligent decision-making across a broad range of industrial and service systems.</p>
-    
-    <p>The Special Issue is organized in conjunction with APIEMS 2026. Selected high-quality papers presented at the conference will be invited to submit extended versions for possible publication in the Special Issue. The Special Issue will also be open to general submissions from researchers worldwide. All submitted manuscripts will undergo the standard rigorous peer-review process of the International Journal of Production Research.</p>
-    
-    <p>The Special Issue particularly encourages interdisciplinary studies demonstrating practical relevance, industrial applicability, and managerial insights for complex decision-making problems under uncertainty. To foster transparency, reproducibility, and cumulative scientific progress, open science practices such as the sharing of (synthetic) data, code, models, prompts, and comprehensive replication materials are strongly encouraged and highly valued.</p>
-    
+    <p>
+        Appel publié par International Journal of Production Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ai-driven-decision-making/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -458,8 +557,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>International Journal of Production Research (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

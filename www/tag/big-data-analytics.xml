@@ -4,7 +4,7 @@
         <title>kerostig | Tag : big data analytics</title>
         <link>https://kerostig.org/tag/big-data-analytics/</link>
         <description>Derniers appels à publications avec le tag 'big data analytics'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/big-data-analytics/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Data Intelligence Drives Innovation in E-Commerce Enterprises]]></title>
             <link>https://kerostig.org/call/tandf-data-intelligence-drives-innovation-in-e-commerce-enterprises/</link>
             <guid>tandf-data-intelligence-drives-innovation-in-e-commerce-enterprises</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Jingsha He</strong>, Beijing University of Technology</p>
@@ -30,12 +31,16 @@
         
     
     
-    <p>Against the backdrop of the rapid development of e-commerce enterprises and the increasing maturity of data intelligence technologies, the organic integration of the two has created innovative digital business models that transcend traditional e-commerce operations, such as enhanced commodity transactions through predictive analytics, deepened user interactions via personalized recommendations, and streamlined supply chain collaboration with real-time optimization. This has brought tremendous changes to e-commerce enterprises and has become a core engine driving enterprise upgrading. The e-commerce enterprises use big data analysis to optimize business strategies, improve user experience, and make informed decisions. For example, Amazon leverages data intelligence to conduct real-time analysis of massive transaction data. During promotional periods, it adjusts prices on a minute-by-minute basis based on factors such as competitors&#39; prices and users&#39; purchasing intentions, giving full play to the role of big data value mining in optimizing business strategies. The &quot;Thousands of People, Thousands of Faces&quot; system improves user experience and stickiness through intelligent data analysis. E-commerce platforms have established intelligent supply chain systems, which realize efficient collaboration of warehousing networks by integrating sales data, inventory data, and logistics data.</p>
     
-    <p>However, as e-commerce enterprises driven by data intelligence rapidly develop, many practical problems have emerged in areas such as operational efficiency, data handling, and competitive differentiation. The surge in orders brought by massive transactions makes it urgent to improve service efficiency and sales levels; the complexity of data processing and the dynamics of e-commerce (including difficulties in processing structured and unstructured data) lead to system processing delays, which further exacerbate this problem; over-reliance on historical data reduces recommendation accuracy, and similar algorithms across multiple platforms result in a lack of differentiation in enterprise competition, restricting the innovative development of e-commerce.</p>
+    <p>Against the backdrop of the rapid development of e-commerce enterprises and the increasing maturity of data intelligence technologies, the organic integration of the two has created innovative digital business models that transcend traditional e-commerce operations, such as enhanced commodity transactions through predictive analytics, deepened user interactions via personalized recommendations, and streamlined supply chain collaboration with real-time optimization. This has brought tremendous changes to e-commerce enterprises and has become a core engine driving enterprise upgrading. The e-commerce enterprises use big data analysis to optimize business strategies, improve user experience, and make informed decisions. For example, Amazon leverages data intelligence to conduct real-time analysis of massive transaction data. During promotional periods, it adjusts prices on a minute-by-minute basis based on factors such as competitors&#39; prices and users&#39; purchasing intentions, giving full play to the role of big data value mining in optimizing business strategies. The &quot;Thousands of People, Thousands of Faces&quot; system improves user experience and stickiness through intelligent data…</p>
     
-    <p>This special issue will explore the innovative development of e-commerce enterprises under data intelligence to address these current challenges. This special issue aims to explore feasible paths to overcome technical bottlenecks and enhance models by bringing together innovative academic theories and practical cases from e-commerce enterprises, offering forward-looking and practical ideas for enterprise development, and promoting exchanges and cooperation in the field of data intelligence among global e-commerce enterprises.</p>
-    
+    <p>
+        Appel publié par Enterprise Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/eis-data-intelligence/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-data-intelligence-drives-innovation-in-e-commerce-enterprises/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -73,8 +78,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Enterprise Information Systems (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

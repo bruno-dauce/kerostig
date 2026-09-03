@@ -4,7 +4,7 @@
         <title>kerostig | Tag : population health assessment</title>
         <link>https://kerostig.org/tag/population-health-assessment/</link>
         <description>Derniers appels à publications avec le tag 'population health assessment'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/population-health-assessment/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Enhancing Population Health Assessment: Key Papers from the EQ-DAPHNIE Project]]></title>
             <link>https://kerostig.org/call/springer-enhancing-population-health-assessment-key-papers-from-the-eq-daphnie-project/</link>
             <guid>springer-enhancing-population-health-assessment-key-papers-from-the-eq-daphnie-project</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Brittany Lapin</strong>, Cleveland Clinic</p>
@@ -28,10 +29,18 @@
         
     
     
+    
     <p>EQ-DAPHNIE represents a landmark endeavour in population health assessment and instrument evaluation, funded by the EuroQol Research Foundation. This initiative collected demographics, social determinants of health, as well as an extensive array of generic and symptom-specific patient-reported outcome measures (PROMs) from 15 countries.</p>
     
     <p>This special collection will include papers that delve into a myriad of research questions, including the establishment of population norms for various PROMs, cross-country comparisons, examination of health inequalities, assessment of instrument performance within and across countries, and specialized analyses focusing on self-reported health and the efficacy of different measures within the elderly population.</p>
     
+    <p>
+        Appel publié par Quality of Life Research.
+        
+        <a href="https://link.springer.com/collections/bhhfgeaggi">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-enhancing-population-health-assessment-key-papers-from-the-eq-daphnie-project/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -61,8 +70,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Quality of Life Research (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

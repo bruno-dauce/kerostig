@@ -4,7 +4,7 @@
         <title>kerostig | Tag : autonomous agents</title>
         <link>https://kerostig.org/tag/autonomous-agents/</link>
         <description>Derniers appels à publications avec le tag 'autonomous agents'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/autonomous-agents/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Influence of Agentic AI in Consumer Behaviour: Future Landscape]]></title>
             <link>https://kerostig.org/call/wiley-see-here-6/</link>
             <guid>wiley-see-here-6</guid>
             <pubDate>Mon, 17 Aug 2026 15:52:40 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Rahul Sindhwani</strong>, Indian Institute of Management – Sambalpur</p>
@@ -32,8 +33,16 @@
         
     
     
+    
     <p>This Special Issue aims to advance both theory and practice regarding consumer behavior in the age of agentic AI. Theoretically, it seeks to deepen understanding of how autonomous AI agents influence fundamental consumer processes such as decision-making, trust, perceived autonomy, and engagement.</p>
     
+    <p>
+        Appel publié par Journal of Consumer Behaviour.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/JCB-CFP-AgenticAI-2025-UPDATED-1776416688423.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-see-here-6/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -65,15 +74,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Consumer Behaviour (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[The Agentic Supply Chain: Entering a new era in AI in Supply Chain Management]]></title>
             <link>https://kerostig.org/call/tandf-the-agentic-supply-chain-entering-a-new-era-in-ai-in-supply-chain-management/</link>
             <guid>tandf-the-agentic-supply-chain-entering-a-new-era-in-ai-in-supply-chain-management</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Alexandra Brintrup</strong>, University of Cambridge</p>
@@ -86,18 +96,18 @@
         
     
     
+    
     <p>Recent advances in Agentic Large Language Models (LLMs) are reshaping the discourse on how autonomous decision systems might operate in complex environments such as supply chains. The motivation for the special issue is to facilitate rigorous research in the transformative potential of agentic technology for Supply Chain Management (SCM). A key objective is to foster collaboration and unlock synergies by merging diverse perspectives from operations and supply chain management, AI, complexity science, and industrial engineering.</p>
     
     <p>An AI agent is characterised as one that has a predefined or emergent goal and uses cognitive tools to achieve its objectives, such as situational awareness, data-driven learning and prediction, decision optimisation, negotiation, and problem-solving with human or other AI agents. Supply chain management scholars have long studied agent-based systems, especially multi-agent systems (MAS) since the 2000s. However, research has stalled as MAS were slow to develop, difficult to code, debug and scale, and were prone to severe coordination problems. Most supply chain agent research was not adopted in the industry.</p>
     
-    <p>Recent advances in LLMs have now brought in a new paradigm that might reverse this trend: LLM agents are widely expected to usher in a new era where specialist programming knowledge is no longer required. LLM agents utilize a large language model as their information processing unit for core reasoning, planning, and decision-making. They can also utilize bespoke tools and recall past actions and conversations to generate contextual awareness. Whereas in the past, specialist MAS agents required rigorously defined rules and frameworks to operate, LLM agents begin their operation having already learned from vast amounts of open data. A generic knowledge base enables LLM agents to adapt to complex environments in real-time. This new paradigm makes agents much more flexible and scalable. LLM agents can interact with humans in natural language, coordinate or compete with other LLM agents, use custom tools to perform tasks such as search and optimisation, query documents and databases, and search the web.</p>
-    
-    <p>Large multi-national corporations like Walmart and Siemens are already experimenting with agentic LLMs to automate their supply chain tasks. Supply chain information system providers, such as SAP, Microsoft, and Google, are actively developing supply chain agent platforms and interoperability initiatives to enable cross-organizational supply chain automation.</p>
-    
-    <p>Academic agentic supply chain research is in its infancy, with research fragmented across computer science, operations research, and manufacturing engineering. Early research points to its potential for overcoming supply chain inefficiencies through rapid access to data, improved planning, and cross-organisational negotiation, but also warns against agentic AI mirroring human bias, challenges in the verification of output and lack of precise language leading to wrong decisions. As this field continues to evolve, it is crucial for researchers to stay informed about the latest developments, raise awareness of potential challenges, and contribute to the growing body of knowledge on the application of agentic AI in supply chain management.</p>
-    
-    <p>This Special Issue seeks to integrate multi-disciplinary research from various perspectives on shaping agentic automation in the supply chain. A variety of submissions and perspectives are welcome. Technical solutions, advanced modeling, mixed-methods, rigorous quantitative and qualitative empirical research, experimental and analytical methodologies with practical industry, managerial, and policy implications are welcome.</p>
-    
+    <p>
+        Appel publié par International Journal of Production Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/agentic-supply-chain/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-the-agentic-supply-chain-entering-a-new-era-in-ai-in-supply-chain-management/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -125,8 +135,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>International Journal of Production Research (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

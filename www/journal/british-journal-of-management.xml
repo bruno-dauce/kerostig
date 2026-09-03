@@ -4,7 +4,7 @@
         <title>kerostig | British Journal of Management</title>
         <link>https://kerostig.org/journal/british-journal-of-management/</link>
         <description>Derniers appels à publications pour British Journal of Management.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,17 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/british-journal-of-management/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Reshaping Organisations and Supply Chains in a Polycrisis Era: Interdependent Climate, Geopolitical, Economic and Technological Shocks]]></title>
             <link>https://kerostig.org/call/wiley-reshaping-organisations-and-supply-chains-in-a-polycrisis-era-interdependent-climate-geopolitical-economic-and-technological-shocks/</link>
             <guid>wiley-reshaping-organisations-and-supply-chains-in-a-polycrisis-era-interdependent-climate-geopolitical-economic-and-technological-shocks</guid>
             <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This is a special joint initiative between the British Journal of Management and the International Journal of Operations &amp; Production Management, focusing on how organisations and supply chains are being reshaped in response to interconnected polycrisis challenges involving climate, geopolitical, economic, and technological shocks.</p>
     
+    <p>
+        Appel publié par British Journal of Management.
+        
+        <a href="https://www.bam.ac.uk/resource/reshaping-organisations-and-supply-chains-in-a-polycrisis-era-interdependent-climate-geopolitical-economic-and-technological-shocks.html">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-reshaping-organisations-and-supply-chains-in-a-polycrisis-era-interdependent-climate-geopolitical-economic-and-technological-shocks/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -36,8 +45,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>British Journal of Management (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

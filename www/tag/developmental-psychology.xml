@@ -4,7 +4,7 @@
         <title>kerostig | Tag : developmental psychology</title>
         <link>https://kerostig.org/tag/developmental-psychology/</link>
         <description>Derniers appels à publications avec le tag 'developmental psychology'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,19 +13,21 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/developmental-psychology/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[The evolution of decision-making and reasoning from childhood to adulthood]]></title>
             <link>https://kerostig.org/call/elsevier-the-evolution-of-choice-and-reasoning-from-childhood-to-adulthood/</link>
             <guid>elsevier-the-evolution-of-choice-and-reasoning-from-childhood-to-adulthood</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong></strong>, </p>
         
         <p><strong></strong>, </p>
         
+    
     
     
     <p>This special issue examines how decision-making processes, choice behavior, and reasoning capabilities evolve from childhood through adulthood. Understanding the developmental trajectory of these fundamental cognitive and behavioral processes provides insight into the mechanisms that underlie human judgment and decision-making across the lifespan.</p>
@@ -34,6 +36,13 @@
     
     <p>Empirical studies, theoretical frameworks, and methodological approaches that advance our understanding of developmental decision-making are welcome. This includes research examining both normative development and individual variation in how people learn to make choices and engage in reasoning from early childhood through adulthood.</p>
     
+    <p>
+        Appel publié par Journal of Behavioral and Experimental Economics.
+        
+        <a href="https://www.sciencedirect.com/special-issue/216997/the-evolution-of-choice-and-reasoning-from-childhood-to-adulthood">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-the-evolution-of-choice-and-reasoning-from-childhood-to-adulthood/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -62,8 +71,8 @@
     
     
     
-</div>]]></content:encoded>
-            <author>Journal of Behavioral and Experimental Economics (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

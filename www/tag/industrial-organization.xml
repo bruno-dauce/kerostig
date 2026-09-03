@@ -4,7 +4,7 @@
         <title>kerostig | Tag : industrial organization</title>
         <link>https://kerostig.org/tag/industrial-organization/</link>
         <description>Derniers appels à publications avec le tag 'industrial organization'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,22 +13,31 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/industrial-organization/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Industrial Organization and Economics for Competition Policy and Regulation]]></title>
             <link>https://kerostig.org/call/wiley-mde-special-sections-for-industrial-organization-and-economics-for-competition-policy-and-regulation/</link>
             <guid>wiley-mde-special-sections-for-industrial-organization-and-economics-for-competition-policy-and-regulation</guid>
             <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special section welcomes submissions related to industrial organization and economics applied to competition policy and regulation.</p>
     
+    <p>
+        Appel publié par Managerial and Decision Economics.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/IOECPR%20-%20MDE%20CFP-1667224224133.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-mde-special-sections-for-industrial-organization-and-economics-for-competition-policy-and-regulation/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     
-</div>]]></content:encoded>
-            <author>Managerial and Decision Economics (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

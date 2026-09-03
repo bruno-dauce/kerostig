@@ -4,7 +4,7 @@
         <title>kerostig | Tag : analytics</title>
         <link>https://kerostig.org/tag/analytics/</link>
         <description>Derniers appels à publications avec le tag 'analytics'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/analytics/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Data Science]]></title>
             <link>https://kerostig.org/call/springer-data-science/</link>
             <guid>springer-data-science</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Dries F. Benoit</strong>, Ghent University</p>
@@ -32,10 +33,18 @@
         
     
     
+    
     <p>The objective of this special section is to publish papers that contribute to both the theory and practice of data science and predictive analytics. While papers describing new techniques have been published in other journals, we would expect to see how the technique could be applied in practice with implications to create value in organizations. Creating value through analytics may lead to, or require, organizational change for it to effective.</p>
     
     <p>The relationship with Operations Research is direct but distinct: analytics is an organizational activity that draws on and uses the techniques of data science and operational research as appropriate. Research into data science and analytics should seek to both incorporate the unique aspects of the OR discipline, as well as the innovations, concerns and characteristics of the analytics movement.</p>
     
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/egaahfecfe">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-data-science/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -61,19 +70,28 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Data Envelopment Analysis at Fifty: From efficiency measurement to intelligent data-enabled analytics and decision making]]></title>
             <link>https://kerostig.org/call/elsevier-omega-55th-anniversary-special-issue-data-envelopment-analysis-at-fifty-from-efficiency-measurement-to-intelligent-data-enabled-analytics-and-decision-making/</link>
             <guid>elsevier-omega-55th-anniversary-special-issue-data-envelopment-analysis-at-fifty-from-efficiency-measurement-to-intelligent-data-enabled-analytics-and-decision-making</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue celebrates the 55th anniversary of Omega journal and marks fifty years since the introduction of Data Envelopment Analysis (DEA). The special issue seeks to showcase the evolution of DEA from its origins as a tool for efficiency measurement to its current applications in intelligent data-enabled analytics and decision making.</p>
     
+    <p>
+        Appel publié par Omega.
+        
+        <a href="https://www.sciencedirect.com/special-issue/335920/omega-55th-anniversary-special-issue-data-envelopment-analysis-at-fifty-from-efficiency-measurement-to-intelligent-data-enabled-analytics-and-decision-making">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-omega-55th-anniversary-special-issue-data-envelopment-analysis-at-fifty-from-efficiency-measurement-to-intelligent-data-enabled-analytics-and-decision-making/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -84,8 +102,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Omega (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

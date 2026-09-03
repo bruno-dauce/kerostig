@@ -4,7 +4,7 @@
         <title>kerostig | Information Systems Frontiers</title>
         <link>https://kerostig.org/journal/information-systems-frontiers/</link>
         <description>Derniers appels à publications pour Information Systems Frontiers.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/information-systems-frontiers/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Advancing towards a Responsible and Resilient Digital Future]]></title>
             <link>https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future/</link>
             <guid>springer-advancing-towards-a-responsible-and-resilient-digital-future</guid>
             <pubDate>Sun, 16 Aug 2026 21:44:37 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Imon Chakraborty</strong>, Indian Institute of Technology Madras</p>
@@ -32,18 +33,16 @@
         
     
     
+    
     <p>Digital technologies have become foundational to contemporary organizations, markets, governments, and society. Artificial intelligence (AI), digital platforms, blockchain, cloud computing, and the Internet of Things (IoT) are transforming how people work, learn, interact, and create value. These technologies create significant economic, organizational, and societal value. They help businesses transform, support better decisions, and open new services for communities. At the same time, they bring serious risks. However, these technologies also introduce substantial challenges, including algorithmic bias, privacy violations, cybersecurity threats, misinformation, digital exclusion, and workforce disruption. Recent research shows that adopting a technology does not always lead to real benefits for organizations or society. Value from digital investment is often uneven and varies across situations. There is also rising concern about the dark side of digital technologies, including misuse, overuse, and unintended harm.</p>
     
-    <p>Addressing these challenges requires information systems that are simultaneously responsible and resilient. Responsible digital systems should be fair, transparent, ethical, and accountable. They should protect human rights, respect privacy, and keep humans in control of important decisions. Resilient digital systems should withstand disruptions, resist attacks, recover from failures, and continue delivering value under changing conditions. Responsibility and resilience are mutually reinforcing. Systems perceived as unfair will lose user trust. Similarly, systems that cannot withstand disruptions are unlikely to sustain long-term organizational or societal value. Despite their interdependence, responsibility and resilience have largely evolved as separate streams of research. There is limited work that brings them together and asks how information systems (IS) can be designed, implemented, used, and governed to be both responsible and resilient.</p>
-    
-    <p>Information systems researchers are uniquely positioned to examine the interplay between digital technologies, individuals, organizations, institutions, and society. It provides a unique lens for understanding how humans and AI collaborate, how users interact with digital platforms, how organizations realize value from digital technologies, and how governance and policy shape digital outcomes. It can also show how digital tools can serve communities, including vulnerable groups, and support accessibility for all. Nevertheless, significant opportunities remain for theory-driven and empirically rigorous research. We need studies that go beyond simple adoption stories and give deeper insight into post-adoption use, value realization, human–machine collaboration, governance of AI, and the long-term impact of digital systems on business and society.</p>
-    
-    <p>This special issue responds to that need. It invites scholars and practitioners to examine how information systems can advance a responsible and resilient digital future. We invite theoretically grounded, methodologically rigorous, and practically relevant research that advances understanding of responsible and resilient digital futures. Submissions may use various research methods, such as conceptual and theoretical work, surveys, experiments, case studies, and design science methods.</p>
-    
-    <p>This special issue is linked to the India Conference on Information Systems (InCIS 2027), which carries the same theme, &quot;Advancing towards a Responsible and Resilient Digital Future&quot;. The authors of selected high-quality papers from the conference will be invited to submit substantially extended versions to this special issue. The special issue is also open to all authors through this open call, even if not submitted to the conference.</p>
-    
-    <p>We encourage studies that move beyond surface-level narratives and offer nuanced insight into how responsibility and resilience can be built into digital systems. Submissions that challenge existing paradigms, explore underexamined dimensions, or offer new frameworks are especially encouraged. Submissions must clearly identify the specific digital technologies and contexts examined. Purely technical or system-level papers without an IS, behavioural, organisational, or societal contribution are outside the scope of this special issue.</p>
-    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/ffhgdbhbad">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -85,15 +84,87 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Information Systems Frontiers (SPRINGER)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Artificial Intelligence, Affective Computing and Video Analytics for Intelligent Information Systems]]></title>
+            <link>https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/</link>
+            <guid>springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Andrea Generosi</strong>, Pegaso University</p>
+        
+        <p><strong>Luigi Gallo</strong>, Pegaso University</p>
+        
+        <p><strong>Valerio De Luca</strong>, Pegaso University</p>
+        
+        <p><strong>Maura Mengoni</strong>, Marche Polytechnic University</p>
+        
+        <p><strong>Josef Spjut</strong>, NVIDIA</p>
+        
+        <p><strong>Lucio De Paolis</strong>, University of Salento</p>
+        
+    
+    
+    
+    <p>The past decade has seen explosive growth in video data (live and on-demand), driven by ubiquitous cameras, mobile devices, and online platforms. From city CCTV and body-cams to retail, sports, tele-health, and social live commerce, organizations now operate end-to-end video streaming pipelines at massive scale. In parallel, advances in deep learning, spanning video transformers, self-supervised pretraining, and multimodal large models, have transformed what intelligent systems can infer from continuous visual data, moving beyond static clips to long-horizon, low-latency understanding of events, activities, and interactions.</p>
+    
+    <p>Affective computing adds a new dimension by interpreting emotional and social signals in video and multimedia. For example, research shows that portraying positive emotions and trust cues in video significantly increases viewer engagement. By combining facial expression, gesture, and acoustic analysis, advanced AI can infer user sentiment and intent. These capabilities enrich social-media intelligence, recommender systems, and customer journey analysis.</p>
+    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/hfgbffihjb">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Scalable video understanding: algorithms and architectures for analyzing large-scale video streams (e.g. in surveillance, social media or enterprise) to support decision-making and business analytics.</li>
+        
+        <li>Emotion and sentiment analysis: detection of affective and engagement cues in video (e.g. customer-journey recordings, advertisement viewing, user-generated content).</li>
+        
+        <li>Multimodal fusion: methods that combine vision with audio, text or other modalities to enrich social-media intelligence and contextual analysis.</li>
+        
+        <li>Streaming-native AI and MLOps: online inference under tight latency budgets, stream processing/windowing, drift detection, A/B testing and safe rollouts, cost–latency–accuracy trade-offs, and end-to-end observability for production pipelines.</li>
+        
+        <li>Video(-language) models for streaming: multimodal LLMs/VLMs, memory and token compression for long-horizon video, retrieval-augmented streaming</li>
+        
+        <li>Real-time and distributed architectures: edge/cloud or federated systems for real-time video analytics at scale, including considerations of latency, bandwidth and privacy.</li>
+        
+        <li>Explainability, fairness and compliance: approaches to make affective video AI transparent and trustworthy, addressing ethical, legal and regulatory challenges.</li>
+        
+        <li>Adaptive learning: techniques for domain adaptation, continual learning or few-shot learning to handle evolving video streams and reduce the need for large labeled datasets.</li>
+        
+        <li>Case studies and applications: empirical studies in domains such as healthcare (e.g. remote patient monitoring), finance (e.g. behavioral analytics), education (e.g. XR/serious games environments), and smart environments.</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>October 30, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Digital Technologies for Combating Unethical Labour Practices and Promoting Human Rights]]></title>
             <link>https://kerostig.org/call/springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights/</link>
             <guid>springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Stefan Gold</strong>, Technical University of Munich</p>
@@ -108,22 +179,16 @@
         
     
     
+    
     <p>Unethical labour practices represent a pressing global issue, with an estimated 50 million people currently living in such conditions worldwide. The prevalence of unethical labour practices is expected to increase due to ongoing regional conflicts, economic downturns, and restrictive migration policies in major Western countries. Digital technologies, such as blockchain, artificial intelligence (AI), and cloud computing, promise significant benefits in addressing unethical labour practices and have consequently attracted increasing scholarly attention.</p>
     
-    <p>Modern slavery is one of the most serious forms of unethical labour practices, commonly conceptualized as the recruitment, movement, harbouring or receiving of children, women, or men through means such as coercion, deception, abuse of vulnerability, or the use of force, for the primary purpose of exploitation. It encompasses multiple practices, with prevalent forms including child slavery, human trafficking, forced labour, descent-based slavery, bonded labour, forced and early marriage, and domestic servitude. According to the latest Global Estimates of Modern Slavery, an estimated 49.6 million people are living in conditions of modern slavery worldwide, including 22 million in forced marriage and 27.6 million in forced labour. Ongoing regional conflicts and expulsionist migration policies are expected to further exacerbate modern slavery by intensifying violence, displacing populations, and disrupting social and economic structures.</p>
-    
-    <p>Digital technologies encompass a diverse range of tools, systems, and devices that leverage digital information and processes to enhance activities. These technologies include but are not limited to AI, blockchains, internet of things (IoT), big data analytics, cloud computing, and virtual and augmented reality. Big data and cloud computing are increasingly integrated into enterprise resource planning systems in manufacturing to support informed decision-making. Generative AI applications are being adopted in higher education to enable more efficient information access and content creation.</p>
-    
-    <p>Digital technologies promise significant benefits for addressing unethical labour practices. Monitoring technologies such as remote sensors and worker voice technologies can enhance the identification of unethical labour practices within supply chains. Machine learning and AI can detect patterns of trafficking and slavery in large datasets, facilitating identification of at-risk areas or vulnerable individuals. Blockchain technology can be employed to track supply chain elements, helping to mitigate labour exploitation. Additionally, digital technologies have been proposed as effective tools to support the social inclusion of survivors of modern slavery.</p>
-    
-    <p>The potential of digital technologies to address unethical labour practices has been consistently highlighted by various international organizations. The United Nations Human Rights Office has proposed that digital technologies are an effective means to prevent and address contemporary forms of slavery. Research conducted in partnership with the International Organization for Migration and other organizations has indicated that although digital technologies can support adults with lived experience of unethical labour practices in reintegrating into society, limited research constrains deeper understanding of these mechanisms.</p>
-    
-    <p>Although existing studies have examined the role of digital technologies in addressing unethical labour practices, significant research gaps remain. Current literature has primarily examined technologies from the perspective of focal firms or single technology approaches, while other digital technologies such as biometrics recognition and satellite imagery employed by governments and non-governmental organizations also hold significant potential. Literature reviews indicate that while unethical labour practices remain pressing, there is limited research examining how digital technologies can be employed to monitor, detect, report, and address unethical labour practices, and there is a need for further empirical research to advance understanding in this area.</p>
-    
-    <p>This special issue invites scholars and practitioners to examine the interplay between digital technologies and unethical labour practices, particularly the ways in which digital technologies can be employed to monitor, detect, report, and remediate unethical labour practices in pursuit of an ethical, responsible, and sustainable society. We welcome original, theory-driven research that makes significant contributions to advancing knowledge on this topic. Submissions may use various research methodologies, including theoretical and conceptual approaches, analytical and modelling, case studies and interviews, surveys, and literature reviews. All submissions must clearly identify the specific types of digital technologies being examined.</p>
-    
-    <p>We particularly welcome studies that move beyond surface-level narratives and dominant discourse to provide nuanced and sophisticated insights into the nexus between digital technologies and unethical labour practices. Submissions that challenge existing paradigms, explore underexamined dimensions, or offer innovative perspectives and frameworks are especially encouraged. We seek contributions that extend theoretical boundaries and yield practical implications, thereby informing policymakers, business leaders, and wider society on how to leverage digital technologies to drive meaningful and lasting change in the fight against unethical labour practices.</p>
-    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/baegbehdda">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -159,15 +224,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Information Systems Frontiers (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[From Adoption to Impact: Post-Adoption, Value Realization, and Societal Transformation of ICT and AI]]></title>
             <link>https://kerostig.org/call/springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai/</link>
             <guid>springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Jyoti Choudrie</strong>, University of Hertfordshire</p>
@@ -180,14 +246,16 @@
         
     
     
+    
     <p>Information and Communication Technologies (ICTs) and Artificial Intelligence (AI) are driving profound transformations across organisational, economic, and societal contexts, reshaping value creation, structures, and processes. As technologies such as generative and agentic AI, blockchain, and the Internet of Things (IoT) continue to evolve, scholarly attention must increasingly move beyond initial adoption toward understanding how these technologies are integrated, adapted, and leveraged over time. While prior research has extensively examined technology adoption decisions, comparatively less attention has been paid to post-adoption dynamics, including continuance, adaptation, and routinization. Moreover, the realization of value from ICT and AI investments remains uneven and insufficiently understood, as adoption does not necessarily translate into organizational or societal benefits. These gaps highlight the need for deeper theoretical and empirical insights into how technologies generate sustained value and transformation.</p>
     
-    <p>At the same time, the widespread deployment of ICTs and AI introduces complex risks and tensions, including ethical concerns, digital inequality, cybersecurity threats, and unintended consequences. In parallel, emerging forms of human–AI interaction and digital platforms are reshaping work practices, decision-making, and socio-technical relationships in ways that require renewed scholarly attention.</p>
-    
-    <p>This special issue seeks to advance cutting-edge research that moves beyond initial adoption to examine post-adoption phenomena, value realization, and transformation across individual, organizational, and societal levels. While this special issue emphasizes post-adoption and impact, we also welcome novel perspectives on early-stage adoption where they offer new theoretical insights or address emerging technologies and contexts.</p>
-    
-    <p>We invite original contributions employing diverse methodological approaches, including empirical, theoretical, experimental, design science, and review-based research.</p>
-    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/hdbgecbgfg">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -249,15 +317,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Information Systems Frontiers (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Keeping Humans in the Loop in the AI-Driven Future of Information Security]]></title>
             <link>https://kerostig.org/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security/</link>
             <guid>springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Laura Amo</strong>, University at Buffalo, State University of New York</p>
@@ -274,14 +343,16 @@
         
     
     
+    
     <p>As automation and AI explode, artificial intelligence is positioned to become the primary force in offensive and defensive cybersecurity practices. Attackers use generative AI to launch sophisticated spear-phishing attacks and deepfake campaigns targeting individuals; they also leverage Internet-of-Behaviors data to customize attacks based on user behavior patterns. AI companionship tools, while offering emotional support and practical assistance, also pose significant security and privacy concerns. Defensively, practitioners increasingly rely on AI-based threat detection tools just to keep pace with AI-fueled external threats, simultaneously facing cognitive issues associated with AI-based cybersecurity incident responses.</p>
     
-    <p>With AI driving cybersecurity from both offensive and defensive angles, it seems important to remember that security is fundamentally a human phenomenon. Human-in-the-loop is a well-established design principle emphasizing human involvement in system training, tuning, and decision making to improve accuracy and safety. This approach addresses contexts where human performance of security-critical functions is imperative because fully automated systems may be restrictive, inconvenient, or dangerous. Applied to security, HITL also guides designers and operators in identifying and mitigating human errors that cause security failures, premised on the notion that humans are the weakest link. Humans are thus a necessary yet vulnerable link in the security chain.</p>
-    
-    <p>In this special issue of Information Systems Frontiers, we invite IS security researchers to consider how to balance AI&#39;s inevitable role in the future of information security while keeping humans such as users, employees, clients, patients, and students in the loop as a research focus. As security becomes increasingly AI-oriented, behavioral IS scholarship faces a growing challenge to retain focus on human behavior, cognition, and motivation. Now more than ever, it is imperative that humans remain central to research on secure systems, training programs, and assistive technologies such as chatbots.</p>
-    
-    <p>This special issue will consist of papers from two sources: the best submissions from an open call for papers selected on a competitive basis, and invited submissions that are substantial revisions of selected papers accepted at the 2026 Dewald Roode Workshop on Information Systems Security Research. If from the latter, the submitted manuscript is required to have more than 40% new and original technical or scientific content, distinct from the workshop paper. Authors will be required to submit a letter detailing the differences between the workshop paper and the version submitted to this special issue.</p>
-    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/egdbefhiee">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -327,74 +398,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Information Systems Frontiers (SPRINGER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Artificial Intelligence, Affective Computing and Video Analytics for Intelligent Information Systems]]></title>
-            <link>https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/</link>
-            <guid>springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>Andrea Generosi</strong>, Pegaso University</p>
-        
-        <p><strong>Luigi Gallo</strong>, Pegaso University</p>
-        
-        <p><strong>Valerio De Luca</strong>, Pegaso University</p>
-        
-        <p><strong>Maura Mengoni</strong>, Marche Polytechnic University</p>
-        
-        <p><strong>Josef Spjut</strong>, NVIDIA</p>
-        
-        <p><strong>Lucio De Paolis</strong>, University of Salento</p>
-        
-    
-    
-    <p>The past decade has seen explosive growth in video data (live and on-demand), driven by ubiquitous cameras, mobile devices, and online platforms. From city CCTV and body-cams to retail, sports, tele-health, and social live commerce, organizations now operate end-to-end video streaming pipelines at massive scale. In parallel, advances in deep learning, spanning video transformers, self-supervised pretraining, and multimodal large models, have transformed what intelligent systems can infer from continuous visual data, moving beyond static clips to long-horizon, low-latency understanding of events, activities, and interactions.</p>
-    
-    <p>Affective computing adds a new dimension by interpreting emotional and social signals in video and multimedia. For example, research shows that portraying positive emotions and trust cues in video significantly increases viewer engagement. By combining facial expression, gesture, and acoustic analysis, advanced AI can infer user sentiment and intent. These capabilities enrich social-media intelligence, recommender systems, and customer journey analysis.</p>
-    
-    <p>This special issue seeks cutting-edge work at the intersection of video analytics and affective computing, harnessing emotion and intent cues in visual data to enhance information systems, and about AI for video streaming: methods, systems, and governance for real-time ingestion, analysis, and decisioning over continuous video flows.</p>
-    
-    <p>The goal is to bridge computer-vision analytics and affective models (extracting sentiment, engagement, trustworthiness, etc.) to design intelligent, human-centered systems that inform decision-making and adaptive services. The special issue is interested in methods that fuse visual, auditory, and textual data (multimodal analysis) to detect emotion, sentiment, engagement, gaze, gesture, posture, prosody and language in real time. Such techniques enable insights from live-streamed user interactions or &quot;experience mining&quot; in marketing and e-commerce. Deep-learning advances enable machines to recognize facial expressions, gestures, tone of voice and other cues to infer sentiment, engagement and intent. Recent work demonstrates that Convolutional Neural Networks combining video and audio input can predict viewers&#39; emotions with high accuracy, achieving around a 75% AUC on real-world video-ads data. Other research has integrated language and vision: one study built an &quot;Affective Mimicry Index&quot; from CEO interview videos, using computer vision together with large language models, and found that higher video-derived empathy scores correlate with better firm performance. These examples show how multimodal video analytics can extract rich affective signals, from basic expressions to higher-level trust and empathy cues. The aim is to bring these advances into intelligent information systems that are explainable, fair, and aligned with human values.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Scalable video understanding: algorithms and architectures for analyzing large-scale video streams (e.g. in surveillance, social media or enterprise) to support decision-making and business analytics.</li>
-        
-        <li>Emotion and sentiment analysis: detection of affective and engagement cues in video (e.g. customer-journey recordings, advertisement viewing, user-generated content).</li>
-        
-        <li>Multimodal fusion: methods that combine vision with audio, text or other modalities to enrich social-media intelligence and contextual analysis.</li>
-        
-        <li>Streaming-native AI and MLOps: online inference under tight latency budgets, stream processing/windowing, drift detection, A/B testing and safe rollouts, cost–latency–accuracy trade-offs, and end-to-end observability for production pipelines.</li>
-        
-        <li>Video(-language) models for streaming: multimodal LLMs/VLMs, memory and token compression for long-horizon video, retrieval-augmented streaming</li>
-        
-        <li>Real-time and distributed architectures: edge/cloud or federated systems for real-time video analytics at scale, including considerations of latency, bandwidth and privacy.</li>
-        
-        <li>Explainability, fairness and compliance: approaches to make affective video AI transparent and trustworthy, addressing ethical, legal and regulatory challenges.</li>
-        
-        <li>Adaptive learning: techniques for domain adaptation, continual learning or few-shot learning to handle evolving video streams and reduce the need for large labeled datasets.</li>
-        
-        <li>Case studies and applications: empirical studies in domains such as healthcare (e.g. remote patient monitoring), finance (e.g. behavioral analytics), education (e.g. XR/serious games environments), and smart environments.</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>October 30, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Information Systems Frontiers (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

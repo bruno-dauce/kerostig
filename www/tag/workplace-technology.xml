@@ -4,7 +4,7 @@
         <title>kerostig | Tag : workplace technology</title>
         <link>https://kerostig.org/tag/workplace-technology/</link>
         <description>Derniers appels à publications avec le tag 'workplace technology'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/workplace-technology/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Human-AI Interaction in Intelligent Workplaces: Behaviour, Trust, Experience, and Human-Centered Design]]></title>
             <link>https://kerostig.org/call/tandf-human-ai-interaction-in-intelligent-workplaces-behaviour-trust-experience-and-human-centered-design/</link>
             <guid>tandf-human-ai-interaction-in-intelligent-workplaces-behaviour-trust-experience-and-human-centered-design</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Muhammad Imran Rasheed</strong>, University of Surrey</p>
@@ -30,18 +31,16 @@
         
     
     
+    
     <p>Artificial intelligence is increasingly becoming an interactive workplace technology through which employees communicate, collaborate, make decisions, and perform everyday work tasks. From generative AI assistants and algorithmic decision-support systems to intelligent monitoring tools and conversational agents, workers are engaging with AI systems on a continuous basis. Consequently, understanding how employees interact with AI technologies, experience AI-mediated work processes, develop trust in intelligent systems, and adapt their behaviours in response to AI-generated outputs has emerged as a central challenge for Behaviour &amp; Information Technology research.</p>
     
-    <p>While existing research has extensively examined technological adoption and performance outcomes, comparatively less attention has been devoted to the behavioral, cognitive, relational, and psychological implications of intelligent systems in workplace settings. Emerging technologies are redefining human-computer interaction in organizational contexts and raising important questions regarding trust in AI, algorithmic transparency, digital autonomy, technostress, cognitive overload, human-AI collaboration, and behavioral adaptation.</p>
-    
-    <p>While different special issues have recently focused on artificial intelligence in organisations, information systems and the future of work, little has been done to understand workplace AI from the perspective of human–computer interaction and human-centered design. Existing special issues have primarily addressed topics such as technological adoption, organizational outcomes, digital transformation, and AI implementation. In contrast, this Special Issue focuses on the human-intelligent system interaction, covering employee experience, trust calibration, behavioral adaptation, user engagement, explainability, cognitive processes, and the design of psychologically sustainable AI-enabled workplaces.</p>
-    
-    <p>The Special Issue proposed is well aligned with the mission of Behaviour &amp; Information Technology and brings together research on human behaviour, user experience, interaction design, intelligent systems and digital work. The special issue aims to contribute to a better understanding of not only what AI does in organizations, but also how employees experience, interpret, interact with, and adapt to intelligent technologies in everyday work settings.</p>
-    
-    <p>In addition to empirical and theoretical contributions, the Special Issue strongly encourages design-oriented and design science research that develops, evaluates, and validates human-centred AI systems, intelligent interfaces, explainability mechanisms, trust-enhancing design features, and interaction designs that promote positive employee experiences and responsible AI use.</p>
-    
-    <p>This special issue focuses on the intersection of intelligent technologies, workplace behavior, and information systems. Contributions examine how AI and digital systems influence individual, team, and organizational behavior in technology-mediated work environments. The issue is especially interested in studies investigating behavioral and cognitive responses to intelligent systems, human-AI interaction dynamics, digital work experiences, and the broader organizational implications of AI-enabled technologies. Contributions employing quantitative, qualitative, mixed-method, longitudinal, experimental, computational, ethnographic, and design-science approaches are highly encouraged.</p>
-    
+    <p>
+        Appel publié par Behaviour &amp; Information Technology.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/human-ai-interaction-in-intelligent-workplaces-behaviour-trust-experience-and-human-centered-design/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-human-ai-interaction-in-intelligent-workplaces-behaviour-trust-experience-and-human-centered-design/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -143,8 +142,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Behaviour &amp; Information Technology (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

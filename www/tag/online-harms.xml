@@ -4,7 +4,7 @@
         <title>kerostig | Tag : online harms</title>
         <link>https://kerostig.org/tag/online-harms/</link>
         <description>Derniers appels à publications avec le tag 'online harms'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/online-harms/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Critical Perspectives on Digital Platform Ecosystems: Governance, Influence, and Consequences]]></title>
             <link>https://kerostig.org/call/springer-topical-collection-critical-perspectives-on-digital-platform-ecosystems-governance-influence-and-consequences/</link>
             <guid>springer-topical-collection-critical-perspectives-on-digital-platform-ecosystems-governance-influence-and-consequences</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Hemant Bhargava</strong>, University of California, Davis</p>
@@ -32,14 +33,16 @@
         
     
     
+    
     <p>One of the central features of the contemporary digital economy is the growing importance of digital platforms that enable, facilitate, govern, and increasingly mediate exchanges and interactions among participants who affiliate with the platform. Digital platform ecosystems, comprising platform owners, complementors, users, and a broader network of partners and institutions, have become a dominant architecture for value creation in the global economy. They influence organizational strategies, reshape industries and markets, and generate far-reaching social and political implications.</p>
     
-    <p>While platform ecosystems can foster novel forms of innovation, coordination, and entrepreneurial opportunity, their concentrated influence also raises critical questions regarding their powerful, and sometimes problematic, effects on societal processes and structures that extend beyond business and economic outcomes. As platform-mediated activities now govern substantial parts of how individuals work, communicate, access information, and participate in public debate, it is increasingly important to examine how these ecosystems are designed, governed, and regulated, and how such governance arrangements shape societal outcomes.</p>
-    
-    <p>This influence is particularly visible in evolving labor arrangements, the organization and boundaries of online speech and content moderation, and the protection of vulnerable users, including youth safety and digital well-being. Related concerns include issues of fairness and transparency, market power and competitive dynamics, data practices and privacy, the distribution of risks and benefits across stakeholder groups, and the interaction of platform governance with public policy.</p>
-    
-    <p>This special issue aims to provide a scholarly forum for addressing critical questions on digital platform ecosystems, considering both their enabling potential and their societal risks. We welcome theoretical and empirical contributions, employing quantitative, qualitative, or mixed-methods approaches, from the full breadth of the information systems field and related disciplines.</p>
-    
+    <p>
+        Appel publié par Electronic Markets.
+        
+        <a href="https://link.springer.com/collections/ecbjjiecib">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-topical-collection-critical-perspectives-on-digital-platform-ecosystems-governance-influence-and-consequences/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -71,8 +74,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Electronic Markets (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

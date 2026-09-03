@@ -4,7 +4,7 @@
         <title>kerostig | Tag : majority world</title>
         <link>https://kerostig.org/tag/majority-world/</link>
         <description>Derniers appels à publications avec le tag 'majority world'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,17 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/majority-world/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Studies of Auditing "On-the-Ground" in the Majority World]]></title>
             <link>https://kerostig.org/call/elsevier-studies-of-auditing-on-the-ground-in-the-majority-world/</link>
             <guid>elsevier-studies-of-auditing-on-the-ground-in-the-majority-world</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue invites submissions that provide on-the-ground empirical studies of auditing practices, processes, and institutions in the Majority World countries. We welcome research that examines auditing as it is actually practiced in real-world contexts, moving beyond theoretical frameworks to understand the lived experiences of auditors, audit clients, regulators, and other stakeholders.</p>
     
+    <p>
+        Appel publié par Critical Perspectives on Accounting.
+        
+        <a href="https://www.sciencedirect.com/special-issue/330085/studies-of-auditing-on-the-ground-in-the-majority-world">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-studies-of-auditing-on-the-ground-in-the-majority-world/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -34,8 +43,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Critical Perspectives on Accounting (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

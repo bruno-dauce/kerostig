@@ -4,7 +4,7 @@
         <title>kerostig | Financial Review</title>
         <link>https://kerostig.org/journal/financial-review/</link>
         <description>Derniers appels à publications pour Financial Review.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,48 +13,75 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/financial-review/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[2025 Conference of Contemporary Topics on Financial Markets]]></title>
             <link>https://kerostig.org/call/wiley-2025-conference-of-contemporary-topics-on-financial-markets/</link>
             <guid>wiley-2025-conference-of-contemporary-topics-on-financial-markets</guid>
             <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
     
-    
-    
-</div>]]></content:encoded>
-            <author>Financial Review (WILEY)</author>
-        </item>
-        <item>
-            <title><![CDATA[Cryptocurrency Research Conference 2025]]></title>
-            <link>https://kerostig.org/call/wiley-cryptocurrency-research-conference-2025/</link>
-            <guid>wiley-cryptocurrency-research-conference-2025</guid>
-            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+    <p>
+        Appel publié par Financial Review.
+        
+        <a href="https://conf.ichaos.com.cn/2025ctfm/page/1">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-2025-conference-of-contemporary-topics-on-financial-markets/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     
-    
-    
-</div>]]></content:encoded>
-            <author>Financial Review (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[CINSC/INFINITI 2025 Conference]]></title>
             <link>https://kerostig.org/call/wiley-cinscinfiniti-2025-conference/</link>
             <guid>wiley-cinscinfiniti-2025-conference</guid>
             <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
     
+    <p>
+        Appel publié par Financial Review.
+        
+        <a href="https://www.ffea.eu/future-conferences/edinburgh-june-2025">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-cinscinfiniti-2025-conference/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
-</div>]]></content:encoded>
-            <author>Financial Review (WILEY)</author>
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Cryptocurrency Research Conference 2025]]></title>
+            <link>https://kerostig.org/call/wiley-cryptocurrency-research-conference-2025/</link>
+            <guid>wiley-cryptocurrency-research-conference-2025</guid>
+            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Financial Review.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/15406288/2025%20conference%20call%20for%20papers-1739314812977.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-cryptocurrency-research-conference-2025/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

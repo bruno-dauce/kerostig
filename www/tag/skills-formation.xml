@@ -4,7 +4,7 @@
         <title>kerostig | Tag : skills formation</title>
         <link>https://kerostig.org/tag/skills-formation/</link>
         <description>Derniers appels à publications avec le tag 'skills formation'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/skills-formation/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Rethinking Regional Skills: Place-Based Capabilities and Economic Transformation]]></title>
             <link>https://kerostig.org/call/tandf-rethinking-regional-skills-place-based-capabilities-and-economic-transformation/</link>
             <guid>tandf-rethinking-regional-skills-place-based-capabilities-and-economic-transformation</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>David Morris</strong>, University of Nottingham</p>
@@ -32,12 +33,16 @@
         
     
     
+    
     <p>Skills are central to regional development, influencing labour markets, industrial evolution, and economic trajectories. Yet despite their long-standing recognition, regional skills are often under-theorised and frequently conflated with education, human capital, or occupational structures. Conceptual frameworks that treat skills as multidimensional, place-based capabilities that emerge from the interactions of people, firms, and local institutions remain limited, and systematic empirical evidence on skill formation, mismatch, mobility, and utilisation across regions is still sparse. Meanwhile, rapid skill-biased technological change, digitalisation, and green transitions are reshaping jobs, tasks, and production systems, altering regional skill demands, reinforcing divergence in development paths, and raising urgent policy questions.</p>
     
-    <p>Building on emerging conceptual and empirical work, this Special Issue seeks to advance understanding of regional skills as active, context-dependent capabilities, and their role in economic transformation. We invite conceptual, theoretical, methodological, and empirical contributions that explore how regional skills are formed, adapted, deployed, and leveraged to support regional development, labour market inclusion, and industrial transformation. Submissions may address advanced, emerging, and developing economies, and analyses may cover sub-regional to supra-regional scales.</p>
-    
-    <p>The Special Issue encourages early-career researchers and scholars from underrepresented regions, including the Global South, to submit contributions. We welcome both qualitative and quantitative studies, conceptual and theoretical analyses, as well as case studies that provide new insights into the formation and utilisation of regional skills. All submissions should ground their analysis in place-based contexts and address implications for theory, practice, or policy.</p>
-    
+    <p>
+        Appel publié par Regional Studies.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/rethinking-regional-skills/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-rethinking-regional-skills-place-based-capabilities-and-economic-transformation/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -77,8 +82,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Regional Studies (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

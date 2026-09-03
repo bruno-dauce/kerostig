@@ -4,7 +4,7 @@
         <title>kerostig | Tag : shipping</title>
         <link>https://kerostig.org/tag/shipping/</link>
         <description>Derniers appels à publications avec le tag 'shipping'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,19 +13,28 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/shipping/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Market-Based Measures for Port and Shipping Emissions Mitigation]]></title>
             <link>https://kerostig.org/call/elsevier-market-based-measures-for-port-and-shipping-emissions-mitigation-2/</link>
             <guid>elsevier-market-based-measures-for-port-and-shipping-emissions-mitigation-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue focuses on market-based measures and economic instruments designed to mitigate emissions from ports and the shipping industry. The collection seeks to advance understanding of how market mechanisms can effectively reduce environmental impacts while maintaining economic competitiveness in the maritime sector.</p>
     
     <p>The issue welcomes contributions exploring various market-based approaches including carbon pricing, emission trading systems, green bonds, subsidies for clean technologies, and other economic instruments. Papers may examine these mechanisms from theoretical, empirical, or policy perspectives, with particular interest in their effectiveness, design, implementation challenges, and real-world outcomes.</p>
     
+    <p>
+        Appel publié par Transportation Research Part D: Transport and Environment.
+        
+        <a href="https://www.sciencedirect.com/special-issue/323281/market-based-measures-for-port-and-shipping-emissions-mitigation">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-market-based-measures-for-port-and-shipping-emissions-mitigation-2/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -57,21 +66,30 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Transportation Research Part D: Transport and Environment (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Sustainable Maritime Transportation: New Insights from Artificial Intelligence]]></title>
             <link>https://kerostig.org/call/elsevier-sustainable-maritime-transportation-new-insights-from-artificial-intelligence-2/</link>
             <guid>elsevier-sustainable-maritime-transportation-new-insights-from-artificial-intelligence-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue focuses on the intersection of sustainable maritime transportation and artificial intelligence technologies. Maritime transportation plays a crucial role in global commerce and logistics, accounting for a significant portion of international trade. However, the shipping industry faces considerable environmental challenges, including greenhouse gas emissions, fuel consumption, and pollution. Artificial intelligence and machine learning offer promising opportunities to address these sustainability challenges while improving operational efficiency.</p>
     
     <p>The special issue welcomes contributions that explore innovative AI-based solutions for enhancing sustainability in maritime transportation. This includes research on optimizing vessel performance, reducing carbon footprints, improving safety protocols, and developing intelligent systems for port and logistics management. We are particularly interested in studies that demonstrate practical applications of AI technologies in real-world maritime contexts.</p>
     
+    <p>
+        Appel publié par Transportation Research Part D: Transport and Environment.
+        
+        <a href="https://www.sciencedirect.com/special-issue/316205/sustainable-maritime-transportation-new-insights-from-artificial-intelligence">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-sustainable-maritime-transportation-new-insights-from-artificial-intelligence-2/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -107,8 +125,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Transportation Research Part D: Transport and Environment (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

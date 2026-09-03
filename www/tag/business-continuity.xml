@@ -4,7 +4,7 @@
         <title>kerostig | Tag : business continuity</title>
         <link>https://kerostig.org/tag/business-continuity/</link>
         <description>Derniers appels à publications avec le tag 'business continuity'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,17 +13,19 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/business-continuity/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[MNEs and exogenous shocks: Learning from pandemics and other major disruptions]]></title>
             <link>https://kerostig.org/call/elsevier-mnes-and-exogenous-shocks-learning-from-pandemics-and-other-major-disruptions/</link>
             <guid>elsevier-mnes-and-exogenous-shocks-learning-from-pandemics-and-other-major-disruptions</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong></strong>, </p>
         
+    
     
     
     <p>Multinational enterprises (MNEs) face unprecedented challenges from exogenous shocks such as pandemics, natural disasters, geopolitical tensions, and supply chain disruptions. These major disruptions test the resilience and adaptability of global business operations and require strategic responses that span multiple countries and business units.</p>
@@ -32,6 +34,13 @@
     
     <p>This special issue seeks to advance our understanding of how MNEs respond to, learn from, and build resilience against exogenous shocks. We welcome empirical and theoretical contributions that examine MNE adaptation strategies, organizational changes, and the factors that influence their ability to navigate major disruptions.</p>
     
+    <p>
+        Appel publié par Journal of World Business.
+        
+        <a href="https://www.sciencedirect.com/special-issue/181911/special-issue-mnes-and-exogenous-shocks-learning-from-pandem">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-mnes-and-exogenous-shocks-learning-from-pandemics-and-other-major-disruptions/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -63,8 +72,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of World Business (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

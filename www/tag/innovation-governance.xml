@@ -4,7 +4,7 @@
         <title>kerostig | Tag : innovation governance</title>
         <link>https://kerostig.org/tag/innovation-governance/</link>
         <description>Derniers appels à publications avec le tag 'innovation governance'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,17 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/innovation-governance/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Governing multi-system innovation: A policy mix on its emergence, co-evolution, and diffusion]]></title>
             <link>https://kerostig.org/call/elsevier-governing-multi-system-innovation-a-policy-mix-on-its-emergence-co-evolution-and-diffusion-2/</link>
             <guid>elsevier-governing-multi-system-innovation-a-policy-mix-on-its-emergence-co-evolution-and-diffusion-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue is focused on innovation governance through policy mixes. Policy mixes are combinations of different policy instruments aimed at governing innovation across multiple systems. The special issue welcomes research that examines how policy mixes emerge, co-evolve, and diffuse across different contexts and innovation systems.</p>
     
+    <p>
+        Appel publié par Research Policy.
+        
+        <a href="https://www.sciencedirect.com/special-issue/333348/governing-multi-system-innovation-a-policy-mix-on-its-emergence-co-evolution-and-diffusion">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-governing-multi-system-innovation-a-policy-mix-on-its-emergence-co-evolution-and-diffusion-2/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -34,8 +43,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Research Policy (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

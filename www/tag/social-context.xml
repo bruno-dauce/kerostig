@@ -4,7 +4,7 @@
         <title>kerostig | Tag : social context</title>
         <link>https://kerostig.org/tag/social-context/</link>
         <description>Derniers appels à publications avec le tag 'social context'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,23 +13,32 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/social-context/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Close Relationships in an Interdependent Social World]]></title>
             <link>https://kerostig.org/call/apa-call-for-papers-close-relationships-in-an-interdependent-social-world/</link>
             <guid>apa-call-for-papers-close-relationships-in-an-interdependent-social-world</guid>
             <pubDate>Tue, 18 Aug 2026 09:17:30 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Sandra Murray</strong>, University at Buffalo</p>
         
     
     
+    
     <p>Are close relationships in peril? Loneliness is increasing and markers of social engagement (e.g., marriage) are decreasing. This special section hopes to provide insight into this question by tackling the socially nested nature of interdependence itself.</p>
     
     <p>Close relationships with significant others take place in the broader context of family responsibilities, such as those involved in parenting children and caring for aging parents; in the broader context of friendship networks, and broader communities; in the context of sociopolitical pressures, such as economic stress, racism, and political polarization; and in the context of technological changes, such as those posed by the insertion of AI into social life.</p>
     
+    <p>
+        Appel publié par Journal of Personality and Social Psychology.
+        
+        <a href="https://www.apa.org/pubs/journals/psp/close-relationships-social-world.html">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/apa-call-for-papers-close-relationships-in-an-interdependent-social-world/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -59,8 +68,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Personality and Social Psychology (APA)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

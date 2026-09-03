@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : industrial applications</title>
+        <link>https://kerostig.org/tag/industrial-applications/</link>
+        <description>Derniers appels à publications avec le tag 'industrial applications'.</description>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : industrial applications</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/industrial-applications/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[AI-Driven Decision Making under Uncertain Environments: Theory, Methods, and Industrial Applications]]></title>
+            <link>https://kerostig.org/call/tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications/</link>
+            <guid>tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Hyun-Jung Kim</strong>, KAIST</p>
+        
+        <p><strong>Shu-Kai Fan</strong>, National Taipei University of Technology</p>
+        
+        <p><strong>Fugee Tsung</strong>, Hong Kong University of Science and Technology</p>
+        
+        <p><strong>Thomas Volling</strong>, Technical University Berlin</p>
+        
+        <p><strong>Jang Ho Kim</strong>, Korea University</p>
+        
+        <p><strong>Dong-Young Lim</strong>, Ulsan National Institute of Science and Technology</p>
+        
+    
+    
+    
+    <p>Recent advances in artificial intelligence (AI), optimization, and data-driven analytics are fundamentally transforming decision-making processes in complex systems operating under uncertainty. Modern industrial and service systems, including manufacturing, logistics, supply chains, transportation, energy, and healthcare, increasingly face dynamic and stochastic environments characterized by demand fluctuations, disruptions, incomplete information, evolving system states, and operational risks. To effectively manage such complexity, there is growing interest in intelligent decision-making methodologies that integrate learning, prediction, optimization, simulation, and adaptation. In particular, emerging technologies such as reinforcement learning, foundation models, generative AI, agentic AI, digital twins, and hybrid AI-optimization frameworks are enabling the development of more autonomous, adaptive, and data-driven operational systems. Despite these advances, significant challenges remain regarding scalability, robustness, interpretability, real-time implementation, and the successful deployment of AI-driven decision-making approaches in real-world industrial environments.</p>
+    
+    <p>
+        Appel publié par International Journal of Production Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ai-driven-decision-making/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>AI-driven decision-making under uncertainty</li>
+        
+        <li>Production planning and scheduling in stochastic and dynamic environments</li>
+        
+        <li>Reinforcement learning for uncertain industrial systems</li>
+        
+        <li>Stochastic optimization and robust operational strategies</li>
+        
+        <li>AI-enabled statistical quality control and process improvement</li>
+        
+        <li>Hybrid AI and optimization approaches for uncertain environments</li>
+        
+        <li>Data-driven optimization and prescriptive analytics</li>
+        
+        <li>AI-enhanced supply chain and logistics management under disruptions</li>
+        
+        <li>Real-time and adaptive decision-making systems</li>
+        
+        <li>Simulation-based optimization and digital twins under uncertainty</li>
+        
+        <li>Agentic AI and autonomous industrial systems</li>
+        
+        <li>Explainable and trustworthy AI for operational decision-making</li>
+        
+        <li>AI for resilient and sustainable operations</li>
+        
+        <li>Industrial applications and case studies of AI-driven decision systems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>October 1, 2026: Submissions open</li>
+        
+        <li>January 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

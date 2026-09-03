@@ -4,7 +4,7 @@
         <title>kerostig | Journal of Intellectual Capital</title>
         <link>https://kerostig.org/journal/journal-of-intellectual-capital/</link>
         <description>Derniers appels à publications pour Journal of Intellectual Capital.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,23 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/journal-of-intellectual-capital/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Intellectual Capital in the Entrepreneurial University: Theory and Practice]]></title>
             <link>https://kerostig.org/call/emerald-intellectual-capital-in-the-entrepreneurial-university-theory-and-practice/</link>
             <guid>emerald-intellectual-capital-in-the-entrepreneurial-university-theory-and-practice</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>Universities are increasingly expected to act as entrepreneurial institutions that create value beyond teaching and research through entrepreneurship education, knowledge exchange, technology transfer, academic spin-offs, and wider ecosystem engagement. However, the mechanisms through which these activities generate economic and societal value remain insufficiently understood, particularly across the full pathway from capability formation to third-mission and regional impact. Existing research often examines entrepreneurship education, academic entrepreneurship, university-industry-society collaboration, and ecosystem development in relative isolation, while practice still relies heavily on narrow indicators such as patents, licences, spin-off counts, or commercialisation income.</p>
     
-    <p>This Special Issue addresses that gap by positioning intellectual capital (IC) as the integrative lens through which the entrepreneurial university can be better understood. In particular, it invites contributions examining how human, structural, and relational capital are created, mobilised, measured, governed, and secured across the entrepreneurial university value chain. The editors are interested in work that connects IC with academic entrepreneurship research and entrepreneurship practice, including opportunity recognition, venture development and scaling, technology transfer office routines, incubator and accelerator support, entrepreneurial pedagogy, and ecosystem orchestration.</p>
-    
-    <p>Contributions are welcomed from scholars in intellectual capital, entrepreneurship, innovation management, higher education, public policy, regional development, and related fields. The editors particularly encourage submissions that speak to practice and policy, and that show how IC can improve the design, governance, evaluation, and impact of entrepreneurial universities.</p>
-    
-    <p>Theoretically ambitious and methodologically plural submissions are particularly welcome, including comparative, multi-level, longitudinal, mixed-method, network-analytic, text/data-analytic, design-oriented, and field-evaluative studies. Practice-informed submissions are also encouraged, especially where they engage with entrepreneurship educators, TTOs, incubators, ecosystem intermediaries, or policy actors.</p>
-    
+    <p>
+        Appel publié par Journal of Intellectual Capital.
+        
+        <a href="https://www.emerald.com/jic/calls-for-submissions/1812/Intellectual-Capital-in-the-Entrepreneurial?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-intellectual-capital-in-the-entrepreneurial-university-theory-and-practice/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -75,8 +78,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Intellectual Capital (EMERALD)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

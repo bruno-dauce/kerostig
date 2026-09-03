@@ -4,7 +4,7 @@
         <title>kerostig | Tag : service research</title>
         <link>https://kerostig.org/tag/service-research/</link>
         <description>Derniers appels à publications avec le tag 'service research'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/service-research/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Service research in the digital era]]></title>
             <link>https://kerostig.org/call/springer-topical-collection-on-service-research-in-the-digital-era/</link>
             <guid>springer-topical-collection-on-service-research-in-the-digital-era</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Cristina Mele</strong>, University of Naples Federico II</p>
@@ -32,10 +33,16 @@
         
     
     
+    
     <p>The digital transformation characterizing business and society has opened up a whole new world of possibilities. The vast amount of online information facilitates data access and gathering, trend analysis, prediction, and prescriptions, and supports informed decisions. On the one side, actors have been strengthened in their decision-making capacities thanks to the prompt and easy access to a wide range of sources such as online databases, academic journals, online communities, social media, and search engines. On the other side, the conceptualization of service and service research needs to adapt and adhere to the fact that companies, communities, businesses, and society are in an era of significant change due to artificial intelligence, augmented reality, intelligence augmentation, the internet of Things, blockchain solutions, industrial automation and servitization. In other words, technology can enable value co-creation in multiple directions, not always through market sustainable behaviors.</p>
     
-    <p>Markets can be interpreted as service ecosystems, a perspective that frames a deep understanding of value co-creation dynamics between actors, also between human and non-human actors. Diverse actors&#39; knowledge, intentions, and awareness of institutional arrangements and emergent properties can give rise to market emergence, market multiplicity in terms of multiple perspectives, purposive actions to create, maintain and change institutional arrangements market shaping and, definitely, market viability. The spread and adoption of technological advances, thus, generates opportunities and innovations that continually challenge markets, stimulating unforeseen emerging situations and contexts and new service platforms for service research opening up numerous exciting research streams.</p>
-    
+    <p>
+        Appel publié par Electronic Markets.
+        
+        <a href="https://link.springer.com/collections/jbeibcbdfj">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-topical-collection-on-service-research-in-the-digital-era/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -71,8 +78,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Electronic Markets (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

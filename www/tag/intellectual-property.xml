@@ -4,7 +4,7 @@
         <title>kerostig | Tag : intellectual property</title>
         <link>https://kerostig.org/tag/intellectual-property/</link>
         <description>Derniers appels à publications avec le tag 'intellectual property'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,15 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/intellectual-property/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Capturing Value in the Digital Era: Organizing for Innovation Protection and Information Security]]></title>
             <link>https://kerostig.org/call/wiley-capturing-value-in-the-digital-era-organizing-for-innovation-protection-and-information-security/</link>
             <guid>wiley-capturing-value-in-the-digital-era-organizing-for-innovation-protection-and-information-security</guid>
             <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>R&amp;D Management has a rich publication history in research on appropriability, intellectual capital and capturing value from innovation. This special issue seeks to update and extend that tradition by explicitly bringing together two adjacent but typically separated conversations.</p>
@@ -28,6 +30,13 @@
     
     <p>The second conversation - so far mainly happening in information systems and engineering journals - conceptualizes protection of innovation as information security, such as the protection of R&amp;D artifacts, risks of leakage and theft, industrial espionage, and applications of organizational secrecy for R&amp;D purposes.</p>
     
+    <p>
+        Appel publié par R and D Management.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/14679310/cfp/Capturing-value-in-digital-era-CFP-Final-Feb-2026-v2-1771349478107.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-capturing-value-in-the-digital-era-organizing-for-innovation-protection-and-information-security/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -61,19 +70,28 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>R and D Management (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[The Non-Human Innovator: Agentic AI, Physical AI, and the Transformation of R&D Management]]></title>
             <link>https://kerostig.org/call/wiley-the-non-human-innovator-agentic-ai-physical-ai-and-the-transformation-of-randd-management/</link>
             <guid>wiley-the-non-human-innovator-agentic-ai-physical-ai-and-the-transformation-of-randd-management</guid>
             <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This Special Issue is explicitly positioned around a question that existing work on AI-enabled knowledge search, collaboration management, and general AI governance has not yet answered: what happens when AI ceases to be a mere instrument and becomes an agent of innovation? This distinction — between AI-as-tool and AI-as-innovator — defines the conceptual boundary of our four research themes, which address the optimal human–AI division of innovative labour, the architecture of autonomously populated innovation ecosystems, the reimagination of absorptive capacity for an agentic era, and the fundamental challenges to IP posed by non-human inventorship.</p>
     
+    <p>
+        Appel publié par R and D Management.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/14679310/call-for-papers/si-2026-000541">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-the-non-human-innovator-agentic-ai-physical-ai-and-the-transformation-of-randd-management/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -97,8 +115,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>R and D Management (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

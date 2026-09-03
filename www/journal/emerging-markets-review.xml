@@ -4,7 +4,7 @@
         <title>kerostig | Emerging Markets Review</title>
         <link>https://kerostig.org/journal/emerging-markets-review/</link>
         <description>Derniers appels à publications pour Emerging Markets Review.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,17 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/emerging-markets-review/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Emerging Markets Review - African Financial Research]]></title>
             <link>https://kerostig.org/call/elsevier-call-for-african-financial-research-proposals-emerging-markets-review/</link>
             <guid>elsevier-call-for-african-financial-research-proposals-emerging-markets-review</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This call invites research proposals focused on African financial markets and emerging markets research. The journal seeks high-quality submissions that advance our understanding of financial phenomena in African contexts and emerging market economies.</p>
     
+    <p>
+        Appel publié par Emerging Markets Review.
+        
+        <a href="https://www.sciencedirect.com/special-issue/333867/call-for-african-financial-research-proposals-emerging-markets-review">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-call-for-african-financial-research-proposals-emerging-markets-review/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -45,17 +54,26 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Emerging Markets Review (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Rethinking MENA Integration in a Fast-Changing Global Environment]]></title>
             <link>https://kerostig.org/call/elsevier-rethinking-mena-integration-in-a-fast-changing-global-environment/</link>
             <guid>elsevier-rethinking-mena-integration-in-a-fast-changing-global-environment</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Emerging Markets Review.
+        
+        <a href="https://www.sciencedirect.com/special-issue/329504/rethinking-mena-integration-in-a-fast-changing-global-environment">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-rethinking-mena-integration-in-a-fast-changing-global-environment/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -66,8 +84,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Emerging Markets Review (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

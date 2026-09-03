@@ -4,7 +4,7 @@
         <title>kerostig | Tag : business incubation</title>
         <link>https://kerostig.org/tag/business-incubation/</link>
         <description>Derniers appels à publications avec le tag 'business incubation'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,17 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/business-incubation/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[How Government Policy Influences Business Incubation and Acceleration Systems: Insights from National Policy Frameworks]]></title>
             <link>https://kerostig.org/call/elsevier-how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks/</link>
             <guid>elsevier-how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks</guid>
             <pubDate>Thu, 27 Aug 2026 12:56:30 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue examines how government policies shape the development, effectiveness, and sustainability of business incubation and acceleration systems across different national contexts. The focus is on understanding the policy frameworks that influence the structure, operations, and outcomes of these critical entrepreneurial support mechanisms.</p>
     
+    <p>
+        Appel publié par Technovation.
+        
+        <a href="https://www.sciencedirect.com/special-issue/330030/how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -53,17 +62,26 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Technovation (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[How Government Policy Shapes Business Incubation and Acceleration Systems: Insights from National Policy Frameworks]]></title>
             <link>https://kerostig.org/call/elsevier-how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks-2/</link>
             <guid>elsevier-how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Technovation.
+        
+        <a href="https://www.sciencedirect.com/special-issue/330030/how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks-2/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -74,8 +92,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Technovation (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

@@ -4,7 +4,7 @@
         <title>kerostig | Tag : optimization</title>
         <link>https://kerostig.org/tag/optimization/</link>
         <description>Derniers appels à publications avec le tag 'optimization'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,79 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/optimization/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
-        <item>
-            <title><![CDATA[Global Supply Chain Reconfiguration Under Tariff Uncertainty]]></title>
-            <link>https://kerostig.org/call/springer-global-supply-chain-reconfiguration-under-tariff-uncertainty/</link>
-            <guid>springer-global-supply-chain-reconfiguration-under-tariff-uncertainty</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>Guoqing Zhang</strong>, University of Windsor</p>
-        
-        <p><strong>Jiaguo Liu</strong>, Dalian Maritime University</p>
-        
-        <p><strong>Hakan Yildiz</strong>, Wayne State University</p>
-        
-    
-    
-    <p>The reconfiguration of global supply chains has become increasingly urgent amid escalating tariff uncertainty and shifting international trade policies. Tariff-induced disruptions are reshaping sourcing strategies, manufacturing footprints, logistics networks, and market access worldwide.</p>
-    
-    <p>While tariff-related supply chain research is not new, today&#39;s environment is marked by unprecedented levels of uncertainty and complexity. High tariff rates, retaliatory measures, and escalating trade tensions have created significant challenges for supply chain reconfiguration and management in practice. The unprecedented challenges of tariff uncertainty highlight the need for new decision-making models, offering significant opportunities to advance the literature and address pressing real-world challenges.</p>
-    
-    <p>This special issue invites high-quality contributions that develop and apply Operations Research (OR) and Artificial Intelligence (AI) methods to address the challenges and opportunities in global supply chain reconfiguration under tariff uncertainty. We welcome theoretical developments, methodological innovations, applied modelling studies, and quantitatively supported managerial insights. Interdisciplinary research that integrates OR, AI, supply chain management, and international economics, particularly with real-world case applications, is especially encouraged.</p>
-    
-    <p>Manuscripts should be original, unpublished, and prepared according to submission guidelines. Submissions are expected to have strong methodological contributions in OR and/or AI, with clear relevance to global supply chain reconfiguration under trade policy uncertainty.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Supply network redesign and optimization under tariff uncertainty</li>
-        
-        <li>Robust and stochastic optimization models for tariff-driven supply chain planning</li>
-        
-        <li>Global supply chain reconfiguration under trade policy uncertainty</li>
-        
-        <li>AI-powered dynamic supply chain adaptation and tariff response strategies</li>
-        
-        <li>Dynamic production, sourcing, and logistics strategies facing tariff risks</li>
-        
-        <li>Supply chain resilience and risk management for tariff disruptions</li>
-        
-        <li>Logistics and warehousing for global e-commerce and omnichannel supply chains</li>
-        
-        <li>Maritime network and logistics optimization with tariff impacts</li>
-        
-        <li>Hybrid OR–machine learning for adaptive decision-making in global supply chains</li>
-        
-        <li>Multi-echelon inventory management under fluctuating tariff policies</li>
-        
-        <li>AI and data-driven methods for trade policy analysis and supply chain impacts</li>
-        
-        <li>Optimization models and algorithms for large-scale global supply chain problems</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>October 31, 2026: Manuscript submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
-        </item>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Collaborative Intelligence in Operations Research: Models, Methods, and Applications]]></title>
             <link>https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/</link>
             <guid>springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Madjid Tavana</strong>, La Salle University</p>
@@ -100,16 +35,16 @@
         
     
     
+    
     <p>The increasing complexity of modern decision-making demands advanced Operations Research (OR) models that integrate Collaborative Intelligence—the synergy between human expertise, Artificial Intelligence (AI)-driven decision support, and distributed problem-solving frameworks. This paradigm enhances adaptability, efficiency, and resilience in complex operations by leveraging multi-agent coordination, human-AI collaboration, decentralized optimization, and machine learning-enhanced decision-making.</p>
     
-    <p>Traditional OR methodologies, despite their strengths in static environments, struggle with the dynamic, interconnected, and uncertain nature of modern decision-making. As Russell Ackoff noted in his 1956 article, &quot;The Aging of a Young Profession,&quot; OR was already showing signs of stagnation, becoming overly preoccupied with mathematical techniques rather than addressing real-world problems holistically. By 1979, in &quot;The Future of Operational Research is Past,&quot; he further criticized OR for prioritizing optimization within narrow constraints instead of embracing a systemic, interdisciplinary approach. Modern applications like logistics, production, service systems, and emergency response require more adaptive and interactive OR models. Collaborative Intelligence offers a transformative approach, enabling real-time interaction among humans, AI agents, and mathematical models to optimize problem-solving and system performance.</p>
-    
-    <p>The rapid advancements in AI have revolutionized decision-making across OR domains. However, fully autonomous AI systems face challenges in handling uncertainty, ethical considerations, and interpretability, particularly in high-stakes environments. Collaborative Intelligence bridges this gap by combining the computational power of AI with human intuition, adaptability, and ethical reasoning, fostering trust and robustness in decision-making.</p>
-    
-    <p>This special issue explores cutting-edge methodologies, theoretical advancements, and practical applications of Collaborative Intelligence in OR. We invite high-quality contributions that address how human expertise and AI can collaboratively enhance decision-making, improve system resilience, and optimize complex operational environments. We welcome original research contributions that propose innovative mathematical models, algorithms, and applications of OR for collaborative decision-making, resilience planning, decentralized optimization, and dynamic problem-solving in complex operational environments. Submissions should demonstrate theoretical rigor and practical relevance, focusing on advancing the state of the art in Collaborative Intelligence.</p>
-    
-    <p>This special issue aims to provide a platform for researchers and practitioners to share insights, methodologies, and case studies that highlight the transformative potential of Collaborative Intelligence in OR.</p>
-    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/fihchfagfc">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -149,15 +84,87 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Global Supply Chain Reconfiguration Under Tariff Uncertainty]]></title>
+            <link>https://kerostig.org/call/springer-global-supply-chain-reconfiguration-under-tariff-uncertainty/</link>
+            <guid>springer-global-supply-chain-reconfiguration-under-tariff-uncertainty</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Guoqing Zhang</strong>, University of Windsor</p>
+        
+        <p><strong>Jiaguo Liu</strong>, Dalian Maritime University</p>
+        
+        <p><strong>Hakan Yildiz</strong>, Wayne State University</p>
+        
+    
+    
+    
+    <p>The reconfiguration of global supply chains has become increasingly urgent amid escalating tariff uncertainty and shifting international trade policies. Tariff-induced disruptions are reshaping sourcing strategies, manufacturing footprints, logistics networks, and market access worldwide.</p>
+    
+    <p>While tariff-related supply chain research is not new, today&#39;s environment is marked by unprecedented levels of uncertainty and complexity. High tariff rates, retaliatory measures, and escalating trade tensions have created significant challenges for supply chain reconfiguration and management in practice. The unprecedented challenges of tariff uncertainty highlight the need for new decision-making models, offering significant opportunities to advance the literature and address pressing real-world challenges.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/gdhggicicb">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-global-supply-chain-reconfiguration-under-tariff-uncertainty/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Supply network redesign and optimization under tariff uncertainty</li>
+        
+        <li>Robust and stochastic optimization models for tariff-driven supply chain planning</li>
+        
+        <li>Global supply chain reconfiguration under trade policy uncertainty</li>
+        
+        <li>AI-powered dynamic supply chain adaptation and tariff response strategies</li>
+        
+        <li>Dynamic production, sourcing, and logistics strategies facing tariff risks</li>
+        
+        <li>Supply chain resilience and risk management for tariff disruptions</li>
+        
+        <li>Logistics and warehousing for global e-commerce and omnichannel supply chains</li>
+        
+        <li>Maritime network and logistics optimization with tariff impacts</li>
+        
+        <li>Hybrid OR–machine learning for adaptive decision-making in global supply chains</li>
+        
+        <li>Multi-echelon inventory management under fluctuating tariff policies</li>
+        
+        <li>AI and data-driven methods for trade policy analysis and supply chain impacts</li>
+        
+        <li>Optimization models and algorithms for large-scale global supply chain problems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>October 31, 2026: Manuscript submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[OR in Medicine and Health Care]]></title>
             <link>https://kerostig.org/call/springer-or-in-medicine-and-health-care/</link>
             <guid>springer-or-in-medicine-and-health-care</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Eva K. Lee</strong>, Georgia Institute of Technology</p>
@@ -166,12 +173,16 @@
         
     
     
+    
     <p>Optimization has long been a cornerstone for advancement of various industrial, government, and military applications. In recent years, it has become increasingly important in advancing research and development related to medical and biological applications. Complexity of medical devices and delivery systems demands solutions to complex decision problems; and biological and clinical applications provide rich, sometimes overwhelming, sources of data upon which challenging optimization problems must be formulated and solved. Such challenges stimulate partnerships between members of the mathematical programming community and biologists, clinicians, public health officials, and others. These partnerships provide excellent opportunities to push the frontier of theoretical and computational optimization while solving important problems that benefit society and mankind.</p>
     
-    <p>To highlight and support the role of optimization and computation in such applications, and to disseminate advances to the broad research community in a timely manner, the Annals of Operations Research: Operations Research in Medicine special section was established in 2000. Each volume is devoted to presenting state-of-the-art research results in this dynamic and exciting area. We seek original, high quality contributions that investigate theoretical or methodological work on models and algorithms involving continuous linear and nonlinear optimization, integer programming, combinatorial optimization and stochastic approaches applied to medical and biological applications.</p>
-    
-    <p>Manuscripts must be original, previously unpublished, and not currently under review in other journals. Each manuscript will be subjected to peer review according to the standard of Annals of Operations Research.</p>
-    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/debcfieibd">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-or-in-medicine-and-health-care/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -207,17 +218,26 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[From Learning to Optimization in Intelligent Logistics Systems]]></title>
             <link>https://kerostig.org/call/elsevier-from-learning-to-optimization-in-intelligent-logistics-systems-2/</link>
             <guid>elsevier-from-learning-to-optimization-in-intelligent-logistics-systems-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Transportation Research Part E: Logistics and Transportation Review.
+        
+        <a href="https://www.sciencedirect.com/special-issue/330065/from-learning-to-optimization-in-intelligent-logistics-systems">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-from-learning-to-optimization-in-intelligent-logistics-systems-2/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -228,15 +248,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Transportation Research Part E: Logistics and Transportation Review (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[AI-Driven Decision Making under Uncertain Environments: Theory, Methods, and Industrial Applications]]></title>
             <link>https://kerostig.org/call/tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications/</link>
             <guid>tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Hyun-Jung Kim</strong>, KAIST</p>
@@ -253,14 +274,16 @@
         
     
     
+    
     <p>Recent advances in artificial intelligence (AI), optimization, and data-driven analytics are fundamentally transforming decision-making processes in complex systems operating under uncertainty. Modern industrial and service systems, including manufacturing, logistics, supply chains, transportation, energy, and healthcare, increasingly face dynamic and stochastic environments characterized by demand fluctuations, disruptions, incomplete information, evolving system states, and operational risks. To effectively manage such complexity, there is growing interest in intelligent decision-making methodologies that integrate learning, prediction, optimization, simulation, and adaptation. In particular, emerging technologies such as reinforcement learning, foundation models, generative AI, agentic AI, digital twins, and hybrid AI-optimization frameworks are enabling the development of more autonomous, adaptive, and data-driven operational systems. Despite these advances, significant challenges remain regarding scalability, robustness, interpretability, real-time implementation, and the successful deployment of AI-driven decision-making approaches in real-world industrial environments.</p>
     
-    <p>This Special Issue aims to provide a platform for cutting-edge research on AI-driven decision making under uncertain environments, with particular emphasis on methodologies and real-world applications that combine AI techniques with operations research, optimization, simulation, control, and industrial engineering approaches. The issue welcomes both theoretical and applied contributions addressing uncertainty-aware intelligent decision-making across a broad range of industrial and service systems.</p>
-    
-    <p>The Special Issue is organized in conjunction with APIEMS 2026. Selected high-quality papers presented at the conference will be invited to submit extended versions for possible publication in the Special Issue. The Special Issue will also be open to general submissions from researchers worldwide. All submitted manuscripts will undergo the standard rigorous peer-review process of the International Journal of Production Research.</p>
-    
-    <p>The Special Issue particularly encourages interdisciplinary studies demonstrating practical relevance, industrial applicability, and managerial insights for complex decision-making problems under uncertainty. To foster transparency, reproducibility, and cumulative scientific progress, open science practices such as the sharing of (synthetic) data, code, models, prompts, and comprehensive replication materials are strongly encouraged and highly valued.</p>
-    
+    <p>
+        Appel publié par International Journal of Production Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ai-driven-decision-making/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -306,15 +329,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>International Journal of Production Research (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Innovations in Production Planning: Emerging Problems and Modern Solution Paradigms]]></title>
             <link>https://kerostig.org/call/tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms/</link>
             <guid>tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Mirco Peron</strong>, NEOMA Business School</p>
@@ -331,22 +355,16 @@
         
     
     
+    
     <p>Production planning has historically been a central pillar of industrial engineering and operations management. Since the mid-20th century, the field has developed a rich body of classical problems and models, such as lot sizing, job shop and flow shop scheduling, capacity planning, assembly line balancing, material requirements planning (MRP), and aggregate production planning. These models provided structured ways to allocate resources, balance supply and demand, and coordinate activities across production systems, often under deterministic assumptions and with objectives focused primarily on cost and efficiency. Linear programming, dynamic programming, and combinatorial optimization offered rigorous formulations and exact methods, while heuristics and metaheuristics emerged to address large-scale and computationally complex instances.</p>
     
-    <p>Over time, production planning research progressively expanded to address uncertainty via stochastic and robust optimization, multi-objective trade-offs (e.g. cost, service level, inventory, lead times), and integration across planning levels (strategic, tactical, and operational). Still, the focus remained on well-defined, structured problems and a relatively stable industrial context.</p>
-    
-    <p>Today, however, technological, environmental, and societal shifts are reshaping the landscape of production planning. The rise of cyber-physical systems, IoT-enabled factories, advanced robotics, digital twins, additive manufacturing, and AI-based automation has disrupted the stability of traditional assumptions. These innovations have created new types of planning problems, characterized by more frequent reconfiguration, increased heterogeneity of resources, and the necessity of integrating multiple technologies and objectives.</p>
-    
-    <p>Digital twin–driven planning enables real-time updates of plans and schedules, requiring adaptive and rolling-horizon optimization. Hybrid production systems, combining conventional and additive manufacturing, pose new challenges in sequencing, capacity allocation, and cross-technology coordination. Reconfigurable and modular manufacturing requires planning models that adapt to changing system topologies, dynamic routing, and flexible resource reassignments. Circular and sustainable production systems demand that environmental and social objectives be embedded in planning alongside economic goals. Resilience-oriented planning has become critical in the face of global disruptions, pandemics, and supply shocks, demanding strategies that balance efficiency with adaptability and robustness.</p>
-    
-    <p>At the same time, innovation has not only transformed the problems but also the solution approaches. Whereas traditional production planning was dominated by mathematical programming and rule-based heuristics, the current era witnesses the rapid adoption of data-driven, hybrid, and AI-enabled methods.</p>
-    
-    <p>Reinforcement learning and deep learning models are increasingly applied to dynamic planning and scheduling, such as graph neural network and RL architectures for scheduling problems. Hybrid metaheuristics combine classical optimization with machine learning models, surrogate functions, or decomposition techniques to tackle high-dimensional problems. Simulation–optimization coupling allows planners to test, validate, and adapt decisions under complex system dynamics, particularly in systems where analytical modeling is intractable. Multi-agent and distributed approaches enable decentralized planning in highly connected production networks, where local agents coordinate planning decisions. Online and rolling-horizon algorithms become critical when plans must be revised frequently, and incremental updating is required.</p>
-    
-    <p>Despite these advances, major challenges persist. Industrial adoption demands bridging the gap between academic models and real-world constraints: data sparsity, computational scalability, integration with legacy systems (ERP/MES), and user trust. Decision-makers must also reconcile conflicting objectives: efficiency vs. resilience, speed vs. sustainability, optimality vs. interpretability.</p>
-    
-    <p>This special issue seeks to collect innovative contributions that redefine the boundaries of production planning. We welcome papers that introduce novel problem formulations reflecting new industrial realities and innovative solution approaches leveraging modern computational, AI, and optimization tools. Both theoretical/methodological and empirical/applied submissions are encouraged, including case studies and empirical validation.</p>
-    
+    <p>
+        Appel publié par International Journal of Production Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ijpr-production-planning/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -390,8 +408,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>International Journal of Production Research (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

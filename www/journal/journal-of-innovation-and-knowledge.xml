@@ -4,7 +4,7 @@
         <title>kerostig | Journal of Innovation &amp; Knowledge</title>
         <link>https://kerostig.org/journal/journal-of-innovation-and-knowledge/</link>
         <description>Derniers appels à publications pour Journal of Innovation &amp; Knowledge.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,36 +13,24 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/journal-of-innovation-and-knowledge/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
-        <item>
-            <title><![CDATA[Innovative society and entrepreneurial times: How knowledge can create science from an international business and management perspective]]></title>
-            <link>https://kerostig.org/call/elsevier-on-innovative-society-and-entrepreneurial-times-how-knowledge-can-create-science-from-an-international-business-and-management-perspective/</link>
-            <guid>elsevier-on-innovative-society-and-entrepreneurial-times-how-knowledge-can-create-science-from-an-international-business-and-management-perspective</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>December 31, 2029: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Journal of Innovation &amp; Knowledge (ELSEVIER)</author>
-        </item>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Generative AI-Empowered Knowledge Management Systems for Sustainable Governance]]></title>
             <link>https://kerostig.org/call/elsevier-generative-ai-empowered-knowledge-management-systems-for-sustainable-governance/</link>
             <guid>elsevier-generative-ai-empowered-knowledge-management-systems-for-sustainable-governance</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Journal of Innovation &amp; Knowledge.
+        
+        <a href="https://www.sciencedirect.com/special-issue/329436/generative-ai-empowered-knowledge-management-systems-for-sustainable-governance">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-generative-ai-empowered-knowledge-management-systems-for-sustainable-governance/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -53,8 +41,38 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Innovation &amp; Knowledge (ELSEVIER)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Innovative society and entrepreneurial times: How knowledge can create science from an international business and management perspective]]></title>
+            <link>https://kerostig.org/call/elsevier-on-innovative-society-and-entrepreneurial-times-how-knowledge-can-create-science-from-an-international-business-and-management-perspective/</link>
+            <guid>elsevier-on-innovative-society-and-entrepreneurial-times-how-knowledge-can-create-science-from-an-international-business-and-management-perspective</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Journal of Innovation &amp; Knowledge.
+        
+        <a href="https://www.sciencedirect.com/special-issue/333832/special-section-on-innovative-society-and-entrepreneurial-times-how-knowledge-can-create-science-from-an-international-business-and-management-perspective">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-on-innovative-society-and-entrepreneurial-times-how-knowledge-can-create-science-from-an-international-business-and-management-perspective/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 31, 2029: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

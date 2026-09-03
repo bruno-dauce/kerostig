@@ -4,7 +4,7 @@
         <title>kerostig | Tag : recommender systems</title>
         <link>https://kerostig.org/tag/recommender-systems/</link>
         <description>Derniers appels à publications avec le tag 'recommender systems'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/recommender-systems/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Artificial Intelligence-based Assistants and Platforms]]></title>
             <link>https://kerostig.org/call/springer-topical-collection-on-ai-based-assistants-and-platforms/</link>
             <guid>springer-topical-collection-on-ai-based-assistants-and-platforms</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Rainer Schmidt</strong>, Munich University of Applied Sciences</p>
@@ -30,10 +31,18 @@
         
     
     
+    
     <p>The Topical Collection on Artificial Intelligence-based Assistants and Platforms focuses on assistant systems (e.g. chatbots, recommenders) that are based on artificial intelligence and the interaction with users via declarative natural-language interfaces. They are present in various forms as well as industries and often assume a platform logic when services and devices from different providers are included.</p>
     
     <p>The Topical Collection relates to a minitrack at the Hawaii International Conference on System Sciences (HICSS) and comprises research on novel methods, models, processes, and approaches related to the design, implementation, deployment, operation, and optimization of AI-based assistants and platforms for the digital economy.</p>
     
+    <p>
+        Appel publié par Electronic Markets.
+        
+        <a href="https://link.springer.com/collections/jibdjaebdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-topical-collection-on-ai-based-assistants-and-platforms/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -61,8 +70,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Electronic Markets (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

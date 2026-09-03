@@ -4,7 +4,7 @@
         <title>kerostig | Tag : organizational science</title>
         <link>https://kerostig.org/tag/organizational-science/</link>
         <description>Derniers appels à publications avec le tag 'organizational science'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/organizational-science/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[AI-Enabled Frontiers in Organizational Science]]></title>
             <link>https://kerostig.org/call/informs-ai-enabled-frontiers-in-organizational-science/</link>
             <guid>informs-ai-enabled-frontiers-in-organizational-science</guid>
             <pubDate>Tue, 11 Aug 2026 01:40:43 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Claudine Gartenberg</strong>, .pop</p>
@@ -40,12 +41,18 @@
         
     
     
+    
     <p>This special issue asks a fundamental question about artificial intelligence and social science: do we want it to produce faster, cheaper versions of what we already do, or do we want fundamentally new science? Returning to Organization Science&#39;s founding mission—Daft and Lewin&#39;s 1990 call to break out of the &quot;normal science straitjacket&quot; and March&#39;s &quot;exploration of new possibilities&quot;—we want to shift our focus to how AI is changing the production of science and how it can expand our knowledge, rather than merely increasing the number of papers through efficiency and reduced labor.</p>
     
     <p>In this call for science, we seek contributions that reimagine what a social science research contribution is in an AI-enabled world, encouraging wild ideas and radical innovation over obvious incremental improvement. We are not looking for conventional full-length papers with AI-related content, nor &quot;AI slop&quot;—we want the innovative applications themselves.</p>
     
-    <p>The issue follows a three-stage process—a research proposal and prototype, a collaborative development phase with an in-person workshop, and finalization—culminating in short Science/Nature-style articles and shorter &quot;letters,&quot; all treated as true peer-reviewed contributions. We welcome submissions from scholars across the social sciences and adjacent fields, so long as they address organizational or managerial implications, broadly interpreted.</p>
-    
+    <p>
+        Appel publié par Organization Science.
+        
+        <a href="https://pubsonline.informs.org/pb-assets/filesorsc/CFP_AI-Enabled%20Frontiers%20in%20Organizational%20Science-1785685920943.pdf">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/informs-ai-enabled-frontiers-in-organizational-science/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -79,8 +86,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Organization Science (INFORMS)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

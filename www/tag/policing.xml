@@ -4,7 +4,7 @@
         <title>kerostig | Tag : policing</title>
         <link>https://kerostig.org/tag/policing/</link>
         <description>Derniers appels à publications avec le tag 'policing'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/policing/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[The Politics and Management of Policing (Debate Articles)]]></title>
             <link>https://kerostig.org/call/tandf-the-politics-and-management-of-policing-debate-articles/</link>
             <guid>tandf-the-politics-and-management-of-policing-debate-articles</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Kathy Quick</strong>, University of Minnesota</p>
@@ -32,12 +33,20 @@
         
     
     
+    
     <p>This issue is open for debate articles offering distinctive, provocative and considered comments and arguments, perhaps from the world of practice. These articles are subject to review by the guest editors.</p>
     
     <p>The audience for this themed issue is an interdisciplinary and broadly-defined community of academics and professionals who share an interest in the research of policing, law enforcement, and the provision of public safety from an organizational, managerial, governance and/or public policy analysis perspective.</p>
     
     <p>Articles should explore questions of policing and public management, examining how political governance systems affect the provision of an effective, fair and accountable police service in both its ideal forms and practical manifestations. This includes analysis of how such systems affect the degree of police operational independence, comparative assessment of civilian scrutiny mechanisms, and governance structures of privately-provided police and security services.</p>
     
+    <p>
+        Appel publié par Public Money &amp; Management.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/the-politics-and-management-of-policing-debate-articles/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-the-politics-and-management-of-policing-debate-articles/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -71,8 +80,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Public Money &amp; Management (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

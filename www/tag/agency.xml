@@ -4,7 +4,7 @@
         <title>kerostig | Tag : agency</title>
         <link>https://kerostig.org/tag/agency/</link>
         <description>Derniers appels à publications avec le tag 'agency'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/agency/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Agency in the Age of AI]]></title>
             <link>https://kerostig.org/call/informs-agency-in-the-age-of-ai/</link>
             <guid>informs-agency-in-the-age-of-ai</guid>
             <pubDate>Tue, 11 Aug 2026 01:40:43 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Paul Leonardi</strong>, .pop</p>
@@ -38,12 +39,16 @@
         
     
     
+    
     <p>Agency is central to organizational sciences and heavily debated. Assumptions about who can act, what acting requires, and who is answerable for results underlie theories of motivation, leadership, decision making, control, value creation, careers, institutions, and technological change. These views largely developed before intelligent technologies began participating in organizational action. As analytic, generative, and agentic AI increasingly participate in organizational action, intention, execution, and consequence—traditionally assumed to reside in a single human actor—are coming apart, and with them our settled sense of who exercises agency.</p>
     
-    <p>This special issue seeks theoretically ambitious work, whether conceptual or empirically grounded, that takes the changing production of action as its starting point. The issue is organized around two complementary aims: to reconsider agency itself—what it is, where it resides, and how it operates when action is co-produced by people and machines—and to understand how the changing nature of agency reshapes the phenomena in organizational fields, from organizational behavior and careers to management and control, strategy, entrepreneurship, institutions, the sociology of work, information systems, and the governance of autonomous action.</p>
-    
-    <p>Submissions are welcomed from across the organizational sciences and from neighboring disciplines in sociology, economics, psychology, and the philosophy of action. Given the rapid pace of change in agentic technologies, the issue will follow an accelerated review process.</p>
-    
+    <p>
+        Appel publié par Organization Science.
+        
+        <a href="https://pubsonline.informs.org/pb-assets/filesorsc/CFP_Agency%20in%20the%20Age%20of%20AI_post-1785685921070.pdf">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/informs-agency-in-the-age-of-ai/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -83,8 +88,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Organization Science (INFORMS)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

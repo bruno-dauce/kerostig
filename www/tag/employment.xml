@@ -4,7 +4,7 @@
         <title>kerostig | Tag : employment</title>
         <link>https://kerostig.org/tag/employment/</link>
         <description>Derniers appels à publications avec le tag 'employment'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,19 +13,28 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/employment/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[From Human Resource Management (HRM) to Artificial Intelligence Management (AIM)? — Algorithms and the Changing Governance of People at Work]]></title>
             <link>https://kerostig.org/call/wiley-from-human-resource-management-hrm-to-artificial-intelligence-management-aim-algorithms-and-the-changing-governance-of-people-at-work/</link>
             <guid>wiley-from-human-resource-management-hrm-to-artificial-intelligence-management-aim-algorithms-and-the-changing-governance-of-people-at-work</guid>
             <pubDate>Mon, 17 Aug 2026 15:52:40 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue explores the fundamental shift from traditional Human Resource Management (HRM) to Artificial Intelligence Management (AIM), examining how algorithms are reshaping the governance of people at work. As organizations increasingly deploy algorithmic systems to manage recruitment, performance evaluation, scheduling, and other HR functions, we need to critically understand the implications for workers, organizations, and society.</p>
     
     <p>The collection seeks to bring together diverse perspectives on how algorithms are transforming workplace governance, the mechanisms through which algorithmic management operates, and the consequences for employment relationships, worker agency, and organizational practices. We welcome contributions that examine both the promises and perils of algorithmic management across different sectors, geographies, and worker populations.</p>
     
+    <p>
+        Appel publié par Human Resource Management Journal.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/17488583/cfp/HRMJ-SI-Aroles-et-al-CfP-2026-1775667338823.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-from-human-resource-management-hrm-to-artificial-intelligence-management-aim-algorithms-and-the-changing-governance-of-people-at-work/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -61,15 +70,17 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Human Resource Management Journal (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Entrepreneurship and the Creation of Decent Work for All]]></title>
             <link>https://kerostig.org/call/springer-entrepreneurship-and-the-creation-of-decent-work-for-all-2/</link>
             <guid>springer-entrepreneurship-and-the-creation-of-decent-work-for-all-2</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>Societal changes, environment, political and financial crises inevitably affect labor markets and the quality of employment. Recent pandemic and global political changes have only demonstrated how quickly one&#39;s employment and workplace situation can change. Among other factors, entrepreneurship could play a crucial role in the creation of decent work, especially in a volatile environment.</p>
@@ -78,8 +89,13 @@
     
     <p>In order to fully represent this multifaceted topic, we would like to gather a spectrum of current perspectives in a single Collection, facilitating a better understanding of possibilities and ways of striving toward the goal of &#39;achieving full and productive employment and decent work for all&#39; (SDG 8 of the U.N.).</p>
     
-    <p>Submissions to this collection may be research or review articles, depending on the individual journal guidelines. Each submission will undergo thorough and rigorous peer review in accordance with each journal&#39;s peer review editorial policy. Accepted articles will be published in the journal they were submitted to, as well as highlighted on this collection page.</p>
-    
+    <p>
+        Appel publié par International Entrepreneurship and Management Journal.
+        
+        <a href="https://link.springer.com/collections/ccdbbagabe">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-entrepreneurship-and-the-creation-of-decent-work-for-all-2/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -117,17 +133,26 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>International Entrepreneurship and Management Journal (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Jobs and the Agrifood System]]></title>
             <link>https://kerostig.org/call/elsevier-jobs-and-the-agrifood-system/</link>
             <guid>elsevier-jobs-and-the-agrifood-system</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Food Policy.
+        
+        <a href="https://www.sciencedirect.com/special-issue/332144/special-issue-on-jobs-and-the-agrifood-system">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-jobs-and-the-agrifood-system/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -138,8 +163,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Food Policy (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

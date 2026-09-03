@@ -4,7 +4,7 @@
         <title>kerostig | Tag : organizational decision-making</title>
         <link>https://kerostig.org/tag/organizational-decision-making/</link>
         <description>Derniers appels à publications avec le tag 'organizational decision-making'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/organizational-decision-making/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[From Individuals to Organizations: Unpacking Behavioral Issues in Supply Chain Risk Management]]></title>
             <link>https://kerostig.org/call/emerald-from-individuals-to-organizations-unpacking-behavioral-issues-in-supply-chain-risk-management/</link>
             <guid>emerald-from-individuals-to-organizations-unpacking-behavioral-issues-in-supply-chain-risk-management</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Jon F. Kirchoff</strong>, East Carolina University</p>
@@ -30,16 +31,16 @@
         
     
     
+    
     <p>At its core, supply chain risk management (SCRM) research has focused on identifying and assessing known and unknown risks, and on risk mitigation to derive and implement solutions that ensure supply will continue to meet demand during and after a disruptive event. However, supply chain disruptions have been escalating in recent years and revealed considerable complex vulnerabilities in how firms manage their global operations. Current SCRM strategies, theories, and frameworks are ill-equipped to address these vulnerabilities, despite years of experience and research.</p>
     
-    <p>A justified concern in the literature is that the assumptions of risk neutrality and rationality of decision-makers is unrealistic. In reality, supply chain decision-makers fall along a broad spectrum from risk seeking to risk aversion and often make decisions under bounded rationality and are influenced by cognitive biases and other factors that cause them to deviate from optimal or rational choices, especially under conditions of uncertainty, tension, and time pressure. Deviations from rationality influence risk identification, assessment, and mitigation, leading to a gap between theoretical predictions and actual supply chain outcomes. Ignoring behavioral realities leads to suboptimal risk management strategies, reduced operational efficiency and profitability. Thus, the behavioral aspect is crucial in determining whether supply chains recover or remain fragile in the face of disruption.</p>
-    
-    <p>Research on the behavioral and non-rational aspects of supply chain risk management has been primarily at the individual level such as human cognition, biases, interpersonal relationship, individualism, confidence level, personal wealth and regulatory focus. However, little attention has been devoted to how individual behavior is shaped by organizational and inter-organizational factors such as risk appetite, dependency and power asymmetries, and the adoption of industry 4.0 technologies. Therefore, research on behavioral issues in supply chain risk management needs to be researched across the individual decision making-level (micro), the entity decision making-level (macro), and the supply chain decision making-level (interorganizational).</p>
-    
-    <p>This perspective also requires investigating how decisions by one actor (individual, team, or organization) cascade systematically influence others, both within an organization and across the broader supply chain network. Drawing on insights from psychology, behavioral theories, decision-making frameworks, organizational studies, and risk management frameworks, this special issue seeks to unpack these behavioral dimensions to advance a holistic understanding of SCRM.</p>
-    
-    <p>This call for papers focuses on behavioral issues in supply chain risk management, across multiple levels. In line with the journal&#39;s aim to advance theoretical concepts and frameworks and given this call&#39;s focus on unpacking behavioral issues in supply chain risk management, we are particularly interested in research that explores the limitations of existing theories in the literature and/or research that introduces new and innovative concepts and frameworks that address the complexities of supply chain risk management.</p>
-    
+    <p>
+        Appel publié par International Journal of Physical Distribution &amp; Logistics Management.
+        
+        <a href="https://www.emerald.com/ijpdlm/calls-for-submissions/1716/From-Individuals-to-Organizations-Unpacking?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-from-individuals-to-organizations-unpacking-behavioral-issues-in-supply-chain-risk-management/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -77,8 +78,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>International Journal of Physical Distribution &amp; Logistics Management (EMERALD)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

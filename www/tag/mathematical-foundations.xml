@@ -4,7 +4,7 @@
         <title>kerostig | Tag : mathematical foundations</title>
         <link>https://kerostig.org/tag/mathematical-foundations/</link>
         <description>Derniers appels à publications avec le tag 'mathematical foundations'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,15 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/mathematical-foundations/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Mathematical Foundations for Trustworthy AI Applications in Transportation Systems]]></title>
             <link>https://kerostig.org/call/elsevier-mathematical-foundations-for-trustworthy-ai-applications-in-transportation-systems-2/</link>
             <guid>elsevier-mathematical-foundations-for-trustworthy-ai-applications-in-transportation-systems-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue focuses on the mathematical and computational foundations necessary for developing trustworthy artificial intelligence applications in transportation systems. As AI increasingly influences critical transportation decisions affecting safety, efficiency, and equity, there is an urgent need for rigorous mathematical frameworks that ensure these systems are reliable, interpretable, and accountable.</p>
@@ -28,6 +30,13 @@
     
     <p>Submissions should demonstrate how mathematical and computational approaches contribute to building trustworthy AI systems that stakeholders can understand, verify, and depend upon for critical transportation applications.</p>
     
+    <p>
+        Appel publié par Transportation Research Part B: Methodological.
+        
+        <a href="https://www.sciencedirect.com/special-issue/331394/mathematical-foundations-for-trustworthy-ai-applications-in-transportation-systems">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-mathematical-foundations-for-trustworthy-ai-applications-in-transportation-systems-2/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -63,8 +72,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Transportation Research Part B: Methodological (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

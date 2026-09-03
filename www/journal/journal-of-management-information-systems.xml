@@ -4,7 +4,7 @@
         <title>kerostig | Journal of Management Information Systems</title>
         <link>https://kerostig.org/journal/journal-of-management-information-systems/</link>
         <description>Derniers appels à publications pour Journal of Management Information Systems.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/journal-of-management-information-systems/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Generative AI as Driver of Change in Media]]></title>
             <link>https://kerostig.org/call/jmis-generative-ai-as-driver-of-change-in-media/</link>
             <guid>jmis-generative-ai-as-driver-of-change-in-media</guid>
             <pubDate>Sat, 22 Nov 2025 03:12:30 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Thomas Hess</strong>, University of Munich (LMU)</p>
@@ -30,12 +31,16 @@
         
     
     
+    
     <p>Generative AI (GenAI) has rapidly become a general-purpose technology that reshapes how information is created, curated, and consumed. GenAI broadly refers to a class of AI models that generate seemingly new content in the form of text, images, audio, or video. In the media context, where value is built around the provision and use of content, GenAI has attracted particular attention. For instance, it enables the near-instant creation of journalistic articles, marketing texts, or audiovisual material, and it supports personalization by dynamically adapting media offerings to individual user preferences. The advent of the Internet had already marked a profound transformation in the delivery and consumption of content. It made user-generated content possible, catalyzed multi-sided platforms, and enabled unprecedented personalization. This transformation brought new players into the media sector, as technology companies entered the market and traditional media firms were forced to develop significant digital competencies for the first time.</p>
     
-    <p>GenAI is expected to have an equally profound impact on the media industry by expanding complementary innovation, lowering barriers for content creation, and altering the economics of matching and recommendation at scale. Despite recent advances, our knowledge is still limited. Existing research has begun to shed light on the impact of GenAI on textual news app users’ willingness to pay, yet it is unknown whether similar effects extend to audiovisual content. Moreover, there are initial indications of how journalists’ productivity may change with the use of GenAI. At the same time, the potential for entirely new GenAI-based products remains largely unexplored. In particular, little is known about the extent to which audience discussions can be moderated and managed, or about the new forms of public media provision that GenAI might enable. These questions are especially pressing given the central role of media in shaping public opinion and broader societal developments, including political attitudes.</p>
-    
-    <p>The aim of this special issue is to advance IS research on this emerging field. We invite contributions that examine the role of GenAI in the provision and use of media offerings. Analyses may focus on individuals, organizations, or industries. Studies may address GenAI on the level of systems, their effects, or their management. Submissions should be firmly grounded in the technology itself and its implications for media ecosystems. This special issue aims to stimulate innovative investigations of the transformative role of GenAI in the provisioning and use of public media. In contrast to closed settings, such as private messaging services, the recipients of public communication cannot be predetermined or exhaustively specified in advance. Accordingly, the domain of interest spans both online media, including digital platforms and social media, and traditional media such as print and television. We welcome qualitative and quantitative empirical studies as well as design-oriented research. Submissions should provide a clear academic contribution by advancing theory and knowledge in the Information Systems discipline. While practical relevance and managerial implications are highly valued, they are not sufficient on their own; academic advancement is essential.</p>
-    
+    <p>
+        Appel publié par Journal of Management Information Systems.
+        
+        <a href="https://www.jmis-web.org/cfps/JMIS_CfP_AI_and_Media.pdf">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/jmis-generative-ai-as-driver-of-change-in-media/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -71,15 +76,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Management Information Systems (JMIS)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Critical National Infrastructure]]></title>
             <link>https://kerostig.org/call/jmis-critical-national-infrastructure/</link>
             <guid>jmis-critical-national-infrastructure</guid>
             <pubDate>Mon, 26 May 2025 03:20:42 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Jason Chan</strong>, University of Minnesota</p>
@@ -92,22 +98,18 @@
         
     
     
+    
     <p>Critical National Infrastructure (CNI) encompasses essential systems and services that are vital for societal stability, economic security, and national safety. The increasing digitalization of these infrastructures has introduced unprecedented efficiencies that have transformed economies, enabling faster service delivery, improved public safety, reduced corruption, and enhanced crisis response through data sharing and analytics.</p>
     
     <p>The United Nations Development Programme (UNDP) supports digital public infrastructure (DPI) as a driver for financial inclusion, social protection, and governance reforms. Digital advancements have also driven sustainability, with smart grids, environmental monitoring, and optimized resource management with potential for reducing carbon footprints and increasing resilience.</p>
     
-    <p>Furthermore, technological innovation in financial services, transportation, and energy has the potential to stimulate economic growth through enabling new business models. While the increasing digitalization of Critical National Infrastructure has introduced efficiencies, it also created unprecedented vulnerabilities, including cyberattacks, cascading failures, and systemic interdependencies that amplify risks.</p>
-    
-    <p>Recognizing these challenges, governments in the UK, US, and Australia have developed regulatory frameworks such as the UK’s National Cyber Security Strategy, the US Cybersecurity and Infrastructure Security Agency (CISA) guidelines, and Australia’s Security of Critical Infrastructure Act (SOCI Act) to enhance resilience and mitigate emerging threats.</p>
-    
-    <p>CNI spans multiple critical sectors, each with unique security and operational challenges, including energy and utilities, telecommunications and information networks, financial services and payments, healthcare and public health, transportation and logistics, emergency services and law enforcement, and government and public sector infrastructure.</p>
-    
-    <p>As efforts to build CNIs have accelerated, issues around CNI security, resilience, and adaptability are becoming increasingly critical. At the same time significant research gaps remain in cybersecurity practices at the system level, governance, integration and management of emerging technologies such as Autonomous Driving Systems, and threat intelligence sharing.</p>
-    
-    <p>Addressing these gaps is essential for policymakers, businesses, and infrastructure operators to mitigate threats, optimize performance, and ensure long-term continuity.</p>
-    
-    <p>This Special Section aims to advance research on the design, adoption, and impact of digital solutions and services critical in building CNI to enhance governance, economic development, and public service delivery and safeguard CNI. We invite interdisciplinary contributions that explore how digital technologies and services can enhance CNI or impose new risks and challenges for the operation of CNIs. Papers that do not explicitly address or theorize about CNI design and operation and their digital components will be returned without review.</p>
-    
+    <p>
+        Appel publié par Journal of Management Information Systems.
+        
+        <a href="https://www.jmis-web.org/cfps/JMIS_CFP_CNI_Special_Section.pdf">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/jmis-critical-national-infrastructure/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -141,8 +143,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Management Information Systems (JMIS)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

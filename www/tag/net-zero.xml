@@ -4,7 +4,7 @@
         <title>kerostig | Tag : net-zero</title>
         <link>https://kerostig.org/tag/net-zero/</link>
         <description>Derniers appels à publications avec le tag 'net-zero'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,23 +13,28 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/net-zero/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Multinational enterprises, sustainability and innovation in the digital age: Global, regional and local perspectives]]></title>
             <link>https://kerostig.org/call/emerald-multinational-enterprises-sustainability-and-innovation-in-the-digital-age-global-regional-and-local-perspectives/</link>
             <guid>emerald-multinational-enterprises-sustainability-and-innovation-in-the-digital-age-global-regional-and-local-perspectives</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>Achieving net-zero targets poses significant challenges for economies, governments, and societies worldwide. Multinational enterprises (MNEs) are central actors in this transition, both as developers and adopters of renewable energy and low-carbon technologies. As primary boundary spanners, they manage global value chains and partnerships across diverse institutional contexts and consumer markets. MNEs increasingly navigate a complex landscape of incentives, sanctions, and regulatory barriers that vary by sector, technology platform, country, and region. Politically motivated disruptions—including shifting tariff and non-tariff barriers and uneven low-carbon policies—compound these challenges, placing premium value on managerial capabilities.</p>
     
     <p>Two emerging developments motivate this Special Issue. First, digital technologies offer new potential to enhance firm-level capabilities for coordinating and adapting cross-border networks, while reshaping competitive dynamics between incumbents, startups, and scale-ups. Second, China&#39;s ascendancy as both innovator and regulator—particularly in new energy technologies—and its growing geopolitical influence demand renewed scholarly attention.</p>
     
-    <p>While MNEs&#39; contributions to sustainable development goals have received growing research attention, significant gaps remain. Circular economy models require reverse logistics and integrated, cross-border collaboration, making their configuration highly dependent on regional policies, resource availability, and digital applications. Limited research examines how circular supply chains are configured globally or regionally, or what drives their development.</p>
-    
-    <p>We are particularly interested in the microfoundations, routines, and recombinative capabilities underlying sustainability practices. We encourage international comparative studies examining how MNEs bridge institutional differences to establish circular business models and progress toward net-zero. Methodological innovation—including causal inference, longitudinal designs, and empirical approaches capturing complexity and measuring environmental outcomes—is also welcome.</p>
-    
+    <p>
+        Appel publié par Multinational Business Review.
+        
+        <a href="https://www.emerald.com/mbr/calls-for-submissions/1806/Multinational-enterprises-sustainability-and?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-multinational-enterprises-sustainability-and-innovation-in-the-digital-age-global-regional-and-local-perspectives/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -75,8 +80,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Multinational Business Review (EMERALD)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

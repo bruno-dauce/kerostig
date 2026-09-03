@@ -4,7 +4,7 @@
         <title>kerostig | Tag : information systems</title>
         <link>https://kerostig.org/tag/information-systems/</link>
         <description>Derniers appels à publications avec le tag 'information systems'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,15 +13,115 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/information-systems/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Generative AI and New Methods of Inquiry in Information Systems Research]]></title>
+            <link>https://kerostig.org/call/informs-isr-generative-ai-and-new-methods-of-inquiry-in-information-systems-research/</link>
+            <guid>informs-isr-generative-ai-and-new-methods-of-inquiry-in-information-systems-research</guid>
+            <pubDate>Mon, 31 Aug 2026 11:13:20 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Ahmed Abbasi</strong>, University of Notre Dame</p>
+        
+        <p><strong>Martin Bichler</strong>, Technical University of Munich</p>
+        
+        <p><strong>Ram Gopal</strong>, University of Warwick</p>
+        
+        <p><strong>Elena Karahanna</strong>, University of Georgia</p>
+        
+        <p><strong>Suprateek Sarker</strong>, University of Virginia</p>
+        
+    
+    
+    
+    <p>Generative Artificial Intelligence (GenAI) is rapidly reshaping not only organizations, markets, and technologies, but also the practice of scientific research itself. Large language models, multimodal foundation models, and increasingly agentic AI systems now participate in activities such as literature discovery, theorizing, data analysis, simulation, coding, and writing.</p>
+    
+    <p>This Special Issue seeks papers that push the boundaries of what can be achieved through innovative, rigorous, and responsible use of Generative AI in the information systems research process. Rather than focusing on GenAI solely as an object of empirical study, the SI emphasizes GenAI as a research collaborator, instrument, and infrastructure.</p>
+    
+    <p>The ambition of the SI is twofold: to publish a small number of exemplary papers that demonstrate novel research capabilities enabled by GenAI, and to advance shared principles, frameworks, and practices that will shape how information systems research is conducted and reported in an era of human–AI collaboration.</p>
+    
+    <p>
+        Appel publié par Information Systems Research.
+        
+        <a href="https://pubsonline.informs.org/page/isre/calls-for-papers">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/informs-isr-generative-ai-and-new-methods-of-inquiry-in-information-systems-research/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Hybrid human–AI workflows for coding, classification, or sensemaking</li>
+        
+        <li>GenAI-supported measurement development, construct validation, or scale refinement</li>
+        
+        <li>GenAI-supported survey design, sampling, and survey administration</li>
+        
+        <li>GenAI-supported experimental design, treatment generation, and implementation</li>
+        
+        <li>GenAI-supported computational theory construction</li>
+        
+        <li>Simulation, agent-based modeling, or scenario generation</li>
+        
+        <li>GenAI-enabled qualitative analysis, theory building, or inductive discovery</li>
+        
+        <li>GenAI-assisted econometric modeling, estimation, or robustness analysis</li>
+        
+        <li>AI-supported proof search, counterexample generation, or equilibrium exploration</li>
+        
+        <li>Discovery or validation of analytical models using generative simulation</li>
+        
+        <li>GenAI-assisted testing of operational utility and/or design validity</li>
+        
+        <li>Design and evaluation of GenAI-based tools for IS research</li>
+        
+        <li>Reproducible pipelines, benchmarks, and evaluation harnesses</li>
+        
+        <li>Systems supporting transparency, provenance, and verification</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 7, 2026: Submission deadline</li>
+        
+        <li>November 20, 2026: First-round decisions</li>
+        
+        <li>December 13, 2026: ICIS Workshop</li>
+        
+        <li>January 15, 2027: Optional online workshop</li>
+        
+        <li>February 15, 2027: Final version submitted</li>
+        
+        <li>May 1, 2027: Final decisions</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Generative AI and the Environment: How Can IS Scholars Contribute to Addressing the Problem and Identifying Solutions]]></title>
             <link>https://kerostig.org/call/wiley-generative-ai-and-the-environment-how-can-is-scholars-contribute-to-addressing-the-problem-and-identifying-solutions/</link>
             <guid>wiley-generative-ai-and-the-environment-how-can-is-scholars-contribute-to-addressing-the-problem-and-identifying-solutions</guid>
             <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Information Systems Journal.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/13652575/call-for-papers/si-2026-000747">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-generative-ai-and-the-environment-how-can-is-scholars-contribute-to-addressing-the-problem-and-identifying-solutions/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -32,15 +132,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Information Systems Journal (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Advancing towards a Responsible and Resilient Digital Future]]></title>
             <link>https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future/</link>
             <guid>springer-advancing-towards-a-responsible-and-resilient-digital-future</guid>
             <pubDate>Sun, 16 Aug 2026 21:44:37 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Imon Chakraborty</strong>, Indian Institute of Technology Madras</p>
@@ -53,18 +154,16 @@
         
     
     
+    
     <p>Digital technologies have become foundational to contemporary organizations, markets, governments, and society. Artificial intelligence (AI), digital platforms, blockchain, cloud computing, and the Internet of Things (IoT) are transforming how people work, learn, interact, and create value. These technologies create significant economic, organizational, and societal value. They help businesses transform, support better decisions, and open new services for communities. At the same time, they bring serious risks. However, these technologies also introduce substantial challenges, including algorithmic bias, privacy violations, cybersecurity threats, misinformation, digital exclusion, and workforce disruption. Recent research shows that adopting a technology does not always lead to real benefits for organizations or society. Value from digital investment is often uneven and varies across situations. There is also rising concern about the dark side of digital technologies, including misuse, overuse, and unintended harm.</p>
     
-    <p>Addressing these challenges requires information systems that are simultaneously responsible and resilient. Responsible digital systems should be fair, transparent, ethical, and accountable. They should protect human rights, respect privacy, and keep humans in control of important decisions. Resilient digital systems should withstand disruptions, resist attacks, recover from failures, and continue delivering value under changing conditions. Responsibility and resilience are mutually reinforcing. Systems perceived as unfair will lose user trust. Similarly, systems that cannot withstand disruptions are unlikely to sustain long-term organizational or societal value. Despite their interdependence, responsibility and resilience have largely evolved as separate streams of research. There is limited work that brings them together and asks how information systems (IS) can be designed, implemented, used, and governed to be both responsible and resilient.</p>
-    
-    <p>Information systems researchers are uniquely positioned to examine the interplay between digital technologies, individuals, organizations, institutions, and society. It provides a unique lens for understanding how humans and AI collaborate, how users interact with digital platforms, how organizations realize value from digital technologies, and how governance and policy shape digital outcomes. It can also show how digital tools can serve communities, including vulnerable groups, and support accessibility for all. Nevertheless, significant opportunities remain for theory-driven and empirically rigorous research. We need studies that go beyond simple adoption stories and give deeper insight into post-adoption use, value realization, human–machine collaboration, governance of AI, and the long-term impact of digital systems on business and society.</p>
-    
-    <p>This special issue responds to that need. It invites scholars and practitioners to examine how information systems can advance a responsible and resilient digital future. We invite theoretically grounded, methodologically rigorous, and practically relevant research that advances understanding of responsible and resilient digital futures. Submissions may use various research methods, such as conceptual and theoretical work, surveys, experiments, case studies, and design science methods.</p>
-    
-    <p>This special issue is linked to the India Conference on Information Systems (InCIS 2027), which carries the same theme, &quot;Advancing towards a Responsible and Resilient Digital Future&quot;. The authors of selected high-quality papers from the conference will be invited to submit substantially extended versions to this special issue. The special issue is also open to all authors through this open call, even if not submitted to the conference.</p>
-    
-    <p>We encourage studies that move beyond surface-level narratives and offer nuanced insight into how responsibility and resilience can be built into digital systems. Submissions that challenge existing paradigms, explore underexamined dimensions, or offer new frameworks are especially encouraged. Submissions must clearly identify the specific digital technologies and contexts examined. Purely technical or system-level papers without an IS, behavioural, organisational, or societal contribution are outside the scope of this special issue.</p>
-    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/ffhgdbhbad">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -106,15 +205,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Information Systems Frontiers (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Digital Transformation and Service]]></title>
             <link>https://kerostig.org/call/springer-topical-collection-on-digital-transformation-and-service/</link>
             <guid>springer-topical-collection-on-digital-transformation-and-service</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Christian Bartelheimer</strong>, University of Göttingen</p>
@@ -127,16 +227,16 @@
         
     
     
+    
     <p>Digital transformation continues to reshape how organizations create, deliver, and capture value. At the same time, service has become a crucial lens for understanding contemporary information systems (IS) phenomena. Value is co-created across organizational boundaries, enacted through digital technologies, and embedded in networks, platforms, and ecosystems. The Topical Collection on Digital Transformation &amp; Service at Electronic Markets seeks to advance theoretically grounded and relevant IS research at the intersection of digital transformation and service.</p>
     
-    <p>We invite submissions that foreground service and digital transformation as they are established, debated, and further developed within the IS discipline, and in particular in Electronic Markets. Submitted articles should demonstrate a clear engagement with core IS literature to identify a well-defined research gap that matters for practice and theory, and articulate a convincing contribution to recent IS conversations. We are particularly interested in papers that move beyond broad claims about the consequences of digital transformation and instead examine how information technology (IT) artifacts ought to be designed and how they can be applied to foster value co-creation.</p>
-    
-    <p>A central expectation of this Topical Collection is that submissions &#39;white-box&#39; the role of IT artifacts. We seek papers that explicate how IT artifacts shape and are shaped by the digital transformation of organizations, for instance by enabling or transforming customer relations, value propositions, and service exchange. Studies may focus on (smart) service systems or ecosystems at varied levels, including communities, organizations, inter-organizational arrangements, platforms, data spaces, and society. In contrast, we do not seek papers that treat information systems as &#39;black boxes&#39; or limit their analysis to summative business implications without theorizing the underlying structures, mechanisms, and affordances of IT artifacts through which these implications emerge. Manuscripts presenting IT artifacts that use or expand large language models or other large-scale artificial intelligence technologies must also be unpacked and contextualized, and presented in a way that is theoretically anchored and generates contributions at the intersection of digital transformation, service, and information systems.</p>
-    
-    <p>We invite contributions from various epistemological positions and methodological traditions common in the IS discipline. Suitable submissions may include (action) design science, conceptual papers, qualitative studies, including case studies and Delphi studies, quantitative research, including experiments, surveys, and data-driven studies, and mixed-methods work. Literature reviews are also welcome, provided that they deliver strong theoretical implications and develop a forward-looking research agenda that reaches considerably beyond reporting the current state of research.</p>
-    
-    <p>We particularly encourage submissions that investigate the role of digital technologies in real-world service scenarios. Studies that focus on inter-organizational contexts such as service networks, digital platforms, data spaces, or business ecosystems are especially relevant, as they touch on core topics of Electronic Markets. Submissions may examine established organizations, start-ups, public-sector organizations, communities, or other actor constellations in which digital technologies enable, constrain, or transform service exchange and value co-creation.</p>
-    
+    <p>
+        Appel publié par Electronic Markets.
+        
+        <a href="https://link.springer.com/collections/aebjbihcdb">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-topical-collection-on-digital-transformation-and-service/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -170,17 +270,26 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Electronic Markets (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Emerging Methods in Information Systems]]></title>
             <link>https://kerostig.org/call/elsevier-emerging-methods-in-information-systems/</link>
             <guid>elsevier-emerging-methods-in-information-systems</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Information &amp; Management.
+        
+        <a href="https://www.sciencedirect.com/special-issue/334680/emerging-methods-in-information-systems">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-emerging-methods-in-information-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -191,19 +300,28 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Information &amp; Management (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Information Systems in Asia-Pacific Context]]></title>
             <link>https://kerostig.org/call/elsevier-special-issue-for-the-pacific-asia-conference-on-information-systems-pacis-2026/</link>
             <guid>elsevier-special-issue-for-the-pacific-asia-conference-on-information-systems-pacis-2026</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue is associated with the Pacific Asia Conference on Information Systems (PACIS) 2026 and will be published in Information &amp; Management.</p>
     
+    <p>
+        Appel publié par Information &amp; Management.
+        
+        <a href="https://www.sciencedirect.com/special-issue/334077/special-issue-for-the-pacific-asia-conference-on-information-systems-pacis-2026">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-special-issue-for-the-pacific-asia-conference-on-information-systems-pacis-2026/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -214,15 +332,150 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Information &amp; Management (ELSEVIER)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Neurophysiological Foundations and Effects of Contemporary Digital Technologies]]></title>
+            <link>https://kerostig.org/call/tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies/</link>
+            <guid>tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>René Riedl</strong>, University of Applied Sciences Upper Austria &amp; Johannes Kepler University Linz</p>
+        
+        <p><strong>Jan vom Brocke</strong>, University of Münster</p>
+        
+        <p><strong>Jella Pfeiffer</strong>, Karlsruhe Institute of Technology</p>
+        
+        <p><strong>Robert Gleasure</strong>, Copenhagen Business School</p>
+        
+    
+    
+    
+    <p>The advent of increasingly powerful artificial intelligence systems (e.g., large language models such as ChatGPT, diffusion models, graph neural networks, or vision transformers used in healthcare, manufacturing, software development or finance), together with other contemporary digital technologies (e.g., autonomous cars, immersive worlds, and neuroadaptive interfaces), has fundamentally reshaped human interaction with information systems. As these technologies become embedded in work, consumption, private life, and society in general, the ways in which they affect human cognition, emotion, and social interaction remain poorly understood.</p>
+    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ejis-neurois/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>How does sustained interaction with AI-enabled systems (e.g., LLMs) and other advanced digital tools reshape neural networks associated with language, reasoning, and memory?</li>
+        
+        <li>Does reliance on AI systems and other forms of automation/digital decision support alter attentional control, working memory, metacognition, or problem-solving processes at the neurophysiological and behavioral levels?</li>
+        
+        <li>What are the implications of digitally augmented cognition for neuroplasticity, skill acquisition, and expertise development over time?</li>
+        
+        <li>How can integrated neurophysiological and behavioral measures provide a fuller picture of technology-mediated cognitive processes?</li>
+        
+        <li>How do individuals&#39; brains respond to empathetic or anthropomorphic cues exhibited by conversational AI and other interactive systems?</li>
+        
+        <li>What neurophysiological correlates underlie trust, reliance, distrust, or skepticism toward AI systems and other algorithmic or platform-based systems?</li>
+        
+        <li>How does emotional regulation change when decision-making is mediated by AI support, algorithmic decision aids, or digital nudges?</li>
+        
+        <li>What are the neurophysiological mechanisms of stress, fatigue, or overload in contexts of AI-assisted work and other digitally intensified work settings?</li>
+        
+        <li>How does technological mediation in team collaboration influence the neurophysiological foundations of social coordination, empathy, and shared attention?</li>
+        
+        <li>What neural mechanisms underlie shifts in authority, leadership, and influence when AI becomes a co-decision-maker?</li>
+        
+        <li>How do cultural differences modulate neurophysiological responses to AI and other digitally mediated collaboration settings?</li>
+        
+        <li>How do gender, age, or personality differences modulate neurophysiological responses to IS artifacts?</li>
+        
+        <li>How might AI-driven systems and other algorithmic/persuasive designs reinforce or mitigate cognitive biases?</li>
+        
+        <li>What neural signatures accompany ethical dilemmas and moral decision-making in AI-mediated contexts and broader digital governance settings?</li>
+        
+        <li>How does long-term use of AI and other digitally intensive work systems shape neurophysiological well-being, stress, or mental health at the workplace?</li>
+        
+        <li>How can neurophysiological insights inform the design of AI systems and other digital systems that are more intuitive and aligned with human cognitive limits?</li>
+        
+        <li>What are the neurophysiological underpinnings of productivity, efficiency, or value creation in digitally mediated economic interactions?</li>
+        
+        <li>How can genetic and neurophysiological approaches together explain individual differences in the adoption and use of digital systems?</li>
+        
+        <li>Which neurophysiological tools are best suited for investigating contemporary IS phenomena?</li>
+        
+        <li>How can hybrid approaches combining neurophysiology with computational methods enrich IS theory development?</li>
+        
+        <li>How can multi-level research designs integrate genetic, neurophysiological, behavioral, self-report, and organizational data to address IS phenomena more holistically?</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 31, 2026: Abstract deadline</li>
+        
+        <li>August 31, 2026: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Bonnie B. Anderson</strong>, Brigham Young University</li>
+        
+        <li><strong>Dinko Bačić</strong>, Loyola University Chicago</li>
+        
+        <li><strong>Colin Conrad</strong>, Dalhousie University</li>
+        
+        <li><strong>Verena Dorner</strong>, Vienna University of Economics and Business</li>
+        
+        <li><strong>Nadine R. Gier-Reinartz</strong>, Heinrich-Heine-University Düsseldorf</li>
+        
+        <li><strong>Milena Head</strong>, McMaster University</li>
+        
+        <li><strong>Alan R. Hevner</strong>, University of South Florida</li>
+        
+        <li><strong>Qiqi Jiang</strong>, Copenhagen Business School</li>
+        
+        <li><strong>Marion Korosec-Serfaty</strong>, University of Québec in Montréal</li>
+        
+        <li><strong>Alexander Maedche</strong>, Karlsruhe Institute of Technology</li>
+        
+        <li><strong>Gernot R. Mueller-Putz</strong>, Graz University of Technology</li>
+        
+        <li><strong>Pierre-Majorique Léger</strong>, HEC Montréal</li>
+        
+        <li><strong>Mario Nadj</strong>, University of Duisburg-Essen</li>
+        
+        <li><strong>Fiona Nah</strong>, Singapore Management University</li>
+        
+        <li><strong>Adriane Randolph</strong>, Kennesaw State University</li>
+        
+        <li><strong>Ofir Turel</strong>, University of Melbourne</li>
+        
+        <li><strong>Eric A. Walden</strong>, Texas Tech University</li>
+        
+        <li><strong>Peter Walla</strong>, Sigmund Freud Private University Vienna</li>
+        
+        <li><strong>Dezhi Wu</strong>, University of South Carolina</li>
+        
+    </ul>
+    
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Theorising Time in a Digital Era: New Horizons for IS Research]]></title>
             <link>https://kerostig.org/call/tandf-theorising-time-in-a-digital-era-new-horizons-for-is-research/</link>
             <guid>tandf-theorising-time-in-a-digital-era-new-horizons-for-is-research</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Kieran Conboy</strong>, University of Galway</p>
@@ -235,22 +488,16 @@
         
     
     
+    
     <p>Technology has fundamentally transformed the way we experience time and temporality, having permeated all aspects of our lives. It influences the way we work, how we live, and aspects of our identity, by shifting the way we communicate with others, accelerating information flows and enabling constant connectivity. As technologies evolve and digital infrastructures increasingly shape organisational and societal life, questions of temporality—speed, duration, sequencing, rhythm, and timing—become central to how we design, adopt, use, and study Information Systems (IS).</p>
     
-    <p>While time is an inherently complex, multifaceted, subtle concept and is by nature socially embedded, it is often examined simplistically, adopting a clock-time perspective, with the focus being on speed and duration. Some disciplines such as Organisation Studies are making significant progress in understanding and theorising various aspects of temporal complexity and structuring. Yet, within the IS discipline, IS researchers are often quick to highlight the impact of information systems on the speed of organisational and social life, but can be slow to address the polymorphous, complex and nuanced nature of time in IS research. Despite a few notable exceptions, studies with a temporal dimension tend to address temporal complexity partially rather than comprehensively. Time remains theoretically elusive in contemporary studies of information systems, often excluded or included only as a &#39;hidden dimension&#39;. IS literature on time and temporality emerges as fragmented and lacks the cumulative tradition and theoretical glue necessary. As the field matures, treating time as a central concept and construct is essential to theory development and progress.</p>
-    
-    <p>This is particularly problematic in IS, given the centrality of time to many aspects of study in the field. Time, and more specifically speed, is often the raison d&#39;etre of emerging technology, with promises of enabling real-time decision-making and implementation of action at unprecedented speed and scale. Data typically has a time value, where a data report five minutes before a meeting may be incredibly valuable, but one second after the meeting the value drops to zero. However, data can also increase in value over time as it is combined or new uses are found. Technology is usually developed under time pressure, with a rarely questioned assumption that organisations&#39; use of technology must help them survive and thrive in the seemingly never-ending environment of dynamism and acceleration. IS researchers often use speed as a methodological proxy and even a synonym for IS value and success. However, technological speed and acceleration can undermine learning and collective creativity, and limit participation by those who are irreversibly impacted.</p>
-    
-    <p>Temporality in information systems manifests across multiple temporal scales, ranging from moment-to-moment interactions to decades-long institutional transformations. The special issue encourages submissions that illuminate how digital technologies shape, mediate, or are embedded within temporal structures, rhythms, paths, and trajectories at any of these scales.</p>
-    
-    <p>Across all temporal scales, the special issue especially welcomes work that advances theoretical and methodological discussions of time in Information Systems research. This includes analyses of flows, sequences, rhythms, tempos, trajectories, paths, and path nets, with more explicit attention to how temporal constructs are represented, theorised, and operationalised in IS scholarship.</p>
-    
-    <p>The special issue also encourages contributions that link IS, temporality, and grand challenges such as climate change, pandemics, inequality, and social movements, which require multi-generational coordination, long-term data stewardship, and sustained digital infrastructures. Additionally, the special issue seeks cross-level insights into how temporal assumptions are embedded in IS and how they reshape experiences and outcomes.</p>
-    
-    <p>The majority of empirical IS studies use time from a methodological perspective to merely strengthen causal claims. The special issue contends that the IS field is uniquely positioned to not just apply temporal techniques gleaned from other disciplines, but to inform and lead how the study of time and temporal complexity can be conducted. IS researchers can now analyse vast amounts of trace data on an unprecedented scale and engage in computationally intensive theory construction, with many emerging techniques that could be used or adapted for studying the complexities and nuances of time and technology.</p>
-    
-    <p>The special issue envisions providing a deeper understanding of time to clarify and enhance knowledge that can explain phenomena important to IS. While contributions from other disciplines are welcome, papers where the IS artefact is foregrounded, being the central focus of the paper, are prioritised. The special issue welcomes empirical and conceptual contributions, all methodological approaches and paradigms, and studies at different levels of analysis. The journal values contrarian papers that challenge conventional assumptions, theories, and methods.</p>
-    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ejis-theorising-time/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-theorising-time-in-a-digital-era-new-horizons-for-is-research/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -349,27 +596,30 @@
         
     </ul>
     
-</div>]]></content:encoded>
-            <author>European Journal of Information Systems (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Crossing Methodological Borders: Mixed-/Multi-Methods in Contemporary Industrial and Information Systems management]]></title>
             <link>https://kerostig.org/call/emerald-crossing-methodological-borders-mixed-multi-methods-in-contemporary-industrial-and-information-systems-management/</link>
             <guid>emerald-crossing-methodological-borders-mixed-multi-methods-in-contemporary-industrial-and-information-systems-management</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>As digital technologies increasingly transform industrial operations, integrating industrial management with information systems (IS/IT) research has become essential. Key domains such as supply chain resilience, digital innovation, and data-driven decision-making require methodological approaches that can address both technical complexity and organizational dynamics.</p>
     
     <p>However, many existing studies still rely predominantly on either primary or secondary data, with relatively few exploring the benefits of strategically combining the two. Integrating primary data (e.g., surveys, interviews, experiments) with secondary data (e.g., ERP logs, platform analytics, archival datasets) enables deeper theory development by revealing both behavioral patterns and underlying mechanisms.</p>
     
-    <p>Mixed-methods purposefully integrate qualitative and quantitative data to provide both explanatory breadth and contextual depth—enabling researchers to explore &quot;how&quot; and &quot;why&quot; phenomena unfold. Multi-methods, which combine multiple techniques within the same paradigm, can improve robustness, triangulation, and construct validity. Both approaches are particularly valuable for studying evolving topics such as AI deployment, digital trust, platform governance, and organizational resilience.</p>
-    
-    <p>Despite their promise, challenges persist: integration logic is often implicit, philosophical tensions may arise, and quality assessment frameworks are still emerging. Key areas remain underexplored, including how to align methodological choices with research aims, how to evaluate integration rigorously, and how to distinguish among mixed, multi, and hybrid methods in IS research.</p>
-    
-    <p>This special issue aims to address these gaps by encouraging submissions that embrace methodological pluralism, combining primary and secondary data to produce practically relevant, empirically grounded, and theoretically robust contributions. By crossing methodological borders, we hope to foster innovative approaches that better reflect the complex realities of digital transformation in industrial systems.</p>
-    
+    <p>
+        Appel publié par Industrial Management &amp; Data Systems.
+        
+        <a href="https://www.emerald.com/imds/calls-for-submissions/1768/Crossing-Methodological-Borders-Mixed-Multi?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-crossing-methodological-borders-mixed-multi-methods-in-contemporary-industrial-and-information-systems-management/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -401,15 +651,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Industrial Management &amp; Data Systems (EMERALD)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Generative AI as Driver of Change in Media]]></title>
             <link>https://kerostig.org/call/jmis-generative-ai-as-driver-of-change-in-media/</link>
             <guid>jmis-generative-ai-as-driver-of-change-in-media</guid>
             <pubDate>Sat, 22 Nov 2025 03:12:30 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Thomas Hess</strong>, University of Munich (LMU)</p>
@@ -420,12 +671,16 @@
         
     
     
+    
     <p>Generative AI (GenAI) has rapidly become a general-purpose technology that reshapes how information is created, curated, and consumed. GenAI broadly refers to a class of AI models that generate seemingly new content in the form of text, images, audio, or video. In the media context, where value is built around the provision and use of content, GenAI has attracted particular attention. For instance, it enables the near-instant creation of journalistic articles, marketing texts, or audiovisual material, and it supports personalization by dynamically adapting media offerings to individual user preferences. The advent of the Internet had already marked a profound transformation in the delivery and consumption of content. It made user-generated content possible, catalyzed multi-sided platforms, and enabled unprecedented personalization. This transformation brought new players into the media sector, as technology companies entered the market and traditional media firms were forced to develop significant digital competencies for the first time.</p>
     
-    <p>GenAI is expected to have an equally profound impact on the media industry by expanding complementary innovation, lowering barriers for content creation, and altering the economics of matching and recommendation at scale. Despite recent advances, our knowledge is still limited. Existing research has begun to shed light on the impact of GenAI on textual news app users’ willingness to pay, yet it is unknown whether similar effects extend to audiovisual content. Moreover, there are initial indications of how journalists’ productivity may change with the use of GenAI. At the same time, the potential for entirely new GenAI-based products remains largely unexplored. In particular, little is known about the extent to which audience discussions can be moderated and managed, or about the new forms of public media provision that GenAI might enable. These questions are especially pressing given the central role of media in shaping public opinion and broader societal developments, including political attitudes.</p>
-    
-    <p>The aim of this special issue is to advance IS research on this emerging field. We invite contributions that examine the role of GenAI in the provision and use of media offerings. Analyses may focus on individuals, organizations, or industries. Studies may address GenAI on the level of systems, their effects, or their management. Submissions should be firmly grounded in the technology itself and its implications for media ecosystems. This special issue aims to stimulate innovative investigations of the transformative role of GenAI in the provisioning and use of public media. In contrast to closed settings, such as private messaging services, the recipients of public communication cannot be predetermined or exhaustively specified in advance. Accordingly, the domain of interest spans both online media, including digital platforms and social media, and traditional media such as print and television. We welcome qualitative and quantitative empirical studies as well as design-oriented research. Submissions should provide a clear academic contribution by advancing theory and knowledge in the Information Systems discipline. While practical relevance and managerial implications are highly valued, they are not sufficient on their own; academic advancement is essential.</p>
-    
+    <p>
+        Appel publié par Journal of Management Information Systems.
+        
+        <a href="https://www.jmis-web.org/cfps/JMIS_CfP_AI_and_Media.pdf">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/jmis-generative-ai-as-driver-of-change-in-media/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -461,8 +716,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Management Information Systems (JMIS)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

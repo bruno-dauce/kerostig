@@ -4,7 +4,7 @@
         <title>kerostig | Tag : scheduling</title>
         <link>https://kerostig.org/tag/scheduling/</link>
         <description>Derniers appels à publications avec le tag 'scheduling'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/scheduling/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Innovations in Production Planning: Emerging Problems and Modern Solution Paradigms]]></title>
             <link>https://kerostig.org/call/tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms/</link>
             <guid>tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Mirco Peron</strong>, NEOMA Business School</p>
@@ -36,22 +37,16 @@
         
     
     
+    
     <p>Production planning has historically been a central pillar of industrial engineering and operations management. Since the mid-20th century, the field has developed a rich body of classical problems and models, such as lot sizing, job shop and flow shop scheduling, capacity planning, assembly line balancing, material requirements planning (MRP), and aggregate production planning. These models provided structured ways to allocate resources, balance supply and demand, and coordinate activities across production systems, often under deterministic assumptions and with objectives focused primarily on cost and efficiency. Linear programming, dynamic programming, and combinatorial optimization offered rigorous formulations and exact methods, while heuristics and metaheuristics emerged to address large-scale and computationally complex instances.</p>
     
-    <p>Over time, production planning research progressively expanded to address uncertainty via stochastic and robust optimization, multi-objective trade-offs (e.g. cost, service level, inventory, lead times), and integration across planning levels (strategic, tactical, and operational). Still, the focus remained on well-defined, structured problems and a relatively stable industrial context.</p>
-    
-    <p>Today, however, technological, environmental, and societal shifts are reshaping the landscape of production planning. The rise of cyber-physical systems, IoT-enabled factories, advanced robotics, digital twins, additive manufacturing, and AI-based automation has disrupted the stability of traditional assumptions. These innovations have created new types of planning problems, characterized by more frequent reconfiguration, increased heterogeneity of resources, and the necessity of integrating multiple technologies and objectives.</p>
-    
-    <p>Digital twin–driven planning enables real-time updates of plans and schedules, requiring adaptive and rolling-horizon optimization. Hybrid production systems, combining conventional and additive manufacturing, pose new challenges in sequencing, capacity allocation, and cross-technology coordination. Reconfigurable and modular manufacturing requires planning models that adapt to changing system topologies, dynamic routing, and flexible resource reassignments. Circular and sustainable production systems demand that environmental and social objectives be embedded in planning alongside economic goals. Resilience-oriented planning has become critical in the face of global disruptions, pandemics, and supply shocks, demanding strategies that balance efficiency with adaptability and robustness.</p>
-    
-    <p>At the same time, innovation has not only transformed the problems but also the solution approaches. Whereas traditional production planning was dominated by mathematical programming and rule-based heuristics, the current era witnesses the rapid adoption of data-driven, hybrid, and AI-enabled methods.</p>
-    
-    <p>Reinforcement learning and deep learning models are increasingly applied to dynamic planning and scheduling, such as graph neural network and RL architectures for scheduling problems. Hybrid metaheuristics combine classical optimization with machine learning models, surrogate functions, or decomposition techniques to tackle high-dimensional problems. Simulation–optimization coupling allows planners to test, validate, and adapt decisions under complex system dynamics, particularly in systems where analytical modeling is intractable. Multi-agent and distributed approaches enable decentralized planning in highly connected production networks, where local agents coordinate planning decisions. Online and rolling-horizon algorithms become critical when plans must be revised frequently, and incremental updating is required.</p>
-    
-    <p>Despite these advances, major challenges persist. Industrial adoption demands bridging the gap between academic models and real-world constraints: data sparsity, computational scalability, integration with legacy systems (ERP/MES), and user trust. Decision-makers must also reconcile conflicting objectives: efficiency vs. resilience, speed vs. sustainability, optimality vs. interpretability.</p>
-    
-    <p>This special issue seeks to collect innovative contributions that redefine the boundaries of production planning. We welcome papers that introduce novel problem formulations reflecting new industrial realities and innovative solution approaches leveraging modern computational, AI, and optimization tools. Both theoretical/methodological and empirical/applied submissions are encouraged, including case studies and empirical validation.</p>
-    
+    <p>
+        Appel publié par International Journal of Production Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ijpr-production-planning/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -95,8 +90,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>International Journal of Production Research (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

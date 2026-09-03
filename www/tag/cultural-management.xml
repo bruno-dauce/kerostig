@@ -4,7 +4,7 @@
         <title>kerostig | Tag : cultural management</title>
         <link>https://kerostig.org/tag/cultural-management/</link>
         <description>Derniers appels à publications avec le tag 'cultural management'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/cultural-management/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Cultural organizations in transition—rethinking management, governance, and organizational change]]></title>
             <link>https://kerostig.org/call/tandf-cultural-organizations-in-transitionrethinking-management-governance-and-organizational-change/</link>
             <guid>tandf-cultural-organizations-in-transitionrethinking-management-governance-and-organizational-change</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Lorenzo Mizzau</strong>, University of Genoa</p>
@@ -32,14 +33,16 @@
         
     
     
+    
     <p>Cultural organizations, ranging from museums and heritage sites to festivals, theatres and media production houses, represent a vital component of the public sphere. Regardless of their ownership, legal status, and business model, many of these organizations pursue public missions: they produce, distribute, and safeguard cultural value, make accessible collective cultural resources, support participation and expression and sustain the creative ecosystems that enrich civic life. Cultural organizations can thereby be defined as public organizations, not only because they may receive public funding or other forms of governmental support, such as organizations that operate at arm&#39;s length, but also because culture is deemed a collective good, which makes these organizations interesting from a public management angle.</p>
     
-    <p>Cultural organizations are facing increasing pressure to rethink their organizational design, managerial systems, and relationships with their environment. Funding frameworks have become more volatile; governments are reconfiguring their financial engagement with culture through co-financing or project-based mechanisms; and expectations of accountability and demonstrable impact have grown. Meanwhile, digital transformation and AI-driven technologies are reshaping how culture is produced, mediated, and experienced. These shifts challenge traditional models of management, organization and governance of and for cultural organizations, raising critical questions about sustainability, legitimacy, and the evolving societal role of cultural organizations.</p>
-    
-    <p>At the same time, cultural work itself is also changing. New collaborative models, hybrid careers, and digital production platforms demand adaptive organizational processes, new forms of coordination and control, a varied array of skills, learning needs and professional identities, and a leadership capable of balancing artistic freedom with social, environmental and economic sustainability. Cultural organizations thus provide a powerful lens for examining the changing relationship between cultural work and public commitment to culture, by analysing how managerial and organizational structures interact with public policy and governance frameworks.</p>
-    
-    <p>This special issue explores how cultural organizations can sustain their public mission while navigating organizational, sustainability and technological transitions. Conceptual and empirical contributions are invited that investigate how it is possible to reimagine cultural organizations&#39; managerial practices, organizational models, and governance frameworks in pursuit of their public mission.</p>
-    
+    <p>
+        Appel publié par Public Money &amp; Management.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/cultural-organizations-in-transition/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-cultural-organizations-in-transitionrethinking-management-governance-and-organizational-change/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -75,8 +78,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Public Money &amp; Management (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

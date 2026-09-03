@@ -4,7 +4,7 @@
         <title>kerostig | Tag : native theorizing</title>
         <link>https://kerostig.org/tag/native-theorizing/</link>
         <description>Derniers appels à publications avec le tag 'native theorizing'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/native-theorizing/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Native IS Theories]]></title>
             <link>https://kerostig.org/call/tandf-native-is-theories/</link>
             <guid>tandf-native-is-theories</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Varun Grover</strong>, University of Arkansas</p>
@@ -36,14 +37,18 @@
         
     
     
+    
     <p>The pervasive and unprecedented digitization of organizational and human experience represents a major challenge to past and existing theorizing methods. Recent efforts emphasize that with the rise in complexity in this digitized world, we need to rethink our theories and create new theories to guide us. What is needed are new theories that connect new concepts to grasp the unprecedented and link them to existing concepts or other new concepts, that explain and answer why such phenomena are happening.</p>
     
     <p>This special issue calls for native IS theories that explain the nexus between digital technology and social and organizational phenomena. Building theories is highly challenging, but essential to establish the field as a socially and intellectually influential discipline. Theory should not be restricted to causal mechanisms or viewed too inclusively, but rather take the form of scientific understanding and systematic explanation that contains logically interconnected sets of propositions, symbolic conjectures, and empirical generalizations, tied to the IS discourse.</p>
     
-    <p>To fulfill the criterion that theory be tied to IS discourse, the special issue seeks studies that focus on the uniqueness of phenomena, assumptions, boundary conditions, concepts, and logic to IS. Every theory proposed should be tied to an explicit why question about an IS phenomenon. Articles may apply one of two major approaches: either deeply engage with existing theory and demonstrate how these theories address or don&#39;t address unprecedented IS phenomena, or propose novel native IS theories that are different from established theories and explain why new theoretical positions are needed.</p>
-    
-    <p>The special issue seeks articles that either deeply engage with existing theories or propose new native IS theories on unprecedented emergent IS phenomena. Researchers are encouraged to investigate emerging phenomena that are capturing the attention of society and in need of better explanations, such as digital technologies shaping public opinion, algorithmic amplification of social tendencies, threats to cybersecurity and privacy, deepfakes and synthetic newsrooms, ethical and legal implications from emerging technologies, disruption from artificial intelligence generative content, and societal impacts from misinformation and disinformation. There are also opportunities in areas such as energy informatics, green IS, and sustainability digital initiatives that can benefit from native IS theories.</p>
-    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ejis-native-is-theories/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-native-is-theories/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -91,8 +96,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>European Journal of Information Systems (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

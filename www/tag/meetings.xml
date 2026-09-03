@@ -4,7 +4,7 @@
         <title>kerostig | Tag : meetings</title>
         <link>https://kerostig.org/tag/meetings/</link>
         <description>Derniers appels à publications avec le tag 'meetings'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/meetings/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[The Science of Group Meetings]]></title>
             <link>https://kerostig.org/call/sage-check-out-the-current-sgr-call-for-papers-here/</link>
             <guid>sage-check-out-the-current-sgr-call-for-papers-here</guid>
             <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Joseph A. Allen</strong>, University of Utah</p>
@@ -28,10 +29,18 @@
         
     
     
+    
     <p>Meetings remain one of the most pervasive features of organizational life, serving as a critical venue for communication, collaboration, decision-making, and sensemaking in groups and teams. Yet, despite their ubiquity, meetings continue to spark debate over their effectiveness, efficiency, and impact on individuals, teams, and organizations. Moreover, the nature of group and team meetings in organizations is subject to ongoing change, with respect to meeting formats, purposes, and functions.</p>
     
     <p>The aim of this Special Issue is to move forward and examine new perspectives on meetings in contemporary organizational life. We are interested in interdisciplinary and cross-disciplinary submissions that advance the meeting science literature, with a focus on empirical insights into group and team meetings. Both field studies and laboratory research methodology can contribute such insights. However, no studies based on individual-level, self-report, cross-sectional data unless substantiated by additional data will be considered.</p>
     
+    <p>
+        Appel publié par Small Group Research.
+        
+        <a href="https://journals.sagepub.com/pb-assets/cmscontent/SGR/SGR%20CFP%20Meeting%20Science%20Call%20for%20Papers-1783984842077.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/sage-check-out-the-current-sgr-call-for-papers-here/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -73,8 +82,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Small Group Research (SAGE)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

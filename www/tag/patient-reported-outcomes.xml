@@ -4,7 +4,7 @@
         <title>kerostig | Tag : patient-reported outcomes</title>
         <link>https://kerostig.org/tag/patient-reported-outcomes/</link>
         <description>Derniers appels à publications avec le tag 'patient-reported outcomes'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,40 +13,49 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/patient-reported-outcomes/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Patient experience data in regulatory and health technology assessment]]></title>
-            <link>https://kerostig.org/call/springer-patient-experience-data-in-regulatory-and-health-technology-assessment/</link>
-            <guid>springer-patient-experience-data-in-regulatory-and-health-technology-assessment</guid>
+            <title><![CDATA[Development of the LIMB-QOL measurement system]]></title>
+            <link>https://kerostig.org/call/springer-development-of-the-limb-qol-measurement-system/</link>
+            <guid>springer-development-of-the-limb-qol-measurement-system</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
-        <p><strong>Wen-Hung Chen</strong>, AstraZeneca</p>
+        <p><strong>Jessica Roydhouse</strong>, Menzies Institute for Medical Research</p>
         
-        <p><strong>Lori D. McLeod</strong>, RTI Health Solutions</p>
+        <p><strong>Brittany Lapin</strong>, Cleveland Clinic</p>
         
     
     
-    <p>Globally, regulatory and health technology assessment (HTA) bodies recognise the importance of hearing from patients when products are being developed and evaluated. Patient-reported outcomes and other clinical outcome assessments are increasingly included in submissions to these bodies. Additionally, recent regulatory guidance also discusses the collection of patient preference information. This broader conceptualisation can be termed &#39;patient experience data&#39; (PED).</p>
     
-    <p>Despite this recognition, patient experience data are inconsistently included and evaluated by decision-makers. Understanding how different interest-holders approach this is essential for ensuring that patients&#39; voices drive healthcare decisions to ultimately improve patient outcomes and health-related quality of life.</p>
+    <p>The Limb Injury Measurement Battery for Quality of Life (LIMB-QOL) measurement system is a multifaceted patient reported outcome system designed to measure several domains of functioning across physical, emotional, and social health for individuals with limb loss and other major extremity trauma.</p>
     
-    <p>This article collection encourages submissions that consider the assessment of patient experience, such as preference, symptoms, and health-related quality of life, to inform regulatory and HTA submissions and decisions. Submissions of original research, reviews and discussion and/or response papers addressing recent regulatory and HTA developments in the field are encouraged. Other potential topics for manuscripts may include the application of artificial intelligence and digital health technology in patient experience data research.</p>
+    <p>The LIMB-QOL is the result of a large, collaborative project that was funded by the Congressionally Directed Medical Research Programs of the U.S. Department of Defense and overseen by the University of Delaware.</p>
     
+    <p>This special collection includes foundational manuscripts to introduce the LIMB-QOL measurement system to researchers and clinicians, including the development and implementation of this measurement system for individuals with major extremity injuries.</p>
+    
+    <p>
+        Appel publié par Quality of Life Research.
+        
+        <a href="https://link.springer.com/collections/iaadcbigjb">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-development-of-the-limb-qol-measurement-system/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Assessment of patient experience, preference, symptoms, and health-related quality of life to inform regulatory and HTA submissions and decisions</li>
+        <li>Patient-reported outcomes for limb loss and extremity trauma</li>
         
-        <li>Original research on patient-reported outcomes and clinical outcome assessments in regulatory submissions</li>
+        <li>Physical, emotional, and social health domains in limb injury</li>
         
-        <li>Patient preference information collection and evaluation</li>
+        <li>Development and validation of the Limb Injury Measurement Battery for Quality of Life (LIMB-QOL)</li>
         
-        <li>Reviews and discussion papers addressing recent regulatory and HTA developments in patient experience data</li>
+        <li>Implementation of LIMB-QOL in clinical research and practice</li>
         
-        <li>Application of artificial intelligence and digital health technology in patient experience data research</li>
+        <li>Measurement of functioning and quality of life in individuals with major extremity injuries</li>
         
     </ul>
     
@@ -54,20 +63,21 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>June 30, 2027: Submission deadline</li>
+        <li>Invalid DateTime: Submission deadline</li>
         
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Quality of Life Research (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Enhancing Population Health Assessment: Key Papers from the EQ-DAPHNIE Project]]></title>
             <link>https://kerostig.org/call/springer-enhancing-population-health-assessment-key-papers-from-the-eq-daphnie-project/</link>
             <guid>springer-enhancing-population-health-assessment-key-papers-from-the-eq-daphnie-project</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Brittany Lapin</strong>, Cleveland Clinic</p>
@@ -76,10 +86,18 @@
         
     
     
+    
     <p>EQ-DAPHNIE represents a landmark endeavour in population health assessment and instrument evaluation, funded by the EuroQol Research Foundation. This initiative collected demographics, social determinants of health, as well as an extensive array of generic and symptom-specific patient-reported outcome measures (PROMs) from 15 countries.</p>
     
     <p>This special collection will include papers that delve into a myriad of research questions, including the establishment of population norms for various PROMs, cross-country comparisons, examination of health inequalities, assessment of instrument performance within and across countries, and specialized analyses focusing on self-reported health and the efficacy of different measures within the elderly population.</p>
     
+    <p>
+        Appel publié par Quality of Life Research.
+        
+        <a href="https://link.springer.com/collections/bhhfgeaggi">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-enhancing-population-health-assessment-key-papers-from-the-eq-daphnie-project/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -109,42 +127,49 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Quality of Life Research (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Development of the LIMB-QOL measurement system]]></title>
-            <link>https://kerostig.org/call/springer-development-of-the-limb-qol-measurement-system/</link>
-            <guid>springer-development-of-the-limb-qol-measurement-system</guid>
+            <title><![CDATA[Patient experience data in regulatory and health technology assessment]]></title>
+            <link>https://kerostig.org/call/springer-patient-experience-data-in-regulatory-and-health-technology-assessment/</link>
+            <guid>springer-patient-experience-data-in-regulatory-and-health-technology-assessment</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
-        <p><strong>Jessica Roydhouse</strong>, Menzies Institute for Medical Research</p>
+        <p><strong>Wen-Hung Chen</strong>, AstraZeneca</p>
         
-        <p><strong>Brittany Lapin</strong>, Cleveland Clinic</p>
+        <p><strong>Lori D. McLeod</strong>, RTI Health Solutions</p>
         
     
     
-    <p>The Limb Injury Measurement Battery for Quality of Life (LIMB-QOL) measurement system is a multifaceted patient reported outcome system designed to measure several domains of functioning across physical, emotional, and social health for individuals with limb loss and other major extremity trauma.</p>
     
-    <p>The LIMB-QOL is the result of a large, collaborative project that was funded by the Congressionally Directed Medical Research Programs of the U.S. Department of Defense and overseen by the University of Delaware.</p>
+    <p>Globally, regulatory and health technology assessment (HTA) bodies recognise the importance of hearing from patients when products are being developed and evaluated. Patient-reported outcomes and other clinical outcome assessments are increasingly included in submissions to these bodies. Additionally, recent regulatory guidance also discusses the collection of patient preference information. This broader conceptualisation can be termed &#39;patient experience data&#39; (PED).</p>
     
-    <p>This special collection includes foundational manuscripts to introduce the LIMB-QOL measurement system to researchers and clinicians, including the development and implementation of this measurement system for individuals with major extremity injuries.</p>
+    <p>Despite this recognition, patient experience data are inconsistently included and evaluated by decision-makers. Understanding how different interest-holders approach this is essential for ensuring that patients&#39; voices drive healthcare decisions to ultimately improve patient outcomes and health-related quality of life.</p>
     
+    <p>
+        Appel publié par Quality of Life Research.
+        
+        <a href="https://link.springer.com/collections/fhcacbjcab">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-patient-experience-data-in-regulatory-and-health-technology-assessment/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Patient-reported outcomes for limb loss and extremity trauma</li>
+        <li>Assessment of patient experience, preference, symptoms, and health-related quality of life to inform regulatory and HTA submissions and decisions</li>
         
-        <li>Physical, emotional, and social health domains in limb injury</li>
+        <li>Original research on patient-reported outcomes and clinical outcome assessments in regulatory submissions</li>
         
-        <li>Development and validation of the Limb Injury Measurement Battery for Quality of Life (LIMB-QOL)</li>
+        <li>Patient preference information collection and evaluation</li>
         
-        <li>Implementation of LIMB-QOL in clinical research and practice</li>
+        <li>Reviews and discussion papers addressing recent regulatory and HTA developments in patient experience data</li>
         
-        <li>Measurement of functioning and quality of life in individuals with major extremity injuries</li>
+        <li>Application of artificial intelligence and digital health technology in patient experience data research</li>
         
     </ul>
     
@@ -152,13 +177,13 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>Invalid DateTime: Submission deadline</li>
+        <li>June 30, 2027: Submission deadline</li>
         
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Quality of Life Research (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

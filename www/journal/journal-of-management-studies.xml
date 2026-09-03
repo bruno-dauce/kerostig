@@ -4,7 +4,7 @@
         <title>kerostig | Journal of Management Studies</title>
         <link>https://kerostig.org/journal/journal-of-management-studies/</link>
         <description>Derniers appels à publications pour Journal of Management Studies.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,36 +13,24 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/journal-of-management-studies/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
-        <item>
-            <title><![CDATA[The Dark Sides of Digital Communication]]></title>
-            <link>https://kerostig.org/call/wiley-the-dark-sides-of-digital-communication/</link>
-            <guid>wiley-the-dark-sides-of-digital-communication</guid>
-            <pubDate>Sat, 29 Aug 2026 13:29:53 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 30, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Journal of Management Studies (WILEY)</author>
-        </item>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Board Dynamics in Complex Times]]></title>
             <link>https://kerostig.org/call/wiley-board-dynamics-in-complex-times/</link>
             <guid>wiley-board-dynamics-in-complex-times</guid>
             <pubDate>Sat, 29 Aug 2026 13:29:53 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Journal of Management Studies.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/14676486/cfp/JMS-CFP-Board-Dynamics-1751685485027.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-board-dynamics-in-complex-times/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -53,17 +41,26 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Management Studies (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Organizing Truth in an Age of Polarization and Artificial Intelligence]]></title>
             <link>https://kerostig.org/call/wiley-organizing-truth-in-an-age-of-polarization-and-artificial-intelligence/</link>
             <guid>wiley-organizing-truth-in-an-age-of-polarization-and-artificial-intelligence</guid>
             <pubDate>Sat, 29 Aug 2026 13:29:53 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Journal of Management Studies.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/14676486/cfp/JMS-CFP-Organizing-Truth-1781883474177.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-organizing-truth-in-an-age-of-polarization-and-artificial-intelligence/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -74,8 +71,38 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Management Studies (WILEY)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Dark Sides of Digital Communication]]></title>
+            <link>https://kerostig.org/call/wiley-the-dark-sides-of-digital-communication/</link>
+            <guid>wiley-the-dark-sides-of-digital-communication</guid>
+            <pubDate>Sat, 29 Aug 2026 13:29:53 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Journal of Management Studies.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/14676486/cfp/JMS-Dark-Sides-of-Digital-Communication-CFP-1751387033583.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-the-dark-sides-of-digital-communication/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

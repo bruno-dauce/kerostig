@@ -4,7 +4,7 @@
         <title>kerostig | Tag : previous calls</title>
         <link>https://kerostig.org/tag/previous-calls/</link>
         <description>Derniers appels à publications avec le tag 'previous calls'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,22 +13,31 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/previous-calls/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Previous Calls for Papers]]></title>
             <link>https://kerostig.org/call/wiley-reconsidering-careers-in-post-covid-19-workplaces/</link>
             <guid>wiley-reconsidering-careers-in-post-covid-19-workplaces</guid>
             <pubDate>Mon, 17 Aug 2026 15:52:40 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This section lists previous calls for papers from the Human Resource Management Journal. The calls include topics such as reconsidering careers in post-Covid-19 workplaces, caring for healthcare workers and advancing human resource management research in healthcare contexts, research methodologies that offer insights, and interfacing artificial intelligence technologies with human resource management in new firms.</p>
     
+    <p>
+        Appel publié par Human Resource Management Journal.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/17488583/HRMJ_SI_CfP_Reconsidering-careers-in-post-Covid-19-workplaces-1695915202630.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-reconsidering-careers-in-post-covid-19-workplaces/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     
-</div>]]></content:encoded>
-            <author>Human Resource Management Journal (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

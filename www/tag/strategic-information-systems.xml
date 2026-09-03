@@ -4,7 +4,7 @@
         <title>kerostig | Tag : strategic information systems</title>
         <link>https://kerostig.org/tag/strategic-information-systems/</link>
         <description>Derniers appels à publications avec le tag 'strategic information systems'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,17 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/strategic-information-systems/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Reconfiguring Commerce, Capabilities and Culture in Age of Technological Acceleration]]></title>
             <link>https://kerostig.org/call/elsevier-india-at-the-intersection-reconfiguring-commerce-capabilities-and-culture-in-age-of-technological-acceleration/</link>
             <guid>elsevier-india-at-the-intersection-reconfiguring-commerce-capabilities-and-culture-in-age-of-technological-acceleration</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>India at the intersection of global commerce, technological capabilities, and cultural dynamics presents a unique context for strategic information systems research. This special issue seeks to explore how organizations in India are navigating rapid technological acceleration while maintaining distinct commercial practices and cultural values.</p>
     
+    <p>
+        Appel publié par The Journal of Strategic Information Systems.
+        
+        <a href="https://www.sciencedirect.com/special-issue/327852/india-at-the-intersection-reconfiguring-commerce-capabilities-and-culture-in-age-of-technological-acceleration">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-india-at-the-intersection-reconfiguring-commerce-capabilities-and-culture-in-age-of-technological-acceleration/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -34,8 +43,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>The Journal of Strategic Information Systems (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

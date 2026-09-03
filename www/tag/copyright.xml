@@ -4,7 +4,7 @@
         <title>kerostig | Tag : copyright</title>
         <link>https://kerostig.org/tag/copyright/</link>
         <description>Derniers appels à publications avec le tag 'copyright'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/copyright/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Creativity and copyright in the shadow of GenAI: Managing and organizing creative content in the digitalization frenzy]]></title>
             <link>https://kerostig.org/call/tandf-creativity-and-copyright-in-the-shadow-of-genai-managing-and-organizing-creative-content-in-the-digitalization-frenzy/</link>
             <guid>tandf-creativity-and-copyright-in-the-shadow-of-genai-managing-and-organizing-creative-content-in-the-digitalization-frenzy</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Konstantin Hondros</strong>, Helmut Schmidt University</p>
@@ -34,16 +35,16 @@
         
     
     
+    
     <p>Creativity refers to the generation of novel and valuable ideas and artifacts and is central to the management and organization of innovation. Mimicking creativity, generative artificial intelligence (GenAI) technology rapidly generates potentially novel and valuable content such as text, images, music, or video. The multiple implications of GenAI for the management and organization of creativity and innovation are exemplified in the burgeoning literature on creative problem solving, the organization of creative and knowledge-based work, employee creativity, and human-nonhuman interaction in creative processes.</p>
     
-    <p>Running through organizational discussions of GenAI and creativity, but often not made explicit, are copyright issues, such as rights management of training data or ownership of generated content. Copyright refers to the legal framework that protects but also delineates ownership of creative content. GenAI, and digitization more broadly, is moving copyright from the legal niches of the creative industries to the center of practices and routines in organizations and everyday digital life. Any activity related to GenAI requires the management of copyright within and across organizations. Yet an in-depth discussion of the interrelation between creativity and copyright in the context of GenAI is missing from management and organization studies, as well as social science at large.</p>
-    
-    <p>This Call for Papers suggests that the accelerating developments of digitization and GenAI call for more attention to the interrelation between creativity and copyright in organizations. At the same time, this provides a unique opportunity to study how organizations deal with regulatory uncertainty due to rapid technological developments. Such a mismatch between technology and regulation opens up all kinds of opportunities and challenges for creative organizing and organizing creativity alike.</p>
-    
-    <p>We particularly encourage studies that use empirical methods to explore everyday practices of dealing with GenAI and copyright within and beyond organizational contexts, but conceptual submissions are also very welcome. Empirically, we invite contributions from all kinds of fields potentially affected by GenAI and its relationship to copyright – from the creative industries and journalism to online platforms and services, to research and science itself. We welcome contributions from different disciplines interested in the empirical analysis of technology and innovation – ranging from organization and management studies, media and communication studies, cultural studies, information studies, sociology, political science, history, science and technology studies, musicology, to activist research and practice-based approaches.</p>
-    
-    <p>The aim of this Special Issue is to provide fundamental insights in the management and organization of the interrelation between copyright and creativity in the context of GenAI. We will achieve this by showcasing how this interrelation unfolds in various creative and innovative arenas, such as creative industries, journalism, digital platforms, and open science. We expect contributions to make copyright a more accessible research topic across disciplines and contexts by fostering an interdisciplinary and transdisciplinary community around the topic of copyright and creativity in organization and management. Through this special issue, we aim to occupy a central position in the discourse about organizing and managing creativity in the context of GenAI and emerging digitalization.</p>
-    
+    <p>
+        Appel publié par Innovation.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/creativity-and-copyright-in-the-shadow-of-genai-managing-and-organizing-creative-content-in-the-digitalization-frenzy/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-creativity-and-copyright-in-the-shadow-of-genai-managing-and-organizing-creative-content-in-the-digitalization-frenzy/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -75,8 +76,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Innovation (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

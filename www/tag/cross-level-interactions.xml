@@ -4,7 +4,7 @@
         <title>kerostig | Tag : cross-level interactions</title>
         <link>https://kerostig.org/tag/cross-level-interactions/</link>
         <description>Derniers appels à publications avec le tag 'cross-level interactions'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/cross-level-interactions/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[A Systemic Understanding of Supply Chain Resilience: Cross-Level Interactions, Multi-Level Frameworks, and Theoretical Innovations]]></title>
             <link>https://kerostig.org/call/emerald-a-systemic-understanding-of-supply-chain-resilience-cross-level-interactions-multi-level-frameworks-and-theoretical-innovations/</link>
             <guid>emerald-a-systemic-understanding-of-supply-chain-resilience-cross-level-interactions-multi-level-frameworks-and-theoretical-innovations</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Guoqing Zhao</strong>, Swansea University</p>
@@ -30,14 +31,16 @@
         
     
     
+    
     <p>Over the last decade, supply chains have been repeatedly disrupted by large-scale shocks, such as the COVID-19 pandemic, geographical conflicts (e.g., Russia-Ukraine war, US-China trade tensions), and climate change-related disasters such as the 2021 Henan floods and the 2024 Spanish floods. These events have illustrated how disturbances at one level can cascade across other levels, leading to systemic failure.</p>
     
-    <p>While supply chain resilience has emerged as a dominant theme in supply chain management, the literature remains fragmented, often focusing on a single level of analysis and lacking a systemic understanding. One prominent research stream emphasizes the development of supply chain resilience capabilities, such as collaboration, knowledge management, risk management culture, flexibility, leadership, redundancy, visibility, and information sharing. Another stream explores the role of advanced technologies, including big data analytics, artificial intelligence, and robotics in fostering supply chain resilience. Additional research pathways have also received considerable attention, such as conceptualizing supply chain resilience through vulnerability reduction and disruption management strategies; designing and quantifying resilient supply chain networks; measuring supply chain resilience to performance; and assessing risks and measuring their impacts. Collectively, these studies have generated valuable insights into the conceptualization, construction, and measurement of supply chain resilience, but relatively few have approached it from a systemic perspective.</p>
-    
-    <p>In particular, limited attention has been paid to how cross-level interactions shape supply chain resilience. This gap has led to growing calls for research that adopts systems thinking, positioning resilience as a dynamic, multi-level capability rather than a collection of isolated practices. Supply chain resilience should be understood as a multi-level framework spanning individuals, organizations, and supply chains, with studies examining cross-level interactions. Additionally, supply chain resilience should be conceptualized as the ability of a system to bounce back, adapt, and transform following disruptive events, with research integrating system perspectives such as socio-ecological and engineering resilience. More recent scholarship has advocated for more contextualized understandings of supply chain resilience.</p>
-    
-    <p>This special issue aims to advance a systemic understanding of supply chain resilience by exploring cross-level interactions, building a multi-level framework, and fostering theoretical innovations. While supply chain resilience has been studied extensively, most research remains at a single level of analysis, either individual, organizational, or network. This special issue seeks to overcome this fragmentation by inviting contributions that explain how supply chain resilience emerges from the dynamic interplay across levels, and how these interactions shape both theoretical development and managerial practice.</p>
-    
+    <p>
+        Appel publié par The International Journal of Logistics Management.
+        
+        <a href="https://www.emerald.com/ijlm/calls-for-submissions/1908/A-systemic-understanding-of-supply-chain?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-a-systemic-understanding-of-supply-chain-resilience-cross-level-interactions-multi-level-frameworks-and-theoretical-innovations/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -77,8 +80,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>The International Journal of Logistics Management (EMERALD)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

@@ -4,7 +4,7 @@
         <title>kerostig | Tag : supply chain</title>
         <link>https://kerostig.org/tag/supply-chain/</link>
         <description>Derniers appels à publications avec le tag 'supply chain'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,17 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/supply-chain/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Reshaping Organisations and Supply Chains in a Polycrisis Era: Interdependent Climate, Geopolitical, Economic and Technological Shocks]]></title>
             <link>https://kerostig.org/call/wiley-reshaping-organisations-and-supply-chains-in-a-polycrisis-era-interdependent-climate-geopolitical-economic-and-technological-shocks/</link>
             <guid>wiley-reshaping-organisations-and-supply-chains-in-a-polycrisis-era-interdependent-climate-geopolitical-economic-and-technological-shocks</guid>
             <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This is a special joint initiative between the British Journal of Management and the International Journal of Operations &amp; Production Management, focusing on how organisations and supply chains are being reshaped in response to interconnected polycrisis challenges involving climate, geopolitical, economic, and technological shocks.</p>
     
+    <p>
+        Appel publié par British Journal of Management.
+        
+        <a href="https://www.bam.ac.uk/resource/reshaping-organisations-and-supply-chains-in-a-polycrisis-era-interdependent-climate-geopolitical-economic-and-technological-shocks.html">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-reshaping-organisations-and-supply-chains-in-a-polycrisis-era-interdependent-climate-geopolitical-economic-and-technological-shocks/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -36,15 +45,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>British Journal of Management (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Climate Transition and Operational Risk Modelling: Implications for Supply Chains and Financial Decision-Making]]></title>
             <link>https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/</link>
             <guid>springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Andrea Flori</strong>, Politecnico di Milano</p>
@@ -57,14 +67,16 @@
         
     
     
+    
     <p>Climate-related risks, viewed through a systems operation&#39;s lens, can disrupt the coordination, flow, and stability of financial and economic processes. Although their importance is increasingly acknowledged by academic, regulatory, and practitioner communities, quantifying environmental externalities and designing effective mitigation policies remain open to debate and subject to contention. A key source of uncertainty stems from the transition to a low-carbon economy, particularly concerning its timing and pace. This transition may induce substantial effects on firms, especially those in carbon-intensive sectors, posing systemic challenges to their stability. This underscores the urgent need for rigorous analytical solutions to model climate-related risks and to study their transmission mechanisms within interconnected economic systems.</p>
     
-    <p>From a firm&#39;s perspective, the regulatory push towards decarbonization and more sustainable economic models necessitates an optimal trade-off between transforming production processes and maintaining competitive market performance. This reflects a fundamental conflict between short-term objectives, such as profitability and stakeholder satisfaction, and long-term strategic goals related to sustainability and risk mitigation; transitioning to low-carbon operations demands a long-term planning horizon and a comprehensive assessment of associated risks. However, firms must also remain resilient to sudden exogenous shocks that can destabilize the delicate balance between stakeholder interests and shareholder value maximization. As a result, ensuring business continuity and profit stability may, at times, require a short-term focus. Importantly, even when a firm or sector is well positioned to absorb a direct shock, significant vulnerabilities may persist through indirect exposures, particularly through interdependencies in global supply chains. Recent developments have shown how external disruptions can propagate through production networks, amplifying uncertainty and operational risk. There is therefore a need for integrated modelling approaches that jointly capture carbon emissions, operational disruptions, and related risks across multiple supply chain tiers, framing the problem as a multi-objective optimization task.</p>
-    
-    <p>Due to the progressive integration of financial markets, such interdependencies can occur through, for example, asset price movements, volatility changes, or liquidity shocks, generating non-trivial aggregate patterns that may ultimately lead to market instability. However, how such instability may emerge from supply chain relationships remains largely unexplored. Recent contributions have begun to address this gap, for example, by modelling the effects of carbon pricing on asset values and portfolio risks, examining how optimal credit portfolio realignment can facilitate low-carbon transitions, and investigating how investment horizons influence transition outcomes under uncertainty.</p>
-    
-    <p>The mechanisms by which climate and environmental risks are transmitted to financial and economic systems constitute a multidisciplinary research agenda. Robust stochastic optimization techniques play a critical role in managing credit, counterparty, and supply chain risks that are amplified by the climate transition. Concurrently, advanced machine learning methods, such as supervised learning and natural language processing, offer promising tools for forecasting carbon stranded risks and classifying complex climate policy scenarios, with significant implications for both operational and investment decisions. This call for papers invites contributions that examine how financial institutions are responding to growing uncertainty in portfolio allocation and risk management, driven by evolving climate regulations and the inherent unpredictability of low-carbon transition pathways. We particularly welcome applied and methodological operations research studies that address these challenges in an innovative and rigorous manner.</p>
-    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/baifaedejd">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -102,15 +114,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Digital Technologies for Combating Unethical Labour Practices and Promoting Human Rights]]></title>
             <link>https://kerostig.org/call/springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights/</link>
             <guid>springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Stefan Gold</strong>, Technical University of Munich</p>
@@ -125,22 +138,16 @@
         
     
     
+    
     <p>Unethical labour practices represent a pressing global issue, with an estimated 50 million people currently living in such conditions worldwide. The prevalence of unethical labour practices is expected to increase due to ongoing regional conflicts, economic downturns, and restrictive migration policies in major Western countries. Digital technologies, such as blockchain, artificial intelligence (AI), and cloud computing, promise significant benefits in addressing unethical labour practices and have consequently attracted increasing scholarly attention.</p>
     
-    <p>Modern slavery is one of the most serious forms of unethical labour practices, commonly conceptualized as the recruitment, movement, harbouring or receiving of children, women, or men through means such as coercion, deception, abuse of vulnerability, or the use of force, for the primary purpose of exploitation. It encompasses multiple practices, with prevalent forms including child slavery, human trafficking, forced labour, descent-based slavery, bonded labour, forced and early marriage, and domestic servitude. According to the latest Global Estimates of Modern Slavery, an estimated 49.6 million people are living in conditions of modern slavery worldwide, including 22 million in forced marriage and 27.6 million in forced labour. Ongoing regional conflicts and expulsionist migration policies are expected to further exacerbate modern slavery by intensifying violence, displacing populations, and disrupting social and economic structures.</p>
-    
-    <p>Digital technologies encompass a diverse range of tools, systems, and devices that leverage digital information and processes to enhance activities. These technologies include but are not limited to AI, blockchains, internet of things (IoT), big data analytics, cloud computing, and virtual and augmented reality. Big data and cloud computing are increasingly integrated into enterprise resource planning systems in manufacturing to support informed decision-making. Generative AI applications are being adopted in higher education to enable more efficient information access and content creation.</p>
-    
-    <p>Digital technologies promise significant benefits for addressing unethical labour practices. Monitoring technologies such as remote sensors and worker voice technologies can enhance the identification of unethical labour practices within supply chains. Machine learning and AI can detect patterns of trafficking and slavery in large datasets, facilitating identification of at-risk areas or vulnerable individuals. Blockchain technology can be employed to track supply chain elements, helping to mitigate labour exploitation. Additionally, digital technologies have been proposed as effective tools to support the social inclusion of survivors of modern slavery.</p>
-    
-    <p>The potential of digital technologies to address unethical labour practices has been consistently highlighted by various international organizations. The United Nations Human Rights Office has proposed that digital technologies are an effective means to prevent and address contemporary forms of slavery. Research conducted in partnership with the International Organization for Migration and other organizations has indicated that although digital technologies can support adults with lived experience of unethical labour practices in reintegrating into society, limited research constrains deeper understanding of these mechanisms.</p>
-    
-    <p>Although existing studies have examined the role of digital technologies in addressing unethical labour practices, significant research gaps remain. Current literature has primarily examined technologies from the perspective of focal firms or single technology approaches, while other digital technologies such as biometrics recognition and satellite imagery employed by governments and non-governmental organizations also hold significant potential. Literature reviews indicate that while unethical labour practices remain pressing, there is limited research examining how digital technologies can be employed to monitor, detect, report, and address unethical labour practices, and there is a need for further empirical research to advance understanding in this area.</p>
-    
-    <p>This special issue invites scholars and practitioners to examine the interplay between digital technologies and unethical labour practices, particularly the ways in which digital technologies can be employed to monitor, detect, report, and remediate unethical labour practices in pursuit of an ethical, responsible, and sustainable society. We welcome original, theory-driven research that makes significant contributions to advancing knowledge on this topic. Submissions may use various research methodologies, including theoretical and conceptual approaches, analytical and modelling, case studies and interviews, surveys, and literature reviews. All submissions must clearly identify the specific types of digital technologies being examined.</p>
-    
-    <p>We particularly welcome studies that move beyond surface-level narratives and dominant discourse to provide nuanced and sophisticated insights into the nexus between digital technologies and unethical labour practices. Submissions that challenge existing paradigms, explore underexamined dimensions, or offer innovative perspectives and frameworks are especially encouraged. We seek contributions that extend theoretical boundaries and yield practical implications, thereby informing policymakers, business leaders, and wider society on how to leverage digital technologies to drive meaningful and lasting change in the fight against unethical labour practices.</p>
-    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/baegbehdda">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -176,17 +183,26 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Information Systems Frontiers (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Challenges and Advances in the Biofuel Industry: Navigating Production and Supply Chain Dynamics]]></title>
             <link>https://kerostig.org/call/elsevier-challenges-and-advances-in-the-biofuel-industry-navigating-production-and-supply-chain-dynamics/</link>
             <guid>elsevier-challenges-and-advances-in-the-biofuel-industry-navigating-production-and-supply-chain-dynamics</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Journal of Environmental Management.
+        
+        <a href="https://www.sciencedirect.com/special-issue/324562/challenges-and-advances-in-the-biofuel-industry-navigating-production-and-supply-chain-dynamics">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-challenges-and-advances-in-the-biofuel-industry-navigating-production-and-supply-chain-dynamics/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -197,15 +213,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Environmental Management (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Implementing the Physical Internet: Supply Chain Intelligence, Business Innovation and Transition Pathways]]></title>
             <link>https://kerostig.org/call/tandf-implementing-the-physical-internet-supply-chain-intelligence-business-innovation-and-transition-pathways/</link>
             <guid>tandf-implementing-the-physical-internet-supply-chain-intelligence-business-innovation-and-transition-pathways</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Louis Fauger</strong>, Amazon Research &amp; Georgia Institute of Technology</p>
@@ -216,12 +233,20 @@
         
     
     
+    
     <p>The Physical Internet (PI) is moving from vision to reality. Beyond foundational concepts, organizations are now experimenting with pilots, demonstrators, living labs and large-scale initiatives that test how PI principles can be implemented, governed and scaled. This Special Issue seeks rigorous, practice-oriented and empirically grounded contributions that provide actionable insights for managers, policymakers and supply chain stakeholders. The Special Issue is associated with the IPIC 2026 International Conference (June 2026, France), but submissions are open to all authors.</p>
     
     <p>We welcome papers focusing on the implementation and operationalization of the PI, including empirical studies (qualitative, quantitative or mixed methods), case studies, pilots, demonstrators and living labs, practice-based research and industry-driven innovations, and funded projects and cross-industry initiatives. Conceptual contributions are welcome only if strongly connected to real implementation challenges and managerial implications.</p>
     
     <p>All submissions are expected to adopt a sound scientific methodology while clearly demonstrating managerial relevance and actionable lessons learned.</p>
     
+    <p>
+        Appel publié par Supply Chain Forum: An International Journal.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/scf-physical-internet/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-implementing-the-physical-internet-supply-chain-intelligence-business-innovation-and-transition-pathways/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -263,8 +288,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Supply Chain Forum: An International Journal (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

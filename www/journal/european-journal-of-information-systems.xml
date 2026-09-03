@@ -4,7 +4,7 @@
         <title>kerostig | European Journal of Information Systems</title>
         <link>https://kerostig.org/journal/european-journal-of-information-systems/</link>
         <description>Derniers appels à publications pour European Journal of Information Systems.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,268 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/european-journal-of-information-systems/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
-        <item>
-            <title><![CDATA[Neurophysiological Foundations and Effects of Contemporary Digital Technologies]]></title>
-            <link>https://kerostig.org/call/tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies/</link>
-            <guid>tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>René Riedl</strong>, University of Applied Sciences Upper Austria &amp; Johannes Kepler University Linz</p>
-        
-        <p><strong>Jan vom Brocke</strong>, University of Münster</p>
-        
-        <p><strong>Jella Pfeiffer</strong>, Karlsruhe Institute of Technology</p>
-        
-        <p><strong>Robert Gleasure</strong>, Copenhagen Business School</p>
-        
-    
-    
-    <p>The advent of increasingly powerful artificial intelligence (AI) systems (e.g., large language models (LLMs) such as ChatGPT, diffusion models, graph neural networks, or vision transformers used in domains such as healthcare, manufacturing, software development or finance), together with other contemporary digital technologies (e.g., autonomous cars, immersive worlds, and neuroadaptive interfaces), has fundamentally reshaped human interaction with information systems. As these technologies become embedded in work, consumption, private life, and society in general, the ways in which they affect human cognition, emotion, and social interaction remain poorly understood.</p>
-    
-    <p>A growing body of research highlights that neurophysiological methods can provide unique insights into these phenomena across a broad range of IS contexts—whether AI-driven or not. NeuroIS—the interdisciplinary field that integrates neuroscience and psychophysiological approaches with information systems—has been at the forefront of this movement. Originating at the International Conference on Information Systems (ICIS) in Montréal in 2007, NeuroIS celebrates its 20-year anniversary in 2027. This milestone provides an opportune moment to reflect on the progress achieved, highlight challenges, and chart new directions for NeuroIS research in an era of rapid technological change—incorporating AI, but also extending beyond it.</p>
-    
-    <p>Over the past two decades, NeuroIS research has established the potential of neurophysiological methods such as electroencephalography (EEG), functional magnetic resonance imaging (fMRI), functional near-infrared spectroscopy (fNIRS), eye tracking, and various other neurophysiological measures to enrich IS theory. These approaches have been shown to improve prediction accuracy of different IS phenomena, uncover hidden cognitive and affective mechanisms, and open new methodological horizons. A particularly important trajectory in this research stream has been the integration of neurophysiological and behavioral levels of analysis: by linking neural responses to observable IS-related behaviors and self-report measures, scholars have developed more complete theories of user cognition, emotion, and decision-making.</p>
-    
-    <p>In an era of pervasive digitalization—including, but going beyond, AI—this integration becomes even more essential. Understanding not only what individuals do when interacting with advanced digital systems (including AI), but also how their brains and bodies adapt, allows researchers to explain emergent behaviors such as overreliance, automation bias, algorithm aversion, new forms of collaborative cognition, or &quot;cognitive debt,&quot; that is, the cognitive costs that accumulate when people rely heavily on digital assistants for task execution. Moreover, neurophysiological measures enable the study of phenomena that may remain inaccessible to self-reports or behavioral observation alone, such as unconscious biases, implicit trust, or neural markers of attention and memory.</p>
-    
-    <p>Beyond neurophysiology, this special issue also welcomes work that integrates genetic perspectives into IS research. Prior publications have demonstrated the promise of genetics for explaining individual differences in IS-related behaviors. Combining genetic and neurophysiological approaches may provide a powerful multi-level framework to understand how contemporary digital technologies—including AI, but also other IS artifacts and sociotechnical arrangements—affect humans at both biological and behavioral levels.</p>
-    
-    <p>This special issue therefore seeks high-quality, theory-driven, and methodologically rigorous research that examines the neurophysiological (and related biological) foundations, mechanisms, and effects of contemporary IS technologies and sociotechnical systems—incorporating AI as an important case, but not limiting the scope to AI—while recognizing the need to connect neural-level insights to observable IS-related behavior and self-report measures. We invite submissions from information systems scholars, neuroscientists, psychologists, computer scientists, geneticists, and other disciplines to advance understanding of how contemporary IS reshapes human cognition, affect, decision-making, and social interaction.</p>
-    
-    <p>Importantly, this special issue encourages contributions across the full range of IS research traditions. Neurophysiological and genetic insights may advance design-oriented research, for example by informing new principles for human-centered and neuroadaptive system design. They may also enrich IS economics research, by offering a biological basis for understanding productivity, well-being, or value creation in digitally mediated contexts. Likewise, studies grounded in organizational behavior, strategy, or societal perspectives are highly relevant if they integrate or reflect on neurophysiological evidence. By welcoming diverse approaches, this special issue aims to bridge disciplinary and methodological boundaries and stimulate broad engagement within and beyond the IS community. Furthermore, the application potential of research findings is emphasized, highlighting the importance of ecological validity in NeuroIS research.</p>
-    
-    <p>In line with EJIS&#39; tradition of intellectual openness, this special issue explicitly welcomes visionary, provocative, and contrarian contributions that challenge taken-for-granted assumptions, problematize dominant narratives (including AI-centric ones), or open up unconventional research directions. While studies may employ approaches that are intentionally contrarian, this is not a requirement.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>How does sustained interaction with AI-enabled systems (e.g., LLMs) and other advanced digital tools reshape neural networks associated with language, reasoning, and memory?</li>
-        
-        <li>Does reliance on AI systems and other forms of automation/digital decision support alter attentional control, working memory, metacognition, or problem-solving processes at the neurophysiological and behavioral levels?</li>
-        
-        <li>What are the implications of digitally augmented cognition for neuroplasticity, skill acquisition, and expertise development over time?</li>
-        
-        <li>How can integrated neurophysiological and behavioral measures provide a fuller picture of technology-mediated cognitive processes?</li>
-        
-        <li>How do individuals&#39; brains respond to empathetic or anthropomorphic cues exhibited by conversational AI and other interactive systems?</li>
-        
-        <li>What neurophysiological correlates underlie trust, reliance, distrust, or skepticism toward AI systems as well as toward other algorithmic or platform-based systems?</li>
-        
-        <li>How does emotional regulation change when decision-making is mediated by AI support, algorithmic decision aids, or digital nudges?</li>
-        
-        <li>What are the neurophysiological mechanisms of stress, fatigue, or overload in contexts of AI-assisted work as well as other digitally intensified work settings?</li>
-        
-        <li>How does technological mediation in team collaboration influence the neurophysiological foundations of social coordination, empathy, and shared attention?</li>
-        
-        <li>What neural mechanisms underlie shifts in authority, leadership, and influence when AI becomes a co-decision-maker?</li>
-        
-        <li>How do cultural differences modulate neurophysiological responses to AI and other digitally mediated collaboration settings?</li>
-        
-        <li>How do gender, age, or personality differences modulate neurophysiological responses to IS artifacts?</li>
-        
-        <li>How might AI-driven systems and other algorithmic/persuasive designs reinforce or mitigate cognitive biases?</li>
-        
-        <li>What neural signatures accompany ethical dilemmas and moral decision-making in AI-mediated contexts?</li>
-        
-        <li>How does long-term use of AI and other digitally intensive work systems shape neurophysiological well-being, stress, or mental health at the workplace?</li>
-        
-        <li>How can neurophysiological insights inform the design of AI systems and other digital systems that are more intuitive and aligned with human cognitive limits?</li>
-        
-        <li>What are the neurophysiological underpinnings of productivity, efficiency, or value creation in digitally mediated economic interactions?</li>
-        
-        <li>How can genetic and neurophysiological approaches together explain individual differences in the adoption and use of digital systems?</li>
-        
-        <li>Which neurophysiological tools are best suited for investigating contemporary IS phenomena, and how do trade-offs depend on context and ecological validity?</li>
-        
-        <li>How can hybrid approaches combining neurophysiology with computational methods enrich IS theory development?</li>
-        
-        <li>How can multi-level research designs integrate genetic, neurophysiological, behavioral, self-report, and organizational data to address IS phenomena more holistically?</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>March 31, 2026: Abstract deadline</li>
-        
-        <li>August 31, 2026: First-round paper submission</li>
-        
-    </ul>
-    
-    
-    <h2>Associate editors</h2>
-    <ul>
-        
-        <li><strong>Bonnie B. Anderson</strong>, Brigham Young University</li>
-        
-        <li><strong>Dinko Bačić</strong>, Loyola University Chicago</li>
-        
-        <li><strong>Colin Conrad</strong>, Dalhousie University</li>
-        
-        <li><strong>Verena Dorner</strong>, Vienna University of Economics and Business</li>
-        
-        <li><strong>Nadine R. Gier-Reinartz</strong>, Heinrich-Heine-University Düsseldorf</li>
-        
-        <li><strong>Milena Head</strong>, McMaster University</li>
-        
-        <li><strong>Alan R. Hevner</strong>, University of South Florida</li>
-        
-        <li><strong>Qiqi Jiang</strong>, Copenhagen Business School</li>
-        
-        <li><strong>Marion Korosec-Serfaty</strong>, University of Québec in Montréal</li>
-        
-        <li><strong>Alexander Maedche</strong>, Karlsruhe Institute of Technology</li>
-        
-        <li><strong>Gernot R. Mueller-Putz</strong>, Graz University of Technology</li>
-        
-        <li><strong>Pierre-Majorique Léger</strong>, HEC Montréal</li>
-        
-        <li><strong>Mario Nadj</strong>, University of Duisburg-Essen</li>
-        
-        <li><strong>Fiona Nah</strong>, Singapore Management University</li>
-        
-        <li><strong>Adriane Randolph</strong>, Kennesaw State University</li>
-        
-        <li><strong>Ofir Turel</strong>, University of Melbourne</li>
-        
-        <li><strong>Eric A. Walden</strong>, Texas Tech University</li>
-        
-        <li><strong>Peter Walla</strong>, Sigmund Freud Private University Vienna</li>
-        
-        <li><strong>Dezhi Wu</strong>, University of South Carolina</li>
-        
-    </ul>
-    
-</div>]]></content:encoded>
-            <author>European Journal of Information Systems (TANDF)</author>
-        </item>
-        <item>
-            <title><![CDATA[Theorizing the Data-AI Nexus]]></title>
-            <link>https://kerostig.org/call/tandf-theorizing-the-data-ai-nexus/</link>
-            <guid>tandf-theorizing-the-data-ai-nexus</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>Cristina Alaimo</strong>, ESSEC Business School</p>
-        
-        <p><strong>Lauren Waardenburg</strong>, ESSEC Business School</p>
-        
-        <p><strong>Jonny Holmström</strong>, Umeå University</p>
-        
-        <p><strong>Lior Zalmanson</strong>, Tel Aviv University</p>
-        
-        <p><strong>Reza M. Baygi</strong>, VU Amsterdam</p>
-        
-    
-    
-    <p>We are living through a profound epistemic shift in the history of computation. Contemporary AI systems learn from, operate through, and increasingly generate data at unprecedented scale. Unlike symbolic approaches associated with GOFAI (Good Old-Fashioned AI), advances in machine learning and deep learning have repositioned data—not rules—as the primary substrate of computational intelligence. This transformation compels us to rethink the foundations of AI scholarship within the IS discipline and to develop new theoretical vocabularies to understand the data-AI nexus as a complex socio-technical phenomenon.</p>
-    
-    <p>Data are sociotechnical artefacts shaped by institutional practices, historical trajectories, cognitive frames, and semiotic conventions. As AI systems are built on data, learn from data, and reshape data through processes of classification, prediction, and generation, data are simultaneously increasingly crafted to meet the requirements of AI systems. Training datasets are curated, cleaned, labelled, augmented, and optimized with particular model architectures in mind. In this recursive dynamic, the boundary between data and AI becomes blurred, demanding renewed conceptual attention to how organisations&#39; social fabric alters in the wake of AI.</p>
-    
-    <p>Experts and organisations primarily encounter and shape AI through data practices: generating inputs, curating datasets, fine-tuning models, evaluating outputs, and conducting quality control. To understand AI in organisational contexts, we must therefore unpack the socio-cognitive and technical processes of data production, cleaning, transformation, and governance; that is, the data work embedded in everyday organisational routines. These processes extend beyond individual tasks to encompass institutional histories of data: organisational memory, sedimented classification systems, collective sensemaking, and enduring cognitive frames. Such historically layered infrastructures shape both how AI systems are designed and how their outputs are interpreted.</p>
-    
-    <p>AI is no longer trained only on data understood as structured database entries. Today, AI systems rely on an expanding range of materials, digital and analogue alike, that are transformed into training input. For the first time, AI also generates data. Synthetic data—text, images, code, and other artefacts generated by machines—are becoming a key input for model training, fine-tuning, and evaluation. The growing use of synthetic data for training purposes may be motivated by performance considerations, but also by issues of privacy, scarcity, access, and governance. When synthetic data, disconnected from social practice, recursively feed new models, the challenge becomes institutional, as human actors defer to AI even where scepticism and independent judgment are needed for legitimizing AI-generated material.</p>
-    
-    <p>We invite submissions that advance our understanding of the data-AI nexus by foregrounding a dialogue between existing research traditions on data and AI, which have often remained disconnected. We particularly welcome theoretically ambitious and empirically rich studies that move beyond purely technical accounts of AI to explore its socio-technical, organisational, and epistemic dimensions. We encourage submissions that interrogate how data shape AI systems, how AI systems reshape the data they consume, and what happens when data becomes increasingly detached from practices of representation and meaning making.</p>
-    
-    <p>We aim to catalyse how IS scholars conceptualise and study the interdependencies between data, AI, and social practice. We seek contributions that treat the data-AI nexus not as a technical backdrop but as a core analytical problem that reshapes how knowledge is produced, validated, and institutionalized in digital societies. We welcome empirical and conceptual contributions embracing a broad range of paradigms, methodological approaches, and levels of analysis, valuing diversity in theories, methods, and genres.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Data and AI co-constitution: exploring where and when intelligence in AI emerges in computational architectures, datasets, or their entanglement, and how choices about data selection, curation, labelling, and historical accumulation shape what AI systems can know and do</li>
-        
-        <li>AI as a data-maker: conceptualizing AI as an active producer of data that structures, generates, and transforms the data it relies on, including the rise of AI agents and recursive dynamics where synthetic data becomes input for other AI systems</li>
-        
-        <li>Data decoupled from practice: examining consequences of data production detached from institutionalized knowledge practices or situated practices of meaning-making, and implications for governance and decision-making</li>
-        
-        <li>The social life of the data-AI nexus: tracing institutional, historical, and cognitive trajectories of data as it is produced, curated, transformed, and mobilized, including how organizational memory and AI agents reshape institutional dynamics</li>
-        
-        <li>Theoretical and methodological advances: reconceptualizing constructs such as intelligence, data quality, ground truth, training, and synthetic data as relational, temporal, and emergent phenomena</li>
-        
-        <li>Cross-level insights: studying how assumptions about data and intelligence are embedded in AI systems and reshape organizational practices and societal outcomes</li>
-        
-        <li>Data work in organizations: examining curation, labelling, cleaning, evaluation, model development practices, and integration of generative AI into workflows</li>
-        
-        <li>Data, AI, and grand challenges: addressing climate change, public health, inequality, digital governance through responsible AI in contexts with incomplete, biased, or synthetic data</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>May 28, 2026: Call launch at the Theorizing Data &amp; AI Conference</li>
-        
-        <li>January 15, 2027: Initial paper submission deadline</li>
-        
-        <li>April 15, 2027: First round authors notification</li>
-        
-        <li>May 1, 2027: Workshop for first round authors during Theorizing Data &amp; AI Conference</li>
-        
-        <li>July 31, 2027: Invited revisions deadline</li>
-        
-        <li>October 31, 2027: Second round authors notification</li>
-        
-        <li>January 15, 2028: Final revision deadline</li>
-        
-    </ul>
-    
-    
-    <h2>Associate editors</h2>
-    <ul>
-        
-        <li><strong>Aleksi Aaltonen</strong>, 
-Ida Asadi Someh</li>
-        
-        <li><strong>Ioanna Constantiou</strong>, 
-Domenico di Prisco</li>
-        
-        <li><strong>Mayur Joshi</strong>, 
-Ekaterina Jussupow</li>
-        
-        <li><strong>Jannis Kallinikos</strong>, 
-Tomislav Karačić</li>
-        
-        <li><strong>Stan Karanasios</strong>, 
-Alexander Kempton</li>
-        
-        <li><strong>Angelos Kostis</strong>, 
-Harris Kyriakou</li>
-        
-        <li><strong>Christine Legner</strong>, 
-Kalle Lyytinen</li>
-        
-        <li><strong>Eric Monteiro</strong>, 
-Jeff Parsons</li>
-        
-        <li><strong>Mike Power</strong>, 
-Jan Recker</li>
-        
-        <li><strong>Paavo Ritala</strong>, 
-Marta Stelmaszak Rosa</li>
-        
-        <li><strong>Lauri Wesssel</strong>, 
-</li>
-        
-    </ul>
-    
-</div>]]></content:encoded>
-            <author>European Journal of Information Systems (TANDF)</author>
-        </item>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Digital Visibility: Design, Management, & Impacts]]></title>
             <link>https://kerostig.org/call/tandf-digital-visibility-design-management-and-impacts-incl-paper-development-workshop/</link>
             <guid>tandf-digital-visibility-design-management-and-impacts-incl-paper-development-workshop</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Aljona Zorina</strong>, NEOMA Business School</p>
@@ -289,24 +35,16 @@ Marta Stelmaszak Rosa</li>
         
     
     
+    
     <p>Digital visibility - the practice of making oneself or others visible through digital technologies - has become a defining condition of modern society, though it remains theoretically fragmented. Across organizations, platforms, and communities, algorithmic systems, digital and data infrastructures increasingly shape how individuals and collectives become visible, valued, and heard or alternatively are rendered invisible, precarious, and excluded. This creates ongoing reconfiguration to the conditions under which actors coordinate, communicate and collaborate.</p>
     
-    <p>We are witnessing a shift where visibility is no longer a secondary organizational feature or a byproduct of digitalization but a primary mechanism through which strategy, performance, power, identity, and modes of organizing and collaboration are constructed. Digital technologies produce new forms of visibility by identifying patterns in human behavior to inform managerial action and decision-making. For example, digitally informed visibility shapes identity and recognition, redefines actor expertise and legitimacy and who becomes empowered. In digital work environments, visibility becomes both a resource and a burden, generating pressure and fear of exile. In response, actors engage in visibility games - individual and collective strategies aimed at managing digital presence, algorithmic performance, and evaluative signals. Under such conditions, control over digital identity assets and over who can see, circulate, and capture value is becoming a central concern of technical, legal, economic, and organizational leadership in the twenty-first century and defines who participates, and under what conditions. AI combined with digital visibility enables decentralized autonomous organizations (DAOs), where records and tracing from blockchain smart contracts reshapes how trust and reciprocity can be granted to strangers.</p>
-    
-    <p>These developments challenge longstanding assumptions that visibility is a desirable feature of how we organize and collaborate, as often emphasized in the literatures on open-source software, wikis, and open innovation. Automated tools increasingly shape visibility by highlighting valuable contributions, flagging problematic behavior, or recommending collaborators, thereby creating new hierarchies of visibility. At the same time, digital visibility filters community activity, enabling new ways to balance transparency and opacity. The rise of bots further complicates these dynamics, as automated agents can shape human visibility and even evade human oversight.</p>
-    
-    <p>Where visibility and transparency were once predominantly viewed as virtuous organizing principles (i.e., through enabling accountability and widespread participation), the contemporary landscape reveals a far more contested picture. The rise of surveillance capitalism demonstrates how platforms weaponize visibility to extract behavioral surplus from consumers and gig workers. Similarly, the spread of digital authoritarianism reveals how state actors leverage visibility infrastructures to monitor and punish dissent, forcing them to actively manage digital invisibility as a matter of safety and survival. In these contexts, increased visibility is not necessarily a benevolent condition but a potential instrument of control and extraction. This raises key questions: whose visibility serves whose interests, under what conditions digital visibility becomes beneficial or harmful, and which factors and processes shape who sees and who is seen.</p>
-    
-    <p>While digital visibility dramatically transforms all aspects of modern organizations, our theories for understanding such changes systematically are lagging. Established theoretical frameworks were largely developed for bounded, human-mediated and non-digital visibility and require re-thinking to grasp contemporary forms of visibility that are algorithmic, synthetic, and infrastructural in nature. There is an urgent need for new conceptual frameworks, research agendas and empirical insights that can account for how digital visibility can be understood, designed, analyzed, and leveraged in modern organizing.</p>
-    
-    <p>This Special Issue focuses on the implications of digital visibility and invisibility and how they are altering the nature, scope, and stakes involved in organizing and managing the activities of human and non-human agents. By bringing together research on design, infrastructures, work, organizing, technology, power, agency, decision-making, and data, this Special Issue seeks to advance a coherent and timely research agenda on digital visibility and its implications for the present and future of organizing.</p>
-    
-    <p>This Special Issue adopts an intentionally broad and inclusive scope, welcoming contributions not only from the Information Systems field but also from related disciplines such as organization studies, the sociology of technology, science and technology studies, strategy, accounting and control, and adjacent fields concerned with digital, algorithmic, and data-driven forms of organizing. Submissions may address, but are not limited to, topics such as social media, platforms, data and analytics, system design and development, digital innovation, governance, and emerging digital infrastructures.</p>
-    
-    <p>We invite a wide range of methodological approaches, including empirical and conceptual work, theory-building and philosophical contributions, qualitative, quantitative, computational, simulation, econometric, critical, and design science research, as well as opinion and commentary pieces, and methodological innovations that develop new ways of studying digital visibility.</p>
-    
-    <p>This year&#39;s Paper Development Workshop (PDW) will be held fully online. We made this change to widen participation and simplify logistics for authors joining from around the world. Submission to the EJIS Special Issue is open to all authors regardless of participation in the PDW. Authors may optionally submit a short abstract (up to 1,000 words) ahead of the workshop. Each submission will receive brief, personalized feedback from the editorial team, highlighting the strengths of the submission and aspects that need further development, rather than a detailed review. Authors invited to proceed will then prepare a five-page abstract for discussion at the online PDW.</p>
-    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ejis-digital-visibility/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-digital-visibility-design-management-and-impacts-incl-paper-development-workshop/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -395,15 +133,16 @@ Marta Stelmaszak Rosa</li>
         
     </ul>
     
-</div>]]></content:encoded>
-            <author>European Journal of Information Systems (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Native IS Theories]]></title>
             <link>https://kerostig.org/call/tandf-native-is-theories/</link>
             <guid>tandf-native-is-theories</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Varun Grover</strong>, University of Arkansas</p>
@@ -420,14 +159,18 @@ Marta Stelmaszak Rosa</li>
         
     
     
+    
     <p>The pervasive and unprecedented digitization of organizational and human experience represents a major challenge to past and existing theorizing methods. Recent efforts emphasize that with the rise in complexity in this digitized world, we need to rethink our theories and create new theories to guide us. What is needed are new theories that connect new concepts to grasp the unprecedented and link them to existing concepts or other new concepts, that explain and answer why such phenomena are happening.</p>
     
     <p>This special issue calls for native IS theories that explain the nexus between digital technology and social and organizational phenomena. Building theories is highly challenging, but essential to establish the field as a socially and intellectually influential discipline. Theory should not be restricted to causal mechanisms or viewed too inclusively, but rather take the form of scientific understanding and systematic explanation that contains logically interconnected sets of propositions, symbolic conjectures, and empirical generalizations, tied to the IS discourse.</p>
     
-    <p>To fulfill the criterion that theory be tied to IS discourse, the special issue seeks studies that focus on the uniqueness of phenomena, assumptions, boundary conditions, concepts, and logic to IS. Every theory proposed should be tied to an explicit why question about an IS phenomenon. Articles may apply one of two major approaches: either deeply engage with existing theory and demonstrate how these theories address or don&#39;t address unprecedented IS phenomena, or propose novel native IS theories that are different from established theories and explain why new theoretical positions are needed.</p>
-    
-    <p>The special issue seeks articles that either deeply engage with existing theories or propose new native IS theories on unprecedented emergent IS phenomena. Researchers are encouraged to investigate emerging phenomena that are capturing the attention of society and in need of better explanations, such as digital technologies shaping public opinion, algorithmic amplification of social tendencies, threats to cybersecurity and privacy, deepfakes and synthetic newsrooms, ethical and legal implications from emerging technologies, disruption from artificial intelligence generative content, and societal impacts from misinformation and disinformation. There are also opportunities in areas such as energy informatics, green IS, and sustainability digital initiatives that can benefit from native IS theories.</p>
-    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ejis-native-is-theories/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-native-is-theories/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -475,15 +218,280 @@ Marta Stelmaszak Rosa</li>
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>European Journal of Information Systems (TANDF)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Neurophysiological Foundations and Effects of Contemporary Digital Technologies]]></title>
+            <link>https://kerostig.org/call/tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies/</link>
+            <guid>tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>René Riedl</strong>, University of Applied Sciences Upper Austria &amp; Johannes Kepler University Linz</p>
+        
+        <p><strong>Jan vom Brocke</strong>, University of Münster</p>
+        
+        <p><strong>Jella Pfeiffer</strong>, Karlsruhe Institute of Technology</p>
+        
+        <p><strong>Robert Gleasure</strong>, Copenhagen Business School</p>
+        
+    
+    
+    
+    <p>The advent of increasingly powerful artificial intelligence systems (e.g., large language models such as ChatGPT, diffusion models, graph neural networks, or vision transformers used in healthcare, manufacturing, software development or finance), together with other contemporary digital technologies (e.g., autonomous cars, immersive worlds, and neuroadaptive interfaces), has fundamentally reshaped human interaction with information systems. As these technologies become embedded in work, consumption, private life, and society in general, the ways in which they affect human cognition, emotion, and social interaction remain poorly understood.</p>
+    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ejis-neurois/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>How does sustained interaction with AI-enabled systems (e.g., LLMs) and other advanced digital tools reshape neural networks associated with language, reasoning, and memory?</li>
+        
+        <li>Does reliance on AI systems and other forms of automation/digital decision support alter attentional control, working memory, metacognition, or problem-solving processes at the neurophysiological and behavioral levels?</li>
+        
+        <li>What are the implications of digitally augmented cognition for neuroplasticity, skill acquisition, and expertise development over time?</li>
+        
+        <li>How can integrated neurophysiological and behavioral measures provide a fuller picture of technology-mediated cognitive processes?</li>
+        
+        <li>How do individuals&#39; brains respond to empathetic or anthropomorphic cues exhibited by conversational AI and other interactive systems?</li>
+        
+        <li>What neurophysiological correlates underlie trust, reliance, distrust, or skepticism toward AI systems and other algorithmic or platform-based systems?</li>
+        
+        <li>How does emotional regulation change when decision-making is mediated by AI support, algorithmic decision aids, or digital nudges?</li>
+        
+        <li>What are the neurophysiological mechanisms of stress, fatigue, or overload in contexts of AI-assisted work and other digitally intensified work settings?</li>
+        
+        <li>How does technological mediation in team collaboration influence the neurophysiological foundations of social coordination, empathy, and shared attention?</li>
+        
+        <li>What neural mechanisms underlie shifts in authority, leadership, and influence when AI becomes a co-decision-maker?</li>
+        
+        <li>How do cultural differences modulate neurophysiological responses to AI and other digitally mediated collaboration settings?</li>
+        
+        <li>How do gender, age, or personality differences modulate neurophysiological responses to IS artifacts?</li>
+        
+        <li>How might AI-driven systems and other algorithmic/persuasive designs reinforce or mitigate cognitive biases?</li>
+        
+        <li>What neural signatures accompany ethical dilemmas and moral decision-making in AI-mediated contexts and broader digital governance settings?</li>
+        
+        <li>How does long-term use of AI and other digitally intensive work systems shape neurophysiological well-being, stress, or mental health at the workplace?</li>
+        
+        <li>How can neurophysiological insights inform the design of AI systems and other digital systems that are more intuitive and aligned with human cognitive limits?</li>
+        
+        <li>What are the neurophysiological underpinnings of productivity, efficiency, or value creation in digitally mediated economic interactions?</li>
+        
+        <li>How can genetic and neurophysiological approaches together explain individual differences in the adoption and use of digital systems?</li>
+        
+        <li>Which neurophysiological tools are best suited for investigating contemporary IS phenomena?</li>
+        
+        <li>How can hybrid approaches combining neurophysiology with computational methods enrich IS theory development?</li>
+        
+        <li>How can multi-level research designs integrate genetic, neurophysiological, behavioral, self-report, and organizational data to address IS phenomena more holistically?</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 31, 2026: Abstract deadline</li>
+        
+        <li>August 31, 2026: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Bonnie B. Anderson</strong>, Brigham Young University</li>
+        
+        <li><strong>Dinko Bačić</strong>, Loyola University Chicago</li>
+        
+        <li><strong>Colin Conrad</strong>, Dalhousie University</li>
+        
+        <li><strong>Verena Dorner</strong>, Vienna University of Economics and Business</li>
+        
+        <li><strong>Nadine R. Gier-Reinartz</strong>, Heinrich-Heine-University Düsseldorf</li>
+        
+        <li><strong>Milena Head</strong>, McMaster University</li>
+        
+        <li><strong>Alan R. Hevner</strong>, University of South Florida</li>
+        
+        <li><strong>Qiqi Jiang</strong>, Copenhagen Business School</li>
+        
+        <li><strong>Marion Korosec-Serfaty</strong>, University of Québec in Montréal</li>
+        
+        <li><strong>Alexander Maedche</strong>, Karlsruhe Institute of Technology</li>
+        
+        <li><strong>Gernot R. Mueller-Putz</strong>, Graz University of Technology</li>
+        
+        <li><strong>Pierre-Majorique Léger</strong>, HEC Montréal</li>
+        
+        <li><strong>Mario Nadj</strong>, University of Duisburg-Essen</li>
+        
+        <li><strong>Fiona Nah</strong>, Singapore Management University</li>
+        
+        <li><strong>Adriane Randolph</strong>, Kennesaw State University</li>
+        
+        <li><strong>Ofir Turel</strong>, University of Melbourne</li>
+        
+        <li><strong>Eric A. Walden</strong>, Texas Tech University</li>
+        
+        <li><strong>Peter Walla</strong>, Sigmund Freud Private University Vienna</li>
+        
+        <li><strong>Dezhi Wu</strong>, University of South Carolina</li>
+        
+    </ul>
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The future of creating and distributing value in digital health ecosystems]]></title>
+            <link>https://kerostig.org/call/tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems/</link>
+            <guid>tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Lauri Wessel</strong>, European University Viadrina Frankfurt (Oder)</p>
+        
+        <p><strong>Melanie Reuter-Oppermann</strong>, Maastricht University</p>
+        
+        <p><strong>Roxana Ologeanu-Taddei</strong>, University of Montpellier</p>
+        
+        <p><strong>Hannes Rothe</strong>, University of Duisburg-Essen</p>
+        
+        <p><strong>Sirkka L. Jarvenpaa</strong>, The University of Texas at Austin</p>
+        
+    
+    
+    
+    <p>Digital health is associated with the use and development of digital technologies to improve health. Use, development, and design of the according technologies have in recent years led to a considerable shift. Specifically, practices affecting an individual&#39;s health have been shifted from inside hospitals into wider digital health ecosystems where providers, patients, their loved ones, and laypersons interact to jointly shape how care is provided. IS research has greatly advanced in terms of better understanding the technological foundations of this shift such as artificial intelligence (AI) applications, sensor-based technologies, and smartphone apps. However, at least two major trajectories of research arise from this shift and its underlying technologies.</p>
+    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/digital-health-ecosystems/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>The role of data management and data sharing in digital health ecosystems</li>
+        
+        <li>Designing for measuring kinds of value arising from new digital technologies like XR, 5G, web 3.0, and machine or hybrid learning in digital health ecosystems</li>
+        
+        <li>The role of digital health ecosystems during pandemics or natural disasters; specifically with an eye toward how data help to distribute value among ecosystem participants</li>
+        
+        <li>(Data-driven) change of professional roles, identities, and institutions in digital health ecosystems</li>
+        
+        <li>The difference between creating value for intervention vs. for prevention</li>
+        
+        <li>Design of inclusive and responsible digital technologies for healthcare and well-being</li>
+        
+        <li>Digital tools and use of digital health data to connect different participants of health service networks, to support decision making and to improve organizational processes</li>
+        
+        <li>Negative consequences of digital technologies implementation in healthcare, such as health givers burnout and patients&#39; anxiety</li>
+        
+        <li>The role of digital tools like virtual coaching for autonomy of health care providers and patients</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 1, 2026: Submission of extended abstracts/declaration of interest to submit papers to the special issue</li>
+        
+        <li>November 30, 2026: Full paper submission deadline</li>
+        
+        <li>March 31, 2027: First round decisions due</li>
+        
+        <li>September 30, 2027: Revisions due</li>
+        
+        <li>December 15, 2027: Second round decisions due</li>
+        
+        <li>February 28, 2028: Third round revisions due (if necessary)</li>
+        
+        <li>May 31, 2028: Final decisions due</li>
+        
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Aleksi Aaltonen</strong>, Stevens Institute of Technology</li>
+        
+        <li><strong>Saeed Akhlaghpour</strong>, University of Queensland</li>
+        
+        <li><strong>Aycan Aslan</strong>, IT University Copenhagen</li>
+        
+        <li><strong>Anna Essén</strong>, Stockholm School of Economics</li>
+        
+        <li><strong>Heiko Gewald</strong>, HS Neu-Ulm</li>
+        
+        <li><strong>Martin Gersch</strong>, Freie Universität Berlin</li>
+        
+        <li><strong>Camille Grangé</strong>, HEC Montréal</li>
+        
+        <li><strong>Maike Greve</strong>, Copenhagen Business School</li>
+        
+        <li><strong>Farkhondeh Hassan Doust</strong>, University of Auckland</li>
+        
+        <li><strong>Alexander Kempton</strong>, University of Oslo</li>
+        
+        <li><strong>Charlotte Koehler</strong>, European University Viadrina Frankfurt (Oder)</li>
+        
+        <li><strong>Johann Kranz</strong>, LMU</li>
+        
+        <li><strong>Jan-Marco Leimeister</strong>, University of St. Gallen</li>
+        
+        <li><strong>Wolfgang Maaß</strong>, Saarland University</li>
+        
+        <li><strong>Bogdan Negoita</strong>, HEC Montréal</li>
+        
+        <li><strong>Lemai Nguyen</strong>, Deakin University</li>
+        
+        <li><strong>Guy Paré</strong>, HEC Montréal</li>
+        
+        <li><strong>Scott Thiebes</strong>, Karlsruhe Institute of Technology</li>
+        
+        <li><strong>Manuel Trenz</strong>, University of Göttingen</li>
+        
+        <li><strong>Cristina Trocin</strong>, Católica Porto Business School</li>
+        
+        <li><strong>Marjolein van Offenbeek</strong>, University of Groningen</li>
+        
+        <li><strong>Polyxeni Vassilakopoulou</strong>, University of Agder</li>
+        
+        <li><strong>Till Winkler</strong>, Fernuniversität Hagen</li>
+        
+    </ul>
+    
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Theorising Time in a Digital Era: New Horizons for IS Research]]></title>
             <link>https://kerostig.org/call/tandf-theorising-time-in-a-digital-era-new-horizons-for-is-research/</link>
             <guid>tandf-theorising-time-in-a-digital-era-new-horizons-for-is-research</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Kieran Conboy</strong>, University of Galway</p>
@@ -496,22 +504,16 @@ Marta Stelmaszak Rosa</li>
         
     
     
+    
     <p>Technology has fundamentally transformed the way we experience time and temporality, having permeated all aspects of our lives. It influences the way we work, how we live, and aspects of our identity, by shifting the way we communicate with others, accelerating information flows and enabling constant connectivity. As technologies evolve and digital infrastructures increasingly shape organisational and societal life, questions of temporality—speed, duration, sequencing, rhythm, and timing—become central to how we design, adopt, use, and study Information Systems (IS).</p>
     
-    <p>While time is an inherently complex, multifaceted, subtle concept and is by nature socially embedded, it is often examined simplistically, adopting a clock-time perspective, with the focus being on speed and duration. Some disciplines such as Organisation Studies are making significant progress in understanding and theorising various aspects of temporal complexity and structuring. Yet, within the IS discipline, IS researchers are often quick to highlight the impact of information systems on the speed of organisational and social life, but can be slow to address the polymorphous, complex and nuanced nature of time in IS research. Despite a few notable exceptions, studies with a temporal dimension tend to address temporal complexity partially rather than comprehensively. Time remains theoretically elusive in contemporary studies of information systems, often excluded or included only as a &#39;hidden dimension&#39;. IS literature on time and temporality emerges as fragmented and lacks the cumulative tradition and theoretical glue necessary. As the field matures, treating time as a central concept and construct is essential to theory development and progress.</p>
-    
-    <p>This is particularly problematic in IS, given the centrality of time to many aspects of study in the field. Time, and more specifically speed, is often the raison d&#39;etre of emerging technology, with promises of enabling real-time decision-making and implementation of action at unprecedented speed and scale. Data typically has a time value, where a data report five minutes before a meeting may be incredibly valuable, but one second after the meeting the value drops to zero. However, data can also increase in value over time as it is combined or new uses are found. Technology is usually developed under time pressure, with a rarely questioned assumption that organisations&#39; use of technology must help them survive and thrive in the seemingly never-ending environment of dynamism and acceleration. IS researchers often use speed as a methodological proxy and even a synonym for IS value and success. However, technological speed and acceleration can undermine learning and collective creativity, and limit participation by those who are irreversibly impacted.</p>
-    
-    <p>Temporality in information systems manifests across multiple temporal scales, ranging from moment-to-moment interactions to decades-long institutional transformations. The special issue encourages submissions that illuminate how digital technologies shape, mediate, or are embedded within temporal structures, rhythms, paths, and trajectories at any of these scales.</p>
-    
-    <p>Across all temporal scales, the special issue especially welcomes work that advances theoretical and methodological discussions of time in Information Systems research. This includes analyses of flows, sequences, rhythms, tempos, trajectories, paths, and path nets, with more explicit attention to how temporal constructs are represented, theorised, and operationalised in IS scholarship.</p>
-    
-    <p>The special issue also encourages contributions that link IS, temporality, and grand challenges such as climate change, pandemics, inequality, and social movements, which require multi-generational coordination, long-term data stewardship, and sustained digital infrastructures. Additionally, the special issue seeks cross-level insights into how temporal assumptions are embedded in IS and how they reshape experiences and outcomes.</p>
-    
-    <p>The majority of empirical IS studies use time from a methodological perspective to merely strengthen causal claims. The special issue contends that the IS field is uniquely positioned to not just apply temporal techniques gleaned from other disciplines, but to inform and lead how the study of time and temporal complexity can be conducted. IS researchers can now analyse vast amounts of trace data on an unprecedented scale and engage in computationally intensive theory construction, with many emerging techniques that could be used or adapted for studying the complexities and nuances of time and technology.</p>
-    
-    <p>The special issue envisions providing a deeper understanding of time to clarify and enhance knowledge that can explain phenomena important to IS. While contributions from other disciplines are welcome, papers where the IS artefact is foregrounded, being the central focus of the paper, are prioritised. The special issue welcomes empirical and conceptual contributions, all methodological approaches and paradigms, and studies at different levels of analysis. The journal values contrarian papers that challenge conventional assumptions, theories, and methods.</p>
-    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ejis-theorising-time/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-theorising-time-in-a-digital-era-new-horizons-for-is-research/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -610,58 +612,59 @@ Marta Stelmaszak Rosa</li>
         
     </ul>
     
-</div>]]></content:encoded>
-            <author>European Journal of Information Systems (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[The future of creating and distributing value in digital health ecosystems]]></title>
-            <link>https://kerostig.org/call/tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems/</link>
-            <guid>tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems</guid>
+            <title><![CDATA[Theorizing the Data-AI Nexus]]></title>
+            <link>https://kerostig.org/call/tandf-theorizing-the-data-ai-nexus/</link>
+            <guid>tandf-theorizing-the-data-ai-nexus</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
-        <p><strong>Lauri Wessel</strong>, European University Viadrina Frankfurt (Oder)</p>
+        <p><strong>Cristina Alaimo</strong>, ESSEC Business School</p>
         
-        <p><strong>Melanie Reuter-Oppermann</strong>, Maastricht University</p>
+        <p><strong>Lauren Waardenburg</strong>, ESSEC Business School</p>
         
-        <p><strong>Roxana Ologeanu-Taddei</strong>, University of Montpellier</p>
+        <p><strong>Jonny Holmström</strong>, Umeå University</p>
         
-        <p><strong>Hannes Rothe</strong>, University of Duisburg-Essen</p>
+        <p><strong>Lior Zalmanson</strong>, Tel Aviv University</p>
         
-        <p><strong>Sirkka L. Jarvenpaa</strong>, The University of Texas at Austin</p>
+        <p><strong>Reza M. Baygi</strong>, VU Amsterdam</p>
         
     
     
-    <p>Digital health is associated with the use and development of digital technologies to improve health. Use, development, and design of the according technologies have in recent years led to a considerable shift. Specifically, practices affecting an individual&#39;s health have been shifted from inside hospitals into wider digital health ecosystems where providers, patients, their loved ones, and laypersons interact to jointly shape how care is provided. IS research has greatly advanced in terms of better understanding the technological foundations of this shift such as artificial intelligence (AI) applications, sensor-based technologies, and smartphone apps. However, at least two major trajectories of research arise from this shift and its underlying technologies.</p>
     
-    <p>First, creating value in digital health ecosystems demands to take into account diverse kinds of value to be potentially created through these technologies. Financial value is an important kind of value to be created in digital health ecosystems; however, it is by far not the sole kind of value that matters in these settings. It is important to understand which kinds of value technology helps to create as well as how, why, and when it does so. Second, creating value is not per se synonymous with distributing it so that an important line of inquiry is about how to distribute value among ecosystem participants and over time.</p>
+    <p>We are living through a profound epistemic shift in the history of computation. Contemporary AI systems learn from, operate through, and increasingly generate data at unprecedented scale. Unlike symbolic approaches associated with GOFAI (Good Old-Fashioned AI), advances in machine learning and deep learning have repositioned data—not rules—as the primary substrate of computational intelligence. This transformation compels us to rethink the foundations of AI scholarship within the IS discipline and to develop new theoretical vocabularies to understand the data-AI nexus as a complex socio-technical phenomenon.</p>
     
-    <p>We are asking for papers speaking to these topics and see two broad ways in which submissions to our special issue could do so. The first is cumulative and much in line with how research in IS and adjacent fields such as computer science, management, and medicine is conventionally done. It resides in furthering our understandings and toolkits for creating value in digital health ecosystems. However, the more data are available the higher is arguably the potential for misuse, especially when genomic and bio data are in question. This is why research about creating value from data logically calls for research about how to distribute value among ecosystems participants.</p>
-    
-    <p>The second way to address the abovementioned research trajectories is consistent with promoting contrarian studies. We see much promise of contrarian studies investigating the creation and distribution of value in digital health ecosystems. Research about digital health is replete with assumptions touching on the outcomes that large volumes of data are likely to generate. This stands in stark contrast to the fact that on the ground floor where most clinicians work the data are hardly ever available in the format, quality or volume needed to even remotely live up to these expectations. It is, therefore, paramount to offer fundamentally new ways of thinking about creating and distributing value in digital health ecosystems.</p>
-    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/theorizing-the-data-ai-nexus/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-theorizing-the-data-ai-nexus/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>The role of data management and data sharing in digital health ecosystems</li>
+        <li>Data and AI co-constitution: exploring where and when intelligence in AI emerges in computational architectures, datasets, or their entanglement, and how choices about data selection, curation, labelling, and historical accumulation shape what AI systems can know and do</li>
         
-        <li>Designing for measuring kinds of value arising from new digital technologies like XR, 5G, web 3.0, and machine or hybrid learning in digital health ecosystems</li>
+        <li>AI as a data-maker: conceptualizing AI as an active producer of data that structures, generates, and transforms the data it relies on, including the rise of AI agents and recursive dynamics where synthetic data becomes input for other AI systems</li>
         
-        <li>The role of digital health ecosystems during pandemics or natural disasters; specifically with an eye toward how data help to distribute value among ecosystem participants</li>
+        <li>Data decoupled from practice: examining consequences of data production detached from institutionalized knowledge practices or situated practices of meaning-making, and implications for governance and decision-making</li>
         
-        <li>(Data-driven) change of professional roles, identities, and institutions in digital health ecosystems</li>
+        <li>The social life of the data-AI nexus: tracing institutional, historical, and cognitive trajectories of data as it is produced, curated, transformed, and mobilized, including how organizational memory and AI agents reshape institutional dynamics</li>
         
-        <li>The difference between creating value for intervention vs. for prevention</li>
+        <li>Theoretical and methodological advances: reconceptualizing constructs such as intelligence, data quality, ground truth, training, and synthetic data as relational, temporal, and emergent phenomena</li>
         
-        <li>Design of inclusive and responsible digital technologies for healthcare and well-being</li>
+        <li>Cross-level insights: studying how assumptions about data and intelligence are embedded in AI systems and reshape organizational practices and societal outcomes</li>
         
-        <li>Digital tools and use of digital health data to connect different participants of health service networks, to support decision making and to improve organizational processes</li>
+        <li>Data work in organizations: examining curation, labelling, cleaning, evaluation, model development practices, and integration of generative AI into workflows</li>
         
-        <li>Negative consequences of digital technologies implementation in healthcare, such as health givers burnout and patients&#39; anxiety</li>
-        
-        <li>The role of digital tools like virtual coaching for autonomy of health care providers and patients</li>
+        <li>Data, AI, and grand challenges: addressing climate change, public health, inequality, digital governance through responsible AI in contexts with incomplete, biased, or synthetic data</li>
         
     </ul>
     
@@ -669,19 +672,19 @@ Marta Stelmaszak Rosa</li>
     <h2>Timeline</h2>
     <ul>
         
-        <li>March 1, 2026: Submission of extended abstracts/declaration of interest to submit papers to the special issue</li>
+        <li>May 28, 2026: Call launch at the Theorizing Data &amp; AI Conference</li>
         
-        <li>November 30, 2026: Full paper submission deadline</li>
+        <li>January 15, 2027: Initial paper submission deadline</li>
         
-        <li>March 31, 2027: First round decisions due</li>
+        <li>April 15, 2027: First round authors notification</li>
         
-        <li>September 30, 2027: Revisions due</li>
+        <li>May 1, 2027: Workshop for first round authors during Theorizing Data &amp; AI Conference</li>
         
-        <li>December 15, 2027: Second round decisions due</li>
+        <li>July 31, 2027: Invited revisions deadline</li>
         
-        <li>February 28, 2028: Third round revisions due (if necessary)</li>
+        <li>October 31, 2027: Second round authors notification</li>
         
-        <li>May 31, 2028: Final decisions due</li>
+        <li>January 15, 2028: Final revision deadline</li>
         
     </ul>
     
@@ -689,56 +692,43 @@ Marta Stelmaszak Rosa</li>
     <h2>Associate editors</h2>
     <ul>
         
-        <li><strong>Aleksi Aaltonen</strong>, Stevens Institute of Technology</li>
+        <li><strong>Aleksi Aaltonen</strong>, 
+Ida Asadi Someh</li>
         
-        <li><strong>Saeed Akhlaghpour</strong>, University of Queensland</li>
+        <li><strong>Ioanna Constantiou</strong>, 
+Domenico di Prisco</li>
         
-        <li><strong>Aycan Aslan</strong>, IT University Copenhagen</li>
+        <li><strong>Mayur Joshi</strong>, 
+Ekaterina Jussupow</li>
         
-        <li><strong>Anna Essén</strong>, Stockholm School of Economics</li>
+        <li><strong>Jannis Kallinikos</strong>, 
+Tomislav Karačić</li>
         
-        <li><strong>Heiko Gewald</strong>, HS Neu-Ulm</li>
+        <li><strong>Stan Karanasios</strong>, 
+Alexander Kempton</li>
         
-        <li><strong>Martin Gersch</strong>, Freie Universität Berlin</li>
+        <li><strong>Angelos Kostis</strong>, 
+Harris Kyriakou</li>
         
-        <li><strong>Camille Grangé</strong>, HEC Montréal</li>
+        <li><strong>Christine Legner</strong>, 
+Kalle Lyytinen</li>
         
-        <li><strong>Maike Greve</strong>, Copenhagen Business School</li>
+        <li><strong>Eric Monteiro</strong>, 
+Jeff Parsons</li>
         
-        <li><strong>Farkhondeh Hassan Doust</strong>, University of Auckland</li>
+        <li><strong>Mike Power</strong>, 
+Jan Recker</li>
         
-        <li><strong>Alexander Kempton</strong>, University of Oslo</li>
+        <li><strong>Paavo Ritala</strong>, 
+Marta Stelmaszak Rosa</li>
         
-        <li><strong>Charlotte Koehler</strong>, European University Viadrina Frankfurt (Oder)</li>
-        
-        <li><strong>Johann Kranz</strong>, LMU</li>
-        
-        <li><strong>Jan-Marco Leimeister</strong>, University of St. Gallen</li>
-        
-        <li><strong>Wolfgang Maaß</strong>, Saarland University</li>
-        
-        <li><strong>Bogdan Negoita</strong>, HEC Montréal</li>
-        
-        <li><strong>Lemai Nguyen</strong>, Deakin University</li>
-        
-        <li><strong>Guy Paré</strong>, HEC Montréal</li>
-        
-        <li><strong>Scott Thiebes</strong>, Karlsruhe Institute of Technology</li>
-        
-        <li><strong>Manuel Trenz</strong>, University of Göttingen</li>
-        
-        <li><strong>Cristina Trocin</strong>, Católica Porto Business School</li>
-        
-        <li><strong>Marjolein van Offenbeek</strong>, University of Groningen</li>
-        
-        <li><strong>Polyxeni Vassilakopoulou</strong>, University of Agder</li>
-        
-        <li><strong>Till Winkler</strong>, Fernuniversität Hagen</li>
+        <li><strong>Lauri Wesssel</strong>, 
+</li>
         
     </ul>
     
-</div>]]></content:encoded>
-            <author>European Journal of Information Systems (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

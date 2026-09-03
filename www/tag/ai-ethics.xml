@@ -4,7 +4,7 @@
         <title>kerostig | Tag : ai ethics</title>
         <link>https://kerostig.org/tag/ai-ethics/</link>
         <description>Derniers appels à publications avec le tag 'ai ethics'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/ai-ethics/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Consumer Vulnerability in the Age of Algorithmic Persuasion: Risks, Responsibilities, and Remedies]]></title>
             <link>https://kerostig.org/call/wiley-see-here-5/</link>
             <guid>wiley-see-here-5</guid>
             <pubDate>Mon, 17 Aug 2026 15:52:40 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Jenny Le</strong>, VinUniversity</p>
@@ -32,8 +33,16 @@
         
     
     
+    
     <p>This Special Issue aims to advance ethics of algorithmic persuasion in marketing. It seeks to fill the critical gaps related to the underexplored mechanisms by which AI technologies construct, amplify, or mitigate consumer vulnerability; the limited empirical evidence on how privacy risks intersect with persuasion strategies; and the insufficient integration of ethical principles into the design of AI-powered marketing systems.</p>
     
+    <p>
+        Appel publié par Journal of Consumer Behaviour.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/CFP_Consumer_Vulnerability_in_the_Age_of_Algorithmic_Persuasion_2025-1758888872373.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-see-here-5/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -59,8 +68,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Consumer Behaviour (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

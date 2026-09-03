@@ -4,7 +4,7 @@
         <title>kerostig | Tag : gender diversity</title>
         <link>https://kerostig.org/tag/gender-diversity/</link>
         <description>Derniers appels à publications avec le tag 'gender diversity'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/gender-diversity/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Gender diversity in the public sector: reforms, challenges, and emerging opportunities]]></title>
             <link>https://kerostig.org/call/tandf-gender-diversity-in-the-public-sector-reforms-challenges-and-emerging-opportunities/</link>
             <guid>tandf-gender-diversity-in-the-public-sector-reforms-challenges-and-emerging-opportunities</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Younes Ben Zaied</strong>, EDC Paris Business School</p>
@@ -32,16 +33,18 @@
         
     
     
+    
     <p>The presence and representation of women in key strategic roles have emerged as critical factors in strengthening governance and enhancing public service outcomes. While gender diversity has attracted scholarly and policy attention in the private sector, its role in public administration, public service organizations, and state-owned enterprises (SOEs) remains comparatively underexplored—despite its central importance for efficient, equitable, and democratically accountable governance.</p>
     
     <p>Gender diversity can influence public sector decision-making in several important ways. For example, some research shows that female leaders tend to adopt more collaborative and consensus-oriented decision styles, suggesting that women are often associated with stronger attention to stakeholder inclusion, social equity, and the long-term societal outcomes that are essential in public governance.</p>
     
-    <p>Moreover, gender-diverse teams are consistently associated with higher-quality deliberation and decision-making. By drawing on a broader range of experiences and cognitive frames, they are better positioned to identify blind spots, challenge implicit assumptions, and scrutinise prevailing orthodoxies. This diversity of perspective reduces the likelihood of &#39;groupthink&#39;, fosters more robust debate, and ultimately contributes to more resilient policy choices and more rigorous risk assessment and management.</p>
-    
-    <p>Legal reforms, quota systems, and gender equality initiatives have emerged worldwide to promote female representation in public institutions and public firms. Examples include: the EU Gender Balance on Corporate Boards Directive; France&#39;s &#39;Loi Sauvadet&#39; mandating 40% women in senior civil service appointments; Norway&#39;s Public Limited Liability Companies Act requiring that 40% of board members be women, initially applying this mandate to state-owned enterprises; Italy&#39;s Golfo–Mosca Law requiring SOEs to progressively increase female board representation to at least one-third; Canada&#39;s Gender Budgeting Act; Australia&#39;s 50% gender target for government boards.</p>
-    
-    <p>Despite the reforms, major gaps persist, including uneven implementation, weak pipeline development, inconsistent executive-level representation, and insufficient evidence on the impact of these policies on organizational outcomes. This PMM theme will investigate how gender diversity within public organizations shapes performance, transparency, accountability, innovation, and trust in public institutions.</p>
-    
+    <p>
+        Appel publié par Public Money &amp; Management.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/gender-diversity-in-the-public-sector/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-gender-diversity-in-the-public-sector-reforms-challenges-and-emerging-opportunities/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -77,8 +80,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Public Money &amp; Management (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

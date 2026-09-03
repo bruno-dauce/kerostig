@@ -4,7 +4,7 @@
         <title>kerostig | Tag : human-ai collaboration</title>
         <link>https://kerostig.org/tag/human-ai-collaboration/</link>
         <description>Derniers appels à publications avec le tag 'human-ai collaboration'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/human-ai-collaboration/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Collaborative Intelligence in Operations Research: Models, Methods, and Applications]]></title>
             <link>https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/</link>
             <guid>springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Madjid Tavana</strong>, La Salle University</p>
@@ -34,16 +35,16 @@
         
     
     
+    
     <p>The increasing complexity of modern decision-making demands advanced Operations Research (OR) models that integrate Collaborative Intelligence—the synergy between human expertise, Artificial Intelligence (AI)-driven decision support, and distributed problem-solving frameworks. This paradigm enhances adaptability, efficiency, and resilience in complex operations by leveraging multi-agent coordination, human-AI collaboration, decentralized optimization, and machine learning-enhanced decision-making.</p>
     
-    <p>Traditional OR methodologies, despite their strengths in static environments, struggle with the dynamic, interconnected, and uncertain nature of modern decision-making. As Russell Ackoff noted in his 1956 article, &quot;The Aging of a Young Profession,&quot; OR was already showing signs of stagnation, becoming overly preoccupied with mathematical techniques rather than addressing real-world problems holistically. By 1979, in &quot;The Future of Operational Research is Past,&quot; he further criticized OR for prioritizing optimization within narrow constraints instead of embracing a systemic, interdisciplinary approach. Modern applications like logistics, production, service systems, and emergency response require more adaptive and interactive OR models. Collaborative Intelligence offers a transformative approach, enabling real-time interaction among humans, AI agents, and mathematical models to optimize problem-solving and system performance.</p>
-    
-    <p>The rapid advancements in AI have revolutionized decision-making across OR domains. However, fully autonomous AI systems face challenges in handling uncertainty, ethical considerations, and interpretability, particularly in high-stakes environments. Collaborative Intelligence bridges this gap by combining the computational power of AI with human intuition, adaptability, and ethical reasoning, fostering trust and robustness in decision-making.</p>
-    
-    <p>This special issue explores cutting-edge methodologies, theoretical advancements, and practical applications of Collaborative Intelligence in OR. We invite high-quality contributions that address how human expertise and AI can collaboratively enhance decision-making, improve system resilience, and optimize complex operational environments. We welcome original research contributions that propose innovative mathematical models, algorithms, and applications of OR for collaborative decision-making, resilience planning, decentralized optimization, and dynamic problem-solving in complex operational environments. Submissions should demonstrate theoretical rigor and practical relevance, focusing on advancing the state of the art in Collaborative Intelligence.</p>
-    
-    <p>This special issue aims to provide a platform for researchers and practitioners to share insights, methodologies, and case studies that highlight the transformative potential of Collaborative Intelligence in OR.</p>
-    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/fihchfagfc">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -83,167 +84,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Smart systems and the governance of sociotechnical transformation]]></title>
-            <link>https://kerostig.org/call/tandf-smart-systems-and-the-governance-of-sociotechnical-transformation/</link>
-            <guid>tandf-smart-systems-and-the-governance-of-sociotechnical-transformation</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>Wanhao Zhang</strong>, Norwegian University of Science and Technology (NTNU)</p>
-        
-        <p><strong>Younghoon Chang</strong>, University of Nottingham Ningbo China</p>
-        
-        <p><strong>Sameer Kumar</strong>, University of Malaya</p>
-        
-    
-    
-    <p>Smart systems are becoming increasingly central to contemporary information technology. Across homes, workplaces, healthcare settings, educational environments, mobility systems, public services and platform-mediated environments, they are no longer merely digital tools that support pre-existing human activities. They increasingly function as sociotechnical arrangements that sense, classify, predict, coordinate, recommend and intervene in everyday practices, reshaping relations between humans, machines, organisations and institutions. For the purposes of this call, smart systems are understood as digitally enabled sociotechnical systems that integrate sensing, data processing, algorithmic decision-making and automated or semi-automated actions to coordinate, mediate and shape human activities across social and organisational contexts. Such systems include, but are not limited to, AI-enabled platforms, intelligent service systems, smart health technologies, smart homes, digital workplaces, automated mobility systems, learning technologies, public-sector digital systems and hybrid human-AI systems.</p>
-    
-    <p>Contemporary digital transformation is therefore not only a technical process of innovation, automation or optimisation. It also involves the reorganisation of relations between people, institutions, infrastructures, data, expertise and everyday routines. Work on everyday practices and social change is relevant here because it shows how technologies, meanings, materials, competences and future expectations become entangled in the transformation of social life. A key challenge is to understand how smart systems become socially consequential through design, use, institutional embedding, organisational routines, user negotiation, datafication and everyday practice. Interfaces, platforms, data architectures, algorithmic classifications, dashboards, monitoring systems and automated feedback mechanisms may all participate in shaping conduct, allocating responsibility, structuring choices and stabilising norms. The central concern is not only how smart systems are governed, but also how smart systems themselves become part of the governance of sociotechnical transformation. This includes questions of behaviour, interaction, coordination, authority, accountability, trust, resistance, inclusion, exclusion and power. Hybrid intelligence, human-centred AI and human-AI collaboration are especially relevant where they help explain how human and machine intelligence are combined, coordinated, contested or governed in organisational, institutional or everyday contexts.</p>
-    
-    <p>This special issue invites contributions that examine smart systems not only as technical innovations, but also as systems of behaviour, interaction, coordination, authority and governance. Its broader aim is to advance human-centred, behavioural, organisational and sociotechnical understandings of smart systems and their role in contemporary digital transformation.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Smart systems in homes, workplaces, healthcare, education, mobility, public services and platform-mediated environments</li>
-        
-        <li>Human-centred AI, hybrid intelligence and human-AI collaboration in organisational and everyday settings</li>
-        
-        <li>Conceptual, methodological and design-oriented approaches to studying governance in smart systems</li>
-        
-        <li>Algorithmic decision-making, coordination, compliance and accountability</li>
-        
-        <li>User adaptation, negotiation, resistance, appropriation and trust in relation to smart technologies</li>
-        
-        <li>AI ethics, information privacy, surveillance, transparency and asymmetrical power in digital systems</li>
-        
-        <li>Smart and digital health, care technologies and digitally mediated wellbeing</li>
-        
-        <li>Digital work, algorithmic management, robotic management and the reconfiguration of organisational routines</li>
-        
-        <li>Datafication, monitoring, prediction and automated feedback as modes of governance</li>
-        
-        <li>Inclusion, exclusion, vulnerability and inequality in smart sociotechnical environments</li>
-        
-        <li>Smart cities, digital government and platform-based public services</li>
-        
-        <li>Comparative, cross-cultural or interdisciplinary studies of smart systems and sociotechnical transformation</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>October 20, 2026: Manuscript submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Behaviour &amp; Information Technology (TANDF)</author>
-        </item>
-        <item>
-            <title><![CDATA[Hybrid Human-AI Collaborative Networks]]></title>
-            <link>https://kerostig.org/call/tandf-hybrid-human-ai-collaborative-networks/</link>
-            <guid>tandf-hybrid-human-ai-collaborative-networks</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>Rosanna Fornasiero</strong>, CNR IEIIT</p>
-        
-        <p><strong>Luis M. Camarinha-Matos</strong>, NOVA University Lisbon</p>
-        
-        <p><strong>Xavier Boucher</strong>, Mines Saint-Étienne</p>
-        
-        <p><strong>Angel Ortiz</strong>, Universitat Politècnica de València</p>
-        
-    
-    
-    <p>Hybrid Collaborative Networks (HCNs), involving human-AI collaboration, are emerging as central to value creation in digitally enabled, globally distributed and socio-technically managed ecosystems. Based on the complex interplay between humans and artificial intelligence, these networks combine very heterogeneous actors—such as organizations, individuals, intelligent systems, embodied AI, and platforms—interacting across physical, digital, and organizational boundaries.</p>
-    
-    <p>Understanding the dynamics of such networks is critical to ensure their design, management, resilience, adaptability and sustained performance in rapidly changing environments. Analysing and managing the dynamic nature of HCNs includes examining how hybrid collaborative structures emerge, evolve, adapt, and dissolve over time. The dynamics of interactive performance and role distribution for such networks, but also the change of collaboration patterns over time, together with the managerial frameworks required to ensure adaptive governance of HCNs open strong scientific challenges, where technological added-value should be deeply associated with socio-human approaches.</p>
-    
-    <p>The 26 years of scientific background developed by PRO-VE in designing and managing collaborative networks stands as the basis to design and manage the life cycle of hybrid human – AI collaborative networks. The very adaptative and changing nature of HCNs calls for a very open multidisciplinary science of collaborative networks, where engineering disciplines collaborate constantly with socio-human and managerial scientists. Beyond the complexity to ensure effective human-AI integration, scalability and evolution of AI systems or trust in hybrid collaboration, require defining innovative design methods and frameworks, adaptive governance and life-cycle management models.</p>
-    
-    <p>PRO-VE 2026 is a forum for sharing and discussing current developments and experiences regarding the role of collaborative networks in the age of combined intelligence between humans and AI. Contributions to this special issue are selected from the papers submitted to the conference. A limited number of self-submission papers can be accepted for publication in this SI.</p>
-    
-    <p>The SI aims to integrate multiple and diverse disciplines such as Engineering, Managerial and Socio-Human sciences: industrial and electrical engineering, computer science, manufacturing, organization science, logistics, management, and social sciences, among others.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Digital platforms for HCNs</li>
-        
-        <li>Collaborative dynamics among human and AI teams</li>
-        
-        <li>Agile design and management of hybrid networks</li>
-        
-        <li>Design of AI teammates</li>
-        
-        <li>Knowledge life cycle in distributed cognitive systems</li>
-        
-        <li>Collaboration and coopetition in untrustworthy environments</li>
-        
-        <li>Life cycle of collaborative cognitive cyber-physical systems</li>
-        
-        <li>Combination of human expertise with AI systems</li>
-        
-        <li>Scalability and adaptability of HCNs</li>
-        
-        <li>Collective decision making, value creation and creativity</li>
-        
-        <li>Digital twins for HCNs</li>
-        
-        <li>Governance framework for HCNs</li>
-        
-        <li>Understanding and explainability of HCN decisions</li>
-        
-        <li>Advanced collaborative robotics</li>
-        
-        <li>Complex hybridization of collaboration – organizations, people, smart machines, intelligent systems</li>
-        
-        <li>Resilience &amp; antifragility in HCNs</li>
-        
-        <li>Ethics, security, &amp; trust in HCNs</li>
-        
-        <li>AI integration for logistics and transportation networks</li>
-        
-        <li>AI for collaborative risk and crisis management</li>
-        
-        <li>Society 5.0 and collaborative networks</li>
-        
-        <li>CN applications and case studies in multiple fields</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>March 31, 2027: Manuscript deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Production Planning &amp; Control (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[AI and the Future of Advertising Creativity]]></title>
             <link>https://kerostig.org/call/tandf-ai-and-the-future-of-advertising-creativity/</link>
             <guid>tandf-ai-and-the-future-of-advertising-creativity</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Yung Kyun Choi</strong>, Dongguk University</p>
@@ -252,16 +102,16 @@
         
     
     
+    
     <p>For most of advertising&#39;s history, creative work has been relatively slow, scarce, and expensive. A campaign moved from brief to concept to finished asset through weeks of human labor, and the cost of producing each execution limited how many ideas a brand could test and how finely it could tailor them. Generative AI is potentially collapsing those constraints. Tools that draft copy, generate images and video, and produce thousands of message variants in minutes are now becoming embedded in the daily workflow of agencies, brands, and platforms. The result is not a marginal efficiency gain but a potential reordering of how advertising creative is imagined, made, evaluated, and valued. For an industry whose competitive advantage has long rested on creativity, arguably few developments matter more.</p>
     
-    <p>Creativity has always been central to how advertising works. Decades of research establish that creative advertising, generally defined as work that is both divergent and relevant, drives attention, processing, memory, and ultimately sales. Yet what counts as creative has never been settled. It is judged differently by creatives, account managers, and clients, and it turns on originality, artistry, and strategic fit in ways that resist easy measurement. Generative AI forces these questions open again. When a model can produce a polished, on-brief execution in seconds, the premium may shift from craft and execution toward ideas, taste, judgment, and the ability to direct the machine. Early evidence is mixed: AI appears able to lift the measured creativity and effectiveness of individual work, in some field settings to apparently superhuman levels, while tending to push outputs across many users toward sameness. Whether AI expands the creative frontier or flattens it is now an empirical and managerial question of importance.</p>
-    
-    <p>These dynamics are touching every stage of the creative process. In ideation and concepting, AI can act as a brainstorming partner that generates and recombines directions faster than most teams, shifting the human role toward editing, curating, and directing. In asset production, text-to-image and text-to-video systems are compressing the cost and time of finished creative, making volume and localization feasible where they were once uneconomic. In personalization, the same tools make it possible to generate near-infinite variants tuned to context, audience, and moment, reviving long-standing ambitions for dynamic, one-to-one creative while raising fresh questions about distinctiveness and brand coherence. Each shift promises scale, but scale at the expense of differentiation may be a poor trade for brands that compete on standing out.</p>
-    
-    <p>The people and organizations that make advertising are being remade alongside the work. Generative AI is reshaping which skills are scarce, which tasks are automated, and how value is captured across the agency and client relationship. It raises hard questions about the future of creative talent: which roles disappear, which are augmented, and which new ones, such as prompt strategist, AI creative director, or model curator, emerge. It may also unsettle agency business models built on billable hours and production fees as the marginal cost of production approaches zero. How agencies, in-house teams, and platforms reorganize creative labor, and how they preserve the human judgment clients still pay for, is likely to shape the structure of the industry in the coming years.</p>
-    
-    <p>Building on a fast-growing body of scholarship, this special issue invites theoretically rigorous and managerially useful research on how AI is changing advertising creativity. Consistent with the mission of the Journal of Advertising Research and its strong practitioner readership, submissions should make a clear contribution to advertising theory while offering actionable guidance for the creatives, agencies, brands, and platforms living through this transition. We are especially interested in work that moves past the observation that AI is disruptive to specify how, where, why, and for whom it improves or degrades creative outcomes.</p>
-    
+    <p>
+        Appel publié par Journal of Advertising Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ai-and-the-future-of-advertising-creativity/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-ai-and-the-future-of-advertising-creativity/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -331,25 +181,188 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Advertising Research (TANDF)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hybrid Human-AI Collaborative Networks]]></title>
+            <link>https://kerostig.org/call/tandf-hybrid-human-ai-collaborative-networks/</link>
+            <guid>tandf-hybrid-human-ai-collaborative-networks</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Rosanna Fornasiero</strong>, CNR IEIIT</p>
+        
+        <p><strong>Luis M. Camarinha-Matos</strong>, NOVA University Lisbon</p>
+        
+        <p><strong>Xavier Boucher</strong>, Mines Saint-Étienne</p>
+        
+        <p><strong>Angel Ortiz</strong>, Universitat Politècnica de València</p>
+        
+    
+    
+    
+    <p>Hybrid Collaborative Networks (HCNs), involving human-AI collaboration, are emerging as central to value creation in digitally enabled, globally distributed and socio-technically managed ecosystems. Based on the complex interplay between humans and artificial intelligence, these networks combine very heterogeneous actors—such as organizations, individuals, intelligent systems, embodied AI, and platforms—interacting across physical, digital, and organizational boundaries.</p>
+    
+    <p>Understanding the dynamics of such networks is critical to ensure their design, management, resilience, adaptability and sustained performance in rapidly changing environments. Analysing and managing the dynamic nature of HCNs includes examining how hybrid collaborative structures emerge, evolve, adapt, and dissolve over time. The dynamics of interactive performance and role distribution for such networks, but also the change of collaboration patterns over time, together with the managerial frameworks required to ensure adaptive governance of HCNs open strong scientific challenges, where technological added-value should be deeply associated with socio-human approaches.</p>
+    
+    <p>
+        Appel publié par Production Planning &amp; Control.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ppc-human-ai/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-hybrid-human-ai-collaborative-networks/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Digital platforms for HCNs</li>
+        
+        <li>Collaborative dynamics among human and AI teams</li>
+        
+        <li>Agile design and management of hybrid networks</li>
+        
+        <li>Design of AI teammates</li>
+        
+        <li>Knowledge life cycle in distributed cognitive systems</li>
+        
+        <li>Collaboration and coopetition in untrustworthy environments</li>
+        
+        <li>Life cycle of collaborative cognitive cyber-physical systems</li>
+        
+        <li>Combination of human expertise with AI systems</li>
+        
+        <li>Scalability and adaptability of HCNs</li>
+        
+        <li>Collective decision making, value creation and creativity</li>
+        
+        <li>Digital twins for HCNs</li>
+        
+        <li>Governance framework for HCNs</li>
+        
+        <li>Understanding and explainability of HCN decisions</li>
+        
+        <li>Advanced collaborative robotics</li>
+        
+        <li>Complex hybridization of collaboration – organizations, people, smart machines, intelligent systems</li>
+        
+        <li>Resilience &amp; antifragility in HCNs</li>
+        
+        <li>Ethics, security, &amp; trust in HCNs</li>
+        
+        <li>AI integration for logistics and transportation networks</li>
+        
+        <li>AI for collaborative risk and crisis management</li>
+        
+        <li>Society 5.0 and collaborative networks</li>
+        
+        <li>CN applications and case studies in multiple fields</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 31, 2027: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Smart systems and the governance of sociotechnical transformation]]></title>
+            <link>https://kerostig.org/call/tandf-smart-systems-and-the-governance-of-sociotechnical-transformation/</link>
+            <guid>tandf-smart-systems-and-the-governance-of-sociotechnical-transformation</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Wanhao Zhang</strong>, Norwegian University of Science and Technology (NTNU)</p>
+        
+        <p><strong>Younghoon Chang</strong>, University of Nottingham Ningbo China</p>
+        
+        <p><strong>Sameer Kumar</strong>, University of Malaya</p>
+        
+    
+    
+    
+    <p>Smart systems are becoming increasingly central to contemporary information technology. Across homes, workplaces, healthcare settings, educational environments, mobility systems, public services and platform-mediated environments, they are no longer merely digital tools that support pre-existing human activities. They increasingly function as sociotechnical arrangements that sense, classify, predict, coordinate, recommend and intervene in everyday practices, reshaping relations between humans, machines, organisations and institutions. For the purposes of this call, smart systems are understood as digitally enabled sociotechnical systems that integrate sensing, data processing, algorithmic decision-making and automated or semi-automated actions to coordinate, mediate and shape human activities across social and organisational contexts. Such systems include, but are not limited to, AI-enabled platforms, intelligent service systems, smart health technologies, smart homes, digital workplaces, automated mobility systems, learning technologies, public-sector digital systems and hybrid human-AI systems.</p>
+    
+    <p>
+        Appel publié par Behaviour &amp; Information Technology.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/smart-systems-and-the-governance-of-sociotechnical-transformation/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-smart-systems-and-the-governance-of-sociotechnical-transformation/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Smart systems in homes, workplaces, healthcare, education, mobility, public services and platform-mediated environments</li>
+        
+        <li>Human-centred AI, hybrid intelligence and human-AI collaboration in organisational and everyday settings</li>
+        
+        <li>Conceptual, methodological and design-oriented approaches to studying governance in smart systems</li>
+        
+        <li>Algorithmic decision-making, coordination, compliance and accountability</li>
+        
+        <li>User adaptation, negotiation, resistance, appropriation and trust in relation to smart technologies</li>
+        
+        <li>AI ethics, information privacy, surveillance, transparency and asymmetrical power in digital systems</li>
+        
+        <li>Smart and digital health, care technologies and digitally mediated wellbeing</li>
+        
+        <li>Digital work, algorithmic management, robotic management and the reconfiguration of organisational routines</li>
+        
+        <li>Datafication, monitoring, prediction and automated feedback as modes of governance</li>
+        
+        <li>Inclusion, exclusion, vulnerability and inequality in smart sociotechnical environments</li>
+        
+        <li>Smart cities, digital government and platform-based public services</li>
+        
+        <li>Comparative, cross-cultural or interdisciplinary studies of smart systems and sociotechnical transformation</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>October 20, 2026: Manuscript submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Human and AI Driven Branding]]></title>
             <link>https://kerostig.org/call/emerald-human-and-ai-driven-branding/</link>
             <guid>emerald-human-and-ai-driven-branding</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>The special issue draws upon three strands of literature. The first explores the evolving interaction between human intelligence and artificial intelligence. A balanced augmentation approach combining human and artificial intelligence is recommended rather than an automative approach. This calls for co-intelligence, using AI as a co-worker. Recent research has explored the creative collaboration between humans and AI to co-create brand voice, identifying effective human-AI co-creation as happening at three levels: the individual brand professional, the organisational level of brand management and the societal level, the external environment in which the brand operates. Frameworks have been developed for human marketers and consumers collaborating with AI within the retail sector.</p>
     
-    <p>A second strand focuses purely on AI in marketing and brand development. One cluster of papers concerns specific technologies such as use of chatbots, AI-empowered voice assistants and AI influencers. Another argues for an enhanced customer experience due to AI through increased efficiency and customer insight. Key issues are identified including the need to bridge the AI-human gap by developing stronger artificial empathy to strengthen the affective and social customer experience. This rapidly evolving focus purely on AI pushes us to consider the implications for the marketing profession but also the relationship between brands and consumers.</p>
-    
-    <p>The third strand of literature emphasizes a new role for people in developing brands. This includes calls for a new human to human (H2H) mindset as a way of rebuilding brand trust. Employee empathy, verbal communication, emotional intelligence and the ability to handle new and complex situations are identified as core roles of brand managers in an AI world. Marketing professionals are called upon to apply humanity to disrupt AI dominance and be audacious in disrupting brand narratives. Humanistic marketing proposes that the human individual is the start point for strategies that move beyond wealth creation to enable human flourishing. Humanist capitalism is needed for global sustainability. Scholars identify the importance of human insight and creativity for brand purpose, authentic brand expression and creating emotional connections with customers. This strand of literature also discusses the implications of AI capacity and capability within brand management, noting that for smaller organisations such as nonprofits there is a risk they will be left behind in efforts to harness AI for more effective customer-brand relationship building.</p>
-    
-    <p>The special issue welcomes empirical papers (qualitative and quantitative) as well as thought-leading conceptual papers.</p>
-    
+    <p>
+        Appel publié par European Journal of Marketing.
+        
+        <a href="https://www.emerald.com/ejm/calls-for-submissions/1799/Human-and-AI-Driven-Branding?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-human-and-ai-driven-branding/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -387,8 +400,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>European Journal of Marketing (EMERALD)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

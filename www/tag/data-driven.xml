@@ -4,7 +4,7 @@
         <title>kerostig | Tag : data-driven</title>
         <link>https://kerostig.org/tag/data-driven/</link>
         <description>Derniers appels à publications avec le tag 'data-driven'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,36 +13,24 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/data-driven/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
-        <item>
-            <title><![CDATA[Manufacturing and Service Digital Ecosystems: Data driven Platform Governance, Value Co creation, and Ecosystem Optimization]]></title>
-            <link>https://kerostig.org/call/elsevier-manufacturing-and-service-digital-ecosystems-data-driven-platform-governance-value-co-creation-and-ecosystem-optimization/</link>
-            <guid>elsevier-manufacturing-and-service-digital-ecosystems-data-driven-platform-governance-value-co-creation-and-ecosystem-optimization</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>October 31, 2026: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Computers &amp; Industrial Engineering (ELSEVIER)</author>
-        </item>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Data-Driven Industrial Engineering for Sustainable Transportation and Logistics]]></title>
             <link>https://kerostig.org/call/elsevier-data-driven-industrial-engineering-for-sustainable-transportation-and-logistics-2/</link>
             <guid>elsevier-data-driven-industrial-engineering-for-sustainable-transportation-and-logistics-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Transportation Research Part E: Logistics and Transportation Review.
+        
+        <a href="https://www.sciencedirect.com/special-issue/330064/data-driven-industrial-engineering-for-sustainable-transportation-and-logistics">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-data-driven-industrial-engineering-for-sustainable-transportation-and-logistics-2/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -53,8 +41,38 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Transportation Research Part E: Logistics and Transportation Review (ELSEVIER)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Manufacturing and Service Digital Ecosystems: Data driven Platform Governance, Value Co creation, and Ecosystem Optimization]]></title>
+            <link>https://kerostig.org/call/elsevier-manufacturing-and-service-digital-ecosystems-data-driven-platform-governance-value-co-creation-and-ecosystem-optimization/</link>
+            <guid>elsevier-manufacturing-and-service-digital-ecosystems-data-driven-platform-governance-value-co-creation-and-ecosystem-optimization</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Computers &amp; Industrial Engineering.
+        
+        <a href="https://www.sciencedirect.com/special-issue/331741/manufacturing-and-service-digital-ecosystems-data-driven-platform-governance-value-co-creation-and-ecosystem-optimization">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-manufacturing-and-service-digital-ecosystems-data-driven-platform-governance-value-co-creation-and-ecosystem-optimization/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>October 31, 2026: Full paper submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

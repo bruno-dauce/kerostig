@@ -4,7 +4,7 @@
         <title>kerostig | Tag : operational risk</title>
         <link>https://kerostig.org/tag/operational-risk/</link>
         <description>Derniers appels à publications avec le tag 'operational risk'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/operational-risk/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Climate Transition and Operational Risk Modelling: Implications for Supply Chains and Financial Decision-Making]]></title>
             <link>https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/</link>
             <guid>springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Andrea Flori</strong>, Politecnico di Milano</p>
@@ -32,14 +33,16 @@
         
     
     
+    
     <p>Climate-related risks, viewed through a systems operation&#39;s lens, can disrupt the coordination, flow, and stability of financial and economic processes. Although their importance is increasingly acknowledged by academic, regulatory, and practitioner communities, quantifying environmental externalities and designing effective mitigation policies remain open to debate and subject to contention. A key source of uncertainty stems from the transition to a low-carbon economy, particularly concerning its timing and pace. This transition may induce substantial effects on firms, especially those in carbon-intensive sectors, posing systemic challenges to their stability. This underscores the urgent need for rigorous analytical solutions to model climate-related risks and to study their transmission mechanisms within interconnected economic systems.</p>
     
-    <p>From a firm&#39;s perspective, the regulatory push towards decarbonization and more sustainable economic models necessitates an optimal trade-off between transforming production processes and maintaining competitive market performance. This reflects a fundamental conflict between short-term objectives, such as profitability and stakeholder satisfaction, and long-term strategic goals related to sustainability and risk mitigation; transitioning to low-carbon operations demands a long-term planning horizon and a comprehensive assessment of associated risks. However, firms must also remain resilient to sudden exogenous shocks that can destabilize the delicate balance between stakeholder interests and shareholder value maximization. As a result, ensuring business continuity and profit stability may, at times, require a short-term focus. Importantly, even when a firm or sector is well positioned to absorb a direct shock, significant vulnerabilities may persist through indirect exposures, particularly through interdependencies in global supply chains. Recent developments have shown how external disruptions can propagate through production networks, amplifying uncertainty and operational risk. There is therefore a need for integrated modelling approaches that jointly capture carbon emissions, operational disruptions, and related risks across multiple supply chain tiers, framing the problem as a multi-objective optimization task.</p>
-    
-    <p>Due to the progressive integration of financial markets, such interdependencies can occur through, for example, asset price movements, volatility changes, or liquidity shocks, generating non-trivial aggregate patterns that may ultimately lead to market instability. However, how such instability may emerge from supply chain relationships remains largely unexplored. Recent contributions have begun to address this gap, for example, by modelling the effects of carbon pricing on asset values and portfolio risks, examining how optimal credit portfolio realignment can facilitate low-carbon transitions, and investigating how investment horizons influence transition outcomes under uncertainty.</p>
-    
-    <p>The mechanisms by which climate and environmental risks are transmitted to financial and economic systems constitute a multidisciplinary research agenda. Robust stochastic optimization techniques play a critical role in managing credit, counterparty, and supply chain risks that are amplified by the climate transition. Concurrently, advanced machine learning methods, such as supervised learning and natural language processing, offer promising tools for forecasting carbon stranded risks and classifying complex climate policy scenarios, with significant implications for both operational and investment decisions. This call for papers invites contributions that examine how financial institutions are responding to growing uncertainty in portfolio allocation and risk management, driven by evolving climate regulations and the inherent unpredictability of low-carbon transition pathways. We particularly welcome applied and methodological operations research studies that address these challenges in an innovative and rigorous manner.</p>
-    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/baifaedejd">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -77,8 +80,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

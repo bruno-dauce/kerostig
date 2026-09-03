@@ -4,7 +4,7 @@
         <title>kerostig | Tag : manufacturing</title>
         <link>https://kerostig.org/tag/manufacturing/</link>
         <description>Derniers appels à publications avec le tag 'manufacturing'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/manufacturing/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Artificial Intelligence–Enabled Production Systems: Empirical Evidence, Implementation Pipelines, and Industrial Applications]]></title>
             <link>https://kerostig.org/call/tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications/</link>
             <guid>tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications</guid>
             <pubDate>Wed, 26 Aug 2026 03:26:19 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Ruoqi Geng</strong>, Cardiff University</p>
@@ -30,18 +31,16 @@
         
     
     
+    
     <p>Artificial intelligence is rapidly moving from a standalone analytics tool to an operational capability that reshapes how production systems are planned, controlled, and improved in real time. In production contexts, AI can be understood as digital technologies performing tasks and decisions traditionally associated with human intelligence. Recent operations and production research highlights that AI&#39;s operational value increasingly depends on data availability, interoperability, and sharing across heterogeneous systems, enabling AI to sense, learn, and act within production environments rather than merely supporting off-line analysis.</p>
     
-    <p>As AI becomes embedded in industrial practice, it increasingly augments other production technologies by enabling learning-driven planning and control, data-driven quality and maintenance decisions, and closed-loop optimisation across cyber–physical production environments. Empirical studies demonstrate promising task-level pathways such as deep reinforcement learning for shop-floor rescheduling, deep learning approaches for predicting breakdowns from maintenance logs, and data-driven methods for multi-robot task allocation. However, what remains underdeveloped is system-level, empirically validated knowledge on how these point solutions are integrated with production technologies and operational data environments to form reliable end-to-end decision-and-execution workflows that generalise beyond individual tasks or single settings.</p>
-    
-    <p>In practice, AI will not augment production technologies as expected unless implementation conditions are addressed across the relationships between business needs, data readiness, and AI-enabled decision workflows. Before AI can be operationalised, organisations must clarify the business decision and process context, specify what data are needed for those decisions, and prepare usable production data through definition, collection, storage, integration, and cleaning. Evidence indicates that beyond the how-to-combine question, we still lack robust empirical insight into the enabling and constraining factors—data readiness, organisational readiness, and human–AI interaction—that determine whether AI-enabled solutions can be adopted, implemented, and routinised as operational workflows in real production settings. This Special Issue focuses on empirical studies that examine the contexts of using AI to augment production technologies, while also addressing the upstream implementation pipeline and socio-technical conditions that determine whether such augmentation can be realised in practice.</p>
-    
-    <p>This Special Issue seeks to advance understanding of how AI is embedded in, and enhances, digital production technologies, with a clear emphasis on empirical evidence from real operational contexts such as industrial datasets, system deployments, case studies, field experiments, digital trace data, and production/maintenance logs. Submissions that are purely conceptual, literature-review based, or modelling-driven without empirical validation are outside the scope of this Special Issue.</p>
-    
-    <p>Empirical research is defined as studies that use real-world operational evidence, such as production and maintenance logs, IoT/sensor streams, machine/robot telemetry, MES/ERP traces, digital twin event logs linked to real operations, image/video inspection data, industrial case studies, field experiments, or multi-site archival datasets. Empirical studies may employ machine learning, optimisation, simulation, or digital twin experimentation, but only when the analysis is grounded in real operational data and/or validated in industrial settings with measurable outcomes. Studies based solely on synthetic data, stylised simulations, benchmark datasets without production-operational grounding, or purely conceptual/literature-review contributions are outside the scope of this Special Issue.</p>
-    
-    <p>In addition to application-focused empirical papers, this Special Issue explicitly encourages submissions that examine the full AI implementation pipeline in production systems, including business–AI alignment, where production decision problems are translated into AI use cases and data requirements; data readiness, where governance/standards, monitoring, preparation/cleaning, and query/access enable reliable AI use; and deployment and workflow embedding, where AI outputs are integrated into human–AI decision workflows and operational routines. The Special Issue organises topics along two dimensions: stages of AI implementation in production systems—from business–AI alignment (design), to data readiness (pre-implementation), to deployment and workflow embedding (implementation)—and the production technologies and operational contexts in which AI is used to augment decision-making and execution.</p>
-    
+    <p>
+        Appel publié par Production Planning &amp; Control.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ai-enabled-production-systems/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -85,17 +84,26 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Production Planning &amp; Control (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Manufacturing and Service Digital Ecosystems: Data driven Platform Governance, Value Co creation, and Ecosystem Optimization]]></title>
             <link>https://kerostig.org/call/elsevier-manufacturing-and-service-digital-ecosystems-data-driven-platform-governance-value-co-creation-and-ecosystem-optimization/</link>
             <guid>elsevier-manufacturing-and-service-digital-ecosystems-data-driven-platform-governance-value-co-creation-and-ecosystem-optimization</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Computers &amp; Industrial Engineering.
+        
+        <a href="https://www.sciencedirect.com/special-issue/331741/manufacturing-and-service-digital-ecosystems-data-driven-platform-governance-value-co-creation-and-ecosystem-optimization">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-manufacturing-and-service-digital-ecosystems-data-driven-platform-governance-value-co-creation-and-ecosystem-optimization/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -106,15 +114,87 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Computers &amp; Industrial Engineering (ELSEVIER)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Celebrating the 75th Birthday of Professor Kathryn E. Stecke]]></title>
+            <link>https://kerostig.org/call/tandf-celebrating-the-75th-birthday-of-professor-kathryn-e-stecke/</link>
+            <guid>tandf-celebrating-the-75th-birthday-of-professor-kathryn-e-stecke</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Bernie F. Quiroga</strong>, West Virginia University</p>
+        
+        <p><strong>Xuying Zhao</strong>, Texas A&amp;M University</p>
+        
+        <p><strong>Oleg Gusikhin</strong>, Ford Motor Company</p>
+        
+        <p><strong>Andrea Matta</strong>, Politecnico di Milano</p>
+        
+        <p><strong>Yong Yin</strong>, Doshisha Business School</p>
+        
+    
+    
+    
+    <p>Professor Kathryn E. Stecke is an internationally renowned scholar whose pioneering work has profoundly shaped the fields of flexible manufacturing systems (FMSs), supply chain management, and production planning. Prof. Stecke has dedicated her career to advancing research on manufacturing efficiencies, supply chain resilience, and innovative production systems, while also bridging the academic discussion between operations and marketing. She is the founding Editor-in-Chief of the International Journal of Flexible Manufacturing Systems and Operations Management Education Review. Her contributions have earned her prestigious recognitions, including being elected a Fellow of the Institute for Operations Research and the Management Sciences (INFORMS) in 2009, of the Production and Operations Management Society (POMS) in 2017, of the Decision Sciences Institute (DSI) in 2019, and of the Asia-Pacific Artificial Intelligence Association (AAIA). She has also been the recipient of the 2013 WORMS Award for the advancement of women in operations research, and the 2008 George E. Kimball medal for recognition of her service to the profession of operations research and the management sciences…</p>
+    
+    <p>
+        Appel publié par International Journal of Production Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ijpr-kathryn-stecke/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-celebrating-the-75th-birthday-of-professor-kathryn-e-stecke/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Advances in flexible manufacturing systems (FMSs), including machine grouping, loading policies, and production ratio optimization for enhanced utilization</li>
+        
+        <li>Interfaces between production and marketing, including focal points such as advance selling strategies, pre-order mechanisms considering consumer behavior (e.g., loss aversion), lead time and price quotation modes, production-transportation integration in make-to-order systems, and competition/coordination in online marketplaces</li>
+        
+        <li>Reconfigurable production systems, such as Seru, for improving responsiveness and adaptability in volatile environments</li>
+        
+        <li>Supply chain resilience strategies, including adaptive ordering, disruption mitigation, and multi-echelon network design amid geopolitical and operational uncertainties</li>
+        
+        <li>Production planning and scheduling in capital-intensive systems with machine flexibility, focusing on hierarchical approaches and real-time control</li>
+        
+        <li>Integration of digital technologies (e.g., AI, digital twins, and data analytics) in manufacturing and supply chains to boost efficiency and cost control</li>
+        
+        <li>Empirical analyses of manufacturing efficiencies in sectors like semiconductors, automotive, and electronics, drawing on case studies of disruption responses</li>
+        
+        <li>Comparative studies of traditional vs. innovative production methods, such as Toyota Production System vs. Seru, with emphasis on performance metrics</li>
+        
+        <li>Managerial insights for decision-makers on implementing flexible routing, robot scheduling, and state-dependent sequencing in production environments</li>
+        
+        <li>Future perspectives on sustainable manufacturing, addressing global supply chain vulnerabilities and policy implications</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 1, 2026: Open for submissions</li>
+        
+        <li>October 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Hybrid Human-AI Collaborative Networks]]></title>
             <link>https://kerostig.org/call/tandf-hybrid-human-ai-collaborative-networks/</link>
             <guid>tandf-hybrid-human-ai-collaborative-networks</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Rosanna Fornasiero</strong>, CNR IEIIT</p>
@@ -127,16 +207,18 @@
         
     
     
+    
     <p>Hybrid Collaborative Networks (HCNs), involving human-AI collaboration, are emerging as central to value creation in digitally enabled, globally distributed and socio-technically managed ecosystems. Based on the complex interplay between humans and artificial intelligence, these networks combine very heterogeneous actors—such as organizations, individuals, intelligent systems, embodied AI, and platforms—interacting across physical, digital, and organizational boundaries.</p>
     
     <p>Understanding the dynamics of such networks is critical to ensure their design, management, resilience, adaptability and sustained performance in rapidly changing environments. Analysing and managing the dynamic nature of HCNs includes examining how hybrid collaborative structures emerge, evolve, adapt, and dissolve over time. The dynamics of interactive performance and role distribution for such networks, but also the change of collaboration patterns over time, together with the managerial frameworks required to ensure adaptive governance of HCNs open strong scientific challenges, where technological added-value should be deeply associated with socio-human approaches.</p>
     
-    <p>The 26 years of scientific background developed by PRO-VE in designing and managing collaborative networks stands as the basis to design and manage the life cycle of hybrid human – AI collaborative networks. The very adaptative and changing nature of HCNs calls for a very open multidisciplinary science of collaborative networks, where engineering disciplines collaborate constantly with socio-human and managerial scientists. Beyond the complexity to ensure effective human-AI integration, scalability and evolution of AI systems or trust in hybrid collaboration, require defining innovative design methods and frameworks, adaptive governance and life-cycle management models.</p>
-    
-    <p>PRO-VE 2026 is a forum for sharing and discussing current developments and experiences regarding the role of collaborative networks in the age of combined intelligence between humans and AI. Contributions to this special issue are selected from the papers submitted to the conference. A limited number of self-submission papers can be accepted for publication in this SI.</p>
-    
-    <p>The SI aims to integrate multiple and diverse disciplines such as Engineering, Managerial and Socio-Human sciences: industrial and electrical engineering, computer science, manufacturing, organization science, logistics, management, and social sciences, among others.</p>
-    
+    <p>
+        Appel publié par Production Planning &amp; Control.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ppc-human-ai/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-hybrid-human-ai-collaborative-networks/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -194,80 +276,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Production Planning &amp; Control (TANDF)</author>
-        </item>
-        <item>
-            <title><![CDATA[Celebrating the 75th Birthday of Professor Kathryn E. Stecke]]></title>
-            <link>https://kerostig.org/call/tandf-celebrating-the-75th-birthday-of-professor-kathryn-e-stecke/</link>
-            <guid>tandf-celebrating-the-75th-birthday-of-professor-kathryn-e-stecke</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>Bernie F. Quiroga</strong>, West Virginia University</p>
-        
-        <p><strong>Xuying Zhao</strong>, Texas A&amp;M University</p>
-        
-        <p><strong>Oleg Gusikhin</strong>, Ford Motor Company</p>
-        
-        <p><strong>Andrea Matta</strong>, Politecnico di Milano</p>
-        
-        <p><strong>Yong Yin</strong>, Doshisha Business School</p>
-        
-    
-    
-    <p>Professor Kathryn E. Stecke is an internationally renowned scholar whose pioneering work has profoundly shaped the fields of flexible manufacturing systems (FMSs), supply chain management, and production planning. Prof. Stecke has dedicated her career to advancing research on manufacturing efficiencies, supply chain resilience, and innovative production systems, while also bridging the academic discussion between operations and marketing. She is the founding Editor-in-Chief of the International Journal of Flexible Manufacturing Systems and Operations Management Education Review. Her contributions have earned her prestigious recognitions, including being elected a Fellow of the Institute for Operations Research and the Management Sciences (INFORMS) in 2009, of the Production and Operations Management Society (POMS) in 2017, of the Decision Sciences Institute (DSI) in 2019, and of the Asia-Pacific Artificial Intelligence Association (AAIA). She has also been the recipient of the 2013 WORMS Award for the advancement of women in operations research, and the 2008 George E. Kimball medal for recognition of her service to the profession of operations research and the management sciences, and was recognized also by her alma mater, Purdue University, with the Distinguished Woman Scholar Award (2014) and the Outstanding Industrial Engineer Award (2017).</p>
-    
-    <p>Prof. Stecke&#39;s early work laid foundational methodologies for FMS, addressing critical challenges in machine grouping, loading, and production ratios to optimize utilization and flexibility. Stecke (1983), a seminal paper, developed nonlinear integer programming models and hierarchical solution approaches for part type selection, machine grouping, and resource allocation in FMS, providing a framework that has influenced subsequent optimization techniques in automated manufacturing. This article was recognized by INFORMS as one of 50 papers that represented the most significant research published in Management Science in the last half century in February 2004. Berrada and Stecke (1986) introduced algorithmic solutions for balancing workloads in FMS, influencing subsequent research on system efficiency. Stecke and Solberg (1981) explored routing and sequencing strategies to enhance throughput in dynamic manufacturing environments.</p>
-    
-    <p>Over the decades, her research evolved to encompass supply chain disruptions and adaptive strategies. In Schmitt et al. (2017), winner of the Best Paper Award given by Omega in 2018, she examined resilient ordering policies to counter volatility, providing practical insights for multi-tier networks. Stecke and Kumar (2009) has been the most cited paper in the Journal of Marketing Channels for over a decade. More recently, Prof. Stecke has contributed to understanding innovative production paradigms like the Seru system, a cellular manufacturing approach originating from Japan that emphasizes reconfigurability and responsiveness. Her collaborations with Yin et al. (2017), winner of the Jack Meredith Best Paper Award given by the Journal of Operations Management in 2018, Yin et al. (2018), given a Best Paper Award by IJPR in 2019, and Li et al. (2025) demonstrate how Seru improves rapid response capabilities compared to traditional systems, such as the Toyota Production System, highlighting its potential for flexible manufacturing.</p>
-    
-    <p>Prof. Stecke has also made significant contributions at the interface between production research and marketing, exploring how operational decisions interact with consumer behavior and market dynamics. Notable works include Zhao et al. (2016), which analyzes conditions under which advance selling strategies enhance profitability across supply chain partners; Zhao et al. (2012) examined optimal quotation modes for customizing lead times and prices; Prasad et al. (2011) investigated advance selling tactics for retailers facing demand uncertainty; Zhao and Stecke (2010) incorporated behavioral economics into pre-order strategies; and Stecke and Zhao (2017) integrated production and logistics for commit-to-delivery models.</p>
-    
-    <p>This special issue celebrates Prof. Stecke&#39;s 75th birthday by inviting contributions that build upon, extend, or reflect on her legacy in production research. It aims to curate cutting-edge articles in active and emerging areas, serving as a focal point for discourse on flexible, resilient, and efficient production systems, as well as the intersection of production research with marketing. By honoring her trailblazing efforts, the issue seeks to inspire future directions in manufacturing and supply chain innovation, ensuring her influence continues to guide the field.</p>
-    
-    <p>We welcome high-quality submissions, including empirical studies, analytical models, simulation-based research, case analyses, and conceptual papers that offer novel insights. All manuscripts should align with the journal&#39;s emphasis on rigorous, impactful research and incorporate key elements such as an exhaustive literature analysis, novel decision-aid models explained for a broad audience, comparisons with state-of-the-art methods, discussions on real-life applications, managerial insights, and research perspectives.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Advances in flexible manufacturing systems (FMSs), including machine grouping, loading policies, and production ratio optimization for enhanced utilization</li>
-        
-        <li>Interfaces between production and marketing, including focal points such as advance selling strategies, pre-order mechanisms considering consumer behavior (e.g., loss aversion), lead time and price quotation modes, production-transportation integration in make-to-order systems, and competition/coordination in online marketplaces</li>
-        
-        <li>Reconfigurable production systems, such as Seru, for improving responsiveness and adaptability in volatile environments</li>
-        
-        <li>Supply chain resilience strategies, including adaptive ordering, disruption mitigation, and multi-echelon network design amid geopolitical and operational uncertainties</li>
-        
-        <li>Production planning and scheduling in capital-intensive systems with machine flexibility, focusing on hierarchical approaches and real-time control</li>
-        
-        <li>Integration of digital technologies (e.g., AI, digital twins, and data analytics) in manufacturing and supply chains to boost efficiency and cost control</li>
-        
-        <li>Empirical analyses of manufacturing efficiencies in sectors like semiconductors, automotive, and electronics, drawing on case studies of disruption responses</li>
-        
-        <li>Comparative studies of traditional vs. innovative production methods, such as Toyota Production System vs. Seru, with emphasis on performance metrics</li>
-        
-        <li>Managerial insights for decision-makers on implementing flexible routing, robot scheduling, and state-dependent sequencing in production environments</li>
-        
-        <li>Future perspectives on sustainable manufacturing, addressing global supply chain vulnerabilities and policy implications</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>March 1, 2026: Open for submissions</li>
-        
-        <li>October 31, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>International Journal of Production Research (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

@@ -4,7 +4,7 @@
         <title>kerostig | Tag : multi-methods</title>
         <link>https://kerostig.org/tag/multi-methods/</link>
         <description>Derniers appels à publications avec le tag 'multi-methods'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,25 +13,28 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/multi-methods/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Crossing Methodological Borders: Mixed-/Multi-Methods in Contemporary Industrial and Information Systems management]]></title>
             <link>https://kerostig.org/call/emerald-crossing-methodological-borders-mixed-multi-methods-in-contemporary-industrial-and-information-systems-management/</link>
             <guid>emerald-crossing-methodological-borders-mixed-multi-methods-in-contemporary-industrial-and-information-systems-management</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>As digital technologies increasingly transform industrial operations, integrating industrial management with information systems (IS/IT) research has become essential. Key domains such as supply chain resilience, digital innovation, and data-driven decision-making require methodological approaches that can address both technical complexity and organizational dynamics.</p>
     
     <p>However, many existing studies still rely predominantly on either primary or secondary data, with relatively few exploring the benefits of strategically combining the two. Integrating primary data (e.g., surveys, interviews, experiments) with secondary data (e.g., ERP logs, platform analytics, archival datasets) enables deeper theory development by revealing both behavioral patterns and underlying mechanisms.</p>
     
-    <p>Mixed-methods purposefully integrate qualitative and quantitative data to provide both explanatory breadth and contextual depth—enabling researchers to explore &quot;how&quot; and &quot;why&quot; phenomena unfold. Multi-methods, which combine multiple techniques within the same paradigm, can improve robustness, triangulation, and construct validity. Both approaches are particularly valuable for studying evolving topics such as AI deployment, digital trust, platform governance, and organizational resilience.</p>
-    
-    <p>Despite their promise, challenges persist: integration logic is often implicit, philosophical tensions may arise, and quality assessment frameworks are still emerging. Key areas remain underexplored, including how to align methodological choices with research aims, how to evaluate integration rigorously, and how to distinguish among mixed, multi, and hybrid methods in IS research.</p>
-    
-    <p>This special issue aims to address these gaps by encouraging submissions that embrace methodological pluralism, combining primary and secondary data to produce practically relevant, empirically grounded, and theoretically robust contributions. By crossing methodological borders, we hope to foster innovative approaches that better reflect the complex realities of digital transformation in industrial systems.</p>
-    
+    <p>
+        Appel publié par Industrial Management &amp; Data Systems.
+        
+        <a href="https://www.emerald.com/imds/calls-for-submissions/1768/Crossing-Methodological-Borders-Mixed-Multi?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-crossing-methodological-borders-mixed-multi-methods-in-contemporary-industrial-and-information-systems-management/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -63,8 +66,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Industrial Management &amp; Data Systems (EMERALD)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

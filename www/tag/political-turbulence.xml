@@ -4,7 +4,7 @@
         <title>kerostig | Tag : political turbulence</title>
         <link>https://kerostig.org/tag/political-turbulence/</link>
         <description>Derniers appels à publications avec le tag 'political turbulence'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/political-turbulence/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Managing Under Political Turbulence]]></title>
             <link>https://kerostig.org/call/aom-amp-call-for-special-issue-papers-managing-under-political-turbulence/</link>
             <guid>aom-amp-call-for-special-issue-papers-managing-under-political-turbulence</guid>
             <pubDate>Tue, 11 Aug 2026 01:40:43 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Jonathan Doh</strong>, Villanova University</p>
@@ -32,18 +33,18 @@
         
     
     
+    
     <p>Political turbulence is on the rise, as evidenced most dramatically in violent conflicts (e.g., wars, terrorism attacks), volatile political transitions (e.g., dramatic regime change, cuts to government employees, new geopolitical alliances, coups), and geopolitical tensions (e.g., trade wars, democratic backsliding, sanctions). This escalated political turbulence exacerbates geopolitical risks for organizations and their stakeholders.</p>
     
     <p>Whether anticipatory (e.g., fear of cyberattacks) or actual (e.g., ongoing trade wars, competition over territories), rising geopolitical risks affect organizations in many ways. The rise of techno-nationalism, driven by national security and ideological concerns, challenges the resilience of global technology supply chains. With the rapid development of AI comes misinformation and disinformation that further aggravate political tensions and ideologies. Tariffs, sanctions, and protectionist trade restrictions bring escalating compliance risks. Rising populist sentiment drives immigration restrictions and is creating a shortage of high-skill talent for MNEs.</p>
     
-    <p>Political turbulence has long been a strategic consideration in some sectors such as energy and defense, but it is now affecting organizations in nearly all sectors, both at home and abroad. At home, organizations encounter scrutiny from civil society for their operations in countries with questionable international standing. Abroad, they may face interventions by host country governments that vary with their country of origin or type of ownership. All of this presents considerable challenges for managers and their organizations.</p>
-    
-    <p>This special issue aims to provide actionable, evidence-based insights that clearly and credibly guide managers and their organizations in navigating the political turbulence that increasingly characterizes the international, national, and subnational landscape. We seek to fill in the &#39;glaring white space&#39; of how organizations can best operate under political turbulence, providing robust insights on which practitioners and policy makers can rely.</p>
-    
-    <p>AMP papers are managerially driven, not theory driven. Successful submissions clearly define the managerial issue from the outset and make a compelling case for its importance. They do not simply tack managerial implications onto a standard academic study. Rather, AMP papers evidence actionable insights that can credibly guide managerial behavior and influence policy decisions.</p>
-    
-    <p>We welcome both conceptual and empirical papers that are grounded in rigorous analysis and directly evidence specific and significant managerial and policy actions. We welcome accounts of embodied, lived experiences of specific political turbulence and the use of reflexive methodologies. Quantitative analyses of large databases, qualitative comparative analyses, and extensive data analysis using linguistic programs and algorithms are also welcome. Papers should prove what can or does work in ways that managers and policymakers can use.</p>
-    
+    <p>
+        Appel publié par Academy of Management Perspectives.
+        
+        <a href="https://www.aom.org/event/amp-call-for-special-issue-papers-managing-under-political-turbulence/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/aom-amp-call-for-special-issue-papers-managing-under-political-turbulence/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -82,8 +83,8 @@
         
     </ul>
     
-</div>]]></content:encoded>
-            <author>Academy of Management Perspectives (AOM)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

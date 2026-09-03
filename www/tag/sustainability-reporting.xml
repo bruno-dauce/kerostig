@@ -4,7 +4,7 @@
         <title>kerostig | Tag : sustainability reporting</title>
         <link>https://kerostig.org/tag/sustainability-reporting/</link>
         <description>Derniers appels à publications avec le tag 'sustainability reporting'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/sustainability-reporting/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Performance extra-financière et transformation des supply chains : enjeux réglementaires, innovations et défis opérationnels]]></title>
             <link>https://kerostig.org/call/tandf-performance-extra-financiere-et-transformation-des-supply-chains-enjeux-reglementaires-innovations-et-defis-operationnels/</link>
             <guid>tandf-performance-extra-financiere-et-transformation-des-supply-chains-enjeux-reglementaires-innovations-et-defis-operationnels</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Elizabeth Couzineau-Zegwaard</strong>, PPA Business School</p>
@@ -30,22 +31,16 @@
         
     
     
+    
     <p>Globalization of trade, intensification of environmental pressures, and construction of a binding European regulatory framework in a context of successive crises are profoundly redefining expectations for supply chains. With fewer than 10% of consumer goods currently being recycled globally, resource scarcity and climate urgency are forcing companies to articulate economic competitiveness with sustainability requirements. In this context of polycrisis and permacrisis, non-financial performance, measured through environmental, social and governance (ESG) criteria, is emerging as a strategic lever influencing access to financing, organizational reputation and resilience to systemic risks. Continuous measurement of non-financial performance also helps develop dynamic management of supply chains subject to contradictory and evolving injunctions.</p>
     
-    <p>The integration of these non-financial criteria into supply chain management, however, raises considerable methodological and operational challenges, particularly in terms of impact measurement, traceability and inter-organizational coordination. This special issue aims to explore the tensions and synergies between non-financial performance and supply chain management, by crossing academic, regulatory and managerial perspectives.</p>
-    
-    <p>Non-financial performance has become an essential complement to traditional economic evaluation, under the effect of three converging dynamics: the evolution of stakeholder expectations in favor of increased transparency, the financialization of sustainability through the growth of ESG funds and green bonds, and the rise of systemic risks revealed by recent health and geopolitical crises. Supply chain management is therefore no longer solely a tool for logistics optimization, but a vector for creating sustainable value and a factor of competitive differentiation.</p>
-    
-    <p>In Europe, several legislative texts now structure the field of action for companies. The Corporate Sustainability Reporting Directive (CSRD, 2023) extends the obligation for non-financial reporting to nearly 50,000 companies according to harmonized standards (ESRS), including Scope 3 emissions, biodiversity and social risks. The Corporate Sustainability Due Diligence Directive (CSDDD, 2024) establishes a duty of care across the entire value chain, with sanctions. The European taxonomy (2020, revised in 2023) imposes strengthened traceability of financial and logistics flows, while the deforestation regulation (EUDR, 2023) conditions the importation of certain raw materials on evidence of compliance. Added to these measures is the regulation on ecodesign of sustainable products (ESPR, 2024), which progressively generalizes the digital product passport and strengthens traceability requirements throughout the life cycle.</p>
-    
-    <p>These measures create an unprecedented normative framework, where compliance becomes a strategic imperative but also a source of complexity, particularly for data collection and verification. They also pave the way for international benchmarking of companies, which explains the stakes surrounding the definition and adoption of European standards versus standards from other economic blocs.</p>
-    
-    <p>However, this regulatory expansion movement is experiencing a major inflection. The &#39;Omnibus&#39; simplification package, proposed by the European Commission in early 2025, provides for raising thresholds for applicability, postponing certain deadlines and easing obligations related to Scope 3 and duty of care. This simplification dynamic (or even partial retreat) introduces unprecedented normative instability: companies engaged in costly compliance trajectories face a shifting framework, raising questions of path dependency, sunk costs and trade-offs between regulatory anticipation and wait-and-see approaches, even greenwashing versus greenhushing. The tension between stated ambitions, operational feasibility and revealed results thus constitutes a research object in its own right.</p>
-    
-    <p>The adoption of sustainable practices generates tangible benefits. The circular economy (reuse, recycling, eco-design) reduces costs related to raw materials and waste management. Companies with strong ESG performance benefit from favorable financing conditions (green loans) and increased resilience to external shocks. However, several obstacles persist: the complexity of impact measurement, particularly for Scope 3 emissions, the risk of greenwashing when stated commitments do not translate into operational transformation, and trade-offs between sustainability and resilience, particularly regarding relocation.</p>
-    
-    <p>Digital technologies (also called 4.0) appear to constitute a central transformation vector. Blockchain allows certification of raw material origin and data security, artificial intelligence and Big Data help optimize flows and anticipate risks, the Internet of Things (IoT) facilitates real-time monitoring of flows and activities to calculate ESG indicators. These innovations, however, raise questions about data protection, accessibility for SMEs and interoperability between actors. While they facilitate automation of reporting, they leave entirely open the strategic choice of whether or not to reveal the actual level of non-financial performance of supply chains.</p>
-    
+    <p>
+        Appel publié par Logistique &amp; Management.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/transformation-supply-chains/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-performance-extra-financiere-et-transformation-des-supply-chains-enjeux-reglementaires-innovations-et-defis-operationnels/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -69,8 +64,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Logistique &amp; Management (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

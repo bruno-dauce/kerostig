@@ -4,7 +4,7 @@
         <title>kerostig | Tag : climate policy</title>
         <link>https://kerostig.org/tag/climate-policy/</link>
         <description>Derniers appels à publications avec le tag 'climate policy'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/climate-policy/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Anti-Environmentalism and the Future of Green Growth]]></title>
             <link>https://kerostig.org/call/springer-anti-environmentalism-and-the-future-of-green-growth/</link>
             <guid>springer-anti-environmentalism-and-the-future-of-green-growth</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Anastasios Xepapadeas</strong>, Athens University of Economics and Business</p>
@@ -30,14 +31,16 @@
         
     
     
+    
     <p>In recent years, the global transition toward sustainable and low-carbon economic systems has encountered increasing political and social resistance. This phenomenon—broadly termed &quot;anti-environmentalism&quot;—encompasses a range of behaviors, beliefs, and policy stances that oppose or undermine environmental regulation, renewable energy expansion, and climate mitigation efforts. While green growth remains a central framework for reconciling economic development with ecological preservation, its implementation is increasingly conditioned by public acceptance, political will, and institutional credibility. Understanding how and why opposition to environmental policy arises—and how it interacts with economic incentives and policy design—is therefore a critical problem from both policy and academic perspectives.</p>
     
-    <p>It is therefore essential to examine the implications for pathways toward green growth and sustainable development when environmental considerations—particularly those related to climate change—are neglected under the influence of anti-environmentalist attitudes. This concern is made more urgent by scientific evidence indicating that climate change increases both the frequency and magnitude of extreme events, thereby amplifying expected damages. Moreover, the growing likelihood of transgressing critical planetary boundaries underscores the importance of understanding anti-environmentalist movements, which, if embedded in policy, could accelerate such boundary crossings. In addition, anti-environmentalist positions may hinder the mechanisms of creative destruction that facilitate transitions to low-carbon economies, offering a further area of relevance for the proposed Special Issue.</p>
-    
-    <p>This Special Issue will bring together leading research in environmental economics, macroeconomics, political economy, and behavioral economics to explore the drivers, dynamics, and implications of anti-environmentalism for sustainable growth. It aims to provide a comprehensive analysis of how economic systems can maintain progress toward green growth amidst political polarization and societal backlash. We welcome a broad range of techniques and approaches, including optimal control, game theory, political economy, and network theory. Special attention will be given to methodological (theoretical, empirical or experimental) contributions aiming at disentangling the multifaceted nature of the anti-environmentalism and green growth relationship.</p>
-    
-    <p>This Call for Papers is related to the HEDGE (Health, Environment, Development and Growth Economics) conference which will take place in Pisa on 5-7 February 2026, but it is open to everyone. Both conference participants and non-participants are encouraged to submit high-quality papers dealing with topics related to anti-environmentalism and green growth, broadly defined.</p>
-    
+    <p>
+        Appel publié par Environmental and Resource Economics.
+        
+        <a href="https://link.springer.com/collections/efdadfbcjd">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-anti-environmentalism-and-the-future-of-green-growth/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -71,8 +74,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Environmental and Resource Economics (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

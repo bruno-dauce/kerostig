@@ -4,7 +4,7 @@
         <title>kerostig | Tag : immersive learning</title>
         <link>https://kerostig.org/tag/immersive-learning/</link>
         <description>Derniers appels à publications avec le tag 'immersive learning'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/immersive-learning/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Educational Immersion for All: Accessibility and Inclusion in eXtended Reality]]></title>
             <link>https://kerostig.org/call/tandf-educational-immersion-for-all-accessibility-and-inclusion-in-extended-reality/</link>
             <guid>tandf-educational-immersion-for-all-accessibility-and-inclusion-in-extended-reality</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Andrea Antonio Cantone</strong>, University of Salerno</p>
@@ -32,16 +33,18 @@
         
     
     
+    
     <p>Immersive technologies, including Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR), are increasingly being adopted in educational contexts to create engaging, interactive, and experiential learning environments. By enabling students to interact with digital content in three-dimensional, embodied and multisensory spaces, these technologies have the potential to transform traditional educational practices and support new forms of learning that are more active, contextualized, and collaborative.</p>
     
     <p>Recent research from the educational technology, Human–Computer Interaction (HCI), and eXtended Reality (XR) communities has explored the potential of immersive technologies to enhance learning experiences, highlighting their impact on engagement, motivation, collaboration, and experiential learning. In parallel, accessibility and inclusive design research has emphasized the importance of incorporating accessibility principles into immersive environments to ensure that emerging technologies can support learners with diverse abilities and needs.</p>
     
-    <p>Immersive technologies offer significant opportunities to promote inclusive and accessible education. When carefully designed, XR based learning environments can support a diverse range of learners by providing adaptive interfaces, multimodal content, and personalized learning experiences that accommodate different abilities, learning styles, and needs.</p>
-    
-    <p>However, despite their potential, many immersive learning applications are still developed without fully considering accessibility and inclusivity. Issues such as usability barriers, lack of accessible interaction modalities, and limited design guidelines can hinder the effective adoption of these technologies in inclusive educational settings. Ensuring that immersive technologies are designed with accessibility and inclusivity in mind is therefore essential to prevent the creation of new digital divides.</p>
-    
-    <p>This Special Issue aims to explore how immersive technologies can be designed, implemented, and evaluated to promote equitable, inclusive, and accessible educational experiences. It seeks contributions that investigate the role of immersive technologies in supporting learners with diverse needs, including students with disabilities, neurodivergent learners, and individuals from diverse cultural and socio-economic backgrounds. The issue welcomes interdisciplinary research that integrates perspectives from Human–Computer Interaction, educational technology, accessibility research, learning sciences, and inclusive design.</p>
-    
+    <p>
+        Appel publié par Behaviour &amp; Information Technology.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/educational-immersion-for-all-accessibility-and-inclusion-in-extended-reality/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-educational-immersion-for-all-accessibility-and-inclusion-in-extended-reality/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -83,8 +86,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Behaviour &amp; Information Technology (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

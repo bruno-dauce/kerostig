@@ -4,7 +4,7 @@
         <title>kerostig | Tag : financial modelling</title>
         <link>https://kerostig.org/tag/financial-modelling/</link>
         <description>Derniers appels à publications avec le tag 'financial modelling'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/financial-modelling/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Generative AI and LLM in financial modelling and applications]]></title>
             <link>https://kerostig.org/call/tandf-generative-ai-and-llm-in-financial-modelling-and-applications/</link>
             <guid>tandf-generative-ai-and-llm-in-financial-modelling-and-applications</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Steve Yang</strong>, Stevens Institute of Technology</p>
@@ -34,12 +35,16 @@
         
     
     
+    
     <p>This special issue aims to explore the specific financial modelling issues related to Artificial Intelligence (AI), in particular Generative AI and Large Language models (LLMs) modelling and applications in finance. It seeks to offer new insights in consideration of Generative AI/LLM innovation that brings changes to the traditional finance topics such as asset pricing, financial intermediation, financial markets &amp; investment, behavioural finance, banking, accounting, insurance, etc. The special issue particularly encourages work that advances the understanding of how Gen AI and LLM modelling brings forward ethical implications, benefits financial inclusion and/or enhances regulatory and policy changes.</p>
     
-    <p>The launch of ChatGPT in November of 2022 and its rapid adoption have demonstrated the promise of Generative AI/LLMs and brought a renewed interest in finance research on artificial intelligence applications. Generative AI has the potential to revolutionize various aspects of finance by enabling better data generation, analysis, decision-making, and risk management. One example of the potential impact is a recent paper on how FinBERT (a finance focused large language model) can improve several existing areas of information processing in finance. However, this is only the beginning, and it is anticipated that more research on modelling and applications using Generative AI is needed.</p>
-    
-    <p>In the era of increased AI influence, ethical concerns often revolve around the use of big data, decentralized finance, artificial intelligence (AI), and how they affect customer privacy. At the same time, regulatory challenges are equally significant, with AI introducing new methods and risks that may not fit well within existing frameworks. For example, Generative AI can reduce costs associated with predictions and decisions but raises concerns about data privacy and the stifling of human-centred innovation. These challenges beg further research to bring better understanding.</p>
-    
+    <p>
+        Appel publié par The European Journal of Finance.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/generative-ai-llm-financial-risk-modeling/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-generative-ai-and-llm-in-financial-modelling-and-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -85,8 +90,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>The European Journal of Finance (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

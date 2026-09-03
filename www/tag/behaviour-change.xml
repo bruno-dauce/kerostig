@@ -4,7 +4,7 @@
         <title>kerostig | Tag : behaviour change</title>
         <link>https://kerostig.org/tag/behaviour-change/</link>
         <description>Derniers appels à publications avec le tag 'behaviour change'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/behaviour-change/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Persuasive Technology 2026]]></title>
             <link>https://kerostig.org/call/tandf-persuasive-technology-2026/</link>
             <guid>tandf-persuasive-technology-2026</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Elena Vlahu Gjorgievska</strong>, University of Wollongong</p>
@@ -30,10 +31,18 @@
         
     
     
+    
     <p>The special issue will include selected papers from the 21st International Conference on Persuasive Technology. The special issue will be by invitation only.</p>
     
     <p>This special issue is by invitation only. Invited papers must have at least 35% extra content from the conference paper. The additional content cannot be related work only or an extended discussion, but should include at least 35% of new results.</p>
     
+    <p>
+        Appel publié par Behaviour &amp; Information Technology.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/persuasive-technology-2026/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-persuasive-technology-2026/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -75,25 +84,30 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Behaviour &amp; Information Technology (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Social Marketing and Sustainable Futures]]></title>
             <link>https://kerostig.org/call/emerald-social-marketing-and-sustainable-futures/</link>
             <guid>emerald-social-marketing-and-sustainable-futures</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>Social marketing has long been positioned as a discipline capable of improving societal wellbeing by applying marketing principles to influence behaviour in socially beneficial ways. Early contributions that imagined marketing being used beyond the commercial realm laid the foundation for the field&#39;s formal emergence in the early 1970s. Over the decades, social marketing has advanced its understanding of how to encourage and sustain behaviour change, yet the contemporary landscape presents challenges of a fundamentally different scale.</p>
     
     <p>Increasing environmental degradation, climate instability, resource pressures, and persistent social inequities highlight the need for social marketing approaches capable of addressing system-wide issues. While behaviour remains a central concern, scholars have argued that meaningful progress requires attention to macro-level structures and the dynamic interactions among actors, networks, institutions, and infrastructures. Social marketing is therefore being called upon not merely to promote individual behaviour change, but to support the creation of sustainable futures through coordinated, multi-level forms of change.</p>
     
-    <p>This shift has been accompanied by growing engagement with systems-oriented and impact-focused frameworks that seek to guide, justify, and evaluate social marketing&#39;s contribution to sustainability transitions. These include macro and systems social marketing perspectives, emerging governance-oriented impact frameworks, and theory-driven approaches, which collectively emphasise public value creation, institutional change, and societal wellbeing. At a global level, these perspectives also align social marketing with broader sustainability agendas, including the United Nations Sustainable Development Goals, positioning the discipline as a contributor to long-term environmental, social, and economic resilience rather than short-term behavioural outcomes alone.</p>
-    
-    <p>This Special Issue provides an opportunity to advance this conversation by showcasing cutting-edge research, conceptual development, and methodological innovation. We welcome work that critically examines social marketing&#39;s evolving role in shaping environmental, social, and economic sustainability, and that considers how the field can contribute to societal transitions during a period of intense global uncertainty. We encourage conceptual and empirical papers, including qualitative and quantitative research.</p>
-    
+    <p>
+        Appel publié par European Journal of Marketing.
+        
+        <a href="https://www.emerald.com/ejm/calls-for-submissions/1894/Social-Marketing-and-Sustainable-Futures?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-social-marketing-and-sustainable-futures/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -143,8 +157,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>European Journal of Marketing (EMERALD)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

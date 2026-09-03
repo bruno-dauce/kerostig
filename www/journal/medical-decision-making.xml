@@ -4,7 +4,7 @@
         <title>kerostig | Medical Decision Making</title>
         <link>https://kerostig.org/journal/medical-decision-making/</link>
         <description>Derniers appels à publications pour Medical Decision Making.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,15 +13,24 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/medical-decision-making/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Interface between Human Users and Machine Learning Models in Medical Decision Making]]></title>
             <link>https://kerostig.org/call/sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making/</link>
             <guid>sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making</guid>
             <pubDate>Tue, 11 Aug 2026 15:38:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Medical Decision Making.
+        
+        <a href="https://journals.sagepub.com/doi/full/10.1177/0272989X221145012">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -32,8 +41,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Medical Decision Making (SAGE)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

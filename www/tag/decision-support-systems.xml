@@ -4,7 +4,7 @@
         <title>kerostig | Tag : decision support systems</title>
         <link>https://kerostig.org/tag/decision-support-systems/</link>
         <description>Derniers appels à publications avec le tag 'decision support systems'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,29 +13,32 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/decision-support-systems/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems]]></title>
             <link>https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/</link>
             <guid>springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Yi-Kuei Lin</strong>, National Yang Ming Chiao Tung University</p>
         
     
     
+    
     <p>Industrial engineering systems, including manufacturing systems, supply chains, logistics networks, energy and power systems, transportation systems, and service operations, play a critical role in modern society. The reliable operation of such systems is essential for ensuring efficiency, safety, and robustness in the presence of uncertainty, disruptions, and complex interactions among system components. Failures or performance degradation in these systems may lead to significant economic losses, operational inefficiencies, and societal impacts.</p>
     
     <p>Traditionally, reliability modeling in industrial engineering has been grounded in probabilistic analysis, stochastic modeling, and analytical evaluation techniques. While these approaches remain fundamental, recent advances in sensing technologies, industrial Internet of Things, and information systems have enabled the collection of large-scale operational and condition-monitoring data. This has led to a growing interest in data-driven and intelligent reliability modeling, where statistical learning, machine learning, and other statistical analytical approaches complement classical reliability theory.</p>
     
-    <p>At the same time, reliability analysis is increasingly expected to support decision-making processes, such as maintenance planning, resource allocation, system design, and operational optimization. Integrating reliability modeling with decision support frameworks allows practitioners and decision-makers to move beyond reliability assessment toward actionable, reliability-informed decisions under uncertainty.</p>
-    
-    <p>We invite submissions on topics related to reliability modeling and decision support for industrial engineering systems using Operations Research, industrial engineering, and data-driven methodologies. Contributions addressing both theoretical developments and practical applications are welcome.</p>
-    
-    <p>We welcome the submission of original research papers that provide new insights and practical solutions to challenges in reliability modeling and decision support for industrial engineering systems. Submissions should demonstrate methodological rigor and clearly highlight their relevance to real-world industrial applications. Papers that illustrate how data-driven reliability analysis can enhance decision-making and system performance are particularly encouraged.</p>
-    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/igdgfheeeh">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -79,67 +82,26 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Extended Reality (XR) for Enhanced Decision Making and Organizational Transformation]]></title>
-            <link>https://kerostig.org/call/elsevier-extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation/</link>
-            <guid>elsevier-extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    <p>This special issue focuses on the transformative potential of Extended Reality (XR) technologies—including Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR)—in enhancing decision-making processes and driving organizational transformation. As organizations increasingly face complex challenges requiring rapid, data-driven decisions, XR technologies offer innovative approaches to visualize information, simulate scenarios, and facilitate collaborative problem-solving in immersive environments.</p>
-    
-    <p>The special issue welcomes original research contributions that explore how XR can improve decision support systems across various organizational contexts. We are interested in studies examining the effectiveness of immersive technologies in enhancing situational awareness, reducing decision-making time, improving decision quality, and fostering organizational innovation. Both theoretical frameworks and practical implementations are encouraged.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Applications of XR technologies in decision support systems</li>
-        
-        <li>Immersive visualization for complex data analysis</li>
-        
-        <li>VR/AR/MR interfaces for business intelligence</li>
-        
-        <li>XR-based training and knowledge transfer for organizational learning</li>
-        
-        <li>Human-computer interaction in extended reality environments</li>
-        
-        <li>User experience and usability in XR decision support applications</li>
-        
-        <li>Integration of XR with artificial intelligence and machine learning</li>
-        
-        <li>Real-time collaboration in virtual/mixed reality spaces</li>
-        
-        <li>XR applications in crisis management and emergency response</li>
-        
-        <li>Organizational change management through XR adoption</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>January 31, 2027: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Decision Support Systems (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Blockchain Technology and Applications]]></title>
             <link>https://kerostig.org/call/elsevier-blockchain-technology-and-applications/</link>
             <guid>elsevier-blockchain-technology-and-applications</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Decision Support Systems.
+        
+        <a href="https://www.sciencedirect.com/special-issue/239002/dss-special-issue-on-blockchain-technology-and-applications">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-blockchain-technology-and-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -178,8 +140,67 @@
     
     
     
-</div>]]></content:encoded>
-            <author>Decision Support Systems (ELSEVIER)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Extended Reality (XR) for Enhanced Decision Making and Organizational Transformation]]></title>
+            <link>https://kerostig.org/call/elsevier-extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation/</link>
+            <guid>elsevier-extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue focuses on the transformative potential of Extended Reality (XR) technologies—including Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR)—in enhancing decision-making processes and driving organizational transformation. As organizations increasingly face complex challenges requiring rapid, data-driven decisions, XR technologies offer innovative approaches to visualize information, simulate scenarios, and facilitate collaborative problem-solving in immersive environments.</p>
+    
+    <p>The special issue welcomes original research contributions that explore how XR can improve decision support systems across various organizational contexts. We are interested in studies examining the effectiveness of immersive technologies in enhancing situational awareness, reducing decision-making time, improving decision quality, and fostering organizational innovation. Both theoretical frameworks and practical implementations are encouraged.</p>
+    
+    <p>
+        Appel publié par Decision Support Systems.
+        
+        <a href="https://www.sciencedirect.com/special-issue/334253/extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Applications of XR technologies in decision support systems</li>
+        
+        <li>Immersive visualization for complex data analysis</li>
+        
+        <li>VR/AR/MR interfaces for business intelligence</li>
+        
+        <li>XR-based training and knowledge transfer for organizational learning</li>
+        
+        <li>Human-computer interaction in extended reality environments</li>
+        
+        <li>User experience and usability in XR decision support applications</li>
+        
+        <li>Integration of XR with artificial intelligence and machine learning</li>
+        
+        <li>Real-time collaboration in virtual/mixed reality spaces</li>
+        
+        <li>XR applications in crisis management and emergency response</li>
+        
+        <li>Organizational change management through XR adoption</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 31, 2027: Full paper submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

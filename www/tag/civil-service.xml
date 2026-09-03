@@ -4,7 +4,7 @@
         <title>kerostig | Tag : civil service</title>
         <link>https://kerostig.org/tag/civil-service/</link>
         <description>Derniers appels à publications avec le tag 'civil service'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/civil-service/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Beyond the Westminster model: a myth that needs constant refreshing?]]></title>
             <link>https://kerostig.org/call/tandf-beyond-the-westminster-model-a-myth-that-needs-constant-refreshing/</link>
             <guid>tandf-beyond-the-westminster-model-a-myth-that-needs-constant-refreshing</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Leighton Andrews</strong>, Cardiff University</p>
@@ -28,12 +29,16 @@
         
     
     
+    
     <p>Ministers and civil servants operate within formally shared constitutional arrangements but increasingly divergent professional cultures. Ministers are drawn from, and remain accountable to, a political environment defined by electoral cycles, media scrutiny, and their parties. Civil servants, by contrast, are shaped by institutional norms of political impartiality and long-term organizational continuity. Where those two paradigms were once held in productive tension by well-understood constitutional conventions, that tension has now become corrosive. Ministers have grown more likely to publicly attribute blame to officials (particularly at the most senior level, with at least 10 permanent secretaries being removed from post early since 2020). Parliament has pressed for the personal accountability of named civil servants, and civil servants have responded by becoming more risk-averse and, in some cases, more deferential to ministerial preference than honest analysis would support. The consequences for the quality of policy advice, and for policy performance more broadly, are both substantive and cumulative.</p>
     
-    <p>We recognize that constitutional settlements which order the relationship between ministers and officials are neither natural nor permanent, but were forged at particular moments and have endured precisely because they proved adaptable to the pressures subsequently placed upon them. The Westminster model has been taken up and remade across its various jurisdictions at successive moments of acute strain, very often in the aftermath of war or state crisis. The recurrence in our own time of anxieties about honesty, impartiality, blame and accountability should not let us forget that these questions have been asked, and provisionally answered, before. Reflecting on that history may therefore help us gain perspective on contemporary pressures, and deepen our understanding of where present events might yet take us.</p>
-    
-    <p>This PMM theme issue invites theoretical and empirical contributions that examine the minister–official relationship and its implications for how policy is made and delivered. We welcome papers that focus on either side of the relationship, or on the relationship itself, provided there is a clear connection to questions of policy performance or governance. The primary focus of this PMM theme is the Westminster model, but comparative contributions that engage with one or more Westminster model jurisdictions are welcome. Papers that draw on Westminster experience to engage with broader theoretical frameworks in public administration will also be considered. We welcome submissions using qualitative, quantitative and mixed-methods designs, as well as conceptual and theoretical contributions that deepen understanding of the relationship and its implications.</p>
-    
+    <p>
+        Appel publié par Public Money &amp; Management.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/beyond-the-westminster-model/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-beyond-the-westminster-model-a-myth-that-needs-constant-refreshing/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -71,8 +76,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Public Money &amp; Management (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

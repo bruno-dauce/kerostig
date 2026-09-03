@@ -4,7 +4,7 @@
         <title>kerostig | Tag : creative process</title>
         <link>https://kerostig.org/tag/creative-process/</link>
         <description>Derniers appels à publications avec le tag 'creative process'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/creative-process/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[AI and the Future of Advertising Creativity]]></title>
             <link>https://kerostig.org/call/tandf-ai-and-the-future-of-advertising-creativity/</link>
             <guid>tandf-ai-and-the-future-of-advertising-creativity</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Yung Kyun Choi</strong>, Dongguk University</p>
@@ -28,16 +29,16 @@
         
     
     
+    
     <p>For most of advertising&#39;s history, creative work has been relatively slow, scarce, and expensive. A campaign moved from brief to concept to finished asset through weeks of human labor, and the cost of producing each execution limited how many ideas a brand could test and how finely it could tailor them. Generative AI is potentially collapsing those constraints. Tools that draft copy, generate images and video, and produce thousands of message variants in minutes are now becoming embedded in the daily workflow of agencies, brands, and platforms. The result is not a marginal efficiency gain but a potential reordering of how advertising creative is imagined, made, evaluated, and valued. For an industry whose competitive advantage has long rested on creativity, arguably few developments matter more.</p>
     
-    <p>Creativity has always been central to how advertising works. Decades of research establish that creative advertising, generally defined as work that is both divergent and relevant, drives attention, processing, memory, and ultimately sales. Yet what counts as creative has never been settled. It is judged differently by creatives, account managers, and clients, and it turns on originality, artistry, and strategic fit in ways that resist easy measurement. Generative AI forces these questions open again. When a model can produce a polished, on-brief execution in seconds, the premium may shift from craft and execution toward ideas, taste, judgment, and the ability to direct the machine. Early evidence is mixed: AI appears able to lift the measured creativity and effectiveness of individual work, in some field settings to apparently superhuman levels, while tending to push outputs across many users toward sameness. Whether AI expands the creative frontier or flattens it is now an empirical and managerial question of importance.</p>
-    
-    <p>These dynamics are touching every stage of the creative process. In ideation and concepting, AI can act as a brainstorming partner that generates and recombines directions faster than most teams, shifting the human role toward editing, curating, and directing. In asset production, text-to-image and text-to-video systems are compressing the cost and time of finished creative, making volume and localization feasible where they were once uneconomic. In personalization, the same tools make it possible to generate near-infinite variants tuned to context, audience, and moment, reviving long-standing ambitions for dynamic, one-to-one creative while raising fresh questions about distinctiveness and brand coherence. Each shift promises scale, but scale at the expense of differentiation may be a poor trade for brands that compete on standing out.</p>
-    
-    <p>The people and organizations that make advertising are being remade alongside the work. Generative AI is reshaping which skills are scarce, which tasks are automated, and how value is captured across the agency and client relationship. It raises hard questions about the future of creative talent: which roles disappear, which are augmented, and which new ones, such as prompt strategist, AI creative director, or model curator, emerge. It may also unsettle agency business models built on billable hours and production fees as the marginal cost of production approaches zero. How agencies, in-house teams, and platforms reorganize creative labor, and how they preserve the human judgment clients still pay for, is likely to shape the structure of the industry in the coming years.</p>
-    
-    <p>Building on a fast-growing body of scholarship, this special issue invites theoretically rigorous and managerially useful research on how AI is changing advertising creativity. Consistent with the mission of the Journal of Advertising Research and its strong practitioner readership, submissions should make a clear contribution to advertising theory while offering actionable guidance for the creatives, agencies, brands, and platforms living through this transition. We are especially interested in work that moves past the observation that AI is disruptive to specify how, where, why, and for whom it improves or degrades creative outcomes.</p>
-    
+    <p>
+        Appel publié par Journal of Advertising Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ai-and-the-future-of-advertising-creativity/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-ai-and-the-future-of-advertising-creativity/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -107,8 +108,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Advertising Research (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

@@ -4,7 +4,7 @@
         <title>kerostig | Tag : conference special issue</title>
         <link>https://kerostig.org/tag/conference-special-issue/</link>
         <description>Derniers appels à publications avec le tag 'conference special issue'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/conference-special-issue/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[ECCE 2026 - European Conference on Cognitive Ergonomics]]></title>
             <link>https://kerostig.org/call/tandf-ecce-2026-european-conference-on-cognitive-ergonomics/</link>
             <guid>tandf-ecce-2026-european-conference-on-cognitive-ergonomics</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Stefano Guidi</strong>, University of Siena</p>
@@ -30,8 +31,16 @@
         
     
     
+    
     <p>The special issue will feature a selection of the best papers accepted for the European Conference on Cognitive Ergonomics 2026 (ECCE 2026). The authors of the 6 best long papers submitted to the conference will be invited to submit their paper which will undergo a review process.</p>
     
+    <p>
+        Appel publié par Behaviour &amp; Information Technology.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ecce-2026-european-conference-on-cognitive-ergonomics/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-ecce-2026-european-conference-on-cognitive-ergonomics/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -49,8 +58,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Behaviour &amp; Information Technology (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

@@ -4,7 +4,7 @@
         <title>kerostig | Tag : hypergraphs</title>
         <link>https://kerostig.org/tag/hypergraphs/</link>
         <description>Derniers appels à publications avec le tag 'hypergraphs'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,19 +13,28 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/hypergraphs/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Higher-Order Network Representations and Modeling Methods for Transportation Resilience]]></title>
             <link>https://kerostig.org/call/elsevier-higher-order-network-representations-and-modeling-methods-for-transportation-resilience-2/</link>
             <guid>elsevier-higher-order-network-representations-and-modeling-methods-for-transportation-resilience-2</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue focuses on the development and application of higher-order network representations and advanced modeling methods to enhance our understanding of transportation resilience. Traditional transportation network models often fail to capture the complex, multi-way interactions and higher-order dependencies that characterize modern transportation systems. This special issue invites contributions that leverage higher-order network approaches, such as hypergraphs and simplicial complexes, to better represent the intricate relationships between transportation components and improve resilience analysis and management.</p>
     
     <p>We welcome papers that present novel theoretical frameworks, empirical studies, computational methods, and practical applications of higher-order network representations in transportation contexts. Contributions may address how these advanced representations can help identify vulnerabilities, enhance system robustness, and support decision-making for more resilient transportation infrastructure.</p>
     
+    <p>
+        Appel publié par Transportation Research Part B: Methodological.
+        
+        <a href="https://www.sciencedirect.com/special-issue/331239/higher-order-network-representations-and-modeling-methods-for-transportation-resilience">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-higher-order-network-representations-and-modeling-methods-for-transportation-resilience-2/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -57,8 +66,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Transportation Research Part B: Methodological (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

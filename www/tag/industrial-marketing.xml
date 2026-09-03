@@ -4,7 +4,7 @@
         <title>kerostig | Tag : industrial marketing</title>
         <link>https://kerostig.org/tag/industrial-marketing/</link>
         <description>Derniers appels à publications avec le tag 'industrial marketing'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,17 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/industrial-marketing/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Regional Industrial Marketing Management: Baltic States Summit]]></title>
             <link>https://kerostig.org/call/elsevier-regional-industrial-marketing-management-baltic-states-summit/</link>
             <guid>elsevier-regional-industrial-marketing-management-baltic-states-summit</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue focuses on industrial marketing management with a particular emphasis on the Baltic states region. The collection aims to advance understanding of how industrial marketing practices, strategies, and theories apply within the specific context of the Baltic economies and their integration into broader European markets.</p>
     
+    <p>
+        Appel publié par Industrial Marketing Management.
+        
+        <a href="https://www.sciencedirect.com/special-issue/334975/regional-industrial-marketing-management-baltic-states-summit">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-regional-industrial-marketing-management-baltic-states-summit/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -49,8 +58,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Industrial Marketing Management (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

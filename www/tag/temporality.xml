@@ -4,7 +4,7 @@
         <title>kerostig | Tag : temporality</title>
         <link>https://kerostig.org/tag/temporality/</link>
         <description>Derniers appels à publications avec le tag 'temporality'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,15 +13,24 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/temporality/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Rethinking time in projects: Temporal practices, rhythms, and futures in temporary organizing]]></title>
             <link>https://kerostig.org/call/elsevier-rethinking-time-in-projects-temporal-practices-rhythms-and-futures-in-temporary-organizing/</link>
             <guid>elsevier-rethinking-time-in-projects-temporal-practices-rhythms-and-futures-in-temporary-organizing</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par International Journal of Project Management.
+        
+        <a href="https://www.sciencedirect.com/special-issue/332680/rethinking-time-in-projects-temporal-practices-rhythms-and-futures-in-temporary-organizing">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-rethinking-time-in-projects-temporal-practices-rhythms-and-futures-in-temporary-organizing/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -32,15 +41,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>International Journal of Project Management (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Theorising Time in a Digital Era: New Horizons for IS Research]]></title>
             <link>https://kerostig.org/call/tandf-theorising-time-in-a-digital-era-new-horizons-for-is-research/</link>
             <guid>tandf-theorising-time-in-a-digital-era-new-horizons-for-is-research</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Kieran Conboy</strong>, University of Galway</p>
@@ -53,22 +63,16 @@
         
     
     
+    
     <p>Technology has fundamentally transformed the way we experience time and temporality, having permeated all aspects of our lives. It influences the way we work, how we live, and aspects of our identity, by shifting the way we communicate with others, accelerating information flows and enabling constant connectivity. As technologies evolve and digital infrastructures increasingly shape organisational and societal life, questions of temporality—speed, duration, sequencing, rhythm, and timing—become central to how we design, adopt, use, and study Information Systems (IS).</p>
     
-    <p>While time is an inherently complex, multifaceted, subtle concept and is by nature socially embedded, it is often examined simplistically, adopting a clock-time perspective, with the focus being on speed and duration. Some disciplines such as Organisation Studies are making significant progress in understanding and theorising various aspects of temporal complexity and structuring. Yet, within the IS discipline, IS researchers are often quick to highlight the impact of information systems on the speed of organisational and social life, but can be slow to address the polymorphous, complex and nuanced nature of time in IS research. Despite a few notable exceptions, studies with a temporal dimension tend to address temporal complexity partially rather than comprehensively. Time remains theoretically elusive in contemporary studies of information systems, often excluded or included only as a &#39;hidden dimension&#39;. IS literature on time and temporality emerges as fragmented and lacks the cumulative tradition and theoretical glue necessary. As the field matures, treating time as a central concept and construct is essential to theory development and progress.</p>
-    
-    <p>This is particularly problematic in IS, given the centrality of time to many aspects of study in the field. Time, and more specifically speed, is often the raison d&#39;etre of emerging technology, with promises of enabling real-time decision-making and implementation of action at unprecedented speed and scale. Data typically has a time value, where a data report five minutes before a meeting may be incredibly valuable, but one second after the meeting the value drops to zero. However, data can also increase in value over time as it is combined or new uses are found. Technology is usually developed under time pressure, with a rarely questioned assumption that organisations&#39; use of technology must help them survive and thrive in the seemingly never-ending environment of dynamism and acceleration. IS researchers often use speed as a methodological proxy and even a synonym for IS value and success. However, technological speed and acceleration can undermine learning and collective creativity, and limit participation by those who are irreversibly impacted.</p>
-    
-    <p>Temporality in information systems manifests across multiple temporal scales, ranging from moment-to-moment interactions to decades-long institutional transformations. The special issue encourages submissions that illuminate how digital technologies shape, mediate, or are embedded within temporal structures, rhythms, paths, and trajectories at any of these scales.</p>
-    
-    <p>Across all temporal scales, the special issue especially welcomes work that advances theoretical and methodological discussions of time in Information Systems research. This includes analyses of flows, sequences, rhythms, tempos, trajectories, paths, and path nets, with more explicit attention to how temporal constructs are represented, theorised, and operationalised in IS scholarship.</p>
-    
-    <p>The special issue also encourages contributions that link IS, temporality, and grand challenges such as climate change, pandemics, inequality, and social movements, which require multi-generational coordination, long-term data stewardship, and sustained digital infrastructures. Additionally, the special issue seeks cross-level insights into how temporal assumptions are embedded in IS and how they reshape experiences and outcomes.</p>
-    
-    <p>The majority of empirical IS studies use time from a methodological perspective to merely strengthen causal claims. The special issue contends that the IS field is uniquely positioned to not just apply temporal techniques gleaned from other disciplines, but to inform and lead how the study of time and temporal complexity can be conducted. IS researchers can now analyse vast amounts of trace data on an unprecedented scale and engage in computationally intensive theory construction, with many emerging techniques that could be used or adapted for studying the complexities and nuances of time and technology.</p>
-    
-    <p>The special issue envisions providing a deeper understanding of time to clarify and enhance knowledge that can explain phenomena important to IS. While contributions from other disciplines are welcome, papers where the IS artefact is foregrounded, being the central focus of the paper, are prioritised. The special issue welcomes empirical and conceptual contributions, all methodological approaches and paradigms, and studies at different levels of analysis. The journal values contrarian papers that challenge conventional assumptions, theories, and methods.</p>
-    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ejis-theorising-time/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-theorising-time-in-a-digital-era-new-horizons-for-is-research/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -167,8 +171,8 @@
         
     </ul>
     
-</div>]]></content:encoded>
-            <author>European Journal of Information Systems (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

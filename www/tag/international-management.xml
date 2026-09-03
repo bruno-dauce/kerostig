@@ -4,7 +4,7 @@
         <title>kerostig | Tag : international management</title>
         <link>https://kerostig.org/tag/international-management/</link>
         <description>Derniers appels à publications avec le tag 'international management'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,15 +13,24 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/international-management/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[China and the Reconfiguration of International Management in a Transitional Global Order]]></title>
             <link>https://kerostig.org/call/elsevier-china-and-the-reconfiguration-of-international-management-in-a-transitional-global-order/</link>
             <guid>elsevier-china-and-the-reconfiguration-of-international-management-in-a-transitional-global-order</guid>
             <pubDate>Thu, 27 Aug 2026 12:56:30 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Journal of International Management.
+        
+        <a href="https://www.sciencedirect.com/special-issue/336689/china-and-the-reconfiguration-of-international-management-in-a-transitional-global-order">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-china-and-the-reconfiguration-of-international-management-in-a-transitional-global-order/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -32,15 +41,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of International Management (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[La violence structurelle en Management international: Rendre visible l'invisibilité]]></title>
             <link>https://kerostig.org/call/mi-la-violence-structurelle-en-management-international-rendre-visible-linvisibilite/</link>
             <guid>mi-la-violence-structurelle-en-management-international-rendre-visible-linvisibilite</guid>
             <pubDate>Wed, 12 Aug 2026 16:46:36 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Arthur Nguyen</strong>, Université de Rouen Normandie</p>
@@ -54,6 +64,14 @@
     
     
     
+    <p>
+        Appel publié par Management international.
+        
+        <a href="https://www.managementinternational.ca/2026/02/05/la-violence-structurelle-en-management-international-rendre-visible-linvisibilite/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/mi-la-violence-structurelle-en-management-international-rendre-visible-linvisibilite/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
     
     <h2>Timeline</h2>
     <ul>
@@ -63,8 +81,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Management international (MI)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

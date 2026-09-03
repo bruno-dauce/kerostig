@@ -4,7 +4,7 @@
         <title>kerostig | Tag : machine learning</title>
         <link>https://kerostig.org/tag/machine-learning/</link>
         <description>Derniers appels à publications avec le tag 'machine learning'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,146 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/machine-learning/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Advances in Reliability and Statistical Computing for Intelligent Systems]]></title>
+            <link>https://kerostig.org/call/springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems/</link>
+            <guid>springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Hoang Pham</strong>, Rutgers University</p>
+        
+    
+    
+    
+    <p>The era of AI, through its focus on the reliability and statistical machine computing of intelligent systems in everyday applications and the service industry, has experienced a dramatic shift in recent years. Such systems require reliable and timely responses.</p>
+    
+    <p>Articles concerning new theoretical research and methods in advanced reliability and statistical computing for intelligent systems are solicited. Preference will be given to papers with real-world applications over purely theoretical papers.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/gjbdjhfbdg">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Mathematical reliability and statistical methods</li>
+        
+        <li>Big data modeling and prediction</li>
+        
+        <li>Statistical learning algorithms, models, and theories</li>
+        
+        <li>Machine learning models for intelligent systems</li>
+        
+        <li>Text mining and deep machine learning</li>
+        
+        <li>Intelligent system dependability and performability</li>
+        
+        <li>Reliability modeling and optimization</li>
+        
+        <li>High-dimensional data analysis</li>
+        
+        <li>Statistical inference for intelligent systems</li>
+        
+        <li>Industrial case studies in intelligent systems, including field and service robotics, medical care, education, visual surveillance, intelligent transportation, etc.</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Climate Transition and Operational Risk Modelling: Implications for Supply Chains and Financial Decision-Making]]></title>
+            <link>https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/</link>
+            <guid>springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Andrea Flori</strong>, Politecnico di Milano</p>
+        
+        <p><strong>Anna Maria Gambaro</strong>, Università del Piemonte Orientale</p>
+        
+        <p><strong>Ioannis Kyriakou</strong>, University of London</p>
+        
+        <p><strong>Duc Khuong Nguyen</strong>, EMLV Business School</p>
+        
+    
+    
+    
+    <p>Climate-related risks, viewed through a systems operation&#39;s lens, can disrupt the coordination, flow, and stability of financial and economic processes. Although their importance is increasingly acknowledged by academic, regulatory, and practitioner communities, quantifying environmental externalities and designing effective mitigation policies remain open to debate and subject to contention. A key source of uncertainty stems from the transition to a low-carbon economy, particularly concerning its timing and pace. This transition may induce substantial effects on firms, especially those in carbon-intensive sectors, posing systemic challenges to their stability. This underscores the urgent need for rigorous analytical solutions to model climate-related risks and to study their transmission mechanisms within interconnected economic systems.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/baifaedejd">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Robust stochastic optimization methods for climate transition risks</li>
+        
+        <li>Portfolio optimization and risk-adjusted return modelling under climate policy uncertainty</li>
+        
+        <li>Credit and counterparty risk assessment under low-carbon transition scenarios</li>
+        
+        <li>Risk-sharing mechanisms and insurance models for climate-related disruptions</li>
+        
+        <li>Supply chain risk management in climate transition</li>
+        
+        <li>Operational decision-making in emission trading schemes and carbon pricing</li>
+        
+        <li>Predictive modelling of carbon stranding risk via supervised learning</li>
+        
+        <li>Machine learning and big data analytics for climate risk scenario classification</li>
+        
+        <li>Natural language processing applications in climate policy risk analysis</li>
+        
+        <li>Bayesian network approaches to modelling climate transition risk propagation</li>
+        
+        <li>Agent-based models of climate transition dynamics and systemic effects</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Contextual Optimization with Side Information: Theory, Methodology, and Applications]]></title>
             <link>https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/</link>
             <guid>springer-contextual-optimization-with-side-information-theory-methodology-and-applications</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Stelios Bekiros</strong>, University of Turin</p>
@@ -32,14 +165,16 @@
         
     
     
+    
     <p>Operations research (OR) problems increasingly arise in data-rich and highly uncertain environments where operational decisions must adapt dynamically to evolving contextual information. Advances in sensing technologies, digital platforms, enterprise systems, and large-scale data collection have significantly expanded the availability of side information related to demand patterns, operational states, user behaviors, market conditions, and environmental factors. In many modern applications, such contextual information provides valuable predictive signals that can substantially improve decision quality when effectively integrated into optimization models.</p>
     
-    <p>In response, contextual optimization has emerged as a rapidly growing research direction at the intersection of optimization, machine learning, statistics, and prescriptive analytics. Unlike classical optimization paradigms that rely solely on historical averages or predefined uncertainty sets, contextual optimization explicitly incorporates side information into the decision-making process, enabling more adaptive, personalized, and data-driven operational policies. Recent developments in this area include contextual stochastic optimization, distributionally robust optimization with covariates, decision-focused learning, learning-enhanced optimization, online optimization, and adaptive decision-making frameworks.</p>
-    
-    <p>Despite substantial progress, several important challenges remain open. Real-world contextual optimization problems often involve high-dimensional and heterogeneous data, noisy or incomplete observations, distribution shifts, privacy concerns, interpretability requirements, and stringent real-time computational constraints. Moreover, predictive accuracy alone is insufficient in operational settings; the ultimate objective is to improve downstream decision quality and system performance. Consequently, there is a growing need for new theories, methodologies, and computational frameworks that systematically integrate learning, analytics, and optimization under uncertainty.</p>
-    
-    <p>This special issue aims to bring together recent advances in contextual and data-driven optimization methods, with particular emphasis on optimization and decision making under uncertainty using side information. We welcome high-quality contributions that develop novel theories, models, algorithms, and applications integrating optimization with machine learning, statistical learning, and data analytics.</p>
-    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/iajhfddihe">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -91,31 +226,34 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems]]></title>
             <link>https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/</link>
             <guid>springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Yi-Kuei Lin</strong>, National Yang Ming Chiao Tung University</p>
         
     
     
+    
     <p>Industrial engineering systems, including manufacturing systems, supply chains, logistics networks, energy and power systems, transportation systems, and service operations, play a critical role in modern society. The reliable operation of such systems is essential for ensuring efficiency, safety, and robustness in the presence of uncertainty, disruptions, and complex interactions among system components. Failures or performance degradation in these systems may lead to significant economic losses, operational inefficiencies, and societal impacts.</p>
     
     <p>Traditionally, reliability modeling in industrial engineering has been grounded in probabilistic analysis, stochastic modeling, and analytical evaluation techniques. While these approaches remain fundamental, recent advances in sensing technologies, industrial Internet of Things, and information systems have enabled the collection of large-scale operational and condition-monitoring data. This has led to a growing interest in data-driven and intelligent reliability modeling, where statistical learning, machine learning, and other statistical analytical approaches complement classical reliability theory.</p>
     
-    <p>At the same time, reliability analysis is increasingly expected to support decision-making processes, such as maintenance planning, resource allocation, system design, and operational optimization. Integrating reliability modeling with decision support frameworks allows practitioners and decision-makers to move beyond reliability assessment toward actionable, reliability-informed decisions under uncertainty.</p>
-    
-    <p>We invite submissions on topics related to reliability modeling and decision support for industrial engineering systems using Operations Research, industrial engineering, and data-driven methodologies. Contributions addressing both theoretical developments and practical applications are welcome.</p>
-    
-    <p>We welcome the submission of original research papers that provide new insights and practical solutions to challenges in reliability modeling and decision support for industrial engineering systems. Submissions should demonstrate methodological rigor and clearly highlight their relevance to real-world industrial applications. Papers that illustrate how data-driven reliability analysis can enhance decision-making and system performance are particularly encouraged.</p>
-    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/igdgfheeeh">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -159,137 +297,26 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Climate Transition and Operational Risk Modelling: Implications for Supply Chains and Financial Decision-Making]]></title>
-            <link>https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/</link>
-            <guid>springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>Andrea Flori</strong>, Politecnico di Milano</p>
-        
-        <p><strong>Anna Maria Gambaro</strong>, Università del Piemonte Orientale</p>
-        
-        <p><strong>Ioannis Kyriakou</strong>, University of London</p>
-        
-        <p><strong>Duc Khuong Nguyen</strong>, EMLV Business School</p>
-        
-    
-    
-    <p>Climate-related risks, viewed through a systems operation&#39;s lens, can disrupt the coordination, flow, and stability of financial and economic processes. Although their importance is increasingly acknowledged by academic, regulatory, and practitioner communities, quantifying environmental externalities and designing effective mitigation policies remain open to debate and subject to contention. A key source of uncertainty stems from the transition to a low-carbon economy, particularly concerning its timing and pace. This transition may induce substantial effects on firms, especially those in carbon-intensive sectors, posing systemic challenges to their stability. This underscores the urgent need for rigorous analytical solutions to model climate-related risks and to study their transmission mechanisms within interconnected economic systems.</p>
-    
-    <p>From a firm&#39;s perspective, the regulatory push towards decarbonization and more sustainable economic models necessitates an optimal trade-off between transforming production processes and maintaining competitive market performance. This reflects a fundamental conflict between short-term objectives, such as profitability and stakeholder satisfaction, and long-term strategic goals related to sustainability and risk mitigation; transitioning to low-carbon operations demands a long-term planning horizon and a comprehensive assessment of associated risks. However, firms must also remain resilient to sudden exogenous shocks that can destabilize the delicate balance between stakeholder interests and shareholder value maximization. As a result, ensuring business continuity and profit stability may, at times, require a short-term focus. Importantly, even when a firm or sector is well positioned to absorb a direct shock, significant vulnerabilities may persist through indirect exposures, particularly through interdependencies in global supply chains. Recent developments have shown how external disruptions can propagate through production networks, amplifying uncertainty and operational risk. There is therefore a need for integrated modelling approaches that jointly capture carbon emissions, operational disruptions, and related risks across multiple supply chain tiers, framing the problem as a multi-objective optimization task.</p>
-    
-    <p>Due to the progressive integration of financial markets, such interdependencies can occur through, for example, asset price movements, volatility changes, or liquidity shocks, generating non-trivial aggregate patterns that may ultimately lead to market instability. However, how such instability may emerge from supply chain relationships remains largely unexplored. Recent contributions have begun to address this gap, for example, by modelling the effects of carbon pricing on asset values and portfolio risks, examining how optimal credit portfolio realignment can facilitate low-carbon transitions, and investigating how investment horizons influence transition outcomes under uncertainty.</p>
-    
-    <p>The mechanisms by which climate and environmental risks are transmitted to financial and economic systems constitute a multidisciplinary research agenda. Robust stochastic optimization techniques play a critical role in managing credit, counterparty, and supply chain risks that are amplified by the climate transition. Concurrently, advanced machine learning methods, such as supervised learning and natural language processing, offer promising tools for forecasting carbon stranded risks and classifying complex climate policy scenarios, with significant implications for both operational and investment decisions. This call for papers invites contributions that examine how financial institutions are responding to growing uncertainty in portfolio allocation and risk management, driven by evolving climate regulations and the inherent unpredictability of low-carbon transition pathways. We particularly welcome applied and methodological operations research studies that address these challenges in an innovative and rigorous manner.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Robust stochastic optimization methods for climate transition risks</li>
-        
-        <li>Portfolio optimization and risk-adjusted return modelling under climate policy uncertainty</li>
-        
-        <li>Credit and counterparty risk assessment under low-carbon transition scenarios</li>
-        
-        <li>Risk-sharing mechanisms and insurance models for climate-related disruptions</li>
-        
-        <li>Supply chain risk management in climate transition</li>
-        
-        <li>Operational decision-making in emission trading schemes and carbon pricing</li>
-        
-        <li>Predictive modelling of carbon stranding risk via supervised learning</li>
-        
-        <li>Machine learning and big data analytics for climate risk scenario classification</li>
-        
-        <li>Natural language processing applications in climate policy risk analysis</li>
-        
-        <li>Bayesian network approaches to modelling climate transition risk propagation</li>
-        
-        <li>Agent-based models of climate transition dynamics and systemic effects</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>December 31, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Advances in Reliability and Statistical Computing for Intelligent Systems]]></title>
-            <link>https://kerostig.org/call/springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems/</link>
-            <guid>springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>Hoang Pham</strong>, Rutgers University</p>
-        
-    
-    
-    <p>The era of AI, through its focus on the reliability and statistical machine computing of intelligent systems in everyday applications and the service industry, has experienced a dramatic shift in recent years. Such systems require reliable and timely responses.</p>
-    
-    <p>Articles concerning new theoretical research and methods in advanced reliability and statistical computing for intelligent systems are solicited. Preference will be given to papers with real-world applications over purely theoretical papers.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Mathematical reliability and statistical methods</li>
-        
-        <li>Big data modeling and prediction</li>
-        
-        <li>Statistical learning algorithms, models, and theories</li>
-        
-        <li>Machine learning models for intelligent systems</li>
-        
-        <li>Text mining and deep machine learning</li>
-        
-        <li>Intelligent system dependability and performability</li>
-        
-        <li>Reliability modeling and optimization</li>
-        
-        <li>High-dimensional data analysis</li>
-        
-        <li>Statistical inference for intelligent systems</li>
-        
-        <li>Industrial case studies in intelligent systems, including field and service robotics, medical care, education, visual surveillance, intelligent transportation, etc.</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 30, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Interface between Human Users and Machine Learning Models in Medical Decision Making]]></title>
             <link>https://kerostig.org/call/sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making/</link>
             <guid>sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making</guid>
             <pubDate>Tue, 11 Aug 2026 15:38:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Medical Decision Making.
+        
+        <a href="https://journals.sagepub.com/doi/full/10.1177/0272989X221145012">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -300,15 +327,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Medical Decision Making (SAGE)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Innovations in Production Planning: Emerging Problems and Modern Solution Paradigms]]></title>
             <link>https://kerostig.org/call/tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms/</link>
             <guid>tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Mirco Peron</strong>, NEOMA Business School</p>
@@ -325,22 +353,16 @@
         
     
     
+    
     <p>Production planning has historically been a central pillar of industrial engineering and operations management. Since the mid-20th century, the field has developed a rich body of classical problems and models, such as lot sizing, job shop and flow shop scheduling, capacity planning, assembly line balancing, material requirements planning (MRP), and aggregate production planning. These models provided structured ways to allocate resources, balance supply and demand, and coordinate activities across production systems, often under deterministic assumptions and with objectives focused primarily on cost and efficiency. Linear programming, dynamic programming, and combinatorial optimization offered rigorous formulations and exact methods, while heuristics and metaheuristics emerged to address large-scale and computationally complex instances.</p>
     
-    <p>Over time, production planning research progressively expanded to address uncertainty via stochastic and robust optimization, multi-objective trade-offs (e.g. cost, service level, inventory, lead times), and integration across planning levels (strategic, tactical, and operational). Still, the focus remained on well-defined, structured problems and a relatively stable industrial context.</p>
-    
-    <p>Today, however, technological, environmental, and societal shifts are reshaping the landscape of production planning. The rise of cyber-physical systems, IoT-enabled factories, advanced robotics, digital twins, additive manufacturing, and AI-based automation has disrupted the stability of traditional assumptions. These innovations have created new types of planning problems, characterized by more frequent reconfiguration, increased heterogeneity of resources, and the necessity of integrating multiple technologies and objectives.</p>
-    
-    <p>Digital twin–driven planning enables real-time updates of plans and schedules, requiring adaptive and rolling-horizon optimization. Hybrid production systems, combining conventional and additive manufacturing, pose new challenges in sequencing, capacity allocation, and cross-technology coordination. Reconfigurable and modular manufacturing requires planning models that adapt to changing system topologies, dynamic routing, and flexible resource reassignments. Circular and sustainable production systems demand that environmental and social objectives be embedded in planning alongside economic goals. Resilience-oriented planning has become critical in the face of global disruptions, pandemics, and supply shocks, demanding strategies that balance efficiency with adaptability and robustness.</p>
-    
-    <p>At the same time, innovation has not only transformed the problems but also the solution approaches. Whereas traditional production planning was dominated by mathematical programming and rule-based heuristics, the current era witnesses the rapid adoption of data-driven, hybrid, and AI-enabled methods.</p>
-    
-    <p>Reinforcement learning and deep learning models are increasingly applied to dynamic planning and scheduling, such as graph neural network and RL architectures for scheduling problems. Hybrid metaheuristics combine classical optimization with machine learning models, surrogate functions, or decomposition techniques to tackle high-dimensional problems. Simulation–optimization coupling allows planners to test, validate, and adapt decisions under complex system dynamics, particularly in systems where analytical modeling is intractable. Multi-agent and distributed approaches enable decentralized planning in highly connected production networks, where local agents coordinate planning decisions. Online and rolling-horizon algorithms become critical when plans must be revised frequently, and incremental updating is required.</p>
-    
-    <p>Despite these advances, major challenges persist. Industrial adoption demands bridging the gap between academic models and real-world constraints: data sparsity, computational scalability, integration with legacy systems (ERP/MES), and user trust. Decision-makers must also reconcile conflicting objectives: efficiency vs. resilience, speed vs. sustainability, optimality vs. interpretability.</p>
-    
-    <p>This special issue seeks to collect innovative contributions that redefine the boundaries of production planning. We welcome papers that introduce novel problem formulations reflecting new industrial realities and innovative solution approaches leveraging modern computational, AI, and optimization tools. Both theoretical/methodological and empirical/applied submissions are encouraged, including case studies and empirical validation.</p>
-    
+    <p>
+        Appel publié par International Journal of Production Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ijpr-production-planning/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -384,8 +406,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>International Journal of Production Research (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

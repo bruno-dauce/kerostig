@@ -4,7 +4,7 @@
         <title>kerostig | Tag : multiple objective programming</title>
         <link>https://kerostig.org/tag/multiple-objective-programming/</link>
         <description>Derniers appels à publications avec le tag 'multiple objective programming'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/multiple-objective-programming/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Multiple Objective Programming and Goal Programming: Artificial Intelligence for Decision Making in Economic and Social Sciences]]></title>
             <link>https://kerostig.org/call/springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences/</link>
             <guid>springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Matteo Rocca</strong>, University of Insubria</p>
@@ -30,10 +31,18 @@
         
     
     
+    
     <p>This special issue aims to publish selected papers presented during the 16th International Conference on Multiple Objective Programming and Goal Programming (MOPGP&#39;25) that will be held on 1–3 July 2025, in Varese, Italy. Contributions arising from papers presented at the conference should be substantially extended and cite the conference paper where appropriate. The special issue will also consider papers not presented during the conference. Original and unpublished work not currently under consideration in any other journal is sought.</p>
     
     <p>The intersection of Multiple Objective Optimization (MOP), Goal Programming (GP), and Artificial Intelligence (AI) creates a robust framework for addressing complex decision-making challenges in Economic and Social Sciences. MOP provides structured methods to evaluate and prioritize conflicting objectives, while GP helps setting specific goals to be achieved by the decision maker. AI leverages data analytics and machine learning to process large datasets, revealing insights that improve the accuracy and the robustness of decision models and predictions.</p>
     
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/bffeaajcfi">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -83,8 +92,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Annals of Operations Research (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

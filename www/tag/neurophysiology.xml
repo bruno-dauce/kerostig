@@ -4,7 +4,7 @@
         <title>kerostig | Tag : neurophysiology</title>
         <link>https://kerostig.org/tag/neurophysiology/</link>
         <description>Derniers appels à publications avec le tag 'neurophysiology'.</description>
-        <lastBuildDate>Sun, 30 Aug 2026 08:28:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/neurophysiology/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Neurophysiological Foundations and Effects of Contemporary Digital Technologies]]></title>
             <link>https://kerostig.org/call/tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies/</link>
             <guid>tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>René Riedl</strong>, University of Applied Sciences Upper Austria &amp; Johannes Kepler University Linz</p>
@@ -32,22 +33,16 @@
         
     
     
-    <p>The advent of increasingly powerful artificial intelligence systems (e.g., large language models such as ChatGPT, diffusion models, graph neural networks, or vision transformers) used in domains such as healthcare, manufacturing, software development and finance, together with other contemporary digital technologies (e.g., autonomous cars, immersive worlds, and neuroadaptive interfaces), has fundamentally reshaped human interaction with information systems. As these technologies become embedded in work, consumption, private life, and society in general, the ways in which they affect human cognition, emotion, and social interaction remain poorly understood.</p>
     
-    <p>A growing body of research highlights that neurophysiological methods can provide unique insights into these phenomena across a broad range of IS contexts. NeuroIS—the interdisciplinary field that integrates neuroscience and psychophysiological approaches with information systems—has been at the forefront of this movement. Originating at the International Conference on Information Systems in Montréal in 2007, NeuroIS celebrates its 20-year anniversary in 2027. This milestone provides an opportune moment to reflect on the progress achieved, highlight challenges, and chart new directions for NeuroIS research in an era of rapid technological change.</p>
+    <p>The advent of increasingly powerful artificial intelligence systems (e.g., large language models such as ChatGPT, diffusion models, graph neural networks, or vision transformers used in healthcare, manufacturing, software development or finance), together with other contemporary digital technologies (e.g., autonomous cars, immersive worlds, and neuroadaptive interfaces), has fundamentally reshaped human interaction with information systems. As these technologies become embedded in work, consumption, private life, and society in general, the ways in which they affect human cognition, emotion, and social interaction remain poorly understood.</p>
     
-    <p>Over the past two decades, NeuroIS research has established the potential of neurophysiological methods such as electroencephalography (EEG), functional magnetic resonance imaging (fMRI), functional near-infrared spectroscopy (fNIRS), eye tracking, and various other neurophysiological measures to enrich IS theory. These approaches have been shown to improve prediction accuracy of different IS phenomena, uncover hidden cognitive and affective mechanisms, and open new methodological horizons. A particularly important trajectory in this research stream has been the integration of neurophysiological and behavioral levels of analysis by linking neural responses to observable IS-related behaviors and self-report measures.</p>
-    
-    <p>In an era of pervasive digitalization, this integration becomes even more essential. Understanding not only what individuals do when interacting with advanced digital systems, but also how their brains and bodies adapt, allows researchers to explain emergent behaviors such as overreliance, automation bias, algorithm aversion, new forms of collaborative cognition, or cognitive debt. Neurophysiological measures enable the study of phenomena that may remain inaccessible to self-reports or behavioral observation alone, such as unconscious biases, implicit trust, or neural markers of attention and memory.</p>
-    
-    <p>Beyond neurophysiology, this special issue also welcomes work that integrates genetic perspectives into IS research. Prior publications have demonstrated the promise of genetics for explaining individual differences in IS-related behaviors. Combining genetic and neurophysiological approaches may provide a powerful multi-level framework to understand how contemporary digital technologies affect humans at both biological and behavioral levels.</p>
-    
-    <p>This special issue seeks high-quality, theory-driven, and methodologically rigorous research that examines the neurophysiological and related biological foundations, mechanisms, and effects of contemporary IS technologies and sociotechnical systems—incorporating AI as an important case, but not limiting the scope to AI. We invite submissions from information systems scholars, neuroscientists, psychologists, computer scientists, geneticists, and other disciplines to advance understanding of how contemporary IS reshapes human cognition, affect, decision-making, and social interaction.</p>
-    
-    <p>This special issue encourages contributions across the full range of IS research traditions. Neurophysiological and genetic insights may advance design-oriented research by informing new principles for human-centered and neuroadaptive system design. They may also enrich IS economics research by offering a biological basis for understanding productivity, well-being, or value creation in digitally mediated contexts. Studies grounded in organizational behavior, strategy, or societal perspectives are highly relevant if they integrate or reflect on neurophysiological evidence.</p>
-    
-    <p>In line with EJIS&#39; tradition of intellectual openness, this special issue explicitly welcomes visionary, provocative, and contrarian contributions that challenge taken-for-granted assumptions, problematize dominant narratives, or open up unconventional research directions.</p>
-    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ejis-neurois/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -76,13 +71,13 @@
         
         <li>How do gender, age, or personality differences modulate neurophysiological responses to IS artifacts?</li>
         
-        <li>How might AI-driven systems and other algorithmic designs reinforce or mitigate cognitive biases?</li>
+        <li>How might AI-driven systems and other algorithmic/persuasive designs reinforce or mitigate cognitive biases?</li>
         
-        <li>What neural signatures accompany ethical dilemmas and moral decision-making in AI-mediated contexts?</li>
+        <li>What neural signatures accompany ethical dilemmas and moral decision-making in AI-mediated contexts and broader digital governance settings?</li>
         
-        <li>How does long-term use of AI and other digitally intensive work systems shape neurophysiological well-being, stress, or mental health?</li>
+        <li>How does long-term use of AI and other digitally intensive work systems shape neurophysiological well-being, stress, or mental health at the workplace?</li>
         
-        <li>How can neurophysiological insights inform the design of AI systems and other digital systems?</li>
+        <li>How can neurophysiological insights inform the design of AI systems and other digital systems that are more intuitive and aligned with human cognitive limits?</li>
         
         <li>What are the neurophysiological underpinnings of productivity, efficiency, or value creation in digitally mediated economic interactions?</li>
         
@@ -92,7 +87,7 @@
         
         <li>How can hybrid approaches combining neurophysiology with computational methods enrich IS theory development?</li>
         
-        <li>How can multi-level research designs integrate genetic, neurophysiological, behavioral, self-report, and organizational data?</li>
+        <li>How can multi-level research designs integrate genetic, neurophysiological, behavioral, self-report, and organizational data to address IS phenomena more holistically?</li>
         
     </ul>
     
@@ -100,23 +95,9 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>March 31, 2026: Two-page abstracts due</li>
+        <li>March 31, 2026: Abstract deadline</li>
         
-        <li>April 30, 2026: Feedback on abstracts</li>
-        
-        <li>May 31, 2026: Paper development workshop (in person event in Vienna, Austria, and virtual)</li>
-        
-        <li>August 31, 2026: First-round paper submission</li>
-        
-        <li>November 30, 2026: First-round decisions</li>
-        
-        <li>February 28, 2027: First-round revisions due</li>
-        
-        <li>May 31, 2027: Second-round decisions</li>
-        
-        <li>August 31, 2027: Second-round revisions due</li>
-        
-        <li>October 31, 2027: Final decisions</li>
+        <li>August 31, 2026: Manuscript deadline</li>
         
     </ul>
     
@@ -164,8 +145,8 @@
         
     </ul>
     
-</div>]]></content:encoded>
-            <author>European Journal of Information Systems (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

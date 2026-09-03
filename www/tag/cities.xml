@@ -4,7 +4,7 @@
         <title>kerostig | Tag : cities</title>
         <link>https://kerostig.org/tag/cities/</link>
         <description>Derniers appels à publications avec le tag 'cities'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/cities/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Business and Cities in the Global Economy]]></title>
             <link>https://kerostig.org/call/tandf-business-and-cities-in-the-global-economy/</link>
             <guid>tandf-business-and-cities-in-the-global-economy</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Valeria Giacomin</strong>, Bocconi University</p>
@@ -32,18 +33,18 @@
         
     
     
+    
     <p>Cities have long stood at the crossroads of business and globalization. From medieval market towns and colonial entrepôts to industrial metropolises and financial hubs, cities have mediated the flows of goods, capital, people, and ideas that underpin capitalism in the global economy. Urban historians have shown that cities emerged historically as centres of exchange and specialization, often linked to hinterlands through flows of agricultural surplus. Empires and colonial systems further embedded cities into international circuits as ports, administrative hubs, and commercial nodes.</p>
     
     <p>Seminal work in global urban studies presented cities as nodes in world-spanning networks, structuring hierarchies of capital and connectivity. Global history showed how urban elites concentrated wealth, power, and influence, thereby shaping the material foundations and institutional infrastructures of global capitalism. Urban economics further investigated how agglomeration in cities created both opportunities and constraints, with scale economies, dense networks, and rising costs shaping business practices and organizational forms.</p>
     
-    <p>Business history has traditionally focused on firms, entrepreneurs, and institutions that expanded across borders, while the urban contexts that enabled and structured these processes have often remained in the background. Rather than serving as passive contexts, cities constituted the institutional and infrastructural foundations of global business. Viewed through the lens of business history, they were arenas in which firms and institutional actors structured, negotiated, and transformed the processes of global capitalism. At the same time, informal and hybrid actors, including bazaar traders, migrant entrepreneurs, and diasporic networks, leveraged urban density and connectivity to embed themselves in global circuits.</p>
-    
-    <p>Histories of financial centres demonstrate how global cities such as London, Paris, and New York as well as small states or city states such as Singapore, Dubai and Luxembourg developed specialized institutions, practices, and reputations that anchored international finance. Studies of maritime transport and shipping reveal how port cities concentrated shipping companies, dockside services, and logistics infrastructure, making them indispensable to global circulation. Research on manufacturing, construction, and real estate further highlights how urban economies were shaped by industrial production and building enterprises, illustrating the long-term interplay between property markets, urban growth, and business development.</p>
-    
-    <p>Urban hinterland studies show how the fortunes of firms and industries cannot be understood apart from their urban nodes. Comparative work on international entrepôts such as Singapore, Batavia or Bombay highlights how colonial and imperial cities functioned as organizing points for regional economies within wider global value chains. Expanding on these insights, this special issue invites contributions that engage with cities as business environments in a systematic way. Encouraging a genuinely global comparative perspective, the issue is especially interested in research on regions such as Japan, Southeast Asia, Africa, and Latin America which remain underrepresented in existing scholarship.</p>
-    
-    <p>By integrating case studies on a broad scope from across world regions and diverse historical periods, the issue seeks to contribute cumulatively to a comparative and theoretically informed understanding of how cities shaped business globalization. In positioning cities as central agents of global capitalism, the issue builds on existing literatures in business, financial, and urban history, seeking to connect and extend these fields through new empirical evidence and cross-regional dialogue. The issue intends to position cities as active, historical agents of globalization in business history.</p>
-    
+    <p>
+        Appel publié par Business History.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/business-cities-in-global-economy/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-business-and-cities-in-the-global-economy/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -73,8 +74,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Business History (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

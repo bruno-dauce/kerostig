@@ -4,7 +4,7 @@
         <title>kerostig | Supply Chain Forum: An International Journal</title>
         <link>https://kerostig.org/journal/supply-chain-forum-an-international-journal/</link>
         <description>Derniers appels à publications pour Supply Chain Forum: An International Journal.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/supply-chain-forum-an-international-journal/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Implementing the Physical Internet: Supply Chain Intelligence, Business Innovation and Transition Pathways]]></title>
             <link>https://kerostig.org/call/tandf-implementing-the-physical-internet-supply-chain-intelligence-business-innovation-and-transition-pathways/</link>
             <guid>tandf-implementing-the-physical-internet-supply-chain-intelligence-business-innovation-and-transition-pathways</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Louis Fauger</strong>, Amazon Research &amp; Georgia Institute of Technology</p>
@@ -30,12 +31,20 @@
         
     
     
+    
     <p>The Physical Internet (PI) is moving from vision to reality. Beyond foundational concepts, organizations are now experimenting with pilots, demonstrators, living labs and large-scale initiatives that test how PI principles can be implemented, governed and scaled. This Special Issue seeks rigorous, practice-oriented and empirically grounded contributions that provide actionable insights for managers, policymakers and supply chain stakeholders. The Special Issue is associated with the IPIC 2026 International Conference (June 2026, France), but submissions are open to all authors.</p>
     
     <p>We welcome papers focusing on the implementation and operationalization of the PI, including empirical studies (qualitative, quantitative or mixed methods), case studies, pilots, demonstrators and living labs, practice-based research and industry-driven innovations, and funded projects and cross-industry initiatives. Conceptual contributions are welcome only if strongly connected to real implementation challenges and managerial implications.</p>
     
     <p>All submissions are expected to adopt a sound scientific methodology while clearly demonstrating managerial relevance and actionable lessons learned.</p>
     
+    <p>
+        Appel publié par Supply Chain Forum: An International Journal.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/scf-physical-internet/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-implementing-the-physical-internet-supply-chain-intelligence-business-innovation-and-transition-pathways/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -77,8 +86,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Supply Chain Forum: An International Journal (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

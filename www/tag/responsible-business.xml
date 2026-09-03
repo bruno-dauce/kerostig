@@ -4,7 +4,7 @@
         <title>kerostig | Tag : responsible business</title>
         <link>https://kerostig.org/tag/responsible-business/</link>
         <description>Derniers appels à publications avec le tag 'responsible business'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,17 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/responsible-business/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Stakeholder Theory and Responsible Business: The Future of Corporate Governance]]></title>
             <link>https://kerostig.org/call/wiley-stakeholder-theory-and-responsible-business-the-future-of-corporate-governance/</link>
             <guid>wiley-stakeholder-theory-and-responsible-business-the-future-of-corporate-governance</guid>
             <pubDate>Mon, 17 Aug 2026 15:52:40 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This Special Issue seeks to address challenges by advancing scholarship on stakeholder theory, responsible business, and corporate governance. The issue welcomes conceptual, empirical, and theory-building contributions that examine stakeholder governance in contemporary institutional environments. Submissions from corporate governance scholars across a range of disciplines are particularly encouraged, including perspectives from management, strategy, ethics, finance, accounting, and law.</p>
     
+    <p>
+        Appel publié par Corporate Governance An International Review.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/14678683/cfp/CGIR-SI-Stakeholders-and-CG-2026-1780653790257.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-stakeholder-theory-and-responsible-business-the-future-of-corporate-governance/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -49,8 +58,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Corporate Governance An International Review (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

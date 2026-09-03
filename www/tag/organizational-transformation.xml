@@ -4,7 +4,7 @@
         <title>kerostig | Tag : organizational transformation</title>
         <link>https://kerostig.org/tag/organizational-transformation/</link>
         <description>Derniers appels à publications avec le tag 'organizational transformation'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,19 +13,28 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/organizational-transformation/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Extended Reality (XR) for Enhanced Decision Making and Organizational Transformation]]></title>
             <link>https://kerostig.org/call/elsevier-extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation/</link>
             <guid>elsevier-extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue focuses on the transformative potential of Extended Reality (XR) technologies—including Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR)—in enhancing decision-making processes and driving organizational transformation. As organizations increasingly face complex challenges requiring rapid, data-driven decisions, XR technologies offer innovative approaches to visualize information, simulate scenarios, and facilitate collaborative problem-solving in immersive environments.</p>
     
     <p>The special issue welcomes original research contributions that explore how XR can improve decision support systems across various organizational contexts. We are interested in studies examining the effectiveness of immersive technologies in enhancing situational awareness, reducing decision-making time, improving decision quality, and fostering organizational innovation. Both theoretical frameworks and practical implementations are encouraged.</p>
     
+    <p>
+        Appel publié par Decision Support Systems.
+        
+        <a href="https://www.sciencedirect.com/special-issue/334253/extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -61,15 +70,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Decision Support Systems (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Agentic Artificial Intelligence Across Organizational Functions and Practices]]></title>
             <link>https://kerostig.org/call/emerald-agentic-artificial-intelligence-across-organizational-functions-and-practices/</link>
             <guid>emerald-agentic-artificial-intelligence-across-organizational-functions-and-practices</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Asha Thomas</strong>, Wrocław University of Science and Technology</p>
@@ -80,14 +90,16 @@
         
     
     
+    
     <p>Across contemporary organizations, advances in artificial intelligence (AI) are transforming AI from a discrete technological resource into a systemic organizational capability that actively shapes decision-making, business model innovation, and competitive advantage. Traditionally, AI interfaces have largely been reactive, responding to human prompts and predefined inputs. The emergence of Agentic Artificial Intelligence represents a fundamental shift, as agentic systems are designed to operate with increasing autonomy, enabling goal-driven planning, workflow orchestration, coordination across systems, and machine-initiated action with limited human intervention.</p>
     
-    <p>For organizations, this growing autonomy presents both significant opportunities and substantial risks. Agentic AI promises new forms of value creation by enhancing efficiency, scalability, personalization, and decision quality across organizational functions such as human resource management, marketing, customer engagement, knowledge management, and operations. At the same time, the delegation of agency to autonomous systems heightens concerns related to governance, transparency, accountability, and oversight, particularly when organizations have limited visibility into how agentic systems reason, learn, and act. Moreover, misaligned interactions and problematic resource integration may produce unintended negative outcomes, underscoring the coexistence of value creation and value co-destruction in AI-enabled organizational processes.</p>
-    
-    <p>Despite these unresolved challenges, agentic AI is no longer a speculative phenomenon. Organizations have already begun embedding agentic systems into core practices, including recruitment, onboarding, performance management, customer service, marketing operations, and knowledge-intensive work. This diffusion reflects a broader shift in which AI is increasingly understood as a normalized and enduring component of contemporary organizational and marketing systems rather than a temporary technological trend. In parallel, early implementations in knowledge management demonstrate how agentic systems can unify fragmented knowledge bases, dynamically adapt insights, and support continuous organizational learning.</p>
-    
-    <p>From an academic standpoint, these developments challenge existing organizational and information management theories. While socio-technical systems theory, agency theory, and organizational learning have traditionally conceptualized AI as a support tool within human-centric systems, they offer limited explanatory power for autonomous, multi-agent systems capable of independent coordination and action. In marketing and customer engagement contexts, interactive value formation is increasingly shaped by emotional and relational dynamics emerging from human–AI interactions, further complicating assumptions about control and responsibility. As such, new theoretical perspectives are needed to capture agency, accountability, and knowledge dynamics in AI-enabled organizations.</p>
-    
+    <p>
+        Appel publié par Journal of Enterprise Information Management.
+        
+        <a href="https://www.emerald.com/jeim/calls-for-submissions/1801/Agentic-Artificial-Intelligence-Across?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-agentic-artificial-intelligence-across-organizational-functions-and-practices/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -129,8 +141,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Enterprise Information Management (EMERALD)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

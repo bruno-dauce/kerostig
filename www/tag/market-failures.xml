@@ -4,7 +4,7 @@
         <title>kerostig | Tag : market failures</title>
         <link>https://kerostig.org/tag/market-failures/</link>
         <description>Derniers appels à publications avec le tag 'market failures'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/market-failures/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Behavioural Environmental Economics & Policy (BEEP): trends and reflections]]></title>
             <link>https://kerostig.org/call/springer-by-invitation-only-behavioural-environmental-economics-and-policy-beep-trends-and-reflections/</link>
             <guid>springer-by-invitation-only-behavioural-environmental-economics-and-policy-beep-trends-and-reflections</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Sanchayan Banerjee</strong>, King&#39;s College London</p>
@@ -28,12 +29,16 @@
         
     
     
+    
     <p>Traditional environmental economics addresses market failures (e.g., externalities, public goods, asymmetric information), using regulation and price-based instruments under a rational choice benchmark. Decades of evidence on bounded rationality, bounded self-interest, and bounded willpower reveal systematic departures from that benchmark, generating behavioural failures that can blunt or distort policy. These departures are well documented across core domains (e.g., environmental valuation, discounting of future outcomes and assets, and utility maximisation) and have given rise to a vibrant subfield: Behavioural Environmental Economics &amp; Policy (BEEP).</p>
     
-    <p>This Special Issue will consolidate and showcase new contributions and evidence on how behavioural insights improve the design, delivery, and evaluation of environmental policy. Although BEEP has grown substantially, few efforts have mapped its diverse applications. We aim to fill this gap by providing theoretical, actionable, and evidence-based guidance for researchers and practitioners on putting BEEP into practice. Framed this way, the Special Issue will serve as a practical reference, grounded in recent cases that show why recognising and addressing human behaviour (and its failures) is essential to tackling urgent challenges, from climate change and biodiversity loss to air and water pollution.</p>
-    
-    <p>We welcome conceptual/theoretical, empirical, and policy-oriented submissions that apply behavioural insights to understand, explain, or solve environmental problems. We particularly encourage quantitative, qualitative, and mixed-method designs (e.g., field/lab experiments, quasi-/natural experiments, RCTs, process evaluations), though literature reviews and theoretical contributions will also be considered. Overall, we seek contributions that diagnose and integrate market and behavioural failures and that design, test, and evaluate policies, including &#39;green nudges&#39;, that are both effective and welfare-enhancing.</p>
-    
+    <p>
+        Appel publié par Environmental and Resource Economics.
+        
+        <a href="https://link.springer.com/collections/hidfebcjgc">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-by-invitation-only-behavioural-environmental-economics-and-policy-beep-trends-and-reflections/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -73,8 +78,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Environmental and Resource Economics (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

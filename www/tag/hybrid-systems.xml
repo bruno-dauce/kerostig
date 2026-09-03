@@ -4,7 +4,7 @@
         <title>kerostig | Tag : hybrid systems</title>
         <link>https://kerostig.org/tag/hybrid-systems/</link>
         <description>Derniers appels à publications avec le tag 'hybrid systems'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/hybrid-systems/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Hybrid Human-AI Collaborative Networks]]></title>
             <link>https://kerostig.org/call/tandf-hybrid-human-ai-collaborative-networks/</link>
             <guid>tandf-hybrid-human-ai-collaborative-networks</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Rosanna Fornasiero</strong>, CNR IEIIT</p>
@@ -32,16 +33,18 @@
         
     
     
+    
     <p>Hybrid Collaborative Networks (HCNs), involving human-AI collaboration, are emerging as central to value creation in digitally enabled, globally distributed and socio-technically managed ecosystems. Based on the complex interplay between humans and artificial intelligence, these networks combine very heterogeneous actors—such as organizations, individuals, intelligent systems, embodied AI, and platforms—interacting across physical, digital, and organizational boundaries.</p>
     
     <p>Understanding the dynamics of such networks is critical to ensure their design, management, resilience, adaptability and sustained performance in rapidly changing environments. Analysing and managing the dynamic nature of HCNs includes examining how hybrid collaborative structures emerge, evolve, adapt, and dissolve over time. The dynamics of interactive performance and role distribution for such networks, but also the change of collaboration patterns over time, together with the managerial frameworks required to ensure adaptive governance of HCNs open strong scientific challenges, where technological added-value should be deeply associated with socio-human approaches.</p>
     
-    <p>The 26 years of scientific background developed by PRO-VE in designing and managing collaborative networks stands as the basis to design and manage the life cycle of hybrid human – AI collaborative networks. The very adaptative and changing nature of HCNs calls for a very open multidisciplinary science of collaborative networks, where engineering disciplines collaborate constantly with socio-human and managerial scientists. Beyond the complexity to ensure effective human-AI integration, scalability and evolution of AI systems or trust in hybrid collaboration, require defining innovative design methods and frameworks, adaptive governance and life-cycle management models.</p>
-    
-    <p>PRO-VE 2026 is a forum for sharing and discussing current developments and experiences regarding the role of collaborative networks in the age of combined intelligence between humans and AI. Contributions to this special issue are selected from the papers submitted to the conference. A limited number of self-submission papers can be accepted for publication in this SI.</p>
-    
-    <p>The SI aims to integrate multiple and diverse disciplines such as Engineering, Managerial and Socio-Human sciences: industrial and electrical engineering, computer science, manufacturing, organization science, logistics, management, and social sciences, among others.</p>
-    
+    <p>
+        Appel publié par Production Planning &amp; Control.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ppc-human-ai/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-hybrid-human-ai-collaborative-networks/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -99,8 +102,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Production Planning &amp; Control (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

@@ -4,7 +4,7 @@
         <title>kerostig | Electronic Markets</title>
         <link>https://kerostig.org/journal/electronic-markets/</link>
         <description>Derniers appels à publications pour Electronic Markets.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,50 +13,69 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/electronic-markets/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Critical Perspectives on Digital Platform Ecosystems: Governance, Influence, and Consequences]]></title>
-            <link>https://kerostig.org/call/springer-topical-collection-critical-perspectives-on-digital-platform-ecosystems-governance-influence-and-consequences/</link>
-            <guid>springer-topical-collection-critical-perspectives-on-digital-platform-ecosystems-governance-influence-and-consequences</guid>
+            <title><![CDATA[Digitalization for responsive and circular supply chains]]></title>
+            <link>https://kerostig.org/call/springer-special-issue-on-digitalization-for-responsive-and-circular-supply-chains/</link>
+            <guid>springer-special-issue-on-digitalization-for-responsive-and-circular-supply-chains</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
-        <p><strong>Hemant Bhargava</strong>, University of California, Davis</p>
+        <p><strong>Günter Prockl</strong>, Copenhagen Business School</p>
         
-        <p><strong>Andreas König</strong>, University of Passau</p>
+        <p><strong>Alexander Pflaum</strong>, University of Bamberg</p>
         
-        <p><strong>Jan Krämer</strong>, University of Passau</p>
+        <p><strong>Haozhe Chen</strong>, Iowa State University</p>
         
-        <p><strong>Chayanin Wipusanawan</strong>, University of Passau</p>
+        <p><strong>Marcel Papert</strong>, University of Bamberg</p>
         
     
     
-    <p>One of the central features of the contemporary digital economy is the growing importance of digital platforms that enable, facilitate, govern, and increasingly mediate exchanges and interactions among participants who affiliate with the platform. Digital platform ecosystems, comprising platform owners, complementors, users, and a broader network of partners and institutions, have become a dominant architecture for value creation in the global economy. They influence organizational strategies, reshape industries and markets, and generate far-reaching social and political implications.</p>
     
-    <p>While platform ecosystems can foster novel forms of innovation, coordination, and entrepreneurial opportunity, their concentrated influence also raises critical questions regarding their powerful, and sometimes problematic, effects on societal processes and structures that extend beyond business and economic outcomes. As platform-mediated activities now govern substantial parts of how individuals work, communicate, access information, and participate in public debate, it is increasingly important to examine how these ecosystems are designed, governed, and regulated, and how such governance arrangements shape societal outcomes.</p>
+    <p>The economic environment in which companies create value today is characterized by greater vulnerability, uncertainty, complexity and ambiguity than ever before. Natural disasters, geopolitical conflicts and other disruptions are affecting global supply chains and presenting great changes to established supply chain management models, processes and tools. In the meantime, Planet Earth has reached its limits; climate change and shortages of raw materials are forcing companies and supply chains to transition to more sustainable operations. The commoditization of high-tech products, which is evident in many sectors, is driving the servitization of the manufacturing industry. This presents a golden opportunity for companies to cope with the above-mentioned challenges with greater responsiveness and sustainability.</p>
     
-    <p>This influence is particularly visible in evolving labor arrangements, the organization and boundaries of online speech and content moderation, and the protection of vulnerable users, including youth safety and digital well-being. Related concerns include issues of fairness and transparency, market power and competitive dynamics, data practices and privacy, the distribution of risks and benefits across stakeholder groups, and the interaction of platform governance with public policy.</p>
-    
-    <p>This special issue aims to provide a scholarly forum for addressing critical questions on digital platform ecosystems, considering both their enabling potential and their societal risks. We welcome theoretical and empirical contributions, employing quantitative, qualitative, or mixed-methods approaches, from the full breadth of the information systems field and related disciplines.</p>
-    
+    <p>
+        Appel publié par Electronic Markets.
+        
+        <a href="https://link.springer.com/collections/cchghgejbh">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-special-issue-on-digitalization-for-responsive-and-circular-supply-chains/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Platform Governance and Ecosystem Orchestration: Governance mechanisms, rule-setting, boundary resources, and the allocation of decision rights across platform owners, complementors, and users; centralized, decentralized, and hybrid governance models.</li>
+        <li>Contribution of digital technologies to responsiveness, agility, flexibility, adaptability, improvisation, and resilience, sustainability, circularity, and regeneration</li>
         
-        <li>Strategic Conduct, Market Power, and Competitive Dynamics: Strategic positioning, platform envelopment, self-preferencing, lock-in, multi-homing, and the implications of dominant platforms for competition and market structure.</li>
+        <li>Increasing supply chain visibility based on digital technologies</li>
         
-        <li>Innovation, Complementor Dynamics, and Value Co-creation: Generativity, innovation governance, API and data access, developer relations, incentive structures, and strategies for value creation and capture across ecosystem participants.</li>
+        <li>AI methods supporting forecasting, planning, decision making and optimization</li>
         
-        <li>Content Governance, Speech, and Public Discourse: Content moderation, recommender systems, platform policies, and their effects on online speech, civic participation, and political communication across jurisdictions.</li>
+        <li>Division of labour and interactions between humans and machines in AI-supported supply chains</li>
         
-        <li>Societal Risks, Safety, and Equity: Fairness, inclusion, and distributional effects of platform governance and algorithmic decision-making; information integrity and the maintenance of digital trust; safety, well-being, and protection of vulnerable users.</li>
+        <li>Virtualization and simulation of supply chains based on digital twins</li>
         
-        <li>Regulation, Policy, and Institutional Change: Antitrust and platform regulation, interoperability and portability, liability regimes, standards, oversight of platform policies and algorithmic systems, and the interaction between platform governance and public policy.</li>
+        <li>Blockchain and smart contracts in logistics and supply chain management</li>
         
-        <li>Platforms and Socio-Economic Development: Platformization trajectories, local innovation ecosystems, informal economies, and societal impacts in emerging and developing contexts.</li>
+        <li>The role of digital platforms in supply chain management</li>
+        
+        <li>Effects of smart product-service-systems on supply chains and supply chain management</li>
+        
+        <li>Ecosystems and federated data ecosystems enabling new data-driven R strategies</li>
+        
+        <li>Models, methods and tools enabling the triple transformation of supply chains</li>
+        
+        <li>Barriers and challenges hindering digitalization, servitization and transition to sustainability and circularity</li>
+        
+        <li>Data security and cyber security challenges in digital supply chain structures</li>
+        
+        <li>Legal aspects within the digital, servitized, circular supply chain</li>
+        
+        <li>Potential of digital technologies for ensuring compliance with legal requirements in the context of sustainability and circularity</li>
+        
+        <li>Relationship management mechanisms and governance structures in the era of digitalized supply chains</li>
         
     </ul>
     
@@ -64,92 +83,21 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>July 1, 2026: Open for submissions</li>
-        
-        <li>December 1, 2026: Submission deadline</li>
+        <li>October 15, 2026: Submission deadline</li>
         
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Electronic Markets (SPRINGER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Contemporary research in financial technology (Fintech)]]></title>
-            <link>https://kerostig.org/call/springer-topical-collection-on-contemporary-research-in-financial-technology-fintech/</link>
-            <guid>springer-topical-collection-on-contemporary-research-in-financial-technology-fintech</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>Rainer Alt</strong>, Leipzig University</p>
-        
-        <p><strong>Rob Gleasure</strong>, Copenhagen Business School</p>
-        
-        <p><strong>Ke-Wei Huang</strong>, National University of Singapore</p>
-        
-        <p><strong>Mingfeng Lin</strong>, Georgia Institute of Technology</p>
-        
-        <p><strong>De Liu</strong>, University of Minnesota</p>
-        
-        <p><strong>Liudmila Zavolokina</strong>, University of Lausanne</p>
-        
-    
-    
-    <p>FinTech emerged as a disruptive force in the financial industry around 2010, introducing innovative applications and business models. Now an established sector, FinTech has revolutionized payment, financing, lending, and insurance through platform-based, customer-oriented, and crowd-based processes. On the one hand, FinTech solutions have reached a maturity, which is characterized by well-adopted solutions that have reached a critical mass as well as by a growing degree of regulation. In practice, investments in FinTech start-up ventures have decreased and much research has also been published with four special issues in the Electronic Markets journal alone. On the other hand, ongoing technological advancements like agentic and generative artificial intelligence, blockchain/distributed ledger technologies, and quantum computing are driving further innovations.</p>
-    
-    <p>Digital finance services are becoming more integrated with business processes and the interoperability between financial services has increased. Among the examples are innovative concepts like embedded banking where financial services are closely coupled with real economy processes, contextual banking where financial services adapt to where consumers are, silent banking where financial services are seamlessly integrated in business processes as well as open banking processes where banks offer their services via standardized interfaces on digital platforms. A variety of new services and business models (e.g., InsurTech, RegTech, and PropTech) has surfaced and enriched as well as transformed the landscape of the financial industry.</p>
-    
-    <p>This special issue focuses on these developments from various perspectives (e.g., strategic, organizational, technological issues) and welcomes diverse methodologies, including theory development, qualitative studies, economic research, experiments, surveys, simulations, and design science.</p>
-    
-    <p>Submissions should contribute novel insights to FinTech literature and practice while connecting to information systems research. Both quantitative and qualitative research methods are welcome, provided the research exhibits strong methodological rigor. Contributions can take the form of conceptual and theoretical development papers, empirical hypothesis testing, position papers, case-based studies, and more. All papers will undergo a double-blind peer-review process.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Interaction and integration between FinTech and traditional financial institutions (e.g., traditional banks, central banks, and central bank digital currencies)</li>
-        
-        <li>Study of segments of FinTech (InsurTech, PropTech, RegTech, Green FinTech and sustainable finance)</li>
-        
-        <li>Research on innovation processes in FinTech and analysis of (new) business models (e.g., crowd-based, digital platforms, decentralized business models)</li>
-        
-        <li>Upcoming concepts in Fintech (e.g., embedded, contextual, silent, open and ubiquitous finance and banking)</li>
-        
-        <li>Use of centralized (e.g., core banking/insurance systems) and decentralized digital platforms (e.g., blockchain and distributed ledger technology) for financial services</li>
-        
-        <li>Research on cryptocurrencies, crypto exchanges, and digital assets (e.g., tokenization, Initial Coin and Securitized Token Offerings (ICO/STO))</li>
-        
-        <li>Emerging standards in the financial industry (e.g., data/process standards and application programming interfaces) and regulations like PSD in Europe</li>
-        
-        <li>Adoption and business value of FinTech models and applications (e.g., financial inclusion and literacy, regulation and governance, diffusion and network effects)</li>
-        
-        <li>Emerging FinTech topics and applications (e.g., quantum computing, metaverse, Internet of Things, Agentic and Generative AI)</li>
-        
-        <li>Studies of innovative applications in FinTech (e.g., robo-advising, algorithmic trading, portfolio management, market making, and social trading)</li>
-        
-        <li>Innovative payment models and systems (e.g., payment networks, micropayments, mobile payments)</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 31, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Electronic Markets (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Responsible and Trustworthy Artificial Intelligence in Tourism and Hospitality]]></title>
             <link>https://kerostig.org/call/springer-special-issue-on-responsible-and-trustworthy-artificial-intelligence-in-tourism-and-hospitality/</link>
             <guid>springer-special-issue-on-responsible-and-trustworthy-artificial-intelligence-in-tourism-and-hospitality</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Brian King</strong>, Texas A&amp;M University</p>
@@ -162,10 +110,16 @@
         
     
     
+    
     <p>The aim of this special issue is to advance scholarly understanding of Responsible and Trustworthy Artificial Intelligence in tourism and hospitality, by assembling cutting-edge research, innovative methodologies, and critical reflections. As AI technologies become embedded in-service delivery, marketing, operations, and consumer experience, transformative opportunities are accompanied by potential ethical challenges. Issues of fairness, accountability, transparency, and trust are particularly pressing as the sector adopts AI in pursuit of personalization, efficiency, and engagement. Responsible AI is linked with the concept of &quot;trustworthy AI,&quot; which reflects a stronger technological view and focuses on systems that are lawful, ethical, and robust throughout their lifecycle. Earlier research in tourism and hospitality has shown the need for interdisciplinary inquiry regarding the technical, managerial, legal, and societal dimensions of responsible AI adoption.</p>
     
-    <p>This special issue aims to provide a dedicated forum for interdisciplinary inquiry into the tensions and synergies that are evident between innovation, ethical responsibility, and human experience. It particularly encourages submissions that highlight the design, adoption, and governance of AI-enabled digital platforms, data-sharing ecosystems, and information infrastructures shaping tourism and hospitality. Papers may investigate the broader societal impacts of AI and topics such as bias and fairness in algorithmic decision-making, consumer trust in AI systems, sustainable and frugal AI applications, digital twins for experience innovation, governance and regulatory frameworks and human-centered design. This special issue will foster dialogue across disciplines to highlight best practices as well as challenges in the design, deployment, and governance of responsible AI systems. Ultimately, it seeks to open up pathways that will ensure enhanced customer experiences through AI-driven innovation in tourism and hospitality, while upholding ethical, social, and environmental responsibility.</p>
-    
+    <p>
+        Appel publié par Electronic Markets.
+        
+        <a href="https://link.springer.com/collections/chdbfcddeg">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-special-issue-on-responsible-and-trustworthy-artificial-intelligence-in-tourism-and-hospitality/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -219,72 +173,55 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Electronic Markets (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Digitalization for responsive and circular supply chains]]></title>
-            <link>https://kerostig.org/call/springer-special-issue-on-digitalization-for-responsive-and-circular-supply-chains/</link>
-            <guid>springer-special-issue-on-digitalization-for-responsive-and-circular-supply-chains</guid>
+            <title><![CDATA[Critical Perspectives on Digital Platform Ecosystems: Governance, Influence, and Consequences]]></title>
+            <link>https://kerostig.org/call/springer-topical-collection-critical-perspectives-on-digital-platform-ecosystems-governance-influence-and-consequences/</link>
+            <guid>springer-topical-collection-critical-perspectives-on-digital-platform-ecosystems-governance-influence-and-consequences</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
-        <p><strong>Günter Prockl</strong>, Copenhagen Business School</p>
+        <p><strong>Hemant Bhargava</strong>, University of California, Davis</p>
         
-        <p><strong>Alexander Pflaum</strong>, University of Bamberg</p>
+        <p><strong>Andreas König</strong>, University of Passau</p>
         
-        <p><strong>Haozhe Chen</strong>, Iowa State University</p>
+        <p><strong>Jan Krämer</strong>, University of Passau</p>
         
-        <p><strong>Marcel Papert</strong>, University of Bamberg</p>
+        <p><strong>Chayanin Wipusanawan</strong>, University of Passau</p>
         
     
     
-    <p>The economic environment in which companies create value today is characterized by greater vulnerability, uncertainty, complexity and ambiguity than ever before. Natural disasters, geopolitical conflicts and other disruptions are affecting global supply chains and presenting great changes to established supply chain management models, processes and tools. In the meantime, Planet Earth has reached its limits; climate change and shortages of raw materials are forcing companies and supply chains to transition to more sustainable operations. The commoditization of high-tech products, which is evident in many sectors, is driving the servitization of the manufacturing industry. This presents a golden opportunity for companies to cope with the above-mentioned challenges with greater responsiveness and sustainability.</p>
     
-    <p>Tomorrow&#39;s supply chains must be able to react quickly to disruptions and changes. The concepts of resilience and responsiveness are key, as are flexibility, agility, adaptability and improvisation. The renewed battle for natural resources requires economic growth to be decoupled from the extraction of raw materials, ultimately forcing a transformation of established &#39;take, make, waste&#39; supply chains into circular systems. R-strategies such as reduce, reuse, remanufacture and recycle play a special role in doing so. The ultimate aim is to increase resource efficiency in existing value chains, extend the service life of products, and close the loop.</p>
+    <p>One of the central features of the contemporary digital economy is the growing importance of digital platforms that enable, facilitate, govern, and increasingly mediate exchanges and interactions among participants who affiliate with the platform. Digital platform ecosystems, comprising platform owners, complementors, users, and a broader network of partners and institutions, have become a dominant architecture for value creation in the global economy. They influence organizational strategies, reshape industries and markets, and generate far-reaching social and political implications.</p>
     
-    <p>Scientific literature agrees that digital technologies are key to realizing the responsive, servitized and circular supply chains of tomorrow. Important building blocks include the internet of things, artificial intelligence (AI) and machine learning, digital twins for products and supply chains, blockchains and digital platforms. However, insufficient research has been conducted into how these building blocks support responsiveness, servitization and the transition to sustainability and circularity as a triple transformation.</p>
-    
-    <p>This Special Issue seeks contributions that exemplify technology- or data-driven solutions for implementing resilient and circular supply chains, as well as the associated business models. Contributions employing a broad range of methodological approaches are encouraged, including but not limited to conceptual, qualitative, and quantitative research. It is essential that these contributions also derive and discuss managerial implications. We also welcome contributions addressing related topics not listed above.</p>
-    
-    <p>Contributions should explore digital technologies in supply chain management within today&#39;s challenging business environment or specific industry contexts, such as automotive, chemicals, food, life sciences and healthcare, logistics service providers, manufacturing, or mining. Particularly interested are contributions that address the challenges and opportunities associated with digitalization, servitization and transition to sustainability and circularity across multiple supply chain tiers or at least in dyadic relationships.</p>
-    
-    <p>All papers will be peer reviewed and should conform to Electronic Markets publication standards. Electronic Markets is a SSCI-listed journal with a 2024 Impact Factor of 6.8 and a 5-year Impact Factor of 10.0. Electronic Markets welcomes research from a technological, organizational, societal, and/or political perspective. Since Electronic Markets is a methodologically pluralistic journal, quantitative and qualitative research methods are both welcome as long as the studies are methodologically sound. Conceptual and theory-development papers, empirical hypothesis testing, and case-based studies are all welcome.</p>
-    
+    <p>
+        Appel publié par Electronic Markets.
+        
+        <a href="https://link.springer.com/collections/ecbjjiecib">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-topical-collection-critical-perspectives-on-digital-platform-ecosystems-governance-influence-and-consequences/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Contribution of digital technologies to responsiveness, agility, flexibility, adaptability, improvisation, and resilience, sustainability, circularity, and regeneration</li>
+        <li>Platform Governance and Ecosystem Orchestration: Governance mechanisms, rule-setting, boundary resources, and the allocation of decision rights across platform owners, complementors, and users; centralized, decentralized, and hybrid governance models.</li>
         
-        <li>Increasing supply chain visibility based on digital technologies</li>
+        <li>Strategic Conduct, Market Power, and Competitive Dynamics: Strategic positioning, platform envelopment, self-preferencing, lock-in, multi-homing, and the implications of dominant platforms for competition and market structure.</li>
         
-        <li>AI methods supporting forecasting, planning, decision making and optimization</li>
+        <li>Innovation, Complementor Dynamics, and Value Co-creation: Generativity, innovation governance, API and data access, developer relations, incentive structures, and strategies for value creation and capture across ecosystem participants.</li>
         
-        <li>Division of labour and interactions between humans and machines in AI-supported supply chains</li>
+        <li>Content Governance, Speech, and Public Discourse: Content moderation, recommender systems, platform policies, and their effects on online speech, civic participation, and political communication across jurisdictions.</li>
         
-        <li>Virtualization and simulation of supply chains based on digital twins</li>
+        <li>Societal Risks, Safety, and Equity: Fairness, inclusion, and distributional effects of platform governance and algorithmic decision-making; information integrity and the maintenance of digital trust; safety, well-being, and protection of vulnerable users.</li>
         
-        <li>Blockchain and smart contracts in logistics and supply chain management</li>
+        <li>Regulation, Policy, and Institutional Change: Antitrust and platform regulation, interoperability and portability, liability regimes, standards, oversight of platform policies and algorithmic systems, and the interaction between platform governance and public policy.</li>
         
-        <li>The role of digital platforms in supply chain management</li>
-        
-        <li>Effects of smart product-service-systems on supply chains and supply chain management</li>
-        
-        <li>Ecosystems and federated data ecosystems enabling new data-driven R strategies</li>
-        
-        <li>Models, methods and tools enabling the triple transformation of supply chains</li>
-        
-        <li>Barriers and challenges hindering digitalization, servitization and transition to sustainability and circularity</li>
-        
-        <li>Data security and cyber security challenges in digital supply chain structures</li>
-        
-        <li>Legal aspects within the digital, servitized, circular supply chain</li>
-        
-        <li>Potential of digital technologies for ensuring compliance with legal requirements in the context of sustainability and circularity</li>
-        
-        <li>Relationship management mechanisms and governance structures in the era of digitalized supply chains</li>
+        <li>Platforms and Socio-Economic Development: Platformization trajectories, local innovation ecosystems, informal economies, and societal impacts in emerging and developing contexts.</li>
         
     </ul>
     
@@ -292,20 +229,155 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>October 15, 2026: Submission deadline</li>
+        <li>July 1, 2026: Open for submissions</li>
+        
+        <li>December 1, 2026: Submission deadline</li>
         
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Electronic Markets (SPRINGER)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Artificial Intelligence-based Assistants and Platforms]]></title>
+            <link>https://kerostig.org/call/springer-topical-collection-on-ai-based-assistants-and-platforms/</link>
+            <guid>springer-topical-collection-on-ai-based-assistants-and-platforms</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Rainer Schmidt</strong>, Munich University of Applied Sciences</p>
+        
+        <p><strong>Rainer Alt</strong>, Leipzig University</p>
+        
+        <p><strong>Alfred Zimmermann</strong>, Reutlingen University</p>
+        
+    
+    
+    
+    <p>The Topical Collection on Artificial Intelligence-based Assistants and Platforms focuses on assistant systems (e.g. chatbots, recommenders) that are based on artificial intelligence and the interaction with users via declarative natural-language interfaces. They are present in various forms as well as industries and often assume a platform logic when services and devices from different providers are included.</p>
+    
+    <p>The Topical Collection relates to a minitrack at the Hawaii International Conference on System Sciences (HICSS) and comprises research on novel methods, models, processes, and approaches related to the design, implementation, deployment, operation, and optimization of AI-based assistants and platforms for the digital economy.</p>
+    
+    <p>
+        Appel publié par Electronic Markets.
+        
+        <a href="https://link.springer.com/collections/jibdjaebdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-topical-collection-on-ai-based-assistants-and-platforms/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Design, implementation, and deployment of AI-based assistants and platforms</li>
+        
+        <li>Novel methods and models for AI-based assistants (e.g., chatbots, recommenders)</li>
+        
+        <li>Natural language interfaces and user interaction with AI systems</li>
+        
+        <li>Platform logic and integration of services from different providers</li>
+        
+        <li>Operation and optimization of AI-based assistants and platforms for the digital economy</li>
+        
+        <li>AI-based assistants in various industries and applications</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Contemporary research in financial technology (Fintech)]]></title>
+            <link>https://kerostig.org/call/springer-topical-collection-on-contemporary-research-in-financial-technology-fintech/</link>
+            <guid>springer-topical-collection-on-contemporary-research-in-financial-technology-fintech</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Rainer Alt</strong>, Leipzig University</p>
+        
+        <p><strong>Rob Gleasure</strong>, Copenhagen Business School</p>
+        
+        <p><strong>Ke-Wei Huang</strong>, National University of Singapore</p>
+        
+        <p><strong>Mingfeng Lin</strong>, Georgia Institute of Technology</p>
+        
+        <p><strong>De Liu</strong>, University of Minnesota</p>
+        
+        <p><strong>Liudmila Zavolokina</strong>, University of Lausanne</p>
+        
+    
+    
+    
+    <p>FinTech emerged as a disruptive force in the financial industry around 2010, introducing innovative applications and business models. Now an established sector, FinTech has revolutionized payment, financing, lending, and insurance through platform-based, customer-oriented, and crowd-based processes. On the one hand, FinTech solutions have reached a maturity, which is characterized by well-adopted solutions that have reached a critical mass as well as by a growing degree of regulation. In practice, investments in FinTech start-up ventures have decreased and much research has also been published with four special issues in the Electronic Markets journal alone. On the other hand, ongoing technological advancements like agentic and generative artificial intelligence, blockchain/distributed ledger technologies, and quantum computing are driving further innovations.</p>
+    
+    <p>
+        Appel publié par Electronic Markets.
+        
+        <a href="https://link.springer.com/collections/dieiiabjhf">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-topical-collection-on-contemporary-research-in-financial-technology-fintech/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Interaction and integration between FinTech and traditional financial institutions (e.g., traditional banks, central banks, and central bank digital currencies)</li>
+        
+        <li>Study of segments of FinTech (InsurTech, PropTech, RegTech, Green FinTech and sustainable finance)</li>
+        
+        <li>Research on innovation processes in FinTech and analysis of (new) business models (e.g., crowd-based, digital platforms, decentralized business models)</li>
+        
+        <li>Upcoming concepts in Fintech (e.g., embedded, contextual, silent, open and ubiquitous finance and banking)</li>
+        
+        <li>Use of centralized (e.g., core banking/insurance systems) and decentralized digital platforms (e.g., blockchain and distributed ledger technology) for financial services</li>
+        
+        <li>Research on cryptocurrencies, crypto exchanges, and digital assets (e.g., tokenization, Initial Coin and Securitized Token Offerings (ICO/STO))</li>
+        
+        <li>Emerging standards in the financial industry (e.g., data/process standards and application programming interfaces) and regulations like PSD in Europe</li>
+        
+        <li>Adoption and business value of FinTech models and applications (e.g., financial inclusion and literacy, regulation and governance, diffusion and network effects)</li>
+        
+        <li>Emerging FinTech topics and applications (e.g., quantum computing, metaverse, Internet of Things, Agentic and Generative AI)</li>
+        
+        <li>Studies of innovative applications in FinTech (e.g., robo-advising, algorithmic trading, portfolio management, market making, and social trading)</li>
+        
+        <li>Innovative payment models and systems (e.g., payment networks, micropayments, mobile payments)</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>August 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Digital Transformation and Service]]></title>
             <link>https://kerostig.org/call/springer-topical-collection-on-digital-transformation-and-service/</link>
             <guid>springer-topical-collection-on-digital-transformation-and-service</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Christian Bartelheimer</strong>, University of Göttingen</p>
@@ -318,16 +390,16 @@
         
     
     
+    
     <p>Digital transformation continues to reshape how organizations create, deliver, and capture value. At the same time, service has become a crucial lens for understanding contemporary information systems (IS) phenomena. Value is co-created across organizational boundaries, enacted through digital technologies, and embedded in networks, platforms, and ecosystems. The Topical Collection on Digital Transformation &amp; Service at Electronic Markets seeks to advance theoretically grounded and relevant IS research at the intersection of digital transformation and service.</p>
     
-    <p>We invite submissions that foreground service and digital transformation as they are established, debated, and further developed within the IS discipline, and in particular in Electronic Markets. Submitted articles should demonstrate a clear engagement with core IS literature to identify a well-defined research gap that matters for practice and theory, and articulate a convincing contribution to recent IS conversations. We are particularly interested in papers that move beyond broad claims about the consequences of digital transformation and instead examine how information technology (IT) artifacts ought to be designed and how they can be applied to foster value co-creation.</p>
-    
-    <p>A central expectation of this Topical Collection is that submissions &#39;white-box&#39; the role of IT artifacts. We seek papers that explicate how IT artifacts shape and are shaped by the digital transformation of organizations, for instance by enabling or transforming customer relations, value propositions, and service exchange. Studies may focus on (smart) service systems or ecosystems at varied levels, including communities, organizations, inter-organizational arrangements, platforms, data spaces, and society. In contrast, we do not seek papers that treat information systems as &#39;black boxes&#39; or limit their analysis to summative business implications without theorizing the underlying structures, mechanisms, and affordances of IT artifacts through which these implications emerge. Manuscripts presenting IT artifacts that use or expand large language models or other large-scale artificial intelligence technologies must also be unpacked and contextualized, and presented in a way that is theoretically anchored and generates contributions at the intersection of digital transformation, service, and information systems.</p>
-    
-    <p>We invite contributions from various epistemological positions and methodological traditions common in the IS discipline. Suitable submissions may include (action) design science, conceptual papers, qualitative studies, including case studies and Delphi studies, quantitative research, including experiments, surveys, and data-driven studies, and mixed-methods work. Literature reviews are also welcome, provided that they deliver strong theoretical implications and develop a forward-looking research agenda that reaches considerably beyond reporting the current state of research.</p>
-    
-    <p>We particularly encourage submissions that investigate the role of digital technologies in real-world service scenarios. Studies that focus on inter-organizational contexts such as service networks, digital platforms, data spaces, or business ecosystems are especially relevant, as they touch on core topics of Electronic Markets. Submissions may examine established organizations, start-ups, public-sector organizations, communities, or other actor constellations in which digital technologies enable, constrain, or transform service exchange and value co-creation.</p>
-    
+    <p>
+        Appel publié par Electronic Markets.
+        
+        <a href="https://link.springer.com/collections/aebjbihcdb">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-topical-collection-on-digital-transformation-and-service/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -361,15 +433,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Electronic Markets (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Service research in the digital era]]></title>
             <link>https://kerostig.org/call/springer-topical-collection-on-service-research-in-the-digital-era/</link>
             <guid>springer-topical-collection-on-service-research-in-the-digital-era</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Cristina Mele</strong>, University of Naples Federico II</p>
@@ -382,10 +455,16 @@
         
     
     
+    
     <p>The digital transformation characterizing business and society has opened up a whole new world of possibilities. The vast amount of online information facilitates data access and gathering, trend analysis, prediction, and prescriptions, and supports informed decisions. On the one side, actors have been strengthened in their decision-making capacities thanks to the prompt and easy access to a wide range of sources such as online databases, academic journals, online communities, social media, and search engines. On the other side, the conceptualization of service and service research needs to adapt and adhere to the fact that companies, communities, businesses, and society are in an era of significant change due to artificial intelligence, augmented reality, intelligence augmentation, the internet of Things, blockchain solutions, industrial automation and servitization. In other words, technology can enable value co-creation in multiple directions, not always through market sustainable behaviors.</p>
     
-    <p>Markets can be interpreted as service ecosystems, a perspective that frames a deep understanding of value co-creation dynamics between actors, also between human and non-human actors. Diverse actors&#39; knowledge, intentions, and awareness of institutional arrangements and emergent properties can give rise to market emergence, market multiplicity in terms of multiple perspectives, purposive actions to create, maintain and change institutional arrangements market shaping and, definitely, market viability. The spread and adoption of technological advances, thus, generates opportunities and innovations that continually challenge markets, stimulating unforeseen emerging situations and contexts and new service platforms for service research opening up numerous exciting research streams.</p>
-    
+    <p>
+        Appel publié par Electronic Markets.
+        
+        <a href="https://link.springer.com/collections/jbeibcbdfj">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-topical-collection-on-service-research-in-the-digital-era/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -421,58 +500,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Electronic Markets (SPRINGER)</author>
-        </item>
-        <item>
-            <title><![CDATA[Artificial Intelligence-based Assistants and Platforms]]></title>
-            <link>https://kerostig.org/call/springer-topical-collection-on-ai-based-assistants-and-platforms/</link>
-            <guid>springer-topical-collection-on-ai-based-assistants-and-platforms</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-        
-        <p><strong>Rainer Schmidt</strong>, Munich University of Applied Sciences</p>
-        
-        <p><strong>Rainer Alt</strong>, Leipzig University</p>
-        
-        <p><strong>Alfred Zimmermann</strong>, Reutlingen University</p>
-        
-    
-    
-    <p>The Topical Collection on Artificial Intelligence-based Assistants and Platforms focuses on assistant systems (e.g. chatbots, recommenders) that are based on artificial intelligence and the interaction with users via declarative natural-language interfaces. They are present in various forms as well as industries and often assume a platform logic when services and devices from different providers are included.</p>
-    
-    <p>The Topical Collection relates to a minitrack at the Hawaii International Conference on System Sciences (HICSS) and comprises research on novel methods, models, processes, and approaches related to the design, implementation, deployment, operation, and optimization of AI-based assistants and platforms for the digital economy.</p>
-    
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Design, implementation, and deployment of AI-based assistants and platforms</li>
-        
-        <li>Novel methods and models for AI-based assistants (e.g., chatbots, recommenders)</li>
-        
-        <li>Natural language interfaces and user interaction with AI systems</li>
-        
-        <li>Platform logic and integration of services from different providers</li>
-        
-        <li>Operation and optimization of AI-based assistants and platforms for the digital economy</li>
-        
-        <li>AI-based assistants in various industries and applications</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>Invalid DateTime: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Electronic Markets (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

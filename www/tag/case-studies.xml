@@ -4,7 +4,7 @@
         <title>kerostig | Tag : case studies</title>
         <link>https://kerostig.org/tag/case-studies/</link>
         <description>Derniers appels à publications avec le tag 'case studies'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,17 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/case-studies/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Back to basics in R&D Management: Rediscovering the importance of company case studies]]></title>
             <link>https://kerostig.org/call/wiley-back-to-basics-in-randd-management-rediscovering-the-importance-of-company-case-studies/</link>
             <guid>wiley-back-to-basics-in-randd-management-rediscovering-the-importance-of-company-case-studies</guid>
             <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This special issue aims to reverse the trend of declining case study research, rediscovering and reaffirming the value of case studies on the organization and management of R&amp;D to capture the nuances of this specific function in organizational settings and to provide actionable insights for researchers, practitioners, and policymakers. By bringing practical perspectives back to the forefront with a focus on single and multiple case studies, the special issue aims to reconnect theoretical developments with the direct experiences of companies managing innovation on the ground.</p>
     
+    <p>
+        Appel publié par R and D Management.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/14679310/cfp/RADM_SI_Back-to-Basics-in-R_D_2026-1769634251793.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-back-to-basics-in-randd-management-rediscovering-the-importance-of-company-case-studies/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -51,8 +60,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>R and D Management (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

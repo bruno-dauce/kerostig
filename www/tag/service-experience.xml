@@ -4,7 +4,7 @@
         <title>kerostig | Tag : service experience</title>
         <link>https://kerostig.org/tag/service-experience/</link>
         <description>Derniers appels à publications avec le tag 'service experience'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/service-experience/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[AI-Enabled Experience Innovation]]></title>
             <link>https://kerostig.org/call/sage-ai-enabled-experience-innovation/</link>
             <guid>sage-ai-enabled-experience-innovation</guid>
             <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Bernd Schmitt</strong>, Columbia University</p>
@@ -32,14 +33,18 @@
         
     
     
+    
     <p>AI is innovating how service experiences can be designed, curated, and delivered. Service that emphasizes experiential components, such as sensory, affective, cognitive, behavioral and social elements, are considered experiential service. Customer experience is multidimensional across multiple touchpoints, unfolds over the customer journey, can be enabled by various AI technologies, and can establish emotional connections with customers.</p>
     
     <p>This special issue seeks to advance our understanding of how AI can enable experience innovation. By enabling personalization, adaptive interaction, and multisensory engagement, AI allows service providers to create new, innovative experiences and enables customers to participate in journeys that evolve dynamically with their needs and preferences. For examples, augmented and virtual reality technologies (AR/VR) are used in retailing to innovate experiences; extended-reality technologies (XR) are used to bring static museum exhibitions to life, mixed-reality technologies (MR) are used to blend real and virtual skill development, and AI technologies are used to enhance sports or entertainment experiences through digital images and surround sound.</p>
     
-    <p>The special issue welcomes submissions from all disciplines with a service interest, such as consumer research, service marketing, strategic management, information systems, operations research, psychology, and sociology. Mixed methods blending conceptual, empirical, or computational approaches are encouraged.</p>
-    
-    <p>Papers will undergo no more than two rounds of full peer review. After the second round, a final decision will be made to ensure timely publication. The special issue operates on a tight timeline, and authors should expect quick turnarounds for reviews and revisions.</p>
-    
+    <p>
+        Appel publié par Journal of Service Research.
+        
+        <a href="https://journals.sagepub.com/pb-assets/PDF/JSR%20CFP%20for%20AI-enabled%20experience%20innovation-1771929055970.pdf">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/sage-ai-enabled-experience-innovation/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -71,8 +76,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Service Research (SAGE)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

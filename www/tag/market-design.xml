@@ -4,7 +4,7 @@
         <title>kerostig | Tag : market design</title>
         <link>https://kerostig.org/tag/market-design/</link>
         <description>Derniers appels à publications avec le tag 'market design'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,15 +13,24 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/market-design/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Decentralized Finance and the Global Financial Architecture: Market Design, Regulation, and Economic Implications]]></title>
             <link>https://kerostig.org/call/wiley-decentralized-finance-and-the-global-financial-architecture-market-design-regulation-and-economic-implications/</link>
             <guid>wiley-decentralized-finance-and-the-global-financial-architecture-market-design-regulation-and-economic-implications</guid>
             <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par International Journal of Finance &amp; Economics.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/hub-assets/dom-pubs/hub/infographic/DeFi_Special_Section_IJFE-1787659326223.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-decentralized-finance-and-the-global-financial-architecture-market-design-regulation-and-economic-implications/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -34,8 +43,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>International Journal of Finance &amp; Economics (WILEY)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

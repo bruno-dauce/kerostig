@@ -4,7 +4,7 @@
         <title>kerostig | Scientometrics</title>
         <link>https://kerostig.org/journal/scientometrics/</link>
         <description>Derniers appels à publications pour Scientometrics.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,23 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/scientometrics/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Bibliometric Measures of Epistemic Change]]></title>
             <link>https://kerostig.org/call/springer-bibliometric-measures-of-epistemic-change/</link>
             <guid>springer-bibliometric-measures-of-epistemic-change</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>Bibliometrics has a long-standing interest in tracing epistemic change. The question of how epistemic change is reflected in publications is implicit to evaluative bibliometrics because the quality of a paper is measured through its impact, which can be understood as the extent to which a paper changes later research. Beyond this idea underlying bibliometric assessments, the question of how to identify and trace emerging fields or emerging technologies has attracted considerable attention, and the dynamics of topics has been traced with bibliometric methods. These approaches either identify emerging topics and technologies by searching for rapidly growing clusters of publication or trace changes that are known to exist and trace them using citation patterns, keywords or combinations thereof. The current interest in the identification of exceptional papers reflects a similar interest in epistemic change.</p>
     
-    <p>The application of bibliometric methods for tracing epistemic change also appears to be hindered by constraints that are not necessary but appear to be somewhat self-inflicted in that they are due to methodological traditions that are taken for granted in bibliometrics. Recent indicators like Innovativeness, Novelty, Originality or Disruptiveness describe single papers and attempt to codify the epistemic change they bring about. This design is based on three implicit assumptions. First, the construction of indicators of epistemic change from metadata of individual papers implies the assumption that the epistemic change is an event rather than a process. Second, the construction of these indicators assumes that the event that is measured by the indicator is fully reported in exactly one paper. Third, indicators sacrifice specificity for comparability, attempting to describe how much epistemic change is represented by a paper while being unable to report the kind of change that has occurred.</p>
-    
-    <p>These three limitations appear to be the results of choices made by indicator designers rather than fundamental limitations of bibliometrics, and come on top of the only truly fundamental limitation: the dependence of bibliometrics on the signal about a publication&#39;s content that is contained by the publication&#39;s metadata. This limitation raises a fundamental question about the validity of bibliometric measures of epistemic change. Since we don&#39;t know how the content of a paper is reflected in bibliometric metadata, we cannot assess the content or strength of the signal metadata contain and thus cannot know if the signal is validly codified by an indicator.</p>
-    
-    <p>The special collection presents papers that were developed in a series of workshops which addressed these four challenges, providing perspectives on conceptualisation and operationalisation of epistemic change, construction of ground truths, analysis of metadata content, validation of indicators, and application of artificial intelligence methods to publications.</p>
-    
+    <p>
+        Appel publié par Scientometrics.
+        
+        <a href="https://link.springer.com/collections/fdiagaeghc">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-bibliometric-measures-of-epistemic-change/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -55,8 +58,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Scientometrics (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

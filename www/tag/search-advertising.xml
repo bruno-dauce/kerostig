@@ -4,7 +4,7 @@
         <title>kerostig | Tag : search advertising</title>
         <link>https://kerostig.org/tag/search-advertising/</link>
         <description>Derniers appels à publications avec le tag 'search advertising'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/search-advertising/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Insights on the future of search-related advertising and artificial intelligence]]></title>
             <link>https://kerostig.org/call/tandf-insights-on-the-future-of-search-related-advertising-and-artificial-intelligence/</link>
             <guid>tandf-insights-on-the-future-of-search-related-advertising-and-artificial-intelligence</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Kirsten Cowan</strong>, University of Edinburgh</p>
@@ -32,14 +33,16 @@
         
     
     
+    
     <p>The rapid evolution of generative artificial intelligence (AI) is revolutionizing the way consumers search, retrieve, and interact with product information, offerings, and brands. The traditional search landscape, once dominated by Google&#39;s algorithmic filtering and search engine optimization (SEO) strategies, is being transformed by AI-generated summaries and zero-click searches. This paradigm shift is disrupting conventional SEO approaches and revenue models, reshaping how consumers encounter and process information and make choices while forcing the industry to adapt and reinvent.</p>
     
-    <p>As AI continues to influence search results and decision-making, several key trends are emerging. First, the nature of search is changing, with AI increasingly mediating our interactions and altering the way we engage with search results. Is search still a pull activity, where consumers initiate queries and receive advertising responses aligned with their intent, or are we witnessing a shift towards AI-led search experiences that unfold without explicit human initiation? Second, we are delegating search-related tasks to AI, potentially leading to a future where AI autonomously performs search functions, bypassing traditional some stages of the consumer journey, including information processing. Third, our current interactions with AI are largely functional, focusing on utilitarian offerings and cognitive evaluations. However, as AI evolves, we may see a shift towards more experiential, hedonic, and social evaluations, where AI assists us in discovering new goods and services that cater to our emotional, social, and moral needs.</p>
-    
-    <p>The implications for advertising are profound. As AI-generated content and zero-click searches become more prevalent, advertisers must adapt their strategies to reach consumers in a landscape where traditional search results are no longer the primary touchpoint. This may involve shifting focus from keyword-based advertising to more contextual, conversational, and experiential approaches, such as sponsored content, influencer partnerships, and immersive brand experiences. Further, the rise of AI-driven search raises important questions about the role of advertising in shaping consumer decision-making, the potential for bias in AI-generated recommendations, and the need for greater transparency and accountability in advertising practices.</p>
-    
-    <p>Building upon recent contributions that focus on GenAI search and advertising, this special section aims to inspire the future of advertising applications within the consumer search phase. We welcome submissions that make substantive theoretical and practical contributions in the broader domain of advertising research, irrespective of methods. This includes either conceptual or empirical work. Empirical work (experiments, surveys, modeling, qualitative, etc.) should be appropriately executed, given best practices in the discipline.</p>
-    
+    <p>
+        Appel publié par Journal of Advertising Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/insights-on-the-future-of-search-related-advertising-and-artificial-intelligence/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-insights-on-the-future-of-search-related-advertising-and-artificial-intelligence/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -101,8 +104,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Advertising Research (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

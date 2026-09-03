@@ -4,7 +4,7 @@
         <title>kerostig | Tag : reproducibility</title>
         <link>https://kerostig.org/tag/reproducibility/</link>
         <description>Derniers appels à publications avec le tag 'reproducibility'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/reproducibility/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Advancing Management Research Through Theory Testing: A Special Issue of Replication and Reproducibility Studies]]></title>
             <link>https://kerostig.org/call/sage-advancing-management-research-through-theory-testing-a-special-issue-of-replication-and-reproducibility-studies/</link>
             <guid>sage-advancing-management-research-through-theory-testing-a-special-issue-of-replication-and-reproducibility-studies</guid>
             <pubDate>Tue, 18 Aug 2026 17:57:56 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>William G. Obenauer</strong>, University of Maine</p>
@@ -38,16 +39,18 @@
         
     
     
+    
     <p>Group &amp; Organizational Management (GOM) has made an explicit commitment to publishing replication research and contributing to an ecosystem that supports replication research in the organizational sciences. By making this commitment, GOM joins journals such as Strategic Management Journal, The Leadership Quarterly, Entrepreneurship: Theory and Practice, and Journal of Management Scientific Reports in this endeavor.</p>
     
     <p>As part of GOM&#39;s commitment to supporting replication research, this special issue aims to stimulate a continued stream of replication and reproducibility submissions to GOM well beyond the publication of this special issue. Focal studies (i.e., studies replicated or reproduced) are not required to have been published in GOM, but they should be of interest to GOM&#39;s audience.</p>
     
-    <p>The special issue welcomes three types of submissions. Registered reports require researchers to submit their introduction and methods description before collecting data and will include detailed descriptions for either literal replication, literal reproducibility studies, or multi-study replication papers. Registered reports must include all methodological details as reviewers cannot grant acceptance in principle when methods lack transparency. Authors are encouraged to submit registered reports at least four months before the submission deadline to allow time for data collection. Importantly, authors must not collect data before their action editor gives acceptance in principle.</p>
-    
-    <p>Literal replication or reproducibility study only submissions are limited to 2,000 words with limited introductions and discussion sections, with the majority of text focused on methodology and results. This recognizes the importance of bolstering the research record through literal replication and literal reproducibility studies.</p>
-    
-    <p>Full-length submissions should use conceptual or constructive replication to advance knowledge through boundary testing or methodological improvements. Authors are encouraged to include reproducibility studies and/or literal replications within their full-length submissions for benchmarking purposes. While conducting a literal replication before constructive replication is encouraged, it is not required, as conducting reproducibility studies or literal replications may sometimes be infeasible due to practical constraints such as limited access to samples.</p>
-    
+    <p>
+        Appel publié par Group &amp; Organization Management.
+        
+        <a href="https://journals.sagepub.com/pb-assets/cmscontent/GOM/Replication_SI_CFP_20260319-1786373182787.pdf">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/sage-advancing-management-research-through-theory-testing-a-special-issue-of-replication-and-reproducibility-studies/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -73,8 +76,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Group &amp; Organization Management (SAGE)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

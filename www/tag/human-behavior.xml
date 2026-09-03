@@ -4,7 +4,7 @@
         <title>kerostig | Tag : human behavior</title>
         <link>https://kerostig.org/tag/human-behavior/</link>
         <description>Derniers appels à publications avec le tag 'human behavior'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,17 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/human-behavior/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Call for Special Issue Proposals]]></title>
             <link>https://kerostig.org/call/elsevier-call-for-special-issue-proposals-computers-in-human-behavior/</link>
             <guid>elsevier-call-for-special-issue-proposals-computers-in-human-behavior</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>This is a call for special issue proposals for the journal Computers in Human Behavior. Interested scholars are invited to submit proposals for special issues that address the intersection of computers and human behavior.</p>
     
+    <p>
+        Appel publié par Computers in Human Behavior.
+        
+        <a href="https://www.sciencedirect.com/special-issue/257740/call-for-special-issue-proposals-computers-in-human-behavior">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-call-for-special-issue-proposals-computers-in-human-behavior/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -34,8 +43,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Computers in Human Behavior (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

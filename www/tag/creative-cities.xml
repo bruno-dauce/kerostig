@@ -4,7 +4,7 @@
         <title>kerostig | Tag : creative cities</title>
         <link>https://kerostig.org/tag/creative-cities/</link>
         <description>Derniers appels à publications avec le tag 'creative cities'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/creative-cities/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Le concept de « middleground » : de l'analyse de la ville créative à la compréhension des écosystèmes complexes d'innovation et de transformation régionale]]></title>
             <link>https://kerostig.org/call/mi-le-concept-de-middleground-de-lanalyse-de-la-ville-creative-a-la-comprehension-des-ecosystemes-complexes-dinnovation-et-de-transformation-regionale/</link>
             <guid>mi-le-concept-de-middleground-de-lanalyse-de-la-ville-creative-a-la-comprehension-des-ecosystemes-complexes-dinnovation-et-de-transformation-regionale</guid>
             <pubDate>Wed, 12 Aug 2026 16:46:36 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Patrick Cohendet</strong>, HEC Montréal</p>
@@ -33,6 +34,14 @@
     
     
     
+    <p>
+        Appel publié par Management international.
+        
+        <a href="https://www.managementinternational.ca/2026/04/16/le-concept-de-middleground-de-lanalyse-de-la-ville-creative-a-la-comprehension-des-ecosystemes-complexes-dinnovation-et-de-transformation-regionale/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/mi-le-concept-de-middleground-de-lanalyse-de-la-ville-creative-a-la-comprehension-des-ecosystemes-complexes-dinnovation-et-de-transformation-regionale/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
     
     <h2>Timeline</h2>
     <ul>
@@ -42,8 +51,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Management international (MI)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

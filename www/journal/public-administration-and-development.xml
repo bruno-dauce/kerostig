@@ -4,7 +4,7 @@
         <title>kerostig | Public Administration and Development</title>
         <link>https://kerostig.org/journal/public-administration-and-development/</link>
         <description>Derniers appels à publications pour Public Administration and Development.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,36 +13,24 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/public-administration-and-development/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
-        <item>
-            <title><![CDATA[The Downsides of AI and Global Inequities: Why Good Governance Matters]]></title>
-            <link>https://kerostig.org/call/wiley-the-downsides-of-ai-and-global-inequities-why-good-governance-matters/</link>
-            <guid>wiley-the-downsides-of-ai-and-global-inequities-why-good-governance-matters</guid>
-            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
-    
-    
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>January 1, 2027: Deadline for Submissions</li>
-        
-    </ul>
-    
-    
-</div>]]></content:encoded>
-            <author>Public Administration and Development (WILEY)</author>
-        </item>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Female leadership in public bureaucracies: Barriers, trajectories, and transformative Potential]]></title>
             <link>https://kerostig.org/call/wiley-female-leadership-in-public-bureaucracies-barriers-trajectories-and-transformative-potential/</link>
             <guid>wiley-female-leadership-in-public-bureaucracies-barriers-trajectories-and-transformative-potential</guid>
             <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Public Administration and Development.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/1099162x/homepage/call-for-papers/female-leadership-public-bureaucracies">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-female-leadership-in-public-bureaucracies-barriers-trajectories-and-transformative-potential/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -53,8 +41,38 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Public Administration and Development (WILEY)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Downsides of AI and Global Inequities: Why Good Governance Matters]]></title>
+            <link>https://kerostig.org/call/wiley-the-downsides-of-ai-and-global-inequities-why-good-governance-matters/</link>
+            <guid>wiley-the-downsides-of-ai-and-global-inequities-why-good-governance-matters</guid>
+            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Public Administration and Development.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/1099162x/homepage/call-for-papers/ai-global-inequities">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-the-downsides-of-ai-and-global-inequities-why-good-governance-matters/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 1, 2027: Deadline for Submissions</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

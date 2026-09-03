@@ -4,7 +4,7 @@
         <title>kerostig | Revue française de gestion</title>
         <link>https://kerostig.org/journal/revue-francaise-de-gestion/</link>
         <description>Derniers appels à publications pour Revue française de gestion.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,15 +13,24 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/revue-francaise-de-gestion/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Être ou ne pas être accompagné·e ? Les nouvelles frontières du soutien entrepreneurial]]></title>
             <link>https://kerostig.org/call/rfg-etre-ou-ne-pas-etre-accompagnee-les-nouvelles-frontieres-du-soutien-entrepreneurial/</link>
             <guid>rfg-etre-ou-ne-pas-etre-accompagnee-les-nouvelles-frontieres-du-soutien-entrepreneurial</guid>
             <pubDate>Wed, 12 Aug 2026 16:45:57 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Revue française de gestion.
+        
+        <a href="https://www.jle.com/library/contenu/RFG/etre-ou-ne-pas-etre-accompagne.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/rfg-etre-ou-ne-pas-etre-accompagnee-les-nouvelles-frontieres-du-soutien-entrepreneurial/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -32,8 +41,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Revue française de gestion (RFG)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

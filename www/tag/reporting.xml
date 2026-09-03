@@ -4,7 +4,7 @@
         <title>kerostig | Tag : reporting</title>
         <link>https://kerostig.org/tag/reporting/</link>
         <description>Derniers appels à publications avec le tag 'reporting'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,15 +13,24 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/reporting/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Carbon Accounting, Reporting and Sustainability]]></title>
             <link>https://kerostig.org/call/elsevier-carbon-accounting-reporting-and-sustainability/</link>
             <guid>elsevier-carbon-accounting-reporting-and-sustainability</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
     
+    
+    <p>
+        Appel publié par Journal of Accounting and Public Policy.
+        
+        <a href="https://www.sciencedirect.com/special-issue/331499/carbon-accounting-reporting-and-sustainability">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-carbon-accounting-reporting-and-sustainability/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     
     <h2>Timeline</h2>
@@ -32,15 +41,16 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of Accounting and Public Policy (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Accounting, Reporting, Assurance and Governance for Circular Economy: Rethinking for Sustainable Development]]></title>
             <link>https://kerostig.org/call/emerald-accounting-reporting-assurance-and-governance-for-circular-economy-rethinking-for-sustainable-development/</link>
             <guid>emerald-accounting-reporting-assurance-and-governance-for-circular-economy-rethinking-for-sustainable-development</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Samanthi Senaratne</strong>, University of Sri Jayewardenepura</p>
@@ -53,12 +63,16 @@
         
     
     
+    
     <p>The transition toward a circular economy has become a strategic priority for advancing sustainable development and addressing pressing environmental and social challenges. Unlike traditional linear economic models, characterized by the &#39;take-make-use-dispose&#39; approach, circular economy principles emphasize resource efficiency, closed-loop systems, waste elimination, and the regeneration of natural systems. These principles strongly support many United Nations Sustainable Development Goals (SDGs), including responsible consumption and production, climate action, and sustainable industry, innovation, and infrastructure.</p>
     
-    <p>Despite its growing global significance, the shift toward circularity poses substantial challenges for accounting, reporting, assurance, and governance practices in business. Conventional accounting systems, designed around linear economic flows, often struggle to capture the value generated through circular business models. Practices such as resource recovery, remanufacturing, product-as-a-service models, circular supply chains, and sharing platforms introduce complexities that traditional financial and management accounting frameworks are not fully equipped to measure or report. As a result, organizations face critical gaps in monitoring performance, verifying value creation, and ensuring accountability and transparency within a circular economy context. This highlights an urgent need for scholarly inquiry into how accounting, reporting, assurance, and governance systems can be reimagined to better support circular economy practices and policies.</p>
-    
-    <p>This Special Issue seeks to stimulate and advance interdisciplinary research at the intersection of accounting, reporting, assurance, and governance in the context of the circular economy. It aligns closely with the mission of the Sustainability Accounting, Management and Policy Journal (SAMPJ) to foster research that addresses urgent social and environmental challenges while generating actionable insights into policy and practice. By encouraging critical reflections, empirical investigations, and innovative frameworks, this Special Issue aspires to shape both academic discourse and practical approaches in the evolving fields of accounting, reporting, assurance, and governance for the circular economy.</p>
-    
+    <p>
+        Appel publié par Sustainability Accounting, Management and Policy Journal.
+        
+        <a href="https://www.emerald.com/sampj/calls-for-submissions/1779/Accounting-Reporting-Assurance-and-Governance-for?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-accounting-reporting-assurance-and-governance-for-circular-economy-rethinking-for-sustainable-development/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -100,8 +114,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Sustainability Accounting, Management and Policy Journal (EMERALD)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

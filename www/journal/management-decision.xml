@@ -4,7 +4,7 @@
         <title>kerostig | Management Decision</title>
         <link>https://kerostig.org/journal/management-decision/</link>
         <description>Derniers appels à publications pour Management Decision.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,21 +13,26 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/journal/management-decision/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[The Age of Institutional Pressures: Adaptive Role of Sustainability Management]]></title>
             <link>https://kerostig.org/call/emerald-the-age-of-institutional-pressures-adaptive-role-of-sustainability-management/</link>
             <guid>emerald-the-age-of-institutional-pressures-adaptive-role-of-sustainability-management</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
+    
     
     
     <p>In recent years, sustainability has moved from the periphery to the core of managerial agendas. Organizations now operate in a context where institutional pressures are reshaping the foundations of management practice. Examples such as the Corporate Sustainability Reporting Directive (CSRD) illustrate how sustainability demands extend beyond compliance and disclosure obligations, creating new challenges and opportunities for strategy, governance, and decision-making. These institutional pressures influence corporate context in many ways, such as by requiring transparency, accountability, sustainability-focused investments, corporate governance structures, data collection, reporting systems, and strategic decision-making to align with sustainability principles as addressed in relevant regulations. This regulatory transformation represents a critical contextual change in how sustainability is managed and measured within organizations.</p>
     
-    <p>Despite increasing scholarly attention to sustainability management and reporting, it remains unclear how institutional changes, especially those triggered by regulatory reforms (e.g., CSRD), affect sustainability management practices. The evolution in sustainability raises critical questions for both scholars and practitioners: How do sustainability-related pressures transform managerial decision-making and organizational behavior? What governance structures and control mechanisms foster alignment between sustainability commitments and corporate incentives? In what ways do digital technologies, ESG reporting systems, and data analytics influence the timeliness, quality, and accountability of sustainability-related decisions? How do organizations navigate the tensions between short-term performance imperatives and long-term sustainability goals? What cultural and institutional factors shape the pathways from compliance-driven sustainability to strategy-driven sustainability?</p>
-    
-    <p>This Special Issue invites theoretical, empirical, and methodological contributions that advance understanding of how sustainability management evolves in the face of growing institutional complexity. We welcome diverse perspectives – from strategy, organization theory, accounting and control, innovation, operations, and governance – to shed light on how sustainability becomes integrated into the fabric of managerial decision-making and organizational life. By reframing sustainability as a driver of strategic transformation rather than a compliance exercise, this Special Issue aims to broaden the conversation across disciplines, contexts, and levels of analysis.</p>
-    
+    <p>
+        Appel publié par Management Decision.
+        
+        <a href="https://www.emerald.com/md/calls-for-submissions/1748/The-Age-of-Institutional-Pressures-Adaptive-Role?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-the-age-of-institutional-pressures-adaptive-role-of-sustainability-management/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -57,8 +62,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Management Decision (EMERALD)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

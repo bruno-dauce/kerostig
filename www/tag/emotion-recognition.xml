@@ -4,7 +4,7 @@
         <title>kerostig | Tag : emotion recognition</title>
         <link>https://kerostig.org/tag/emotion-recognition/</link>
         <description>Derniers appels à publications avec le tag 'emotion recognition'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/emotion-recognition/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Artificial Intelligence, Affective Computing and Video Analytics for Intelligent Information Systems]]></title>
             <link>https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/</link>
             <guid>springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Andrea Generosi</strong>, Pegaso University</p>
@@ -36,14 +37,18 @@
         
     
     
+    
     <p>The past decade has seen explosive growth in video data (live and on-demand), driven by ubiquitous cameras, mobile devices, and online platforms. From city CCTV and body-cams to retail, sports, tele-health, and social live commerce, organizations now operate end-to-end video streaming pipelines at massive scale. In parallel, advances in deep learning, spanning video transformers, self-supervised pretraining, and multimodal large models, have transformed what intelligent systems can infer from continuous visual data, moving beyond static clips to long-horizon, low-latency understanding of events, activities, and interactions.</p>
     
     <p>Affective computing adds a new dimension by interpreting emotional and social signals in video and multimedia. For example, research shows that portraying positive emotions and trust cues in video significantly increases viewer engagement. By combining facial expression, gesture, and acoustic analysis, advanced AI can infer user sentiment and intent. These capabilities enrich social-media intelligence, recommender systems, and customer journey analysis.</p>
     
-    <p>This special issue seeks cutting-edge work at the intersection of video analytics and affective computing, harnessing emotion and intent cues in visual data to enhance information systems, and about AI for video streaming: methods, systems, and governance for real-time ingestion, analysis, and decisioning over continuous video flows.</p>
-    
-    <p>The goal is to bridge computer-vision analytics and affective models (extracting sentiment, engagement, trustworthiness, etc.) to design intelligent, human-centered systems that inform decision-making and adaptive services. The special issue is interested in methods that fuse visual, auditory, and textual data (multimodal analysis) to detect emotion, sentiment, engagement, gaze, gesture, posture, prosody and language in real time. Such techniques enable insights from live-streamed user interactions or &quot;experience mining&quot; in marketing and e-commerce. Deep-learning advances enable machines to recognize facial expressions, gestures, tone of voice and other cues to infer sentiment, engagement and intent. Recent work demonstrates that Convolutional Neural Networks combining video and audio input can predict viewers&#39; emotions with high accuracy, achieving around a 75% AUC on real-world video-ads data. Other research has integrated language and vision: one study built an &quot;Affective Mimicry Index&quot; from CEO interview videos, using computer vision together with large language models, and found that higher video-derived empathy scores correlate with better firm performance. These examples show how multimodal video analytics can extract rich affective signals, from basic expressions to higher-level trust and empathy cues. The aim is to bring these advances into intelligent information systems that are explainable, fair, and aligned with human values.</p>
-    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/hfgbffihjb">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -77,8 +82,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Information Systems Frontiers (SPRINGER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

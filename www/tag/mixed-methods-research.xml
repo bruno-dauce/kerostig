@@ -4,7 +4,7 @@
         <title>kerostig | Tag : mixed methods research</title>
         <link>https://kerostig.org/tag/mixed-methods-research/</link>
         <description>Derniers appels à publications avec le tag 'mixed methods research'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/mixed-methods-research/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Mixed Method Papers]]></title>
             <link>https://kerostig.org/call/aaa-mixed-method-papers-auditing-a-journal-of-practice-and-theory-ajpt/</link>
             <guid>aaa-mixed-method-papers-auditing-a-journal-of-practice-and-theory-ajpt</guid>
             <pubDate>Tue, 18 Aug 2026 08:15:27 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Matt Ege</strong>, Texas A&amp;M University</p>
@@ -30,14 +31,20 @@
         
     
     
+    
     <p>In recent years, many researchers have begun broadening their methodological expertise and/or collaborating with researchers with different methodological expertise. In response, AJPT is issuing a Call for Mixed Methods Papers. The purpose of the Call is to provide a forum for research that blends and draws inferences from different methodological approaches.</p>
     
     <p>Studies should use at least two different research methods to gain a more comprehensive answer to the research question(s) being investigated than can be achieved by a single method alone. Studies should give relatively equal weighting to a discussion of the research design choices for each method, and analyses from each method should make significant contributions to the paper. Papers that only present descriptive statistics from a survey or descriptive quotes from a few interviews that are then used to motivate archival analyses would not be considered mixed methods papers under this Call.</p>
     
     <p>Studies using method(s) incorporating human participants must obtain Institutional Review Board (IRB) approval.</p>
     
-    <p>Papers will be published in a Special Section as they are accepted, coordinating the timing of acceptances and space availability in individual journal issues.</p>
-    
+    <p>
+        Appel publié par Auditing A Journal of Practice &amp; Theory.
+        
+        <a href="https://aaahq.org/portals/0/documents/calls/2025/AJPT%20Mixed%20Method%20Papers.pdf">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/aaa-mixed-method-papers-auditing-a-journal-of-practice-and-theory-ajpt/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -61,8 +68,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Auditing A Journal of Practice &amp; Theory (AAA)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

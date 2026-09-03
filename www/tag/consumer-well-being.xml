@@ -4,7 +4,7 @@
         <title>kerostig | Tag : consumer well-being</title>
         <link>https://kerostig.org/tag/consumer-well-being/</link>
         <description>Derniers appels à publications avec le tag 'consumer well-being'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/consumer-well-being/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Centering the societal impacts of AI, social media, and emerging technologies in advertising]]></title>
             <link>https://kerostig.org/call/tandf-centering-the-societal-impacts-of-ai-social-media-and-emerging-technologies-in-advertising/</link>
             <guid>tandf-centering-the-societal-impacts-of-ai-social-media-and-emerging-technologies-in-advertising</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Linda Tuncay Zayer</strong>, Loyola University Chicago</p>
@@ -30,20 +31,18 @@
         
     
     
+    
     <p>With the rapid evolution of artificial intelligence, social media algorithms, robotic interfaces, and immersive technologies such as virtual and augmented reality (VR/AR), the boundaries between technology, persuasive influence, and human activities have blurred. In this evolving landscape, the individual and collective well-being of consumers, as well as society at large, is increasingly at risk and warrants critical scholarly attention.</p>
     
     <p>Consumer well-being is a multidimensional concept that encompasses individual and shared experiences, which can be manifested through cognitive, affective, and psychophysical states. Moreover, well-being is contextualized, with advertising holding the potential to enhance or diminish well-being at various micro, meso, and macro levels. At a broader level, societal well-being extends these concerns to collective equity, inclusion, and information integrity, highlighting how advertising technologies shape civic life, cultural representation, and public trust.</p>
     
-    <p>Emerging technologies such as generative AI have revolutionized how advertising messages are created, optimized, and delivered. While AI promises efficiency and personalization, research has also highlighted the risk of deception, diminishment of authenticity, and misrepresentation. At the same time, when human-AI collaboration is transparent and meaningful, it may enhance empowerment, creativity, and perceived control.</p>
-    
-    <p>Robotic and embodied agents, such as in-store robots or voice-enabled AI assistants, are emerging as persuasive venues. These technologies can increase comfort and engagement, such as through emotional support, but may also evoke discomfort or distrust if perceived as overly human-like or manipulative. Their deployment raises new ethical questions about safety, accessibility, labor replacement, and the equitable distribution of technological benefits.</p>
-    
-    <p>Examining the ethics and well-being impacts of social media platforms, drawing on advanced algorithmic targeting, is crucial due to the prevalence of deepfakes, misinformation, and extreme and misogynistic content. Although algorithms can enhance the relevance of information and increase efficiency and effectiveness, there could be negative results for consumer and societal well-being. Building digital literacy among vulnerable populations and diminishing the harms of social media must be a priority for future scholarship.</p>
-    
-    <p>Immersive and metaverse advertising further redefines persuasion through embodiment and sensory engagement and holds sociological and psychological implications as well as new challenges to consumer well-being and consciousness. The heightened presence might enhance the learning and persuasion outcomes but could also result in consumer vulnerability if the ad boundaries or data protection are unclear. Ethical design, consent, inclusion, and transparency are crucial to protecting autonomy in such sensor-rich environments.</p>
-    
-    <p>These transformations signal both opportunity and responsibility. This special issue seeks contributions that advance conceptual, empirical, and policy insights to ensure that innovation in advertising remains human-centered, ethical, and responsible and enhances well-being. All methodological approaches are welcome.</p>
-    
+    <p>
+        Appel publié par International Journal of Advertising.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/centering-the-societal-impacts-of-ai-social-media-and-emerging-technologies-in-advertising/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-centering-the-societal-impacts-of-ai-social-media-and-emerging-technologies-in-advertising/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -105,8 +104,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>International Journal of Advertising (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

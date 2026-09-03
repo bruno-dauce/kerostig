@@ -4,7 +4,7 @@
         <title>kerostig | Tag : smart production</title>
         <link>https://kerostig.org/tag/smart-production/</link>
         <description>Derniers appels à publications avec le tag 'smart production'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/smart-production/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[From Vision to Practice: Realizing Net-Zero Manufacturing Through Circular Economy and Smart Production]]></title>
             <link>https://kerostig.org/call/tandf-from-vision-to-practice-realizing-net-zero-manufacturing-through-circular-economy-and-smart-production/</link>
             <guid>tandf-from-vision-to-practice-realizing-net-zero-manufacturing-through-circular-economy-and-smart-production</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Yasser Dessouky</strong>, San Jose State University</p>
@@ -34,16 +35,16 @@
         
     
     
+    
     <p>The global transition to net zero manufacturing is becoming increasingly urgent as industries face growing pressure from regulatory requirements, sustainability goals, and economic challenges. The European Union&#39;s Net Zero Industry Act has set ambitious targets to accelerate the adoption of clean technologies, aiming to ensure that at least 40 percent of the EU&#39;s annual deployment needs for strategic net zero technologies are met domestically by 2030. These efforts align with broader global sustainability initiatives, particularly the United Nations Sustainable Development Goals, including Goal 9 (Industry, Innovation, and Infrastructure) and Goal 12 (Responsible Consumption and Production), both of which emphasize sustainable industrialization and efficient use of resources.</p>
     
-    <p>Turning these commitments into effective industrial strategies requires an integrated approach that combines circular economy principles with intelligent production systems. Net zero manufacturing builds on related concepts such as emission reduction and decarbonization but also extends beyond them. While emission reduction focuses on limiting greenhouse gas emissions through specific actions, and decarbonization involves shifting to low or zero-carbon technologies and energy sources, the net zero approach brings these elements together and also addresses remaining emissions through removal or offset strategies. It represents a more holistic and goal-driven framework that demands not only technological advancement but also a fundamental redesign of value chains, production systems, and lifecycle strategies to create a balanced and sustainable industrial future.</p>
-    
-    <p>Smart production and operations play a pivotal role in bridging the gap between strategic ambition and practical implementation of net-zero manufacturing. It encompasses a broad set of interconnected technologies and practices that enhance the responsiveness, efficiency, and sustainability of manufacturing systems. Drawing on the foundations of Industry 4.0, smart production integrates digitalization, automation, advanced analytics, and intelligent control to enable real-time monitoring, adaptive operations, and informed decision-making across the value chain. Rather than relying on a single solution, it leverages a synergistic mix of technological tools to improve transparency, traceability, and resource efficiency.</p>
-    
-    <p>Another significant enabling mechanism in achieving net-zero manufacturing is the decarbonization of industrial supply chains. Supply chains contribute substantially to total emissions, making it critical to implement strategies that reduce carbon footprints while maintaining operational efficiency and competitiveness. Integrating circular economy principles with Industry 4.0 technologies is another critical step toward sustainable manufacturing. Closed-loop systems have been shown to reduce material waste and improve resource utilization, offering a pathway to greater sustainability. Moreover, AI-driven predictive analytics plays a vital role in optimizing energy use, minimizing material waste, and dynamically adjusting production in response to environmental and operational constraints. Several studies also highlight the role of decision-making frameworks that account for carbon pricing policies and regulatory instruments in shaping carbon-efficient production strategies.</p>
-    
-    <p>This special issue seeks to present cutting-edge research and real-world applications that demonstrate how circular economy strategies and smart production technologies contribute to achieving net-zero manufacturing. We welcome contributions that explore emerging technologies, interdisciplinary approaches, and system-wide transformation frameworks that facilitate the transition to climate-neutral industrial operations. By fostering deeper insights into these enabling factors, this issue aims to provide actionable strategies for building a more sustainable and resilient manufacturing sector.</p>
-    
+    <p>
+        Appel publié par International Journal of Production Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/net-zero-manufacturing/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-from-vision-to-practice-realizing-net-zero-manufacturing-through-circular-economy-and-smart-production/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -85,8 +86,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>International Journal of Production Research (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

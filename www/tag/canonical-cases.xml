@@ -4,7 +4,7 @@
         <title>kerostig | Tag : canonical cases</title>
         <link>https://kerostig.org/tag/canonical-cases/</link>
         <description>Derniers appels à publications avec le tag 'canonical cases'.</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:58:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,13 +13,14 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/canonical-cases/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Cold Cases: Revisiting founding myths, iconic cases, and forgotten stories in management]]></title>
             <link>https://kerostig.org/call/ojsfr-cold-cases-revisiting-founding-myths-iconic-cases-and-forgotten-stories-in-management/</link>
             <guid>ojsfr-cold-cases-revisiting-founding-myths-iconic-cases-and-forgotten-stories-in-management</guid>
             <pubDate>Wed, 12 Aug 2026 16:43:57 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Anaïs Boutru</strong>, Université Paris-Dauphine, PSL</p>
@@ -32,18 +33,18 @@
         
     
     
+    
     <p>Management research has long been populated by celebrated cases that have achieved the status of founding myths. Cases such as IBM&#39;s blindness to personal computing, Xerox&#39;s strategic myopia toward the graphical user interface, Nokia&#39;s fall to smartphones, the Mann Gulch fire, and Elton Mayo&#39;s Hawthorne experiments have become ubiquitous in the field&#39;s collective memory. These &#39;cold cases&#39;, endlessly cited and taught, structure ways of thinking and provide a shared foundation of representations that are central to the construction of epistemic communities.</p>
     
     <p>Despite their pervasive influence, few studies scrutinize the empirical robustness, theoretical validity, or performativity of these emblematic cases. In management research, particularly in qualitative research, the risk of circularity is significant. Researchers working with inevitably heterogeneous and incomplete material may, even unconsciously, select data that confirm their theoretical priors, set aside disconfirming evidence, and ultimately favor demonstrations of the &#39;as if&#39; type.</p>
     
-    <p>Management research&#39;s pursuit of &#39;theoretical gaps&#39; has often privileged the production of new concepts at the expense of verification, reinterpretation, or falsification. This predilection leads to a stratification of knowledge where certain studies become canonical and generate &#39;halo effects&#39;, while others sink into oblivion not because they are invalid, but because they do not fit the dominant narratives of the discipline.</p>
-    
-    <p>The aim of this special issue is to &#39;reopen the files of management&#39; by challenging established truths, revisiting myths, excavating forgotten cases, and analyzing the processes of canonization and erasure that structure disciplinary memory. Famous cases such as Kodak, IBM, Enron, and Nokia must be regarded as epistemic artifacts, produced, reproduced, and sometimes distorted by scholarly communities, bearing narrative, moral, and institutional dimensions.</p>
-    
-    <p>M@n@gement has established itself as a privileged venue for critical, reflexive, and interdisciplinary approaches in management research. This special issue continues this tradition by inviting the community to undertake an archaeology of its own knowledge. Revisiting &#39;cold cases&#39; means interrogating how management research constructs its own history, its certainties, and its silences. It is a call to strengthen the cumulative and self-critical dimension of the field by restoring a rightful place to research grounded in the replication of experiments, the challenging of established findings, and recontextualization.</p>
-    
-    <p>At a time when researchers are constantly pressured to produce &#39;new&#39; knowledge, this special issue proposes to rehabilitate slow, reflexive research capable of revisiting taken-for-granted assumptions, reopening closed debates, and reinvigorating the controversies that are constitutive of knowledge production.</p>
-    
+    <p>
+        Appel publié par M@n@gement.
+        
+        <a href="https://management-aims.com/index.php/mgmt/libraryFiles/downloadPublic/48">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/ojsfr-cold-cases-revisiting-founding-myths-iconic-cases-and-forgotten-stories-in-management/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -83,8 +84,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>M@n@gement (OJSFR)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>
