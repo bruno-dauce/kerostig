@@ -1,0 +1,13 @@
+{# Provenance du nom de l'editeur affiche sous le titre d'une revue.
+
+   Ce champ vient de host_organization_name, releve chez OpenAlex par
+   enrichissement/enrich-publishers.mjs. Il s'affichait sans attribution,
+   alors que les trois autres blocs de la fiche revue nomment leur source
+   (rang, indicateurs, acces ouvert, politique de depot).
+
+   Meme forme que source-oa.html : une macro, une seule definition du
+   libelle, appelee par le gabarit. La source ne varie pas ici -- il n'existe
+   pas de repli sur une autre base -- mais le libelle reste a un seul endroit
+   le jour ou une seconde source s'ajoute (Crossref, Mir@bel). #}
+
+{% macro note() %}<span class="text-xs opacity-60">· Source : OpenAlex</span>{% endmacro %}

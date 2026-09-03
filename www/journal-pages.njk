@@ -23,6 +23,7 @@
 
 {% import "fnege.html" as fnege %}
 {% import "source-oa.html" as srcOa %}
+{% import "source-editeur.html" as srcEditeur %}
 
 {# Fil d'Ariane + la revue en Periodical de plein droit (name, issn, publisher).
    Graphe assemble par le filtre schemaRevue, cf eleventy.config.mjs. #}
@@ -44,7 +45,7 @@
 
 <header class="mb-8">
   <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mb-2">{{ revue.titre }}</h1>
-  {% if revue.editeur %}<p class="text-sm opacity-80">{{ revue.editeur }}</p>{% endif %}
+  {% if revue.editeur %}<p class="text-sm opacity-80">{{ revue.editeur }} {{ srcEditeur.note() }}</p>{% endif %}
 
   <div class="flex flex-wrap gap-2 mt-3 text-xs">
     {# Meme lien que les trois autres badges de rang du site (cf. call-card.html) :

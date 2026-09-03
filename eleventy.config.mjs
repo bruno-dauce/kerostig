@@ -539,7 +539,19 @@ export default async function (eleventyConfig) {
                 return va === vb ? 0 : va - vb;
             });
 
-        return { generated: new Date().toISOString(), count: appels.length, calls: appels };
+        // Le flux partait sans dire d'ou venaient ses donnees ni a quelles
+        // conditions les reutiliser : un consommateur machine n'a ni /about ni
+        // /terms sous les yeux, l'attribution doit voyager avec le fichier.
+        // Meme partage que le copyright du flux RSS (scrapers/feedgen.mjs) :
+        // les notices sont de kerostig, le texte des appels ne l'est pas.
+        // Millesime calcule et non fige, pour la meme raison que la-bas.
+        return {
+            generated: new Date().toISOString(),
+            source: base,
+            licence: `Notices kerostig © ${new Date().getFullYear()}. Le texte des appels appartient à leurs éditeurs.`,
+            count: appels.length,
+            calls: appels,
+        };
     });
 
     // Extrait borne du texte d'un appel, cf scrapers/extrait.mjs. Rend
