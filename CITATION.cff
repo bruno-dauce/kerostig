@@ -8,11 +8,12 @@ authors:
   - given-names: Bruno
     family-names: Daucé
     orcid: "https://orcid.org/0000-0001-8440-7294"
+    email: "bruno.dauce@univ-angers.fr"
 repository-code: "https://github.com/bruno-dauce/kerostig"
 url: "https://kerostig.org"
 license: MIT
 version: "1.0.0"
-date-released: "2026-01-01"
+date-released: "2026-09-01"
 abstract: >-
   Agrégateur des appels à publications (calls for papers) des revues
   de sciences de gestion et management classées FNEGE, enrichi
