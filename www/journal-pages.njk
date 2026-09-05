@@ -222,7 +222,7 @@
 </section>
 
 <p class="text-xs opacity-70 mt-6 border-t border-base-300 pt-4">
-  Rang et discipline : {{ fnege.texte('classement FNEGE 2025') }}. Indicateurs : OpenAlex. Accès ouvert : {{ srcOa.nom(revue) }}. Politique de dépôt : Open Policy Finder.
+  Rang et discipline : {{ fnege.texte('classement FNEGE 2025') }}. Indicateurs : OpenAlex. Accès ouvert : {{ srcOa.nom(revue) }}. Politique de dépôt : Open Policy Finder.{% if revue.mirabel and revue.mirabel.trouve %} Référencement : Mir@bel.{% endif %}
   Les données peuvent comporter des imprécisions, vérifiez toujours sur le site de la revue.
 </p>
 
