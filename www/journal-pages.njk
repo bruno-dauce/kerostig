@@ -92,7 +92,12 @@
       <div>
         <dt class="opacity-70">Accès</dt>
         <dd class="font-semibold">
-          {% if revue.acces_ouvert.est_oa %}
+          {# est_oa a null n'est pas « sur abonnement » : ni OpenAlex ni DOAJ ne
+             connaissent la revue. On l'annonce comme absent, sans attribution,
+             a l'image de la ligne « Depot en archive ouverte » ci-dessous. #}
+          {% if revue.acces_ouvert.est_oa == null %}
+            Non renseigné
+          {% elif revue.acces_ouvert.est_oa %}
             <span style="color:#2F7D5C">Accès ouvert</span>
             {% if revue.acces_ouvert.apc %}
               {% if revue.acces_ouvert.apc.gratuit %}

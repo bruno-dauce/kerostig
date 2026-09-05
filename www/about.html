@@ -19,7 +19,9 @@ description: "kerostig rassemble les appels à publications des revues de gestio
 <p class="mb-4"><strong>Alertes email.</strong> À venir.</p>
 
 <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Quelles revues kerostig couvre-t-il ?</h2>
-<p class="mb-4">Kerostig couvre actuellement 429 des 494 revues classées FNEGE 2025 aux rangs 1* à 3. La couverture s'étend progressivement.</p>
+{# Compteurs calcules au build, pas ecrits en dur : les deux chiffres precedents
+   dataient du perimetre rangs 1* a 3 et etaient faux depuis l'ajout du rang 4. #}
+<p class="mb-4">Kerostig couvre actuellement {{ journals | revuesCouvertesParScraper | length }} des {{ journals | length }} revues classées FNEGE 2025 aux rangs 1* à 4. La couverture s'étend progressivement.</p>
 <p class="mb-4">Les appels sont relevés chaque semaine depuis les sites des éditeurs suivants : Elsevier, Emerald, Taylor & Francis, Springer, INFORMS, Academy of Management, Cambridge University Press, ainsi que plusieurs éditeurs de revues francophones.</p>
 <p class="mb-4">SAGE et Wiley utilisent des protections anti-robots qui limitent la collecte. Leurs appels peuvent être incomplets ou apparaître avec du retard.</p>
 <p class="mb-4">Oxford University Press n'est pas encore couvert.</p>

@@ -38,7 +38,10 @@
       <div class="py-2 flex justify-between gap-3">
         <dt class="opacity-70">Accès</dt>
         <dd class="font-semibold text-right">
-          {% if revue.acces_ouvert.est_oa %}
+          {# Voir journal-pages.njk : null veut dire inconnu, pas abonnement. #}
+          {% if revue.acces_ouvert.est_oa == null %}
+            Non renseigné
+          {% elif revue.acces_ouvert.est_oa %}
             <span style="color:#2F7D5C">Accès ouvert</span>
             {% if revue.acces_ouvert.apc %}
               {% if revue.acces_ouvert.apc.gratuit %}

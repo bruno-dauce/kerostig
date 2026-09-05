@@ -1,8 +1,8 @@
 {# Provenance des informations d'acces ouvert.
 
    Le site attribuait ce bloc a DOAJ sans condition. C'etait faux pour la
-   quasi-totalite des revues : 8 des 492 seulement sont indexees dans DOAJ,
-   les 484 autres n'ont que le signal de repli d'OpenAlex (cf le champ
+   quasi-totalite des revues : 28 des 884 seulement sont indexees dans DOAJ,
+   les autres n'ont que le signal de repli d'OpenAlex (cf le champ
    acces_ouvert.source_oa produit par enrichissement/enrichir-revues.mjs).
 
    Chaque macro redetermine la source pour son propre compte, sans appeler
@@ -10,9 +10,16 @@
    posees au niveau du gabarit, et le faire ici eviterait de decouvrir le
    probleme au rendu. Le repli sur dans_doaj couvre un journals.json
    regenere par une version du script anterieure au champ : la valeur s'en
-   deduit exactement. #}
+   deduit exactement.
 
-{% macro nom(revue) %}{% set source = revue.acces_ouvert.source_oa or ('DOAJ' if revue.acces_ouvert.dans_doaj else 'OpenAlex') %}{{ source }}{% endmacro %}
+   est_oa a null veut dire « inconnu », pas « sur abonnement » : la revue est
+   absente d'OpenAlex comme de DOAJ, aucune source n'a rien dit. Le champ
+   source_oa vaut alors "OpenAlex" par defaut cote script, ce qui attribuerait
+   a OpenAlex une donnee qu'il ne porte pas. Les macros s'arretent donc avant.
+   Le cas ne se presentait pas tant que le perimetre s'arretait au rang 3 : les
+   492 revues d'alors etaient toutes dans OpenAlex. #}
+
+{% macro nom(revue) %}{% if revue.acces_ouvert.est_oa == null %}non renseigné{% else %}{% set source = revue.acces_ouvert.source_oa or ('DOAJ' if revue.acces_ouvert.dans_doaj else 'OpenAlex') %}{{ source }}{% endif %}{% endmacro %}
 
 {# Note visible, pour les surfaces qui detaillent l'acces ouvert (fiche revue,
    fiche appel). Rien quand la donnee vient de DOAJ : c'est la source attendue,
@@ -21,7 +28,7 @@
    dont la donnee vient de DOAJ laissait un saut de ligne orphelin en fin de
    bloc. Les deux surfaces qui appellent cette macro separent deja leurs
    lignes ainsi. #}
-{% macro note(revue) %}{% set source = revue.acces_ouvert.source_oa or ('DOAJ' if revue.acces_ouvert.dans_doaj else 'OpenAlex') %}{% if source == 'OpenAlex' %}<br><span class="font-normal text-xs opacity-60">(données OpenAlex, non vérifié par DOAJ)</span>{% endif %}{% endmacro %}
+{% macro note(revue) %}{% if revue.acces_ouvert.est_oa != null %}{% set source = revue.acces_ouvert.source_oa or ('DOAJ' if revue.acces_ouvert.dans_doaj else 'OpenAlex') %}{% if source == 'OpenAlex' %}<br><span class="font-normal text-xs opacity-60">(données OpenAlex, non vérifié par DOAJ)</span>{% endif %}{% endif %}{% endmacro %}
 
 {# Forme infobulle, pour le badge « acces ouvert » des cartes et des listes.
    Le badge ne porte qu'un mot et voisine ceux de rang et de discipline : y

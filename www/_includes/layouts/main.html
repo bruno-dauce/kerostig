@@ -12,14 +12,14 @@ layout: layouts/base.html
     // sans ce garde-fou, un ?rang=zz tape a la main traverserait match_rang et
     // masquerait tous les appels, sans qu'aucune puce ni aucune option du menu
     // n'apparaisse active pour expliquer la liste vide.
-    // Le rang se valide ici, sur la liste litterale des quatre rangs FNEGE, celle-la
+    // Le rang se valide ici, sur la liste litterale des cinq rangs FNEGE, celle-la
     // meme que parcourt le x-for des puces. Le code de discipline se valide dans
     // x-init : sa seule source est discList, et une propriete d'objet litteral ne peut
     // pas en lire une autre.
     discipline: new URLSearchParams(window.location.search).get('disc') || '',
     rang: (() => {
         const r = new URLSearchParams(window.location.search).get('rang') || '';
-        return ['1*', '1', '2', '3'].includes(r) ? r : '';
+        return ['1*', '1', '2', '3', '4'].includes(r) ? r : '';
     })(),
     echeance: '',
     oaOnly: false,
@@ -363,7 +363,7 @@ layout: layouts/base.html
                     <div class="mb-4">
                         <h3 class="text-xs opacity-70 mb-1.5">Rang FNEGE</h3>
                         <div class="flex flex-wrap gap-1">
-                            <template x-for="r in ['', '1*', '1', '2', '3']" :key="r">
+                            <template x-for="r in ['', '1*', '1', '2', '3', '4']" :key="r">
                                 <button @click="rang = r"
                                         class="btn btn-xs gap-1 font-normal"
                                         :class="rang === r ? 'btn-primary' : 'btn-ghost border-base-300 ' + (count_rang(r) === 0 ? 'opacity-40' : '')">

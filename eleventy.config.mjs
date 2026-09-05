@@ -128,7 +128,7 @@ export default async function (eleventyConfig) {
 
     // Ordre du classement, pas ordre alphabetique : "1*" precede "1", qui precede
     // "2". Un rang inconnu ferme la liste plutot que de la ouvrir.
-    const ORDRE_RANG_FNEGE = ["1*", "1", "2", "3"];
+    const ORDRE_RANG_FNEGE = ["1*", "1", "2", "3", "4"];
     const positionRang = (rang) => {
         const i = ORDRE_RANG_FNEGE.indexOf(rang);
         return i === -1 ? ORDRE_RANG_FNEGE.length : i;

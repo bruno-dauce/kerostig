@@ -37,7 +37,9 @@ tf_titles.json
 # pipeline (resserrement des dates, 2026-08-23). Meme raison que ci-dessus :
 # sans cette regle, le git add -A du workflow la committerait au premier run.
 scrape-audit.log
-_tmp
+_tmp/
+enrichissement/
+*.csv
 
 # Fichiers supplementaires a ignorer
 .gitignore-old
