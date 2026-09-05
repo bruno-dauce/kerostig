@@ -147,6 +147,13 @@
             Non renseignée
             <br><a href="https://openpolicyfinder.jisc.ac.uk/search" target="_blank" rel="noopener" class="font-normal text-xs underline opacity-80">Vérifier sur Open Policy Finder</a>
           {% endif %}
+          {# Hors du if/else : Mir@bel complete Open Policy Finder, il ne le
+             remplace pas. Le lien vaut aussi bien pour une revue dont OPF
+             connait la politique que pour une revue ou il n'a rien, et c'est
+             surtout sur les titres francophones qu'il rend service. #}
+          {% if revue.mirabel and revue.mirabel.trouve %}
+            <br><a href="{{ revue.mirabel.url }}" target="_blank" rel="noopener" class="font-normal text-xs underline opacity-80">Voir dans Mir@bel</a>
+          {% endif %}
         </dd>
       </div>
 
