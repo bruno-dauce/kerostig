@@ -38,7 +38,9 @@ tf_titles.json
 # sans cette regle, le git add -A du workflow la committerait au premier run.
 scrape-audit.log
 _tmp/
-enrichissement/
+enrichissement/*
+!enrichissement/*.py
+!enrichissement/*.mjs
 *.csv
 
 # Fichiers supplementaires a ignorer
