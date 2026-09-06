@@ -28,3 +28,29 @@ Le pISSN enregistré est en réalité l'eISSN de la revue : les deux colonnes so
 4. poser une redirection de l'ancien slug vers le nouveau.
 
 **À faire au passage.** Passer les 884 ISSN à la clé de contrôle donnerait la liste complète des cas de ce type. Un seul est connu à ce jour, mais le contrôle n'a porté que sur les revues effectivement interrogées par Mir@bel.
+
+## Rejouer marquer-francophones.mjs
+
+`enrichissement/marquer-francophones.mjs` dérive le champ `francophone` de
+`www/_data/journals.json` du marqueur `Fr` du classement FNEGE 2025.
+
+**Le classeur source n'est pas versionné.** Le script l'attend en
+`_tmp/Classement-FNEGE-2025.xlsx`, un répertoire ignoré par git. Sans ce
+fichier, le script s'arrête avec un message explicite plutôt que de produire un
+marquage vide. Le chemin se surcharge avec `--xlsx`.
+
+C'est voulu : cette passe est manuelle, comme celle de Mir@bel, et n'a pas à
+être rejouable en intégration continue. Le classeur contient le classement
+FNEGE intégral, que le projet ne republie pas.
+
+**Ordre de rejeu.** Trois passes s'appliquent successivement à
+`journals.json`, et les deux dernières sont additives — `enrichir-revues.mjs`
+reconstruit chaque entrée de zéro dans `construireRevue` et effacerait les
+champs ajoutés après lui. Si une régénération complète devient nécessaire :
+
+1. `node enrichissement/enrichir-revues.mjs --input <csv> --output www/_data/journals.json`
+2. `node enrichissement/enrichir-mirabel.mjs` — rétablit le bloc `mirabel`
+3. `node enrichissement/marquer-francophones.mjs` — rétablit le champ `francophone`
+
+Les deux dernières s'appuient sur le cache disque `.cache-enrichissement/` et
+ne réinterrogent pas le réseau inutilement.
