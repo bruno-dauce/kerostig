@@ -6,6 +6,7 @@
     "clean": "node -e \"require('fs').rmSync('public',{recursive:true,force:true})\"",
     "start": "concurrently -n eleventy,tailwind -c blue,magenta \"eleventy --serve\" \"tailwind -i www/public/css/tailwind.css -o public/public/css/style.css --watch\"",
     "build": "cross-env ELEVENTY_PRODUCTION=true eleventy && cross-env NODE_ENV=production tailwind -i www/public/css/tailwind.css -o public/public/css/style.css --minify",
+    "correspondance": "node ./scrapers/genererCorrespondance.mjs",
     "scrape": "node --env-file .env ./scrapers/scraper.mjs",
     "rss": "node ./scrapers/feedgen.mjs",
     "test": "node --env-file .env ./scrapers/scraper.mjs",

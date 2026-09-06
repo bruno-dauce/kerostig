@@ -78,43 +78,80 @@ function looksLikeIssn(value) {
     return /^\d{4}-\d{3}[\dXx]$/.test((value || '').trim());
 }
 
-// Quelques lignes source ont un titre contenant une virgule non echappee
-// (ex. "ACCOUNTING, ORGANIZATION AND SOCIETY") combine a un champ "slug"
-// carrement absent (pas juste vide) dans le fichier d'origine. Les deux
-// erreurs se compensent en nombre de colonnes mais decalent silencieusement
-// tout ce qui suit le titre -- issn_cle se retrouve a un index different
-// selon les lignes. editeur/openalex_id/nom_openalex, eux, sont toujours
-// fiables : ce sont les 3 derniers champs, ajoutes proprement (avec
-// echappement correct) par enrich-publishers.mjs, quoi qu'il arrive en
-// amont. On les lit donc depuis la fin de la ligne plutot que par l'index
-// fixe de l'entete, et on retrouve issn_cle en cherchant, en remontant
-// depuis juste avant editeur, la premiere valeur qui a la forme d'un ISSN
-// (issn_cle est toujours le plus proche de slug/editeur parmi pissn/eissn/
-// issn_cle, corrompu ou non).
-function extractRow(row) {
-    const nomOpenalex = row[row.length - 1] ?? '';
-    const editeur = row[row.length - 3] ?? '';
-    let issnCle = null;
-    for (let i = row.length - 4; i >= 0; i--) {
-        if (looksLikeIssn(row[i])) { issnCle = row[i].trim(); break; }
+// Historique, a ne pas reintroduire : ce fichier etait autrefois ecrit sans
+// echappement CSV. Un titre a virgule ("ACCOUNTING, ORGANIZATION AND SOCIETY")
+// combine a un champ "slug" absent decalait silencieusement tout ce qui suit
+// le titre, et issn_cle se retrouvait a un index different selon les lignes.
+// extractRow comptait donc les champs depuis la FIN de la ligne, les trois
+// derniers etant les seuls surs.
+//
+// Ce contournement est leve : le fichier est desormais genere par
+// scrapers/genererCorrespondance.mjs, en RFC 4180 propre. La lecture se fait
+// par nom de colonne. C'est aussi ce qui rend le fichier tolerant aux colonnes
+// supplementaires -- la lecture par la fin, elle, prenait sherpa_depot_hal
+// pour nom_openalex et vidait getJournalsByPublisher sans un mot.
+const COLONNES_REQUISES = ['titre', 'issn_cle', 'editeur', 'nom_openalex'];
+
+// Fonction pure, exportee pour test.
+export function indexerEntetes(entete) {
+    const index = new Map();
+    entete.forEach((nom, i) => index.set(nom.trim().toLowerCase(), i));
+    const manquantes = COLONNES_REQUISES.filter((c) => !index.has(c));
+    if (manquantes.length > 0) {
+        throw new Error(
+            `[issnMatcher] colonnes absentes de ${path.basename(CSV_PATH)} : ${manquantes.join(', ')}. ` +
+            `Entete lue : ${entete.join(', ')}. Regenerez le fichier avec node scrapers/genererCorrespondance.mjs.`
+        );
     }
-    return { titre: row[0] ?? '', nomOpenalex, editeur, issnCle };
+    return index;
+}
+
+// Fonction pure, exportee pour test.
+export function extractRow(row, entetes) {
+    const lire = (nom) => (row[entetes.get(nom)] ?? '').trim();
+    const issnCle = lire('issn_cle');
+    return {
+        titre: lire('titre'),
+        nomOpenalex: lire('nom_openalex'),
+        editeur: lire('editeur'),
+        issnCle: looksLikeIssn(issnCle) ? issnCle : null,
+    };
 }
 
 async function loadRows() {
     const text = await fs.readFile(CSV_PATH, 'utf-8');
-    return parseCsv(text).slice(1);
+    const rows = parseCsv(text);
+    if (rows.length === 0) throw new Error(`[issnMatcher] ${CSV_PATH} est vide.`);
+    return { entetes: indexerEntetes(rows[0]), lignes: rows.slice(1) };
 }
 
+// Deux passes, et non une boucle [nomOpenalex, titre] par ligne : le nom
+// OpenAlex l'emporte sur le titre FNEGE d'une AUTRE ligne, quel que soit
+// l'ordre du fichier.
+//
+// Le classement FNEGE liste parfois deux fois la meme revue, sous son nom
+// courant et sous son ancien nom, avec deux ISSN. Leurs titres FNEGE se
+// normalisent alors a l'identique -- « BUSINESS ETHICS, THE ENVIRONMENT AND
+// RESPONSIBILITY » et « ... & RESPONSIBILITY » donnent la meme cle -- et le
+// premier arrive gagnait. En une passe, l'ordre du fichier decidait donc a
+// quelle revue se rattachaient les appels : l'ancien CSV renvoyait la revue
+// courante, journals.json trie par rang puis titre renvoyait l'ancienne.
+// Les noms OpenAlex, eux, restent distincts (« Business Ethics the
+// Environment & Responsibility » contre « Business Ethics A European
+// Review ») : les indexer tous d'abord tranche le conflit sur la donnee
+// plutot que sur l'ordre des lignes.
 async function buildIssnIndex() {
     const index = new Map();
-    for (const row of await loadRows()) {
-        const { titre, nomOpenalex, issnCle } = extractRow(row);
-        if (!issnCle) continue;
-        for (const rawName of [nomOpenalex, titre]) {
-            const key = normalize(rawName);
+    const { entetes, lignes } = await loadRows();
+    const revues = lignes
+        .map((row) => extractRow(row, entetes))
+        .filter(({ issnCle }) => issnCle);
+
+    for (const champ of ['nomOpenalex', 'titre']) {
+        for (const revue of revues) {
+            const key = normalize(revue[champ]);
             if (key && !index.has(key)) {
-                index.set(key, issnCle);
+                index.set(key, revue.issnCle);
             }
         }
     }
@@ -147,9 +184,10 @@ export async function matchIssn(journalName) {
 // (ex. "Elsevier BV"), avec leur nom OpenAlex et leur ISSN cle.
 export async function getJournalsByPublisher(publisherName) {
     const journals = [];
-    for (const row of await loadRows()) {
-        const { nomOpenalex, editeur, issnCle } = extractRow(row);
-        if (editeur.trim() !== publisherName || !issnCle || !nomOpenalex) continue;
+    const { entetes, lignes } = await loadRows();
+    for (const row of lignes) {
+        const { nomOpenalex, editeur, issnCle } = extractRow(row, entetes);
+        if (editeur !== publisherName || !issnCle || !nomOpenalex) continue;
         journals.push({ nomOpenalex, issn: issnCle });
     }
     return journals;
