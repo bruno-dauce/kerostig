@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : manufacturing optimization</title>
+        <link>https://kerostig.org/tag/manufacturing-optimization/</link>
+        <description>Derniers appels à publications avec le tag 'manufacturing optimization'.</description>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : manufacturing optimization</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/manufacturing-optimization/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Innovations in Production Planning: Emerging Problems and Modern Solution Paradigms]]></title>
+            <link>https://kerostig.org/call/tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms/</link>
+            <guid>tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Mirco Peron</strong>, NEOMA Business School</p>
+        
+        <p><strong>Ibrahim Kucukkoc</strong>, Balikesir University</p>
+        
+        <p><strong>Daniel Alejandro Rossit</strong>, Universidad Nacional del Sur</p>
+        
+        <p><strong>Ilkyeong Moon</strong>, Seoul National University</p>
+        
+        <p><strong>Olga Battaïa</strong>, KEDGE Business School</p>
+        
+        <p><strong>Michael Pinedo</strong>, Stern School of Business, New York University</p>
+        
+    
+    
+    
+    <p>Production planning has long been central to operations management, with classical problems like scheduling and capacity planning addressed through mathematical programming and heuristics. However, emerging technologies—cyber-physical systems, IoT, digital twins, additive manufacturing, and AI—are fundamentally transforming both the problems planners face and the methods available to solve them.</p>
+    
+    <p>These technological shifts have introduced new planning challenges: digital twin-driven real-time optimization, hybrid conventional-additive manufacturing systems, reconfigurable production topologies, circular economy objectives, and resilience under global disruptions. Concurrently, solution approaches have evolved from traditional optimization to data-driven methods including reinforcement learning, hybrid metaheuristics, simulation-optimization frameworks, and multi-agent systems.</p>
+    
+    <p>
+        Appel publié par International Journal of Production Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ijpr-production-planning/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Evolution of classical planning problems (lot sizing, capacity planning, scheduling, assembly line balancing) in modern manufacturing contexts</li>
+        
+        <li>Planning in reconfigurable, modular, and hybrid manufacturing systems</li>
+        
+        <li>Integration of additive manufacturing and conventional processes in planning</li>
+        
+        <li>Additive manufacturing production scheduling</li>
+        
+        <li>Digital twin–enabled planning and real-time adaptive scheduling</li>
+        
+        <li>Production planning under sustainability, circular economy, emissions or carbon goals</li>
+        
+        <li>Resilience-oriented planning under uncertainty, disruptions, and volatility</li>
+        
+        <li>Advanced optimization methods: decomposition, robust/stochastic models, metaheuristics</li>
+        
+        <li>Machine learning, reinforcement learning, hybrid AI–optimization for planning</li>
+        
+        <li>Simulation–optimization frameworks and surrogate modeling</li>
+        
+        <li>Production Planning problems associated with customized environments (engineering-to-order, make-to-order, mass customization)</li>
+        
+        <li>Human–robot collaborative systems and operator-driven planning in the context of Industry 5.0</li>
+        
+        <li>Reinforcement learning / deep learning models applied to dynamic planning and scheduling, (e.g., graph neural network and RL architectures for scheduling problems)</li>
+        
+        <li>Optimization of production and inventory strategies in modern distribution systems (e.g., e-commerce, platform-based logistics)</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

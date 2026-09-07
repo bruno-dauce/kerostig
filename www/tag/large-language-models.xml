@@ -4,7 +4,7 @@
         <title>kerostig | Tag : large language models</title>
         <link>https://kerostig.org/tag/large-language-models/</link>
         <description>Derniers appels à publications avec le tag 'large language models'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,101 @@
             <link>https://kerostig.org/tag/large-language-models/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Knowledge-enhanced Large Language Models for Web Information Systems in Health and Education]]></title>
+            <link>https://kerostig.org/call/emerald-knowledge-enhanced-large-language-models-for-web-information-systems-in-health-and-education/</link>
+            <guid>emerald-knowledge-enhanced-large-language-models-for-web-information-systems-in-health-and-education</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Weimin Li</strong>, Shanghai University</p>
+        
+    
+    
+    
+    <p>Healthcare and education systems increasingly rely on complex, knowledge-intensive web platforms generating large-scale heterogeneous data. While Large Language Models excel at natural language understanding and human-computer interaction, directly applying general-purpose LLMs to these domains faces significant challenges including factual accuracy, lack of domain knowledge representation, and insufficient interpretability needed for sensitive applications.</p>
+    
+    <p>Knowledge-enhanced LLMs address these limitations by incorporating structured knowledge, Web semantics, and multimodal representations into language models. This approach improves reliability, explainability, and controllability while enabling better integration with existing system components such as data retrieval and information management modules. The special issue seeks high-quality research on theoretical models, methods, frameworks, and applications of knowledge-enhanced LLMs specifically designed for healthcare and education web services.</p>
+    
+    <p>
+        Appel publié par International Journal of Web Information Systems.
+        
+        <a href="https://www.emerald.com/ijwis/calls-for-submissions/1638/Knowledge-enhanced-Large-Language-Models-for-Web?searchresult=1">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-knowledge-enhanced-large-language-models-for-web-information-systems-in-health-and-education/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Knowledge-enhanced LLM architectures for Web information systems</li>
+        
+        <li>Knowledge graphs, ontologies, and Web semantics for LLM reasoning and generation</li>
+        
+        <li>Retrieval-augmented generation for Web-based health and education services</li>
+        
+        <li>Web knowledge mining, information extraction, and knowledge integration for LLM-based systems</li>
+        
+        <li>Multimodal knowledge representation and fusion for health and learning applications on the Web</li>
+        
+        <li>Trustworthy, explainable, and privacy-preserving LLMs for sensitive Web environments</li>
+        
+        <li>LLM-enhanced medical information retrieval, health question answering, and decision support</li>
+        
+        <li>LLM-enhanced personalized learning, intelligent tutoring, automated assessment, and learning feedback</li>
+        
+        <li>Agentic LLMs and AI agents for Web-based health and education service management</li>
+        
+        <li>Benchmarks, datasets, evaluation metrics, and real-world applications of knowledge-enhanced LLMs in Web information systems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>October 1, 2026: Closing date for abstract submissions</li>
+        
+        <li>November 1, 2026: Closing date for manuscript submissions</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[General Large Language Models (GLLMs) in Derivatives Markets]]></title>
+            <link>https://kerostig.org/call/wiley-general-large-language-models-gllms-in-derivatives-markets/</link>
+            <guid>wiley-general-large-language-models-gllms-in-derivatives-markets</guid>
+            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Journal of Futures Markets.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/10969934/call-for-papers/si-2025-001182">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-general-large-language-models-gllms-in-derivatives-markets/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>February 28, 2026: Deadline for Submissions</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Large Language Models (LLMs) for Tourism and Tourists]]></title>
             <link>https://kerostig.org/call/elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists/</link>
@@ -235,12 +330,14 @@
     
     
     
-    <p>This special issue aims to explore the specific financial modelling issues related to Artificial Intelligence (AI), in particular Generative AI and Large Language models (LLMs) modelling and applications in finance. It seeks to offer new insights in consideration of Generative AI/LLM innovation that brings changes to the traditional finance topics such as asset pricing, financial intermediation, financial markets &amp; investment, behavioural finance, banking, accounting, insurance, etc. The special issue particularly encourages work that advances the understanding of how Gen AI and LLM modelling brings forward ethical implications, benefits financial inclusion and/or enhances regulatory and policy changes.</p>
+    <p>This special issue examines how Generative AI and Large Language Models are transforming financial modelling and applications. It welcomes research that explores AI&#39;s impact on traditional finance areas including asset pricing, financial intermediation, markets and investment, behavioral finance, banking, accounting, and insurance. The editors are particularly interested in work addressing ethical implications, financial inclusion benefits, and regulatory changes driven by these technologies.</p>
+    
+    <p>The rapid adoption of tools like ChatGPT has sparked renewed interest in AI applications within finance. While Generative AI shows promise for enhancing data generation, analysis, decision-making, and risk management, research on its modelling and applications remains nascent. Simultaneously, significant challenges have emerged around data privacy, regulatory frameworks, innovation disruption, and the need to maintain human-centered approaches in financial systems.</p>
     
     <p>
         Appel publié par The European Journal of Finance.
         
-        <a href="https://think.taylorandfrancis.com/special_issues/generative-ai-llm-financial-risk-modeling/">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://think.taylorandfrancis.com/special_issues/generative-ai-llm-financial-risk-modeling/">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/tandf-generative-ai-and-llm-in-financial-modelling-and-applications/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -248,35 +345,37 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Asset pricing with Generative AI and LLMs</li>
+        <li>Asset pricing models using Generative AI and LLMs</li>
         
-        <li>Financial intermediation applications of Generative AI and LLMs</li>
+        <li>Financial intermediation applications of AI technologies</li>
         
-        <li>Financial markets and investment strategies using Generative AI and LLMs</li>
+        <li>Generative AI applications in financial markets and investment analysis</li>
         
-        <li>Behavioural finance and AI applications</li>
+        <li>Behavioral finance research incorporating LLM insights</li>
         
-        <li>Banking and AI applications</li>
+        <li>Banking sector applications of Generative AI</li>
         
-        <li>Accounting and AI applications</li>
+        <li>Accounting and auditing with LLM technologies</li>
         
-        <li>Insurance and AI applications</li>
+        <li>Insurance industry applications of AI and LLMs</li>
         
-        <li>Ethical implications of Generative AI and LLMs in finance</li>
+        <li>Ethical implications of Generative AI in finance</li>
         
-        <li>Financial inclusion through Generative AI and LLMs</li>
+        <li>Financial inclusion benefits through AI/LLM innovations</li>
         
-        <li>Regulatory and policy changes driven by AI in finance</li>
+        <li>Regulatory and policy changes driven by Generative AI</li>
         
-        <li>Data generation and analysis using Generative AI</li>
+        <li>Data generation and analysis using LLMs in finance</li>
         
         <li>Risk management with Generative AI and LLMs</li>
         
-        <li>FinBERT and finance-focused language models</li>
+        <li>Natural language processing applications in finance</li>
+        
+        <li>Information processing improvements through FinBERT and similar models</li>
         
         <li>Data privacy concerns in AI-driven finance</li>
         
-        <li>Cost reduction through AI predictions while managing innovation</li>
+        <li>Regulatory challenges of Generative AI in financial systems</li>
         
     </ul>
     
@@ -312,14 +411,14 @@
     
     
     
-    <p>Recent advances in Agentic Large Language Models (LLMs) are reshaping the discourse on how autonomous decision systems might operate in complex environments such as supply chains. The motivation for the special issue is to facilitate rigorous research in the transformative potential of agentic technology for Supply Chain Management (SCM). A key objective is to foster collaboration and unlock synergies by merging diverse perspectives from operations and supply chain management, AI, complexity science, and industrial engineering.</p>
+    <p>Recent advances in agentic Large Language Models have created new opportunities for autonomous decision-making in supply chains. This special issue seeks to advance rigorous research on how these AI agents can transform supply chain management by integrating perspectives from operations, AI, complexity science, and industrial engineering. While multi-agent systems have been studied for years, recent LLM breakthroughs now enable more flexible, scalable, and practical implementations that major corporations and technology providers are already exploring.</p>
     
-    <p>An AI agent is characterised as one that has a predefined or emergent goal and uses cognitive tools to achieve its objectives, such as situational awareness, data-driven learning and prediction, decision optimisation, negotiation, and problem-solving with human or other AI agents. Supply chain management scholars have long studied agent-based systems, especially multi-agent systems (MAS) since the 2000s. However, research has stalled as MAS were slow to develop, difficult to code, debug and scale, and were prone to severe coordination problems. Most supply chain agent research was not adopted in the industry.</p>
+    <p>The special issue welcomes diverse research methodologies including technical solutions, modeling, empirical studies, and experimental work with practical implications. Topics span from using agentic systems for optimization and forecasting to managing risks, designing interorganizational coordination systems, and addressing technical and governance challenges such as trustworthiness, safety, and performance evaluation.</p>
     
     <p>
         Appel publié par International Journal of Production Research.
         
-        <a href="https://think.taylorandfrancis.com/special_issues/agentic-supply-chain/">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://think.taylorandfrancis.com/special_issues/agentic-supply-chain/">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/tandf-the-agentic-supply-chain-entering-a-new-era-in-ai-in-supply-chain-management/">Fiche de l'appel sur kerostig</a>.
     </p>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : web information systems</title>
+        <link>https://kerostig.org/tag/web-information-systems/</link>
+        <description>Derniers appels à publications avec le tag 'web information systems'.</description>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : web information systems</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/web-information-systems/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Knowledge-enhanced Large Language Models for Web Information Systems in Health and Education]]></title>
+            <link>https://kerostig.org/call/emerald-knowledge-enhanced-large-language-models-for-web-information-systems-in-health-and-education/</link>
+            <guid>emerald-knowledge-enhanced-large-language-models-for-web-information-systems-in-health-and-education</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Weimin Li</strong>, Shanghai University</p>
+        
+    
+    
+    
+    <p>Healthcare and education systems increasingly rely on complex, knowledge-intensive web platforms generating large-scale heterogeneous data. While Large Language Models excel at natural language understanding and human-computer interaction, directly applying general-purpose LLMs to these domains faces significant challenges including factual accuracy, lack of domain knowledge representation, and insufficient interpretability needed for sensitive applications.</p>
+    
+    <p>Knowledge-enhanced LLMs address these limitations by incorporating structured knowledge, Web semantics, and multimodal representations into language models. This approach improves reliability, explainability, and controllability while enabling better integration with existing system components such as data retrieval and information management modules. The special issue seeks high-quality research on theoretical models, methods, frameworks, and applications of knowledge-enhanced LLMs specifically designed for healthcare and education web services.</p>
+    
+    <p>
+        Appel publié par International Journal of Web Information Systems.
+        
+        <a href="https://www.emerald.com/ijwis/calls-for-submissions/1638/Knowledge-enhanced-Large-Language-Models-for-Web?searchresult=1">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-knowledge-enhanced-large-language-models-for-web-information-systems-in-health-and-education/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Knowledge-enhanced LLM architectures for Web information systems</li>
+        
+        <li>Knowledge graphs, ontologies, and Web semantics for LLM reasoning and generation</li>
+        
+        <li>Retrieval-augmented generation for Web-based health and education services</li>
+        
+        <li>Web knowledge mining, information extraction, and knowledge integration for LLM-based systems</li>
+        
+        <li>Multimodal knowledge representation and fusion for health and learning applications on the Web</li>
+        
+        <li>Trustworthy, explainable, and privacy-preserving LLMs for sensitive Web environments</li>
+        
+        <li>LLM-enhanced medical information retrieval, health question answering, and decision support</li>
+        
+        <li>LLM-enhanced personalized learning, intelligent tutoring, automated assessment, and learning feedback</li>
+        
+        <li>Agentic LLMs and AI agents for Web-based health and education service management</li>
+        
+        <li>Benchmarks, datasets, evaluation metrics, and real-world applications of knowledge-enhanced LLMs in Web information systems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>October 1, 2026: Closing date for abstract submissions</li>
+        
+        <li>November 1, 2026: Closing date for manuscript submissions</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

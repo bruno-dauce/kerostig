@@ -4,7 +4,7 @@
         <title>kerostig | Tag : supply chain</title>
         <link>https://kerostig.org/tag/supply-chain/</link>
         <description>Derniers appels à publications avec le tag 'supply chain'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -79,6 +79,89 @@
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[AI-Driven Decision Making under Uncertain Environments: Theory, Methods, and Industrial Applications]]></title>
+            <link>https://kerostig.org/call/tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications/</link>
+            <guid>tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Hyun-Jung Kim</strong>, KAIST</p>
+        
+        <p><strong>Shu-Kai Fan</strong>, National Taipei University of Technology</p>
+        
+        <p><strong>Fugee Tsung</strong>, Hong Kong University of Science and Technology</p>
+        
+        <p><strong>Thomas Volling</strong>, Technical University Berlin</p>
+        
+        <p><strong>Jang Ho Kim</strong>, Korea University</p>
+        
+        <p><strong>Dong-Young Lim</strong>, Ulsan National Institute of Science and Technology</p>
+        
+    
+    
+    
+    <p>This special issue addresses decision-making in complex industrial systems facing dynamic uncertainty through artificial intelligence and optimization techniques. The issue seeks research combining AI methods such as reinforcement learning, generative AI, and digital twins with operations research and optimization approaches to manage manufacturing, supply chains, healthcare, and other sectors dealing with demand fluctuations and disruptions.</p>
+    
+    <p>The special issue welcomes both theoretical and practical contributions demonstrating how AI-driven methodologies can improve decision-making under uncertainty. Particular emphasis is placed on interdisciplinary research with clear industrial applicability and the adoption of open science practices including data and code sharing to enhance reproducibility.</p>
+    
+    <p>
+        Appel publié par International Journal of Production Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ai-driven-decision-making/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>AI-driven decision-making under uncertainty</li>
+        
+        <li>Production planning and scheduling in stochastic and dynamic environments</li>
+        
+        <li>Reinforcement learning for uncertain industrial systems</li>
+        
+        <li>Stochastic optimization and robust operational strategies</li>
+        
+        <li>AI-enabled statistical quality control and process improvement</li>
+        
+        <li>Hybrid AI and optimization approaches for uncertain environments</li>
+        
+        <li>Data-driven optimization and prescriptive analytics</li>
+        
+        <li>AI-enhanced supply chain and logistics management under disruptions</li>
+        
+        <li>Real-time and adaptive decision-making systems</li>
+        
+        <li>Simulation-based optimization and digital twins under uncertainty</li>
+        
+        <li>Agentic AI and autonomous industrial systems</li>
+        
+        <li>Explainable and trustworthy AI for operational decision-making</li>
+        
+        <li>AI for resilient and sustainable operations</li>
+        
+        <li>Industrial applications and case studies of AI-driven decision systems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>October 1, 2026: Submissions open</li>
+        
+        <li>January 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Implementing the Physical Internet: Supply Chain Intelligence, Business Innovation and Transition Pathways]]></title>
             <link>https://kerostig.org/call/tandf-implementing-the-physical-internet-supply-chain-intelligence-business-innovation-and-transition-pathways/</link>
             <guid>tandf-implementing-the-physical-internet-supply-chain-intelligence-business-innovation-and-transition-pathways</guid>
@@ -96,11 +179,9 @@
     
     
     
-    <p>The Physical Internet (PI) is moving from vision to reality. Beyond foundational concepts, organizations are now experimenting with pilots, demonstrators, living labs and large-scale initiatives that test how PI principles can be implemented, governed and scaled. This Special Issue seeks rigorous, practice-oriented and empirically grounded contributions that provide actionable insights for managers, policymakers and supply chain stakeholders. The Special Issue is associated with the IPIC 2026 International Conference (June 2026, France), but submissions are open to all authors.</p>
+    <p>The Physical Internet is transitioning from theoretical concept to practical implementation through pilots, demonstrators and large-scale initiatives. This special issue seeks rigorous, empirically grounded research that offers actionable insights for managers, policymakers and supply chain stakeholders on how PI principles can be implemented, governed and scaled.</p>
     
-    <p>We welcome papers focusing on the implementation and operationalization of the PI, including empirical studies (qualitative, quantitative or mixed methods), case studies, pilots, demonstrators and living labs, practice-based research and industry-driven innovations, and funded projects and cross-industry initiatives. Conceptual contributions are welcome only if strongly connected to real implementation challenges and managerial implications.</p>
-    
-    <p>All submissions are expected to adopt a sound scientific methodology while clearly demonstrating managerial relevance and actionable lessons learned.</p>
+    <p>The call welcomes empirical studies, case studies, pilots and industry-driven innovations that address real implementation challenges. While conceptual contributions are considered, they must be strongly connected to practical implications and managerial relevance. Research should demonstrate sound scientific methodology while providing clear lessons learned for practitioners.</p>
     
     <p>
         Appel publié par Supply Chain Forum: An International Journal.
@@ -128,14 +209,6 @@
         <li>Public policy, regulation and public–private collaboration</li>
         
         <li>Sustainability, circular logistics and environmental performance</li>
-        
-        <li>Empirical studies (qualitative, quantitative or mixed methods)</li>
-        
-        <li>Case studies, pilots, demonstrators and living labs</li>
-        
-        <li>Practice-based research and industry-driven innovations</li>
-        
-        <li>Funded projects and cross-industry initiatives</li>
         
     </ul>
     

@@ -4,7 +4,7 @@
         <title>kerostig | Tag : operations management</title>
         <link>https://kerostig.org/tag/operations-management/</link>
         <description>Derniers appels à publications avec le tag 'operations management'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -32,7 +32,9 @@
     
     
     
-    <p>Artificial intelligence is rapidly moving from a standalone analytics tool to an operational capability that reshapes how production systems are planned, controlled, and improved in real time. In production contexts, AI can be understood as digital technologies performing tasks and decisions traditionally associated with human intelligence. Recent operations and production research highlights that AI&#39;s operational value increasingly depends on data availability, interoperability, and sharing across heterogeneous systems, enabling AI to sense, learn, and act within production environments rather than merely supporting off-line analysis.</p>
+    <p>This special issue addresses how artificial intelligence is becoming embedded in production systems, moving beyond standalone analytics tools to operational capabilities that reshape real-time planning, control, and improvement. The key challenge lies in integrating point solutions—such as deep reinforcement learning for rescheduling or deep learning for predictive maintenance—into reliable end-to-end workflows validated across diverse industrial settings.</p>
+    
+    <p>The special issue emphasizes empirically grounded research examining the complete AI implementation pipeline in production contexts. This includes business–AI alignment (translating production decisions into AI use cases), data readiness (governance, preparation, and integration), and deployment of AI into operational workflows. The focus is on understanding the enabling and constraining factors—data availability, organisational readiness, and human–AI interaction—that determine whether AI solutions succeed in real production environments.</p>
     
     <p>
         Appel publié par Production Planning &amp; Control.
@@ -45,25 +47,25 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>AI-Augmented Production Planning and Control: predictive and prescriptive analytics for production planning, sequencing, scheduling, and dispatching; reinforcement learning and autonomous decision-making for factory operations; AI-supported capacity management and workflow optimisation</li>
+        <li>AI-Augmented Production Planning and Control</li>
         
-        <li>Business–AI Alignment and AI Readiness Pipeline for Production Systems: translation of production decisions into AI use cases and data requirements; data governance, quality monitoring, preparation, cleaning, and integration; measures of AI readiness</li>
+        <li>Business–AI Alignment and AI Readiness Pipeline for Production Systems</li>
         
-        <li>AI-enabled Quality and Process Control: machine learning and deep learning for defect detection and predictive quality control; sensor data and image analytics for automated inspection; AI-driven adaptive process regulation</li>
+        <li>AI-enabled Quality and Process Control</li>
         
-        <li>Agentic and Workflow-Oriented Deployment in Production: AI-enabled workflows connecting data preparation to production decisions; natural-language interfaces and AI-assisted decision support; production agents operationalising decision guidance</li>
+        <li>Agentic and Workflow-Oriented Deployment in Production</li>
         
-        <li>AI-Enabled Cyber–Physical Production Systems and Digital Twins: intelligent digital twins for real-time optimisation; hybrid physics–AI approaches; continuous learning and data synchronisation; edge AI for decentralised decision-making; human–robot collaboration</li>
+        <li>AI-Enabled Cyber–Physical Production Systems and Digital Twins</li>
         
-        <li>AI and Additive Manufacturing: generative design and topology optimisation; AI-enabled defect prediction and build-path optimisation; distributed AM network coordination; end-user leverage of AI for customisation</li>
+        <li>AI and Additive Manufacturing</li>
         
-        <li>AI and Blockchain for Production Systems: AI-enhanced traceability and secure data sharing; AI-blockchain integration for auditability and transparency; smart contracts in production automation</li>
+        <li>AI and Blockchain for Production Systems</li>
         
-        <li>Human–AI Interaction and Organisational Transformation: human-in-the-loop AI and operator–AI collaboration; organisational readiness and capability development; explainability, trust, transparency, and governance mechanisms</li>
+        <li>Human–AI Interaction and Organisational Transformation</li>
         
-        <li>Empirical Innovations in Data, Measurement, and Evaluation: field experiments, industry datasets, IoT streams, and digital twin logs; measurable improvements in productivity, quality, flexibility, and decision accuracy</li>
+        <li>Empirical Innovations in Data, Measurement, and Evaluation</li>
         
-        <li>Extended Production Contexts: AI in warehousing and fulfilment operations; AI-enabled autonomous mobile robots; real-time slotting and vision systems for object recognition</li>
+        <li>Extended Production Contexts (Production-Adjacent Physical Operations)</li>
         
     </ul>
     
@@ -80,6 +82,79 @@
         <li>December 1, 2027: Revised manuscripts due</li>
         
         <li>June 1, 2028: Final decisions</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Celebrating the 75th Birthday of Professor Kathryn E. Stecke]]></title>
+            <link>https://kerostig.org/call/tandf-celebrating-the-75th-birthday-of-professor-kathryn-e-stecke/</link>
+            <guid>tandf-celebrating-the-75th-birthday-of-professor-kathryn-e-stecke</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Bernie F. Quiroga</strong>, West Virginia University</p>
+        
+        <p><strong>Xuying Zhao</strong>, Texas A&amp;M University</p>
+        
+        <p><strong>Oleg Gusikhin</strong>, Ford Motor Company</p>
+        
+        <p><strong>Andrea Matta</strong>, Politecnico di Milano</p>
+        
+        <p><strong>Yong Yin</strong>, Doshisha Business School</p>
+        
+    
+    
+    
+    <p>This special issue honors Professor Kathryn E. Stecke&#39;s 75th birthday by showcasing research that builds upon her substantial contributions to production research, flexible manufacturing systems, supply chain management, and the interface between production and marketing. The issue seeks to curate cutting-edge articles in active and emerging areas that reflect her legacy and influence.</p>
+    
+    <p>The special issue welcomes high-quality submissions including empirical studies, analytical models, simulation-based research, case analyses, and conceptual papers. Manuscripts should demonstrate rigorous, impactful research with comprehensive literature reviews, novel decision-aid models, comparisons with state-of-the-art methods, discussions of real-life applications, and managerial insights.</p>
+    
+    <p>
+        Appel publié par International Journal of Production Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ijpr-kathryn-stecke/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-celebrating-the-75th-birthday-of-professor-kathryn-e-stecke/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Advances in flexible manufacturing systems (FMSs), including machine grouping, loading policies, and production ratio optimization for enhanced utilization</li>
+        
+        <li>Interfaces between production and marketing, including focal points such as advance selling strategies, pre-order mechanisms considering consumer behavior (e.g., loss aversion), lead time and price quotation modes, production-transportation integration in make-to-order systems, and competition/coordination in online marketplaces</li>
+        
+        <li>Reconfigurable production systems, such as Seru, for improving responsiveness and adaptability in volatile environments</li>
+        
+        <li>Supply chain resilience strategies, including adaptive ordering, disruption mitigation, and multi-echelon network design amid geopolitical and operational uncertainties</li>
+        
+        <li>Production planning and scheduling in capital-intensive systems with machine flexibility, focusing on hierarchical approaches and real-time control</li>
+        
+        <li>Integration of digital technologies (e.g., AI, digital twins, and data analytics) in manufacturing and supply chains to boost efficiency and cost control</li>
+        
+        <li>Empirical analyses of manufacturing efficiencies in sectors like semiconductors, automotive, and electronics, drawing on case studies of disruption responses</li>
+        
+        <li>Comparative studies of traditional vs. innovative production methods, such as Toyota Production System vs. Seru, with emphasis on performance metrics</li>
+        
+        <li>Managerial insights for decision-makers on implementing flexible routing, robot scheduling, and state-dependent sequencing in production environments</li>
+        
+        <li>Future perspectives on sustainable manufacturing, addressing global supply chain vulnerabilities and policy implications</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 1, 2026: Open for submissions</li>
+        
+        <li>October 31, 2026: Submission deadline</li>
         
     </ul>
     

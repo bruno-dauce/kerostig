@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : organizational informatics</title>
+        <link>https://kerostig.org/tag/organizational-informatics/</link>
+        <description>Derniers appels à publications avec le tag 'organizational informatics'.</description>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : organizational informatics</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/organizational-informatics/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Theorizing the Data-AI Nexus]]></title>
+            <link>https://kerostig.org/call/tandf-theorizing-the-data-ai-nexus/</link>
+            <guid>tandf-theorizing-the-data-ai-nexus</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Cristina Alaimo</strong>, ESSEC Business School</p>
+        
+        <p><strong>Lauren Waardenburg</strong>, ESSEC Business School</p>
+        
+        <p><strong>Jonny Holmström</strong>, Umeå University</p>
+        
+        <p><strong>Lior Zalmanson</strong>, Tel Aviv University</p>
+        
+        <p><strong>Reza M. Baygi</strong>, VU Amsterdam</p>
+        
+    
+    
+    
+    <p>The special issue addresses a fundamental shift in how artificial intelligence operates: contemporary AI systems are built upon, learn from, and generate data at scale, making data rather than rules the core substrate of computational intelligence. This requires Information Systems scholars to develop new conceptual frameworks for understanding the data-AI nexus as a socio-technical phenomenon, moving beyond purely technical perspectives.</p>
+    
+    <p>The call emphasizes that data are shaped by institutional practices and cognitive frames, while AI systems increasingly reshape the data they depend on, blurring boundaries between data and AI. Practitioners primarily engage with AI through data practices such as curation, labelling, and quality control, making it essential to understand the organizational routines and historical infrastructures that underpin these processes. Additionally, AI now generates synthetic data that feeds back into model training, raising institutional and epistemic challenges.</p>
+    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/theorizing-the-data-ai-nexus/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-theorizing-the-data-ai-nexus/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Data and AI co-constitution: exploring where intelligence emerges in computational architectures, datasets, or their entanglement; how data selection, curation, labelling, and historical accumulation shape AI capabilities</li>
+        
+        <li>AI as a data-maker: conceptualizing AI as an active producer of data; how classification systems, predictive models, and generative tools reorganize reality; AI agents autonomously generating and acting upon data; recursive dynamics of synthetic data training other AI systems</li>
+        
+        <li>Data decoupled from practice: consequences of data production detached from institutionalized knowledge practices; governance and decision-making based on decontextualized data; risks when data-driven systems lack ties to local knowledge and professional judgment</li>
+        
+        <li>The social life of the data-AI nexus: institutional, historical, and cognitive trajectories of data; how organizational memory, institutional logics, and collective sensemaking shape datasets and AI output interpretation; AI agents as new organizational actors</li>
+        
+        <li>Theoretical and methodological discussions: analyses of co-constitution, entanglement, flow, recursion, performativity, and classification; reconceptualizing constructs like intelligence, data quality, ground truth, and model performance as relational and emergent</li>
+        
+        <li>Cross-level insights: how assumptions about data and intelligence are embedded in AI systems; studies of data work (curation, labelling, cleaning), model development, synthetic data pipelines, generative AI integration</li>
+        
+        <li>Data, AI and grand challenges: addressing climate change, public health, inequality, and geopolitical tensions; responsible AI design with incomplete, biased, or synthetic data; governance and accountability in distinctive contexts (scientific, environmental, planetary)</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>May 28, 2026: Call launch at the Theorizing Data &amp; AI Conference</li>
+        
+        <li>January 15, 2027: Initial paper submission deadline</li>
+        
+        <li>April 15, 2027: First round authors notification</li>
+        
+        <li>July 31, 2027: Invited revisions deadline</li>
+        
+        <li>October 31, 2027: Second round authors notification</li>
+        
+        <li>January 15, 2028: Final revision deadline</li>
+        
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Aleksi Aaltonen</strong>, </li>
+        
+        <li><strong>Ida Asadi Someh</strong>, </li>
+        
+        <li><strong>Ioanna Constantiou</strong>, </li>
+        
+        <li><strong>Domenico di Prisco</strong>, </li>
+        
+        <li><strong>Mayur Joshi</strong>, </li>
+        
+        <li><strong>Ekaterina Jussupow</strong>, </li>
+        
+        <li><strong>Jannis Kallinikos</strong>, </li>
+        
+        <li><strong>Tomislav Karačić</strong>, </li>
+        
+        <li><strong>Stan Karanasios</strong>, </li>
+        
+        <li><strong>Alexander Kempton</strong>, </li>
+        
+        <li><strong>Angelos Kostis</strong>, </li>
+        
+        <li><strong>Harris Kyriakou</strong>, </li>
+        
+        <li><strong>Christine Legner</strong>, </li>
+        
+        <li><strong>Kalle Lyytinen</strong>, </li>
+        
+        <li><strong>Eric Monteiro</strong>, </li>
+        
+        <li><strong>Jeff Parsons</strong>, </li>
+        
+        <li><strong>Mike Power</strong>, </li>
+        
+        <li><strong>Jan Recker</strong>, </li>
+        
+        <li><strong>Paavo Ritala</strong>, </li>
+        
+        <li><strong>Marta Stelmaszak Rosa</strong>, </li>
+        
+        <li><strong>Lauri Wesssel</strong>, </li>
+        
+    </ul>
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

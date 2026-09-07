@@ -4,7 +4,7 @@
         <title>kerostig | Tag : temporality</title>
         <link>https://kerostig.org/tag/temporality/</link>
         <description>Derniers appels à publications avec le tag 'temporality'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -64,7 +64,9 @@
     
     
     
-    <p>Technology has fundamentally transformed the way we experience time and temporality, having permeated all aspects of our lives. It influences the way we work, how we live, and aspects of our identity, by shifting the way we communicate with others, accelerating information flows and enabling constant connectivity. As technologies evolve and digital infrastructures increasingly shape organisational and societal life, questions of temporality—speed, duration, sequencing, rhythm, and timing—become central to how we design, adopt, use, and study Information Systems (IS).</p>
+    <p>Digital technologies have fundamentally transformed how we experience time and temporality, influencing work, life, and identity through accelerated communication and constant connectivity. While temporality—encompassing speed, duration, sequencing, rhythm, and timing—is central to how information systems are designed and studied, IS research has largely treated it simplistically, focusing narrowly on clock-time, speed, and duration rather than engaging with its complex, multifaceted nature.</p>
+    
+    <p>The field lacks cumulative theoretical development on time despite growing recognition of its importance. IS researchers quickly highlight technology&#39;s impact on organisational speed but are slow to address temporal complexity comprehensively. Time remains theoretically elusive, often excluded or treated as a hidden dimension in contemporary IS studies. This special issue seeks to advance theoretical understanding of how temporal dynamics influence IS phenomena across multiple scales, from micro-temporal moment-to-moment interactions to macro-temporal institutional transformations.</p>
     
     <p>
         Appel publié par European Journal of Information Systems.
@@ -81,15 +83,13 @@
         
         <li>How people make sense of their digital pasts through data archives or online traces, and how they anticipate algorithmic or digitally mediated futures</li>
         
-        <li>How workflow systems, dashboards, collaboration platforms, enterprise analytics, or predictive tools recalibrate shared temporal expectations and influence coordination</li>
+        <li>How workflow systems, dashboards, collaboration platforms, enterprise analytics, and predictive tools recalibrate shared temporal expectations and influence coordination</li>
         
         <li>How temporal orientations embedded in tools or analytics shape decision processes, innovation, or strategic flexibility</li>
         
-        <li>Digital artefacts&#39; temporal properties—update cycles, data retention logics, algorithmic refresh rates, and security time horizons—and how they interact with user and organizational temporal practices</li>
+        <li>Temporal properties of digital artefacts including update cycles, data retention logics, algorithmic refresh rates, and security time horizons</li>
         
         <li>How data governance, privacy regimes, or AI systems handle conflicting temporal demands</li>
-        
-        <li>Temporal sensemaking challenges in artefact-centred networks, decentralised autonomous organisations (DAOs), or other digitally constituted arrangements</li>
         
         <li>Why certain digital transformations accelerate rapidly while others evolve slowly and unevenly</li>
         
@@ -97,19 +97,15 @@
         
         <li>How temporal imaginaries, time horizons, or long-term digital trajectories shape fields, industries, and societies</li>
         
-        <li>Theoretical and methodological discussions of time in IS research, including analyses of flows, sequences, rhythms, tempos, trajectories, paths, and path nets</li>
+        <li>Theoretical and methodological discussions of time in IS research, including flows, sequences, rhythms, tempos, trajectories, paths, and path nets</li>
         
-        <li>Explicit attention to how temporal constructs are represented, theorised, and operationalised in IS scholarship</li>
+        <li>How IS research can theorise and design for extended temporal horizons to address grand challenges like climate change, pandemics, inequality, and social movements</li>
         
-        <li>Linking IS, temporality, and grand challenges such as climate change, pandemics, inequality, and social movements</li>
+        <li>How temporal assumptions are embedded in IS through algorithmic schedules, design methods like agile and continuous development, and real-time vs. asynchronous communication</li>
         
-        <li>Cross-level insights into how temporal assumptions are embedded in IS and how they reshape experiences and outcomes</li>
+        <li>How such temporal assumptions align or collide with individual or cultural constructions of time</li>
         
-        <li>Algorithmic schedules, design and development methods such as design science, agile, continuous development and flow, and real-time vs. asynchronous communication</li>
-        
-        <li>How temporal assumptions align or collide with individual or cultural constructions of time</li>
-        
-        <li>Methodological papers and techniques for studying time and temporal complexity in IS research</li>
+        <li>Methodological approaches for studying temporal complexity, including computational techniques and trace data analysis</li>
         
     </ul>
     

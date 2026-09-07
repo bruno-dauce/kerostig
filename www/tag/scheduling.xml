@@ -4,7 +4,7 @@
         <title>kerostig | Tag : scheduling</title>
         <link>https://kerostig.org/tag/scheduling/</link>
         <description>Derniers appels à publications avec le tag 'scheduling'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:28 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -33,12 +33,14 @@
         
         <p><strong>Olga Battaïa</strong>, KEDGE Business School</p>
         
-        <p><strong>Michael Pinedo</strong>, New York University</p>
+        <p><strong>Michael Pinedo</strong>, Stern School of Business, New York University</p>
         
     
     
     
-    <p>Production planning has historically been a central pillar of industrial engineering and operations management. Since the mid-20th century, the field has developed a rich body of classical problems and models, such as lot sizing, job shop and flow shop scheduling, capacity planning, assembly line balancing, material requirements planning (MRP), and aggregate production planning. These models provided structured ways to allocate resources, balance supply and demand, and coordinate activities across production systems, often under deterministic assumptions and with objectives focused primarily on cost and efficiency. Linear programming, dynamic programming, and combinatorial optimization offered rigorous formulations and exact methods, while heuristics and metaheuristics emerged to address large-scale and computationally complex instances.</p>
+    <p>Production planning has long been central to operations management, with classical problems like scheduling and capacity planning addressed through mathematical programming and heuristics. However, emerging technologies—cyber-physical systems, IoT, digital twins, additive manufacturing, and AI—are fundamentally transforming both the problems planners face and the methods available to solve them.</p>
+    
+    <p>These technological shifts have introduced new planning challenges: digital twin-driven real-time optimization, hybrid conventional-additive manufacturing systems, reconfigurable production topologies, circular economy objectives, and resilience under global disruptions. Concurrently, solution approaches have evolved from traditional optimization to data-driven methods including reinforcement learning, hybrid metaheuristics, simulation-optimization frameworks, and multi-agent systems.</p>
     
     <p>
         Appel publié par International Journal of Production Research.

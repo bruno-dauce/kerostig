@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>kerostig | Tag : sdg implementation</title>
+        <title>kerostig | Tag :  sdg implementation</title>
         <link>https://kerostig.org/tag/sdg-implementation/</link>
-        <description>Derniers appels à publications avec le tag 'sdg implementation'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <description>Derniers appels à publications avec le tag ' sdg implementation'.</description>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
-            <title>kerostig | Tag : sdg implementation</title>
+            <title>kerostig | Tag :  sdg implementation</title>
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/sdg-implementation/</link>
         </image>
@@ -23,20 +23,12 @@
 <div>
     
         
-        <p><strong>Edmund Goh</strong>, Les Roches Abu Dhabi Hospitality Academy</p>
-        
-        <p><strong>Jun Wen</strong>, Macau University of Science and Technology</p>
-        
-        <p><strong>Siamak Seyfi</strong>, University of Oulu</p>
-        
-        <p><strong>C. Michael Hall</strong>, Massey University</p>
-        
-        <p><strong>Xin-Jean Lim</strong>, Sun Yat-Sen University</p>
+        <p><strong>Edmund Goh</strong>, Abu Dhabi Hospitality Academy, Les Roches</p>
         
     
     
     
-    <p>September 2025 marked the 10th anniversary of the United Nations Sustainable Development Goals (SDGs), a global blueprint for achieving peace, prosperity, and planetary wellbeing. Over the past decade, the hospitality and tourism industries and destination communities have emerged as powerful platforms for advancing and contesting these goals. Hospitality and tourism encompass all 17 SDGs, either directly or indirectly, from economic growth and decent work (SDG 8) to responsible consumption and production (SDG 12), climate action (SDG 13), and partnerships for the goals (SDG 17).</p>
+    <p>This special issue marks the tenth anniversary of the United Nations Sustainable Development Goals by examining how hospitality and tourism research has engaged with the SDG framework since 2015. Although tourism encompasses all 17 SDGs either directly or indirectly, a significant research gap remains: many studies investigate sustainability themes without explicitly aligning their work to specific SDG targets or omit the SDG lens entirely. This disconnect hampers the sector&#39;s ability to measure progress and influence policy.</p>
     
     <p>
         Appel publié par Current Issues in Tourism.
@@ -49,9 +41,9 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Reflecting on the First Decade (2015–2025) of SDG achievements and gaps</li>
+        <li>Reflecting on the First Decade (2015–2025) of SDG achievements and gaps in hospitality and tourism</li>
         
-        <li>Critical reviews of how research to date references SDGs and where conceptual or methodological gaps persist</li>
+        <li>Critical reviews of how research references SDGs and where conceptual or methodological gaps persist</li>
         
         <li>Evaluating tourism and hospitality&#39;s contribution to all 17 SDGs, including SDG 1 (No Poverty) and SDG 2 (Zero Hunger) through community tourism, local sourcing, and food redistribution</li>
         
@@ -81,17 +73,19 @@
         
         <li>Integrating ethical, cultural, and spiritual perspectives on sustainability to support SDG 4 (Education) and SDG 17 (Partnerships)</li>
         
-        <li>Conceptualising post-SDG paradigms such as regenerative tourism, circular hospitality, etc.</li>
+        <li>Reimagining the Future Beyond 2030: Regenerative, Technological, and Ethical Horizons</li>
+        
+        <li>Conceptualising post-SDG paradigms such as regenerative tourism, circular hospitality</li>
         
         <li>Examining the intersections of sustainability with digital transformation, big data, and tourism intelligence systems</li>
         
-        <li>Developing cross-SDG frameworks and metrics to capture interlinkages (e.g., SDG 8–12–13 synergies)</li>
+        <li>Developing cross-SDG frameworks and metrics to capture interlinkages</li>
         
         <li>Big data analytics, AI, and social media mining for SDG progress tracking and destination reporting</li>
         
         <li>Comparative cross-national or longitudinal studies assessing tourism&#39;s SDG impact</li>
         
-        <li>Theorising host–guest–destination dynamics as a holistic system contributing to SDG 1–17 interdependence</li>
+        <li>Theorising host–guest–destination dynamics as a holistic system contributing to SDG interdependence</li>
         
     </ul>
     
@@ -111,6 +105,19 @@
         
     </ul>
     
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Jun Wen</strong>, Macau University of Science and Technology</li>
+        
+        <li><strong>Siamak Seyfi</strong>, University of Oulu</li>
+        
+        <li><strong>C. Michael Hall</strong>, Massey University Albany</li>
+        
+        <li><strong>Xin-Jean Lim</strong>, Sun Yat-Sen University</li>
+        
+    </ul>
     
 </div>
 ]]></content:encoded>

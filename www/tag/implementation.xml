@@ -4,7 +4,7 @@
         <title>kerostig | Tag : implementation</title>
         <link>https://kerostig.org/tag/implementation/</link>
         <description>Derniers appels à publications avec le tag 'implementation'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,63 +15,57 @@
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Implementing the Physical Internet: Supply Chain Intelligence, Business Innovation and Transition Pathways]]></title>
-            <link>https://kerostig.org/call/tandf-implementing-the-physical-internet-supply-chain-intelligence-business-innovation-and-transition-pathways/</link>
-            <guid>tandf-implementing-the-physical-internet-supply-chain-intelligence-business-innovation-and-transition-pathways</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <title><![CDATA[Artificial Intelligence–Enabled Production Systems: Empirical Evidence, Implementation Pipelines, and Industrial Applications]]></title>
+            <link>https://kerostig.org/call/tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications/</link>
+            <guid>tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications</guid>
+            <pubDate>Wed, 26 Aug 2026 03:26:19 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
         
-        <p><strong>Louis Fauger</strong>, Amazon Research &amp; Georgia Institute of Technology</p>
+        <p><strong>Ruoqi Geng</strong>, Cardiff University</p>
         
-        <p><strong>Markus Gerschberger</strong>, University of Applied Sciences Upper Austria</p>
+        <p><strong>Di Li</strong>, Warwick University</p>
         
-        <p><strong>Matthieu Lauras</strong>, KEDGE Business School</p>
+        <p><strong>Yang Cheng</strong>, Aalborg University</p>
         
     
     
     
-    <p>The Physical Internet (PI) is moving from vision to reality. Beyond foundational concepts, organizations are now experimenting with pilots, demonstrators, living labs and large-scale initiatives that test how PI principles can be implemented, governed and scaled. This Special Issue seeks rigorous, practice-oriented and empirically grounded contributions that provide actionable insights for managers, policymakers and supply chain stakeholders. The Special Issue is associated with the IPIC 2026 International Conference (June 2026, France), but submissions are open to all authors.</p>
+    <p>This special issue addresses how artificial intelligence is becoming embedded in production systems, moving beyond standalone analytics tools to operational capabilities that reshape real-time planning, control, and improvement. The key challenge lies in integrating point solutions—such as deep reinforcement learning for rescheduling or deep learning for predictive maintenance—into reliable end-to-end workflows validated across diverse industrial settings.</p>
     
-    <p>We welcome papers focusing on the implementation and operationalization of the PI, including empirical studies (qualitative, quantitative or mixed methods), case studies, pilots, demonstrators and living labs, practice-based research and industry-driven innovations, and funded projects and cross-industry initiatives. Conceptual contributions are welcome only if strongly connected to real implementation challenges and managerial implications.</p>
-    
-    <p>All submissions are expected to adopt a sound scientific methodology while clearly demonstrating managerial relevance and actionable lessons learned.</p>
+    <p>The special issue emphasizes empirically grounded research examining the complete AI implementation pipeline in production contexts. This includes business–AI alignment (translating production decisions into AI use cases), data readiness (governance, preparation, and integration), and deployment of AI into operational workflows. The focus is on understanding the enabling and constraining factors—data availability, organisational readiness, and human–AI interaction—that determine whether AI solutions succeed in real production environments.</p>
     
     <p>
-        Appel publié par Supply Chain Forum: An International Journal.
+        Appel publié par Production Planning &amp; Control.
         
-        <a href="https://think.taylorandfrancis.com/special_issues/scf-physical-internet/">Voir l'appel sur le site de l'éditeur</a>.
+        <a href="https://think.taylorandfrancis.com/special_issues/ai-enabled-production-systems/">Lire l'appel complet sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/tandf-implementing-the-physical-internet-supply-chain-intelligence-business-innovation-and-transition-pathways/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>PI use cases, pilots and demonstrators</li>
+        <li>AI-Augmented Production Planning and Control</li>
         
-        <li>Business models and value creation in open and shared logistics</li>
+        <li>Business–AI Alignment and AI Readiness Pipeline for Production Systems</li>
         
-        <li>Governance and coordination mechanisms for interoperable networks</li>
+        <li>AI-enabled Quality and Process Control</li>
         
-        <li>Supply chain intelligence, data sharing and digital platforms</li>
+        <li>Agentic and Workflow-Oriented Deployment in Production</li>
         
-        <li>Transition pathways, roadmaps and maturity models</li>
+        <li>AI-Enabled Cyber–Physical Production Systems and Digital Twins</li>
         
-        <li>Managerial and organizational challenges of PI adoption</li>
+        <li>AI and Additive Manufacturing</li>
         
-        <li>Public policy, regulation and public–private collaboration</li>
+        <li>AI and Blockchain for Production Systems</li>
         
-        <li>Sustainability, circular logistics and environmental performance</li>
+        <li>Human–AI Interaction and Organisational Transformation</li>
         
-        <li>Empirical studies (qualitative, quantitative or mixed methods)</li>
+        <li>Empirical Innovations in Data, Measurement, and Evaluation</li>
         
-        <li>Case studies, pilots, demonstrators and living labs</li>
-        
-        <li>Practice-based research and industry-driven innovations</li>
-        
-        <li>Funded projects and cross-industry initiatives</li>
+        <li>Extended Production Contexts (Production-Adjacent Physical Operations)</li>
         
     </ul>
     
@@ -79,9 +73,15 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>June 1, 2026: Submission platform opened</li>
+        <li>September 1, 2026: Call for Papers released</li>
         
-        <li>November 30, 2026: Paper submission deadline</li>
+        <li>June 30, 2027: Manuscript submission deadline</li>
+        
+        <li>September 1, 2027: First-round decisions</li>
+        
+        <li>December 1, 2027: Revised manuscripts due</li>
+        
+        <li>June 1, 2028: Final decisions</li>
         
     </ul>
     

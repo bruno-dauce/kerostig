@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : automation</title>
+        <link>https://kerostig.org/tag/automation/</link>
+        <description>Derniers appels à publications avec le tag 'automation'.</description>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : automation</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/automation/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Bridging AI, Automation, and Sustainability in Software Testing]]></title>
+            <link>https://kerostig.org/call/elsevier-bridging-ai-automation-and-sustainability-in-software-testing-ast-2026-selected-papers/</link>
+            <guid>elsevier-bridging-ai-automation-and-sustainability-in-software-testing-ast-2026-selected-papers</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue in the Journal of Systems and Software focuses on the intersection of artificial intelligence, automation, and sustainability within software testing. The call seeks research that explores how AI and automated approaches can be leveraged to improve testing efficiency while addressing environmental and sustainability concerns in the software development lifecycle.</p>
+    
+    <p>
+        Appel publié par Journal of Systems and Software.
+        
+        <a href="https://www.sciencedirect.com/special-issue/333679/bridging-ai-automation-and-sustainability-in-software-testing-ast-2026-selected-papers">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-bridging-ai-automation-and-sustainability-in-software-testing-ast-2026-selected-papers/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>AI in software testing</li>
+        
+        <li>Automation in software testing</li>
+        
+        <li>Sustainability in software testing</li>
+        
+        <li>Integration of AI and automation for testing purposes</li>
+        
+        <li>Environmental impact of software testing practices</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>October 15, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

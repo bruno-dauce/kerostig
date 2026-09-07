@@ -4,7 +4,7 @@
         <title>kerostig | Tag : production planning</title>
         <link>https://kerostig.org/tag/production-planning/</link>
         <description>Derniers appels à publications avec le tag 'production planning'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,77 +14,6 @@
             <link>https://kerostig.org/tag/production-planning/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
-        <item>
-            <title><![CDATA[Celebrating the 75th Birthday of Professor Kathryn E. Stecke]]></title>
-            <link>https://kerostig.org/call/tandf-celebrating-the-75th-birthday-of-professor-kathryn-e-stecke/</link>
-            <guid>tandf-celebrating-the-75th-birthday-of-professor-kathryn-e-stecke</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Bernie F. Quiroga</strong>, West Virginia University</p>
-        
-        <p><strong>Xuying Zhao</strong>, Texas A&amp;M University</p>
-        
-        <p><strong>Oleg Gusikhin</strong>, Ford Motor Company</p>
-        
-        <p><strong>Andrea Matta</strong>, Politecnico di Milano</p>
-        
-        <p><strong>Yong Yin</strong>, Doshisha Business School</p>
-        
-    
-    
-    
-    <p>Professor Kathryn E. Stecke is an internationally renowned scholar whose pioneering work has profoundly shaped the fields of flexible manufacturing systems (FMSs), supply chain management, and production planning. Prof. Stecke has dedicated her career to advancing research on manufacturing efficiencies, supply chain resilience, and innovative production systems, while also bridging the academic discussion between operations and marketing. She is the founding Editor-in-Chief of the International Journal of Flexible Manufacturing Systems and Operations Management Education Review. Her contributions have earned her prestigious recognitions, including being elected a Fellow of the Institute for Operations Research and the Management Sciences (INFORMS) in 2009, of the Production and Operations Management Society (POMS) in 2017, of the Decision Sciences Institute (DSI) in 2019, and of the Asia-Pacific Artificial Intelligence Association (AAIA). She has also been the recipient of the 2013 WORMS Award for the advancement of women in operations research, and the 2008 George E. Kimball medal for recognition of her service to the profession of operations research and the management sciences…</p>
-    
-    <p>
-        Appel publié par International Journal of Production Research.
-        
-        <a href="https://think.taylorandfrancis.com/special_issues/ijpr-kathryn-stecke/">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/tandf-celebrating-the-75th-birthday-of-professor-kathryn-e-stecke/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Advances in flexible manufacturing systems (FMSs), including machine grouping, loading policies, and production ratio optimization for enhanced utilization</li>
-        
-        <li>Interfaces between production and marketing, including focal points such as advance selling strategies, pre-order mechanisms considering consumer behavior (e.g., loss aversion), lead time and price quotation modes, production-transportation integration in make-to-order systems, and competition/coordination in online marketplaces</li>
-        
-        <li>Reconfigurable production systems, such as Seru, for improving responsiveness and adaptability in volatile environments</li>
-        
-        <li>Supply chain resilience strategies, including adaptive ordering, disruption mitigation, and multi-echelon network design amid geopolitical and operational uncertainties</li>
-        
-        <li>Production planning and scheduling in capital-intensive systems with machine flexibility, focusing on hierarchical approaches and real-time control</li>
-        
-        <li>Integration of digital technologies (e.g., AI, digital twins, and data analytics) in manufacturing and supply chains to boost efficiency and cost control</li>
-        
-        <li>Empirical analyses of manufacturing efficiencies in sectors like semiconductors, automotive, and electronics, drawing on case studies of disruption responses</li>
-        
-        <li>Comparative studies of traditional vs. innovative production methods, such as Toyota Production System vs. Seru, with emphasis on performance metrics</li>
-        
-        <li>Managerial insights for decision-makers on implementing flexible routing, robot scheduling, and state-dependent sequencing in production environments</li>
-        
-        <li>Future perspectives on sustainable manufacturing, addressing global supply chain vulnerabilities and policy implications</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>March 1, 2026: Open for submissions</li>
-        
-        <li>October 31, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
         <item>
             <title><![CDATA[Innovations in Production Planning: Emerging Problems and Modern Solution Paradigms]]></title>
             <link>https://kerostig.org/call/tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms/</link>
@@ -104,12 +33,14 @@
         
         <p><strong>Olga Battaïa</strong>, KEDGE Business School</p>
         
-        <p><strong>Michael Pinedo</strong>, New York University</p>
+        <p><strong>Michael Pinedo</strong>, Stern School of Business, New York University</p>
         
     
     
     
-    <p>Production planning has historically been a central pillar of industrial engineering and operations management. Since the mid-20th century, the field has developed a rich body of classical problems and models, such as lot sizing, job shop and flow shop scheduling, capacity planning, assembly line balancing, material requirements planning (MRP), and aggregate production planning. These models provided structured ways to allocate resources, balance supply and demand, and coordinate activities across production systems, often under deterministic assumptions and with objectives focused primarily on cost and efficiency. Linear programming, dynamic programming, and combinatorial optimization offered rigorous formulations and exact methods, while heuristics and metaheuristics emerged to address large-scale and computationally complex instances.</p>
+    <p>Production planning has long been central to operations management, with classical problems like scheduling and capacity planning addressed through mathematical programming and heuristics. However, emerging technologies—cyber-physical systems, IoT, digital twins, additive manufacturing, and AI—are fundamentally transforming both the problems planners face and the methods available to solve them.</p>
+    
+    <p>These technological shifts have introduced new planning challenges: digital twin-driven real-time optimization, hybrid conventional-additive manufacturing systems, reconfigurable production topologies, circular economy objectives, and resilience under global disruptions. Concurrently, solution approaches have evolved from traditional optimization to data-driven methods including reinforcement learning, hybrid metaheuristics, simulation-optimization frameworks, and multi-agent systems.</p>
     
     <p>
         Appel publié par International Journal of Production Research.

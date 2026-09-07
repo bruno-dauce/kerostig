@@ -4,7 +4,7 @@
         <title>kerostig | Tag : game theory</title>
         <link>https://kerostig.org/tag/game-theory/</link>
         <description>Derniers appels à publications avec le tag 'game theory'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,81 @@
             <link>https://kerostig.org/tag/game-theory/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Recent Advances in Optimization and Decision Making under Uncertainty: Theory and Algorithms]]></title>
+            <link>https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/</link>
+            <guid>springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms</guid>
+            <pubDate>Thu, 03 Sep 2026 17:13:45 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Abdel Lisser</strong>, Paris-Saclay University</p>
+        
+        <p><strong>Jia Liu</strong>, Xi&#39;an Jiaotong University</p>
+        
+        <p><strong>Francesca Maggioni</strong>, University of Bergamo</p>
+        
+        <p><strong>S. K. Neogy</strong>, Indian Statistical Institute</p>
+        
+        <p><strong>Vikas Vikram Singh</strong>, Indian Institute of Technology Delhi</p>
+        
+    
+    
+    
+    <p>This special issue focuses on recent theoretical and methodological advances in optimization and decision-making under uncertainty. It seeks contributions that develop new optimization models, analytical results, computational methodologies, and convergence theories, drawing from areas such as stochastic and robust optimization, game theory, sequential decision-making, and learning-based approaches.</p>
+    
+    <p>The special issue is organized in conjunction with the International Conference on Operations Research (ICORSI 2026) at Indian Institute of Technology Delhi, India. However, it welcomes submissions from all researchers in these areas regardless of conference participation. All manuscripts undergo standard peer-review and accepted papers are published online before print.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/ehagifafae">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Mathematical programming</li>
+        
+        <li>Convex, nonconvex, and mixed-integer optimization</li>
+        
+        <li>Stochastic, robust, and distributionally robust optimization</li>
+        
+        <li>Chance-constrained optimization</li>
+        
+        <li>Variational inequalities and equilibrium problems</li>
+        
+        <li>Game theory and multi-agent optimization</li>
+        
+        <li>Markov decision processes and stochastic games</li>
+        
+        <li>Reinforcement learning for sequential decision making</li>
+        
+        <li>Online and data-driven optimization</li>
+        
+        <li>Optimization under risk measures</li>
+        
+        <li>Bayesian optimization</li>
+        
+        <li>Black-box optimization</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 31, 2028: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Game Theoretical Models and Applications SING21]]></title>
             <link>https://kerostig.org/call/springer-game-theoretical-models-and-applications-sing21/</link>

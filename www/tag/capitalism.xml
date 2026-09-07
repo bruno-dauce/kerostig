@@ -2,24 +2,25 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | Tag : capitalism</title>
-        <link>https://kerostig.org/tag/capitalism</link>
+        <link>https://kerostig.org/tag/capitalism/</link>
         <description>Derniers appels à publications avec le tag 'capitalism'.</description>
-        <lastBuildDate>Mon, 17 Aug 2026 10:00:18 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | Tag : capitalism</title>
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.org/tag/capitalism</link>
+            <link>https://kerostig.org/tag/capitalism/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[The Exotic States of Americana]]></title>
-            <link>https://kerostig.org/call/tandf-the-exotic-states-of-americana</link>
+            <link>https://kerostig.org/call/tandf-the-exotic-states-of-americana/</link>
             <guid>tandf-the-exotic-states-of-americana</guid>
             <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Alan Bradshaw</strong>, Royal Holloway, University of London</p>
@@ -28,26 +29,18 @@
         
     
     
+    
     <p>Marketing and consumer research is extremely American on every level. Though consumer culture varies across the globe, what lies beneath is irreducibly North American. Consumer culture as a phenomenon is an American invention and export. Americana was in unprecedented ascendancy from the 1950s and 1960s, particularly with the neoliberal state apparatus that emerged in the early 1980s Reagan years.</p>
     
     <p>Alternative historicizations exist, such as the Qing Dynasty, the Elizabethan court, and the Industrial Revolution. However, consumerism in its spirit, ideology, mode of subjectivation, seductiveness, excess, imperialism, and globalization is largely understood and experienced throughout the globe as fundamentally Yankee, as intrinsic to the US dollar itself.</p>
     
-    <p>Consumer culture, the consumer identity, and the consumer individual were inventions to organize American post-WW2 industrial capacity and serve as propaganda to counter communist appeal. The 1929 case of Torches of Freedom exemplifies how Edward Bernays convinced women that smoking represented emancipation and freedom through symbolic consumption. This moment reveals how sign value could be attached to arbitrary objects and how consumption could be decoupled from utility long before marketing theorists formalized this insight.</p>
-    
-    <p>Bernays was not merely an advertising man but a figure who advised American politics and government, spreading US global power and defining corporate public relations. Through Bernays, J. Walter Thompson, and Ernest Dichter, we see how advertising, PR, government planning, and foreign policy congealed into an image of American consumerism that spread globally as soft power. This proliferation of what Fidel Castro called Yankee Imperialism occurred across Western Europe, Japan, South Korea, and beyond.</p>
-    
-    <p>While consumer society was often imposed on cultures, the global spread of American capitalism and consumer culture reveals the ideological success of Americana. Over a century of critique has documented its capacity to increase inequality, environmental disaster, social atomization, personal infantilization, and cycles of anxiety and delirious mania. Yet consumption prevails. Capitalism is not exclusionary but radically inclusive, adapting to any local setting as long as constant movement is maintained. Unlike some accounts suggest, capitalism does not ignore or absorb critique but necessitates it as its very being.</p>
-    
-    <p>The spreading of consumer culture witnesses the spreading of American soft power—its system of material conditions, powers of subjectivation, and endless proliferation through creative destruction with its associated externalities. American consumer culture produces subjects and the social through a particular pose of universalism, evident in how those from even remote places assume themselves the center of attention. This unquestioned universalism has been taught to both American people and politics and learned equally across all fields of cultural production. Marketing as an academic field has grown from studying transactions to encompassing everything in the social realm, with America as its origin, alpha and omega.</p>
-    
-    <p>In marketing and consumer research, this dominance is evident in how all top journals are American and how publishing in American journals attracts premium salaries globally. Every other form of culture is evaluated as derivative, tolerated as exotic spectacles, or accepted to participate in the game of radical inclusion. While doubt about capitalism&#39;s capacity to meaningfully address rising misery, inequality, and environmental catastrophe grows, a simultaneous impossibility of being otherwise reigns supreme.</p>
-    
-    <p>The 1990s promised capitalism as the end of history, with Consumer Culture Theory finding liberatory promise within it. Yet this zeal has turned sour into cyclical misery, growing inequality, and endless austerity. What was culturally optimistic has become a promise that nothing will improve, that consumer citizens must embrace worsening conditions while continuing to enjoy with fervor. The promise has become an injunction of necessity, but any upside has been occluded. Deleuze and Guattari recognized this tendency half a century ago, noting how capitalism breaks down and schizophrenizes while simultaneously working better through the American way.</p>
-    
-    <p>This special issue denotes a sombre feeling of rejection, modeled from the moment when someone inebriated pushes away a new shot—certainly not as a permanent measure. Contributions should reverse the exotic gaze and denormalize the universal, analyzing American consumer culture as fantastic and full of its special delirium. The issue seeks texts that analyze this glorious plastic monster painted across the entire world. However, the special issue is not intended for moralistic texts nor repetitions of globalization analyses. Instead, it seeks the affective, the libidinal, and the phantasmatic dimensions of American consumer culture.</p>
-    
-    <p>With the second rise of the Trump Empire and the global calamity it unrolls, there is a new sense of inevitability about America tied to its constant turbulence, violence, and potentially impending but likely lingering downfall. Perhaps recognizing America as itself exotic means recognizing that its ideological grip on the globe is weakening quickly. What these developments will make of America as a cultural hegemony remains to be seen.</p>
-    
+    <p>
+        Appel publié par Consumption Markets &amp; Culture.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/the-exotic-states-of-americana/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-the-exotic-states-of-americana/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -79,8 +72,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Consumption Markets &amp; Culture (TANDF)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

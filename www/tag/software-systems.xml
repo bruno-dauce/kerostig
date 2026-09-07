@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : software systems</title>
+        <link>https://kerostig.org/tag/software-systems/</link>
+        <description>Derniers appels à publications avec le tag 'software systems'.</description>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : software systems</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/software-systems/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[AI Techniques for Performance, Reliability, and Sustainability of Modern Software Systems]]></title>
+            <link>https://kerostig.org/call/elsevier-ai-techniques-for-performance-reliability-and-sustainability-of-modern-software-systems/</link>
+            <guid>elsevier-ai-techniques-for-performance-reliability-and-sustainability-of-modern-software-systems</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue invites research on the application of artificial intelligence methods to improve key aspects of modern software systems. The focus encompasses using AI to enhance system performance, increase reliability, and promote sustainability in software engineering and operations.</p>
+    
+    <p>
+        Appel publié par Journal of Systems and Software.
+        
+        <a href="https://www.sciencedirect.com/special-issue/329342/special-issue-on-ai-techniques-for-performance-reliability-and-sustainability-of-modern-software-systems">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-ai-techniques-for-performance-reliability-and-sustainability-of-modern-software-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

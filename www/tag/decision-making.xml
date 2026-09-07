@@ -1,215 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>kerostig | Tag : decision-making</title>
+        <title>kerostig | Tag : decision making</title>
         <link>https://kerostig.org/tag/decision-making/</link>
-        <description>Derniers appels à publications avec le tag 'decision-making'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <description>Derniers appels à publications avec le tag 'decision making'.</description>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
-            <title>kerostig | Tag : decision-making</title>
+            <title>kerostig | Tag : decision making</title>
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/decision-making/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Influence of Agentic AI in Consumer Behaviour: Future Landscape]]></title>
-            <link>https://kerostig.org/call/wiley-see-here-6/</link>
-            <guid>wiley-see-here-6</guid>
-            <pubDate>Mon, 17 Aug 2026 15:52:40 GMT</pubDate>
+            <title><![CDATA[Recent Advances in Optimization and Decision Making under Uncertainty: Theory and Algorithms]]></title>
+            <link>https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/</link>
+            <guid>springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms</guid>
+            <pubDate>Thu, 03 Sep 2026 17:13:45 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
         
-        <p><strong>Rahul Sindhwani</strong>, Indian Institute of Management – Sambalpur</p>
+        <p><strong>Abdel Lisser</strong>, Paris-Saclay University</p>
         
-        <p><strong>Varsha Jain</strong>, ESSCA School of Management</p>
+        <p><strong>Jia Liu</strong>, Xi&#39;an Jiaotong University</p>
         
-        <p><strong>Justin Zhang</strong>, University of North Florida</p>
+        <p><strong>Francesca Maggioni</strong>, University of Bergamo</p>
         
-        <p><strong>Sudhir Rana</strong>, Liwa University</p>
+        <p><strong>S. K. Neogy</strong>, Indian Statistical Institute</p>
         
-    
-    
-    
-    <p>This Special Issue aims to advance both theory and practice regarding consumer behavior in the age of agentic AI. Theoretically, it seeks to deepen understanding of how autonomous AI agents influence fundamental consumer processes such as decision-making, trust, perceived autonomy, and engagement.</p>
-    
-    <p>
-        Appel publié par Journal of Consumer Behaviour.
-        
-        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/JCB-CFP-AgenticAI-2025-UPDATED-1776416688423.pdf">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/wiley-see-here-6/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Consumer decision-making with autonomous AI agents</li>
-        
-        <li>Trust in agentic AI systems</li>
-        
-        <li>Perceived autonomy in AI-influenced consumer processes</li>
-        
-        <li>Consumer engagement with autonomous AI agents</li>
-        
-        <li>Theoretical frameworks for agentic AI and consumer behavior</li>
-        
-        <li>Practical applications of agentic AI in consumer markets</li>
-        
-        <li>Autonomous agents and fundamental consumer processes</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>July 1, 2027: Submission window opens</li>
-        
-        <li>December 31, 2027: Submission window closes</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Behavioural Environmental Economics & Policy (BEEP): trends and reflections]]></title>
-            <link>https://kerostig.org/call/springer-by-invitation-only-behavioural-environmental-economics-and-policy-beep-trends-and-reflections/</link>
-            <guid>springer-by-invitation-only-behavioural-environmental-economics-and-policy-beep-trends-and-reflections</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Sanchayan Banerjee</strong>, King&#39;s College London</p>
-        
-        <p><strong>Lory Barile</strong>, University of Warwick</p>
+        <p><strong>Vikas Vikram Singh</strong>, Indian Institute of Technology Delhi</p>
         
     
     
     
-    <p>This special issue focuses on Behavioural Environmental Economics &amp; Policy (BEEP), which examines how departures from rational choice assumptions—such as bounded rationality and bounded willpower—affect environmental decision-making and policy effectiveness. The issue seeks to consolidate evidence on how behavioural insights can improve the design and evaluation of environmental policies to address urgent challenges including climate change, biodiversity loss, and pollution.</p>
+    <p>This special issue focuses on recent theoretical and methodological advances in optimization and decision-making under uncertainty. It seeks contributions that develop new optimization models, analytical results, computational methodologies, and convergence theories, drawing from areas such as stochastic and robust optimization, game theory, sequential decision-making, and learning-based approaches.</p>
     
-    <p>The special issue welcomes conceptual, empirical, and policy-oriented contributions applying behavioural insights to environmental problems. Submissions may employ various methodologies including experiments, quasi-experimental designs, and literature reviews. The issue particularly values work that identifies both market and behavioural failures, designs and tests policies combining traditional instruments with behavioural tools, and evaluates their effectiveness and welfare impacts.</p>
-    
-    <p>This is an invitation-only special issue in Environmental and Resource Economics.</p>
-    
-    <p>
-        Appel publié par Environmental and Resource Economics.
-        
-        <a href="https://link.springer.com/collections/hidfebcjgc">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/springer-by-invitation-only-behavioural-environmental-economics-and-policy-beep-trends-and-reflections/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Interactions between market failures and behavioural failures in environmental settings</li>
-        
-        <li>Policy design that combines prices/standards with behavioural tools (defaults, salience/framing, simplification, commitment)</li>
-        
-        <li>Welfare analysis (including psychological costs), ethics, and paternalism in environmental policy</li>
-        
-        <li>Empirical identification of behavioural mechanisms; field/lab/quasi-experimental evidence</li>
-        
-        <li>Heterogeneity, equity, and distributional consequences of behavioural environmental policies</li>
-        
-        <li>Replication, meta-analysis, and open-science practices in this domain</li>
-        
-        <li>Choice architecture and environmental outcomes</li>
-        
-        <li>Interactions between behavioural instruments and prices/regulation</li>
-        
-        <li>Climate cognition and communication</li>
-        
-        <li>Evaluation and methods</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>November 30, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Multiple Objective Programming and Goal Programming: Artificial Intelligence for Decision Making in Economic and Social Sciences]]></title>
-            <link>https://kerostig.org/call/springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences/</link>
-            <guid>springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Matteo Rocca</strong>, University of Insubria</p>
-        
-        <p><strong>Davide La Torre</strong>, Skema Business School</p>
-        
-        <p><strong>Constantin Zopounidis</strong>, Technical University of Crete</p>
-        
-    
-    
-    
-    <p>This special issue brings together research at the intersection of multiple objective optimization, goal programming, and artificial intelligence to address complex decision-making problems in economic and social sciences. By combining structured methods for evaluating conflicting objectives with machine learning approaches that process large datasets, the issue seeks to advance both theoretical understanding and practical applications of these integrated methodologies.</p>
-    
-    <p>The special issue welcomes original research papers, including substantially extended versions of presentations from the 16th International Conference on Multiple Objective Programming and Goal Programming (MOPGP&#39;25, held July 1-3, 2025, in Varese, Italy), as well as papers not presented at the conference. Contributions should address theory or applications of multiple objective programming, goal programming, or artificial intelligence with relevance to economic or social decision-making contexts.</p>
+    <p>The special issue is organized in conjunction with the International Conference on Operations Research (ICORSI 2026) at Indian Institute of Technology Delhi, India. However, it welcomes submissions from all researchers in these areas regardless of conference participation. All manuscripts undergo standard peer-review and accepted papers are published online before print.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
         
-        <a href="https://link.springer.com/collections/bffeaajcfi">Voir l'appel sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/ehagifafae">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Advancements in Multiple Objective Programming Techniques</li>
+        <li>Mathematical programming</li>
         
-        <li>Goal Programming Techniques and Formulations</li>
+        <li>Convex, nonconvex, and mixed-integer optimization</li>
         
-        <li>Goal Programming Approaches in Public Policy</li>
+        <li>Stochastic, robust, and distributionally robust optimization</li>
         
-        <li>AI-Enhanced Decision Support Systems for Resource Allocation</li>
+        <li>Chance-constrained optimization</li>
         
-        <li>Data-Driven Methods in Economic and Social Decision-Making</li>
+        <li>Variational inequalities and equilibrium problems</li>
         
-        <li>Integrating Machine Learning with MOP</li>
+        <li>Game theory and multi-agent optimization</li>
         
-        <li>Multicriteria Deep Learning</li>
+        <li>Markov decision processes and stochastic games</li>
         
-        <li>Applications of MOP and GP in Sustainable Development</li>
+        <li>Reinforcement learning for sequential decision making</li>
         
-        <li>Real-Time Decision-Making Frameworks Using AI</li>
+        <li>Online and data-driven optimization</li>
         
-        <li>Comparative Studies of MOP and GP in Various Contexts</li>
+        <li>Optimization under risk measures</li>
         
-        <li>Multi-Criteria Decision Analysis in Sustainable Economics</li>
+        <li>Bayesian optimization</li>
         
-        <li>Multiple Criteria Decision Making in Environmental Economics</li>
-        
-        <li>Optimization Models for Social Welfare</li>
-        
-        <li>Behavioural Insights in Multi-Objective Decision-Making</li>
-        
-        <li>Metaheuristics and Computational Methods in MOP</li>
-        
-        <li>MOP and MCDM in AI applications</li>
-        
-        <li>Innovative Applications to Economic and Social Sciences</li>
+        <li>Black-box optimization</li>
         
     </ul>
     
@@ -217,7 +81,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>June 30, 2027: Submission deadline</li>
+        <li>March 31, 2028: Submission deadline</li>
         
     </ul>
     
@@ -226,282 +90,89 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Data-Enabled Analytics for Insightful and Responsible Decision-Making]]></title>
-            <link>https://kerostig.org/call/elsevier-data-enabled-analytics-for-insightful-and-responsible-decision-making/</link>
-            <guid>elsevier-data-enabled-analytics-for-insightful-and-responsible-decision-making</guid>
+            <title><![CDATA[Extended Reality (XR) for Enhanced Decision Making and Organizational Transformation]]></title>
+            <link>https://kerostig.org/call/elsevier-extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation/</link>
+            <guid>elsevier-extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
     
+    
+    <p>This special issue focuses on the transformative potential of Extended Reality (XR) technologies—including Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR)—in enhancing decision-making processes and driving organizational transformation. As organizations increasingly face complex challenges requiring rapid, data-driven decisions, XR technologies offer innovative approaches to visualize information, simulate scenarios, and facilitate collaborative problem-solving in immersive environments.</p>
+    
+    <p>The special issue welcomes original research contributions that explore how XR can improve decision support systems across various organizational contexts. We are interested in studies examining the effectiveness of immersive technologies in enhancing situational awareness, reducing decision-making time, improving decision quality, and fostering organizational innovation. Both theoretical frameworks and practical implementations are encouraged.</p>
+    
+    <p>
+        Appel publié par Decision Support Systems.
+        
+        <a href="https://www.sciencedirect.com/special-issue/334253/extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Applications of XR technologies in decision support systems</li>
+        
+        <li>Immersive visualization for complex data analysis</li>
+        
+        <li>VR/AR/MR interfaces for business intelligence</li>
+        
+        <li>XR-based training and knowledge transfer for organizational learning</li>
+        
+        <li>Human-computer interaction in extended reality environments</li>
+        
+        <li>User experience and usability in XR decision support applications</li>
+        
+        <li>Integration of XR with artificial intelligence and machine learning</li>
+        
+        <li>Real-time collaboration in virtual/mixed reality spaces</li>
+        
+        <li>XR applications in crisis management and emergency response</li>
+        
+        <li>Organizational change management through XR adoption</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 31, 2027: Full paper submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Data Envelopment Analysis at Fifty: From efficiency measurement to intelligent data-enabled analytics and decision making]]></title>
+            <link>https://kerostig.org/call/elsevier-omega-55th-anniversary-special-issue-data-envelopment-analysis-at-fifty-from-efficiency-measurement-to-intelligent-data-enabled-analytics-and-decision-making/</link>
+            <guid>elsevier-omega-55th-anniversary-special-issue-data-envelopment-analysis-at-fifty-from-efficiency-measurement-to-intelligent-data-enabled-analytics-and-decision-making</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue celebrates the 55th anniversary of Omega journal and marks fifty years since the introduction of Data Envelopment Analysis (DEA). The special issue seeks to showcase the evolution of DEA from its origins as a tool for efficiency measurement to its current applications in intelligent data-enabled analytics and decision making.</p>
     
     <p>
         Appel publié par Omega.
         
-        <a href="https://www.sciencedirect.com/special-issue/327427/special-issue-on-data-enabled-analytics-for-insightful-and-responsible-decision-making">Voir l'appel sur le site de l'éditeur</a>.
+        <a href="https://www.sciencedirect.com/special-issue/335920/omega-55th-anniversary-special-issue-data-envelopment-analysis-at-fifty-from-efficiency-measurement-to-intelligent-data-enabled-analytics-and-decision-making">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/elsevier-data-enabled-analytics-for-insightful-and-responsible-decision-making/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/elsevier-omega-55th-anniversary-special-issue-data-envelopment-analysis-at-fifty-from-efficiency-measurement-to-intelligent-data-enabled-analytics-and-decision-making/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>December 31, 2026: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Generative AI in High-Pressure Work Contexts: Behavioral Mechanisms Shaping Managerial and Employee Decision-Making]]></title>
-            <link>https://kerostig.org/call/elsevier-generative-ai-in-high-pressure-work-contexts-behavioral-mechanisms-shaping-managerial-and-employee-decision-making/</link>
-            <guid>elsevier-generative-ai-in-high-pressure-work-contexts-behavioral-mechanisms-shaping-managerial-and-employee-decision-making</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>
-        Appel publié par Journal of Business Research.
-        
-        <a href="https://www.sciencedirect.com/special-issue/330184/generative-ai-in-high-pressure-work-contexts-behavioral-mechanisms-shaping-managerial-and-employee-decision-making">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-generative-ai-in-high-pressure-work-contexts-behavioral-mechanisms-shaping-managerial-and-employee-decision-making/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>December 31, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Human-AI Collaboration for Shaping Government Policy and Decision-Making]]></title>
-            <link>https://kerostig.org/call/elsevier-human-ai-collaboration-for-shaping-government-policy-and-decision-making/</link>
-            <guid>elsevier-human-ai-collaboration-for-shaping-government-policy-and-decision-making</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>
-        Appel publié par Government Information Quarterly.
-        
-        <a href="https://www.sciencedirect.com/special-issue/330074/human-ai-collaboration-for-shaping-government-policy-and-decision-making">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-human-ai-collaboration-for-shaping-government-policy-and-decision-making/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>November 1, 2026: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The evolution of decision-making and reasoning from childhood to adulthood]]></title>
-            <link>https://kerostig.org/call/elsevier-the-evolution-of-choice-and-reasoning-from-childhood-to-adulthood/</link>
-            <guid>elsevier-the-evolution-of-choice-and-reasoning-from-childhood-to-adulthood</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong></strong>, </p>
-        
-        <p><strong></strong>, </p>
-        
-    
-    
-    
-    <p>This special issue examines how decision-making processes, choice behavior, and reasoning capabilities evolve from childhood through adulthood. Understanding the developmental trajectory of these fundamental cognitive and behavioral processes provides insight into the mechanisms that underlie human judgment and decision-making across the lifespan.</p>
-    
-    <p>The collection seeks to integrate perspectives from developmental psychology, behavioral economics, cognitive science, and neuroscience to explore how individuals acquire, refine, and modify their decision-making strategies as they mature. Contributions may address the biological, cognitive, social, and environmental factors that shape the development of choice behavior and reasoning abilities.</p>
-    
-    <p>Empirical studies, theoretical frameworks, and methodological approaches that advance our understanding of developmental decision-making are welcome. This includes research examining both normative development and individual variation in how people learn to make choices and engage in reasoning from early childhood through adulthood.</p>
-    
-    <p>
-        Appel publié par Journal of Behavioral and Experimental Economics.
-        
-        <a href="https://www.sciencedirect.com/special-issue/216997/the-evolution-of-choice-and-reasoning-from-childhood-to-adulthood">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-the-evolution-of-choice-and-reasoning-from-childhood-to-adulthood/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Developmental changes in decision-making and choice behavior across the lifespan</li>
-        
-        <li>Cognitive mechanisms underlying reasoning development</li>
-        
-        <li>Economic decision-making in children and adolescents</li>
-        
-        <li>The role of emotions and affect in developing choice behavior</li>
-        
-        <li>Neural and biological substrates of reasoning development</li>
-        
-        <li>Individual differences in decision-making trajectories</li>
-        
-        <li>The impact of education and experience on choice behavior</li>
-        
-        <li>Temporal and risk preferences across development</li>
-        
-        <li>Social influences on reasoning and decision-making</li>
-        
-        <li>Irrational choice patterns and their developmental origins</li>
-        
-    </ul>
-    
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The Power of Difference: Strategic Decision-Making in Identity-Diverse Teams]]></title>
-            <link>https://kerostig.org/call/elsevier-the-power-of-difference-strategic-decision-making-in-identity-diverse-teams/</link>
-            <guid>elsevier-the-power-of-difference-strategic-decision-making-in-identity-diverse-teams</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This special issue explores how identity diversity influences strategic decision-making processes within teams. We seek to understand the mechanisms through which diverse team compositions affect decision quality, creativity, and organizational outcomes. The focus is on examining both the benefits and challenges of managing identity-diverse teams in contemporary organizational settings.</p>
-    
-    <p>
-        Appel publié par Journal of Business Research.
-        
-        <a href="https://www.sciencedirect.com/special-issue/323213/the-power-of-difference-strategic-decision-making-in-identity-diverse-teams">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-the-power-of-difference-strategic-decision-making-in-identity-diverse-teams/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Identity diversity in teams and its impact on strategic decision-making</li>
-        
-        <li>Diversity management strategies and their effectiveness</li>
-        
-        <li>Team dynamics and interpersonal processes in diverse contexts</li>
-        
-        <li>Decision quality and innovation outcomes in identity-diverse teams</li>
-        
-        <li>Intersectionality and multiple dimensions of diversity</li>
-        
-        <li>Cognitive and affective processes in diverse team settings</li>
-        
-        <li>Organizational culture and inclusive practices</li>
-        
-        <li>Leadership approaches in managing identity-diverse teams</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>October 5, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[AI-Driven Decision Making under Uncertain Environments: Theory, Methods, and Industrial Applications]]></title>
-            <link>https://kerostig.org/call/tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications/</link>
-            <guid>tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Hyun-Jung Kim</strong>, KAIST</p>
-        
-        <p><strong>Shu-Kai Fan</strong>, National Taipei University of Technology</p>
-        
-        <p><strong>Fugee Tsung</strong>, Hong Kong University of Science and Technology</p>
-        
-        <p><strong>Thomas Volling</strong>, Technical University Berlin</p>
-        
-        <p><strong>Jang Ho Kim</strong>, Korea University</p>
-        
-        <p><strong>Dong-Young Lim</strong>, Ulsan National Institute of Science and Technology</p>
-        
-    
-    
-    
-    <p>Recent advances in artificial intelligence (AI), optimization, and data-driven analytics are fundamentally transforming decision-making processes in complex systems operating under uncertainty. Modern industrial and service systems, including manufacturing, logistics, supply chains, transportation, energy, and healthcare, increasingly face dynamic and stochastic environments characterized by demand fluctuations, disruptions, incomplete information, evolving system states, and operational risks. To effectively manage such complexity, there is growing interest in intelligent decision-making methodologies that integrate learning, prediction, optimization, simulation, and adaptation. In particular, emerging technologies such as reinforcement learning, foundation models, generative AI, agentic AI, digital twins, and hybrid AI-optimization frameworks are enabling the development of more autonomous, adaptive, and data-driven operational systems. Despite these advances, significant challenges remain regarding scalability, robustness, interpretability, real-time implementation, and the successful deployment of AI-driven decision-making approaches in real-world industrial environments.</p>
-    
-    <p>
-        Appel publié par International Journal of Production Research.
-        
-        <a href="https://think.taylorandfrancis.com/special_issues/ai-driven-decision-making/">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>AI-driven decision-making under uncertainty</li>
-        
-        <li>Production planning and scheduling in stochastic and dynamic environments</li>
-        
-        <li>Reinforcement learning for uncertain industrial systems</li>
-        
-        <li>Stochastic optimization and robust operational strategies</li>
-        
-        <li>AI-enabled statistical quality control and process improvement</li>
-        
-        <li>Hybrid AI and optimization approaches for uncertain environments</li>
-        
-        <li>Data-driven optimization and prescriptive analytics</li>
-        
-        <li>AI-enhanced supply chain and logistics management under disruptions</li>
-        
-        <li>Real-time and adaptive decision-making systems</li>
-        
-        <li>Simulation-based optimization and digital twins under uncertainty</li>
-        
-        <li>Agentic AI and autonomous industrial systems</li>
-        
-        <li>Explainable and trustworthy AI for operational decision-making</li>
-        
-        <li>AI for resilient and sustainable operations</li>
-        
-        <li>Industrial applications and case studies of AI-driven decision systems</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>October 1, 2026: Submissions open</li>
-        
-        <li>January 31, 2027: Submission deadline</li>
+        <li>May 31, 2027: Submission deadline</li>
         
     </ul>
     

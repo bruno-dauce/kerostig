@@ -2,55 +2,60 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | Tag : retail</title>
-        <link>https://kerostig.org/tag/retail</link>
+        <link>https://kerostig.org/tag/retail/</link>
         <description>Derniers appels à publications avec le tag 'retail'.</description>
-        <lastBuildDate>Mon, 17 Aug 2026 10:00:18 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | Tag : retail</title>
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.org/tag/retail</link>
+            <link>https://kerostig.org/tag/retail/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[AI as a Shopping Companion: Mechanisms shaping product basket and returns]]></title>
-            <link>https://kerostig.org/call/emerald-ai-as-a-shopping-companion-mechanisms-shaping-product-basket-and-returns</link>
-            <guid>emerald-ai-as-a-shopping-companion-mechanisms-shaping-product-basket-and-returns</guid>
-            <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <title><![CDATA[Crafting Shape in a Fluid World – The Intersection of Marketing and External Forces]]></title>
+            <link>https://kerostig.org/call/emerald-crafting-shape-in-a-fluid-world-the-intersection-of-marketing-and-external-forces/</link>
+            <guid>emerald-crafting-shape-in-a-fluid-world-the-intersection-of-marketing-and-external-forces</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
     
     
-    <p>Digitalisation has multiplied the media, channels, and touchpoints through which consumers and firms interact, reshaping the customer journey around digital experiences. In parallel, the rapid maturation of Machine Learning, Deep Learning, and especially Artificial Intelligence (AI), is pushing both scholars and managers to rethink how human actors engage with, rely on, and derive value from technological systems, and to revisit the design of these interactions as well as their governance.</p>
     
-    <p>A growing body of research shows that AI is increasingly becoming a central shopping companion across the entire customer journey, supporting consumers from product discovery and evaluation in the pre-purchase stage, to basket building and checkout at purchase, and into post-purchase activities such as customer service and returns.</p>
+    <p>Marketing practice is being transformed by technological advances, geopolitical shifts, economic pressures, and growing demands for sustainability and social responsibility. Retail environments serve as key sites where these transformations unfold, with both physical and digital channels becoming laboratories for new consumer engagement and adaptive strategies. Consumers now demand greater brand ethics, transparency, and societal contributions, while external disruptions like supply chain fragility, inflation, and geopolitical tensions reshape pricing and sourcing. Simultaneously, artificial intelligence and platform ecosystems are fundamentally changing how consumers access information and make purchase decisions.</p>
     
-    <p>Compared with traditional recommender systems, AI companions are powered by language models and conversational interfaces that do more than filter information. They can operate as interactive decision partners, engaging consumers in dialogue, adaptively tailoring support, and providing cognitive scaffolding. Through these mechanisms, AI companions can directly shape how preferences are constructed, how uncertainty is interpreted, and how choices are ultimately made.</p>
-    
-    <p>The conversational nature of AI-mediated assistance introduces dynamics that are not yet fully understood. These include real-time persuasion and framing, the delegation of decisions to &#39;the system&#39;, the emergence and calibration of trust, perceived agency and controllability, the role of explanation and disclosure, and the effects of anthropomorphism. Taken together, these elements can make the interaction feel closer to an ongoing relationship than to a single, isolated touchpoint.</p>
-    
-    <p>The literature has devoted little attention to how AI companions affect downstream outcomes that matter for both retail performance and consumer welfare. In particular, we still know too little about whether, and under what conditions, an AI companion can increase or decrease basket conversion among consumers who are already expected to purchase, or how conversational assistance may contribute to monitoring and shaping assortment status. Outcomes such as basket conversion, assortment shaping, and returns are strategically consequential for firms, platforms, and shoppers, yet they remain less systematically examined than upstream constructs such as adoption, user experience, trust, and intention-based measures.</p>
-    
-    <p>Our understanding remains incomplete regarding the conditions under which assistant guidance improves preference-product fit and long-term value, versus when it accelerates decisions that amplify mismatch, encourage opportunistic trial behaviours, or increase operational costs through returns. This Special Issue aims to address this gap by inviting new conceptual, methodological, qualitative, and quantitative contributions that advance insight into this domain.</p>
-    
+    <p>
+        Appel publié par Journal of Consumer Marketing.
+        
+        <a href="https://www.emerald.com/jcm/calls-for-submissions/1762/Crafting-Shape-in-a-Fluid-World-The-Intersection?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-crafting-shape-in-a-fluid-world-the-intersection-of-marketing-and-external-forces/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>What psychological and informational mechanisms explain the effect of AI companions on basket conversion? How do these effects vary with trust, perceived agency, and disclosure in conversational assistance?</li>
+        <li>Consumer responses to global disruptions (e.g., inflation, supply chain fragility, climate events, tariffs, war)</li>
         
-        <li>To what extent do AI companions alter assortment exploration and basket structure in terms of variety seeking, complementarity, substitution patterns, and price sensitivity?</li>
+        <li>Impact of AI, automation, and platform-based ecosystems on consumer well-being and happiness</li>
         
-        <li>Which conversational features (e.g., framing, explanations, tone, memory) act as key drivers?</li>
+        <li>How to enhance responsible consumption (e.g., reducing food waste and increasing adoptions of green energy and public transportation)</li>
         
-        <li>When does AI-induced conversion translate into higher decision quality and ex post satisfaction, and when does it instead generate regret, decision deferral, or dependence on assistance?</li>
+        <li>How to serve marginalized and disadvantaged consumers and enhance equality among gender, race, ethnicity, and socioeconomic status through marketing and equitable practices</li>
         
-        <li>What is the impact of AI companions on returns, distinguishing between informational mismatch, fit errors, overbuying, and opportunistic behaviours, and how do these dynamics vary across product categories and channels (online vs. omnichannel)?</li>
+        <li>Evolving consumer purchase patterns and consumption practices around brand ethics, transparency, and sustainability</li>
         
-        <li>How can companion design (e.g., explainability, user controls, limits on persuasion, &#39;pro-social&#39; nudges) reduce returns and increase decision quality without depressing conversion and revenues?</li>
+        <li>How firms can navigate sociopolitical activism (e.g., Should brands take a stand or remain silent?)</li>
         
-        <li>What are the distributional effects of AI companions on consumers with different levels of digital literacy and vulnerability, and which policies or governance standards are needed to ensure transparency, accountability, and fairness?</li>
+        <li>Recalibrating brand-consumer relationships in times of social and political polarization</li>
+        
+        <li>Cross-cultural and cross-generational consumer insights in a post-globalization era</li>
+        
+        <li>Retail innovation in response to external forces, trends, disruptions, and shifting consumer expectations</li>
+        
+        <li>Marketing strategies for enhancing trust, loyalty, engagement in uncertain environments</li>
         
     </ul>
     
@@ -58,17 +63,80 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>January 5, 2026: Opening date for manuscripts submissions</li>
+        <li>August 15, 2026: Opening date for manuscripts submissions</li>
         
-        <li>January 11, 2026: Closing date for manuscripts submission</li>
-        
-        <li>April 15, 2027: Final acceptance date</li>
+        <li>October 15, 2026: Closing date for manuscripts submission</li>
         
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>International Journal of Retail &amp; Distribution Management (EMERALD)</author>
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Transforming Retail and Consumer Marketing Strategies in the Era of the Digital Economy]]></title>
+            <link>https://kerostig.org/call/tandf-transforming-retail-and-consumer-marketing-strategies-in-the-era-of-the-digital-economy/</link>
+            <guid>tandf-transforming-retail-and-consumer-marketing-strategies-in-the-era-of-the-digital-economy</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Aboobucker Ilmudeen</strong>, South Eastern University of Sri Lanka</p>
+        
+        <p><strong>Alaa A. Qaffas</strong>, University of Jeddah</p>
+        
+    
+    
+    
+    <p>The digital economy has fundamentally restructured retail and consumer marketing, blurring boundaries between physical and virtual commerce while intensifying competitive pressures. Consumer expectations now center on personalization, authenticity, and social responsibility, with social media and mobile platforms playing critical roles in shaping purchasing decisions. This transformation presents both opportunities for businesses to strengthen customer relationships through digital tools and challenges related to technology access, market fragmentation, and legacy system integration.</p>
+    
+    <p>This special issue invites research examining how businesses are adapting retail and marketing strategies to succeed in digital-transformed markets. The editors seek contributions that explore the theoretical foundations, empirical evidence, and practical insights regarding digital transformation in retailing, consumer engagement, distribution systems, and business strategy to guide practitioners, policymakers, and scholars navigating contemporary market shifts.</p>
+    
+    <p>
+        Appel publié par The International Review of Retail, Distribution and Consumer Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/transforming-retail-and-consumer-marketing-strategies-in-the-era-of-the-digital-economy/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-transforming-retail-and-consumer-marketing-strategies-in-the-era-of-the-digital-economy/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Digital transformation in retail and consumer marketing</li>
+        
+        <li>Omni-channel retail strategies and the integration of physical and virtual spaces</li>
+        
+        <li>Evolution of consumer behavior in digital environments</li>
+        
+        <li>Social media&#39;s role in brand trust and consumer identity</li>
+        
+        <li>Mobile commerce and online marketplaces</li>
+        
+        <li>Personalization and customer relationship management in digital contexts</li>
+        
+        <li>Distribution channel innovation and supply chain management</li>
+        
+        <li>Sustainability and corporate social responsibility in digital retail</li>
+        
+        <li>Competitive strategies for businesses navigating digital disruption</li>
+        
+        <li>Technology adoption barriers and digital divide in retail</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 10, 2026: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

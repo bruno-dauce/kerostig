@@ -1,59 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>kerostig | Tag : financial markets</title>
+        <title>kerostig | Tag :  financial markets</title>
         <link>https://kerostig.org/tag/financial-markets/</link>
-        <description>Derniers appels à publications avec le tag 'financial markets'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <description>Derniers appels à publications avec le tag ' financial markets'.</description>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
-            <title>kerostig | Tag : financial markets</title>
+            <title>kerostig | Tag :  financial markets</title>
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/financial-markets/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[AI Disruption in Global Capital Markets]]></title>
-            <link>https://kerostig.org/call/elsevier-ai-disruption-in-global-capital-markets/</link>
-            <guid>elsevier-ai-disruption-in-global-capital-markets</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <title><![CDATA[A Decade After Brexit: Navigating the New Age of Barriers in European Finance Issues]]></title>
+            <link>https://kerostig.org/call/tandf-a-decade-after-brexit-navigating-the-new-age-of-barriers-in-european-finance-issues/</link>
+            <guid>tandf-a-decade-after-brexit-navigating-the-new-age-of-barriers-in-european-finance-issues</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Steven Ongena</strong>, University of Zurich</p>
+        
+        <p><strong>Nam Vu</strong>, Miami University</p>
+        
+        <p><strong>Kiet Tuan Duong</strong>, University of York</p>
+        
+        <p><strong>Luu Duc Toan Huynh</strong>, Queen Mary University of London</p>
+        
     
+    
+    
+    <p>A decade after the Brexit referendum, the financial landscape has transformed dramatically with increased protectionism, geopolitical tensions, and global economic fragmentation. This special issue examines how the UK&#39;s departure from the European Union reflects broader trends toward economic nationalism and regional separation, and how financial institutions are adapting to this new environment of barriers and reduced international integration.</p>
+    
+    <p>The special issue seeks contributions exploring the long-term financial effects of Brexit on markets and services, the impact of recent trade policies on international finance, and how overlapping trade barriers affect equity and debt markets. Additional focus areas include regional financial inequalities, industrial policy effectiveness, institutional responses to fragmentation, syndicated lending disparities, regulatory approaches, fintech diffusion challenges, household financial behavior, and corporate governance changes among British and European firms.</p>
     
     <p>
-        Appel publié par Pacific-Basin Finance Journal.
+        Appel publié par The European Journal of Finance.
         
-        <a href="https://www.sciencedirect.com/special-issue/333140/special-issue-on-ai-disruption-in-global-capital-markets">Voir l'appel sur le site de l'éditeur</a>.
+        <a href="https://think.taylorandfrancis.com/special_issues/a-decade-after-brexit-navigating-the-new-age-of-barriers-in-european-finance-issues/">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/elsevier-ai-disruption-in-global-capital-markets/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/tandf-a-decade-after-brexit-navigating-the-new-age-of-barriers-in-european-finance-issues/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Artificial intelligence and machine learning applications in financial markets</li>
+        <li>The long-term effects of Brexit on UK and EU financial markets and financial services a decade after withdrawal</li>
         
-        <li>Algorithmic trading and high-frequency trading</li>
+        <li>The macro-financial implications of Trump 2.0 trade policies for the UK, particularly in the context of renewed tariff regimes affecting British exports and imports and their global financial spillovers</li>
         
-        <li>AI-driven market microstructure and price discovery</li>
+        <li>The broader impact of overlapping trade barriers—including economic sanctions and retaliatory trade measures—on equity and debt markets</li>
         
-        <li>Systemic risk and financial stability implications of AI</li>
+        <li>Regional disparities and financial inequalities in credit access and banking systems are exacerbated by trade and financial fragmentation</li>
         
-        <li>Regulatory frameworks and governance of AI in finance</li>
+        <li>The resurgence of industrial policy and its effectiveness in promoting financial resilience under conditions of reduced international integration</li>
         
-        <li>Market efficiency and anomalies in AI-dominated markets</li>
+        <li>Institutional responses and the capacity of international and regional organisations to mediate and stabilise an increasingly fragmented economic and financial order</li>
         
-        <li>Risk management and portfolio optimization with AI</li>
+        <li>Disparities in syndicated lending between UK and European lenders and borrowers, with particular attention to sustainable finance</li>
         
-        <li>Ethical considerations and fairness in AI-driven finance</li>
+        <li>The role of regulation and policymaking in reconnecting, or further decoupling, British and European financial systems</li>
         
-        <li>Impact on market participants and trading strategies</li>
+        <li>Barriers to financial technology diffusion following Brexit and the practical implementation of Brexit since 2020</li>
         
-        <li>Data quality, bias, and robustness of AI models in finance</li>
+        <li>Financial behaviour and household finance (e.g., financial flows, savings, investment decisions, overreactions, and reversal effects) ten years after Brexit</li>
+        
+        <li>Changes in corporate governance among British and/or European firms, particularly shifts in board composition and the associated financial consequences</li>
         
     </ul>
     
@@ -61,213 +77,9 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>April 30, 2027: Full paper submission deadline</li>
+        <li>March 1, 2026: Submissions open</li>
         
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[African Financial Research Proposals]]></title>
-            <link>https://kerostig.org/call/elsevier-call-for-african-financial-research-proposals-finance-research-letters/</link>
-            <guid>elsevier-call-for-african-financial-research-proposals-finance-research-letters</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This call invites research proposals focusing on financial research topics relevant to African economies and financial systems. The special issue seeks to advance understanding of financial dynamics, institutions, and markets across the African continent.</p>
-    
-    <p>
-        Appel publié par Finance Research Letters.
-        
-        <a href="https://www.sciencedirect.com/special-issue/333852/call-for-african-financial-research-proposals-finance-research-letters">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-call-for-african-financial-research-proposals-finance-research-letters/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Financial markets and institutions in Africa</li>
-        
-        <li>Banking sector development and regulation</li>
-        
-        <li>Capital markets and investment in African economies</li>
-        
-        <li>Corporate finance and governance in African firms</li>
-        
-        <li>Financial inclusion and access to finance in Africa</li>
-        
-        <li>Macroeconomic finance and monetary policy in African countries</li>
-        
-        <li>Risk management and financial stability in African financial systems</li>
-        
-        <li>Fintech and digital finance innovation in Africa</li>
-        
-        <li>International trade finance and currency markets in Africa</li>
-        
-        <li>Real estate and infrastructure finance in Africa</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>May 30, 2027: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[African Financial Research]]></title>
-            <link>https://kerostig.org/call/elsevier-call-for-african-financial-research-proposals-journal-of-international-financial-markets-institutions-and-money/</link>
-            <guid>elsevier-call-for-african-financial-research-proposals-journal-of-international-financial-markets-institutions-and-money</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This call for papers invites research proposals focused on African financial systems, markets, and institutions. Research examining financial dynamics, institutional development, and monetary aspects of African economies is welcomed.</p>
-    
-    <p>
-        Appel publié par Journal of International Financial Markets, Institutions and Money.
-        
-        <a href="https://www.sciencedirect.com/special-issue/333853/call-for-african-financial-research-proposals-journal-of-international-financial-markets-institutions-money">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-call-for-african-financial-research-proposals-journal-of-international-financial-markets-institutions-and-money/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>African financial markets</li>
-        
-        <li>Financial institutions in Africa</li>
-        
-        <li>Money markets in Africa</li>
-        
-        <li>International financial connections to Africa</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>May 30, 2027: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Finance Research Letters - African Research Proposals]]></title>
-            <link>https://kerostig.org/call/elsevier-call-for-african-research-proposals-2/</link>
-            <guid>elsevier-call-for-african-research-proposals-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This call for papers invites research proposals focused on African finance and financial systems. We are interested in original research that advances our understanding of financial markets, institutions, and practices across the African continent.</p>
-    
-    <p>Submissions should present novel findings and insights relevant to African financial contexts, including studies on market structures, regulatory frameworks, institutional development, and financial behavior in African nations and regions.</p>
-    
-    <p>
-        Appel publié par Finance Research Letters.
-        
-        <a href="https://www.sciencedirect.com/special-issue/270379/call-for-african-research-proposals">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-call-for-african-research-proposals-2/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>African financial markets and institutions</li>
-        
-        <li>International finance and development in Africa</li>
-        
-        <li>Corporate finance in African companies</li>
-        
-        <li>Risk management in African financial systems</li>
-        
-        <li>Financial innovation and technology in Africa</li>
-        
-        <li>Economic development and finance in African countries</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>December 31, 2023: Submission deadline for research proposals</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Information, Institutions, and Financial Markets, an Emerging Market Perspective]]></title>
-            <link>https://kerostig.org/call/elsevier-information-institutions-and-financial-markets-an-emerging-market-perspective/</link>
-            <guid>elsevier-information-institutions-and-financial-markets-an-emerging-market-perspective</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This special issue examines the intersection of information availability, institutional quality, and financial market dynamics in emerging economies. The collection seeks to advance understanding of how information flows, institutional frameworks, and market structures interact to shape financial outcomes in developing and transition economies.</p>
-    
-    <p>
-        Appel publié par Pacific-Basin Finance Journal.
-        
-        <a href="https://www.sciencedirect.com/special-issue/330910/information-institutions-and-financial-markets-an-emerging-market-perspective">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-information-institutions-and-financial-markets-an-emerging-market-perspective/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Role of information asymmetry in emerging market financial markets</li>
-        
-        <li>Institutional quality and financial market efficiency</li>
-        
-        <li>Corporate governance in emerging markets</li>
-        
-        <li>Information disclosure and transparency requirements</li>
-        
-        <li>Market microstructure in emerging economies</li>
-        
-        <li>Regulatory frameworks and their impact on financial markets</li>
-        
-        <li>Behavioral finance in emerging markets</li>
-        
-        <li>Information technology and financial market development</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 15, 2026: Submission deadline</li>
+        <li>September 30, 2026: Manuscript deadline</li>
         
     </ul>
     

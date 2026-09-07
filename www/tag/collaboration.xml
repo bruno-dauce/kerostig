@@ -4,7 +4,7 @@
         <title>kerostig | Tag : collaboration</title>
         <link>https://kerostig.org/tag/collaboration/</link>
         <description>Derniers appels à publications avec le tag 'collaboration'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:28 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -34,9 +34,9 @@
     
     
     
-    <p>Innovation increasingly emerges from collaboration among a diverse set of actors (firms, startups, universities, public institutions, and non-profits) who expand and recombine their knowledge bases. These collaborative relationships are of utmost importance to open innovation processes, enabling the co-creation of product and process innovations and enhancing the impact and diffusion of novel solutions.</p>
+    <p>Innovation increasingly depends on collaboration among diverse actors who combine and recombine their knowledge. While organizations traditionally select partners based on complementary knowledge structures, the emergence of large volumes of structured and unstructured data alongside artificial intelligence technologies has fundamentally altered how firms search for external knowledge, identify complementarities, and govern collaborative innovation. Recent advances in AI, particularly Large Language Models, enable systematic analysis of millions of documents to map technological trajectories and detect emerging knowledge fields, potentially reshaping the scope and modalities of knowledge search.</p>
     
-    <p>Prior research has robustly shown that organizations select partners based on the complementarities or distances between their knowledge structures, often leveraging cognitive proximity to drive technological diversification or exploring distant domains to avoid lock-in and enable radical breakthroughs.</p>
+    <p>Despite growing interest in AI and innovation, understanding of how AI technologies influence open innovation processes remains fragmented. There is limited evidence on how AI affects partner selection, reconfigures knowledge search strategies, and alters coordination mechanisms within innovation ecosystems. While AI-driven tools promise expanded collaboration opportunities, they also raise challenges including transparency, algorithmic bias, and unequal access to computational capabilities.</p>
     
     <p>
         Appel publié par Industry and Innovation.
@@ -71,7 +71,7 @@
         
         <li>How do generative AI and Natural Language Processing techniques uncover tacit knowledge flows and early-stage spillovers invisible to traditional patent- or publication-based metrics?</li>
         
-        <li>How do AI tools improve the mapping of technological landscapes, identify white spaces, and detect emerging trajectories to inform strategic decisions such as make, buy, or ally?</li>
+        <li>How do AI tools improve the mapping of technological landscapes, identify &quot;white spaces&quot;, and detect emerging trajectories to inform strategic decisions such as make, buy, or ally?</li>
         
         <li>What methods best integrate multiple data streams to track cross-sectoral and cross-regional knowledge diffusion enabled by AI?</li>
         
@@ -81,7 +81,7 @@
         
         <li>What is the optimal division of labor between AI systems and human R&amp;D managers in scanning, interpreting, and assimilating external knowledge?</li>
         
-        <li>How can AI support organizational learning while mitigating barriers such as the Not Invented Here syndrome, especially when AI identifies previously unknown sources of innovation?</li>
+        <li>How can AI support organizational learning while mitigating barriers such as the &quot;Not Invented Here&quot; syndrome, especially when AI identifies previously unknown sources of innovation?</li>
         
     </ul>
     
@@ -89,11 +89,9 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>Invalid DateTime: Expected publication of the Special Issue</li>
-        
         <li>September 1, 2026: Submission window opens</li>
         
-        <li>September 30, 2026: Full paper submission deadline</li>
+        <li>September 30, 2026: Manuscript deadline</li>
         
     </ul>
     

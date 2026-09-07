@@ -4,7 +4,7 @@
         <title>kerostig | Tag : operations research</title>
         <link>https://kerostig.org/tag/operations-research/</link>
         <description>Derniers appels à publications avec le tag 'operations research'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,53 @@
             <link>https://kerostig.org/tag/operations-research/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Operations Research and Data-Driven Decision Making for Complex Socio-Economic Systems in Ibero-America: Evidence and Applications]]></title>
+            <link>https://kerostig.org/call/elsevier-operations-research-and-data-driven-decision-making-for-complex-socio-economic-systems-in-ibero-america-evidence-and-applications/</link>
+            <guid>elsevier-operations-research-and-data-driven-decision-making-for-complex-socio-economic-systems-in-ibero-america-evidence-and-applications</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue seeks research that applies operations research and data-driven methodologies to address complex socio-economic challenges within Ibero-American countries. The focus is on demonstrating how quantitative and analytical approaches can inform policy decisions and solve real-world problems affecting social and economic systems in this region.</p>
+    
+    <p>
+        Appel publié par Socio-Economic Planning Sciences.
+        
+        <a href="https://www.sciencedirect.com/special-issue/334197/operations-research-and-data-driven-decision-making-for-complex-socio-economic-systems-in-ibero-america-evidence-and-applications">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-operations-research-and-data-driven-decision-making-for-complex-socio-economic-systems-in-ibero-america-evidence-and-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Operations research applications in socio-economic systems</li>
+        
+        <li>Data-driven decision making methods</li>
+        
+        <li>Complex system analysis in Ibero-American context</li>
+        
+        <li>Evidence-based policy and management approaches</li>
+        
+        <li>Optimization and analytical methods for social and economic challenges</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Advances in Reliability and Statistical Computing for Intelligent Systems]]></title>
             <link>https://kerostig.org/call/springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems/</link>
@@ -452,6 +499,67 @@
     <ul>
         
         <li>Invalid DateTime: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Agentic Supply Chain: Entering a new era in AI in Supply Chain Management]]></title>
+            <link>https://kerostig.org/call/tandf-the-agentic-supply-chain-entering-a-new-era-in-ai-in-supply-chain-management/</link>
+            <guid>tandf-the-agentic-supply-chain-entering-a-new-era-in-ai-in-supply-chain-management</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Alexandra Brintrup</strong>, University of Cambridge</p>
+        
+        <p><strong>Thomas Choi</strong>, Arizona State University</p>
+        
+        <p><strong>George Huang</strong>, Hong Kong Polytechnic University</p>
+        
+        <p><strong>Dmitry Ivanov</strong>, Berlin School of Economics and Law</p>
+        
+    
+    
+    
+    <p>Recent advances in agentic Large Language Models have created new opportunities for autonomous decision-making in supply chains. This special issue seeks to advance rigorous research on how these AI agents can transform supply chain management by integrating perspectives from operations, AI, complexity science, and industrial engineering. While multi-agent systems have been studied for years, recent LLM breakthroughs now enable more flexible, scalable, and practical implementations that major corporations and technology providers are already exploring.</p>
+    
+    <p>The special issue welcomes diverse research methodologies including technical solutions, modeling, empirical studies, and experimental work with practical implications. Topics span from using agentic systems for optimization and forecasting to managing risks, designing interorganizational coordination systems, and addressing technical and governance challenges such as trustworthiness, safety, and performance evaluation.</p>
+    
+    <p>
+        Appel publié par International Journal of Production Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/agentic-supply-chain/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-the-agentic-supply-chain-entering-a-new-era-in-ai-in-supply-chain-management/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Discourse on utilising agentic systems for complex scenarios in supply chain management: Risk and disruption management, logistics and supply chain optimisation, transportation routes, inventory management, quality control, demand forecasting, and warehouse planning and location, and cash flow predictions</li>
+        
+        <li>Supply network design with agentic technology: Supplier relationship configurations, agentic digital twins to simulate inventory flows, sustainability implications across the supply chain, circular supply chains, supply chain visibility, and supply chain financing</li>
+        
+        <li>Interorganisational agentic systems: Effective multi-agent negotiation and coordination, the design of mediative and persuasive agentic systems, preservation of organisational privacy during multi-agent communication</li>
+        
+        <li>Hybrid systems: Integration of agentic systems with blockchain, IoT, Omniverse, and traditional multi-agent systems</li>
+        
+        <li>Emergence and Complexity: Unintended consequences of agentic deployment at the system scale, governance, trustworthiness and safety, centralised versus decentralised control, human-in-the-loop agentic systems</li>
+        
+        <li>Technical challenges: Performance evaluation, efficient task division, ablation analysis and back testing, sensitivity analysis, agentic architectures operating in high uncertainty environments, long-term horizon reasoning, overcoming hallucinations</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Manuscript deadline</li>
         
     </ul>
     

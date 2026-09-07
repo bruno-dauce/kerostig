@@ -4,7 +4,7 @@
         <title>kerostig | Tag : data science</title>
         <link>https://kerostig.org/tag/data-science/</link>
         <description>Derniers appels à publications avec le tag 'data science'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,73 @@
             <link>https://kerostig.org/tag/data-science/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Advancing Project Management through Data Science: Methods, Applications, and Impacts]]></title>
+            <link>https://kerostig.org/call/emerald-advancing-project-management-through-data-science-methods-applications-and-impacts/</link>
+            <guid>emerald-advancing-project-management-through-data-science-methods-applications-and-impacts</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue examines how data science reshapes project, programme, and portfolio management practices. Rather than focusing on technical algorithmic details, it seeks to understand how managers can translate data and algorithmic insights into better decisions, governance, and value creation across the project lifecycle. The collection emphasizes managerial transformation rather than technology as an add-on.</p>
+    
+    <p>Contributions should address how data-driven practices improve decision quality and accountability, how governance mechanisms adapt to data-intensive work, and how manager and team competencies evolve. The special issue particularly welcomes research on adoption conditions, implementation challenges, and safeguards for ethical use, bias mitigation, and transparency in decision-making.</p>
+    
+    <p>Submissions should prioritize actionable insights for practitioners through conceptual frameworks, empirical case studies, and practical artifacts such as decision frameworks, governance templates, and maturity models. Cross-sector studies demonstrating tangible managerial outcomes and connections to organizational strategy and broader societal value are especially encouraged.</p>
+    
+    <p>
+        Appel publié par International Journal of Managing Projects in Business.
+        
+        <a href="https://www.emerald.com/ijmpb/calls-for-submissions/1673/Advancing-Project-Management-through-Data-Science?searchresult=1">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-advancing-project-management-through-data-science-methods-applications-and-impacts/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Data-driven decision-making in project environments: Exploring how data science enhances or transforms decision processes across the project lifecycle, including planning, monitoring, and risk management emphasizing chances, challenges and risk.</li>
+        
+        <li>Integration of data science methodologies into project management practices: Studies applying or adapting methods such as machine learning, data mining, or predictive analytics to project-specific contexts.</li>
+        
+        <li>Data science and project governance, ethics, and accountability: Examining the implications of algorithmic decision-making, data privacy, and ethical use of data in managing projects.</li>
+        
+        <li>The evolving role of the project manager in data-rich contexts: Investigating new competencies, skills, and leadership styles required for managing data-intensive or AI-augmented projects. Discussing the relationship between project managers and data science experts in project management.</li>
+        
+        <li>Real-time data, dashboards and analytics for project monitoring and control: Contributions on the design and limits, use and evaluation of real-time performance tracking and visualisation tools in project management.</li>
+        
+        <li>Data ecosystems and infrastructure in large-scale or complex projects: Studies addressing the architecture, integration, and governance of data sources across distributed project networks.</li>
+        
+        <li>Cross-disciplinary applications of data science in projects: Interdisciplinary work linking project management with fields such as operations research, information systems, computational social science, or engineering.</li>
+        
+        <li>AI, big data and automation in project scheduling, forecasting, and resource allocation: Empirical or conceptual work on how intelligent systems are used to optimize project efficiency and adaptability.</li>
+        
+        <li>Data-enabled project evaluation, benefits realisation, and impact assessment: Using data science to better measure and predict the value, outcomes, and sustainability of projects, including alignment with SDGs.</li>
+        
+        <li>Theoretical and conceptual contributions linking data science and project studies: Frameworks and models that critically examine the intersection of data science and project management as evolving disciplines.</li>
+        
+        <li>AI-empowered stakeholder engagement in large-scale or complex projects: Leveraging AI to enhance stakeholder analysis, communication, and collaboration in complex projects, optimizing engagement strategies and improving project outcomes through predictive insights and automated interaction tools.</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 4, 2026: Opening date for manuscripts submissions</li>
+        
+        <li>July 31, 2026: Closing date for abstract submission</li>
+        
+        <li>January 31, 2027: Closing date for manuscripts submission</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Data Science]]></title>
             <link>https://kerostig.org/call/springer-data-science/</link>

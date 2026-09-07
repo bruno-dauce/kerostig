@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Public Health</title>
+        <link>https://kerostig.org/journal/public-health/</link>
+        <description>Derniers appels à publications pour Public Health.</description>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Public Health</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/journal/public-health/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Integrated Care and Public Health]]></title>
+            <link>https://kerostig.org/call/elsevier-integrated-care-and-public-health/</link>
+            <guid>elsevier-integrated-care-and-public-health</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This call seeks contributions addressing the intersection of integrated care approaches and public health practice and policy. The special issue welcomes research exploring how integrated care models can be implemented, evaluated, and scaled within public health contexts.</p>
+    
+    <p>
+        Appel publié par Public Health.
+        
+        <a href="https://www.sciencedirect.com/special-issue/327119/integrated-care-and-public-health">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-integrated-care-and-public-health/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

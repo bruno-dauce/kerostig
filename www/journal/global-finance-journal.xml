@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Global Finance Journal</title>
+        <link>https://kerostig.org/journal/global-finance-journal/</link>
+        <description>Derniers appels à publications pour Global Finance Journal.</description>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Global Finance Journal</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/journal/global-finance-journal/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Artificial Intelligence and Capital Markets]]></title>
+            <link>https://kerostig.org/call/elsevier-artificial-intelligence-and-capital-markets/</link>
+            <guid>elsevier-artificial-intelligence-and-capital-markets</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue of Global Finance Journal invites submissions exploring the application and impact of artificial intelligence in capital markets. The issue seeks to advance understanding of how AI technologies are reshaping financial markets, trading practices, and investment strategies.</p>
+    
+    <p>
+        Appel publié par Global Finance Journal.
+        
+        <a href="https://www.sciencedirect.com/special-issue/326569/special-issue-on-artificial-intelligence-and-capital-markets">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-artificial-intelligence-and-capital-markets/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : data governance</title>
+        <link>https://kerostig.org/tag/data-governance/</link>
+        <description>Derniers appels à publications avec le tag 'data governance'.</description>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : data governance</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/data-governance/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[The future of creating and distributing value in digital health ecosystems]]></title>
+            <link>https://kerostig.org/call/tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems/</link>
+            <guid>tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Lauri Wessel</strong>, European University Viadrina Frankfurt (Oder)</p>
+        
+        <p><strong>Melanie Reuter-Oppermann</strong>, Maastricht University</p>
+        
+        <p><strong>Roxana Ologeanu-Taddei</strong>, University of Montpellier</p>
+        
+        <p><strong>Hannes Rothe</strong>, University of Duisburg-Essen</p>
+        
+        <p><strong>Sirkka L. Jarvenpaa</strong>, The University of Texas at Austin</p>
+        
+    
+    
+    
+    <p>Digital health ecosystems involve diverse stakeholders—providers, patients, and laypersons—interacting to shape care delivery. While information systems research has advanced in understanding the technological foundations, significant research gaps remain regarding how value is created and distributed in these settings. The special issue seeks papers addressing two core trajectories: understanding diverse forms of value that digital technologies create in healthcare ecosystems, and examining how value should be distributed among participants over time.</p>
+    
+    <p>The journal welcomes both cumulative research advancing understanding of value creation and distribution, and contrarian studies challenging prevailing assumptions. Research often assumes large data volumes will generate substantial benefits, yet in practice clinicians frequently lack data in the required format, quality, or volume. Submissions should offer fresh perspectives on creating and distributing value in digital health ecosystems, informed by both information systems and adjacent disciplines.</p>
+    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/digital-health-ecosystems/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>The role of data management and data sharing in digital health ecosystems</li>
+        
+        <li>Designing for measuring kinds of value arising from new digital technologies like XR, 5G, web 3.0, and machine or hybrid learning in digital health ecosystems</li>
+        
+        <li>The role of digital health ecosystems during pandemics or natural disasters; specifically with an eye toward how data help to distribute value among ecosystem participants</li>
+        
+        <li>(Data-driven) change of professional roles, identities, and institutions in digital health ecosystems</li>
+        
+        <li>The difference between creating value for intervention vs. for prevention</li>
+        
+        <li>Design of inclusive and responsible digital technologies for healthcare and well-being</li>
+        
+        <li>Digital tools and use of digital health data to connect different participants of health service networks, to support decision making and to improve organizational processes</li>
+        
+        <li>Negative consequences of digital technologies implementation in healthcare, such as health givers burnout and patients&#39; anxiety</li>
+        
+        <li>The role of digital tools like virtual coaching for autonomy of health care providers and patients</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 1, 2026: Submission of extended abstracts/declaration of interest to submit papers</li>
+        
+        <li>November 30, 2026: Full paper submission deadline</li>
+        
+        <li>March 31, 2027: First round decisions due</li>
+        
+        <li>September 30, 2027: Revisions due</li>
+        
+        <li>December 15, 2027: Second round decisions due</li>
+        
+        <li>February 28, 2028: Third round revisions due (if necessary)</li>
+        
+        <li>May 31, 2028: Final decisions due</li>
+        
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Aleksi Aaltonen</strong>, Stevens Institute of Technology</li>
+        
+        <li><strong>Saeed Akhlaghpour</strong>, University of Queensland</li>
+        
+        <li><strong>Aycan Aslan</strong>, IT University Copenhagen</li>
+        
+        <li><strong>Anna Essén</strong>, Stockholm School of Economics</li>
+        
+        <li><strong>Heiko Gewald</strong>, HS Neu-Ulm</li>
+        
+        <li><strong>Martin Gersch</strong>, Freie Universität Berlin</li>
+        
+        <li><strong>Camille Grangé</strong>, HEC Montréal</li>
+        
+        <li><strong>Maike Greve</strong>, Copenhagen Business School</li>
+        
+        <li><strong>Farkhondeh Hassan Doust</strong>, University of Auckland</li>
+        
+        <li><strong>Alexander Kempton</strong>, University of Oslo</li>
+        
+        <li><strong>Charlotte Koehler</strong>, European University Viadrina Frankfurt (Oder)</li>
+        
+        <li><strong>Johann Kranz</strong>, LMU</li>
+        
+        <li><strong>Jan-Marco Leimeister</strong>, University of St. Gallen</li>
+        
+        <li><strong>Wolfgang Maaß</strong>, Saarland University</li>
+        
+        <li><strong>Bogdan Negoita</strong>, HEC Montréal</li>
+        
+        <li><strong>Lemai Nguyen</strong>, Deakin University</li>
+        
+        <li><strong>Guy Paré</strong>, HEC Montréal</li>
+        
+        <li><strong>Scott Thiebes</strong>, Karlsruhe Institute of Technology</li>
+        
+        <li><strong>Manuel Trenz</strong>, University of Göttingen</li>
+        
+        <li><strong>Cristina Trocin</strong>, Católica Porto Business School</li>
+        
+        <li><strong>Marjolein van Offenbeek</strong>, University of Groningen</li>
+        
+        <li><strong>Polyxeni Vassilakopoulou</strong>, University of Agder</li>
+        
+        <li><strong>Till Winkler</strong>, Fernuniversität Hagen</li>
+        
+    </ul>
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Theorizing the Data-AI Nexus]]></title>
+            <link>https://kerostig.org/call/tandf-theorizing-the-data-ai-nexus/</link>
+            <guid>tandf-theorizing-the-data-ai-nexus</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Cristina Alaimo</strong>, ESSEC Business School</p>
+        
+        <p><strong>Lauren Waardenburg</strong>, ESSEC Business School</p>
+        
+        <p><strong>Jonny Holmström</strong>, Umeå University</p>
+        
+        <p><strong>Lior Zalmanson</strong>, Tel Aviv University</p>
+        
+        <p><strong>Reza M. Baygi</strong>, VU Amsterdam</p>
+        
+    
+    
+    
+    <p>The special issue addresses a fundamental shift in how artificial intelligence operates: contemporary AI systems are built upon, learn from, and generate data at scale, making data rather than rules the core substrate of computational intelligence. This requires Information Systems scholars to develop new conceptual frameworks for understanding the data-AI nexus as a socio-technical phenomenon, moving beyond purely technical perspectives.</p>
+    
+    <p>The call emphasizes that data are shaped by institutional practices and cognitive frames, while AI systems increasingly reshape the data they depend on, blurring boundaries between data and AI. Practitioners primarily engage with AI through data practices such as curation, labelling, and quality control, making it essential to understand the organizational routines and historical infrastructures that underpin these processes. Additionally, AI now generates synthetic data that feeds back into model training, raising institutional and epistemic challenges.</p>
+    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/theorizing-the-data-ai-nexus/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-theorizing-the-data-ai-nexus/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Data and AI co-constitution: exploring where intelligence emerges in computational architectures, datasets, or their entanglement; how data selection, curation, labelling, and historical accumulation shape AI capabilities</li>
+        
+        <li>AI as a data-maker: conceptualizing AI as an active producer of data; how classification systems, predictive models, and generative tools reorganize reality; AI agents autonomously generating and acting upon data; recursive dynamics of synthetic data training other AI systems</li>
+        
+        <li>Data decoupled from practice: consequences of data production detached from institutionalized knowledge practices; governance and decision-making based on decontextualized data; risks when data-driven systems lack ties to local knowledge and professional judgment</li>
+        
+        <li>The social life of the data-AI nexus: institutional, historical, and cognitive trajectories of data; how organizational memory, institutional logics, and collective sensemaking shape datasets and AI output interpretation; AI agents as new organizational actors</li>
+        
+        <li>Theoretical and methodological discussions: analyses of co-constitution, entanglement, flow, recursion, performativity, and classification; reconceptualizing constructs like intelligence, data quality, ground truth, and model performance as relational and emergent</li>
+        
+        <li>Cross-level insights: how assumptions about data and intelligence are embedded in AI systems; studies of data work (curation, labelling, cleaning), model development, synthetic data pipelines, generative AI integration</li>
+        
+        <li>Data, AI and grand challenges: addressing climate change, public health, inequality, and geopolitical tensions; responsible AI design with incomplete, biased, or synthetic data; governance and accountability in distinctive contexts (scientific, environmental, planetary)</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>May 28, 2026: Call launch at the Theorizing Data &amp; AI Conference</li>
+        
+        <li>January 15, 2027: Initial paper submission deadline</li>
+        
+        <li>April 15, 2027: First round authors notification</li>
+        
+        <li>July 31, 2027: Invited revisions deadline</li>
+        
+        <li>October 31, 2027: Second round authors notification</li>
+        
+        <li>January 15, 2028: Final revision deadline</li>
+        
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Aleksi Aaltonen</strong>, </li>
+        
+        <li><strong>Ida Asadi Someh</strong>, </li>
+        
+        <li><strong>Ioanna Constantiou</strong>, </li>
+        
+        <li><strong>Domenico di Prisco</strong>, </li>
+        
+        <li><strong>Mayur Joshi</strong>, </li>
+        
+        <li><strong>Ekaterina Jussupow</strong>, </li>
+        
+        <li><strong>Jannis Kallinikos</strong>, </li>
+        
+        <li><strong>Tomislav Karačić</strong>, </li>
+        
+        <li><strong>Stan Karanasios</strong>, </li>
+        
+        <li><strong>Alexander Kempton</strong>, </li>
+        
+        <li><strong>Angelos Kostis</strong>, </li>
+        
+        <li><strong>Harris Kyriakou</strong>, </li>
+        
+        <li><strong>Christine Legner</strong>, </li>
+        
+        <li><strong>Kalle Lyytinen</strong>, </li>
+        
+        <li><strong>Eric Monteiro</strong>, </li>
+        
+        <li><strong>Jeff Parsons</strong>, </li>
+        
+        <li><strong>Mike Power</strong>, </li>
+        
+        <li><strong>Jan Recker</strong>, </li>
+        
+        <li><strong>Paavo Ritala</strong>, </li>
+        
+        <li><strong>Marta Stelmaszak Rosa</strong>, </li>
+        
+        <li><strong>Lauri Wesssel</strong>, </li>
+        
+    </ul>
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

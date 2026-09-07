@@ -4,7 +4,7 @@
         <title>kerostig | Tag : optimization</title>
         <link>https://kerostig.org/tag/optimization/</link>
         <description>Derniers appels à publications avec le tag 'optimization'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -23,7 +23,7 @@
 <div>
     
         
-        <p><strong>Abdel Lisser</strong>, CentraleSupélec</p>
+        <p><strong>Abdel Lisser</strong>, Paris-Saclay University</p>
         
         <p><strong>Jia Liu</strong>, Xi&#39;an Jiaotong University</p>
         
@@ -36,9 +36,9 @@
     
     
     
-    <p>This special issue in Annals of Operations Research seeks original research advancing theoretical foundations, modeling approaches, and algorithms for optimization and decision making under uncertainty. The focus encompasses mathematical optimization, stochastic and robust optimization, game theory, and learning-based optimization techniques, welcoming contributions that develop new models, analytical results, and computational methodologies.</p>
+    <p>This special issue focuses on recent theoretical and methodological advances in optimization and decision-making under uncertainty. It seeks contributions that develop new optimization models, analytical results, computational methodologies, and convergence theories, drawing from areas such as stochastic and robust optimization, game theory, sequential decision-making, and learning-based approaches.</p>
     
-    <p>The special issue is organized alongside the International Conference on Operations Research: Theory, Applications and Emerging Technologies (ICORSI 2026) at Indian Institute of Technology Delhi, though participation is not required. It welcomes all researchers working on recent advances in optimization theory and methods for decision making under uncertainty.</p>
+    <p>The special issue is organized in conjunction with the International Conference on Operations Research (ICORSI 2026) at Indian Institute of Technology Delhi, India. However, it welcomes submissions from all researchers in these areas regardless of conference participation. All manuscripts undergo standard peer-review and accepted papers are published online before print.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -490,12 +490,14 @@
     
     
     
-    <p>Recent advances in artificial intelligence (AI), optimization, and data-driven analytics are fundamentally transforming decision-making processes in complex systems operating under uncertainty. Modern industrial and service systems, including manufacturing, logistics, supply chains, transportation, energy, and healthcare, increasingly face dynamic and stochastic environments characterized by demand fluctuations, disruptions, incomplete information, evolving system states, and operational risks. To effectively manage such complexity, there is growing interest in intelligent decision-making methodologies that integrate learning, prediction, optimization, simulation, and adaptation. In particular, emerging technologies such as reinforcement learning, foundation models, generative AI, agentic AI, digital twins, and hybrid AI-optimization frameworks are enabling the development of more autonomous, adaptive, and data-driven operational systems. Despite these advances, significant challenges remain regarding scalability, robustness, interpretability, real-time implementation, and the successful deployment of AI-driven decision-making approaches in real-world industrial environments.</p>
+    <p>This special issue addresses decision-making in complex industrial systems facing dynamic uncertainty through artificial intelligence and optimization techniques. The issue seeks research combining AI methods such as reinforcement learning, generative AI, and digital twins with operations research and optimization approaches to manage manufacturing, supply chains, healthcare, and other sectors dealing with demand fluctuations and disruptions.</p>
+    
+    <p>The special issue welcomes both theoretical and practical contributions demonstrating how AI-driven methodologies can improve decision-making under uncertainty. Particular emphasis is placed on interdisciplinary research with clear industrial applicability and the adoption of open science practices including data and code sharing to enhance reproducibility.</p>
     
     <p>
         Appel publié par International Journal of Production Research.
         
-        <a href="https://think.taylorandfrancis.com/special_issues/ai-driven-decision-making/">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://think.taylorandfrancis.com/special_issues/ai-driven-decision-making/">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/tandf-ai-driven-decision-making-under-uncertain-environments-theory-methods-and-industrial-applications/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -540,85 +542,6 @@
         <li>October 1, 2026: Submissions open</li>
         
         <li>January 31, 2027: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Innovations in Production Planning: Emerging Problems and Modern Solution Paradigms]]></title>
-            <link>https://kerostig.org/call/tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms/</link>
-            <guid>tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Mirco Peron</strong>, NEOMA Business School</p>
-        
-        <p><strong>Ibrahim Kucukkoc</strong>, Balikesir University</p>
-        
-        <p><strong>Daniel Alejandro Rossit</strong>, Universidad Nacional del Sur</p>
-        
-        <p><strong>Ilkyeong Moon</strong>, Seoul National University</p>
-        
-        <p><strong>Olga Battaïa</strong>, KEDGE Business School</p>
-        
-        <p><strong>Michael Pinedo</strong>, New York University</p>
-        
-    
-    
-    
-    <p>Production planning has historically been a central pillar of industrial engineering and operations management. Since the mid-20th century, the field has developed a rich body of classical problems and models, such as lot sizing, job shop and flow shop scheduling, capacity planning, assembly line balancing, material requirements planning (MRP), and aggregate production planning. These models provided structured ways to allocate resources, balance supply and demand, and coordinate activities across production systems, often under deterministic assumptions and with objectives focused primarily on cost and efficiency. Linear programming, dynamic programming, and combinatorial optimization offered rigorous formulations and exact methods, while heuristics and metaheuristics emerged to address large-scale and computationally complex instances.</p>
-    
-    <p>
-        Appel publié par International Journal of Production Research.
-        
-        <a href="https://think.taylorandfrancis.com/special_issues/ijpr-production-planning/">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/tandf-innovations-in-production-planning-emerging-problems-and-modern-solution-paradigms/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Evolution of classical planning problems (lot sizing, capacity planning, scheduling, assembly line balancing) in modern manufacturing contexts</li>
-        
-        <li>Planning in reconfigurable, modular, and hybrid manufacturing systems</li>
-        
-        <li>Integration of additive manufacturing and conventional processes in planning</li>
-        
-        <li>Additive manufacturing production scheduling</li>
-        
-        <li>Digital twin–enabled planning and real-time adaptive scheduling</li>
-        
-        <li>Production planning under sustainability, circular economy, emissions or carbon goals</li>
-        
-        <li>Resilience-oriented planning under uncertainty, disruptions, and volatility</li>
-        
-        <li>Advanced optimization methods: decomposition, robust/stochastic models, metaheuristics</li>
-        
-        <li>Machine learning, reinforcement learning, hybrid AI–optimization for planning</li>
-        
-        <li>Simulation–optimization frameworks and surrogate modeling</li>
-        
-        <li>Production Planning problems associated with customized environments (engineering-to-order, make-to-order, mass customization)</li>
-        
-        <li>Human–robot collaborative systems and operator-driven planning in the context of Industry 5.0</li>
-        
-        <li>Reinforcement learning / deep learning models applied to dynamic planning and scheduling, (e.g., graph neural network and RL architectures for scheduling problems)</li>
-        
-        <li>Optimization of production and inventory strategies in modern distribution systems (e.g., e-commerce, platform-based logistics)</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 30, 2026: Manuscript deadline</li>
         
     </ul>
     

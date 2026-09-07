@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : cyber-physical systems</title>
+        <link>https://kerostig.org/tag/cyber-physical-systems/</link>
+        <description>Derniers appels à publications avec le tag 'cyber-physical systems'.</description>
+        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : cyber-physical systems</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/cyber-physical-systems/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Artificial Intelligence–Enabled Production Systems: Empirical Evidence, Implementation Pipelines, and Industrial Applications]]></title>
+            <link>https://kerostig.org/call/tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications/</link>
+            <guid>tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications</guid>
+            <pubDate>Wed, 26 Aug 2026 03:26:19 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Ruoqi Geng</strong>, Cardiff University</p>
+        
+        <p><strong>Di Li</strong>, Warwick University</p>
+        
+        <p><strong>Yang Cheng</strong>, Aalborg University</p>
+        
+    
+    
+    
+    <p>This special issue addresses how artificial intelligence is becoming embedded in production systems, moving beyond standalone analytics tools to operational capabilities that reshape real-time planning, control, and improvement. The key challenge lies in integrating point solutions—such as deep reinforcement learning for rescheduling or deep learning for predictive maintenance—into reliable end-to-end workflows validated across diverse industrial settings.</p>
+    
+    <p>The special issue emphasizes empirically grounded research examining the complete AI implementation pipeline in production contexts. This includes business–AI alignment (translating production decisions into AI use cases), data readiness (governance, preparation, and integration), and deployment of AI into operational workflows. The focus is on understanding the enabling and constraining factors—data availability, organisational readiness, and human–AI interaction—that determine whether AI solutions succeed in real production environments.</p>
+    
+    <p>
+        Appel publié par Production Planning &amp; Control.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ai-enabled-production-systems/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>AI-Augmented Production Planning and Control</li>
+        
+        <li>Business–AI Alignment and AI Readiness Pipeline for Production Systems</li>
+        
+        <li>AI-enabled Quality and Process Control</li>
+        
+        <li>Agentic and Workflow-Oriented Deployment in Production</li>
+        
+        <li>AI-Enabled Cyber–Physical Production Systems and Digital Twins</li>
+        
+        <li>AI and Additive Manufacturing</li>
+        
+        <li>AI and Blockchain for Production Systems</li>
+        
+        <li>Human–AI Interaction and Organisational Transformation</li>
+        
+        <li>Empirical Innovations in Data, Measurement, and Evaluation</li>
+        
+        <li>Extended Production Contexts (Production-Adjacent Physical Operations)</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 1, 2026: Call for Papers released</li>
+        
+        <li>June 30, 2027: Manuscript submission deadline</li>
+        
+        <li>September 1, 2027: First-round decisions</li>
+        
+        <li>December 1, 2027: Revised manuscripts due</li>
+        
+        <li>June 1, 2028: Final decisions</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>
