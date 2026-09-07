@@ -161,10 +161,16 @@ export function echeance_du_bloc(texte) {
 }
 
 // Un bloc sans aucune date lisible est ecarte : cette page est une archive
-// permanente et diffChecker ne repasse un appel a active:false que quand il
-// DISPARAIT de sa source. Sans ce filtre, les appels morts de 2024 et 2025
-// s'afficheraient comme courants a vie -- meme piege que la page d'annonces de
-// la RIPME, meme parade que le MAX_AGE_MONTHS de reScraper.
+// permanente, un appel n'en disparait jamais, et la logique de disparition de
+// diffChecker ne peut donc pas le rattraper.
+//
+// L'archivage par echeance depassee de diffChecker, lui, attraperait ces
+// appels morts (il vise nommement les sources de type archive permanente) : ce
+// filtre n'est pas le seul rempart. Il agit plus tot et evite quatre appels
+// clos de 2024-2025 a l'extraction -- donc quatre appels au modele, et quatre
+// entrees creees pour etre archivees dans la foulee. Ce que lui seul couvre,
+// c'est l'appel dont le modele ne tire aucune date : sans echeance identifiee,
+// l'archivage par echeance n'a pas de prise.
 // Fonction pure, exportee pour test.
 export function bloc_est_ouvert(texte, maintenant = new Date()) {
     const { date } = echeance_du_bloc(texte);
