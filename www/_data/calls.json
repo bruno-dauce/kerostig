@@ -1,5 +1,201 @@
 [
   {
+    "journal": "Management & Avenir",
+    "abbreviation": "mav",
+    "issn": "1969-6574",
+    "metaTitle": "L’entreprise familiale : un modèle organisationnel dans un contexte de crises et de transitions ?",
+    "url": "https://managementetavenir.fr/appel-a-contributions-rma-sante-et-environnement-n12/",
+    "title": "L'entreprise familiale : un modèle organisationnel dans un contexte de crises et de transitions ?",
+    "slug": "mav-lentreprise-familiale-un-modele-organisationnel-dans-un-contexte-de-crises-et-de-transitions",
+    "contentHash": "01d77a7575681f4e0641e6a7e68aeabb95081f9e4556db166a794011bf44b22a",
+    "topics": [
+      "Fondements du modèle familial : une rationalité hybride combinant raison et émotion dans les processus décisionnels, la gouvernance et la stratégie",
+      "Gouvernance affective : confiance, professionnalisation et transparence dans les entreprises familiales et non-familiales",
+      "Résilience organisationnelle : vision à long terme, mémoire organisationnelle et engagement collectif comme sources de robustesse",
+      "Gestion des conflits émotionnels : rivalités fraternelles, tensions intergénérationnelles et leur impact sur l'apprentissage organisationnel",
+      "Conciliation entre tradition et innovation : mobilisation des valeurs fondatrices pour développer une innovation responsable et durable",
+      "Application du modèle familial aux organisations marchandes, associatives, coopératives et non gouvernementales",
+      "Capacité d'adaptation et de résilience des entreprises familiales face aux crises sanitaires, économiques, sociales et géopolitiques",
+      "Richesse socio-émotionnelle : liens émotionnels, sentiment d'appartenance et engagement des employés",
+      "Gestion des défis propres aux entreprises familiales : népotisme, succession, manque de professionnalisme et concentration du pouvoir",
+      "Stratégies de réponse aux problématiques financières, relationnelles, humaines et stratégiques en période de crises et de transitions"
+    ],
+    "description": {
+      "paragraphs": [
+        "Les entreprises familiales combinent logique économique et dimensions émotionnelles, poursuivant simultanément des objectifs financiers et sociaux. Représentant 83% des entreprises en France et constituant une part significative des grands groupes et entreprises de taille intermédiaire, elles se caractérisent par l'influence décisive d'une ou plusieurs familles sur leur gouvernance, management et culture organisationnelle. Ce numéro spécial explore comment le modèle hybride des entreprises familiales peut éclairer la résilience organisationnelle et servir de référence pour d'autres types d'organisations.",
+        "Les entreprises familiales présentent des avantages distinctifs face aux crises : perspective à long terme favorisant la durabilité, gestion prudente des risques, structure centralisée permettant l'agilité, enracinement dans les communautés locales et cohésion interne renforcée par les liens émotionnels et valeurs partagées. Ces caractéristiques soutiennent la résilience collective et l'engagement des employés. Cependant, elles font aussi face à des défis spécifiques liés aux dynamiques familiales : conflits interpersonnels, nepotisme, professionnalisme insuffisant et concentration du pouvoir.",
+        "Le dossier invite des contributions théoriques, conceptuelles et empiriques montrant comment le modèle familial peut aborder les enjeux financiers, relationnels, humains et stratégiques des organisations en crise. Les cinq axes thématiques couvrent les fondements d'une rationalité hybride, la gouvernance fondée sur la confiance, les mécanismes de résilience, la gestion constructive des conflits émotionnels et l'articulation entre tradition et innovation responsable."
+      ]
+    },
+    "tags": [
+      "family business",
+      "organizational resilience",
+      "hybrid rationality",
+      "governance",
+      "emotions at work",
+      "organizational culture",
+      "business succession",
+      "sme management"
+    ],
+    "editors": [
+      {
+        "name": "Sami Basly",
+        "affiliation": "Université des Antilles"
+      },
+      {
+        "name": "Vincent Calvez",
+        "affiliation": "ESSCA"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Publication du cahier spécial",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-03-31T10:00:00.000Z",
+        "description": "Date limite de soumission des articles",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2026-05-31T10:00:00.000Z",
+        "description": "Avis du comité scientifique",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-07-31T10:00:00.000Z",
+        "description": "Réception des textes définitifs",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-09-07T13:38:15.604Z"
+  },
+  {
+    "journal": "Management & Avenir",
+    "abbreviation": "mav",
+    "issn": "1969-6574",
+    "metaTitle": "Quel marketing à l’ère de la transition écologique et sociale ?",
+    "url": "https://managementetavenir.fr/appel-a-publications-rma-cahier-special/",
+    "title": "Quel marketing à l'ère de la transition écologique et sociale ?",
+    "slug": "mav-quel-marketing-a-lere-de-la-transition-ecologique-et-sociale",
+    "contentHash": "1091202e4dd6a508986d78e97fc625582047d248f1444429345068d6b53d745d",
+    "topics": [
+      "Interroger la consommation elle-même : transformer les modèles de consommation, questionner les besoins authentiques versus artificiels, promouvoir la sobriété et le ralentissement",
+      "Encourager des pratiques durables ayant un impact significatif au-delà du niveau individuel : secteurs à fort impact environnemental et social, actions collectives, rôle des gouvernements et régulations, influence des technologies et innovations",
+      "Explorer les engagements des entreprises et accompagner l'évolution des pratiques marketing : modèles d'affaires durables, circularité, défis de mise en place, tensions vécues par les marketeurs, indicateurs de performance",
+      "Prendre en compte les spécificités culturelles et les complexités locales : engagements des consommateurs dans les pays en développement, sensibilisation à la durabilité, mouvements collectifs selon les contextes culturels"
+    ],
+    "description": {
+      "paragraphs": [
+        "Face aux limites planétaires et aux dégâts environnementaux et sociaux, le marketing doit abandonner son approche traditionnelle centrée sur la croissance économique et les désirs éphémères pour contribuer activement à la transition écologique et sociale. Le champ du marketing durable émerge comme une discipline capable de créer de la valeur de manière systématique pour l'environnement, la société, les consommateurs et les entreprises, en s'inscrivant dans une logique macro-marketing qui élargit le périmètre du marché à l'ensemble des enjeux sociétaux.",
+        "Ce cahier spécial appelle des recherches transformatrices qui revisitent profondément les modèles de production et de consommation ainsi que les modes de vie. Les contributions attendues peuvent être conceptuelles ou empiriques et pourront explorer comment réorienter la consommation, encourager des pratiques durables à impact significatif au-delà du niveau individuel, transformer les engagements et pratiques marketing des entreprises, et adapter ces approches aux spécificités culturelles et contextes locaux."
+      ]
+    },
+    "tags": [
+      "marketing durable",
+      "transition écologique",
+      "transition sociale",
+      "consommation responsable",
+      "développement durable"
+    ],
+    "editors": [
+      {
+        "name": "Sihem Dekhili",
+        "affiliation": "ESSCA School of Management"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Publication du cahier spécial",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-09-08T10:00:00.000Z",
+        "description": "Diffusion de l'appel à contributions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-03-10T11:00:00.000Z",
+        "description": "Date limite des soumissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-09-07T13:38:15.604Z"
+  },
+  {
+    "journal": "RIMHE Revue Interdisciplinaire Management Homme(s) & Entreprise",
+    "abbreviation": "rimhe",
+    "issn": "2260-5584",
+    "metaTitle": "Intersectionnalité et GRH",
+    "url": "https://rimhe.com/uploaded/appel-a-publication-numero-special-intersectionnalite-et-grh.pdf",
+    "title": "Intersectionnalité et GRH",
+    "slug": "rimhe-intersectionnalite-et-grh",
+    "contentHash": "e4451a441babafaf0cd7c48e38ee7cb0d4b9604d8baffa04c1b73abda0d6cce8",
+    "topics": [
+      "Intersectionnalité et discrimination dans les organisations",
+      "Apports et limites du concept d'intersectionnalité pour les sciences de gestion et la GRH",
+      "Discrimination intersectionnelle et transparence des rémunérations",
+      "Enjeux des organisations modernes face à l'intersectionnalité"
+    ],
+    "description": {
+      "paragraphs": [
+        "La RIMHE lance un numéro spécial consacré à l'intersectionnalité et à la gestion des ressources humaines, en réponse à l'introduction de la notion de discrimination intersectionnelle dans la directive européenne 2023/970 sur la transparence des rémunérations. Le dossier vise à explorer ce défi majeur auquel font face les organisations contemporaines.",
+        "L'objectif du numéro spécial est d'établir un bilan critique des apports et des limites du concept d'intersectionnalité, emprunté au droit et à la sociologie, pour l'analyse en sciences de gestion et en GRH. La revue accueille des articles de nature conceptuelle, empirique ou méthodologique sur ces thématiques."
+      ]
+    },
+    "tags": [
+      "intersectionnalité",
+      "grh",
+      "discrimination",
+      "rémunération",
+      "gestion des ressources humaines"
+    ],
+    "editors": [
+      {
+        "name": "Sophia Belghiti-Mahut",
+        "affiliation": "RIMHE"
+      },
+      {
+        "name": "Anne-Françoise Bender",
+        "affiliation": "RIMHE"
+      },
+      {
+        "name": "Sana Henda",
+        "affiliation": "RIMHE"
+      },
+      {
+        "name": "Christine Naschberger",
+        "affiliation": "RIMHE"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Envoi de la 1ère version des textes complets",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": null,
+        "description": "Envoi de la 2ème version après relecture",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": null,
+        "description": "Acceptation finale",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-07T13:38:15.604Z"
+  },
+  {
     "journal": "Accounting Horizons",
     "abbreviation": "aaa",
     "issn": "1558-7975",
