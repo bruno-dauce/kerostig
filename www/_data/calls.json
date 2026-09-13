@@ -1,5 +1,1156 @@
 [
   {
+    "journal": "Astin Bulletin",
+    "abbreviation": "cup",
+    "issn": "1783-1350",
+    "metaTitle": "Risk Sharing (CLOSED)",
+    "url": "https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/announcements/call-for-papers/call-for-papers-special-issue-on-risk-sharing",
+    "title": "Risk Sharing",
+    "slug": "cup-risk-sharing-closed",
+    "contentHash": "7296228a89873b6b5b2410ab92b0ba62e5ca9d978ee61bda106ecd800999aed0",
+    "topics": [
+      "Economics of risk sharing and insurance: New economic models for risk sharing and (re)insurance mechanisms, especially in connection to decision theory, game theory and contract theory",
+      "Mathematics and data science of risk sharing: Novel mathematical and statistical tools to address challenging problems in risk sharing",
+      "Model uncertainty in risk sharing: Risk sharing models and mechanisms handling uncertainty in the decision-making process arising from lack of data, model misspecification, computational limitations, or behavioral issues",
+      "Alternative risk transfer: Catastrophe bonds, insurance-linked and longevity-linked securities",
+      "Parametric insurance: Predefined triggers for payouts based on specific parameters such as weather conditions or economic indicators",
+      "Innovative retirement products focusing on longevity risk sharing: Products addressing the challenge of outliving one's savings by spreading longevity risk",
+      "Blockchain Technology: Smart contracts and transparent records of transactions to enhance and automate risk sharing processes"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines contemporary developments in risk sharing across actuarial science, recognizing its importance in managing global interconnectedness, emerging risks like longevity and cyber threats, and climate change. The issue seeks contributions on how risk sharing mechanisms contribute to financial stability, social equity, and economic innovation by distributing risks fairly across parties and building confidence in investment.",
+        "The journal invites theoretical and applied papers addressing fundamental challenges in risk sharing economics, mathematical modeling, and uncertainty quantification. Submissions may cover economic models based on decision and game theory, advanced statistical tools, and approaches to handling model uncertainty in decision-making. Additionally, the issue welcomes contributions on practical innovations such as alternative risk transfer mechanisms, parametric insurance, longevity-linked products, and blockchain applications that automate and enhance risk sharing processes."
+      ]
+    },
+    "tags": [
+      "risk sharing",
+      "actuarial science",
+      "insurance",
+      "alternative risk transfer",
+      "longevity risk",
+      "mathematical modeling"
+    ],
+    "editors": [
+      {
+        "name": "An Chen",
+        "affiliation": "Ulm University"
+      },
+      {
+        "name": "Steven Vanduffel",
+        "affiliation": "Vrije Universiteit Brussel"
+      },
+      {
+        "name": "Ruodu Wang",
+        "affiliation": "University of Waterloo"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2024-11-15T11:00:00.000Z",
+        "description": "Deadline for manuscript submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-09-13T16:43:20.348Z"
+  },
+  {
+    "journal": "International Journal of Advertising",
+    "abbreviation": "tandf",
+    "issn": "1759-3948",
+    "metaTitle": "AI in Advertising: New Directions in Practice, Consumer Responses, and Research Methods",
+    "url": "https://think.taylorandfrancis.com/special_issues/ai-in-advertising-new-directions-in-practice-consumer-responses-and-research-methods/",
+    "title": "AI in Advertising: New Directions in Practice, Consumer Responses, and Research Methods",
+    "slug": "tandf-ai-in-advertising-new-directions-in-practice-consumer-responses-and-research-methods",
+    "contentHash": "9880b8671a6fd7ca873568d7b3cbe8f3c3d76e548f76cd10f4da5488c137ca78",
+    "topics": [
+      "Human-AI collaboration in advertising creative processes, including authorship, creative judgment, and practitioner roles across different contexts of advertising",
+      "AI-assisted campaign strategy, optimization, and automated decision-making",
+      "Agentic AI as a proactive partner in advertising practice and its implications for human oversight and accountability",
+      "Governance structures for human-AI collaboration in advertising agencies and brand organizations",
+      "The full range of human-AI collaborative modes, from tool use to co-creation to agentic delegation, and their implications for advertising practice and governance",
+      "Human-AI collaboration in prosocial and public interest advertising",
+      "Consumer perception, emotion, evaluation, and response to AI-generated advertising",
+      "AI-driven personalization and its effects on persuasion, privacy, and consumer trust, consent, data protection, and consumer vulnerability",
+      "Anthropomorphism, virtual influencers, AI digital twins, and AI agents as advertising vehicles",
+      "AI advertising across diverse contexts, such as PSAs, health communication, political advertising, public policy, and nonprofit campaigns",
+      "Ethical implications of AI advertising for vulnerable audiences, including children, older adults, patients, and politically targeted publics",
+      "Consumer awareness, literacy, and resistance in response to AI-driven advertising systems",
+      "Construct validity and stimulus equivalence in advertising experiments using AI-generated materials",
+      "Reliability and replicability standards for AI-assisted advertising research",
+      "Validity of AI-mediated data collection in advertising research",
+      "Research ethics of AI-simulated participants and agentic data collection in advertising studies",
+      "Privacy, consent, and data protection in AI-assisted research, synthetic data, and agentic data collection",
+      "Bias and representational equity introduced through AI-assisted research designs and/or AI-generated advertising content",
+      "Theoretical implications of human-AI collaboration for established advertising frameworks",
+      "Agentic AI in advertising research and the governance structures needed to maintain scholarly rigor"
+    ],
+    "description": {
+      "paragraphs": [
+        "Artificial intelligence is transforming advertising at multiple levels: as a tool for creative and strategic work, and as an autonomous agent capable of planning and executing tasks independently. This transformation raises fundamental questions about how advertising professionals collaborate with AI systems, how roles and authorship are being redefined, how consumers respond to AI-driven advertising, and what research methods and ethical safeguards are needed when AI participates in the research process itself.",
+        "The special issue invites contributions addressing three interconnected domains: human-AI collaboration in advertising practice and creative work; how AI-generated and AI-personalized advertising affects consumer perception and behavior; and how researchers should adapt their methodologies, standards, and ethical frameworks when collaborating with AI in data collection, stimulus generation, and analysis. Submissions may employ any methodological approach and should move beyond describing tools toward deeper insights about advertising, persuasion, and communication in the age of AI."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "advertising",
+      "human-ai collaboration",
+      "consumer response",
+      "research methods"
+    ],
+    "editors": [
+      {
+        "name": "Yang Feng",
+        "affiliation": "California State University, Fullerton"
+      },
+      {
+        "name": "Quan Xie",
+        "affiliation": "Southern Methodist University"
+      },
+      {
+        "name": "Joanna Strycharz",
+        "affiliation": "University of Amsterdam"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-08-01T10:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-08-31T10:00:00.000Z",
+        "description": "Manuscript deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:40:44.191Z"
+  },
+  {
+    "journal": "International Journal of Advertising",
+    "abbreviation": "tandf",
+    "issn": "1759-3948",
+    "metaTitle": "New Directions in Influencer Advertising: Persuasive Power, Brand Outcomes, and Societal Impact",
+    "url": "https://think.taylorandfrancis.com/special_issues/new-directions-in-influencer-advertising-persuasive-power-brand-outcomes-and-societal-impact/",
+    "title": "New Directions in Influencer Advertising: Persuasive Power, Brand Outcomes, and Societal Impact",
+    "slug": "tandf-new-directions-in-influencer-advertising-persuasive-power-brand-outcomes-and-societal-impact",
+    "contentHash": "40c582be91d8906de688261e4bbc6256101a620edd334bbc9f2b61f1acdb3041",
+    "topics": [
+      "Influencer advertising as a distinctive form of advertising and persuasive communication",
+      "Influencers as advertising sources, endorsers, creators, brand partners, cultural intermediaries, and social influence agents",
+      "Boundaries among authentic expression, commercial persuasion, sponsored content, branded entertainment, native advertising, electronic word-of-mouth, and public relations",
+      "New theoretical frameworks for understanding influencer advertising",
+      "Source credibility, expertise, authenticity, relatability, attractiveness, perceived similarity, and trustworthiness",
+      "Influencer–brand fit, product fit, audience fit, and value congruence",
+      "Message design, storytelling, humor, emotion, lifestyle appeals, visual execution, language, tone, and aesthetics",
+      "Product demonstrations, reviews, tutorials, testimonials, livestreams, short-form videos, and experiential advertising formats",
+      "Attitudes toward influencer ads, sponsored content, influencers, and brands",
+      "Persuasion knowledge, skepticism, advertising recognition, advertising literacy, and resistance",
+      "Parasocial and trans-parasocial relationships, emotional attachment, perceived intimacy, reciprocity, interaction, and co-creation",
+      "Brand attitudes, purchase intentions, brand trust, brand equity, consumer loyalty, and long-term brand relationships",
+      "Effects of influencer advertising across the customer journey and across product, service, nonprofit, health, public policy, and social cause contexts",
+      "Virtual influencers, AI-generated influencers, synthetic creators, digital avatars, and AI-assisted content production",
+      "Generative AI, deepfakes, synthetic media, and manipulated influencer content in advertising",
+      "Personalized and tailored influencer advertising and consumer receptivity to personalized influencer messages",
+      "Privacy concerns, perceived intrusiveness, surveillance concerns, consumer autonomy, and perceived control",
+      "Livestream interaction, real-time persuasion, social commerce, and shoppable content",
+      "Authenticity, identity, humanness, anthropomorphism, disclosure, and trust in synthetic or AI-assisted influence",
+      "Conditions under which influencer advertising backfires, including distrust, avoidance, influencer fatigue, and perceived inauthenticity",
+      "Hidden persuasion, sponsorship disclosure failures, deceptive advertising, misinformation, and corrective interventions",
+      "Deepfakes, manipulated influencer content, synthetic media, fabricated endorsements, and AI-generated claims",
+      "Consumer well-being, vulnerable audiences, representation, diversity, sustainability, regulation, and public trust"
+    ],
+    "description": {
+      "paragraphs": [
+        "Influencer advertising has become a central form of brand communication, evolving beyond traditional supplementary social media tactics. Brands increasingly leverage influencers, creators, livestream hosts, virtual personalities, and AI-generated personas to communicate persuasive messages and build consumer relationships. The special issue examines influencer advertising as a distinctive form of persuasive communication, recognizing that its power stems from embedded messages in personal narratives, lifestyle content, entertainment, and creator-audience relationships, increasingly enhanced by AI and synthetic content.",
+        "The effectiveness of influencer advertising raises important concerns about unintended consequences. When consumers perceive influencer content as overly commercialized, deceptive, or inauthentic, it may generate skepticism and distrust. Emerging challenges including deepfakes, manipulated content, synthetic media, and privacy concerns highlight the need to examine both the persuasive power and potential harms of influencer advertising.",
+        "This special issue seeks research that rethinks influencer advertising through the lens of advertising theory, persuasive communication, consumer responses, brand strategy, and societal impact. The editors encourage submissions offering meaningful theoretical, empirical, methodological, managerial, or policy contributions that move beyond incremental extensions and examine influencer advertising as a distinctive form with unique source characteristics, message features, relational dynamics, and ethical implications."
+      ]
+    },
+    "tags": [
+      "influencer marketing",
+      "advertising",
+      "persuasion",
+      "ai-generated content",
+      "consumer behavior",
+      "brand communication",
+      "ethics",
+      "synthetic media"
+    ],
+    "editors": [
+      {
+        "name": "Kacy Kim",
+        "affiliation": "Bryant University"
+      },
+      {
+        "name": "Changju Kim",
+        "affiliation": "Ritsumeikan University"
+      },
+      {
+        "name": "Hsuan-Ting Chen",
+        "affiliation": "Chinese University of Hong Kong"
+      },
+      {
+        "name": "Yoon Hi Sung",
+        "affiliation": "Yonsei University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-15T11:00:00.000Z",
+        "description": "GMC Tokyo 2027 submission deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-07-22T10:00:00.000Z",
+        "description": "GMC Tokyo 2027 Conference",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-09-01T10:00:00.000Z",
+        "description": "Special issue submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-09-30T10:00:00.000Z",
+        "description": "Special issue submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:40:44.191Z"
+  },
+  {
+    "journal": "Journal of the Operational Research Society",
+    "abbreviation": "tandf",
+    "issn": "1476-9360",
+    "metaTitle": "Operational Research and Artificial Intelligence for Transforming Healthcare",
+    "url": "https://think.taylorandfrancis.com/special_issues/jors-or-ai-healthcare/",
+    "title": "Operational Research and Artificial Intelligence for Transforming Healthcare",
+    "slug": "tandf-operational-research-and-artificial-intelligence-for-transforming-healthcare",
+    "contentHash": "6194ae802575353e1d863ef1fbd3eb42b1b2ee00855c933faea945d2278879e7",
+    "topics": [
+      "Machine learning and predictive modelling for patient flow, demand forecasting, and clinical decision support integrated with OR",
+      "Large language models, generative AI, and retrieval-augmented generation for extracting modelling insight from unstructured clinical documents and health records",
+      "Reinforcement learning and approximate dynamic programming for sequential decisions in screening, treatment, and care planning",
+      "Generative approaches to synthetic health data for modelling and privacy-preserving analysis",
+      "Optimisation of healthcare resources including workforce planning, scheduling, and capacity management using integrated AI and OR methodologies",
+      "Hybrid simulation–AI approaches for the design and evaluation of care delivery",
+      "Data-driven and digital-twin models of care pathways and healthcare delivery",
+      "Statistical and stochastic modelling of patient journeys and survival",
+      "AI-enhanced planning and delivery of care in emergency, unscheduled, and elective settings",
+      "Personalised and stratified care through AI-enabled pathways, screening, prevention, and chronic disease management",
+      "Human–AI collaboration in clinical and operational decision-making",
+      "Trustworthy AI in health addressing equity, ethics, transparency, and verification",
+      "Implementation and evaluation of OR/AI models in healthcare practice"
+    ],
+    "description": {
+      "paragraphs": [
+        "Healthcare systems globally face mounting challenges from aging populations and workforce constraints while simultaneously benefiting from expanding digital health data and artificial intelligence capabilities. This special issue explores how Operational Research and AI methods can be combined to improve healthcare planning, delivery, and evaluation. Building on prior work examining the OR-AI interface, this collection focuses specifically on healthcare applications where reliable and verifiable AI is critical.",
+        "The special issue seeks original research demonstrating substantive contributions at the intersection of OR and AI in healthcare contexts. Submissions should include methodological advances, applied studies with measurable practical value, and work addressing real-world implementation challenges. Papers focused solely on optimization or simulation without significant AI integration may be more appropriate for other venues."
+      ]
+    },
+    "tags": [
+      "operational research",
+      "artificial intelligence",
+      "healthcare",
+      "machine learning",
+      "optimization",
+      "simulation"
+    ],
+    "editors": [
+      {
+        "name": "Adele Marshall",
+        "affiliation": "Queen's University Belfast"
+      },
+      {
+        "name": "Laura Boyle",
+        "affiliation": "Queen's University Belfast"
+      },
+      {
+        "name": "Sally Brailsford",
+        "affiliation": "University of Southampton"
+      },
+      {
+        "name": "Erwin Hans",
+        "affiliation": "University of Twente"
+      },
+      {
+        "name": "Brian Denton",
+        "affiliation": "University of Michigan"
+      },
+      {
+        "name": "Martin Kunc",
+        "affiliation": "University of Southampton"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Expected publication",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-15T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2027-04-01T10:00:00.000Z",
+        "description": "First-round decisions",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:40:44.191Z"
+  },
+  {
+    "journal": "Aslib Journal of Information Management",
+    "abbreviation": "emerald",
+    "issn": "2050-3814",
+    "metaTitle": "AI Empowered Information Science for Sustainable Futures",
+    "url": "https://www.emerald.com/ajim/calls-for-submissions/1946/AI-Empowered-Information-Science-for-Sustainable?searchresult=1",
+    "title": "AI Empowered Information Science for Sustainable Futures",
+    "slug": "emerald-ai-empowered-information-science-for-sustainable-futures",
+    "contentHash": "9e65b2616583d4e543a1fc29804e4bb5d19eb03b969ff22d7e2ba0507743d4c1",
+    "topics": [
+      "AI and Data Science in Digital Libraries, Archives, and Preservation",
+      "Human Information Interaction and AI Enhanced User Experience",
+      "Knowledge Discovery and Organization",
+      "Data & Information Policy, Ethics, and Governance",
+      "Scholarly Communication, Bibliometrics, and Research Evaluation",
+      "AI Applications in Education, Healthcare, Cultural Heritage, etc.",
+      "Information Behavior and Social Informatics",
+      "Interdisciplinary and Emerging Topics in Information Science"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue seeks research examining how artificial intelligence is transforming information science, particularly from the Asia Pacific region. The collection aims to bring together cutting-edge theoretical and applied work that demonstrates how AI is reshaping the information ecosystem across traditional disciplinary boundaries.",
+        "The special issue prioritizes work that integrates AI with libraries, archives, and cultural heritage systems, emphasizes regional perspectives and case studies from Asia Pacific, and presents actionable research with societal impact linked to the UN Sustainable Development Goals."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "information science",
+      "sustainable development",
+      "asia pacific",
+      "digital libraries"
+    ],
+    "editors": [
+      {
+        "name": "Jie Ma",
+        "affiliation": "Jilin University"
+      },
+      {
+        "name": "Lihong Zhou",
+        "affiliation": "Wuhan University"
+      },
+      {
+        "name": "Naya Sucha-xaya",
+        "affiliation": "Chulalongkorn University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-01T11:00:00.000Z",
+        "description": "Opening date for manuscript submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-06-01T10:00:00.000Z",
+        "description": "Closing date for manuscript submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "International Journal of Contemporary Hospitality Management",
+    "abbreviation": "emerald",
+    "issn": "1757-1049",
+    "metaTitle": "Call for Critical Reflection Papers",
+    "url": "https://www.emerald.com/ijchm/calls-for-submissions/1944/Call-for-Critical-Reflection-Papers?searchresult=1",
+    "title": "Critical Reflection Papers",
+    "slug": "emerald-call-for-critical-reflection-papers",
+    "contentHash": "b584469b6f8dd497ec60b023185e9dc4f1a12532fc30f5c7b28fbd2a3e24942a",
+    "topics": [
+      "Critical synthesis of existing research in hospitality and tourism with theoretical and methodological recommendations",
+      "Critical analysis of research methods, data collection, and data analysis techniques with improvement recommendations",
+      "Critical synthesis of theories in hospitality and tourism with focus on contemporary insights",
+      "Critique of existing theories and proposal of alternative theoretical frameworks",
+      "Critique of dominant schools of thought and proposal of alternative approaches",
+      "Critical synthesis of industry best practices with cutting-edge insights",
+      "Building bridges between hospitality and tourism industry and academia",
+      "Critical issues and challenges facing hospitality and tourism businesses with contemporary solutions",
+      "Critical issues and challenges facing hospitality and tourism scholars and academic programs with specific recommendations",
+      "Under-investigated critical issues with feasible future research directions"
+    ],
+    "description": {
+      "paragraphs": [
+        "The International Journal of Contemporary Hospitality Management seeks Critical Reflection Papers that provide rigorous scholarly examinations of significant topics in hospitality and tourism management. These papers should synthesize existing research, critique current theories or methodologies, identify gaps in knowledge, or address pressing challenges facing the industry and academia. The journal particularly welcomes multidisciplinary and interdisciplinary approaches that bridge academic research with practical industry insights.",
+        "CRPs are primarily conceptual in nature but may include empirical components to strengthen their contributions. Papers should be maximum 7,000 words including all supplementary materials, with up to 30 references and a maximum of three tables and three figures. The journal invites established scholars and rising researchers in the field to contribute, with opportunities for multi-authored submissions and industry executive collaboration."
+      ]
+    },
+    "tags": [
+      "hospitality management",
+      "tourism management",
+      "critical analysis",
+      "literature synthesis",
+      "theory critique"
+    ],
+    "editors": [
+      {
+        "name": "Fevzi Okumus",
+        "affiliation": "University of Central Florida"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "Business & Society",
+    "abbreviation": "sage",
+    "issn": "1552-4205",
+    "metaTitle": "Business Models for Sustainability and the Future of Business-Society Relationships",
+    "url": "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj//pb-assets/cmscontent/BAS/SI%20BAS%20BMfS_Call%20for%20Papers-1788974172810.pdf",
+    "title": "Business Models for Sustainability and the Future of Business-Society Relationships",
+    "slug": "sage-business-models-for-sustainability-and-the-future-of-business-society-relationships",
+    "contentHash": "c8931bd80c3337ed6f7d4b077a107e318c4f3cd17f81c76d2ee26e7103f03bb8",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue invites submissions on business models that advance sustainability and shape evolving relationships between businesses and society."
+      ]
+    },
+    "tags": [
+      "business models",
+      "sustainability",
+      "business-society relationships"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-06-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "Financial Accountability and Management",
+    "abbreviation": "wiley",
+    "issn": "1468-0408",
+    "metaTitle": "Accounting and Accountability between Financial Imperatives and Public Values: Reconfiguring Conflict, Hybridity, and the Power of Calculative Devices",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14680408/homepage/call-for-papers/si-2026-000332",
+    "title": "Accounting and Accountability between Financial Imperatives and Public Values: Reconfiguring Conflict, Hybridity, and the Power of Calculative Devices",
+    "slug": "wiley-accounting-and-accountability-between-financial-imperatives-and-public-values-reconfiguring-conflict-hybridity-and-the-power-of-calculative-devices",
+    "contentHash": "f0c7ade501f8973d23f4a97b3fcfad61283a7d1a510dd7c5ce6cdc8cafc1de94",
+    "topics": [
+      "Accounting and accountability practices in hybrid organizations",
+      "Tension between financial imperatives and public values in organizational settings",
+      "Role of calculative devices and financial technologies in organizational governance",
+      "Conflict and hybridity in accounting systems",
+      "Power dynamics in financial measurement and reporting",
+      "Reconfiguration of accounting practices to address competing organizational values"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how accounting and accountability function within organizations that navigate the competing demands of financial performance and public service values. It explores the tensions that arise when financial imperatives intersect with broader social and public objectives, and how organizations attempt to reconcile these conflicts through hybrid approaches."
+      ]
+    },
+    "tags": [
+      "accounting",
+      "accountability",
+      "hybrid organizations",
+      "public values",
+      "financial imperatives",
+      "calculative devices"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "Financial Accountability and Management",
+    "abbreviation": "wiley",
+    "issn": "1468-0408",
+    "metaTitle": "Accounting for What Matters: Rethinking Public Sector Accounting and Accountability for Social Sustainability and Equity",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14680408/homepage/call-for-papers/si-2025-001055",
+    "title": "Accounting for What Matters: Rethinking Public Sector Accounting and Accountability for Social Sustainability and Equity",
+    "slug": "wiley-accounting-for-what-matters-rethinking-public-sector-accounting-and-accountability-for-social-sustainability-and-equity",
+    "contentHash": "2e6e5aa6c2970c560c6ea97d5a16eef2d74034a47c7e82a87e5970eefb56dc9d",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue invites research examining how public sector accounting and accountability mechanisms can be reformed to better address social sustainability and equity concerns. The call seeks contributions that challenge conventional approaches to public sector accounting and explore innovative frameworks for measuring and reporting on outcomes that matter for society, particularly those related to social sustainability and equitable distribution of public resources."
+      ]
+    },
+    "tags": [
+      "public sector accounting",
+      "accountability",
+      "social sustainability",
+      "equity"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-06-30T10:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "International Journal of Selection and Assessment",
+    "abbreviation": "wiley",
+    "issn": "1468-2389",
+    "metaTitle": "Beyond WEIRD Selection Research: Cross-Cultural, International, and Measurement Perspectives in Personnel Selection and Assessment",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14682389/cfp/IJSA-CFP-Beyond-WEIRD-Selection-Research-1789007304147.pdf",
+    "title": "Beyond WEIRD Selection Research: Cross-Cultural, International, and Measurement Perspectives in Personnel Selection and Assessment",
+    "slug": "wiley-beyond-weird-selection-research-cross-cultural-international-and-measurement-perspectives-in-personnel-selection-and-assessment",
+    "contentHash": "b7e4cf536e267d1f79d8dc7d5df5016fcf186a1cf5095b087a10b86e6835f06a",
+    "topics": [
+      "Cross-cultural and international perspectives on personnel selection and assessment",
+      "Measurement equivalence and validity of selection instruments across cultural contexts",
+      "Selection practices and fairness in non-WEIRD (Western, Educated, Industrialized, Rich, Democratic) populations",
+      "Cultural adaptation and localization of selection methods",
+      "Diversity, equity, and inclusion in global talent acquisition and assessment",
+      "Organizational and societal differences affecting selection outcomes across countries",
+      "Alternative assessment approaches reflecting diverse cultural values and competency frameworks"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue addresses the overrepresentation of Western, Educated, Industrialized, Rich, and Democratic (WEIRD) populations in personnel selection and assessment research. It seeks to broaden the field's understanding by examining selection practices, measurement approaches, and fairness considerations across diverse cultural and international contexts.",
+        "The issue welcomes research that explores how selection instruments function across different populations, examines cultural variations in competencies and assessment methods, and investigates the validity and applicability of established selection practices globally. Contributors are encouraged to address measurement equivalence, cross-cultural validation, and the development of culturally-informed selection strategies."
+      ]
+    },
+    "tags": [
+      "personnel selection",
+      "cross-cultural research",
+      "measurement",
+      "international",
+      "diversity and inclusion",
+      "organizational psychology",
+      "assessment"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-08-31T10:00:00.000Z",
+        "description": "Deadline for submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "Human Resource Management Journal",
+    "abbreviation": "wiley",
+    "issn": "1748-8583",
+    "metaTitle": "Call for Special Issue Proposals",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/17488583/cfp/HRMJ-Call-for-SI-Proposals-July2026-1784073913747.pdf",
+    "title": "Special Issue Proposals",
+    "slug": "wiley-call-for-special-issue-proposals",
+    "contentHash": "75f77d4a1c74a60e870690e9111e38c6a4105bac4352c424b217ab6621b55258",
+    "topics": [
+      "Themes related to the core aims and scope of the Journal",
+      "Cutting edge theoretical contributions",
+      "Methodological innovation and rigour",
+      "Critical scholarship engaging with policy and/or practice"
+    ],
+    "description": {
+      "paragraphs": [
+        "The Human Resource Management Journal invites proposals for special issues that address contemporary topics within human resource management. Proposals should demonstrate significant theoretical advancement, employ rigorous and innovative methodologies, and engage critically with real-world policy and practice issues relevant to the field."
+      ]
+    },
+    "tags": [
+      "human resource management",
+      "special issue proposals"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-08-25T10:00:00.000Z",
+        "description": "Submission deadline for special issue proposals",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "Financial Accountability and Management",
+    "abbreviation": "wiley",
+    "issn": "1468-0408",
+    "metaTitle": "Changing Modes of Coordination: Accounting Implications of Vertical Public Service Reforms",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14680408/cfp/FAAM-CFP-Changing-Modes-of-Coordination-2025-1739417613630.pdf",
+    "title": "Changing Modes of Coordination: Accounting Implications of Vertical Public Service Reforms",
+    "slug": "wiley-changing-modes-of-coordination-accounting-implications-of-vertical-public-service-reforms",
+    "contentHash": "c3d4990bee8e57edaa5ee7c76ead3cc321baa6d24308cf845fbea58437b69ac0",
+    "topics": [
+      "Accounting implications of vertical public service reforms",
+      "Coordination mechanisms in public sector organizations",
+      "Changes in modes of coordination affecting financial reporting and accountability"
+    ],
+    "description": {
+      "paragraphs": [
+        "This call invites research examining how shifts in vertical coordination structures within public service delivery systems create accounting and financial management challenges. The special issue seeks to understand the implications of reformed public sector organizational arrangements on accounting practices, reporting frameworks, and stakeholder accountability mechanisms."
+      ]
+    },
+    "tags": [
+      "public sector accounting",
+      "public service reforms",
+      "coordination",
+      "vertical integration"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-02-28T11:00:00.000Z",
+        "description": "Submission to workshop (if desired)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-01-31T11:00:00.000Z",
+        "description": "Deadline for final paper submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "Expert Systems",
+    "abbreviation": "wiley",
+    "issn": "1468-0394",
+    "metaTitle": "Computer Applications Frontiers: Opportunities, Challenges, Technologies and Applications",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers/si-2026-000838",
+    "title": "Computer Applications Frontiers: Opportunities, Challenges, Technologies and Applications",
+    "slug": "wiley-computer-applications-frontiers-opportunities-challenges-technologies-and-applications",
+    "contentHash": "c16b9dc22022eb5e00ea899a9d4a0ea587ae47e7aa7a4d9b107487495565660e",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue explores emerging frontiers in computer applications, examining new opportunities and challenges in the field. The call invites research on innovative technologies and practical applications that advance the landscape of computer science and its real-world implementations."
+      ]
+    },
+    "tags": [
+      "computer applications",
+      "emerging technologies"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-08-20T10:00:00.000Z",
+        "description": "Deadline for Submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "The International Journal of Health Planning and Management",
+    "abbreviation": "wiley",
+    "issn": "1099-1751",
+    "metaTitle": "Digital Health and Artificial Intelligence in Health Planning: Innovations, Ethics, and Policy Impact",
+    "url": "https://onlinelibrary.wiley.com/page/journal/10991751/homepage/call-for-papers/digital-health-and-ai",
+    "title": "Digital Health and Artificial Intelligence in Health Planning: Innovations, Ethics, and Policy Impact",
+    "slug": "wiley-digital-health-and-artificial-intelligence-in-health-planning-innovations-ethics-and-policy-impact",
+    "contentHash": "d424bb4da52725a7f2b3a40dc11a387508adf0356fffbadc1e17472a851228ba",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue explores the intersection of digital health technologies and artificial intelligence within health planning contexts. It addresses innovations that leverage AI and digital solutions to improve health systems, while examining the ethical considerations and policy implications that arise from their implementation and adoption."
+      ]
+    },
+    "tags": [
+      "digital health",
+      "artificial intelligence",
+      "health planning",
+      "health policy",
+      "healthcare innovation"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-01-15T11:00:00.000Z",
+        "description": "Deadline for abstract submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-05-30T10:00:00.000Z",
+        "description": "Deadline for full paper submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "Financial Accountability and Management",
+    "abbreviation": "wiley",
+    "issn": "1468-0408",
+    "metaTitle": "Exploring Standard-Setting Process in the Public Realm: Taking a Holistic View",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14680408/homepage/call-for-papers/si-2025-000822",
+    "title": "Exploring Standard-Setting Process in the Public Realm: Taking a Holistic View",
+    "slug": "wiley-exploring-standard-setting-process-in-the-public-realm-taking-a-holistic-view",
+    "contentHash": "c7b16768af367336f9912c7c517fca8d639f272ce0d4777667683a8b0a5447f9",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue invites submissions that examine standard-setting processes operating in the public domain from comprehensive and interdisciplinary perspectives. The call seeks research that moves beyond narrow disciplinary approaches to understand how standards are developed, implemented, and evolve within public contexts."
+      ]
+    },
+    "tags": [
+      "standard-setting",
+      "public policy",
+      "governance"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2024-11-30T11:00:00.000Z",
+        "description": "Submission to workshop (if desired)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-07-15T10:00:00.000Z",
+        "description": "Deadline for final paper submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "Journal of Forecasting",
+    "abbreviation": "wiley",
+    "issn": "1099-131X",
+    "metaTitle": "Forecasting for a Sustainable Future: Energy Systems, Climate Risks, Environmental Governance, Financial Markets and Societal Resilience",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/1099131X/cfp/Call_for_Proposal_Journal_of_Forecasting_Special_Issue-1788952488920.pdf",
+    "title": "Forecasting for a Sustainable Future: Energy Systems, Climate Risks, Environmental Governance, Financial Markets and Societal Resilience",
+    "slug": "wiley-forecasting-for-a-sustainable-future-energy-systems-climate-risks-environmental-governance-financial-markets-and-societal-resilience",
+    "contentHash": "3083eca5e0f55b5da642130542bead0617a8a74afd5ca1c0f696b0bb8da7fcff",
+    "topics": [
+      "Energy systems forecasting",
+      "Climate risk assessment and prediction",
+      "Environmental governance and policy forecasting",
+      "Financial markets sustainability",
+      "Societal resilience forecasting",
+      "Integration of forecasting methods for sustainability challenges"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue focuses on advancing forecasting methodologies to address critical sustainability challenges. The issue brings together research on predicting energy system transitions, assessing climate-related risks, modeling environmental governance outcomes, analyzing financial market sustainability dimensions, and forecasting factors that enhance societal resilience. The call welcomes contributions that apply forecasting techniques to understand and navigate the interconnected environmental, financial, and social systems shaping our sustainable future."
+      ]
+    },
+    "tags": [
+      "forecasting",
+      "sustainability",
+      "climate",
+      "energy",
+      "environmental governance",
+      "financial markets",
+      "resilience"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Special issue publication",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-09-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2028-04-30T10:00:00.000Z",
+        "description": "Final decisions",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "Expert Systems",
+    "abbreviation": "wiley",
+    "issn": "1468-0394",
+    "metaTitle": "Human-Robot Interaction (HRI) and Social Robots",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers/si-2025-000262",
+    "title": "Human-Robot Interaction (HRI) and Social Robots",
+    "slug": "wiley-human-robot-interaction-hri-and-social-robots",
+    "contentHash": "26c7a746c2c6fd179328779620c6825e7d93fba1f7ea23520ba46912d525f3a6",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue focuses on human-robot interaction and social robots. The call invites research contributions in this area."
+      ]
+    },
+    "tags": [
+      "human-robot interaction",
+      "social robots"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2025-05-31T10:00:00.000Z",
+        "description": "Deadline for Submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "Expert Systems",
+    "abbreviation": "wiley",
+    "issn": "1468-0394",
+    "metaTitle": "LLMs and Agentic AI in Healthcare",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers/si-2026-001060",
+    "title": "LLMs and Agentic AI in Healthcare",
+    "slug": "wiley-llms-and-agentic-ai-in-healthcare",
+    "contentHash": "0c30a7a2fad63a51b8a35b487a697f32e8cc8fe3ce362a831b0352818e461a62",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue focuses on the applications and implications of large language models and agentic artificial intelligence systems in healthcare contexts."
+      ]
+    },
+    "tags": [
+      "large language models",
+      "agentic ai",
+      "healthcare",
+      "artificial intelligence"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-31T11:00:00.000Z",
+        "description": "Deadline for Submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "Expert Systems",
+    "abbreviation": "wiley",
+    "issn": "1468-0394",
+    "metaTitle": "Open Innovations in Image and Signal Processing Approaches for Emerging Business Markets",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers/si-2022-010994",
+    "title": "Open Innovations in Image and Signal Processing Approaches for Emerging Business Markets",
+    "slug": "wiley-open-innovations-in-image-and-signal-processing-approaches-for-emerging-business-markets",
+    "contentHash": "6a0bf21cbeb884bd958b6cc9e2892c2bee8c659dbb23b4f5bf28611cccd84ac2",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue focuses on innovative image and signal processing methods and their applications within emerging business markets. The call seeks research that explores how cutting-edge processing techniques can be leveraged to address challenges and create opportunities in developing commercial sectors."
+      ]
+    },
+    "tags": [
+      "image processing",
+      "signal processing",
+      "business applications",
+      "innovation"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2023-03-02T11:00:00.000Z",
+        "description": "Deadline for Submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": false,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "Financial Accountability and Management",
+    "abbreviation": "wiley",
+    "issn": "1468-0408",
+    "metaTitle": "The past and future of control practices in public services",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14680408/homepage/call-for-papers/si-2026-000871",
+    "title": "The past and future of control practices in public services",
+    "slug": "wiley-the-past-and-future-of-control-practices-in-public-services",
+    "contentHash": "7404144eeda6d7bd08b1e06a2116c4cc055ecdfb45aea2dd0b941e364acea65b",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue examines the evolution and future trajectory of control practices within public service organizations, inviting scholars to contribute research that explores how control mechanisms have developed over time and where they are heading in contemporary governance contexts."
+      ]
+    },
+    "tags": [
+      "public services",
+      "control practices",
+      "governance"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-07-16T10:00:00.000Z",
+        "description": "Submission Deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "Financial Accountability and Management",
+    "abbreviation": "wiley",
+    "issn": "1468-0408",
+    "metaTitle": "Transformative Accountability: Rethinking Power, Practice and Possibility",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14680408/homepage/call-for-papers/si-2026-000836",
+    "title": "Transformative Accountability: Rethinking Power, Practice and Possibility",
+    "slug": "wiley-transformative-accountability-rethinking-power-practice-and-possibility",
+    "contentHash": "86c66a205903d0a4d8b4435c111171c424344035c933722d4da4c22eef050e75",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue invites research on transformative approaches to accountability that move beyond conventional frameworks. It seeks to examine how accountability mechanisms can be reconceived to address issues of power distribution, professional practice, and institutional possibilities."
+      ]
+    },
+    "tags": [
+      "accountability",
+      "governance",
+      "organizational change"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-07-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:20:55.735Z"
+  },
+  {
+    "journal": "Industrial Marketing Management",
+    "abbreviation": "elsevier",
+    "issn": "1873-2062",
+    "metaTitle": "Building a Sustainable World - the Role of Business Relationships and Networks",
+    "url": "https://www.sciencedirect.com/special-issue/336876/building-a-sustainable-world-the-role-of-business-relationships-and-networks",
+    "title": "Building a Sustainable World - the Role of Business Relationships and Networks",
+    "slug": "elsevier-building-a-sustainable-world-the-role-of-business-relationships-and-networks",
+    "contentHash": "0d89c9711d4dca9455ae200bf7edc1c16af4589f3ce9912fce5ce368a4fde50e",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue for Industrial Marketing Management explores how business relationships and networks contribute to creating a sustainable world. The call invites research examining the role of inter-organizational connections and collaborative approaches in advancing sustainability goals."
+      ]
+    },
+    "tags": [
+      "sustainability",
+      "business relationships",
+      "networks",
+      "industrial marketing"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-02-01T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:03:58.219Z"
+  },
+  {
+    "journal": "The Journal of Strategic Information Systems",
+    "abbreviation": "elsevier",
+    "issn": "1873-1198",
+    "metaTitle": "Digital Strategizing: Emerging Forms and Underexplored Contexts",
+    "url": "https://www.sciencedirect.com/special-issue/337047/digital-strategizing-emerging-forms-and-underexplored-contexts",
+    "title": "Digital Strategizing: Emerging Forms and Underexplored Contexts",
+    "slug": "elsevier-digital-strategizing-emerging-forms-and-underexplored-contexts",
+    "contentHash": "ec943f638c3261c377402819792e62a76f5d2ebd0492a49ef76b48e3bade23ec",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue in the Journal of Strategic Information Systems focuses on digital strategizing, examining new approaches and contexts that have received limited scholarly attention. The issue seeks to advance understanding of how organizations develop and implement strategic approaches in digital environments."
+      ]
+    },
+    "tags": [
+      "digital strategy",
+      "information systems"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-09-15T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:03:58.219Z"
+  },
+  {
+    "journal": "Journal of Business Venturing",
+    "abbreviation": "elsevier",
+    "issn": "1873-2003",
+    "metaTitle": "Entrepreneurial ethics: moral cognition, affect, and action under uncertainty",
+    "url": "https://www.sciencedirect.com/special-issue/336959/entrepreneurial-ethics-moral-cognition-affect-and-action-under-uncertainty",
+    "title": "Entrepreneurial ethics: moral cognition, affect, and action under uncertainty",
+    "slug": "elsevier-entrepreneurial-ethics-moral-cognition-affect-and-action-under-uncertainty",
+    "contentHash": "c95b3ee7aaceee362bf493a6bcb400039e51a86b3c3fcd1695b3da0cf7759837",
+    "topics": [
+      "Moral cognition in entrepreneurship",
+      "Affective processes in ethical decision-making",
+      "Ethical action under uncertainty",
+      "Entrepreneurial decision-making and ethics",
+      "Moral reasoning in venture creation",
+      "Emotional dimensions of ethical behavior"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue explores the ethical dimensions of entrepreneurship, focusing on how entrepreneurs engage in moral reasoning and decision-making. The call seeks research that examines the cognitive and emotional processes underlying ethical choices that entrepreneurs face, particularly in contexts marked by uncertainty and risk. The issue aims to advance understanding of how moral considerations shape entrepreneurial behavior and venture development.",
+        "Researchers are invited to submit work investigating the intersection of ethics, cognition, and emotion in entrepreneurial contexts. The special issue welcomes diverse perspectives on how entrepreneurs navigate ethical dilemmas, the role of affect in moral judgments, and mechanisms through which ethical considerations translate into concrete actions during the venture creation process."
+      ]
+    },
+    "tags": [
+      "entrepreneurship",
+      "ethics",
+      "moral cognition",
+      "decision-making",
+      "affect",
+      "uncertainty"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-09-01T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:03:58.219Z"
+  },
+  {
+    "journal": "Technovation",
+    "abbreviation": "elsevier",
+    "issn": "1879-2383",
+    "metaTitle": "Pathways for eco-industrial transformations in the process industries: In search of enhanced inter- and intra-organizational innovation models and production solutions",
+    "url": "https://www.sciencedirect.com/special-issue/328220/pathways-for-eco-industrial-transformations-in-the-process-industries-in-search-of-enhanced-inter-and-intra-organizational-innovation-models-and-production-solutions",
+    "title": "Pathways for eco-industrial transformations in the process industries: In search of enhanced inter- and intra-organizational innovation models and production solutions",
+    "slug": "elsevier-pathways-for-eco-industrial-transformations-in-the-process-industries-in-search-of-enhanced-inter-and-intra-organizational-innovation-models-and-production-solutions",
+    "contentHash": "84e535568762912b3dc1dede9f2ab6968d6c3b144a3f7633be22af59224c84b5",
+    "topics": [
+      "Eco-industrial transformation in process industries",
+      "Inter-organizational innovation models",
+      "Intra-organizational innovation models",
+      "Sustainable production solutions",
+      "Industrial ecology and symbiosis",
+      "Process industry sustainability"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue focuses on how process industries can achieve ecological transformation through innovative organizational approaches and production methods. The collection seeks research examining both collaborative mechanisms between organizations and internal innovation strategies that drive sustainability in sectors like chemicals, pharmaceuticals, food processing, and other resource-intensive manufacturing.",
+        "The special issue welcomes contributions exploring novel business models, technological innovations, and organizational practices that enable process industries to reduce environmental impact while maintaining economic viability. Research addressing how companies can develop and implement enhanced production solutions within this context is particularly encouraged."
+      ]
+    },
+    "tags": [
+      "eco-innovation",
+      "process industries",
+      "sustainability",
+      "organizational innovation",
+      "industrial transformation"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-11-15T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:03:58.219Z"
+  },
+  {
+    "journal": "Industrial Marketing Management",
+    "abbreviation": "elsevier",
+    "issn": "1873-2062",
+    "metaTitle": "Trust Under Disruption in B2B Relationships: Repair, Reciprocity, and Resilience in a Fragmenting World",
+    "url": "https://www.sciencedirect.com/special-issue/336877/trust-under-disruption-in-b2b-relationships-repair-reciprocity-and-resilience-in-a-fragmenting-world",
+    "title": "Trust Under Disruption in B2B Relationships: Repair, Reciprocity, and Resilience in a Fragmenting World",
+    "slug": "elsevier-trust-under-disruption-in-b2b-relationships-repair-reciprocity-and-resilience-in-a-fragmenting-world",
+    "contentHash": "11c91bf795abb43b397ac2e81ac4d6dd62d05f26f3d678575b6bef20883a6f8d",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how trust functions in business-to-business relationships when confronted with significant disruptions and fragmentation. The focus encompasses the mechanisms through which organizations can repair damaged trust, the role of reciprocity in maintaining relationships under stress, and the capacity for resilience in unstable market environments."
+      ]
+    },
+    "tags": [
+      "b2b relationships",
+      "trust",
+      "disruption",
+      "resilience"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-08-01T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-13T16:03:58.219Z"
+  },
+  {
     "journal": "Management & Avenir",
     "abbreviation": "mav",
     "issn": "1969-6574",
@@ -413,8 +1564,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Technology in Society",
@@ -1273,22 +2425,22 @@
     "url": "https://www.sciencedirect.com/special-issue/327119/integrated-care-and-public-health",
     "title": "Integrated Care and Public Health",
     "slug": "elsevier-integrated-care-and-public-health",
-    "contentHash": "6fa5db9925c7165ac120d17b0ee5df40814c29c7d686e4dea356731887985e59",
+    "contentHash": "a15e3ec5f0f94970ce884b97fbf7ebd2356f51bfde913b458d36b52ddb561438",
     "topics": [],
     "description": {
       "paragraphs": [
-        "This call seeks contributions addressing the intersection of integrated care approaches and public health practice and policy. The special issue welcomes research exploring how integrated care models can be implemented, evaluated, and scaled within public health contexts."
+        "This call invites submissions exploring the intersection of integrated care approaches and public health perspectives. The special issue seeks contributions that examine how coordinated and collaborative healthcare systems can address population-level health outcomes and community needs."
       ]
     },
     "tags": [
-      "public health",
-      "integrated care"
+      "integrated care",
+      "public health"
     ],
     "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-30T10:00:00.000Z",
+        "date": "2027-03-31T10:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -1897,8 +3049,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Journal of Systems and Software",
@@ -1939,8 +3092,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Journal of Destination Marketing & Management",
@@ -2002,8 +3156,9 @@
     "editors": [],
     "associate_editors": [],
     "dates": [],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Technology in Society",
@@ -2243,8 +3398,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Marine Policy",
@@ -2276,8 +3432,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Journal of Destination Marketing & Management",
@@ -2514,7 +3671,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-10-13T16:20:55.735Z"
   },
   {
     "journal": "Benchmarking: An International Journal",
@@ -5527,8 +6685,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-10-13T16:40:44.191Z"
   },
   {
     "journal": "Asia Pacific Business Review",
@@ -5865,7 +7024,7 @@
     "url": "https://think.taylorandfrancis.com/special_issues/digitalization-greenization-synergy-in-emerging-markets/",
     "title": "Digitalization-Greenization Synergy in Emerging Markets",
     "slug": "tandf-digitalization-greenization-synergy-in-emerging-markets",
-    "contentHash": "bd251c3c5340794e55016bb9d0c83c62e9becbca4a8a8845133884f6949806e0",
+    "contentHash": "81abd7e29a222a42c57ebaf4ef6409e6d8adce44e6636edbfe8b7eacf5f392c2",
     "topics": [
       "Digital-Green Investment Efficiency",
       "Carbon Markets and Digital Platforms",
@@ -5881,16 +7040,16 @@
     ],
     "description": {
       "paragraphs": [
-        "Emerging markets are experiencing structural transformation through the integration of digital technologies with green energy systems, creating opportunities for economic growth and sustainability. This digitalization-greenization synergy aims to enhance efficiency and resilience, yet emerging markets face significant obstacles including regulatory gaps, financial limitations, and unequal access to digital and energy infrastructure.",
-        "The special issue seeks research on how this digital-green transition influences macroeconomic dynamics, financial systems, investment patterns, and trade in emerging economies. Theoretical and empirical studies examining inclusive growth, green finance, trade competitiveness, and policy design are particularly welcome, with focus on the economic and financial dimensions of this dual transformation."
+        "Emerging markets are experiencing transformative changes as digital technologies and green transitions converge, creating new opportunities and challenges. This special issue examines how the integration of digital infrastructure with low-carbon energy systems affects economic performance, financial markets, and development outcomes in emerging economies, addressing questions of regulatory alignment, financial constraints, and equitable access to resources.",
+        "The issue seeks theoretical and empirical research on how digital-green transformation influences macroeconomic dynamics, investment flows, trade patterns, and policy design in emerging markets. Research should explore mechanisms linking technological advancement and environmental imperatives while considering implications for inclusive growth, financial systems, competitiveness, and institutional frameworks across diverse emerging market contexts."
       ]
     },
     "tags": [
+      "emerging markets",
       "digitalization",
       "green transition",
-      "emerging markets",
       "finance",
-      "energy infrastructure"
+      "trade"
     ],
     "editors": [
       {
@@ -5910,8 +7069,8 @@
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-09-30T10:00:00.000Z",
-        "description": "End date for paper submission",
+        "date": "2027-09-30T10:00:00.000Z",
+        "description": "Manuscript deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
@@ -7601,8 +8760,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-10-13T16:40:44.191Z"
   },
   {
     "journal": "International Journal of Tourism Cities",
@@ -7950,7 +9110,7 @@
     "url": "https://link.springer.com/collections/ehagifafae",
     "title": "Recent Advances in Optimization and Decision Making under Uncertainty: Theory and Algorithms",
     "slug": "springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms",
-    "contentHash": "e816e53c67028d7a8f5347245c7f9bbe651b2a46d454fd696323c6bc1f15d915",
+    "contentHash": "b7937afc4eaa727384de76e8a9d89bf835ce22e2fba1fb4657623e201114e650",
     "topics": [
       "Mathematical programming",
       "Convex, nonconvex, and mixed-integer optimization",
@@ -7967,17 +9127,17 @@
     ],
     "description": {
       "paragraphs": [
-        "This special issue focuses on recent theoretical and methodological advances in optimization and decision-making under uncertainty. It seeks contributions that develop new optimization models, analytical results, computational methodologies, and convergence theories, drawing from areas such as stochastic and robust optimization, game theory, sequential decision-making, and learning-based approaches.",
-        "The special issue is organized in conjunction with the International Conference on Operations Research (ICORSI 2026) at Indian Institute of Technology Delhi, India. However, it welcomes submissions from all researchers in these areas regardless of conference participation. All manuscripts undergo standard peer-review and accepted papers are published online before print."
+        "This special issue brings together recent advances in optimization and decision-making under uncertainty, focusing on theoretical contributions that strengthen the mathematical foundations and algorithmic techniques in operations research. The scope encompasses developments in stochastic, robust, and distributionally robust optimization, game theory, sequential decision-making, and learning-based methods that have expanded modern operations research's applicability.",
+        "The special issue welcomes original research presenting new optimization models, theoretical results, computational methodologies, and convergence analyses. While organized alongside ICORSI 2026 held at Indian Institute of Technology Delhi, the issue is open to all researchers in these areas regardless of conference participation."
       ]
     },
     "tags": [
       "optimization",
-      "uncertainty",
+      "decision-making under uncertainty",
       "stochastic optimization",
       "robust optimization",
-      "game theory",
-      "decision making"
+      "algorithms",
+      "operations research"
     ],
     "editors": [
       {
@@ -8302,8 +9462,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Gender Work and Organization",
@@ -8376,8 +9535,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Information Systems Journal",
@@ -8407,8 +9565,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Journal of Futures Markets",
@@ -8439,8 +9596,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Information Systems Journal",
@@ -8468,9 +9624,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Information Systems Journal",
@@ -8495,9 +9650,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Gender Work and Organization",
@@ -8558,9 +9712,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Canadian Journal of Administrative Sciences / Revue Canadienne des Sciences de l Administration",
@@ -8589,9 +9742,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "International Journal of Auditing",
@@ -8661,8 +9813,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-29T11:29:31.659Z"
+    "active": false,
+    "pubDate": "2026-08-29T11:29:31.659Z",
+    "gracePeriod": "2026-10-13T16:20:55.735Z"
   },
   {
     "journal": "Financial Markets Institutions and Instruments",
@@ -8752,9 +9905,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Canadian Journal of Administrative Sciences / Revue Canadienne des Sciences de l Administration",
@@ -8785,9 +9937,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Thunderbird International Business Review",
@@ -8817,8 +9968,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Thunderbird International Business Review",
@@ -8846,8 +9996,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Thunderbird International Business Review",
@@ -8886,8 +10035,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "R and D Management",
@@ -8935,8 +10083,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-29T11:29:31.659Z"
+    "active": false,
+    "pubDate": "2026-08-29T11:29:31.659Z",
+    "gracePeriod": "2026-10-13T16:20:55.735Z"
   },
   {
     "journal": "Gender Work and Organization",
@@ -9016,8 +10165,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Journal of Product Innovation Management",
@@ -9097,8 +10245,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "International Journal of Finance & Economics",
@@ -9133,9 +10280,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Decision Sciences",
@@ -9168,9 +10314,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Information Systems Journal",
@@ -9197,9 +10342,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Journal of Consumer Affairs",
@@ -9228,8 +10372,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Canadian Journal of Administrative Sciences / Revue Canadienne des Sciences de l Administration",
@@ -9259,8 +10402,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Journal of Consumer Affairs",
@@ -9288,8 +10430,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Journal of Consumer Affairs",
@@ -9321,8 +10462,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Public Administration Review",
@@ -9341,9 +10481,8 @@
     "editors": [],
     "associate_editors": [],
     "dates": [],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Canadian Journal of Administrative Sciences / Revue Canadienne des Sciences de l Administration",
@@ -9372,8 +10511,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Public Administration and Development",
@@ -9402,9 +10540,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Human Resource Management",
@@ -9448,8 +10585,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Gender Work and Organization",
@@ -9599,8 +10735,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Information Systems Journal",
@@ -9629,9 +10764,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Canadian Journal of Administrative Sciences / Revue Canadienne des Sciences de l Administration",
@@ -9660,9 +10794,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Canadian Journal of Administrative Sciences / Revue Canadienne des Sciences de l Administration",
@@ -9691,8 +10824,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Psychology and Marketing",
@@ -9722,9 +10854,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Growth and Change",
@@ -9755,8 +10886,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Human Resource Management",
@@ -9781,9 +10911,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Managerial and Decision Economics",
@@ -9895,8 +11024,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Journal of Futures Markets",
@@ -9924,8 +11052,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "R and D Management",
@@ -9961,8 +11088,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-29T11:29:31.659Z"
+    "active": false,
+    "pubDate": "2026-08-29T11:29:31.659Z",
+    "gracePeriod": "2026-10-13T16:20:55.735Z"
   },
   {
     "journal": "R and D Management",
@@ -9987,8 +11115,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-29T11:29:31.659Z"
+    "active": false,
+    "pubDate": "2026-08-29T11:29:31.659Z",
+    "gracePeriod": "2026-10-13T16:20:55.735Z"
   },
   {
     "journal": "Canadian Journal of Administrative Sciences / Revue Canadienne des Sciences de l Administration",
@@ -10018,9 +11147,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "International Journal of Tourism Research",
@@ -10050,8 +11178,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "British Journal of Industrial Relations",
@@ -10325,8 +11452,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Growth and Change",
@@ -10355,9 +11481,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Psychology and Marketing",
@@ -10382,9 +11507,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Human Resource Management",
@@ -10431,8 +11555,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Gender Work and Organization",
@@ -10515,9 +11638,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Public Administration",
@@ -10553,8 +11675,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Public Administration",
@@ -10588,8 +11709,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Human Resource Management",
@@ -10623,9 +11743,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Canadian Journal of Administrative Sciences / Revue Canadienne des Sciences de l Administration",
@@ -10656,9 +11775,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Public Administration and Development",
@@ -10687,9 +11805,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Managerial and Decision Economics",
@@ -10754,9 +11871,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Industrial Relations A Journal of Economy and Society",
@@ -10934,8 +12050,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "British Journal of Sociology",
@@ -11000,8 +12115,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "R and D Management",
@@ -11039,8 +12153,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-29T11:29:31.659Z"
+    "active": false,
+    "pubDate": "2026-08-29T11:29:31.659Z",
+    "gracePeriod": "2026-10-13T16:20:55.735Z"
   },
   {
     "journal": "Psychology and Marketing",
@@ -11066,8 +12181,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Canadian Journal of Administrative Sciences / Revue Canadienne des Sciences de l Administration",
@@ -11097,8 +12211,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Information Systems Journal",
@@ -11127,8 +12240,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Gender Work and Organization",
@@ -11189,9 +12301,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Psychology and Marketing",
@@ -11219,9 +12330,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Information Systems Journal",
@@ -11250,8 +12360,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Canadian Journal of Administrative Sciences / Revue Canadienne des Sciences de l Administration",
@@ -11277,8 +12386,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Gender Work and Organization",
@@ -11333,8 +12441,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-29T09:09:21.693Z"
+    "active": false,
+    "pubDate": "2026-08-29T09:09:21.693Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Journal of Small Business Management",
@@ -11654,7 +12763,7 @@
     "url": "https://think.taylorandfrancis.com/special_issues/ai-enabled-production-systems/",
     "title": "Artificial Intelligence–Enabled Production Systems: Empirical Evidence, Implementation Pipelines, and Industrial Applications",
     "slug": "tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications",
-    "contentHash": "cc0d2734e22355e1ea69a75f1e59edc594937f5e7f1479d82024ae93ea4be166",
+    "contentHash": "e1b1197390cc031e53fab1602b712d5b533de6c7a4063870603cb1fce0d159df",
     "topics": [
       "AI-Augmented Production Planning and Control",
       "Business–AI Alignment and AI Readiness Pipeline for Production Systems",
@@ -11669,19 +12778,21 @@
     ],
     "description": {
       "paragraphs": [
-        "This special issue addresses how artificial intelligence is becoming embedded in production systems, moving beyond standalone analytics tools to operational capabilities that reshape real-time planning, control, and improvement. The key challenge lies in integrating point solutions—such as deep reinforcement learning for rescheduling or deep learning for predictive maintenance—into reliable end-to-end workflows validated across diverse industrial settings.",
-        "The special issue emphasizes empirically grounded research examining the complete AI implementation pipeline in production contexts. This includes business–AI alignment (translating production decisions into AI use cases), data readiness (governance, preparation, and integration), and deployment of AI into operational workflows. The focus is on understanding the enabling and constraining factors—data availability, organisational readiness, and human–AI interaction—that determine whether AI solutions succeed in real production environments.",
-        "The call welcomes submissions using real operational evidence such as production logs, IoT data, case studies, and field experiments. Studies must demonstrate how AI augments production technologies with measurable outcomes. Purely conceptual, literature-review, or simulation-based contributions without industrial validation are outside scope."
+        "This special issue seeks empirical research on how artificial intelligence augments production technologies and decision-making in real operational contexts. The focus is on system-level evidence demonstrating how point AI solutions integrate with production data environments to form end-to-end decision workflows, addressing the implementation pipeline from business-AI alignment through data readiness to deployment and workflow embedding.",
+        "The call emphasizes empirical validation using real operational evidence such as production logs, IoT sensors, industrial case studies, and field experiments. Purely conceptual, literature-review based, or synthetic-data studies are outside scope. Submissions should demonstrate how AI is operationalized across the production decision pipeline and linked to measurable production outcomes.",
+        "The special issue welcomes papers examining AI implementation stages (business–AI alignment, data readiness, deployment) across various production technologies including cyber–physical systems, additive manufacturing, and blockchain-enabled infrastructures, with particular interest in business-to-AI translation, data governance, and human–AI interaction in operational workflows."
       ]
     },
     "tags": [
       "artificial intelligence",
       "production systems",
-      "operations management",
-      "implementation",
+      "manufacturing",
       "empirical research",
+      "implementation pipeline",
+      "cyber-physical systems",
       "digital twins",
-      "cyber-physical systems"
+      "data readiness",
+      "human-ai interaction"
     ],
     "editors": [
       {
@@ -11690,7 +12801,7 @@
       },
       {
         "name": "Di Li",
-        "affiliation": "Warwick University"
+        "affiliation": "University of Warwick"
       },
       {
         "name": "Yang Cheng",
@@ -11699,6 +12810,11 @@
     ],
     "associate_editors": [],
     "dates": [
+      {
+        "date": null,
+        "description": "Special Issue publication",
+        "is_full_paper_submission_deadline": false
+      },
       {
         "date": "2026-09-01T10:00:00.000Z",
         "description": "Call for Papers released",
@@ -16126,7 +17242,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-18T07:45:36.781Z"
+    "pubDate": "2026-08-18T07:45:36.781Z",
+    "gracePeriod": "2026-10-13T16:43:20.348Z"
   },
   {
     "journal": "Human Resource Management Journal",
@@ -16157,8 +17274,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Corporate Governance An International Review",
@@ -16195,9 +17311,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Corporate Governance An International Review",
@@ -16251,9 +17366,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Journal of Supply Chain Management",
@@ -16327,9 +17441,8 @@
     "editors": [],
     "associate_editors": [],
     "dates": [],
-    "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Creativity and Innovation Management",
@@ -16373,8 +17486,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Human Resource Management Journal",
@@ -16419,9 +17531,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Corporate Governance An International Review",
@@ -16465,9 +17576,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Journal of Supply Chain Management",
@@ -16566,9 +17676,8 @@
     "editors": [],
     "associate_editors": [],
     "dates": [],
-    "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Journal of Supply Chain Management",
@@ -16649,9 +17758,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Journal of Consumer Behaviour",
@@ -16661,12 +17769,11 @@
     "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/Final_2025_JCB_SI_Template-1743697545893.docx",
     "title": "Special Issue Proposals",
     "slug": "wiley-outlined-here",
-    "contentHash": "86f122f6847aa9ece70601ee572ad2c1f1549630057792e5f8cbd9a4bd6a0f6b",
+    "contentHash": "27a0cd266f32b4158c6d6ea80c391db6bed82d79f9fde5020a9cd31972cdf90c",
     "topics": [],
     "description": {
       "paragraphs": [
-        "The Journal of Consumer Behaviour invites researchers to propose new special issues through a formal submission process. Proposals should follow specific guidelines and procedures outlined in the journal's template and application form.",
-        "Potential guest editors must submit their special issue proposals within a designated application window. The journal will consider proposals for special issues planned for 2026 and 2027, with submissions evaluated according to established criteria."
+        "The Journal of Consumer Behaviour invites authors to propose new special issues through a formal application process. Proposals must follow specified procedures and be submitted using a provided application form template."
       ]
     },
     "tags": [
@@ -16678,18 +17785,17 @@
     "dates": [
       {
         "date": "2025-08-01T10:00:00.000Z",
-        "description": "Special Issue Proposal application window opens",
+        "description": "Application submission window opens for Special Issue Proposals",
         "is_full_paper_submission_deadline": false
       },
       {
         "date": "2025-08-15T10:00:00.000Z",
-        "description": "Special Issue Proposal application window closes; deadline for Special Issue Proposals for 2026/2027",
+        "description": "Application submission deadline for Special Issue Proposals",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Human Resource Management Journal",
@@ -16745,9 +17851,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Human Resource Management Journal",
@@ -16771,9 +17876,8 @@
     "editors": [],
     "associate_editors": [],
     "dates": [],
-    "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Journal of Consumer Behaviour",
@@ -16832,8 +17936,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Journal of Consumer Behaviour",
@@ -16884,8 +17987,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Journal of Consumer Behaviour",
@@ -16940,9 +18042,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Journal of Consumer Behaviour",
@@ -17006,9 +18107,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Journal of Consumer Behaviour",
@@ -17067,9 +18167,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Journal of Consumer Behaviour",
@@ -17131,9 +18230,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "International Journal of Selection and Assessment",
@@ -17158,8 +18256,9 @@
     "editors": [],
     "associate_editors": [],
     "dates": [],
-    "active": true,
-    "pubDate": "2026-08-17T15:52:40.006Z"
+    "active": false,
+    "pubDate": "2026-08-17T15:52:40.006Z",
+    "gracePeriod": "2026-10-13T16:20:55.735Z"
   },
   {
     "journal": "Corporate Governance An International Review",
@@ -17196,9 +18295,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "Creativity and Innovation Management",
@@ -17236,8 +18334,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-17T15:52:40.006Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-17T15:52:40.006Z"
   },
   {
     "journal": "International Journal of Management Reviews",
@@ -18867,7 +19964,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T22:00:20.665Z"
+    "pubDate": "2026-08-12T22:00:20.665Z",
+    "gracePeriod": "2026-10-13T16:46:42.121Z"
   },
   {
     "journal": "GRH",
@@ -18952,7 +20050,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T22:00:20.665Z"
+    "pubDate": "2026-08-12T22:00:20.665Z",
+    "gracePeriod": "2026-10-13T16:46:42.121Z"
   },
   {
     "journal": "Comptabilité - Contrôle - Audit",
@@ -21482,7 +22581,7 @@
     "url": "https://link.springer.com/collections/gdhggicicb",
     "title": "Global Supply Chain Reconfiguration Under Tariff Uncertainty",
     "slug": "springer-global-supply-chain-reconfiguration-under-tariff-uncertainty",
-    "contentHash": "ec366224d834e24eafc53b4b83a093b7dd455d0b47870318fdbc0cb3099c9acf",
+    "contentHash": "f933033291f2f1cb334d6c44368fa688b11ab94a6bcd5882dd85b28bb31a1a82",
     "topics": [
       "Supply network redesign and optimization under tariff uncertainty",
       "Robust and stochastic optimization models for tariff-driven supply chain planning",
@@ -21499,22 +22598,18 @@
     ],
     "description": {
       "paragraphs": [
-        "This special issue addresses the urgent challenge of reconfiguring global supply chains in response to escalating tariff uncertainty and shifting trade policies. The unprecedented complexity of current tariff environments, characterized by high rates, retaliatory measures, and trade tensions, demands new decision-making approaches to support practical supply chain management.",
-        "The special issue seeks high-quality research that applies Operations Research and Artificial Intelligence methods to tackle these challenges. Contributions should include theoretical developments, methodological innovations, and applied modeling studies with real-world relevance, particularly those integrating OR, AI, supply chain management, and international economics."
+        "This special issue addresses the urgent need to understand and manage global supply chain reconfiguration in response to tariff uncertainty and shifting trade policies. Rising tariffs and trade tensions are forcing organizations to redesign their sourcing strategies, manufacturing locations, and logistics networks, creating significant practical challenges that require new analytical approaches.",
+        "The journal seeks high-quality contributions that apply operations research and artificial intelligence methods to develop decision-making models for supply chain management under tariff uncertainty. Both theoretical advances and practical case studies are welcome, particularly interdisciplinary research that combines OR, AI, supply chain management, and international economics with real-world applications."
       ]
     },
     "tags": [
       "supply chain management",
-      "tariff uncertainty",
+      "tariff policy",
       "operations research",
       "artificial intelligence",
-      "supply chain optimization"
+      "optimization"
     ],
     "editors": [
-      {
-        "name": "Guoqing Zhang",
-        "affiliation": "University of Windsor"
-      },
       {
         "name": "Jiaguo Liu",
         "affiliation": "Dalian Maritime University"
@@ -21522,6 +22617,10 @@
       {
         "name": "Hakan Yildiz",
         "affiliation": "Wayne State University"
+      },
+      {
+        "name": "Guoqing Zhang",
+        "affiliation": "University of Windsor"
       }
     ],
     "associate_editors": [],
@@ -23669,8 +24768,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Journal of Behavioral and Experimental Economics",
@@ -23979,8 +25079,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Emerging Markets Review",
@@ -24221,8 +25322,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Economic Modelling",
@@ -24313,8 +25415,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Resource and Energy Economics",
@@ -24874,8 +25977,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Journal of Financial Economics",
@@ -25125,8 +26229,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Decision Support Systems",
@@ -25555,8 +26660,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Technological Forecasting and Social Change",
@@ -26011,10 +27117,12 @@
     "url": "https://www.sciencedirect.com/special-issue/329889/improving-productivity-in-health-care",
     "title": "Improving productivity in health care",
     "slug": "elsevier-improving-productivity-in-health-care",
-    "contentHash": "8c91cf0a2d325d35a956a532550f0fd717cbafa0478ab17e0932ca35395b5928",
+    "contentHash": "7a0c723178f4df4872d8176a86cf10a3b8d67928cb8b0dd3648ff021cef1e111",
     "topics": [],
     "description": {
-      "paragraphs": []
+      "paragraphs": [
+        "This special issue focuses on approaches to enhance productivity within health care systems. It seeks submissions that address strategies and innovations aimed at improving the efficiency and effectiveness of health care delivery."
+      ]
     },
     "tags": [
       "health care",
@@ -26025,7 +27133,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-01T10:00:00.000Z",
+        "date": "2026-12-31T11:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -26061,7 +27169,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "The Journal of Strategic Information Systems",
@@ -27211,8 +28320,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Pacific-Basin Finance Journal",
@@ -27548,8 +28658,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "International Journal of Project Management",
@@ -28962,8 +30073,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Energy Economics",
@@ -29450,8 +30562,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "International Review of Economics & Finance",
@@ -33464,8 +34577,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-10-13T16:40:44.191Z"
   },
   {
     "journal": "Knowledge Management Research & Practice",
@@ -35179,8 +36293,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-10-13T16:40:44.191Z"
   },
   {
     "journal": "Journal of Sustainable Tourism",
@@ -35190,7 +36305,7 @@
     "url": "https://think.taylorandfrancis.com/special_issues/sustainable-luxury-tourism-opportunities-tensions/",
     "title": "Sustainable Luxury Tourism: Opportunities, Tensions, and Impacts",
     "slug": "tandf-sustainable-luxury-tourism-opportunities-tensions-and-impacts",
-    "contentHash": "c931c70703f9d1b637d12e94e1bef6914fe7529623f590928201a774c886554d",
+    "contentHash": "44669f73b3b9d1900263995e5eaa725a730b6cfa7e0bb97d6cccd017c8da52d3",
     "topics": [
       "Designing and conceptualizing sustainable luxury tourism experiences",
       "Luxury tourism consumption practices and sustainable behaviors",
@@ -35198,7 +36313,7 @@
       "Cultural authenticity and heritage in sustainable luxury experiences",
       "Personalization, exclusivity, and sustainability tensions in luxury tourism",
       "Storytelling, experience design, and sustainability communication",
-      "The environmental and social dark sides of luxury tourism",
+      "The environmental and social \"dark sides\" of luxury tourism",
       "Local communities, inclusion, and social value creation in sustainable luxury tourism",
       "Labor practices and working conditions in sustainable luxury hospitality",
       "Destination branding, image, and sustainable luxury positioning",
@@ -35207,17 +36322,15 @@
     ],
     "description": {
       "paragraphs": [
-        "Luxury tourism is growing rapidly, yet research has largely focused on economic dimensions while neglecting broader sustainability, social, and ethical implications. A fundamental tension exists between luxury's exclusivity and the responsible resource use required for sustainability. While many luxury tourists express concern for sustainability, limited empirical evidence shows how these concerns translate into actual behavior or what trade-offs they accept.",
-        "The experiences of local communities and workers remain largely overlooked, revealing gaps regarding social inequality and regenerative development. Luxury tourism can amplify inequalities by concentrating wealth in exclusive areas while burdening local communities, ecosystems, and workers. Additionally, technological innovations like artificial intelligence and virtual reality are transforming luxury tourism production and consumption, raising questions about authenticity, cultural representation, and digital exclusion.",
-        "This special issue seeks to advance knowledge on sustainable luxury tourism by exploring how it is defined, experienced, and measured globally across various contexts. The issue welcomes research on emerging luxury travel forms such as wellness and medical tourism, as well as studies examining tensions between luxury tourism's aspirational appeal and its darker sides including environmental degradation, cultural appropriation, and labor exploitation. Theoretical, conceptual, and empirical research adopting holistic approaches is encouraged, with preference for mixed-method studies spanning multiple countries and cultures with longitudinal designs."
+        "The luxury tourism sector is experiencing rapid growth, yet scholarship has largely concentrated on economic dimensions while neglecting sustainability, social, and ethical concerns. Despite increasing attention to the relationship between sustainability and luxury, fundamental questions remain about what sustainable luxury means given the inherent tension between exclusivity and responsible resource use, and whether consumers' sustainability concerns translate into actual purchasing decisions or involve meaningful trade-offs.",
+        "Current discourse overlooks local communities and workers, revealing gaps in understanding social inequality and how luxury tourism might support regenerative development. The sector often amplifies inequalities through exclusive enclaves that place burdens on local ecosystems and labor. Technological innovations like artificial intelligence and virtual reality further complicate this landscape by raising questions about authenticity, cultural representation, and access equity, while robust assessment methods for environmental and social impacts remain lacking.",
+        "This special issue seeks research that explores how sustainable luxury tourism is defined, experienced, and measured globally and across diverse contexts. It welcomes theoretical, conceptual, and empirical studies with holistic approaches, particularly those employing mixed or multi-method designs and examining multiple countries or cultures over time. The issue emphasizes examining both the aspirational appeal and detrimental impacts of luxury tourism, including environmental degradation, labor exploitation, and cultural appropriation."
       ]
     },
     "tags": [
       "sustainable tourism",
       "luxury tourism",
-      "sustainability",
-      "hospitality",
-      "tourism management"
+      "sustainability"
     ],
     "editors": [
       {
@@ -37917,8 +39030,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-10T23:47:12.235Z"
+    "active": false,
+    "pubDate": "2026-08-10T23:47:12.235Z",
+    "gracePeriod": "2026-10-13T16:20:55.735Z"
   },
   {
     "journal": "Industrial Management & Data Systems",
