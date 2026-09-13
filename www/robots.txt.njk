@@ -12,9 +12,15 @@ Sitemap: {{ meta.url }}/sitemap.xml
 #
 # Allow: / et Disallow: /data/ ne se contredisent pas -- a chemin concurrent,
 # c'est la regle la plus longue qui l'emporte, donc /data/ reste ferme.
+#
+# Les flux par tag (/tag/<slug>.xml) sont exclus : un flux par tag, c'est
+# autant de documents qui reprennent le contenu des fiches d'appel sans rien
+# y ajouter. Le joker vise bien les seuls flux -- les pages de tag, elles,
+# sont servies en /tag/<slug>/ et restent explorables.
 User-agent: *
 Allow: /
 Disallow: /data/
+Disallow: /tag/*.xml
 
 # Bots d'IA autorises explicitement, /data/ compris. Un jeton par groupe :
 # chaque editeur en declare plusieurs, un par usage, et ils ne se deduisent pas
