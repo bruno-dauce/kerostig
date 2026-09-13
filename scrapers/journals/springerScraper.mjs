@@ -86,6 +86,11 @@ const JOURNALS = [
 const CARD_SELECTOR = 'article.app-card-collection';
 const CARD_TITLE_LINK_SELECTOR = 'h2.app-card-collection__heading a.app-card-collection__heading-link';
 
+// Etat vide rendu par Springer quand une revue n'a aucune collection sous le
+// filtre demande (verifie sur /journal/11142/collections?filter=Open). Sa
+// presence distingue « rien a collecter » de « gabarit change ».
+const EMPTY_STATE_MARKER = 'No collections found';
+
 // RUSTINE, a remplacer par un vrai filtre. Certaines revues utilisent le
 // mecanisme "collections" de Springer non pas pour des appels mais pour
 // leurs rubriques permanentes (types d'article, filieres de soumission,
@@ -189,7 +194,11 @@ export const scraperObject = {
             }
         }
         console.log(`[springer] ${calls.length} appel(s) trouve(s) sur ${JOURNALS.length} revue(s)`);
-        console.log(`[springer] ${notFoundCount} appel(s) ignore(s), extraction du contenu brut echouee`);
+        // Conditionnee : imprimee a zero, cette ligne se lit « 0 appel,
+        // extraction echouee » et fait passer un passage sain pour une panne.
+        if (notFoundCount > 0) {
+            console.warn(`[springer] ${notFoundCount} appel(s) ignore(s), extraction du contenu brut echouee`);
+        }
         console.log(`[springer] ${ignoredCount} rubrique(s) permanente(s) ecartee(s) sur ${IGNORED_COLLECTION_URLS.size} listee(s)`);
 
         return calls;
@@ -208,7 +217,21 @@ async function get_listings(browser, listingUrl) {
         const found = await page.waitForSelector(CARD_SELECTOR, { timeout: 8000 })
             .then(() => true)
             .catch(() => false);
-        if (!found) return [];
+        if (!found) {
+            // Sans cette distinction, le `return []` etait muet : si le
+            // selecteur cessait de matcher, les 37 revues repartaient a vide
+            // et le bilan restait indiscernable d'un passage ou aucune revue
+            // n'a d'appel ouvert. Springer affiche un etat vide explicite, on
+            // s'en sert pour trancher.
+            const videLegitime = await page.evaluate(
+                (marqueur) => document.body?.innerText?.includes(marqueur) ?? false,
+                EMPTY_STATE_MARKER,
+            ).catch(() => false);
+            if (!videLegitime) {
+                console.warn(`[springer] ${CARD_SELECTOR} introuvable et aucun etat vide sur ${listingUrl} (structure modifiee ?)`);
+            }
+            return [];
+        }
 
         const entries = await page.$$eval(CARD_SELECTOR, (items, selector) => items.map(item => {
             const link = item.querySelector(selector);
