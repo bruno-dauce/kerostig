@@ -1,87 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>kerostig | Tag : decision making under uncertainty</title>
+        <title>kerostig | Tag : decision-making under uncertainty</title>
         <link>https://kerostig.org/tag/decision-making-under-uncertainty/</link>
-        <description>Derniers appels à publications avec le tag 'decision making under uncertainty'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <description>Derniers appels à publications avec le tag 'decision-making under uncertainty'.</description>
+        <lastBuildDate>Mon, 14 Sep 2026 08:23:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
-            <title>kerostig | Tag : decision making under uncertainty</title>
+            <title>kerostig | Tag : decision-making under uncertainty</title>
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/decision-making-under-uncertainty/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Contextual Optimization with Side Information: Theory, Methodology, and Applications]]></title>
-            <link>https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/</link>
-            <guid>springer-contextual-optimization-with-side-information-theory-methodology-and-applications</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <title><![CDATA[Recent Advances in Optimization and Decision Making under Uncertainty: Theory and Algorithms]]></title>
+            <link>https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/</link>
+            <guid>springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms</guid>
+            <pubDate>Thu, 03 Sep 2026 17:13:45 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
         
-        <p><strong>Stelios Bekiros</strong>, University of Turin</p>
+        <p><strong>Abdel Lisser</strong>, Paris-Saclay University</p>
         
-        <p><strong>Andrea D&#39;Ariano</strong>, Roma Tre University</p>
+        <p><strong>Jia Liu</strong>, Xi&#39;an Jiaotong University</p>
         
-        <p><strong>Peng Wu</strong>, Fuzhou University</p>
+        <p><strong>Francesca Maggioni</strong>, University of Bergamo</p>
         
-        <p><strong>Guowei Zhang</strong>, Dalian University of Technology</p>
+        <p><strong>S. K. Neogy</strong>, Indian Statistical Institute</p>
+        
+        <p><strong>Vikas Vikram Singh</strong>, Indian Institute of Technology Delhi</p>
         
     
     
     
-    <p>Operations research (OR) problems increasingly arise in data-rich and highly uncertain environments where operational decisions must adapt dynamically to evolving contextual information. Advances in sensing technologies, digital platforms, enterprise systems, and large-scale data collection have significantly expanded the availability of side information related to demand patterns, operational states, user behaviors, market conditions, and environmental factors. In many modern applications, such contextual information provides valuable predictive signals that can substantially improve decision quality when effectively integrated into optimization models.</p>
+    <p>This special issue brings together recent advances in optimization and decision-making under uncertainty, focusing on theoretical contributions that strengthen the mathematical foundations and algorithmic techniques in operations research. The scope encompasses developments in stochastic, robust, and distributionally robust optimization, game theory, sequential decision-making, and learning-based methods that have expanded modern operations research&#39;s applicability.</p>
+    
+    <p>The special issue welcomes original research presenting new optimization models, theoretical results, computational methodologies, and convergence analyses. While organized alongside ICORSI 2026 held at Indian Institute of Technology Delhi, the issue is open to all researchers in these areas regardless of conference participation.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
         
-        <a href="https://link.springer.com/collections/iajhfddihe">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/ehagifafae">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Contextual Stochastic Optimization</li>
+        <li>Mathematical programming</li>
         
-        <li>Distributionally Robust Optimization with Side Information</li>
+        <li>Convex, nonconvex, and mixed-integer optimization</li>
         
-        <li>Prescriptive Analytics and Contextual Decision Making</li>
+        <li>Stochastic, robust, and distributionally robust optimization</li>
         
-        <li>Learning-Enhanced Optimization</li>
+        <li>Chance-constrained optimization</li>
         
-        <li>Decision-Focused Learning</li>
+        <li>Variational inequalities and equilibrium problems</li>
         
-        <li>Online, Dynamic, and Adaptive Optimization</li>
+        <li>Game theory and multi-agent optimization</li>
         
-        <li>Learning-Augmented Algorithms</li>
+        <li>Markov decision processes and stochastic games</li>
         
-        <li>Interpretable and Trustworthy Optimization Models</li>
+        <li>Reinforcement learning for sequential decision making</li>
         
-        <li>Statistical Guarantees and Generalization in Optimization</li>
+        <li>Online and data-driven optimization</li>
         
-        <li>Data-Driven Optimization Under Uncertainty</li>
+        <li>Optimization under risk measures</li>
         
-        <li>AI and Machine Learning for OR</li>
+        <li>Bayesian optimization</li>
         
-        <li>Human-in-the-Loop Optimization</li>
-        
-        <li>Optimization with Foundation Models or Generative AI</li>
-        
-        <li>Scalable Algorithms for Large-Scale Optimization Problems</li>
-        
-        <li>Digital Twin and Real-Time Decision Systems</li>
-        
-        <li>Contextual Transportation and Logistics Optimization</li>
-        
-        <li>Contextual Supply Chain and Revenue Management</li>
-        
-        <li>Data-Driven Healthcare and Service Operations</li>
+        <li>Black-box optimization</li>
         
     </ul>
     
@@ -89,7 +81,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>July 31, 2027: Submission deadline</li>
+        <li>March 31, 2028: Submission deadline</li>
         
     </ul>
     

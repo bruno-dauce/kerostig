@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : operational research</title>
+        <link>https://kerostig.org/tag/operational-research/</link>
+        <description>Derniers appels à publications avec le tag 'operational research'.</description>
+        <lastBuildDate>Mon, 14 Sep 2026 08:23:23 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : operational research</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/operational-research/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Operational Research and Artificial Intelligence for Transforming Healthcare]]></title>
+            <link>https://kerostig.org/call/tandf-operational-research-and-artificial-intelligence-for-transforming-healthcare/</link>
+            <guid>tandf-operational-research-and-artificial-intelligence-for-transforming-healthcare</guid>
+            <pubDate>Sun, 13 Sep 2026 16:40:44 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Adele Marshall</strong>, Queen&#39;s University Belfast</p>
+        
+        <p><strong>Laura Boyle</strong>, Queen&#39;s University Belfast</p>
+        
+        <p><strong>Sally Brailsford</strong>, University of Southampton</p>
+        
+        <p><strong>Erwin Hans</strong>, University of Twente</p>
+        
+        <p><strong>Brian Denton</strong>, University of Michigan</p>
+        
+        <p><strong>Martin Kunc</strong>, University of Southampton</p>
+        
+    
+    
+    
+    <p>Healthcare systems globally face mounting challenges from aging populations and workforce constraints while simultaneously benefiting from expanding digital health data and artificial intelligence capabilities. This special issue explores how Operational Research and AI methods can be combined to improve healthcare planning, delivery, and evaluation. Building on prior work examining the OR-AI interface, this collection focuses specifically on healthcare applications where reliable and verifiable AI is critical.</p>
+    
+    <p>The special issue seeks original research demonstrating substantive contributions at the intersection of OR and AI in healthcare contexts. Submissions should include methodological advances, applied studies with measurable practical value, and work addressing real-world implementation challenges. Papers focused solely on optimization or simulation without significant AI integration may be more appropriate for other venues.</p>
+    
+    <p>
+        Appel publié par Journal of the Operational Research Society.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/jors-or-ai-healthcare/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-operational-research-and-artificial-intelligence-for-transforming-healthcare/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Machine learning and predictive modelling for patient flow, demand forecasting, and clinical decision support integrated with OR</li>
+        
+        <li>Large language models, generative AI, and retrieval-augmented generation for extracting modelling insight from unstructured clinical documents and health records</li>
+        
+        <li>Reinforcement learning and approximate dynamic programming for sequential decisions in screening, treatment, and care planning</li>
+        
+        <li>Generative approaches to synthetic health data for modelling and privacy-preserving analysis</li>
+        
+        <li>Optimisation of healthcare resources including workforce planning, scheduling, and capacity management using integrated AI and OR methodologies</li>
+        
+        <li>Hybrid simulation–AI approaches for the design and evaluation of care delivery</li>
+        
+        <li>Data-driven and digital-twin models of care pathways and healthcare delivery</li>
+        
+        <li>Statistical and stochastic modelling of patient journeys and survival</li>
+        
+        <li>AI-enhanced planning and delivery of care in emergency, unscheduled, and elective settings</li>
+        
+        <li>Personalised and stratified care through AI-enabled pathways, screening, prevention, and chronic disease management</li>
+        
+        <li>Human–AI collaboration in clinical and operational decision-making</li>
+        
+        <li>Trustworthy AI in health addressing equity, ethics, transparency, and verification</li>
+        
+        <li>Implementation and evaluation of OR/AI models in healthcare practice</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Expected publication</li>
+        
+        <li>January 15, 2027: Submission deadline</li>
+        
+        <li>April 1, 2027: First-round decisions</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

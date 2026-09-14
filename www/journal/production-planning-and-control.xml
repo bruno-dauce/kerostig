@@ -4,7 +4,7 @@
         <title>kerostig | Production Planning &amp; Control</title>
         <link>https://kerostig.org/journal/production-planning-and-control/</link>
         <description>Derniers appels à publications pour Production Planning &amp; Control.</description>
-        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Sep 2026 08:23:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -25,16 +25,16 @@
         
         <p><strong>Ruoqi Geng</strong>, Cardiff University</p>
         
-        <p><strong>Di Li</strong>, Warwick University</p>
+        <p><strong>Di Li</strong>, University of Warwick</p>
         
         <p><strong>Yang Cheng</strong>, Aalborg University</p>
         
     
     
     
-    <p>This special issue addresses how artificial intelligence is becoming embedded in production systems, moving beyond standalone analytics tools to operational capabilities that reshape real-time planning, control, and improvement. The key challenge lies in integrating point solutions—such as deep reinforcement learning for rescheduling or deep learning for predictive maintenance—into reliable end-to-end workflows validated across diverse industrial settings.</p>
+    <p>This special issue seeks empirical research on how artificial intelligence augments production technologies and decision-making in real operational contexts. The focus is on system-level evidence demonstrating how point AI solutions integrate with production data environments to form end-to-end decision workflows, addressing the implementation pipeline from business-AI alignment through data readiness to deployment and workflow embedding.</p>
     
-    <p>The special issue emphasizes empirically grounded research examining the complete AI implementation pipeline in production contexts. This includes business–AI alignment (translating production decisions into AI use cases), data readiness (governance, preparation, and integration), and deployment of AI into operational workflows. The focus is on understanding the enabling and constraining factors—data availability, organisational readiness, and human–AI interaction—that determine whether AI solutions succeed in real production environments.</p>
+    <p>The call emphasizes empirical validation using real operational evidence such as production logs, IoT sensors, industrial case studies, and field experiments. Purely conceptual, literature-review based, or synthetic-data studies are outside scope. Submissions should demonstrate how AI is operationalized across the production decision pipeline and linked to measurable production outcomes.</p>
     
     <p>
         Appel publié par Production Planning &amp; Control.
@@ -72,6 +72,8 @@
     
     <h2>Timeline</h2>
     <ul>
+        
+        <li>Invalid DateTime: Special Issue publication</li>
         
         <li>September 1, 2026: Call for Papers released</li>
         

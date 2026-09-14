@@ -1,5 +1,37 @@
 [
   {
+    "journal": "Journal of Systems and Software",
+    "abbreviation": "elsevier",
+    "issn": "1873-1228",
+    "metaTitle": "Software Engineering for Trustworthy Systems and Advanced Applications",
+    "url": "https://www.sciencedirect.com/special-issue/336916/software-engineering-for-trustworthy-systems-and-advanced-applications",
+    "title": "Software Engineering for Trustworthy Systems and Advanced Applications",
+    "slug": "elsevier-software-engineering-for-trustworthy-systems-and-advanced-applications",
+    "contentHash": "c1cca7acdb525b191a9d1a9cae87d4c4e1a91c118f3446cc5530c351facec32d",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue in the Journal of Systems and Software focuses on software engineering approaches for developing trustworthy systems and advanced applications. The issue seeks contributions that address the design, development, and validation of software systems that meet rigorous standards for reliability, security, and dependability in modern computing environments."
+      ]
+    },
+    "tags": [
+      "software engineering",
+      "trustworthy systems",
+      "system reliability"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-10T12:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-14T08:23:15.539Z"
+  },
+  {
     "journal": "Astin Bulletin",
     "abbreviation": "cup",
     "issn": "1783-1350",
@@ -1564,9 +1596,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-09-06T09:51:06.483Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-09-06T09:51:06.483Z"
   },
   {
     "journal": "Technology in Society",
@@ -3049,9 +3080,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-09-06T09:51:06.483Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-09-06T09:51:06.483Z"
   },
   {
     "journal": "Journal of Systems and Software",
@@ -3092,9 +3122,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-09-06T09:51:06.483Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-09-06T09:51:06.483Z"
   },
   {
     "journal": "Journal of Destination Marketing & Management",
@@ -3156,9 +3185,8 @@
     "editors": [],
     "associate_editors": [],
     "dates": [],
-    "active": false,
-    "pubDate": "2026-09-06T09:51:06.483Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-09-06T09:51:06.483Z"
   },
   {
     "journal": "Technology in Society",
@@ -3398,9 +3426,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-09-06T09:51:06.483Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-09-06T09:51:06.483Z"
   },
   {
     "journal": "Marine Policy",
@@ -3432,9 +3459,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-09-06T09:51:06.483Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-09-06T09:51:06.483Z"
   },
   {
     "journal": "Journal of Destination Marketing & Management",
@@ -12441,9 +12467,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T09:09:21.693Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-08-29T09:09:21.693Z"
   },
   {
     "journal": "Journal of Small Business Management",
@@ -19964,8 +19989,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T22:00:20.665Z",
-    "gracePeriod": "2026-10-13T16:46:42.121Z"
+    "pubDate": "2026-08-12T22:00:20.665Z"
   },
   {
     "journal": "GRH",
@@ -20050,8 +20074,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-12T22:00:20.665Z",
-    "gracePeriod": "2026-10-13T16:46:42.121Z"
+    "pubDate": "2026-08-12T22:00:20.665Z"
   },
   {
     "journal": "Comptabilité - Contrôle - Audit",
@@ -24768,9 +24791,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
     "journal": "Journal of Behavioral and Experimental Economics",
@@ -25079,9 +25101,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
     "journal": "Emerging Markets Review",
@@ -25322,9 +25343,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
     "journal": "Economic Modelling",
@@ -25415,9 +25435,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
     "journal": "Resource and Energy Economics",
@@ -25977,9 +25996,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
     "journal": "Journal of Financial Economics",
@@ -26229,9 +26247,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
     "journal": "Decision Support Systems",
@@ -26660,9 +26677,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
     "journal": "Technological Forecasting and Social Change",
@@ -28658,9 +28674,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
     "journal": "International Journal of Project Management",
@@ -30073,9 +30088,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
+    "active": true,
+    "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
     "journal": "Energy Economics",

@@ -4,7 +4,7 @@
         <title>kerostig | Tag : human-ai interaction</title>
         <link>https://kerostig.org/tag/human-ai-interaction/</link>
         <description>Derniers appels à publications avec le tag 'human-ai interaction'.</description>
-        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Sep 2026 08:23:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,83 @@
             <link>https://kerostig.org/tag/human-ai-interaction/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Artificial Intelligence–Enabled Production Systems: Empirical Evidence, Implementation Pipelines, and Industrial Applications]]></title>
+            <link>https://kerostig.org/call/tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications/</link>
+            <guid>tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications</guid>
+            <pubDate>Wed, 26 Aug 2026 03:26:19 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Ruoqi Geng</strong>, Cardiff University</p>
+        
+        <p><strong>Di Li</strong>, University of Warwick</p>
+        
+        <p><strong>Yang Cheng</strong>, Aalborg University</p>
+        
+    
+    
+    
+    <p>This special issue seeks empirical research on how artificial intelligence augments production technologies and decision-making in real operational contexts. The focus is on system-level evidence demonstrating how point AI solutions integrate with production data environments to form end-to-end decision workflows, addressing the implementation pipeline from business-AI alignment through data readiness to deployment and workflow embedding.</p>
+    
+    <p>The call emphasizes empirical validation using real operational evidence such as production logs, IoT sensors, industrial case studies, and field experiments. Purely conceptual, literature-review based, or synthetic-data studies are outside scope. Submissions should demonstrate how AI is operationalized across the production decision pipeline and linked to measurable production outcomes.</p>
+    
+    <p>
+        Appel publié par Production Planning &amp; Control.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ai-enabled-production-systems/">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>AI-Augmented Production Planning and Control</li>
+        
+        <li>Business–AI Alignment and AI Readiness Pipeline for Production Systems</li>
+        
+        <li>AI-enabled Quality and Process Control</li>
+        
+        <li>Agentic and Workflow-Oriented Deployment in Production</li>
+        
+        <li>AI-Enabled Cyber–Physical Production Systems and Digital Twins</li>
+        
+        <li>AI and Additive Manufacturing</li>
+        
+        <li>AI and Blockchain for Production Systems</li>
+        
+        <li>Human–AI Interaction and Organisational Transformation</li>
+        
+        <li>Empirical Innovations in Data, Measurement, and Evaluation</li>
+        
+        <li>Extended Production Contexts (Production-Adjacent Physical Operations)</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Special Issue publication</li>
+        
+        <li>September 1, 2026: Call for Papers released</li>
+        
+        <li>June 30, 2027: Manuscript submission deadline</li>
+        
+        <li>September 1, 2027: First-round decisions</li>
+        
+        <li>December 1, 2027: Revised manuscripts due</li>
+        
+        <li>June 1, 2028: Final decisions</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Human-AI Interaction in Intelligent Workplaces: Behaviour, Trust, Experience, and Human-Centered Design]]></title>
             <link>https://kerostig.org/call/tandf-human-ai-interaction-in-intelligent-workplaces-behaviour-trust-experience-and-human-centered-design/</link>

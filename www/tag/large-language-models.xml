@@ -4,7 +4,7 @@
         <title>kerostig | Tag : large language models</title>
         <link>https://kerostig.org/tag/large-language-models/</link>
         <description>Derniers appels à publications avec le tag 'large language models'.</description>
-        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Sep 2026 08:23:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,38 @@
             <link>https://kerostig.org/tag/large-language-models/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[LLMs and Agentic AI in Healthcare]]></title>
+            <link>https://kerostig.org/call/wiley-llms-and-agentic-ai-in-healthcare/</link>
+            <guid>wiley-llms-and-agentic-ai-in-healthcare</guid>
+            <pubDate>Sun, 13 Sep 2026 16:20:55 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue focuses on the applications and implications of large language models and agentic artificial intelligence systems in healthcare contexts.</p>
+    
+    <p>
+        Appel publié par Expert Systems.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers/si-2026-001060">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-llms-and-agentic-ai-in-healthcare/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 31, 2027: Deadline for Submissions</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Knowledge-enhanced Large Language Models for Web Information Systems in Health and Education]]></title>
             <link>https://kerostig.org/call/emerald-knowledge-enhanced-large-language-models-for-web-information-systems-in-health-and-education/</link>
@@ -80,36 +112,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[General Large Language Models (GLLMs) in Derivatives Markets]]></title>
-            <link>https://kerostig.org/call/wiley-general-large-language-models-gllms-in-derivatives-markets/</link>
-            <guid>wiley-general-large-language-models-gllms-in-derivatives-markets</guid>
-            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>
-        Appel publié par Journal of Futures Markets.
-        
-        <a href="https://onlinelibrary.wiley.com/page/journal/10969934/call-for-papers/si-2025-001182">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/wiley-general-large-language-models-gllms-in-derivatives-markets/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>February 28, 2026: Deadline for Submissions</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Large Language Models (LLMs) for Tourism and Tourists]]></title>
             <link>https://kerostig.org/call/elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists/</link>
             <guid>elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists</guid>
@@ -155,63 +157,6 @@
     <ul>
         
         <li>August 31, 2026: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Large Language Models (LLMs) for Tourism and Tourists]]></title>
-            <link>https://kerostig.org/call/elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2/</link>
-            <guid>elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This special issue focuses on the applications and implications of Large Language Models (LLMs) in the tourism sector. We invite research exploring how LLMs can enhance tourist experiences, improve tourism service delivery, and support both tourism businesses and individual travelers. The issue welcomes empirical studies, theoretical frameworks, case studies, and critical analyses of LLM technologies in tourism contexts.</p>
-    
-    <p>
-        Appel publié par Information Processing &amp; Management.
-        
-        <a href="https://www.sciencedirect.com/special-issue/326025/joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Applications of LLMs in tourism industry</li>
-        
-        <li>LLMs for personalized tourist recommendations</li>
-        
-        <li>Natural language processing for tourism content</li>
-        
-        <li>Chatbots and virtual assistants in tourism</li>
-        
-        <li>Tourist information retrieval using LLMs</li>
-        
-        <li>Language translation for tourism</li>
-        
-        <li>Sentiment analysis of tourist reviews</li>
-        
-        <li>LLM-based travel planning and itinerary generation</li>
-        
-        <li>Multilingual tourism communication</li>
-        
-        <li>AI ethics in tourism applications</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 31, 2026: Submission deadline</li>
         
     </ul>
     
