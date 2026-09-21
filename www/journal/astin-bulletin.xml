@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Astin Bulletin</title>
+        <link>https://kerostig.org/journal/astin-bulletin/</link>
+        <description>Derniers appels à publications pour Astin Bulletin.</description>
+        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Astin Bulletin</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/journal/astin-bulletin/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Risk Sharing]]></title>
+            <link>https://kerostig.org/call/cup-risk-sharing/</link>
+            <guid>cup-risk-sharing</guid>
+            <pubDate>Tue, 18 Aug 2026 07:45:36 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>An Chen</strong>, Ulm University</p>
+        
+        <p><strong>Steven Vanduffel</strong>, Vrije Universiteit Brussel</p>
+        
+        <p><strong>Ruodu Wang</strong>, University of Waterloo</p>
+        
+    
+    
+    
+    <p>Risk sharing is a crucial topic in contemporary society due to various factors, including the increasing complexity and interconnectedness of global systems, the emergence of new risks (such as longevity risk, cyber threats and climate change), and the need for sustainable risk management strategies in a rapidly changing world.</p>
+    
+    <p>Effective risk sharing mechanisms contribute to financial stability by spreading risks across different parties and promoting resilience in the face of unexpected events. Risk sharing mechanisms can also promote social equity by ensuring that the burden of risks is distributed fairly among individuals and institutions, rather than disproportionately affecting certain groups or communities. By facilitating risk sharing, actuarial science encourages innovation and economic growth by providing businesses and individuals with the confidence to invest and take risks, knowing that there are mechanisms in place to mitigate potential losses.</p>
+    
+    <p>
+        Appel publié par Astin Bulletin.
+        
+        <a href="https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/announcements/call-for-papers/call-for-papers-special-issue-on-risk-sharing">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/cup-risk-sharing/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Economics of risk sharing and insurance: New economic models for risk sharing and (re)insurance mechanisms, especially in connection to decision theory, game theory and contract theory</li>
+        
+        <li>Mathematics and data science of risk sharing: Novel mathematical and statistical tools to address challenging problems in risk sharing</li>
+        
+        <li>Model uncertainty in risk sharing: Quantifying and understanding uncertainty arising from lack of data, model misspecification, computational limitations, or behavioral issues</li>
+        
+        <li>Alternative risk transfer: Catastrophe bonds, insurance-linked and longevity-linked securities</li>
+        
+        <li>Parametric insurance: Predefined triggers for payouts based on specific parameters such as weather conditions or economic indicators</li>
+        
+        <li>Innovative retirement products focusing on longevity risk sharing: Products that spread longevity risk among a pool of participants</li>
+        
+        <li>Blockchain Technology: Opportunities to enhance risk sharing processes through transparent records and smart contracts</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>November 15, 2024: Submission deadline</li>
+        
+        <li>September 1, 2025: Targeted publication date for special issue</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

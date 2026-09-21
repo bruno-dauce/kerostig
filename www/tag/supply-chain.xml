@@ -4,7 +4,7 @@
         <title>kerostig | Tag : supply chain</title>
         <link>https://kerostig.org/tag/supply-chain/</link>
         <description>Derniers appels à publications avec le tag 'supply chain'.</description>
-        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,77 @@
             <link>https://kerostig.org/tag/supply-chain/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Management Theories and Methods for Safe Operations of Hazardous Chemicals in Production and Logistics Systems]]></title>
+            <link>https://kerostig.org/call/tandf-management-theories-and-methods-for-safe-operations-of-hazardous-chemicals-in-production-and-logistics-systems/</link>
+            <guid>tandf-management-theories-and-methods-for-safe-operations-of-hazardous-chemicals-in-production-and-logistics-systems</guid>
+            <pubDate>Mon, 21 Sep 2026 08:26:56 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Ginger Ke</strong>, Memorial University of Newfoundland</p>
+        
+        <p><strong>Yong Lin</strong>, University of Birmingham</p>
+        
+        <p><strong>Peter Shi</strong>, Macquarie University</p>
+        
+        <p><strong>Feng Tao</strong>, Soochow University</p>
+        
+    
+    
+    
+    <p>Safe handling of hazardous chemicals presents a complex operational challenge across production and logistics systems, requiring integrated decision-making across scheduling, storage, facility location, transport, and recovery processes. Current academic research remains fragmented, addressing single functions in isolation rather than the coordinated system-wide approach needed to meet regulatory requirements and operational realities.</p>
+    
+    <p>This special issue seeks original research that develops rigorous decision models for hazardous-chemical operations, integrating optimization, simulation, and data-driven methods with practical domain knowledge. The work should bridge operations research, production engineering, logistics management, and safety science to advance both theoretical foundations and practical capabilities for safer, more efficient and sustainable hazardous-chemical operations.</p>
+    
+    <p>
+        Appel publié par International Journal of Production Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/ijpr-hazardous-chemicals/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-management-theories-and-methods-for-safe-operations-of-hazardous-chemicals-in-production-and-logistics-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Integrated Production Planning and Hazardous Chemical Management under Safety Constraints</li>
+        
+        <li>Robust Storage and Inventory Control for Hazardous Chemicals under Uncertainty</li>
+        
+        <li>Intelligent Optimization of Hazardous Chemical Logistics Networks and Transportation Scheduling</li>
+        
+        <li>Road Transport Routing and Distribution Optimization for Hazardous Materials with Dynamic Risk</li>
+        
+        <li>Safe Disposal and Resource Utilization of Hazardous Chemical Waste in Circular Systems</li>
+        
+        <li>Multi-Objective Decision Analytics Balancing Efficiency, Safety, and Sustainability</li>
+        
+        <li>Data-Driven Risk Prediction and Real-Time Coordination in Hazardous Chemical Supply Chains</li>
+        
+        <li>Emergency Response and Disruption Recovery in Hazardous Chemicals Management Systems</li>
+        
+        <li>Game-Theoretic and Incentive Mechanisms for Multi-Stakeholder Hazardous Material Operations</li>
+        
+        <li>Policy-Regulated Decision Models for Safe and Circular Hazardous Chemical Management</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 1, 2026: Open for Submissions</li>
+        
+        <li>October 31, 2027: Submission Deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Reshaping Organisations and Supply Chains in a Polycrisis Era: Interdependent Climate, Geopolitical, Economic and Technological Shocks]]></title>
             <link>https://kerostig.org/call/wiley-reshaping-organisations-and-supply-chains-in-a-polycrisis-era-interdependent-climate-geopolitical-economic-and-technological-shocks/</link>
@@ -41,6 +112,77 @@
         <li>November 1, 2026: Paper submission window opens</li>
         
         <li>January 31, 2027: Paper submission window closes</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Climate Transition and Operational Risk Modelling: Implications for Supply Chains and Financial Decision-Making]]></title>
+            <link>https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/</link>
+            <guid>springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Andrea Flori</strong>, Politecnico di Milano</p>
+        
+        <p><strong>Anna Maria Gambaro</strong>, Università del Piemonte Orientale</p>
+        
+        <p><strong>Ioannis Kyriakou</strong>, University of London</p>
+        
+        <p><strong>Duc Khuong Nguyen</strong>, EMLV Business School</p>
+        
+    
+    
+    
+    <p>Climate-related operational risks pose significant threats to financial and economic systems, particularly as economies transition toward low-carbon models. The timing and pace of this transition create substantial uncertainties, especially for carbon-intensive firms that must balance profitability with decarbonization goals. Vulnerabilities extend through interconnected global supply chains where disruptions propagate indirectly, amplifying operational and systemic risks across multiple tiers.</p>
+    
+    <p>Financial markets increasingly transmit climate-related risks through asset prices, volatility, and liquidity shocks, potentially triggering market instability through supply chain relationships. This special issue addresses the gap in understanding how climate and environmental risks propagate through financial and economic systems, seeking contributions that employ robust stochastic optimization, machine learning, and advanced forecasting methods to inform portfolio allocation and risk management decisions in the face of evolving climate regulations and transition uncertainties.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/baifaedejd">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Robust stochastic optimization methods for climate transition risks</li>
+        
+        <li>Portfolio optimization and risk-adjusted return modelling under climate policy uncertainty</li>
+        
+        <li>Credit and counterparty risk assessment under low-carbon transition scenarios</li>
+        
+        <li>Risk-sharing mechanisms and insurance models for climate-related disruptions</li>
+        
+        <li>Supply chain risk management in climate transition</li>
+        
+        <li>Operational decision-making in emission trading schemes and carbon pricing</li>
+        
+        <li>Predictive modelling of carbon stranding risk via supervised learning</li>
+        
+        <li>Machine learning and big data analytics for climate risk scenario classification</li>
+        
+        <li>Natural language processing applications in climate policy risk analysis</li>
+        
+        <li>Bayesian network approaches to modelling climate transition risk propagation</li>
+        
+        <li>Agent-based models of climate transition dynamics and systemic effects</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 31, 2026: Submission deadline</li>
         
     </ul>
     

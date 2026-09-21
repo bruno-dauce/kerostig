@@ -4,7 +4,7 @@
         <title>kerostig | Tag : uncertainty</title>
         <link>https://kerostig.org/tag/uncertainty/</link>
         <description>Derniers appels à publications avec le tag 'uncertainty'.</description>
-        <lastBuildDate>Mon, 07 Sep 2026 07:49:08 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,57 @@
             <link>https://kerostig.org/tag/uncertainty/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Entrepreneurial ethics: moral cognition, affect, and action under uncertainty]]></title>
+            <link>https://kerostig.org/call/elsevier-entrepreneurial-ethics-moral-cognition-affect-and-action-under-uncertainty/</link>
+            <guid>elsevier-entrepreneurial-ethics-moral-cognition-affect-and-action-under-uncertainty</guid>
+            <pubDate>Sun, 13 Sep 2026 16:03:58 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue explores the ethical dimensions of entrepreneurship, focusing on how entrepreneurs engage in moral reasoning and decision-making. The call seeks research that examines the cognitive and emotional processes underlying ethical choices that entrepreneurs face, particularly in contexts marked by uncertainty and risk. The issue aims to advance understanding of how moral considerations shape entrepreneurial behavior and venture development.</p>
+    
+    <p>Researchers are invited to submit work investigating the intersection of ethics, cognition, and emotion in entrepreneurial contexts. The special issue welcomes diverse perspectives on how entrepreneurs navigate ethical dilemmas, the role of affect in moral judgments, and mechanisms through which ethical considerations translate into concrete actions during the venture creation process.</p>
+    
+    <p>
+        Appel publié par Journal of Business Venturing.
+        
+        <a href="https://www.sciencedirect.com/special-issue/336959/entrepreneurial-ethics-moral-cognition-affect-and-action-under-uncertainty">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-entrepreneurial-ethics-moral-cognition-affect-and-action-under-uncertainty/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Moral cognition in entrepreneurship</li>
+        
+        <li>Affective processes in ethical decision-making</li>
+        
+        <li>Ethical action under uncertainty</li>
+        
+        <li>Entrepreneurial decision-making and ethics</li>
+        
+        <li>Moral reasoning in venture creation</li>
+        
+        <li>Emotional dimensions of ethical behavior</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 1, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Revisiting theoretical pillars of HRM in the age of uncertainty: Contributions for performance]]></title>
             <link>https://kerostig.org/call/emerald-revisiting-theoretical-pillars-of-hrm-in-the-age-of-uncertainty-contributions-for-performance/</link>
@@ -78,81 +129,6 @@
         <li>March 31, 2027: Closing date for abstract submission</li>
         
         <li>June 30, 2027: Closing date for manuscripts submission</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Recent Advances in Optimization and Decision Making under Uncertainty: Theory and Algorithms]]></title>
-            <link>https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/</link>
-            <guid>springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms</guid>
-            <pubDate>Thu, 03 Sep 2026 17:13:45 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Abdel Lisser</strong>, Paris-Saclay University</p>
-        
-        <p><strong>Jia Liu</strong>, Xi&#39;an Jiaotong University</p>
-        
-        <p><strong>Francesca Maggioni</strong>, University of Bergamo</p>
-        
-        <p><strong>S. K. Neogy</strong>, Indian Statistical Institute</p>
-        
-        <p><strong>Vikas Vikram Singh</strong>, Indian Institute of Technology Delhi</p>
-        
-    
-    
-    
-    <p>This special issue focuses on recent theoretical and methodological advances in optimization and decision-making under uncertainty. It seeks contributions that develop new optimization models, analytical results, computational methodologies, and convergence theories, drawing from areas such as stochastic and robust optimization, game theory, sequential decision-making, and learning-based approaches.</p>
-    
-    <p>The special issue is organized in conjunction with the International Conference on Operations Research (ICORSI 2026) at Indian Institute of Technology Delhi, India. However, it welcomes submissions from all researchers in these areas regardless of conference participation. All manuscripts undergo standard peer-review and accepted papers are published online before print.</p>
-    
-    <p>
-        Appel publié par Annals of Operations Research.
-        
-        <a href="https://link.springer.com/collections/ehagifafae">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Mathematical programming</li>
-        
-        <li>Convex, nonconvex, and mixed-integer optimization</li>
-        
-        <li>Stochastic, robust, and distributionally robust optimization</li>
-        
-        <li>Chance-constrained optimization</li>
-        
-        <li>Variational inequalities and equilibrium problems</li>
-        
-        <li>Game theory and multi-agent optimization</li>
-        
-        <li>Markov decision processes and stochastic games</li>
-        
-        <li>Reinforcement learning for sequential decision making</li>
-        
-        <li>Online and data-driven optimization</li>
-        
-        <li>Optimization under risk measures</li>
-        
-        <li>Bayesian optimization</li>
-        
-        <li>Black-box optimization</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>March 31, 2028: Submission deadline</li>
         
     </ul>
     

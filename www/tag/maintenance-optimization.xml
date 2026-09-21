@@ -4,7 +4,7 @@
         <title>kerostig | Tag : maintenance optimization</title>
         <link>https://kerostig.org/tag/maintenance-optimization/</link>
         <description>Derniers appels à publications avec le tag 'maintenance optimization'.</description>
-        <lastBuildDate>Mon, 07 Sep 2026 07:49:09 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -72,6 +72,77 @@
     <ul>
         
         <li>September 30, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems]]></title>
+            <link>https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/</link>
+            <guid>springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Yi-Kuei Lin</strong>, National Yang Ming Chiao Tung University</p>
+        
+    
+    
+    
+    <p>This special issue seeks contributions on reliability modeling and decision support for industrial engineering systems, including manufacturing, supply chains, logistics, energy systems, transportation, and service operations. While traditional probabilistic and stochastic approaches remain important, advances in sensor technologies and data collection have enabled new data-driven approaches that combine machine learning and statistical methods with classical reliability theory.</p>
+    
+    <p>The special issue welcomes both theoretical developments and practical applications that demonstrate how data-driven reliability analysis can enhance decision-making in maintenance planning, resource allocation, system design, and operational optimization. Papers should show methodological rigor and clear relevance to real-world industrial challenges, illustrating how reliability-informed approaches improve system performance.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/igdgfheeeh">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Data-driven reliability modeling and parameter estimation using operational data</li>
+        
+        <li>Reliability analysis using statistical learning and machine learning methods</li>
+        
+        <li>Reliability models combining analytical formulations with data-driven learning approaches</li>
+        
+        <li>Decision support systems incorporating reliability analysis and risk information</li>
+        
+        <li>Optimization and decision-making problems informed by reliability performance</li>
+        
+        <li>Predictive maintenance and condition monitoring using data and learning models</li>
+        
+        <li>Multistate system and network reliability analysis</li>
+        
+        <li>Reliability evaluation of manufacturing, logistics, and supply chain systems</li>
+        
+        <li>Reliability modeling in energy, power, and infrastructure systems</li>
+        
+        <li>Stochastic modeling and uncertainty analysis in data-driven reliability studies</li>
+        
+        <li>Simulation, enumeration, and approximation methods for reliability evaluation</li>
+        
+        <li>System design and resource allocation considering reliability and operational data</li>
+        
+        <li>Reliability analysis supported by digital twins, data analytics, and intelligent systems</li>
+        
+        <li>Reliability, robustness, and resilience of industrial engineering systems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>July 31, 2027: Submission deadline</li>
         
     </ul>
     
