@@ -4,7 +4,7 @@
         <title>kerostig | Electronic Markets</title>
         <link>https://kerostig.org/journal/electronic-markets/</link>
         <description>Derniers appels à publications pour Electronic Markets.</description>
-        <lastBuildDate>Mon, 14 Sep 2026 08:23:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Sep 2026 08:29:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,85 @@
             <link>https://kerostig.org/journal/electronic-markets/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[AI-enabled Digital Transformation for Small and Medium-sized Enterprises (SMEs)]]></title>
+            <link>https://kerostig.org/call/springer-topical-collection-ai-enabled-digital-transformation-for-small-and-mediumsized-enterprises-smes/</link>
+            <guid>springer-topical-collection-ai-enabled-digital-transformation-for-small-and-mediumsized-enterprises-smes</guid>
+            <pubDate>Mon, 21 Sep 2026 08:26:56 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Yao Shi</strong>, University of North Carolina Wilmington</p>
+        
+        <p><strong>Lukas R. G. Fitz</strong>, Brandenburg University of Technology Cottbus – Senftenberg</p>
+        
+        <p><strong>Fanny-Eve Bordeleau</strong>, Dalhousie University</p>
+        
+        <p><strong>Claudia Pelletier</strong>, Université du Québec à Trois-Rivières</p>
+        
+        <p><strong>Judith Gebauer</strong>, University of North Carolina Wilmington</p>
+        
+    
+    
+    
+    <p>SMEs are significantly lagging behind large organizations in AI adoption due to structural and financial constraints, limited access to technology, insufficient data infrastructure, and workforce skill shortages. This growing digital divide threatens economic competitiveness and equity across regions. As SMEs form a critical part of global economies, their meaningful participation in AI-enabled digital transformation is essential for building resilient and fair economic systems.</p>
+    
+    <p>This topical collection welcomes multidisciplinary research exploring AI adoption, implementation challenges, workforce development, ethical considerations, and best practices in SMEs. The collection invites theoretical, empirical, design-oriented, and technical contributions that address opportunities and strategies for AI-enabled transformation in the SME context, including case studies and innovation ecosystem perspectives.</p>
+    
+    <p>
+        Appel publié par Electronic Markets.
+        
+        <a href="https://link.springer.com/collections/gfdeicijae">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-topical-collection-ai-enabled-digital-transformation-for-small-and-mediumsized-enterprises-smes/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>AI adoption drivers, strategies, and readiness models for SMEs&#39; digital transformation</li>
+        
+        <li>AI barriers, challenges, and failures for SMEs&#39; digital transformation</li>
+        
+        <li>Skill gaps, workforce development, organizational learning and managerial capabilities for AI-enabled practices in SMEs</li>
+        
+        <li>Ethical and societal issues surrounding AI in SMEs and their environments</li>
+        
+        <li>Case studies of AI adoption and use in SMEs and their business ecosystems</li>
+        
+        <li>AI innovation ecosystems inclusive of SMEs</li>
+        
+        <li>Design of SME-suitable AI artefacts</li>
+        
+        <li>SME practitioner perspectives on AI</li>
+        
+        <li>Implementing human-centered AI for SMEs</li>
+        
+        <li>AI-enabled business model innovation pathways in SMEs</li>
+        
+        <li>AI governance frameworks for SMEs</li>
+        
+        <li>AI-driven shifts in SME strategies for competition, co-opetition, co-creation, and open innovation</li>
+        
+        <li>Development, configuration, and management of AI ecosystems for SMEs</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 15, 2026: Open for submissions</li>
+        
+        <li>March 15, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Digitalization for responsive and circular supply chains]]></title>
             <link>https://kerostig.org/call/springer-special-issue-on-digitalization-for-responsive-and-circular-supply-chains/</link>

@@ -4,7 +4,7 @@
         <title>kerostig | Tag : risk assessment</title>
         <link>https://kerostig.org/tag/risk-assessment/</link>
         <description>Derniers appels à publications avec le tag 'risk assessment'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,53 +15,59 @@
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Valuing health and longevity: Advances and innovations]]></title>
-            <link>https://kerostig.org/call/springer-by-invitation-only-valuing-health-and-longevity-advances-and-innovations/</link>
-            <guid>springer-by-invitation-only-valuing-health-and-longevity-advances-and-innovations</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <title><![CDATA[Management Theories and Methods for Safe Operations of Hazardous Chemicals in Production and Logistics Systems]]></title>
+            <link>https://kerostig.org/call/tandf-management-theories-and-methods-for-safe-operations-of-hazardous-chemicals-in-production-and-logistics-systems/</link>
+            <guid>tandf-management-theories-and-methods-for-safe-operations-of-hazardous-chemicals-in-production-and-logistics-systems</guid>
+            <pubDate>Mon, 21 Sep 2026 08:26:56 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
         
-        <p><strong>Lisa A. Robinson</strong>, Harvard T.H. Chan School of Public Health</p>
+        <p><strong>Ginger Ke</strong>, Memorial University of Newfoundland</p>
         
-        <p><strong>Olof Bystrom</strong>, OECD</p>
+        <p><strong>Yong Lin</strong>, University of Birmingham</p>
         
-        <p><strong>Ståle Navrud</strong>, Norwegian University of Life Sciences</p>
+        <p><strong>Peter Shi</strong>, Macquarie University</p>
+        
+        <p><strong>Feng Tao</strong>, Soochow University</p>
         
     
     
     
-    <p>Mortality risk reductions typically dominate the benefits estimates for environmental policies. Recent reviews and syntheses of the value per statistical life (VSL) literature suggest that, while the research base is relatively strong for some settings, it contains significant gaps and inconsistencies. These include the need for more research on how attributes of the population and the risk affect these values. Deciding how to best synthesize and apply the estimates is also challenging.</p>
+    <p>Safe handling of hazardous chemicals presents a complex operational challenge across production and logistics systems, requiring integrated decision-making across scheduling, storage, facility location, transport, and recovery processes. Current academic research remains fragmented, addressing single functions in isolation rather than the coordinated system-wide approach needed to meet regulatory requirements and operational realities.</p>
     
-    <p>The value of nonfatal risk reductions receives substantially less attention, although the expected reduction in cases of nonfatal illnesses or injuries associated with environmental policies is frequently large. As is the case for mortality risks, estimates of individual willingness to pay (WTP) are the preferred measure of values. However, due to gaps in the research literature, these risks are often valued using proxies such as averted costs.</p>
+    <p>This special issue seeks original research that develops rigorous decision models for hazardous-chemical operations, integrating optimization, simulation, and data-driven methods with practical domain knowledge. The work should bridge operations research, production engineering, logistics management, and safety science to advance both theoretical foundations and practical capabilities for safer, more efficient and sustainable hazardous-chemical operations.</p>
     
     <p>
-        Appel publié par Environmental and Resource Economics.
+        Appel publié par International Journal of Production Research.
         
-        <a href="https://link.springer.com/collections/gdbbbihied">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://think.taylorandfrancis.com/special_issues/ijpr-hazardous-chemicals/">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/springer-by-invitation-only-valuing-health-and-longevity-advances-and-innovations/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/tandf-management-theories-and-methods-for-safe-operations-of-hazardous-chemicals-in-production-and-logistics-systems/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Value per statistical life (VSL) and population attributes affecting mortality risk valuations</li>
+        <li>Integrated Production Planning and Hazardous Chemical Management under Safety Constraints</li>
         
-        <li>Valuation of nonfatal risk reductions and morbidity using willingness to pay approaches</li>
+        <li>Robust Storage and Inventory Control for Hazardous Chemicals under Uncertainty</li>
         
-        <li>Synthesis and application of health valuation estimates across different contexts</li>
+        <li>Intelligent Optimization of Hazardous Chemical Logistics Networks and Transportation Scheduling</li>
         
-        <li>Addressing co-occurring effects and distributional equity in health valuations</li>
+        <li>Road Transport Routing and Distribution Optimization for Hazardous Materials with Dynamic Risk</li>
         
-        <li>Benefit transfer methods and meta-analysis approaches for health valuation</li>
+        <li>Safe Disposal and Resource Utilization of Hazardous Chemical Waste in Circular Systems</li>
         
-        <li>Best practice willingness to pay studies for mortality and morbidity risk reductions</li>
+        <li>Multi-Objective Decision Analytics Balancing Efficiency, Safety, and Sustainability</li>
         
-        <li>Combining and transferring valuation estimates to different policy contexts</li>
+        <li>Data-Driven Risk Prediction and Real-Time Coordination in Hazardous Chemical Supply Chains</li>
         
-        <li>Methodological innovations in environmental health economic evaluation</li>
+        <li>Emergency Response and Disruption Recovery in Hazardous Chemicals Management Systems</li>
+        
+        <li>Game-Theoretic and Incentive Mechanisms for Multi-Stakeholder Hazardous Material Operations</li>
+        
+        <li>Policy-Regulated Decision Models for Safe and Circular Hazardous Chemical Management</li>
         
     </ul>
     
@@ -69,7 +75,9 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>October 31, 2026: Submission deadline</li>
+        <li>December 1, 2026: Open for Submissions</li>
+        
+        <li>October 31, 2027: Submission Deadline</li>
         
     </ul>
     

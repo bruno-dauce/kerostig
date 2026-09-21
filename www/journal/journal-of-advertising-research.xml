@@ -4,7 +4,7 @@
         <title>kerostig | Journal of Advertising Research</title>
         <link>https://kerostig.org/journal/journal-of-advertising-research/</link>
         <description>Derniers appels à publications pour Journal of Advertising Research.</description>
-        <lastBuildDate>Mon, 14 Sep 2026 08:23:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Sep 2026 08:29:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,109 @@
             <link>https://kerostig.org/journal/journal-of-advertising-research/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Machines as Method: The Use of Artificial Intelligence in Advertising Research]]></title>
+            <link>https://kerostig.org/call/tandf-machines-as-method-the-use-of-artificial-intelligence-in-advertising-research/</link>
+            <guid>tandf-machines-as-method-the-use-of-artificial-intelligence-in-advertising-research</guid>
+            <pubDate>Mon, 21 Sep 2026 08:26:56 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Jameson Hayes</strong>, University of South Carolina</p>
+        
+        <p><strong>Edward Malthouse</strong>, Northwestern University</p>
+        
+    
+    
+    
+    <p>Advertising researchers are increasingly using artificial intelligence as a research tool—large language models now serve as survey respondents, moderators, analysts, and predictors. This shift is outpacing academic attention; while practitioners have deployed synthetic respondent platforms and AI-moderated research at scale, concerns about bias, validity, and accuracy remain largely unexamined. This special issue seeks rigorous work evaluating whether and when AI-based methods produce trustworthy advertising research.</p>
+    
+    <p>The special issue addresses several pressing concerns: synthetic respondents may simulate what people say about ads rather than what ads actually do to them, given that much advertising effect operates through low-attention and implicit processes. The field lacks clear standards for validating these tools, and the gap between commercial deployment and published research is widening. Both quantitative and qualitative approaches, benchmarking studies, and independent evaluations of commercial tools are welcomed.</p>
+    
+    <p>
+        Appel publié par Journal of Advertising Research.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/machines-as-method-the-use-of-artificial-intelligence-in-advertising-research/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-machines-as-method-the-use-of-artificial-intelligence-in-advertising-research/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Does It Predict? The Validity of Synthetic Ad Testing - When can LLM-based synthetic respondents stand in for human participants in advertising research, and when do they fail?</li>
+        
+        <li>How well do synthetic panels reproduce human results on core advertising outcomes (e.g., attention, recall, attitude toward the ad, purchase intent), and under what boundary conditions?</li>
+        
+        <li>Can synthetic respondents replicate established advertising effects (e.g., mere exposure, source credibility, fear appeals), and what does failure to replicate reveal?</li>
+        
+        <li>What is the appropriate validation criterion: human panel agreement, or in-market outcomes such as sales and brand lift?</li>
+        
+        <li>How much variance compression, homogenization, or demographic distortion do synthetic samples introduce, and how should uncertainty be quantified and reported?</li>
+        
+        <li>Given that models are trained on the advertising literature itself, when does an apparent confirmation of theory reflect evidence rather than regurgitation?</li>
+        
+        <li>Which advertising responses (e.g., deliberative judgments, verbal attitudes) can LLMs plausibly simulate, and which (e.g., implicit memory, affective response, low-attention processing) remain out of reach?</li>
+        
+        <li>How do synthetic responses compare with human data across high- and low-involvement conditions, or across System 1 and System 2 dominant tasks?</li>
+        
+        <li>Do synthetic respondents exhibit persuasion knowledge, skepticism, or ad avoidance in ways that mirror or distort human patterns?</li>
+        
+        <li>What theoretical frameworks best explain where machine simulation of consumer response breaks down?</li>
+        
+        <li>Machines That Listen: AI-Moderated Qualitative Research - What happens to qualitative advertising research when the moderator, the coder, or both are machines?</li>
+        
+        <li>How does AI moderation compare with skilled human moderation in probing depth, laddering, and the elicitation of meaning?</li>
+        
+        <li>Do consumers disclose differently to AI interviewers, particularly for sensitive or socially undesirable topics relevant to advertisers?</li>
+        
+        <li>How reliable are LLMs as qualitative analysts relative to human coders, and what is lost or gained in machine-led thematic analysis?</li>
+        
+        <li>Does qualitative research at machine scale change what qualitative inquiry is for, or merely how much of it can be done?</li>
+        
+        <li>AI as Measurement Instrument - How trustworthy are machines as coders and predictors of advertising content and response?</li>
+        
+        <li>How valid are AI-predicted attention, emotion, and memorability scores relative to eye tracking, facial coding, and other biometric ground truths, and where do the predictions break down?</li>
+        
+        <li>Can LLMs and multimodal models reliably code advertising content at scale (e.g., creativity, emotional tone, brand prominence, message strategy), and how should such measures be validated?</li>
+        
+        <li>What can computational reanalysis of large advertising archives (e.g., tracking studies, open-ended verbatims, effectiveness case libraries) reveal that original analyses could not?</li>
+        
+        <li>Stress Tests and Stand-Ins: Studying What Could Not Be Studied - Can AI extend advertising research into territory that was previously impractical, or impermissible, to study?</li>
+        
+        <li>Can adversarial AI populations red-team creative before launch, surfacing misinterpretation, offense, and unintended meanings across segments?</li>
+        
+        <li>Under what conditions, if any, are synthetic stand-ins defensible for audiences that are restricted or difficult to research directly (e.g., children, patients, regulated categories)?</li>
+        
+        <li>How should the field confront the fidelity paradox: synthetic methods are most attractive precisely where human ground truth is least available?</li>
+        
+        <li>The Changing Research Pipeline - How is AI reshaping the practice, economics, and integrity of advertising research?</li>
+        
+        <li>When creative variants can be generated and scored predictively at scale, what becomes of the pretest as a discrete stage, and of the research function itself?</li>
+        
+        <li>How accurate are commercial AI research tools when evaluated independently, and what evaluation frameworks should the field adopt?</li>
+        
+        <li>How prevalent is AI contamination of human data (e.g., bots, LLM-assisted respondents), and how can it be detected, and what does it mean for the panel infrastructure advertising research depends on?</li>
+        
+        <li>What disclosure and reporting standards should journals, firms, and industry bodies require when AI participates in the research process?</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>July 1, 2027: Submission window opens</li>
+        
+        <li>August 1, 2027: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[AI and the Future of Advertising Creativity]]></title>
             <link>https://kerostig.org/call/tandf-ai-and-the-future-of-advertising-creativity/</link>

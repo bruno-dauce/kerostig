@@ -4,7 +4,7 @@
         <title>kerostig | Tag : operations research</title>
         <link>https://kerostig.org/tag/operations-research/</link>
         <description>Derniers appels à publications avec le tag 'operations research'.</description>
-        <lastBuildDate>Mon, 14 Sep 2026 08:23:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -200,6 +200,77 @@
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Climate Transition and Operational Risk Modelling: Implications for Supply Chains and Financial Decision-Making]]></title>
+            <link>https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/</link>
+            <guid>springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Andrea Flori</strong>, Politecnico di Milano</p>
+        
+        <p><strong>Anna Maria Gambaro</strong>, Università del Piemonte Orientale</p>
+        
+        <p><strong>Ioannis Kyriakou</strong>, University of London</p>
+        
+        <p><strong>Duc Khuong Nguyen</strong>, EMLV Business School</p>
+        
+    
+    
+    
+    <p>Climate-related operational risks pose significant threats to financial and economic systems, particularly as economies transition toward low-carbon models. The timing and pace of this transition create substantial uncertainties, especially for carbon-intensive firms that must balance profitability with decarbonization goals. Vulnerabilities extend through interconnected global supply chains where disruptions propagate indirectly, amplifying operational and systemic risks across multiple tiers.</p>
+    
+    <p>Financial markets increasingly transmit climate-related risks through asset prices, volatility, and liquidity shocks, potentially triggering market instability through supply chain relationships. This special issue addresses the gap in understanding how climate and environmental risks propagate through financial and economic systems, seeking contributions that employ robust stochastic optimization, machine learning, and advanced forecasting methods to inform portfolio allocation and risk management decisions in the face of evolving climate regulations and transition uncertainties.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/baifaedejd">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Robust stochastic optimization methods for climate transition risks</li>
+        
+        <li>Portfolio optimization and risk-adjusted return modelling under climate policy uncertainty</li>
+        
+        <li>Credit and counterparty risk assessment under low-carbon transition scenarios</li>
+        
+        <li>Risk-sharing mechanisms and insurance models for climate-related disruptions</li>
+        
+        <li>Supply chain risk management in climate transition</li>
+        
+        <li>Operational decision-making in emission trading schemes and carbon pricing</li>
+        
+        <li>Predictive modelling of carbon stranding risk via supervised learning</li>
+        
+        <li>Machine learning and big data analytics for climate risk scenario classification</li>
+        
+        <li>Natural language processing applications in climate policy risk analysis</li>
+        
+        <li>Bayesian network approaches to modelling climate transition risk propagation</li>
+        
+        <li>Agent-based models of climate transition dynamics and systemic effects</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Collaborative Intelligence in Operations Research: Models, Methods, and Applications]]></title>
             <link>https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/</link>
             <guid>springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</guid>
@@ -267,77 +338,6 @@
     <ul>
         
         <li>December 31, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems]]></title>
-            <link>https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/</link>
-            <guid>springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Yi-Kuei Lin</strong>, National Yang Ming Chiao Tung University</p>
-        
-    
-    
-    
-    <p>This special issue focuses on reliability modeling and decision support for industrial engineering systems such as manufacturing, supply chains, logistics, energy, and transportation networks. While traditional reliability approaches rely on probabilistic analysis, advances in sensing technologies and data collection have enabled data-driven methods combining machine learning with classical reliability theory. The special issue seeks to bridge reliability analysis with practical decision-making for maintenance planning, resource allocation, and system optimization.</p>
-    
-    <p>Research contributions should demonstrate both theoretical rigor and practical relevance to industrial applications. The issue welcomes papers on data-driven reliability modeling, machine learning approaches, decision support frameworks, predictive maintenance, and optimization informed by reliability performance. Submissions illustrating how data-driven analysis enhances system performance and decision outcomes are particularly encouraged.</p>
-    
-    <p>
-        Appel publié par Annals of Operations Research.
-        
-        <a href="https://link.springer.com/collections/igdgfheeeh">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Data-driven reliability modeling and parameter estimation using operational data</li>
-        
-        <li>Reliability analysis using statistical learning and machine learning methods</li>
-        
-        <li>Reliability models combining analytical formulations with data-driven learning approaches</li>
-        
-        <li>Decision support systems incorporating reliability analysis and risk information</li>
-        
-        <li>Optimization and decision-making problems informed by reliability performance</li>
-        
-        <li>Predictive maintenance and condition monitoring using data and learning models</li>
-        
-        <li>Multistate system and network reliability analysis</li>
-        
-        <li>Reliability evaluation of manufacturing, logistics, and supply chain systems</li>
-        
-        <li>Reliability modeling in energy, power, and infrastructure systems</li>
-        
-        <li>Stochastic modeling and uncertainty analysis in data-driven reliability studies</li>
-        
-        <li>Simulation, enumeration, and approximation methods for reliability evaluation</li>
-        
-        <li>System design and resource allocation considering reliability and operational data</li>
-        
-        <li>Reliability analysis supported by digital twins, data analytics, and intelligent systems</li>
-        
-        <li>Reliability, robustness, and resilience of industrial engineering systems</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>July 31, 2027: Submission deadline</li>
         
     </ul>
     
@@ -476,6 +476,87 @@
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Multiple Objective Programming and Goal Programming: Artificial Intelligence for Decision Making in Economic and Social Sciences]]></title>
+            <link>https://kerostig.org/call/springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences/</link>
+            <guid>springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Matteo Rocca</strong>, University of Insubria</p>
+        
+        <p><strong>Davide La Torre</strong>, Skema Business School</p>
+        
+        <p><strong>Constantin Zopounidis</strong>, Technical University of Crete</p>
+        
+    
+    
+    
+    <p>This special issue focuses on the intersection of Multiple Objective Optimization, Goal Programming, and Artificial Intelligence, addressing complex decision-making challenges in economics and social sciences. The collection seeks papers that combine these three domains to develop frameworks where optimization methods prioritize conflicting objectives, goal programming establishes specific targets, and AI enhances decision models through data analytics and machine learning.</p>
+    
+    <p>The special issue welcomes both papers substantially extending contributions presented at the 16th International Conference on Multiple Objective Programming and Goal Programming (MOPGP&#39;25) and new original work addressing theories and applications of MOP, GP, and AI in economic and social contexts.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/bffeaajcfi">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Advancements in Multiple Objective Programming Techniques</li>
+        
+        <li>Goal Programming Techniques and Formulations</li>
+        
+        <li>Goal Programming Approaches in Public Policy</li>
+        
+        <li>AI-Enhanced Decision Support Systems for Resource Allocation</li>
+        
+        <li>Data-Driven Methods in Economic and Social Decision-Making</li>
+        
+        <li>Integrating Machine Learning with MOP</li>
+        
+        <li>Multicriteria Deep Learning</li>
+        
+        <li>Applications of MOP and GP in Sustainable Development</li>
+        
+        <li>Real-Time Decision-Making Frameworks Using AI</li>
+        
+        <li>Comparative Studies of MOP and GP in Various Contexts</li>
+        
+        <li>Multi-Criteria Decision Analysis in Sustainable Economics</li>
+        
+        <li>Multiple Criteria Decision Making in Environmental Economics</li>
+        
+        <li>Optimization Models for Social Welfare</li>
+        
+        <li>Behavioural Insights in Multi-Objective Decision-Making</li>
+        
+        <li>Metaheuristics and Computational Methods in MOP</li>
+        
+        <li>MOP and MCDM in AI applications</li>
+        
+        <li>Innovative Applications to Economic and Social Sciences</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>June 30, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[OR for Sustainability in Supply Chain Management]]></title>
             <link>https://kerostig.org/call/springer-or-for-sustainability-in-supply-chain-management/</link>
             <guid>springer-or-for-sustainability-in-supply-chain-management</guid>
@@ -489,9 +570,9 @@
     
     
     
-    <p>This special section addresses the integration of sustainable development goals (SDGs) into supply chain management using advanced operations research methods. Organizations face mounting pressure to balance economic growth with resource conservation and environmental protection, making this research area crucial for achieving the UN&#39;s 2030 sustainability agenda.</p>
+    <p>This special section addresses the integration of sustainable development goals into supply chain management through advanced operations research methods. Organizations face mounting pressure to balance economic growth with resource conservation and environmental protection while addressing poverty and societal issues. The seventeen sustainable development goals adopted in 2015 target achievement by 2030, with significant implications for how supply chains are designed and operated across the globe.</p>
     
-    <p>The special section seeks research applying optimization models, algorithms, and decision-making techniques such as multi-attribute and multi-objective decision making to design and implement sustainable supply chains. Contributions should explore how operations research can support stakeholder engagement in sustainability policymaking, innovative practices for resource management, and mechanisms for monitoring progress toward SDG targets across different economic contexts.</p>
+    <p>The special section invites research on how optimization models, decision-making algorithms, and novel operations research techniques can support the implementation of sustainable supply chain management. Contributions should explore policy design with multiple stakeholders, innovative sustainability practices, and governance mechanisms for monitoring progress toward sustainable goals in different economic and geographical contexts. The work should demonstrate how efficient resource utilization and environmental responsibility can be achieved while improving organizational and societal outcomes.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -504,11 +585,35 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Designing and policymaking in SDGs through stakeholder support: to provide examples of sustainable policy and design making with multi-stakeholder perspectives and to define how sustainability is considered in framing policies and enumerating success factors and challenges on supply chain management</li>
+        <li>Designing and policymaking in sustainable development goals through stakeholder support</li>
         
-        <li>Implementing SDGs in supply chains through innovative strategies and practices: to identify the sustainable goals, indicators, and practices related to the implementation of sustainable supply chain management and to explore how this knowledge may be used to effectively manage and conserve resources with less environmental and societal impact</li>
+        <li>Implementing sustainable development goals in supply chains through innovative strategies and practices</li>
         
-        <li>Monitoring supply chain governance and implications with a focus on SDGs: to elaborate practices and supporting mechanisms in measuring, monitoring, and reporting progress toward achieving targets, and to further emphasize various challenges related to the implementation of SDGs in supply chain management in different applications/context/economies</li>
+        <li>Monitoring supply chain governance and implications with a focus on sustainable development goals</li>
+        
+        <li>Multi-attribute decision making approaches for sustainable supply chain management</li>
+        
+        <li>Multi-objective decision making approaches for sustainable supply chain management</li>
+        
+        <li>Green supply chain management strategies</li>
+        
+        <li>Lean supply chain approaches</li>
+        
+        <li>Resource conservation and efficiency in supply chains</li>
+        
+        <li>Circular economy in supply chain contexts</li>
+        
+        <li>Sustainable supplier selection and evaluation</li>
+        
+        <li>Carbon emissions reduction in supply chains</li>
+        
+        <li>Reverse logistics and closed-loop supply chains</li>
+        
+        <li>Sustainable procurement practices</li>
+        
+        <li>Environmental impact assessment in supply chains</li>
+        
+        <li>Social and economic sustainability in supply chain operations</li>
         
     </ul>
     
