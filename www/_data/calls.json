@@ -1,5 +1,1755 @@
 [
   {
+    "journal": "Journal of Forecasting",
+    "abbreviation": "wiley",
+    "issn": "1099-131X",
+    "metaTitle": "Advances in Forecasting Using Contemporary AI Methods in Finance, Accounting, Management, and Economics",
+    "url": "https://onlinelibrary.wiley.com/page/journal/1099131x/call-for-papers/advances-in-forecasting",
+    "title": "Advances in Forecasting Using Contemporary AI Methods in Finance, Accounting, Management, and Economics",
+    "slug": "wiley-advances-in-forecasting-using-contemporary-ai-methods-in-finance-accounting-management-and-economics",
+    "contentHash": "bc7cb2a970f87cec146861762b054a0c983e2b42f28891823ec9cda54eaf58c3",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue focuses on the application of contemporary artificial intelligence methods to forecasting problems across finance, accounting, management, and economics disciplines. The call invites research that explores how modern AI techniques can improve predictive accuracy and analytical capabilities in these fields."
+      ]
+    },
+    "tags": [
+      "ai",
+      "forecasting",
+      "finance",
+      "accounting",
+      "management",
+      "economics"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-09-30T10:00:00.000Z",
+        "description": "Deadline for submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T23:07:58.478Z"
+  },
+  {
+    "journal": "Information Systems Journal",
+    "abbreviation": "wiley",
+    "issn": "1365-2575",
+    "metaTitle": "AI, Policy and Public Value: Theorising the reciprocal relationship between AI and policy and its implications for public value",
+    "url": "https://onlinelibrary.wiley.com/page/journal/13652575/call-for-papers/si-2026-001168",
+    "title": "AI, Policy and Public Value: Theorising the reciprocal relationship between AI and policy and its implications for public value",
+    "slug": "wiley-ai-policy-and-public-value-theorising-the-reciprocal-relationship-between-ai-and-policy-and-its-implications-for-public-value",
+    "contentHash": "e7d677b8cd590f82a3d9c554bc7cb5bbb8da72b383262675af9e0610ec999f1b",
+    "topics": [
+      "AI and policy interactions",
+      "Reciprocal relationships between artificial intelligence and policy",
+      "Public value implications of AI",
+      "Policy responses to AI",
+      "AI governance and regulation",
+      "Institutional and organizational perspectives on AI policy",
+      "Societal impacts of AI"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue explores the complex interplay between artificial intelligence and public policy, focusing on how AI shapes policy development while policy frameworks simultaneously influence AI's evolution. The issue seeks to understand the broader implications of this reciprocal relationship for public value creation and delivery across different sectors and contexts."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "policy",
+      "governance",
+      "public value"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-06-15T10:00:00.000Z",
+        "description": "Deadline for Submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T23:07:58.478Z"
+  },
+  {
+    "journal": "International Transactions in Operational Research",
+    "abbreviation": "wiley",
+    "issn": "1475-3995",
+    "metaTitle": "Children & Society",
+    "url": "https://onlinelibrary.wiley.com/page/journal/10990860/homepage/children___society_25th_anniversary_issue.htm",
+    "title": "Children & Society 25th Anniversary Issue",
+    "slug": "wiley-children-and-society",
+    "contentHash": "110d5416b4dc31ced774a7f84adc1c1316a2de6d6ad505e42a9d01a970e47c20",
+    "topics": [
+      "Childhood issues",
+      "Policies and services affecting children",
+      "Child well-being",
+      "Children's place in society"
+    ],
+    "description": {
+      "paragraphs": [
+        "This virtual issue commemorates 25 years of Children & Society by showcasing selected papers that have been influential in shaping the field. The collection demonstrates both significant changes in the journal's coverage reflecting evolving social contexts and policy environments, and enduring commitments to core themes in childhood studies.",
+        "The journal maintains its fundamental mission to publish high-quality research across a broad spectrum of childhood-related topics, with particular emphasis on policies, services, and advocacy for children's well-being and their role within society."
+      ]
+    },
+    "tags": [
+      "children",
+      "childhood studies",
+      "social policy",
+      "well-being"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-09-26T23:07:58.478Z"
+  },
+  {
+    "journal": "New Technology Work and Employment",
+    "abbreviation": "wiley",
+    "issn": "1468-005X",
+    "metaTitle": "Failures of Digitalization in the Workplace",
+    "url": "https://onlinelibrary.wiley.com/page/journal/1468005x/call-for-papers/failures-of-digitalization",
+    "title": "Failures of Digitalization in the Workplace",
+    "slug": "wiley-failures-of-digitalization-in-the-workplace",
+    "contentHash": "b90434defb9dac95da33ee6bbcfeca5d9b6cf960b957a8ec2ebebd78c63056c1",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This call for papers invites submissions examining failures and setbacks in workplace digitalization initiatives. The special issue seeks research that explores what goes wrong when organizations attempt to implement digital technologies and systems in their operations."
+      ]
+    },
+    "tags": [
+      "digitalization",
+      "workplace",
+      "organizational failure"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-04-30T10:00:00.000Z",
+        "description": "Deadline for submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T23:07:58.478Z"
+  },
+  {
+    "journal": "New Technology Work and Employment",
+    "abbreviation": "wiley",
+    "issn": "1468-005X",
+    "metaTitle": "Platformisation as an Organising Logic of Inequality",
+    "url": "https://onlinelibrary.wiley.com/page/journal/1468005x/call-for-papers/logic-of-inequality",
+    "title": "Platformisation as an Organising Logic of Inequality",
+    "slug": "wiley-platformisation-as-an-organising-logic-of-inequality",
+    "contentHash": "7fe07bdc7e5dbab831115957d9fd5dfa7bbfe5309a59663dc083ce8abc76630c",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-05-31T10:00:00.000Z",
+        "description": "Deadline for Submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T23:07:58.478Z"
+  },
+  {
+    "journal": "Real Estate Economics",
+    "abbreviation": "wiley",
+    "issn": "1540-6229",
+    "metaTitle": "Real Estate Economics Household Perspectives on Real Estate",
+    "url": "https://onlinelibrary.wiley.com/page/journal/15406229/call-for-papers/household-perspectives",
+    "title": "Household Perspectives on Real Estate",
+    "slug": "wiley-real-estate-economics-household-perspectives-on-real-estate",
+    "contentHash": "f5fe21a1f6b6b208dc8bc2325947bacf250e9886012bb4a9b7cf7080c44aed47",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue of Real Estate Economics seeks submissions that examine how households perceive, interact with, and make decisions regarding real estate. The focus is on understanding residential real estate from the perspective of individual households and their economic behaviors."
+      ]
+    },
+    "tags": [
+      "real estate economics",
+      "household behavior"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-01T11:00:00.000Z",
+        "description": "Deadline for Submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T23:07:58.478Z"
+  },
+  {
+    "journal": "New Technology Work and Employment",
+    "abbreviation": "wiley",
+    "issn": "1468-005X",
+    "metaTitle": "The Algorithmic Turn: AI, Professional Labour, and the Reconfiguration of Work",
+    "url": "https://onlinelibrary.wiley.com/page/journal/1468005x/call-for-papers/algorithmic-turn",
+    "title": "The Algorithmic Turn: AI, Professional Labour, and the Reconfiguration of Work",
+    "slug": "wiley-the-algorithmic-turn-ai-professional-labour-and-the-reconfiguration-of-work",
+    "contentHash": "040cb5093ad2b0db41a318996051b42cb9212c48009ecdd8bac3080a8c504155",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how artificial intelligence and algorithmic systems are transforming professional work and labour practices. It seeks submissions exploring the intersection of AI technologies, professional employment, and broader workplace changes resulting from algorithmic management and automation."
+      ]
+    },
+    "tags": [
+      "ai",
+      "labour",
+      "work",
+      "algorithms",
+      "professions"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-06-01T10:00:00.000Z",
+        "description": "Deadline for submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T23:07:58.478Z"
+  },
+  {
+    "journal": "Journal of Purchasing and Supply Management",
+    "abbreviation": "elsevier",
+    "issn": "1873-6505",
+    "metaTitle": "Broadening the PSM Perspective: Lessons from Underrepresented Regions",
+    "url": "https://www.sciencedirect.com/special-issue/337579/broadening-the-psm-perspective-lessons-from-underrepresented-regions",
+    "title": "Broadening the PSM Perspective: Lessons from Underrepresented Regions",
+    "slug": "elsevier-broadening-the-psm-perspective-lessons-from-underrepresented-regions",
+    "contentHash": "fadd5f05b69f766eeebcc517ee1d332f85ac882d03293f9d139cdbf4016e099f",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue seeks to expand the purchasing and supply management literature by incorporating perspectives and insights from regions that have been historically underrepresented in scholarly discourse. The call invites research that challenges conventional wisdom by drawing on experiences and contexts from diverse geographical areas."
+      ]
+    },
+    "tags": [
+      "purchasing and supply management",
+      "regional perspectives",
+      "underrepresented regions"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-08-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "The Leadership Quarterly",
+    "abbreviation": "elsevier",
+    "issn": "1873-3409",
+    "metaTitle": "Contextualizing Leadership: Toward Context-Sensitive Theorizing and Research",
+    "url": "https://www.sciencedirect.com/special-issue/337581/contextualizing-leadership-toward-context-sensitive-theorizing-and-research",
+    "title": "Contextualizing Leadership: Toward Context-Sensitive Theorizing and Research",
+    "slug": "elsevier-contextualizing-leadership-toward-context-sensitive-theorizing-and-research",
+    "contentHash": "32aa90739877085dae97273114e757a6003f8fd696131e5668ddeb6e59ecc81e",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue seeks to advance leadership research by emphasizing the importance of context in understanding leadership phenomena. The call invites scholars to develop and apply context-sensitive theoretical frameworks that move beyond universal leadership models to examine how organizational, social, cultural, and environmental contexts shape leadership processes and outcomes."
+      ]
+    },
+    "tags": [
+      "leadership",
+      "context",
+      "organizational behavior",
+      "theory"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-12-01T11:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Business Horizons",
+    "abbreviation": "elsevier",
+    "issn": "1873-6068",
+    "metaTitle": "Corporate duty of care and liability in the age of advanced AI: Legal risk, accountability, and corporate exposure",
+    "url": "https://www.sciencedirect.com/special-issue/337521/corporate-duty-of-care-and-liability-in-the-age-of-advanced-ai-legal-risk-accountability-and-corporate-exposure",
+    "title": "Corporate duty of care and liability in the age of advanced AI: Legal risk, accountability, and corporate exposure",
+    "slug": "elsevier-corporate-duty-of-care-and-liability-in-the-age-of-advanced-ai-legal-risk-accountability-and-corporate-exposure",
+    "contentHash": "b20889410ea74d431930fc9318ac2c09ffaf8be12529ef963233d8d1a6d67885",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue examines the evolving legal responsibilities and accountability frameworks that organizations must navigate as artificial intelligence technologies become increasingly sophisticated and integrated into business operations. The focus is on understanding corporate duty of care obligations, liability exposures, and the regulatory landscape that governs AI use in corporate settings."
+      ]
+    },
+    "tags": [
+      "ai",
+      "corporate law",
+      "liability",
+      "duty of care",
+      "accountability"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-04-01T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Emerging Markets Review",
+    "abbreviation": "elsevier",
+    "issn": "1873-6173",
+    "metaTitle": "Corporate Supply Chain Risks in Emerging Markets: Assessment, Management, and Impact",
+    "url": "https://www.sciencedirect.com/special-issue/337360/corporate-supply-chain-risks-in-emerging-markets-assessment-management-and-impact",
+    "title": "Corporate Supply Chain Risks in Emerging Markets: Assessment, Management, and Impact",
+    "slug": "elsevier-corporate-supply-chain-risks-in-emerging-markets-assessment-management-and-impact",
+    "contentHash": "b6c151b7e894a1c2960ca8d24badedbc5e85a15c7b9b8ca79973fb52c5c33c21",
+    "topics": [
+      "Supply chain risk assessment in emerging markets",
+      "Supply chain risk management strategies",
+      "Impact of supply chain disruptions on corporate performance",
+      "Emerging market specific supply chain vulnerabilities",
+      "Risk mitigation and resilience building in supply chains"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines supply chain risks faced by corporations operating in emerging markets. The focus is on understanding how companies can assess, manage, and respond to the various challenges and disruptions that arise from supply chain operations in these regions, as well as the broader consequences these risks have for organizational performance and competitiveness."
+      ]
+    },
+    "tags": [
+      "supply chain risk",
+      "emerging markets",
+      "corporate management",
+      "risk assessment"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-15T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Journal of Environmental Management",
+    "abbreviation": "elsevier",
+    "issn": "1095-8630",
+    "metaTitle": "Environmental Management Perspectives on Water Pollution Control and Ecosystem Restoration within the One Water Framework",
+    "url": "https://www.sciencedirect.com/special-issue/337371/environmental-management-perspectives-on-water-pollution-control-and-ecosystem-restoration-within-the-one-water-framework",
+    "title": "Environmental Management Perspectives on Water Pollution Control and Ecosystem Restoration within the One Water Framework",
+    "slug": "elsevier-environmental-management-perspectives-on-water-pollution-control-and-ecosystem-restoration-within-the-one-water-framework",
+    "contentHash": "abce21610a76cc1d5f0e76f9ceee46ff3adaa237df4b432ced667cacd81e6884",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue in the Journal of Environmental Management focuses on water pollution control and ecosystem restoration through an integrated One Water approach. The call seeks research that addresses environmental management strategies for tackling water pollution while simultaneously restoring degraded ecosystems."
+      ]
+    },
+    "tags": [
+      "water pollution",
+      "ecosystem restoration",
+      "environmental management",
+      "one water"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-15T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Futures",
+    "abbreviation": "elsevier",
+    "issn": "1873-6378",
+    "metaTitle": "Futures of Global Catastrophic Risks and Societal Collapse",
+    "url": "https://www.sciencedirect.com/special-issue/337386/futures-of-global-catastrophic-risks-and-societal-collapse",
+    "title": "Futures of Global Catastrophic Risks and Societal Collapse",
+    "slug": "elsevier-futures-of-global-catastrophic-risks-and-societal-collapse",
+    "contentHash": "010eb13110aed198dddf10acab74cd50101e57134771368206c953a408c7301f",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue examines potential futures shaped by global catastrophic risks and the possibility of societal collapse. The call invites research exploring how these existential threats might reshape human societies and what alternative futures could emerge from confronting such challenges."
+      ]
+    },
+    "tags": [
+      "global catastrophic risks",
+      "societal collapse",
+      "futures studies"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-21T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Information Processing & Management",
+    "abbreviation": "elsevier",
+    "issn": "1873-5371",
+    "metaTitle": "Human Reasoning and Large Language Models: Alignments and Divergences",
+    "url": "https://www.sciencedirect.com/special-issue/337537/human-reasoning-and-large-language-models-alignments-and-divergences",
+    "title": "Human Reasoning and Large Language Models: Alignments and Divergences",
+    "slug": "elsevier-human-reasoning-and-large-language-models-alignments-and-divergences",
+    "contentHash": "9bc07cae45a465edf08a3741eb030b49050b146af8c82a96af7dac6da6e1ceef",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue explores the connections and differences between how humans reason and how large language models process information. The focus is on understanding where these two approaches align and where they diverge, examining both the capabilities and limitations of LLMs in relation to human cognitive processes."
+      ]
+    },
+    "tags": [
+      "large language models",
+      "human reasoning",
+      "cognitive science"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-04-29T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Telecommunications Policy",
+    "abbreviation": "elsevier",
+    "issn": "1879-3258",
+    "metaTitle": "Papers presented at TPRC54",
+    "url": "https://www.sciencedirect.com/special-issue/337510/papers-presented-at-tprc54",
+    "title": "Papers presented at TPRC54",
+    "slug": "elsevier-papers-presented-at-tprc54",
+    "contentHash": "60615e7f43cc1543d4ad0c9cc3afa716552326dc19b9e295b672ae51afb34493",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This call invites papers that were presented at TPRC54 to be submitted for publication in Telecommunications Policy journal."
+      ]
+    },
+    "tags": [
+      "telecommunications",
+      "policy"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-18T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Journal of Manufacturing Systems",
+    "abbreviation": "elsevier",
+    "issn": "1878-6642",
+    "metaTitle": "SME Tri-Journal Combined AI for Manufacturing - From Theories to Applications - Journal of Manufacturing Systems",
+    "url": "https://www.sciencedirect.com/special-issue/337380/sme-tri-journal-combined-special-issue-on-ai-for-manufacturing-from-theories-to-applications-journal-of-manufacturing-systems",
+    "title": "AI for Manufacturing – From Theories to Applications",
+    "slug": "elsevier-sme-tri-journal-combined-ai-for-manufacturing-from-theories-to-applications-journal-of-manufacturing-systems",
+    "contentHash": "754cf16cac58b0d285524c951d1ec9df8a31bd425a0e0b2d9910fa8c03725b66",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue in the Journal of Manufacturing Systems invites submissions on artificial intelligence applications in manufacturing contexts, bridging theoretical frameworks with practical implementation and real-world deployment across industrial settings."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "manufacturing"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-15T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Information and Organization",
+    "abbreviation": "elsevier",
+    "issn": "1873-7919",
+    "metaTitle": "Societal Transformation through Digital Infrastructures in Times of Change",
+    "url": "https://www.sciencedirect.com/special-issue/337430/societal-transformation-through-digital-infrastructures-in-times-of-change",
+    "title": "Societal Transformation through Digital Infrastructures in Times of Change",
+    "slug": "elsevier-societal-transformation-through-digital-infrastructures-in-times-of-change",
+    "contentHash": "9ebbe63df6c09b60957408490e0523d3bd97228303145d1505788e9c1af7f2c1",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how digital infrastructures shape and enable societal transformation during periods of significant change. The issue seeks research that explores the complex relationships between technology, society, and organizational systems as they adapt and evolve in response to digital innovations."
+      ]
+    },
+    "tags": [
+      "digital infrastructure",
+      "societal transformation",
+      "organizational change"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "International Review of Economics & Finance",
+    "abbreviation": "elsevier",
+    "issn": "1873-8036",
+    "metaTitle": "The Future of Finance: Artificial Intelligence, Digital Transformation and the Sustainability Transition",
+    "url": "https://www.sciencedirect.com/special-issue/337359/the-future-of-finance-artificial-intelligence-digital-transformation-and-the-sustainability-transition",
+    "title": "The Future of Finance: Artificial Intelligence, Digital Transformation and the Sustainability Transition",
+    "slug": "elsevier-the-future-of-finance-artificial-intelligence-digital-transformation-and-the-sustainability-transition",
+    "contentHash": "fb18f809236cbe18663e50e59f4dd6670214c800233d63bd1086f9f9ec763c66",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue explores the intersection of artificial intelligence, digital transformation, and sustainability in the financial sector. The collection invites research that examines how these technological and environmental forces are reshaping finance and the broader economic landscape."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "digital transformation",
+      "sustainability",
+      "finance",
+      "economics"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-06-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Information Processing & Management",
+    "abbreviation": "elsevier",
+    "issn": "1873-5371",
+    "metaTitle": "Trustworthy Content Governance and Safe Generative AI in the Age of Large Language Models",
+    "url": "https://www.sciencedirect.com/special-issue/337409/trustworthy-content-governance-and-safe-generative-ai-in-the-age-of-large-language-models",
+    "title": "Trustworthy Content Governance and Safe Generative AI in the Age of Large Language Models",
+    "slug": "elsevier-trustworthy-content-governance-and-safe-generative-ai-in-the-age-of-large-language-models",
+    "contentHash": "e62f49498e33449d83f7f3240613f8685066df8d1c47dc84e7ef40920652b472",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue addresses the challenges of governing content and ensuring safety in generative AI systems, particularly as large language models become increasingly prevalent. The issue seeks research on establishing trustworthy frameworks and mechanisms for managing content while developing safer generative AI technologies."
+      ]
+    },
+    "tags": [
+      "generative ai",
+      "large language models",
+      "content governance",
+      "trustworthy ai",
+      "ai safety"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-31T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Public Health",
+    "abbreviation": "elsevier",
+    "issn": "1476-5616",
+    "metaTitle": "VSI: Addiction & technology",
+    "url": "https://www.sciencedirect.com/special-issue/337531/vsi-addiction-technology",
+    "title": "Addiction & Technology",
+    "slug": "elsevier-vsi-addiction-and-technology",
+    "contentHash": "695bff9bc350718af3ef942d2095c33d753ce340e60c2f24ac70bea64e58b390",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue in Public Health examines the intersection of addiction and technology, exploring how technological developments and digital platforms relate to addictive behaviors and substance use disorders."
+      ]
+    },
+    "tags": [
+      "addiction",
+      "technology",
+      "public health"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-09-01T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Arts and the Market",
+    "abbreviation": "emerald",
+    "issn": "2056-4953",
+    "metaTitle": "Consumption trends of Cultural and Creative products in phygital contexts",
+    "url": "https://www.emerald.com/aam/calls-for-submissions/1984/Consumption-trends-of-Cultural-and-Creative?searchresult=1",
+    "title": "Consumption trends of Cultural and Creative products in \"phygital\" contexts",
+    "slug": "emerald-consumption-trends-of-cultural-and-creative-products-in-phygital-contexts",
+    "contentHash": "6b2fa0373c2de52be16c72dac31716e55a2b0519a9f1635446c396ebb0b3541f",
+    "topics": [
+      "Cultural and Creative Industries (CCIs) consumption patterns in phygital environments",
+      "Consumer behaviour theories and frameworks related to cultural products and services",
+      "Qualitative and quantitative methodologies for studying cultural consumption",
+      "Economic, psychological, social, and technological factors influencing purchasing decisions for cultural goods",
+      "Case studies of consumption trends across different geographic and cultural contexts",
+      "Phygital experiences integrating digital and physical elements in cultural settings",
+      "Role of artificial intelligence and extended reality technologies (augmented reality, virtual reality) in cultural consumption",
+      "Sustainability and circular practices in CCIs",
+      "Impact of CCIs on regional development, economic growth, cultural innovation, and social cohesion",
+      "Memorability and wellbeing benefits of phygital cultural experiences"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how consumption of cultural and creative products is evolving in contemporary \"phygital\" contexts where digital and physical experiences merge. The call seeks papers addressing contemporary theories of consumer behaviour, novel methodologies, and factors spanning economic, psychological, social, and technological dimensions that shape how people engage with cultural offerings.",
+        "The issue aims to map current consumption trends at individual and societal levels, identify best practices, and address gaps in academic understanding of how cultural industries are adapting to rapid societal transformation. It focuses on ten cultural domains including heritage, archives, libraries, publishing, visual arts, performing arts, audiovisual media, architecture, advertising, and crafts.",
+        "The special issue recognizes that cultural and creative industries are responding to challenges through innovation in digital environments, extended reality technologies, and sustainable practices. Papers should explore how these emerging practices contribute to individual wellbeing and broader social benefits such as education, intercultural dialogue, and social cohesion."
+      ]
+    },
+    "tags": [
+      "cultural and creative industries",
+      "phygital experiences",
+      "consumer behaviour",
+      "cultural consumption",
+      "digital technologies",
+      "sustainability"
+    ],
+    "editors": [
+      {
+        "name": "Elisa Salvador",
+        "affiliation": "ESSCA School of Management"
+      },
+      {
+        "name": "Carmen Pérez-Cabañero",
+        "affiliation": "Universitat de Valencia"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-07-15T10:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-02-15T11:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Journal of Management Development",
+    "abbreviation": "emerald",
+    "issn": "1758-7492",
+    "metaTitle": "Fresh narratives on Management Development",
+    "url": "https://www.emerald.com/jmd/calls-for-submissions/1978/Fresh-narratives-on-Management-Development?searchresult=1",
+    "title": "Fresh narratives on Management Development",
+    "slug": "emerald-fresh-narratives-on-management-development",
+    "contentHash": "3e2a8cccbd324f7e1fc7c9704b10101773e722269333f5277092a718f5083e7f",
+    "topics": [
+      "Developing managerial competencies for leading sustainable digital transformation",
+      "Responsible AI integration into management development programmes, including leadership training, upskilling and CPD",
+      "Cross-cultural management development for geographically integrated teams and supply chains, including nearshoring and regional hubs",
+      "Management development for inclusive and responsible entrepreneurial ecosystems, embedding DEI, well-being and AI-enabled work transformation into entrepreneurial training",
+      "The critical role of human agency in managing robotic and AI integration, including developing managerial frameworks for responsible AI governance as autonomous systems outpace ethical and regulatory preparedness"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue explores innovative approaches to management development in response to contemporary challenges including geopolitical instability, technological disruption, and sustainability pressures. It seeks concise research reports that examine how managers can be trained and equipped to navigate rapidly changing business environments and respond effectively to emerging complexities that traditional management studies only partially address.",
+        "The special issue welcomes empirical research using various methodologies that advance management development theory and practice. It particularly encourages contributions from early career researchers that offer fresh perspectives on redesigning management training for both individual and organisational levels, emphasizing practical applications and interdisciplinary insights on topics such as AI integration, nearshoring, and sustainable digital transformation.",
+        "Submissions should demonstrate rigorous scholarship with general applicability and provide actionable insights for implementing management development innovations. The initiative aligns with UN Sustainable Development Goals and operates through a mentorship-through-publication model to support emerging scholars in making significant contributions to the field."
+      ]
+    },
+    "tags": [
+      "management development",
+      "ai and leadership",
+      "organizational change",
+      "sustainable business",
+      "early career researchers"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-01-12T11:00:00.000Z",
+        "description": "Closing date for abstract submission",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-09-30T10:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-31T10:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "The International Journal of Logistics Management",
+    "abbreviation": "emerald",
+    "issn": "1758-6550",
+    "metaTitle": "Harnessing Technological Innovation for Managing Volatility and Advancing Sustainable and Regenerative Supply Chains",
+    "url": "https://www.emerald.com/ijlm/calls-for-submissions/1979/Harnessing-Technological-Innovation-for-Managing?searchresult=1",
+    "title": "Harnessing Technological Innovation for Managing Volatility and Advancing Sustainable and Regenerative Supply Chains",
+    "slug": "emerald-harnessing-technological-innovation-for-managing-volatility-and-advancing-sustainable-and-regenerative-supply-chains",
+    "contentHash": "76d0f8a6c381eb69cf1b2e3c15ebc26c6e939d0bf40f5110a9cd10e25fc112ea",
+    "topics": [
+      "Emerging digital technologies (e.g., AI, IoT, blockchain) for sustainability and resilience in supply chain management",
+      "Data-driven decarbonisation strategies and emissions transparency in logistics management",
+      "Digital enablers of circular supply chains, reverse logistics, and closed-loop systems",
+      "Digital transformation, resilience, and sustainable supply chain risk management",
+      "Technology-enabled supply chain resilience capabilities and competitive advantage",
+      "Blockchain-based traceability, transparency, and ethical sourcing in supply chain management",
+      "Digital product passports and lifecycle data integration",
+      "Governance, ethics, data integrity, and cybersecurity in digital supply chain management",
+      "Institutional and regulatory influences on technology-led sustainability initiatives in supply chain management",
+      "Digital platforms for supplier sustainability assessment and collaboration",
+      "Techno-nationalism, sovereign AI, and implications for managing global supply chains",
+      "Theoretical perspectives on technology-sustainability-resilience linkages in supply chain management",
+      "Integrating theory and practice in technology-led regenerative practices in supply chains"
+    ],
+    "description": {
+      "paragraphs": [
+        "Supply chains face escalating disruptions from climate change, geopolitical instability, pandemics, and regulatory pressures, while stakeholders increasingly demand sustainable and ethical practices. Digital technologies such as AI, blockchain, IoT, and advanced analytics are transforming supply chain operations by enhancing visibility and enabling data-driven decision-making that can address both resilience and sustainability goals.",
+        "This special issue seeks to explore how digital innovation integrates sustainability and resilience in supply chains while identifying gaps between current research and practice. Contributions should address theoretical and empirical questions about when and how technologies support or constrain environmental and social performance, considering contextual factors like institutional environments and geopolitical dynamics, as well as emerging issues such as circular economy transitions and sovereign artificial intelligence.",
+        "The special issue welcomes conceptual, empirical, and methodological contributions from researchers, practitioners, and policymakers that provide novel theoretical perspectives and practical insights into technology-driven supply chain transformation."
+      ]
+    },
+    "tags": [
+      "supply chain management",
+      "digital innovation",
+      "sustainability",
+      "resilience",
+      "artificial intelligence"
+    ],
+    "editors": [
+      {
+        "name": "Md Maruf Hossan Chowdhury",
+        "affiliation": "University of Technology Sydney"
+      },
+      {
+        "name": "Shahriar Akter",
+        "affiliation": "University of Wollongong"
+      },
+      {
+        "name": "Mohammad Alamgir Hossain",
+        "affiliation": "RMIT University"
+      },
+      {
+        "name": "Kristijan Mirkovski",
+        "affiliation": "Deakin University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-15T10:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-15T11:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "International Journal of Operations & Production Management",
+    "abbreviation": "emerald",
+    "issn": "1758-6593",
+    "metaTitle": "Managing Operational Tensions in Scaling Emerging Technologies",
+    "url": "https://www.emerald.com/ijopm/calls-for-submissions/1977/Managing-Operational-Tensions-in-Scaling-Emerging?searchresult=1",
+    "title": "Managing Operational Tensions in Scaling Emerging Technologies",
+    "slug": "emerald-managing-operational-tensions-in-scaling-emerging-technologies",
+    "contentHash": "05c93e5532b1d3814232ea4d8cda2a2aee7d72ccbe6b966ad1f8fa49b6c5a739",
+    "topics": [
+      "How do emerging technologies reconfigure operational processes, routines and decision rights during adoption and scaling?",
+      "What operational capabilities, performance measurement systems and managerial practices enable organisations to balance experimentation, learning and operational reliability?",
+      "How do organisations manage operational tensions arising from the simultaneous scaling of emerging technologies and the maintenance, integration or phase-out of legacy technologies?",
+      "How does the scaling of emerging technologies across supply networks reshape coordination, collaboration, trust, power and dependency relationships?",
+      "How do organisations manage tensions between transparency and confidentiality, decentralisation and strategic control, or local optimisation and network-wide performance?",
+      "How do AI-enabled ecosystems, intelligent intermediaries and algorithmic brokers transform supply network structures, relational dynamics and orchestration practices?",
+      "How do differences in digital maturity, resources and strategic priorities among supply chain partners affect technology scaling, governance and risks of digital exclusion or inequality?",
+      "How do emerging technologies create tensions between operational performance improvement and system-level constraints such as resilience, cybersecurity, regulation, infrastructure capacity, energy consumption and sustainability?",
+      "How do technology-enabled operations redistribute risks, costs and operational burdens across firms, supply networks, workers, suppliers, customers and operational locations?",
+      "How are technologies scaled under disruptive, resource-constrained or recovery-oriented operating conditions, and how do organisations manage tensions between speed and control, improvisation and standardisation, risk-taking and accountability, or local responsiveness and system-wide coordination?"
+    ],
+    "description": {
+      "paragraphs": [
+        "Emerging technologies promise operational improvements, but their scaling often generates complex trade-offs that become more acute across organisational boundaries and levels. The special issue addresses operational tensions—persistent conflicts between competing demands such as centralisation versus decentralisation, efficiency versus flexibility, and autonomy versus control—that emerge when technologies reconfigure processes, resource allocation and governance. These tensions extend beyond individual implementations to affect supply networks, infrastructure systems and institutional contexts, with implications for resilience, governance and sustainability.",
+        "The call invites research examining how organisations navigate these tensions at three levels: within organisations, across supply networks and platforms, and at system-wide scales involving regulation, cybersecurity and resource constraints. Particular interest lies in contexts facing disruption or resource scarcity, such as healthcare and humanitarian operations, where technology adoption may enhance visibility and coordination yet intensify tensions around resource allocation and inter-organisational accountability."
+      ]
+    },
+    "tags": [
+      "emerging technologies",
+      "operational tensions",
+      "scaling",
+      "supply chain management",
+      "ai",
+      "blockchain",
+      "operations management"
+    ],
+    "editors": [
+      {
+        "name": "Minhao Zhang",
+        "affiliation": "University of Bristol"
+      },
+      {
+        "name": "Yuanzhu Zhan",
+        "affiliation": "University of Birmingham"
+      },
+      {
+        "name": "Iana Jackson",
+        "affiliation": "University of Arkansas"
+      },
+      {
+        "name": "Zhijun Yan",
+        "affiliation": "Beijing Institute of Technology"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-08T11:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-04-08T10:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Personnel Review",
+    "abbreviation": "emerald",
+    "issn": "1758-6933",
+    "metaTitle": "​​Measuring GenAI and Productivity in Work and Careers​",
+    "url": "https://www.emerald.com/pr/calls-for-submissions/1981/Measuring-GenAI-and-Productivity-in-Work-and?searchresult=1",
+    "title": "Measuring GenAI and Productivity in Work and Careers",
+    "slug": "emerald-measuring-genai-and-productivity-in-work-and-careers",
+    "contentHash": "efeb4d514cdd291747552cec90e59eefc52a5b3b517c1f4eeace15cc6fc2664f",
+    "topics": [
+      "Conceptualizing productivity in AI work and careers",
+      "Distinguishing between AI exposure, use, and augmentation",
+      "Measuring human versus AI contributions to outputs and performance",
+      "Changes in the distribution of performance (e.g., effects on high and lower performers)",
+      "Implications of GenAI for skill development, career trajectories, and employability",
+      "The role of HR practices, job design, and organizational context in shaping productivity related to AI",
+      "Methodological approaches to studying AI and work (e.g., multi-source data, longitudinal designs, behavioral, other types of data)"
+    ],
+    "description": {
+      "paragraphs": [
+        "Generative AI is being increasingly integrated into workplace processes and career development, reshaping how tasks are executed and decisions are made. This presents significant questions about productivity measurement, particularly as work increasingly involves collaboration between humans and AI systems rather than purely human effort.",
+        "When humans and AI systems work together to produce outputs, it becomes challenging to determine what portion of results comes from human contribution versus AI assistance. This fundamental issue means that traditional concepts of productivity may no longer adequately capture work performance in AI-augmented contexts. The special issue seeks research that reconceptualizes how productivity should be defined and measured when human-AI collaboration is involved, with attention to career implications and organizational factors that influence these dynamics."
+      ]
+    },
+    "tags": [
+      "generative ai",
+      "productivity measurement",
+      "human-ai collaboration",
+      "work augmentation",
+      "careers"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-08-31T10:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-31T11:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "The International Journal of Logistics Management",
+    "abbreviation": "emerald",
+    "issn": "1758-6550",
+    "metaTitle": "​Resilient, Inclusive and Digital Supply Chains for Africa’s Sustainable Development ​",
+    "url": "https://www.emerald.com/ijlm/calls-for-submissions/1962/Resilient-Inclusive-and-Digital-Supply-Chains-for?searchresult=1",
+    "title": "Resilient, Inclusive and Digital Supply Chains for Africa's Sustainable Development",
+    "slug": "emerald-resilient-inclusive-and-digital-supply-chains-for-africas-sustainable-development",
+    "contentHash": "9a840ec45de80bfedee06a34eb60cc82f1e58d13f9928380656208e950e7dd27",
+    "topics": [
+      "Building resilient and risk-responsive supply chains: Examining strategies for managing disruptions, strengthening adaptive capacity, and improving crisis preparedness in volatile and resource-constrained environments.",
+      "Inclusive supply chain models for local economic participation: Investigating approaches that integrate SMEs, informal sectors, and local communities into value chains to promote equitable development.",
+      "Sustainable and green supply chain practices: Analysing environmentally responsible logistics, circular economy approaches, and sustainable production and consumption systems across key African sectors.",
+      "Artificial intelligence and digital transformation in African supply chains: Exploring AI, data-driven decision-making, and digital platforms to enhance efficiency, transparency, and responsiveness in supply chain operations.",
+      "Sector-specific innovations in critical industries: Focusing on applications in healthcare, agribusiness, and other strategic sectors to demonstrate context-specific solutions for development impact."
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how supply chains can better support Africa's sustainable development by strengthening resilience to disruptions, promoting inclusivity for local communities, and harnessing digital technologies including artificial intelligence. The collection seeks interdisciplinary contributions from academics, practitioners, and policymakers addressing digital transformation, risk management, sustainability, and sector-specific applications in areas like healthcare and agribusiness.",
+        "The issue emphasizes rigorous, peer-reviewed research that combines theoretical rigor with practical insights, fosters collaboration across disciplines, and identifies best practices and innovative frameworks for building robust and equitable supply chain systems across Africa."
+      ]
+    },
+    "tags": [
+      "supply chains",
+      "africa",
+      "sustainable development",
+      "digital transformation",
+      "resilience"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-31T11:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-29T11:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "International Journal of Operations & Production Management",
+    "abbreviation": "emerald",
+    "issn": "1758-6593",
+    "metaTitle": "(Un)ethical Decision-Making in Supply Chains: Understanding the Drivers of Ethical Failure in Operations and Supply Chain Management",
+    "url": "https://www.emerald.com/ijopm/calls-for-submissions/1976/Un-ethical-Decision-Making-in-Supply-Chains?searchresult=1",
+    "title": "(Un)ethical Decision-Making in Supply Chains: Understanding the Drivers of Ethical Failure in Operations and Supply Chain Management",
+    "slug": "emerald-unethical-decision-making-in-supply-chains-understanding-the-drivers-of-ethical-failure-in-operations-and-supply-chain-management",
+    "contentHash": "c59f9e44c8be076c6c46fbe4134f24b095bc129613aa4ed8289429c6be39776b",
+    "topics": [
+      "Structural and macroeconomic drivers of unethical decisions in operations and supply chains",
+      "Political and geopolitical drivers of unethical decisions in operations and supply chains",
+      "Organisational and behavioural drivers of unethical decisions in operations and supply chains",
+      "Technological drivers of unethical decisions in operations and supply chains"
+    ],
+    "description": {
+      "paragraphs": [
+        "Despite decades of research on ethics and sustainability, supply chains continue to exhibit persistent unethical behaviour including forced labour, inadequate working conditions, and gaps between corporate commitments and actual practices. Rather than treating unethical conduct as a compliance problem to be solved through better auditing and codes, this special issue seeks to understand the structural and systemic conditions that make unethical decisions rational and routine within supply chains.",
+        "The special issue addresses contemporary challenges including new regulatory requirements such as the EU Corporate Sustainability Due Diligence Directive, rapid adoption of artificial intelligence in procurement and logistics, geopolitical fragmentation reshaping global sourcing, and organisational environments where ethical choices are often more costly than unethical alternatives. The collection brings together scholars from operations management, business ethics, technology management, and organisation theory to examine the causal mechanisms underlying persistent unethical behaviour."
+      ]
+    },
+    "tags": [
+      "supply chain management",
+      "ethics",
+      "unethical decision-making",
+      "sustainability",
+      "compliance",
+      "operations management"
+    ],
+    "editors": [
+      {
+        "name": "Frank Wiengarten",
+        "affiliation": "ESADE"
+      },
+      {
+        "name": "Annachiara Longoni",
+        "affiliation": "ESADE"
+      },
+      {
+        "name": "Javier Amaya",
+        "affiliation": "ESADE"
+      },
+      {
+        "name": "Anton Shevchenko",
+        "affiliation": "Concordia University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-01T11:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-02-28T11:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Journal of Public Policy & Marketing",
+    "abbreviation": "sage",
+    "issn": "1547-7207",
+    "metaTitle": "Advancing Wiser Consumption and Innovation: Consumer Wisdom, Wiser Innovation, and Public Policy for Flourishing",
+    "url": "https://www.ama.org/2026/07/01/call-for-papers-journal-of-public-policy-marketing-advancing-wiser-consumption-and-innovation-consumer-wisdom-wiser-innovation-and-public-policy-for-flourishing/",
+    "title": "Advancing Wiser Consumption and Innovation: Consumer Wisdom, Wiser Innovation, and Public Policy for Flourishing",
+    "slug": "sage-advancing-wiser-consumption-and-innovation-consumer-wisdom-wiser-innovation-and-public-policy-for-flourishing",
+    "contentHash": "cadd986618ef348a2ead1522a3bd0d35ff91c6fffdfef021174dfd743b7f7362",
+    "topics": [
+      "Consumer wisdom and informed decision-making",
+      "Wiser innovation for sustainable and ethical consumption",
+      "Public policy approaches to promote consumer flourishing",
+      "Behavioral economics and consumer protection",
+      "Sustainable consumption patterns",
+      "Ethical innovation and corporate responsibility",
+      "Digital literacy and consumer empowerment",
+      "Health-conscious consumption",
+      "Environmental sustainability in consumer behavior",
+      "Social equity in marketplace access"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue seeks research exploring how consumers can make wiser choices and how innovation can better serve consumer and societal flourishing. The focus encompasses understanding consumer wisdom—the capacity for informed, ethical, and sustainable decision-making—alongside innovations designed to promote wellbeing rather than merely maximize consumption. The work also addresses how public policy can create environments that support these goals.",
+        "The special issue welcomes research from marketing, economics, public policy, behavioral science, and related disciplines that examines the interconnections between consumer behavior, innovation strategies, and policy frameworks. Submissions may explore mechanisms for improving consumer decision-making, designing responsible innovation, and implementing policies that advance both individual and collective flourishing."
+      ]
+    },
+    "tags": [
+      "consumer behavior",
+      "public policy",
+      "sustainability",
+      "innovation",
+      "consumer protection",
+      "behavioral economics"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Journal of Public Policy & Marketing",
+    "abbreviation": "sage",
+    "issn": "1547-7207",
+    "metaTitle": "ScholarOne site",
+    "url": "https://mc.manuscriptcentral.com/ama_jppm",
+    "title": "ScholarOne site",
+    "slug": "sage-scholarone-site",
+    "contentHash": "a7acf9da8a45967380377740dde57b152b1d5122b4cddf4d2fd85bb010fa1cde",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-01T11:00:00.000Z",
+        "description": "Special issue submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-04-05T10:00:00.000Z",
+        "description": "Special issue submission window closes",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "The Journal of Technology Transfer",
+    "abbreviation": "springer",
+    "issn": "1573-7047",
+    "metaTitle": "Ownership Heterogeneity and Knowledge Transfer: Access, Appropriation, and Governance across Organizational Forms",
+    "url": "https://link.springer.com/collections/eiahejiajf",
+    "title": "Ownership Heterogeneity and Knowledge Transfer: Access, Appropriation, and Governance across Organizational Forms",
+    "slug": "springer-ownership-heterogeneity-and-knowledge-transfer-access-appropriation-and-governance-across-organizational-forms",
+    "contentHash": "26087d326dc9cdc4e774a961797e26973ddade77cdc067be33ed322470b512e7",
+    "topics": [
+      "Locating and transitioning ownership forms: how family firms, employee-owned firms, SOEs, cooperatives, and platform cooperatives differ in what they transfer and to whom, and how transfer changes as firms professionalize, corporatize, or adopt foundation governance.",
+      "Hybrid and intermediate arrangements: dual-class structures, stakeholder boards, patent pools, and benefit-corporation statutes, and when such hybrids are stable.",
+      "University and public research transfer: how technology transfer offices, consortia, and open science initiatives allocate rights, and how policy reforms shift those allocations.",
+      "AI, data, and platforms: how the three dimensions operate where the asset itself blurs conventional boundaries between use, capture, and control.",
+      "Rights-based theory, measurement, and policy: work that formalizes the framework, specifies trade-offs, or informs organizational and policy design."
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how knowledge and technology transfer operate differently across diverse organizational forms, moving beyond the assumption that transfer follows a single institutional model. The call brings together fragmented literature on intellectual property, open innovation, family businesses, and cooperative structures to develop an integrated framework for understanding ownership's role in shaping what knowledge is transferred, retained, or commercialized.",
+        "The framework organizes ownership forms along three dimensions: access (who obtains knowledge and on what terms), appropriation (who captures economic returns), and governance (who decides how knowledge is used and protected). These dimensions help explain why knowledge flows differently through universities, private firms, state-owned enterprises, cooperatives, and other organizational structures.",
+        "The timing is urgent given recent developments: contested ownership designs around AI, data, and platforms; the return of industrial policy and state ownership; and the emergence of alternative ownership forms like employee trusts and platform cooperatives. The field needs an organizing question that treats ownership heterogeneity as central rather than peripheral to technology transfer research."
+      ]
+    },
+    "tags": [
+      "technology transfer",
+      "ownership structures",
+      "intellectual property",
+      "knowledge governance"
+    ],
+    "editors": [
+      {
+        "name": "James J. Chrisman",
+        "affiliation": "Mississippi State University"
+      },
+      {
+        "name": "Hanqing (Chevy) Fang",
+        "affiliation": "Missouri University of Science and Technology"
+      },
+      {
+        "name": "Silvio Vismara",
+        "affiliation": "University of Bergamo"
+      },
+      {
+        "name": "Zhenyu Wu",
+        "affiliation": "University of Manitoba"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-09-30T10:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Local Government Studies",
+    "abbreviation": "tandf",
+    "issn": "1743-9388",
+    "metaTitle": "AI and Local Government Transformation: Institutional Capacity, Organizational Arrangements, and Democratic Practices",
+    "url": "https://think.taylorandfrancis.com/special_issues/ai-local-government-transformation/",
+    "title": "AI and Local Government Transformation: Institutional Capacity, Organizational Arrangements, and Democratic Practices",
+    "slug": "tandf-ai-and-local-government-transformation-institutional-capacity-organizational-arrangements-and-democratic-practices",
+    "contentHash": "064dc0035f08c29e420729bec653d997cbb942ad59778a44a73b184260996968",
+    "topics": [
+      "How local governments build and sustain infrastructure, expertise, learning systems, governance arrangements, and collaborative capacity to support AI over time",
+      "What enduring capabilities allow local governments to institutionalize AI",
+      "How AI integration affects the capacity of local governments to carry out their main responsibilities",
+      "How local governments learn from pilots, failures, and unintended outcomes",
+      "How local governments address gaps in technical and professional expertise under resource constraints",
+      "How AI changes administrative routines, workflows, and professional roles",
+      "How authority, expertise, discretion, and responsibility are reorganized around AI",
+      "Accountability and responsibility when decisions are jointly produced by officials and AI systems",
+      "How local government uses of AI are authorized, explained, scrutinized, and revised",
+      "How AI integration changes interactions between local governments and citizens",
+      "How local governments involve residents in developing AI guidelines and governance frameworks",
+      "How public feedback and community concerns regarding AI-assisted public services are incorporated into AI institutionalization"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how artificial intelligence becomes embedded and institutionalized within local governments and the consequent transformations in governance. While AI scholarship typically focuses on national initiatives or public administration broadly, local governments have distinctive conditions that warrant focused attention. The issue seeks to understand not just adoption and implementation of AI systems, but how AI reshapes everyday administrative practice, institutional capabilities, organizational structures, and democratic engagement.",
+        "The special issue addresses three interconnected dimensions. First, institutional capacity examines how local governments build lasting infrastructure, expertise, and governance structures to support AI sustainably. Second, organizational arrangements explore how AI influences administrative routines, professional roles, and authority distribution. Third, democratic practices investigate how citizens participate in and influence AI integration decisions. The issue welcomes diverse methodological approaches and comparative research across different municipalities and policy sectors."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "local government",
+      "public administration",
+      "democratic governance",
+      "organizational change"
+    ],
+    "editors": [
+      {
+        "name": "Seulki Lee-Geiller",
+        "affiliation": "University at Albany, State University of New York"
+      },
+      {
+        "name": "Mila Gascó-Hernández",
+        "affiliation": "University at Albany, State University of New York"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-11-01T11:00:00.000Z",
+        "description": "Abstract submission deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-01T11:00:00.000Z",
+        "description": "Full manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Journal of Marketing Management",
+    "abbreviation": "tandf",
+    "issn": "1472-1376",
+    "metaTitle": "Artificial Intelligence and Marketing: Rethinking Knowledge through a Human-in-the-Loop Perspective",
+    "url": "https://think.taylorandfrancis.com/special_issues/artificial-intelligence-and-marketing-rethinking-knowledge-through-a-human-in-the-loop-perspective/",
+    "title": "Artificial Intelligence and Marketing: Rethinking Knowledge through a Human-in-the-Loop Perspective",
+    "slug": "tandf-artificial-intelligence-and-marketing-rethinking-knowledge-through-a-human-in-the-loop-perspective",
+    "contentHash": "3b3fd51e02a2815a082a14830d07e27eca63ef133b15061d25fd38542ece5349",
+    "topics": [
+      "Conceptual and theoretical work examining HITL and how AI-assisted research tools shape marketing knowledge and markets",
+      "Socio-material and more-than-human perspectives on human–AI collaboration in marketing research and practice",
+      "Methodological innovation in AI-assisted qualitative research, including netnography, discourse analysis, and ethnographic approaches",
+      "Critical examination of how AI shapes the labour, expertise, and interpretive practices of marketing researchers and practitioners",
+      "The design and evaluation of HITL systems in marketing analytics, consumer research, and decision-making, including how such systems shape knowledge production and use",
+      "The use of AI for synthetic data generation or research alternatives, examining human oversight and its implications for knowledge claims",
+      "Ethical and societal implications of AI in marketing knowledge production",
+      "Research revisiting established marketing findings using AI-assisted methods (e.g., replication and generalisation across contexts), evaluating how these approaches contribute to the validation, interpretation, and enactment of marketing knowledge"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how artificial intelligence is reshaping marketing knowledge production, with a focus on the Human-in-the-Loop (HITL) perspective. Rather than emphasizing AI's efficiency and predictive capabilities, the collection investigates what these technological shifts mean for how marketing knowledge is generated, validated, and understood. HITL practices ensure that human judgment remains active and accountable throughout the knowledge production process.",
+        "The special issue draws on the journal's tradition of exploring how marketing knowledge is produced through practice rather than merely discovered. Contributors are invited to examine the relationship between human and AI agency in knowledge generation, including questions about expertise, rigour, and trustworthiness when AI tools are involved in research and practice. The collection welcomes conceptual, empirical, methodological, and critical perspectives on AI's broader disciplinary and institutional implications in marketing."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "human-in-the-loop",
+      "marketing research",
+      "knowledge production",
+      "ai-assisted methods"
+    ],
+    "editors": [
+      {
+        "name": "Peilin Phua",
+        "affiliation": "Adelaide University"
+      },
+      {
+        "name": "Zachary William Anesbury",
+        "affiliation": "Adelaide University"
+      },
+      {
+        "name": "Michael Mehmet",
+        "affiliation": "University of Wollongong"
+      },
+      {
+        "name": "Kristina Klein",
+        "affiliation": "University of Bremen"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-01T11:00:00.000Z",
+        "description": "Manuscript deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Journal of Strategic Marketing",
+    "abbreviation": "tandf",
+    "issn": "1466-4488",
+    "metaTitle": "Bridging Theory and Practice in Sustainability Marketing",
+    "url": "https://think.taylorandfrancis.com/special_issues/bridging-theory-and-practice-in-sustainability-marketing/",
+    "title": "Bridging Theory and Practice in Sustainability Marketing",
+    "slug": "tandf-bridging-theory-and-practice-in-sustainability-marketing",
+    "contentHash": "02842055c79ad98001e3f9aa9a2ffd9eb7f6a598bedfc8f6dbbf8f2f470a3b09",
+    "topics": [
+      "Consumers, everyday practices and sustainability transitions - How climate vulnerability reshapes consumer identities, aspirations, routines, lifestyles and consumption practices",
+      "How social influence, norms, communities and cultural contexts shape environmental sustainability",
+      "Consumer willingness to sacrifice and pay for sustainability, and cost distribution across stakeholders",
+      "Environmental constraints stimulating repair, reuse, sharing and non-consumption",
+      "Emerging forms of consumption, access, sharing, circularity and non-consumption",
+      "Firms, brands, innovation and circular consumption - Translating sustainability theory into products, services and business models",
+      "Designing products and systems that make sustainable practices feasible, affordable and convenient",
+      "Marketing strategy enabling repair, reuse, circular consumption and product life extension",
+      "Marketing contributing to systemic change rather than individual consumer responsibility",
+      "Sustainability, inequality and systemic transformation - Moving beyond individual behavioural change to systemic transformation",
+      "Cost distribution of sustainability transitions across stakeholders",
+      "How inequalities shape consumer capacity for sustainability participation",
+      "Marketing contribution to sustainability policy design and evaluation",
+      "Digital technologies, marketing communications and behavioural change - Digital technologies and AI facilitating sustainable consumption transitions",
+      "Social media, influencers and digital platforms shaping sustainability perceptions and behaviours",
+      "Digital marketing enabling behavioural change without increasing burden or manipulation",
+      "Creating conditions enabling sustainable behaviour beyond persuasion",
+      "Real-world evidence, experimental research and methodological approaches - Using transaction data and behavioural datasets to reveal actual consumption",
+      "Causal impact of sustainability marketing interventions on consumer behaviour",
+      "Natural experiments using climate disruptions and environmental regulations",
+      "Data-driven discovery using digital and computational data",
+      "Mixed-methods approaches integrating qualitative, quantitative and real-world data"
+    ],
+    "description": {
+      "paragraphs": [
+        "The escalating environmental crisis is reshaping consumer behaviour across food, fashion, entertainment and travel. Despite widespread awareness of sustainability issues, consumers struggle to translate their environmental values into consistent sustainable practices due to affordability, convenience, infrastructure and competing priorities constraints. This special issue seeks research that moves beyond examining intentions and attitudes to investigate how sustainability is actually enacted and experienced in real-world contexts.",
+        "The gap between sustainability theory and practice presents an opportunity for meaningful knowledge creation. Researchers are encouraged to explore how sustainability challenges can inform theoretical development while rigorous theory can guide practitioners in designing effective interventions. The issue welcomes diverse methodological approaches including qualitative, quantitative, experimental and mixed-methods research that illuminates the lived realities of sustainable consumption and examines the role of marketing in enabling genuine behavioural and systemic change.",
+        "Submissions should address the intersection of sustainability theory and practice, demonstrating connections between rigorous scholarship and real-world problems. Research examining consumers' everyday practices, organisational innovation, systemic inequality, digital technologies' role in sustainability, and novel methodological approaches using real-world data are particularly encouraged. Studies should provide actionable implications for firms, policymakers, communities and consumers."
+      ]
+    },
+    "tags": [
+      "sustainability marketing",
+      "sustainable consumption",
+      "theory and practice",
+      "marketing interventions",
+      "consumer behaviour"
+    ],
+    "editors": [
+      {
+        "name": "A. R. Shaheen Hosany",
+        "affiliation": "Hult International Business School"
+      },
+      {
+        "name": "Seongsoo Jang",
+        "affiliation": "Cardiff University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-09-20T10:00:00.000Z",
+        "description": "Submissions open",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-12-20T11:00:00.000Z",
+        "description": "Manuscript deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Journal of Marketing Management",
+    "abbreviation": "tandf",
+    "issn": "1472-1376",
+    "metaTitle": "Cripping the Market: Toward Further Advances in Disability and Consumption Research",
+    "url": "https://think.taylorandfrancis.com/special_issues/cripping-the-market-toward-further-advances-in-disability-and-consumption-research/",
+    "title": "Cripping the Market: Toward Further Advances in Disability and Consumption Research",
+    "slug": "tandf-cripping-the-market-toward-further-advances-in-disability-and-consumption-research",
+    "contentHash": "0e45adbe48f1df232bd22d98056102d71eded8679516a102f02ce1642b9e10b9",
+    "topics": [
+      "Phenomenological and embodied accounts of impairment in consumption experiences",
+      "Chronic illness, pain, and fatigue as market experiences",
+      "Time, rhythm, and slowness in disabled temporalities and consumer culture",
+      "Invisible impairments and misrecognition in market encounters",
+      "Caregivers, support networks, and distributed consumption practices",
+      "Autonomy, dependence, and interdependence in market participation",
+      "Disability, aging, and embodied vulnerability across the life course",
+      "Markets for aging bodies and assistive technologies",
+      "Progressive conditions and shifting market participation over time",
+      "Disability in the Anthropocene and environmental justice",
+      "Capitalist ableism and market logics producing disability",
+      "Accessibility barriers in retail, design, tourism, transport, and digital services",
+      "Dis/abling infrastructures in built and digital environments",
+      "Algorithmic discrimination and the platform economy",
+      "Artificial intelligence and automation for consumers with disabilities",
+      "Representation and commodification of disability in advertising and media",
+      "Market activism and disability justice movements",
+      "Policy and governance frameworks for accessible markets",
+      "Historical and genealogical studies of accessible markets and assistive industries",
+      "Medico-social sector as a market and commercialization of care",
+      "Crip theory as a lens for consumer research",
+      "Neurodiversity, diagnosis, and market effects",
+      "Critique of normative consumer agency and the able-bodied consumer subject",
+      "Intersectionality in disability and consumption",
+      "Postcolonial and decolonial approaches to disability and markets",
+      "Posthumanism and bodily augmentation in disability contexts",
+      "New materialisms and assemblage approaches to embodied market relations",
+      "Participatory and co-productive research methods in disability contexts",
+      "Cripistemology as methodology centered on disabled lived experience",
+      "Arts-based and alternative formats for knowledge-making",
+      "Ethics, positionality, and politics of knowledge production in disability research",
+      "Market activism as research practice",
+      "Accessible dissemination and knowledge translation"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue addresses disability as a central dimension of contemporary markets and consumption. Building on recent scholarship including a previous JMM special issue on the disabling marketplace and the Cripped Marketing Manifesto, the collection seeks to move beyond foundational work on marketplace exclusion toward deeper investigations of embodied, temporal, and affective aspects of disabled market life. The issue invites contributions exploring what remains theoretically, methodologically, and practically unsaid about how disability reshapes our understanding of markets themselves.",
+        "The special issue welcomes diverse disciplinary perspectives and methodological approaches—from qualitative ethnography and phenomenology to quantitative, experimental, and design-science research. Submissions addressing impairments across the full spectrum (motor, sensory, cognitive, psychosocial, neurodivergent, chronic, age-related) are encouraged. The editors particularly seek work that engages crip and critical disability theories, explores underrepresented populations and geographies, employs participatory and arts-based methods, and interrogates fundamental market categories such as ability, normalcy, and the consumer subject.",
+        "Contributions should demonstrate how disability changes theoretical and practical understanding of markets, not merely how markets affect disabled consumers. The collection encompasses empirical research, conceptual papers, historical studies, reviews, methodological contributions, and alternative formats, organized thematically around disabled embodied consumption, markets as disabling forces, conceptual frontiers, and methods and epistemic justice."
+      ]
+    },
+    "tags": [
+      "disability studies",
+      "consumption research",
+      "market access",
+      "crip theory",
+      "ableism",
+      "marketing"
+    ],
+    "editors": [
+      {
+        "name": "Anthony Beudaert",
+        "affiliation": "University Toulouse – Jean Jaurès"
+      },
+      {
+        "name": "Jean-Philippe Nau",
+        "affiliation": "University of Lorraine"
+      },
+      {
+        "name": "Anna Schneider-Kamp",
+        "affiliation": "Syddansk Universitet"
+      },
+      {
+        "name": "Søren Askegaard",
+        "affiliation": "Syddansk Universitet"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-05-17T10:00:00.000Z",
+        "description": "Manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Entrepreneurship & Regional Development",
+    "abbreviation": "tandf",
+    "issn": "1464-5114",
+    "metaTitle": "Entrepreneurial Ecosystem Leadership: Processes, Practices, and Contexts",
+    "url": "https://think.taylorandfrancis.com/special_issues/entrepreneurial-ecosystem-leadership-processes-practices-and-contexts/",
+    "title": "Entrepreneurial Ecosystem Leadership: Processes, Practices, and Contexts",
+    "slug": "tandf-entrepreneurial-ecosystem-leadership-processes-practices-and-contexts",
+    "contentHash": "e466fff2da0f8ac14b2ec210c3581332998eb1e81fe9ba6d8db286771f987248",
+    "topics": [
+      "Conceptualization and theory of entrepreneurial ecosystem (EE) leadership across formal, informal, individual, collective, organizational, distributed, relational, and processual perspectives",
+      "Dimensions and manifestations of EE leadership (e.g., public, entrepreneurial, community)",
+      "Interaction between EE leadership and other ecosystem elements such as networks, institutions, finance, or culture",
+      "Contextual uniqueness shaping forms and theorization of EE leadership across different institutional, cultural, and geographical settings",
+      "Elements of EE leadership affecting how entrepreneurs and supportive agents cohere around shared norms, values, and goals",
+      "Relational characteristics (e.g., coordination, collaboration, communication) supporting effective ecosystem leadership",
+      "Participation, legitimacy, and authority emergence in EE leadership processes",
+      "How characteristics of ecosystem actors (lived experience, place attachment, prosocial orientation, identity) shape participation in ecosystem leadership",
+      "Activities, practices, and processes constituting ecosystem leadership and their collective goals",
+      "Distribution of leadership activities across ecosystem actors and how interactions shape collective direction and coordinated action",
+      "Forms of leadership and agency emergence, evolution, and enabling coordinated action within EEs",
+      "Evolution of ecosystem leadership across phases of development and consequences of different forms",
+      "Conditions under which leadership can compensate for weaknesses in other ecosystem elements",
+      "Differences in EE leadership across unstable, transforming, and crisis-affected contexts",
+      "Direction provision under sustainability pressures, digital transformation, geopolitical tension, or resource disruption",
+      "Negotiation of competing priorities through EE leadership during simultaneous disruptions",
+      "Measurement and integration of EE leadership activities, practices, and relational processes into existing ecosystem measurement frameworks",
+      "Use of network metrics to assess distribution of participation, influence, and coordination within EE leadership processes",
+      "Measures capturing whether EE leadership is concentrated or distributed, formal or informal, and how these configurations change over time"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines leadership within entrepreneurial ecosystems as a central yet underexplored phenomenon shaping ecosystem dynamics and outcomes. Rather than treating leadership as a residual category of individual actors or positions, the issue conceptualizes it as a relational process through which direction develops, priorities are negotiated, support is mobilized, and ecosystem development is influenced. The focus spans stable, transforming, and crisis-affected ecosystems, recognizing that contexts such as digitalization, sustainability transitions, and geopolitical disruptions shape how leadership emerges and evolves.",
+        "The special issue seeks to move beyond describing static ecosystem structures toward explaining how collective action is generated, coordinated, and sustained over time. It welcomes diverse theoretical perspectives and methodological approaches that develop, challenge, extend, or offer alternative conceptualizations of EE leadership. Research should address who assumes leadership roles, how legitimacy and followership emerge, and how different leadership configurations can compensate for weaknesses in networks, resources, or institutions."
+      ]
+    },
+    "tags": [
+      "entrepreneurial ecosystems",
+      "leadership",
+      "organizational behavior",
+      "economic development",
+      "ecosystem governance"
+    ],
+    "editors": [
+      {
+        "name": "Bruno Fischer",
+        "affiliation": "University of Campinas"
+      },
+      {
+        "name": "Aki Harima",
+        "affiliation": "Tallinn University of Technology"
+      },
+      {
+        "name": "Sophia Behr",
+        "affiliation": "University of Stuttgart"
+      },
+      {
+        "name": "Philip T. Roundy",
+        "affiliation": "University of Tennessee Chattanooga"
+      },
+      {
+        "name": "Erik Stam",
+        "affiliation": "Utrecht University"
+      },
+      {
+        "name": "Maribel Guerrero",
+        "affiliation": "Arizona State University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-14T11:00:00.000Z",
+        "description": "Online information and early-ideas session for scholars interested in contributing to the special issue",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-02-11T11:00:00.000Z",
+        "description": "Paper development workshop within the conference Entrepreneurial Ecosystems in Times of Rapid Transformation in Tallinn, Estonia",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-12-31T11:00:00.000Z",
+        "description": "Manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Journal of Strategic Marketing",
+    "abbreviation": "tandf",
+    "issn": "1466-4488",
+    "metaTitle": "Human Centred AI in Strategic Decision Making",
+    "url": "https://think.taylorandfrancis.com/special_issues/human-centred-ai-in-strategic-decision-making/",
+    "title": "Human Centred AI in Strategic Decision Making",
+    "slug": "tandf-human-centred-ai-in-strategic-decision-making",
+    "contentHash": "9b8d017954c27f76accc7020c44e9eca634579849d32d1d9d2bc103f3de10bbe",
+    "topics": [
+      "Continuous insights: Using multiple data sources for segmentation, campaign execution, and analytics with AI collaboration to predict consumer behaviours",
+      "Security in Agentic creativity: Addressing data breaches, cyberattacks, and security risks in agentic AI systems, including automatic campaign scaling and optimization",
+      "Trust and algorithmic biases: Implementing auditing protocols to identify and correct distortions in data and models",
+      "AI governance and ethical principles: Establishing AI governance frameworks and marketing-specific ethical guidelines for socially beneficial AI adoption",
+      "Human-centred marketing skills: Reskilling and upskilling marketing talent in data analytics, hyper-personalisation, chatbots, and virtual assistants for strategic decision-making",
+      "AI failures: Understanding why AI projects fail due to data quality, customer needs identification, expectations management, and cultural readiness in human-AI collaboration"
+    ],
+    "description": {
+      "paragraphs": [
+        "Marketing is experiencing rapid transformation through AI adoption, yet over 80% of AI initiatives fail to deliver expected financial returns. Despite most CMOs experimenting with AI, fewer than 10% have successfully scaled it across marketing workflows. The gap between AI potential and actual value creation highlights the need for marketing processes centered on humans orchestrating AI, channels, and personalization as a continuous growth engine.",
+        "This special issue seeks high-quality research examining how human-centered AI can enhance strategic decision-making in marketing. It welcomes papers addressing responsible AI principles such as beneficence, autonomy, security, justice, and explicability, alongside practical challenges in marketing-specific AI governance, security risks in autonomous agents, algorithmic bias mitigation, and the reskilling of marketing teams for effective human-AI collaboration."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "strategic decision-making",
+      "marketing analytics",
+      "responsible ai",
+      "human-centered design",
+      "algorithmic bias",
+      "ai governance"
+    ],
+    "editors": [
+      {
+        "name": "Shahriar Akter",
+        "affiliation": "University of Wollongong"
+      },
+      {
+        "name": "Carolyn Strong",
+        "affiliation": "Cardiff University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-30T11:00:00.000Z",
+        "description": "Abstract deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-31T10:00:00.000Z",
+        "description": "Manuscript deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Journal of Marketing Management",
+    "abbreviation": "tandf",
+    "issn": "1472-1376",
+    "metaTitle": "Literary Perspectives on Marketing",
+    "url": "https://think.taylorandfrancis.com/special_issues/literary-perspectives-on-marketing/",
+    "title": "Literary Perspectives on Marketing",
+    "slug": "tandf-literary-perspectives-on-marketing",
+    "contentHash": "14525ed7f4a00cc8ff6c294b3586d7770059714f385b762dfaebf803fc71e03a",
+    "topics": [
+      "What insights can fiction provide for understanding contemporary consumer culture and marketing phenomena that remain inaccessible through conventional empirical approaches?",
+      "How can specific concepts from literary theory be used as analytical tools for understanding contemporary consumer culture and branding practices?",
+      "What epistemological assumptions are challenged when novels and other fictional texts are treated as legitimate data sources for understanding consumer culture?",
+      "How can narratological concepts deepen our understanding of consumer journeys and marketing experiences?",
+      "How do actors across the book industry (publishers, authors, booksellers) deploy marketing activities to increase the demand for literary works?",
+      "What role does BookTok and other digital trends play in driving literary consumption?",
+      "How can creative writing practices be integrated into consumer research?",
+      "What forms of scholarly contribution become possible when researchers adopt literary or experimental modes of writing?"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue seeks to establish literature as a valuable resource for marketing and consumer research. While marketing scholars have long studied stories and narratives, literary texts and literary theory remain underutilized in the field. The editors invite researchers to explore how novels, poetry, drama, and other literary forms can deepen our understanding of consumer behavior, brands, and markets in ways that complement traditional empirical approaches.",
+        "The issue welcomes three main types of contributions: studies using literary texts as empirical material to examine consumer culture; scholarship applying literary theory concepts to marketing phenomena; and reflections on literary methods and epistemologies in consumer research. Additionally, the editors invite work on how literature itself is marketed and consumed, including phenomena like BookTok, and submissions that experiment with literary and creative writing forms as modes of scholarly contribution when integral to the research."
+      ]
+    },
+    "tags": [
+      "marketing",
+      "consumer research",
+      "literature",
+      "literary theory",
+      "qualitative research"
+    ],
+    "editors": [
+      {
+        "name": "Jonatan Södergren",
+        "affiliation": "University of Bristol"
+      },
+      {
+        "name": "Anthony Patterson",
+        "affiliation": "Lancaster University"
+      },
+      {
+        "name": "Cele Otnes",
+        "affiliation": "University of Illinois Urbana-Champaign"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-06-07T10:00:00.000Z",
+        "description": "Manuscript deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
+    "journal": "Journal of Strategic Marketing",
+    "abbreviation": "tandf",
+    "issn": "1466-4488",
+    "metaTitle": "New-age Technologies Driven Strategic Marketing for a Better World",
+    "url": "https://think.taylorandfrancis.com/special_issues/new-age-technologies-driven-strategic-marketing-for-a-better-world/",
+    "title": "New-age Technologies Driven Strategic Marketing for a Better World",
+    "slug": "tandf-new-age-technologies-driven-strategic-marketing-for-a-better-world",
+    "contentHash": "cede1fde1a00ec20d87512baab4d34bc5a764bb9590a0a159eb441f89af6c902",
+    "topics": [
+      "Artificial Intelligence and Value Co-Creation in Global Marketing Ecosystems: how AI and advanced technologies reshape marketing strategies, processes, and interactions among multiple stakeholders in global markets; how NATs enable new forms of value co-creation among firms, customers, suppliers, regulators, and communities; how technology-enabled marketing infrastructures enhance transparency and coordination across global value chains",
+      "Governance, Ethics, and Responsible AI in Marketing: ethical, governance, and organizational implications of NAT-driven marketing systems; algorithmic bias, transparency, accountability, and fairness in data-driven marketing practices; governance mechanisms and organizational capabilities for implementing responsible and transparent NAT-enabled marketing strategies; managing stakeholder tensions and trade-offs arising from NAT-supported marketing decisions",
+      "Cross-Country Dynamics of New-age Technologies in Marketing: how institutional environments, cultural contexts, and regulatory frameworks influence the adoption and governance of artificial intelligence in global marketing; cross-country differences in implementation of NAT-enabled marketing strategies; how new-age technologies influence global marketing strategy and ecosystem coordination; how NATs support sustainable, inclusive, and responsible marketing practices in global markets"
+    ],
+    "description": {
+      "paragraphs": [
+        "The special issue examines how emerging technologies like artificial intelligence, machine learning, and blockchain can reshape marketing strategies toward a multi-stakeholder approach in global contexts. While firms increasingly deploy advanced technologies to enhance customer engagement and personalization, there is limited understanding of how these technologies can support marketing that simultaneously addresses the interests of employees, suppliers, regulators, communities, and society. The issue seeks to bridge this gap by exploring how NATs enable stakeholder engagement, value creation, and governance across global marketing ecosystems.",
+        "The call addresses critical questions about how technology-driven marketing can move beyond traditional customer-centric models to create value for multiple stakeholders while managing potential risks. This includes examining ethical challenges such as algorithmic bias, accountability, and fairness, as well as how institutional and regulatory differences across countries shape the adoption of AI in marketing. Researchers are encouraged to investigate the organizational capabilities, governance mechanisms, and frameworks needed to implement responsible and transparent marketing practices supported by new-age technologies."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "marketing strategy",
+      "stakeholder engagement",
+      "global markets",
+      "ethics",
+      "governance"
+    ],
+    "editors": [
+      {
+        "name": "Chiara Civera",
+        "affiliation": "University of Turin"
+      },
+      {
+        "name": "Demetris Vrontis",
+        "affiliation": "University of Nicosia"
+      },
+      {
+        "name": "Sanjit K. Roy",
+        "affiliation": "Edith Cowan University"
+      },
+      {
+        "name": "Valentina Chiaudano",
+        "affiliation": "University of Turin"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-04-30T10:00:00.000Z",
+        "description": "Manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-26T22:23:50.318Z"
+  },
+  {
     "journal": "Journal of Destination Marketing & Management",
     "abbreviation": "elsevier",
     "issn": "2212-5752",
@@ -1150,28 +2900,122 @@
     "abbreviation": "sage",
     "issn": "1552-4205",
     "metaTitle": "Business Models for Sustainability and the Future of Business-Society Relationships",
-    "url": "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj//pb-assets/cmscontent/BAS/SI%20BAS%20BMfS_Call%20for%20Papers-1788974172810.pdf",
-    "title": "Business Models for Sustainability and the Future of Business-Society Relationships",
+    "url": "https://journals.sagepub.com/pb-assets/PDF/SI_BAS_BMfS_CFP-1789540510060.pdf",
+    "title": "Business Models for Sustainability and the Future of Business–Society Relationships: Value Creation, Power, Risk, and Responsibility",
     "slug": "sage-business-models-for-sustainability-and-the-future-of-business-society-relationships",
-    "contentHash": "c8931bd80c3337ed6f7d4b077a107e318c4f3cd17f81c76d2ee26e7103f03bb8",
-    "topics": [],
+    "contentHash": "571aafd928348b95fb459794aeff2251340ac97bded90ee4865b875622e7068c",
+    "topics": [
+      "What insights do business models for sustainability (BMfS) offer into the dynamics of business–society relationships in the contemporary context?",
+      "In what ways do existing BMfS facilitate the (re)negotiation of value creation and capture mechanisms and processes, as well as the distribution of power, risk, and responsibility?",
+      "Under what conditions do BMfS reproduce inequality, shift risks to vulnerable actors, create new dependencies, or reinforce private control over societal problems?",
+      "Which critical perspectives can help in studying the 'dark sides' of BMfS and corresponding business–society relationships?",
+      "How do BMfS operate differently across sectors, regions, and institutional environments, particularly in non-Western contexts?",
+      "Which theories, including inter- and multidisciplinary approaches, are and can be used to study BMfS as facilitators of business–society relationships?",
+      "What methodological approaches and innovations can aid in the study of the value creation and capture logics that enable, constrain, or actively reshape the terms on which business–society relationships depend?"
+    ],
     "description": {
       "paragraphs": [
-        "This special issue invites submissions on business models that advance sustainability and shape evolving relationships between businesses and society."
+        "Contemporary business–society relationships face unprecedented strain due to corporate political influence, externalization of ecological and social costs, rapid technological change, and interconnected ecological and geopolitical crises. Current management approaches prove inadequate for advancing sustainable and equitable outcomes, requiring new analytical frameworks that examine how value is created, captured, and distributed among diverse stakeholders, and how power, risk, and responsibility are allocated across organizational and institutional boundaries.",
+        "The business models for sustainability perspective offers a promising lens for understanding these systemic dynamics by directing attention to the organizational arrangements and mechanisms through which sustainable value is created and distributed, power is exercised, and responsibilities are allocated. This special issue seeks theoretical and empirical contributions that explore how BMfS negotiate and reshape business–society relationships, including their potential to create more equitable outcomes and their capacity to reproduce inequalities or shift risks to vulnerable populations.",
+        "The collection welcomes diverse theoretical perspectives, methodologies, and critical approaches to illuminate the multilevel dynamics of business–society relationships. Contributions should address value creation and capture mechanisms, power redistribution, governance arrangements, sectoral and regional variations, and innovations in studying how business models enable, constrain, or reshape the terms on which sustainable and responsible business–society relationships depend."
       ]
     },
     "tags": [
-      "business models",
-      "sustainability",
-      "business-society relationships"
+      "business models for sustainability",
+      "business–society relationships",
+      "value creation and capture",
+      "power and governance",
+      "risk allocation",
+      "responsibility",
+      "corporate sustainability"
     ],
-    "editors": [],
-    "associate_editors": [],
+    "editors": [
+      {
+        "name": "Romana Rauter",
+        "affiliation": "University of Graz"
+      },
+      {
+        "name": "Abel Diaz Gonzalez",
+        "affiliation": "Maastricht University"
+      },
+      {
+        "name": "Florian Lüdeke-Freund",
+        "affiliation": "ESCP Business School"
+      },
+      {
+        "name": "Maya Hoveskog",
+        "affiliation": "Halmstad University"
+      },
+      {
+        "name": "Nikolay A. Dentchev",
+        "affiliation": "University of National and World Economy"
+      },
+      {
+        "name": "John Elkington",
+        "affiliation": "Volans"
+      }
+    ],
+    "associate_editors": [
+      {
+        "name": "Lea Stadtler",
+        "affiliation": "Grenoble Ecole de Management"
+      }
+    ],
     "dates": [
       {
+        "date": "2026-11-15T11:00:00.000Z",
+        "description": "Abstract submission deadline for Virtual Paper Development Workshop",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-01T11:00:00.000Z",
+        "description": "Virtual Paper Development Workshop",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-01T11:00:00.000Z",
+        "description": "Virtual Paper Development Workshop",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-05-01T10:00:00.000Z",
+        "description": "Full paper submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
         "date": "2027-06-30T10:00:00.000Z",
-        "description": "Submission deadline",
+        "description": "Full paper submission deadline",
         "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2027-09-01T10:00:00.000Z",
+        "description": "Editorial decisions for first review phase",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-01-31T11:00:00.000Z",
+        "description": "Second submission deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-04-01T10:00:00.000Z",
+        "description": "Editorial decisions for second review phase",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-08-31T10:00:00.000Z",
+        "description": "Third submission deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-10-01T10:00:00.000Z",
+        "description": "Editorial decisions for third review phase",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-12-30T11:00:00.000Z",
+        "description": "Final submission deadline",
+        "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
@@ -1330,7 +3174,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-09-13T16:20:55.735Z"
   },
   {
@@ -2659,11 +4503,11 @@
     "url": "https://www.sciencedirect.com/special-issue/327015/developing-entrepreneurialism",
     "title": "Developing Entrepreneurialism",
     "slug": "elsevier-developing-entrepreneurialism",
-    "contentHash": "5f89a500f9a29e4233f8fc682645a972ac9f33f573a6cf6f6aa930854f2449e0",
+    "contentHash": "8c81f5db3b7639a7e1a57305b568673f00f66a1cdf10b4fce9def088db33e5c5",
     "topics": [],
     "description": {
       "paragraphs": [
-        "This special issue in the Journal of Business Venturing Insights seeks research on entrepreneurialism and its development. The call invites submissions that advance understanding of how entrepreneurial mindsets, capabilities, and practices emerge and evolve."
+        "This special issue in the Journal of Business Venturing Insights focuses on entrepreneurialism and its development. The call invites research contributions that explore various dimensions of how entrepreneurial capabilities, mindsets, and practices emerge and evolve."
       ]
     },
     "tags": [
@@ -2674,7 +4518,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-31T11:00:00.000Z",
+        "date": "2026-12-15T11:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -3623,22 +5467,27 @@
     "url": "https://www.sciencedirect.com/special-issue/327664/scenario-planning-and-foresight-new-challenges-emerging-practices-and-evolving-frontiers",
     "title": "Scenario Planning and Foresight: new challenges, emerging practices, and evolving frontiers",
     "slug": "elsevier-scenario-planning-and-foresight-new-challenges-emerging-practices-and-evolving-frontiers",
-    "contentHash": "f88a6b5af4d2d446453715aed2e0ee242ea2a10f7c3caf0b806bd16f4c3998ac",
+    "contentHash": "87a5a93c919f44a1d8d3dcb27e51503f4793587c8d63264dd805acec9408ec07",
     "topics": [],
     "description": {
       "paragraphs": [
-        "This special issue examines scenario planning and foresight as evolving methodologies for anticipating and preparing for future challenges. It addresses contemporary developments in how organizations and societies understand and engage with uncertainty, technological change, and strategic planning."
+        "This special issue invites research on scenario planning and foresight methods, exploring contemporary challenges and innovative approaches in the field. The issue welcomes contributions that examine emerging practices and novel applications of these forward-looking techniques across various domains."
       ]
     },
     "tags": [
       "scenario planning",
       "foresight",
-      "futures studies",
       "technology and society"
     ],
     "editors": [],
     "associate_editors": [],
-    "dates": [],
+    "dates": [
+      {
+        "date": "2026-12-31T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
     "active": true,
     "pubDate": "2026-09-06T09:51:06.483Z"
   },
@@ -4513,43 +6362,31 @@
     "url": "https://www.emerald.com/lodj/calls-for-submissions/1714/Beyond-Black-and-White-Shades-of-Grey-Leadership?searchresult=1",
     "title": "Beyond Black and White – Shades of Grey Leadership",
     "slug": "emerald-beyond-black-and-white-shades-of-grey-leadership",
-    "contentHash": "b2606fde08814f4910709da1d71dcd027d235579517e1d044295cb9aafed29cc",
+    "contentHash": "bc8f73182a4e430ab499c9fe73ed2092285d8b6158bee5f74ad66c94b4dbff27",
     "topics": [
       "Conceptual development of grey leadership",
-      "Perspectives on grey leadership",
-      "What is grey leadership?",
-      "Types of grey leadership: constructing the continuum",
-      "How do we better understand grey leadership as a construct",
-      "Novel insights",
-      "Grey leadership practices",
-      "How does grey leadership materialize in the workplace?",
-      "What are the implications for followers and/or leaders?",
-      "What are the implications for organizations and/or society?",
-      "Can grey leadership ever be good for an organization?",
-      "What is the role of context in the enactment of grey leadership?",
+      "Perspectives on grey leadership and construction of the continuum",
+      "How grey leadership materializes in the workplace and its implications for followers, leaders, organizations and society",
+      "Can grey leadership ever be beneficial for an organization?",
+      "The role of context in enacting grey leadership",
       "Case studies of grey leadership",
-      "Leading in the shadows",
-      "The ambiguities of grey leadership",
-      "Are there any benefits to leading in the shadows?",
-      "The role of HR in grey leadership",
-      "Understanding the continuum from grey to black/bad leadership practices",
-      "How does grey leadership differ if at all from black leadership?",
-      "Is grey leadership dark leadership in disguise",
-      "Dealing with grey leadership",
-      "How to combat grey leadership?",
-      "How to prevent it from becoming black/bad?"
+      "The ambiguities and potential benefits of leading in the shadows",
+      "The role of HR in addressing grey leadership",
+      "How grey leadership differs from black or destructive leadership",
+      "Strategies to combat grey leadership and prevent its escalation"
     ],
     "description": {
       "paragraphs": [
-        "This special issue examines grey leadership, a phenomenon occupying the spectrum between constructive and destructive leadership practices. Grey leadership encompasses ambiguous and contested behaviors that are neither clearly beneficial nor overtly harmful—such as subtle rule-bending, enabling harmful dynamics through inaction, or normalizing problematic conduct. These behaviors often escape clear moral judgment or legal consequences yet significantly impact organizational relationships and culture.",
-        "The concept integrates ethical, emotional, and contextual dimensions of leadership by recognizing mixed moral intent, inconsistent values signaling, and situationally contingent consequences. Grey leadership serves as a conceptual bridge across fragmented leadership literatures, revealing how contradictions in intent, signals, and outcomes interact dynamically within specific contexts and are negotiated through relational processes.",
-        "The special issue invites theoretical, empirical, and case-based contributions exploring how grey leadership is enacted, sustained, challenged, or normalized in organizations. It seeks to clarify the continuum from grey to darker leadership practices and develop context-sensitive approaches for understanding leadership ambiguities in complex organizational environments."
+        "This special issue examines leadership practices that fall between clearly constructive and overtly destructive behaviors—a spectrum termed 'grey leadership'. Grey leadership encompasses ambiguous and relational practices where rules are subtly bent, inaction enables harm, or followers participate in normalization of problematic conduct. These behaviors rarely attract legal attention or public scrutiny but create significant organizational and relational consequences precisely because they resist clear moral classification.",
+        "Grey leadership is characterized by mixed ethical intent where moral and self-interested motives coexist, inconsistent moral signaling where espoused and enacted values diverge, and situationally contingent consequences where identical behaviors may yield both positive and negative outcomes depending on context. The concept bridges fragmented literature by integrating ethical, emotional, and contextual dimensions of leadership that have traditionally evolved separately.",
+        "The issue seeks conceptual clarity, empirical insights, and implications of grey leadership for individuals, organizations, and society. Contributions should examine how grey leadership is enacted, sustained, normalized or challenged, and whether ambiguity can serve constructive purposes, ultimately fostering more context-sensitive understanding of leadership in complex environments."
       ]
     },
     "tags": [
-      " leadership",
-      "organizational behaviour",
-      "management"
+      "leadership",
+      "ethics",
+      "organizational behavior",
+      "grey leadership"
     ],
     "editors": [
       {
@@ -5500,7 +7337,7 @@
     "url": "https://www.emerald.com/cdi/calls-for-submissions/1931/Meaning-Meaningfulness-and-Purpose-at-Work-Towards?searchresult=1",
     "title": "Meaning, Meaningfulness, and Purpose at Work: Towards Conceptual Clarity and Integration",
     "slug": "emerald-meaning-meaningfulness-and-purpose-at-work-towards-conceptual-clarity-and-integration",
-    "contentHash": "7565b860d5fffa6d9d5df4e13898cd31c7e2e03b8e4d479e72aa988b35dfca49",
+    "contentHash": "13ab14f598d924f943be93a566670e090883839ff4d6b73cb0416089e93f9470",
     "topics": [
       "Authenticity and alignment of work with personal values",
       "Decent work and meaningfulness across occupations",
@@ -5516,15 +7353,15 @@
     ],
     "description": {
       "paragraphs": [
-        "This special issue addresses the interconnected but conceptually distinct notions of meaning, meaningfulness, and purpose in work contexts. While meaning relates to personal interpretations and values alignment, meaningfulness encompasses the emotional and experiential aspects of work fulfillment, and purpose refers to long-term direction and self-transcendent goals. The special issue seeks to clarify these constructs and their relationships to advance theoretical understanding of human fulfillment at work.",
-        "The collection welcomes empirical and theoretical research examining how workers assign meaning to their roles, experience fulfillment through work, and pursue purposeful careers. The focus extends across diverse occupational contexts and considers how meaning and purpose sustain over time and interact with broader life considerations, technological change, and the concept of decent work."
+        "This special issue addresses the conceptual distinctions and interconnections among meaning, meaningfulness, and purpose in work contexts. While these three concepts are central to major career theories and essential for worker wellbeing and career sustainability, they often remain poorly differentiated in research literature. The issue seeks to clarify how meaning relates to personal value interpretations, meaningfulness to emotional fulfillment and engagement, and purpose to long-term direction and self-transcendent goals.",
+        "The special issue invites empirical and theoretical contributions exploring how individuals find fulfillment, alignment, and direction through their work across different occupations and life contexts. Research should examine the interplay between these constructs and their implications for sustainable careers, decent work, and human flourishing in an evolving work landscape."
       ]
     },
     "tags": [
-      "work meaning",
       "career development",
-      "purposeful work",
-      "meaningful employment",
+      "meaningful work",
+      "purpose",
+      "work meaning",
       "career theory"
     ],
     "editors": [
@@ -5546,6 +7383,11 @@
       {
         "date": "2026-09-01T10:00:00.000Z",
         "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-01T11:00:00.000Z",
+        "description": "Submission window",
         "is_full_paper_submission_deadline": false
       },
       {
@@ -8450,31 +10292,27 @@
     "url": "https://think.taylorandfrancis.com/special_issues/psychology-in-the-service-of-the-disabled-the-ill-and-the-dying/",
     "title": "Psychology in the service of the disabled, the ill and the dying",
     "slug": "tandf-psychology-in-the-service-of-the-disabled-the-ill-and-the-dying",
-    "contentHash": "84f227b9d07a0e734b3e96e1bd22cf7300dc076420b883731211afb1fc064613",
+    "contentHash": "e2c95f9fc0dc4adba6c92d0bb734ac584edd5b98e8364a7246ce3d943784333f",
     "topics": [
-      "Adjusting to loss and navigating stigma among disabled individuals",
-      "Developing disability pride and addressing mental health disparities",
-      "Ableism and systematic discrimination against people with disabilities",
-      "Psychological impacts of disability, including emotional, mental, and social effects",
-      "Coping with illness as a major life stressor",
-      "Short-term and long-term psychological consequences of hospitalization",
-      "Perceived threat to life and uncontrollable nature of illness",
-      "Death and dying as areas of psychological specialization",
-      "Supporting families of the dying and preparing individuals for end-of-life",
-      "Grief and bereavement support"
+      "Disability and psychology, including adjustment to loss, stigma, disability pride, and mental health disparities",
+      "Ableism and discrimination against people with physical or mental disabilities",
+      "Psychological impacts of illness, including stress, pain, fatigue, and loss of bodily functions",
+      "Hospitalization and its short-term and long-term psychological consequences",
+      "Death, dying, and end-of-life psychological support",
+      "Grief and bereavement support for families",
+      "Mental health interventions for disabled, ill, and dying individuals"
     ],
     "description": {
       "paragraphs": [
-        "This special issue addresses the psychological dimensions of disability, illness, and dying. Disability encompasses not only physical or cognitive impairments but also the social exclusion and discrimination that individuals experience. Illness creates significant psychological stress through pain, fatigue, and loss of control, with hospitalization triggering both immediate and lasting mental health effects. Dying represents an ultimate challenge that psychology must address through support for patients and their families.",
-        "The special issue welcomes empirical studies, reviews, theoretical manuscripts, and commentaries from psychologists across all specialties, healthcare professionals, and individuals who have experienced psychological support during illness or disability. Submissions should address how psychology can support individuals in navigating disability, managing illness-related stress, and confronting mortality with dignity."
+        "This special issue explores psychology's role in supporting individuals facing disability, illness, and mortality. Disability encompasses not only physical, sensory, or intellectual impairment but also societal exclusion and discrimination. Illness creates significant psychological stress through symptoms and hospitalization, while death and dying present unique challenges for patients and their families."
       ]
     },
     "tags": [
       "disability",
       "illness",
       "end-of-life care",
-      "mental health",
-      "psychology"
+      "psychology",
+      "mental health"
     ],
     "editors": [
       {
@@ -8486,6 +10324,11 @@
     "dates": [
       {
         "date": "2026-09-30T10:00:00.000Z",
+        "description": "Deadline for submission of manuscript",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2027-01-31T11:00:00.000Z",
         "description": "Manuscript deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -9553,8 +11396,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-10-26T23:23:50.318Z"
   },
   {
     "journal": "Industrial Marketing Management",
@@ -9721,7 +11565,7 @@
     "url": "https://link.springer.com/collections/ccdbbagabe",
     "title": "Entrepreneurship and the Creation of Decent Work for All",
     "slug": "springer-entrepreneurship-and-the-creation-of-decent-work-for-all",
-    "contentHash": "15c246d3abda3e0515587687c3d840a44b414c10d366919d0a24c1612e523aed",
+    "contentHash": "c4a68a718eda5b74067e04f167483b7e54a47ae05f9f9bdcd7d636d17b1dfc02",
     "topics": [
       "Equal pay for work of equal value",
       "Gender discrimination in employment",
@@ -9737,8 +11581,8 @@
     ],
     "description": {
       "paragraphs": [
-        "This multi-journal collection invites research exploring how entrepreneurship can contribute to achieving decent work for all, addressing UN Sustainable Development Goal 8. The call recognizes that labor markets and employment quality are shaped by societal, environmental, and economic disruptions, and entrepreneurship may play a key role in creating productive employment with fair wages and improved opportunities.",
-        "The collection seeks diverse perspectives on the intersection of entrepreneurship and working conditions, aiming to support policies and instruments that advance productive, decent work and equitable access to employment. Submissions may be research or review articles and will undergo peer review according to each participating journal's standards."
+        "This multi-journal collection explores how entrepreneurship can contribute to achieving the United Nations Sustainable Development Goal 8, which focuses on productive employment and decent work for all. The initiative recognizes that labor markets and employment quality are shaped by societal, environmental, political, and economic factors, and that entrepreneurial activity could be instrumental in creating better working conditions, fair compensation, and improved job opportunities across diverse contexts.",
+        "The collection invites research examining the interconnections between entrepreneurship and working conditions, seeking to understand mechanisms through which new ventures and small businesses can foster employment quality. Contributions may be research or review articles submitted to one of nine participating journals, with rigorous peer review conducted according to each journal's standards."
       ]
     },
     "tags": [
@@ -9746,6 +11590,7 @@
       "decent work",
       "labor markets",
       "employment",
+      "sustainable development",
       "sdg 8"
     ],
     "editors": [],
@@ -10490,9 +12335,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "R and D Management",
@@ -10535,9 +12379,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-13T16:20:55.735Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Financial Markets Institutions and Instruments",
@@ -10596,8 +12439,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Growth and Change",
@@ -10805,9 +12647,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-13T16:20:55.735Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Gender Work and Organization",
@@ -11697,22 +13538,24 @@
     "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14680432/CFPs/CfP-Neurodiversity-Gender-December-2025-1770142513950.pdf",
     "title": "Neurodiversity, Gender, and Work",
     "slug": "wiley-neurodiversity-gender-and-work",
-    "contentHash": "5806668bd6598db2a721883550616874caae33c68d5143b5d7a297fe3116f6ff",
+    "contentHash": "2719485019c89ed52e3cd7d6ac7bca5a30161c15f69e2d327b8354eab4e74234",
     "topics": [],
     "description": {
-      "paragraphs": []
+      "paragraphs": [
+        "This call for papers invites research exploring the interconnections between neurodiversity, gender, and workplace dynamics. The special issue seeks to advance understanding of how neurodivergent individuals, particularly across different gender identities and expressions, experience, navigate, and contribute to work environments."
+      ]
     },
     "tags": [
       "neurodiversity",
       "gender",
-      "work"
+      "workplace"
     ],
     "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-15T10:00:00.000Z",
-        "description": "Deadline for Submissions",
+        "date": "2026-10-15T10:00:00.000Z",
+        "description": "Deadline for submissions",
         "is_full_paper_submission_deadline": true
       }
     ],
@@ -11810,9 +13653,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-13T16:20:55.735Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "R and D Management",
@@ -11837,9 +13679,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-13T16:20:55.735Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Canadian Journal of Administrative Sciences / Revue Canadienne des Sciences de l Administration",
@@ -11930,9 +13771,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Journal of Product Innovation Management",
@@ -12712,8 +14552,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-06T09:51:06.483Z"
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Journal of Product Innovation Management",
@@ -12875,9 +14714,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z",
-    "gracePeriod": "2026-10-13T16:20:55.735Z"
+    "active": true,
+    "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
     "journal": "Psychology and Marketing",
@@ -13484,7 +15322,7 @@
     "url": "https://think.taylorandfrancis.com/special_issues/ai-enabled-production-systems/",
     "title": "Artificial Intelligence–Enabled Production Systems: Empirical Evidence, Implementation Pipelines, and Industrial Applications",
     "slug": "tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications",
-    "contentHash": "e1b1197390cc031e53fab1602b712d5b533de6c7a4063870603cb1fce0d159df",
+    "contentHash": "188b130f8592038bcdecbfed08b3e8bad7c12f088a0aaf523cc70da65dcc34d5",
     "topics": [
       "AI-Augmented Production Planning and Control",
       "Business–AI Alignment and AI Readiness Pipeline for Production Systems",
@@ -13499,21 +15337,18 @@
     ],
     "description": {
       "paragraphs": [
-        "This special issue seeks empirical research on how artificial intelligence augments production technologies and decision-making in real operational contexts. The focus is on system-level evidence demonstrating how point AI solutions integrate with production data environments to form end-to-end decision workflows, addressing the implementation pipeline from business-AI alignment through data readiness to deployment and workflow embedding.",
-        "The call emphasizes empirical validation using real operational evidence such as production logs, IoT sensors, industrial case studies, and field experiments. Purely conceptual, literature-review based, or synthetic-data studies are outside scope. Submissions should demonstrate how AI is operationalized across the production decision pipeline and linked to measurable production outcomes.",
-        "The special issue welcomes papers examining AI implementation stages (business–AI alignment, data readiness, deployment) across various production technologies including cyber–physical systems, additive manufacturing, and blockchain-enabled infrastructures, with particular interest in business-to-AI translation, data governance, and human–AI interaction in operational workflows."
+        "This special issue seeks empirical research demonstrating how artificial intelligence is embedded within and enhances digital production technologies in real operational contexts. The focus is on understanding implementation pipelines and socio-technical conditions that enable AI-enabled solutions to function effectively as operational workflows. Purely conceptual, literature-based, or modelling studies without empirical validation are excluded.",
+        "Acceptable empirical research uses real-world operational evidence such as production logs, IoT sensors, machine telemetry, or industrial case studies, potentially employing machine learning or optimization when grounded in real data and validated in industrial settings with measurable outcomes. Studies must address the full AI implementation pipeline, from translating production decisions into AI use cases, to ensuring data readiness, to embedding AI outputs into human-AI workflows linked to measurable production outcomes.",
+        "The special issue organizes contributions across two dimensions: stages of implementation (business-AI alignment, data readiness, and deployment) and production technologies (cyber-physical systems, additive manufacturing, and blockchain-enabled data infrastructures). Research examining how production decisions are translated into AI design choices, how data conditions enable or constrain implementation, and how AI outputs integrate into real production workflows is particularly welcome."
       ]
     },
     "tags": [
       "artificial intelligence",
       "production systems",
       "manufacturing",
-      "empirical research",
+      "operations management",
       "implementation pipeline",
-      "cyber-physical systems",
-      "digital twins",
-      "data readiness",
-      "human-ai interaction"
+      "empirical research"
     ],
     "editors": [
       {
@@ -13531,11 +15366,6 @@
     ],
     "associate_editors": [],
     "dates": [
-      {
-        "date": null,
-        "description": "Special Issue publication",
-        "is_full_paper_submission_deadline": false
-      },
       {
         "date": "2026-09-01T10:00:00.000Z",
         "description": "Call for Papers released",
@@ -16318,34 +18148,32 @@
     "abbreviation": "sage",
     "issn": "1540-6520",
     "metaTitle": "Reexamining and Replicating Foundational Studies in Entrepreneurship Research",
-    "url": "https://journals.sagepub.com/pb-assets/cmscontent/ETP/SI_CFP_ETP_JC-1777667705570.pdf",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/ETP/SI_CFP_ETP_JC-1790004006577.pdf",
     "title": "Reexamining and Replicating Foundational Studies in Entrepreneurship Research",
     "slug": "sage-reexamining-and-replicating-foundational-studies-in-entrepreneurship-research",
-    "contentHash": "09409807495bf978bfadcd0a6c2c573520dd96e68426a144d5578965eb426298",
+    "contentHash": "0e542dfca7258511e3827b0eb64ff0617e80b9a8ed2f669780f590ed4565a232",
     "topics": [
       "The 33 most cited entrepreneurship studies (each exceeding 1,000 citations) identified as priority candidates for replication",
-      "Influential studies within specific BCERC research tracks highlighted as influential contributions within each track",
+      "Influential studies within specific BCERC research tracks highlighted as important contributions",
       "Studies with credible cases for broader influence on entrepreneurship research",
       "Identifying boundary conditions and contextual contingencies of established relationships",
       "Clarifying inconsistencies or mixed findings in prior research",
       "Refining theoretical mechanisms underlying key constructs and relationships",
       "Contributing to methodological transparency, rigor, and best practices in replication research",
-      "Multi-study designs combining exact replication or reanalysis of original data with subsequent empirical generalization or theoretical extension"
+      "Multi-study designs combining exact replication or reanalysis with empirical generalization or theoretical extension"
     ],
     "description": {
       "paragraphs": [
-        "This Special Issue seeks to advance our understanding of replication in entrepreneurship research by encouraging rigorous reexaminations of foundational empirical studies. Replication is essential for cumulative theory development and for establishing confidence in empirical findings. In a dynamic field such as entrepreneurship, where institutional environments, technologies, funding regimes, and societal expectations evolve rapidly, systematic replication is particularly critical to assess whether foundational relationships reflect stable theoretical mechanisms or context-specific patterns.",
-        "Despite its importance, recent evidence suggests that entrepreneurship research has not yet developed a strong replication culture. A comprehensive review shows that replication efforts remain rare, fragmented, and skewed toward conceptual extensions and empirical generalizations, while exact replications, reanalyses of original data, and checking-of-analysis designs are comparatively scarce. Moreover, many of the field's most influential empirical studies, particularly those published in leading journals and widely cited, have either never been replicated or have been replicated only once. As a result, widely cited findings continue to shape theoretical debates and inform practice without systematic assessment of their robustness, temporal stability, or boundary conditions.",
-        "This Special Issue calls for rigorous, theory-driven replication studies that revisit foundational relationships and contribute to a more robust and context-sensitive understanding of entrepreneurship phenomena. Replication is not viewed merely as a confirmation exercise but as a critical tool for theory refinement, extension, and adjudication between competing explanations. Submissions employing diverse methodological approaches are welcome, provided they are theoretically grounded and methodologically rigorous. Multi-study designs that combine exact replication or reanalysis of original data with subsequent empirical generalization or theoretical extension are particularly encouraged, as such designs can offer deeper insights into when, how, and why established findings hold or vary across contexts.",
-        "All manuscripts will be subject to the journal's standard double-blind review process and must meet the publication standards of Entrepreneurship Theory and Practice. Submissions will be assessed based on their theoretical contribution, methodological rigor, and their ability to advance cumulative theory development in entrepreneurship, rather than on whether findings confirm prior results.",
-        "The guest editors will organize a series of paper development workshops (PDWs) aligned with the theme of the Special Issue prior to the submission deadline. The in-person workshop will take place at the University of North Texas in late February 2027, complemented by a virtual workshop in early March 2027. The PDWs are designed to support authors in developing rigorous, theory-driven replication studies, with particular encouragement for multi-study designs. Participation is entirely voluntary and is not a prerequisite for submission or consideration in the review process."
+        "Entrepreneurship research lacks a strong culture of replication despite its importance for building cumulative theory and validating findings. While many influential studies shape theoretical debates and practice, they have rarely been systematically retested to verify their robustness, stability over time, or applicability across different contexts. This special issue seeks to address this gap by encouraging rigorous replication studies of foundational empirical work in entrepreneurship.",
+        "The issue welcomes diverse methodological approaches to replication, from exact replications to reanalyses of original data and studies exploring boundary conditions and contextual factors. Rather than merely confirming prior findings, submissions should advance theoretical understanding by clarifying mechanisms, identifying when relationships hold or vary, and contributing to methodological best practices. All work will be evaluated on theoretical contribution and methodological rigor within the journal's standard review process."
       ]
     },
     "tags": [
       "replication studies",
       "entrepreneurship research",
-      "cumulative theory development",
-      "methodological rigor"
+      "theory development",
+      "empirical research",
+      "methodology"
     ],
     "editors": [
       {
@@ -16377,7 +18205,12 @@
     "dates": [
       {
         "date": "2026-12-01T11:00:00.000Z",
-        "description": "Deadline for short proposal submission for paper development workshop participation (3,000-5,000 words)",
+        "description": "Deadline for short proposals (3,000–5,000 words) for paper development workshop participation",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-01T11:00:00.000Z",
+        "description": "Notifications regarding paper development workshop participation",
         "is_full_paper_submission_deadline": false
       },
       {
@@ -16397,7 +18230,7 @@
       },
       {
         "date": "2027-08-01T10:00:00.000Z",
-        "description": "Manuscript submission deadline (midnight U.S. Eastern Time)",
+        "description": "Manuscript submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
@@ -18490,29 +20323,29 @@
     "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/Final_2025_JCB_SI_Template-1743697545893.docx",
     "title": "Special Issue Proposals",
     "slug": "wiley-outlined-here",
-    "contentHash": "27a0cd266f32b4158c6d6ea80c391db6bed82d79f9fde5020a9cd31972cdf90c",
+    "contentHash": "d8142441518cb5fd4726ef5fe0beba386d53167ee762f45eb856ecba40317996",
     "topics": [],
     "description": {
       "paragraphs": [
-        "The Journal of Consumer Behaviour invites authors to propose new special issues through a formal application process. Proposals must follow specified procedures and be submitted using a provided application form template."
+        "The Journal of Consumer Behaviour invites proposals for new Special Issues through a formal application process. Interested authors must complete a structured application form following specific guidelines provided by the journal."
       ]
     },
     "tags": [
       "special issue proposals",
-      "journal of consumer behaviour"
+      "call for proposals"
     ],
     "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2025-08-01T10:00:00.000Z",
-        "description": "Application submission window opens for Special Issue Proposals",
-        "is_full_paper_submission_deadline": false
+        "date": "2025-08-15T10:00:00.000Z",
+        "description": "Application submission window closes for Special Issue Proposals",
+        "is_full_paper_submission_deadline": true
       },
       {
-        "date": "2025-08-15T10:00:00.000Z",
-        "description": "Application submission deadline for Special Issue Proposals",
-        "is_full_paper_submission_deadline": true
+        "date": "2026-08-01T10:00:00.000Z",
+        "description": "Application submission window opens",
+        "is_full_paper_submission_deadline": false
       }
     ],
     "active": false,
@@ -18989,30 +20822,32 @@
     "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14678683/cfp/CGIR-SI-Stakeholders-and-CG-2026-1780653790257.pdf",
     "title": "Stakeholder Theory and Responsible Business: The Future of Corporate Governance",
     "slug": "wiley-stakeholder-theory-and-responsible-business-the-future-of-corporate-governance",
-    "contentHash": "b6939f10620e92202b05fc928cb88e1fc1459076562696c9c0a888755346cca1",
+    "contentHash": "be411071b5ce6401fe37b34a4c7c4bb9bde036dde0fad842fa35eea0ee88fe42",
     "topics": [
-      "Stakeholder theory and its applications in corporate governance",
-      "Responsible business practices and stakeholder management",
-      "Stakeholder governance in contemporary institutional environments",
-      "Corporate governance mechanisms and stakeholder protection",
-      "Interdisciplinary perspectives on stakeholder theory (management, strategy, ethics, finance, accounting, law)"
+      "Stakeholder theory and governance",
+      "Responsible business practices",
+      "Corporate governance in contemporary institutional environments",
+      "Stakeholder governance frameworks",
+      "Integration of stakeholder perspectives in corporate decision-making"
     ],
     "description": {
       "paragraphs": [
-        "This Special Issue seeks to address challenges by advancing scholarship on stakeholder theory, responsible business, and corporate governance. The issue welcomes conceptual, empirical, and theory-building contributions that examine stakeholder governance in contemporary institutional environments. Submissions from corporate governance scholars across a range of disciplines are particularly encouraged, including perspectives from management, strategy, ethics, finance, accounting, and law."
+        "This special issue seeks to advance research on how stakeholder theory and responsible business practices shape modern corporate governance. The editors welcome contributions that explore stakeholder-centered governance approaches within current institutional contexts, drawing on diverse theoretical and methodological perspectives.",
+        "The special issue is open to scholars from multiple disciplines including management, strategy, ethics, finance, accounting, and law who wish to contribute conceptual analyses, empirical studies, or theory-building work on these topics."
       ]
     },
     "tags": [
       "stakeholder theory",
       "corporate governance",
-      "responsible business"
+      "responsible business",
+      "business ethics"
     ],
     "editors": [],
     "associate_editors": [],
     "dates": [
       {
         "date": "2026-12-01T11:00:00.000Z",
-        "description": "Proposal submissions deadline",
+        "description": "Deadline for submissions",
         "is_full_paper_submission_deadline": true
       }
     ],
@@ -19406,10 +21241,12 @@
     "url": "https://www.afm-marketing.org/media/numeros-speciaux/CFP%20DM%202027-1.pdf",
     "title": "La relation client",
     "slug": "dm-numero-special-dm-2027-la-relation-client",
-    "contentHash": "971fc535d2a1586c1d596606754370d453b35ba52ecca4ec7cf32ba352feeae3",
+    "contentHash": "3bf66d9f50231dfe761e1d7ad16492cc801a18e7dba1d338d540f04ffaaceb4b",
     "topics": [],
     "description": {
-      "paragraphs": []
+      "paragraphs": [
+        "Ce numéro spécial porte sur la relation client. Il s'adresse aux chercheurs et aux praticiens intéressés par les enjeux contemporains de la gestion de la relation client et ses évolutions."
+      ]
     },
     "tags": [
       "customer relationship",
@@ -19433,6 +21270,11 @@
     "dates": [
       {
         "date": "2026-09-30T10:00:00.000Z",
+        "description": "Date limite de soumission",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-10-11T10:00:00.000Z",
         "description": "Date limite de soumission",
         "is_full_paper_submission_deadline": true
       }
@@ -20328,8 +22170,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-16T21:44:37.523Z"
+    "active": false,
+    "pubDate": "2026-08-16T21:44:37.523Z",
+    "gracePeriod": "2026-10-26T23:23:50.318Z"
   },
   {
     "journal": "Journal of International Business Studies",
@@ -20445,8 +22288,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-16T21:44:37.523Z"
+    "active": false,
+    "pubDate": "2026-08-16T21:44:37.523Z",
+    "gracePeriod": "2026-10-26T23:23:50.318Z"
   },
   {
     "journal": "European Journal of Marketing",
@@ -20615,8 +22459,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-13T04:30:23.141Z"
+    "active": false,
+    "pubDate": "2026-08-13T04:30:23.141Z",
+    "gracePeriod": "2026-10-26T23:23:50.318Z"
   },
   {
     "journal": "GRH",
@@ -22217,30 +24062,29 @@
     "url": "https://link.springer.com/collections/gdbbbihied",
     "title": "Valuing health and longevity: Advances and innovations",
     "slug": "springer-by-invitation-only-valuing-health-and-longevity-advances-and-innovations",
-    "contentHash": "1e2db9ae430d36418f9560fd409840cfdf3d59f73d0d8419bfb56b2885809822",
+    "contentHash": "335be7381a91184086fc4ec80fb9e3bd944a76b46c58b33f1551b39647388a77",
     "topics": [
-      "Value per statistical life (VSL) and mortality risk reductions in environmental policy",
-      "Population and risk attributes affecting valuation estimates",
-      "Synthesis and application of VSL estimates across studies and contexts",
-      "Valuation of nonfatal risk reductions and morbidity impacts",
-      "Willingness to pay (WTP) methods for mortality and morbidity outcomes",
-      "Approaches for combining and transferring valuation estimates",
-      "Addressing equity and distributional concerns in health valuation",
-      "Cost-benefit analysis methods for environmental and health policies",
-      "Best practice approaches to health and longevity valuation"
+      "Value per statistical life (VSL) and mortality risk valuation",
+      "Population and risk attributes affecting VSL estimates",
+      "Synthesis and application of VSL estimates",
+      "Nonfatal risk reductions and morbidity valuation",
+      "Willingness to pay (WTP) for health risk reductions",
+      "Cost-benefit analysis for environmental policies",
+      "Benefit transfer and evidence synthesis across studies",
+      "Distributional equity in health valuation",
+      "Co-occurring health effects and combined valuation approaches"
     ],
     "description": {
       "paragraphs": [
-        "This special issue focuses on the economic valuation of health risks and mortality in the context of environmental policy. Mortality risks dominate benefit estimates in environmental policies, but the value per statistical life literature contains significant gaps regarding how population and risk characteristics affect valuations. Similarly, nonfatal health impacts receive limited attention despite their substantial magnitude, and methodological challenges persist in synthesizing estimates across studies and applying them to new contexts.",
-        "The collection addresses recent advances in measuring individual willingness to pay for both mortality and morbidity risk reductions, improved techniques for combining and transferring results across research settings, and innovations in addressing practical questions such as how to handle co-occurring health effects and distributional equity concerns. The special issue brings together important contributions that serve as a reference for researchers and practitioners applying economic valuation methods to health and longevity improvements."
+        "Mortality risks are central to environmental policy benefit assessments, yet the value per statistical life literature has notable gaps regarding population attributes, risk characteristics, and how to synthesize findings across contexts. Nonfatal health impacts receive limited attention despite their substantial contribution to policy benefits, and their valuation relies heavily on proxy measures like averted costs rather than willingness-to-pay estimates.",
+        "This special issue seeks recent research addressing these challenges, including improved willingness-to-pay studies for mortality and morbidity effects, better methods for combining and transferring valuation results, and innovative approaches to distributional equity and co-occurring effects in health benefit assessment."
       ]
     },
     "tags": [
-      "environmental policy",
+      "environmental economics",
       "health valuation",
       "benefit-cost analysis",
-      "willingness to pay",
-      "value of statistical life"
+      "statistical life value"
     ],
     "editors": [
       {
@@ -22259,7 +24103,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-31T11:00:00.000Z",
+        "date": "2026-11-30T11:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -22814,27 +24658,26 @@
     "url": "https://link.springer.com/collections/iaadcbigjb",
     "title": "Development of the LIMB-QOL measurement system",
     "slug": "springer-development-of-the-limb-qol-measurement-system",
-    "contentHash": "028342e8a95ec93e2ae6658a6a187392449a8ba8db249a225979ed926dd1da7a",
+    "contentHash": "5698eea907d9ec36cf677605ac0cb2fc8ff2d1ad51c93cd830bdb34e654807a3",
     "topics": [
       "Patient-reported outcomes for limb loss and extremity trauma",
-      "Physical, emotional, and social health domains in limb injury",
-      "Development and validation of the Limb Injury Measurement Battery for Quality of Life (LIMB-QOL)",
-      "Implementation of LIMB-QOL in clinical research and practice",
-      "Measurement of functioning and quality of life in individuals with major extremity injuries"
+      "Development and validation of the Limb Injury Measurement Battery for Quality of Life",
+      "Measurement of physical, emotional, and social health domains in individuals with major extremity injuries",
+      "Implementation of LIMB-QOL in clinical and research settings",
+      "Quality of life assessment methodologies for traumatic injury populations"
     ],
     "description": {
       "paragraphs": [
-        "The Limb Injury Measurement Battery for Quality of Life (LIMB-QOL) measurement system is a multifaceted patient reported outcome system designed to measure several domains of functioning across physical, emotional, and social health for individuals with limb loss and other major extremity trauma.",
-        "The LIMB-QOL is the result of a large, collaborative project that was funded by the Congressionally Directed Medical Research Programs of the U.S. Department of Defense and overseen by the University of Delaware.",
-        "This special collection includes foundational manuscripts to introduce the LIMB-QOL measurement system to researchers and clinicians, including the development and implementation of this measurement system for individuals with major extremity injuries."
+        "This special collection presents foundational research on the LIMB-QOL, a comprehensive patient-reported outcome measurement system designed to evaluate multiple dimensions of health and functioning in individuals who have experienced limb loss or severe extremity trauma. Developed through a collaborative effort supported by the U.S. Department of Defense, the system addresses physical, emotional, and social wellbeing across diverse populations with major extremity injuries.",
+        "The collection welcomes manuscripts that contribute to understanding the development, validation, and clinical application of this measurement framework, intended for both researchers and healthcare practitioners working with extremity trauma patients."
       ]
     },
     "tags": [
-      "quality of life",
       "patient-reported outcomes",
       "limb loss",
       "extremity trauma",
-      "measurement development"
+      "quality of life measurement",
+      "health outcomes"
     ],
     "editors": [
       {
@@ -22981,28 +24824,27 @@
     "url": "https://link.springer.com/collections/bhhfgeaggi",
     "title": "Enhancing Population Health Assessment: Key Papers from the EQ-DAPHNIE Project",
     "slug": "springer-enhancing-population-health-assessment-key-papers-from-the-eq-daphnie-project",
-    "contentHash": "b41c75c41b95e6d11c755fd5aaa07605e4641449632d7b98f7e3183d289caaec",
+    "contentHash": "b63035b7ba6a0a662c074b2caf3a5912c862130c94588b32b950cef90ab3e121",
     "topics": [
-      "Establishment of population norms for various patient-reported outcome measures (PROMs)",
-      "Cross-country comparisons of health outcomes",
-      "Examination of health inequalities across populations",
-      "Assessment of instrument performance within and across countries",
-      "Self-reported health analyses",
-      "Efficacy of different measures within the elderly population",
-      "Generic and symptom-specific patient-reported outcome measures"
+      "Population norms for patient-reported outcome measures (PROMs)",
+      "Cross-country comparisons of health assessment instruments",
+      "Health inequalities examination",
+      "Instrument performance assessment within and across countries",
+      "Self-reported health analysis",
+      "Efficacy of health measures in elderly populations",
+      "Generic and symptom-specific PROMs evaluation"
     ],
     "description": {
       "paragraphs": [
-        "EQ-DAPHNIE represents a landmark endeavour in population health assessment and instrument evaluation, funded by the EuroQol Research Foundation. This initiative collected demographics, social determinants of health, as well as an extensive array of generic and symptom-specific patient-reported outcome measures (PROMs) from 15 countries.",
-        "This special collection will include papers that delve into a myriad of research questions, including the establishment of population norms for various PROMs, cross-country comparisons, examination of health inequalities, assessment of instrument performance within and across countries, and specialized analyses focusing on self-reported health and the efficacy of different measures within the elderly population."
+        "The EQ-DAPHNIE project is a major population health assessment initiative funded by the EuroQol Research Foundation that collected comprehensive health data including demographics, social determinants, and patient-reported outcome measures from 15 countries. This special collection brings together research examining the diverse findings and applications of this dataset across multiple health assessment contexts."
       ]
     },
     "tags": [
       "patient-reported outcomes",
-      "population health assessment",
+      "population health",
       "health inequalities",
-      "eq-5d",
-      "quality of life"
+      "cross-country comparison",
+      "health measurement"
     ],
     "editors": [
       {
@@ -23081,30 +24923,28 @@
     "issn": "1555-1938",
     "metaTitle": "Entrepreneurship: Shaping the Future",
     "url": "https://link.springer.com/collections/beebdfabge",
-    "title": "Entrepreneurship: Shaping the Future",
+    "title": "Shaping the Future",
     "slug": "springer-entrepreneurship-shaping-the-future",
-    "contentHash": "42362a041c4a0048257b5eb921de8d0d8b62b4708cc9db9c7268f7a5a0e19969",
+    "contentHash": "236c35ac9d343cdce46bb13353f0ba1d4ee639f8ea33366fdfdabb1ef6841ce0",
     "topics": [
-      "Impact of entrepreneurship on addressing global issues",
-      "Expected and realized changes related to entrepreneurship phenomena",
-      "Implications of entrepreneurship phenomena",
-      "Micro, meso, and macro levels of analysis in entrepreneurship",
-      "Internationalization and entrepreneurship",
-      "Entrepreneurship in diverse organizational contexts",
-      "Global entrepreneurship research"
+      "Entrepreneurship as a mechanism for addressing global issues",
+      "Impact of entrepreneurship on future development",
+      "Micro, meso, and macro levels of entrepreneurial analysis",
+      "Expected and realized changes in entrepreneurship phenomena",
+      "Implications of entrepreneurship for society and economy"
     ],
     "description": {
       "paragraphs": [
-        "This multi-journal collection, guest-edited by Diego Matricano, brings together research from three participating journals focused on entrepreneurship as a mechanism for addressing major global challenges. The collection emphasizes understanding both the anticipated and actual impacts of entrepreneurship, as well as their broader implications for society.",
-        "The collection welcomes papers that examine how entrepreneurship shapes the future by analyzing the phenomenon at multiple levels—from individual and organizational perspectives to industry and national scales. Research should investigate the concrete effects of entrepreneurial activities and their potential to drive meaningful change in response to global issues."
+        "This multi-journal collection brings together cross-disciplinary research on entrepreneurship and its role in shaping the future. It welcomes contributions from researchers, practitioners, and policymakers who examine entrepreneurship as a means to tackle significant global challenges and understand how entrepreneurial activities create expected and realized changes across different contexts.",
+        "Papers in this collection analyze entrepreneurship at multiple levels of analysis—from individual and organizational (micro) to industry and regional (meso) to national and global (macro)—to explore how entrepreneurship can drive positive transformation and address contemporary issues."
       ]
     },
     "tags": [
       "entrepreneurship",
-      "global impact",
-      "sustainability",
       "innovation",
-      "cross-disciplinary"
+      "sustainability",
+      "global challenges",
+      "future research"
     ],
     "editors": [
       {
@@ -23759,26 +25599,27 @@
     "url": "https://link.springer.com/collections/fhcacbjcab",
     "title": "Patient experience data in regulatory and health technology assessment",
     "slug": "springer-patient-experience-data-in-regulatory-and-health-technology-assessment",
-    "contentHash": "bef0a5df270158531fe53629e692985891cc8c2daec2b87f438217449ed30fde",
+    "contentHash": "bf02c39816fa5c8a681a30be599d0f48383100737eb082abd9dd95d5ef44f28b",
     "topics": [
-      "Assessment of patient experience including preference, symptoms, and health-related quality of life",
-      "Patient experience data in regulatory submissions and health technology assessment decisions",
-      "Patient-reported outcomes and clinical outcome assessments",
-      "Patient preference information collection",
-      "Application of artificial intelligence and digital health technology in patient experience data research",
-      "Original research, reviews, and discussion papers on regulatory and HTA developments"
+      "Assessment of patient experience, preferences, symptoms, and health-related quality of life for regulatory and HTA submissions",
+      "Patient-reported outcomes and clinical outcome assessments in product development and evaluation",
+      "Patient preference information collection and evaluation",
+      "Artificial intelligence and digital health technology applications in patient experience data research",
+      "Regulatory and HTA developments and decision-making processes",
+      "Integration of patient voices in healthcare decisions to improve patient outcomes"
     ],
     "description": {
       "paragraphs": [
-        "Regulatory and health technology assessment bodies increasingly recognize the value of incorporating patient perspectives during product development and evaluation. Patient experience data encompass patient-reported outcomes, clinical outcome assessments, and patient preference information. However, there is inconsistency in how decision-makers collect, evaluate, and utilize these data, highlighting the need to understand different stakeholders' approaches to ensure patients' voices meaningfully influence healthcare decisions.",
-        "This collection invites submissions addressing how patient experience data—encompassing preferences, symptoms, and quality of life—can better inform regulatory and HTA processes. The collection welcomes original research, reviews, and discussion papers on recent developments in the field, as well as work exploring innovative applications such as artificial intelligence and digital health technologies in patient experience research."
+        "Regulatory and health technology assessment bodies increasingly recognize the value of incorporating patient perspectives during product development and evaluation. Patient experience data encompasses patient-reported outcomes, clinical assessments, and preference information, yet their integration into decision-making remains inconsistent. This collection seeks to advance understanding of how different stakeholders approach patient experience data to ensure patient voices meaningfully influence healthcare decisions.",
+        "The collection invites original research, reviews, and discussion papers examining how patient experience data—including preferences, symptoms, and quality of life measures—can inform regulatory and HTA submissions and decisions. Contributions addressing recent developments in the field and exploring emerging applications such as artificial intelligence and digital health technologies in patient experience research are particularly encouraged."
       ]
     },
     "tags": [
-      "patient experience data",
+      "patient-reported outcomes",
       "health technology assessment",
       "regulatory science",
-      "patient-reported outcomes"
+      "patient experience",
+      "quality of life"
     ],
     "editors": [
       {
@@ -24072,28 +25913,28 @@
     "url": "https://link.springer.com/collections/jegcacjfea",
     "title": "Technology Transfer through Collaboration: Bridging Academia, Policy, and Practice",
     "slug": "springer-technology-transfer-through-collaboration-bridging-academia-policy-and-practice",
-    "contentHash": "484d0a127233f95f7ade84a03471cbe186c91638051fd7566398b60be5bf0ac9",
+    "contentHash": "055069578f7169681236028a86f70dcd537bf0ae681c7da17433a0e62b44b9af",
     "topics": [
-      "Technology transfer and collaborations between academic researchers and non-academic actors",
+      "Technology transfer and collaboration between academics and non-academic actors",
       "Entrepreneurship and innovation emerging from academic-practitioner-policymaker interactions",
-      "Co-authored research involving academics and technology transfer professionals, policymakers, entrepreneurs, innovators, investors, industry experts, platform managers, R&D managers, or innovation intermediaries",
+      "Boundary-spanning collaborations in technology transfer research",
+      "Co-authored research involving technology transfer professionals, policymakers, entrepreneurs, innovators, investors, industry experts, platform managers, R&D managers, and innovation intermediaries",
       "Development of new theory through collaborative engagement",
-      "Enrichment of empirical analysis using collaborative perspectives",
-      "Access to distinctive data through academic-non-academic partnerships",
-      "Research combining methodological rigor with practical and policy-relevant insights"
+      "Access to distinctive data and empirical analysis enriched by collaboration",
+      "Policy and practice-relevant insights from technology transfer scholarship",
+      "Methodological rigor combined with practical applicability in innovation research"
     ],
     "description": {
       "paragraphs": [
-        "This special collection seeks submissions that investigate technology transfer, entrepreneurship, and innovation through partnerships between academic researchers and external stakeholders such as practitioners and policymakers. The editors recognize that meaningful research in this field often benefits from close collaboration across disciplinary and sectoral boundaries, providing access to emerging phenomena and underexplored mechanisms that traditional approaches might miss.",
-        "The collection particularly welcomes papers co-authored by academics and non-academic partners including technology transfer professionals, policymakers, entrepreneurs, investors, and innovation intermediaries. Such collaborative work is expected to generate unique insights, improve data access, broaden empirical scope, and tackle fundamental questions from diverse perspectives while maintaining rigorous academic standards."
+        "This special collection seeks research on technology transfer and innovation that emerges from collaborations between academic researchers and practitioners, policymakers, or other non-academic stakeholders. The collection particularly welcomes papers co-authored by academics working alongside technology transfer professionals, innovators, investors, and other industry experts, as such partnerships offer unique access to emerging phenomena and practical contexts.",
+        "The collection aims to publish rigorous, peer-reviewed scholarship that leverages collaborative engagement to develop new theories, access distinctive data, and address important questions in technology transfer while maintaining the journal's standards for methodological rigor and empirical credibility. Papers should demonstrate how boundary-spanning collaboration contributes novel, impactful insights relevant to both scholarship and practice."
       ]
     },
     "tags": [
       "technology transfer",
+      "academic-practitioner collaboration",
       "innovation",
-      "entrepreneurship",
-      "academic-industry collaboration",
-      "policy and practice"
+      "entrepreneurship"
     ],
     "editors": [
       {
@@ -24122,7 +25963,7 @@
       {
         "date": null,
         "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
+        "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
@@ -24136,28 +25977,28 @@
     "url": "https://link.springer.com/collections/ecbjjiecib",
     "title": "Critical Perspectives on Digital Platform Ecosystems: Governance, Influence, and Consequences",
     "slug": "springer-topical-collection-critical-perspectives-on-digital-platform-ecosystems-governance-influence-and-consequences",
-    "contentHash": "dd27c8795f972246c19901a29c2a9b21999f33fc941e9327af244836b25df75e",
+    "contentHash": "d918242d8f5c9401b66d5c2db40aba21b8d1e914e46d754d7df1148af4641b47",
     "topics": [
       "Platform Governance and Ecosystem Orchestration: Governance mechanisms, rule-setting, boundary resources, and the allocation of decision rights across platform owners, complementors, and users; centralized, decentralized, and hybrid governance models.",
       "Strategic Conduct, Market Power, and Competitive Dynamics: Strategic positioning, platform envelopment, self-preferencing, lock-in, multi-homing, and the implications of dominant platforms for competition and market structure.",
       "Innovation, Complementor Dynamics, and Value Co-creation: Generativity, innovation governance, API and data access, developer relations, incentive structures, and strategies for value creation and capture across ecosystem participants.",
       "Content Governance, Speech, and Public Discourse: Content moderation, recommender systems, platform policies, and their effects on online speech, civic participation, and political communication across jurisdictions.",
-      "Societal Risks, Safety, and Equity: Fairness, inclusion, and distributional effects of platform governance and algorithmic decision-making; information integrity and the maintenance of digital trust; safety, well-being, and protection of vulnerable users.",
+      "Societal Risks, Safety, and Equity: Fairness, inclusion, and distributional effects of platform governance and algorithmic decision-making; information integrity and the maintenance of digital trust; safety, well-being, and protection of vulnerable users",
       "Regulation, Policy, and Institutional Change: Antitrust and platform regulation, interoperability and portability, liability regimes, standards, oversight of platform policies and algorithmic systems, and the interaction between platform governance and public policy.",
       "Platforms and Socio-Economic Development: Platformization trajectories, local innovation ecosystems, informal economies, and societal impacts in emerging and developing contexts."
     ],
     "description": {
       "paragraphs": [
-        "Digital platforms and their ecosystems have become central to value creation in the global economy, but their concentrated power raises significant concerns about societal impacts. These platforms now mediate how people work, communicate, access information, and engage in public discourse, making it crucial to understand their design, governance, and regulation.",
-        "This special issue seeks scholarly contributions examining critical questions about digital platform ecosystems, addressing both their innovative potential and their societal risks. Contributions should address governance mechanisms, market power, content moderation, platform regulation, protection of vulnerable users, and the socio-economic development implications of platform-mediated activities across different contexts."
+        "This special issue examines digital platform ecosystems and their multifaceted impacts on society, economy, and governance. As platforms increasingly mediate work, communication, information access, and public participation, the collection seeks to understand how they are designed, governed, and regulated, and what consequences these arrangements have for various stakeholders and society broadly.",
+        "The issue welcomes theoretical and empirical research from information systems and related disciplines that critically analyze both the innovative potential and societal risks of platform ecosystems. Submissions may address platform governance structures, competitive dynamics, innovation mechanisms, content moderation, fairness and equity concerns, regulatory frameworks, and developmental impacts in different economic contexts."
       ]
     },
     "tags": [
       "digital platforms",
       "platform governance",
       "regulation",
-      "societal impacts",
-      "ecosystems"
+      "online harms",
+      "market power"
     ],
     "editors": [
       {
@@ -24186,7 +26027,7 @@
       },
       {
         "date": "2026-12-01T11:00:00.000Z",
-        "description": "Submission deadline",
+        "description": "Submission Deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
@@ -24618,7 +26459,7 @@
     "url": "https://link.springer.com/collections/egeefbchbd",
     "title": "Wildfires in a Changing Climate: Impacts, Adaptation, and Policy",
     "slug": "springer-wildfires-in-a-changing-climate-impacts-adaptation-and-policy",
-    "contentHash": "4aa1e3c71b346ee0f08f89829daa5edf4d4193448cec2ccba104f87fa6242d58",
+    "contentHash": "66611fa911402e6277362fb1e1ac005ffe9aeee4484f478490d49f5dc0f0b306",
     "topics": [
       "Labour productivity, sectoral employment shifts, and worker mobility",
       "Housing markets, mortgage risk, and migration and other behavioural responses to wildfire risk and exposure",
@@ -24631,16 +26472,17 @@
     ],
     "description": {
       "paragraphs": [
-        "Wildfires are becoming more frequent and intense in many regions, driven by climate change, land-use shifts, and expanding human settlements in fire-prone areas. These changes have transformed wildfires into systemic economic and ecological risks. The economic impacts are substantial and multifaceted, extending beyond direct suppression costs to include disruptions to supply chains, labour productivity losses, effects on tourism and housing markets, and significant public health burdens from smoke exposure.",
-        "This special issue seeks empirical research that quantifies the economic consequences of wildfires and smoke, and evaluates the effectiveness of policy responses and adaptation strategies. The journal welcomes applied environmental and resource economics studies using innovative data sources and identification methods, as well as interdisciplinary work that strengthens economic understanding of wildfire impacts and informs policy decisions. The issue particularly encourages cross-regional comparisons to facilitate knowledge exchange between regions with established fire experience and those facing emerging vulnerabilities."
+        "Wildfires are becoming increasingly frequent and intense in many regions due to climate change, land-use shifts, and expanding human settlements in fire-prone areas. Their economic impacts extend far beyond direct suppression costs, affecting labour productivity, supply chains, tourism, housing markets, and public health through smoke exposure. Rising public expenditures on prevention and recovery, combined with evolving policy debates around insurance and risk financing, underscore the need for rigorous economic analysis.",
+        "This special issue seeks empirical research that quantifies the welfare consequences of wildfires and smoke, particularly in regions facing emerging risks and in developing economies. The call welcomes interdisciplinary work grounded in environmental and resource economics that evaluates adaptation and management strategies, leveraging new data sources and innovative methodologies including remote sensing and AI-based technologies.",
+        "Contributions should address economic dimensions of wildfires spanning impact assessment and policy evaluation, including labour markets, housing dynamics, ecosystem services, inequality, public finance, governance arrangements, prevention and adaptation strategies, and health outcomes from smoke exposure."
       ]
     },
     "tags": [
-      "wildfire economics",
+      "wildfires",
       "climate change",
       "environmental economics",
-      "policy evaluation",
-      "natural hazards"
+      "resource economics",
+      "adaptation policy"
     ],
     "editors": [
       {
@@ -24659,7 +26501,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-30T10:00:00.000Z",
+        "date": "2027-01-31T11:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -24732,12 +26574,19 @@
     "url": "https://journals.sagepub.com/doi/full/10.1177/10323732261437981",
     "title": "Women and Accounting's Past",
     "slug": "sage-women-and-accountings-past",
-    "contentHash": "21fa856fa79a87e31e6415ebb1f04011eaaeee9a69290bb4d97833b134028833",
+    "contentHash": "a1f64d0287202fdc85973d9b8747825e95360e85b97ee40a7242352e995e9814",
     "topics": [],
     "description": {
-      "paragraphs": []
+      "paragraphs": [
+        "This special issue examines the historical role and contributions of women in the accounting profession and discipline. The collection seeks to advance understanding of how women have shaped accounting practice, theory, and education across different time periods and contexts."
+      ]
     },
-    "tags": [],
+    "tags": [
+      "accounting",
+      "women",
+      "history",
+      "gender"
+    ],
     "editors": [],
     "associate_editors": [],
     "dates": [
@@ -24910,10 +26759,12 @@
     "url": "https://www.sciencedirect.com/special-issue/331062/advances-in-open-source-forecasting-software",
     "title": "Advances in Open Source Forecasting Software",
     "slug": "elsevier-advances-in-open-source-forecasting-software",
-    "contentHash": "a923267a1d82125cdf7ae562998785259838e0e54eca00865714337bd8bbee7f",
+    "contentHash": "70582da6174a401eb42d8df5726d939f58f4ed0ad7320b1cae9b5c2754bc004b",
     "topics": [],
     "description": {
-      "paragraphs": []
+      "paragraphs": [
+        "This special issue of the International Journal of Forecasting focuses on advances and applications of open source software tools for forecasting. The issue seeks contributions that demonstrate how open source forecasting software is being developed, improved, and utilized across various domains and research contexts."
+      ]
     },
     "tags": [
       "forecasting",
@@ -24923,7 +26774,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-08-31T10:00:00.000Z",
+        "date": "2026-10-31T11:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -25187,8 +27038,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-26T23:23:50.318Z"
   },
   {
     "journal": "Government Information Quarterly",
@@ -26576,21 +28428,24 @@
     "url": "https://www.sciencedirect.com/special-issue/328338/decolonising-research-in-transport-geography",
     "title": "Decolonising Research in Transport Geography",
     "slug": "elsevier-decolonising-research-in-transport-geography",
-    "contentHash": "b30e47bdea1dea58cafadba7c27cbda12c7e64051b90e2a5b1acfc43b8a032af",
+    "contentHash": "63bed7b12f02c082c637a49ff29673e5f24016cd6f09d7895d902b5751725a93",
     "topics": [],
     "description": {
-      "paragraphs": []
+      "paragraphs": [
+        "This special issue in the Journal of Transport Geography explores decolonial approaches to transport research, examining how transportation studies can address and challenge colonial legacies and power structures within academic scholarship and real-world mobility systems."
+      ]
     },
     "tags": [
       "transport geography",
-      "decolonization"
+      "decolonization",
+      "postcolonial studies"
     ],
     "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-30T10:00:00.000Z",
-        "description": "Submission deadline",
+        "date": "2027-04-30T10:00:00.000Z",
+        "description": "Full paper submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
@@ -28609,8 +30464,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-26T23:23:50.318Z"
   },
   {
     "journal": "Transportation Research Part B: Methodological",
@@ -30342,8 +32198,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-10-26T23:23:50.318Z"
   },
   {
     "journal": "Business Horizons",
@@ -31311,22 +33168,25 @@
     "url": "https://www.sciencedirect.com/special-issue/333740/uncertainty-economic-activity-and-policy",
     "title": "Uncertainty, Economic Activity, and Policy",
     "slug": "elsevier-uncertainty-economic-activity-and-policy",
-    "contentHash": "a35aeea00f12b07fcef775427d7f6e77fb0b42a2ca28b3c2e34d561dc10e5698",
+    "contentHash": "5815c1e86761a850c6a2fbf1d2de0e260805d0acae563f38ce1955f26cc19d3f",
     "topics": [],
     "description": {
-      "paragraphs": []
+      "paragraphs": [
+        "This special issue aims to examine the relationship between uncertainty and economic activity, alongside the role of policy in managing these dynamics. The collection seeks contributions that explore how uncertainty affects various economic outcomes and what policy responses may be effective in mitigating negative consequences."
+      ]
     },
     "tags": [
-      "economics",
       "uncertainty",
-      "economic policy"
+      "economic activity",
+      "policy",
+      "economics"
     ],
     "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-25T10:00:00.000Z",
-        "description": "Full paper submission deadline",
+        "date": "2026-11-30T11:00:00.000Z",
+        "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
@@ -31768,65 +33628,68 @@
     "abbreviation": "informs",
     "issn": "1526-5455",
     "metaTitle": "Agency in the Age of AI",
-    "url": "https://pubsonline.informs.org/pb-assets/filesorsc/CFP_Agency%20in%20the%20Age%20of%20AI_post-1785685921070.pdf",
+    "url": "https://pubsonline.informs.org/pb-assets/filesorsc/CFP_Agency%20in%20the%20Age%20of%20AI_post-1789996319620.pdf",
     "title": "Agency in the Age of AI",
     "slug": "informs-agency-in-the-age-of-ai",
-    "contentHash": "8c1778609c2f079cdf3cf2a2366e5ec33217506de511951e2500ff7388714189",
+    "contentHash": "8eb233a65065bb6b5b400cd089c2c78b8932d6dde6d4fd74c7d61d94c97d51f8",
     "topics": [
-      "Agency in organizations and how it changes with AI participation",
-      "Co-production of action by people and machines",
-      "Reconceptualizing agency: what it is, where it resides, and how it operates",
-      "Impact on organizational behavior and careers",
-      "Management and control in the age of AI",
-      "Strategy and entrepreneurship with agentic technologies",
-      "Institutional implications of changing agency",
-      "Sociology of work and AI",
+      "Reconceptualization of agency in contexts involving artificial intelligence and human actors",
+      "Distribution and location of agency when action is co-produced by people and machines",
+      "Implications for organizational behavior and motivation theories",
+      "Leadership and decision-making in AI-augmented environments",
+      "Control mechanisms and accountability in human-AI systems",
+      "Value creation involving intelligent technologies",
+      "Career development and work structures affected by AI participation",
+      "Institutional change driven by agentic AI",
+      "Technological change and organizational adaptation",
+      "Management and organizational control with autonomous systems",
+      "Strategic implications of distributed agency",
+      "Entrepreneurship in the age of AI",
+      "Sociology of work and labor transformation",
       "Information systems and autonomous action",
-      "Governance of autonomous action",
-      "Motivation, leadership, and decision-making with AI",
-      "Value creation with intelligent technologies"
+      "Governance frameworks for AI-driven organizational action"
     ],
     "description": {
       "paragraphs": [
-        "Agency is central to organizational sciences and heavily debated. Assumptions about who can act, what acting requires, and who is answerable for results underlie theories of motivation, leadership, decision making, control, value creation, careers, institutions, and technological change. These views largely developed before intelligent technologies began participating in organizational action. As analytic, generative, and agentic AI increasingly participate in organizational action, intention, execution, and consequence—traditionally assumed to reside in a single human actor—are coming apart, and with them our settled sense of who exercises agency.",
-        "This special issue seeks theoretically ambitious work, whether conceptual or empirically grounded, that takes the changing production of action as its starting point. The issue is organized around two complementary aims: to reconsider agency itself—what it is, where it resides, and how it operates when action is co-produced by people and machines—and to understand how the changing nature of agency reshapes the phenomena in organizational fields, from organizational behavior and careers to management and control, strategy, entrepreneurship, institutions, the sociology of work, information systems, and the governance of autonomous action.",
-        "Submissions are welcomed from across the organizational sciences and from neighboring disciplines in sociology, economics, psychology, and the philosophy of action. Given the rapid pace of change in agentic technologies, the issue will follow an accelerated review process."
+        "The fundamental concept of agency—who can act, what action requires, and who bears responsibility—has long shaped organizational theory. With intelligent technologies now actively participating in organizational processes, this foundational understanding is being challenged as action, intention, and consequences can no longer be attributed solely to individual human actors.",
+        "This special issue invites theoretically sophisticated research that reimagines agency when humans and machines co-produce organizational action. The editors seek work that both reconceptualizes agency itself and examines how this shift transforms core organizational phenomena including behavior, leadership, careers, strategy, institutions, and governance."
       ]
     },
     "tags": [
       "artificial intelligence",
       "agency",
-      "organizational theory",
-      "organizational behavior"
+      "organizations",
+      "human-ai collaboration",
+      "organizational theory"
     ],
     "editors": [
       {
         "name": "Paul Leonardi",
-        "affiliation": ".pop"
+        "affiliation": ":?"
       },
       {
         "name": "Alex Murray",
-        "affiliation": ".pop"
+        "affiliation": ":?"
       },
       {
         "name": "Frank Nagle",
-        "affiliation": ".pop"
+        "affiliation": ":?"
       },
       {
         "name": "Nelson Phillips",
-        "affiliation": ".pop"
+        "affiliation": ":?"
       },
       {
         "name": "Juliana Schroeder",
-        "affiliation": ".pop"
+        "affiliation": ":?"
       },
       {
         "name": "Paula Ungureanu",
-        "affiliation": ".pop"
+        "affiliation": ":?"
       },
       {
         "name": "Elisa Villani",
-        "affiliation": ".pop"
+        "affiliation": ":?"
       }
     ],
     "associate_editors": [],
@@ -39529,8 +41392,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-10T23:47:12.235Z"
+    "active": false,
+    "pubDate": "2026-08-10T23:47:12.235Z",
+    "gracePeriod": "2026-10-26T23:23:50.318Z"
   },
   {
     "journal": "International Marketing Review",
