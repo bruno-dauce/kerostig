@@ -17,10 +17,21 @@ const PUBLISHER_NAME = 'Wiley';
 // SAGE le 2026-08-31. Portee : collecte LOCALE ; en CI le blocage tient a
 // l'IP du runner, le navigateur n'y change rien.
 
-// Chemin qui a fonctionne au dernier passage, par ISSN, essaye en premier au
-// passage suivant : une requete par revue au lieu de jusqu'a sept. Versionne
-// pour que le CI et le poste local en profitent.
-const CHEMINS_PATH = path.join(path.dirname(fileURLToPath(import.meta.url)), 'wileyChemins.json');
+// Memoire par ISSN, versionnee pour que le CI et le poste local en profitent :
+//  - { chemin } : URL qui a fonctionne, essayee en premier au passage suivant
+//    (une page au lieu de jusqu'a sept) ;
+//  - { absences, verifie } : runs consecutifs sans page (404 sur tous les
+//    chemins) et date de la derniere verification. Mesure le 2026-09-27 :
+//    61 revues sans page coutaient 427 des 474 pages d'un run. Une revue
+//    confirmee absente n'est plus reverifiee qu'une fois par semaine.
+const DOSSIER = path.dirname(fileURLToPath(import.meta.url));
+const CHEMINS_PATH = path.join(DOSSIER, 'wileyChemins.json');
+const CALLS_PATH = path.join(DOSSIER, '..', '..', 'www', '_data', 'calls.json');
+const ABSENCES_AVANT_SAUT = 2;
+const DELAI_REVERIFICATION_MS = 7 * 24 * 3600 * 1000;
+// npm.cmd run scrape -- --only wiley --reverifier-wiley : verifie toutes les
+// revues, y compris celles confirmees absentes.
+const OPTION_REVERIFIER = '--reverifier-wiley';
 
 // Pas de schema d'URL unique : verifie manuellement, differentes revues
 // utilisent differents chemins selon l'anciennete/le redesign (ex.
@@ -83,8 +94,12 @@ export const scraperObject = {
         this.issnBloques = [];
 
         const chemins = lire_chemins();
+        const force = process.argv.includes(OPTION_REVERIFIER);
+        const actifs = issn_avec_appels_actifs(abbreviation);
+        const maintenant = Date.now();
         const calls = [];
         const motifs = { bloque: 0, absent: 0, reseau: 0, autre: 0 };
+        let sautees = 0;
         let atteintes = 0;
         let avecAppels = 0;
         let requetes = 0;
@@ -92,17 +107,13 @@ export const scraperObject = {
 
         // Rend le motif d'echec, ou null si la page a ete lue.
         const traiter = async (page, journal) => {
-            const urls = ordonnerUrls(build_urls(journal.issn), chemins[journal.issn]);
+            const entree = lireEntree(chemins[journal.issn]);
+            const urls = ordonnerUrls(build_urls(journal.issn), entree.chemin);
             const resultat = await find_page(page, journal.nomOpenalex, urls);
             requetes += resultat.requetes;
-            if (!resultat.page) {
-                // Un blocage ne dit rien du chemin : on le garde. Une absence
-                // confirmee sur tous les chemins, si.
-                if (resultat.motif === 'absent') delete chemins[journal.issn];
-                return resultat.motif;
-            }
+            chemins[journal.issn] = noterResultat(entree, resultat.page ? { page: resultat.page.url } : resultat, maintenant);
+            if (!resultat.page) return resultat.motif;
             atteintes += 1;
-            chemins[journal.issn] = resultat.page.url;
 
             const entries = extract_entries(resultat.page.html, resultat.page.url, journal.nomOpenalex);
             if (entries.length) avecAppels += 1;
@@ -122,7 +133,14 @@ export const scraperObject = {
         const page = await browser.newPage();
         try {
             const bloquees = [];
+            if (force) console.log(`[wiley] ${OPTION_REVERIFIER} : toutes les revues sont verifiees`);
             for (const journal of journals) {
+                // actifs === null : calls.json illisible, on ne saute personne.
+                const appelsActifs = actifs === null || actifs.has(journal.issn);
+                if (!doitVerifier(lireEntree(chemins[journal.issn]), { appelsActifs, force, maintenant })) {
+                    sautees += 1;
+                    continue;
+                }
                 const motif = await traiter(page, journal);
                 if (motif === 'bloque') bloquees.push(journal);
                 else if (motif) motifs[motif] += 1;
@@ -149,7 +167,7 @@ export const scraperObject = {
             ecrire_chemins(chemins);
         }
 
-        console.log(formaterBilan({ total: journals.length, atteintes, avecAppels, debloquees, motifs, appels: calls.length, requetes }));
+        console.log(formaterBilan({ total: journals.length, atteintes, avecAppels, debloquees, sautees, motifs, appels: calls.length, requetes }));
         if (this.issnBloques.length) {
             console.warn(`[wiley] ISSN toujours bloques, appels en base preserves : ${this.issnBloques.join(', ')}`);
         }
@@ -168,12 +186,13 @@ export const scraperObject = {
 }
 
 // Fonction pure, exportee pour test.
-export function formaterBilan({ total, atteintes, avecAppels, debloquees = 0, motifs, appels, requetes }) {
+export function formaterBilan({ total, atteintes, avecAppels, debloquees = 0, sautees = 0, motifs, appels, requetes }) {
     return [
         `[wiley] Bilan sur ${total} revue(s) :`,
         `[wiley]   OK          ${atteintes} (dont ${avecAppels} avec au moins un appel, ${debloquees} au second passage)`,
         `[wiley]   bloquees    ${motifs.bloque}`,
         `[wiley]   absentes    ${motifs.absent} (404 sur les ${PATH_CANDIDATES.length} chemins)`,
+        `[wiley]   non reverifiees ${sautees} (absentes confirmees, verifiees il y a moins de 7 jours ; ${OPTION_REVERIFIER} pour forcer)`,
         `[wiley]   reseau      ${motifs.reseau}`,
         `[wiley]   autre       ${motifs.autre}`,
         `[wiley]   appels      ${appels}`,
@@ -190,6 +209,49 @@ export function ordonnerUrls(urls, memorise) {
     return [memorise, ...urls.filter(url => url !== memorise)];
 }
 
+// Ancien format : l'URL seule. Fonction pure, exportee pour test.
+export function lireEntree(valeur) {
+    if (!valeur) return {};
+    if (typeof valeur === 'string') return { chemin: valeur };
+    return { ...valeur };
+}
+
+// Une revue n'est sautee que si elle est confirmee absente (deux runs
+// consecutifs sans page), sans appel actif en base, et verifiee il y a moins
+// d'une semaine. Dans le doute (date illisible), on verifie.
+// Fonction pure, exportee pour test.
+export function doitVerifier(entree, { appelsActifs, force, maintenant }) {
+    if (force || appelsActifs) return true;
+    if ((entree.absences ?? 0) < ABSENCES_AVANT_SAUT) return true;
+    const verifie = Date.parse(entree.verifie);
+    if (Number.isNaN(verifie)) return true;
+    return maintenant - verifie >= DELAI_REVERIFICATION_MS;
+}
+
+// Nouvelle entree apres un passage. Page trouvee : chemin retenu, compteur
+// remis a zero. 404 partout : une absence de plus, chemin oublie. Blocage,
+// erreur reseau ou statut inattendu : on ne sait rien, l'entree ne bouge pas.
+// Fonction pure, exportee pour test.
+export function noterResultat(entree, resultat, maintenant) {
+    if (resultat.page) return { chemin: resultat.page };
+    if (resultat.motif === 'absent') {
+        return { absences: (entree.absences ?? 0) + 1, verifie: new Date(maintenant).toISOString().slice(0, 10) };
+    }
+    return entree;
+}
+
+// ISSN des revues de ce scraper qui ont au moins un appel actif en base. null
+// si calls.json est illisible : l'appelant ne saute alors aucune revue.
+function issn_avec_appels_actifs(abbreviation) {
+    try {
+        const appels = JSON.parse(fs.readFileSync(CALLS_PATH, 'utf8'));
+        return new Set(appels.filter(c => c.abbreviation === abbreviation && c.active).map(c => c.issn));
+    } catch (error) {
+        console.warn(`[wiley] ${CALLS_PATH} illisible, aucune revue absente ne sera sautee : ${error.message}`);
+        return null;
+    }
+}
+
 function lire_chemins() {
     try {
         return JSON.parse(fs.readFileSync(CHEMINS_PATH, 'utf8'));
@@ -201,7 +263,7 @@ function lire_chemins() {
     }
 }
 
-// Cles triees : le fichier ne change dans Git que si un chemin change.
+// Cles triees : le fichier ne change dans Git que si une entree change.
 function ecrire_chemins(chemins) {
     const trie = Object.fromEntries(Object.keys(chemins).sort().map(issn => [issn, chemins[issn]]));
     const contenu = JSON.stringify(trie, null, 2) + '\n';

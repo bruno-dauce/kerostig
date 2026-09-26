@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { classerTentatives, ordonnerUrls, formaterBilan, extract_entries } from './wileyScraper.mjs';
+import { classerTentatives, ordonnerUrls, formaterBilan, extract_entries, lireEntree, doitVerifier, noterResultat } from './wileyScraper.mjs';
 
 // Le compteur de fin de run rangeait tout echec sous « aucun des chemins
 // d'URL essayes n'a repondu ». Verifie le 2026-09-03 sur quatre revues
@@ -101,4 +101,64 @@ test('un lien hors des pages revue Wiley (PDF, site externe) reste un appel', ()
     const html = sectionItor(`<p><a href="https://onlinelibrary.wiley.com/pb-assets/assets/14753995/CFP.pdf">CFP logistics</a></p>
         <p><a href="https://example.org/cfp">CFP external</a></p>`);
     assert.equal(extract_entries(html, PAGE_ITOR, 'ITOR').length, 2);
+});
+
+// Revues sans page d'appels : 61 revues sur 108 essayaient leurs 7 chemins a
+// chaque run, soit 427 pages chargees sur 474. Une revue confirmee absente
+// (deux runs consecutifs sans page) n'est plus reverifiee qu'une fois par
+// semaine -- jamais sautee si elle a encore des appels actifs en base.
+
+const JOUR = 24 * 3600 * 1000;
+const MAINTENANT = Date.parse('2026-09-27T12:00:00Z');
+const ilYa = jours => new Date(MAINTENANT - jours * JOUR).toISOString().slice(0, 10);
+
+test('l ancien format (URL seule) est lu comme un chemin', () => {
+    assert.deepEqual(lireEntree('https://x/y'), { chemin: 'https://x/y' });
+    assert.deepEqual(lireEntree(undefined), {});
+    assert.deepEqual(lireEntree({ absences: 2, verifie: '2026-09-20' }), { absences: 2, verifie: '2026-09-20' });
+});
+
+test('une revue inconnue ou avec un chemin est toujours verifiee', () => {
+    assert.equal(doitVerifier({}, { appelsActifs: false, force: false, maintenant: MAINTENANT }), true);
+    assert.equal(doitVerifier({ chemin: 'u' }, { appelsActifs: false, force: false, maintenant: MAINTENANT }), true);
+});
+
+test('une seule absence ne suffit pas a sauter la revue', () => {
+    assert.equal(doitVerifier({ absences: 1, verifie: ilYa(1) }, { appelsActifs: false, force: false, maintenant: MAINTENANT }), true);
+});
+
+test('deux absences consecutives et verification recente : la revue est sautee', () => {
+    assert.equal(doitVerifier({ absences: 2, verifie: ilYa(3) }, { appelsActifs: false, force: false, maintenant: MAINTENANT }), false);
+});
+
+test('au bout d une semaine, la revue absente est reverifiee', () => {
+    assert.equal(doitVerifier({ absences: 2, verifie: ilYa(7) }, { appelsActifs: false, force: false, maintenant: MAINTENANT }), true);
+    assert.equal(doitVerifier({ absences: 5, verifie: ilYa(10) }, { appelsActifs: false, force: false, maintenant: MAINTENANT }), true);
+});
+
+test('une revue qui a des appels actifs n est jamais sautee', () => {
+    assert.equal(doitVerifier({ absences: 3, verifie: ilYa(1) }, { appelsActifs: true, force: false, maintenant: MAINTENANT }), true);
+});
+
+test('l option de reverification force toutes les revues', () => {
+    assert.equal(doitVerifier({ absences: 3, verifie: ilYa(1) }, { appelsActifs: false, force: true, maintenant: MAINTENANT }), true);
+});
+
+test('une date de verification illisible fait reverifier', () => {
+    assert.equal(doitVerifier({ absences: 3 }, { appelsActifs: false, force: false, maintenant: MAINTENANT }), true);
+});
+
+test('une page trouvee remet le compteur d absences a zero', () => {
+    assert.deepEqual(noterResultat({ absences: 1, verifie: ilYa(1) }, { page: 'https://p' }, MAINTENANT), { chemin: 'https://p' });
+});
+
+test('une absence incremente le compteur, date la verification et oublie le chemin', () => {
+    assert.deepEqual(noterResultat({ chemin: 'https://p' }, { motif: 'absent' }, MAINTENANT), { absences: 1, verifie: '2026-09-27' });
+    assert.deepEqual(noterResultat({ absences: 1, verifie: ilYa(1) }, { motif: 'absent' }, MAINTENANT), { absences: 2, verifie: '2026-09-27' });
+});
+
+test('un blocage ou une erreur reseau ne touche pas l entree', () => {
+    const entree = { absences: 1, verifie: ilYa(2) };
+    assert.deepEqual(noterResultat(entree, { motif: 'bloque' }, MAINTENANT), entree);
+    assert.deepEqual(noterResultat({ chemin: 'u' }, { motif: 'reseau' }, MAINTENANT), { chemin: 'u' });
 });

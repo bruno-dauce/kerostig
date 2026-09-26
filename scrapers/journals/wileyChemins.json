@@ -1,49 +1,387 @@
 {
-  "1096-9934": "https://onlinelibrary.wiley.com/page/journal/10969934/call-for-papers",
-  "1099-050X": "https://onlinelibrary.wiley.com/page/journal/1099050x/call-for-papers",
-  "1099-1123": "https://onlinelibrary.wiley.com/page/journal/10991123/homepage/call-for-papers",
-  "1099-1158": "https://onlinelibrary.wiley.com/page/journal/10991158/call-for-papers",
-  "1099-131X": "https://onlinelibrary.wiley.com/page/journal/1099131x/homepage/call-for-papers",
-  "1099-1468": "https://onlinelibrary.wiley.com/page/journal/10991468/homepage/call-for-papers",
-  "1099-162X": "https://onlinelibrary.wiley.com/page/journal/1099162x/homepage/call-for-papers",
-  "1099-1751": "https://onlinelibrary.wiley.com/page/journal/10991751/homepage/call-for-papers",
-  "1365-2575": "https://onlinelibrary.wiley.com/page/journal/13652575/call-for-papers",
-  "1365-2834": "https://onlinelibrary.wiley.com/page/journal/13652834/homepage/callforpapers",
-  "1467-6486": "https://onlinelibrary.wiley.com/page/journal/14676486/homepage/call-for-papers",
-  "1467-8543": "https://onlinelibrary.wiley.com/page/journal/14678543/homepage/call-for-papers",
-  "1467-8551": "https://onlinelibrary.wiley.com/page/journal/14678551/homepage/specialissues.html",
-  "1467-8683": "https://onlinelibrary.wiley.com/page/journal/14678683/homepage/callforpapers",
-  "1467-8691": "https://onlinelibrary.wiley.com/page/journal/14678691/homepage/call-for-papers",
-  "1467-9299": "https://onlinelibrary.wiley.com/page/journal/14679299/homepage/call-for-papers",
-  "1467-9310": "https://onlinelibrary.wiley.com/page/journal/14679310/homepage/call_for_papers",
-  "1468-005X": "https://onlinelibrary.wiley.com/page/journal/1468005x/call-for-papers",
-  "1468-0394": "https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers",
-  "1468-0408": "https://onlinelibrary.wiley.com/page/journal/14680408/homepage/call-for-papers",
-  "1468-0416": "https://onlinelibrary.wiley.com/page/journal/14680416/call-for-papers",
-  "1468-0432": "https://onlinelibrary.wiley.com/page/journal/14680432/homepage/call-for-papers",
-  "1468-2257": "https://onlinelibrary.wiley.com/page/journal/14682257/call-for-papers",
-  "1468-2273": "https://onlinelibrary.wiley.com/page/journal/14682273/homepage/call-for-papers",
-  "1468-232X": "https://onlinelibrary.wiley.com/page/journal/1468232x/homepage/call-for-papers",
-  "1468-2370": "https://onlinelibrary.wiley.com/page/journal/14682370/homepage/specialissues.html",
-  "1468-2389": "https://onlinelibrary.wiley.com/page/journal/14682389/homepage/call_for_papers",
-  "1468-4446": "https://onlinelibrary.wiley.com/page/journal/14684446/homepage/call-for-papers",
-  "1468-5957": "https://onlinelibrary.wiley.com/page/journal/14685957/homepage/call-for-papers",
-  "1470-6431": "https://onlinelibrary.wiley.com/page/journal/14706431/homepage/callforpapers",
-  "1475-3995": "https://onlinelibrary.wiley.com/page/journal/14753995/homepage/call_for_papers",
-  "1479-1838": "https://onlinelibrary.wiley.com/page/journal/14791838/homepage/call_for_papers",
-  "1520-6793": "https://onlinelibrary.wiley.com/page/journal/15206793/homepage/call-for-papers",
-  "1520-6874": "https://onlinelibrary.wiley.com/page/journal/15206874/homepage/call-for-papers",
-  "1522-1970": "https://onlinelibrary.wiley.com/page/journal/15221970/homepage/call-for-papers",
-  "1540-5885": "https://onlinelibrary.wiley.com/page/journal/15405885/homepage/call-for-papers",
-  "1540-5915": "https://onlinelibrary.wiley.com/page/journal/15405915/homepage/call-for-papers",
-  "1540-6210": "https://onlinelibrary.wiley.com/page/journal/15406210/homepage/call-for-papers",
-  "1540-6229": "https://onlinelibrary.wiley.com/page/journal/15406229/call-for-papers",
-  "1540-6288": "https://onlinelibrary.wiley.com/page/journal/15406288/homepage/call-for-papers",
-  "1744-6570": "https://onlinelibrary.wiley.com/page/journal/17446570/call-for-papers",
-  "1744-7941": "https://onlinelibrary.wiley.com/page/journal/17447941/call-for-papers",
-  "1745-493X": "https://onlinelibrary.wiley.com/page/journal/1745493x/homepage/call-for-papers",
-  "1745-6606": "https://onlinelibrary.wiley.com/page/journal/17456606/call-for-papers",
-  "1748-8583": "https://onlinelibrary.wiley.com/page/journal/17488583/homepage/callforpapers",
-  "1936-4490": "https://onlinelibrary.wiley.com/page/journal/19364490/homepage/call-for-papers",
-  "2158-1592": "https://onlinelibrary.wiley.com/page/journal/21581592/call-for-papers"
+  "1083-6101": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1096-9934": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/10969934/call-for-papers"
+  },
+  "1097-0266": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1099-050X": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/1099050x/call-for-papers"
+  },
+  "1099-0771": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1099-0836": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1099-1050": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1099-1123": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/10991123/homepage/call-for-papers"
+  },
+  "1099-1158": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/10991158/call-for-papers"
+  },
+  "1099-131X": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/1099131x/homepage/call-for-papers"
+  },
+  "1099-1379": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1099-1441": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1099-1468": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/10991468/homepage/call-for-papers"
+  },
+  "1099-162X": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/1099162x/homepage/call-for-papers"
+  },
+  "1099-1697": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1099-1719": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1099-1743": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1099-1751": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/10991751/homepage/call-for-papers"
+  },
+  "1365-2575": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/13652575/call-for-papers"
+  },
+  "1365-2834": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/13652834/homepage/callforpapers"
+  },
+  "1464-0597": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1467-6281": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1467-629X": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1467-6435": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1467-6451": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1467-646X": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1467-6486": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14676486/homepage/call-for-papers"
+  },
+  "1467-7660": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1467-8500": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1467-8535": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1467-8543": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14678543/homepage/call-for-papers"
+  },
+  "1467-8551": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14678551/homepage/specialissues.html"
+  },
+  "1467-8594": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1467-8608": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1467-8683": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14678683/homepage/callforpapers"
+  },
+  "1467-8691": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14678691/homepage/call-for-papers"
+  },
+  "1467-9299": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14679299/homepage/call-for-papers"
+  },
+  "1467-9310": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14679310/homepage/call_for_papers"
+  },
+  "1467-9965": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1468-0009": {
+    "absences": 2,
+    "verifie": "2026-09-26"
+  },
+  "1468-005X": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/1468005x/call-for-papers"
+  },
+  "1468-0262": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1468-0335": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1468-036X": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1468-0394": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers"
+  },
+  "1468-0408": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14680408/homepage/call-for-papers"
+  },
+  "1468-0416": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14680416/call-for-papers"
+  },
+  "1468-0432": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14680432/homepage/call-for-papers"
+  },
+  "1468-0491": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1468-2257": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14682257/call-for-papers"
+  },
+  "1468-2273": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14682273/homepage/call-for-papers"
+  },
+  "1468-232X": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/1468232x/homepage/call-for-papers"
+  },
+  "1468-2370": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14682370/homepage/specialissues.html"
+  },
+  "1468-2389": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14682389/homepage/call_for_papers"
+  },
+  "1468-2427": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1468-4446": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14684446/homepage/call-for-papers"
+  },
+  "1468-5957": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14685957/homepage/call-for-papers"
+  },
+  "1469-3518": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1470-6431": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14706431/homepage/callforpapers"
+  },
+  "1471-1842": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1475-3995": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14753995/homepage/call_for_papers"
+  },
+  "1475-6773": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1475-679X": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1475-6803": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1479-1838": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/14791838/homepage/call_for_papers"
+  },
+  "1520-6688": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1520-6793": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/15206793/homepage/call-for-papers"
+  },
+  "1520-6874": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/15206874/homepage/call-for-papers"
+  },
+  "1522-1970": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/15221970/homepage/call-for-papers"
+  },
+  "1530-9134": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1530-9290": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1532-1096": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1535-3966": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1538-4616": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1539-6975": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1540-5885": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/15405885/homepage/call-for-papers"
+  },
+  "1540-5915": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/15405915/homepage/call-for-papers"
+  },
+  "1540-6210": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/15406210/homepage/call-for-papers"
+  },
+  "1540-6229": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/15406229/call-for-papers"
+  },
+  "1540-6261": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1540-627X": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1540-6288": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/15406288/homepage/call-for-papers"
+  },
+  "1542-7854": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1550-8382": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1559-1816": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1564-913X": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1571-9979": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1740-4762": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1744-6570": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/17446570/call-for-papers"
+  },
+  "1744-7941": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/17447941/call-for-papers"
+  },
+  "1745-493X": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/1745493x/homepage/call-for-papers"
+  },
+  "1745-6606": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/17456606/call-for-papers"
+  },
+  "1748-8583": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/17488583/homepage/callforpapers"
+  },
+  "1755-053X": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1756-2171": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1835-2561": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1873-1317": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1911-3846": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1932-443X": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "1936-4490": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/19364490/homepage/call-for-papers"
+  },
+  "1937-5956": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "2042-5805": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "2044-8325": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "2158-1592": {
+    "chemin": "https://onlinelibrary.wiley.com/page/journal/21581592/call-for-papers"
+  },
+  "2161-0045": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "2161-1920": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "2330-1643": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  },
+  "2694-6424": {
+    "absences": 2,
+    "verifie": "2026-09-27"
+  }
 }
