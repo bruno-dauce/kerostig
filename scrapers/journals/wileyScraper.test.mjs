@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { classerTentatives, ordonnerUrls, formaterBilan } from './wileyScraper.mjs';
+import { classerTentatives, ordonnerUrls, formaterBilan, extract_entries } from './wileyScraper.mjs';
 
 // Le compteur de fin de run rangeait tout echec sous « aucun des chemins
 // d'URL essayes n'a repondu ». Verifie le 2026-09-03 sur quatre revues
@@ -73,4 +73,32 @@ test('le bilan chiffre chaque motif et le nombre d appels', () => {
     assert.match(bilan, /bloquees\s+2/);
     assert.match(bilan, /absentes\s+1/);
     assert.match(bilan, /appels\s+12/);
+});
+
+// Constate le 2026-09-27 sur International Transactions in Operational
+// Research : sous son h2 « Call for Papers », Wiley affiche un vieux module
+// d'une AUTRE revue (Children & Society, 25e anniversaire, numero virtuel).
+// Le seul lien de la section pointait vers la page de cette autre revue, et
+// devenait un « appel » ITOR intitule « Children & Society ».
+
+const PAGE_ITOR = 'https://onlinelibrary.wiley.com/page/journal/14753995/homepage/call_for_papers';
+const sectionItor = liens => `<div class="pb-rich-text"><h2>Call for Papers</h2>${liens}</div>`;
+
+test('un lien vers la page d une autre revue n est pas un appel', () => {
+    const html = sectionItor(`<div class="moduleFragmentContainer"><h3>Children &amp; Society 25th Anniversary Issue</h3>
+        <p><a href="/page/journal/10990860/homepage/children___society_25th_anniversary_issue.htm"><b><i>Children &amp; Society</i></b></a></p></div>`);
+    assert.deepEqual(extract_entries(html, PAGE_ITOR, 'ITOR'), []);
+});
+
+test('un lien vers une page de la meme revue reste un appel', () => {
+    const html = sectionItor(`<p><a href="/page/journal/14753995/homepage/si_logistics.htm">Special issue on logistics</a></p>`);
+    const entries = extract_entries(html, PAGE_ITOR, 'ITOR');
+    assert.equal(entries.length, 1);
+    assert.equal(entries[0].metaTitle, 'Special issue on logistics');
+});
+
+test('un lien hors des pages revue Wiley (PDF, site externe) reste un appel', () => {
+    const html = sectionItor(`<p><a href="https://onlinelibrary.wiley.com/pb-assets/assets/14753995/CFP.pdf">CFP logistics</a></p>
+        <p><a href="https://example.org/cfp">CFP external</a></p>`);
+    assert.equal(extract_entries(html, PAGE_ITOR, 'ITOR').length, 2);
 });

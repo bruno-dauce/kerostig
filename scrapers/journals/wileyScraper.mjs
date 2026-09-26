@@ -326,13 +326,13 @@ export function extract_entries(html, pageUrl, journalName) {
     const sectionNodes = $(startHeading).nextUntil('h2').toArray();
     const groups = sectionNodes.some(node => node.tagName === 'hr')
         ? split_on_separators(sectionNodes)
-        : split_on_call_links($, sectionNodes);
+        : split_on_call_links($, sectionNodes, pageUrl);
 
     const entries = groups
         .map(group => {
             let link = null;
             for (const node of group) {
-                link = find_call_link($, node);
+                link = find_call_link($, node, pageUrl);
                 if (link) break;
             }
             return {
@@ -352,11 +352,31 @@ export function extract_entries(html, pageUrl, journalName) {
     return entries;
 }
 
+// Identifiant de revue (ISSN sans tiret) dans une URL de page revue Wiley,
+// /page/journal/{id}/... ou /journal/{id}/... ; null pour toute autre URL.
+const JOURNAL_ID_PATTERN = /onlinelibrary\.wiley\.com\/(?:page\/)?journal\/([0-9]{7}[0-9x])\//i;
+
+// Vrai quand href mene a la page d'une AUTRE revue que celle de pageUrl.
+// Constate sur International Transactions in Operational Research : sous son
+// h2 « Call for Papers » trainait un module de Children & Society (numero
+// virtuel), dont le lien devenait un faux appel ITOR. Un PDF, un site externe
+// ou une page de la meme revue ne sont pas concernes.
+// Fonction pure, exportee pour test.
+export function pointeVersAutreRevue(href, pageUrl) {
+    const idPage = pageUrl.match(JOURNAL_ID_PATTERN)?.[1]?.toLowerCase();
+    if (!idPage) return false;
+    let absolue;
+    try { absolue = new URL(href, pageUrl).href; } catch { return false; }
+    const idLien = absolue.match(JOURNAL_ID_PATTERN)?.[1]?.toLowerCase();
+    return Boolean(idLien) && idLien !== idPage;
+}
+
 // Ignore les liens mail obscurcis par Cloudflare
 // (/cdn-cgi/l/email-protection, texte affiche "[email protected]"), les
-// mailto: directs, et les liens de navigation generiques (ex. "Author
-// Guidelines" dans le paragraphe d'intro) -- jamais le vrai lien d'un appel.
-function find_call_link($, node) {
+// mailto: directs, les liens de navigation generiques (ex. "Author
+// Guidelines" dans le paragraphe d'intro) et les liens vers une autre revue
+// -- jamais le vrai lien d'un appel.
+function find_call_link($, node, pageUrl) {
     return $(node).find('a[href]').toArray()
         .map(a => $(a))
         .find(a => {
@@ -364,7 +384,8 @@ function find_call_link($, node) {
             const text = a.text().trim();
             return !href.includes('cdn-cgi/l/email-protection')
                 && !href.startsWith('mailto:')
-                && !NON_CALL_LINK_TEXT_PATTERN.test(text);
+                && !NON_CALL_LINK_TEXT_PATTERN.test(text)
+                && !pointeVersAutreRevue(href, pageUrl);
         }) ?? null;
 }
 
@@ -391,12 +412,12 @@ function split_on_separators(nodes) {
 // donc sur un decoupage par lien : un nouveau groupe demarre des qu'un noeud
 // porte un lien d'appel alors que le groupe courant en a deja un. Les noeuds
 // sans lien (chapeau, precisions) restent rattaches au groupe en cours.
-function split_on_call_links($, nodes) {
+function split_on_call_links($, nodes, pageUrl) {
     const groups = [];
     let current = [];
     let currentHasLink = false;
     for (const node of nodes) {
-        const hasLink = Boolean(find_call_link($, node));
+        const hasLink = Boolean(find_call_link($, node, pageUrl));
         if (hasLink && currentHasLink) {
             groups.push(current);
             current = [];
