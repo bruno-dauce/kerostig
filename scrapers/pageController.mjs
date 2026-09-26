@@ -95,7 +95,13 @@ export async function scrapeAll(browserInstance) {
         .then(results => results.flat())
         .then(results => results.filter(call => call && call.rawContent));
 
-        const alertes = await integrateCalls(issues, ranAbbreviations);
+        // Revues qu'un scraper a signalees illisibles ce run (propriete
+        // facultative issnBloques, posee par scraper()) : leurs appels sont
+        // preserves au lieu de passer en inactif, cf integrateCalls.
+        const revuesBloquees = modules.flatMap(module =>
+            (module.scraperObject.issnBloques ?? []).map(issn => ({ abbreviation: module.scraperObject.abbreviation, issn })));
+
+        const alertes = await integrateCalls(issues, ranAbbreviations, revuesBloquees);
 
         await publierResumeCI(formaterResumeAlertes(alertes, ranAbbreviations.length));
         if (depasseSeuilEchec(alertes.length, ranAbbreviations.length)) {

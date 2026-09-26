@@ -105,7 +105,15 @@ export function estNouvelArchivage(ancienAppel) {
 // fois -- on ne le touche pas (ni active:false, ni gracePeriod), sinon
 // --only marque a tort tous les appels des autres scrapers comme disparus.
 // null = comportement d'origine (tous les scrapers consideres comme lances).
-export async function integrateCalls(newCalls, ranAbbreviations = null) {
+//
+// revuesBloquees : [{ abbreviation, issn }], revues qu'un scraper n'a pas pu
+// lire ce run (challenge Cloudflare non franchi, cf wileyScraper.mjs). Leurs
+// anciens appels sont conserves tels quels : un blocage ne dit rien de
+// l'existence d'un appel, et le gel du scraper entier (detecterScrapersVides)
+// ne se declenche pas quand seules quelques revues manquent. La cle inclut
+// l'abbreviation : un blocage chez un scraper ne protege pas les appels d'un
+// autre qui partagerait l'ISSN.
+export async function integrateCalls(newCalls, ranAbbreviations = null, revuesBloquees = []) {
     const now = new Date();
     let oldCalls = await readData();
     newCalls = await clean(newCalls);
@@ -121,6 +129,8 @@ export async function integrateCalls(newCalls, ranAbbreviations = null) {
     }
     // Le pipeline continue : on gele ces appels, on ne bloque pas le passage.
     const abbreviationsGelees = new Set(scrapersVides.map(s => s.abbreviation));
+    const cleBlocage = (abbreviation, issn) => `${abbreviation}|${issn}`;
+    const bloquees = new Set(revuesBloquees.map(r => cleBlocage(r.abbreviation, r.issn)));
 
     const oldHashMap = new Map(oldCalls.map(call => [call.contentHash, call]));
     const oldSlugMap = new Map(oldCalls.map(call => [call.slug, call]));
@@ -177,8 +187,13 @@ export async function integrateCalls(newCalls, ranAbbreviations = null) {
             resultCalls.push(oldCall);
             continue;
         }
-        if (!newHashMap.has(oldCall.contentHash) &&
-            !newSlugMap.has(oldCall.slug)) {
+        const revu = newHashMap.has(oldCall.contentHash) || newSlugMap.has(oldCall.slug);
+        if (!revu && bloquees.has(cleBlocage(oldCall.abbreviation, oldCall.issn))) {
+            // Revue non lue ce run : on preserve l'existant, sans periode de grace.
+            resultCalls.push(oldCall);
+            continue;
+        }
+        if (!revu) {
             // Call is not in new data, add it with active set to false
             resultCalls.push({
                 ...oldCall,

@@ -228,3 +228,80 @@ test('ne repete pas l annonce pour un appel deja archive au passage precedent', 
         'rien a annoncer : l etat n a pas change'
     );
 });
+
+// Comme brut(), mais avec un contenu propre au scraper : sans cela, clean()
+// ecarte les appels de deux scrapers au meme rawContent comme doublons.
+const brutPropre = (abbreviation, n) =>
+    brut(abbreviation, n).map(c => ({ ...c, rawContent: `${abbreviation} : ${c.rawContent}` }));
+
+// Un scraper peut atteindre la plupart de ses revues et en voir quelques-unes
+// bloquees (challenge Cloudflare non franchi, cf wileyScraper.mjs). Le gel du
+// scraper entier ne se declenche pas -- il ne manque que quelques appels --
+// et ceux des revues bloquees passaient en inactif faute d'avoir ete revus.
+// Un blocage ne dit rien de l'existence d'un appel : il ne doit jamais le
+// desactiver.
+
+test('les appels d une revue bloquee restent actifs, tels quels', async () => {
+    const source = brutPropre('wiley', 10);
+    const anciens = (await clean(source.map(c => ({ ...c })))).map(c => ({ ...c, active: true }));
+    const bloque = anciens[3];
+    const remontes = source.filter(c => c.issn !== bloque.issn).map(c => ({ ...c }));
+
+    const resultat = await dansUnDepotTemporaire(anciens, () =>
+        integrateCalls(remontes, ['wiley'], [{ abbreviation: 'wiley', issn: bloque.issn }]));
+
+    const conserve = resultat.find(call => call.slug === bloque.slug);
+    assert.ok(conserve, 'l appel de la revue bloquee est toujours la');
+    assert.equal(conserve.active, true);
+    assert.equal(conserve.gracePeriod, undefined, 'aucune periode de grace ouverte');
+    assert.equal(resultat.length, 10);
+});
+
+test('un appel disparu d une revue atteinte passe toujours en inactif', async () => {
+    const source = brutPropre('wiley', 10);
+    const anciens = (await clean(source.map(c => ({ ...c })))).map(c => ({ ...c, active: true }));
+    const disparu = anciens[5];
+    const bloque = anciens[3];
+    const remontes = source
+        .filter(c => c.issn !== disparu.issn && c.issn !== bloque.issn)
+        .map(c => ({ ...c }));
+
+    const resultat = await dansUnDepotTemporaire(anciens, () =>
+        integrateCalls(remontes, ['wiley'], [{ abbreviation: 'wiley', issn: bloque.issn }]));
+
+    assert.equal(resultat.find(call => call.slug === disparu.slug).active, false);
+    assert.equal(resultat.find(call => call.slug === bloque.slug).active, true);
+});
+
+test('un blocage signale par un scraper ne protege pas les appels d un autre', async () => {
+    // Meme ISSN chez deux scrapers : la protection est propre a chaque source.
+    const wiley = brutPropre('wiley', 10);
+    const autre = brutPropre('autre', 10);
+    const anciens = (await clean([...wiley, ...autre].map(c => ({ ...c })))).map(c => ({ ...c, active: true }));
+    const issnBloque = wiley[3].issn;
+    const remontes = [...wiley, ...autre]
+        .filter(c => c.issn !== issnBloque)
+        .map(c => ({ ...c }));
+
+    const resultat = await dansUnDepotTemporaire(anciens, () =>
+        integrateCalls(remontes, ['wiley', 'autre'], [{ abbreviation: 'wiley', issn: issnBloque }]));
+
+    const deIssn = abbr => resultat.find(call => call.abbreviation === abbr && call.issn === issnBloque);
+    assert.equal(deIssn('wiley').active, true);
+    assert.equal(deIssn('autre').active, false);
+});
+
+// Les scrapers bloques en CI (Wiley, SAGE, Emerald) sont lances a la main avec
+// --only. Les appels des scrapers qui n'ont pas tourne ne doivent pas bouger.
+test('les appels d un scraper non lance (--only) ne sont pas desactives', async () => {
+    const wiley = brutPropre('wiley', 4);
+    const sage = brutPropre('sage', 4);
+    const anciens = (await clean([...wiley, ...sage].map(c => ({ ...c })))).map(c => ({ ...c, active: true }));
+
+    const resultat = await dansUnDepotTemporaire(anciens, () =>
+        integrateCalls(wiley.map(c => ({ ...c })), ['wiley']));
+
+    const deSage = resultat.filter(call => call.abbreviation === 'sage');
+    assert.equal(deSage.length, 4);
+    assert.ok(deSage.every(call => call.active === true && call.gracePeriod === undefined));
+});
