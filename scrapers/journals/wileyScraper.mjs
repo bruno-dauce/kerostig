@@ -1,28 +1,26 @@
 import * as cheerio from 'cheerio';
-import { mkdtempSync } from 'fs';
+import fs from 'fs';
 import path from 'path';
-import os from 'os';
+import { fileURLToPath } from 'url';
 import { getJournalsByPublisher } from '../issnMatcher.mjs';
-import { curlGet } from '../curlClient.mjs';
+import { estHorsInterstitiel } from '../cloudflare.mjs';
 
 const PUBLISHER_NAME = 'Wiley';
 
-// Le navigateur automatise (meme profil persistant que les autres
-// scrapers) recoit systematiquement une page de connexion a la place du
-// contenu reel -- Wiley bloque specifiquement ce fingerprint. Un simple
-// fetch marche en curl (verifie manuellement) mais PAS avec fetch() natif
-// de Node : undici a son propre fingerprint TLS/HTTP, distinct de celui de
-// curl (qui passe par Schannel sous Windows) et reconnu/filtre separement
-// par Cloudflare. Solution retenue : shell out vers curl plutot que
-// d'utiliser fetch() -- curl gere aussi nativement les cookies et
-// redirections via son cookie jar fichier, ce qui evite de reimplementer
-// cette logique en JS. MEME PIEGE ENSUITE avec curl standard sous Linux/
-// GitHub Actions (fingerprint OpenSSL bloque, la ou Schannel sous Windows
-// passe) : curlClient.mjs utilise curl-impersonate quand il est installe
-// (cf .github/workflows/scrape.yml) pour rejouer un fingerprint de vrai
-// navigateur, et retombe sur curl standard sinon.
-const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
-const COOKIE_JAR_PATH = path.join(mkdtempSync(path.join(os.tmpdir(), 'wiley-cookies-')), 'cookies.txt');
+// Acces par le navigateur (profil persistant commun, cf browser.mjs), et non
+// plus par curl. Historique : Wiley passait en curl standard depuis le poste
+// local, le navigateur etant a l'epoque renvoye vers une page de connexion.
+// Mesure le 2026-09-27 : c'est l'inverse. curl (Schannel comme OpenSSL) prend
+// 403 + challenge Cloudflare « managed » sur toutes les pages, tandis que
+// patchright franchit le challenge en ~5 s au premier contact, puis obtient
+// 200 d'emblee grace au cf_clearance pose dans le profil. Meme bascule que
+// SAGE le 2026-08-31. Portee : collecte LOCALE ; en CI le blocage tient a
+// l'IP du runner, le navigateur n'y change rien.
+
+// Chemin qui a fonctionne au dernier passage, par ISSN, essaye en premier au
+// passage suivant : une requete par revue au lieu de jusqu'a sept. Versionne
+// pour que le CI et le poste local en profitent.
+const CHEMINS_PATH = path.join(path.dirname(fileURLToPath(import.meta.url)), 'wileyChemins.json');
 
 // Pas de schema d'URL unique : verifie manuellement, differentes revues
 // utilisent differents chemins selon l'anciennete/le redesign (ex.
@@ -58,13 +56,13 @@ function build_urls(issn) {
 const SECTION_HEADING_PATTERN = /call.*for.*papers|special issue calls/i;
 const NON_CALL_LINK_TEXT_PATTERN = /^(author guidelines|submission guidelines|guide for authors)$/i;
 
-// Un delai trop court entre requetes declenche un challenge Cloudflare
-// (rate-limiting/comportemental) apres un certain volume -- constate en
-// pratique lors des tests (les premieres dizaines de revues passent, puis
-// Cloudflare commence a repondre "Just a moment..."). 1s reste rapide pour
-// ~85 revues x quelques candidats mais parait moins automatise.
-const REQUEST_DELAY_MS = 1000;
-const CHALLENGE_PATTERN = /Just a moment|cf_chl_opt|challenges\.cloudflare\.com/i;
+// Pause entre deux pages. Un rythme trop soutenu declenche un challenge
+// comportemental apres quelques dizaines de pages (constate du temps de curl
+// a 1 s) ; le navigateur charge en plus les ressources de chaque page.
+const REQUEST_DELAY_MS = 2500;
+const NAVIGATION_TIMEOUT_MS = 45000;
+const DELAI_CHALLENGE_MS = 30000;
+const PAUSE_AVANT_REPRISE_MS = 60000;
 const MAX_DEBUG_LOGS = 5;
 let noHeadingLogCount = 0;
 let noLinkLogCount = 0;
@@ -73,24 +71,41 @@ let challengeLogged = false;
 export const scraperObject = {
     url: 'https://onlinelibrary.wiley.com/',
     abbreviation: 'wiley',
-    async scraper() {
+    async scraper(browser) {
         const abbreviation = this.abbreviation;
 
         const journals = await getJournalsByPublisher(PUBLISHER_NAME);
         console.log(`[wiley] ${journals.length} revue(s) a traiter`);
 
+        // Lu par pageController apres le run : les appels deja en base de ces
+        // revues sont preserves au lieu de passer en inactif (cf
+        // diffChecker.integrateCalls). Remis a zero a chaque run.
+        this.issnBloques = [];
+
+        const chemins = lire_chemins();
         const calls = [];
         const motifs = { bloque: 0, absent: 0, reseau: 0, autre: 0 };
         let atteintes = 0;
-        for (const journal of journals) {
-            const resultat = await find_page(journal.nomOpenalex, build_urls(journal.issn));
+        let avecAppels = 0;
+        let requetes = 0;
+        let debloquees = 0;
+
+        // Rend le motif d'echec, ou null si la page a ete lue.
+        const traiter = async (page, journal) => {
+            const urls = ordonnerUrls(build_urls(journal.issn), chemins[journal.issn]);
+            const resultat = await find_page(page, journal.nomOpenalex, urls);
+            requetes += resultat.requetes;
             if (!resultat.page) {
-                motifs[resultat.motif] += 1;
-                continue;
+                // Un blocage ne dit rien du chemin : on le garde. Une absence
+                // confirmee sur tous les chemins, si.
+                if (resultat.motif === 'absent') delete chemins[journal.issn];
+                return resultat.motif;
             }
             atteintes += 1;
+            chemins[journal.issn] = resultat.page.url;
 
             const entries = extract_entries(resultat.page.html, resultat.page.url, journal.nomOpenalex);
+            if (entries.length) avecAppels += 1;
             for (const entry of entries) {
                 calls.push({
                     journal: journal.nomOpenalex,
@@ -101,26 +116,98 @@ export const scraperObject = {
                     rawContent: entry.rawContent,
                 });
             }
+            return null;
+        };
+
+        const page = await browser.newPage();
+        try {
+            const bloquees = [];
+            for (const journal of journals) {
+                const motif = await traiter(page, journal);
+                if (motif === 'bloque') bloquees.push(journal);
+                else if (motif) motifs[motif] += 1;
+            }
+
+            // Second passage sur les seules revues bloquees, apres une pause
+            // longue : un challenge non franchi tient souvent a un rythme juge
+            // trop soutenu, qui retombe en une minute.
+            if (bloquees.length) {
+                console.log(`[wiley] ${bloquees.length} revue(s) bloquee(s), nouvelle tentative dans ${PAUSE_AVANT_REPRISE_MS / 1000} s`);
+                await sleep(PAUSE_AVANT_REPRISE_MS);
+                for (const journal of bloquees) {
+                    const motif = await traiter(page, journal);
+                    if (!motif) {
+                        debloquees += 1;
+                        continue;
+                    }
+                    motifs[motif] += 1;
+                    if (motif === 'bloque') this.issnBloques.push(journal.issn);
+                }
+            }
+        } finally {
+            await page.close();
+            ecrire_chemins(chemins);
         }
-        console.log(`[wiley] ${calls.length} appel(s) trouve(s) sur ${atteintes} revue(s) atteinte(s)`);
-        // Un blocage n'est pas une absence : il passe en avertissement, avec sa
-        // cause probable, parce qu'il se repare (curl-impersonate) la ou une
-        // page reellement absente ne se repare pas.
+
+        console.log(formaterBilan({ total: journals.length, atteintes, avecAppels, debloquees, motifs, appels: calls.length, requetes }));
+        if (this.issnBloques.length) {
+            console.warn(`[wiley] ISSN toujours bloques, appels en base preserves : ${this.issnBloques.join(', ')}`);
+        }
         if (motifs.bloque) {
-            console.warn(`[wiley] ${motifs.bloque} revue(s) BLOQUEE(S) : 403 ou redirection vers un challenge Cloudflare. Leur page existe peut-etre. Cause la plus frequente : curl-impersonate absent du systeme, curl standard etant filtre sur son empreinte TLS.`);
-        }
-        if (motifs.absent) {
-            console.log(`[wiley] ${motifs.absent} revue(s) sans page de calls-for-papers (404 sur les ${PATH_CANDIDATES.length} chemins essayes)`);
+            console.warn(`[wiley] Revues bloquees : challenge Cloudflare non franchi en ${DELAI_CHALLENGE_MS / 1000} s, ou 403 persistant. Leur page existe peut-etre. En CI, cause attendue : l'IP du runner.`);
         }
         if (motifs.reseau) {
-            console.warn(`[wiley] ${motifs.reseau} revue(s) injoignable(s) (erreur reseau sur tous les chemins)`);
+            console.warn(`[wiley] Revues injoignables : erreur de navigation sur tous les chemins.`);
         }
         if (motifs.autre) {
-            console.warn(`[wiley] ${motifs.autre} revue(s) ecartee(s) sur un statut inattendu (ni 200, ni 404, ni blocage)`);
+            console.warn(`[wiley] Revues ecartees sur un statut inattendu (ni 200, ni 404, ni blocage).`);
         }
 
         return calls;
     }
+}
+
+// Fonction pure, exportee pour test.
+export function formaterBilan({ total, atteintes, avecAppels, debloquees = 0, motifs, appels, requetes }) {
+    return [
+        `[wiley] Bilan sur ${total} revue(s) :`,
+        `[wiley]   OK          ${atteintes} (dont ${avecAppels} avec au moins un appel, ${debloquees} au second passage)`,
+        `[wiley]   bloquees    ${motifs.bloque}`,
+        `[wiley]   absentes    ${motifs.absent} (404 sur les ${PATH_CANDIDATES.length} chemins)`,
+        `[wiley]   reseau      ${motifs.reseau}`,
+        `[wiley]   autre       ${motifs.autre}`,
+        `[wiley]   appels      ${appels}`,
+        `[wiley]   pages chargees ${requetes}`,
+    ].join('\n');
+}
+
+// Le chemin memorise passe en tete, les autres suivent dans leur ordre
+// habituel, sans doublon. Un chemin memorise qui ne figure plus parmi les
+// candidats est essaye quand meme : il a fonctionne.
+// Fonction pure, exportee pour test.
+export function ordonnerUrls(urls, memorise) {
+    if (!memorise) return urls;
+    return [memorise, ...urls.filter(url => url !== memorise)];
+}
+
+function lire_chemins() {
+    try {
+        return JSON.parse(fs.readFileSync(CHEMINS_PATH, 'utf8'));
+    } catch (error) {
+        if (error.code !== 'ENOENT') {
+            console.warn(`[wiley] ${CHEMINS_PATH} illisible, on repart de zero : ${error.message}`);
+        }
+        return {};
+    }
+}
+
+// Cles triees : le fichier ne change dans Git que si un chemin change.
+function ecrire_chemins(chemins) {
+    const trie = Object.fromEntries(Object.keys(chemins).sort().map(issn => [issn, chemins[issn]]));
+    const contenu = JSON.stringify(trie, null, 2) + '\n';
+    let actuel = null;
+    try { actuel = fs.readFileSync(CHEMINS_PATH, 'utf8'); } catch { /* premier passage */ }
+    if (actuel !== contenu) fs.writeFileSync(CHEMINS_PATH, contenu);
 }
 
 // Pourquoi aucune des URL candidates n'a rendu de page.
@@ -151,29 +238,62 @@ export function classerTentatives(tentatives) {
 }
 
 // Essaie chaque URL candidate jusqu'a en trouver une qui repond 200.
-// Rend { page } en cas de succes, { motif } sinon -- l'appelant compte les
-// motifs separement au lieu de tout verser dans « page introuvable ».
-async function find_page(journalName, urls) {
+// Rend { page, requetes } en cas de succes, { motif, requetes } sinon --
+// l'appelant compte les motifs separement au lieu de tout verser dans « page
+// introuvable ».
+//
+// Le statut retenu est celui de la DERNIERE reponse de document du cadre
+// principal, pas celui que rend goto : au premier contact, goto rapporte le
+// 403 de l'interstitiel, puis Cloudflare recharge la vraie page une fois le
+// challenge franchi (mesure : 403 puis page complete de 243 Ko). Seul ce
+// dernier statut distingue une vraie page (200) d'une absence (404).
+async function find_page(page, journalName, urls) {
     const tentatives = [];
-    for (const url of urls) {
-        await sleep(REQUEST_DELAY_MS);
-        try {
-            const response = await curlGet(url, { cookieJarPath: COOKIE_JAR_PATH, userAgent: USER_AGENT });
-            if (response.status === 200) {
-                return { page: { html: response.body, url } };
-            }
-            const challenge = CHALLENGE_PATTERN.test(response.body ?? '');
-            tentatives.push({ statut: response.status, challenge });
-            if (!challengeLogged && challenge) {
-                challengeLogged = true;
-                console.warn(`[wiley] Challenge Cloudflare detecte sur ${url} (statut ${response.status}) -- augmenter REQUEST_DELAY_MS si ca se reproduit souvent.`);
-            }
-        } catch (error) {
-            tentatives.push({ erreur: error.message });
-            console.warn(`[wiley] "${journalName}" : erreur reseau sur ${url} : ${error.message}`);
+    let requetes = 0;
+    let dernierStatut = null;
+    const ecoute = response => {
+        if (response.request().isNavigationRequest() && response.frame() === page.mainFrame()) {
+            dernierStatut = response.status();
         }
+    };
+    page.on('response', ecoute);
+    try {
+        for (const url of urls) {
+            await sleep(REQUEST_DELAY_MS);
+            requetes += 1;
+            dernierStatut = null;
+            try {
+                await page.goto(url, { waitUntil: 'domcontentloaded', timeout: NAVIGATION_TIMEOUT_MS });
+            } catch (error) {
+                tentatives.push({ erreur: error.message });
+                console.warn(`[wiley] "${journalName}" : navigation impossible sur ${url} : ${error.message.split('\n')[0]}`);
+                continue;
+            }
+
+            let franchi = true;
+            try {
+                await page.waitForFunction(estHorsInterstitiel, undefined, { timeout: DELAI_CHALLENGE_MS });
+            } catch {
+                franchi = false;
+            }
+            if (!franchi) {
+                tentatives.push({ statut: dernierStatut, challenge: true });
+                if (!challengeLogged) {
+                    challengeLogged = true;
+                    console.warn(`[wiley] Challenge Cloudflare non franchi en ${DELAI_CHALLENGE_MS / 1000} s sur ${url} (statut ${dernierStatut})`);
+                }
+                continue;
+            }
+
+            if (dernierStatut === 200) {
+                return { page: { html: await page.content(), url }, requetes };
+            }
+            tentatives.push({ statut: dernierStatut });
+        }
+    } finally {
+        page.off('response', ecoute);
     }
-    return { motif: classerTentatives(tentatives) };
+    return { motif: classerTentatives(tentatives), requetes };
 }
 
 export function extract_entries(html, pageUrl, journalName) {

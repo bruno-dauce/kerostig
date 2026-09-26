@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { classerTentatives } from './wileyScraper.mjs';
+import { classerTentatives, ordonnerUrls, formaterBilan } from './wileyScraper.mjs';
 
 // Le compteur de fin de run rangeait tout echec sous « aucun des chemins
 // d'URL essayes n'a repondu ». Verifie le 2026-09-03 sur quatre revues
@@ -46,4 +46,31 @@ test('un statut inattendu ne se fait pas passer pour une absence', () => {
 
 test('une liste vide de tentatives ne prétend rien', () => {
     assert.equal(classerTentatives([]), 'autre');
+});
+
+// Le chemin qui a fonctionne au passage precedent est essaye en premier : une
+// page chargee par revue au lieu de jusqu'a sept.
+
+test('sans chemin memorise, l ordre des candidats est conserve', () => {
+    assert.deepEqual(ordonnerUrls(['a', 'b', 'c'], undefined), ['a', 'b', 'c']);
+});
+
+test('le chemin memorise passe en tete, sans doublon', () => {
+    assert.deepEqual(ordonnerUrls(['a', 'b', 'c'], 'b'), ['b', 'a', 'c']);
+});
+
+test('un chemin memorise hors des candidats est essaye quand meme', () => {
+    assert.deepEqual(ordonnerUrls(['a', 'b'], 'z'), ['z', 'a', 'b']);
+});
+
+test('le bilan chiffre chaque motif et le nombre d appels', () => {
+    const bilan = formaterBilan({
+        total: 10, atteintes: 6, avecAppels: 4, appels: 12, requetes: 15,
+        motifs: { bloque: 2, absent: 1, reseau: 1, autre: 0 },
+    });
+    assert.match(bilan, /Bilan sur 10 revue/);
+    assert.match(bilan, /OK\s+6 \(dont 4/);
+    assert.match(bilan, /bloquees\s+2/);
+    assert.match(bilan, /absentes\s+1/);
+    assert.match(bilan, /appels\s+12/);
 });
