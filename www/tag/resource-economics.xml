@@ -2,49 +2,66 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kerostig | Tag : resource economics</title>
-        <link>https://kerostig.org/tag/resource-economics</link>
+        <link>https://kerostig.org/tag/resource-economics/</link>
         <description>Derniers appels à publications avec le tag 'resource economics'.</description>
-        <lastBuildDate>Mon, 17 Aug 2026 10:00:18 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
             <title>kerostig | Tag : resource economics</title>
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://kerostig.org/tag/resource-economics</link>
+            <link>https://kerostig.org/tag/resource-economics/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Critical Raw Materials]]></title>
-            <link>https://kerostig.org/call/elsevier-critical-raw-materials-2</link>
-            <guid>elsevier-critical-raw-materials-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <title><![CDATA[Wildfires in a Changing Climate: Impacts, Adaptation, and Policy]]></title>
+            <link>https://kerostig.org/call/springer-wildfires-in-a-changing-climate-impacts-adaptation-and-policy/</link>
+            <guid>springer-wildfires-in-a-changing-climate-impacts-adaptation-and-policy</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Sarah Meier</strong>, ETH Zurich</p>
+        
+        <p><strong>Eric Strobl</strong>, University of Bern</p>
+        
+        <p><strong>Robert J. R. Elliott</strong>, University of Birmingham</p>
+        
     
     
-    <p>This special issue focuses on critical raw materials (CRMs) and their role in global resource and energy economics. Critical raw materials are essential to modern industries including renewable energy, electronics, defense, and advanced manufacturing, yet their supply chains face significant vulnerabilities including geographic concentration, geopolitical tensions, and limited recycling infrastructure.</p>
     
-    <p>The issue welcomes research examining the economic, political, and environmental dimensions of critical raw material markets. This includes analyses of supply chain resilience, market mechanisms, policy interventions, technological solutions, and corporate strategies for ensuring sustainable access to these essential resources.</p>
+    <p>Wildfires are becoming increasingly frequent and intense in many regions due to climate change, land-use shifts, and expanding human settlements in fire-prone areas. Their economic impacts extend far beyond direct suppression costs, affecting labour productivity, supply chains, tourism, housing markets, and public health through smoke exposure. Rising public expenditures on prevention and recovery, combined with evolving policy debates around insurance and risk financing, underscore the need for rigorous economic analysis.</p>
     
+    <p>This special issue seeks empirical research that quantifies the welfare consequences of wildfires and smoke, particularly in regions facing emerging risks and in developing economies. The call welcomes interdisciplinary work grounded in environmental and resource economics that evaluates adaptation and management strategies, leveraging new data sources and innovative methodologies including remote sensing and AI-based technologies.</p>
+    
+    <p>
+        Appel publié par Environmental and Resource Economics.
+        
+        <a href="https://link.springer.com/collections/egeefbchbd">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-wildfires-in-a-changing-climate-impacts-adaptation-and-policy/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Supply chain security and risk assessment for critical raw materials</li>
+        <li>Labour productivity, sectoral employment shifts, and worker mobility</li>
         
-        <li>Geopolitical dimensions of critical raw material markets</li>
+        <li>Housing markets, mortgage risk, and migration and other behavioural responses to wildfire risk and exposure</li>
         
-        <li>Technological innovation and substitution strategies</li>
+        <li>Natural capital and ecosystem service valuation, including impacts on biodiversity, recreation, and forest asset pricing</li>
         
-        <li>Recycling, circular economy, and material recovery</li>
+        <li>Inequality, information access, and distributional impacts of exposure and monitoring technologies</li>
         
-        <li>Environmental and social impacts of critical raw material extraction</li>
+        <li>Public finance, insurance markets, and the fiscal consequences for local and regional governments</li>
         
-        <li>Market dynamics and price volatility</li>
+        <li>Institutions, governance, and risk-sharing arrangements, including coordination across jurisdictions, public-private roles, and firm responses to wildfire risk</li>
         
-        <li>Policy frameworks and trade regulations</li>
+        <li>Prevention, suppression, and adaptation strategies, including land-use planning, prescribed burning, indigenous fire stewardship, and advanced monitoring and management technologies</li>
         
-        <li>Corporate strategies for resource security</li>
+        <li>Welfare losses from smoke exposure, including physical and mental health outcomes and associated human capital effects</li>
         
     </ul>
     
@@ -52,13 +69,13 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>July 1, 2026: Submission deadline</li>
+        <li>January 31, 2027: Submission deadline</li>
         
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Resource and Energy Economics (ELSEVIER)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

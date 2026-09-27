@@ -4,7 +4,7 @@
         <title>kerostig | Tag : agentic ai</title>
         <link>https://kerostig.org/tag/agentic-ai/</link>
         <description>Derniers appels à publications avec le tag 'agentic ai'.</description>
-        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,30 +15,282 @@
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[LLMs and Agentic AI in Healthcare]]></title>
-            <link>https://kerostig.org/call/wiley-llms-and-agentic-ai-in-healthcare/</link>
-            <guid>wiley-llms-and-agentic-ai-in-healthcare</guid>
-            <pubDate>Sun, 13 Sep 2026 16:20:55 GMT</pubDate>
+            <title><![CDATA[Agentic AI in Education: Artificial Agency and the Social-Cognitive Dynamics of Learning]]></title>
+            <link>https://kerostig.org/call/wiley-agentic-ai-in-education-artificial-agency-and-the-social-cognitive-dynamics-of-learning/</link>
+            <guid>wiley-agentic-ai-in-education-artificial-agency-and-the-social-cognitive-dynamics-of-learning</guid>
+            <pubDate>Sun, 27 Sep 2026 11:46:29 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Lixiang Yan</strong>, Tsinghua University</p>
+        
+        <p><strong>Yizhou Fan</strong>, Peking University</p>
+        
+        <p><strong>Yueqiao Jin</strong>, Monash University</p>
+        
+        <p><strong>Nancy Law</strong>, University of Hong Kong</p>
+        
+        <p><strong>Yu Zhang</strong>, Tsinghua University</p>
+        
+        <p><strong>Xibin Han</strong>, Tsinghua University</p>
+        
     
     
-    <p>This special issue focuses on the applications and implications of large language models and agentic artificial intelligence systems in healthcare contexts.</p>
+    
+    <p>This special section examines agentic AI in education, defined as computational systems exhibiting interactivity, bounded autonomy, and adaptability within human-defined objectives. Unlike reactive AI tutoring systems or prompt-based generative AI tools, agentic AI initiates action, sustains participation, and maintains functional roles through persistent memory and task decomposition. The shift toward such systems reconfigures how epistemic labour and coordination are distributed within learning communities, affecting learners&#39; perceptions of agency, shared regulation, and collaborative reasoning.</p>
+    
+    <p>The section welcomes empirical and conceptually grounded studies exploring how agentic AI reshapes learner perceptions, teacher roles, epistemic labour, and social-cognitive dynamics. Particular emphasis is placed on understanding when artificial agency supports productive learning versus constraining learner autonomy, examining this across diverse educational contexts, learner populations, and cultural settings. Contributions addressing governance, responsibility, equity, and methodological innovation are encouraged.</p>
     
     <p>
-        Appel publié par Expert Systems.
+        Appel publié par British Journal of Educational Technology.
         
-        <a href="https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers/si-2026-001060">Voir l'appel sur le site de l'éditeur</a>.
+        <a href="https://bera-journals.onlinelibrary.wiley.com/hub/journal/14678535/homepage/call-for-papers/si-2026-000285">Lire l'appel complet sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/wiley-llms-and-agentic-ai-in-healthcare/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/wiley-agentic-ai-in-education-artificial-agency-and-the-social-cognitive-dynamics-of-learning/">Fiche de l'appel sur kerostig</a>.
     </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Conceptualising Agentic AI as Artificial Agency in Education: Frameworks and models that define agentic AI explicitly in terms of interactivity, bounded autonomy, and adaptability, and that clarify boundaries between agentic AI, generative AI assistants, and reactive AIED systems.</li>
+        
+        <li>Learner and Teacher Perceptions of Artificial Agency: Empirical investigations of how learners and educators interpret AI initiative, persistence, and role adoption, and how these perceptions shape trust, attribution of intent, responsibility, and participation in learning activities.</li>
+        
+        <li>Epistemic Labour and Initiative Redistribution: Studies examining how agentic AI redistributes epistemic labour within individual or collaborative learning, including effects on problem framing, task coordination, evaluation, and decision-making when AI initiates actions rather than responding to prompts.</li>
+        
+        <li>Regulation, Coordination, and Social-Cognitive Dynamics: Analyses of how agentic AI influences self-regulation, co-regulation, and shared regulation, particularly in group settings where AI adopts persistent roles that shape interactional norms, turn-taking, and closure of inquiry.</li>
+        
+        <li>Temporal Persistence and Path Dependence in Learning Processes: Research that captures how agentic AI&#39;s sustained participation and memory create path-dependent learning trajectories, including benefits for coherence and risks of early framing effects or cascading errors.</li>
+        
+        <li>Identity Inference, Social Presence, and Responsibility: Empirical work on how proactive AI behaviour affects identity inference and social presence in cue-lean environments, and how responsibility and accountability are negotiated when learning actions originate from artificial agents.</li>
+        
+        <li>Methodological Approaches for Studying Artificial Agency: Methodological contributions that advance the measurement of artificial agency and its effects, including multimodal analyses, process-level modelling, and designs that distinguish agentic participation from tool-based assistance.</li>
+        
+        <li>Governance and Educational Implications of Agentic AI: Analyses addressing accountability, transparency, and institutional responsibility when agentic AI functions as a collaborator, coordinator, or evaluator in educational settings.</li>
+        
+    </ul>
     
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>January 31, 2027: Deadline for Submissions</li>
+        <li>August 1, 2026: Abstract submission deadline</li>
+        
+        <li>October 28, 2026: Full manuscript submission deadline</li>
+        
+        <li>March 15, 2027: Final manuscript acceptances</li>
+        
+        <li>May 1, 2027: Issue publication online</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Decisions in the Agentic Era: Toward Agent-Native Decision Science]]></title>
+            <link>https://kerostig.org/call/wiley-decisions-in-the-agentic-era-toward-agent-native-decision-science/</link>
+            <guid>wiley-decisions-in-the-agentic-era-toward-agent-native-decision-science</guid>
+            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Yingjie Zhang</strong>, Peking University</p>
+        
+        <p><strong>Shunyuan Zhang</strong>, Harvard University</p>
+        
+        <p><strong>Tianshu Sun</strong>, Cheung Kong Graduate School of Business</p>
+        
+        <p><strong>Liangfei Qiu</strong>, University of Florida</p>
+        
+        <p><strong>Nagesh Murthy</strong>, University of Oregon</p>
+        
+    
+    
+    
+    <p>This special issue addresses how autonomous AI systems are fundamentally changing decision-making across organizations, markets, and society. It recognizes that AI has shifted from systems that respond to instructions to agents that initiate workflows, use tools, and operate with meaningful autonomy. The issue aims to advance rigorous understanding of how agentic AI reshapes decisions while developing research practices accessible to AI agents themselves.</p>
+    
+    <p>Two tracks serve different purposes. Track A (preferred) focuses on original decision science research on agentic AI behavior and human-agent collaboration, requiring submissions to include agent-native research artifacts that allow future agents to reconstruct and extend studies. Track B addresses broader consequences of agentic AI for organizations, markets, labor, and society without such artifact requirements. Both tracks welcome rigorous empirical and analytical research grounded in decision science.</p>
+    
+    <p>
+        Appel publié par Decision Sciences.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/15405915/homepage/call-for-papers/agentic-era-decisions">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-decisions-in-the-agentic-era-toward-agent-native-decision-science/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Agent reasoning, planning, and decision strategies in task environments</li>
+        
+        <li>Multi-agent coordination, competition, and emergent collective behavior</li>
+        
+        <li>Agent capabilities, limitations, and failure modes in decision-relevant contexts</li>
+        
+        <li>Agent identity, role-taking, and consistency under manipulation</li>
+        
+        <li>Trust, deception, and norm violation in agent systems</li>
+        
+        <li>Agent learning and behavioral change over repeated interactions</li>
+        
+        <li>Human reliance, override, and complementarity in agentic decision systems</li>
+        
+        <li>Oversight, accountability, and governance design in human-agent systems</li>
+        
+        <li>Human capacity in human-agent systems and AI Quotient (AQ)</li>
+        
+        <li>Interface and system design conditions that shape human-agent collaboration outcomes</li>
+        
+        <li>Societal consequences of agentic AI, including inequality, power, and human autonomy</li>
+        
+        <li>Organizational transformation involving strategy, structure, and governance</li>
+        
+        <li>Labor market change and workforce displacement</li>
+        
+        <li>Market and competitive dynamics when agents act for firms or consumers</li>
+        
+        <li>Accountability, transparency, and fairness in agentic decision pipelines</li>
+        
+        <li>Regulation and governance of autonomous AI systems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>August 1, 2026: CFP Launch &amp; Editorial Piece Published</li>
+        
+        <li>August 1, 2026: Submissions open (both tracks)</li>
+        
+        <li>January 15, 2027: Fast Track Submission Deadline (Track A only)</li>
+        
+        <li>March 15, 2027: Submission Deadline (Track B)</li>
+        
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Dominik Gutt</strong>, RWTH Aachen University</li>
+        
+        <li><strong>Miguel Godinho de Matos</strong>, Católica-Lisbon</li>
+        
+        <li><strong>Yicheng Song</strong>, University of Minnesota</li>
+        
+        <li><strong>Yifan Yu</strong>, Hong Kong University</li>
+        
+        <li><strong>Hyeokkoo Eric Kwon</strong>, Nanyang Technological University</li>
+        
+        <li><strong>Yang Gao</strong>, University of Illinois at Urbana-Champaign</li>
+        
+        <li><strong>Zhe Yuan</strong>, Zhejiang University</li>
+        
+        <li><strong>Brian Han</strong>, University of Illinois at Urbana-Champaign</li>
+        
+        <li><strong>Yan Leng</strong>, University of Texas at Austin</li>
+        
+        <li><strong>Wen Wang</strong>, University of Maryland</li>
+        
+        <li><strong>Liu Ming</strong>, The Chinese University of Hong Kong, Shenzhen</li>
+        
+        <li><strong>Zhenyu Zheng</strong>, Zhejiang University</li>
+        
+        <li><strong>Xilin Li</strong>, Cheung Kong Graduate School of Business</li>
+        
+    </ul>
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Non-Human Innovator: Agentic AI, Physical AI, and the Transformation of R&D Management]]></title>
+            <link>https://kerostig.org/call/wiley-the-non-human-innovator-agentic-ai-physical-ai-and-the-transformation-of-randd-management/</link>
+            <guid>wiley-the-non-human-innovator-agentic-ai-physical-ai-and-the-transformation-of-randd-management</guid>
+            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Joon Mo Ahn</strong>, Korea University</p>
+        
+        <p><strong>Alberto Di Minin</strong>, Scuola Superiore Sant&#39;Anna</p>
+        
+        <p><strong>Sungjoo Lee</strong>, Seoul National University</p>
+        
+        <p><strong>Ahreum Hong</strong>, Kyung Hee University</p>
+        
+    
+    
+    
+    <p>This special issue addresses how artificial intelligence systems function as autonomous innovators rather than tools within R&amp;D management. As AI systems including large language models and physical AI become active participants in innovation processes, existing frameworks assuming human actors must be reconceptualized. The core challenge extends beyond how AI assists humans to how much cognitive work should be delegated to AI and what consequences this has for organizations, ecosystems, and intellectual property.</p>
+    
+    <p>The special issue examines four interconnected themes: determining optimal levels of AI delegation; understanding how agentic and physical AI reshape innovation ecosystem architectures as autonomous actors; reconceptualizing absorptive capacity for evaluating AI-generated knowledge; and addressing IP ownership and inventorship when non-human systems generate patentable outputs. Collectively, these themes interrogate how the distinction between AI-as-tool and AI-as-innovator requires new governance mechanisms and strategic frameworks for innovation management.</p>
+    
+    <p>
+        Appel publié par R and D Management.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/14679310/call-for-papers/si-2026-000541">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-the-non-human-innovator-agentic-ai-physical-ai-and-the-transformation-of-randd-management/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Is there an inverted-U relationship between the degree of AI delegation in R&amp;D and innovation performance, mirroring the over-search paradox?</li>
+        
+        <li>How do firms determine the optimal breadth and depth of AI involvement across different stages of the R&amp;D process? Specifically, under what conditions does algorithmic management enhance or hinder innovation performance?</li>
+        
+        <li>What is the AI-era analogue of the NIH syndrome: how does uncritical acceptance of AI-generated knowledge erode internal expertise?</li>
+        
+        <li>What governance architectures enable effective human–AI teaming while preserving accountability, creativity, and strategic judgment?</li>
+        
+        <li>How do agentic AI systems alter the architecture of knowledge flows in open innovation ecosystems, and what new governance mechanisms are required?</li>
+        
+        <li>How does the participation of autonomous AI agents change the logic of platform-based open innovation, including roles, incentives, and boundary conditions?</li>
+        
+        <li>How do digital twins and AI-enabled simulation reshape the scope and speed of distributed experimentation across organisational boundaries?</li>
+        
+        <li>What new forms of inter-organisational trust, contracting, and coordination are needed when AI agents act as innovation partners?</li>
+        
+        <li>How must absorptive capacity (or dynamic capabilities) be reconceptualised when the primary external knowledge source is an AI system rather than a human partner?</li>
+        
+        <li>What organisational routines and managerial processes enable firms to transform AI-generated knowledge into innovation value?</li>
+        
+        <li>What individual competencies — technical, cognitive, and relational — distinguish high-performing innovators in human–AI contexts?</li>
+        
+        <li>What learning mechanisms allow firms to continuously upgrade AI-related innovation capabilities over time, particularly in relation to exploration and exploitation?</li>
+        
+        <li>How should inventorship and IP ownership be attributed when agentic AI systems autonomously generate patentable outputs, and what theoretical frameworks from open innovation research best capture this challenge?</li>
+        
+        <li>What strategic logic governs firms&#39; decisions to release model weights, training data, or fine-tuned AI capabilities into open-source commons?</li>
+        
+        <li>How do trained model weights, fine-tuning data, and emergent AI capabilities constitute a new category of strategic asset, and how do firms govern access to and monetisation of these assets?</li>
+        
+        <li>Under what regulatory and institutional conditions does the open-source AI movement accelerate versus impede innovation diffusion?</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>May 30, 2026: PDW (paper development workshop) at R&amp;D Management Workshop, Seoul, Korea</li>
+        
+        <li>July 4, 2026: PDW at KOSIME summer conference, Jeju, Korea</li>
+        
+        <li>December 1, 2026: Special Issue Submission Open</li>
+        
+        <li>June 30, 2027: Deadline for SI Submission</li>
+        
+        <li>July 1, 2028: Publication of SI Articles</li>
         
     </ul>
     

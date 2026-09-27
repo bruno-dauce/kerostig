@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : journal</title>
+        <link>https://kerostig.org/tag/journal/</link>
+        <description>Derniers appels à publications avec le tag 'journal'.</description>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:09 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : journal</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/journal/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Call for Proposals for Special Issues]]></title>
+            <link>https://kerostig.org/call/wiley-2026-call-for-proposals-for-special-issues/</link>
+            <guid>wiley-2026-call-for-proposals-for-special-issues</guid>
+            <pubDate>Sun, 27 Sep 2026 11:46:29 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>The journal invites proposals for special issues to be published in 2026. Researchers and scholars are encouraged to submit proposals during the designated submission window.</p>
+    
+    <p>
+        Appel publié par Journal of Organizational Behavior.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/10991379/cfp/JOB_Call-for-Proposals-2026-1787185890970.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-2026-call-for-proposals-for-special-issues/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 1, 2026: Submission window opens</li>
+        
+        <li>December 31, 2026: Submission window closes</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

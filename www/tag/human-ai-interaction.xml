@@ -4,7 +4,7 @@
         <title>kerostig | Tag : human-ai interaction</title>
         <link>https://kerostig.org/tag/human-ai-interaction/</link>
         <description>Derniers appels à publications avec le tag 'human-ai interaction'.</description>
-        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,57 +15,81 @@
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Artificial Intelligence–Enabled Production Systems: Empirical Evidence, Implementation Pipelines, and Industrial Applications]]></title>
-            <link>https://kerostig.org/call/tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications/</link>
-            <guid>tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications</guid>
-            <pubDate>Wed, 26 Aug 2026 03:26:19 GMT</pubDate>
+            <title><![CDATA[AI Companions]]></title>
+            <link>https://kerostig.org/call/wiley-ai-companions/</link>
+            <guid>wiley-ai-companions</guid>
+            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
         
-        <p><strong>Ruoqi Geng</strong>, Cardiff University</p>
+        <p><strong>Raffaele Ciriello</strong>, The University of Sydney Business School</p>
         
-        <p><strong>Di Li</strong>, University of Warwick</p>
+        <p><strong>Martin Adam</strong>, University of Goettingen</p>
         
-        <p><strong>Yang Cheng</strong>, Aalborg University</p>
+        <p><strong>Zhongyun Zhou</strong>, Tongji University</p>
         
     
     
     
-    <p>This special issue seeks empirical research on how artificial intelligence augments production technologies and decision-making in real operational contexts. The focus is on system-level evidence demonstrating how point AI solutions integrate with production data environments to form end-to-end decision workflows, addressing the implementation pipeline from business-AI alignment through data readiness to deployment and workflow embedding.</p>
+    <p>AI companions are conversational systems designed to simulate human-like relationships and deployed as emotional support tools, tutors, and therapeutic assistants. Unlike conventional productivity software, their value derives from sustained interaction and personalised continuity, raising questions about trust, dependency, wellbeing, and how relational dynamics emerge through interactions between users, systems, and contexts.</p>
     
-    <p>The call emphasizes empirical validation using real operational evidence such as production logs, IoT sensors, industrial case studies, and field experiments. Purely conceptual, literature-review based, or synthetic-data studies are outside scope. Submissions should demonstrate how AI is operationalized across the production decision pipeline and linked to measurable production outcomes.</p>
+    <p>This special issue invites Information Systems scholarship to examine AI companions through a relational lens extending beyond efficiency metrics. While these systems offer potential benefits such as broadened access to support, they simultaneously raise concerns about surveillance, manipulation, and commodified intimacy, reshaping individual capabilities and organisational practices.</p>
+    
+    <p>The special issue welcomes theoretically ambitious and empirically grounded research across diverse methodologies that carefully theorise the sociotechnical characteristics of relational AI systems. Submissions should address design, governance, and use implications, with particular interest in interdisciplinary and critical perspectives.</p>
     
     <p>
-        Appel publié par Production Planning &amp; Control.
+        Appel publié par Information Systems Journal.
         
-        <a href="https://think.taylorandfrancis.com/special_issues/ai-enabled-production-systems/">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://onlinelibrary.wiley.com/page/journal/13652575/homepage/call-for-papers/si-2026-000664">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/tandf-artificial-intelligence-enabled-production-systems-empirical-evidence-implementation-pipelines-and-industrial-applications/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/wiley-ai-companions/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>AI-Augmented Production Planning and Control</li>
+        <li>Dark sides of AI companions, problematic use patterns, and their potential roles in fostering delusions, harmful ideation, and maladaptive dependencies</li>
         
-        <li>Business–AI Alignment and AI Readiness Pipeline for Production Systems</li>
+        <li>Relational perspectives on digital technologies: extending beyond instrumental and performance-based evaluation</li>
         
-        <li>AI-enabled Quality and Process Control</li>
+        <li>Social presence, parasocial interaction, and relationship formation with AI systems</li>
         
-        <li>Agentic and Workflow-Oriented Deployment in Production</li>
+        <li>Anthropomorphism as a sociotechnical phenomenon: design, effects, and risks</li>
         
-        <li>AI-Enabled Cyber–Physical Production Systems and Digital Twins</li>
+        <li>Design principles for AI systems that promote dignity, autonomy, trust, and human flourishing</li>
         
-        <li>AI and Additive Manufacturing</li>
+        <li>Hyper-personalisation and interaction-level adaptation in AI-mediated relationships</li>
         
-        <li>AI and Blockchain for Production Systems</li>
+        <li>How AI companions affect loneliness, wellbeing, identity formation, and social connection</li>
         
-        <li>Human–AI Interaction and Organisational Transformation</li>
+        <li>Human transformation through AI interaction: cognition, creativity, identity, and capability development</li>
         
-        <li>Empirical Innovations in Data, Measurement, and Evaluation</li>
+        <li>Dependency, attachment, persuasion, and behavioural influence in sustained human–AI interaction</li>
         
-        <li>Extended Production Contexts (Production-Adjacent Physical Operations)</li>
+        <li>Tensions and paradoxes in human–AI relationships</li>
+        
+        <li>AI companions in organisations, including changing work practices, expertise, authority, and control</li>
+        
+        <li>AI companions in healthcare, education, customer service, and public services: opportunities and risks</li>
+        
+        <li>Platform incentives, business models, and governance logics shaping relational AI</li>
+        
+        <li>Alternative governance and ownership models, including cooperative, open-source, and public-interest approaches</li>
+        
+        <li>Governance of emotionally sensitive data, privacy, portability, and consent</li>
+        
+        <li>Power asymmetries between users, providers, employers, and states in relational AI</li>
+        
+        <li>Youth, ageing populations, and other vulnerable stakeholders of relational AI</li>
+        
+        <li>Cross-cultural differences in companionship, intimacy, and acceptable machine roles</li>
+        
+        <li>Dual-use concerns, including manipulation, radicalisation, fraud, coercion, and political influence</li>
+        
+        <li>Regulatory and policy approaches to companion AI and socially consequential AI infrastructures</li>
+        
+        <li>Historical, philosophical, feminist, or critical perspectives on human–AI relations</li>
         
     </ul>
     
@@ -73,17 +97,105 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>Invalid DateTime: Special Issue publication</li>
+        <li>December 31, 2026: Extended abstract submission deadline (optional)</li>
         
-        <li>September 1, 2026: Call for Papers released</li>
+        <li>March 31, 2027: Full paper submission deadline</li>
         
-        <li>June 30, 2027: Manuscript submission deadline</li>
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
         
-        <li>September 1, 2027: First-round decisions</li>
+        <li><strong>Anuragini Shirish</strong>, IMT Business School</li>
         
-        <li>December 1, 2027: Revised manuscripts due</li>
+        <li><strong>Arisa Shollo</strong>, Copenhagen Business School</li>
         
-        <li>June 1, 2028: Final decisions</li>
+        <li><strong>Stan Karanasios</strong>, University of Queensland</li>
+        
+        <li><strong>Sven Laumer</strong>, Friedrich-Alexander University</li>
+        
+        <li><strong>Angsana Techatassanasoontorn</strong>, Auckland University of Technology</li>
+        
+        <li><strong>Christoph Breidbach</strong>, University of Queensland</li>
+        
+        <li><strong>Hameed Chughtai</strong>, Lancaster University</li>
+        
+        <li><strong>Evelyn Ng</strong>, University of Sydney</li>
+        
+        <li><strong>Johan Sæbø</strong>, University of Oslo</li>
+        
+        <li><strong>Brad McKenna</strong>, Norwich Business School</li>
+        
+        <li><strong>Riitta Hekkala</strong>, Aalto University</li>
+        
+        <li><strong>Kai Riemer</strong>, University of Sydney</li>
+        
+        <li><strong>Dimitra Petrakaki</strong>, University of Sussex</li>
+        
+        <li><strong>Avijit Sengupta</strong>, University of Queensland</li>
+        
+    </ul>
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Generative Workplace: The Lived Experience of Generative AI at Work]]></title>
+            <link>https://kerostig.org/call/wiley-the-generative-workplace-the-lived-experience-of-generative-ai-at-work/</link>
+            <guid>wiley-the-generative-workplace-the-lived-experience-of-generative-ai-at-work</guid>
+            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Louis Tay</strong>, Purdue University</p>
+        
+        <p><strong>Sarah Bankins</strong>, Macquarie University</p>
+        
+        <p><strong>Markus Langer</strong>, University of Freiburg</p>
+        
+    
+    
+    
+    <p>This special issue examines how generative AI is reshaping the subjective experience of work across individuals, teams, and organizations. Rather than focusing on technical capabilities, it centers on what it feels like to work with AI systems like ChatGPT and Claude—how these tools influence engagement, relationships, identity, and organizational norms as adoption rapidly increases among knowledge workers worldwide.</p>
+    
+    <p>The issue seeks empirically rigorous, theory-grounded research that closely observes generative AI in actual workplace settings. Priority is given to field research within organizations, implementation studies tracking deployment experiences, longitudinal designs, and rigorous qualitative research. Vignette studies, cross-sectional surveys of convenience samples, and conceptual papers without data are out of scope.</p>
+    
+    <p>Submissions should articulate theoretical mechanisms for how generative AI changes work experiences, provide evidence credible for practitioners, and explicitly discuss practical impact for employees, managers, HR leaders, and policymakers.</p>
+    
+    <p>
+        Appel publié par Personnel Psychology.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/17446570/call-for-papers/generative-workplace">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-the-generative-workplace-the-lived-experience-of-generative-ai-at-work/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Experience of work: Cognitive offloading and changes in effort, flow, and engagement; experiences of autonomy, competence, and ownership over AI-generated or AI-assisted output; changes to the meaning of work; skill development versus skill atrophy; work intensification versus work-life balance; changing nature of expertise; calibration of trust and over- or under-reliance; professional identity as roles shift</li>
+        
+        <li>Workplace relationships: Generative AI as a team member and its impact on social and working dynamics; emerging disclosure norms; trust, attribution, and competence judgments when AI is involved; migration of help-seeking and sensemaking from colleagues to AI tools; effects on collaboration, collegiality, reciprocity, informal mentorship, and organizational cohesion</li>
+        
+        <li>Training and development: Use and experience of AI as a trainer, coach, and mentor; development and declines in knowledge, skills, and abilities with AI use; lasting effects of AI-based training; comparisons of human trainers versus AI trainers; design of AI-based training and transfer to job performance</li>
+        
+        <li>Leadership: Leaders&#39; use of generative AI for communication and the authenticity dilemma of machine-mediated empathy, vision, and feedback; leader decision processes with AI input; generative AI systems operating autonomously or in hybrid arrangements; what it feels like to be managed by generative AI</li>
+        
+        <li>Organizational culture: Emergent norms of acceptable generative AI use; psychological safety around disclosing versus concealing use; experience of monitoring and surveillance of workers&#39; AI use or non-use; equity and felt divide between users and non-users; implications for inclusive workplaces</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>August 1, 2027: Submission window opens</li>
+        
+        <li>August 27, 2027: Submission deadline</li>
+        
+        <li>August 31, 2027: Submission window closes</li>
         
     </ul>
     

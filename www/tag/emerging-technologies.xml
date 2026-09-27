@@ -4,7 +4,7 @@
         <title>kerostig | Tag : emerging technologies</title>
         <link>https://kerostig.org/tag/emerging-technologies/</link>
         <description>Derniers appels à publications avec le tag 'emerging technologies'.</description>
-        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,77 @@
             <link>https://kerostig.org/tag/emerging-technologies/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Managing Operational Tensions in Scaling Emerging Technologies]]></title>
+            <link>https://kerostig.org/call/emerald-managing-operational-tensions-in-scaling-emerging-technologies/</link>
+            <guid>emerald-managing-operational-tensions-in-scaling-emerging-technologies</guid>
+            <pubDate>Sat, 26 Sep 2026 22:23:50 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Minhao Zhang</strong>, University of Bristol</p>
+        
+        <p><strong>Yuanzhu Zhan</strong>, University of Birmingham</p>
+        
+        <p><strong>Iana Jackson</strong>, University of Arkansas</p>
+        
+        <p><strong>Zhijun Yan</strong>, Beijing Institute of Technology</p>
+        
+    
+    
+    
+    <p>Emerging technologies promise operational improvements, but their scaling often generates complex trade-offs that become more acute across organisational boundaries and levels. The special issue addresses operational tensions—persistent conflicts between competing demands such as centralisation versus decentralisation, efficiency versus flexibility, and autonomy versus control—that emerge when technologies reconfigure processes, resource allocation and governance. These tensions extend beyond individual implementations to affect supply networks, infrastructure systems and institutional contexts, with implications for resilience, governance and sustainability.</p>
+    
+    <p>The call invites research examining how organisations navigate these tensions at three levels: within organisations, across supply networks and platforms, and at system-wide scales involving regulation, cybersecurity and resource constraints. Particular interest lies in contexts facing disruption or resource scarcity, such as healthcare and humanitarian operations, where technology adoption may enhance visibility and coordination yet intensify tensions around resource allocation and inter-organisational accountability.</p>
+    
+    <p>
+        Appel publié par International Journal of Operations &amp; Production Management.
+        
+        <a href="https://www.emerald.com/ijopm/calls-for-submissions/1977/Managing-Operational-Tensions-in-Scaling-Emerging?searchresult=1">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-managing-operational-tensions-in-scaling-emerging-technologies/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>How do emerging technologies reconfigure operational processes, routines and decision rights during adoption and scaling?</li>
+        
+        <li>What operational capabilities, performance measurement systems and managerial practices enable organisations to balance experimentation, learning and operational reliability?</li>
+        
+        <li>How do organisations manage operational tensions arising from the simultaneous scaling of emerging technologies and the maintenance, integration or phase-out of legacy technologies?</li>
+        
+        <li>How does the scaling of emerging technologies across supply networks reshape coordination, collaboration, trust, power and dependency relationships?</li>
+        
+        <li>How do organisations manage tensions between transparency and confidentiality, decentralisation and strategic control, or local optimisation and network-wide performance?</li>
+        
+        <li>How do AI-enabled ecosystems, intelligent intermediaries and algorithmic brokers transform supply network structures, relational dynamics and orchestration practices?</li>
+        
+        <li>How do differences in digital maturity, resources and strategic priorities among supply chain partners affect technology scaling, governance and risks of digital exclusion or inequality?</li>
+        
+        <li>How do emerging technologies create tensions between operational performance improvement and system-level constraints such as resilience, cybersecurity, regulation, infrastructure capacity, energy consumption and sustainability?</li>
+        
+        <li>How do technology-enabled operations redistribute risks, costs and operational burdens across firms, supply networks, workers, suppliers, customers and operational locations?</li>
+        
+        <li>How are technologies scaled under disruptive, resource-constrained or recovery-oriented operating conditions, and how do organisations manage tensions between speed and control, improvisation and standardisation, risk-taking and accountability, or local responsiveness and system-wide coordination?</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 8, 2027: Opening date for manuscripts submissions</li>
+        
+        <li>April 8, 2027: Closing date for manuscripts submission</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Governing Emerging Ocean Technologies for Climate Action: Marine Policy and International Regulation in the Age of AI and Spatial Computing]]></title>
             <link>https://kerostig.org/call/elsevier-governing-emerging-ocean-technologies-for-climate-action-marine-policy-and-international-regulation-in-the-age-of-ai-and-spatial-computing/</link>

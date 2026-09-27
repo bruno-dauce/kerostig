@@ -4,7 +4,7 @@
         <title>kerostig | Expert Systems</title>
         <link>https://kerostig.org/journal/expert-systems/</link>
         <description>Derniers appels à publications pour Expert Systems.</description>
-        <lastBuildDate>Mon, 21 Sep 2026 08:29:19 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,9 +22,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Malek Masmoudi</strong>, University of Sharjah</p>
+        
+        <p><strong>Patrick Siarry</strong>, Université Paris-Est Créteil</p>
+        
+        <p><strong>Omar Tujjar</strong>, International Society of Medical AI (ISMAI)</p>
+        
     
     
-    <p>This special issue focuses on the applications and implications of large language models and agentic artificial intelligence systems in healthcare contexts.</p>
+    
+    <p>This special issue focuses on the integration of large language models and agentic AI systems in healthcare. The issue invites research on how these autonomous, reasoning-capable technologies can transform clinical practice, hospital operations, and healthcare management while promoting patient-centered care and sustainability.</p>
+    
+    <p>Healthcare organizations increasingly deploy AI agents that combine perception of diverse clinical data with capabilities like planning, tool use, and collaboration to support clinicians, patients, researchers, and administrators. As adoption grows, rigorous evaluation and trustworthiness become critical to ensure these systems remain safe, auditable, and aligned with clinical standards.</p>
+    
+    <p>The special issue welcomes original research articles, position papers, and validated case studies on both technical topics such as architectures and algorithms, and socio-technical topics including ethics, policy, and human factors across all stages of agentic AI deployment in healthcare.</p>
     
     <p>
         Appel publié par Expert Systems.
@@ -34,11 +46,36 @@
         <a href="https://kerostig.org/call/wiley-llms-and-agentic-ai-in-healthcare/">Fiche de l'appel sur kerostig</a>.
     </p>
     
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Foundations, Architectures, and Frameworks for Agentic AI in Healthcare</li>
+        
+        <li>LLM-Based Clinical Decision Support and Diagnostic Reasoning</li>
+        
+        <li>Multi-Agent Systems and Collaborative Healthcare Intelligence</li>
+        
+        <li>Multimodal Perception in Healthcare Agents</li>
+        
+        <li>Patient-Centered Agents and Digital Health Engagement</li>
+        
+        <li>Robotic and Computer-Assisted Surgery with Agentic AI</li>
+        
+        <li>Healthcare Operations, Administration, and Workflow Automation</li>
+        
+        <li>Drug Discovery, Biomedical Research, and Clinical Trials</li>
+        
+        <li>Evaluation, Safety, Trust, and Explainability of Healthcare Agents</li>
+        
+        <li>Ethics, Regulation, Governance, and Sustainable AI Deployment</li>
+        
+    </ul>
+    
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>January 31, 2027: Deadline for Submissions</li>
+        <li>January 31, 2027: Submission deadline</li>
         
     </ul>
     

@@ -4,7 +4,7 @@
         <title>kerostig | Tag : market design</title>
         <link>https://kerostig.org/tag/market-design/</link>
         <description>Derniers appels à publications avec le tag 'market design'.</description>
-        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,7 +22,17 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Agostino Capponi</strong>, Columbia University</p>
+        
+        <p><strong>Ioannis Kyriakou</strong>, Bayes Business School, City St George&#39;s, University of London</p>
+        
     
+    
+    
+    <p>This special section seeks rigorous research examining how decentralized finance has evolved from a blockchain experiment into a significant global financial infrastructure that operates without centralized intermediaries. The collection aims to consolidate leading work on the market design, economics, and policy consequences of DeFi systems that span trading, lending, payments, and derivatives across multiple jurisdictions and blockchain ecosystems.</p>
+    
+    <p>The special section welcomes theoretical, empirical, and policy-oriented studies from scholars in financial economics, econometrics, network theory, and digital-asset markets. Research should address questions of efficiency, governance, and stability in decentralized markets, as well as the broader macroeconomic implications of DeFi for capital allocation, risk transmission, and monetary dynamics worldwide. International perspectives are particularly encouraged, including comparative studies and collaborative work examining cross-border and cross-chain phenomena.</p>
     
     <p>
         Appel publié par International Journal of Finance &amp; Economics.
@@ -31,6 +41,41 @@
         
         <a href="https://kerostig.org/call/wiley-decentralized-finance-and-the-global-financial-architecture-market-design-regulation-and-economic-implications/">Fiche de l'appel sur kerostig</a>.
     </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Market design and efficiency of decentralized exchanges (DEXs) and automated market makers</li>
+        
+        <li>Maximal extractable value (MEV), fairness, and competition among builders, searchers, and validators</li>
+        
+        <li>Liquidity, volatility transmission, and price discovery between centralized and decentralized venues</li>
+        
+        <li>Composability, scalability, and interoperability of DeFi protocols across blockchain ecosystems</li>
+        
+        <li>Tokenomics, valuation, and incentives in protocol-level and governance tokens</li>
+        
+        <li>Systemic risk, contagion, and network interdependencies in DeFi ecosystems</li>
+        
+        <li>Stablecoins and CBDCs and their interaction with DeFi platforms</li>
+        
+        <li>Sustainability and energy efficiency in decentralized consensus mechanisms</li>
+        
+        <li>Voting Mechanisms for Decentralized Autonomous Organizations (DAOs)</li>
+        
+        <li>Macroeconomic and monetary spillovers of DeFi, including effects on capital flows, inflation, and financial transmission</li>
+        
+        <li>Market innovations in DeFi, such as perpetual futures, concentrated liquidity, and interactions between L1 and L2 chains</li>
+        
+        <li>Agentic AI and their applications to DeFi trading and blockchain</li>
+        
+        <li>Comparative analyses using international transaction or cross-chain data</li>
+        
+        <li>Studies exploring regional heterogeneity in DeFi adoption, regulation, or innovation</li>
+        
+        <li>Policy papers highlighting international coordination challenges among regulators and standard-setting bodies</li>
+        
+    </ul>
     
     
     <h2>Timeline</h2>

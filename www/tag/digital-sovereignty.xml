@@ -4,7 +4,7 @@
         <title>kerostig | Tag : digital sovereignty</title>
         <link>https://kerostig.org/tag/digital-sovereignty/</link>
         <description>Derniers appels à publications avec le tag 'digital sovereignty'.</description>
-        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,7 +22,27 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Petter Nielsen</strong>, University of Oslo</p>
+        
+        <p><strong>Laura Brandimarte</strong>, University of Arizona</p>
+        
+        <p><strong>Ben Eaton</strong>, Copenhagen Business School</p>
+        
+        <p><strong>Juliana Sutanto</strong>, Monash University</p>
+        
+        <p><strong>Mary Tate</strong>, Victoria University of Wellington</p>
+        
+        <p><strong>Daniel Veit</strong>, University of Augsburg</p>
+        
     
+    
+    
+    <p>This special issue addresses digital sovereignty—the capacity of actors at individual, community, organizational, or national levels to make informed choices about sourcing, designing, and governing digital systems while avoiding dependency risks. The field encompasses concerns about data governance, platform reliance, interoperability, and AI transparency, reflecting growing political momentum globally from regions like the EU, Denmark, and China.</p>
+    
+    <p>While digital sovereignty has attracted attention across policy, philosophy, and law, information systems research remains underdeveloped despite offering valuable socio-technical perspectives. This call seeks empirically grounded and theoretically ambitious research that explains digital sovereignty as a socio-technical accomplishment, including its tensions and trade-offs, alongside conceptual and review papers.</p>
+    
+    <p>The special issue welcomes both qualitative and quantitative contributions that foreground digital technologies in context, drawing from relevant information systems research on infrastructures, digital innovation, platform governance, open-source solutions, and human-AI relationships.</p>
     
     <p>
         Appel publié par Information Systems Journal.
@@ -32,14 +52,128 @@
         <a href="https://kerostig.org/call/wiley-digital-sovereignty/">Fiche de l'appel sur kerostig</a>.
     </p>
     
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Conceptual and theoretical foundations of digital sovereignty in information systems and its unique properties compared to other conceptualizations of sovereignty</li>
+        
+        <li>Critical investigations of the sovereignty paradox – the sacrifice of sovereignty for the utility and efficiency of big-tech, related to path dependencies, shadow sovereignty and exit strategies</li>
+        
+        <li>The exercise of power by dominant players and its impact</li>
+        
+        <li>The specific sovereignty challenges of digital infrastructure, platforms, AI and other emerging technologies such as quantum computing</li>
+        
+        <li>Sovereignty-by-design: interoperability, standards, modularity, API governance, devolved, horizontal and open architectures</li>
+        
+        <li>Open-source, digital public goods, and open data commons as strategies for autonomy, resilience, and public value</li>
+        
+        <li>AI for managing sovereign digital infrastructures</li>
+        
+        <li>Global, regional and local governance, regulation and policy regarding data, platforms and infrastructures, and governance models</li>
+        
+        <li>Public sector digital sovereignty, including procurement, vendor lock-in, interoperability and capability building</li>
+        
+        <li>Surveillance, digital identity, biometrics, and the sovereignty implications for rights and democratic accountability</li>
+        
+        <li>Digital sovereignty in development and &quot;post-aid&quot; contexts: shifting dependencies, infrastructures at scale, and long-term sustainability</li>
+        
+        <li>Indigenous and minority groups disadvantaged by colonisation value sovereignty, especially over their data, including protection from misuse, responsible stewardship, and maintaining integrity</li>
+        
+        <li>Managing capability, skills, and technology gaps and deficits</li>
+        
+        <li>Managing choke points in critical technical layers</li>
+        
+        <li>Managing national policy alignment</li>
+        
+    </ul>
+    
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>March 31, 2027: Deadline for Submissions</li>
+        <li>March 31, 2027: Submission Deadline</li>
         
     </ul>
     
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Tawfiq Alashoor</strong>, University of Navarra</li>
+        
+        <li><strong>Armin Alizadeh</strong>, Technical University of Darmstadt</li>
+        
+        <li><strong>Pierre-Emmanuel Arduin</strong>, Université Paris Dauphine-PSL</li>
+        
+        <li><strong>Irwin Brown</strong>, University of Cape Town</li>
+        
+        <li><strong>Jen Dailo Chandler</strong>, California State University</li>
+        
+        <li><strong>Wonhyuk Cho</strong>, Ewha Womans University</li>
+        
+        <li><strong>Jacqueline Corbett</strong>, Université Laval</li>
+        
+        <li><strong>Tingru Cui</strong>, University of Melbourne</li>
+        
+        <li><strong>Torgeir Dingsøyr</strong>, Norwegian University of Science and Technology</li>
+        
+        <li><strong>Andreas Drechsler</strong>, Victoria University of Wellington</li>
+        
+        <li><strong>Daniel Gozman</strong>, University of Sydney</li>
+        
+        <li><strong>Agam Gupta</strong>, IIT Delhi</li>
+        
+        <li><strong>Riitta Hekkala</strong>, Aalto University</li>
+        
+        <li><strong>Federico Iannacci</strong>, University of Sussex</li>
+        
+        <li><strong>Alexander Kempton</strong>, University of Oslo</li>
+        
+        <li><strong>John Krogstie</strong>, Norwegian University of Science and Technology</li>
+        
+        <li><strong>Shi-Ying Lim</strong>, National University of Singapore</li>
+        
+        <li><strong>Shirin Madon</strong>, LSE</li>
+        
+        <li><strong>Johan Magnusson</strong>, University of Gothenburg</li>
+        
+        <li><strong>Antonio Martini</strong>, University of Oslo</li>
+        
+        <li><strong>Silvia Masiero</strong>, University of Oslo</li>
+        
+        <li><strong>Eric Monteiro</strong>, Norwegian University of Science and Technology</li>
+        
+        <li><strong>Priyanka Pandey</strong>, King&#39;s College</li>
+        
+        <li><strong>Roser Pujadas</strong>, University College London</li>
+        
+        <li><strong>Alexander Rieger</strong>, University of Arkansas</li>
+        
+        <li><strong>Tamara Roth</strong>, University of Arkansas</li>
+        
+        <li><strong>Hanlie Smuts</strong>, University of Pretoria</li>
+        
+        <li><strong>Timo Sturm</strong>, Technical University of Darmstadt</li>
+        
+        <li><strong>Ruonan Sun</strong>, Monash University</li>
+        
+        <li><strong>Johan Ivar Sæbø</strong>, University of Oslo</li>
+        
+        <li><strong>Benjamin van Giffen</strong>, University of Lichtenstein</li>
+        
+        <li><strong>Marjolein van Offenbeek</strong>, University of Groningen</li>
+        
+        <li><strong>Will Venters</strong>, LSE</li>
+        
+        <li><strong>Pauline Weritz</strong>, University of Twente</li>
+        
+        <li><strong>Amber Young</strong>, University of Oklahoma</li>
+        
+        <li><strong>Xiaojie Zhang</strong>, Ocean University of China</li>
+        
+        <li><strong>Markus P. Zimmer</strong>, University of Agder</li>
+        
+    </ul>
     
 </div>
 ]]></content:encoded>

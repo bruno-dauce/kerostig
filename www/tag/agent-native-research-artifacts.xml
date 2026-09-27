@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : agent-native research artifacts</title>
+        <link>https://kerostig.org/tag/agent-native-research-artifacts/</link>
+        <description>Derniers appels à publications avec le tag 'agent-native research artifacts'.</description>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:09 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : agent-native research artifacts</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/agent-native-research-artifacts/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Decisions in the Agentic Era: Toward Agent-Native Decision Science]]></title>
+            <link>https://kerostig.org/call/wiley-decisions-in-the-agentic-era-toward-agent-native-decision-science/</link>
+            <guid>wiley-decisions-in-the-agentic-era-toward-agent-native-decision-science</guid>
+            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Yingjie Zhang</strong>, Peking University</p>
+        
+        <p><strong>Shunyuan Zhang</strong>, Harvard University</p>
+        
+        <p><strong>Tianshu Sun</strong>, Cheung Kong Graduate School of Business</p>
+        
+        <p><strong>Liangfei Qiu</strong>, University of Florida</p>
+        
+        <p><strong>Nagesh Murthy</strong>, University of Oregon</p>
+        
+    
+    
+    
+    <p>This special issue addresses how autonomous AI systems are fundamentally changing decision-making across organizations, markets, and society. It recognizes that AI has shifted from systems that respond to instructions to agents that initiate workflows, use tools, and operate with meaningful autonomy. The issue aims to advance rigorous understanding of how agentic AI reshapes decisions while developing research practices accessible to AI agents themselves.</p>
+    
+    <p>Two tracks serve different purposes. Track A (preferred) focuses on original decision science research on agentic AI behavior and human-agent collaboration, requiring submissions to include agent-native research artifacts that allow future agents to reconstruct and extend studies. Track B addresses broader consequences of agentic AI for organizations, markets, labor, and society without such artifact requirements. Both tracks welcome rigorous empirical and analytical research grounded in decision science.</p>
+    
+    <p>
+        Appel publié par Decision Sciences.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/15405915/homepage/call-for-papers/agentic-era-decisions">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-decisions-in-the-agentic-era-toward-agent-native-decision-science/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Agent reasoning, planning, and decision strategies in task environments</li>
+        
+        <li>Multi-agent coordination, competition, and emergent collective behavior</li>
+        
+        <li>Agent capabilities, limitations, and failure modes in decision-relevant contexts</li>
+        
+        <li>Agent identity, role-taking, and consistency under manipulation</li>
+        
+        <li>Trust, deception, and norm violation in agent systems</li>
+        
+        <li>Agent learning and behavioral change over repeated interactions</li>
+        
+        <li>Human reliance, override, and complementarity in agentic decision systems</li>
+        
+        <li>Oversight, accountability, and governance design in human-agent systems</li>
+        
+        <li>Human capacity in human-agent systems and AI Quotient (AQ)</li>
+        
+        <li>Interface and system design conditions that shape human-agent collaboration outcomes</li>
+        
+        <li>Societal consequences of agentic AI, including inequality, power, and human autonomy</li>
+        
+        <li>Organizational transformation involving strategy, structure, and governance</li>
+        
+        <li>Labor market change and workforce displacement</li>
+        
+        <li>Market and competitive dynamics when agents act for firms or consumers</li>
+        
+        <li>Accountability, transparency, and fairness in agentic decision pipelines</li>
+        
+        <li>Regulation and governance of autonomous AI systems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>August 1, 2026: CFP Launch &amp; Editorial Piece Published</li>
+        
+        <li>August 1, 2026: Submissions open (both tracks)</li>
+        
+        <li>January 15, 2027: Fast Track Submission Deadline (Track A only)</li>
+        
+        <li>March 15, 2027: Submission Deadline (Track B)</li>
+        
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Dominik Gutt</strong>, RWTH Aachen University</li>
+        
+        <li><strong>Miguel Godinho de Matos</strong>, Católica-Lisbon</li>
+        
+        <li><strong>Yicheng Song</strong>, University of Minnesota</li>
+        
+        <li><strong>Yifan Yu</strong>, Hong Kong University</li>
+        
+        <li><strong>Hyeokkoo Eric Kwon</strong>, Nanyang Technological University</li>
+        
+        <li><strong>Yang Gao</strong>, University of Illinois at Urbana-Champaign</li>
+        
+        <li><strong>Zhe Yuan</strong>, Zhejiang University</li>
+        
+        <li><strong>Brian Han</strong>, University of Illinois at Urbana-Champaign</li>
+        
+        <li><strong>Yan Leng</strong>, University of Texas at Austin</li>
+        
+        <li><strong>Wen Wang</strong>, University of Maryland</li>
+        
+        <li><strong>Liu Ming</strong>, The Chinese University of Hong Kong, Shenzhen</li>
+        
+        <li><strong>Zhenyu Zheng</strong>, Zhejiang University</li>
+        
+        <li><strong>Xilin Li</strong>, Cheung Kong Graduate School of Business</li>
+        
+    </ul>
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

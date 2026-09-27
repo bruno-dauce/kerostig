@@ -4,7 +4,7 @@
         <title>kerostig | R and D Management</title>
         <link>https://kerostig.org/journal/r-and-d-management/</link>
         <description>Derniers appels à publications pour R and D Management.</description>
-        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,9 +22,25 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Andrea Piccaluga</strong>, Sant&#39;Anna School of Advanced Studies</p>
+        
+        <p><strong>Rosa Grimaldi</strong>, University of Bologna</p>
+        
+        <p><strong>Tim Minshall</strong>, University of Cambridge</p>
+        
+        <p><strong>Zhou Yuan</strong>, Tsinghua University</p>
+        
+        <p><strong>Giovanni Tolin</strong>, Sant&#39;Anna School of Advanced Studies</p>
+        
     
     
-    <p>This special issue aims to reverse the trend of declining case study research, rediscovering and reaffirming the value of case studies on the organization and management of R&amp;D to capture the nuances of this specific function in organizational settings and to provide actionable insights for researchers, practitioners, and policymakers. By bringing practical perspectives back to the forefront with a focus on single and multiple case studies, the special issue aims to reconnect theoretical developments with the direct experiences of companies managing innovation on the ground.</p>
+    
+    <p>Company case studies were once central to R&amp;D management research but have become increasingly marginal. This special issue seeks to restore their importance by publishing rigorous, in-depth case studies that capture how organizations manage their R&amp;D functions and provide insights for researchers, practitioners, and policymakers.</p>
+    
+    <p>The decline stems from publication pressures favoring quantitative work, diminished academic engagement with practitioners, and companies&#39; limited willingness to participate in research. Yet case studies remain essential for understanding the complex, context-specific mechanisms shaping R&amp;D processes that quantitative metrics alone cannot capture.</p>
+    
+    <p>Submissions should present single or multiple company case studies grounded in rigorous qualitative methodology. Co-authored contributions from academics and practitioners are encouraged. Case studies should demonstrate depth of primary source access, advance existing theory or identify new research directions, and address topics including R&amp;D strategy, organization, product development, and collaborations.</p>
     
     <p>
         Appel publié par R and D Management.
@@ -37,15 +53,21 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Case studies on the organization and management of R&amp;D</li>
+        <li>R&amp;D strategy and organization</li>
         
-        <li>Single and multiple case studies of R&amp;D management</li>
+        <li>Product and process development and innovation</li>
         
-        <li>Practical perspectives on managing innovation in organizational settings</li>
+        <li>Creativity in R&amp;D</li>
         
-        <li>Reconnecting theory with company experiences in R&amp;D management</li>
+        <li>R&amp;D collaborations and partnerships</li>
         
-        <li>Nuances of R&amp;D function in organizational contexts</li>
+        <li>R&amp;D activities in SMEs</li>
+        
+        <li>Intra-organizational and inter-organizational R&amp;D processes</li>
+        
+        <li>How companies organize and manage R&amp;D, technology, and innovation activities</li>
+        
+        <li>Single and multiple company case studies that advance theory in R&amp;D management</li>
         
     </ul>
     
@@ -53,9 +75,11 @@
     <h2>Timeline</h2>
     <ul>
         
+        <li>June 22, 2026: R&amp;D Management Conference track at University of Manchester for early feedback on paper ideas</li>
+        
         <li>November 1, 2026: Submission window opens</li>
         
-        <li>December 31, 2026: Submission window closes</li>
+        <li>December 31, 2026: Full manuscript submission deadline</li>
         
     </ul>
     
@@ -71,13 +95,19 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Aybars Tuncdogan</strong>, King&#39;s College London</p>
+        
+        <p><strong>Henk W. Volberda</strong>, University of Amsterdam</p>
+        
+        <p><strong>Ioana Stefan</strong>, Mälardalen University</p>
+        
     
     
-    <p>R&amp;D Management has a rich publication history in research on appropriability, intellectual capital and capturing value from innovation. This special issue seeks to update and extend that tradition by explicitly bringing together two adjacent but typically separated conversations.</p>
     
-    <p>The first conversation conceptualizes protection of innovation in relation to appropriability mechanisms such as patents, trade secrecy, licensing, contracting, complementary assets, and ecosystem governance to investigate value capture potential.</p>
+    <p>While innovation creation has received substantial research attention, value capture from innovations remains critically important yet increasingly complex. Digital technologies, AI, data-driven business models, and globally distributed R&amp;D networks have expanded innovation reach but also created new vulnerabilities through rapid copying, disruption, and security threats. Organizations must now navigate both traditional appropriability challenges in collaborative and open innovation contexts, and emerging information security risks that threaten R&amp;D artifacts and intellectual assets.</p>
     
-    <p>The second conversation - so far mainly happening in information systems and engineering journals - conceptualizes protection of innovation as information security, such as the protection of R&amp;D artifacts, risks of leakage and theft, industrial espionage, and applications of organizational secrecy for R&amp;D purposes.</p>
+    <p>This special issue brings together two typically separate research conversations: innovation appropriability mechanisms (patents, trade secrecy, licensing, complementary assets, ecosystem governance) and information security protection (technical defenses, organizational safeguards, insider threat management). The issue seeks to understand how firms organize to balance value creation with value capture while managing information security risks in an increasingly digital, data-driven, and open innovation landscape.</p>
     
     <p>
         Appel publié par R and D Management.
@@ -90,21 +120,37 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Appropriability mechanisms such as patents, trade secrecy, licensing, contracting, complementary assets, and ecosystem governance</li>
+        <li>Appropriability mechanisms for digital innovation, including appropriability regimes in platforms, ecosystems, and data-driven markets</li>
         
-        <li>Value capture potential from innovation</li>
+        <li>Hybrid protection strategies combining secrecy, security, and openness</li>
         
-        <li>Protection of R&amp;D artifacts</li>
+        <li>New forms of protection for new forms of competitive advantage (static vs dynamic)</li>
         
-        <li>Risks of leakage and theft in innovation</li>
+        <li>Profiting from innovation under platform dominance</li>
         
-        <li>Industrial espionage</li>
+        <li>Governance of data, IP, and secrecy in university-industry collaborations and open science initiatives</li>
         
-        <li>Organizational secrecy for R&amp;D purposes</li>
+        <li>Governance and lifecycle strategies for protecting data, algorithms, AI models, etc.</li>
         
-        <li>Information security in innovation management</li>
+        <li>Risks of imitation, leakage, and exfiltration in digital/AI-driven innovation</li>
         
-        <li>Intellectual capital and capturing value from innovation</li>
+        <li>Strategies and mechanisms to protect data, algorithms, and AI models</li>
+        
+        <li>Protection strategies for innovations that move faster than the ability to protect them</li>
+        
+        <li>Value capture in Industry 4.0 and smart manufacturing innovations</li>
+        
+        <li>Organizational designs and routines for secure collaboration</li>
+        
+        <li>Institutional and regulatory conditions shaping innovation security and value capture</li>
+        
+        <li>Closing and opening innovation in the digital era</li>
+        
+        <li>Insider threats to R&amp;D knowledge</li>
+        
+        <li>Security-by-design and privacy-by-design principles in R&amp;D and innovation processes</li>
+        
+        <li>Effective zero-trust policies in R&amp;D departments and innovation processes</li>
         
     </ul>
     
@@ -112,9 +158,11 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>February 1, 2027: Submissions open</li>
+        <li>Invalid DateTime: Paper development workshop</li>
         
-        <li>April 30, 2027: Submission deadline</li>
+        <li>February 1, 2027: Submission window opens</li>
+        
+        <li>April 30, 2027: Full manuscript submission deadline</li>
         
     </ul>
     
@@ -130,9 +178,25 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Alberto Di Minin</strong>, Scuola Superiore Sant&#39;Anna</p>
+        
+        <p><strong>Federico Frattini</strong>, Politecnico di Milano</p>
+        
+        <p><strong>Agnieszka Radziwon</strong>, University of Southern Denmark</p>
+        
+        <p><strong>Krithika Randhawa</strong>, University of Sydney</p>
+        
+        <p><strong>Joel West</strong>, Keck Graduate Institute</p>
+        
     
     
-    <p>This Special Issue is part of a coordinated set of activities, including a Festschrift Conference in Rome (April 20-21, 2026) and complementary Special Issues in R&amp;D Management, Industrial and Corporate Change (ICC) and California Management Review (CMR), to celebrate Professor Henry Chesbrough&#39;s seminal contributions to the field of Open Innovation (OI).</p>
+    
+    <p>This special issue examines the practical implementation and management of open innovation within R&amp;D functions. Building on Henry Chesbrough&#39;s work transforming innovation from closed internal processes to those embracing external knowledge flows, the issue addresses how organizations strategize, organize, manage talent, and evaluate outcomes when adopting open innovation in R&amp;D.</p>
+    
+    <p>The call seeks contributions examining three interconnected dimensions: Processes (strategic tools, governance, and partnership models), People (boundary-spanning skills, team management, leadership, and incentive structures), and Performance (metrics for assessing value at project and ecosystem levels). Research should provide insights into daily challenges R&amp;D managers face when implementing open innovation amid digital and geopolitical shifts.</p>
+    
+    <p>The journal welcomes submissions bridging theory and practice, including co-authored work by academics and practitioners, with priority given to actionable insights grounded in real-world experiences.</p>
     
     <p>
         Appel publié par R and D Management.
@@ -145,15 +209,57 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Open Innovation</li>
+        <li>How do companies build innovation strategies that leverage on OI?</li>
         
-        <li>R&amp;D Management</li>
+        <li>How are budgets for OI projects established and allocated?</li>
         
-        <li>People in R&amp;D</li>
+        <li>How do businesses roadmap the development of key technologies by making use of Open Innovation?</li>
         
-        <li>Processes in R&amp;D</li>
+        <li>How are new strategies for OI (such as venture clienting and venture building) evaluated and implemented?</li>
         
-        <li>Performance of R&amp;D</li>
+        <li>What factors influence the successful implementation of new strategies for OI (such as venture clienting and venture building)?</li>
+        
+        <li>What specific search strategies and scouting processes are most effective for identifying valuable external knowledge/technology for R&amp;D?</li>
+        
+        <li>How are R&amp;D processes (e.g., stage-gate, agile) adapted to effectively integrate external inputs and manage outbound knowledge flows?</li>
+        
+        <li>What digital tools and platforms are used to manage OI processes in R&amp;D, and what is their impact?</li>
+        
+        <li>How do firms manage the transition from closed to open R&amp;D processes?</li>
+        
+        <li>What are the best practices for managing intellectual property (IP) in collaborative R&amp;D projects under an OI paradigm?</li>
+        
+        <li>How do firms effectively evaluate and select external partners for R&amp;D collaboration?</li>
+        
+        <li>How does firm size (SME vs. large enterprise) influence organizational design choices for managing OI in R&amp;D?</li>
+        
+        <li>How do firms overcome internal resistance (e.g., &#39;Not-Invented-Here&#39; syndrome) when implementing OI in R&amp;D?</li>
+        
+        <li>What is the role of middle managers in facilitating or hindering OI adoption within R&amp;D departments?</li>
+        
+        <li>What specific skills, capabilities, and mindsets are required for R&amp;D personnel (researchers, managers) operating in an OI environment?</li>
+        
+        <li>How can organizations cultivate an &#39;open&#39; culture within R&amp;D, that encourages both internal sharing and external engagement?</li>
+        
+        <li>Which leadership styles are most effective in managing OI initiatives within R&amp;D teams?</li>
+        
+        <li>How are performance management and incentive systems adapted to motivate R&amp;D employees&#39; participation in OI activities?</li>
+        
+        <li>What is the role of individual absorptive capacity and boundary-spanning activities of R&amp;D personnel in OI success?</li>
+        
+        <li>Which capabilities companies need to develop to successfully work with different types of service providers?</li>
+        
+        <li>How can AI enable and support OI projects in R&amp;D and innovation functions?</li>
+        
+        <li>What ethical considerations arise in the operational management of OI within R&amp;D (e.g., knowledge appropriation, fairness to external contributors)?</li>
+        
+        <li>What metrics do R&amp;D departments use to track the inputs, throughputs, and outputs of their OI activities?</li>
+        
+        <li>How can the contribution of OI to R&amp;D project success and overall R&amp;D performance be effectively measured and demonstrated?</li>
+        
+        <li>What are the key challenges in measuring the ROI of specific OI tactics within R&amp;D?</li>
+        
+        <li>What are the good practices for selecting the right service provider, based on different R&amp;D and innovation needs?</li>
         
     </ul>
     
@@ -161,7 +267,15 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>September 15, 2026: Deadline for Submissions</li>
+        <li>January 2, 2026: Conference submission system opens</li>
+        
+        <li>February 1, 2026: Deadline for electronic submission of papers to the conference</li>
+        
+        <li>March 1, 2026: Notification of authors regarding acceptance to the conference</li>
+        
+        <li>April 20, 2026: Special Issue Conference held at Luiss University</li>
+        
+        <li>September 15, 2026: Time window to submit full paper through the R&amp;D Management Journal Website (submission window September 1 - September 15, 2026)</li>
         
     </ul>
     
@@ -177,7 +291,23 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Alberto Di Minin</strong>, Scuola Superiore Sant&#39;Anna</p>
+        
+        <p><strong>Federico Frattini</strong>, Politecnico di Milano</p>
+        
+        <p><strong>Agnieszka Radziwon</strong>, University of Southern Denmark</p>
+        
+        <p><strong>Krithika Randhawa</strong>, The University of Sydney</p>
+        
+        <p><strong>Joel West</strong>, Keck Graduate Institute</p>
+        
     
+    
+    
+    <p>This special issue celebrates Henry Chesbrough&#39;s foundational work on open innovation and explores how organizations are putting these principles into practice within their R&amp;D functions. The editors seek research examining how firms implement and manage open innovation through three interconnected dimensions: the strategic processes and structural changes required, the people and capabilities needed to succeed, and the performance measurement approaches for evaluating OI initiatives.</p>
+    
+    <p>The journal seeks contributions that address real-world challenges R&amp;D and innovation managers face when transitioning from closed to open processes, including technology strategy, partnership governance, organizational design, and digital transformation. Particularly valued are insights from practitioners and academic-practitioner collaborations that bridge theory and practice, along with research highlighting how open innovation applies across different organizational sizes, industries, and contexts including energy transition and geopolitical shifts.</p>
     
     <p>
         Appel publié par R and D Management.
@@ -187,11 +317,80 @@
         <a href="https://kerostig.org/call/wiley-open-innovation-in-action-people-processes-and-performance-of-randd-management-2/">Fiche de l'appel sur kerostig</a>.
     </p>
     
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>How do companies build innovation strategies that leverage on OI?</li>
+        
+        <li>How are budgets for OI projects established and allocated?</li>
+        
+        <li>How do businesses roadmap the development of key technologies by making use of Open Innovation?</li>
+        
+        <li>How are new strategies for OI (such as venture clienting and venture building) evaluated and implemented?</li>
+        
+        <li>What factors influence the successful implementation of new strategies for OI (such as venture clienting and venture building)?</li>
+        
+        <li>What specific search strategies and scouting processes are most effective for identifying valuable external knowledge/technology for R&amp;D?</li>
+        
+        <li>How are R&amp;D processes (e.g., stage-gate, agile) adapted to effectively integrate external inputs and manage outbound knowledge flows?</li>
+        
+        <li>What digital tools and platforms are used to manage OI processes in R&amp;D, and what is their impact?</li>
+        
+        <li>How do firms manage the transition from closed to open R&amp;D processes?</li>
+        
+        <li>What are the best practices for managing intellectual property (IP) in collaborative R&amp;D projects under an OI paradigm?</li>
+        
+        <li>How do firms effectively evaluate and select external partners for R&amp;D collaboration?</li>
+        
+        <li>How does firm size (SME vs. large enterprise) influence organizational design choices for managing OI in R&amp;D?</li>
+        
+        <li>How do firms overcome internal resistance (e.g., &#39;Not-Invented-Here&#39; syndrome) when implementing OI in R&amp;D?</li>
+        
+        <li>What is the role of middle managers in facilitating or hindering OI adoption within R&amp;D departments?</li>
+        
+        <li>What specific skills, capabilities, and mindsets are required for R&amp;D personnel (researchers, managers) operating in an OI environment?</li>
+        
+        <li>How can organizations cultivate an &#39;open&#39; culture within R&amp;D, that encourages both internal sharing and external engagement?</li>
+        
+        <li>Which leadership styles are most effective in managing OI initiatives within R&amp;D teams?</li>
+        
+        <li>How are performance management and incentive systems adapted to motivate R&amp;D employees&#39; participation in OI activities?</li>
+        
+        <li>What is the role of individual absorptive capacity and boundary-spanning activities of R&amp;D personnel in OI success?</li>
+        
+        <li>Which capabilities companies need to develop to successfully work with different types of service providers?</li>
+        
+        <li>How can AI enable and support OI projects in R&amp;D and innovation functions?</li>
+        
+        <li>What ethical considerations arise in the operational management of OI within R&amp;D (e.g., knowledge appropriation, fairness to external contributors)?</li>
+        
+        <li>What metrics do R&amp;D departments use to track the inputs, throughputs, and outputs of their OI activities?</li>
+        
+        <li>How can the contribution of OI to R&amp;D project success and overall R&amp;D performance be effectively measured and demonstrated?</li>
+        
+        <li>What are the key challenges in measuring the ROI of specific OI tactics within R&amp;D?</li>
+        
+        <li>What are the good practices for selecting the right service provider, based on different R&amp;D and innovation needs?</li>
+        
+    </ul>
+    
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>September 15, 2026: Deadline for Submissions</li>
+        <li>January 2, 2026: Conference submission system opens</li>
+        
+        <li>February 1, 2026: Deadline for electronic submission of papers to the conference</li>
+        
+        <li>March 1, 2026: Notification of authors regarding acceptance to the conference</li>
+        
+        <li>April 20, 2026: Special Issue Conference held at Luiss University</li>
+        
+        <li>June 15, 2026: Submission deadline for extended abstracts (max 3 pages) for Academy of Management Researching Open Innovation PDW</li>
+        
+        <li>September 1, 2026: Time window to submit full paper through the R&amp;D Management Journal Website</li>
+        
+        <li>September 15, 2026: Submission deadline</li>
         
     </ul>
     
@@ -207,9 +406,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Joon Mo Ahn</strong>, Korea University</p>
+        
+        <p><strong>Alberto Di Minin</strong>, Scuola Superiore Sant&#39;Anna</p>
+        
+        <p><strong>Sungjoo Lee</strong>, Seoul National University</p>
+        
+        <p><strong>Ahreum Hong</strong>, Kyung Hee University</p>
+        
     
     
-    <p>This Special Issue is explicitly positioned around a question that existing work on AI-enabled knowledge search, collaboration management, and general AI governance has not yet answered: what happens when AI ceases to be a mere instrument and becomes an agent of innovation? This distinction — between AI-as-tool and AI-as-innovator — defines the conceptual boundary of our four research themes, which address the optimal human–AI division of innovative labour, the architecture of autonomously populated innovation ecosystems, the reimagination of absorptive capacity for an agentic era, and the fundamental challenges to IP posed by non-human inventorship.</p>
+    
+    <p>This special issue addresses how artificial intelligence systems function as autonomous innovators rather than tools within R&amp;D management. As AI systems including large language models and physical AI become active participants in innovation processes, existing frameworks assuming human actors must be reconceptualized. The core challenge extends beyond how AI assists humans to how much cognitive work should be delegated to AI and what consequences this has for organizations, ecosystems, and intellectual property.</p>
+    
+    <p>The special issue examines four interconnected themes: determining optimal levels of AI delegation; understanding how agentic and physical AI reshape innovation ecosystem architectures as autonomous actors; reconceptualizing absorptive capacity for evaluating AI-generated knowledge; and addressing IP ownership and inventorship when non-human systems generate patentable outputs. Collectively, these themes interrogate how the distinction between AI-as-tool and AI-as-innovator requires new governance mechanisms and strategic frameworks for innovation management.</p>
     
     <p>
         Appel publié par R and D Management.
@@ -222,13 +433,37 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Optimal human-AI division of innovative labour</li>
+        <li>Is there an inverted-U relationship between the degree of AI delegation in R&amp;D and innovation performance, mirroring the over-search paradox?</li>
         
-        <li>Architecture of autonomously populated innovation ecosystems</li>
+        <li>How do firms determine the optimal breadth and depth of AI involvement across different stages of the R&amp;D process? Specifically, under what conditions does algorithmic management enhance or hinder innovation performance?</li>
         
-        <li>Reimagination of absorptive capacity for an agentic era</li>
+        <li>What is the AI-era analogue of the NIH syndrome: how does uncritical acceptance of AI-generated knowledge erode internal expertise?</li>
         
-        <li>Fundamental challenges to intellectual property posed by non-human inventorship</li>
+        <li>What governance architectures enable effective human–AI teaming while preserving accountability, creativity, and strategic judgment?</li>
+        
+        <li>How do agentic AI systems alter the architecture of knowledge flows in open innovation ecosystems, and what new governance mechanisms are required?</li>
+        
+        <li>How does the participation of autonomous AI agents change the logic of platform-based open innovation, including roles, incentives, and boundary conditions?</li>
+        
+        <li>How do digital twins and AI-enabled simulation reshape the scope and speed of distributed experimentation across organisational boundaries?</li>
+        
+        <li>What new forms of inter-organisational trust, contracting, and coordination are needed when AI agents act as innovation partners?</li>
+        
+        <li>How must absorptive capacity (or dynamic capabilities) be reconceptualised when the primary external knowledge source is an AI system rather than a human partner?</li>
+        
+        <li>What organisational routines and managerial processes enable firms to transform AI-generated knowledge into innovation value?</li>
+        
+        <li>What individual competencies — technical, cognitive, and relational — distinguish high-performing innovators in human–AI contexts?</li>
+        
+        <li>What learning mechanisms allow firms to continuously upgrade AI-related innovation capabilities over time, particularly in relation to exploration and exploitation?</li>
+        
+        <li>How should inventorship and IP ownership be attributed when agentic AI systems autonomously generate patentable outputs, and what theoretical frameworks from open innovation research best capture this challenge?</li>
+        
+        <li>What strategic logic governs firms&#39; decisions to release model weights, training data, or fine-tuned AI capabilities into open-source commons?</li>
+        
+        <li>How do trained model weights, fine-tuning data, and emergent AI capabilities constitute a new category of strategic asset, and how do firms govern access to and monetisation of these assets?</li>
+        
+        <li>Under what regulatory and institutional conditions does the open-source AI movement accelerate versus impede innovation diffusion?</li>
         
     </ul>
     
@@ -236,7 +471,15 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>June 30, 2027: Deadline for submissions</li>
+        <li>May 30, 2026: PDW (paper development workshop) at R&amp;D Management Workshop, Seoul, Korea</li>
+        
+        <li>July 4, 2026: PDW at KOSIME summer conference, Jeju, Korea</li>
+        
+        <li>December 1, 2026: Special Issue Submission Open</li>
+        
+        <li>June 30, 2027: Deadline for SI Submission</li>
+        
+        <li>July 1, 2028: Publication of SI Articles</li>
         
     </ul>
     

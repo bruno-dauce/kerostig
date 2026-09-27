@@ -4,7 +4,7 @@
         <title>kerostig | Tag : implementation pipeline</title>
         <link>https://kerostig.org/tag/implementation-pipeline/</link>
         <description>Derniers appels à publications avec le tag 'implementation pipeline'.</description>
-        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -32,9 +32,9 @@
     
     
     
-    <p>This special issue seeks empirical research on how artificial intelligence augments production technologies and decision-making in real operational contexts. The focus is on system-level evidence demonstrating how point AI solutions integrate with production data environments to form end-to-end decision workflows, addressing the implementation pipeline from business-AI alignment through data readiness to deployment and workflow embedding.</p>
+    <p>This special issue seeks empirical research demonstrating how artificial intelligence is embedded within and enhances digital production technologies in real operational contexts. The focus is on understanding implementation pipelines and socio-technical conditions that enable AI-enabled solutions to function effectively as operational workflows. Purely conceptual, literature-based, or modelling studies without empirical validation are excluded.</p>
     
-    <p>The call emphasizes empirical validation using real operational evidence such as production logs, IoT sensors, industrial case studies, and field experiments. Purely conceptual, literature-review based, or synthetic-data studies are outside scope. Submissions should demonstrate how AI is operationalized across the production decision pipeline and linked to measurable production outcomes.</p>
+    <p>Acceptable empirical research uses real-world operational evidence such as production logs, IoT sensors, machine telemetry, or industrial case studies, potentially employing machine learning or optimization when grounded in real data and validated in industrial settings with measurable outcomes. Studies must address the full AI implementation pipeline, from translating production decisions into AI use cases, to ensuring data readiness, to embedding AI outputs into human-AI workflows linked to measurable production outcomes.</p>
     
     <p>
         Appel publié par Production Planning &amp; Control.
@@ -72,8 +72,6 @@
     
     <h2>Timeline</h2>
     <ul>
-        
-        <li>Invalid DateTime: Special Issue publication</li>
         
         <li>September 1, 2026: Call for Papers released</li>
         

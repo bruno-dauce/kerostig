@@ -4,7 +4,7 @@
         <title>kerostig | Tag : blockchain</title>
         <link>https://kerostig.org/tag/blockchain/</link>
         <description>Derniers appels à publications avec le tag 'blockchain'.</description>
-        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,77 @@
             <link>https://kerostig.org/tag/blockchain/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Managing Operational Tensions in Scaling Emerging Technologies]]></title>
+            <link>https://kerostig.org/call/emerald-managing-operational-tensions-in-scaling-emerging-technologies/</link>
+            <guid>emerald-managing-operational-tensions-in-scaling-emerging-technologies</guid>
+            <pubDate>Sat, 26 Sep 2026 22:23:50 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Minhao Zhang</strong>, University of Bristol</p>
+        
+        <p><strong>Yuanzhu Zhan</strong>, University of Birmingham</p>
+        
+        <p><strong>Iana Jackson</strong>, University of Arkansas</p>
+        
+        <p><strong>Zhijun Yan</strong>, Beijing Institute of Technology</p>
+        
+    
+    
+    
+    <p>Emerging technologies promise operational improvements, but their scaling often generates complex trade-offs that become more acute across organisational boundaries and levels. The special issue addresses operational tensions—persistent conflicts between competing demands such as centralisation versus decentralisation, efficiency versus flexibility, and autonomy versus control—that emerge when technologies reconfigure processes, resource allocation and governance. These tensions extend beyond individual implementations to affect supply networks, infrastructure systems and institutional contexts, with implications for resilience, governance and sustainability.</p>
+    
+    <p>The call invites research examining how organisations navigate these tensions at three levels: within organisations, across supply networks and platforms, and at system-wide scales involving regulation, cybersecurity and resource constraints. Particular interest lies in contexts facing disruption or resource scarcity, such as healthcare and humanitarian operations, where technology adoption may enhance visibility and coordination yet intensify tensions around resource allocation and inter-organisational accountability.</p>
+    
+    <p>
+        Appel publié par International Journal of Operations &amp; Production Management.
+        
+        <a href="https://www.emerald.com/ijopm/calls-for-submissions/1977/Managing-Operational-Tensions-in-Scaling-Emerging?searchresult=1">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-managing-operational-tensions-in-scaling-emerging-technologies/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>How do emerging technologies reconfigure operational processes, routines and decision rights during adoption and scaling?</li>
+        
+        <li>What operational capabilities, performance measurement systems and managerial practices enable organisations to balance experimentation, learning and operational reliability?</li>
+        
+        <li>How do organisations manage operational tensions arising from the simultaneous scaling of emerging technologies and the maintenance, integration or phase-out of legacy technologies?</li>
+        
+        <li>How does the scaling of emerging technologies across supply networks reshape coordination, collaboration, trust, power and dependency relationships?</li>
+        
+        <li>How do organisations manage tensions between transparency and confidentiality, decentralisation and strategic control, or local optimisation and network-wide performance?</li>
+        
+        <li>How do AI-enabled ecosystems, intelligent intermediaries and algorithmic brokers transform supply network structures, relational dynamics and orchestration practices?</li>
+        
+        <li>How do differences in digital maturity, resources and strategic priorities among supply chain partners affect technology scaling, governance and risks of digital exclusion or inequality?</li>
+        
+        <li>How do emerging technologies create tensions between operational performance improvement and system-level constraints such as resilience, cybersecurity, regulation, infrastructure capacity, energy consumption and sustainability?</li>
+        
+        <li>How do technology-enabled operations redistribute risks, costs and operational burdens across firms, supply networks, workers, suppliers, customers and operational locations?</li>
+        
+        <li>How are technologies scaled under disruptive, resource-constrained or recovery-oriented operating conditions, and how do organisations manage tensions between speed and control, improvisation and standardisation, risk-taking and accountability, or local responsiveness and system-wide coordination?</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 8, 2027: Opening date for manuscripts submissions</li>
+        
+        <li>April 8, 2027: Closing date for manuscripts submission</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Financial inclusion strategies, technology, and risk management: emerging trends and global perspectives]]></title>
             <link>https://kerostig.org/call/emerald-financial-inclusion-strategies-technology-and-risk-management-emerging-trends-and-global-perspectives/</link>
@@ -89,7 +160,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Ilan Alon</strong>, Ariel University</p>
+        
+        <p><strong>Marcin Wątorek</strong>, Cracow University of Technology</p>
+        
+        <p><strong>Aušrinė Šilenskytė</strong>, University of Vaasa</p>
+        
+        <p><strong>Ziaul Haque Munim</strong>, University of South-Eastern Norway</p>
+        
     
+    
+    
+    <p>Organizations increasingly manage distributed decision-making and systemic complexity through blockchain technologies that function as operating systems by embedding governance mechanisms into digital infrastructures. These systems are being advanced with artificial intelligence to monitor and shape behavior. Despite blockchain-based operating systems being adopted in platforms, supply chains, and decentralized autonomous organizations, their implications for organizational administration, governance, and control remain poorly understood.</p>
+    
+    <p>This special issue invites research that advances administrative and organizational understanding of blockchain-based operating systems with AI-enabled complexity. The call welcomes theoretically grounded, methodologically rigorous contributions including empirical studies and theory-building papers that offer clear organizational insights and engage meaningfully with blockchain and AI as organizational infrastructures.</p>
     
     <p>
         Appel publié par Canadian Journal of Administrative Sciences / Revue Canadienne des Sciences de l Administration.
@@ -99,11 +184,115 @@
         <a href="https://kerostig.org/call/wiley-blockchain-based-operating-systems-and-the-application-of-ai-enabled-complexity-management-in-organizations/">Fiche de l'appel sur kerostig</a>.
     </p>
     
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Blockchain as an organizational operating system and potential of AI advancements in it</li>
+        
+        <li>Public, private, and hybrid organizations adopting blockchain OS with AI advancements</li>
+        
+        <li>Integration of AI on Blockchain OS in crowdsourcing platforms, crypto exchanges, fintech firms, energy management, and transport services etc.</li>
+        
+        <li>Organizational decision-making in blockchain-based and AI enabled systems</li>
+        
+        <li>AI&#39;s role in administrative functions embedded in smart contracts and protocols</li>
+        
+        <li>Token-based incentives as administrative and managerial mechanisms</li>
+        
+        <li>Strategic control and accountability in decentralized platforms with AI-enabled advancements</li>
+        
+        <li>AI integration in governance, coordination, and control without centralized authority (DAOs)</li>
+        
+        <li>Complexity, emergence, and adaptation in blockchain-based and AI enabled organizations</li>
+        
+        <li>Organizational legitimacy, regulation, and institutional alignment in AI and blockchain OS integrations</li>
+        
+        <li>Ethical, responsible, and sustainable administration of blockchain systems, especially those advanced with AI</li>
+        
+    </ul>
+    
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>November 15, 2026: Deadline for Submissions</li>
+        <li>November 15, 2026: Submission Deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Decentralized Finance and the Global Financial Architecture: Market Design, Regulation, and Economic Implications]]></title>
+            <link>https://kerostig.org/call/wiley-decentralized-finance-and-the-global-financial-architecture-market-design-regulation-and-economic-implications/</link>
+            <guid>wiley-decentralized-finance-and-the-global-financial-architecture-market-design-regulation-and-economic-implications</guid>
+            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Agostino Capponi</strong>, Columbia University</p>
+        
+        <p><strong>Ioannis Kyriakou</strong>, Bayes Business School, City St George&#39;s, University of London</p>
+        
+    
+    
+    
+    <p>This special section seeks rigorous research examining how decentralized finance has evolved from a blockchain experiment into a significant global financial infrastructure that operates without centralized intermediaries. The collection aims to consolidate leading work on the market design, economics, and policy consequences of DeFi systems that span trading, lending, payments, and derivatives across multiple jurisdictions and blockchain ecosystems.</p>
+    
+    <p>The special section welcomes theoretical, empirical, and policy-oriented studies from scholars in financial economics, econometrics, network theory, and digital-asset markets. Research should address questions of efficiency, governance, and stability in decentralized markets, as well as the broader macroeconomic implications of DeFi for capital allocation, risk transmission, and monetary dynamics worldwide. International perspectives are particularly encouraged, including comparative studies and collaborative work examining cross-border and cross-chain phenomena.</p>
+    
+    <p>
+        Appel publié par International Journal of Finance &amp; Economics.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/hub-assets/dom-pubs/hub/infographic/DeFi_Special_Section_IJFE-1787659326223.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-decentralized-finance-and-the-global-financial-architecture-market-design-regulation-and-economic-implications/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Market design and efficiency of decentralized exchanges (DEXs) and automated market makers</li>
+        
+        <li>Maximal extractable value (MEV), fairness, and competition among builders, searchers, and validators</li>
+        
+        <li>Liquidity, volatility transmission, and price discovery between centralized and decentralized venues</li>
+        
+        <li>Composability, scalability, and interoperability of DeFi protocols across blockchain ecosystems</li>
+        
+        <li>Tokenomics, valuation, and incentives in protocol-level and governance tokens</li>
+        
+        <li>Systemic risk, contagion, and network interdependencies in DeFi ecosystems</li>
+        
+        <li>Stablecoins and CBDCs and their interaction with DeFi platforms</li>
+        
+        <li>Sustainability and energy efficiency in decentralized consensus mechanisms</li>
+        
+        <li>Voting Mechanisms for Decentralized Autonomous Organizations (DAOs)</li>
+        
+        <li>Macroeconomic and monetary spillovers of DeFi, including effects on capital flows, inflation, and financial transmission</li>
+        
+        <li>Market innovations in DeFi, such as perpetual futures, concentrated liquidity, and interactions between L1 and L2 chains</li>
+        
+        <li>Agentic AI and their applications to DeFi trading and blockchain</li>
+        
+        <li>Comparative analyses using international transaction or cross-chain data</li>
+        
+        <li>Studies exploring regional heterogeneity in DeFi adoption, regulation, or innovation</li>
+        
+        <li>Policy papers highlighting international coordination challenges among regulators and standard-setting bodies</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 15, 2027: Submission window opens</li>
+        
+        <li>February 12, 2027: Submission window closes</li>
         
     </ul>
     

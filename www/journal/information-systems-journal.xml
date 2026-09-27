@@ -4,7 +4,7 @@
         <title>kerostig | Information Systems Journal</title>
         <link>https://kerostig.org/journal/information-systems-journal/</link>
         <description>Derniers appels à publications pour Information Systems Journal.</description>
-        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,6 +15,69 @@
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
+            <title><![CDATA[AI, Policy and Public Value: Theorising the reciprocal relationship between AI and policy and its implications for public value]]></title>
+            <link>https://kerostig.org/call/wiley-ai-policy-and-public-value-theorising-the-reciprocal-relationship-between-ai-and-policy-and-its-implications-for-public-value/</link>
+            <guid>wiley-ai-policy-and-public-value-theorising-the-reciprocal-relationship-between-ai-and-policy-and-its-implications-for-public-value</guid>
+            <pubDate>Sat, 26 Sep 2026 23:07:58 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Nisreen Ameen</strong>, University of Reading</p>
+        
+        <p><strong>Federico Iannacci</strong>, University of Sussex</p>
+        
+        <p><strong>Daniel Gozman</strong>, University of Sydney Business School</p>
+        
+        <p><strong>James S. Denford</strong>, Royal Military College of Canada</p>
+        
+    
+    
+    
+    <p>This special issue examines how artificial intelligence embedded in public services shapes policy-making and how policies configure AI&#39;s development and use. The dynamic interplay between technology and policy intensifies with AI&#39;s scale and opacity. The issue seeks to understand how this reciprocal relationship creates, distributes or undermines public value—encompassing efficiency, equity, transparency, participation and welfare.</p>
+    
+    <p>The special issue invites Information Systems research that theorises AI as central to policy formation and enactment. Manuscripts should examine how AI systems shape policy problems and evidence, how organisations translate AI policies into practice, and how communities participate in defining public value. Qualitative, quantitative, design science and practitioner-oriented contributions are welcome.</p>
+    
+    <p>All submissions must include dedicated policy implications sections. Research may be set in public, private or nonprofit sectors and should address whose interests are encoded in AI systems, who benefits, who bears risks and whose experiences remain invisible.</p>
+    
+    <p>
+        Appel publié par Information Systems Journal.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/13652575/call-for-papers/si-2026-001168">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-ai-policy-and-public-value-theorising-the-reciprocal-relationship-between-ai-and-policy-and-its-implications-for-public-value/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Creation and Distribution of Public Value: How AI creates, distributes or undermines public value, including efficiency, innovation, equity, participation, dignity, sustainability, security and welfare, and how related trade-offs are managed.</li>
+        
+        <li>AI Use and the Production of Policy: How AI models, data, classifications, system design and organisational routines shape policy problems, evidence, interventions and evaluation, and how policies evolve through AI-enabled systems.</li>
+        
+        <li>AI Governance Beyond Regulatory Compliance: How accountability, transparency, explainability, human oversight and decision authority are enacted in practice, and how AI governance can address societal purposes and outcomes beyond regulatory compliance.</li>
+        
+        <li>Policy Translation and Organisational Capability: How organisations translate AI-policy ambitions into procurement, system design, workforce skills, professional roles, implementation and service delivery, and build capabilities to sustain public value.</li>
+        
+        <li>Participation, Inequality and Contestation: How AI-enabled policies affect citizens and marginalised groups, reshape voice, access and opportunity, and enable affected communities to participate in defining public value.</li>
+        
+        <li>IS Knowledge and Policy Formation: How IS theory and evidence inform AI policy, and how research, practitioner insights and research–practice collaborations can connect evidence, policy, organisational practice and societal outcomes.</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>June 15, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[AI and the Future of Work]]></title>
             <link>https://kerostig.org/call/wiley-ai-and-the-future-of-work/</link>
             <guid>wiley-ai-and-the-future-of-work</guid>
@@ -22,7 +85,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Robert Davison</strong>, City University of Hong Kong</p>
+        
+        <p><strong>Philip Wu</strong>, Royal Holloway, University of London</p>
+        
+        <p><strong>Ajay Kumar</strong>, Emlyon Business School</p>
+        
+        <p><strong>Efpraxia Zamani</strong>, Durham University</p>
+        
     
+    
+    
+    <p>Artificial intelligence is rapidly transforming work and labour across organizations and sectors. This special issue moves beyond polarized narratives to examine how AI is reshaping workplace experiences, organizing labour, and affecting workers. Drawing on Information Systems&#39; sociotechnical tradition, the call invites rigorous research examining the complex interplay between technology, organizations, and workers.</p>
+    
+    <p>The special issue addresses significant gaps in current research, particularly invisible labour like data labelling concentrated in the Global South, care work in undervalued sectors, and how AI may exacerbate or mitigate workplace inequality. It welcomes contributions examining worker agency, identity, skill development, voice in AI-augmented environments, and governance challenges posed by self-evolving AI systems.</p>
     
     <p>
         Appel publié par Information Systems Journal.
@@ -32,14 +109,54 @@
         <a href="https://kerostig.org/call/wiley-ai-and-the-future-of-work/">Fiche de l'appel sur kerostig</a>.
     </p>
     
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Compared to previous generations of information systems, how do new AI technologies reshape the distribution, delegation, performance, and evaluation of work tasks, and with what consequences for workers?</li>
+        
+        <li>How does working with AI tools alter the trajectories of learning, skill development, and professional identity formation among workers?</li>
+        
+        <li>How do workers make sense of AI-induced changes to their work, and how do they negotiate new spaces for meaning, agency, creativity, and identity in AI-augmented environments?</li>
+        
+        <li>Whose labour makes AI systems work and what does its erasure from dominant narratives of AI-augmented work reveal about how value, skills and visibility are constructed?</li>
+        
+        <li>How does the adoption of AI relate to workplace inequality within and across organisations, occupations, and sectors, and how are such inequalities manifested differently across the Global North and South?</li>
+        
+        <li>How do GenAI and emergent agentic AI reconfigure material and human agencies in the workplace, and what new theoretical frameworks are needed to account for their dynamic, self-evolving character?</li>
+        
+        <li>What does the growing capacity of AI agents to learn, adapt, and make consequential decisions mean for accountability, responsibility, and the governance of work outcomes?</li>
+        
+        <li>As AI becomes increasingly embedded in organisational routines, what conditions give rise to over-reliance, automation bias, and the erosion of human oversight and professional judgement?</li>
+        
+    </ul>
+    
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>January 31, 2027: Deadline for Submissions</li>
+        <li>January 31, 2027: Submission Deadline</li>
         
     </ul>
     
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Petros Chamakiotis</strong>, ESCP Business School</li>
+        
+        <li><strong>Alain Chong</strong>, University of Nottingham Ningbo</li>
+        
+        <li><strong>Riitta Hekkala</strong>, Aalto University</li>
+        
+        <li><strong>Yong Liu</strong>, Aalto University</li>
+        
+        <li><strong>Ulrich Remus</strong>, University of Innsbruck</li>
+        
+        <li><strong>Pauline Weritz</strong>, University of Twente</li>
+        
+        <li><strong>Melody Zou</strong>, Warwick Business School</li>
+        
+    </ul>
     
 </div>
 ]]></content:encoded>
@@ -52,7 +169,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Raffaele Ciriello</strong>, The University of Sydney Business School</p>
+        
+        <p><strong>Martin Adam</strong>, University of Goettingen</p>
+        
+        <p><strong>Zhongyun Zhou</strong>, Tongji University</p>
+        
     
+    
+    
+    <p>AI companions are conversational systems designed to simulate human-like relationships and deployed as emotional support tools, tutors, and therapeutic assistants. Unlike conventional productivity software, their value derives from sustained interaction and personalised continuity, raising questions about trust, dependency, wellbeing, and how relational dynamics emerge through interactions between users, systems, and contexts.</p>
+    
+    <p>This special issue invites Information Systems scholarship to examine AI companions through a relational lens extending beyond efficiency metrics. While these systems offer potential benefits such as broadened access to support, they simultaneously raise concerns about surveillance, manipulation, and commodified intimacy, reshaping individual capabilities and organisational practices.</p>
+    
+    <p>The special issue welcomes theoretically ambitious and empirically grounded research across diverse methodologies that carefully theorise the sociotechnical characteristics of relational AI systems. Submissions should address design, governance, and use implications, with particular interest in interdisciplinary and critical perspectives.</p>
     
     <p>
         Appel publié par Information Systems Journal.
@@ -62,14 +193,96 @@
         <a href="https://kerostig.org/call/wiley-ai-companions/">Fiche de l'appel sur kerostig</a>.
     </p>
     
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Dark sides of AI companions, problematic use patterns, and their potential roles in fostering delusions, harmful ideation, and maladaptive dependencies</li>
+        
+        <li>Relational perspectives on digital technologies: extending beyond instrumental and performance-based evaluation</li>
+        
+        <li>Social presence, parasocial interaction, and relationship formation with AI systems</li>
+        
+        <li>Anthropomorphism as a sociotechnical phenomenon: design, effects, and risks</li>
+        
+        <li>Design principles for AI systems that promote dignity, autonomy, trust, and human flourishing</li>
+        
+        <li>Hyper-personalisation and interaction-level adaptation in AI-mediated relationships</li>
+        
+        <li>How AI companions affect loneliness, wellbeing, identity formation, and social connection</li>
+        
+        <li>Human transformation through AI interaction: cognition, creativity, identity, and capability development</li>
+        
+        <li>Dependency, attachment, persuasion, and behavioural influence in sustained human–AI interaction</li>
+        
+        <li>Tensions and paradoxes in human–AI relationships</li>
+        
+        <li>AI companions in organisations, including changing work practices, expertise, authority, and control</li>
+        
+        <li>AI companions in healthcare, education, customer service, and public services: opportunities and risks</li>
+        
+        <li>Platform incentives, business models, and governance logics shaping relational AI</li>
+        
+        <li>Alternative governance and ownership models, including cooperative, open-source, and public-interest approaches</li>
+        
+        <li>Governance of emotionally sensitive data, privacy, portability, and consent</li>
+        
+        <li>Power asymmetries between users, providers, employers, and states in relational AI</li>
+        
+        <li>Youth, ageing populations, and other vulnerable stakeholders of relational AI</li>
+        
+        <li>Cross-cultural differences in companionship, intimacy, and acceptable machine roles</li>
+        
+        <li>Dual-use concerns, including manipulation, radicalisation, fraud, coercion, and political influence</li>
+        
+        <li>Regulatory and policy approaches to companion AI and socially consequential AI infrastructures</li>
+        
+        <li>Historical, philosophical, feminist, or critical perspectives on human–AI relations</li>
+        
+    </ul>
+    
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>March 31, 2027: Deadline for Submissions</li>
+        <li>December 31, 2026: Extended abstract submission deadline (optional)</li>
+        
+        <li>March 31, 2027: Full paper submission deadline</li>
         
     </ul>
     
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Anuragini Shirish</strong>, IMT Business School</li>
+        
+        <li><strong>Arisa Shollo</strong>, Copenhagen Business School</li>
+        
+        <li><strong>Stan Karanasios</strong>, University of Queensland</li>
+        
+        <li><strong>Sven Laumer</strong>, Friedrich-Alexander University</li>
+        
+        <li><strong>Angsana Techatassanasoontorn</strong>, Auckland University of Technology</li>
+        
+        <li><strong>Christoph Breidbach</strong>, University of Queensland</li>
+        
+        <li><strong>Hameed Chughtai</strong>, Lancaster University</li>
+        
+        <li><strong>Evelyn Ng</strong>, University of Sydney</li>
+        
+        <li><strong>Johan Sæbø</strong>, University of Oslo</li>
+        
+        <li><strong>Brad McKenna</strong>, Norwich Business School</li>
+        
+        <li><strong>Riitta Hekkala</strong>, Aalto University</li>
+        
+        <li><strong>Kai Riemer</strong>, University of Sydney</li>
+        
+        <li><strong>Dimitra Petrakaki</strong>, University of Sussex</li>
+        
+        <li><strong>Avijit Sengupta</strong>, University of Queensland</li>
+        
+    </ul>
     
 </div>
 ]]></content:encoded>
@@ -82,7 +295,27 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Petter Nielsen</strong>, University of Oslo</p>
+        
+        <p><strong>Laura Brandimarte</strong>, University of Arizona</p>
+        
+        <p><strong>Ben Eaton</strong>, Copenhagen Business School</p>
+        
+        <p><strong>Juliana Sutanto</strong>, Monash University</p>
+        
+        <p><strong>Mary Tate</strong>, Victoria University of Wellington</p>
+        
+        <p><strong>Daniel Veit</strong>, University of Augsburg</p>
+        
     
+    
+    
+    <p>This special issue addresses digital sovereignty—the capacity of actors at individual, community, organizational, or national levels to make informed choices about sourcing, designing, and governing digital systems while avoiding dependency risks. The field encompasses concerns about data governance, platform reliance, interoperability, and AI transparency, reflecting growing political momentum globally from regions like the EU, Denmark, and China.</p>
+    
+    <p>While digital sovereignty has attracted attention across policy, philosophy, and law, information systems research remains underdeveloped despite offering valuable socio-technical perspectives. This call seeks empirically grounded and theoretically ambitious research that explains digital sovereignty as a socio-technical accomplishment, including its tensions and trade-offs, alongside conceptual and review papers.</p>
+    
+    <p>The special issue welcomes both qualitative and quantitative contributions that foreground digital technologies in context, drawing from relevant information systems research on infrastructures, digital innovation, platform governance, open-source solutions, and human-AI relationships.</p>
     
     <p>
         Appel publié par Information Systems Journal.
@@ -92,14 +325,128 @@
         <a href="https://kerostig.org/call/wiley-digital-sovereignty/">Fiche de l'appel sur kerostig</a>.
     </p>
     
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Conceptual and theoretical foundations of digital sovereignty in information systems and its unique properties compared to other conceptualizations of sovereignty</li>
+        
+        <li>Critical investigations of the sovereignty paradox – the sacrifice of sovereignty for the utility and efficiency of big-tech, related to path dependencies, shadow sovereignty and exit strategies</li>
+        
+        <li>The exercise of power by dominant players and its impact</li>
+        
+        <li>The specific sovereignty challenges of digital infrastructure, platforms, AI and other emerging technologies such as quantum computing</li>
+        
+        <li>Sovereignty-by-design: interoperability, standards, modularity, API governance, devolved, horizontal and open architectures</li>
+        
+        <li>Open-source, digital public goods, and open data commons as strategies for autonomy, resilience, and public value</li>
+        
+        <li>AI for managing sovereign digital infrastructures</li>
+        
+        <li>Global, regional and local governance, regulation and policy regarding data, platforms and infrastructures, and governance models</li>
+        
+        <li>Public sector digital sovereignty, including procurement, vendor lock-in, interoperability and capability building</li>
+        
+        <li>Surveillance, digital identity, biometrics, and the sovereignty implications for rights and democratic accountability</li>
+        
+        <li>Digital sovereignty in development and &quot;post-aid&quot; contexts: shifting dependencies, infrastructures at scale, and long-term sustainability</li>
+        
+        <li>Indigenous and minority groups disadvantaged by colonisation value sovereignty, especially over their data, including protection from misuse, responsible stewardship, and maintaining integrity</li>
+        
+        <li>Managing capability, skills, and technology gaps and deficits</li>
+        
+        <li>Managing choke points in critical technical layers</li>
+        
+        <li>Managing national policy alignment</li>
+        
+    </ul>
+    
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>March 31, 2027: Deadline for Submissions</li>
+        <li>March 31, 2027: Submission Deadline</li>
         
     </ul>
     
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Tawfiq Alashoor</strong>, University of Navarra</li>
+        
+        <li><strong>Armin Alizadeh</strong>, Technical University of Darmstadt</li>
+        
+        <li><strong>Pierre-Emmanuel Arduin</strong>, Université Paris Dauphine-PSL</li>
+        
+        <li><strong>Irwin Brown</strong>, University of Cape Town</li>
+        
+        <li><strong>Jen Dailo Chandler</strong>, California State University</li>
+        
+        <li><strong>Wonhyuk Cho</strong>, Ewha Womans University</li>
+        
+        <li><strong>Jacqueline Corbett</strong>, Université Laval</li>
+        
+        <li><strong>Tingru Cui</strong>, University of Melbourne</li>
+        
+        <li><strong>Torgeir Dingsøyr</strong>, Norwegian University of Science and Technology</li>
+        
+        <li><strong>Andreas Drechsler</strong>, Victoria University of Wellington</li>
+        
+        <li><strong>Daniel Gozman</strong>, University of Sydney</li>
+        
+        <li><strong>Agam Gupta</strong>, IIT Delhi</li>
+        
+        <li><strong>Riitta Hekkala</strong>, Aalto University</li>
+        
+        <li><strong>Federico Iannacci</strong>, University of Sussex</li>
+        
+        <li><strong>Alexander Kempton</strong>, University of Oslo</li>
+        
+        <li><strong>John Krogstie</strong>, Norwegian University of Science and Technology</li>
+        
+        <li><strong>Shi-Ying Lim</strong>, National University of Singapore</li>
+        
+        <li><strong>Shirin Madon</strong>, LSE</li>
+        
+        <li><strong>Johan Magnusson</strong>, University of Gothenburg</li>
+        
+        <li><strong>Antonio Martini</strong>, University of Oslo</li>
+        
+        <li><strong>Silvia Masiero</strong>, University of Oslo</li>
+        
+        <li><strong>Eric Monteiro</strong>, Norwegian University of Science and Technology</li>
+        
+        <li><strong>Priyanka Pandey</strong>, King&#39;s College</li>
+        
+        <li><strong>Roser Pujadas</strong>, University College London</li>
+        
+        <li><strong>Alexander Rieger</strong>, University of Arkansas</li>
+        
+        <li><strong>Tamara Roth</strong>, University of Arkansas</li>
+        
+        <li><strong>Hanlie Smuts</strong>, University of Pretoria</li>
+        
+        <li><strong>Timo Sturm</strong>, Technical University of Darmstadt</li>
+        
+        <li><strong>Ruonan Sun</strong>, Monash University</li>
+        
+        <li><strong>Johan Ivar Sæbø</strong>, University of Oslo</li>
+        
+        <li><strong>Benjamin van Giffen</strong>, University of Lichtenstein</li>
+        
+        <li><strong>Marjolein van Offenbeek</strong>, University of Groningen</li>
+        
+        <li><strong>Will Venters</strong>, LSE</li>
+        
+        <li><strong>Pauline Weritz</strong>, University of Twente</li>
+        
+        <li><strong>Amber Young</strong>, University of Oklahoma</li>
+        
+        <li><strong>Xiaojie Zhang</strong>, Ocean University of China</li>
+        
+        <li><strong>Markus P. Zimmer</strong>, University of Agder</li>
+        
+    </ul>
     
 </div>
 ]]></content:encoded>
@@ -112,7 +459,25 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Marco Marabelli</strong>, Bentley University</p>
+        
+        <p><strong>Robert Davison</strong>, City University of Hong Kong</p>
+        
+        <p><strong>Federico Iannacci</strong>, University of Sussex</p>
+        
+        <p><strong>Shahla Ghobadi</strong>, University of Leeds</p>
+        
+        <p><strong>Zhongyun Zhou</strong>, Tongji University</p>
+        
+        <p><strong>Vanessa Cooper</strong>, RMIT University</p>
+        
     
+    
+    
+    <p>This special issue examines how information systems scholarship can address environmental concerns related to generative AI. While GAI offers significant benefits for efficiency and automation, its rapid development has created substantial environmental challenges, including high electricity consumption, water use for cooling, and electronic waste from obsolete computing hardware. These impacts disproportionately affect vulnerable populations and regions in the Global South.</p>
+    
+    <p>The issue seeks studies adopting an eco-socio-technical perspective to explore both the negative environmental effects of GAI and its potential benefits for weather forecasting, agriculture, and urban management. Contributors are encouraged to investigate how organizations, governments, individuals, and communities can implement and use GAI responsibly, examining tradeoffs between technological benefits and environmental costs. Research employing primary data, various methodologies, and practitioner perspectives are welcomed.</p>
     
     <p>
         Appel publié par Information Systems Journal.
@@ -122,11 +487,32 @@
         <a href="https://kerostig.org/call/wiley-generative-ai-and-the-environment-how-can-is-scholars-contribute-to-addressing-the-problem-and-identifying-solutions/">Fiche de l'appel sur kerostig</a>.
     </p>
     
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Local and global policies associated with data centers, outsourcing, and offshoring practices, including legal, managerial, and economic perspectives</li>
+        
+        <li>Business models relying on or incentivizing GAI across specific industries such as healthcare, automotive, robotics, and aerospace, focusing on efficiency versus responsible use tradeoffs</li>
+        
+        <li>Individual-level practices of responsible GAI use in organizational and private citizen contexts, and how users understand environmental consequences</li>
+        
+        <li>GAI applications in smart cities, including traffic and parking optimization while addressing surveillance concerns</li>
+        
+        <li>GAI use in public administrations to streamline processes such as document production and benefit eligibility checks</li>
+        
+        <li>Existential short-term and long-term eco-socio-technical effects and the role of IS discipline in mitigating environmental and societal risks from large-scale GAI diffusion</li>
+        
+        <li>Collective action and activism strategies for promoting green development and responsible GAI use by major technology developers and deployers</li>
+        
+    </ul>
+    
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>June 30, 2027: Deadline for Submissions</li>
+        <li>December 31, 2026: Submission deadline for extended abstracts</li>
+        
+        <li>June 30, 2027: Submission deadline for full papers</li>
         
     </ul>
     

@@ -4,7 +4,7 @@
         <title>kerostig | Tag : agentic systems</title>
         <link>https://kerostig.org/tag/agentic-systems/</link>
         <description>Derniers appels à publications avec le tag 'agentic systems'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 17:31:28 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,51 +15,59 @@
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[The Agentic Supply Chain: Entering a new era in AI in Supply Chain Management]]></title>
-            <link>https://kerostig.org/call/tandf-the-agentic-supply-chain-entering-a-new-era-in-ai-in-supply-chain-management/</link>
-            <guid>tandf-the-agentic-supply-chain-entering-a-new-era-in-ai-in-supply-chain-management</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
+            <title><![CDATA[LLMs and Agentic AI in Healthcare]]></title>
+            <link>https://kerostig.org/call/wiley-llms-and-agentic-ai-in-healthcare/</link>
+            <guid>wiley-llms-and-agentic-ai-in-healthcare</guid>
+            <pubDate>Sun, 13 Sep 2026 16:20:55 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
         
-        <p><strong>Alexandra Brintrup</strong>, University of Cambridge</p>
+        <p><strong>Malek Masmoudi</strong>, University of Sharjah</p>
         
-        <p><strong>Thomas Choi</strong>, Arizona State University</p>
+        <p><strong>Patrick Siarry</strong>, Université Paris-Est Créteil</p>
         
-        <p><strong>George Huang</strong>, Hong Kong Polytechnic University</p>
-        
-        <p><strong>Dmitry Ivanov</strong>, Berlin School of Economics and Law</p>
+        <p><strong>Omar Tujjar</strong>, International Society of Medical AI (ISMAI)</p>
         
     
     
     
-    <p>Recent advances in Agentic Large Language Models (LLMs) are reshaping the discourse on how autonomous decision systems might operate in complex environments such as supply chains. The motivation for the special issue is to facilitate rigorous research in the transformative potential of agentic technology for Supply Chain Management (SCM). A key objective is to foster collaboration and unlock synergies by merging diverse perspectives from operations and supply chain management, AI, complexity science, and industrial engineering.</p>
+    <p>This special issue focuses on the integration of large language models and agentic AI systems in healthcare. The issue invites research on how these autonomous, reasoning-capable technologies can transform clinical practice, hospital operations, and healthcare management while promoting patient-centered care and sustainability.</p>
     
-    <p>An AI agent is characterised as one that has a predefined or emergent goal and uses cognitive tools to achieve its objectives, such as situational awareness, data-driven learning and prediction, decision optimisation, negotiation, and problem-solving with human or other AI agents. Supply chain management scholars have long studied agent-based systems, especially multi-agent systems (MAS) since the 2000s. However, research has stalled as MAS were slow to develop, difficult to code, debug and scale, and were prone to severe coordination problems. Most supply chain agent research was not adopted in the industry.</p>
+    <p>Healthcare organizations increasingly deploy AI agents that combine perception of diverse clinical data with capabilities like planning, tool use, and collaboration to support clinicians, patients, researchers, and administrators. As adoption grows, rigorous evaluation and trustworthiness become critical to ensure these systems remain safe, auditable, and aligned with clinical standards.</p>
+    
+    <p>The special issue welcomes original research articles, position papers, and validated case studies on both technical topics such as architectures and algorithms, and socio-technical topics including ethics, policy, and human factors across all stages of agentic AI deployment in healthcare.</p>
     
     <p>
-        Appel publié par International Journal of Production Research.
+        Appel publié par Expert Systems.
         
-        <a href="https://think.taylorandfrancis.com/special_issues/agentic-supply-chain/">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers/si-2026-001060">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/tandf-the-agentic-supply-chain-entering-a-new-era-in-ai-in-supply-chain-management/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/wiley-llms-and-agentic-ai-in-healthcare/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Discourse on utilising agentic systems for complex scenarios in supply chain management: Risk and disruption management, logistics and supply chain optimisation, transportation routes, inventory management, quality control, demand forecasting, and warehouse planning and location, and cash flow predictions</li>
+        <li>Foundations, Architectures, and Frameworks for Agentic AI in Healthcare</li>
         
-        <li>Supply network design with agentic technology: Supplier relationship configurations, agentic digital twins to simulate inventory flows, sustainability implications across the supply chain, circular supply chains, supply chain visibility, and supply chain financing</li>
+        <li>LLM-Based Clinical Decision Support and Diagnostic Reasoning</li>
         
-        <li>Interorganisational agentic systems: Effective multi-agent negotiation and coordination, the design of mediative and persuasive agentic systems, preservation of organisational privacy during multi-agent communication</li>
+        <li>Multi-Agent Systems and Collaborative Healthcare Intelligence</li>
         
-        <li>Hybrid systems: Integration of agentic systems with blockchain, IoT, Omniverse, and traditional multi-agent systems</li>
+        <li>Multimodal Perception in Healthcare Agents</li>
         
-        <li>Emergence and Complexity: Unintended consequences of agentic deployment at the system scale, governance, trustworthiness and safety, centralised versus decentralised control, human-in-the-loop agentic systems</li>
+        <li>Patient-Centered Agents and Digital Health Engagement</li>
         
-        <li>Technical challenges: Performance evaluation, efficient task division, ablation analysis and back testing, sensitivity analysis, agentic architectures operating in high uncertainty environments, long-term horizon reasoning, overcoming hallucinations</li>
+        <li>Robotic and Computer-Assisted Surgery with Agentic AI</li>
+        
+        <li>Healthcare Operations, Administration, and Workflow Automation</li>
+        
+        <li>Drug Discovery, Biomedical Research, and Clinical Trials</li>
+        
+        <li>Evaluation, Safety, Trust, and Explainability of Healthcare Agents</li>
+        
+        <li>Ethics, Regulation, Governance, and Sustainable AI Deployment</li>
         
     </ul>
     
@@ -67,7 +75,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>September 30, 2026: Manuscript deadline</li>
+        <li>January 31, 2027: Submission deadline</li>
         
     </ul>
     

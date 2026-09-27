@@ -4,7 +4,7 @@
         <title>kerostig | Tag : information security</title>
         <link>https://kerostig.org/tag/information-security/</link>
         <description>Derniers appels à publications avec le tag 'information security'.</description>
-        <lastBuildDate>Mon, 21 Sep 2026 08:29:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Sep 2026 23:39:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,13 +22,19 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Aybars Tuncdogan</strong>, King&#39;s College London</p>
+        
+        <p><strong>Henk W. Volberda</strong>, University of Amsterdam</p>
+        
+        <p><strong>Ioana Stefan</strong>, Mälardalen University</p>
+        
     
     
-    <p>R&amp;D Management has a rich publication history in research on appropriability, intellectual capital and capturing value from innovation. This special issue seeks to update and extend that tradition by explicitly bringing together two adjacent but typically separated conversations.</p>
     
-    <p>The first conversation conceptualizes protection of innovation in relation to appropriability mechanisms such as patents, trade secrecy, licensing, contracting, complementary assets, and ecosystem governance to investigate value capture potential.</p>
+    <p>While innovation creation has received substantial research attention, value capture from innovations remains critically important yet increasingly complex. Digital technologies, AI, data-driven business models, and globally distributed R&amp;D networks have expanded innovation reach but also created new vulnerabilities through rapid copying, disruption, and security threats. Organizations must now navigate both traditional appropriability challenges in collaborative and open innovation contexts, and emerging information security risks that threaten R&amp;D artifacts and intellectual assets.</p>
     
-    <p>The second conversation - so far mainly happening in information systems and engineering journals - conceptualizes protection of innovation as information security, such as the protection of R&amp;D artifacts, risks of leakage and theft, industrial espionage, and applications of organizational secrecy for R&amp;D purposes.</p>
+    <p>This special issue brings together two typically separate research conversations: innovation appropriability mechanisms (patents, trade secrecy, licensing, complementary assets, ecosystem governance) and information security protection (technical defenses, organizational safeguards, insider threat management). The issue seeks to understand how firms organize to balance value creation with value capture while managing information security risks in an increasingly digital, data-driven, and open innovation landscape.</p>
     
     <p>
         Appel publié par R and D Management.
@@ -41,21 +47,37 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Appropriability mechanisms such as patents, trade secrecy, licensing, contracting, complementary assets, and ecosystem governance</li>
+        <li>Appropriability mechanisms for digital innovation, including appropriability regimes in platforms, ecosystems, and data-driven markets</li>
         
-        <li>Value capture potential from innovation</li>
+        <li>Hybrid protection strategies combining secrecy, security, and openness</li>
         
-        <li>Protection of R&amp;D artifacts</li>
+        <li>New forms of protection for new forms of competitive advantage (static vs dynamic)</li>
         
-        <li>Risks of leakage and theft in innovation</li>
+        <li>Profiting from innovation under platform dominance</li>
         
-        <li>Industrial espionage</li>
+        <li>Governance of data, IP, and secrecy in university-industry collaborations and open science initiatives</li>
         
-        <li>Organizational secrecy for R&amp;D purposes</li>
+        <li>Governance and lifecycle strategies for protecting data, algorithms, AI models, etc.</li>
         
-        <li>Information security in innovation management</li>
+        <li>Risks of imitation, leakage, and exfiltration in digital/AI-driven innovation</li>
         
-        <li>Intellectual capital and capturing value from innovation</li>
+        <li>Strategies and mechanisms to protect data, algorithms, and AI models</li>
+        
+        <li>Protection strategies for innovations that move faster than the ability to protect them</li>
+        
+        <li>Value capture in Industry 4.0 and smart manufacturing innovations</li>
+        
+        <li>Organizational designs and routines for secure collaboration</li>
+        
+        <li>Institutional and regulatory conditions shaping innovation security and value capture</li>
+        
+        <li>Closing and opening innovation in the digital era</li>
+        
+        <li>Insider threats to R&amp;D knowledge</li>
+        
+        <li>Security-by-design and privacy-by-design principles in R&amp;D and innovation processes</li>
+        
+        <li>Effective zero-trust policies in R&amp;D departments and innovation processes</li>
         
     </ul>
     
@@ -63,9 +85,11 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>February 1, 2027: Submissions open</li>
+        <li>Invalid DateTime: Paper development workshop</li>
         
-        <li>April 30, 2027: Submission deadline</li>
+        <li>February 1, 2027: Submission window opens</li>
+        
+        <li>April 30, 2027: Full manuscript submission deadline</li>
         
     </ul>
     
