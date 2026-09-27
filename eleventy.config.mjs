@@ -652,6 +652,7 @@ export default async function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('www/journal/*.xml');
     eleventyConfig.addPassthroughCopy('www/tag/*.xml');
     eleventyConfig.addPassthroughCopy('www/public/favicon');
+    eleventyConfig.addPassthroughCopy('www/public/fonts');
     eleventyConfig.addPassthroughCopy({
         './node_modules/alpinejs/dist/cdn.min.js': './public/js/alpine.min.js',
     });
