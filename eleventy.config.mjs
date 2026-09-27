@@ -126,6 +126,18 @@ export default async function (eleventyConfig) {
 
     eleventyConfig.addFilter("disciplineDuCode", disciplineDuCode);
 
+    // Rangs a afficher/filtrer pour une revue : normalement un seul (son
+    // rang_fnege_2025), sauf les rares revues en conflit FNEGE (deux lignes du
+    // classement, deux rangs distincts) ou rangs_fnege_2025 porte les deux -
+    // voir enrichissement/corrections-issn.json (fusions_connues) et
+    // enrichissement/appliquer-conflits-rang.mjs, qui alimente ce champ.
+    eleventyConfig.addFilter("rangsFnege", function (revue) {
+        if (!revue) return [];
+        return revue.rangs_fnege_2025 && revue.rangs_fnege_2025.length
+            ? revue.rangs_fnege_2025
+            : [revue.rang_fnege_2025];
+    });
+
     // Ordre du classement, pas ordre alphabetique : "1*" precede "1", qui precede
     // "2". Un rang inconnu ferme la liste plutot que de la ouvrir.
     const ORDRE_RANG_FNEGE = ["1*", "1", "2", "3", "4"];

@@ -7305,7 +7305,12 @@
     "mirabel": {
       "trouve": false
     },
-    "francophone": false
+    "francophone": false,
+    "rangs_fnege_2025": [
+      "2",
+      "3"
+    ],
+    "rang_fnege_2025_note": "Cette revue figure deux fois dans le classement FNEGE 2025, avec les rangs 2 et 3."
   },
   "1558-0040": {
     "titre": "IEEE Transactions on Engineering Management",
@@ -13238,7 +13243,7 @@
     "titre_fnege": "APPETITE",
     "titre_source": "openalex",
     "slug": "appetite",
-    "pissn": "0092-0703",
+    "pissn": "0195-6663",
     "eissn": "1095-8304",
     "issn_cle": "1095-8304",
     "editeur": "Elsevier BV",
@@ -13248,11 +13253,11 @@
     "metriques": {
       "found": true,
       "openalex_id": "https://openalex.org/S126804734",
-      "citedness_2ans": 3.6251908396946564,
-      "h_index": 248,
+      "citedness_2ans": 3.9354120267260577,
+      "h_index": 250,
       "volume_annuel": 506,
       "annee_volume": 2025,
-      "volume_total": 12723,
+      "volume_total": 12764,
       "thematiques": [
         "Obesity, Physical Activity, Diet",
         "Eating Disorders and Behaviors",
@@ -13267,7 +13272,7 @@
       "est_oa": false,
       "apc": {
         "gratuit": false,
-        "montant": 3830,
+        "montant": 4190,
         "devise": "USD"
       },
       "licence": null,
@@ -44454,7 +44459,7 @@
     "titre_fnege": "SYSTEMS RESEARCH AND BEHAVIORAL SCIENCES",
     "titre_source": "openalex",
     "slug": "systems-research-and-behavioral-sciences",
-    "pissn": "0160-791X",
+    "pissn": "1092-7026",
     "eissn": "1099-1743",
     "issn_cle": "1099-1743",
     "editeur": "Wiley",
@@ -44464,11 +44469,11 @@
     "metriques": {
       "found": true,
       "openalex_id": "https://openalex.org/S126013225",
-      "citedness_2ans": 2.027431421446384,
+      "citedness_2ans": 2.0774818401937045,
       "h_index": 115,
       "volume_annuel": 115,
       "annee_volume": 2025,
-      "volume_total": 4650,
+      "volume_total": 4662,
       "thematiques": [
         "Complex Systems and Decision Making",
         "Cognitive Science and Mapping",
@@ -45418,6 +45423,50 @@
     },
     "mirabel": {
       "trouve": false
+    },
+    "francophone": false
+  },
+  "1540-4609": {
+    "titre": "Decision Sciences Journal of Innovative Education",
+    "titre_fnege": "DECISION SCIENCES JOURNAL OF INNOVATIVE EDUCATION",
+    "titre_source": "openalex",
+    "slug": "decision-sciences-journal-of-innovative-education",
+    "pissn": "1540-4595",
+    "eissn": "1540-4609",
+    "issn_cle": "1540-4609",
+    "editeur": "Wiley",
+    "discipline_code": "EDUC",
+    "discipline": "Enseignement",
+    "rang_fnege_2025": "4",
+    "metriques": {
+      "found": true,
+      "openalex_id": "https://openalex.org/S168561851",
+      "citedness_2ans": null,
+      "h_index": null,
+      "volume_annuel": null,
+      "annee_volume": null,
+      "volume_total": null,
+      "thematiques": []
+    },
+    "acces_ouvert": {
+      "dans_doaj": false,
+      "source_oa": "OpenAlex",
+      "est_oa": null,
+      "apc": null,
+      "licence": null,
+      "type_relecture": null
+    },
+    "auto_archivage": {
+      "found": true,
+      "version_deposable": "accepted",
+      "embargo_mois": 24,
+      "avec_frais_additionnels": false,
+      "depot_hal_possible": true
+    },
+    "mirabel": {
+      "trouve": true,
+      "url": "https://reseau-mirabel.info/revue/21756",
+      "id": 21756
     },
     "francophone": false
   }
