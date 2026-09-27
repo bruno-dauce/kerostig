@@ -2,9 +2,9 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { integrateCalls } from './diffChecker.mjs';
+import { consommation, formaterConsommation, depassementsGardeFou } from './llmParser.mjs';
 import { depasseSeuilEchec, formaterResumeAlertes, formaterResumeGardeFou, publierResumeCI } from './alerteCI.mjs';
 import { bilanDesactivations, formaterResumeDesactivations } from './bilanDesactivations.mjs';
-import { depassementsGardeFou } from './llmParser.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -137,6 +137,7 @@ export async function scrapeAll(browserInstance) {
 
         const avant = await lireAppels();
         const alertes = await integrateCalls(issues, ranAbbreviations, revuesBloquees);
+        console.log(formaterConsommation(consommation, process.env.MODEL_NAME));
 
         await publierResumeCI(formaterResumeAlertes(alertes, ranAbbreviations.length));
         // Desactivations suspectes (echeance future ou inconnue), par

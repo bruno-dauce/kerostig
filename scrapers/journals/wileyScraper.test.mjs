@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { classerTentatives, ordonnerUrls, formaterBilan, extract_entries, lireEntree, doitVerifier, noterResultat, build_urls, revueParTitre, rattacherAppelsCommuns, extraire_detail, estSousDomaineSociete, classerRedirection, PAGES_SOCIETE, PAGE_COMMUNE_SMS } from './wileyScraper.mjs';
+import { classerTentatives, ordonnerUrls, formaterBilan, extract_entries, lireEntree, doitVerifier, noterResultat, build_urls, revueParTitre, rattacherAppelsCommuns, extraire_detail, estSousDomaineSociete, classerRedirection, PAGES_SOCIETE, PAGE_COMMUNE_SMS, sourceDuLien, doitSuivre, resoudreEntree, extraire_detail_page } from './wileyScraper.mjs';
 
 // Le compteur de fin de run rangeait tout echec sous « aucun des chemins
 // d'URL essayes n'a repondu ». Verifie le 2026-09-03 sur quatre revues
@@ -321,10 +321,99 @@ test('le bilan chiffre la page commune et signale les sous-domaines a completer'
         total: 10, atteintes: 6, avecAppels: 4, appels: 12, requetes: 15,
         motifs: { bloque: 0, absent: 1, reseau: 0, autre: 0 },
         commune: { appels: 5, ecartes: 1, bloquee: false },
-        details: { suivis: 7, echecs: 1 },
+        details: { page: 7, pdf: 2, liste: 3, echecs: 1 },
         sousDomaines: [{ issn: '1234-5678', hote: 'x.onlinelibrary.wiley.com' }],
     });
     assert.match(bilan, /page commune SMS\s+5 appel\(s\), 1 ecarte/);
-    assert.match(bilan, /pages de detail\s+7 \(1 echec/);
+    assert.match(bilan, /sources lues\s+7 page\(s\) de detail, 2 PDF, 3 bloc\(s\) de liste ; 1 echec/);
     assert.match(bilan, /1234-5678.*x\.onlinelibrary\.wiley\.com/);
+});
+
+// Gabarit .DST-CFP-listing-item de l'hote principal : le bloc de liste ne
+// porte que le titre et une echeance. Audit du 2026-09-27 : 72 appels actifs,
+// rawContent median de 294 caracteres, 54 sans description, 72 sans editeurs.
+// La source du rawContent suit le type du lien, et lui seul : page Wiley ->
+// page de detail, PDF Wiley -> texte du PDF, autre site -> bloc de liste.
+
+test('la source du rawContent se lit sur le seul lien', () => {
+    assert.equal(sourceDuLien('https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers/si-2026-001060'), 'page');
+    assert.equal(sourceDuLien('https://sms.onlinelibrary.wiley.com/hub/call-for-papers/sej-x'), 'page-societe');
+    assert.equal(sourceDuLien('https://onlinelibrary.wiley.com/pb-assets/assets/10991379/cfp/JOB_CFP-1787185890970.pdf'), 'pdf');
+    assert.equal(sourceDuLien('https://onlinelibrary.wiley.com/pb-assets/IOECPR%20-%20MDE%20CFP-1667224224133.PDF'), 'pdf');
+    assert.equal(sourceDuLien('https://www.bam.ac.uk/cfp'), 'liste');
+    assert.equal(sourceDuLien('https://www.example.org/cfp.pdf'), 'liste', 'un PDF hors Wiley reste un lien externe');
+    assert.equal(sourceDuLien('pas une url'), 'liste');
+});
+
+const PAGE_LISTE = 'https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers';
+const itemListe = href => `<div class="DST-CFP-listing-item"><h3><a href="${href}">Special issue X</a></h3>
+    <p class="DST-CFP-listing-item__deadline"><strong>Deadline</strong>: 31 January 2027</p></div>`;
+
+test('les entrees du gabarit de liste sont marquees comme telles', () => {
+    const [entry] = extract_entries(itemListe('/page/journal/14680394/homepage/call-for-papers/si-1'), PAGE_LISTE, 'ES');
+    assert.equal(entry.gabarit, 'liste');
+    const [ancien] = extract_entries(`<div class="pb-rich-text"><h2>Call for Papers</h2><p><a href="/page/journal/14680394/homepage/si.htm">SI</a></p></div>`, PAGE_LISTE, 'ES');
+    assert.equal(ancien.gabarit, undefined);
+});
+
+test('on suit les liens du gabarit de liste et ceux des sous-domaines, pas l ancien gabarit', () => {
+    assert.equal(doitSuivre(PAGE_LISTE, { gabarit: 'liste' }), true);
+    assert.equal(doitSuivre(PAGE_LISTE, {}), false, 'ancien gabarit : son groupe porte deja le texte, son hash ne bouge pas');
+    assert.equal(doitSuivre('https://iaap-journals.onlinelibrary.wiley.com/hub/journal/14640597/homepage/call-for-papers', {}), true);
+});
+
+// Regle de stabilite : une source prevue et illisible ne retombe jamais sur
+// le bloc de liste. Le repli ferait alterner deux rawContent d'un run a
+// l'autre -- deux hashes, une reextraction payante a chaque bascule, et des
+// champs vides a chaque retour au bloc de liste. L'appel est ecarte, sa revue
+// passe dans issnBloques et l'appel en base est preserve tel quel.
+
+const ENTREE = { metaTitle: 'SI', url: 'https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers/si-1', rawContent: '<div>bloc de liste</div>', gabarit: 'liste' };
+
+test('une source lue remplace le rawContent', () => {
+    assert.deepEqual(resoudreEntree(ENTREE, 'page', '<div>texte complet</div>'), { entry: { ...ENTREE, rawContent: '<div>texte complet</div>' } });
+    assert.deepEqual(resoudreEntree(ENTREE, 'pdf', 'texte du pdf'), { entry: { ...ENTREE, rawContent: 'texte du pdf' } });
+});
+
+test('une source prevue et illisible preserve l appel, sans repli sur le bloc de liste', () => {
+    for (const source of ['page', 'page-societe', 'pdf']) {
+        assert.deepEqual(resoudreEntree(ENTREE, source, null), { preserver: true }, source);
+        assert.deepEqual(resoudreEntree(ENTREE, source, ''), { preserver: true }, `${source}, texte vide`);
+    }
+});
+
+test('un lien externe garde le bloc de liste, sans rien lire', () => {
+    assert.deepEqual(resoudreEntree(ENTREE, 'liste', null), { entry: ENTREE });
+});
+
+// Page de detail de l'hote principal : le texte de l'appel est dans
+// .publications-page-body .main-content, avec ou sans .pb-rich-text
+// (Expert Systems et Journal of Business Logistics n'en ont pas). Mesure sur
+// 69 pages : quand un .pb-rich-text existe, ce conteneur en a exactement le
+// texte ; la barre laterale (alertes courriel) est hors du conteneur.
+
+const pageDetail = corps => `<div class="publications-page-body"><div class="container"><div class="row"><div class=" col-md-12">
+    <div class="gutterless--md main-content col-md-8">${corps}</div>
+    <div class="gutterless--md col-md-4"><div class="journal-sidebar">Sign up for email alerts</div></div>
+    </div></div></div></div>`;
+const TEXTE = `<h2>Call for Papers</h2><h3>LLMs and Agentic AI in Healthcare</h3><p>Submission deadline: Sunday, 31 January 2027</p><p>${'Theme text. '.repeat(30)}</p>`;
+
+test('le detail de l hote principal se lit sans .pb-rich-text', () => {
+    const detail = extraire_detail_page(pageDetail(TEXTE));
+    assert.match(detail, /31 January 2027/);
+    assert.doesNotMatch(detail, /email alerts/);
+});
+
+test('le detail de l hote principal a le meme texte avec .pb-rich-text', () => {
+    const avec = extraire_detail_page(pageDetail(`<div class="pb-rich-text">${TEXTE}</div>`));
+    assert.match(avec, /LLMs and Agentic AI in Healthcare/);
+});
+
+test('les scripts du conteneur ne passent pas dans le rawContent', () => {
+    assert.doesNotMatch(extraire_detail_page(pageDetail(`${TEXTE}<script>googletag.cmd.push()</script>`)), /googletag/);
+});
+
+test('une page de detail sans conteneur ou sans texte ne rend rien', () => {
+    assert.equal(extraire_detail_page('<main><p>Error 404</p></main>'), null);
+    assert.equal(extraire_detail_page(pageDetail('<p>Court</p>')), null);
 });

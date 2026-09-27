@@ -4,6 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { getJournalsByPublisher } from '../issnMatcher.mjs';
 import { estHorsInterstitiel } from '../cloudflare.mjs';
+import { getContent } from '../fileParser.mjs';
 
 const PUBLISHER_NAME = 'Wiley';
 
@@ -173,6 +174,64 @@ export function extraire_detail(html) {
     return $.html(blocs[0]);
 }
 
+// Texte complet d'un appel sur sa page de detail de l'hote principal. Un
+// seul conteneur pour toutes les pages, plutot que « .pb-rich-text, sinon
+// autre chose » : une page ne peut pas basculer d'un selecteur a l'autre.
+// Mesure le 2026-09-27 sur 69 pages : present partout ; sur les 66 qui ont
+// un .pb-rich-text, meme texte au caractere pres ; sur les 3 autres (Expert
+// Systems, Journal of Business Logistics), l'appel complet, echeance et
+// editeurs compris. La barre laterale (alertes courriel) est hors du
+// conteneur. null sous 200 caracteres.
+// Fonction pure, exportee pour test.
+export function extraire_detail_page(html) {
+    const $ = cheerio.load(html);
+    const bloc = $('.publications-page-body .main-content').first();
+    if (!bloc.length) return null;
+    bloc.find('script, style, noscript').remove();
+    if (bloc.text().replace(/\s+/g, ' ').trim().length < TEXTE_DETAIL_MIN) return null;
+    return $.html(bloc);
+}
+
+// D'ou vient le rawContent d'un appel, d'apres son seul lien :
+//   'page'         page de l'hote principal -> extraire_detail_page
+//   'page-societe' page d'un sous-domaine societe -> extraire_detail
+//   'pdf'          PDF servi par Wiley (pb-assets) -> texte du PDF
+//   'liste'        tout autre lien (site externe, PDF hors Wiley) -> bloc de
+//                  liste, sans suivre le lien
+// Le type ne depend que du lien, jamais de ce qu'on a pu lire : la source
+// d'un appel ne bascule pas d'un run a l'autre, son hash non plus.
+// Fonction pure, exportee pour test.
+export function sourceDuLien(url) {
+    let u;
+    try { u = new URL(url); } catch { return 'liste'; }
+    const wiley = u.host === 'onlinelibrary.wiley.com' || u.host.endsWith('.onlinelibrary.wiley.com');
+    if (!wiley) return 'liste';
+    if (/\.pdf$/i.test(u.pathname)) return 'pdf';
+    return u.host === 'onlinelibrary.wiley.com' ? 'page' : 'page-societe';
+}
+
+// Suit-on le lien d'une entree ? Oui sur un sous-domaine societe (tous
+// gabarits), et sur l'hote principal pour le seul gabarit de liste. Les
+// groupes de l'ancien gabarit portent deja le texte de l'appel : les suivre
+// changerait leur hash sans rien apporter.
+// Fonction pure, exportee pour test.
+export function doitSuivre(pageUrl, entry) {
+    return estSousDomaineSociete(pageUrl) || entry.gabarit === 'liste';
+}
+
+// Lecture de la source prevue (texte, ou null si illisible) -> entree a
+// publier, ou { preserver: true }. Jamais de repli sur le bloc de liste
+// quand la source prevue est illisible : le rawContent alternerait entre
+// deux formes d'un run a l'autre, avec une reextraction a chaque bascule et
+// des champs vides a chaque retour au bloc de liste. L'appelant ecarte
+// l'appel et preserve celui en base (issnBloques).
+// Fonction pure, exportee pour test.
+export function resoudreEntree(entry, source, lecture) {
+    if (source === 'liste') return { entry };
+    if (!lecture || !lecture.trim()) return { preserver: true };
+    return { entry: { ...entry, rawContent: lecture } };
+}
+
 // Meme structure de contenu que decouverte precedemment : la page melange
 // trois sections sous des h2 distincts, seule la premiere nous interesse :
 //   "Special Issue Calls for Papers"   -> les vrais appels ouverts (garde)
@@ -223,29 +282,39 @@ export const scraperObject = {
         let debloquees = 0;
         const revuesSms = journals.filter(j => ISSN_SMS.has(j.issn));
         const commune = { appels: 0, ecartes: 0, bloquee: null };
-        const details = { suivis: 0, echecs: 0 };
+        const details = { page: 0, pdf: 0, liste: 0, echecs: 0 };
         const sousDomaines = [];
 
-        // Sur un sous-domaine societe, le bloc de liste ne porte que le titre
-        // et une echeance (parfois celle d'un atelier) : on lit la page de
-        // detail de chaque appel, qui devient url et rawContent. Un detail
+        // Le bloc de liste ne porte que le titre et une echeance (parfois
+        // celle d'un atelier) : on lit la source que designe le lien de
+        // l'appel (cf sourceDuLien), qui devient son rawContent. Une source
         // illisible fait ecarter l'appel et preserver ceux de la revue en
-        // base, plutot que de publier le bloc de liste, qui changerait le
-        // hash au passage suivant. Un lien hors sous-domaine ou vers un PDF
-        // garde le bloc de liste.
-        const lireDetail = async (page, entry, issn, journalName) => {
-            if (!estSousDomaineSociete(entry.url) || /\.pdf($|\?)/i.test(entry.url)) return entry;
-            const resultat = await find_page(page, journalName, [entry.url]);
-            requetes += resultat.requetes;
-            const detail = resultat.page ? extraire_detail(resultat.page.html) : null;
-            if (!detail) {
+        // base, jamais retomber sur le bloc de liste (cf resoudreEntree).
+        const lireSource = async (page, entry, issn, journalName) => {
+            const source = sourceDuLien(entry.url);
+            let lecture = null;
+            let motif = null;
+            if (source === 'page' || source === 'page-societe') {
+                const resultat = await find_page(page, journalName, [entry.url]);
+                requetes += resultat.requetes;
+                motif = resultat.motif ?? 'aucun bloc de texte';
+                if (resultat.page) {
+                    lecture = source === 'page' ? extraire_detail_page(resultat.page.html) : extraire_detail(resultat.page.html);
+                }
+            } else if (source === 'pdf') {
+                requetes += 1;
+                motif = 'PDF illisible';
+                lecture = await lire_pdf(page, entry.url, journalName);
+            }
+            const resolu = resoudreEntree(entry, source, lecture);
+            if (resolu.preserver) {
                 details.echecs += 1;
                 this.issnBloques.push(issn);
-                console.warn(`[wiley] "${journalName}" : page de detail illisible (${resultat.motif ?? 'aucun bloc de texte'}) sur ${entry.url}, appel ecarte, appels en base preserves`);
+                console.warn(`[wiley] "${journalName}" : source ${source} illisible (${motif}) sur ${entry.url}, appel ecarte, appels en base preserves`);
                 return null;
             }
-            details.suivis += 1;
-            return { ...entry, url: resultat.page.url, rawContent: detail };
+            details[source === 'page-societe' ? 'page' : source] += 1;
+            return resolu.entry;
         };
 
         const ajouter = (journal, issn, entry) => calls.push({
@@ -272,9 +341,8 @@ export const scraperObject = {
 
             const entries = extract_entries(resultat.page.html, resultat.page.url, journal.nomOpenalex);
             if (entries.length) avecAppels += 1;
-            const societe = estSousDomaineSociete(resultat.page.url);
             for (const entry of entries) {
-                const lue = societe ? await lireDetail(page, entry, journal.issn, journal.nomOpenalex) : entry;
+                const lue = doitSuivre(resultat.page.url, entry) ? await lireSource(page, entry, journal.issn, journal.nomOpenalex) : entry;
                 if (lue) ajouter(journal.nomOpenalex, journal.issn, lue);
             }
             return null;
@@ -311,7 +379,7 @@ export const scraperObject = {
                 console.warn(`[wiley] Page commune SMS : appel ecarte, aucune revue de la table ne correspond au titre "${titre}"`);
             }
             for (const appel of appels) {
-                const lue = await lireDetail(page, appel, appel.issn, appel.journal);
+                const lue = await lireSource(page, appel, appel.issn, appel.journal);
                 if (!lue) continue;
                 commune.appels += 1;
                 ajouter(appel.journal, appel.issn, lue);
@@ -391,7 +459,7 @@ export function formaterBilan({ total, atteintes, avecAppels, debloquees = 0, sa
             : `[wiley]   page commune SMS ${commune.appels} appel(s), ${commune.ecartes} ecarte(s) faute de revue reconnue`);
     }
     if (details) {
-        lignes.push(`[wiley]   pages de detail ${details.suivis} (${details.echecs} echec(s), appels en base preserves)`);
+        lignes.push(`[wiley]   sources lues ${details.page} page(s) de detail, ${details.pdf} PDF, ${details.liste} bloc(s) de liste ; ${details.echecs} echec(s), appels en base preserves`);
     }
     if (sousDomaines) {
         lignes.push(sousDomaines.length
@@ -570,6 +638,49 @@ async function find_page(page, journalName, urls) {
     return { motif: classerTentatives(tentatives), requetes };
 }
 
+// Texte d'un PDF Wiley, ou null. Meme chaine que sageScraper : fetch DANS la
+// page, qui porte les cookies du profil (cf_clearance) et l'empreinte du
+// navigateur -- un fetch Node ou curl prend le challenge Cloudflare -- puis
+// pdfjs via getContent. La page doit etre sur l'origine du PDF, sans quoi
+// le fetch casse sur CORS : c'est le cas, les PDF (pb-assets) sont servis
+// par l'hote de la page d'appels qui vient d'etre lue. Pas de repli sur le
+// bloc de liste, cf resoudreEntree.
+async function lire_pdf(page, url, journalName) {
+    if (new URL(page.url()).origin !== new URL(url).origin) {
+        console.warn(`[wiley] "${journalName}" : PDF ${url} hors de l'origine de la page (${page.url()}), non lu`);
+        return null;
+    }
+    await sleep(REQUEST_DELAY_MS);
+    let resultat;
+    try {
+        resultat = await page.evaluate(async (adresse) => {
+            const reponse = await fetch(adresse, { credentials: 'include' });
+            const octets = new Uint8Array(await reponse.arrayBuffer());
+            // Par tranches : String.fromCharCode sur un grand tableau depasse
+            // la taille d'appel maximale.
+            let binaire = '';
+            for (let i = 0; i < octets.length; i += 8192) {
+                binaire += String.fromCharCode(...octets.subarray(i, i + 8192));
+            }
+            return { status: reponse.status, type: reponse.headers.get('content-type') ?? '', base64: btoa(binaire) };
+        }, url);
+    } catch (error) {
+        console.warn(`[wiley] "${journalName}" : telechargement impossible du PDF ${url} : ${error.message.split('\n')[0]}`);
+        return null;
+    }
+    if (resultat.status !== 200 || !/pdf/i.test(resultat.type)) {
+        console.warn(`[wiley] "${journalName}" : PDF ${url} en statut ${resultat.status}, type "${resultat.type}"`);
+        return null;
+    }
+    try {
+        const texte = await getContent(Buffer.from(resultat.base64, 'base64'), 'pdf');
+        return texte && texte.trim() ? texte : null;
+    } catch (error) {
+        console.warn(`[wiley] "${journalName}" : PDF ${url} illisible : ${error.message}`);
+        return null;
+    }
+}
+
 // Hote ou aboutit la page d'accueil de la revue, apres redirection, ou null
 // si elle n'a pas pu etre lue.
 async function hote_accueil(page, issn) {
@@ -727,6 +838,7 @@ function extract_listing_items($, pageUrl) {
                 metaTitle: link.text().trim(),
                 url: new URL(link.attr('href'), pageUrl).href,
                 rawContent: $.html(item),
+                gabarit: 'liste',
             };
         })
         .filter(entry => entry && entry.metaTitle && entry.url);
