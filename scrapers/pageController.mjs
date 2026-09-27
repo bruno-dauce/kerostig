@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { integrateCalls } from './diffChecker.mjs';
 import { depasseSeuilEchec, formaterResumeAlertes, publierResumeCI } from './alerteCI.mjs';
+import { bilanDesactivations, formaterResumeDesactivations } from './bilanDesactivations.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -79,6 +80,17 @@ export function retenirModulesValides(charges) {
     });
 }
 
+// Etat de calls.json, null s'il est illisible : le bilan des desactivations
+// est un signal, il ne doit jamais faire tomber le passage.
+async function lireAppels() {
+    try {
+        return JSON.parse(await fs.readFile('./www/_data/calls.json', 'utf8'));
+    } catch (err) {
+        console.warn(`[pageController] calls.json illisible, bilan des desactivations saute : ${err.message}`);
+        return null;
+    }
+}
+
 export async function scrapeAll(browserInstance) {
     let browser;
     try {
@@ -122,9 +134,20 @@ export async function scrapeAll(browserInstance) {
         const revuesBloquees = modules.flatMap(module =>
             (module.scraperObject.issnBloques ?? []).map(issn => ({ abbreviation: module.scraperObject.abbreviation, issn })));
 
+        const avant = await lireAppels();
         const alertes = await integrateCalls(issues, ranAbbreviations, revuesBloquees);
 
         await publierResumeCI(formaterResumeAlertes(alertes, ranAbbreviations.length));
+        // Desactivations suspectes (echeance future ou inconnue), par
+        // editeur : le delai de grace les garde affichees, le resume du run
+        // les montre avant que la donnee fausse ne s'installe.
+        if (avant) {
+            const bilan = bilanDesactivations(avant, await lireAppels());
+            if (bilan.suspectes.total > 0) {
+                console.warn(`[pageController] ${bilan.suspectes.total} desactivation(s) suspecte(s) : ${JSON.stringify(bilan.suspectes.parEditeur)}`);
+            }
+            await publierResumeCI(formaterResumeDesactivations(bilan));
+        }
         if (depasseSeuilEchec(alertes.length, ranAbbreviations.length)) {
             console.error(`\n[pageController] ${alertes.length} scraper(s) en alerte sur ${ranAbbreviations.length} : passage traite comme une panne.`);
             process.exitCode = 1;

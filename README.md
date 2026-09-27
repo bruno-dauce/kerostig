@@ -59,8 +59,8 @@ Le script enchaîne les étapes suivantes :
 2. Il récupère le dernier passage de la CI (`git pull --ff-only`).
 3. Il collecte les quatre éditeurs. Chrome s'ouvre : il ne faut pas le fermer. Les quatre éditeurs sont collectés en parallèle : Wiley prend environ 3 minutes, SAGE autant. L'extraction des nouveaux appels par le modèle s'ajoute.
 4. Il régénère les flux RSS.
-5. Il affiche le bilan : nouveaux appels, appels réactivés, appels désactivés par éditeur.
-6. Il committe, puis pousse. Si plus de 5 appels ont été désactivés, ou si une étape a échoué, il demande confirmation avant de pousser. En cas de refus, le commit reste local.
+5. Il affiche le bilan : nouveaux appels, appels réactivés, appels désactivés par éditeur. Il isole les désactivations suspectes, c'est-à-dire les appels désactivés alors que leur échéance est future ou inconnue.
+6. Il committe, puis pousse. Si plus de 5 désactivations sont suspectes, ou si une étape a échoué, il demande confirmation avant de pousser. Les appels clos qui passent en archive ne comptent pas. En cas de refus, le commit reste local.
 
 Wiley ne revérifie qu'une fois par semaine les revues confirmées sans page d'appels. Pour toutes les revérifier, par exemple après l'ajout d'un chemin dans le scraper, ajoutez une option (environ 20 minutes de plus) :
 

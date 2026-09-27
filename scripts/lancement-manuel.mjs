@@ -6,7 +6,8 @@
 //
 // Etapes : verifications, git pull, scraping des quatre editeurs, flux RSS,
 // bilan des appels desactives par editeur, commit, puis push -- apres
-// confirmation si plus de 5 appels ont ete desactives ou si une etape a
+// confirmation si plus de 5 appels ont ete desactives alors que leur echeance
+// est future ou inconnue (desactivations suspectes), ou si une etape a
 // echoue. Les options supplementaires sont transmises au scraper.
 
 import { spawnSync } from 'child_process';
@@ -94,9 +95,9 @@ console.log(`\n[manuel] Commit cree : ${executer('git', ['log', '--oneline', '-1
 
 // 7. Push, apres confirmation si le passage est suspect.
 const codeSortie = scraping.code || rss.code;
-if (doitConfirmer({ total: bilan.total, codeSortie })) {
-    const motif = bilan.total > SEUIL_CONFIRMATION
-        ? `${bilan.total} appels desactives (seuil : ${SEUIL_CONFIRMATION})`
+if (doitConfirmer({ suspectes: bilan.suspectes.total, codeSortie })) {
+    const motif = bilan.suspectes.total > SEUIL_CONFIRMATION
+        ? `${bilan.suspectes.total} appels desactives avec une echeance future ou inconnue (seuil : ${SEUIL_CONFIRMATION})`
         : 'une etape a echoue';
     const ok = await demander(`\n[manuel] Confirmation requise : ${motif}. Pousser quand meme ? (o/N) `);
     if (!ok) {
