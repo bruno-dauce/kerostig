@@ -162,10 +162,13 @@
       <a href="{{ ('/journal/' + revue.slug + '/') | url }}" class="text-sm hover:underline">{{ revue.titre }}</a>
       <span class="flex flex-wrap items-center gap-1.5 flex-shrink-0">
         {# Meme lien que le badge de rang des cartes (cf. call-card.html) : l'accueil
-           pre-filtre, en conservant la discipline de la page quittee. #}
-        <a href="{{ '/' | url }}?rang={{ revue.rang_fnege_2025 | urlencode }}&amp;disc={{ discipline.code | urlencode }}"
+           pre-filtre, en conservant la discipline de la page quittee. Une revue en
+           conflit FNEGE affiche un badge par rang (cf. corrections-issn.json). #}
+        {% for r in revue | rangsFnege %}
+        <a href="{{ '/' | url }}?rang={{ r | urlencode }}&amp;disc={{ discipline.code | urlencode }}"
            class="badge badge-sm badge-outline font-semibold transition-colors hover:bg-primary/10"
-           style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</a>
+           style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ r }}</a>
+        {% endfor %}
         {% if revue.acces_ouvert.est_oa %}
         <span class="badge badge-sm badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C" title="{{ srcOa.infobulle(revue) }}">accès ouvert</span>
         {% endif %}

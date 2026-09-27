@@ -86,7 +86,14 @@ const recents = calls
             // Nom d'affichage de journals.json, jamais le texte brut scrape ;
             // call.journal ne sert que si la jointure echoue.
             journal: (revue && revue.titre) || call.journal || "revue inconnue",
+            // Cle de tri : toujours le rang unique retenu, pour grouper une revue
+            // en conflit FNEGE (cf. corrections-issn.json) avec les autres du meme
+            // rang plutot que de la rejeter en fin de liste (positionRang ne
+            // reconnait aucun des rangs de rangAffiche s'il en contient plusieurs).
             rang: (revue && revue.rang_fnege_2025) || null,
+            // Libelle affiche : les deux rangs si la revue est en conflit FNEGE.
+            rangAffiche: (revue && revue.rangs_fnege_2025 && revue.rangs_fnege_2025.join(" et "))
+                || (revue && revue.rang_fnege_2025) || null,
             echeance: echeanceSoumission(call.dates),
         };
     })
@@ -111,7 +118,7 @@ if (recents.length === 0) {
     for (const appel of recents) {
         // Valeur absente explicite des deux cotes : ni rang invente pour une
         // revue hors classement, ni echeance deduite d'une autre date.
-        const rang = appel.rang ? `FNEGE ${appel.rang}` : "FNEGE non classée";
+        const rang = appel.rangAffiche ? `FNEGE ${appel.rangAffiche}` : "FNEGE non classée";
         const echeance = appel.echeance
             ? `échéance ${enFrancais(appel.echeance)}`
             : "échéance non précisée";

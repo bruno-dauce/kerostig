@@ -10,7 +10,7 @@
     "scrape": "node --env-file .env ./scrapers/scraper.mjs",
     "rss": "node ./scrapers/feedgen.mjs",
     "test": "node --env-file .env ./scrapers/scraper.mjs",
-    "test:unit": "cross-env OPENAI_API_KEY=cle-factice-tests node --test \"scrapers/**/*.test.mjs\" \"enrichissement/**/*.test.mjs\"",
+    "test:unit": "cross-env OPENAI_API_KEY=cle-factice-tests node --test \"scrapers/**/*.test.mjs\" \"enrichissement/**/*.test.mjs\" \"www/**/*.test.mjs\"",
     "manuel": "node ./scripts/lancement-manuel.mjs"
   },
   "repository": {
