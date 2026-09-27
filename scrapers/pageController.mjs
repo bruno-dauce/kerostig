@@ -2,8 +2,9 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { integrateCalls } from './diffChecker.mjs';
-import { depasseSeuilEchec, formaterResumeAlertes, publierResumeCI } from './alerteCI.mjs';
+import { depasseSeuilEchec, formaterResumeAlertes, formaterResumeGardeFou, publierResumeCI } from './alerteCI.mjs';
 import { bilanDesactivations, formaterResumeDesactivations } from './bilanDesactivations.mjs';
+import { depassementsGardeFou } from './llmParser.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -148,6 +149,9 @@ export async function scrapeAll(browserInstance) {
             }
             await publierResumeCI(formaterResumeDesactivations(bilan));
         }
+        // Descriptions encore trop longues ou trop copiees apres la relance
+        // de llmParser.mjs : rien n'est rejete, juste rendu visible.
+        await publierResumeCI(formaterResumeGardeFou(depassementsGardeFou));
         if (depasseSeuilEchec(alertes.length, ranAbbreviations.length)) {
             console.error(`\n[pageController] ${alertes.length} scraper(s) en alerte sur ${ranAbbreviations.length} : passage traite comme une panne.`);
             process.exitCode = 1;

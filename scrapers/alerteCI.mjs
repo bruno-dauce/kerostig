@@ -50,6 +50,29 @@ export function formaterResumeAlertes(alertes, nbScrapers) {
     return lignes.join('\n');
 }
 
+// Descriptions qui depassent encore la longueur (LIMITE_EXTRAIT_CARACTERES)
+// ou le taux de copie (30 %, sequences de 8 mots) apres la relance de
+// llmParser.mjs. Rien n'est rejete ni reecrit ici : ce resume rend juste
+// visible ce qu'une relance automatique n'a pas suffi a corriger.
+// Fonction pure, exportee pour test.
+export function formaterResumeGardeFou(depassements) {
+    if (depassements.length === 0) return '';
+
+    const lignes = [
+        `## Descriptions a revoir malgre la relance : ${depassements.length}`,
+        '',
+        '| Appel | Longueur | Taux de copie |',
+        '| --- | ---: | ---: |',
+    ];
+    for (const { slug, longueur, tauxCopie } of depassements) {
+        const taux = tauxCopie === null ? '—' : `${Math.round(tauxCopie * 100)} %`;
+        lignes.push(`| ${slug ?? '(sans slug)'} | ${longueur} | ${taux} |`);
+    }
+    lignes.push('');
+    lignes.push("La relance automatique n'a pas suffi pour ces appels : le resultat est conserve tel quel, a revoir a la main si besoin.");
+    return lignes.join('\n');
+}
+
 // GITHUB_STEP_SUMMARY n'existe qu'en CI. Hors CI on ne fait rien, sans lever.
 export async function publierResumeCI(resume, env = process.env) {
     if (!resume) return false;
