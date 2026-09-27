@@ -151,7 +151,10 @@ jobs:
       # Wiley, SAGE, Emerald et INFORMS sont exclus du passage hebdomadaire : Cloudflare
       # bloque les IP des runners GitHub (constate du 2026-08-17 au 2026-09-27,
       # cf wileyScraper.mjs et sageScraper.mjs), alors que le navigateur les lit
-      # depuis le poste local. Ils se lancent a la main avec
+      # depuis le poste local. Elsevier les rejoint le 2026-09-27 : lance a la
+      # main depuis ce jour (constat de l'operateur du depot), sans qu'on ait
+      # ici la meme preuve datee d'un blocage specifique aux runners GitHub que
+      # pour les quatre autres. Ces cinq editeurs se lancent a la main avec
       # scripts/lancement-manuel.mjs (voir README). --sauf laisse leurs appels
       # intacts, comme pour tout scraper non lance. Un declenchement manuel
       # avec only garde la main et peut toujours les viser.
@@ -160,7 +163,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           MODEL_NAME: ${{ secrets.MODEL_NAME }}
-        run: xvfb-run node ./scrapers/scraper.mjs ${{ inputs.only && format('--only {0}', inputs.only) || '--sauf wiley,sage,emerald,informs' }}
+        run: xvfb-run node ./scrapers/scraper.mjs ${{ inputs.only && format('--only {0}', inputs.only) || '--sauf wiley,sage,emerald,informs,elsevier' }}
       - name: Inspect profile after scraping
         if: always()
         continue-on-error: true
