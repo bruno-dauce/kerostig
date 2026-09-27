@@ -77,15 +77,15 @@ test('--only sans valeur exploitable ne filtre rien', () => {
     assert.equal(analyserFiltreOnly(' , , '), null);
 });
 
-// Wiley, SAGE et Emerald sont bloques par Cloudflare depuis les runners
+// Wiley, SAGE, Emerald et INFORMS sont bloques par Cloudflare depuis les runners
 // GitHub (IP de datacenter) et se lancent a la main depuis le poste local.
 // Le workflow les exclut avec --sauf : leurs appels ne sont alors pas touches,
 // comme pour tout scraper non lance.
 
 test('--sauf exclut les scrapers nommes et garde tous les autres', () => {
     assert.deepEqual(
-        filtrerParSauf(FICHIERS, analyserFiltreOnly('wiley,sage,emerald')),
-        ['aomScraper.mjs', 'elsevierScraper.mjs', 'informsScraper.mjs', 'springerScraper.mjs', 'tfScraper.mjs']
+        filtrerParSauf(FICHIERS, analyserFiltreOnly('wiley,sage,emerald,informs')),
+        ['aomScraper.mjs', 'elsevierScraper.mjs', 'springerScraper.mjs', 'tfScraper.mjs']
     );
 });
 

@@ -1,10 +1,10 @@
-// Lancement manuel des editeurs bloques en CI (Wiley, SAGE, Emerald), depuis
+// Lancement manuel des editeurs bloques en CI (Wiley, SAGE, Emerald, INFORMS), depuis
 // le poste local ou le navigateur franchit Cloudflare. Voir README.md.
 //
 //   npm.cmd run manuel
 //   npm.cmd run manuel -- --reverifier-wiley
 //
-// Etapes : verifications, git pull, scraping des trois editeurs, flux RSS,
+// Etapes : verifications, git pull, scraping des quatre editeurs, flux RSS,
 // bilan des appels desactives par editeur, commit, puis push -- apres
 // confirmation si plus de 5 appels ont ete desactives ou si une etape a
 // echoue. Les options supplementaires sont transmises au scraper.
@@ -16,7 +16,7 @@ import readline from 'readline/promises';
 import { fileURLToPath } from 'url';
 import { bilanDesactivations, formaterBilanDesactivations, doitConfirmer, SEUIL_CONFIRMATION } from '../scrapers/bilanDesactivations.mjs';
 
-const EDITEURS = 'wiley,sage,emerald';
+const EDITEURS = 'wiley,sage,emerald,informs';
 const OPTIONS_CONNUES = ['--reverifier-wiley'];
 const CALLS_PATH = path.join('www', '_data', 'calls.json');
 

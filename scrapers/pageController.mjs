@@ -36,7 +36,7 @@ export function filtrerParOnly(fichiers, termes) {
 
 // --sauf <noms> : l'inverse de --only, tous les scrapers sauf ceux-la. Sert
 // au workflow CI, qui exclut les editeurs bloques depuis les runners GitHub
-// (Wiley, SAGE, Emerald) et lances a la main depuis le poste local. Leurs
+// (Wiley, SAGE, Emerald, INFORMS) et lances a la main depuis le poste local. Leurs
 // appels ne sont pas touches, comme ceux de tout scraper non lance.
 // Fonction pure, exportee pour test.
 export function filtrerParSauf(fichiers, termes) {
