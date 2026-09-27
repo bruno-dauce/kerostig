@@ -3,3 +3,29 @@
 # "$'\r': command not found" difficile a relier a sa cause. On force donc LF
 # dans le depot pour tout ce qui est execute par bash en CI.
 *.sh text eol=lf
+
+# Etendu au reste du depot le 2026-09-28 : sans regle explicite, Git ne fait
+# que deviner via core.autocrlf (ambigu et par machine), et previent a tort
+# d'une conversion a chaque git add/status/diff sur des fichiers dont les
+# fins de ligne dans le depot etaient deja correctes -- constate sur
+# calls.json et les runs de lancement-manuel.mjs, dont le bilan de fin de
+# run se retrouvait noye dans ces avertissements. text=auto force LF dans le
+# depot pour tout fichier detecte comme texte, sur toutes les machines.
+#
+# N'annule pas retroactivement les fichiers deja commites en CRLF avant
+# cette regle : seul un futur commit de renormalisation (git add
+# --renormalize .) les alignerait, deliberement pas fait ici.
+* text=auto eol=lf
+
+# Binaires connus, pour ne jamais dependre de la detection automatique de
+# text=auto sur ces types.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.pdf binary
