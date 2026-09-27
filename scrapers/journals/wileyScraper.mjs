@@ -46,9 +46,13 @@ const PATH_CANDIDATES = [
     { prefix: 'page', path: 'call-for-papers' },
     { prefix: 'plain', path: 'specialissues' },
     { prefix: 'plain', path: 'calls-for-papers' },
+    // Constate le 2026-09-27 sur Journal of Organizational Behavior : 5 appels
+    // ouverts a cette adresse, la revue passait pour absente.
+    { prefix: 'plain', path: 'call-for-papers' },
 ];
 
-function build_urls(issn) {
+// Fonction pure, exportee pour test.
+export function build_urls(issn) {
     const issnSlug = issn.replace(/-/g, '').toLowerCase();
     return PATH_CANDIDATES.map(c => c.prefix === 'page'
         ? `https://onlinelibrary.wiley.com/page/journal/${issnSlug}/${c.path}`

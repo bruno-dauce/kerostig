@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { classerTentatives, ordonnerUrls, formaterBilan, extract_entries, lireEntree, doitVerifier, noterResultat } from './wileyScraper.mjs';
+import { classerTentatives, ordonnerUrls, formaterBilan, extract_entries, lireEntree, doitVerifier, noterResultat, build_urls } from './wileyScraper.mjs';
 
 // Le compteur de fin de run rangeait tout echec sous « aucun des chemins
 // d'URL essayes n'a repondu ». Verifie le 2026-09-03 sur quatre revues
@@ -161,4 +161,18 @@ test('un blocage ou une erreur reseau ne touche pas l entree', () => {
     const entree = { absences: 1, verifie: ilYa(2) };
     assert.deepEqual(noterResultat(entree, { motif: 'bloque' }, MAINTENANT), entree);
     assert.deepEqual(noterResultat({ chemin: 'u' }, { motif: 'reseau' }, MAINTENANT), { chemin: 'u' });
+});
+
+// Journal of Organizational Behavior publie ses appels a
+// /journal/{id}/call-for-papers (singulier, sans /page/ ni /homepage/) :
+// 5 appels ouverts le 2026-09-27, alors que la revue passait pour absente.
+test('le chemin /journal/{id}/call-for-papers fait partie des candidats', () => {
+    const urls = build_urls('1099-1379');
+    assert.ok(urls.includes('https://onlinelibrary.wiley.com/journal/10991379/call-for-papers'));
+    assert.ok(urls.includes('https://onlinelibrary.wiley.com/journal/10991379/calls-for-papers'), 'la variante au pluriel reste essayee');
+    assert.equal(new Set(urls).size, urls.length, 'aucun candidat en double');
+});
+
+test('les candidats utilisent l ISSN sans tiret et en minuscules', () => {
+    assert.ok(build_urls('1475-679X').every(url => url.includes('/1475679x/')));
 });
