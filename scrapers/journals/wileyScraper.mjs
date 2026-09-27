@@ -51,13 +51,126 @@ const PATH_CANDIDATES = [
     { prefix: 'plain', path: 'call-for-papers' },
 ];
 
+// Revues servies par un sous-domaine societe. Constat du 2026-09-27 : sur les
+// 108 revues Wiley, 9 ont une page d'accueil qui redirige vers
+// {societe}.onlinelibrary.wiley.com. Leurs pages d'appels y vivent sous
+// /hub/journal/{id}/..., prefixe que l'hote principal ne redirige pas : les
+// candidats ci-dessus y prennent tous un 404, et ces 9 revues passaient pour
+// absentes. Chaque URL a ete trouvee par le lien « Call for Papers » de la
+// page d'accueil de la revue, pas deduite d'un schema.
+export const PAGES_SOCIETE = {
+    // Applied Psychology (IAAP)
+    '1464-0597': 'https://iaap-journals.onlinelibrary.wiley.com/hub/journal/14640597/homepage/call-for-papers',
+    // British Educational Research Journal (BERA)
+    '1469-3518': 'https://bera-journals.onlinelibrary.wiley.com/hub/journal/14693518/call-for-papers',
+    // British Journal of Educational Technology (BERA)
+    '1467-8535': 'https://bera-journals.onlinelibrary.wiley.com/hub/journal/14678535/bjet_special_issues.htm',
+};
+
+// Page commune de la Strategic Management Society : les appels de ses trois
+// revues sur une seule page, sans page propre a chacune (le lien « Call for
+// Papers » des trois pages d'accueil y mene). Chaque appel est rattache par
+// le debut de son titre (« Strategic Entrepreneurship Journal Special Issue:
+// ... »), jamais par son slug : le 2026-09-27, un appel SEJ avait pour URL
+// .../smj-judgment-ecosystems.
+export const PAGE_COMMUNE_SMS = {
+    url: 'https://sms.onlinelibrary.wiley.com/hub/call-for-papers/',
+    revues: [
+        { prefixe: 'Strategic Management Journal', issn: '1097-0266' },
+        { prefixe: 'Strategic Entrepreneurship Journal', issn: '1932-443X' },
+        { prefixe: 'Global Strategy Journal', issn: '2042-5805' },
+    ],
+};
+const ISSN_SMS = new Set(PAGE_COMMUNE_SMS.revues.map(r => r.issn));
+
+// Sous-domaines verifies le 2026-09-27 sans page d'appels a lire : JOOP
+// (BPS) n'a qu'une page de numeros publies, JASIST et ARIST (ASIS&T) aucune
+// page au format appel. Connus, ils ne declenchent pas le signalement « a
+// completer » du bilan.
+const SOUS_DOMAINES_SANS_APPELS = {
+    '2044-8325': 'bpspsychub.onlinelibrary.wiley.com',
+    '2330-1643': 'asistdl.onlinelibrary.wiley.com',
+    '1550-8382': 'asistdl.onlinelibrary.wiley.com',
+};
+
 // Fonction pure, exportee pour test.
 export function build_urls(issn) {
     const issnSlug = issn.replace(/-/g, '').toLowerCase();
-    return PATH_CANDIDATES.map(c => c.prefix === 'page'
+    const candidats = PATH_CANDIDATES.map(c => c.prefix === 'page'
         ? `https://onlinelibrary.wiley.com/page/journal/${issnSlug}/${c.path}`
         : `https://onlinelibrary.wiley.com/journal/${issnSlug}/${c.path}`
     );
+    return PAGES_SOCIETE[issn] ? [PAGES_SOCIETE[issn], ...candidats] : candidats;
+}
+
+// Fonction pure, exportee pour test.
+export function estSousDomaineSociete(url) {
+    try {
+        return new URL(url).host.endsWith('.onlinelibrary.wiley.com');
+    } catch {
+        return false;
+    }
+}
+
+// Que signaler quand une revue absente a une page d'accueil servie par
+// hote ? null : hote principal, rien a signaler. 'connu-sans-appels' :
+// sous-domaine deja verifie. 'a-completer' : sous-domaine a ajouter a
+// PAGES_SOCIETE -- y compris une revue qui y figure deja, sa page ayant
+// alors change d'adresse.
+// Fonction pure, exportee pour test.
+export function classerRedirection(issn, hote) {
+    if (!hote || !hote.endsWith('.onlinelibrary.wiley.com')) return null;
+    if (SOUS_DOMAINES_SANS_APPELS[issn] === hote) return 'connu-sans-appels';
+    return 'a-completer';
+}
+
+const normaliserTitre = texte => (texte ?? '').replace(/\s+/g, ' ').trim().toLowerCase();
+
+// ISSN de la revue dont le nom ouvre le titre, ou null. Nom complet
+// uniquement, suivi d'une limite de mot : ni sigle, ni recherche dans le
+// corps du titre -- un appel non reconnu est ecarte, pas devine.
+// Fonction pure, exportee pour test.
+export function revueParTitre(titre, table) {
+    const t = normaliserTitre(titre);
+    for (const { prefixe, issn } of table) {
+        const p = normaliserTitre(prefixe);
+        if (t.startsWith(p) && !/[a-z0-9]/.test(t.charAt(p.length))) return issn;
+    }
+    return null;
+}
+
+// Rattache les entrees de la page commune a leur revue. revues : celles du
+// CSV ({ issn, nomOpenalex }), source du nom affiche. Un appel dont la revue
+// n'est pas reconnue, ou n'est pas dans le CSV, est ecarte.
+// Fonction pure, exportee pour test.
+export function rattacherAppelsCommuns(entries, table, revues) {
+    const noms = new Map(revues.map(r => [r.issn, r.nomOpenalex]));
+    const appels = [];
+    const ecartes = [];
+    for (const entry of entries) {
+        const issn = revueParTitre(entry.metaTitle, table);
+        if (!issn || !noms.has(issn)) {
+            ecartes.push(entry.metaTitle);
+            continue;
+        }
+        appels.push({ ...entry, issn, journal: noms.get(issn) });
+    }
+    return { appels, ecartes };
+}
+
+const TEXTE_DETAIL_MIN = 200;
+
+// Texte complet d'un appel sur sa page de detail d'un sous-domaine societe :
+// le plus long bloc .pb-rich-text, les autres etant des menus de la societe
+// (« Resources About Us Join SMS... »). null sous 200 caracteres : page
+// d'erreur ou gabarit inconnu.
+// Fonction pure, exportee pour test.
+export function extraire_detail(html) {
+    const $ = cheerio.load(html);
+    const longueur = el => $(el).text().replace(/\s+/g, ' ').trim().length;
+    const blocs = $('.pb-rich-text').toArray().sort((a, b) => longueur(b) - longueur(a));
+    if (!blocs.length || longueur(blocs[0]) < TEXTE_DETAIL_MIN) return null;
+    return $.html(blocs[0]);
 }
 
 // Meme structure de contenu que decouverte precedemment : la page melange
@@ -108,6 +221,41 @@ export const scraperObject = {
         let avecAppels = 0;
         let requetes = 0;
         let debloquees = 0;
+        const revuesSms = journals.filter(j => ISSN_SMS.has(j.issn));
+        const commune = { appels: 0, ecartes: 0, bloquee: null };
+        const details = { suivis: 0, echecs: 0 };
+        const sousDomaines = [];
+
+        // Sur un sous-domaine societe, le bloc de liste ne porte que le titre
+        // et une echeance (parfois celle d'un atelier) : on lit la page de
+        // detail de chaque appel, qui devient url et rawContent. Un detail
+        // illisible fait ecarter l'appel et preserver ceux de la revue en
+        // base, plutot que de publier le bloc de liste, qui changerait le
+        // hash au passage suivant. Un lien hors sous-domaine ou vers un PDF
+        // garde le bloc de liste.
+        const lireDetail = async (page, entry, issn, journalName) => {
+            if (!estSousDomaineSociete(entry.url) || /\.pdf($|\?)/i.test(entry.url)) return entry;
+            const resultat = await find_page(page, journalName, [entry.url]);
+            requetes += resultat.requetes;
+            const detail = resultat.page ? extraire_detail(resultat.page.html) : null;
+            if (!detail) {
+                details.echecs += 1;
+                this.issnBloques.push(issn);
+                console.warn(`[wiley] "${journalName}" : page de detail illisible (${resultat.motif ?? 'aucun bloc de texte'}) sur ${entry.url}, appel ecarte, appels en base preserves`);
+                return null;
+            }
+            details.suivis += 1;
+            return { ...entry, url: resultat.page.url, rawContent: detail };
+        };
+
+        const ajouter = (journal, issn, entry) => calls.push({
+            journal,
+            abbreviation,
+            issn,
+            metaTitle: entry.metaTitle,
+            url: entry.url,
+            rawContent: entry.rawContent,
+        });
 
         // Rend le motif d'echec, ou null si la page a ete lue.
         const traiter = async (page, journal) => {
@@ -116,29 +264,67 @@ export const scraperObject = {
             const resultat = await find_page(page, journal.nomOpenalex, urls);
             requetes += resultat.requetes;
             chemins[journal.issn] = noterResultat(entree, resultat.page ? { page: resultat.page.url } : resultat, maintenant);
-            if (!resultat.page) return resultat.motif;
+            if (!resultat.page) {
+                if (resultat.motif === 'absent') await signalerSousDomaine(page, journal);
+                return resultat.motif;
+            }
             atteintes += 1;
 
             const entries = extract_entries(resultat.page.html, resultat.page.url, journal.nomOpenalex);
             if (entries.length) avecAppels += 1;
+            const societe = estSousDomaineSociete(resultat.page.url);
             for (const entry of entries) {
-                calls.push({
-                    journal: journal.nomOpenalex,
-                    abbreviation,
-                    issn: journal.issn,
-                    metaTitle: entry.metaTitle,
-                    url: entry.url,
-                    rawContent: entry.rawContent,
-                });
+                const lue = societe ? await lireDetail(page, entry, journal.issn, journal.nomOpenalex) : entry;
+                if (lue) ajouter(journal.nomOpenalex, journal.issn, lue);
             }
             return null;
+        };
+
+        // Une revue absente dont la page d'accueil redirige vers un
+        // sous-domaine inconnu a sans doute ses appels sur ce sous-domaine.
+        // Une page de plus, pour les seules revues absentes.
+        const signalerSousDomaine = async (page, journal) => {
+            const accueil = await hote_accueil(page, journal.issn);
+            requetes += 1;
+            if (classerRedirection(journal.issn, accueil) === 'a-completer') {
+                sousDomaines.push({ issn: journal.issn, hote: accueil });
+            }
+        };
+
+        // Une page, trois revues. Non lue : les appels en base des trois sont
+        // preserves -- une page commune qui disparait a plus probablement
+        // demenage que perdu tous ses appels.
+        const traiterPageCommune = async page => {
+            const resultat = await find_page(page, 'page commune SMS', [PAGE_COMMUNE_SMS.url]);
+            requetes += resultat.requetes;
+            if (!resultat.page) {
+                commune.bloquee = resultat.motif;
+                this.issnBloques.push(...revuesSms.map(j => j.issn));
+                console.warn(`[wiley] Page commune SMS non lue (${resultat.motif}) sur ${PAGE_COMMUNE_SMS.url} : appels de ${revuesSms.map(j => j.issn).join(', ')} preserves`);
+                return;
+            }
+            for (const journal of revuesSms) chemins[journal.issn] = { chemin: resultat.page.url };
+            const entries = extract_entries(resultat.page.html, resultat.page.url, 'page commune SMS');
+            const { appels, ecartes } = rattacherAppelsCommuns(entries, PAGE_COMMUNE_SMS.revues, revuesSms);
+            commune.ecartes = ecartes.length;
+            for (const titre of ecartes) {
+                console.warn(`[wiley] Page commune SMS : appel ecarte, aucune revue de la table ne correspond au titre "${titre}"`);
+            }
+            for (const appel of appels) {
+                const lue = await lireDetail(page, appel, appel.issn, appel.journal);
+                if (!lue) continue;
+                commune.appels += 1;
+                ajouter(appel.journal, appel.issn, lue);
+            }
         };
 
         const page = await browser.newPage();
         try {
             const bloquees = [];
             if (force) console.log(`[wiley] ${OPTION_REVERIFIER} : toutes les revues sont verifiees`);
+            if (revuesSms.length) await traiterPageCommune(page);
             for (const journal of journals) {
+                if (ISSN_SMS.has(journal.issn)) continue;
                 // actifs === null : calls.json illisible, on ne saute personne.
                 const appelsActifs = actifs === null || actifs.has(journal.issn);
                 if (!doitVerifier(lireEntree(chemins[journal.issn]), { appelsActifs, force, maintenant })) {
@@ -171,7 +357,14 @@ export const scraperObject = {
             ecrire_chemins(chemins);
         }
 
-        console.log(formaterBilan({ total: journals.length, atteintes, avecAppels, debloquees, sautees, motifs, appels: calls.length, requetes }));
+        this.issnBloques = [...new Set(this.issnBloques)];
+        console.log(formaterBilan({
+            total: journals.length, atteintes, avecAppels, debloquees, sautees, motifs, appels: calls.length, requetes,
+            commune: revuesSms.length ? commune : undefined, details, sousDomaines,
+        }));
+        if (sousDomaines.length) {
+            console.warn(`[wiley] Revues absentes dont la page d'accueil redirige vers un sous-domaine societe inconnu : chercher leur page d'appels (lien « Call for Papers » de l'accueil) et l'ajouter a PAGES_SOCIETE.`);
+        }
         if (this.issnBloques.length) {
             console.warn(`[wiley] ISSN toujours bloques, appels en base preserves : ${this.issnBloques.join(', ')}`);
         }
@@ -190,7 +383,21 @@ export const scraperObject = {
 }
 
 // Fonction pure, exportee pour test.
-export function formaterBilan({ total, atteintes, avecAppels, debloquees = 0, sautees = 0, motifs, appels, requetes }) {
+export function formaterBilan({ total, atteintes, avecAppels, debloquees = 0, sautees = 0, motifs, appels, requetes, commune, details, sousDomaines }) {
+    const lignes = [];
+    if (commune) {
+        lignes.push(commune.bloquee
+            ? `[wiley]   page commune SMS non lue (${commune.bloquee}), appels en base preserves`
+            : `[wiley]   page commune SMS ${commune.appels} appel(s), ${commune.ecartes} ecarte(s) faute de revue reconnue`);
+    }
+    if (details) {
+        lignes.push(`[wiley]   pages de detail ${details.suivis} (${details.echecs} echec(s), appels en base preserves)`);
+    }
+    if (sousDomaines) {
+        lignes.push(sousDomaines.length
+            ? `[wiley]   sous-domaines a completer dans PAGES_SOCIETE : ${sousDomaines.map(s => `${s.issn} (${s.hote})`).join(', ')}`
+            : `[wiley]   sous-domaines a completer : aucun`);
+    }
     return [
         `[wiley] Bilan sur ${total} revue(s) :`,
         `[wiley]   OK          ${atteintes} (dont ${avecAppels} avec au moins un appel, ${debloquees} au second passage)`,
@@ -199,6 +406,7 @@ export function formaterBilan({ total, atteintes, avecAppels, debloquees = 0, sa
         `[wiley]   non reverifiees ${sautees} (absentes confirmees, verifiees il y a moins de 7 jours ; ${OPTION_REVERIFIER} pour forcer)`,
         `[wiley]   reseau      ${motifs.reseau}`,
         `[wiley]   autre       ${motifs.autre}`,
+        ...lignes,
         `[wiley]   appels      ${appels}`,
         `[wiley]   pages chargees ${requetes}`,
     ].join('\n');
@@ -360,6 +568,20 @@ async function find_page(page, journalName, urls) {
         page.off('response', ecoute);
     }
     return { motif: classerTentatives(tentatives), requetes };
+}
+
+// Hote ou aboutit la page d'accueil de la revue, apres redirection, ou null
+// si elle n'a pas pu etre lue.
+async function hote_accueil(page, issn) {
+    const url = `https://onlinelibrary.wiley.com/journal/${issn.replace(/-/g, '').toLowerCase()}`;
+    await sleep(REQUEST_DELAY_MS);
+    try {
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: NAVIGATION_TIMEOUT_MS });
+        await page.waitForFunction(estHorsInterstitiel, undefined, { timeout: DELAI_CHALLENGE_MS });
+        return new URL(page.url()).host;
+    } catch {
+        return null;
+    }
 }
 
 export function extract_entries(html, pageUrl, journalName) {
