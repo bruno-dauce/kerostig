@@ -1,5 +1,813 @@
 [
   {
+    "journal": "Journal of Organizational Behavior",
+    "abbreviation": "wiley",
+    "issn": "1099-1379",
+    "metaTitle": "2026 Call for Proposals for Special Issues",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/10991379/cfp/JOB_Call-for-Proposals-2026-1787185890970.pdf",
+    "title": "Call for Proposals for Special Issues",
+    "slug": "wiley-2026-call-for-proposals-for-special-issues",
+    "contentHash": "e087b064141c7c7214b1c942c513b3b26c2ff836a195adb93a8d51aabbb7d442",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "The journal invites proposals for special issues to be published in 2026. Researchers and scholars are encouraged to submit proposals during the designated submission window."
+      ]
+    },
+    "tags": [
+      "special issues",
+      "journal"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-01T11:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-31T11:00:00.000Z",
+        "description": "Submission window closes",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-27T11:46:29.819Z"
+  },
+  {
+    "journal": "British Journal of Educational Technology",
+    "abbreviation": "wiley",
+    "issn": "1467-8535",
+    "metaTitle": "Agentic AI in Education: Artificial Agency and the Social-Cognitive Dynamics of Learning",
+    "url": "https://bera-journals.onlinelibrary.wiley.com/hub/journal/14678535/homepage/call-for-papers/si-2026-000285",
+    "title": "Agentic AI in Education: Artificial Agency and the Social-Cognitive Dynamics of Learning",
+    "slug": "wiley-agentic-ai-in-education-artificial-agency-and-the-social-cognitive-dynamics-of-learning",
+    "contentHash": "25d7e24954a11625ba997f7d46763134680a701e942018d78df5a144fdf49d75",
+    "topics": [
+      "Conceptualising Agentic AI as Artificial Agency in Education: Frameworks and models that define agentic AI explicitly in terms of interactivity, bounded autonomy, and adaptability, and that clarify boundaries between agentic AI, generative AI assistants, and reactive AIED systems.",
+      "Learner and Teacher Perceptions of Artificial Agency: Empirical investigations of how learners and educators interpret AI initiative, persistence, and role adoption, and how these perceptions shape trust, attribution of intent, responsibility, and participation in learning activities.",
+      "Epistemic Labour and Initiative Redistribution: Studies examining how agentic AI redistributes epistemic labour within individual or collaborative learning, including effects on problem framing, task coordination, evaluation, and decision-making when AI initiates actions rather than responding to prompts.",
+      "Regulation, Coordination, and Social-Cognitive Dynamics: Analyses of how agentic AI influences self-regulation, co-regulation, and shared regulation, particularly in group settings where AI adopts persistent roles that shape interactional norms, turn-taking, and closure of inquiry.",
+      "Temporal Persistence and Path Dependence in Learning Processes: Research that captures how agentic AI's sustained participation and memory create path-dependent learning trajectories, including benefits for coherence and risks of early framing effects or cascading errors.",
+      "Identity Inference, Social Presence, and Responsibility: Empirical work on how proactive AI behaviour affects identity inference and social presence in cue-lean environments, and how responsibility and accountability are negotiated when learning actions originate from artificial agents.",
+      "Methodological Approaches for Studying Artificial Agency: Methodological contributions that advance the measurement of artificial agency and its effects, including multimodal analyses, process-level modelling, and designs that distinguish agentic participation from tool-based assistance.",
+      "Governance and Educational Implications of Agentic AI: Analyses addressing accountability, transparency, and institutional responsibility when agentic AI functions as a collaborator, coordinator, or evaluator in educational settings."
+    ],
+    "description": {
+      "paragraphs": [
+        "This special section examines agentic AI in education, defined as computational systems exhibiting interactivity, bounded autonomy, and adaptability within human-defined objectives. Unlike reactive AI tutoring systems or prompt-based generative AI tools, agentic AI initiates action, sustains participation, and maintains functional roles through persistent memory and task decomposition. The shift toward such systems reconfigures how epistemic labour and coordination are distributed within learning communities, affecting learners' perceptions of agency, shared regulation, and collaborative reasoning.",
+        "The section welcomes empirical and conceptually grounded studies exploring how agentic AI reshapes learner perceptions, teacher roles, epistemic labour, and social-cognitive dynamics. Particular emphasis is placed on understanding when artificial agency supports productive learning versus constraining learner autonomy, examining this across diverse educational contexts, learner populations, and cultural settings. Contributions addressing governance, responsibility, equity, and methodological innovation are encouraged.",
+        "Submissions must demonstrate explicit engagement with agentic AI rather than prompt-based or purely content-generative applications. The section prioritises research that advances theoretical frameworks, examines temporal and path-dependent learning effects, and develops methods for measuring artificial agency in educational settings."
+      ]
+    },
+    "tags": [
+      "artificial intelligence in education",
+      "agentic ai",
+      "human-ai collaboration",
+      "learning technologies",
+      "educational technology"
+    ],
+    "editors": [
+      {
+        "name": "Lixiang Yan",
+        "affiliation": "Tsinghua University"
+      },
+      {
+        "name": "Yizhou Fan",
+        "affiliation": "Peking University"
+      },
+      {
+        "name": "Yueqiao Jin",
+        "affiliation": "Monash University"
+      },
+      {
+        "name": "Nancy Law",
+        "affiliation": "University of Hong Kong"
+      },
+      {
+        "name": "Yu Zhang",
+        "affiliation": "Tsinghua University"
+      },
+      {
+        "name": "Xibin Han",
+        "affiliation": "Tsinghua University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-08-01T10:00:00.000Z",
+        "description": "Abstract submission deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-10-28T11:00:00.000Z",
+        "description": "Full manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2027-03-15T11:00:00.000Z",
+        "description": "Final manuscript acceptances",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-05-01T10:00:00.000Z",
+        "description": "Issue publication online",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-27T11:46:29.819Z"
+  },
+  {
+    "journal": "Journal of Organizational Behavior",
+    "abbreviation": "wiley",
+    "issn": "1099-1379",
+    "metaTitle": "Call for Proposals: Annual Review and Conceptual Development Issue (ARCDI) 2026",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/10991379/cfp/2026-ARCDI-CFP-1789270489463.pdf",
+    "title": "Annual Review and Conceptual Development Issue (ARCDI) 2026",
+    "slug": "wiley-call-for-proposals-annual-review-and-conceptual-development-issue-arcdi-2026",
+    "contentHash": "2dbbc55a2dc1ef516b33480a5d701fa49494adf0f269c1f9349b24d1ee263158",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This call invites submissions for an Annual Review and Conceptual Development Issue that aims to advance conceptual thinking and provide comprehensive reviews within the field. The issue seeks to compile work that contributes to both theoretical development and state-of-the-art assessments of current knowledge."
+      ]
+    },
+    "tags": [
+      "annual review",
+      "conceptual development"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-02-15T11:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-14T11:00:00.000Z",
+        "description": "Submission window closes",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-27T11:46:29.819Z"
+  },
+  {
+    "journal": "Journal of Organizational Behavior",
+    "abbreviation": "wiley",
+    "issn": "1099-1379",
+    "metaTitle": "Challenging the Narrative of Unseemly Female Bodies — Centering Womens Reproductive Health and Work",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/10991379/cfp/Updated-JOB-SI-Call-Challenging-the-Narrative-of-Unseemly-Female-Bodies-1738670240323.pdf",
+    "title": "Challenging the Narrative of Unseemly Female Bodies — Centering Womens Reproductive Health and Work",
+    "slug": "wiley-challenging-the-narrative-of-unseemly-female-bodies-centering-womens-reproductive-health-and-work",
+    "contentHash": "fa7bef511119e7f909540f2e5b6434bfa25f203a7870403be7b4a23dc28f0294",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [],
+    "active": true,
+    "pubDate": "2026-09-27T11:46:29.819Z"
+  },
+  {
+    "journal": "Journal of Organizational Behavior",
+    "abbreviation": "wiley",
+    "issn": "1099-1379",
+    "metaTitle": "Chronic Illness at Work: Advancing Theory and Practice in Organizational Behavior",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/10991379/cfp/Chronic-Illness-at-Work-CFP-1770260985010.pdf",
+    "title": "Chronic Illness at Work: Advancing Theory and Practice in Organizational Behavior",
+    "slug": "wiley-chronic-illness-at-work-advancing-theory-and-practice-in-organizational-behavior",
+    "contentHash": "08e9cc58d0eaf68fdad6d86ea63113627be800ec437db548be0c1e416c9c5f37",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue seeks submissions that advance understanding of chronic illness in organizational contexts. The call invites research that develops theoretical frameworks and practical insights into how chronic illnesses affect workplace experiences, employee well-being, and organizational practices."
+      ]
+    },
+    "tags": [
+      "chronic illness",
+      "workplace",
+      "organizational behavior"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-06-01T10:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-06-30T10:00:00.000Z",
+        "description": "Submission window closes",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-27T11:46:29.819Z"
+  },
+  {
+    "journal": "Applied Psychology",
+    "abbreviation": "wiley",
+    "issn": "1464-0597",
+    "metaTitle": "Digital Natives in the Workplace: Psychological Processes, Team Dynamics, and Organizational Design in a Digitized Era",
+    "url": "https://iaap-journals.onlinelibrary.wiley.com/hub/journal/14640597/call-for-papers/digital-natives-in-the-workplace",
+    "title": "Digital Natives in the Workplace: Psychological Processes, Team Dynamics, and Organizational Design in a Digitized Era",
+    "slug": "wiley-digital-natives-in-the-workplace-psychological-processes-team-dynamics-and-organizational-design-in-a-digitized-era",
+    "contentHash": "b1aeb151a31e97bd07b42c4a6a843aaa2860f1161ed15868d4ee7be764990089",
+    "topics": [
+      "Psychological mechanisms of digital natives as change agents in organizations",
+      "Digital natives' engagement and motivation in tech-enabled work environments",
+      "Real-time feedback mechanisms and their impact on intrinsic motivation and competence",
+      "Gamified work systems and their effects on goal setting and job satisfaction",
+      "Workplace culture, inclusion, and leadership preferences for digital natives",
+      "Psychological safety and inclusion in digital contexts",
+      "Leadership styles preferred by digital natives and follower outcomes",
+      "Work flexibility, learning preferences, and work-life integration in remote and hybrid settings",
+      "Microlearning and gamified learning preferences among digital natives",
+      "Algorithmic management and psychological well-being",
+      "Algorithmic monitoring, data-driven performance evaluation, and psychological safety",
+      "Surveillance stress and identity coherence in digitally mediated workplaces",
+      "Team dynamics and communication in digitally mediated contexts",
+      "Trust formation and psychological safety in virtual teams",
+      "Non-human actors and team psychological dynamics",
+      "Distributed cognition in digitally native teams"
+    ],
+    "description": {
+      "paragraphs": [
+        "Digital natives, who have grown up immersed in technology, bring distinct cognitive styles and behavioral tendencies to the workplace that challenge traditional organizational assumptions. Their integration into the workforce requires new psychological understanding of how they experience motivation, construct identity, manage stress, and interact with others in technology-saturated environments. The special issue addresses how digital natives' expectations for flexibility, continuous feedback, and purpose-driven work reshape fundamental aspects of organizational life across individual, team, and organizational levels.",
+        "The special issue seeks theoretical advances that explain digital natives' psychological experiences at work using emerging and interdisciplinary frameworks. At the individual level, theories of attention, emotion regulation, and identity construction illuminate how digital natives navigate constant digital interruptions and construct their work identities through metrics and digital platforms. At the team level, the issue examines how technology reshapes social cohesion and trust formation through lightweight digital signals and algorithmic coordination. At the organizational level, it explores how digital infrastructures shape employee autonomy, psychological safety, and well-being.",
+        "This special issue invites empirical and theoretical research that moves beyond treating digital natives as a homogeneous group, instead examining how cohort, age, career-stage, and technology exposure effects interact. The focus is on identifying practical interventions and organizational design principles that foster psychologically sustainable environments for digital natives while maintaining organizational performance."
+      ]
+    },
+    "tags": [
+      "digital natives",
+      "organizational psychology",
+      "workplace technology",
+      "team dynamics",
+      "leadership",
+      "employee engagement",
+      "algorithmic management",
+      "work flexibility"
+    ],
+    "editors": [
+      {
+        "name": "Sanjay Kumar Singh",
+        "affiliation": "University of Dundee"
+      },
+      {
+        "name": "Sateesh V. Shet",
+        "affiliation": "Northumbria University"
+      },
+      {
+        "name": "Dorothea Roumpi",
+        "affiliation": "The Pennsylvania State University"
+      },
+      {
+        "name": "Aizhan Tursunbayeva",
+        "affiliation": "University of Naples Parthenope"
+      },
+      {
+        "name": "Sachiko Yamao",
+        "affiliation": "Keio University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-11-30T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-27T11:46:29.819Z"
+  },
+  {
+    "journal": "Global Strategy Journal",
+    "abbreviation": "wiley",
+    "issn": "2042-5805",
+    "metaTitle": "Global Strategy Journal Globalizing Intelligence: Orchestrating Artificial Intelligence for Global Advantage",
+    "url": "https://sms.onlinelibrary.wiley.com/hub/call-for-papers/gsj-ai-global-advantage",
+    "title": "Globalizing Intelligence: Orchestrating Artificial Intelligence for Global Advantage",
+    "slug": "wiley-global-strategy-journal-globalizing-intelligence-orchestrating-artificial-intelligence-for-global-advantage",
+    "contentHash": "f48da6c2d02e61e3af0c80d94a4cb7bf7b6161a323dfe365b9623432dd6eea9a",
+    "topics": [
+      "How do proprietary generative-AI capabilities influence entry mode choice in different host-country contexts?",
+      "What factors affect location for AI-centric MNEs and INV founders seeking global scale?",
+      "How do AI-centric firms calibrate the balance between global standardization of models and local adaptation to institutional and cultural distance?",
+      "How do AI-centric INVs build and scale proprietary capabilities to compete globally, and how do these digital-born assets challenge traditional views on firm-specific advantages and gradual internationalization?",
+      "How do AI-centric MNEs and INVs manage international scaling of generative-AI capabilities, and what role do global knowledge-transfer mechanisms play in enabling rapid diffusion across subsidiaries?",
+      "How do AI-centric MNEs manage cross-border complementarities between firm-specific data and host-country capabilities to build sustainable competitive advantage?",
+      "To what extent do open-core versus fully proprietary model strategies shape the boundary decisions (make, buy, ally) of AI-centric firms in different regulatory environments?",
+      "How do AI-centric firms mitigate liability of foreignness in AI ethics and bias by embedding local data and diverse cultural inputs into their global model-training pipelines?",
+      "How can AI-enabled research methods be leveraged by firms to better understand foreign market reception and inform internationalization strategies?",
+      "How do MNEs use generative-AI tools to refine entry-mode strategies (i.e., exporting, licensing, or FDI) by dynamically assessing host-market demand and regulatory complexity?",
+      "Under what conditions can AI-driven scenario planning replace or complement traditional market-selection frameworks (e.g., CAGE) for entering new countries?",
+      "How do firms leverage generative-AI-enabled localization (e.g., product design, marketing copy) to navigate cultural distance and strengthen local responsiveness in global integration strategies?",
+      "What capabilities must regional subsidiaries develop to interpret and act on AI-generated market insights, and how does this reshape subsidiary autonomy versus headquarters control?",
+      "How does generative AI affect the integration-responsiveness trade-off in global operations under geopolitical or natural-disaster shocks?",
+      "In what ways do AI-mediated customer-interaction platforms alter traditional service subsidiary roles and the governance of cross-border service delivery?",
+      "How do firms combine human judgment and AI recommendations in cross-border new product development alliances to balance exploration and exploitation?",
+      "How do AI-enabled INVs sense and respond to global market signals differently than incumbents, and how do AI tools help them to overcome limited experience in culturally or institutionally distant markets?",
+      "In what ways do AI-driven analytics of cultural signals and media content reshape how MNEs and INVs interpret foreign consumer preferences and adapt entry strategies?",
+      "How can methodological advances in AI-based content analysis contribute to more fine-grained monitoring of cultural distance and liability of foreignness in real time?",
+      "How do MNEs structure global AI governance bodies to balance headquarters-led oversight with subsidiary-level discretion across divergent institutional environments?",
+      "What alliance governance mechanisms (joint ventures, co-development agreements) best facilitate GDPR-compliant data-sharing for generative-AI co-creation between European and Asian partners?",
+      "How do emerging global AI regulations reshape MNEs' decisions on center-of-gravity for model deployment (cloud vs. on-prem) across host countries?",
+      "How do entrepreneurial ecosystems in emerging markets influence the design of cross-border data trusts and co-governance structures for INV-led AI initiatives?",
+      "How do platform partnerships with regional software ecosystems (e.g., Midjourney in European design suites, Eleven Labs in Asian media platforms) alter inter-firm governance and value-capture?",
+      "In what ways do pre-competitive data trusts and industry consortia mitigate institutional voids and enable co-governance of domain-specific generative models in emerging markets?",
+      "How must performance metrics and incentive systems evolve to reward cross-border AI collaboration while managing moral-hazard and knowledge-leakage risks?",
+      "What role do board-level AI oversight committees play in enforcing a cohesive global AI ethics framework amid diverse local legal and cultural norms?",
+      "How can AI-based methods be leveraged to examine how firms navigate cross-border governance and regulatory environments?"
+    ],
+    "description": {
+      "paragraphs": [
+        "Artificial intelligence is fundamentally reshaping how multinational enterprises and international new ventures compete globally. This special issue seeks research exploring how AI technologies—particularly generative AI—enable new competitive strategies, from building proprietary AI capabilities to deploying AI tools for market analysis and decision-making. The call welcomes papers examining AI's impact on firm competitiveness, internationalization strategies, organizational transformation, and resilience in volatile environments.",
+        "The issue addresses three core dimensions through which AI influences global strategy. First, it considers how firms develop AI-centric capabilities that serve as sources of competitive advantage across borders. Second, it explores how organizations strategically deploy AI to interpret global markets and make faster, more informed decisions. Third, it examines how firms must redesign governance structures and navigate complex international regulatory frameworks to effectively harness AI across multiple countries and institutional contexts."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "global strategy",
+      "multinational enterprises",
+      "international business",
+      "generative ai",
+      "organizational governance"
+    ],
+    "editors": [
+      {
+        "name": "Julian Birkinshaw",
+        "affiliation": "Ivey Business School"
+      },
+      {
+        "name": "Valérie Duplat",
+        "affiliation": "Vrije Universiteit Amsterdam"
+      },
+      {
+        "name": "Saeed Khanagha",
+        "affiliation": "Vrije Universiteit Amsterdam"
+      },
+      {
+        "name": "Oli Mihalache",
+        "affiliation": "Athabasca University"
+      },
+      {
+        "name": "Shaker Zahra",
+        "affiliation": "University of Minnesota"
+      }
+    ],
+    "associate_editors": [
+      {
+        "name": "Qian (Cecilia) Gu",
+        "affiliation": "Georgia State University"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2026-09-15T10:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-10-15T10:00:00.000Z",
+        "description": "Deadline for submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-27T11:46:29.819Z"
+  },
+  {
+    "journal": "Journal of Organizational Behavior",
+    "abbreviation": "wiley",
+    "issn": "1099-1379",
+    "metaTitle": "Organizational Change in Transforming Global Contexts: Rethinking What We Study and What We Know",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/10991379/cfp/Call-for-Papers-Final-February-2026-1771933001500.pdf",
+    "title": "Organizational Change in Transforming Global Contexts: Rethinking What We Study and What We Know",
+    "slug": "wiley-organizational-change-in-transforming-global-contexts-rethinking-what-we-study-and-what-we-know",
+    "contentHash": "fa039984043be68f1848e3a34e629458b4141e0ce03bee6b9676c6825bbd5b66",
+    "topics": [],
+    "description": {
+      "paragraphs": []
+    },
+    "tags": [],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-15T11:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-02-15T11:00:00.000Z",
+        "description": "Submission window closes",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-27T11:46:29.819Z"
+  },
+  {
+    "journal": "Strategic Entrepreneurship Journal",
+    "abbreviation": "wiley",
+    "issn": "1932-443X",
+    "metaTitle": "Strategic Entrepreneurship Journal Entrepreneurial Ecosystems in Emerging Economies",
+    "url": "https://sms.onlinelibrary.wiley.com/hub/call-for-papers/sej-entrepreneurial-ecosystems",
+    "title": "Entrepreneurial Ecosystems in Emerging Economies",
+    "slug": "wiley-strategic-entrepreneurship-journal-entrepreneurial-ecosystems-in-emerging-economies",
+    "contentHash": "35edc496f495bf916a188776422beec4e3d53ac4b554c392b7a4ec1892705944",
+    "topics": [
+      "How entrepreneurial ecosystems emerge, develop and evolve over time in emerging economies compared to advanced economies",
+      "The role of local and national culture in shaping entrepreneurial ecosystems across different contexts",
+      "How entrepreneurial ecosystems support refugees, diasporan and returnee entrepreneurs",
+      "The role of local and international venture funding instruments in emerging economies' entrepreneurial ecosystems",
+      "Lifecycles and temporal structures of entrepreneurial ecosystems in emerging economies",
+      "Historical perspectives on entrepreneurial ecosystems and the impact of historical events on their emergence",
+      "Systems approaches to entrepreneurial ecosystems and their co-evolution with other structures",
+      "How entrepreneurial ecosystems impact society beyond economic benefits",
+      "Building blocks of sustainable and resilient entrepreneurial ecosystems",
+      "Policy effectiveness in supporting entrepreneurial ecosystems in emerging economies",
+      "Multi-level analysis of interactions between individual, organizational and ecosystem levels",
+      "Institutional distrust, corruption and their influence on ecosystem orchestration",
+      "How digitalization and digital technologies shape emergent forms of ecosystems in emerging economies",
+      "Digital technologies and infrastructures transforming the geography of entrepreneurship in emerging economies"
+    ],
+    "description": {
+      "paragraphs": [
+        "Entrepreneurial ecosystems are essential for economic growth, yet research has predominantly focused on developed economies and urban contexts. This special issue seeks to address the underrepresentation of emerging economy research by examining entrepreneurial ecosystems across Africa, Asia, South America, and other developing regions. The issue recognizes that emerging economies face distinct challenges including weak institutions, high uncertainty, limited market sizes, and infrastructure gaps that fundamentally shape how ecosystems develop and function differently than in advanced economies.",
+        "The special issue invites research that balances Global North and Global South perspectives, examines ecosystem temporality and evolution, applies systems thinking to understand broader societal impacts, considers multi-level interactions from individual to macro levels, and explores how digitalization uniquely affects emerging economy contexts. Contributors are encouraged to investigate governmental initiatives like Startup Chile and Startup India and to address how entrepreneurial ecosystems can support sustainable development and circular economy practices in developing regions."
+      ]
+    },
+    "tags": [
+      "entrepreneurial ecosystems",
+      "emerging economies",
+      "new ventures",
+      "institutional challenges",
+      "ecosystem development",
+      "sustainable entrepreneurship"
+    ],
+    "editors": [
+      {
+        "name": "Ioana Stefan",
+        "affiliation": "Mälardalen University"
+      },
+      {
+        "name": "Ikenna Uzuegbunam",
+        "affiliation": "Howard University"
+      },
+      {
+        "name": "Brett Anitra Gilbert",
+        "affiliation": "American University"
+      },
+      {
+        "name": "Wim Vanhaverbeke",
+        "affiliation": "Antwerp University"
+      },
+      {
+        "name": "Kadigia Faccin",
+        "affiliation": "Fundação Dom Cabral"
+      },
+      {
+        "name": "Yanbo Wang",
+        "affiliation": "University of Hong Kong"
+      }
+    ],
+    "associate_editors": [
+      {
+        "name": "David Sirmon",
+        "affiliation": "University of Washington"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2027-04-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-27T11:46:29.819Z"
+  },
+  {
+    "journal": "Strategic Entrepreneurship Journal",
+    "abbreviation": "wiley",
+    "issn": "1932-443X",
+    "metaTitle": "Strategic Entrepreneurship Journal International Entrepreneurship in an Age of Persistent Disruption",
+    "url": "https://sms.onlinelibrary.wiley.com/hub/call-for-papers/sej-international-entrepreneurship",
+    "title": "International Entrepreneurship In An Age Of Persistent Disruption",
+    "slug": "wiley-strategic-entrepreneurship-journal-international-entrepreneurship-in-an-age-of-persistent-disruption",
+    "contentHash": "7b0df9941761b458ab76e59c0346da9651239a8cd551ad257f315013bbeb4c57",
+    "topics": [
+      "How do geopolitical bifurcation and regulatory fragmentation reshape opportunity structures for entrepreneurial internationalization?",
+      "How do entrepreneurial firms experiment with and strategically recalibrate the timing of internationalization in response to unfolding disruptions? Do timing choices and decision rules differ between gradual and sudden disruptions?",
+      "What are emerging forms of temporary, relational, or ecosystem-based advantage in turbulent environments for entrepreneurial firms that internationalize?",
+      "How do the new realities of the global marketplace impact entrepreneurial ventures' foreign market entry modes, and how does this reshape competitive strategies and modes of competition?",
+      "How do internationally oriented entrepreneurial ventures develop and deploy forms of strategic dexterity to orchestrate heterogeneous resources, partners, and knowledge flows across fragmented and institutionally diverse global ecosystems?",
+      "How do digital infrastructures and interorganizational alliances reconfigure the sensing, seizing, and transforming capabilities and their microfoundations in IE, and how do these enablers shape the balance between agility and strategic control across borders?",
+      "How do internationally active entrepreneurial ventures develop and deploy non-market and political capabilities to orchestrate resilience, legitimacy, and innovation within a polycentric, digitally mediated, and institutionally fragmented global order, and what strategic learning mechanisms enable effective navigation across world regions?",
+      "To what extent do dynamic capabilities retain relevance for entrepreneurial internationalization in contexts of heightened technological turbulence, geopolitical volatility, and ecosystemic interdependence?",
+      "How do internationally active entrepreneurial firms strategically orchestrate cross-border knowledge creation, transfer, and protection in the face of increasingly restrictive IP regimes, data localization policies, and digital sovereignty constraints?",
+      "How does the evolving mobility of talent, ideas, and digital capital under disruption reconfigure the spatial and cognitive geographies of international entrepreneurial ecosystems and innovation hotspots, and with what implications for business model innovation and evolution?",
+      "What governance mechanisms enable IE firms to build trust, coordinate value creation, and protect IP across fragmented institutional contexts?",
+      "How is the strategic logic of international location and embeddedness evolving for entrepreneurial firms amid digital virtualization, geopolitical realignment, and shifting global value networks?"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how entrepreneurial firms navigate systematic disruption in international markets. Rather than treating disruption as temporary shocks, the issue positions continuous, cascading disruptions—including geopolitical tensions, technological change, regulatory fragmentation, and supply chain disruption—as the permanent operating environment for internationally active ventures. The challenge is to understand how these firms adapt their internationalization strategies, timing, and value creation approaches when traditional market entry logic and past experience no longer provide guidance.",
+        "The special issue seeks research bridging strategy and international entrepreneurship to explore how firms build competitive advantage under persistent turbulence. Key themes include how entrepreneurial firms orchestrate capabilities and resources across fragmented global ecosystems, how they reconfigure location strategies and market entry modes, and how they protect knowledge and talent mobility in an increasingly fragmented world. The issue calls for theoretical and empirical work examining the microfoundations of entrepreneurial action and how organizational forms and strategic choices evolve when environmental conditions shift rapidly and unpredictably."
+      ]
+    },
+    "tags": [
+      "international entrepreneurship",
+      "disruption",
+      "strategy",
+      "global markets",
+      "dynamic capabilities"
+    ],
+    "editors": [
+      {
+        "name": "Olga Petričević",
+        "affiliation": "University of Calgary"
+      },
+      {
+        "name": "Christos N. Pitelis",
+        "affiliation": "National and Kapodistrian University of Athens"
+      },
+      {
+        "name": "Stratos Ramoglou",
+        "affiliation": "University of Bristol"
+      },
+      {
+        "name": "Catherine L. Wang",
+        "affiliation": "Brunel University of London"
+      },
+      {
+        "name": "Shaker A. Zahra",
+        "affiliation": "University of Minnesota"
+      }
+    ],
+    "associate_editors": [
+      {
+        "name": "Yong Li",
+        "affiliation": "University of Nevada, Las Vegas"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2027-03-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-27T11:46:29.819Z"
+  },
+  {
+    "journal": "Strategic Entrepreneurship Journal",
+    "abbreviation": "wiley",
+    "issn": "1932-443X",
+    "metaTitle": "Strategic Entrepreneurship Journal Mobilizing, Organizing, and Exploiting Entrepreneurial Judgment Within Ecosystems",
+    "url": "https://sms.onlinelibrary.wiley.com/hub/call-for-papers/smj-judgment-ecosystems",
+    "title": "Mobilizing, Organizing, and Exploiting Entrepreneurial Judgment Within Ecosystems",
+    "slug": "wiley-strategic-entrepreneurship-journal-mobilizing-organizing-and-exploiting-entrepreneurial-judgment-within-ecosystems",
+    "contentHash": "d49132efcd4f9dfeecbb4a7e7bdd1085ef2e7ff83ef19b921a86eb826a4fccb1",
+    "topics": [
+      "Communicating tacit judgment in ecosystems",
+      "Governance and orchestration mechanisms in entrepreneurial ecosystems",
+      "Partial communicability and protection of entrepreneurial knowledge",
+      "Distributed judgment and performance across multiple stakeholders",
+      "Ecosystem dynamics, maturity and role structure",
+      "AI and decision-support tools in entrepreneurial ecosystems"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how entrepreneurial judgment operates within ecosystems involving multiple stakeholders rather than individual entrepreneurs or single firms. While entrepreneurial judgment under uncertainty has traditionally been studied at the individual or firm level, modern entrepreneurship increasingly unfolds through collaborations, alliances, and digital ecosystems where judgment must be communicated, coordinated, and governed among various actors. The issue seeks to advance understanding of ecosystem governance mechanisms and how judgment is mobilized and exploited to support cooperation, competition, and innovation.",
+        "The special issue invites theoretical and empirical research from the nexus of entrepreneurship, strategy, and organizational research. It addresses core questions about how entrepreneurs develop and convey judgment to external parties such as financiers, customers, and competitors, and how such judgment is pooled and governed. The work positions judgment as a dynamic, multi-level phenomenon within ecosystems rather than a purely individual capability, reshaping fragmented literature across entrepreneurship, strategy, and organizational studies into a cohesive research agenda."
+      ]
+    },
+    "tags": [
+      "entrepreneurial judgment",
+      "entrepreneurial ecosystems",
+      "ecosystem governance",
+      "strategic entrepreneurship"
+    ],
+    "editors": [
+      {
+        "name": "David B. Audretsch",
+        "affiliation": "Indiana University Bloomington"
+      },
+      {
+        "name": "Maksim Belitski",
+        "affiliation": "University of Reading"
+      },
+      {
+        "name": "Rosa Caiazza",
+        "affiliation": "Parthenope University of Naples"
+      },
+      {
+        "name": "Nicolai J. Foss",
+        "affiliation": "Copenhagen Business School"
+      },
+      {
+        "name": "Donald Siegel",
+        "affiliation": "Arizona State University"
+      }
+    ],
+    "associate_editors": [
+      {
+        "name": "Peter Klein",
+        "affiliation": "Baylor University"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2027-03-01T11:00:00.000Z",
+        "description": "Deadline for full paper submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-27T11:46:29.819Z"
+  },
+  {
+    "journal": "Strategic Entrepreneurship Journal",
+    "abbreviation": "wiley",
+    "issn": "1932-443X",
+    "metaTitle": "Strategic Entrepreneurship Journal Resource Orchestration for Competitive Advantage In Family Firms: Leveraging Financial And Non-Financial Resources",
+    "url": "https://sms.onlinelibrary.wiley.com/hub/call-for-papers/sej-competitive-advantage-in-family-firms",
+    "title": "Resource Orchestration for Competitive Advantage In Family Firms: Leveraging Financial And Non-Financial Resources",
+    "slug": "wiley-strategic-entrepreneurship-journal-resource-orchestration-for-competitive-advantage-in-family-firms-leveraging-financial-and-non-financial-resources",
+    "contentHash": "2e9a679a1a6c693c761750a10bd06111f21a33b7b63687a48f5bb276ec2e2cf1",
+    "topics": [
+      "How family firms accumulate, acquire, and divest socioemotional resources across generations",
+      "How financial resources facilitate or constrain the structuring of non-financial resources in family firms",
+      "Mechanisms for balancing socioemotional wealth with financial growth imperatives in resource structuring",
+      "Resource structuring differences between family-based start-ups and established family firms",
+      "How family firms combine financial and non-financial resources to create unique capabilities like innovation and resilience",
+      "Differences in bundling processes (stabilization, enrichment, pioneering) for capability development in family firms",
+      "How emotional attachment and identity shape family firms' ability to adapt capabilities in dynamic markets",
+      "How family-based founders can develop skills for effective resource bundling",
+      "How family firms deploy non-financial resources to create value",
+      "Influence of socioemotional wealth on family firms' interactions with non-family stakeholders (employees, investors, regulators)",
+      "Role of socioemotional wealth in navigating financial crises and external shocks",
+      "How long-term orientation helps family firms manage risks associated with disruptive innovation",
+      "Roles of entrepreneurial passion and legacy preservation in family firms' leveraging choices",
+      "Advantages and disadvantages of founders and founding team members in the leveraging process",
+      "How family firms should engage in simultaneous opportunity- and advantage-seeking behaviors in strategic entrepreneurship",
+      "Governance structures that support family firms' use of strategic entrepreneurship",
+      "Balance between opportunity-seeking and advantage-seeking behaviors in family firms",
+      "Whether non-financial logic and socioemotional wealth function as strategic resources for strategic entrepreneurship",
+      "Role of legacy in family firms' engagement with strategic entrepreneurship",
+      "Stakeholder enrollment's role in family firms' resource acquisition for strategic entrepreneurship",
+      "Implications of succession and ownership transfers on family firms' strategic entrepreneurship",
+      "Structures supporting founders' and founding teams' decisions to use strategic entrepreneurship for family-based start-ups",
+      "Optimal combinations of identity, justice, and nepotism dimensions for maximizing resource orchestration and strategic entrepreneurship value",
+      "How different governance structures shape family firms' resource structuring, bundling, and leveraging decisions",
+      "Conditions under which dual focus on financial and non-financial objectives results in path dependency versus sustainable innovation",
+      "How socioemotional wealth helps build legitimacy in heterogeneous family firms",
+      "Implications of digitalization and artificial intelligence for orchestrating financial and non-financial resources",
+      "Whether founders can rely on AI for launching family-based start-ups",
+      "Challenges family firms face in integrating AI-driven efficiency with non-financial-driven resource orchestration",
+      "Role of AI in fostering or disrupting intergenerational continuity",
+      "How family firms balance AI objectivity with subjectivity inherent in socioemotional wealth-based decision-making",
+      "How family firms can leverage digitalization and AI to preserve and enhance socioemotional wealth resources and authenticity",
+      "Risks that digitalization poses to socioemotional wealth"
+    ],
+    "description": {
+      "paragraphs": [
+        "Family firms differ from non-family firms in their resource portfolios and resource orchestration processes, particularly regarding how they integrate financial and non-financial resources. Resource orchestration comprises three interconnected processes—structuring, bundling, and leveraging—that enable firms to build and deploy capabilities for competitive advantage. Family firms face unique challenges because family members often incorporate both financial and non-financial utilities into strategic decisions, with socioemotional wealth playing a central role in preserving family control, emotional attachment, social ties, and intergenerational continuity.",
+        "The literature has not adequately explained how the dual focus on socioemotional and financial resources affects resource orchestration and value creation in family firms. Current research often applies existing theoretical frameworks without reconceptualizing how core resource orchestration assumptions—such as efficiency, alignment, and capability development—must adapt when non-economic utilities are central rather than peripheral to firm behavior. This special issue seeks scholarship that advances theoretical understanding by examining how financial and non-financial resources function together to support family firms' resource orchestration and sustainable competitive advantage.",
+        "The special issue welcomes research addressing resource structuring, bundling, and leveraging in family firms; the relationship between strategic entrepreneurship and family firm viability; how family firm heterogeneity affects resource management; and how digitalization and artificial intelligence reshape resource orchestration while navigating trade-offs between tradition and innovation."
+      ]
+    },
+    "tags": [
+      "family business",
+      "resource orchestration",
+      "socioemotional wealth",
+      "strategic entrepreneurship",
+      "competitive advantage",
+      "resource management"
+    ],
+    "editors": [
+      {
+        "name": "R. Duane Ireland",
+        "affiliation": "Texas A&M University"
+      },
+      {
+        "name": "Francesco Chirico",
+        "affiliation": "Macquarie University"
+      },
+      {
+        "name": "Melissa E. Graebner",
+        "affiliation": "University of Illinois"
+      },
+      {
+        "name": "Luis R. Gómez-Mejía",
+        "affiliation": "Arizona State University"
+      },
+      {
+        "name": "Daniel Pittino",
+        "affiliation": "Jonkoping University"
+      }
+    ],
+    "associate_editors": [
+      {
+        "name": "David Sirmon",
+        "affiliation": "University of Washington"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2026-09-01T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-27T11:46:29.819Z"
+  },
+  {
+    "journal": "British Educational Research Journal",
+    "abbreviation": "wiley",
+    "issn": "1469-3518",
+    "metaTitle": "The Challenges of Combatting Misogyny: Educational Interventions and Responses",
+    "url": "https://bera-journals.onlinelibrary.wiley.com/hub/journal/14693518/call-for-papers/si-2026-000398",
+    "title": "The Challenges of Combatting Misogyny: Educational Interventions and Responses",
+    "slug": "wiley-the-challenges-of-combatting-misogyny-educational-interventions-and-responses",
+    "contentHash": "fabe6d0db6d768f298de10c62be36f3c6d7d2476f654319250d27d0b82909ef0",
+    "topics": [
+      "Clarity between misogyny and sexism, and gender-based violence and discrimination, and how they manifest",
+      "Intersections of misogyny that encompass and enforce white supremacy, white male superiority, chauvinism, incel culture, far right ideology, Christian evangelism, cis-hetermormativity toward 'misogynoir', transmisogyny, homophobia, and settler colonialism",
+      "How misogyny manifests across various educational cultures and contexts, and the extent to which culturally sensitive interventions are effective",
+      "Understanding the affective impact of misogyny on girls, women, non-binary people, and trans women",
+      "Relationship and sex education, and other curricular interventions on misogyny and their efficacy",
+      "The role of schools, universities, organisations, policy makers and government in tackling misogyny, digital literacies and navigating social media",
+      "The efficacy of international responses such as Sustainable Development Goal 4, the right to quality education, and Building Gender Transformative Systems",
+      "Tools to assist teachers and academics in engaging learners to better understand, recognise, and challenge misogyny online and within educational environments"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue seeks educational responses to online and offline misogyny across all educational settings including schools, universities, and prisons. The call welcomes empirical, theoretical, and philosophical contributions exploring how educators and institutions can effectively combat misogyny through interventions, peer culture initiatives, gender-sensitive pedagogy, and sex education programmes. International perspectives from researchers and educators worldwide are particularly valued.",
+        "Misogyny has intensified in online spaces, where girls and women encounter relentless gender-based abuse that affects their mental health, safety, and participation in digital society. The issue dehumanizes women and girls while reinforcing patriarchal norms, with evidence showing widespread harassment across educational environments. The special issue addresses how educational institutions can implement whole-institutional approaches, curricula incorporating anti-misogyny lessons, and safe reporting mechanisms to combat these harms and protect voices from marginalization."
+      ]
+    },
+    "tags": [
+      "misogyny",
+      "education",
+      "gender-based violence",
+      "online harassment",
+      "pedagogy"
+    ],
+    "editors": [
+      {
+        "name": "Alison MacKenzie",
+        "affiliation": "Queen's University Belfast"
+      },
+      {
+        "name": "Yuwei Xu",
+        "affiliation": "University of Nottingham"
+      },
+      {
+        "name": "Ming Cheng",
+        "affiliation": "Sheffield Hallam University"
+      },
+      {
+        "name": "Barbara Read",
+        "affiliation": "University of Glasgow"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-07-01T10:00:00.000Z",
+        "description": "Abstract submission deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-08-31T10:00:00.000Z",
+        "description": "Decision or advice of abstract expected to be sent out",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-04-30T10:00:00.000Z",
+        "description": "Manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-09-27T11:46:29.819Z"
+  },
+  {
     "journal": "Journal of Forecasting",
     "abbreviation": "wiley",
     "issn": "1099-131X",
