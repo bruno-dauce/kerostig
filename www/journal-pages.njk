@@ -50,10 +50,14 @@
   <div class="flex flex-wrap gap-2 mt-3 text-xs">
     {# Meme lien que les trois autres badges de rang du site (cf. call-card.html) :
        l'accueil pre-filtre sur ce rang. Pas de &disc ici, le contexte de page est
-       une revue et non une discipline. #}
-    <a href="{{ '/' | url }}?rang={{ revue.rang_fnege_2025 | urlencode }}"
+       une revue et non une discipline. Une revue en conflit FNEGE (deux lignes
+       du classement, cf. corrections-issn.json) affiche un badge par rang plutot
+       que d'en choisir un. #}
+    {% for r in revue | rangsFnege %}
+    <a href="{{ '/' | url }}?rang={{ r | urlencode }}"
        class="badge badge-outline font-semibold transition-colors hover:bg-primary/10"
-       style="color:#2B5F8E;border-color:#2B5F8E">rang FNEGE {{ revue.rang_fnege_2025 }}</a>
+       style="color:#2B5F8E;border-color:#2B5F8E">rang FNEGE {{ r }}</a>
+    {% endfor %}
     {# Meme lien que le badge de discipline des cartes (cf. call-card.html). Le fil
        d'Ariane pointe deja vers la meme page : deux acces au meme endroit, comme le
        titre et « Voir l'appel » d'une carte. Repli en texte simple sans le code FNEGE,
@@ -67,6 +71,10 @@
     <span class="badge badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C">accès ouvert</span>
     {% endif %}
   </div>
+
+  {% if revue.rang_fnege_2025_note %}
+  <p class="text-xs opacity-70 mt-2">{{ revue.rang_fnege_2025_note }}</p>
+  {% endif %}
 
   <p class="text-xs opacity-70 mt-2">
     ISSN{% if revue.pissn %} papier {{ revue.pissn }}{% endif %}{% if revue.eissn %} · en ligne {{ revue.eissn }}{% endif %}
@@ -86,7 +94,7 @@
            sur le badge de l'en-tete : celui-ci est deja un lien vers l'accueil
            pre-filtre, et un <a> ne peut pas en envelopper un autre. #}
         <dt class="opacity-70">Rang FNEGE 2025 ({{ fnege.texte() }})</dt>
-        <dd class="font-bold text-xl">{{ revue.rang_fnege_2025 }}</dd>
+        <dd class="font-bold text-xl">{{ (revue | rangsFnege) | join(' et ') }}</dd>
       </div>
 
       <div>

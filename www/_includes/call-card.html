@@ -20,7 +20,7 @@
     data-pubdate="{{ call.pubDate }}"
     data-duedate="{{ dueDate.date }}"
     data-discipline="{{ revue.discipline_code if revue else '' }}"
-    data-rang="{{ revue.rang_fnege_2025 if revue else '' }}"
+    data-rang="{{ (revue | rangsFnege | join(' ')) if revue else '' }}"
     data-issn="{{ revue.issn_cle if revue else '' }}"
     data-oa="{{ 'true' if revue and revue.acces_ouvert and revue.acces_ouvert.est_oa else 'false' }}"
     data-tags="{{ call.tags | join(' ') if call.tags else '' }}"

@@ -73,7 +73,13 @@ layout: layouts/base.html
     },
 
     match_rang(el) {
-        return this.rang === '' || el.getAttribute('data-rang') === this.rang;
+        // data-rang porte normalement un seul rang, mais un rang "en conflit
+        // FNEGE" (deux lignes du classement, deux rangs) en porte deux,
+        // separes par un espace : voir corrections-issn.json et
+        // appliquer-conflits-rang.mjs. La revue doit alors apparaitre sous
+        // chacun de ses rangs, d'ou une inclusion et non une egalite stricte.
+        if (this.rang === '') return true;
+        return (el.getAttribute('data-rang') || '').split(' ').includes(this.rang);
     },
 
     match_francophone(el) {

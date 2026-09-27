@@ -22,6 +22,12 @@ from collections import Counter
 
 import openpyxl
 
+from corrections_issn import (
+    CollisionIssnInconnue,
+    appliquer_corrections,
+    verifier_collisions,
+)
+
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CSV_ENRICHI = os.path.join(RACINE, "enrichissement", "kerostig-correspondance-issn-enrichi.csv")
 SORTIE = os.path.join(RACINE, "enrichissement", "rang4_brut.csv")
@@ -55,6 +61,7 @@ DISCIPLINES = {
 }
 
 MOTIF_ISSN = re.compile(r"^\d{4}-\d{3}[\dX]$")
+RANGS_CLASSEMENT = {"1*", "1", "2", "3", "4"}
 
 
 def nettoyer_issn(valeur):
@@ -74,6 +81,35 @@ def nettoyer_issn(valeur):
     if not texte or not MOTIF_ISSN.match(texte):
         return None
     return texte
+
+
+def normaliser_ligne(r):
+    """Depuis une ligne brute du xlsx (titre, code, pISSN, eISSN, ..., rang, fr),
+    renvoie (titre, code, rang, pissn, eissn, issn_cle, corrections_appliquees).
+
+    Les corrections connues (corrections_issn.CORRECTIONS) sont appliquees
+    avant le calcul de issn_cle, pour que les collisions qu'elles resolvent
+    (ex. DSJIE / Journal of Travel Research) n'apparaissent plus en aval.
+    """
+    titre, code, pissn_brut, eissn_brut, _a, _b, rang, _fr = r[:8]
+    titre = str(titre).strip()
+    code = str(code).strip() if code else ""
+    rang = str(rang).strip()
+    pissn = nettoyer_issn(pissn_brut)
+    eissn = nettoyer_issn(eissn_brut)
+    pissn, eissn, corrections_appliquees = appliquer_corrections(titre, pissn, eissn)
+    issn_cle = eissn or pissn
+    return titre, code, rang, pissn, eissn, issn_cle, corrections_appliquees
+
+
+def verifier_fnege_complet(lignes):
+    """Controle de coherence sur l'ensemble du classement FNEGE (rangs 1* a 4),
+    corrections appliquees : leve CollisionIssnInconnue si deux titres
+    differents partagent un issn_cle hors des fusions connues. Renvoie les
+    fusions connues rencontrees, pour le bilan."""
+    classees = [normaliser_ligne(r) for r in lignes if str(r[6]).strip() in RANGS_CLASSEMENT]
+    paires = [(titre, issn_cle) for titre, _code, _rang, _p, _e, issn_cle, _c in classees]
+    return verifier_collisions(paires)
 
 
 def creer_slug(titre):
@@ -109,6 +145,14 @@ def main():
     feuille = openpyxl.load_workbook(chemin_xlsx, data_only=True, read_only=True).worksheets[0]
     lignes = [r for r in feuille.iter_rows(min_row=2, values_only=True) if r[0]]
 
+    # Controle de coherence sur l'ensemble du classement (rangs 1* a 4), pas
+    # seulement le rang 4 : une collision d'issn_cle non repertoriee dans
+    # corrections_issn.FUSIONS_CONNUES arrete le script avant toute ecriture.
+    try:
+        fusions_rencontrees = verifier_fnege_complet(lignes)
+    except CollisionIssnInconnue as exc:
+        sys.exit("Controle FNEGE echoue : %s" % exc)
+
     deja_couverts = issn_du_csv_enrichi(CSV_ENRICHI)
     slugs_pris = slugs_du_csv_enrichi(CSV_ENRICHI)
 
@@ -116,17 +160,15 @@ def main():
 
     retenues, ecartees_csv, doublons_internes, sans_issn = [], [], [], []
     codes_inconnus = Counter()
+    corrections_rencontrees = []
     vus = {}
 
-    for titre, code, pissn_brut, eissn_brut, _a, _b, _c, _fr in (r[:8] for r in rang4):
-        titre = str(titre).strip()
-        code = (str(code).strip() if code else "")
-        pissn = nettoyer_issn(pissn_brut)
-        eissn = nettoyer_issn(eissn_brut)
-        issn_cle = eissn or pissn
+    for r in rang4:
+        titre, code, _rang, pissn, eissn, issn_cle, corrections_appliquees = normaliser_ligne(r)
+        corrections_rencontrees.extend(corrections_appliquees)
 
         if not issn_cle:
-            sans_issn.append((titre, pissn_brut, eissn_brut))
+            sans_issn.append((titre, r[2], r[3]))
             continue
         if (eissn and eissn in deja_couverts) or (pissn and pissn in deja_couverts):
             ecartees_csv.append((titre, issn_cle))
@@ -181,6 +223,18 @@ def main():
         print("  sans ISSN               : %s  (pISSN=%r eISSN=%r)" % (titre, p, e))
     for code, n in codes_inconnus.items():
         print("  code discipline inconnu : %r sur %d revue(s), colonne discipline laissee vide" % (code, n))
+
+    print("\nCorrections ISSN appliquees (rang 4 uniquement) : %d" % len(corrections_rencontrees))
+    for c in corrections_rencontrees:
+        print("  %-9s %s : %s -> %s" % (c["champ"], c["titre_fnege"], c["ancien"], c["nouveau"]))
+
+    print("\nFusions FNEGE connues rencontrees sur l'ensemble du classement (1* a 4) : %d" % len(fusions_rencontrees))
+    for issn_cle, fusion in fusions_rencontrees:
+        print("  %s : %s" % (issn_cle, " / ".join(fusion["titres"])))
+        if fusion["rang_retenu"] is None:
+            print("    EN ATTENTE DE DECISION : %s" % fusion["note"])
+        else:
+            print("    rang retenu : %s (%s)" % (fusion["rang_retenu"], fusion["note"]))
 
     repartition = Counter(r["discipline_code"] for r in retenues)
     print("\nRepartition par discipline :")
