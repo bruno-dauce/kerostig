@@ -111,7 +111,7 @@ eleventyComputed:
     </ul>
     {% endif %}
     {# Extrait borne, jamais le texte integral : cf scrapers/extrait.mjs et la
-       promesse faite dans /terms. Le renvoi vers l'editeur n'apparait que sur
+       promesse faite dans /mentions-legales. Le renvoi vers l'editeur n'apparait que sur
        un extrait reellement coupe, et seulement si l'appel a une URL
        exploitable -- trois appels de calls.json n'en ont pas. #}
     {% set extrait = call.description | extraitDescription %}

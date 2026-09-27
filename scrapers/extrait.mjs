@@ -1,7 +1,7 @@
 // Borne d'affichage du texte d'un appel.
 //
 // Le texte d'un appel appartient a son editeur : kerostig en publie un extrait
-// et renvoie vers l'original, jamais l'integralite (cf. /terms, « le texte
+// et renvoie vers l'original, jamais l'integralite (cf. /mentions-legales, « le texte
 // integral des appels n'est pas reproduit »). Le prompt de llmParser.mjs
 // demande desormais un resume et non une copie, mais cela ne suffit pas :
 // le contentHash de diffChecker porte sur le rawContent de la source, si bien
@@ -12,7 +12,7 @@
 // existant sans re-extraction payante ni reecriture des donnees stockees.
 //
 // Un seul module pour les trois consommateurs (fiche appel, JSON-LD, flux
-// RSS) : la promesse faite dans /terms ne doit pas dependre de la surface par
+// RSS) : la promesse faite dans /mentions-legales ne doit pas dependre de la surface par
 // laquelle le lecteur arrive.
 
 // Assez pour comprendre de quoi parle l'appel et decider de suivre le lien,

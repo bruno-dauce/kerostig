@@ -532,7 +532,7 @@ export default async function (eleventyConfig) {
 
         // Le flux partait sans dire d'ou venaient ses donnees ni a quelles
         // conditions les reutiliser : un consommateur machine n'a ni /about ni
-        // /terms sous les yeux, l'attribution doit voyager avec le fichier.
+        // /mentions-legales sous les yeux, l'attribution doit voyager avec le fichier.
         // Meme partage que le copyright du flux RSS (scrapers/feedgen.mjs) :
         // les notices sont de kerostig, le texte des appels ne l'est pas.
         // Millesime calcule et non fige, pour la meme raison que la-bas.

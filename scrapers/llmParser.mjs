@@ -23,7 +23,7 @@ const Date = z.object({
 // jusqu'ici « the main content of the call for papers », ce que le modele
 // executait a la lettre : verification faite sur un appel Springer, les 6
 // paragraphes stockes etaient identiques mot pour mot a la page de l'editeur,
-// soit 4 318 caracteres republies. Le site annonce l'inverse dans /terms.
+// soit 4 318 caracteres republies. Le site annonce l'inverse dans /mentions-legales.
 // La borne est doublee d'une borne d'affichage (scrapers/extrait.mjs), seule
 // a couvrir les appels deja stockes.
 const Description = z.object({
