@@ -45,6 +45,31 @@ node enrichir-revues.mjs              # passage complet
 
 Copier ensuite le `journals.json` produit dans `www/_data/`.
 
+## Collecter Wiley, SAGE et Emerald à la main
+
+La collecte hebdomadaire tourne sur GitHub Actions le lundi matin. Wiley, SAGE et Emerald en sont exclus : Cloudflare bloque les adresses des serveurs de GitHub, alors que le navigateur passe depuis un poste personnel. Ces trois éditeurs se collectent donc à la main, sous Windows, depuis la racine du dépôt :
+
+```powershell
+npm.cmd run manuel
+```
+
+Le script enchaîne les étapes suivantes :
+
+1. Il vérifie qu'on est sur `main` et que le dépôt n'a aucune modification en cours. Sinon, il s'arrête.
+2. Il récupère le dernier passage de la CI (`git pull --ff-only`).
+3. Il collecte les trois éditeurs. Chrome s'ouvre : il ne faut pas le fermer. Les trois éditeurs sont collectés en parallèle : Wiley prend environ 3 minutes, SAGE autant. L'extraction des nouveaux appels par le modèle s'ajoute.
+4. Il régénère les flux RSS.
+5. Il affiche le bilan : nouveaux appels, appels réactivés, appels désactivés par éditeur.
+6. Il committe, puis pousse. Si plus de 5 appels ont été désactivés, ou si une étape a échoué, il demande confirmation avant de pousser. En cas de refus, le commit reste local.
+
+Wiley ne revérifie qu'une fois par semaine les revues confirmées sans page d'appels. Pour toutes les revérifier, par exemple après l'ajout d'un chemin dans le scraper, ajoutez une option (environ 20 minutes de plus) :
+
+```powershell
+npm.cmd run manuel -- --reverifier-wiley
+```
+
+Prérequis : Google Chrome installé, et un fichier `.env` avec la clé de l'API d'extraction. Un appel désactivé n'est pas supprimé : il passe en archive. Une revue bloquée par Cloudflare pendant le passage garde ses appels tels quels.
+
 ## Règles de travail à plusieurs
 
 Toujours récupérer les changements (pull) avant de commencer, toujours envoyer (push) en finissant.

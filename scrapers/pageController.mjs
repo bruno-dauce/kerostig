@@ -34,11 +34,27 @@ export function filtrerParOnly(fichiers, termes) {
     );
 }
 
-function getOnlyFilter() {
+// --sauf <noms> : l'inverse de --only, tous les scrapers sauf ceux-la. Sert
+// au workflow CI, qui exclut les editeurs bloques depuis les runners GitHub
+// (Wiley, SAGE, Emerald) et lances a la main depuis le poste local. Leurs
+// appels ne sont pas touches, comme ceux de tout scraper non lance.
+// Fonction pure, exportee pour test.
+export function filtrerParSauf(fichiers, termes) {
+    if (!termes) return fichiers;
+    return fichiers.filter(fichier =>
+        !termes.some(terme => fichier.toLowerCase().includes(terme))
+    );
+}
+
+function lireOption(nom) {
     const args = process.argv.slice(2);
-    const index = args.indexOf('--only');
+    const index = args.indexOf(nom);
     if (index === -1) return null;
     return analyserFiltreOnly(args[index + 1]);
+}
+
+function getOnlyFilter() {
+    return lireOption('--only');
 }
 
 // Le repertoire journals/ est balaye pour y trouver les scrapers, mais tout
@@ -74,6 +90,11 @@ export async function scrapeAll(browserInstance) {
         if (only) {
             files = filtrerParOnly(files, only);
             console.log(`--only ${only.join(',')} : ${files.length} scraper(s) selectionne(s) (${files.join(', ') || 'aucun'})`);
+        }
+        const sauf = lireOption('--sauf');
+        if (sauf) {
+            files = filtrerParSauf(files, sauf);
+            console.log(`--sauf ${sauf.join(',')} : ${files.length} scraper(s) retenu(s)`);
         }
 
         const charges = await Promise.all(

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { analyserFiltreOnly, estFichierScraper, filtrerParOnly, retenirModulesValides } from './pageController.mjs';
+import { analyserFiltreOnly, estFichierScraper, filtrerParOnly, filtrerParSauf, retenirModulesValides } from './pageController.mjs';
 
 // Le 23 aout 2026, emeraldScraper.test.mjs pose dans scrapers/journals a ete
 // charge comme un scraper : il n'exporte pas scraperObject, la lecture de son
@@ -75,4 +75,20 @@ test('--only sans valeur exploitable ne filtre rien', () => {
     assert.equal(analyserFiltreOnly(undefined), null);
     assert.equal(analyserFiltreOnly(''), null);
     assert.equal(analyserFiltreOnly(' , , '), null);
+});
+
+// Wiley, SAGE et Emerald sont bloques par Cloudflare depuis les runners
+// GitHub (IP de datacenter) et se lancent a la main depuis le poste local.
+// Le workflow les exclut avec --sauf : leurs appels ne sont alors pas touches,
+// comme pour tout scraper non lance.
+
+test('--sauf exclut les scrapers nommes et garde tous les autres', () => {
+    assert.deepEqual(
+        filtrerParSauf(FICHIERS, analyserFiltreOnly('wiley,sage,emerald')),
+        ['aomScraper.mjs', 'elsevierScraper.mjs', 'informsScraper.mjs', 'springerScraper.mjs', 'tfScraper.mjs']
+    );
+});
+
+test('--sauf sans valeur exploitable n exclut rien', () => {
+    assert.deepEqual(filtrerParSauf(FICHIERS, null), FICHIERS);
 });

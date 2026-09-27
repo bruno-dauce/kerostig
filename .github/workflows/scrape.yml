@@ -148,12 +148,19 @@ jobs:
         # Invoque via bash plutot qu'en executable : le depot est edite sous
         # Windows, ou le bit d'execution ne survit pas toujours au commit.
         run: bash ./.github/scripts/inspect-browser-profile.sh "avant le scraping"
+      # Wiley, SAGE et Emerald sont exclus du passage hebdomadaire : Cloudflare
+      # bloque les IP des runners GitHub (constate du 2026-08-17 au 2026-09-27,
+      # cf wileyScraper.mjs et sageScraper.mjs), alors que le navigateur les lit
+      # depuis le poste local. Ils se lancent a la main avec
+      # scripts/lancement-manuel.mjs (voir README). --sauf laisse leurs appels
+      # intacts, comme pour tout scraper non lance. Un declenchement manuel
+      # avec only garde la main et peut toujours les viser.
       - name: Scrape
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           MODEL_NAME: ${{ secrets.MODEL_NAME }}
-        run: xvfb-run node ./scrapers/scraper.mjs ${{ inputs.only && format('--only {0}', inputs.only) || '' }}
+        run: xvfb-run node ./scrapers/scraper.mjs ${{ inputs.only && format('--only {0}', inputs.only) || '--sauf wiley,sage,emerald' }}
       - name: Inspect profile after scraping
         if: always()
         continue-on-error: true
