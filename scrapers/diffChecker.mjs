@@ -132,19 +132,26 @@ export async function integrateCalls(newCalls, ranAbbreviations = null, revuesBl
     const cleBlocage = (abbreviation, issn) => `${abbreviation}|${issn}`;
     const bloquees = new Set(revuesBloquees.map(r => cleBlocage(r.abbreviation, r.issn)));
 
-    const oldHashMap = new Map(oldCalls.map(call => [call.contentHash, call]));
+    // Un appel inchange se reconnait a son hash au sein de son propre scraper
+    // seulement. Deux scrapers lisant la meme source produisent le meme hash
+    // (constate le 2026-09-27 : vieux appels « isj » du fork amont et appels
+    // Wiley d'Information Systems Journal) ; sans l'abbreviation dans la cle,
+    // l'appel Wiley etait remplace par l'appel isj, que la boucle des anciens
+    // reinjectait en plus -- un doublon de plus a chaque run.
+    const cleHash = call => `${call.abbreviation}|${call.contentHash}`;
+    const oldHashMap = new Map(oldCalls.map(call => [cleHash(call), call]));
     const oldSlugMap = new Map(oldCalls.map(call => [call.slug, call]));
-    const newHashMap = new Map(newCalls.map(call => [call.contentHash, call]));
+    const newHashMap = new Map(newCalls.map(call => [cleHash(call), call]));
     const newSlugMap = new Map(newCalls.map(call => [call.slug, call]));
 
     let resultCalls = [];
 
     // Process new calls
     for (let newCall of newCalls) {
-        if (oldHashMap.has(newCall.contentHash)) {
+        if (oldHashMap.has(cleHash(newCall))) {
             // If hash exists, add existing call as is
             resultCalls.push({
-                ...oldHashMap.get(newCall.contentHash),
+                ...oldHashMap.get(cleHash(newCall)),
                 active: true // Ensure it's marked as active
             });
         } else {
@@ -183,11 +190,11 @@ export async function integrateCalls(newCalls, ranAbbreviations = null, revuesBl
             // remontee et a deja ete reprise par la boucle des nouveaux : sans
             // ce garde, on la reinjecterait ici en double. Le cas 'zero' n'est
             // pas concerne, ses deux maps sont vides pour cette abbreviation.
-            if (newHashMap.has(oldCall.contentHash) || newSlugMap.has(oldCall.slug)) continue;
+            if (newHashMap.has(cleHash(oldCall)) || newSlugMap.has(oldCall.slug)) continue;
             resultCalls.push(oldCall);
             continue;
         }
-        const revu = newHashMap.has(oldCall.contentHash) || newSlugMap.has(oldCall.slug);
+        const revu = newHashMap.has(cleHash(oldCall)) || newSlugMap.has(oldCall.slug);
         if (!revu && bloquees.has(cleBlocage(oldCall.abbreviation, oldCall.issn))) {
             // Revue non lue ce run : on preserve l'existant, sans periode de grace.
             resultCalls.push(oldCall);

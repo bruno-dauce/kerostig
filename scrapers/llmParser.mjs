@@ -40,13 +40,52 @@ const Call = z.object({
     dates: Date.array().describe("This is a list of important dates for the call for papers. Include ONLY dates that appear verbatim in the text provided. If the text announces no date at all, return an empty list -- an empty list is the correct answer, never a reason to supply a plausible date from memory or from the surrounding URLs. When a submission window is expressed as a range, return BOTH bounds as two separate entries, each with its own description -- never collapse a range into a single date."),
 });
 
-async function parseFuzzyDate(fuzzyDate) {
+const MOIS_ANGLAIS = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
+const MOIS_FRANCAIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+// Un espace au plus entre deux lettres : « Ma rch », « Sept ember ».
+const MOIS_COUPES = [...MOIS_ANGLAIS, ...MOIS_FRANCAIS]
+    .map(mois => ({ mois, motif: new RegExp(`(?<![\\p{L}])${[...mois].join(' ?')}(?![\\p{L}])`, 'giu') }));
+
+// pdfjs colle les fragments de texte d'un PDF avec un espace, et coupe un mot
+// quand le PDF applique un crenage inhabituel. Le modele recopie la date
+// telle quelle (c'est la consigne), et chrono ne lit plus « Ma rch 31, 2025 »
+// (constate sur Thunderbird International Business Review). Meme famille que
+// le millesime coupe de texteNormalise.
+// Fonction pure, exportee pour test.
+export function normaliserDateFloue(texte) {
+    return MOIS_COUPES.reduce((t, { mois, motif }) => t.replace(motif, mois), texte);
+}
+
+// Jour hors calendrier ecrit par la source (« 31 April 2026 », Human Resource
+// Management) : borne au dernier jour du mois, que chrono sait lire.
+function bornerJour(texte) {
+    // globalThis : le schema zod « Date » de ce module masque l'objet global.
+    const dernierJour = (mois, annee) => new globalThis.Date(globalThis.Date.UTC(Number(annee), MOIS_ANGLAIS.indexOf(mois.toLowerCase()) + 1, 0)).getUTCDate();
+    const mois = MOIS_ANGLAIS.join('|');
+    return texte
+        .replace(new RegExp(`\\b(\\d{1,2})(st|nd|rd|th)?(\\s+)(${mois})(\\s*,?\\s*)(\\d{4})\\b`, 'gi'),
+            (tout, j, suffixe, e1, m, e2, a) => `${Math.min(Number(j), dernierJour(m, a))}${suffixe ?? ''}${e1}${m}${e2}${a}`)
+        .replace(new RegExp(`\\b(${mois})(\\s+)(\\d{1,2})(st|nd|rd|th)?(\\s*,?\\s*)(\\d{4})\\b`, 'gi'),
+            (tout, m, e1, j, suffixe, e2, a) => `${m}${e1}${Math.min(Number(j), dernierJour(m, a))}${suffixe ?? ''}${e2}${a}`);
+}
+
+const lireDate = texte => chrono.parseDate(texte) ?? chrono.fr.parseDate(texte);
+
+// Le recollage passe avant chrono : sur « Sept ember 15, 2026 », chrono lit
+// « Sept » seul et rend le 1er septembre, une date fausse et non nulle. Il ne
+// modifie qu'un nom de mois coupe, que chrono lit toujours mal. Le bornage du
+// jour, lui, ne s'applique qu'a une date que chrono ne lit pas : une date
+// deja lue, meme approximative (« End of October » -> le 1er), ne change pas.
+// Fonction exportee pour test.
+export async function parseFuzzyDate(fuzzyDate) {
     // Le parseur anglais par defaut renvoie null sur des dates francaises
     // ("31 decembre 2026") -- confirme manuellement. chrono-node fournit un
     // parseur localise (chrono.fr) qui gere aussi les ordinaux ("1er juin").
     // Essaye en repli seulement, pour ne rien changer au comportement
     // existant sur les dates anglaises des autres scrapers.
-    return chrono.parseDate(fuzzyDate) ?? chrono.fr.parseDate(fuzzyDate);
+    if (typeof fuzzyDate !== 'string') return null;
+    const recolle = normaliserDateFloue(fuzzyDate);
+    return lireDate(recolle) ?? lireDate(bornerJour(recolle));
 }
 
 // Un rawContent absent, ou trop maigre pour porter un vrai titre (Elsevier :
@@ -158,6 +197,17 @@ export function ecarterDatesNonSourcees(dates, rawContent, titre) {
     });
 }
 
+// Tokens consommes par le modele depuis le lancement du processus, affiches
+// en fin de run (pageController) : le cout d'une reextraction se lit sur le
+// run lui-meme au lieu d'etre estime. Journalisation seule, sans effet sur
+// les appels ni sur leur contentHash.
+export const consommation = { appels: 0, entree: 0, sortie: 0 };
+
+// Fonction pure, exportee pour test.
+export function formaterConsommation({ appels, entree, sortie }, modele) {
+    return `[llm] ${appels} appel(s) au modele${modele ? ` ${modele}` : ''} : ${entree} tokens en entree, ${sortie} en sortie`;
+}
+
 export async function parse(call) {
     if (!call.rawContent || call.rawContent.length == 0) {
         delete call.rawContent;
@@ -172,6 +222,10 @@ export async function parse(call) {
         ],
         response_format: zodResponseFormat(Call, "call_parsing"),
     });
+
+    consommation.appels += 1;
+    consommation.entree += completion.usage?.prompt_tokens ?? 0;
+    consommation.sortie += completion.usage?.completion_tokens ?? 0;
 
     const rawContent = call.rawContent;
     call = { ...call, ...completion.choices[0].message.parsed };

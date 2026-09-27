@@ -305,3 +305,30 @@ test('les appels d un scraper non lance (--only) ne sont pas desactives', async 
     assert.equal(deSage.length, 4);
     assert.ok(deSage.every(call => call.active === true && call.gracePeriod === undefined));
 });
+
+// Constate le 2026-09-27 : trois vieux appels « isj » (fork amont, scraper
+// disparu) portaient le meme contentHash que les appels Wiley d'Information
+// Systems Journal, une fois ceux-ci lus sur leur page de detail ou leur PDF.
+// La correspondance par hash ignorait l'editeur : l'appel Wiley etait
+// remplace par l'ancien appel isj (sans ISSN), et la boucle des anciens
+// reinjectait en plus cet appel isj -- un exemplaire de plus a chaque run.
+test('un hash identique chez un autre scraper ne remplace pas l appel', async () => {
+    const wiley = brut('wiley', 1);
+    const [enBase] = await clean(wiley.map(c => ({ ...c })));
+    const anciens = [
+        { ...enBase, active: true },
+        // Meme contenu, donc meme hash, sous un autre scraper, place apres
+        // pour que la collision joue dans la Map des hashes.
+        { ...enBase, abbreviation: 'isj', slug: 'isj-appel-0', issn: undefined, active: false },
+    ];
+
+    const resultat = await dansUnDepotTemporaire(anciens, () => integrateCalls(wiley.map(c => ({ ...c })), ['wiley']));
+
+    const deWiley = resultat.filter(call => call.abbreviation === 'wiley');
+    assert.equal(deWiley.length, 1, 'l appel Wiley est toujours la');
+    assert.equal(deWiley[0].slug, enBase.slug);
+    assert.equal(deWiley[0].active, true);
+    assert.equal(deWiley[0].issn, enBase.issn);
+    assert.equal(resultat.filter(call => call.slug === 'isj-appel-0').length, 1, 'l appel isj n est pas duplique');
+    assert.equal(resultat.length, 2);
+});
