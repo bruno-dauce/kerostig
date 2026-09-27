@@ -14,10 +14,13 @@
       {% if revue.rang_fnege_2025 %}
       {# Meme lien que le badge de rang des cartes (cf. call-card.html). Pas de &disc
          ici : cette carte n'est incluse que par la fiche appel, dont le contexte de
-         page est l'appel et non une discipline. #}
-      <a href="{{ '/' | url }}?rang={{ revue.rang_fnege_2025 | urlencode }}"
+         page est l'appel et non une discipline. Une revue en conflit FNEGE affiche
+         un badge par rang (cf. corrections-issn.json), comme call-card.html. #}
+      {% for r in revue | rangsFnege %}
+      <a href="{{ '/' | url }}?rang={{ r | urlencode }}"
          class="badge badge-sm badge-outline font-semibold transition-colors hover:bg-primary/10"
-         style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ revue.rang_fnege_2025 }}</a>
+         style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ r }}</a>
+      {% endfor %}
       {# Le renvoi vers la FNEGE se pose a cote du badge et non autour : le
          badge est deja un lien, vers l'accueil pre-filtre sur ce rang. #}
       <span class="text-xs opacity-70 self-center">({{ fnege.texte() }})</span>

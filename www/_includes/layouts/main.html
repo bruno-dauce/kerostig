@@ -73,7 +73,21 @@ layout: layouts/base.html
     },
 
     match_rang(el) {
-        return this.rang === '' || el.getAttribute('data-rang') === this.rang;
+        // data-rang porte normalement un seul rang, mais un rang « en conflit
+        // FNEGE » (deux lignes du classement, deux rangs) en porte deux,
+        // separes par un espace : voir corrections-issn.json et
+        // appliquer-conflits-rang.mjs. La revue doit alors apparaitre sous
+        // chacun de ses rangs. D'ou un decoupage sur l'espace puis une
+        // egalite stricte par element (Array.includes), jamais un simple
+        // .includes() sur la chaine brute : « 1*.includes(1) » vaudrait
+        // true et ferait ressortir les revues de rang 1* sous le filtre 1.
+        // Test de non-regression : www/_includes/layouts/rang-filtering.test.mjs
+        // (copie fidele de cette fonction, a resynchroniser si elle change).
+        // Attention, aucun guillemet droit dans ces commentaires : ce bloc
+        // entier vit dans un attribut HTML delimite par des guillemets
+        // droits (x-data), un seul ici tronquerait tout le reste de x-data.
+        if (this.rang === '') return true;
+        return (el.getAttribute('data-rang') || '').split(' ').includes(this.rang);
     },
 
     match_francophone(el) {
@@ -233,8 +247,14 @@ layout: layouts/base.html
                       this.match_oa(el) && this.match_francophone(el))) continue;
                 if (this.match_disc(el)) {
                     rangTotal++;
-                    const r = el.getAttribute('data-rang') || '';
-                    if (r) rang[r] = (rang[r] || 0) + 1;
+                    // data-rang porte parfois deux rangs separes par un espace (revue en
+                    // conflit FNEGE, cf. match_rang plus haut) : chacun incremente sa
+                    // propre puce, jamais une cle composite (ex. « 2 3 ») qu'aucune option
+                    // du menu ne peut jamais lire. rangTotal, lui, ne bouge qu'une fois par
+                    // carte : cette revue compte une seule fois dans le total des appels.
+                    // Test de non-regression : www/_includes/layouts/rang-filtering.test.mjs.
+                    const rangs = (el.getAttribute('data-rang') || '').split(' ').filter(Boolean);
+                    for (const r of rangs) rang[r] = (rang[r] || 0) + 1;
                 }
                 if (this.match_rang(el)) {
                     discTotal++;

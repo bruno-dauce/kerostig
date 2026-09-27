@@ -167,6 +167,110 @@ test('une remontee tronquee ne duplique pas les appels conserves', async () => {
     assert.equal(resultat.length, 47, 'les 47 appels sont conserves, ni perdus ni dupliques');
 });
 
+// La remise a zero ciblee du contentHash (prefixe "reset:", cf commit
+// b8e32f760) sert a forcer une reextraction : au prochain passage ou le
+// scraper retrouve l'appel, le hash prefixe ne correspond plus au hash reel
+// de la page, donc integrateCalls le traite comme un contenu modifie et le
+// fait repasser par le modele. Si le scraper NE retrouve PAS l'appel ce
+// passage-la (page deplacee, blocage temporaire), rien ne doit se perdre :
+// l'appel suit exactement le chemin d'un appel disparu ordinaire.
+test('un contentHash "reset:" ne fait perdre aucune donnee quand l appel n est plus retrouve au passage suivant', async () => {
+    // Deux appels actifs pour l abbreviation : si le seul appel du scraper
+    // etait celui reinitialise, sa disparition ferait tomber apres a 0 et
+    // detecterScrapersVides gelerait tout au lieu de le traiter comme une
+    // disparition individuelle (cf motif 'zero', sans seuil plancher). Le
+    // second appel, lui, est bien retrouve : le scraper n a pas echoue.
+    const source = brut('tandf', 2);
+    const nettoyes = await clean(source.map(c => ({ ...c })));
+    const disparu = {
+        ...nettoyes[0],
+        active: true,
+        description: { paragraphs: ['Un texte existant, jamais retrouve depuis la reinitialisation.'] },
+        contentHash: `reset:${nettoyes[0].contentHash}`,
+    };
+    const retrouve = { ...nettoyes[1], active: true };
+
+    const resultat = await dansUnDepotTemporaire(
+        [disparu, retrouve],
+        () => integrateCalls([source[1]], ['tandf'])
+    );
+
+    assert.equal(resultat.length, 2, 'aucun appel n est perdu ni duplique');
+    const apresDisparition = resultat.find(c => c.slug === disparu.slug);
+    assert.equal(apresDisparition.active, false, 'marque inactif faute d etre retrouve, comme n importe quel appel disparu');
+    assert.ok(apresDisparition.gracePeriod, 'une periode de grace est ouverte, l affichage n est pas coupe net');
+    assert.deepEqual(apresDisparition.description, disparu.description, 'la description reste intacte');
+    assert.equal(apresDisparition.contentHash, disparu.contentHash, 'le hash reinitialise n est pas efface tant que l appel n est pas retrouve');
+});
+
+// Les trois tests suivants exercent integrateCalls de bout en bout sur le
+// gel des scrapers vides/en chute (detecterScrapersVides). Les tests unitaires
+// de detecterScrapersVides existants (plus bas dans ce fichier) verifient
+// le calcul du motif ; aucun ne verifiait jusqu'ici que le resultat ECRIT par
+// integrateCalls preserve bien active:true et les donnees des appels geles.
+test('un scraper qui retombe a zero gele tous ses appels actifs, donnees intactes', async () => {
+    const source = brut('geltest0', 3);
+    const anciens = (await clean(source.map(c => ({ ...c })))).map((c, i) => ({
+        ...c,
+        active: true,
+        description: { paragraphs: [`Description ${i}.`] },
+    }));
+
+    const resultat = await dansUnDepotTemporaire(anciens, () => integrateCalls([], ['geltest0']));
+
+    assert.equal(resultat.length, 3, 'aucun appel perdu');
+    for (const call of resultat) {
+        const original = anciens.find((a) => a.slug === call.slug);
+        assert.equal(call.active, true, `${call.slug} reste actif malgre le zero`);
+        assert.equal(call.gracePeriod, undefined, `${call.slug} n a pas de periode de grace ouverte a tort`);
+        assert.deepEqual(call.description, original.description, `${call.slug} garde sa description`);
+    }
+});
+
+test('un scraper qui retrouve moins de la moitie de ses appels actifs gele les manquants', async () => {
+    const source = brut('geltest1', 10);
+    const anciens = (await clean(source.map(c => ({ ...c })))).map((c, i) => ({
+        ...c,
+        active: true,
+        description: { paragraphs: [`Description ${i}.`] },
+    }));
+    // 2 retrouves sur 10 actifs : ratio 0.2 < CHUTE_RATIO (0.5) et chute de 8
+    // >= CHUTE_PLANCHER (5) -- declenche le motif 'chute'.
+    const retrouves = source.slice(0, 2).map((c) => ({ ...c }));
+
+    const resultat = await dansUnDepotTemporaire(anciens, () => integrateCalls(retrouves, ['geltest1']));
+
+    assert.equal(resultat.length, 10, 'aucun appel perdu');
+    assert.ok(resultat.every((call) => call.active === true), 'tous restent actifs, trouves ou geles');
+    assert.ok(resultat.every((call) => call.gracePeriod === undefined), 'aucune periode de grace, ce n est pas une disparition');
+    for (const call of resultat) {
+        const original = anciens.find((a) => a.slug === call.slug);
+        assert.deepEqual(call.description, original.description, `${call.slug} garde sa description`);
+    }
+});
+
+test('une perte isolee sous le plancher n est pas gelee : l appel manquant part en grace normalement', async () => {
+    const source = brut('geltest2', 10);
+    const anciens = (await clean(source.map(c => ({ ...c })))).map((c, i) => ({
+        ...c,
+        active: true,
+        description: { paragraphs: [`Description ${i}.`] },
+    }));
+    // 9 retrouves sur 10 : chute de 1, sous CHUTE_PLANCHER (5) -- pas de gel,
+    // variation normale (un appel qui clot par exemple).
+    const retrouves = source.slice(0, 9).map((c) => ({ ...c }));
+
+    const resultat = await dansUnDepotTemporaire(anciens, () => integrateCalls(retrouves, ['geltest2']));
+
+    assert.equal(resultat.length, 10, 'aucun appel perdu');
+    const manquant = resultat.find((c) => c.slug === anciens[9].slug);
+    assert.equal(manquant.active, false, 'la variation normale n est pas gelee, l appel manquant part bien en inactif');
+    assert.ok(manquant.gracePeriod, 'une periode de grace s ouvre normalement');
+    assert.deepEqual(manquant.description, anciens[9].description, 'sa description n est pas perdue pour autant');
+    const retrouvesResultats = resultat.filter((c) => c.slug !== anciens[9].slug);
+    assert.ok(retrouvesResultats.every((c) => c.active === true), 'les 9 autres restent actifs');
+});
+
 test('estNouvelArchivage distingue un premier archivage d une repetition', () => {
     assert.equal(estNouvelArchivage({ active: true }), true, 'appel encore actif : premier archivage');
     assert.equal(estNouvelArchivage(undefined), true, 'appel inconnu au passage precedent : premier archivage');

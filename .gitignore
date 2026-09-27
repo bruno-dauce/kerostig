@@ -41,6 +41,12 @@ _tmp/
 enrichissement/*
 !enrichissement/*.py
 !enrichissement/*.mjs
+# Table de corrections ISSN + fusions FNEGE connues : quelques entrees
+# curees a la main, pas un export du classement FNEGE, donc pas concernee par
+# la regle "pas de liste FNEGE integrale". Lue a la fois par corrections_issn.py
+# et par les scripts Node (reenrichir-issn-corriges.mjs, appliquer-conflits-rang.mjs) :
+# doit rester versionnee pour que les deux cotes du pipeline restent en phase.
+!enrichissement/corrections-issn.json
 *.csv
 
 # Fichiers supplementaires a ignorer

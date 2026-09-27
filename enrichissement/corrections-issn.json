@@ -1,0 +1,57 @@
+{
+  "corrections": [
+    {
+      "titre_fnege": "DECISION SCIENCES JOURNAL OF INNOVATIVE EDUCATION",
+      "champ": "pissn",
+      "ancien": "1540-4609",
+      "nouveau": "1540-4595",
+      "source": "portal.issn.org/resource/ISSN/1540-4595 : ISSN-L, edition imprimee de Decision Sciences Journal of Innovative Education."
+    },
+    {
+      "titre_fnege": "DECISION SCIENCES JOURNAL OF INNOVATIVE EDUCATION",
+      "champ": "eissn",
+      "ancien": "1552-6763",
+      "nouveau": "1540-4609",
+      "source": "portal.issn.org/resource/ISSN/1540-4609 : edition en ligne de Decision Sciences Journal of Innovative Education (Wiley). 1552-6763 est en realite l'eISSN de Journal of Travel Research (SAGE) : fausse collision."
+    },
+    {
+      "titre_fnege": "APPETITE",
+      "champ": "pissn",
+      "ancien": "0092-0703",
+      "nouveau": "0195-6663",
+      "source": "portal.issn.org/resource/ISSN/0195-6663 : Appetite (Print). 0092-0703 est en realite le pISSN de Journal of the Academy of Marketing Science."
+    },
+    {
+      "titre_fnege": "SYSTEMS RESEARCH AND BEHAVIORAL SCIENCES",
+      "champ": "pissn",
+      "ancien": "0160-791X",
+      "nouveau": "1092-7026",
+      "source": "portal.issn.org/resource/ISSN/1092-7026 : Systems research and behavioral science (Print, Wiley). 0160-791X est en realite le pISSN de Technology in Society."
+    }
+  ],
+  "fusions_connues": {
+    "1758-7905": {
+      "titres": ["LEARNING ORGANIZATION", "THE LEARNING ORGANIZATION"],
+      "rang_retenu": "4",
+      "note": "Variante de titre, memes ISSN, meme rang : simple doublon."
+    },
+    "1532-0936": {
+      "titres": [
+        "DATABASE FOR ADVANCES IN INFORMATION SYSTEMS",
+        "THE DATA BASE FOR ADVANCES IN INFORMATION SYSTEMS"
+      ],
+      "rang_retenu": "3",
+      "note": "Variante de titre, meme rang. Le pISSN differe entre les deux lignes (0095-0033 vs 1532-0936 duplique de l'eISSN) : 0095-0033 est le bon (portal.issn.org/resource/ISSN/0095-0033)."
+    },
+    "2168-2232": {
+      "titres": [
+        "IEEE TRANSACTION ON SYSTEMS, MAN AND CYBERNETICS: SYSTEMS (FORMERLY \"IEEE TRANSACTIONS ON SYSTEMS, MAN AND CYBERNETICS - PART A: SYSTEMS AND HUMANS\")",
+        "IEEE TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS: SYSTEMS"
+      ],
+      "rang_retenu": null,
+      "note": "Rangs FNEGE en conflit entre les deux lignes (2 et 3) : decision humaine en attente, aucun rang choisi automatiquement.",
+      "rangs_affiches": ["2", "3"],
+      "note_publique": "Cette revue figure deux fois dans le classement FNEGE 2025, avec les rangs 2 et 3."
+    }
+  }
+}

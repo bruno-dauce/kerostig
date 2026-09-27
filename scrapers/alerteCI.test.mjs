@@ -4,7 +4,7 @@ import { promises as fs } from 'fs';
 import os from 'os';
 import path from 'path';
 
-import { depasseSeuilEchec, formaterResumeAlertes, publierResumeCI } from './alerteCI.mjs';
+import { depasseSeuilEchec, formaterResumeAlertes, formaterResumeGardeFou, publierResumeCI } from './alerteCI.mjs';
 
 const alerte = (abbreviation, avant, apres = 0) => ({
     abbreviation,
@@ -72,6 +72,20 @@ test('ecrit le resume dans le fichier designe par GITHUB_STEP_SUMMARY', async ()
 test('ne fait rien hors CI, quand la variable n est pas definie', async () => {
     // Doit rester silencieux en local plutot que de lever.
     await publierResumeCI('## Un resume', {});
+});
+
+test('ne resume rien quand aucune description ne depasse apres relance', () => {
+    assert.equal(formaterResumeGardeFou([]), '');
+});
+
+test('nomme chaque appel encore en depassement apres la relance', () => {
+    const resume = formaterResumeGardeFou([
+        { slug: 'tandf-un-appel', longueur: 1450, tauxCopie: 0.42 },
+        { slug: 'emerald-un-autre-appel', longueur: 900, tauxCopie: null },
+    ]);
+    assert.match(resume, /Descriptions a revoir malgre la relance : 2/);
+    assert.match(resume, /tandf-un-appel \| 1450 \| 42 %/);
+    assert.match(resume, /emerald-un-autre-appel \| 900 \| —/);
 });
 
 test('n ecrit pas un resume vide', async () => {
