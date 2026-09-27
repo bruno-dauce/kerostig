@@ -3,6 +3,9 @@ import { zodResponseFormat } from 'openai/helpers/zod';
 import { z } from 'zod';
 import * as chrono from 'chrono-node';
 
+import { LIMITE_EXTRAIT_CARACTERES } from './extrait.mjs';
+import { descriptionEnTexte, tauxDeCopie } from './mesureCopie.mjs';
+
 const openai = new OpenAI({
     baseURL: process.env.OPENAI_BASE_URL,
     apiKey: process.env.OPENAI_API_KEY,
@@ -158,23 +161,99 @@ export function ecarterDatesNonSourcees(dates, rawContent, titre) {
     });
 }
 
+// Garde-fou de longueur et de copie sur la description generee.
+//
+// La consigne du prompt (au plus 900 caracteres, une reformulation et non un
+// extrait) ne suffit pas a elle seule : verifie sur les 215 appels extraits
+// depuis le correctif du 2026-09-03 (commit fc9899224), 41 % depassaient
+// encore 900 caracteres, certains a plus de 1600. La borne dure est donc
+// alignee sur LIMITE_EXTRAIT_CARACTERES (scrapers/extrait.mjs) plutot que sur
+// les 900 du prompt : au-dela, l'affichage tronquerait de toute facon, ce qui
+// n'a plus rien d'un probleme de synthese, juste d'un gaspillage de tokens et
+// d'un signal a surveiller.
+//
+// Le seuil de copie (30 %, sur les sequences de 8 mots, cf mesureCopie.mjs) a
+// ete calibre sur ces memes 215 appels : aucun ne depassait 13,3 % de copie
+// malgre leurs depassements de longueur, donc 30 % laisse une marge large
+// pour la reformulation legitime tout en restant capable d'attraper une
+// regression vers la copie quasi integrale d'avant le correctif.
+const SEUIL_COPIE = 0.30;
+
+// Fonction pure, exportee pour test.
+export function evaluerDescription(description, rawContent) {
+    const paragraphes = Array.isArray(description?.paragraphs) ? description.paragraphs : [];
+    const longueur = paragraphes.reduce((total, p) => total + (typeof p === 'string' ? p.length : 0), 0);
+    const tauxCopie = tauxDeCopie(descriptionEnTexte(description), rawContent);
+    return {
+        longueur,
+        tauxCopie,
+        depasseLongueur: longueur > LIMITE_EXTRAIT_CARACTERES,
+        depasseCopie: tauxCopie !== null && tauxCopie >= SEUIL_COPIE,
+    };
+}
+
+function construireConsigneRelance({ depasseLongueur, depasseCopie }) {
+    const consignes = [];
+    if (depasseCopie) {
+        consignes.push('Your description reuses long verbatim phrases from the source text. Rewrite it entirely in your own words: do not reuse any sentence or long phrase from the text provided.');
+    }
+    if (depasseLongueur) {
+        consignes.push(`Your description exceeds ${LIMITE_EXTRAIT_CARACTERES} characters combined across all paragraphs. Shorten it to fit within this limit.`);
+    }
+    consignes.push('At most 3 paragraphs total. Keep the same language as before.');
+    return consignes.join(' ');
+}
+
+// Appels dont la description depasse encore la longueur ou le taux de copie
+// apres la relance : jamais rejetes (le resultat de la relance est conserve
+// tel quel), juste signales pour le bilan de fin de run (cf pageController.mjs
+// et alerteCI.formaterResumeGardeFou). Reinitialise a chaque process, comme
+// scrapers/llmParser.mjs.consommation sur la branche des pages de detail Wiley.
+export const depassementsGardeFou = [];
+
 export async function parse(call) {
     if (!call.rawContent || call.rawContent.length == 0) {
         delete call.rawContent;
         call.tags = [];
         return replierSurMetaTitle(call);
     }
+    const rawContent = call.rawContent;
+    const messages = [
+        { role: "system", content: "You are an expert parser of calls for papers for special issues of academic journals. You do NOT make up any information: every fact you output must come from the text in front of you. Titles, names, topics and dates are copied from the call directly. The description is the single exception: it is a short summary you write in your own words, and it must still introduce no fact that is absent from the text. The rule against making things up applies to dates above all: some of the texts you are given are very short -- a title and a link, nothing more -- and you may recognise the call from your own knowledge. Do not use that knowledge. If a submission deadline is not written in the text in front of you, it does not exist for the purposes of this task, and the list of dates must stay empty." },
+        { role: "user", content: `Parse the following call for papers:\n\n${rawContent}` },
+    ];
+
     const completion = await openai.beta.chat.completions.parse({
         model: process.env.MODEL_NAME,
-        messages: [
-            { role: "system", content: "You are an expert parser of calls for papers for special issues of academic journals. You do NOT make up any information: every fact you output must come from the text in front of you. Titles, names, topics and dates are copied from the call directly. The description is the single exception: it is a short summary you write in your own words, and it must still introduce no fact that is absent from the text. The rule against making things up applies to dates above all: some of the texts you are given are very short -- a title and a link, nothing more -- and you may recognise the call from your own knowledge. Do not use that knowledge. If a submission deadline is not written in the text in front of you, it does not exist for the purposes of this task, and the list of dates must stay empty." },
-            { role: "user", content: `Parse the following call for papers:\n\n${call.rawContent}` },
-        ],
+        messages,
         response_format: zodResponseFormat(Call, "call_parsing"),
     });
+    let parsed = completion.choices[0].message.parsed;
 
-    const rawContent = call.rawContent;
-    call = { ...call, ...completion.choices[0].message.parsed };
+    let evaluation = evaluerDescription(parsed.description, rawContent);
+    if (evaluation.depasseLongueur || evaluation.depasseCopie) {
+        const relance = await openai.beta.chat.completions.parse({
+            model: process.env.MODEL_NAME,
+            messages: [
+                ...messages,
+                { role: "assistant", content: JSON.stringify(parsed) },
+                { role: "user", content: construireConsigneRelance(evaluation) },
+            ],
+            response_format: zodResponseFormat(Call, "call_parsing"),
+        });
+        parsed = relance.choices[0].message.parsed;
+        evaluation = evaluerDescription(parsed.description, rawContent);
+        if (evaluation.depasseLongueur || evaluation.depasseCopie) {
+            depassementsGardeFou.push({
+                slug: call.slug ?? null,
+                url: call.url ?? null,
+                longueur: evaluation.longueur,
+                tauxCopie: evaluation.tauxCopie,
+            });
+        }
+    }
+
+    call = { ...call, ...parsed };
     delete call.rawContent
     call.dates = await Promise.all(call.dates.map(async date => {
         // La chaine brute du modele est conservee le temps du controle de
