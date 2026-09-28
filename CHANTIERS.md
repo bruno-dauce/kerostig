@@ -5,6 +5,33 @@ topics, libellés d'interface). Mis à jour au fil des PR ; ce fichier
 documente l'état et les décisions prises, pas le détail technique
 (qui vit dans les commits et les PR elles-mêmes).
 
+## Routine
+
+**Lancement manuel** (Wiley, SAGE, Emerald, INFORMS, Elsevier — bloqués
+en CI) : toutes les semaines,
+
+```powershell
+npm.cmd run manuel
+```
+
+Depuis la racine, sous Windows, Chrome doit rester ouvert pendant la
+collecte. Voir le README pour le détail des étapes et l'option
+`--reverifier-wiley`.
+
+**Si la collecte hebdomadaire (CI) échoue** :
+1. Les données déjà collectées et passées par le modèle sont
+   committées et poussées quand même (`if: always()` dans le
+   workflow) — un run rouge ne fait jamais perdre de travail déjà
+   fait.
+2. Ouvrir les logs du run, chercher les lignes `[ALERTE]` : elles
+   nomment le scraper en cause et le motif (`zero` ou `chute`). Ses
+   appels actifs sont gelés tels quels, pas archivés à tort.
+3. Retester ce scraper seul en local pour distinguer un vrai retrait
+   éditeur d'un échec silencieux (site refondu, anti-bot renforcé) :
+   `node --env-file .env scrapers/scraper.mjs --only <abréviation>`.
+4. Une alerte sur Wiley, SAGE, Emerald, INFORMS ou Elsevier un lundi
+   est normale, pas un incident : ces cinq ne tournent jamais en CI.
+
 ## Fait (2026-09-28)
 
 - Priorité 1 (doublons) : bug de slug instable corrigé, cartes de
@@ -53,11 +80,13 @@ Trois lots, une fois le point 1 terminé :
   contrôlé).
 - Les 9 fiches « douteuses » (redirections ScienceDirect vers un code
   court, contenu non confirmable par une requête brute) : à recharger
-  dans un vrai navigateur pour trancher vivante/disparue.
-- Les 6 fiches à suffixe `-2` sans jumeau (reste du bug de slug
-  corrigé en PR #16, confirmé par l'historique Git) : une fois leur
-  statut « vivante » confirmé, les ramener à leur slug de base, avec
-  redirection 301 du `-2` (publié depuis le 2026-08-12) ajoutée à
+  dans un vrai navigateur pour trancher vivante/disparue. **6 de ces 9
+  sont les fiches à suffixe `-2` sans jumeau ci-dessous** — même lot,
+  pas un quatrième groupe distinct.
+- Parmi elles, les 6 fiches à suffixe `-2` sans jumeau (reste du bug
+  de slug corrigé en PR #16, confirmé par l'historique Git) : une fois
+  leur statut « vivante » confirmé, les ramener à leur slug de base,
+  avec redirection 301 du `-2` (publié depuis le 2026-08-12) ajoutée à
   `enrichissement/redirections.json`.
 
 ### 3. Réextraction des appels anciens (avant le commit `fc9899224`)
@@ -69,8 +98,16 @@ garde-fou actuel.
 ### 4. JAIS et MIS Quarterly
 
 Aucun scraper actuel ne couvre ces deux revues (rang 1 et 1*
-respectivement). À instruire : scraper dédié ou extension d'un
-scraper existant, selon la structure de leur page d'appels.
+respectivement). Leurs scrapers ont existé et ont été supprimés dans
+le commit `6fb0e704c` (récupérables dans l'historique :
+`git show 6fb0e704c^:scrapers/journals/jaisScraper.mjs`, idem pour
+`misqScraper.mjs`) — pas repartir de zéro.
+
+- **JAIS** : `div.crumbs`, filtre sur "Call for Papers:", `issn_cle`,
+  lecture des PDF hébergés ailleurs. Test sur extrait figé.
+- **MIS Quarterly** : tester en conditions réelles (navigateur
+  visible, profil persistant) ; l'ajouter au lancement manuel s'il
+  passe.
 
 ### 5. Revérifier les 32 revues « aucun scraper possible »
 
