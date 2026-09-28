@@ -219,9 +219,14 @@ test('rejoue chaque appel de calls.json en isolation : aucun slug ne change', as
     }
 
     assert.ok(verifiesSansAmbiguite > 850, `attendu bien plus de 850 appels sans ambiguite, obtenu ${verifiesSansAmbiguite}`);
-    // Doit correspondre au compte de doublons actifs identifies le 2026-09-28
-    // (cup-risk-sharing, elsevier-pathways, elsevier-how-government-policy,
-    // sage-imaginer-la-post-croissance). Une hausse signale un nouveau
-    // doublon a instruire, pas seulement un chiffre a mettre a jour ici.
-    assert.equal(groupesAmbigus, 4, `nombre de groupes en doublon inattendu : ${groupesAmbigus}`);
+    // Les 13 doublons actifs identifies le 2026-09-28 sont fusionnes (PR B) :
+    // seul reste le groupe isr-* (3 fiches heritees, ISSN d'Information
+    // Systems Research attribue le 2026-09-28 pour les relier a leur revue),
+    // qui partagent desormais abreviation+ISSN+URL entre elles sans etre des
+    // doublons -- ce sont 3 sujets distincts sur la page hub generique
+    // d'INFORMS. Inoffensif : le scraper isr ne tourne plus, cette identite
+    // n'est donc plus jamais consultee en production. Une hausse au-dela de 1
+    // signale un nouveau doublon a instruire, pas seulement un chiffre a
+    // mettre a jour ici.
+    assert.equal(groupesAmbigus, 1, `nombre de groupes en doublon inattendu : ${groupesAmbigus}`);
 });

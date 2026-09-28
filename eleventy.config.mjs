@@ -4,6 +4,7 @@ import { DateTime } from "luxon";
 
 import { echeanceDepassee } from "./scrapers/echeance.mjs";
 import { extraireDescription, resumerDescription, lienSourceOriginale, lienContactEditeurs } from "./scrapers/extrait.mjs";
+import { trouverAppelConjoint } from "./scrapers/numerosConjoints.mjs";
 
 // Flux RSS par tag reellement disponibles. Ces fichiers sont ecrits par
 // scrapers/feedgen.mjs dans www/tag/ et recopies en passthrough : le build ne
@@ -118,6 +119,10 @@ export default async function (eleventyConfig) {
         return trouverRevueParNom(journals, call.journal);
     };
     eleventyConfig.addFilter("revueDeLAppel", trouverRevueDeLAppel);
+
+    // Numero special conjoint : calcule au build (meme URL, meme texte, ISSN
+    // different), jamais stocke sur l'appel -- cf scrapers/numerosConjoints.mjs.
+    eleventyConfig.addFilter("appelConjoint", trouverAppelConjoint);
 
     // --- kerostig : pages hub par discipline FNEGE ---------------------------
     // Ces deux filtres alimentent /discipline/:slug. La discipline d'un appel

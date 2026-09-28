@@ -47,6 +47,10 @@ enrichissement/*
 # et par les scripts Node (reenrichir-issn-corriges.mjs, appliquer-conflits-rang.mjs) :
 # doit rester versionnee pour que les deux cotes du pipeline restent en phase.
 !enrichissement/corrections-issn.json
+# Table des redirections de fiches fusionnees (301, lue par
+# scripts/generer-redirects.mjs) : versionnee pour le meme motif que
+# corrections-issn.json ci-dessus, chaque entree curee a la main.
+!enrichissement/redirections.json
 *.csv
 
 # Fichiers supplementaires a ignorer
