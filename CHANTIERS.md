@@ -72,7 +72,50 @@ Aucun scraper actuel ne couvre ces deux revues (rang 1 et 1*
 respectivement). À instruire : scraper dédié ou extension d'un
 scraper existant, selon la structure de leur page d'appels.
 
-### 5. Plus tard, sans urgence
+### 5. Revérifier les 32 revues « aucun scraper possible »
+
+Rapport de couverture du 2026-09-28 (rangs 1*/1/2) : 32 revues classées
+sans scraper possible, sur le seul champ `editeur` de `journals.json`
+(venant d'OpenAlex). Ce champ peut diverger de l'hébergement réel des
+appels — cas trouvé en vérifiant : *European Journal of Information
+Systems* est classé « Palgrave Macmillan » alors que ses appels sont
+bien atteignables via le scraper Taylor & Francis
+(`think.taylorandfrancis.com`).
+
+À faire : revérifier les 32 une par une (l'éditeur qui héberge
+réellement la page d'appels, pas l'éditeur OpenAlex), et corriger les
+attributions erronées via une table de corrections versionnée — sur le
+modèle de `enrichissement/corrections-issn.json`, pas une modification
+directe de `journals.json` regénéré par le script d'enrichissement.
+
+### 6. Transparence sur la couverture
+
+Deux surfaces, une fois la reverification du point 5 avancée (pour
+partir d'une classification aussi juste que possible) :
+
+- **Page À propos**, nouvelle section « Couverture » :
+
+  > kerostig suit les appels à publications (calls for papers) sur les
+  > pages que les éditeurs et plateformes consacrent à leurs numéros
+  > spéciaux. Certaines revues ne sont pas encore suivies
+  > automatiquement, en particulier celles publiées par des presses
+  > universitaires ou des associations savantes, dont les appels ne
+  > sont pas rassemblés sur une page exploitable. Leur fiche le
+  > signale. Les appels de ces revues collectés auparavant restent
+  > consultables en archive.
+  >
+  > Une revue sans appel ouvert sur kerostig n'est donc pas forcément
+  > une revue sans appel. En cas de doute, consultez son site.
+
+- **Fiche revue**, une ligne selon le cas (appuyée sur
+  `EDITEURS_COUVERTS` / `ISSN_COUVERTS`, déjà dans
+  `eleventy.config.mjs`) :
+  - non couverte : « Les appels de cette revue ne sont pas suivis
+    automatiquement. Consultez son site pour les appels en cours. » ;
+  - couverte, sans appel trouvé à la dernière collecte : « Aucun appel
+    ouvert repéré pour cette revue à la dernière collecte. »
+
+### 7. Plus tard, sans urgence
 
 - Suite de tests et test de fumée en CI.
 - Renormalisation CRLF (`git add --renormalize .`), quand aucune PR
