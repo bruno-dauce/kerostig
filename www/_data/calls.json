@@ -3472,66 +3472,6 @@
     "pubDate": "2026-09-14T08:23:15.539Z"
   },
   {
-    "journal": "Astin Bulletin",
-    "abbreviation": "cup",
-    "issn": "1783-1350",
-    "metaTitle": "Risk Sharing (CLOSED)",
-    "url": "https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/announcements/call-for-papers/call-for-papers-special-issue-on-risk-sharing",
-    "title": "Risk Sharing",
-    "slug": "cup-risk-sharing-closed",
-    "contentHash": "0a591b939ad7d69ae527bf5301d10db3baed285f8f514f1ceeadbca8828e0cfd",
-    "topics": [
-      "Economics of risk sharing and insurance: New economic models for risk sharing and (re)insurance mechanisms, especially in connection to decision theory, game theory and contract theory",
-      "Mathematics and data science of risk sharing: Novel mathematical and statistical tools to address challenging problems in risk sharing",
-      "Model uncertainty in risk sharing: Risk sharing models and mechanisms handling uncertainty in decision-making processes arising from lack of data, model misspecification, computational limitations, or behavioral issues",
-      "Alternative risk transfer mechanisms, such as catastrophe bonds, insurance-linked and longevity-linked securities",
-      "Parametric insurance: Predefined triggers for payouts based on specific parameters such as weather conditions or economic indicators",
-      "Innovative retirement products focusing on longevity risk sharing",
-      "Blockchain Technology: Opportunities to enhance risk sharing processes by providing transparent records of transactions and automating risk sharing through smart contracts"
-    ],
-    "description": {
-      "paragraphs": [
-        "This special issue explores risk sharing mechanisms in actuarial science and their importance in contemporary global systems. Risk sharing promotes financial stability by spreading risks across parties, fosters social equity through fair distribution of risk burdens, and enables innovation and economic growth by allowing individuals and businesses to invest with confidence in available risk mitigation mechanisms.",
-        "The issue welcomes research on fundamental aspects of risk sharing including economic models based on decision theory and game theory, advanced mathematical and statistical approaches, and methods to handle uncertainty in real-world decision-making. Submissions also include applied contributions on alternative risk transfer mechanisms, parametric insurance, longevity-linked retirement products, and blockchain technology innovations."
-      ]
-    },
-    "tags": [
-      "actuarial science",
-      "risk sharing",
-      "insurance",
-      "financial stability"
-    ],
-    "editors": [
-      {
-        "name": "An Chen",
-        "affiliation": "Ulm University"
-      },
-      {
-        "name": "Steven Vanduffel",
-        "affiliation": "Vrije Universiteit Brussel"
-      },
-      {
-        "name": "Ruodu Wang",
-        "affiliation": "University of Waterloo"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2024-01-01T12:00:00.000Z",
-        "description": "Submission window opens",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2024-11-15T12:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-09-13T16:43:20.348Z"
-  },
-  {
     "journal": "International Journal of Advertising",
     "abbreviation": "tandf",
     "issn": "1759-3948",
@@ -5169,7 +5109,7 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-09-13T16:03:58.219Z"
+    "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
     "journal": "Industrial Marketing Management",
@@ -13860,7 +13800,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z"
+    "pubDate": "2024-07-18T10:34:43.000Z"
   },
   {
     "journal": "Journal of Futures Markets",
@@ -17528,113 +17468,9 @@
     "abbreviation": "wiley",
     "issn": "1467-9310",
     "metaTitle": "Open Innovation in Action: People, Processes and Performance of R&D Management",
-    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14679310/cfp/250526-Call-RD-Management-OI-final-1748855869487.pdf",
-    "title": "Open Innovation in Action: People, Processes and Performance of R&D Management",
-    "slug": "wiley-open-innovation-in-action-people-processes-and-performance-of-randd-management",
-    "contentHash": "7a659f2e618a8bef99d4bf32d4b256a0d6ea7a3ec8eeb2d87cae2eecb8fa9a20",
-    "topics": [
-      "How do companies build innovation strategies that leverage on OI?",
-      "How are budgets for OI projects established and allocated?",
-      "How do businesses roadmap the development of key technologies by making use of Open Innovation?",
-      "How are new strategies for OI (such as venture clienting and venture building) evaluated and implemented?",
-      "What factors influence the successful implementation of new strategies for OI (such as venture clienting and venture building)?",
-      "What specific search strategies and scouting processes are most effective for identifying valuable external knowledge/technology for R&D?",
-      "How are R&D processes (e.g., stage-gate, agile) adapted to effectively integrate external inputs and manage outbound knowledge flows?",
-      "What digital tools and platforms are used to manage OI processes in R&D, and what is their impact?",
-      "How do firms manage the transition from closed to open R&D processes?",
-      "What are the best practices for managing intellectual property (IP) in collaborative R&D projects under an OI paradigm?",
-      "How do firms effectively evaluate and select external partners for R&D collaboration?",
-      "How does firm size (SME vs. large enterprise) influence organizational design choices for managing OI in R&D?",
-      "How do firms overcome internal resistance (e.g., 'Not-Invented-Here' syndrome) when implementing OI in R&D?",
-      "What is the role of middle managers in facilitating or hindering OI adoption within R&D departments?",
-      "What specific skills, capabilities, and mindsets are required for R&D personnel (researchers, managers) operating in an OI environment?",
-      "How can organizations cultivate an 'open' culture within R&D, that encourages both internal sharing and external engagement?",
-      "Which leadership styles are most effective in managing OI initiatives within R&D teams?",
-      "How are performance management and incentive systems adapted to motivate R&D employees' participation in OI activities?",
-      "What is the role of individual absorptive capacity and boundary-spanning activities of R&D personnel in OI success?",
-      "Which capabilities companies need to develop to successfully work with different types of service providers?",
-      "How can AI enable and support OI projects in R&D and innovation functions?",
-      "What ethical considerations arise in the operational management of OI within R&D (e.g., knowledge appropriation, fairness to external contributors)?",
-      "What metrics do R&D departments use to track the inputs, throughputs, and outputs of their OI activities?",
-      "How can the contribution of OI to R&D project success and overall R&D performance be effectively measured and demonstrated?",
-      "What are the key challenges in measuring the ROI of specific OI tactics within R&D?",
-      "What are the good practices for selecting the right service provider, based on different R&D and innovation needs?"
-    ],
-    "description": {
-      "paragraphs": [
-        "This special issue examines the practical implementation and management of open innovation within R&D functions. Building on Henry Chesbrough's work transforming innovation from closed internal processes to those embracing external knowledge flows, the issue addresses how organizations strategize, organize, manage talent, and evaluate outcomes when adopting open innovation in R&D.",
-        "The call seeks contributions examining three interconnected dimensions: Processes (strategic tools, governance, and partnership models), People (boundary-spanning skills, team management, leadership, and incentive structures), and Performance (metrics for assessing value at project and ecosystem levels). Research should provide insights into daily challenges R&D managers face when implementing open innovation amid digital and geopolitical shifts.",
-        "The journal welcomes submissions bridging theory and practice, including co-authored work by academics and practitioners, with priority given to actionable insights grounded in real-world experiences."
-      ]
-    },
-    "tags": [
-      "open innovation",
-      "r&d management",
-      "innovation strategy",
-      "organizational processes",
-      "performance measurement"
-    ],
-    "editors": [
-      {
-        "name": "Alberto Di Minin",
-        "affiliation": "Scuola Superiore Sant'Anna"
-      },
-      {
-        "name": "Federico Frattini",
-        "affiliation": "Politecnico di Milano"
-      },
-      {
-        "name": "Agnieszka Radziwon",
-        "affiliation": "University of Southern Denmark"
-      },
-      {
-        "name": "Krithika Randhawa",
-        "affiliation": "University of Sydney"
-      },
-      {
-        "name": "Joel West",
-        "affiliation": "Keck Graduate Institute"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-01-02T11:00:00.000Z",
-        "description": "Conference submission system opens",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-02-01T11:00:00.000Z",
-        "description": "Deadline for electronic submission of papers to the conference",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-03-01T11:00:00.000Z",
-        "description": "Notification of authors regarding acceptance to the conference",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-04-20T10:00:00.000Z",
-        "description": "Special Issue Conference held at Luiss University",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-09-15T10:00:00.000Z",
-        "description": "Time window to submit full paper through the R&D Management Journal Website (submission window September 1 - September 15, 2026)",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-29T11:29:31.659Z"
-  },
-  {
-    "journal": "R and D Management",
-    "abbreviation": "wiley",
-    "issn": "1467-9310",
-    "metaTitle": "Open Innovation in Action: People, Processes and Performance of R&D Management",
     "url": "https://onlinelibrary.wiley.com/page/journal/14679310/call-for-papers/si-2026-000949",
     "title": "Open Innovation in Action: People, Processes and Performance of R&D Management",
-    "slug": "wiley-open-innovation-in-action-people-processes-and-performance-of-randd-management-2",
+    "slug": "wiley-open-innovation-in-action-people-processes-and-performance-of-randd-management",
     "contentHash": "711479498b7f9e075240e33c18ca1af8dc89479da5cefc8e3289ff8b2047c8be",
     "topics": [
       "How do companies build innovation strategies that leverage on OI?",
@@ -20549,7 +20385,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z"
+    "pubDate": "2024-12-25T07:52:15.170Z"
   },
   {
     "journal": "Gender Work and Organization",
@@ -20853,7 +20689,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T11:29:31.659Z"
+    "pubDate": "2025-03-13T10:47:42.901Z"
   },
   {
     "journal": "Canadian Journal of Administrative Sciences / Revue Canadienne des Sciences de l Administration",
@@ -21338,7 +21174,7 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-08-27T12:56:30.925Z"
+    "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
     "journal": "Production Planning & Control",
@@ -23333,7 +23169,7 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-08-18T17:57:56.114Z"
+    "pubDate": "2026-08-12T13:39:13.215Z"
   },
   {
     "journal": "Entrepreneurship Theory and Practice",
@@ -29512,38 +29348,6 @@
     "pubDate": "2026-08-12T16:43:57.586Z"
   },
   {
-    "journal": "Recherche et Applications en Marketing",
-    "abbreviation": "sage",
-    "issn": "2051-2821",
-    "metaTitle": "Call for papers",
-    "url": "https://journals.sagepub.com/pb-assets/PDF/CfP_RAM_Postgrowth_fr-1767780763727.pdf",
-    "title": "Imaginer la post-croissance",
-    "slug": "sage-call-for-papers",
-    "contentHash": "6642e1fddfc100cd8bb796a4902db73c0ae43427168a0f9175df9e46a15931b5",
-    "topics": [],
-    "description": {
-      "paragraphs": [
-        "Call for papers for a special issue on imagining post-growth."
-      ]
-    },
-    "tags": [
-      "post-growth",
-      "sustainability"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2027-01-15T11:00:00.000Z",
-        "description": "Full paper submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-12T13:39:13.215Z",
-    "gracePeriod": "2026-09-17T17:57:56.114Z"
-  },
-  {
     "journal": "Journal of Small Business Management",
     "abbreviation": "tandf",
     "issn": "1540-627X",
@@ -33199,7 +33003,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z",
+    "pubDate": "2025-08-19T03:15:46.414Z",
     "gracePeriod": "2026-10-03T17:13:45.779Z"
   },
   {
@@ -33495,7 +33299,7 @@
     "associate_editors": [],
     "dates": [],
     "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "pubDate": "2022-08-18T06:37:25.000Z"
   },
   {
     "journal": "Journal of Economic Behavior & Organization",
@@ -35504,37 +35308,6 @@
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
-    "journal": "Technovation",
-    "abbreviation": "elsevier",
-    "issn": "1879-2383",
-    "metaTitle": "How Government Policy Shapes Business Incubation and Acceleration Systems: Insights from National Policy Frameworks",
-    "url": "https://www.sciencedirect.com/special-issue/330030/how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks",
-    "title": "How Government Policy Shapes Business Incubation and Acceleration Systems: Insights from National Policy Frameworks",
-    "slug": "elsevier-how-government-policy-shapes-business-incubation-and-acceleration-systems-insights-from-national-policy-frameworks-2",
-    "contentHash": "115319f1d2d5384cbadd6397805df5ab731c0e17b8a3c68cd62c91899f5a37d5",
-    "topics": [],
-    "description": {
-      "paragraphs": []
-    },
-    "tags": [
-      "government policy",
-      "business incubation",
-      "acceleration systems"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-09-30T10:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z",
-    "gracePeriod": "2026-09-26T12:56:30.925Z"
-  },
-  {
     "journal": "Journal of International Management",
     "abbreviation": "elsevier",
     "issn": "1873-0620",
@@ -35676,7 +35449,7 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "pubDate": "2026-03-29T04:43:44.759Z"
   },
   {
     "journal": "Technovation",
@@ -35834,7 +35607,7 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "pubDate": "2025-11-20T03:16:48.664Z"
   },
   {
     "journal": "Pacific-Basin Finance Journal",
@@ -36923,38 +36696,6 @@
     "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z",
     "gracePeriod": "2026-09-15T03:20:05.343Z"
-  },
-  {
-    "journal": "Technovation",
-    "abbreviation": "elsevier",
-    "issn": "1879-2383",
-    "metaTitle": "Pathways for eco-industrial transformations in the process industries: In search of enhanced inter- and intra-organizational innovation models and production solutions",
-    "url": "https://www.sciencedirect.com/special-issue/328220/pathways-for-eco-industrial-transformations-in-the-process-industries-in-search-of-enhanced-inter-and-intra-organizational-innovation-models-and-production-solutions",
-    "title": "Pathways for eco-industrial transformations in the process industries: In search of enhanced inter- and intra-organizational innovation models and production solutions",
-    "slug": "elsevier-pathways-for-eco-industrial-transformations-in-the-process-industries-in-search-of-enhanced-inter-and-intra-organizational-innovation-models-and-production-solutions-2",
-    "contentHash": "59a335aa1f41dd0828f1057163b42544685d8ee01aa9ad3d54104aae9ab8c6fa",
-    "topics": [],
-    "description": {
-      "paragraphs": []
-    },
-    "tags": [
-      "eco-industrial transformation",
-      "process industries",
-      "innovation models",
-      "production solutions"
-    ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-09-15T10:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z",
-    "gracePeriod": "2026-10-13T16:03:58.219Z"
   },
   {
     "journal": "Pacific-Basin Finance Journal",
@@ -39264,7 +39005,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "pubDate": "2025-08-23T03:09:37.402Z"
   },
   {
     "journal": "Academy of Management Discoveries",
@@ -45447,7 +45188,7 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "pubDate": "2025-08-14T03:33:30.272Z"
   },
   {
     "journal": "The International Journal of Human Resource Management",
@@ -49217,104 +48958,6 @@
     "pubDate": "2026-08-10T23:47:12.235Z"
   },
   {
-    "journal": "Information and Organization",
-    "abbreviation": "io",
-    "metaTitle": "Hype Studies: A Research Agenda for Organizing in Digital Futures",
-    "url": "https://www.sciencedirect.com/special-issue/331903/hype-studies-a-research-agenda-for-organizing-in-digital-futures",
-    "slug": "io-hype-studies-a-research-agenda-for-organizing-in-digital-futures",
-    "contentHash": "cc77382a9ffa160cf33c563af5829b830952b3cbad32e22f8a7a1b9aa839d816",
-    "title": "Hype Studies: A Research Agenda for Organizing in Digital Futures",
-    "topics": [
-      "Hype, decision-making, and organisational practice: How do organisations make technology adoption, investment, and procurement decisions amid competing and exaggerated claims? How do decision-makers navigate uncertainty without settled evidence, learning to work through hype rather than despite it? How do organisations manage hype as both a resource and a liability?",
-      "Attention, legitimacy, and the mediation of technological futures: How is collective attention mobilised around particular technologies, and what strategies amplify some digital futures while marginalising others? How do algorithms, platforms, and data infrastructures participate in generating, evaluating, and sustaining hype?",
-      "Intermediaries, promissory products, and the infrastructure of hype: How do industry analysts, consultants, investors, platform owners, and media actors produce, evaluate, and recalibrate hype? What forms of expertise underpin these activities?",
-      "Hype across time and the innovation lifecycle: How does hype’s role shift from early-stage field formation through market-making to organisational adoption? How are expectations stabilised, revised, or abandoned as technologies mature?",
-      "Contestation, competition, and the politics of hype: How do actors challenge, deflate, or reframe hyped claims, and what practices of organised scepticism emerge in response to inflated expectations?",
-      "Hype, wicked problems, and digital futures: How do hype dynamics interact with intractable or ‘wicked’ social problems where repeated failure produces low expectations and innovation inertia?"
-    ],
-    "description": {
-      "paragraphs": [
-        "We are living through an era of ‘hyper-hype’. Generative AI, blockchain, the metaverse, and quantum computing arrive in successive waves, each reshaping how markets are formed, navigated, and contested. Hype is not incidental noise; it is a constitutive force of contemporary digital capitalism. Yet despite its pervasive influence, hype has rarely been examined as a phenomenon in its own right by information systems (IS) and organisation and management theory (OMT) scholars.",
-        "This Special Issue advances scholarly understanding of hype as a central yet under-examined phenomenon shaping the digital future. We invite contributions from IS, OMT and related fields, including Science & Technology Studies (STS), Economic Sociology, Market Studies, etc., that treat hype not as rhetorical excess to be dismissed, but as a patterned and consequential feature of contemporary digital innovation.",
-        "Hype is commonly defined as a surge in attention, excitement, and expectations, often surrounding emerging technologies, mobilised through promissory narratives. Its role and meaning vary across contexts: some view hype as dangerous, while others regard it as necessary or even desirable for innovation. Economic sociologists position hype as a driving force for capitalism itself. We aim for a symmetrical approach, one that traces how hype produces effects in practice."
-      ]
-    },
-    "tags": [
-      "hype studies",
-      "digital futures",
-      "innovation management"
-    ],
-    "editors": [
-      {
-        "name": "Neil Pollock",
-        "affiliation": "University of Edinburgh Business School"
-      },
-      {
-        "name": "Danielle Logue",
-        "affiliation": "UNSW Business School"
-      },
-      {
-        "name": "Harro van Lente",
-        "affiliation": "Maastricht University"
-      },
-      {
-        "name": "Marian Gatzweiler",
-        "affiliation": "University of Edinburgh Business School"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": null,
-        "description": "Paper Development Workshop",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-01-31T12:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2027-05-15T12:00:00.000Z",
-        "description": "First round reviews due",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-06-30T12:00:00.000Z",
-        "description": "First round decision letters",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-10-31T12:00:00.000Z",
-        "description": "First round resubmissions",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2028-01-31T12:00:00.000Z",
-        "description": "Second round reviews due",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2028-03-15T12:00:00.000Z",
-        "description": "Second round decision letters",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2028-06-15T12:00:00.000Z",
-        "description": "Second round resubmissions",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2028-10-01T12:00:00.000Z",
-        "description": "Final papers selected & editorial",
-        "is_full_paper_submission_deadline": false
-      }
-    ],
-    "active": false,
-    "pubDate": "2026-03-29T04:43:44.759Z",
-    "gracePeriod": "2026-06-21T06:17:11.011Z"
-  },
-  {
     "journal": "MIS Quarterly",
     "abbreviation": "misq",
     "metaTitle": "Ethics, Regulation, and Policy",
@@ -49840,655 +49483,6 @@
     "gracePeriod": "2026-09-09T23:11:55.956Z"
   },
   {
-    "journal": "The Journal of Strategic Information Systems",
-    "abbreviation": "jsis",
-    "metaTitle": "India at the Intersection: Reconfiguring Commerce, Capabilities and Culture in Age of Technological Acceleration",
-    "url": "https://www.sciencedirect.com/special-issue/327852/india-at-the-intersection-reconfiguring-commerce-capabilities-and-culture-in-age-of-technological-acceleration",
-    "slug": "jsis-india-at-the-intersection-reconfiguring-commerce-capabilities-and-culture-in-age-of-technological-acceleration",
-    "contentHash": "75bef8675eaf52bf6489acdf3e0cfaa36e2f36e6b9637aa035a3c62b7c86c9dc",
-    "title": "India at the Intersection: Reconfiguring Commerce, Capabilities and Culture in Age of Technological Acceleration",
-    "topics": [
-      "Craft, Culture, Civilization, and Vernacular Economies",
-      "Digital Platforms, Inclusion, and Ecosystems",
-      "Innovation, Entrepreneurship, and Labor",
-      "Policy, Scale, and Governance",
-      "Firm-Level Strategy and Organizational Change"
-    ],
-    "description": {
-      "paragraphs": [
-        "Contemporary Information Systems (IS) are marked by transformations at the intersection of technology, people and organizations (Setia 2024). These are shaped by, and are shaping how firms, communities, and societies evolve. As researchers unravel these dynamics, India presents a compelling context. Rooted in millennia of cultural and commercial history, India is now rapidly being reshaped by the forces of digital innovation. Indian business landscape is a vibrant mosaic where ancient artisanal traditions, kinship-based commerce, informal enterprises, and social ventures coexist with state-owned firms, family conglomerates, and home-grown blue chips. This landscape often collides with large multinationals, platform economies, and globally scaled startups. Together, India’s palimpsestic business environment, pluralistic culture, and demographic vastness form a powerful trifecta that offers a unique context for researchers. Specifically, unlike a monolith landscape, India represents a living, evolving environment of practices, identities, and aspirations.",
-        "This special issue invites submissions focused on how rapid technological acceleration in India is strategically reshaping the country’s business environment. We particularly welcome submissions that explores how culture, capabilities, and commerce evolve amid the transformations of a historically layered, institutionally complex economy. Traditionally, India’s artisanal industries and cultural expressions were deeply entwined with its commercial practices (Tharoor, 2016). Centuries of colonial domination disrupted local crafts and knowledge systems; today, the digital wave carries a similar dual potential, risking the displacement of traditional modes of production while also offering new avenues for visibility and market access. India’s contemporary platform economy, with its roots in the historical bazaar and emporium systems (Athique, 2020), exemplifies this paradox.",
-        "The expansion of digital technologies into an informal, fragmented economy has introduced elements of structure and visibility long described by Scott’s notion of “legibility” (1998), a concept which relevance persists as states and platforms alike seek to render local practices more standardized and governable in the digital age. Could the drive for scale, efficiency, and algorithmic appeal lead to a flattening of cultural nuance in favor of standardization and mass reproducibility? This scenario becomes real if Information Technology (IT) education and digital skilling emphasize surface-leveltechnical credentials and globalized templates of “digital competence” (Rangaswamy & Narasimhan, 2022) rather than contextually grounded, socially attuned capabilities.",
-        "Research on India’s digital transformation offers opportunities to develop new theoretical insights for the global IS community. India’s “digital revolution” began with the IT services boom of the 1990s, expanded through the telecom and mobile internet surge of the 2000s, and has accelerated since the mid-2010s (Seetharaman & Cranefield, 2019) along with more recent initiatives such as Digital India (nationwide digital infrastructure and e-governance), Aadhaar (biometric digital identity) (Addo, 2022), UPI (Unified Payments Interface, i.e. inter-bank peer-to-peer and person-to-merchant real-time payments), and ONDC (Open Network for Digital Commerce - a decentralized, interoperable open e-commerce). The early IT services phase delivered major economic gains, creating an entire industry, generating jobs, boosting exports (Bhatnagar & Madon, 1997). More recently, the focus has shifted to attracting foreign investment and expanding access to information (Parthiban et al., 2024). Yet some scholars have questioned the limited societal spillovers and skewed labor composition (Barnes, 2013) of India’s IT industry. Others note that emerging digital technologies may help move beyond low-end services toward more diversified, socially embedded growth (Das & Sagara, 2017).",
-        "The current IT development phase, characterized by digital platforms embedding services related to fintech, e-governance, and mobile ecosystems, has expanded access to resources, formalized parts of the informal sector, and holds promise for reducing poverty and inequality. These developments offer models for the wider global majority, even if significant challenges remain. The complex dynamics of new technological affordances and constraints, ranging from cross-platform interoperability to fraudulence (Kumar et al., 2025) and lack of sufficient regulations that balance conflicting interests (Marabelli & Davison, 2025; De’ et al., 2024), hinder the equitable spread of these digital platforms across socio-economic groups.",
-        "IS research, including studies published in JSIS, highlights how digital technologies may afford the creation of economic opportunities for the informal sector, help small and medium enterprises access new markets (Parthiban et al., 2024; Shirish et al., 2025), and transform service delivery in high impact industries such as healthcare (Hiriyur, 2022; Setia, 2023). In India and in the wider global majority countries, digital technology has also been socially transformative such as through, amplifying marginalized voices, lowering barriers to political participation (Kulshreshth, 2023), and supporting creative industries through digital media (Mehta & Cunningham, 2023), though always mediated by prevailing social norms and values (Oreglia & Srinivasan, 2016). This ongoing transformation is however complicated by geopolitical tensions, supply chain disruptions, and economic nationalism which are leading to a rethink of globalization’s promises (Butollo et al., 2024). Although digital technologies, AI (artificial intelligence) in particular, are deeply entangled with environmental sustainability challenges exacerbating global resource inequalities; yet they also enable strategic responses to climate risks through innovations in smart cities, agriculture, and disaster prediction (Marabelli & Davison, 2025). For India too, this shift opens up both risks and opportunities: it may create greater space for indigenous enterprises, self-reliant supply chains, and localized innovation, while also changing the nature of export-led sectors and globally networked business models (Witt et al., 2023). The interplay between fractured globalizing forces and India’s own plural, multi-scale economy raises pressing questions about sovereignty, resilience, and cultural-economic autonomy.",
-        "This special issue seeks to examine strategic opportunities, disruptions and challenges arising from the intersection of culture, commerce, capabilities and technology in the Indian context. We welcome research that shows how digital technologies reshape strategic choices, organizing logics, and competitive positioning while remaining embedded in India’s uniqueness. The special issue also aims to foreground location-specific research agendas and contextual theorization (Avgerou, 2019), emphasizing the need for research that is not only rigorous and relevant, but also responsible to its context (Seetharaman et al., 2024).",
-        "By bringing together diverse ideas and a deeper understanding, this special issue aims to reframe India not as a battleground between tradition and modernity but as a dynamic site of ongoing negotiation, reinvention, and possibility."
-      ]
-    },
-    "tags": [
-      "india",
-      "culture",
-      "technology",
-      "digital transformation"
-    ],
-    "editors": [
-      {
-        "name": "Pankaj Setia",
-        "affiliation": "Indian Institute of Management Ahmedabad"
-      },
-      {
-        "name": "Priya Seetharaman",
-        "affiliation": "Indian Institute of Management Calcutta"
-      },
-      {
-        "name": "Abhishek Kathuria",
-        "affiliation": "Deakin University"
-      },
-      {
-        "name": "Marco Marabelli",
-        "affiliation": "Bentley University"
-      }
-    ],
-    "associate_editors": [
-      {
-        "name": "Amit Prakash",
-        "affiliation": "International Institute of Information Technology Bangalore"
-      },
-      {
-        "name": "Anuragini Shirish",
-        "affiliation": "Institute Mines-Télécom Business School"
-      },
-      {
-        "name": "Ashish Kumar Jha",
-        "affiliation": "Trinity Business School"
-      },
-      {
-        "name": "Ashish Gupta",
-        "affiliation": "Auburn University"
-      },
-      {
-        "name": "Atta Addo",
-        "affiliation": "Surrey Business School"
-      },
-      {
-        "name": "Bidisha Chaudhuri",
-        "affiliation": "University of Amsterdam"
-      },
-      {
-        "name": "Devinder Thapa",
-        "affiliation": "University of Agder"
-      },
-      {
-        "name": "Janaki Srinivasan",
-        "affiliation": "University of Oxford"
-      },
-      {
-        "name": "Juliana Sutanto",
-        "affiliation": "Monash University"
-      },
-      {
-        "name": "M N Ravishankar",
-        "affiliation": "Queen's Business School"
-      },
-      {
-        "name": "M S Sandeep",
-        "affiliation": "UNSW Business School"
-      },
-      {
-        "name": "Nirup Menon",
-        "affiliation": "George Mason University"
-      },
-      {
-        "name": "Onkar Malgonde",
-        "affiliation": "North Carolina State University"
-      },
-      {
-        "name": "Radhika Santhanam",
-        "affiliation": "University of Oklahoma"
-      },
-      {
-        "name": "Rahul De",
-        "affiliation": "Indian Institute of Management Bangalore"
-      },
-      {
-        "name": "Rajiv Kishore",
-        "affiliation": "University of Nevada, Las Vegas"
-      },
-      {
-        "name": "Saji K Mathew",
-        "affiliation": "Indian Institute of Technology Madras"
-      },
-      {
-        "name": "Samrat Gupta",
-        "affiliation": "Indian Institute of Management Ahmedabad"
-      },
-      {
-        "name": "Satish Krishnan",
-        "affiliation": "Indian Institute of Management Kozhikode"
-      },
-      {
-        "name": "Silvia Masiero",
-        "affiliation": "University of Oslo"
-      },
-      {
-        "name": "Soumyakanti Chakraborty",
-        "affiliation": "Indian Institute of Management Calcutta"
-      },
-      {
-        "name": "Sumeet Gupta",
-        "affiliation": "Indian Institute of Management Raipur"
-      },
-      {
-        "name": "Sunil Wattal",
-        "affiliation": "Temple University"
-      },
-      {
-        "name": "Suranjan Chakraborty",
-        "affiliation": "Towson University"
-      },
-      {
-        "name": "Swanand Deodhar",
-        "affiliation": "Indian Institute of Management Ahmedabad"
-      }
-    ],
-    "dates": [
-      {
-        "date": "2026-03-06T12:00:00.000Z",
-        "description": "Developmental workshop for interested authors at InCIS 2026",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-05-01T12:00:00.000Z",
-        "description": "Deadline to submit a 1000-words extended abstract on the JSIS portal (not required but highly recommended)",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-07-01T12:00:00.000Z",
-        "description": "Submission of full papers opens",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-09-30T12:00:00.000Z",
-        "description": "Submission deadline for full papers",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2027-01-31T12:00:00.000Z",
-        "description": "Initial feedback to authors",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-04-30T12:00:00.000Z",
-        "description": "Deadline for resubmission of revised papers",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-09-30T12:00:00.000Z",
-        "description": "Final Submissions due",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-12-01T12:00:00.000Z",
-        "description": "Final editorial decisions communicated to authors",
-        "is_full_paper_submission_deadline": false
-      }
-    ],
-    "active": false,
-    "pubDate": "2025-11-20T03:16:48.664Z",
-    "gracePeriod": "2026-07-27T05:59:26.599Z"
-  },
-  {
-    "journal": "The Journal of Strategic Information Systems",
-    "abbreviation": "jsis",
-    "metaTitle": "Unpacking the Multifaceted Impact of Generative Artificial Intelligence on Organisations",
-    "url": "https://www.sciencedirect.com/special-issue/325167/unpacking-the-multifaceted-impact-of-generative-artificial-intelligence-on-organisations",
-    "slug": "jsis-unpacking-the-multifaceted-impact-of-generative-artificial-intelligence-on-organisations",
-    "contentHash": "cd422f9c6dda023e54358c78f54bbbecb0bbd08fdf2a41af6f6446867c1b872b",
-    "title": "Unpacking the Multifaceted Impact of Generative Artificial Intelligence on Organisations",
-    "topics": [
-      "How is the utilisation of GAI reshaping workforce structures, labour division, and professional identity in public and/or private organisations?",
-      "How can organisations effectively balance the efficiency and productivity gains promised by GAI with the risks related to data security, intellectual property theft, and regulatory compliance challenges?",
-      "In what ways can organisations address the ethical implications of GAI, particularly concerning its potential to diminish human oversight and decision-making capabilities, while still harnessing its benefits for enhanced operational efficiency?",
-      "How does GAI contribute to value co-destruction within organisations, in relation to resource misallocation, ethical compromises, and potential damage to organisational integrity or stakeholder trust?",
-      "What strategies can organisations adopt to mitigate the risks of job displacement, deskilling, and workforce inequality while still leveraging GAI for innovation and competitiveness?",
-      "How can organisational capabilities and leadership approaches evolve to ensure a balance between fostering innovation through GAI and managing its long-term impacts on employment, creativity, and organisational culture?",
-      "How do organisational frameworks surrounding GAI affect the reinforcement or reduction of structural inequalities, especially in marginalised communities, and what measures can be taken to ensure inclusive and equitable use of GAI technologies?",
-      "How are corporate governance frameworks evolving in response to GAI’s ethical challenges in decision-making, and how can these frameworks protect against algorithmic biases while fostering innovation?",
-      "What role should organisational policies play in ensuring that GAI is used transparently and responsibly, particularly in high-stakes decisions involving human resources, operations, marketing, and customer relations?",
-      "How is GAI being used for surveillance and control in organizational contexts, and what implications does this have for employee autonomy and governance, both in the workplace and in broader governmental settings?",
-      "What is the potential and what are the limitations of GAI adoption in organisations across emerging economies and the Global South, particularly in relation to infrastructural, educational, and data governance challenges?",
-      "Examining how different organisations (e.g., governments, healthcare providers, charities, or social enterprises) might deploy GAI to address grand challenges such as climate-adaptation, homelessness-prevention services, healthcare, strategically serving marginalised populations, or environmental disasters.",
-      "Assessing the emerging role of corporate sustainability offices in leveraging GAI for supply-chain net-zero scenario planning."
-    ],
-    "description": {
-      "paragraphs": [
-        "This special issue examines Generative AI's dual impact on organisations, driving innovation, efficiency, and societal value while raising ethical, governance, and workforce challenges.",
-        "Generative Artificial Intelligence (GAI) is at the forefront of technological innovation, with rapid growth and transformative potential. By 2032, the global GAI market is projected to reach $151.9 billion. This trajectory reflects the growing recognition of GAI's capabilities across multiple domains, fundamentally reshaping innovation paradigms and redefining organisational processes and structures. In particular, GAI is increasingly acknowledged as a transformative force in facilitating data-driven decision-making and optimising operational processes within and across organisations. Foundational GAI systems such as BERT, ChatGPT DALL-E, Deepseek and Gemini illustrate their adaptability and extensive applicability. These systems can execute a wide array of tasks, ranging from creative production and service delivery to organisational decision-making, offering novel opportunities for personalisation, operational efficiency, and interdisciplinary collaboration. As GAI continues to evolve, some organisations have commenced developing and disseminating regulatory frameworks to legitimise its deployment in organisational processes. There is growing interest in whether GAI can be repurposed as a strategic technology employed for advancing social justice and addressing grand challenges, from climate resilience to digital access and social welfare.",
-        "While prior studies have examined AI more conceptually and broadly, a significant unexplored area remains, which concerns the multifaceted impacts of GAI on organisational decision-making within the information systems research. Because of the relevant strategic implications (and potentially ethical challenges) associated with implementing GAI in organisations, filling this gap becomes paramount. In particular, this special issue aims to stimulate research focusing on the dual nature of GAI, its simultaneous potential for value co-creation and value co-destruction in organisations; GAI presents promising opportunities and significant challenges. In particular, GAI used for automated content creation, internal reporting and predictive analytics has the potential to improve operational efficiency by identifying workflow bottlenecks, reducing manual workload, and enabling data-driven insights into employee performance and strategic planning. With these capabilities, it can detect subtle signs of fatigue or burnout, allowing for early intervention through tailored support or adjustments to the workload. Also, by synthesising vast amounts of information, GAI supports value co-creation and strategic agility in decision-making, promotes innovation and digital inclusion, and allows employees to focus on higher-level tasks such as problem-solving and strategic thinking. GAI can foster creativity and knowledge sharing, support employee well-being by automating repetitive tasks, and improve cross-functional collaboration. However, these organisational benefits are tempered by critical concerns. The increasing reliance on opaque and complex GAI systems introduces risks related to hallucinations, diminished human oversight, and the externalisation of ethical responsibility onto non-accountable technologies. 75% of companies have restricted or actively considered restricting technologies such as ChatGPT due to fears of data breaches, intellectual property loss, and declining trust in AI-generated content. More fundamentally, GAI threatens the nature of creative labour, raising questions about job security, intellectual integrity, and the automation of cognitively demanding work. GAI implementation may also generate unintended consequences for employee well-being, including role displacement, cognitive dependency, and reduced transparency in decision-making, which affects diversity, equality, and inclusion in the working environment. Concerning workplace surveillance, GAI can undermine employee autonomy by enabling constant monitoring that erodes trust and psychological safety. Employees may feel reduced to performance metrics, reflecting a shift toward Digital Taylorism, which prioritises algorithmic efficiency over human creativity. This dynamic can further intensify privacy concerns due to the opaque nature of many GAI systems, where data is often collected and used without clear consent. Thus, all of these concerns highlight the potential for value co-destruction, wherein mismanaged or poorly governed GAI adoption undermines organisational integrity, ethical standards, and stakeholder trust.",
-        "In light of these tensions, this special issue invites scholars and practitioners to adopt a perspective considering both the strategic, transformative potential and disruptive consequences of GAI. We welcome contributions that examine how GAI simultaneously enhances and challenges existing organisational frameworks and processes, ultimately reshaping the landscape of technological governance, human agency, and organisational transformation. Submissions may offer theoretical or empirical insights into the promises, ethical dilemmas, and societal shifts driven by GAI at the organisational level, including its application to grand societal challenges. We will not consider papers focusing on users, individuals, or manuscripts that do not align with the central focus of the special issue. Papers may use qualitative, quantitative, or pluralistic approaches."
-      ]
-    },
-    "tags": [
-      "generative artificial intelligence",
-      "organisations",
-      "ethics",
-      "governance",
-      "workforce"
-    ],
-    "editors": [
-      {
-        "name": "Jun Hwa Cheah",
-        "affiliation": "University of East Anglia"
-      },
-      {
-        "name": "Brad McKenna",
-        "affiliation": "University of East Anglia"
-      },
-      {
-        "name": "Shahper Richter",
-        "affiliation": "University of Auckland"
-      },
-      {
-        "name": "PK Senyo",
-        "affiliation": "University of Southampton"
-      },
-      {
-        "name": "Marco Marabelli",
-        "affiliation": "Bentley University"
-      }
-    ],
-    "associate_editors": [
-      {
-        "name": "Ahmad Arslan",
-        "affiliation": "University of Oulu"
-      },
-      {
-        "name": "Alexander Richter",
-        "affiliation": "Victoria University of Wellington"
-      },
-      {
-        "name": "Daniel Gozman",
-        "affiliation": "University of Sydney"
-      },
-      {
-        "name": "Eleonora Pantano",
-        "affiliation": "University of Bristol"
-      },
-      {
-        "name": "Federico Iannacci",
-        "affiliation": "University of Sussex"
-      },
-      {
-        "name": "Francis Andoh Baidoo",
-        "affiliation": "University of Texas Rio Grande Valley"
-      },
-      {
-        "name": "Imran Ali",
-        "affiliation": "Central Queensland University"
-      },
-      {
-        "name": "Ismail Golgeci",
-        "affiliation": "University of Auckland"
-      },
-      {
-        "name": "Jason Bennett Thatcher",
-        "affiliation": "University of Colorado Boulder"
-      },
-      {
-        "name": "Linda Hollebeek",
-        "affiliation": "Sunway University"
-      },
-      {
-        "name": "Margherita Pagani",
-        "affiliation": "SKEMA Business School"
-      },
-      {
-        "name": "Nisreen Ameen",
-        "affiliation": "Royal Holloway, University of London"
-      },
-      {
-        "name": "Ryan Yung",
-        "affiliation": "University of Greenwich"
-      },
-      {
-        "name": "Saima Qutab",
-        "affiliation": "University of Auckland"
-      },
-      {
-        "name": "Sandra Smith",
-        "affiliation": "University of Auckland"
-      },
-      {
-        "name": "Shohil Kishore",
-        "affiliation": "University of Auckland"
-      },
-      {
-        "name": "Stan Karanasios",
-        "affiliation": "University of Queensland"
-      },
-      {
-        "name": "Weng Marc Lim",
-        "affiliation": "Sunway University"
-      }
-    ],
-    "dates": [
-      {
-        "date": "2026-01-31T12:00:00.000Z",
-        "description": "Submission of extended abstracts (~1,000 words including references). Submission of an abstract is not mandatory but is strongly encouraged.",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-07-31T12:00:00.000Z",
-        "description": "Deadline for full papers submission.",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2026-10-31T12:00:00.000Z",
-        "description": "Initial feedback to authors.",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-01-31T12:00:00.000Z",
-        "description": "Deadline for resubmission of revised papers.",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-04-30T12:00:00.000Z",
-        "description": "Second-round feedback to authors.",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-06-30T12:00:00.000Z",
-        "description": "Final editorial decisions communicated to authors.",
-        "is_full_paper_submission_deadline": false
-      }
-    ],
-    "active": false,
-    "pubDate": "2025-08-23T03:09:37.402Z",
-    "gracePeriod": "2026-07-27T05:59:26.599Z"
-  },
-  {
-    "journal": "Information and Organization",
-    "abbreviation": "io",
-    "metaTitle": "Algorithmic Assemblages—Fields, Ecosystems, and Platforms: An Interpretive Approach",
-    "url": "https://www.sciencedirect.com/special-issue/325053/algorithmic-assemblages-fields-ecosystems-and-platforms-an-interpretive-approach",
-    "slug": "io-algorithmic-assemblagesfields-ecosystems-and-platforms-an-interpretive-approach",
-    "contentHash": "173638092cda45084e56127569bc889f69ca6e3d552391881cc7421a04cb3feb",
-    "title": "Algorithmic Assemblages—Fields, Ecosystems, and Platforms: An Interpretive Approach",
-    "topics": [
-      "Interpretive approaches to algorithmic assemblages",
-      "Relational approaches from organization theory",
-      "The dynamics of algorithmic technologies in organizational ecosystems",
-      "Legitimacy dynamics of institutional fields",
-      "Impact of AI and blockchain on organizational structures and meanings",
-      "Methodological frameworks for studying technology-mediated organizing"
-    ],
-    "description": {
-      "paragraphs": [
-        "This Special Issue is devoted to interpretive approaches to studying algorithmic assemblages constitutive of and by fields, ecosystems, and platforms and combining research from an organizational and information systems view about such organizing features and their dynamics. Information technologies have progressively enabled a shift in the locus of value creation, capture, and resource orchestration and the processes they entail from within organizations to more loosely coupled and emergently structured sociotechnical systems. The interpretive approach stems from the relational turn in organization theory and considers assemblages and algorithmic organizing as views of key constructs and their associated processes.",
-        "To date, there has been less theory-building and empirical research connecting macro constructs with the micro-dynamics of these systems. It is particularly unclear how algorithmic technologies enable the interconnections of organizational ecosystems and facilitate legitimacy dynamics of institutional fields. Furthermore, it is not clear how algorithmic technologies circumscribe meanings across global fields and societies. The call for theory and research relies on relational approaches coming from both organization theory and information systems."
-      ]
-    },
-    "tags": [
-      "algorithmic assemblages",
-      "organizational ecosystems",
-      "information systems",
-      "interpretive research",
-      "theory development"
-    ],
-    "editors": [
-      {
-        "name": "Timothy Hannigan",
-        "affiliation": "Telfer School of Business"
-      },
-      {
-        "name": "P. Devereaux Jennings",
-        "affiliation": "Alberta School of Business"
-      },
-      {
-        "name": "Shaila Miranda",
-        "affiliation": "Information Systems Sam M. Walton College of Business"
-      },
-      {
-        "name": "Samer Faraj",
-        "affiliation": "Desautels Faculty of Management at McGill University"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2026-05-15T12:00:00.000Z",
-        "description": "Submission deadline for full papers",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2026-09-15T12:00:00.000Z",
-        "description": "First round reviews due",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-10-31T12:00:00.000Z",
-        "description": "First round decision letters sent out",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-02-28T12:00:00.000Z",
-        "description": "First round paper resubmissions",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-05-31T12:00:00.000Z",
-        "description": "Second round reviews due",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-07-15T12:00:00.000Z",
-        "description": "Second round decision letters sent out",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-10-15T12:00:00.000Z",
-        "description": "Second round paper resubmissions",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2028-03-15T12:00:00.000Z",
-        "description": "Final papers selected, introductory editorial paper written",
-        "is_full_paper_submission_deadline": false
-      }
-    ],
-    "active": false,
-    "pubDate": "2025-08-19T03:15:46.414Z",
-    "gracePeriod": "2026-06-21T06:17:11.011Z"
-  },
-  {
-    "journal": "European Journal of Information Systems",
-    "abbreviation": "ejis",
-    "metaTitle": "The future of creating and distributing value in digital health ecosystems",
-    "url": "https://think.taylorandfrancis.com/special_issues/digital-health-ecosystems/",
-    "slug": "ejis-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems",
-    "contentHash": "3104049117996ee029bfa2a635601e040d826af184159068422550dda33de8e1",
-    "title": "The future of creating and distributing value in digital health ecosystems",
-    "topics": [
-      "The role of data management and data sharing in digital health ecosystems",
-      "Designing for measuring kinds of value arising from new digital technologies like XR, 5G, web 3.0, and machine or hybrid learning in digital health ecosystems",
-      "The role of digital health ecosystems during pandemics or natural disasters; specifically with an eye toward how data help to distribute value among ecosystem participants",
-      "(Data-driven) change of professional roles, identities, and institutions in digital health ecosystems",
-      "The difference between creating value for intervention vs. for prevention",
-      "Design of inclusive and responsible digital technologies for healthcare and well-being",
-      "Digital tools and use of digital health data to connect different participants of health service networks, to support decision making and to improve organizational processes",
-      "Negative consequences of digital technologies implementation in healthcare, such as health givers burnout and patients’ anxiety",
-      "The role of digital tools like virtual coaching for autonomy of health care providers and patients"
-    ],
-    "description": {
-      "paragraphs": [
-        "Digital health is ‘associated with the use and development of digital technologies to improve health’ (Sunyaev et al., 2024; WHO, 2025). Use, development, and design of the according technologies have in recent years led to a considerable shift. Specifically, practices affecting an individuals’ health have been shifted from inside hospitals into wider digital health ecosystems where providers, patients, their loved ones, and laypersons interact to jointly shape how care is provided (Bardhan et al., 2020, 2025). IS research has greatly advanced in terms of better understanding the technological foundations of this shift such as artificial intelligence (AI) applications, sensor-based technologies, and smartphone apps (Angst et al., 2024; Baird et al., 2025; Bardhan et al., 2020; Sunyaev et al., 2024). However, at least two major trajectories of research arise from this shift and its underlying technologies. With this special issue, we are looking for papers that aim to fill these trajectories with life.",
-        "First, creating value in digital health ecosystems demands to take into account diverse kinds of value to be potentially created through these technologies (Günther et al., 2017; Porter, 2010). Financial value is an important kind of value to be created in digital health ecosystems; however, it is by far not the sole kind of value that matters in these settings (Barrett et al., 2016). It is important to understand which kinds of value technology helps to create as well as how, why, and when it does so. Second, creating value is not per se synonymous with distributing it so that an important line of inquiry is about how to distribute value among ecosystem participants and over time (Yan et al., 2021; Yoo et al., 2024).",
-        "We are asking for papers speaking to these topics and see two broad ways in which submissions to our special issue could do so. The first is cumulative and much in line with how research in IS and adjacent fields such as computer science, management, and medicine is conventionally done. It resides in furthering our understandings and toolkits for creating value in digital health ecosystems. However, the more data are available the higher is arguably the potential for misuse (Morley et al., 2020; Murdoch, 2021; Siala & Wang, 2022), especially when genomic and bio data are in question (Jarvenpaa & Markus, 2018; Rothe et al., 2019, 2023; Thiebes et al., 2020; Vassilakopoulou et al., 2018). This is why research about creating value from data logically calls for research about how to distribute value among ecosystems participants.",
-        "The second way to address the abovementioned research trajectories is consistent with EJIS’s recent developments towards promoting ‘contrarian studies’ (Nandhakumar, 2010). We see much promise of contrarian studies investigating the creation and distribution of value in digital health ecosystems. Research about digital health is replete with assumptions touching on the outcomes that large volumes of data are likely to generate. This stands in stark contrast to the fact that on the ‘ground floor’ where most clinicians work the data are hardly ever available in the format, quality or volume needed to even remotely live up to these expectations (Jones, 2019). It is, therefore, paramount to offer fundamentally new ways of thinking about creating and distributing value in digital health ecosystems.",
-        "These considerations lead us to a set of issues which we would like to address through putting together this special issue. These issues include but are not limited to the topics presented above."
-      ]
-    },
-    "tags": [
-      "digital health",
-      "value creation",
-      "ecosystems"
-    ],
-    "editors": [
-      {
-        "name": "Lauri Wessel",
-        "affiliation": "European New School of Digital Studies"
-      },
-      {
-        "name": "Melanie Reuter-Oppermann",
-        "affiliation": "Maastricht University and ILS Mannheim gGmbH"
-      },
-      {
-        "name": "Roxana Ologeanu-Taddei",
-        "affiliation": "University of Montpellier"
-      },
-      {
-        "name": "Hannes Rothe",
-        "affiliation": "Rhine-Ruhr Institute of Information Systems, University of Duisburg-Essen"
-      },
-      {
-        "name": "Sirkka L. Jarvenpaa",
-        "affiliation": "McCombs School of Business, The University of Texas at Austin"
-      }
-    ],
-    "associate_editors": [
-      {
-        "name": "Aleksi Aaltonen",
-        "affiliation": "Stevens Institute of Technology"
-      },
-      {
-        "name": "Saeed Akhlaghpour",
-        "affiliation": "University of Queensland"
-      },
-      {
-        "name": "Aycan Aslan",
-        "affiliation": "IT University Copenhagen"
-      },
-      {
-        "name": "Anna Essén",
-        "affiliation": "Stockholm School of Economics"
-      },
-      {
-        "name": "Heiko Gewald",
-        "affiliation": "HS Neu-Ulm"
-      },
-      {
-        "name": "Martin Gersch",
-        "affiliation": "Freie Universität Berlin"
-      },
-      {
-        "name": "Camille Grangé",
-        "affiliation": "HEC Montréal"
-      },
-      {
-        "name": "Maike Greve",
-        "affiliation": "Copenhagen Business School"
-      },
-      {
-        "name": "Farkhondeh Hassan Doust",
-        "affiliation": "University of Auckland"
-      },
-      {
-        "name": "Alexander Kempton",
-        "affiliation": "University of Oslo"
-      },
-      {
-        "name": "Johann Kranz",
-        "affiliation": "LMU"
-      },
-      {
-        "name": "Jan-Marco Leimeister",
-        "affiliation": "St. Gallen"
-      },
-      {
-        "name": "Wolfgang Maaß",
-        "affiliation": "Saarland University"
-      },
-      {
-        "name": "Bogdan Negoita",
-        "affiliation": "HEC Montréal"
-      },
-      {
-        "name": "Lemai Nguyen",
-        "affiliation": "Deakin University"
-      },
-      {
-        "name": "Guy Paré",
-        "affiliation": "HEC Montréal"
-      },
-      {
-        "name": "Scott Thiebes",
-        "affiliation": "Karlsruhe Institute of Technology"
-      },
-      {
-        "name": "Manuel Trenz",
-        "affiliation": "University of Göttingen"
-      },
-      {
-        "name": "Cristina Trocin",
-        "affiliation": "Católica Porto Business School"
-      },
-      {
-        "name": "Marjolein van Offenbeek",
-        "affiliation": "University of Groningen"
-      },
-      {
-        "name": "Polyxeni Vassilakopoulou",
-        "affiliation": "University of Agder"
-      },
-      {
-        "name": "Till Winkler",
-        "affiliation": "Fernuniversität Hagen"
-      }
-    ],
-    "dates": [
-      {
-        "date": "2026-03-01T12:00:00.000Z",
-        "description": "Submission of extended abstracts/ declaration of interest to submit papers to the special issue. Submissions are subject for discussions at a paper development workshop in the context of ECIS 2026 in Milan, Italy",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-11-30T12:00:00.000Z",
-        "description": "Full paper submission deadline",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2027-03-31T12:00:00.000Z",
-        "description": "First round decisions due",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-09-30T12:00:00.000Z",
-        "description": "Revisions due",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-12-15T12:00:00.000Z",
-        "description": "Second round decisions due",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2028-02-28T12:00:00.000Z",
-        "description": "Third round revisions due (if necessary)",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2028-05-31T12:00:00.000Z",
-        "description": "Final decisions due",
-        "is_full_paper_submission_deadline": false
-      }
-    ],
-    "active": false,
-    "pubDate": "2025-08-14T03:33:30.272Z",
-    "gracePeriod": "2026-01-01T03:25:04.206Z"
-  },
-  {
     "journal": "European Journal of Information Systems",
     "abbreviation": "ejis",
     "metaTitle": "Designing our Digital Futures",
@@ -50820,7 +49814,8 @@
     ],
     "active": false,
     "pubDate": "2025-06-30T01:06:20.334Z",
-    "gracePeriod": "2026-01-01T03:25:04.206Z"
+    "gracePeriod": "2026-01-01T03:25:04.206Z",
+    "issn": "1526-5536"
   },
   {
     "journal": "Journal of Management Information Systems",
@@ -51298,96 +50293,6 @@
     "gracePeriod": "2025-08-16T03:40:28.332Z"
   },
   {
-    "journal": "Information Systems Journal",
-    "abbreviation": "isj",
-    "metaTitle": "Understanding Resistance to Digital Transformation",
-    "url": "https://onlinelibrary.wiley.com/page/journal/13652575/call-for-papers/si-2025-000208",
-    "slug": "isj-understanding-resistance-to-digital-transformation",
-    "contentHash": "c3ea56d6b1920cfde986e68eb4eda138d32fdd05f6a73a888298bbfabf0ef769",
-    "title": "Understanding Resistance to Digital Transformation",
-    "topics": [
-      "Cultural inertia and institutional friction",
-      "Generational mismatches and skill gaps",
-      "Augmentation vs. Automation",
-      "Gamification and behavioral nudges",
-      "Digital boycotts and collective pushback",
-      "Organizational learning and adaptation",
-      "Distinguishing digital transformation from general IS/IT resistance"
-    ],
-    "description": {
-      "paragraphs": [
-        "Digital transformation has become a major point of discussion in organizations and broader society, yet its overall desirability and consequences remain open to debate. While many practitioners and scholars see these initiatives as avenues for enhancing efficiency, competitiveness, and customer engagement, there is also growing recognition of the complexities, paradoxes, and unintended effects they may introduce. Indeed, the acceleration of digital projects—especially following the COVID-19 pandemic—can invite various forms of resistance, leading to stalled progress and disruptions.",
-        "Importantly, digital transformation is increasingly recognized as an overarching and longitudinal process or strategic goal—rather than a one-time deployment of new technological tools—and requires shifts in both capabilities and institutional frameworks. Because this transformation unfolds over time, people may be resisting not only 'technology,' but also the evolving cultural, structural, and strategic changes that accompany it. More precisely, resistance is not solely a matter of technical or budgetary constraints; it intersects with organizational culture, leadership approaches, and individual behaviors. The emergence of new technologies—such as Artificial Intelligence (AI), blockchain, the Internet of Things (IoT), and digital twins—can exacerbate concerns about data transparency, automation, 'black box' processes, and ethical dilemmas. For some, these technologies prompt anxiety around potential job displacement or fears that advanced automation could undermine trust. In other situations, hurried or incomplete rollouts of new platforms—such as remote work tools—may create friction and lead employees to question their effectiveness.",
-        "Studies also highlight the role of deeply held cultural assumptions and legacy mindsets in impeding organizational shifts. In particular, environments that do not support collaboration and experimentation can intensify pushback against change. Generational differences often add another layer of complexity, as digital-native employees may clash with colleagues who have limited exposure to or interest in new technologies. Approaches such as gamification and behavioral nudges show potential to lessen opposition, although their effectiveness remains an active area of inquiry. Additionally, collective pushback or digital boycotts—where groups of employees, consumers, or communities reject new platforms—underscore the importance of trust, data governance, and broader social considerations.",
-        "Sustaining digital change over the long run often requires leadership that can manage both the technical and human dimensions of transformation, alongside an organizational culture geared toward continuous learning. Many organizations strive to integrate ongoing upskilling, transparent communication, and stakeholder engagement to reduce uncertainty and foster participation. By examining how and why employees, managers, or external stakeholders resist digital initiatives, researchers can illuminate strategies for balancing innovation with well-founded concerns and ensuring that transformations proceed in a manner consistent with ethical and social expectations.",
-        "This special issue invites work that addresses a broad range of questions around resistance to digital transformation. Rather than framing such transformations as inherently beneficial, we encourage submissions that critically examine these processes, questioning when they should (or should not) be pursued and how resistance emerges in diverse contexts. Ultimately, we hope to generate richer insights into how organizations, policymakers, and societies can better navigate the opportunities and risks posed by digital change."
-      ]
-    },
-    "tags": [
-      "digital transformation",
-      "organizational change"
-    ],
-    "editors": [
-      {
-        "name": "Francesco Appio",
-        "affiliation": "Paris School of Business"
-      },
-      {
-        "name": "Luca Gastaldi",
-        "affiliation": "Politecnico di Milano"
-      },
-      {
-        "name": "Federico Iannacci",
-        "affiliation": "University of Sussex"
-      }
-    ],
-    "associate_editors": [
-      {
-        "name": "Martin Adam",
-        "affiliation": "Georg-August-Universität Göttingen"
-      },
-      {
-        "name": "Ravi Patnayakuni",
-        "affiliation": "University of Alabama in Huntsville"
-      },
-      {
-        "name": "Andy Du",
-        "affiliation": "University of Massachusetts Boston"
-      },
-      {
-        "name": "Dimitra Petrakaki",
-        "affiliation": "University of Sussex"
-      },
-      {
-        "name": "Sven Laumer",
-        "affiliation": "Friedrich-Alexander-Universität"
-      },
-      {
-        "name": "Luiz Antonio Joia",
-        "affiliation": "Brazilian School of Public and Business Administration at FGV"
-      },
-      {
-        "name": "Shahla Ghobadi",
-        "affiliation": "University of Leeds"
-      }
-    ],
-    "dates": [
-      {
-        "date": "2025-07-31T12:00:00.000Z",
-        "description": "Extended abstract submission for early feedback",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2025-10-01T12:00:00.000Z",
-        "description": "Full paper submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2025-03-13T10:47:42.901Z",
-    "gracePeriod": "2025-12-28T03:18:38.126Z"
-  },
-  {
     "journal": "The Journal of Strategic Information Systems",
     "abbreviation": "jsis",
     "metaTitle": "Call for Special Issue Review Articles",
@@ -51446,172 +50351,6 @@
     "active": false,
     "pubDate": "2025-03-13T10:47:42.901Z",
     "gracePeriod": "2026-01-01T03:25:04.206Z"
-  },
-  {
-    "journal": "Information Systems Journal",
-    "abbreviation": "isj",
-    "metaTitle": "Theorising the Impacts of Generative Artificial Intelligence",
-    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/13652575/cfp/ISJ-CFP-Theorising-the-Impact-of-Generative-Artificial-Intelligence-1734959512827.pdf",
-    "slug": "isj-theorising-the-impacts-of-generative-artificial-intelligence",
-    "contentHash": "806dc3febf06c07177546fb524be36af0eaee9dc7e31f1b3cc3caf270d77110b",
-    "title": "Theorising the Impacts of Generative Artificial Intelligence",
-    "topics": [
-      "Human - GAI Relationships and Collaboration (e.g., Anthropomorphism in AI and human identity; Dehumanized interactions; Relationships with robots or chatbots; Power dynamics in human - AI collaboration and hegemonic interactions)",
-      "Human Agency, Creativity, and Cognition (e.g., Erosion of human agency and GAI dependency; Challenges to human creativity in the era of AI - driven pattern generation; Mediocrity as a new norm, and the struggle for excellence; Cognitive enhancement, deterioration, and dependence in GAI - mediated environments)",
-      "Social Inequalities and Marginalization (e.g., Impacts on marginalized populations and inequality by design; Educational equity and impact on learning; Global and cultural distortions and digital exclusion; Data colonialism and global inequalities)",
-      "Work and Organizational Shifts (e.g., Transformation, decline and disappearance of professions; Deskilling and disempowering of individuals; Disruptions to work, routines, and shifts in organizational dynamics)",
-      "Governance and Policy (e.g., Implications of strong or absent governance frameworks; Regulation and policy development by governments and organizations; National policies and their differences; Environmental and societal trade-offs)",
-      "Disinformation and Trust (Development & dissemination of disinformation, misinformation, and conspiracy theories; Erosion of trust in human and organizational communication)",
-      "Fundamental Risks (e.g., Systemic risk, resilience, and dependencies in AI - enhanced infrastructure; Vulnerabilities and data poisoning; Misuse of intellectual property; Warfare automation)"
-    ],
-    "description": {
-      "paragraphs": [
-        "Since 2022, we have witnessed an inexorable flood of information about Generative Artificial Intelligence (GAI) and its various components and manifestations. As hypes go, this one seems overdue for a cyclical correction; however, the enthusiasm for GAI across a wide range of contexts still rises. The euphoria permeates not just mainstream society and popular culture, but also business, politics, warfare and, of course, academia. The tone of inevitability about GAI and its benefits is fervent and the passion of many (notably academics, tech pundits and businesspeople) is abundant. This is not to say that there are no critical voices: there are, but their concerns risk being submerged by the tide of optimism and it may seem heretical to critique, let alone excoriate, the GAI phenomenon.",
-        "For example, at some institutions, even measured critiques of GAI are viewed as misaligned with their forward-looking visions, creating an environment where scholars may feel pressured to conform to a predominantly positive narrative. Almost as soon as GAI was released and became a topic of discussion, we quickly saw a spate of opinions, accompanied by the wisdom of pundits and some speculative analyses of what the impact on a variety of societal and organizational functions might be. These early discussions lacked grounding in robust empirical or theoretical insights, instead reflecting speculative or overly generalized narratives. In many ways, these initial reactions paralleled the reactions to Artificial Intelligence almost forty years earlier (Sheil, 1987).",
-        "Some academic publishers quickly outlawed the use of GAI by submitting authors and other notes of caution were expressed regarding the potential negative impacts. However, as the technology evolved, so in parallel did the restrictions on academic use, most of which were just as quickly retracted and replaced with more nuanced advisories. Academic institutions, journal publishers, and universities started to promulgate guidelines, essentially legitimizing GAI application, yet also unleashing peer and institutional pressure to take advantage of this new opportunity.",
-        "In parallel to these academic perspectives, business organizations have expressed both enthusiasm for the technology and concerns about such issues as data protection, truth, trust, and errors, as well as how to train people to use GAI correctly. Today we see that AI-themed programmes and research centres are being created in profusion. This proliferation is worrisome not because of the exploration of GAI itself, but because it often lacks critical engagement with the potential harms and adverse consequences.",
-        "At the ISJ, we have already seen both submissions and reviews where GAI appears to have played a role not so far from either co-author or some form of assistant. In response, we have published cautionary editorials (Davison et al., 2023, 2024). When it comes to AI-themed research submissions, our sense is that we are at the stage of the trickle before the deluge. Given the normative process of empirical (qualitative or quantitative) research, it is not surprising that few such AI-themed articles (e.g., Susarla et al., 2023; Grover, 2024) have been published. However, in a pre-GAI special issue (Mikalef et al., 2022), a more critical tone was adopted with an explicit focus on the dark side of AI.",
-        "At the ISJ, the vast majority of GAI-themed submissions to date tend to emphasise the novelty of application area yet actually have little to do with IS and fail to engage with its broader sociotechnical axis. This reflects an ongoing challenge for IS scholars: how to meaningfully situate GAI research within the discipline’s core concerns. Nevertheless, this also presents an opportunity for IS researchers to engage critically with GAI through theoretical and methodological innovation and empirical rigor. What we also find to be absent from much of the GAI-related work done so far is either a more critical stance or attempts to engage in rigorous and novel theoretical development on the impacts of GAI.",
-        "This is troubling because of the risks that GAI poses to individuals, organizations, society more broadly, and the natural environment. In fact, poorly vetted applications of GAI run the risk of such negative outcomes as violating privacy, facilitating research misconduct, insulting customers, and discriminating unfairly against specific groups. Given this backdrop, we argue that the time is now ripe for researchers to critically investigate the diverse impacts of GAI. Analyzing these impacts through a sociotechnical lens is essential to bridge the gap between technological advancements and their broader implications.",
-        "We can expect that a wide variety of impacts may be experienced globally, some of which will be legal in one jurisdiction even as they are illegal elsewhere; this heightens concerns about widening digital and AI-related divides. To explain these phenomena and anticipate their future trajectories, researchers must employ appropriate theoretical frameworks and remain open to innovative forms of theorizing. GAI's emergence necessitates both the adaptation of existing theories and the development of new theoretical arguments that reflect its distinctive characteristics, such as its effects on human agency and the contextual nuances of its applications.",
-        "We encourage the application of grounded research, given that GAI is still an emerging phenomenon. For example, theories of disruption, given the undeniably disruptive nature of GAI, may offer more fruitful opportunities for theoretical innovation, while critical design approaches rooted in theories of emancipation could illuminate issues of AI oppression. A robust theoretical foundation that explores the ‘dark side’ of GAI is indispensable for advancing sociotechnical research and addressing its complex, often adverse, societal impacts.",
-        "In a positive sense, the research that we aim to publish in this special issue should contribute to our understanding of the potential negative impacts of GAI, with the hope that we can also mitigate them. In-depth ethnographic fieldwork, critical case studies, and grounded theory can help reveal and address the otherwise hidden aspects of GAI in practice. Action Researchers may go a step further to propose and even enact those mitigation strategies in particular contexts, thus subjecting their theoretical ideas to empirical tests.",
-        "For this special issue, we specifically solicit research that draws on primary data. Primary data allows for a deeper understanding of GAI’s real-world impact and enables researchers to engage directly with stakeholders, such as individuals and organizations affected by GAI. We aim to foster research that is grounded in real-world experiences and produces theoretically innovative, methodologically rigorous work that can truly advance our understanding of GAI's sociotechnical consequences. We expect that authors will make a direct contribution to knowledge by developing a new theory or theorisations that acknowledge the unique characteristics of GAI. We welcome interdisciplinary work. We also welcome action research and design science studies if they empirically demonstrate how the negative impacts of GAI can be mitigated, and in addition develop theory.",
-        "For this special issue, we do not accept the submission of stand-alone reviews of the technology, opinion papers and purely conceptual papers. Submissions to this special issue must align closely with the sociotechnical axis central to IS research. Specifically, we seek studies that explore the interplay between human, technological, environmental and organizational dimensions of GAI in real-world contexts. The range of topics and contexts that may be suitable is clearly extensive, and thus we only provide a partial list below. As we indicate above, we are particularly interested in the dark side of GAI."
-      ]
-    },
-    "tags": [
-      "generative artificial intelligence",
-      "sociotechnical systems",
-      "information systems"
-    ],
-    "editors": [
-      {
-        "name": "Robert Davison",
-        "affiliation": "City University of Hong Kong"
-      },
-      {
-        "name": "Antonio Díaz Andrade",
-        "affiliation": "University of Agder"
-      },
-      {
-        "name": "Manuel Trenz",
-        "affiliation": "University of Gottingen"
-      }
-    ],
-    "associate_editors": [
-      {
-        "name": "Angsana Techatassanasoontorn",
-        "affiliation": "AUT University"
-      },
-      {
-        "name": "Carla Bonina",
-        "affiliation": "University of Surrey"
-      },
-      {
-        "name": "Christoph Breidbach",
-        "affiliation": "University of Queensland"
-      },
-      {
-        "name": "Dimitra Petrakaki",
-        "affiliation": "University of Sussex"
-      },
-      {
-        "name": "Efpraxia Zamani",
-        "affiliation": "Durham University"
-      },
-      {
-        "name": "Gilbert Fridgen",
-        "affiliation": "University of Luxembourg"
-      },
-      {
-        "name": "Hameed Chughtai",
-        "affiliation": "University of Lancaster"
-      },
-      {
-        "name": "Han-fen Hu",
-        "affiliation": "University of Nevada Las Vegas"
-      },
-      {
-        "name": "Harminder Singh",
-        "affiliation": "AUT University"
-      },
-      {
-        "name": "Johan Sæbo",
-        "affiliation": "University of Oslo"
-      },
-      {
-        "name": "Luiz Joia",
-        "affiliation": "Getulio Vargas Foundation"
-      },
-      {
-        "name": "Marco Marabelli",
-        "affiliation": "Bentley University"
-      },
-      {
-        "name": "Martin Adam",
-        "affiliation": "University of Göttingen"
-      },
-      {
-        "name": "Maximilian Schreieck",
-        "affiliation": "University of Innsbruck"
-      },
-      {
-        "name": "Mike Lee",
-        "affiliation": "University of Nevada Las Vegas"
-      },
-      {
-        "name": "Mira Slavova",
-        "affiliation": "Warwick Business School"
-      },
-      {
-        "name": "Mylene Struijk",
-        "affiliation": "University of Sydney"
-      },
-      {
-        "name": "Nancy Deng",
-        "affiliation": "California State University Dominguez Hills"
-      },
-      {
-        "name": "Petros Chamakiotis",
-        "affiliation": "ESCP"
-      },
-      {
-        "name": "Petter Nielsen",
-        "affiliation": "University of Oslo"
-      },
-      {
-        "name": "Phil Zhou",
-        "affiliation": "Tongji University"
-      },
-      {
-        "name": "Pierre-Emmanuel Arduin",
-        "affiliation": "Paris Dauphine University"
-      },
-      {
-        "name": "Sven Laumer",
-        "affiliation": "Friedrich-Alexander University"
-      },
-      {
-        "name": "Tommy Chan",
-        "affiliation": "University of Manchester"
-      }
-    ],
-    "dates": [
-      {
-        "date": "2025-06-30T12:00:00.000Z",
-        "description": "Deadline for extended abstract submissions for early feedback",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2025-12-31T12:00:00.000Z",
-        "description": "Full paper submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2024-12-25T07:52:15.170Z",
-    "gracePeriod": "2025-12-28T03:18:38.126Z"
   },
   {
     "journal": "Journal of the Association for Information Systems",
@@ -52435,126 +51174,6 @@
     "active": false,
     "pubDate": "2024-08-15T12:37:20.000Z",
     "gracePeriod": "2025-09-01T03:38:18.497Z"
-  },
-  {
-    "journal": "Information Systems Journal",
-    "abbreviation": "isj",
-    "metaTitle": "Addressing Refugees and Migration Issues through Critical Information Systems",
-    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/13652575/ISJ-Special-Issue-on-Refugees-CFP-Updated-1733230198493.pdf",
-    "slug": "isj-addressing-refugees-and-migration-issues-through-critical-information-systems",
-    "contentHash": "c838a0ca9393345941daf9e7c93fe94ab27392b90334ac340944437cd8836eac",
-    "title": "Addressing Refugees and Migration Issues through Critical Information Systems Research",
-    "topics": [
-      "Critical analyses of the interrelated themes of identity, refugeeness, and belonging.",
-      "Exploring the ethics of (forced) migration.",
-      "Analysing the politics of responsibility and the integration of refugees and migrants in digital contexts.",
-      "Technology, racial marginalization and refugees experience.",
-      "Digital biopolitics, identities, and datafication of migrants and refugees.",
-      "Online activism and digital social movements in the context of refugees or migrants.",
-      "Agency, resistance and coping mechanisms of migrants and refugees.",
-      "Examining the issues at the intersections of gender, technology, and migrants/refugees (including queering migration and issues of gender-based violence).",
-      "Digitally-entangled lived experiences of minorities among refugee populations.",
-      "Datafication of borders and algorithmic management of migrants and refugees.",
-      "Decolonial justice and /for migrants and refugees.",
-      "Digital justice and human rights issues affecting migrants and refugees.",
-      "Digital and data surveillance and control on migrants and refugees.",
-      "Issues related to power and exploitation of migrants and refugees.",
-      "Critical narratives of displacement.",
-      "Digital accounts and narratives of refugee experience.",
-      "Technology and the political philosophy of migration and refuge.",
-      "Novel theoretical lenses to study migration and refugee issues such as decolonial theory, spatial and temporal perspectives, Indigenous viewpoints, critical race theory, and feminist approaches.",
-      "Novel methodological approaches to examine refugee issues such as visual ethnography, visual research, and digitally mediated bodily experiences.",
-      "Application of novel technologies such as Blockchain and AI."
-    ],
-    "description": {
-      "paragraphs": [
-        "United Nations High Commissioner for Refugees (UNHCR) reports that there are approximately 110 million forcibly displaced people worldwide, as of mid-2023, because of persecution, conflict, war, violence, human rights violations, or events seriously disturbing public order. These include 36.4 million refugees and 62.5 million internally displaced people (IDP), asylum seekers, and several other people in need of international protection. There is a strong history of research highlighting the issues faced by refugees, ranging from accounts of violence in the developing world, exploring the gendered experience of refugees, questioning racist thinking about immigration, case studies of asylum seekers, and philosophical inquiry into the fair treatment of refugees. The global refugee and forced migration crisis and the persistent challenges faced by these vulnerable communities call for an urgent need for innovative solutions that foster social inclusion and empower these populations.",
-        "In our field, information systems (IS) researchers have been acutely aware of the refugee and migrant crises. Researchers have examined the critical issues related to social inclusion of refugees, social inclusion and activation of refugee agency, information and communication technology (ICT) enabled refugee integration, refugees and pedagogy, digitization and refugee settlement, refugee women and information-precarity, and migrant identity. Nonetheless, recent research in refugee studies has shown that critical areas at the intersection of technology, refugees, and broader migration crises have remained underexamined, for example, social media and device vetting, digitally mediated lived experiences of minority refugees, refugees and a sense of uncertainty in the digital age, refugee aid and digital capitalism, and networked refugees.",
-        "We observe that despite some progress in our field, much remains underexplored in addressing these pressing issues, underscoring the need for rigorous research. This special issue aims to explore how IS research could contribute to illuminating the refugee crises and alleviating the deterioration of refugee and migrant social circumstances. These sensitive topics are situated within the broader debate on digital inclusion and empowerment and the discussions related to inequality and demarginalization and decolonization in our field.",
-        "Exploring the critical research questions surrounding IS and migrant/refugee populations is essential for developing comprehensive and ‘good’ IS solutions and making the world a better place for all of us. We encourage submissions from diverse researchers with multidisciplinary perspectives, including experts in IS, social sciences, public policy, humanitarian studies, and other relevant fields. Such interdisciplinary collaborations will contribute to a holistic understanding of the problems and foster innovative solutions. We seek submissions that focus on real-world issues at the intersection of refugees and migrant crises and technology."
-      ]
-    },
-    "tags": [
-      "refugees",
-      "migration",
-      "information systems",
-      "social inclusion"
-    ],
-    "editors": [
-      {
-        "name": "Safa’a AbuJarour",
-        "affiliation": "An-Najah National University"
-      },
-      {
-        "name": "Hameed Chughtai",
-        "affiliation": "Lancaster University Management School"
-      },
-      {
-        "name": "Yingqin Zheng",
-        "affiliation": "University of Essex"
-      }
-    ],
-    "associate_editors": [
-      {
-        "name": "Petros Chamakiotis",
-        "affiliation": "ESCP Business School"
-      },
-      {
-        "name": "Andrea Jimenez",
-        "affiliation": "University of Sheffield"
-      },
-      {
-        "name": "Shirin Madon",
-        "affiliation": "London School of Economics"
-      },
-      {
-        "name": "Marco Marabelli",
-        "affiliation": "Bentley University"
-      },
-      {
-        "name": "Carmen Leong",
-        "affiliation": "University of New South Wales"
-      },
-      {
-        "name": "Shaila Miranda",
-        "affiliation": "University of Arkansas"
-      },
-      {
-        "name": "Priyanka Panday",
-        "affiliation": "Kings College London"
-      },
-      {
-        "name": "Israr Qureshi",
-        "affiliation": "Australian National University"
-      },
-      {
-        "name": "Maximilian Schreieck",
-        "affiliation": "University of Innsbruck"
-      },
-      {
-        "name": "Devinder Thapa",
-        "affiliation": "University of Agder"
-      },
-      {
-        "name": "Ranjan Vaidya",
-        "affiliation": "Auckland University of Technology"
-      }
-    ],
-    "dates": [
-      {
-        "date": "2024-11-30T12:00:00.000Z",
-        "description": "Submission of extended abstract (optional)",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2025-03-30T12:00:00.000Z",
-        "description": "Submission of manuscript",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": false,
-    "pubDate": "2024-07-18T10:34:43.000Z",
-    "gracePeriod": "2025-12-28T03:18:38.126Z"
   },
   {
     "journal": "Decision Support Systems",
@@ -53509,7 +52128,8 @@
     ],
     "active": false,
     "pubDate": "2024-01-12T12:33:57.000Z",
-    "gracePeriod": "2025-07-12T03:20:23.475Z"
+    "gracePeriod": "2025-07-12T03:20:23.475Z",
+    "issn": "1526-5536"
   },
   {
     "journal": "Journal of Information Technology",
@@ -54808,7 +53428,8 @@
     ],
     "active": false,
     "pubDate": "2024-01-02T12:00:00.000Z",
-    "gracePeriod": "2025-07-11T03:21:48.917Z"
+    "gracePeriod": "2025-07-11T03:21:48.917Z",
+    "issn": "1526-5536"
   },
   {
     "journal": "MIS Quarterly",
@@ -55858,160 +54479,6 @@
     "active": false,
     "pubDate": "2022-12-22T12:41:59.000Z",
     "gracePeriod": "2025-03-01T02:48:52.449Z"
-  },
-  {
-    "journal": "Decision Support Systems",
-    "abbreviation": "dss",
-    "metaTitle": "Blockchain Technology and Applications",
-    "url": "https://www.sciencedirect.com/special-issue/239002/dss-special-issue-on-blockchain-technology-and-applications",
-    "slug": "dss-blockchain-technology-and-applications",
-    "contentHash": "5e7ab8360d7231401dbeeffb2ea3972d84312e8abc6a5158ebbead6421b36e99",
-    "title": "Blockchain Technology and Applications",
-    "topics": [
-      "Process-aware blockchain design and management",
-      "Blockchain applications in metaverse platforms",
-      "Design and implementation issues in the transition from PoW to PoS",
-      "Data management issues on the blockchain",
-      "Security and privacy issues on the blockchain",
-      "Design and implementation issues of Metaverse systems",
-      "Integration of blockchain into existing business infrastructure",
-      "Modeling, design and implementation of trust mechanisms in blockchain-based systems",
-      "New and faster consensus algorithms for blockchain implementation",
-      "NFT analysis and design paradigms in various business sectors",
-      "Blockchain-based NFT casting models and mechanisms"
-    ],
-    "description": {
-      "paragraphs": [
-        "Blockchain technology has received enormous attention since Bitcoin was launched in 2009 and has become the frontier of technology advancements and application innovations in recent years. In particular, blockchain is now recognized as a critical part of the new ABCD of modern technology, that is, Artificial intelligence, Blockchain, Cloud computing, and big Data. However, many research challenges and opportunities remain to be tackled and surmounted in areas such as blockchain infrastructure decentralization, blockchain network governance, blockchain security and privacy, and the nature of machine trust in blockchain-based systems. Because blockchain is an integral part of automated business processes, the implementation of this technology can vary greatly between organizations across different industries.",
-        "The aim of this special issue is to highlight novel and high-quality research in blockchain technology and applications, and to examine the current and future impact of blockchain systems, and related technologies including data verification before block confirmation, authentication of data ownership, and dataflow across blockchain systems. Considering the decision-making focus of DSS publications that bridge the gap between managerial and technical perspectives, this special issue is open to all manuscripts that make a significant research contribution to blockchain systems and applications in business sectors such as finance, insurance, healthcare, manufacturing, supply chain, education, and government.",
-        "In terms of research paradigm, we invite manuscripts with system-based implications that draw on various analytical, empirical, and technical methodologies including, but not limited to, system development, econometrics, decision theory, operations management, experimentation, and engineering. We strongly encourage submissions that follow a design science research perspective, which aims to develop cutting-edge IT artifacts. That is, all technical and quantitative research methods that are helpful in tackling real-world challenges confronted by managers, engineers, and researchers via blockchain technology are welcome."
-      ]
-    },
-    "tags": [
-      "blockchain",
-      "applications",
-      "technology"
-    ],
-    "editors": [
-      {
-        "name": "Shaokun Fan",
-        "affiliation": "Oregon State University"
-      },
-      {
-        "name": "Noyan Ilk",
-        "affiliation": "Florida State University"
-      },
-      {
-        "name": "Akhil Kumar",
-        "affiliation": "Penn State University"
-      },
-      {
-        "name": "J. Leon Zhao",
-        "affiliation": "Chinese University of Hong Kong, Shenzhen"
-      }
-    ],
-    "associate_editors": [
-      {
-        "name": "Michael Adams",
-        "affiliation": "Queensland University of Technology"
-      },
-      {
-        "name": "Arthur Carvalho",
-        "affiliation": "Miami University"
-      },
-      {
-        "name": "Daning Hu",
-        "affiliation": "South University of Science and Technology"
-      },
-      {
-        "name": "Qiqi Jiang",
-        "affiliation": "Copenhagen Business School"
-      },
-      {
-        "name": "Jiewu Leng",
-        "affiliation": "Guangdong University of Technology"
-      },
-      {
-        "name": "Rong Liu",
-        "affiliation": "Stevens Institute"
-      },
-      {
-        "name": "Xin Luo",
-        "affiliation": "The University of New Mexico"
-      },
-      {
-        "name": "Chih-Hung Peng",
-        "affiliation": "National Chengchi University"
-      },
-      {
-        "name": "Zhe Shan",
-        "affiliation": "Miami University"
-      },
-      {
-        "name": "Hemang Subramanian",
-        "affiliation": "Florida International University"
-      },
-      {
-        "name": "Yinliang Tan",
-        "affiliation": "University of Houston"
-      },
-      {
-        "name": "Chih-Ping Wei",
-        "affiliation": "National Taiwan University"
-      },
-      {
-        "name": "Ling Xue",
-        "affiliation": "Georgia State University"
-      },
-      {
-        "name": "Wenping Zhang",
-        "affiliation": "Remin University of China"
-      },
-      {
-        "name": "Xi Zhao",
-        "affiliation": "Xi'an Jiaotong University"
-      }
-    ],
-    "dates": [
-      {
-        "date": "2022-10-15T12:00:00.000Z",
-        "description": "Submissions System opens",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2023-01-15T12:00:00.000Z",
-        "description": "Paper Submission Deadline",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2023-01-30T12:00:00.000Z",
-        "description": "Initial Screening of Submissions",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2023-04-15T12:00:00.000Z",
-        "description": "First Review Decisions",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2023-06-30T12:00:00.000Z",
-        "description": "Revision Due",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2023-09-15T12:00:00.000Z",
-        "description": "Acceptance Decisions",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2023-11-15T12:00:00.000Z",
-        "description": "Final Manuscript Due",
-        "is_full_paper_submission_deadline": false
-      }
-    ],
-    "active": false,
-    "pubDate": "2022-08-18T06:37:25.000Z",
-    "gracePeriod": "2026-07-04T06:52:32.767Z"
   },
   {
     "journal": "Journal of the Association for Information Systems",
