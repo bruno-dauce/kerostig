@@ -56,3 +56,17 @@ test('ignore les cartes sans URL', () => {
 
     assert.deepEqual(listings.map(l => l.metaTitle), ['Appel 2']);
 });
+
+// Point de vigilance souleve le 2026-09-28 : le texte brut de la revue peut
+// varier legerement d'un chargement du hub a l'autre (espace, esperluette).
+// Fusionner par ISSN (issn_cle) plutot que par ce texte evite qu'une seule
+// carte reelle soit prise pour deux appels homonymes distincts -- ce qui
+// declenchait un suffixe -2 injustifie dans dataPreparation.generateSlug.
+test('fusionne par ISSN meme si le texte de la revue varie entre deux chargements', () => {
+    const premier = [{ ...carte(1, 'Journal of Business Venturing'), issn: '0883-9026' }];
+    const second = [{ ...carte(1, 'Journal of Business Venturing '), issn: '0883-9026' }];
+
+    const { listings } = fusionnerChargements([premier, second]);
+
+    assert.equal(listings.length, 1);
+});

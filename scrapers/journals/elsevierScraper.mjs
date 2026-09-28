@@ -35,9 +35,14 @@ const PAUSE_ENTRE_CHARGEMENTS_MS = 15000;
 // Fusionne les cartes de plusieurs chargements du hub. Fonction pure, exportee
 // pour test.
 //
-// Cle = URL + revue, et non l'URL seule : un meme numero special conjoint
-// apparait sous plusieurs revues avec la meme URL (ex. 270379, Emerging
-// Markets Review et Finance Research Letters), et chaque carte donne un appel.
+// Cle = URL + ISSN (issn_cle), et non l'URL seule : un meme numero special
+// conjoint apparait sous plusieurs revues avec la meme URL (ex. 270379,
+// Emerging Markets Review et Finance Research Letters), et chaque carte donne
+// un appel. L'ISSN plutot que le texte brut de la revue (repli si l'ISSN n'a
+// pas ete resolu, ex. revue hors perimetre FNEGE) : conformement a la regle
+// de jointure du projet, et parce que deux chargements du hub peuvent rendre
+// le nom d'une meme revue avec de legeres variations (espace, esperluette),
+// ce qui ferait passer un seul appel pour deux cartes distinctes.
 //
 // Le plus gros chargement sert de base, dans son ordre : l'ordre des appels
 // decide des suffixes -2 des slugs homonymes (dataPreparation.generateSlug),
@@ -51,7 +56,7 @@ export function fusionnerChargements(chargements) {
     const tailles = chargements.map(c => c.length);
     const maxChargement = Math.max(0, ...tailles);
     const ordonnes = [...chargements].sort((a, b) => b.length - a.length);
-    const cle = l => `${l.url}|${l.journal}`;
+    const cle = l => `${l.url}|${l.issn ?? l.journal}`;
     const vues = new Set();
     const listings = [];
     for (const chargement of ordonnes) {
@@ -76,7 +81,13 @@ export const scraperObject = {
         for (let i = 1; i <= NB_CHARGEMENTS; i++) {
             const { listings: cartes, annonce } = await get_listings(browser, LISTING_URL);
             console.log(`[elsevier] chargement ${i}/${NB_CHARGEMENTS} : ${cartes.length} carte(s), total annonce ${annonce ?? 'absent'}`);
-            chargements.push(cartes);
+            // ISSN resolu des ce chargement, avant la fusion : c'est lui qui
+            // sert de cle (issn_cle), pas le texte brut de la revue.
+            const avecIssn = await Promise.all(cartes.map(async carte => ({
+                ...carte,
+                issn: carte.journal ? await matchIssn(carte.journal) : null,
+            })));
+            chargements.push(avecIssn);
             if (i < NB_CHARGEMENTS) await new Promise(ok => setTimeout(ok, PAUSE_ENTRE_CHARGEMENTS_MS));
         }
         const { listings, maxChargement, complet } = fusionnerChargements(chargements);
@@ -95,8 +106,7 @@ export const scraperObject = {
         const calls = [];
         for (const listing of listings) {
             if (!listing.metaTitle || !listing.journal || !listing.url) continue;
-            const issn = await matchIssn(listing.journal);
-            if (!issn) {
+            if (!listing.issn) {
                 skippedCount++;
                 continue;
             }
@@ -104,7 +114,7 @@ export const scraperObject = {
             calls.push({
                 journal: listing.journal,
                 abbreviation,
-                issn,
+                issn: listing.issn,
                 metaTitle: listing.metaTitle,
                 url: listing.url,
                 rawContent: build_placeholder_content(listing),
