@@ -287,7 +287,9 @@ export async function parse(call) {
     consommation.sortie += completion.usage?.completion_tokens ?? 0;
 
     let evaluation = evaluerDescription(parsed.description, rawContent);
+    let relanceEffectuee = false;
     if (evaluation.depasseLongueur || evaluation.depasseCopie) {
+        relanceEffectuee = true;
         const relance = await openai.beta.chat.completions.parse({
             model: process.env.MODEL_NAME,
             messages: [
@@ -318,6 +320,12 @@ export async function parse(call) {
     }
 
     call = { ...call, ...parsed };
+    // Donnee de controle interne : jamais lue par un gabarit, un flux RSS ou
+    // le flux JSON public (call-pages.njk, feedgen.mjs, fluxAppelsOuverts
+    // n'accedent qu'a des champs explicites, aucun ne fait ...call). Persiste
+    // ce que le garde-fou a deja calcule pour eviter un re-scrape a chaque
+    // audit (cf scripts/mesurer-taux-copie.mjs).
+    call.controle = { longueur: evaluation.longueur, tauxCopie: evaluation.tauxCopie, relance: relanceEffectuee };
     delete call.rawContent
     call.dates = await Promise.all(call.dates.map(async date => {
         // La chaine brute du modele est conservee le temps du controle de
