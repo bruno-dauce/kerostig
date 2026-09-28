@@ -35,7 +35,7 @@ const Description = z.object({
 
 const Call = z.object({
     title: z.string().describe("Title of the call for papers. Only include the actual title here. Do NOT include statements such as 'call for papers' or 'special issue' or the journal name here."),
-    topics: z.string().array().describe("Topics of the call for papers. This is a list of topics that the call for papers is interested in. This is usually in bullet point format. Bullet points can also include example research questions."),
+    topics: z.string().array().describe("Topics of the call for papers. This is a list of topics that the call for papers is interested in, usually written as bullet points in the source text. Each topic must be a SHORT noun phrase or keyword group, at most 100 characters -- never a full sentence or research question copied from the text. When a source bullet point is a long sentence or a research question, extract only its short topic (e.g. the phrase before a colon, or the core subject), never the sentence that follows it. Write topics in the same language as the text provided -- never translate them."),
     description: Description.describe("A short summary of the call for papers, written in your own words. Never a copy of the source text."),
     tags: z.string().array().describe("Tags that describe the content of the call for papers. Use as few tags as possible."),
     editors: Academic.array().describe("The editors of the special issue. This is a list of academics who are responsible for the special issue."),
@@ -244,15 +244,40 @@ export function evaluerDescription(description, rawContent) {
     };
 }
 
-function construireConsigneRelance({ depasseLongueur, depasseCopie }) {
+// Garde-fou de longueur sur les topics : la consigne du prompt (« short noun
+// phrase or keyword group ») ne suffit pas a elle seule, le modele continue
+// parfois a recopier une phrase entiere de la source. Constate sur les
+// fiches archivees (ex. isr-isr-compassionate-ai) : des topics de plusieurs
+// centaines de caracteres, manifestement copies-colles. 100 caracteres
+// couvre un groupe nominal ou un intitule court ("Governing generative AI in
+// knowledge-intensive organizations", 68 car.) sans laisser passer une
+// phrase complete.
+const LONGUEUR_MAX_TOPIC = 100;
+
+// Fonction pure, exportee pour test.
+export function evaluerTopics(topics) {
+    const liste = Array.isArray(topics) ? topics : [];
+    const tropLongs = liste.filter(t => typeof t === 'string' && t.length > LONGUEUR_MAX_TOPIC);
+    return { tropLongs, depasseLongueur: tropLongs.length > 0 };
+}
+
+// Une seule relance couvre les deux garde-fous (description et topics) :
+// jamais deux allers-retours au modele pour un meme appel.
+// Fonction pure, exportee pour test.
+export function construireConsigneRelance(evalDescription, evalTopics) {
     const consignes = [];
-    if (depasseCopie) {
+    if (evalDescription.depasseCopie) {
         consignes.push('Your description reuses long verbatim phrases from the source text. Rewrite it entirely in your own words: do not reuse any sentence or long phrase from the text provided.');
     }
-    if (depasseLongueur) {
+    if (evalDescription.depasseLongueur) {
         consignes.push(`Your description exceeds ${LIMITE_EXTRAIT_CARACTERES} characters combined across all paragraphs. Shorten it to fit within this limit.`);
     }
-    consignes.push('At most 3 paragraphs total. Keep the same language as before.');
+    if (evalTopics.depasseLongueur) {
+        consignes.push(`Some of your topics exceed ${LONGUEUR_MAX_TOPIC} characters (${JSON.stringify(evalTopics.tropLongs)}). Rewrite EVERY topic as a short noun phrase or keyword group, at most ${LONGUEUR_MAX_TOPIC} characters each, in the same language as the source text -- never a full sentence or research question.`);
+    }
+    if (evalDescription.depasseCopie || evalDescription.depasseLongueur) {
+        consignes.push('At most 3 paragraphs total for the description. Keep the same language as before.');
+    }
     return consignes.join(' ');
 }
 
@@ -287,15 +312,16 @@ export async function parse(call) {
     consommation.sortie += completion.usage?.completion_tokens ?? 0;
 
     let evaluation = evaluerDescription(parsed.description, rawContent);
+    let evaluationTopics = evaluerTopics(parsed.topics);
     let relanceEffectuee = false;
-    if (evaluation.depasseLongueur || evaluation.depasseCopie) {
+    if (evaluation.depasseLongueur || evaluation.depasseCopie || evaluationTopics.depasseLongueur) {
         relanceEffectuee = true;
         const relance = await openai.beta.chat.completions.parse({
             model: process.env.MODEL_NAME,
             messages: [
                 ...messages,
                 { role: "assistant", content: JSON.stringify(parsed) },
-                { role: "user", content: construireConsigneRelance(evaluation) },
+                { role: "user", content: construireConsigneRelance(evaluation, evaluationTopics) },
             ],
             response_format: zodResponseFormat(Call, "call_parsing"),
         });
@@ -309,12 +335,14 @@ export async function parse(call) {
         consommation.sortie += relance.usage?.completion_tokens ?? 0;
 
         evaluation = evaluerDescription(parsed.description, rawContent);
-        if (evaluation.depasseLongueur || evaluation.depasseCopie) {
+        evaluationTopics = evaluerTopics(parsed.topics);
+        if (evaluation.depasseLongueur || evaluation.depasseCopie || evaluationTopics.depasseLongueur) {
             depassementsGardeFou.push({
                 slug: call.slug ?? null,
                 url: call.url ?? null,
                 longueur: evaluation.longueur,
                 tauxCopie: evaluation.tauxCopie,
+                topicsTropLongs: evaluationTopics.tropLongs.length,
             });
         }
     }
@@ -325,7 +353,12 @@ export async function parse(call) {
     // n'accedent qu'a des champs explicites, aucun ne fait ...call). Persiste
     // ce que le garde-fou a deja calcule pour eviter un re-scrape a chaque
     // audit (cf scripts/mesurer-taux-copie.mjs).
-    call.controle = { longueur: evaluation.longueur, tauxCopie: evaluation.tauxCopie, relance: relanceEffectuee };
+    call.controle = {
+        longueur: evaluation.longueur,
+        tauxCopie: evaluation.tauxCopie,
+        relance: relanceEffectuee,
+        topicsTropLongs: evaluationTopics.tropLongs.length,
+    };
     delete call.rawContent
     call.dates = await Promise.all(call.dates.map(async date => {
         // La chaine brute du modele est conservee le temps du controle de
