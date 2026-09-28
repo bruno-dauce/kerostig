@@ -92,6 +92,14 @@ eleventyComputed:
   <a class="text-sm underline whitespace-nowrap" href="{{ contactEditeurs }}" style="color:#2B5F8E">Contacter les éditeurs</a>
   {% endif %}
 </div>
+{% set conjoint = calls | appelConjoint(call) %}
+{% if conjoint %}
+{% set revueConjointe = journals | revueDeLAppel(conjoint) %}
+<p class="text-sm opacity-80 mb-3.5">
+  Appel conjoint avec {{ revueConjointe.titre if revueConjointe else conjoint.journal }} —
+  <a href="{{ ('/call/' + conjoint.slug + '/') | url }}" class="underline hover:no-underline" style="color:#2B5F8E">voir la candidature associée</a>.
+</p>
+{% endif %}
 <div class="flex flex-col lg:flex-row lg:items-start gap-8">
   {% if revue %}
   <div class="lg:order-2 lg:w-80 lg:flex-shrink-0">
