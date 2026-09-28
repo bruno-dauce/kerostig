@@ -83,6 +83,12 @@
       "vers": "wiley-open-innovation-in-action-people-processes-and-performance-of-randd-management",
       "motif": "doublon confirme le 2026-09-28 : page CFP moderne desormais source de la fiche sans suffixe",
       "ajoute_le": "2026-09-28"
+    },
+    {
+      "de": "elsevier-advancing-demand-management-policies-for-more-affordable-accessible-and-efficient-transport-systems-2",
+      "vers": "elsevier-advancing-demand-management-policies-for-more-affordable-accessible-and-efficient-transport-systems",
+      "motif": "doublon retire manuellement le 2026-08-23 (commit 95c457ad), retabli retroactivement",
+      "ajoute_le": "2026-09-28"
     }
   ]
 }
