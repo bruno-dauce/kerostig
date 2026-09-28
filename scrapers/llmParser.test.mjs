@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 
 import {
     consommation, formaterConsommation, parseFuzzyDate, normaliserDateFloue,
-    evaluerDescription, depassementsGardeFou,
+    evaluerDescription, evaluerTopics, construireConsigneRelance, depassementsGardeFou,
 } from './llmParser.mjs';
 
 // Le cout d'une reextraction se lit sur le run : cumul des tokens affiche en
@@ -94,4 +94,53 @@ test('une description trop courte pour mesurer la copie ne declenche que sur la 
     assert.equal(evaluation.tauxCopie, null);
     assert.equal(evaluation.depasseCopie, false);
     assert.equal(evaluation.depasseLongueur, false);
+});
+
+// Garde-fou de longueur sur les topics (100 caracteres). Cas reel :
+// isr-isr-compassionate-ai, des topics de plusieurs centaines de
+// caracteres, manifestement des phrases entieres copiees de la source.
+
+test('des topics courts ne declenchent rien', () => {
+    const evaluation = evaluerTopics(['Generative AI in healthcare', 'Crisis management', 'Employee well-being']);
+    assert.equal(evaluation.depasseLongueur, false);
+    assert.deepEqual(evaluation.tropLongs, []);
+});
+
+test('un topic de plus de 100 caracteres declenche le depassement', () => {
+    const topicLong = 'Healthcare: Compassionate AI can enhance patient care by predicting adverse events and assisting decisions.';
+    const evaluation = evaluerTopics(['Education', topicLong]);
+    assert.equal(evaluation.depasseLongueur, true);
+    assert.deepEqual(evaluation.tropLongs, [topicLong]);
+});
+
+test('une liste de topics absente ou vide ne declenche rien', () => {
+    assert.equal(evaluerTopics(undefined).depasseLongueur, false);
+    assert.equal(evaluerTopics([]).depasseLongueur, false);
+});
+
+// construireConsigneRelance : une seule relance doit couvrir les deux
+// garde-fous a la fois, jamais deux allers-retours pour un meme appel.
+
+test('la consigne de relance ne mentionne que les garde-fous depasses', () => {
+    const rien = { depasseLongueur: false, depasseCopie: false };
+    const topicsRien = { depasseLongueur: false, tropLongs: [] };
+    assert.equal(construireConsigneRelance(rien, topicsRien), '');
+});
+
+test('la consigne de relance mentionne les topics quand ils depassent, sans reparler des paragraphes', () => {
+    const rien = { depasseLongueur: false, depasseCopie: false };
+    const topicsDepasses = { depasseLongueur: true, tropLongs: ['Un topic beaucoup trop long, copie-colle de la source, qui depasse largement la limite fixee.'] };
+    const consigne = construireConsigneRelance(rien, topicsDepasses);
+    assert.match(consigne, /100 characters/);
+    assert.doesNotMatch(consigne, /paragraphs total/);
+});
+
+test('la consigne de relance couvre description et topics ensemble', () => {
+    const descriptionDepassee = { depasseLongueur: true, depasseCopie: true };
+    const topicsDepasses = { depasseLongueur: true, tropLongs: ['x'.repeat(120)] };
+    const consigne = construireConsigneRelance(descriptionDepassee, topicsDepasses);
+    assert.match(consigne, /verbatim phrases/);
+    assert.match(consigne, /exceeds/);
+    assert.match(consigne, /100 characters/);
+    assert.match(consigne, /paragraphs total/);
 });
