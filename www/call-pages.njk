@@ -111,7 +111,7 @@ eleventyComputed:
       {% include "timeline.html" %}
     </div>
     {% if call.editors | length > 0 %}
-    <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Editors</h2>
+    <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Éditeurs invités</h2>
     <ul>
       {% for editor in call.editors %}
       <li><strong>{{ editor.name }}</strong>, {{ editor.affiliation }}</li>
@@ -124,7 +124,7 @@ eleventyComputed:
        exploitable -- trois appels de calls.json n'en ont pas. #}
     {% set extrait = call.description | extraitDescription %}
     {% if extrait.paragraphes | length > 0 %}
-    <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Description</h2>
+    <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Synthèse</h2>
     {% for paragraph in extrait.paragraphes %}
     <p class="text-justify mb-4">{{ paragraph }}</p>
     {% endfor %}
@@ -153,21 +153,21 @@ eleventyComputed:
        aurait dit deux fois la meme chose. Meme forme que le lien du bloc
        « Extrait » plus haut, et meme garde-fou : rien a pointer, rien a
        cliquer. #}
-    <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Description</h2>
+    <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Synthèse</h2>
     {% if urlSource %}
-    <p class="mb-4 opacity-80">Description non disponible.
+    <p class="mb-4 opacity-80">Synthèse non disponible.
       <a href="{{ urlSource }}" target="_blank" rel="noopener noreferrer" class="underline" style="color:#2B5F8E">Consulter l'appel directement sur le site de l'éditeur</a>.
     </p>
     {% elif contactEditeurs %}
-    <p class="mb-4 opacity-80">Description non disponible. L'éditeur n'a diffusé qu'une adresse :
+    <p class="mb-4 opacity-80">Synthèse non disponible. L'éditeur n'a diffusé qu'une adresse :
       <a href="{{ contactEditeurs }}" class="underline" style="color:#2B5F8E">contacter les éditeurs</a>.
     </p>
     {% else %}
-    <p class="mb-4 opacity-80">Description non disponible, et aucun lien vers l'appel d'origine n'a été collecté.</p>
+    <p class="mb-4 opacity-80">Synthèse non disponible, et aucun lien vers l'appel d'origine n'a été collecté.</p>
     {% endif %}
     {% endif %}
     {% if call.topics | length > 0 %}
-    <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Potential topics</h2>
+    <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Thèmes proposés</h2>
     <ul class="list-disc ps-7">
       {% for topic in call.topics %}
       <li class="ps-1.5">{{ topic }}</li>
@@ -175,7 +175,7 @@ eleventyComputed:
     </ul>
     {% endif %}
     {% if call.associate_editors | length > 0 %}
-    <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Associate editors</h2>
+    <h2 class="text-2xl font-bold leading-snug mt-8 mb-4">Éditeurs associés</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
       {% for associate_editor in call.associate_editors %}
       <div class="w-fit"><strong>{{ associate_editor.name }}</strong>, {{ associate_editor.affiliation }}</div>
