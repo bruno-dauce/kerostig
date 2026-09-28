@@ -4,7 +4,7 @@ import { promises as fs } from 'fs';
 import os from 'os';
 import path from 'path';
 
-import { detecterScrapersVides, estNouvelArchivage, integrateCalls, trierAppels } from './diffChecker.mjs';
+import { detecterScrapersVides, estNouvelArchivage, integrateCalls, trierAppels, resoudreSlugAppelNeuf } from './diffChecker.mjs';
 import { clean } from './dataPreparation.mjs';
 
 // Fabrique d'appels : n appels actifs pour une abbreviation donnee.
@@ -269,6 +269,39 @@ test('une perte isolee sous le plancher n est pas gelee : l appel manquant part 
     assert.deepEqual(manquant.description, anciens[9].description, 'sa description n est pas perdue pour autant');
     const retrouvesResultats = resultat.filter((c) => c.slug !== anciens[9].slug);
     assert.ok(retrouvesResultats.every((c) => c.active === true), 'les 9 autres restent actifs');
+});
+
+// Cas reel : SAGE a rendu un jour un metaTitle generique ("Call for papers")
+// pour "Imaginer la post-croissance", que le modele a correctement extrait
+// dans le titre. Sans cette regle, sage-call-for-papers (fusionne le
+// 2026-09-28 avec sage-imaginer-la-post-croissance) se serait recree a la
+// prochaine occurrence du meme motif.
+test('resoudreSlugAppelNeuf reprend le titre extrait quand le metaTitle est generique', async () => {
+    const slugsVus = new Set();
+    const newCall = { abbreviation: 'sage', metaTitle: 'Call for papers', title: 'Imaginer la post-croissance', slug: 'sage-call-for-papers' };
+
+    const slug = await resoudreSlugAppelNeuf(newCall, slugsVus);
+
+    assert.equal(slug, 'sage-imaginer-la-post-croissance');
+    assert.ok(slugsVus.has(slug));
+});
+
+test('resoudreSlugAppelNeuf garde le slug tel quel quand le metaTitle n est pas generique', async () => {
+    const slugsVus = new Set();
+    const newCall = { abbreviation: 'sage', metaTitle: 'Modern Family Firms', title: 'Modern Family Firms', slug: 'sage-modern-family-firms' };
+
+    const slug = await resoudreSlugAppelNeuf(newCall, slugsVus);
+
+    assert.equal(slug, 'sage-modern-family-firms');
+});
+
+test('resoudreSlugAppelNeuf evite une collision avec un slug deja vu', async () => {
+    const slugsVus = new Set(['sage-imaginer-la-post-croissance']);
+    const newCall = { abbreviation: 'sage', metaTitle: 'CFP', title: 'Imaginer la post-croissance', slug: 'sage-cfp' };
+
+    const slug = await resoudreSlugAppelNeuf(newCall, slugsVus);
+
+    assert.equal(slug, 'sage-imaginer-la-post-croissance-2');
 });
 
 test('estNouvelArchivage distingue un premier archivage d une repetition', () => {
