@@ -1,7 +1,7 @@
 import { promises as fs } from 'fs';
 
 import { parse } from './llmParser.mjs'
-import { clean } from './dataPreparation.mjs';
+import { clean, estMetaTitreGenerique, slugUnique } from './dataPreparation.mjs';
 import { echeanceDepassee, joursDepuisEcheance } from './echeance.mjs';
 
 // Delai apres l'echeance de soumission au-dela duquel un appel encore actif
@@ -113,10 +113,29 @@ export function estNouvelArchivage(ancienAppel) {
 // ne se declenche pas quand seules quelques revues manquent. La cle inclut
 // l'abbreviation : un blocage chez un scraper ne protege pas les appels d'un
 // autre qui partagerait l'ISSN.
+// Un metaTitle generique ("Call for papers", sans plus de precision) ne dit
+// rien du contenu : deux appels differents d'une meme source qui le rendent
+// produiraient le meme slug de base. Pour un appel neuf, on reprend alors le
+// titre extrait par le modele -- disponible seulement apres parse(), donc
+// hors de dataPreparation.generateSlug. Vu une fois sur SAGE
+// (sage-call-for-papers, fusionne le 2026-09-28 avec
+// sage-imaginer-la-post-croissance) : le but est qu'une prochaine occurrence
+// ne recree pas ce doublon.
+// Fonction pure (a l'effet de bord pres sur slugsVus, partage avec
+// integrateCalls), exportee pour test : evite de faire passer un test par le
+// vrai parse() (appel a l'API du modele).
+export async function resoudreSlugAppelNeuf(newCall, slugsVus) {
+    if (estMetaTitreGenerique(newCall.metaTitle) && newCall.title) {
+        return slugUnique(newCall.abbreviation, newCall.title, slugsVus);
+    }
+    slugsVus.add(newCall.slug);
+    return newCall.slug;
+}
+
 export async function integrateCalls(newCalls, ranAbbreviations = null, revuesBloquees = []) {
     const now = new Date();
     let oldCalls = await readData();
-    newCalls = await clean(newCalls);
+    newCalls = await clean(newCalls, oldCalls);
 
     const scrapersVides = detecterScrapersVides(newCalls, oldCalls, ranAbbreviations);
     for (const { abbreviation, avant, apres, motif } of scrapersVides) {
@@ -144,6 +163,11 @@ export async function integrateCalls(newCalls, ranAbbreviations = null, revuesBl
     const newHashMap = new Map(newCalls.map(call => [cleHash(call), call]));
     const newSlugMap = new Map(newCalls.map(call => [call.slug, call]));
 
+    // Tous les slugs deja pris, mis a jour au fil de la boucle des nouveaux :
+    // sert uniquement a la reprise de slug ci-dessous (metaTitle generique),
+    // pour ne pas retomber sur un slug deja utilise par un autre appel.
+    const slugsVus = new Set(oldCalls.map(call => call.slug));
+
     let resultCalls = [];
 
     // Process new calls
@@ -167,6 +191,7 @@ export async function integrateCalls(newCalls, ranAbbreviations = null, revuesBl
                 });
             } else {
                 // Completely new call
+                newCall.slug = await resoudreSlugAppelNeuf(newCall, slugsVus);
                 resultCalls.push({
                     ...newCall,
                     active: true, // Ensure new calls are marked as active

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { classerTentatives, ordonnerUrls, formaterBilan, extract_entries, lireEntree, doitVerifier, noterResultat, build_urls, revueParTitre, rattacherAppelsCommuns, extraire_detail, estSousDomaineSociete, classerRedirection, PAGES_SOCIETE, PAGE_COMMUNE_SMS, sourceDuLien, doitSuivre, resoudreEntree, extraire_detail_page } from './wileyScraper.mjs';
+import { classerTentatives, ordonnerUrls, formaterBilan, extract_entries, lireEntree, doitVerifier, noterResultat, build_urls, revueParTitre, rattacherAppelsCommuns, extraire_detail, estSousDomaineSociete, classerRedirection, PAGES_SOCIETE, PAGE_COMMUNE_SMS, sourceDuLien, doitSuivre, resoudreEntree, extraire_detail_page, dedoublonnerParTitre } from './wileyScraper.mjs';
 
 // Le compteur de fin de run rangeait tout echec sous « aucun des chemins
 // d'URL essayes n'a repondu ». Verifie le 2026-09-03 sur quatre revues
@@ -354,6 +354,30 @@ test('les entrees du gabarit de liste sont marquees comme telles', () => {
     assert.equal(entry.gabarit, 'liste');
     const [ancien] = extract_entries(`<div class="pb-rich-text"><h2>Call for Papers</h2><p><a href="/page/journal/14680394/homepage/si.htm">SI</a></p></div>`, PAGE_LISTE, 'ES');
     assert.equal(ancien.gabarit, undefined);
+});
+
+// Cas reel du 2026-08-29 sur R&D Management : deux blocs .DST-CFP-listing-item
+// pour le meme appel "Open Innovation in Action...", l'un vers un PDF
+// (pb-assets), l'autre vers la page moderne (call-for-papers/si-...). Sans
+// dedoublonnage, generateSlug les prend pour deux appels homonymes et
+// suffixe l'un des deux en -2 a chaque run (fusionnes le 2026-09-28).
+test('un meme titre en double sur la page ne garde que le lien non-PDF', () => {
+    const itemTitre = (href, titre) => `<div class="DST-CFP-listing-item"><h3><a href="${href}">${titre}</a></h3>
+        <p class="DST-CFP-listing-item__deadline"><strong>Deadline</strong>: 31 January 2027</p></div>`;
+    const html = itemTitre('https://onlinelibrary.wiley.com/pb-assets/assets/14679310/cfp/appel.pdf', 'Open Innovation in Action')
+        + itemTitre('https://onlinelibrary.wiley.com/page/journal/14679310/call-for-papers/si-2026-000949', 'Open Innovation in Action');
+    const entries = extract_entries(html, PAGE_LISTE, 'R&D Management');
+
+    assert.equal(entries.length, 1);
+    assert.equal(entries[0].url, 'https://onlinelibrary.wiley.com/page/journal/14679310/call-for-papers/si-2026-000949');
+});
+
+test('dedoublonnerParTitre garde le premier lien quand aucun des deux n est un PDF', () => {
+    const entries = [
+        { metaTitle: 'Meme titre', url: 'https://onlinelibrary.wiley.com/page/journal/x/a' },
+        { metaTitle: 'Meme titre', url: 'https://onlinelibrary.wiley.com/page/journal/x/b' },
+    ];
+    assert.deepEqual(dedoublonnerParTitre(entries), [entries[0]]);
 });
 
 test('on suit les liens du gabarit de liste et ceux des sous-domaines, pas l ancien gabarit', () => {

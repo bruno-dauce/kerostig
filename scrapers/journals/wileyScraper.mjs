@@ -830,7 +830,7 @@ function split_on_call_links($, nodes, pageUrl) {
 }
 
 function extract_listing_items($, pageUrl) {
-    return $('.DST-CFP-listing-item:not(.DST-CFP-listing-item--intro)').toArray()
+    const entries = $('.DST-CFP-listing-item:not(.DST-CFP-listing-item--intro)').toArray()
         .map(item => {
             const link = $(item).find('h3 a[href]').first();
             if (link.length === 0) return null;
@@ -842,6 +842,31 @@ function extract_listing_items($, pageUrl) {
             };
         })
         .filter(entry => entry && entry.metaTitle && entry.url);
+    return dedoublonnerParTitre(entries);
+}
+
+const normaliserTitreListe = texte => (texte ?? '').replace(/\s+/g, ' ').trim().toLowerCase();
+
+// Une meme page peut annoncer un appel deux fois sous deux blocs distincts :
+// constate sur R&D Management, "Open Innovation in Action..." en double, un
+// bloc pointant vers un PDF (pb-assets), l'autre vers la page moderne
+// (call-for-papers/si-...). Meme titre, deux liens -- sans ce filtre,
+// dataPreparation.generateSlug les prend pour deux appels homonymes et
+// suffixe l'un des deux en -2 a chaque run.
+// A titre identique, on garde le lien non-PDF : la page moderne est le
+// gabarit prioritaire (cf wiley-structures-de-page), lisible sans extraction
+// PDF. Sinon, le premier rencontre.
+// Fonction pure, exportee pour test.
+export function dedoublonnerParTitre(entries) {
+    const parTitre = new Map();
+    for (const entry of entries) {
+        const cle = normaliserTitreListe(entry.metaTitle);
+        const existant = parTitre.get(cle);
+        if (!existant || (sourceDuLien(existant.url) === 'pdf' && sourceDuLien(entry.url) !== 'pdf')) {
+            parTitre.set(cle, entry);
+        }
+    }
+    return [...parTitre.values()];
 }
 
 function sleep(ms) {
