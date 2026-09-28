@@ -79,6 +79,9 @@ export const scraperObject = {
                     abbreviation,
                     issn,
                     metaTitle: entry.title,
+                    // Repli sur la page qui liste les appels de la revue :
+                    // aucun lien exploitable dans l'extrait (get_entries
+                    // exclut deja les mailto:), jamais une adresse de contact.
                     url: entry.url ?? pageUrl,
                     rawContent: entry.rawContent,
                 });
@@ -122,7 +125,13 @@ async function get_entries(browser, pageUrl) {
                     html += node.outerHTML;
                     text += node.textContent;
                     if (!url) {
-                        const link = node.querySelector?.('a[href]');
+                        // :not([href^="mailto:"]) -- un contact par courriel
+                        // n'est pas une page source. Sans ce filtre, un appel
+                        // dont le seul lien est une adresse mail se retrouvait
+                        // avec cette adresse comme url (constate le 2026-08-11
+                        // sur deux appels ISR). ?? pageUrl plus bas reprend la
+                        // main quand aucun lien exploitable n'est trouve.
+                        const link = node.querySelector?.('a[href]:not([href^="mailto:" i])');
                         if (link) url = link.href;
                     }
                     node = node.nextElementSibling;
