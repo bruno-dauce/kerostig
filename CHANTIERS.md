@@ -96,7 +96,7 @@ Appels extraits avant le garde-fou de longueur et de taux de copie sur
 la description (2026-09-03) : à identifier et rejouer avec le
 garde-fou actuel.
 
-### 4. JAIS et MIS Quarterly (scrapers en PR, données à venir)
+### 4. JAIS, MIS Quarterly et JMIS (scrapers en place, données à venir)
 
 Scrapers `jais` et `misq` réécrits à partir de ceux supprimés dans le
 commit `6fb0e704c` (dont le message, « Scrap-Emerald », n'explique pas
@@ -111,9 +111,16 @@ sur JAIS ni sur MISQ.
   seul en 6 s), jamais en curl. Ajouté au lancement manuel et à
   `--sauf` de `scrape.yml`. Les entrées sans lien de titre
   (« Registered Reports ») sont ignorées.
+- **JMIS** : tourne en CI (le site répond à un simple `fetch`). Lien
+  « (PDF) » de chaque `h3` de `https://www.jmis-web.org/cfp`, vers
+  `/cfps/*.pdf` ; le titre du site, aussi en `h3`, est écarté. Seul
+  scraper lisant le site propre de la revue (l'éditeur est Taylor &
+  Francis).
 - Les appels arriveront dans `calls.json` à la prochaine collecte.
-  Essai à blanc du 2026-10-01 : 6 fiches héritées reconnues (slug
-  conservé), 1 appel nouveau (JAIS « Growing up Online »).
+  Essai à blanc du 2026-10-01 : JAIS et MISQ, 6 fiches héritées
+  reconnues (slug conservé) et 1 appel nouveau (« Growing up Online »).
+  JMIS, 2 fiches héritées reconnues (hash inchangé) et 1 appel nouveau
+  (« Agentic Organizations »).
 
 **Lot de données à venir** : faire pointer la fiche héritée
 `misq-registered-reports` (URL morte `/call_for_papers/registered-reports`)
