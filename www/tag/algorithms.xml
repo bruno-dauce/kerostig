@@ -4,7 +4,7 @@
         <title>kerostig | Tag : algorithms</title>
         <link>https://kerostig.org/tag/algorithms/</link>
         <description>Derniers appels à publications avec le tag 'algorithms'.</description>
-        <lastBuildDate>Mon, 28 Sep 2026 08:51:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 23:01:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,85 @@
             <link>https://kerostig.org/tag/algorithms/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Marketing and Algorithmic Integration for Economic and Social Good]]></title>
+            <link>https://kerostig.org/call/emerald-marketing-and-algorithmic-integration-for-economic-and-social-good/</link>
+            <guid>emerald-marketing-and-algorithmic-integration-for-economic-and-social-good</guid>
+            <pubDate>Wed, 30 Sep 2026 23:00:11 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Qiang (Steven) Lu</strong>, University of Sydney</p>
+        
+        <p><strong>Jian Ni</strong>, Virginia Tech</p>
+        
+        <p><strong>Yanwen Wang</strong>, University of British Columbia</p>
+        
+        <p><strong>Ranjit Voola</strong>, University of Sydney</p>
+        
+        <p><strong>Junbin Gao</strong>, University of Sydney</p>
+        
+    
+    
+    
+    <p>This special issue examines how algorithmic systems shape markets, organizations, and consumer behavior beyond their technical applications. The focus extends to understanding how these systems influence competition, value distribution, market access, consumer decision-making, and broader societal outcomes including fairness, inclusion, and sustainability.</p>
+    
+    <p>The call invites research across three interconnected domains: markets, consumers, and organizations. A key emphasis is balancing economic performance with social value creation, addressing algorithmic bias, pricing practices, and inequalities while identifying conditions under which algorithmic integration benefits society.</p>
+    
+    <p>The special issue prioritizes practical research bridging marketing theory with real-world algorithmic system design and governance. Studies using diverse methodologies are welcomed, particularly those offering actionable insights for managers and policymakers.</p>
+    
+    <p>
+        Appel publié par European Journal of Marketing.
+        
+        <a href="https://www.emerald.com/ejm/calls-for-submissions/2022/Marketing-and-Algorithmic-Integration-for-Economic?searchresult=1">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-marketing-and-algorithmic-integration-for-economic-and-social-good/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Algorithmic market shaping and platform ecosystems</li>
+        
+        <li>Consumer-algorithm interactions, trust and resistance</li>
+        
+        <li>Algorithmic personalisation and customer experience</li>
+        
+        <li>Pricing and fairness in algorithmic systems</li>
+        
+        <li>Bias, discrimination and inequality in algorithms</li>
+        
+        <li>Transparency, ethics, accountability and regulatory responses</li>
+        
+        <li>Strategic marketing capabilities and organisational adaptation</li>
+        
+        <li>Responsible AI adoption and implementation</li>
+        
+        <li>Sustainability and financial inclusion</li>
+        
+        <li>Societal impact and policy implications</li>
+        
+        <li>Managerial decision-making</li>
+        
+        <li>Interdisciplinary and industry-engaged research</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 25, 2026: Opening date for manuscripts submissions</li>
+        
+        <li>February 28, 2027: Closing date for manuscripts submission</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Recent Advances in Optimization and Decision Making under Uncertainty: Theory and Algorithms]]></title>
             <link>https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/</link>
@@ -222,36 +301,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Algorithmic Assemblages—Fields, Ecosystems, and Platforms: An Interpretive Approach]]></title>
-            <link>https://kerostig.org/call/elsevier-algorithmic-assemblagesfields-ecosystems-and-platforms-an-interpretive-approach/</link>
-            <guid>elsevier-algorithmic-assemblagesfields-ecosystems-and-platforms-an-interpretive-approach</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>
-        Appel publié par Information and Organization.
-        
-        <a href="https://www.sciencedirect.com/special-issue/325053/algorithmic-assemblages-fields-ecosystems-and-platforms-an-interpretive-approach">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-algorithmic-assemblagesfields-ecosystems-and-platforms-an-interpretive-approach/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>July 15, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Digital Visibility: Design, Management, & Impacts]]></title>
             <link>https://kerostig.org/call/tandf-digital-visibility-design-management-and-impacts-incl-paper-development-workshop/</link>
             <guid>tandf-digital-visibility-design-management-and-impacts-incl-paper-development-workshop</guid>
@@ -389,6 +438,36 @@
         <li><strong>Bei Yan</strong>, Stevens Institute of Technology</li>
         
     </ul>
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Algorithmic Assemblages—Fields, Ecosystems, and Platforms: An Interpretive Approach]]></title>
+            <link>https://kerostig.org/call/elsevier-algorithmic-assemblagesfields-ecosystems-and-platforms-an-interpretive-approach/</link>
+            <guid>elsevier-algorithmic-assemblagesfields-ecosystems-and-platforms-an-interpretive-approach</guid>
+            <pubDate>Tue, 19 Aug 2025 03:15:46 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Information and Organization.
+        
+        <a href="https://www.sciencedirect.com/special-issue/325053/algorithmic-assemblages-fields-ecosystems-and-platforms-an-interpretive-approach">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-algorithmic-assemblagesfields-ecosystems-and-platforms-an-interpretive-approach/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>July 15, 2026: Submission deadline</li>
+        
+    </ul>
+    
     
 </div>
 ]]></content:encoded>

@@ -4,7 +4,7 @@
         <title>kerostig | Decision Support Systems</title>
         <link>https://kerostig.org/journal/decision-support-systems/</link>
         <description>Derniers appels à publications pour Decision Support Systems.</description>
-        <lastBuildDate>Mon, 28 Sep 2026 08:51:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 23:01:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,64 +14,6 @@
             <link>https://kerostig.org/journal/decision-support-systems/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
-        <item>
-            <title><![CDATA[Blockchain Technology and Applications]]></title>
-            <link>https://kerostig.org/call/elsevier-blockchain-technology-and-applications/</link>
-            <guid>elsevier-blockchain-technology-and-applications</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>
-        Appel publié par Decision Support Systems.
-        
-        <a href="https://www.sciencedirect.com/special-issue/239002/dss-special-issue-on-blockchain-technology-and-applications">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-blockchain-technology-and-applications/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Blockchain consensus mechanisms and protocols</li>
-        
-        <li>Smart contracts design, verification, and optimization</li>
-        
-        <li>Blockchain scalability and performance optimization</li>
-        
-        <li>Security and privacy in blockchain systems</li>
-        
-        <li>Blockchain interoperability and cross-chain solutions</li>
-        
-        <li>Supply chain management using blockchain</li>
-        
-        <li>Healthcare applications of blockchain</li>
-        
-        <li>Financial services and cryptocurrency applications</li>
-        
-        <li>Identity management and authentication using blockchain</li>
-        
-        <li>Data integrity and provenance tracking</li>
-        
-        <li>Blockchain governance and regulation</li>
-        
-        <li>Energy efficiency in blockchain systems</li>
-        
-        <li>Integration of blockchain with AI and machine learning</li>
-        
-        <li>Blockchain for IoT (Internet of Things) applications</li>
-        
-        <li>Enterprise blockchain implementations</li>
-        
-    </ul>
-    
-    
-    
-</div>
-]]></content:encoded>
-        </item>
         <item>
             <title><![CDATA[Extended Reality (XR) for Enhanced Decision Making and Organizational Transformation]]></title>
             <link>https://kerostig.org/call/elsevier-extended-reality-xr-for-enhanced-decision-making-and-organizational-transformation/</link>
@@ -126,6 +68,64 @@
         <li>January 31, 2027: Full paper submission deadline</li>
         
     </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Blockchain Technology and Applications]]></title>
+            <link>https://kerostig.org/call/elsevier-blockchain-technology-and-applications/</link>
+            <guid>elsevier-blockchain-technology-and-applications</guid>
+            <pubDate>Thu, 18 Aug 2022 06:37:25 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Decision Support Systems.
+        
+        <a href="https://www.sciencedirect.com/special-issue/239002/dss-special-issue-on-blockchain-technology-and-applications">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-blockchain-technology-and-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Blockchain consensus mechanisms and protocols</li>
+        
+        <li>Smart contracts design, verification, and optimization</li>
+        
+        <li>Blockchain scalability and performance optimization</li>
+        
+        <li>Security and privacy in blockchain systems</li>
+        
+        <li>Blockchain interoperability and cross-chain solutions</li>
+        
+        <li>Supply chain management using blockchain</li>
+        
+        <li>Healthcare applications of blockchain</li>
+        
+        <li>Financial services and cryptocurrency applications</li>
+        
+        <li>Identity management and authentication using blockchain</li>
+        
+        <li>Data integrity and provenance tracking</li>
+        
+        <li>Blockchain governance and regulation</li>
+        
+        <li>Energy efficiency in blockchain systems</li>
+        
+        <li>Integration of blockchain with AI and machine learning</li>
+        
+        <li>Blockchain for IoT (Internet of Things) applications</li>
+        
+        <li>Enterprise blockchain implementations</li>
+        
+    </ul>
+    
     
     
 </div>

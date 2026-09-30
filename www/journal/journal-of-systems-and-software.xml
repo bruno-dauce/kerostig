@@ -4,7 +4,7 @@
         <title>kerostig | Journal of Systems and Software</title>
         <link>https://kerostig.org/journal/journal-of-systems-and-software/</link>
         <description>Derniers appels à publications pour Journal of Systems and Software.</description>
-        <lastBuildDate>Mon, 28 Sep 2026 08:51:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 23:01:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,38 @@
             <link>https://kerostig.org/journal/journal-of-systems-and-software/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Reliable and Trustworthy Automated Software Engineering]]></title>
+            <link>https://kerostig.org/call/elsevier-reliable-and-trustworthy-automated-software-engineering/</link>
+            <guid>elsevier-reliable-and-trustworthy-automated-software-engineering</guid>
+            <pubDate>Wed, 30 Sep 2026 23:00:11 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue focuses on automated software engineering approaches that prioritize reliability and trustworthiness. The collection aims to bring together research addressing the challenges of developing software engineering tools and techniques that can be confidently relied upon in practice.</p>
+    
+    <p>
+        Appel publié par Journal of Systems and Software.
+        
+        <a href="https://www.sciencedirect.com/special-issue/337660/special-issue-on-reliable-and-trustworthy-automated-software-engineering">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-reliable-and-trustworthy-automated-software-engineering/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>May 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Software Engineering for Trustworthy Systems and Advanced Applications]]></title>
             <link>https://kerostig.org/call/elsevier-software-engineering-for-trustworthy-systems-and-advanced-applications/</link>
@@ -150,59 +182,6 @@
     <ul>
         
         <li>January 31, 2027: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Software Quality Assurance for Artificial Intelligence]]></title>
-            <link>https://kerostig.org/call/elsevier-software-quality-assurance-for-artificial-intelligence-the-journal-of-systems-and-software/</link>
-            <guid>elsevier-software-quality-assurance-for-artificial-intelligence-the-journal-of-systems-and-software</guid>
-            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This special issue focuses on quality assurance challenges and solutions specific to artificial intelligence systems. As AI becomes increasingly integrated into critical applications, ensuring software quality through rigorous testing, validation, and assurance practices is essential for building reliable and trustworthy AI systems.</p>
-    
-    <p>
-        Appel publié par Journal of Systems and Software.
-        
-        <a href="https://www.sciencedirect.com/special-issue/332719/software-quality-assurance-for-artificial-intelligence-the-journal-of-systems-software">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-software-quality-assurance-for-artificial-intelligence-the-journal-of-systems-and-software/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Quality assurance methodologies for AI systems</li>
-        
-        <li>Testing and validation of machine learning models</li>
-        
-        <li>AI system reliability and robustness</li>
-        
-        <li>Software engineering practices for AI development</li>
-        
-        <li>AI safety and security testing</li>
-        
-        <li>Performance evaluation of AI systems</li>
-        
-        <li>Continuous integration and deployment for AI</li>
-        
-        <li>Regulatory compliance and standards for AI software</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 31, 2026: Submission deadline</li>
         
     </ul>
     

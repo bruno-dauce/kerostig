@@ -4,7 +4,7 @@
         <title>kerostig | European Journal of Information Systems</title>
         <link>https://kerostig.org/journal/european-journal-of-information-systems/</link>
         <description>Derniers appels à publications pour European Journal of Information Systems.</description>
-        <lastBuildDate>Mon, 28 Sep 2026 08:51:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 23:01:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -255,12 +255,10 @@
     
     
     
-    <p>The advent of increasingly powerful artificial intelligence systems (e.g., large language models such as ChatGPT, diffusion models, graph neural networks, or vision transformers used in healthcare, manufacturing, software development or finance), together with other contemporary digital technologies (e.g., autonomous cars, immersive worlds, and neuroadaptive interfaces), has fundamentally reshaped human interaction with information systems. As these technologies become embedded in work, consumption, private life, and society in general, the ways in which they affect human cognition, emotion, and social interaction remain poorly understood.</p>
-    
     <p>
         Appel publié par European Journal of Information Systems.
         
-        <a href="https://think.taylorandfrancis.com/special_issues/ejis-neurois/">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://think.taylorandfrancis.com/special_issues/ejis-neurois/">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -363,138 +361,6 @@
         <li><strong>Peter Walla</strong>, Sigmund Freud Private University Vienna</li>
         
         <li><strong>Dezhi Wu</strong>, University of South Carolina</li>
-        
-    </ul>
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The future of creating and distributing value in digital health ecosystems]]></title>
-            <link>https://kerostig.org/call/tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems/</link>
-            <guid>tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Lauri Wessel</strong>, European University Viadrina Frankfurt (Oder)</p>
-        
-        <p><strong>Melanie Reuter-Oppermann</strong>, Maastricht University</p>
-        
-        <p><strong>Roxana Ologeanu-Taddei</strong>, University of Montpellier</p>
-        
-        <p><strong>Hannes Rothe</strong>, University of Duisburg-Essen</p>
-        
-        <p><strong>Sirkka L. Jarvenpaa</strong>, The University of Texas at Austin</p>
-        
-    
-    
-    
-    <p>Digital health ecosystems involve diverse stakeholders—providers, patients, and laypersons—interacting to shape care delivery. While information systems research has advanced in understanding the technological foundations, significant research gaps remain regarding how value is created and distributed in these settings. The special issue seeks papers addressing two core trajectories: understanding diverse forms of value that digital technologies create in healthcare ecosystems, and examining how value should be distributed among participants over time.</p>
-    
-    <p>The journal welcomes both cumulative research advancing understanding of value creation and distribution, and contrarian studies challenging prevailing assumptions. Research often assumes large data volumes will generate substantial benefits, yet in practice clinicians frequently lack data in the required format, quality, or volume. Submissions should offer fresh perspectives on creating and distributing value in digital health ecosystems, informed by both information systems and adjacent disciplines.</p>
-    
-    <p>
-        Appel publié par European Journal of Information Systems.
-        
-        <a href="https://think.taylorandfrancis.com/special_issues/digital-health-ecosystems/">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>The role of data management and data sharing in digital health ecosystems</li>
-        
-        <li>Designing for measuring kinds of value arising from new digital technologies like XR, 5G, web 3.0, and machine or hybrid learning in digital health ecosystems</li>
-        
-        <li>The role of digital health ecosystems during pandemics or natural disasters; specifically with an eye toward how data help to distribute value among ecosystem participants</li>
-        
-        <li>(Data-driven) change of professional roles, identities, and institutions in digital health ecosystems</li>
-        
-        <li>The difference between creating value for intervention vs. for prevention</li>
-        
-        <li>Design of inclusive and responsible digital technologies for healthcare and well-being</li>
-        
-        <li>Digital tools and use of digital health data to connect different participants of health service networks, to support decision making and to improve organizational processes</li>
-        
-        <li>Negative consequences of digital technologies implementation in healthcare, such as health givers burnout and patients&#39; anxiety</li>
-        
-        <li>The role of digital tools like virtual coaching for autonomy of health care providers and patients</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>March 1, 2026: Submission of extended abstracts/declaration of interest to submit papers</li>
-        
-        <li>November 30, 2026: Full paper submission deadline</li>
-        
-        <li>March 31, 2027: First round decisions due</li>
-        
-        <li>September 30, 2027: Revisions due</li>
-        
-        <li>December 15, 2027: Second round decisions due</li>
-        
-        <li>February 28, 2028: Third round revisions due (if necessary)</li>
-        
-        <li>May 31, 2028: Final decisions due</li>
-        
-    </ul>
-    
-    
-    <h2>Associate editors</h2>
-    <ul>
-        
-        <li><strong>Aleksi Aaltonen</strong>, Stevens Institute of Technology</li>
-        
-        <li><strong>Saeed Akhlaghpour</strong>, University of Queensland</li>
-        
-        <li><strong>Aycan Aslan</strong>, IT University Copenhagen</li>
-        
-        <li><strong>Anna Essén</strong>, Stockholm School of Economics</li>
-        
-        <li><strong>Heiko Gewald</strong>, HS Neu-Ulm</li>
-        
-        <li><strong>Martin Gersch</strong>, Freie Universität Berlin</li>
-        
-        <li><strong>Camille Grangé</strong>, HEC Montréal</li>
-        
-        <li><strong>Maike Greve</strong>, Copenhagen Business School</li>
-        
-        <li><strong>Farkhondeh Hassan Doust</strong>, University of Auckland</li>
-        
-        <li><strong>Alexander Kempton</strong>, University of Oslo</li>
-        
-        <li><strong>Charlotte Koehler</strong>, European University Viadrina Frankfurt (Oder)</li>
-        
-        <li><strong>Johann Kranz</strong>, LMU</li>
-        
-        <li><strong>Jan-Marco Leimeister</strong>, University of St. Gallen</li>
-        
-        <li><strong>Wolfgang Maaß</strong>, Saarland University</li>
-        
-        <li><strong>Bogdan Negoita</strong>, HEC Montréal</li>
-        
-        <li><strong>Lemai Nguyen</strong>, Deakin University</li>
-        
-        <li><strong>Guy Paré</strong>, HEC Montréal</li>
-        
-        <li><strong>Scott Thiebes</strong>, Karlsruhe Institute of Technology</li>
-        
-        <li><strong>Manuel Trenz</strong>, University of Göttingen</li>
-        
-        <li><strong>Cristina Trocin</strong>, Católica Porto Business School</li>
-        
-        <li><strong>Marjolein van Offenbeek</strong>, University of Groningen</li>
-        
-        <li><strong>Polyxeni Vassilakopoulou</strong>, University of Agder</li>
-        
-        <li><strong>Till Winkler</strong>, Fernuniversität Hagen</li>
         
     </ul>
     
@@ -743,6 +609,138 @@
         <li><strong>Marta Stelmaszak Rosa</strong>, </li>
         
         <li><strong>Lauri Wesssel</strong>, </li>
+        
+    </ul>
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The future of creating and distributing value in digital health ecosystems]]></title>
+            <link>https://kerostig.org/call/tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems/</link>
+            <guid>tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems</guid>
+            <pubDate>Thu, 14 Aug 2025 03:33:30 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Lauri Wessel</strong>, European University Viadrina Frankfurt (Oder)</p>
+        
+        <p><strong>Melanie Reuter-Oppermann</strong>, Maastricht University</p>
+        
+        <p><strong>Roxana Ologeanu-Taddei</strong>, University of Montpellier</p>
+        
+        <p><strong>Hannes Rothe</strong>, University of Duisburg-Essen</p>
+        
+        <p><strong>Sirkka L. Jarvenpaa</strong>, The University of Texas at Austin</p>
+        
+    
+    
+    
+    <p>Digital health ecosystems involve diverse stakeholders—providers, patients, and laypersons—interacting to shape care delivery. While information systems research has advanced in understanding the technological foundations, significant research gaps remain regarding how value is created and distributed in these settings. The special issue seeks papers addressing two core trajectories: understanding diverse forms of value that digital technologies create in healthcare ecosystems, and examining how value should be distributed among participants over time.</p>
+    
+    <p>The journal welcomes both cumulative research advancing understanding of value creation and distribution, and contrarian studies challenging prevailing assumptions. Research often assumes large data volumes will generate substantial benefits, yet in practice clinicians frequently lack data in the required format, quality, or volume. Submissions should offer fresh perspectives on creating and distributing value in digital health ecosystems, informed by both information systems and adjacent disciplines.</p>
+    
+    <p>
+        Appel publié par European Journal of Information Systems.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/digital-health-ecosystems/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-the-future-of-creating-and-distributing-value-in-digital-health-ecosystems/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>The role of data management and data sharing in digital health ecosystems</li>
+        
+        <li>Designing for measuring kinds of value arising from new digital technologies like XR, 5G, web 3.0, and machine or hybrid learning in digital health ecosystems</li>
+        
+        <li>The role of digital health ecosystems during pandemics or natural disasters; specifically with an eye toward how data help to distribute value among ecosystem participants</li>
+        
+        <li>(Data-driven) change of professional roles, identities, and institutions in digital health ecosystems</li>
+        
+        <li>The difference between creating value for intervention vs. for prevention</li>
+        
+        <li>Design of inclusive and responsible digital technologies for healthcare and well-being</li>
+        
+        <li>Digital tools and use of digital health data to connect different participants of health service networks, to support decision making and to improve organizational processes</li>
+        
+        <li>Negative consequences of digital technologies implementation in healthcare, such as health givers burnout and patients&#39; anxiety</li>
+        
+        <li>The role of digital tools like virtual coaching for autonomy of health care providers and patients</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 1, 2026: Submission of extended abstracts/declaration of interest to submit papers</li>
+        
+        <li>November 30, 2026: Full paper submission deadline</li>
+        
+        <li>March 31, 2027: First round decisions due</li>
+        
+        <li>September 30, 2027: Revisions due</li>
+        
+        <li>December 15, 2027: Second round decisions due</li>
+        
+        <li>February 28, 2028: Third round revisions due (if necessary)</li>
+        
+        <li>May 31, 2028: Final decisions due</li>
+        
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Aleksi Aaltonen</strong>, Stevens Institute of Technology</li>
+        
+        <li><strong>Saeed Akhlaghpour</strong>, University of Queensland</li>
+        
+        <li><strong>Aycan Aslan</strong>, IT University Copenhagen</li>
+        
+        <li><strong>Anna Essén</strong>, Stockholm School of Economics</li>
+        
+        <li><strong>Heiko Gewald</strong>, HS Neu-Ulm</li>
+        
+        <li><strong>Martin Gersch</strong>, Freie Universität Berlin</li>
+        
+        <li><strong>Camille Grangé</strong>, HEC Montréal</li>
+        
+        <li><strong>Maike Greve</strong>, Copenhagen Business School</li>
+        
+        <li><strong>Farkhondeh Hassan Doust</strong>, University of Auckland</li>
+        
+        <li><strong>Alexander Kempton</strong>, University of Oslo</li>
+        
+        <li><strong>Charlotte Koehler</strong>, European University Viadrina Frankfurt (Oder)</li>
+        
+        <li><strong>Johann Kranz</strong>, LMU</li>
+        
+        <li><strong>Jan-Marco Leimeister</strong>, University of St. Gallen</li>
+        
+        <li><strong>Wolfgang Maaß</strong>, Saarland University</li>
+        
+        <li><strong>Bogdan Negoita</strong>, HEC Montréal</li>
+        
+        <li><strong>Lemai Nguyen</strong>, Deakin University</li>
+        
+        <li><strong>Guy Paré</strong>, HEC Montréal</li>
+        
+        <li><strong>Scott Thiebes</strong>, Karlsruhe Institute of Technology</li>
+        
+        <li><strong>Manuel Trenz</strong>, University of Göttingen</li>
+        
+        <li><strong>Cristina Trocin</strong>, Católica Porto Business School</li>
+        
+        <li><strong>Marjolein van Offenbeek</strong>, University of Groningen</li>
+        
+        <li><strong>Polyxeni Vassilakopoulou</strong>, University of Agder</li>
+        
+        <li><strong>Till Winkler</strong>, Fernuniversität Hagen</li>
         
     </ul>
     
