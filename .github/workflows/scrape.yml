@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       only:
-        description: 'Scraper(s) a lancer, separes par des virgules (ex: sage ou emerald,sage,wiley,informs)'
+        description: 'Scraper(s) a lancer, separes par des virgules (ex: sage ou emerald,sage,wiley,informs,misq)'
         required: false
   schedule:
     # Lundi 02h10 UTC : 04h10 a Paris en heure d'ete, 03h10 en heure d'hiver.
@@ -154,7 +154,10 @@ jobs:
       # depuis le poste local. Elsevier les rejoint le 2026-09-27 : lance a la
       # main depuis ce jour (constat de l'operateur du depot), sans qu'on ait
       # ici la meme preuve datee d'un blocage specifique aux runners GitHub que
-      # pour les quatre autres. Ces cinq editeurs se lancent a la main avec
+      # pour les quatre autres. MIS Quarterly les rejoint le 2026-10-01 : son site
+      # sert un challenge Cloudflare (403 pour curl, meme en local), franchi par le
+      # navigateur du poste ; non teste depuis un runner, lance a la main par
+      # prudence. Ces six sources se lancent a la main avec
       # scripts/lancement-manuel.mjs (voir README). --sauf laisse leurs appels
       # intacts, comme pour tout scraper non lance. Un declenchement manuel
       # avec only garde la main et peut toujours les viser.
@@ -163,7 +166,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           MODEL_NAME: ${{ secrets.MODEL_NAME }}
-        run: xvfb-run node ./scrapers/scraper.mjs ${{ inputs.only && format('--only {0}', inputs.only) || '--sauf wiley,sage,emerald,informs,elsevier' }}
+        run: xvfb-run node ./scrapers/scraper.mjs ${{ inputs.only && format('--only {0}', inputs.only) || '--sauf wiley,sage,emerald,informs,elsevier,misq' }}
       - name: Inspect profile after scraping
         if: always()
         continue-on-error: true
