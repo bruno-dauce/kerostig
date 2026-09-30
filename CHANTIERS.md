@@ -7,8 +7,8 @@ documente l'état et les décisions prises, pas le détail technique
 
 ## Routine
 
-**Lancement manuel** (Wiley, SAGE, Emerald, INFORMS, Elsevier — bloqués
-en CI) : toutes les semaines,
+**Lancement manuel** (Wiley, SAGE, Emerald, INFORMS, Elsevier, MIS
+Quarterly — bloqués en CI ou non testés depuis un runner) : toutes les semaines,
 
 ```powershell
 npm.cmd run manuel
@@ -29,8 +29,9 @@ collecte. Voir le README pour le détail des étapes et l'option
 3. Retester ce scraper seul en local pour distinguer un vrai retrait
    éditeur d'un échec silencieux (site refondu, anti-bot renforcé) :
    `node --env-file .env scrapers/scraper.mjs --only <abréviation>`.
-4. Une alerte sur Wiley, SAGE, Emerald, INFORMS ou Elsevier un lundi
-   est normale, pas un incident : ces cinq ne tournent jamais en CI.
+4. Une alerte sur Wiley, SAGE, Emerald, INFORMS, Elsevier ou MISQ un
+   lundi est normale, pas un incident : ces six ne tournent jamais en
+   CI. JAIS, lui, tourne en CI : une alerte `jais` est à traiter.
 
 ## Fait (2026-09-28)
 
@@ -95,19 +96,29 @@ Appels extraits avant le garde-fou de longueur et de taux de copie sur
 la description (2026-09-03) : à identifier et rejouer avec le
 garde-fou actuel.
 
-### 4. JAIS et MIS Quarterly
+### 4. JAIS et MIS Quarterly (scrapers en PR, données à venir)
 
-Aucun scraper actuel ne couvre ces deux revues (rang 1 et 1*
-respectivement). Leurs scrapers ont existé et ont été supprimés dans
-le commit `6fb0e704c` (récupérables dans l'historique :
-`git show 6fb0e704c^:scrapers/journals/jaisScraper.mjs`, idem pour
-`misqScraper.mjs`) — pas repartir de zéro.
+Scrapers `jais` et `misq` réécrits à partir de ceux supprimés dans le
+commit `6fb0e704c` (dont le message, « Scrap-Emerald », n'explique pas
+la suppression). Les anciens sélecteurs ne correspondaient plus ni
+sur JAIS ni sur MISQ.
 
-- **JAIS** : `div.crumbs`, filtre sur "Call for Papers:", `issn_cle`,
-  lecture des PDF hébergés ailleurs. Test sur extrait figé.
-- **MIS Quarterly** : tester en conditions réelles (navigateur
-  visible, profil persistant) ; l'ajouter au lancement manuel s'il
-  passe.
+- **JAIS** : tourne en CI. Liens `li > a` commençant par « Call for
+  Papers: », documents lus par téléchargement direct (PDF, docx,
+  Dropbox avec `dl=1` ; l'URL de la fiche garde `dl=0`). Un lien
+  expiré (SharePoint) écarte l'appel, sans contenu de repli.
+- **MIS Quarterly** : passe en navigateur (challenge Cloudflare franchi
+  seul en 6 s), jamais en curl. Ajouté au lancement manuel et à
+  `--sauf` de `scrape.yml`. Les entrées sans lien de titre
+  (« Registered Reports ») sont ignorées.
+- Les appels arriveront dans `calls.json` à la prochaine collecte.
+  Essai à blanc du 2026-10-01 : 6 fiches héritées reconnues (slug
+  conservé), 1 appel nouveau (JAIS « Growing up Online »).
+
+**Lot de données à venir** : faire pointer la fiche héritée
+`misq-registered-reports` (URL morte `/call_for_papers/registered-reports`)
+vers `https://misq.umn.edu/DocumentLibrary/InfoDocs/CFP_SI_RegisteredReports.pdf`,
+s'il est toujours en ligne (à vérifier en navigateur : curl est bloqué).
 
 ### 5. Revérifier les 32 revues « aucun scraper possible »
 
