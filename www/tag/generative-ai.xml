@@ -4,7 +4,7 @@
         <title>kerostig | Tag : generative ai</title>
         <link>https://kerostig.org/tag/generative-ai/</link>
         <description>Derniers appels à publications avec le tag 'generative ai'.</description>
-        <lastBuildDate>Wed, 30 Sep 2026 23:01:56 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Oct 2026 11:01:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -170,11 +170,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Tony Fang</strong>, Memorial University of Newfoundland</p>
+        
+        <p><strong>Jennifer A. Harrison</strong>, EM Normandie</p>
+        
+        <p><strong>Fei Song</strong>, Toronto Metropolitan University</p>
+        
+        <p><strong>Mingwei Liu</strong>, Rutgers University</p>
+        
     
     
-    <p>Generative AI is being increasingly integrated into workplace processes and career development, reshaping how tasks are executed and decisions are made. This presents significant questions about productivity measurement, particularly as work increasingly involves collaboration between humans and AI systems rather than purely human effort.</p>
     
-    <p>When humans and AI systems work together to produce outputs, it becomes challenging to determine what portion of results comes from human contribution versus AI assistance. This fundamental issue means that traditional concepts of productivity may no longer adequately capture work performance in AI-augmented contexts. The special issue seeks research that reconceptualizes how productivity should be defined and measured when human-AI collaboration is involved, with attention to career implications and organizational factors that influence these dynamics.</p>
+    <p>Generative AI is being rapidly integrated into workplace systems and HR processes, fundamentally reshaping how work is performed and productivity should be understood. The collaboration between humans and AI systems in task completion creates new challenges for measuring and attributing productivity outcomes, as traditional assumptions about performance metrics and human effort become outdated in AI-augmented contexts.</p>
+    
+    <p>This special issue seeks research that reconsiders how productivity is conceptualized, measured, and compared when work involves human-AI collaboration. The call invites studies examining the distinction between AI adoption and actual use, the distribution of performance effects across different worker groups, implications for career development and employability, and the organizational and HR factors that influence AI-augmented productivity. Methodological contributions exploring innovative approaches to studying these phenomena are also welcomed.</p>
     
     <p>
         Appel publié par Personnel Review.
@@ -193,13 +203,13 @@
         
         <li>Measuring human versus AI contributions to outputs and performance</li>
         
-        <li>Changes in the distribution of performance (e.g., effects on high and lower performers)</li>
+        <li>Changes in the distribution of performance</li>
         
         <li>Implications of GenAI for skill development, career trajectories, and employability</li>
         
-        <li>The role of HR practices, job design, and organizational context in shaping productivity related to AI</li>
+        <li>HR practices, job design, and organizational context in shaping AI productivity</li>
         
-        <li>Methodological approaches to studying AI and work (e.g., multi-source data, longitudinal designs, behavioral, other types of data)</li>
+        <li>Methodological approaches to studying AI and work</li>
         
     </ul>
     
@@ -210,55 +220,6 @@
         <li>August 31, 2026: Opening date for manuscripts submissions</li>
         
         <li>January 31, 2027: Closing date for manuscripts submission</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Generative AI and Data Envelopment Analysis for Performance Measurement and Public Value]]></title>
-            <link>https://kerostig.org/call/elsevier-generative-ai-and-data-envelopment-analysis-for-performance-measurement-and-public-value/</link>
-            <guid>elsevier-generative-ai-and-data-envelopment-analysis-for-performance-measurement-and-public-value</guid>
-            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This special issue explores the intersection of generative artificial intelligence and data envelopment analysis as tools for measuring organizational performance and creating public value. The collection seeks research that demonstrates how these technologies can enhance performance evaluation methodologies and provide insights into efficiency across various sectors, particularly in public organizations where value creation extends beyond traditional financial metrics.</p>
-    
-    <p>
-        Appel publié par Socio-Economic Planning Sciences.
-        
-        <a href="https://www.sciencedirect.com/special-issue/329460/generative-ai-and-data-envelopment-analysis-for-performance-measurement-and-public-value">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-generative-ai-and-data-envelopment-analysis-for-performance-measurement-and-public-value/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Applications of generative AI in performance measurement</li>
-        
-        <li>Data Envelopment Analysis (DEA) methodologies</li>
-        
-        <li>Public value creation and assessment</li>
-        
-        <li>Integration of AI and DEA techniques</li>
-        
-        <li>Performance evaluation in public sector organizations</li>
-        
-        <li>Efficiency measurement using advanced analytics</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 1, 2026: Submission deadline</li>
         
     </ul>
     

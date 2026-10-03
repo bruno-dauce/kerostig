@@ -1,5 +1,98 @@
 [
   {
+    "journal": "International Journal of Selection and Assessment",
+    "abbreviation": "wiley",
+    "issn": "1468-2389",
+    "metaTitle": "ENESER 2026 - Artificial Intelligence for Recruitment and Selection: Opportunities, Challenges, and Human Impact.",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14682389/cfp/NEW-Call_for_Papers_IJSA_ENESER2026_revised_M-1790948867527.pdf",
+    "title": "Artificial Intelligence for Recruitment and Selection: Opportunities, Challenges, and Human Impact",
+    "slug": "wiley-eneser-2026-artificial-intelligence-for-recruitment-and-selection-opportunities-challenges-and-human-impact",
+    "contentHash": "22da73169b3dd69fe2d92b279d9e632e1ecf64bae812b7433e6a6e8b321afa0b",
+    "topics": [
+      "Applicants' and recruiters' motivational and emotional reactions to AI",
+      "Algorithmic decision-making and perceptions of fairness, trust, and justice",
+      "Transparency, explainability, and human oversight in selection",
+      "Human-AI collaboration in personnel selection",
+      "AI-enabled game-based and adaptive assessment methods",
+      "Bias mitigation and diversity enhancement in AI recruitment",
+      "Ethical, legal, and regulatory perspectives on AI in hiring",
+      "Motivational theories in AI-mediated selection",
+      "Impact of AI on recruiters' professional identity and autonomy",
+      "Generative AI in employer branding and recruitment marketing",
+      "Methodological innovations for studying AI-human interaction",
+      "AI influence on candidate experience and authenticity",
+      "Development and validation of AI-supported assessment tools"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how artificial intelligence is transforming recruitment and selection practices in organizations. While AI technologies such as automated screening, video interview analytics, and generative AI tools offer efficiency gains, they simultaneously raise critical concerns regarding fairness, transparency, accountability, and ethics. The collection seeks contributions that explore both the opportunities and challenges of AI-mediated selection from multiple perspectives.",
+        "The special issue invites theoretical, empirical, methodological, and review contributions addressing the human-AI interface in recruitment and selection. Research should consider how AI affects applicants' and recruiters' experiences, perceptions of procedural justice, and organizational attractiveness. The editors particularly welcome work bridging theory and practice to help organizations implement AI-enabled selection responsibly and effectively."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "recruitment and selection",
+      "human-ai interaction",
+      "algorithmic fairness",
+      "personnel assessment"
+    ],
+    "editors": [
+      {
+        "name": "Michela Cortini",
+        "affiliation": "University G. d'Annunzio of Chieti – Pescara"
+      },
+      {
+        "name": "Teresa Galanti",
+        "affiliation": "University G. d'Annunzio of Chieti – Pescara"
+      },
+      {
+        "name": "Marco Giovanni Mariani",
+        "affiliation": "University of Bologna"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-20T10:00:00.000Z",
+        "description": "Initial manuscript submission period begins",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-31T11:00:00.000Z",
+        "description": "Initial manuscript submission period ends",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2027-05-01T10:00:00.000Z",
+        "description": "First round of reviews ends; revision and resubmission period begins",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-08-01T10:00:00.000Z",
+        "description": "Revision and resubmission period ends; second round of reviews begins",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-10-01T10:00:00.000Z",
+        "description": "Second round of reviews ends",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-01-15T11:00:00.000Z",
+        "description": "Final submissions",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "controle": {
+      "longueur": 950,
+      "tauxCopie": 0.009174311926605505,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-03T10:58:51.465Z"
+  },
+  {
     "journal": "Food Quality and Preference",
     "abbreviation": "elsevier",
     "issn": "1873-6343",
@@ -1297,35 +1390,44 @@
     "url": "https://sms.onlinelibrary.wiley.com/hub/call-for-papers/sej-entrepreneurial-ecosystems",
     "title": "Entrepreneurial Ecosystems in Emerging Economies",
     "slug": "wiley-strategic-entrepreneurship-journal-entrepreneurial-ecosystems-in-emerging-economies",
-    "contentHash": "35edc496f495bf916a188776422beec4e3d53ac4b554c392b7a4ec1892705944",
+    "contentHash": "f2ac7fd87333b2cf088c23f6f91a03594e58067172bdf9854de99186a4462eff",
     "topics": [
-      "How entrepreneurial ecosystems emerge, develop and evolve over time in emerging economies compared to advanced economies",
-      "The role of local and national culture in shaping entrepreneurial ecosystems across different contexts",
-      "How entrepreneurial ecosystems support refugees, diasporan and returnee entrepreneurs",
-      "The role of local and international venture funding instruments in emerging economies' entrepreneurial ecosystems",
-      "Lifecycles and temporal structures of entrepreneurial ecosystems in emerging economies",
-      "Historical perspectives on entrepreneurial ecosystems and the impact of historical events on their emergence",
-      "Systems approaches to entrepreneurial ecosystems and their co-evolution with other structures",
-      "How entrepreneurial ecosystems impact society beyond economic benefits",
-      "Building blocks of sustainable and resilient entrepreneurial ecosystems",
-      "Policy effectiveness in supporting entrepreneurial ecosystems in emerging economies",
-      "Multi-level analysis of interactions between individual, organizational and ecosystem levels",
-      "Institutional distrust, corruption and their influence on ecosystem orchestration",
-      "How digitalization and digital technologies shape emergent forms of ecosystems in emerging economies",
-      "Digital technologies and infrastructures transforming the geography of entrepreneurship in emerging economies"
+      "EE emergence and development in emerging economies",
+      "EE dynamics and evolution",
+      "EE orchestration, governance and brokering",
+      "Digital affordances and digitalization",
+      "EE metrics and measures",
+      "Valley of Death gaps",
+      "Institutional and infrastructure challenges",
+      "Resource constraints in emerging economies",
+      "EE lifecycle and temporality",
+      "Multi-level analysis of ecosystems",
+      "Systems perspective on EE",
+      "Sustainability and resilience of EE",
+      "Policy effectiveness for EE support",
+      "Global North and Global South perspectives",
+      "Refugee and diaspora entrepreneurship",
+      "Venture funding instruments and diaspora remittances",
+      "Circular economy and EE",
+      "Regenerative business practices",
+      "Social impact and vulnerable communities",
+      "Digital technology effects on EE",
+      "Computer science methods for ecosystem analysis",
+      "Geography of entrepreneurship"
     ],
     "description": {
       "paragraphs": [
-        "Entrepreneurial ecosystems are essential for economic growth, yet research has predominantly focused on developed economies and urban contexts. This special issue seeks to address the underrepresentation of emerging economy research by examining entrepreneurial ecosystems across Africa, Asia, South America, and other developing regions. The issue recognizes that emerging economies face distinct challenges including weak institutions, high uncertainty, limited market sizes, and infrastructure gaps that fundamentally shape how ecosystems develop and function differently than in advanced economies.",
-        "The special issue invites research that balances Global North and Global South perspectives, examines ecosystem temporality and evolution, applies systems thinking to understand broader societal impacts, considers multi-level interactions from individual to macro levels, and explores how digitalization uniquely affects emerging economy contexts. Contributors are encouraged to investigate governmental initiatives like Startup Chile and Startup India and to address how entrepreneurial ecosystems can support sustainable development and circular economy practices in developing regions."
+        "This special issue addresses entrepreneurial ecosystems in emerging economies, where new ventures face distinctive obstacles including institutional weakness, high uncertainty, and limited market access. While research on entrepreneurial ecosystems has expanded significantly, most studies focus on developed nations, leaving a knowledge gap about how these ecosystems function in the Global South and other emerging regions.",
+        "The call welcomes research that balances Global North and Global South perspectives, examines ecosystem emergence and development over time, applies systems thinking, and investigates how digitalization shapes entrepreneurial activity in resource-constrained contexts. Contributors are encouraged to explore how entrepreneurial ecosystems address institutional voids, support different types of entrepreneurs, and contribute to sustainable development goals."
       ]
     },
     "tags": [
-      "entrepreneurial ecosystems",
+      "entrepreneurship",
       "emerging economies",
-      "new ventures",
-      "institutional challenges",
+      "entrepreneurial ecosystems",
       "ecosystem development",
+      "institutional voids",
+      "digital transformation",
       "sustainable entrepreneurship"
     ],
     "editors": [
@@ -1362,13 +1464,24 @@
     ],
     "dates": [
       {
+        "date": "2027-01-30T11:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
         "date": "2027-04-30T10:00:00.000Z",
-        "description": "Submission deadline",
+        "description": "Full paper submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-09-27T11:46:29.819Z"
+    "pubDate": "2026-09-27T11:46:29.819Z",
+    "controle": {
+      "longueur": 883,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Strategic Entrepreneurship Journal",
@@ -1378,33 +1491,35 @@
     "url": "https://sms.onlinelibrary.wiley.com/hub/call-for-papers/sej-international-entrepreneurship",
     "title": "International Entrepreneurship In An Age Of Persistent Disruption",
     "slug": "wiley-strategic-entrepreneurship-journal-international-entrepreneurship-in-an-age-of-persistent-disruption",
-    "contentHash": "7b0df9941761b458ab76e59c0346da9651239a8cd551ad257f315013bbeb4c57",
+    "contentHash": "c54f689a1ae2fb4386b1061c68b1b1026670dd78f6093759f8106ac9b43ff9f5",
     "topics": [
-      "How do geopolitical bifurcation and regulatory fragmentation reshape opportunity structures for entrepreneurial internationalization?",
-      "How do entrepreneurial firms experiment with and strategically recalibrate the timing of internationalization in response to unfolding disruptions? Do timing choices and decision rules differ between gradual and sudden disruptions?",
-      "What are emerging forms of temporary, relational, or ecosystem-based advantage in turbulent environments for entrepreneurial firms that internationalize?",
-      "How do the new realities of the global marketplace impact entrepreneurial ventures' foreign market entry modes, and how does this reshape competitive strategies and modes of competition?",
-      "How do internationally oriented entrepreneurial ventures develop and deploy forms of strategic dexterity to orchestrate heterogeneous resources, partners, and knowledge flows across fragmented and institutionally diverse global ecosystems?",
-      "How do digital infrastructures and interorganizational alliances reconfigure the sensing, seizing, and transforming capabilities and their microfoundations in IE, and how do these enablers shape the balance between agility and strategic control across borders?",
-      "How do internationally active entrepreneurial ventures develop and deploy non-market and political capabilities to orchestrate resilience, legitimacy, and innovation within a polycentric, digitally mediated, and institutionally fragmented global order, and what strategic learning mechanisms enable effective navigation across world regions?",
-      "To what extent do dynamic capabilities retain relevance for entrepreneurial internationalization in contexts of heightened technological turbulence, geopolitical volatility, and ecosystemic interdependence?",
-      "How do internationally active entrepreneurial firms strategically orchestrate cross-border knowledge creation, transfer, and protection in the face of increasingly restrictive IP regimes, data localization policies, and digital sovereignty constraints?",
-      "How does the evolving mobility of talent, ideas, and digital capital under disruption reconfigure the spatial and cognitive geographies of international entrepreneurial ecosystems and innovation hotspots, and with what implications for business model innovation and evolution?",
-      "What governance mechanisms enable IE firms to build trust, coordinate value creation, and protect IP across fragmented institutional contexts?",
-      "How is the strategic logic of international location and embeddedness evolving for entrepreneurial firms amid digital virtualization, geopolitical realignment, and shifting global value networks?"
+      "Geopolitical bifurcation and regulatory fragmentation",
+      "Timing and sequencing of internationalization",
+      "Temporary, relational, and ecosystem-based advantage",
+      "Foreign market entry modes under disruption",
+      "Strategic dexterity and resource orchestration",
+      "Dynamic capabilities in fragmented global ecosystems",
+      "Digital infrastructures and interorganizational alliances",
+      "Non-market and political capabilities",
+      "Cross-border knowledge creation and protection",
+      "Talent and digital capital mobility",
+      "Location strategy and geopolitical safe zones",
+      "Business model innovation in disrupted contexts",
+      "Entrepreneurial judgment under persistent turbulence"
     ],
     "description": {
       "paragraphs": [
-        "This special issue examines how entrepreneurial firms navigate systematic disruption in international markets. Rather than treating disruption as temporary shocks, the issue positions continuous, cascading disruptions—including geopolitical tensions, technological change, regulatory fragmentation, and supply chain disruption—as the permanent operating environment for internationally active ventures. The challenge is to understand how these firms adapt their internationalization strategies, timing, and value creation approaches when traditional market entry logic and past experience no longer provide guidance.",
-        "The special issue seeks research bridging strategy and international entrepreneurship to explore how firms build competitive advantage under persistent turbulence. Key themes include how entrepreneurial firms orchestrate capabilities and resources across fragmented global ecosystems, how they reconfigure location strategies and market entry modes, and how they protect knowledge and talent mobility in an increasingly fragmented world. The issue calls for theoretical and empirical work examining the microfoundations of entrepreneurial action and how organizational forms and strategic choices evolve when environmental conditions shift rapidly and unpredictably."
+        "This special issue examines how entrepreneurial firms internationalize amid systemic disruptions from geopolitical, technological, and institutional shocks. Rather than treating disruption as occasional crisis, it positions persistent turbulence as the default operating condition reshaping how ventures compete globally. The focus shifts from traditional questions about early entry timing to how firms adapt, survive, and reconfigure while designing new competitive advantages.",
+        "The call seeks research integrating strategy, international business, entrepreneurship, and innovation to understand how entrepreneurial agency interacts with systemic shocks. It invites theoretical and empirical work examining strategic reconfiguration, dynamic capabilities, and knowledge mobility in fragmented global contexts, investigating how ventures develop dexterity, orchestrate cross-border relationships and digital infrastructures, navigate regulatory complexity, and build resilience amid technological volatility and geopolitical realignment."
       ]
     },
     "tags": [
       "international entrepreneurship",
       "disruption",
-      "strategy",
-      "global markets",
-      "dynamic capabilities"
+      "geopolitical risk",
+      "global strategy",
+      "dynamic capabilities",
+      "digital infrastructure"
     ],
     "editors": [
       {
@@ -1436,13 +1551,24 @@
     ],
     "dates": [
       {
+        "date": "2027-01-01T11:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
         "date": "2027-03-31T10:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-09-27T11:46:29.819Z"
+    "pubDate": "2026-09-27T11:46:29.819Z",
+    "controle": {
+      "longueur": 1036,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Strategic Entrepreneurship Journal",
@@ -1452,26 +1578,28 @@
     "url": "https://sms.onlinelibrary.wiley.com/hub/call-for-papers/smj-judgment-ecosystems",
     "title": "Mobilizing, Organizing, and Exploiting Entrepreneurial Judgment Within Ecosystems",
     "slug": "wiley-strategic-entrepreneurship-journal-mobilizing-organizing-and-exploiting-entrepreneurial-judgment-within-ecosystems",
-    "contentHash": "d49132efcd4f9dfeecbb4a7e7bdd1085ef2e7ff83ef19b921a86eb826a4fccb1",
+    "contentHash": "d4630fa7d5c1e4506ab02f3ef78a29a74132babf65036cf6513aff791bcaf68f",
     "topics": [
-      "Communicating tacit judgment in ecosystems",
-      "Governance and orchestration mechanisms in entrepreneurial ecosystems",
-      "Partial communicability and protection of entrepreneurial knowledge",
-      "Distributed judgment and performance across multiple stakeholders",
-      "Ecosystem dynamics, maturity and role structure",
+      "Communicating tacit entrepreneurial judgment in ecosystems",
+      "Ecosystem governance and orchestration mechanisms",
+      "Partial communicability and knowledge protection in collaboration",
+      "Distributed judgment and performance in ecosystems",
+      "Ecosystem dynamics and role structure",
       "AI and decision-support tools in entrepreneurial ecosystems"
     ],
     "description": {
       "paragraphs": [
-        "This special issue examines how entrepreneurial judgment operates within ecosystems involving multiple stakeholders rather than individual entrepreneurs or single firms. While entrepreneurial judgment under uncertainty has traditionally been studied at the individual or firm level, modern entrepreneurship increasingly unfolds through collaborations, alliances, and digital ecosystems where judgment must be communicated, coordinated, and governed among various actors. The issue seeks to advance understanding of ecosystem governance mechanisms and how judgment is mobilized and exploited to support cooperation, competition, and innovation.",
-        "The special issue invites theoretical and empirical research from the nexus of entrepreneurship, strategy, and organizational research. It addresses core questions about how entrepreneurs develop and convey judgment to external parties such as financiers, customers, and competitors, and how such judgment is pooled and governed. The work positions judgment as a dynamic, multi-level phenomenon within ecosystems rather than a purely individual capability, reshaping fragmented literature across entrepreneurship, strategy, and organizational studies into a cohesive research agenda."
+        "This special issue examines how entrepreneurial judgment operates within modern business ecosystems rather than in isolation. While prior research has focused on individual decision-making and single firms, contemporary entrepreneurship involves complex collaborations, alliances, and digital platforms where multiple stakeholders must coordinate their judgments under uncertainty. The issue seeks to understand how entrepreneurs communicate their private and tacit knowledge to ecosystem participants, and how various governance arrangements facilitate or hinder this coordination.",
+        "The guest editors invite submissions that bridge entrepreneurship, strategy, and organizational research to explore the mechanisms through which judgment is mobilized, organized, and exploited across ecosystem actors. Key questions include how entrepreneurs convey tacit judgment while managing risks of knowledge leakage, how ecosystem governance structures affect stakeholder coordination, and whether heterogeneous judgments can outperform consensus-based decision-making. The issue aims to consolidate fragmented literature across disciplines into a cohesive multilevel research agenda."
       ]
     },
     "tags": [
       "entrepreneurial judgment",
-      "entrepreneurial ecosystems",
-      "ecosystem governance",
-      "strategic entrepreneurship"
+      "business ecosystems",
+      "strategic entrepreneurship",
+      "governance",
+      "innovation",
+      "stakeholder coordination"
     ],
     "editors": [
       {
@@ -1503,13 +1631,24 @@
     ],
     "dates": [
       {
+        "date": "2027-01-01T11:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
         "date": "2027-03-01T11:00:00.000Z",
-        "description": "Deadline for full paper submissions",
+        "description": "Full paper submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-09-27T11:46:29.819Z"
+    "pubDate": "2026-09-27T11:46:29.819Z",
+    "controle": {
+      "longueur": 1172,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Strategic Entrepreneurship Journal",
@@ -1605,7 +1744,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-09-27T11:46:29.819Z"
   },
   {
@@ -2633,35 +2772,35 @@
     "url": "https://www.emerald.com/ijlm/calls-for-submissions/1979/Harnessing-Technological-Innovation-for-Managing?searchresult=1",
     "title": "Harnessing Technological Innovation for Managing Volatility and Advancing Sustainable and Regenerative Supply Chains",
     "slug": "emerald-harnessing-technological-innovation-for-managing-volatility-and-advancing-sustainable-and-regenerative-supply-chains",
-    "contentHash": "76d0f8a6c381eb69cf1b2e3c15ebc26c6e939d0bf40f5110a9cd10e25fc112ea",
+    "contentHash": "d02dc83f1f6224d0c7ff53bd24460b2a28fa98ff2191bd2e76313b3ec5553a18",
     "topics": [
-      "Emerging digital technologies (e.g., AI, IoT, blockchain) for sustainability and resilience in supply chain management",
-      "Data-driven decarbonisation strategies and emissions transparency in logistics management",
-      "Digital enablers of circular supply chains, reverse logistics, and closed-loop systems",
-      "Digital transformation, resilience, and sustainable supply chain risk management",
-      "Technology-enabled supply chain resilience capabilities and competitive advantage",
-      "Blockchain-based traceability, transparency, and ethical sourcing in supply chain management",
+      "Emerging digital technologies for sustainability and resilience in supply chain management",
+      "Data-driven decarbonisation strategies and emissions transparency",
+      "Digital enablers of circular supply chains and closed-loop systems",
+      "Digital transformation and sustainable supply chain risk management",
+      "Technology-enabled supply chain resilience capabilities",
+      "Blockchain-based traceability and ethical sourcing",
       "Digital product passports and lifecycle data integration",
-      "Governance, ethics, data integrity, and cybersecurity in digital supply chain management",
-      "Institutional and regulatory influences on technology-led sustainability initiatives in supply chain management",
-      "Digital platforms for supplier sustainability assessment and collaboration",
-      "Techno-nationalism, sovereign AI, and implications for managing global supply chains",
-      "Theoretical perspectives on technology-sustainability-resilience linkages in supply chain management",
-      "Integrating theory and practice in technology-led regenerative practices in supply chains"
+      "Governance, ethics, data integrity, and cybersecurity in digital supply chains",
+      "Institutional and regulatory influences on technology-led sustainability",
+      "Digital platforms for supplier sustainability assessment",
+      "Techno-nationalism and sovereign AI in global supply chains",
+      "Technology-sustainability-resilience linkages theory",
+      "Regenerative practices in supply chains"
     ],
     "description": {
       "paragraphs": [
-        "Supply chains face escalating disruptions from climate change, geopolitical instability, pandemics, and regulatory pressures, while stakeholders increasingly demand sustainable and ethical practices. Digital technologies such as AI, blockchain, IoT, and advanced analytics are transforming supply chain operations by enhancing visibility and enabling data-driven decision-making that can address both resilience and sustainability goals.",
-        "This special issue seeks to explore how digital innovation integrates sustainability and resilience in supply chains while identifying gaps between current research and practice. Contributions should address theoretical and empirical questions about when and how technologies support or constrain environmental and social performance, considering contextual factors like institutional environments and geopolitical dynamics, as well as emerging issues such as circular economy transitions and sovereign artificial intelligence.",
-        "The special issue welcomes conceptual, empirical, and methodological contributions from researchers, practitioners, and policymakers that provide novel theoretical perspectives and practical insights into technology-driven supply chain transformation."
+        "Supply chains face mounting pressures from climate change, geopolitical tensions, and pandemic risks, while stakeholders demand greater sustainability. Digital technologies like artificial intelligence and blockchain offer solutions for enhancing visibility and improving environmental and social outcomes.",
+        "The integration of digital innovation with sustainability and resilience strategies enables supply chains to reduce systemic risks while strengthening their ability to recover from disruptions. However, significant gaps remain in understanding how these technologies influence ESG performance and interact with contextual factors.",
+        "This special issue seeks high-quality contributions exploring how digital and emerging technologies enable or constrain sustainable, resilient, and regenerative supply chain strategies, offering theoretical insights and practical implications for researchers, practitioners, and policymakers."
       ]
     },
     "tags": [
       "supply chain management",
-      "digital innovation",
+      "digital transformation",
       "sustainability",
       "resilience",
-      "artificial intelligence"
+      "emerging technologies"
     ],
     "editors": [
       {
@@ -2695,7 +2834,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-09-26T22:23:50.318Z"
+    "pubDate": "2026-09-26T22:23:50.318Z",
+    "controle": {
+      "longueur": 928,
+      "tauxCopie": 0.009523809523809525,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "International Journal of Operations & Production Management",
@@ -2775,30 +2920,48 @@
     "url": "https://www.emerald.com/pr/calls-for-submissions/1981/Measuring-GenAI-and-Productivity-in-Work-and?searchresult=1",
     "title": "Measuring GenAI and Productivity in Work and Careers",
     "slug": "emerald-measuring-genai-and-productivity-in-work-and-careers",
-    "contentHash": "efeb4d514cdd291747552cec90e59eefc52a5b3b517c1f4eeace15cc6fc2664f",
+    "contentHash": "30aa5461e8f6993a11e501d5e59e3878d12c366c7a0e50182e00eac2e8c5bbd3",
     "topics": [
       "Conceptualizing productivity in AI work and careers",
       "Distinguishing between AI exposure, use, and augmentation",
       "Measuring human versus AI contributions to outputs and performance",
-      "Changes in the distribution of performance (e.g., effects on high and lower performers)",
+      "Changes in the distribution of performance",
       "Implications of GenAI for skill development, career trajectories, and employability",
-      "The role of HR practices, job design, and organizational context in shaping productivity related to AI",
-      "Methodological approaches to studying AI and work (e.g., multi-source data, longitudinal designs, behavioral, other types of data)"
+      "HR practices, job design, and organizational context in shaping AI productivity",
+      "Methodological approaches to studying AI and work"
     ],
     "description": {
       "paragraphs": [
-        "Generative AI is being increasingly integrated into workplace processes and career development, reshaping how tasks are executed and decisions are made. This presents significant questions about productivity measurement, particularly as work increasingly involves collaboration between humans and AI systems rather than purely human effort.",
-        "When humans and AI systems work together to produce outputs, it becomes challenging to determine what portion of results comes from human contribution versus AI assistance. This fundamental issue means that traditional concepts of productivity may no longer adequately capture work performance in AI-augmented contexts. The special issue seeks research that reconceptualizes how productivity should be defined and measured when human-AI collaboration is involved, with attention to career implications and organizational factors that influence these dynamics."
+        "Generative AI is being rapidly integrated into workplace systems and HR processes, fundamentally reshaping how work is performed and productivity should be understood. The collaboration between humans and AI systems in task completion creates new challenges for measuring and attributing productivity outcomes, as traditional assumptions about performance metrics and human effort become outdated in AI-augmented contexts.",
+        "This special issue seeks research that reconsiders how productivity is conceptualized, measured, and compared when work involves human-AI collaboration. The call invites studies examining the distinction between AI adoption and actual use, the distribution of performance effects across different worker groups, implications for career development and employability, and the organizational and HR factors that influence AI-augmented productivity. Methodological contributions exploring innovative approaches to studying these phenomena are also welcomed."
       ]
     },
     "tags": [
       "generative ai",
-      "productivity measurement",
+      "productivity",
+      "work",
+      "careers",
       "human-ai collaboration",
-      "work augmentation",
-      "careers"
+      "performance measurement"
     ],
-    "editors": [],
+    "editors": [
+      {
+        "name": "Tony Fang",
+        "affiliation": "Memorial University of Newfoundland"
+      },
+      {
+        "name": "Jennifer A. Harrison",
+        "affiliation": "EM Normandie"
+      },
+      {
+        "name": "Fei Song",
+        "affiliation": "Toronto Metropolitan University"
+      },
+      {
+        "name": "Mingwei Liu",
+        "affiliation": "Rutgers University"
+      }
+    ],
     "associate_editors": [],
     "dates": [
       {
@@ -2813,7 +2976,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-09-26T22:23:50.318Z"
+    "pubDate": "2026-09-26T22:23:50.318Z",
+    "controle": {
+      "longueur": 976,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "The International Journal of Logistics Management",
@@ -2823,26 +2992,26 @@
     "url": "https://www.emerald.com/ijlm/calls-for-submissions/1962/Resilient-Inclusive-and-Digital-Supply-Chains-for?searchresult=1",
     "title": "Resilient, Inclusive and Digital Supply Chains for Africa's Sustainable Development",
     "slug": "emerald-resilient-inclusive-and-digital-supply-chains-for-africas-sustainable-development",
-    "contentHash": "9a840ec45de80bfedee06a34eb60cc82f1e58d13f9928380656208e950e7dd27",
+    "contentHash": "3929fc8e34c156637d76e054479bb9a8bc9c315c102e1e35edeecd8ce59383c1",
     "topics": [
-      "Building resilient and risk-responsive supply chains: Examining strategies for managing disruptions, strengthening adaptive capacity, and improving crisis preparedness in volatile and resource-constrained environments.",
-      "Inclusive supply chain models for local economic participation: Investigating approaches that integrate SMEs, informal sectors, and local communities into value chains to promote equitable development.",
-      "Sustainable and green supply chain practices: Analysing environmentally responsible logistics, circular economy approaches, and sustainable production and consumption systems across key African sectors.",
-      "Artificial intelligence and digital transformation in African supply chains: Exploring AI, data-driven decision-making, and digital platforms to enhance efficiency, transparency, and responsiveness in supply chain operations.",
-      "Sector-specific innovations in critical industries: Focusing on applications in healthcare, agribusiness, and other strategic sectors to demonstrate context-specific solutions for development impact."
+      "Building resilient and risk-responsive supply chains",
+      "Inclusive supply chain models for local economic participation",
+      "Sustainable and green supply chain practices",
+      "Artificial intelligence and digital transformation in African supply chains",
+      "Sector-specific innovations in critical industries"
     ],
     "description": {
       "paragraphs": [
-        "This special issue examines how supply chains can better support Africa's sustainable development by strengthening resilience to disruptions, promoting inclusivity for local communities, and harnessing digital technologies including artificial intelligence. The collection seeks interdisciplinary contributions from academics, practitioners, and policymakers addressing digital transformation, risk management, sustainability, and sector-specific applications in areas like healthcare and agribusiness.",
-        "The issue emphasizes rigorous, peer-reviewed research that combines theoretical rigor with practical insights, fosters collaboration across disciplines, and identifies best practices and innovative frameworks for building robust and equitable supply chain systems across Africa."
+        "This special issue examines how supply chains can advance sustainable development across Africa by integrating resilience, inclusivity, and digital innovation. The focus encompasses strategies to manage disruptions in volatile environments, approaches to include SMEs and local communities in value chains, and the application of artificial intelligence and data-driven technologies to enhance efficiency and transparency.",
+        "The issue welcomes rigorous, peer-reviewed contributions from academics, practitioners, and policymakers addressing digital transformation, risk management, sustainability, and sector-specific applications in healthcare and agribusiness. The goal is to develop equitable, robust supply chain systems that support Africa's sustainable development objectives."
       ]
     },
     "tags": [
       "supply chains",
       "africa",
-      "sustainable development",
       "digital transformation",
-      "resilience"
+      "resilience",
+      "sustainability"
     ],
     "editors": [],
     "associate_editors": [],
@@ -2859,7 +3028,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-09-26T22:23:50.318Z"
+    "pubDate": "2026-09-26T22:23:50.318Z",
+    "controle": {
+      "longueur": 779,
+      "tauxCopie": 0.02197802197802198,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "International Journal of Operations & Production Management",
@@ -6637,8 +6812,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Journal of Business Venturing Insights",
@@ -6907,7 +7083,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-09-06T09:51:06.483Z"
   },
   {
@@ -7377,7 +7553,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Journal of Business Venturing Insights",
@@ -7748,8 +7925,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Social Networks",
@@ -8017,7 +8195,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Cities",
@@ -8639,8 +8818,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Career Development International",
@@ -8708,8 +8888,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Society and Business Review",
@@ -8946,8 +9127,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Journal of Management Development",
@@ -9557,31 +9739,27 @@
     "url": "https://www.emerald.com/cdi/calls-for-submissions/1931/Meaning-Meaningfulness-and-Purpose-at-Work-Towards?searchresult=1",
     "title": "Meaning, Meaningfulness, and Purpose at Work: Towards Conceptual Clarity and Integration",
     "slug": "emerald-meaning-meaningfulness-and-purpose-at-work-towards-conceptual-clarity-and-integration",
-    "contentHash": "13ab14f598d924f943be93a566670e090883839ff4d6b73cb0416089e93f9470",
+    "contentHash": "d7a10983ae748340d337e77b4c8c79942f0149a68bcc8006a7adf1105d98ee9b",
     "topics": [
       "Authenticity and alignment of work with personal values",
       "Decent work and meaningfulness across occupations",
       "Human and technological interactions and the future of work",
       "The place of work in a whole-life framework",
       "Calling and serving higher purpose through work",
-      "Sustaining purpose and meaning over time",
-      "Meaning of work",
-      "Meaningful work",
-      "Purpose of work",
-      "Decent work",
-      "Sustainable Careers"
+      "Sustaining purpose and meaning over time"
     ],
     "description": {
       "paragraphs": [
-        "This special issue addresses the conceptual distinctions and interconnections among meaning, meaningfulness, and purpose in work contexts. While these three concepts are central to major career theories and essential for worker wellbeing and career sustainability, they often remain poorly differentiated in research literature. The issue seeks to clarify how meaning relates to personal value interpretations, meaningfulness to emotional fulfillment and engagement, and purpose to long-term direction and self-transcendent goals.",
-        "The special issue invites empirical and theoretical contributions exploring how individuals find fulfillment, alignment, and direction through their work across different occupations and life contexts. Research should examine the interplay between these constructs and their implications for sustainable careers, decent work, and human flourishing in an evolving work landscape."
+        "This special issue addresses the interconnected but distinct concepts of meaning, meaningfulness, and purpose in work contexts. The call recognizes that while multiple career theories incorporate meaning-related dimensions, these concepts remain closely intertwined and often used interchangeably, creating conceptual confusion. The editors aim to clarify how meaning relates to personal interpretations and values, meaningfulness to emotional fulfillment and engagement, and purpose to long-term direction and aspirations.",
+        "The special issue seeks theoretical and empirical contributions that advance understanding of how people derive significance from their work and what sustains fulfillment over time. The focus is on positive impact and purposeful work rather than career success generally, with the goal of integrating these dimensions into a comprehensive framework for understanding human fulfillment at work.",
+        "The call welcomes submissions from researchers worldwide examining how work aligns with values, provides decent conditions, interacts with technology and life roles, enables calling and transcendent goals, and sustains meaning across careers."
       ]
     },
     "tags": [
       "career development",
-      "meaningful work",
+      "meaning at work",
       "purpose",
-      "work meaning",
+      "meaningfulness",
       "career theory"
     ],
     "editors": [
@@ -9596,18 +9774,17 @@
       {
         "name": "Maria Hameed Khan",
         "affiliation": "Queensland University of Technology"
+      },
+      {
+        "name": "Maria Mouratidou",
+        "affiliation": "Liverpool John Moores University"
       }
     ],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-01T10:00:00.000Z",
+        "date": "2027-02-01T11:00:00.000Z",
         "description": "Opening date for manuscripts submissions",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-03-01T11:00:00.000Z",
-        "description": "Submission window",
         "is_full_paper_submission_deadline": false
       },
       {
@@ -9617,7 +9794,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "controle": {
+      "longueur": 1158,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Qualitative Market Research",
@@ -9945,8 +10128,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Qualitative Market Research",
@@ -10266,8 +10450,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Journal of Strategy and Management",
@@ -15127,7 +15312,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-29T11:29:31.659Z"
   },
   {
@@ -32748,8 +32933,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T15:38:12.254Z"
+    "active": false,
+    "pubDate": "2026-08-11T15:38:12.254Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Safety Science",
@@ -35198,7 +35384,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -35662,8 +35848,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Technovation",
@@ -35751,7 +35938,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Health Policy",
@@ -36072,7 +36260,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Information Processing & Management",
@@ -36116,7 +36305,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Technological Forecasting and Social Change",
@@ -37900,7 +38090,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Critical Perspectives on Accounting",
@@ -38241,8 +38432,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Business Horizons",
@@ -38542,7 +38734,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Energy Policy",
@@ -38571,8 +38764,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Appetite",
@@ -39027,7 +39221,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Journal of Transport Geography",
@@ -46360,8 +46555,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-10T23:47:12.235Z"
+    "active": false,
+    "pubDate": "2026-08-10T23:47:12.235Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "International Journal of Retail & Distribution Management",
@@ -46703,8 +46899,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-10T23:47:12.235Z"
+    "active": false,
+    "pubDate": "2026-08-10T23:47:12.235Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Multinational Business Review",
@@ -46830,8 +47027,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-10T23:47:12.235Z"
+    "active": false,
+    "pubDate": "2026-08-10T23:47:12.235Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "The International Journal of Logistics Management",
@@ -46978,8 +47176,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-10T23:47:12.235Z"
+    "active": false,
+    "pubDate": "2026-08-10T23:47:12.235Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "International Journal of Physical Distribution & Logistics Management",
@@ -46988,32 +47187,41 @@
     "metaTitle": "From Individuals to Organizations: Unpacking Behavioral Issues in Supply Chain Risk Management",
     "url": "https://www.emerald.com/ijpdlm/calls-for-submissions/1716/From-Individuals-to-Organizations-Unpacking?searchresult=1",
     "slug": "emerald-from-individuals-to-organizations-unpacking-behavioral-issues-in-supply-chain-risk-management",
-    "contentHash": "92b9a65542fa89fb3884f432f5a80194fd41ed3d0bbe6791f521585c61d31256",
+    "contentHash": "78d1d6e44964787628f4b049247d33617360cf579b1b2c1c48710f7cb028cda6",
     "title": "From Individuals to Organizations: Unpacking Behavioral Issues in Supply Chain Risk Management",
     "topics": [
-      "To what extent does strategic manipulation of information (withholding, distorting, or framing risk signals) affect collective supply chain resilience outcomes?",
-      "How can behavioral theories explain inter-firm risk-sharing under uncertainty?",
-      "How can interdisciplinary (i.e. psychology, sociology) perspectives be used to explain multi-level intention action reaction dynamics in risk situations spanning individuals, organizations and supply chains?",
-      "How do individual decision-making styles aggregate into organizational risk cultures and capabilities?",
-      "How do behavioral dynamics across levels (micro, macro, interorganizational) complement or contradict one another in shaping supply chain resilience?",
-      "What mechanisms explain how individual-level behaviors (e.g., bounded rationality, trust, or opportunism) cascade into network-level collaboration or conflict in supply chain risk management?",
-      "What are the unintended consequences when human intuition and AI recommendations diverge in supply chain risk management decisions?",
-      "To what extent do fear appeals, regulatory pressures, or organizational risk cultures motivate or inhibit proactive cyber risk management?",
-      "How do disruptive technologies impact behavior?"
+      "Behavioral supply chain risk management",
+      "Decision-making biases in supply chain contexts",
+      "Risk identification and assessment",
+      "Risk mitigation strategies",
+      "Individual risk preferences and decision styles",
+      "Organizational risk culture and appetite",
+      "Inter-organizational power dynamics and dependencies",
+      "Micro-level behavioral dynamics",
+      "Macro-level organizational decision-making",
+      "Inter-organizational supply chain networks",
+      "Information manipulation and risk signaling",
+      "Inter-firm risk-sharing mechanisms",
+      "Behavioral resilience and recovery",
+      "AI and human decision-making in risk management",
+      "Cyber risk management behavior",
+      "Social conflict risks in supply chains",
+      "Supplier-buyer relationship dynamics",
+      "Technology adoption and behavioral change",
+      "Bounded rationality in supply chains",
+      "Trust and opportunism in supply networks"
     ],
     "description": {
       "paragraphs": [
-        "At its core, supply chain risk management (SCRM) research has focused on identifying and assessing known and unknown risks, and on risk mitigation to derive and implement solutions that ensure supply will continue to meet demand during and after a disruptive event. However, supply chain disruptions have been escalating in recent years and revealed considerable complex vulnerabilities in how firms manage their global operations. Current SCRM strategies, theories, and frameworks are ill-equipped to address these vulnerabilities, despite years of experience and research.",
-        "A justified concern in the literature is that the assumptions of risk neutrality and rationality of decision-makers is unrealistic. In reality, supply chain decision-makers fall along a broad spectrum from risk seeking to risk aversion and often make decisions under bounded rationality and are influenced by cognitive biases and other factors that cause them to deviate from optimal or rational choices, especially under conditions of uncertainty, tension, and time pressure. Deviations from rationality influence risk identification, assessment, and mitigation, leading to a gap between theoretical predictions and actual supply chain outcomes. Ignoring behavioral realities leads to suboptimal risk management strategies, reduced operational efficiency and profitability. Thus, the behavioral aspect is crucial in determining whether supply chains recover or remain fragile in the face of disruption.",
-        "Research on the behavioral and non-rational aspects of supply chain risk management has been primarily at the individual level such as human cognition, biases, interpersonal relationship, individualism, confidence level, personal wealth and regulatory focus. However, little attention has been devoted to how individual behavior is shaped by organizational and inter-organizational factors such as risk appetite, dependency and power asymmetries, and the adoption of industry 4.0 technologies. Therefore, research on behavioral issues in supply chain risk management needs to be researched across the individual decision making-level (micro), the entity decision making-level (macro), and the supply chain decision making-level (interorganizational).",
-        "This perspective also requires investigating how decisions by one actor (individual, team, or organization) cascade systematically influence others, both within an organization and across the broader supply chain network. Drawing on insights from psychology, behavioral theories, decision-making frameworks, organizational studies, and risk management frameworks, this special issue seeks to unpack these behavioral dimensions to advance a holistic understanding of SCRM.",
-        "This call for papers focuses on behavioral issues in supply chain risk management, across multiple levels. In line with the journal's aim to advance theoretical concepts and frameworks and given this call's focus on unpacking behavioral issues in supply chain risk management, we are particularly interested in research that explores the limitations of existing theories in the literature and/or research that introduces new and innovative concepts and frameworks that address the complexities of supply chain risk management."
+        "Supply chain risk management traditionally assumes decision-makers are rational and risk-neutral, but practitioners operate under bounded rationality and cognitive biases, deviating from optimal choices when facing uncertainty. These behavioral deviations affect risk identification, assessment, and mitigation, yet existing theories fail to account for them, resulting in suboptimal strategies and reduced organizational efficiency.",
+        "Current behavioral SCRM research focuses primarily on individual factors with limited exploration of how organizational and inter-organizational contexts shape behavior. This special issue examines behavioral issues across multiple analytical levels: individuals, organizations, and supply chain networks. The editors seek research that identifies limitations in existing theories or introduces innovative frameworks addressing SCRM complexities through interdisciplinary perspectives from psychology, organizational studies, and decision-making research."
       ]
     },
     "tags": [
       "supply chain risk management",
-      "behavioral management",
-      "organizational decision-making",
+      "behavioral economics",
+      "decision-making",
+      "organizational behavior",
       "supply chain resilience"
     ],
     "editors": [
@@ -47043,14 +47251,19 @@
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-09-15T10:00:00.000Z",
+        "date": "2026-11-15T11:00:00.000Z",
         "description": "Closing date for manuscripts submission",
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
+    "active": true,
     "pubDate": "2026-08-10T23:47:12.235Z",
-    "gracePeriod": "2026-10-26T23:23:50.318Z"
+    "controle": {
+      "longueur": 988,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "International Marketing Review",
@@ -47348,8 +47561,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-10T23:47:12.235Z"
+    "active": false,
+    "pubDate": "2026-08-10T23:47:12.235Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Journal of Intellectual Capital",
@@ -47881,8 +48095,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-10T23:47:12.235Z"
+    "active": false,
+    "pubDate": "2026-08-10T23:47:12.235Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "European Journal of Marketing",
@@ -48022,8 +48237,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-10T23:47:12.235Z"
+    "active": false,
+    "pubDate": "2026-08-10T23:47:12.235Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Journal of Organizational Change Management",
@@ -48763,8 +48979,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-10T23:47:12.235Z"
+    "active": false,
+    "pubDate": "2026-08-10T23:47:12.235Z",
+    "gracePeriod": "2026-11-02T11:58:51.465Z"
   },
   {
     "journal": "Journal of Managerial Psychology",
@@ -48870,24 +49087,44 @@
     "metaTitle": "Ethics, Regulation, and Policy",
     "url": "https://misq.umn.edu/pages/call_for_papers_ethics_and_regulations",
     "slug": "misq-ethics-regulation-and-policy",
-    "contentHash": "ddf36420e06bb8b8b1a9b81bee9b60e26d9a4f7454a709a80ef32eb5b6a966dd",
-    "title": "Ethics, Regulation, and Policy",
+    "contentHash": "05a486515995e0846bd015b6fd5d5c688354487b475c11708844c4ef44698f22",
+    "title": "Ethics, Regulation, and Policy: The Challenge to Institutions in the Digital Age",
     "topics": [
-      "Technology/AI/data ethics",
-      "Technology/AI/data regulation",
-      "Technology/AI/data policy",
-      "Institutions",
-      "Governance",
-      "Risk",
-      "Digital",
-      "Sociotechnical"
+      "Technology and AI ethics",
+      "Data ethics",
+      "Technology regulation",
+      "AI regulation",
+      "Data regulation",
+      "Institutional governance",
+      "Risk management",
+      "Digital governance",
+      "Sociotechnical perspectives",
+      "Regulatory design",
+      "Compliance and enforcement",
+      "RegTech and SupTech",
+      "Algorithmic regulation",
+      "Organizational adaptation to regulation",
+      "Data privacy and GDPR",
+      "Responsible AI",
+      "AI governance",
+      "Sustainability and ESG",
+      "Market regulation",
+      "Self-regulation",
+      "Legal technology",
+      "Responsible data governance",
+      "Bias and fairness in AI",
+      "Algorithm accountability",
+      "Labor and deskilling",
+      "Human dignity in AI systems",
+      "Regulatory sandboxes",
+      "Innovation and regulation balance"
     ],
     "tags": [
-      "ethics",
-      "regulation",
-      "policy",
-      "ai",
-      "digital technologies"
+      "ai governance",
+      "data privacy",
+      "technology regulation",
+      "organizational compliance",
+      "sociotechnical systems"
     ],
     "editors": [
       {
@@ -48981,7 +49218,7 @@
         "affiliation": "The London School of Economics and Political Science"
       },
       {
-        "name": "Gerald C (Jerry) Kane",
+        "name": "Gerald C Kane",
         "affiliation": "University of Georgia"
       },
       {
@@ -48997,7 +49234,7 @@
         "affiliation": "New York University"
       },
       {
-        "name": "Zhepeng (Lionel) Li",
+        "name": "Zhepeng Li",
         "affiliation": "The University of Hong Kong"
       },
       {
@@ -49043,19 +49280,40 @@
       {
         "name": "Xia Zhao",
         "affiliation": "University of Georgia"
+      },
+      {
+        "name": "Youngjin Yoo",
+        "affiliation": "London School of Economics and Political Science"
       }
     ],
     "dates": [
       {
-        "date": "2026-11-13T12:00:00.000Z",
-        "description": "Submission Deadline",
+        "date": "2026-11-01T11:00:00.000Z",
+        "description": "Submissions Open",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-11-13T11:00:00.000Z",
+        "description": "Submissions Closed",
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
+    "active": true,
     "pubDate": "2025-12-06T03:16:37.996Z",
-    "gracePeriod": "2026-01-30T03:43:15.509Z",
-    "issn": "2162-9730"
+    "issn": "2162-9730",
+    "description": {
+      "paragraphs": [
+        "Digital technologies and artificial intelligence are disrupting established institutional practices and creating significant ethical, regulatory, and policy challenges. Organizations and governments must navigate tensions between addressing risks associated with data privacy, algorithmic bias, and labor displacement while fostering innovation and competitiveness.",
+        "The regulatory landscape is rapidly evolving through frameworks like the EU AI Act and GDPR to embed ethical protections. However, digital technologies operate at a pace that traditional regulatory approaches struggle to match, leading to novel mechanisms where technology itself serves as a tool for implementing and monitoring compliance.",
+        "This special issue invites sociotechnical and information systems research examining how ethical concerns, regulatory requirements, and policy initiatives interact within organizational and institutional contexts. Studies should employ diverse methodologies to investigate governance practices, regulatory effectiveness, compliance mechanisms, and how emerging technologies address institutional challenges."
+      ]
+    },
+    "controle": {
+      "longueur": 1112,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Information and Management",
@@ -51175,23 +51433,32 @@
     "metaTitle": "AI-IA Nexus",
     "url": "https://misq.umn.edu/pages/call_for_papers_ai_ia",
     "slug": "misq-ai-ia-nexus",
-    "contentHash": "f0f5fd47b3c7031bfd0507916ae4d131badd596048c23c2543b0d7a0750293fb",
-    "title": "AI-IA Nexus: The Future of Information Systems Security, Privacy, and Quality",
+    "contentHash": "e286ac544b92ad41223db2fda84b337312520fbd05b1c0c68e012807e9b1e2d2",
+    "title": "Artificial Intelligence-Information Assurance Nexus: The Future of Information Systems Security, Privacy, and Quality",
     "topics": [
-      "Sophisticated human-deception attacks including vishing and deepfakes",
-      "Hallucination and confabulation leading to misinformation",
-      "Intellectual property theft from GenAI-generated content",
-      "Regulation and compliance challenges with GenAI models",
-      "Unreliable training data and its impact on LLMs",
-      "Data poisoning risks in AI models",
-      "Security leaks and inference attacks related to GenAI",
-      "Prompt injections and their implications"
+      "User security and privacy behaviors with GenAI",
+      "Enterprise AI governance and risk management",
+      "Broader implications of AI-enabled threats",
+      "Risk assessment and mitigation strategies",
+      "Economic aspects of AI security",
+      "Industry-wide implications and responses",
+      "Understanding adversarial AI behaviors",
+      "Sophisticated human-deception attacks",
+      "Hallucination and confabulation",
+      "Intellectual property theft in GenAI",
+      "Regulation and compliance challenges",
+      "Training data quality and verification",
+      "Data poisoning attacks",
+      "Security leaks and inference attacks",
+      "Prompt injections"
     ],
     "tags": [
-      "ai",
-      "information assurance",
-      "security",
-      "privacy"
+      "generative ai",
+      "information security",
+      "privacy",
+      "data quality",
+      "cybersecurity",
+      "risk management"
     ],
     "editors": [
       {
@@ -51257,7 +51524,7 @@
         "affiliation": "University of Stuttgart"
       },
       {
-        "name": "Rahul De'",
+        "name": "Rahul De",
         "affiliation": "Indian Institute of Management Bangalore"
       },
       {
@@ -51359,50 +51626,76 @@
     ],
     "dates": [
       {
-        "date": "2025-01-20T12:00:00.000Z",
+        "date": "2024-11-15T11:00:00.000Z",
+        "description": "Optional introductory workshops (virtual)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-01-20T11:00:00.000Z",
         "description": "Two-page abstracts due",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2025-10-31T12:00:00.000Z",
+        "date": "2025-03-31T10:00:00.000Z",
+        "description": "Feedback on abstracts",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-10-31T11:00:00.000Z",
         "description": "First-round paper submission",
         "is_full_paper_submission_deadline": true
       },
       {
-        "date": "2026-01-31T12:00:00.000Z",
+        "date": "2026-02-28T11:00:00.000Z",
         "description": "First-round decisions",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-02-01T12:00:00.000Z",
+        "date": "2026-03-01T11:00:00.000Z",
         "description": "Workshop for authors with R&R",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-05-31T12:00:00.000Z",
+        "date": "2026-06-30T10:00:00.000Z",
         "description": "Second-round revisions due",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-08-31T12:00:00.000Z",
+        "date": "2026-07-11T10:00:00.000Z",
+        "description": "Paper development workshop (virtual)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-09-30T10:00:00.000Z",
         "description": "Second-round decisions",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-11-30T12:00:00.000Z",
+        "date": "2026-12-31T11:00:00.000Z",
         "description": "Final revisions due",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-02-28T12:00:00.000Z",
+        "date": "2027-03-31T10:00:00.000Z",
         "description": "Final revisions",
         "is_full_paper_submission_deadline": false
       }
     ],
     "active": false,
     "pubDate": "2024-10-16T05:11:12.000Z",
-    "gracePeriod": "2026-01-30T03:43:15.509Z",
-    "issn": "2162-9730"
+    "issn": "2162-9730",
+    "description": {
+      "paragraphs": [
+        "The rapid advancement of generative AI presents simultaneous threats and opportunities for information assurance. While GenAI can enhance security defenses and threat detection, it simultaneously amplifies existing risks by enabling sophisticated attacks, spreading misinformation, facilitating intellectual property theft, and complicating governance and compliance efforts. This dual-edged nature requires novel research approaches that move beyond traditional cybersecurity frameworks to address unique GenAI-induced vulnerabilities.",
+        "The special issue invites research examining information assurance challenges at individual, organizational, and societal levels within the GenAI context. Topics of interest include user behavior around AI security, enterprise governance strategies, economic dimensions of AI investment, risk management approaches, and analysis of emerging threat patterns. Research should develop new theories or methods tailored to GenAI challenges rather than simply applying existing cybersecurity models."
+      ]
+    },
+    "controle": {
+      "longueur": 1029,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Information and Organization",
@@ -53875,7 +54168,6 @@
     ],
     "active": false,
     "pubDate": "2023-12-12T05:15:06.000Z",
-    "gracePeriod": "2026-01-30T03:43:15.509Z",
     "issn": "2162-9730"
   },
   {

@@ -4,7 +4,7 @@
         <title>kerostig</title>
         <link>https://kerostig.org/</link>
         <description>le hub des appels à publications en sciences de gestion et management</description>
-        <lastBuildDate>Wed, 30 Sep 2026 23:01:56 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Oct 2026 11:01:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,89 @@
             <link>https://kerostig.org/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Artificial Intelligence for Recruitment and Selection: Opportunities, Challenges, and Human Impact]]></title>
+            <link>https://kerostig.org/call/wiley-eneser-2026-artificial-intelligence-for-recruitment-and-selection-opportunities-challenges-and-human-impact/</link>
+            <guid>wiley-eneser-2026-artificial-intelligence-for-recruitment-and-selection-opportunities-challenges-and-human-impact</guid>
+            <pubDate>Sat, 03 Oct 2026 10:58:51 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Michela Cortini</strong>, University G. d&#39;Annunzio of Chieti – Pescara</p>
+        
+        <p><strong>Teresa Galanti</strong>, University G. d&#39;Annunzio of Chieti – Pescara</p>
+        
+        <p><strong>Marco Giovanni Mariani</strong>, University of Bologna</p>
+        
+    
+    
+    
+    <p>This special issue examines how artificial intelligence is transforming recruitment and selection practices in organizations. While AI technologies such as automated screening, video interview analytics, and generative AI tools offer efficiency gains, they simultaneously raise critical concerns regarding fairness, transparency, accountability, and ethics. The collection seeks contributions that explore both the opportunities and challenges of AI-mediated selection from multiple perspectives.</p>
+    
+    <p>The special issue invites theoretical, empirical, methodological, and review contributions addressing the human-AI interface in recruitment and selection. Research should consider how AI affects applicants&#39; and recruiters&#39; experiences, perceptions of procedural justice, and organizational attractiveness. The editors particularly welcome work bridging theory and practice to help organizations implement AI-enabled selection responsibly and effectively.</p>
+    
+    <p>
+        Appel publié par International Journal of Selection and Assessment.
+        
+        <a href="https://onlinelibrary.wiley.com/pb-assets/assets/14682389/cfp/NEW-Call_for_Papers_IJSA_ENESER2026_revised_M-1790948867527.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-eneser-2026-artificial-intelligence-for-recruitment-and-selection-opportunities-challenges-and-human-impact/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Applicants&#39; and recruiters&#39; motivational and emotional reactions to AI</li>
+        
+        <li>Algorithmic decision-making and perceptions of fairness, trust, and justice</li>
+        
+        <li>Transparency, explainability, and human oversight in selection</li>
+        
+        <li>Human-AI collaboration in personnel selection</li>
+        
+        <li>AI-enabled game-based and adaptive assessment methods</li>
+        
+        <li>Bias mitigation and diversity enhancement in AI recruitment</li>
+        
+        <li>Ethical, legal, and regulatory perspectives on AI in hiring</li>
+        
+        <li>Motivational theories in AI-mediated selection</li>
+        
+        <li>Impact of AI on recruiters&#39; professional identity and autonomy</li>
+        
+        <li>Generative AI in employer branding and recruitment marketing</li>
+        
+        <li>Methodological innovations for studying AI-human interaction</li>
+        
+        <li>AI influence on candidate experience and authenticity</li>
+        
+        <li>Development and validation of AI-supported assessment tools</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>October 20, 2026: Initial manuscript submission period begins</li>
+        
+        <li>January 31, 2027: Initial manuscript submission period ends</li>
+        
+        <li>May 1, 2027: First round of reviews ends; revision and resubmission period begins</li>
+        
+        <li>August 1, 2027: Revision and resubmission period ends; second round of reviews begins</li>
+        
+        <li>October 1, 2027: Second round of reviews ends</li>
+        
+        <li>January 15, 2028: Final submissions</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Food Quality and Preference]]></title>
             <link>https://kerostig.org/call/elsevier-eurosense-2026/</link>
@@ -1346,9 +1429,9 @@
     
     
     
-    <p>Entrepreneurial ecosystems are essential for economic growth, yet research has predominantly focused on developed economies and urban contexts. This special issue seeks to address the underrepresentation of emerging economy research by examining entrepreneurial ecosystems across Africa, Asia, South America, and other developing regions. The issue recognizes that emerging economies face distinct challenges including weak institutions, high uncertainty, limited market sizes, and infrastructure gaps that fundamentally shape how ecosystems develop and function differently than in advanced economies.</p>
+    <p>This special issue addresses entrepreneurial ecosystems in emerging economies, where new ventures face distinctive obstacles including institutional weakness, high uncertainty, and limited market access. While research on entrepreneurial ecosystems has expanded significantly, most studies focus on developed nations, leaving a knowledge gap about how these ecosystems function in the Global South and other emerging regions.</p>
     
-    <p>The special issue invites research that balances Global North and Global South perspectives, examines ecosystem temporality and evolution, applies systems thinking to understand broader societal impacts, considers multi-level interactions from individual to macro levels, and explores how digitalization uniquely affects emerging economy contexts. Contributors are encouraged to investigate governmental initiatives like Startup Chile and Startup India and to address how entrepreneurial ecosystems can support sustainable development and circular economy practices in developing regions.</p>
+    <p>The call welcomes research that balances Global North and Global South perspectives, examines ecosystem emergence and development over time, applies systems thinking, and investigates how digitalization shapes entrepreneurial activity in resource-constrained contexts. Contributors are encouraged to explore how entrepreneurial ecosystems address institutional voids, support different types of entrepreneurs, and contribute to sustainable development goals.</p>
     
     <p>
         Appel publié par Strategic Entrepreneurship Journal.
@@ -1361,33 +1444,49 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>How entrepreneurial ecosystems emerge, develop and evolve over time in emerging economies compared to advanced economies</li>
+        <li>EE emergence and development in emerging economies</li>
         
-        <li>The role of local and national culture in shaping entrepreneurial ecosystems across different contexts</li>
+        <li>EE dynamics and evolution</li>
         
-        <li>How entrepreneurial ecosystems support refugees, diasporan and returnee entrepreneurs</li>
+        <li>EE orchestration, governance and brokering</li>
         
-        <li>The role of local and international venture funding instruments in emerging economies&#39; entrepreneurial ecosystems</li>
+        <li>Digital affordances and digitalization</li>
         
-        <li>Lifecycles and temporal structures of entrepreneurial ecosystems in emerging economies</li>
+        <li>EE metrics and measures</li>
         
-        <li>Historical perspectives on entrepreneurial ecosystems and the impact of historical events on their emergence</li>
+        <li>Valley of Death gaps</li>
         
-        <li>Systems approaches to entrepreneurial ecosystems and their co-evolution with other structures</li>
+        <li>Institutional and infrastructure challenges</li>
         
-        <li>How entrepreneurial ecosystems impact society beyond economic benefits</li>
+        <li>Resource constraints in emerging economies</li>
         
-        <li>Building blocks of sustainable and resilient entrepreneurial ecosystems</li>
+        <li>EE lifecycle and temporality</li>
         
-        <li>Policy effectiveness in supporting entrepreneurial ecosystems in emerging economies</li>
+        <li>Multi-level analysis of ecosystems</li>
         
-        <li>Multi-level analysis of interactions between individual, organizational and ecosystem levels</li>
+        <li>Systems perspective on EE</li>
         
-        <li>Institutional distrust, corruption and their influence on ecosystem orchestration</li>
+        <li>Sustainability and resilience of EE</li>
         
-        <li>How digitalization and digital technologies shape emergent forms of ecosystems in emerging economies</li>
+        <li>Policy effectiveness for EE support</li>
         
-        <li>Digital technologies and infrastructures transforming the geography of entrepreneurship in emerging economies</li>
+        <li>Global North and Global South perspectives</li>
+        
+        <li>Refugee and diaspora entrepreneurship</li>
+        
+        <li>Venture funding instruments and diaspora remittances</li>
+        
+        <li>Circular economy and EE</li>
+        
+        <li>Regenerative business practices</li>
+        
+        <li>Social impact and vulnerable communities</li>
+        
+        <li>Digital technology effects on EE</li>
+        
+        <li>Computer science methods for ecosystem analysis</li>
+        
+        <li>Geography of entrepreneurship</li>
         
     </ul>
     
@@ -1395,7 +1494,9 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>April 30, 2027: Submission deadline</li>
+        <li>January 30, 2027: Submission window opens</li>
+        
+        <li>April 30, 2027: Full paper submission deadline</li>
         
     </ul>
     
@@ -1432,12 +1533,14 @@
     
     
     
-    <p>This special issue examines how entrepreneurial firms navigate systematic disruption in international markets. Rather than treating disruption as temporary shocks, the issue positions continuous, cascading disruptions—including geopolitical tensions, technological change, regulatory fragmentation, and supply chain disruption—as the permanent operating environment for internationally active ventures. The challenge is to understand how these firms adapt their internationalization strategies, timing, and value creation approaches when traditional market entry logic and past experience no longer provide guidance.</p>
+    <p>This special issue examines how entrepreneurial firms internationalize amid systemic disruptions from geopolitical, technological, and institutional shocks. Rather than treating disruption as occasional crisis, it positions persistent turbulence as the default operating condition reshaping how ventures compete globally. The focus shifts from traditional questions about early entry timing to how firms adapt, survive, and reconfigure while designing new competitive advantages.</p>
+    
+    <p>The call seeks research integrating strategy, international business, entrepreneurship, and innovation to understand how entrepreneurial agency interacts with systemic shocks. It invites theoretical and empirical work examining strategic reconfiguration, dynamic capabilities, and knowledge mobility in fragmented global contexts, investigating how ventures develop dexterity, orchestrate cross-border relationships and digital infrastructures, navigate regulatory complexity, and build resilience amid technological volatility and geopolitical realignment.</p>
     
     <p>
         Appel publié par Strategic Entrepreneurship Journal.
         
-        <a href="https://sms.onlinelibrary.wiley.com/hub/call-for-papers/sej-international-entrepreneurship">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://sms.onlinelibrary.wiley.com/hub/call-for-papers/sej-international-entrepreneurship">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/wiley-strategic-entrepreneurship-journal-international-entrepreneurship-in-an-age-of-persistent-disruption/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -1445,35 +1548,39 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>How do geopolitical bifurcation and regulatory fragmentation reshape opportunity structures for entrepreneurial internationalization?</li>
+        <li>Geopolitical bifurcation and regulatory fragmentation</li>
         
-        <li>How do entrepreneurial firms experiment with and strategically recalibrate the timing of internationalization in response to unfolding disruptions? Do timing choices and decision rules differ between gradual and sudden disruptions?</li>
+        <li>Timing and sequencing of internationalization</li>
         
-        <li>What are emerging forms of temporary, relational, or ecosystem-based advantage in turbulent environments for entrepreneurial firms that internationalize?</li>
+        <li>Temporary, relational, and ecosystem-based advantage</li>
         
-        <li>How do the new realities of the global marketplace impact entrepreneurial ventures&#39; foreign market entry modes, and how does this reshape competitive strategies and modes of competition?</li>
+        <li>Foreign market entry modes under disruption</li>
         
-        <li>How do internationally oriented entrepreneurial ventures develop and deploy forms of strategic dexterity to orchestrate heterogeneous resources, partners, and knowledge flows across fragmented and institutionally diverse global ecosystems?</li>
+        <li>Strategic dexterity and resource orchestration</li>
         
-        <li>How do digital infrastructures and interorganizational alliances reconfigure the sensing, seizing, and transforming capabilities and their microfoundations in IE, and how do these enablers shape the balance between agility and strategic control across borders?</li>
+        <li>Dynamic capabilities in fragmented global ecosystems</li>
         
-        <li>How do internationally active entrepreneurial ventures develop and deploy non-market and political capabilities to orchestrate resilience, legitimacy, and innovation within a polycentric, digitally mediated, and institutionally fragmented global order, and what strategic learning mechanisms enable effective navigation across world regions?</li>
+        <li>Digital infrastructures and interorganizational alliances</li>
         
-        <li>To what extent do dynamic capabilities retain relevance for entrepreneurial internationalization in contexts of heightened technological turbulence, geopolitical volatility, and ecosystemic interdependence?</li>
+        <li>Non-market and political capabilities</li>
         
-        <li>How do internationally active entrepreneurial firms strategically orchestrate cross-border knowledge creation, transfer, and protection in the face of increasingly restrictive IP regimes, data localization policies, and digital sovereignty constraints?</li>
+        <li>Cross-border knowledge creation and protection</li>
         
-        <li>How does the evolving mobility of talent, ideas, and digital capital under disruption reconfigure the spatial and cognitive geographies of international entrepreneurial ecosystems and innovation hotspots, and with what implications for business model innovation and evolution?</li>
+        <li>Talent and digital capital mobility</li>
         
-        <li>What governance mechanisms enable IE firms to build trust, coordinate value creation, and protect IP across fragmented institutional contexts?</li>
+        <li>Location strategy and geopolitical safe zones</li>
         
-        <li>How is the strategic logic of international location and embeddedness evolving for entrepreneurial firms amid digital virtualization, geopolitical realignment, and shifting global value networks?</li>
+        <li>Business model innovation in disrupted contexts</li>
+        
+        <li>Entrepreneurial judgment under persistent turbulence</li>
         
     </ul>
     
     
     <h2>Timeline</h2>
     <ul>
+        
+        <li>January 1, 2027: Submission window opens</li>
         
         <li>March 31, 2027: Submission deadline</li>
         
@@ -1512,12 +1619,14 @@
     
     
     
-    <p>This special issue examines how entrepreneurial judgment operates within ecosystems involving multiple stakeholders rather than individual entrepreneurs or single firms. While entrepreneurial judgment under uncertainty has traditionally been studied at the individual or firm level, modern entrepreneurship increasingly unfolds through collaborations, alliances, and digital ecosystems where judgment must be communicated, coordinated, and governed among various actors. The issue seeks to advance understanding of ecosystem governance mechanisms and how judgment is mobilized and exploited to support cooperation, competition, and innovation.</p>
+    <p>This special issue examines how entrepreneurial judgment operates within modern business ecosystems rather than in isolation. While prior research has focused on individual decision-making and single firms, contemporary entrepreneurship involves complex collaborations, alliances, and digital platforms where multiple stakeholders must coordinate their judgments under uncertainty. The issue seeks to understand how entrepreneurs communicate their private and tacit knowledge to ecosystem participants, and how various governance arrangements facilitate or hinder this coordination.</p>
+    
+    <p>The guest editors invite submissions that bridge entrepreneurship, strategy, and organizational research to explore the mechanisms through which judgment is mobilized, organized, and exploited across ecosystem actors. Key questions include how entrepreneurs convey tacit judgment while managing risks of knowledge leakage, how ecosystem governance structures affect stakeholder coordination, and whether heterogeneous judgments can outperform consensus-based decision-making. The issue aims to consolidate fragmented literature across disciplines into a cohesive multilevel research agenda.</p>
     
     <p>
         Appel publié par Strategic Entrepreneurship Journal.
         
-        <a href="https://sms.onlinelibrary.wiley.com/hub/call-for-papers/smj-judgment-ecosystems">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://sms.onlinelibrary.wiley.com/hub/call-for-papers/smj-judgment-ecosystems">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/wiley-strategic-entrepreneurship-journal-mobilizing-organizing-and-exploiting-entrepreneurial-judgment-within-ecosystems/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -1525,15 +1634,15 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Communicating tacit judgment in ecosystems</li>
+        <li>Communicating tacit entrepreneurial judgment in ecosystems</li>
         
-        <li>Governance and orchestration mechanisms in entrepreneurial ecosystems</li>
+        <li>Ecosystem governance and orchestration mechanisms</li>
         
-        <li>Partial communicability and protection of entrepreneurial knowledge</li>
+        <li>Partial communicability and knowledge protection in collaboration</li>
         
-        <li>Distributed judgment and performance across multiple stakeholders</li>
+        <li>Distributed judgment and performance in ecosystems</li>
         
-        <li>Ecosystem dynamics, maturity and role structure</li>
+        <li>Ecosystem dynamics and role structure</li>
         
         <li>AI and decision-support tools in entrepreneurial ecosystems</li>
         
@@ -1543,7 +1652,9 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>March 1, 2027: Deadline for full paper submissions</li>
+        <li>January 1, 2027: Submission window opens</li>
+        
+        <li>March 1, 2027: Full paper submission deadline</li>
         
     </ul>
     
@@ -1552,128 +1663,6 @@
     <ul>
         
         <li><strong>Peter Klein</strong>, Baylor University</li>
-        
-    </ul>
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Resource Orchestration for Competitive Advantage In Family Firms: Leveraging Financial And Non-Financial Resources]]></title>
-            <link>https://kerostig.org/call/wiley-strategic-entrepreneurship-journal-resource-orchestration-for-competitive-advantage-in-family-firms-leveraging-financial-and-non-financial-resources/</link>
-            <guid>wiley-strategic-entrepreneurship-journal-resource-orchestration-for-competitive-advantage-in-family-firms-leveraging-financial-and-non-financial-resources</guid>
-            <pubDate>Sun, 27 Sep 2026 11:46:29 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>R. Duane Ireland</strong>, Texas A&amp;M University</p>
-        
-        <p><strong>Francesco Chirico</strong>, Macquarie University</p>
-        
-        <p><strong>Melissa E. Graebner</strong>, University of Illinois</p>
-        
-        <p><strong>Luis R. Gómez-Mejía</strong>, Arizona State University</p>
-        
-        <p><strong>Daniel Pittino</strong>, Jonkoping University</p>
-        
-    
-    
-    
-    <p>Family firms differ from non-family firms in their resource portfolios and resource orchestration processes, particularly regarding how they integrate financial and non-financial resources. Resource orchestration comprises three interconnected processes—structuring, bundling, and leveraging—that enable firms to build and deploy capabilities for competitive advantage. Family firms face unique challenges because family members often incorporate both financial and non-financial utilities into strategic decisions, with socioemotional wealth playing a central role in preserving family control, emotional attachment, social ties, and intergenerational continuity.</p>
-    
-    <p>
-        Appel publié par Strategic Entrepreneurship Journal.
-        
-        <a href="https://sms.onlinelibrary.wiley.com/hub/call-for-papers/sej-competitive-advantage-in-family-firms">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/wiley-strategic-entrepreneurship-journal-resource-orchestration-for-competitive-advantage-in-family-firms-leveraging-financial-and-non-financial-resources/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>How family firms accumulate, acquire, and divest socioemotional resources across generations</li>
-        
-        <li>How financial resources facilitate or constrain the structuring of non-financial resources in family firms</li>
-        
-        <li>Mechanisms for balancing socioemotional wealth with financial growth imperatives in resource structuring</li>
-        
-        <li>Resource structuring differences between family-based start-ups and established family firms</li>
-        
-        <li>How family firms combine financial and non-financial resources to create unique capabilities like innovation and resilience</li>
-        
-        <li>Differences in bundling processes (stabilization, enrichment, pioneering) for capability development in family firms</li>
-        
-        <li>How emotional attachment and identity shape family firms&#39; ability to adapt capabilities in dynamic markets</li>
-        
-        <li>How family-based founders can develop skills for effective resource bundling</li>
-        
-        <li>How family firms deploy non-financial resources to create value</li>
-        
-        <li>Influence of socioemotional wealth on family firms&#39; interactions with non-family stakeholders (employees, investors, regulators)</li>
-        
-        <li>Role of socioemotional wealth in navigating financial crises and external shocks</li>
-        
-        <li>How long-term orientation helps family firms manage risks associated with disruptive innovation</li>
-        
-        <li>Roles of entrepreneurial passion and legacy preservation in family firms&#39; leveraging choices</li>
-        
-        <li>Advantages and disadvantages of founders and founding team members in the leveraging process</li>
-        
-        <li>How family firms should engage in simultaneous opportunity- and advantage-seeking behaviors in strategic entrepreneurship</li>
-        
-        <li>Governance structures that support family firms&#39; use of strategic entrepreneurship</li>
-        
-        <li>Balance between opportunity-seeking and advantage-seeking behaviors in family firms</li>
-        
-        <li>Whether non-financial logic and socioemotional wealth function as strategic resources for strategic entrepreneurship</li>
-        
-        <li>Role of legacy in family firms&#39; engagement with strategic entrepreneurship</li>
-        
-        <li>Stakeholder enrollment&#39;s role in family firms&#39; resource acquisition for strategic entrepreneurship</li>
-        
-        <li>Implications of succession and ownership transfers on family firms&#39; strategic entrepreneurship</li>
-        
-        <li>Structures supporting founders&#39; and founding teams&#39; decisions to use strategic entrepreneurship for family-based start-ups</li>
-        
-        <li>Optimal combinations of identity, justice, and nepotism dimensions for maximizing resource orchestration and strategic entrepreneurship value</li>
-        
-        <li>How different governance structures shape family firms&#39; resource structuring, bundling, and leveraging decisions</li>
-        
-        <li>Conditions under which dual focus on financial and non-financial objectives results in path dependency versus sustainable innovation</li>
-        
-        <li>How socioemotional wealth helps build legitimacy in heterogeneous family firms</li>
-        
-        <li>Implications of digitalization and artificial intelligence for orchestrating financial and non-financial resources</li>
-        
-        <li>Whether founders can rely on AI for launching family-based start-ups</li>
-        
-        <li>Challenges family firms face in integrating AI-driven efficiency with non-financial-driven resource orchestration</li>
-        
-        <li>Role of AI in fostering or disrupting intergenerational continuity</li>
-        
-        <li>How family firms balance AI objectivity with subjectivity inherent in socioemotional wealth-based decision-making</li>
-        
-        <li>How family firms can leverage digitalization and AI to preserve and enhance socioemotional wealth resources and authenticity</li>
-        
-        <li>Risks that digitalization poses to socioemotional wealth</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 1, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-    <h2>Associate editors</h2>
-    <ul>
-        
-        <li><strong>David Sirmon</strong>, University of Washington</li>
         
     </ul>
     
@@ -2716,14 +2705,16 @@
     
     
     
-    <p>Supply chains face escalating disruptions from climate change, geopolitical instability, pandemics, and regulatory pressures, while stakeholders increasingly demand sustainable and ethical practices. Digital technologies such as AI, blockchain, IoT, and advanced analytics are transforming supply chain operations by enhancing visibility and enabling data-driven decision-making that can address both resilience and sustainability goals.</p>
+    <p>Supply chains face mounting pressures from climate change, geopolitical tensions, and pandemic risks, while stakeholders demand greater sustainability. Digital technologies like artificial intelligence and blockchain offer solutions for enhancing visibility and improving environmental and social outcomes.</p>
     
-    <p>This special issue seeks to explore how digital innovation integrates sustainability and resilience in supply chains while identifying gaps between current research and practice. Contributions should address theoretical and empirical questions about when and how technologies support or constrain environmental and social performance, considering contextual factors like institutional environments and geopolitical dynamics, as well as emerging issues such as circular economy transitions and sovereign artificial intelligence.</p>
+    <p>The integration of digital innovation with sustainability and resilience strategies enables supply chains to reduce systemic risks while strengthening their ability to recover from disruptions. However, significant gaps remain in understanding how these technologies influence ESG performance and interact with contextual factors.</p>
+    
+    <p>This special issue seeks high-quality contributions exploring how digital and emerging technologies enable or constrain sustainable, resilient, and regenerative supply chain strategies, offering theoretical insights and practical implications for researchers, practitioners, and policymakers.</p>
     
     <p>
         Appel publié par The International Journal of Logistics Management.
         
-        <a href="https://www.emerald.com/ijlm/calls-for-submissions/1979/Harnessing-Technological-Innovation-for-Managing?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://www.emerald.com/ijlm/calls-for-submissions/1979/Harnessing-Technological-Innovation-for-Managing?searchresult=1">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/emerald-harnessing-technological-innovation-for-managing-volatility-and-advancing-sustainable-and-regenerative-supply-chains/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -2731,31 +2722,31 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Emerging digital technologies (e.g., AI, IoT, blockchain) for sustainability and resilience in supply chain management</li>
+        <li>Emerging digital technologies for sustainability and resilience in supply chain management</li>
         
-        <li>Data-driven decarbonisation strategies and emissions transparency in logistics management</li>
+        <li>Data-driven decarbonisation strategies and emissions transparency</li>
         
-        <li>Digital enablers of circular supply chains, reverse logistics, and closed-loop systems</li>
+        <li>Digital enablers of circular supply chains and closed-loop systems</li>
         
-        <li>Digital transformation, resilience, and sustainable supply chain risk management</li>
+        <li>Digital transformation and sustainable supply chain risk management</li>
         
-        <li>Technology-enabled supply chain resilience capabilities and competitive advantage</li>
+        <li>Technology-enabled supply chain resilience capabilities</li>
         
-        <li>Blockchain-based traceability, transparency, and ethical sourcing in supply chain management</li>
+        <li>Blockchain-based traceability and ethical sourcing</li>
         
         <li>Digital product passports and lifecycle data integration</li>
         
-        <li>Governance, ethics, data integrity, and cybersecurity in digital supply chain management</li>
+        <li>Governance, ethics, data integrity, and cybersecurity in digital supply chains</li>
         
-        <li>Institutional and regulatory influences on technology-led sustainability initiatives in supply chain management</li>
+        <li>Institutional and regulatory influences on technology-led sustainability</li>
         
-        <li>Digital platforms for supplier sustainability assessment and collaboration</li>
+        <li>Digital platforms for supplier sustainability assessment</li>
         
-        <li>Techno-nationalism, sovereign AI, and implications for managing global supply chains</li>
+        <li>Techno-nationalism and sovereign AI in global supply chains</li>
         
-        <li>Theoretical perspectives on technology-sustainability-resilience linkages in supply chain management</li>
+        <li>Technology-sustainability-resilience linkages theory</li>
         
-        <li>Integrating theory and practice in technology-led regenerative practices in supply chains</li>
+        <li>Regenerative practices in supply chains</li>
         
     </ul>
     
@@ -2852,11 +2843,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Tony Fang</strong>, Memorial University of Newfoundland</p>
+        
+        <p><strong>Jennifer A. Harrison</strong>, EM Normandie</p>
+        
+        <p><strong>Fei Song</strong>, Toronto Metropolitan University</p>
+        
+        <p><strong>Mingwei Liu</strong>, Rutgers University</p>
+        
     
     
-    <p>Generative AI is being increasingly integrated into workplace processes and career development, reshaping how tasks are executed and decisions are made. This presents significant questions about productivity measurement, particularly as work increasingly involves collaboration between humans and AI systems rather than purely human effort.</p>
     
-    <p>When humans and AI systems work together to produce outputs, it becomes challenging to determine what portion of results comes from human contribution versus AI assistance. This fundamental issue means that traditional concepts of productivity may no longer adequately capture work performance in AI-augmented contexts. The special issue seeks research that reconceptualizes how productivity should be defined and measured when human-AI collaboration is involved, with attention to career implications and organizational factors that influence these dynamics.</p>
+    <p>Generative AI is being rapidly integrated into workplace systems and HR processes, fundamentally reshaping how work is performed and productivity should be understood. The collaboration between humans and AI systems in task completion creates new challenges for measuring and attributing productivity outcomes, as traditional assumptions about performance metrics and human effort become outdated in AI-augmented contexts.</p>
+    
+    <p>This special issue seeks research that reconsiders how productivity is conceptualized, measured, and compared when work involves human-AI collaboration. The call invites studies examining the distinction between AI adoption and actual use, the distribution of performance effects across different worker groups, implications for career development and employability, and the organizational and HR factors that influence AI-augmented productivity. Methodological contributions exploring innovative approaches to studying these phenomena are also welcomed.</p>
     
     <p>
         Appel publié par Personnel Review.
@@ -2875,13 +2876,13 @@
         
         <li>Measuring human versus AI contributions to outputs and performance</li>
         
-        <li>Changes in the distribution of performance (e.g., effects on high and lower performers)</li>
+        <li>Changes in the distribution of performance</li>
         
         <li>Implications of GenAI for skill development, career trajectories, and employability</li>
         
-        <li>The role of HR practices, job design, and organizational context in shaping productivity related to AI</li>
+        <li>HR practices, job design, and organizational context in shaping AI productivity</li>
         
-        <li>Methodological approaches to studying AI and work (e.g., multi-source data, longitudinal designs, behavioral, other types of data)</li>
+        <li>Methodological approaches to studying AI and work</li>
         
     </ul>
     
@@ -2909,9 +2910,9 @@
     
     
     
-    <p>This special issue examines how supply chains can better support Africa&#39;s sustainable development by strengthening resilience to disruptions, promoting inclusivity for local communities, and harnessing digital technologies including artificial intelligence. The collection seeks interdisciplinary contributions from academics, practitioners, and policymakers addressing digital transformation, risk management, sustainability, and sector-specific applications in areas like healthcare and agribusiness.</p>
+    <p>This special issue examines how supply chains can advance sustainable development across Africa by integrating resilience, inclusivity, and digital innovation. The focus encompasses strategies to manage disruptions in volatile environments, approaches to include SMEs and local communities in value chains, and the application of artificial intelligence and data-driven technologies to enhance efficiency and transparency.</p>
     
-    <p>The issue emphasizes rigorous, peer-reviewed research that combines theoretical rigor with practical insights, fosters collaboration across disciplines, and identifies best practices and innovative frameworks for building robust and equitable supply chain systems across Africa.</p>
+    <p>The issue welcomes rigorous, peer-reviewed contributions from academics, practitioners, and policymakers addressing digital transformation, risk management, sustainability, and sector-specific applications in healthcare and agribusiness. The goal is to develop equitable, robust supply chain systems that support Africa&#39;s sustainable development objectives.</p>
     
     <p>
         Appel publié par The International Journal of Logistics Management.
@@ -2924,15 +2925,15 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Building resilient and risk-responsive supply chains: Examining strategies for managing disruptions, strengthening adaptive capacity, and improving crisis preparedness in volatile and resource-constrained environments.</li>
+        <li>Building resilient and risk-responsive supply chains</li>
         
-        <li>Inclusive supply chain models for local economic participation: Investigating approaches that integrate SMEs, informal sectors, and local communities into value chains to promote equitable development.</li>
+        <li>Inclusive supply chain models for local economic participation</li>
         
-        <li>Sustainable and green supply chain practices: Analysing environmentally responsible logistics, circular economy approaches, and sustainable production and consumption systems across key African sectors.</li>
+        <li>Sustainable and green supply chain practices</li>
         
-        <li>Artificial intelligence and digital transformation in African supply chains: Exploring AI, data-driven decision-making, and digital platforms to enhance efficiency, transparency, and responsiveness in supply chain operations.</li>
+        <li>Artificial intelligence and digital transformation in African supply chains</li>
         
-        <li>Sector-specific innovations in critical industries: Focusing on applications in healthcare, agribusiness, and other strategic sectors to demonstrate context-specific solutions for development impact.</li>
+        <li>Sector-specific innovations in critical industries</li>
         
     </ul>
     
@@ -6433,55 +6434,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Generative AI and Data Envelopment Analysis for Performance Measurement and Public Value]]></title>
-            <link>https://kerostig.org/call/elsevier-generative-ai-and-data-envelopment-analysis-for-performance-measurement-and-public-value/</link>
-            <guid>elsevier-generative-ai-and-data-envelopment-analysis-for-performance-measurement-and-public-value</guid>
-            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This special issue explores the intersection of generative artificial intelligence and data envelopment analysis as tools for measuring organizational performance and creating public value. The collection seeks research that demonstrates how these technologies can enhance performance evaluation methodologies and provide insights into efficiency across various sectors, particularly in public organizations where value creation extends beyond traditional financial metrics.</p>
-    
-    <p>
-        Appel publié par Socio-Economic Planning Sciences.
-        
-        <a href="https://www.sciencedirect.com/special-issue/329460/generative-ai-and-data-envelopment-analysis-for-performance-measurement-and-public-value">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-generative-ai-and-data-envelopment-analysis-for-performance-measurement-and-public-value/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Applications of generative AI in performance measurement</li>
-        
-        <li>Data Envelopment Analysis (DEA) methodologies</li>
-        
-        <li>Public value creation and assessment</li>
-        
-        <li>Integration of AI and DEA techniques</li>
-        
-        <li>Performance evaluation in public sector organizations</li>
-        
-        <li>Efficiency measurement using advanced analytics</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 1, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Governing Artificial Intelligence Use in Business Education: Risk and Prevention]]></title>
             <link>https://kerostig.org/call/elsevier-governing-artificial-intelligence-use-in-business-education-risk-and-prevention/</link>
             <guid>elsevier-governing-artificial-intelligence-use-in-business-education-risk-and-prevention</guid>
@@ -6875,6 +6827,38 @@
     <ul>
         
         <li>September 30, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Issues and Use of Rare Earth Elements in Energy Transition]]></title>
+            <link>https://kerostig.org/call/elsevier-issues-and-use-of-rare-earth-elements-in-energy-transition/</link>
+            <guid>elsevier-issues-and-use-of-rare-earth-elements-in-energy-transition</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue focuses on the challenges and applications of rare earth elements within the context of energy transition. The call invites research exploring the various dimensions of rare earth element utilization as societies shift toward sustainable energy systems.</p>
+    
+    <p>
+        Appel publié par Resources Policy.
+        
+        <a href="https://www.sciencedirect.com/special-issue/314584/issues-and-use-of-rare-earth-elements-in-energy-transition">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-issues-and-use-of-rare-earth-elements-in-energy-transition/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>June 30, 2026: Submission deadline</li>
         
     </ul>
     
@@ -7476,6 +7460,38 @@
     <ul>
         
         <li>December 15, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Technology-enhanced learning in developing countries: the impact on entrepreneurial education and innovation]]></title>
+            <link>https://kerostig.org/call/elsevier-technology-enhanced-learning-in-developing-countries-the-impact-on-entrepreneurial-education-and-innovation/</link>
+            <guid>elsevier-technology-enhanced-learning-in-developing-countries-the-impact-on-entrepreneurial-education-and-innovation</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue explores how technology-enhanced learning affects entrepreneurial education and innovation in developing countries. The journal invites research examining the intersection of digital tools, entrepreneurial learning, and economic development in contexts with limited resources.</p>
+    
+    <p>
+        Appel publié par Socio-Economic Planning Sciences.
+        
+        <a href="https://www.sciencedirect.com/special-issue/324294/technology-enhanced-learning-in-developing-countries-the-impact-on-entrepreneurial-education-and-innovation">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-technology-enhanced-learning-in-developing-countries-the-impact-on-entrepreneurial-education-and-innovation/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>August 31, 2026: Submission deadline</li>
         
     </ul>
     
@@ -9065,12 +9081,16 @@
         
         <p><strong>Maria Hameed Khan</strong>, Queensland University of Technology</p>
         
+        <p><strong>Maria Mouratidou</strong>, Liverpool John Moores University</p>
+        
     
     
     
-    <p>This special issue addresses the conceptual distinctions and interconnections among meaning, meaningfulness, and purpose in work contexts. While these three concepts are central to major career theories and essential for worker wellbeing and career sustainability, they often remain poorly differentiated in research literature. The issue seeks to clarify how meaning relates to personal value interpretations, meaningfulness to emotional fulfillment and engagement, and purpose to long-term direction and self-transcendent goals.</p>
+    <p>This special issue addresses the interconnected but distinct concepts of meaning, meaningfulness, and purpose in work contexts. The call recognizes that while multiple career theories incorporate meaning-related dimensions, these concepts remain closely intertwined and often used interchangeably, creating conceptual confusion. The editors aim to clarify how meaning relates to personal interpretations and values, meaningfulness to emotional fulfillment and engagement, and purpose to long-term direction and aspirations.</p>
     
-    <p>The special issue invites empirical and theoretical contributions exploring how individuals find fulfillment, alignment, and direction through their work across different occupations and life contexts. Research should examine the interplay between these constructs and their implications for sustainable careers, decent work, and human flourishing in an evolving work landscape.</p>
+    <p>The special issue seeks theoretical and empirical contributions that advance understanding of how people derive significance from their work and what sustains fulfillment over time. The focus is on positive impact and purposeful work rather than career success generally, with the goal of integrating these dimensions into a comprehensive framework for understanding human fulfillment at work.</p>
+    
+    <p>The call welcomes submissions from researchers worldwide examining how work aligns with values, provides decent conditions, interacts with technology and life roles, enables calling and transcendent goals, and sustains meaning across careers.</p>
     
     <p>
         Appel publié par Career Development International.
@@ -9095,25 +9115,13 @@
         
         <li>Sustaining purpose and meaning over time</li>
         
-        <li>Meaning of work</li>
-        
-        <li>Meaningful work</li>
-        
-        <li>Purpose of work</li>
-        
-        <li>Decent work</li>
-        
-        <li>Sustainable Careers</li>
-        
     </ul>
     
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>September 1, 2026: Opening date for manuscripts submissions</li>
-        
-        <li>March 1, 2027: Submission window</li>
+        <li>February 1, 2027: Opening date for manuscripts submissions</li>
         
         <li>March 1, 2027: Closing date for manuscripts submission</li>
         
@@ -14604,61 +14612,6 @@
         <li>November 1, 2026: Submission window opens</li>
         
         <li>December 31, 2026: Full manuscript submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Biodiversity risk and the financial markets]]></title>
-            <link>https://kerostig.org/call/wiley-biodiversity-risk-and-the-financial-markets/</link>
-            <guid>wiley-biodiversity-risk-and-the-financial-markets</guid>
-            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Brian Lucey</strong>, Trinity College Dublin</p>
-        
-    
-    
-    
-    <p>Biodiversity loss and degradation pose significant but often overlooked threats to global financial stability, comparable to or potentially exceeding climate-related risks. These risks manifest through both physical disruptions to business operations and transition risks from economic adjustments needed to address biodiversity loss. Financial institutions, including banks, asset managers, and insurers, are exposed to these nature-related risks primarily through their investments, loans, and insurance policies to companies and households.</p>
-    
-    <p>A growing body of research is quantifying biodiversity risk exposures at both individual and systemic levels, with recent work examining how financial markets price corporate debt and how biodiversity risk affects financial stability. This special issue seeks cross-disciplinary contributions from researchers, practitioners, and policymakers addressing how biodiversity risk impacts the financial system and individual financial actors, including topics such as financial system mapping, debt pricing mechanisms, instrument incorporation, and regulatory frameworks around biodiversity exposure.</p>
-    
-    <p>
-        Appel publié par Financial Markets Institutions and Instruments.
-        
-        <a href="https://onlinelibrary.wiley.com/page/journal/14680416/call-for-papers/biodiversity-risk">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/wiley-biodiversity-risk-and-the-financial-markets/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Mapping biodiversity risk at the financial system level</li>
-        
-        <li>The role of biodiversity risk and exposure in corporate debt demand decisions</li>
-        
-        <li>How, if, financial institutions and markets price corporate debt in the presence of biodiversity exposure</li>
-        
-        <li>Incorporating biodiversity risk and exposure into financial instruments</li>
-        
-        <li>Regulatory and voluntary measures around biodiversity risk and exposure at the corporate level and how these impact on corporate financial decision making</li>
-        
-        <li>Biodiversity washing and biodiversity shifting in the presence of biodiversity-related financial instrument pricing</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 1, 2026: Submission deadline</li>
         
     </ul>
     
@@ -29717,36 +29670,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[From Understanding to Impact: Evidence-Based Entrepreneurial Interventions]]></title>
-            <link>https://kerostig.org/call/elsevier-from-understanding-to-impact-evidence-based-entrepreneurial-interventions/</link>
-            <guid>elsevier-from-understanding-to-impact-evidence-based-entrepreneurial-interventions</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>
-        Appel publié par Journal of Business Venturing.
-        
-        <a href="https://www.sciencedirect.com/special-issue/324335/from-understanding-to-impact-evidence-based-entrepreneurial-interventions">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-from-understanding-to-impact-evidence-based-entrepreneurial-interventions/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 1, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Generative AI-Empowered Knowledge Management Systems for Sustainable Governance]]></title>
             <link>https://kerostig.org/call/elsevier-generative-ai-empowered-knowledge-management-systems-for-sustainable-governance/</link>
             <guid>elsevier-generative-ai-empowered-knowledge-management-systems-for-sustainable-governance</guid>
@@ -30292,6 +30215,38 @@
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Impact on policy, industry and society]]></title>
+            <link>https://kerostig.org/call/elsevier-impact-on-policy-industry-and-society-jointly-established-by-annals-of-tourism-research-and-annals-of-tourism-research-empirical-insights/</link>
+            <guid>elsevier-impact-on-policy-industry-and-society-jointly-established-by-annals-of-tourism-research-and-annals-of-tourism-research-empirical-insights</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue is jointly established by Annals of Tourism Research and Annals of Tourism Research Empirical Insights.</p>
+    
+    <p>
+        Appel publié par Annals of Tourism Research.
+        
+        <a href="https://www.sciencedirect.com/special-issue/325172/impact-on-policy-industry-and-society-jointly-established-by-annals-of-tourism-research-and-annals-of-tourism-research-empirical-insights">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-impact-on-policy-industry-and-society-jointly-established-by-annals-of-tourism-research-and-annals-of-tourism-research-empirical-insights/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>August 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Improving productivity in health care]]></title>
             <link>https://kerostig.org/call/elsevier-improving-productivity-in-health-care/</link>
             <guid>elsevier-improving-productivity-in-health-care</guid>
@@ -30526,6 +30481,116 @@
     <ul>
         
         <li>September 30, 2026: Full paper submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Large Language Models (LLMs) for Tourism and Tourists]]></title>
+            <link>https://kerostig.org/call/elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists/</link>
+            <guid>elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue invites submissions exploring the applications, implications, and innovations of Large Language Models (LLMs) in the tourism industry and for enhancing tourist experiences. The rapidly evolving landscape of artificial intelligence presents unprecedented opportunities and challenges for tourism stakeholders, from destination management organizations to hospitality providers to individual travelers.</p>
+    
+    <p>
+        Appel publié par Annals of Tourism Research.
+        
+        <a href="https://www.sciencedirect.com/special-issue/326025/joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Applications of LLMs in tourism management and operations</li>
+        
+        <li>LLMs for personalized tourist experiences and recommendations</li>
+        
+        <li>Natural language processing applications in tourism marketing</li>
+        
+        <li>LLMs for tourism chatbots and customer service</li>
+        
+        <li>Language translation and communication in tourism contexts</li>
+        
+        <li>LLMs for travel planning and itinerary generation</li>
+        
+        <li>Sentiment analysis and tourist feedback analysis using LLMs</li>
+        
+        <li>LLMs for tourism research and data analysis</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>August 31, 2026: Full paper submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Large Language Models (LLMs) for Tourism and Tourists]]></title>
+            <link>https://kerostig.org/call/elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2/</link>
+            <guid>elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue focuses on the applications and implications of Large Language Models (LLMs) in the tourism sector. We invite research exploring how LLMs can enhance tourist experiences, improve tourism service delivery, and support both tourism businesses and individual travelers. The issue welcomes empirical studies, theoretical frameworks, case studies, and critical analyses of LLM technologies in tourism contexts.</p>
+    
+    <p>
+        Appel publié par Information Processing &amp; Management.
+        
+        <a href="https://www.sciencedirect.com/special-issue/326025/joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Applications of LLMs in tourism industry</li>
+        
+        <li>LLMs for personalized tourist recommendations</li>
+        
+        <li>Natural language processing for tourism content</li>
+        
+        <li>Chatbots and virtual assistants in tourism</li>
+        
+        <li>Tourist information retrieval using LLMs</li>
+        
+        <li>Language translation for tourism</li>
+        
+        <li>Sentiment analysis of tourist reviews</li>
+        
+        <li>LLM-based travel planning and itinerary generation</li>
+        
+        <li>Multilingual tourism communication</li>
+        
+        <li>AI ethics in tourism applications</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>August 31, 2026: Submission deadline</li>
         
     </ul>
     
@@ -32109,6 +32174,36 @@
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Strategizing for Sustainable Business Model Innovation in the Digital Age]]></title>
+            <link>https://kerostig.org/call/elsevier-strategizing-for-sustainable-business-model-innovation-in-the-digital-age/</link>
+            <guid>elsevier-strategizing-for-sustainable-business-model-innovation-in-the-digital-age</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Long Range Planning.
+        
+        <a href="https://www.sciencedirect.com/special-issue/320118/strategizing-for-sustainable-business-model-innovation-in-the-digital-age">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-strategizing-for-sustainable-business-model-innovation-in-the-digital-age/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>August 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Studies of Auditing "On-the-Ground" in the Majority World]]></title>
             <link>https://kerostig.org/call/elsevier-studies-of-auditing-on-the-ground-in-the-majority-world/</link>
             <guid>elsevier-studies-of-auditing-on-the-ground-in-the-majority-world</guid>
@@ -32647,6 +32742,36 @@
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[The Future of Family Business Research: Featuring the work of emerging scholars]]></title>
+            <link>https://kerostig.org/call/elsevier-the-future-of-family-business-research-featuring-the-work-of-emerging-scholars/</link>
+            <guid>elsevier-the-future-of-family-business-research-featuring-the-work-of-emerging-scholars</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Journal of Family Business Strategy.
+        
+        <a href="https://www.sciencedirect.com/special-issue/325069/the-future-of-family-business-research-featuring-the-work-of-emerging-scholars">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-the-future-of-family-business-research-featuring-the-work-of-emerging-scholars/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>August 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[The Geopolitics of the Energy Transition – A European Perspective]]></title>
             <link>https://kerostig.org/call/elsevier-the-geopolitics-of-the-energy-transition-a-european-perspective/</link>
             <guid>elsevier-the-geopolitics-of-the-energy-transition-a-european-perspective</guid>
@@ -33022,6 +33147,36 @@
     <ul>
         
         <li>November 1, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Transforming Business Models Across Digital Platforms: Exploring the Role of Artificial Intelligence]]></title>
+            <link>https://kerostig.org/call/elsevier-transforming-business-models-across-digital-platforms-exploring-the-role-of-artificial-intelligence/</link>
+            <guid>elsevier-transforming-business-models-across-digital-platforms-exploring-the-role-of-artificial-intelligence</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>
+        Appel publié par Journal of Engineering and Technology Management.
+        
+        <a href="https://www.sciencedirect.com/special-issue/300007/transforming-business-models-across-digital-platforms-exploring-the-role-of-artificial-intelligence">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-transforming-business-models-across-digital-platforms-exploring-the-role-of-artificial-intelligence/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>February 15, 2025: Full paper submission deadline</li>
         
     </ul>
     
@@ -40538,12 +40693,14 @@
     
     
     
-    <p>At its core, supply chain risk management (SCRM) research has focused on identifying and assessing known and unknown risks, and on risk mitigation to derive and implement solutions that ensure supply will continue to meet demand during and after a disruptive event. However, supply chain disruptions have been escalating in recent years and revealed considerable complex vulnerabilities in how firms manage their global operations. Current SCRM strategies, theories, and frameworks are ill-equipped to address these vulnerabilities, despite years of experience and research.</p>
+    <p>Supply chain risk management traditionally assumes decision-makers are rational and risk-neutral, but practitioners operate under bounded rationality and cognitive biases, deviating from optimal choices when facing uncertainty. These behavioral deviations affect risk identification, assessment, and mitigation, yet existing theories fail to account for them, resulting in suboptimal strategies and reduced organizational efficiency.</p>
+    
+    <p>Current behavioral SCRM research focuses primarily on individual factors with limited exploration of how organizational and inter-organizational contexts shape behavior. This special issue examines behavioral issues across multiple analytical levels: individuals, organizations, and supply chain networks. The editors seek research that identifies limitations in existing theories or introduces innovative frameworks addressing SCRM complexities through interdisciplinary perspectives from psychology, organizational studies, and decision-making research.</p>
     
     <p>
         Appel publié par International Journal of Physical Distribution &amp; Logistics Management.
         
-        <a href="https://www.emerald.com/ijpdlm/calls-for-submissions/1716/From-Individuals-to-Organizations-Unpacking?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://www.emerald.com/ijpdlm/calls-for-submissions/1716/From-Individuals-to-Organizations-Unpacking?searchresult=1">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/emerald-from-individuals-to-organizations-unpacking-behavioral-issues-in-supply-chain-risk-management/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -40551,23 +40708,45 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>To what extent does strategic manipulation of information (withholding, distorting, or framing risk signals) affect collective supply chain resilience outcomes?</li>
+        <li>Behavioral supply chain risk management</li>
         
-        <li>How can behavioral theories explain inter-firm risk-sharing under uncertainty?</li>
+        <li>Decision-making biases in supply chain contexts</li>
         
-        <li>How can interdisciplinary (i.e. psychology, sociology) perspectives be used to explain multi-level intention action reaction dynamics in risk situations spanning individuals, organizations and supply chains?</li>
+        <li>Risk identification and assessment</li>
         
-        <li>How do individual decision-making styles aggregate into organizational risk cultures and capabilities?</li>
+        <li>Risk mitigation strategies</li>
         
-        <li>How do behavioral dynamics across levels (micro, macro, interorganizational) complement or contradict one another in shaping supply chain resilience?</li>
+        <li>Individual risk preferences and decision styles</li>
         
-        <li>What mechanisms explain how individual-level behaviors (e.g., bounded rationality, trust, or opportunism) cascade into network-level collaboration or conflict in supply chain risk management?</li>
+        <li>Organizational risk culture and appetite</li>
         
-        <li>What are the unintended consequences when human intuition and AI recommendations diverge in supply chain risk management decisions?</li>
+        <li>Inter-organizational power dynamics and dependencies</li>
         
-        <li>To what extent do fear appeals, regulatory pressures, or organizational risk cultures motivate or inhibit proactive cyber risk management?</li>
+        <li>Micro-level behavioral dynamics</li>
         
-        <li>How do disruptive technologies impact behavior?</li>
+        <li>Macro-level organizational decision-making</li>
+        
+        <li>Inter-organizational supply chain networks</li>
+        
+        <li>Information manipulation and risk signaling</li>
+        
+        <li>Inter-firm risk-sharing mechanisms</li>
+        
+        <li>Behavioral resilience and recovery</li>
+        
+        <li>AI and human decision-making in risk management</li>
+        
+        <li>Cyber risk management behavior</li>
+        
+        <li>Social conflict risks in supply chains</li>
+        
+        <li>Supplier-buyer relationship dynamics</li>
+        
+        <li>Technology adoption and behavioral change</li>
+        
+        <li>Bounded rationality in supply chains</li>
+        
+        <li>Trust and opportunism in supply networks</li>
         
     </ul>
     
@@ -40579,7 +40758,7 @@
         
         <li>April 15, 2026: Closing date for abstract submission</li>
         
-        <li>September 15, 2026: Closing date for manuscripts submission</li>
+        <li>November 15, 2026: Closing date for manuscripts submission</li>
         
     </ul>
     
@@ -42344,6 +42523,190 @@
         
     </ul>
     
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ethics, Regulation, and Policy: The Challenge to Institutions in the Digital Age]]></title>
+            <link>https://kerostig.org/call/misq-ethics-regulation-and-policy/</link>
+            <guid>misq-ethics-regulation-and-policy</guid>
+            <pubDate>Sat, 06 Dec 2025 03:16:37 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Stefan Seidel</strong>, University of Cologne</p>
+        
+        <p><strong>Nicholas Berente</strong>, University of Notre Dame</p>
+        
+        <p><strong>Hong Guo</strong>, Arizona State University</p>
+        
+        <p><strong>Wonseok Oh</strong>, Korea Advanced Institute of Science and Technology</p>
+        
+    
+    
+    
+    <p>Digital technologies and artificial intelligence are disrupting established institutional practices and creating significant ethical, regulatory, and policy challenges. Organizations and governments must navigate tensions between addressing risks associated with data privacy, algorithmic bias, and labor displacement while fostering innovation and competitiveness.</p>
+    
+    <p>The regulatory landscape is rapidly evolving through frameworks like the EU AI Act and GDPR to embed ethical protections. However, digital technologies operate at a pace that traditional regulatory approaches struggle to match, leading to novel mechanisms where technology itself serves as a tool for implementing and monitoring compliance.</p>
+    
+    <p>This special issue invites sociotechnical and information systems research examining how ethical concerns, regulatory requirements, and policy initiatives interact within organizational and institutional contexts. Studies should employ diverse methodologies to investigate governance practices, regulatory effectiveness, compliance mechanisms, and how emerging technologies address institutional challenges.</p>
+    
+    <p>
+        Appel publié par MIS Quarterly.
+        
+        <a href="https://misq.umn.edu/pages/call_for_papers_ethics_and_regulations">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/misq-ethics-regulation-and-policy/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Technology and AI ethics</li>
+        
+        <li>Data ethics</li>
+        
+        <li>Technology regulation</li>
+        
+        <li>AI regulation</li>
+        
+        <li>Data regulation</li>
+        
+        <li>Institutional governance</li>
+        
+        <li>Risk management</li>
+        
+        <li>Digital governance</li>
+        
+        <li>Sociotechnical perspectives</li>
+        
+        <li>Regulatory design</li>
+        
+        <li>Compliance and enforcement</li>
+        
+        <li>RegTech and SupTech</li>
+        
+        <li>Algorithmic regulation</li>
+        
+        <li>Organizational adaptation to regulation</li>
+        
+        <li>Data privacy and GDPR</li>
+        
+        <li>Responsible AI</li>
+        
+        <li>AI governance</li>
+        
+        <li>Sustainability and ESG</li>
+        
+        <li>Market regulation</li>
+        
+        <li>Self-regulation</li>
+        
+        <li>Legal technology</li>
+        
+        <li>Responsible data governance</li>
+        
+        <li>Bias and fairness in AI</li>
+        
+        <li>Algorithm accountability</li>
+        
+        <li>Labor and deskilling</li>
+        
+        <li>Human dignity in AI systems</li>
+        
+        <li>Regulatory sandboxes</li>
+        
+        <li>Innovation and regulation balance</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>November 1, 2026: Submissions Open</li>
+        
+        <li>November 13, 2026: Submissions Closed</li>
+        
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Alessandro Acquisti</strong>, Massachusetts Institute of Technology</li>
+        
+        <li><strong>Alexander Benlian</strong>, Technical University of Darmstadt</li>
+        
+        <li><strong>Min Chen</strong>, George Mason University</li>
+        
+        <li><strong>Aaron Cheng</strong>, The London School of Economics and Political Science</li>
+        
+        <li><strong>Ioanna Constantiou</strong>, Copenhagen Business School</li>
+        
+        <li><strong>John Dong</strong>, Nanyang Technological University</li>
+        
+        <li><strong>Anna Essén</strong>, Stockholm School of Economics</li>
+        
+        <li><strong>Haiyang Feng</strong>, Tianjin University</li>
+        
+        <li><strong>Stefan Feuerriegel</strong>, Ludwig Maximilian University of Munich</li>
+        
+        <li><strong>Uri Gal</strong>, The University of Sydney</li>
+        
+        <li><strong>James Gaskin</strong>, Brigham Young University</li>
+        
+        <li><strong>Goh Khim Yong</strong>, National University of Singapore</li>
+        
+        <li><strong>Anand Gopal</strong>, Nanyang Technological University</li>
+        
+        <li><strong>Brad Greenwood</strong>, George Mason University</li>
+        
+        <li><strong>Dominik Gutt</strong>, RWTH Aachen University</li>
+        
+        <li><strong>Ola Henfridsson</strong>, University of Miami</li>
+        
+        <li><strong>Nina Huang</strong>, University of Miami</li>
+        
+        <li><strong>Jannis Kallinikos</strong>, The London School of Economics and Political Science</li>
+        
+        <li><strong>Gerald C Kane</strong>, University of Georgia</li>
+        
+        <li><strong>Wolf Ketter</strong>, University of Cologne</li>
+        
+        <li><strong>Cameron Kormylo</strong>, University of Notre Dame</li>
+        
+        <li><strong>Natalia Levina</strong>, New York University</li>
+        
+        <li><strong>Zhepeng Li</strong>, The University of Hong Kong</li>
+        
+        <li><strong>Kalle Lyytinen</strong>, Case Western Reserve University</li>
+        
+        <li><strong>Min-Seok Pang</strong>, University of Wisconsin-Madison</li>
+        
+        <li><strong>Hani Safadi</strong>, University of Georgia</li>
+        
+        <li><strong>Nachiketa Sahoo</strong>, Boston University</li>
+        
+        <li><strong>Juliana Sutanto</strong>, Monash University</li>
+        
+        <li><strong>Mari-Klara Stein</strong>, TalTech</li>
+        
+        <li><strong>Lai Wei</strong>, Shanghai Jiao Tong University</li>
+        
+        <li><strong>Yi Yang</strong>, The Hong Kong University of Science and Technology</li>
+        
+        <li><strong>Lior Zalmanson</strong>, Tel Aviv University</li>
+        
+        <li><strong>Nan Zhang</strong>, University of Notre Dame</li>
+        
+        <li><strong>Xia Zhao</strong>, University of Georgia</li>
+        
+        <li><strong>Youngjin Yoo</strong>, London School of Economics and Political Science</li>
+        
+    </ul>
     
 </div>
 ]]></content:encoded>
