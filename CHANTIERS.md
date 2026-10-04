@@ -178,3 +178,7 @@ partir d'une classification aussi juste que possible) :
 - Horodatage Mir@bel dans l'attribution.
 - Couverture du hub Elsevier (variantes de chargement, cf. mémoire
   `elsevier-hub-deux-variantes`).
+- Surveiller la sortie d'un correctif amont de `braces` (tiré par
+  micromatch, fast-glob et chokidar, eux-mêmes par Eleventy et Tailwind ;
+  outils de build seulement). Ne jamais utiliser `npm audit fix --force` :
+  il rétrograderait Eleventy en 0.6.0.
