@@ -9789,9 +9789,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-09-06T09:51:06.483Z",
-    "gracePeriod": "2026-11-02T11:58:51.465Z"
+    "active": true,
+    "pubDate": "2026-09-06T09:51:06.483Z"
   },
   {
     "journal": "Journal of Management Development",
