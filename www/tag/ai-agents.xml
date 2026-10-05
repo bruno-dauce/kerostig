@@ -4,7 +4,7 @@
         <title>kerostig | Tag : ai agents</title>
         <link>https://kerostig.org/tag/ai-agents/</link>
         <description>Derniers appels à publications avec le tag 'ai agents'.</description>
-        <lastBuildDate>Sat, 03 Oct 2026 11:01:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Oct 2026 09:06:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,148 @@
             <link>https://kerostig.org/tag/ai-agents/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Agentic Organizations: Designing, Governing, and Managing AI Agents]]></title>
+            <link>https://kerostig.org/call/jmis-agentic-organizations-designing-governing-and-managing-ai-agents/</link>
+            <guid>jmis-agentic-organizations-designing-governing-and-managing-ai-agents</guid>
+            <pubDate>Mon, 05 Oct 2026 09:04:45 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Martin Adam</strong>, University of Goettingen</p>
+        
+        <p><strong>Aaron Baird</strong>, Colorado State University</p>
+        
+        <p><strong>Mari-Klara Stein</strong>, Tallinn University of Technology</p>
+        
+        <p><strong>Alexander Benlian</strong>, Technical University of Darmstadt</p>
+        
+    
+    
+    
+    <p>AI is transitioning from a tool for individual productivity assistance to a participant in organizational action through agentic systems that can interpret goals, perceive states, plan actions, and execute tasks with autonomy. This shift reconfigures organizational arrangements, requiring new thinking about delegation, accountability, control, and oversight.</p>
+    
+    <p>Agentic organizations embed AI agents within routines, systems, and workflows, creating sociotechnical arrangements impacting core operational systems. Information systems scholars are well-positioned to address this transition given existing expertise in organizational change, algorithmic management, platform governance, and human-AI collaboration.</p>
+    
+    <p>This special issue seeks research on how organizations can design, govern, and manage human-AI ensembles while preserving accountability, resilience, and human judgment. Papers should examine delegated agentic participation in organizational action, including governance mechanisms, workflow redesign, multi-agent systems, epistemic challenges, workforce implications, and safety considerations.</p>
+    
+    <p>
+        Appel publié par Journal of Management Information Systems.
+        
+        <a href="https://www.jmis-web.org/cfps/JMIS_CfP_Agentic_Organizations.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/jmis-agentic-organizations-designing-governing-and-managing-ai-agents/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Delegated autonomy and control in agentic organizations</li>
+        
+        <li>Accountability and oversight mechanisms for AI agents</li>
+        
+        <li>Agentic process redesign and workflow transformation</li>
+        
+        <li>Organizational capability building for agentic systems</li>
+        
+        <li>Multi-agent orchestration and coordination</li>
+        
+        <li>Agent interoperability and digital ecosystems</li>
+        
+        <li>Epistemic governance and trust in AI agents</li>
+        
+        <li>Opacity and contestability of AI-generated actions</li>
+        
+        <li>Cognitive and behavioral implications of agentic AI</li>
+        
+        <li>Workforce implications and professional identity</li>
+        
+        <li>Skill formation and reliance on AI agents</li>
+        
+        <li>Resilience and safety in agentic systems</li>
+        
+        <li>Security and compliance in agentic workflows</li>
+        
+        <li>Societal consequences and ethical implications of agentic AI</li>
+        
+        <li>Human-AI ensembles and human authority preservation</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Final decision and publication</li>
+        
+        <li>December 15, 2026: Optional extended abstract submission deadline</li>
+        
+        <li>February 1, 2027: Full paper submission deadline</li>
+        
+        <li>May 1, 2027: First round of reviews completed</li>
+        
+        <li>September 1, 2027: Paper revisions due</li>
+        
+        <li>November 1, 2027: Second round of reviews completed</li>
+        
+        <li>February 1, 2028: Second paper revisions due</li>
+        
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Armin Alizadeh</strong>, Technical University of Darmstadt</li>
+        
+        <li><strong>Abhijith Annand</strong>, University of Arkansas</li>
+        
+        <li><strong>Langtao Chen</strong>, University of Tulsa</li>
+        
+        <li><strong>Christy M. K. Cheung</strong>, Hong Kong Baptist University</li>
+        
+        <li><strong>W. Alec Cram</strong>, University of Waterloo</li>
+        
+        <li><strong>Carolina Alves de Lima Salge</strong>, University of Georgia</li>
+        
+        <li><strong>Thomas Hess</strong>, Ludwig Maximilian University of Munich</li>
+        
+        <li><strong>Ekaterina Jussupow</strong>, Technical University of Darmstadt</li>
+        
+        <li><strong>Harris Kyriakou</strong>, ESSEC</li>
+        
+        <li><strong>Aron Lindberg</strong>, Stevens Institute of Tech</li>
+        
+        <li><strong>Anne-Sophie Mayer</strong>, Ludwig Maximilian University of Munich</li>
+        
+        <li><strong>Abhay Mishra</strong>, University of Arkansas</li>
+        
+        <li><strong>Long The Nguyen</strong>, Washington State University</li>
+        
+        <li><strong>William Olivera</strong>, Florida State University</li>
+        
+        <li><strong>Gabriele Piccoli</strong>, Louisiana State University</li>
+        
+        <li><strong>Magno Queiroz</strong>, Florida Atlantic University</li>
+        
+        <li><strong>Marta Stelmaszak</strong>, University of Massachusetts Amherst</li>
+        
+        <li><strong>Timo Sturm</strong>, Technical University of Darmstadt</li>
+        
+        <li><strong>Scott Thiebes</strong>, Tongji University</li>
+        
+        <li><strong>Thomas Ware</strong>, University of Pittsburgh</li>
+        
+        <li><strong>Martin Wiener</strong>, Technical University of Dresden</li>
+        
+        <li><strong>David Xu</strong>, City University of Hong Kong</li>
+        
+    </ul>
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[The agentic revolution: Managing in the era of AI agents]]></title>
             <link>https://kerostig.org/call/elsevier-the-agentic-revolution-managing-in-the-era-of-ai-agents/</link>

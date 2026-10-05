@@ -1,5 +1,667 @@
 [
   {
+    "journal": "Journal of the Association for Information Systems",
+    "abbreviation": "jais",
+    "issn": "1558-3457",
+    "metaTitle": "Growing up Online: How Digital Platforms Shape Adolescent Development",
+    "url": "https://aisel.aisnet.org/jais/JAIS-SI-proposal_DP_and_Adolesecents.docx",
+    "title": "Growing up Online: How Digital Platforms Shape Adolescent Development",
+    "slug": "jais-growing-up-online-how-digital-platforms-shape-adolescent-development",
+    "contentHash": "73d0d5869a196c72383e66569f83cbac969bd2cbed8a8fe8f8e91daec639dac0",
+    "topics": [
+      "Platform architectures and affordances",
+      "Notification systems and engagement metrics",
+      "Algorithmic curation and recommendation systems",
+      "Generative AI and chatbots for adolescents",
+      "AI literacy and digital resilience",
+      "Information practices in digital environments",
+      "Identity development and social relationships",
+      "Privacy and data protection",
+      "Screen time and physical health",
+      "Mental health and well-being",
+      "Design science for adolescent safety",
+      "Policy and regulation of digital platforms",
+      "Content moderation and age verification",
+      "Comparative platform design studies",
+      "Socioeconomic and cultural differences in digital access"
+    ],
+    "description": {
+      "paragraphs": [
+        "Adolescents today engage intensely with digital platforms including social media, gaming communities, AI applications, and learning technologies. This special issue seeks research examining how these complex digital environments shape adolescent development across cognitive, emotional, psychological, social, and physical domains. The urgency stems from how contemporary platforms operate through sophisticated algorithms and AI systems that actively influence adolescents' experiences in ways fundamentally different from previous technologies.",
+        "Existing research provides limited understanding of how digital platforms specifically affect adolescent developmental experiences, with little consensus on the direction, magnitude, or mechanisms of impact. The special issue invites empirical and theoretical investigations using diverse methodologies to understand how platform designs, algorithmic systems, and regulatory approaches both benefit and harm adolescent development. Contributions should examine the mechanisms by which platform affordances and AI systems shape developmental outcomes in diverse global populations."
+      ]
+    },
+    "tags": [
+      "adolescent development",
+      "digital platforms",
+      "social media",
+      "artificial intelligence",
+      "platform design",
+      "regulation",
+      "youth well-being",
+      "information systems"
+    ],
+    "editors": [
+      {
+        "name": "Eoin Whelan",
+        "affiliation": "University of Galway"
+      },
+      {
+        "name": "Hamed Qahri-Saremi",
+        "affiliation": "Colorado State University"
+      },
+      {
+        "name": "Chelly Maes",
+        "affiliation": "Université Libre de Bruxelles"
+      },
+      {
+        "name": "Christy M. K. Cheung",
+        "affiliation": "Hong Kong Baptist University"
+      },
+      {
+        "name": "Uri Gal",
+        "affiliation": "University of Sydney"
+      },
+      {
+        "name": "Monideepa Tarafdar",
+        "affiliation": "University of Massachusetts Amherst"
+      }
+    ],
+    "associate_editors": [
+      {
+        "name": "Tina Blegind Jensen",
+        "affiliation": "Copenhagen Business School"
+      },
+      {
+        "name": "Noel Carroll",
+        "affiliation": "University of Galway"
+      },
+      {
+        "name": "Aaron Cheng",
+        "affiliation": "London School of Economics"
+      },
+      {
+        "name": "J.J Hsieh",
+        "affiliation": "Georgia State University"
+      },
+      {
+        "name": "Tabitha James",
+        "affiliation": "Virginia Tech"
+      },
+      {
+        "name": "Hanna Krasnova",
+        "affiliation": "University of Potsdam"
+      },
+      {
+        "name": "Dong-Heon (Austin) Kwak",
+        "affiliation": "Kent State University"
+      },
+      {
+        "name": "Stephen McCarthy",
+        "affiliation": "University College Cork"
+      },
+      {
+        "name": "Antonia Meythaler",
+        "affiliation": "Ludwig Maximilian University of Munich"
+      },
+      {
+        "name": "Mahya Ostovar",
+        "affiliation": "University of Galway"
+      },
+      {
+        "name": "Ana Ortiz de Guinea Lopez de Arana",
+        "affiliation": "HEC Montréal"
+      },
+      {
+        "name": "Lauren A. Rhue",
+        "affiliation": "New York University"
+      },
+      {
+        "name": "Stefan Tams",
+        "affiliation": "HEC Montréal"
+      },
+      {
+        "name": "Ofir Turel",
+        "affiliation": "University of Melbourne"
+      },
+      {
+        "name": "Yingqin Zheng",
+        "affiliation": "University of Essex"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2027-04-09T12:00:00.000Z",
+        "description": "Online information session",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-11-01T12:00:00.000Z",
+        "description": "Deadline for paper submission",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2028-03-01T12:00:00.000Z",
+        "description": "First-round decisions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-07-01T12:00:00.000Z",
+        "description": "Deadline to submit revised papers",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-10-30T12:00:00.000Z",
+        "description": "Second-round decisions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2029-03-01T12:00:00.000Z",
+        "description": "Deadline to submit revised papers",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2029-07-01T12:00:00.000Z",
+        "description": "Provisional/Final decisions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2029-08-01T12:00:00.000Z",
+        "description": "Deadline to submit final paper (if minor revision is required)",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "controle": {
+      "longueur": 1126,
+      "tauxCopie": 0.015503875968992248,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-05T09:04:45.843Z"
+  },
+  {
+    "journal": "Journal of Management Information Systems",
+    "abbreviation": "jmis",
+    "issn": "1557-928X",
+    "metaTitle": "Agentic Organizations: Designing, Governing, and Managing AI Agents",
+    "url": "https://www.jmis-web.org/cfps/JMIS_CfP_Agentic_Organizations.pdf",
+    "title": "Agentic Organizations: Designing, Governing, and Managing AI Agents",
+    "slug": "jmis-agentic-organizations-designing-governing-and-managing-ai-agents",
+    "contentHash": "f622ec6a7f717bf68af8fcbfb2cca20a8b69955ff27708b19d4137c7f19a8beb",
+    "topics": [
+      "Delegated autonomy and control in agentic organizations",
+      "Accountability and oversight mechanisms for AI agents",
+      "Agentic process redesign and workflow transformation",
+      "Organizational capability building for agentic systems",
+      "Multi-agent orchestration and coordination",
+      "Agent interoperability and digital ecosystems",
+      "Epistemic governance and trust in AI agents",
+      "Opacity and contestability of AI-generated actions",
+      "Cognitive and behavioral implications of agentic AI",
+      "Workforce implications and professional identity",
+      "Skill formation and reliance on AI agents",
+      "Resilience and safety in agentic systems",
+      "Security and compliance in agentic workflows",
+      "Societal consequences and ethical implications of agentic AI",
+      "Human-AI ensembles and human authority preservation"
+    ],
+    "description": {
+      "paragraphs": [
+        "AI is transitioning from a tool for individual productivity assistance to a participant in organizational action through agentic systems that can interpret goals, perceive states, plan actions, and execute tasks with autonomy. This shift reconfigures organizational arrangements, requiring new thinking about delegation, accountability, control, and oversight.",
+        "Agentic organizations embed AI agents within routines, systems, and workflows, creating sociotechnical arrangements impacting core operational systems. Information systems scholars are well-positioned to address this transition given existing expertise in organizational change, algorithmic management, platform governance, and human-AI collaboration.",
+        "This special issue seeks research on how organizations can design, govern, and manage human-AI ensembles while preserving accountability, resilience, and human judgment. Papers should examine delegated agentic participation in organizational action, including governance mechanisms, workflow redesign, multi-agent systems, epistemic challenges, workforce implications, and safety considerations."
+      ]
+    },
+    "tags": [
+      "ai agents",
+      "organizational design",
+      "governance",
+      "autonomous systems",
+      "human-ai collaboration",
+      "digital transformation"
+    ],
+    "editors": [
+      {
+        "name": "Martin Adam",
+        "affiliation": "University of Goettingen"
+      },
+      {
+        "name": "Aaron Baird",
+        "affiliation": "Colorado State University"
+      },
+      {
+        "name": "Mari-Klara Stein",
+        "affiliation": "Tallinn University of Technology"
+      },
+      {
+        "name": "Alexander Benlian",
+        "affiliation": "Technical University of Darmstadt"
+      }
+    ],
+    "associate_editors": [
+      {
+        "name": "Armin Alizadeh",
+        "affiliation": "Technical University of Darmstadt"
+      },
+      {
+        "name": "Abhijith Annand",
+        "affiliation": "University of Arkansas"
+      },
+      {
+        "name": "Langtao Chen",
+        "affiliation": "University of Tulsa"
+      },
+      {
+        "name": "Christy M. K. Cheung",
+        "affiliation": "Hong Kong Baptist University"
+      },
+      {
+        "name": "W. Alec Cram",
+        "affiliation": "University of Waterloo"
+      },
+      {
+        "name": "Carolina Alves de Lima Salge",
+        "affiliation": "University of Georgia"
+      },
+      {
+        "name": "Thomas Hess",
+        "affiliation": "Ludwig Maximilian University of Munich"
+      },
+      {
+        "name": "Ekaterina Jussupow",
+        "affiliation": "Technical University of Darmstadt"
+      },
+      {
+        "name": "Harris Kyriakou",
+        "affiliation": "ESSEC"
+      },
+      {
+        "name": "Aron Lindberg",
+        "affiliation": "Stevens Institute of Tech"
+      },
+      {
+        "name": "Anne-Sophie Mayer",
+        "affiliation": "Ludwig Maximilian University of Munich"
+      },
+      {
+        "name": "Abhay Mishra",
+        "affiliation": "University of Arkansas"
+      },
+      {
+        "name": "Long The Nguyen",
+        "affiliation": "Washington State University"
+      },
+      {
+        "name": "William Olivera",
+        "affiliation": "Florida State University"
+      },
+      {
+        "name": "Gabriele Piccoli",
+        "affiliation": "Louisiana State University"
+      },
+      {
+        "name": "Magno Queiroz",
+        "affiliation": "Florida Atlantic University"
+      },
+      {
+        "name": "Marta Stelmaszak",
+        "affiliation": "University of Massachusetts Amherst"
+      },
+      {
+        "name": "Timo Sturm",
+        "affiliation": "Technical University of Darmstadt"
+      },
+      {
+        "name": "Scott Thiebes",
+        "affiliation": "Tongji University"
+      },
+      {
+        "name": "Thomas Ware",
+        "affiliation": "University of Pittsburgh"
+      },
+      {
+        "name": "Martin Wiener",
+        "affiliation": "Technical University of Dresden"
+      },
+      {
+        "name": "David Xu",
+        "affiliation": "City University of Hong Kong"
+      }
+    ],
+    "dates": [
+      {
+        "date": null,
+        "description": "Final decision and publication",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-15T12:00:00.000Z",
+        "description": "Optional extended abstract submission deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-02-01T12:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2027-05-01T12:00:00.000Z",
+        "description": "First round of reviews completed",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-09-01T12:00:00.000Z",
+        "description": "Paper revisions due",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-11-01T12:00:00.000Z",
+        "description": "Second round of reviews completed",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-02-01T12:00:00.000Z",
+        "description": "Second paper revisions due",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "controle": {
+      "longueur": 1106,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-05T09:04:45.843Z"
+  },
+  {
+    "journal": "Small Business Economics",
+    "abbreviation": "springer",
+    "issn": "1573-0913",
+    "metaTitle": "From Shock to Strength: The Endogenous Foundations of Entrepreneurship under Adversity",
+    "url": "https://link.springer.com/collections/cfejhbdjde",
+    "title": "From Shock to Strength: The Endogenous Foundations of Entrepreneurship under Adversity",
+    "slug": "springer-from-shock-to-strength-the-endogenous-foundations-of-entrepreneurship-under-adversity",
+    "contentHash": "b75fca850568d91720c8bc8186d7bae07f4f59412621f37afb566d675a75c4db",
+    "topics": [
+      "Entrepreneurial resilience and adaptability",
+      "Internal resources and psychological strengths",
+      "Self-generated mechanisms for success",
+      "Entrepreneurship under adversity",
+      "Entrepreneurs without ecosystem support",
+      "Innovation in crisis conditions"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue in Small Business Economics investigates how entrepreneurs develop and leverage internal capabilities to succeed when external support systems are unavailable or depleted. Rather than viewing crises as isolated incidents, the issue recognizes that contemporary entrepreneurs increasingly operate under persistent adversity and must rely on their own resources, psychological strengths, and adaptive mechanisms to thrive.",
+        "The call seeks innovative research that moves beyond existing literature by examining the endogenous foundations of entrepreneurial success. Submissions should explore how entrepreneurs generate innovation, build resilience, and maintain adaptability when facing continuous challenges and reduced access to traditional ecosystem support."
+      ]
+    },
+    "tags": [
+      "entrepreneurship",
+      "resilience",
+      "adversity",
+      "business economics"
+    ],
+    "editors": [
+      {
+        "name": "David B. Audretsch",
+        "affiliation": "Indiana University"
+      },
+      {
+        "name": "Dafna Kariv",
+        "affiliation": "Reichman University"
+      },
+      {
+        "name": "Mark Sanders",
+        "affiliation": "Maastricht University"
+      },
+      {
+        "name": "Friederike Welter",
+        "affiliation": "University of Siegen"
+      },
+      {
+        "name": "Trent Williams",
+        "affiliation": "Brigham Young University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-02-15T12:00:00.000Z",
+        "description": "Extended abstracts submission deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-10-31T12:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 776,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-05T09:04:45.843Z"
+  },
+  {
+    "journal": "Public Performance & Management Review",
+    "abbreviation": "tandf",
+    "issn": "1557-9271",
+    "metaTitle": "A Symposium Organized by Public Performance & Management Review (PPMR) - Managing for Equitable Performance: Opening the Black Box, Governing New Technologies, and Sustaining Commitment in Contested Times",
+    "url": "https://think.taylorandfrancis.com/special_issues/managing_for_equitable_performance/",
+    "title": "Managing for Equitable Performance: Opening the Black Box, Governing New Technologies, and Sustaining Commitment in Contested Times",
+    "slug": "tandf-a-symposium-organized-by-public-performance-and-management-review-ppmr-managing-for-equitable-performance-opening-the-black-box-governing-new-technologies-and-sustaining-commitment-in-contested-times",
+    "contentHash": "1aa9bddcf8401fc657353fe5a0d764d50e79656eaf1240a4e82fd06e58ee1569",
+    "topics": [
+      "Equity indicators and disaggregated data in performance management",
+      "Managerial decision-making and equity information",
+      "Street-level discretion and service design",
+      "Leadership and analytic capacity for equity",
+      "Gaming and unintended consequences of equity metrics",
+      "Adoption and implementation of equity initiatives",
+      "Stakeholder power and institutional capacity",
+      "Equity-weighted indicators and gap-closing measures",
+      "Defining equity standards and community voice",
+      "Political polarization and equity goals",
+      "AI and algorithmic equity",
+      "Technology assessment and algorithmic accountability",
+      "Frontline worker interactions with algorithmic tools",
+      "Sustaining equity initiatives under political change",
+      "Equity office institutionalization and relabeling",
+      "Longitudinal studies of equity initiatives",
+      "Communication and framing of equity",
+      "Policy networks and diffusion of equity approaches"
+    ],
+    "description": {
+      "paragraphs": [
+        "Equity in public performance management remains underoperationalized despite being recognized as fundamental to public administration. Recent governmental experiments with equity indicators and disaggregated data offer opportunities to examine how distributional questions can be integrated into organizational decision-making, yet significant gaps remain in understanding the translation from measurement to actual outcomes.",
+        "This symposium addresses three urgent challenges: understanding how equity information influences managerial practice, managing implications of artificial intelligence for equity outcomes, and sustaining equity commitments amid shifting political landscapes. The call seeks both academic research and practitioner expertise to bridge research-practice gaps and develop frameworks for public organizations pursuing equitable performance.",
+        "The symposium welcomes international perspectives on managing for equitable performance across different contexts. Research using quantitative, qualitative, experimental, and mixed methods is encouraged, including critical and participatory approaches that center marginalized voices."
+      ]
+    },
+    "tags": [
+      "equity",
+      "performance management",
+      "public administration",
+      "algorithms",
+      "policy implementation"
+    ],
+    "editors": [
+      {
+        "name": "Kaifeng Yang",
+        "affiliation": "Rutgers University–Newark"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-11-10T12:00:00.000Z",
+        "description": "Abstract deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-08-10T12:00:00.000Z",
+        "description": "Manuscript deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1145,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-05T09:04:45.843Z"
+  },
+  {
+    "journal": "Public Money & Management",
+    "abbreviation": "tandf",
+    "issn": "1467-9302",
+    "metaTitle": "Conceptualizing and Defining Public Service Delivery Hubs",
+    "url": "https://think.taylorandfrancis.com/special_issues/conceptualizing-and-defining-public-service-delivery-hubs/",
+    "title": "Conceptualizing and Defining Public Service Delivery Hubs",
+    "slug": "tandf-conceptualizing-and-defining-public-service-delivery-hubs",
+    "contentHash": "21b2c5d5044f1d0713d1108389aae2f598ba6d691c8bb048af9647db8e9b8262",
+    "topics": [
+      "Conceptualizing and defining public service delivery hubs",
+      "Evolution of hub-based approaches across public services",
+      "Hub forms, hybridity, and access",
+      "Governance, leadership, and management of hubs",
+      "Information sharing and inter-professional working in hubs",
+      "Funding, commissioning and financial sustainability of hub models",
+      "Hub user experiences, accessibility, and equity",
+      "Public value creation in hub models",
+      "Evaluating hub outcomes and value for money",
+      "Challenges and unintended consequences of hubs",
+      "Global hub perspectives"
+    ],
+    "description": {
+      "paragraphs": [
+        "Public service hubs are organizational arrangements bringing together multiple services and professionals to address complex social challenges. Despite their growing adoption, these hubs remain poorly conceptualized and theoretically underdeveloped. The special issue seeks to advance understanding of what constitutes a hub, how it differs from other collaborative forms, and what value it creates.",
+        "The call particularly welcomes research examining financial and resourcing dimensions of hub working, including funding mechanisms, commissioning, and value-for-money evaluations. Submissions should critically explore hub design, implementation, governance, and evaluation, acknowledging the diversity of models ranging from specialist to inclusive arrangements, and including emerging digital variants. Contributions may draw on various theoretical frameworks and examine hubs internationally using alternative terminology.",
+        "The journal invites practitioner-academic collaborations and welcomes debate and new development formats alongside research articles."
+      ]
+    },
+    "tags": [
+      "public services",
+      "hubs",
+      "collaboration",
+      "service delivery",
+      "governance",
+      "financing"
+    ],
+    "editors": [
+      {
+        "name": "Steven Parker",
+        "affiliation": "Open University"
+      },
+      {
+        "name": "Kate Broadhurst",
+        "affiliation": "Loughborough University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-31T12:00:00.000Z",
+        "description": "Extended abstract submission deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-31T12:00:00.000Z",
+        "description": "Research articles submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2027-06-30T12:00:00.000Z",
+        "description": "Debate articles and new development articles submission deadline",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "controle": {
+      "longueur": 1056,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-05T09:04:45.843Z"
+  },
+  {
+    "journal": "Consumption Markets & Culture",
+    "abbreviation": "tandf",
+    "issn": "1477-223X",
+    "metaTitle": "Conservative Consumer Movements and Reactionary Forms of Consumption",
+    "url": "https://think.taylorandfrancis.com/special_issues/conservative-consumer-movements-and-reactionary-forms-of-consumption/",
+    "title": "Conservative Consumer Movements and Reactionary Forms of Consumption",
+    "slug": "tandf-conservative-consumer-movements-and-reactionary-forms-of-consumption",
+    "contentHash": "892dca4c1e35b65dcb94763f0d480cb139e8ad5234847c9ad3820d542eeefc4b",
+    "topics": [
+      "Tradwife and gendered lifestyle movements",
+      "Conservative and populist consumer activism",
+      "Religious consumption and faith-based markets",
+      "Religious influencers and religious marketing",
+      "Prepper, survivalist, and self-sufficiency movements",
+      "Conspiracy theories and consumer communities",
+      "Gun cultures and influencer economies",
+      "Nationalist and anti-globalist consumption",
+      "Modest fashion",
+      "Anti-multicultural and antiprogressive market practices",
+      "Boycotts, buycotts, and ideological consumption",
+      "Platforms and circulation of political identities",
+      "Consumer culture and family values",
+      "Traditionalism, nostalgia, and heritage",
+      "Domesticity and conservative subject formation",
+      "Market responses to reactionary and populist movements",
+      "Consumption and dialogue across ideological divisions"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how conservative, populist, and reactionary consumer movements use consumption as a cultural and political practice. While progressive consumer movements have received substantial scholarly attention, conservative consumer movements remain understudied and often analyzed through frameworks of extremism or social danger. The editors seek contributions that adopt an emic approach, understanding these movements from participants' perspectives while maintaining critical analysis.",
+        "The issue welcomes interdisciplinary research exploring how conservative consumer practices construct political, religious, gendered, and national identities. Contributors are encouraged to distinguish analytically among conservatism, populism, reactionary politics, and related categories rather than treating them as interchangeable. Research should examine how markets, brands, platforms, and material practices shape these movements, what needs they express, what forms of belonging they create, and whether consumption can facilitate dialogue across ideological differences."
+      ]
+    },
+    "tags": [
+      "consumer culture",
+      "conservative politics",
+      "populism",
+      "reactionary movements",
+      "political consumption"
+    ],
+    "editors": [
+      {
+        "name": "Alisa Minina Jeunemaitre",
+        "affiliation": "emlyon business school"
+      },
+      {
+        "name": "Stefania Masè",
+        "affiliation": "IPAG Business School"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-02-28T12:00:00.000Z",
+        "description": "Manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1087,
+      "tauxCopie": 0.056451612903225805,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-05T09:04:45.843Z"
+  },
+  {
     "journal": "International Journal of Selection and Assessment",
     "abbreviation": "wiley",
     "issn": "1468-2389",
@@ -11385,8 +12047,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Marketing Education Review",
@@ -11457,8 +12120,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Journal of Strategic Marketing",
@@ -11604,8 +12268,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "The Journal of Arts Management, Law, and Society",
@@ -11917,8 +12582,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Journal of Decision Systems",
@@ -11976,8 +12642,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Emerging Markets Finance and Trade",
@@ -12887,8 +13554,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Information Systems Management",
@@ -25772,8 +26440,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-18T08:15:27.740Z"
+    "active": false,
+    "pubDate": "2026-08-18T08:15:27.740Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Auditing A Journal of Practice & Theory",
@@ -25825,8 +26494,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-18T08:15:27.740Z"
+    "active": false,
+    "pubDate": "2026-08-18T08:15:27.740Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Journal of Financial and Quantitative Analysis",
@@ -28943,29 +29613,30 @@
     "url": "https://www.riir.ulaval.ca/numeros-thematiques/appel-de-textes-en-cours#Engagement%20et%20%C3%A9preuves%20%3A%20l%E2%80%99exp%C3%A9rience%20du%20travail%20dans%20les%20r%C3%A9formes%20en%20sant%C3%A9",
     "title": "Engagement et épreuves : l'expérience du travail dans les réformes en santé",
     "slug": "riir-engagement-et-epreuves-lexperience-du-travail-dans-les-reformes-en-sante",
-    "contentHash": "dd03e422a3de485a5dbc02529f0ca2bcf3378910476f4ec4f13b79260180a1de",
+    "contentHash": "04047a065cdafc010c3d08dc1d033876b86908d3b9ae3a4782d6d501ef38c416",
     "topics": [
-      "L'articulation entre la nécessité de réformer les systèmes de santé et de services sociaux et les enjeux d'engagement et de mobilisation au travail",
-      "La conciliation entre la performance des systèmes de santé et le bien-être des personnes au travail",
-      "Les enjeux de justice organisationnelle et de conditions de travail",
-      "La voix des salariés et les relations avec les gestionnaires de proximité",
-      "La mobilisation et l'engagement comme phénomènes sociaux situés à l'intersection des évolutions sociétales et des dynamiques du travail",
-      "Les contextes de travail et les environnements sociaux qui façonnent les statuts et les expériences du travail",
-      "Les aspirations au travail et les politiques innovantes de gestion des ressources humaines"
+      "Mobilisation et engagement au travail",
+      "Réformes des systèmes de santé",
+      "Performance et bien-être au travail",
+      "Justice organisationnelle",
+      "Conditions de travail",
+      "Voix des salariés",
+      "Relations avec les gestionnaires",
+      "Contextes de travail",
+      "Environnements sociaux et aspirations professionnelles"
     ],
     "description": {
       "paragraphs": [
-        "Ce numéro spécial vise à interroger l'articulation entre la nécessité de réformer nos systèmes de santé et de services sociaux et les enjeux d'engagement et de mobilisation au travail que ces transformations soulèvent. Il s'inscrit dans une réflexion sur les façons de concilier la performance des systèmes de santé et le bien-être des personnes au travail.",
-        "Une approche critique des enjeux de mobilisation et d'engagement devient essentielle pour penser des politiques et des modes de gestion des ressources humaines plus novateurs et plus attentifs aux besoins et aux expériences des personnes au travail, et plus socialement légitimes, en intégrant les enjeux de justice organisationnelle, de conditions de travail et de voix des salariés, notamment à travers les relations avec les gestionnaires de proximité.",
-        "Souvent réduites à un enjeu de motivation au travail, ce numéro propose d'aborder la mobilisation et l'engagement comme des phénomènes profondément sociaux, situés à l'intersection des évolutions sociétales et des dynamiques propres au monde du travail. Cela conduit, au-delà des motivations individuelles, à s'intéresser aux contextes de travail dans lesquels les individus exercent leur métier ou leur profession, ainsi qu'aux environnements sociaux qui façonnent leurs statuts, les expériences du travail et les aspirations au travail."
+        "Ce numéro spécial examine comment concilier la nécessité de réformer les systèmes de santé et de services sociaux avec les enjeux d'engagement et de mobilisation des travailleurs que ces transformations soulèvent. L'appel propose une analyse critique qui dépasse la simple motivation individuelle pour considérer la mobilisation et l'engagement comme des phénomènes sociaux situés à l'intersection des dynamiques sociétales et du monde du travail.",
+        "L'objectif est de contribuer à des politiques et des modes de gestion des ressources humaines plus innovants et attentifs aux besoins des personnes au travail. Le numéro explore les dimensions de justice organisationnelle, les conditions de travail, la voix des salariés dans les relations avec les gestionnaires, ainsi que les contextes et environnements sociaux qui façonnent les expériences et aspirations professionnelles."
       ]
     },
     "tags": [
       "santé",
-      "engagement au travail",
-      "réformes",
-      "mobilisation",
-      "ressources humaines"
+      "travail",
+      "gestion",
+      "engagement",
+      "réforme"
     ],
     "editors": [
       {
@@ -28988,13 +29659,19 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-30T10:00:00.000Z",
+        "date": "2026-10-26T12:00:00.000Z",
         "description": "Date limite d'envoi des soumissions",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-12T21:55:46.317Z"
+    "pubDate": "2026-08-12T21:55:46.317Z",
+    "controle": {
+      "longueur": 873,
+      "tauxCopie": 0.040983606557377046,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Management international",
@@ -29845,29 +30522,38 @@
     "url": "https://think.taylorandfrancis.com/special_issues/novel-forms-and-models-of-organization/",
     "title": "Novel Forms and Models of Organization",
     "slug": "tandf-novel-forms-and-models-of-organization",
-    "contentHash": "11cdc624490131c7dd0b8a44cc2baecb07d867de3d2f6ab5015b13bed92975c6",
+    "contentHash": "374331c0ffa3243e1eab099af32b503ad8394236a769b65108669a7987108360",
     "topics": [
-      "Novel organizational forms inside the firm (leadership and decision architecture)",
-      "Make–buy–ally and collaboration diversity as organizational design for frontier outcomes",
-      "Digitalization, AI, and process organization (resilience, productivity, and scaling)",
-      "Ecosystem embedment, alliances, and global value chain orchestration",
-      "Context and institutions (policy, techno-nationalism, clusters, and decoupling)",
-      "Business model innovation patterns and comparison across champions"
+      "Leadership and decision architecture",
+      "Internal microstructures and governance",
+      "Make-buy-ally organizational design",
+      "Collaboration diversity and external partnerships",
+      "Digitalization and AI in process organization",
+      "Resilience and productivity through technology",
+      "Ecosystem embedment and alliances",
+      "Global value chain orchestration",
+      "Government relationships and policy",
+      "Cluster governance and institutions",
+      "Business model innovation patterns",
+      "Niche leaders and hidden champions",
+      "Organizational forms across regions and industries",
+      "Scaling and firm growth",
+      "Innovation and productivity frontier"
     ],
     "description": {
       "paragraphs": [
-        "This special issue examines how firms organize and grow to achieve exceptional performance in response to rapid technological change, globalization, and increasing interconnectedness. The collection focuses on novel organizational forms—such as hidden champions, niche leaders, scaleups, and blitzscalers—that enable firms of different sizes and ages to approach the innovation and productivity frontier while maintaining efficiency and resilience.",
-        "The issue welcomes research investigating organizational structures, processes, and governance models that allow firms to outperform competitors across regions, industries, and economic contexts. Particular emphasis is placed on understanding how firms balance internal capabilities with external partnerships, adopt digital technologies, orchestrate global value chains, and navigate policy environments. Research is encouraged from diverse geographic contexts beyond traditional OECD and Western-focused perspectives, including emerging Asian economies and developing regions."
+        "This special issue examines how firms of different sizes and stages organize themselves to achieve exceptional performance amid rapid technological change, globalization, and ecosystem interdependencies. The collection seeks theoretical and empirical research on novel organizational forms, structures, and governance models that enable firms to outperform competitors, innovate, and scale effectively. Particular emphasis is given to understanding organizational innovations in hidden champions, niche leaders, scaleups, and other exceptional performers.",
+        "The issue welcomes research investigating how novel organizational forms emerge and function across diverse geographical and economic contexts, including high-cost developed economies, emerging economies, and developing regions. Special attention is paid to underrepresented areas beyond OECD countries, recognizing that many Asian economies have cultivated distinctive organizational models through national initiatives. Research should address how factors like leadership, internal collaboration structures, technology adoption, ecosystem relationships, and policy environments shape organizational choices and performance outcomes."
       ]
     },
     "tags": [
-      "organizational forms",
+      "organizational design",
+      "small business management",
       "firm growth",
       "innovation",
-      "small business",
       "entrepreneurship",
       "global value chains",
-      "hidden champions"
+      "niche leaders"
     ],
     "editors": [
       {
@@ -29898,23 +30584,24 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-11-01T11:00:00.000Z",
+        "date": "2026-11-01T12:00:00.000Z",
         "description": "Manuscript submission opens",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-11-15T11:00:00.000Z",
-        "description": "Submission Deadline",
-        "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2027-01-31T11:00:00.000Z",
-        "description": "Manuscript deadline",
+        "date": "2027-01-31T12:00:00.000Z",
+        "description": "Manuscript submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-12T04:26:53.283Z"
+    "pubDate": "2026-08-12T04:26:53.283Z",
+    "controle": {
+      "longueur": 1189,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Annals of Operations Research",
@@ -29971,8 +30658,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "active": false,
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -30047,7 +30735,7 @@
     "url": "https://link.springer.com/collections/gjbdjhfbdg",
     "title": "Advances in Reliability and Statistical Computing for Intelligent Systems",
     "slug": "springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems",
-    "contentHash": "0ffdc0858c8848b03bdb449fd1ba5b77907f87d283958929b666c852b67bcb81",
+    "contentHash": "94aaa8b49cb9d7832a8b65af655649b1229aa7ea7f6897804f2bfd9e2ac4b38e",
     "topics": [
       "Mathematical reliability and statistical methods",
       "Big data modeling and prediction",
@@ -30058,12 +30746,12 @@
       "Reliability modeling and optimization",
       "High-dimensional data analysis",
       "Statistical inference for intelligent systems",
-      "Industrial case studies in intelligent systems, including field and service robotics, medical care, education, visual surveillance, intelligent transportation"
+      "Industrial case studies in intelligent systems"
     ],
     "description": {
       "paragraphs": [
-        "This special issue focuses on recent advances in reliability and statistical computing methods for intelligent systems in real-world applications and service industries. The field has undergone significant changes due to the increasing role of artificial intelligence, which demands reliable and timely responses from intelligent systems.",
-        "The special issue welcomes articles presenting new theoretical research and practical methods in reliability and statistical computing for intelligent systems. Papers with real-world applications are preferred over purely theoretical contributions, covering topics such as mathematical reliability methods, big data modeling, machine learning approaches, system dependability, and various industrial case studies ranging from robotics to medical care and intelligent transportation."
+        "The special issue addresses the growing importance of reliability and statistical computing in artificial intelligence systems used in everyday applications and service industries. It seeks contributions covering both theoretical advances and practical implementations in these areas, with emphasis on papers demonstrating real-world applicability.",
+        "The special issue welcomes research on mathematical and statistical methods for reliability, machine learning approaches for intelligent systems, big data analysis techniques, and system dependability measures. Industrial applications are particularly valued, including case studies from fields such as robotics, healthcare, education, surveillance, and transportation."
       ]
     },
     "tags": [
@@ -30071,24 +30759,30 @@
       "statistical computing",
       "machine learning",
       "intelligent systems",
-      "operations research"
+      "artificial intelligence"
     ],
     "editors": [
       {
         "name": "Hoang Pham",
-        "affiliation": "Rutgers, The State University of New Jersey"
+        "affiliation": "Rutgers University"
       }
     ],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-30T10:00:00.000Z",
+        "date": "2026-10-30T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 717,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Environmental and Resource Economics",
@@ -30575,8 +31269,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "active": false,
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Journal of Business Ethics",
@@ -31139,8 +31834,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "active": false,
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Quality of Life Research",
@@ -31879,27 +32575,30 @@
     "url": "https://link.springer.com/collections/debcfieibd",
     "title": "OR in Medicine and Health Care",
     "slug": "springer-or-in-medicine-and-health-care",
-    "contentHash": "06706d2c87feea1e19d8b196c469962c897745417538d95d84e588517265f9b2",
+    "contentHash": "c0865961bc9e28e16e22c00f9a13419f67b571cebd9599510cbc8d66ee8d80db",
     "topics": [
-      "Continuous linear and nonlinear optimization applied to medical and biological applications",
-      "Integer programming for disease modeling, medical diagnosis, and treatment planning",
-      "Combinatorial optimization in biological and medical imaging",
-      "Stochastic approaches to epidemiology and molecular biology",
-      "Medical device and delivery systems optimization",
-      "Complex decision problems in clinical applications"
+      "Disease modeling",
+      "Medical diagnosis",
+      "Treatment planning",
+      "Biological and medical imaging",
+      "Epidemiology",
+      "Molecular biology",
+      "Linear and nonlinear optimization",
+      "Integer programming",
+      "Combinatorial optimization",
+      "Stochastic optimization"
     ],
     "description": {
       "paragraphs": [
-        "This special section seeks research that applies optimization and computational methods to medical and biological problems. The initiative recognizes that healthcare complexity and data-rich biological systems require rigorous mathematical and algorithmic approaches to advance treatment and prevention strategies.",
-        "Contributions should address theoretical or methodological developments in optimization models and algorithms, including continuous, integer, combinatorial, and stochastic methods, with direct applications to healthcare delivery, disease management, medical imaging, and biological research. The special section welcomes partnerships between operations research and medical communities to solve problems benefiting public health."
+        "This special section showcases optimization and computational approaches applied to medical and biological challenges. It aims to bring together mathematical programming researchers and healthcare professionals to address complex decision problems in medicine, from medical devices to clinical data analysis.",
+        "The special section welcomes theoretical and methodological research on optimization models and algorithms, including continuous, integer, combinatorial, and stochastic methods, applied to healthcare and life sciences. Topics of interest span disease modeling, diagnosis, treatment planning, medical imaging, epidemiology, and molecular biology."
       ]
     },
     "tags": [
-      "optimization",
       "operations research",
-      "medical applications",
+      "optimization",
       "healthcare",
-      "algorithms",
+      "medicine",
       "mathematical programming"
     ],
     "editors": [
@@ -31921,7 +32620,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 653,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Quality of Life Research",
@@ -32176,8 +32881,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "active": false,
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Asia Pacific Journal of Management",
@@ -36102,7 +36808,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T10:27:21.121Z"
   },
   {
@@ -39653,13 +40359,14 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T01:40:43.907Z",
     "controle": {
       "longueur": 883,
       "tauxCopie": 0.009708737864077669,
       "relance": false
-    }
+    },
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Academy of Management Perspectives",
@@ -40464,8 +41171,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "The International Journal of Human Resource Management",
@@ -41012,8 +41720,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Business History",
@@ -41417,8 +42126,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Public Money & Management",
@@ -41428,30 +42138,31 @@
     "url": "https://think.taylorandfrancis.com/special_issues/cultural-organizations-in-transition/",
     "title": "Cultural organizations in transition—rethinking management, governance, and organizational change",
     "slug": "tandf-cultural-organizations-in-transitionrethinking-management-governance-and-organizational-change",
-    "contentHash": "b41ce76ac5e706b4c17c9313b898c35f3eac5c3c49dbd01bd1466cc8e09591dd",
+    "contentHash": "8b73412c38cebd0cff964e43f531cf592c42e421d928ef9c3b3fee73af0536e0",
     "topics": [
-      "Managerial and organizational design, governance frameworks, and co-ordination in cultural organizations and cultural policy systems",
-      "Digital transformation, artificial intelligence, and enabling technologies in the organization and management of cultural organizations",
-      "Careers and work in cultural organizations, including changing work conditions, hybrid and digital work models, and professional development",
-      "Human resource management, leadership, and organizational culture in cultural organizations",
-      "Organizational learning, knowledge management, and capability development in cultural institutions",
-      "Managing change, innovation, and transitions in cultural organizations and institutions impacting them in response to societal and technological disruptions",
-      "Evaluation, accountability, and performance management in the pursuit of cultural and public value",
-      "Public finance models, policies and programs: debates, changes, and effects on cultural organizations",
-      "Social, environmental and economic sustainability, resilience and strategic management in cultural organizations"
+      "Managerial and organizational design in cultural organizations",
+      "Governance frameworks and coordination in cultural policy systems",
+      "Digital transformation and artificial intelligence in cultural organizations",
+      "Careers and work in cultural organizations",
+      "Human resource management and leadership in cultural institutions",
+      "Organizational learning and knowledge management",
+      "Managing change and innovation in cultural organizations",
+      "Evaluation, accountability, and performance management",
+      "Public finance models and programs for culture",
+      "Social, environmental and economic sustainability in cultural organizations"
     ],
     "description": {
       "paragraphs": [
-        "Cultural organizations—including museums, theaters, festivals, and media production houses—serve crucial public missions by preserving and distributing cultural value. These institutions face mounting pressures from volatile funding frameworks, shifting government support models, and rising accountability expectations. Digital transformation and AI technologies are fundamentally changing how culture is produced and experienced, forcing organizations to reconsider their traditional management and governance approaches.",
-        "The special issue investigates how cultural organizations can maintain their public mission while adapting to organizational, technological, and sustainability challenges. It welcomes research examining innovative managerial practices, organizational structures, and governance frameworks that help cultural institutions navigate digital transformation, workforce changes, and evolving policy environments while pursuing their cultural and public value missions."
+        "Cultural organizations such as museums, theatres, and festivals are increasingly facing pressure to transform their management and governance structures due to volatile funding, digital technologies, and changing expectations of accountability. These organizations serve important public missions by producing and safeguarding cultural value, yet must now navigate new collaborative models, hybrid work arrangements, and AI-driven innovation while sustaining their societal role.",
+        "This special issue invites research exploring how cultural organizations can maintain their public commitment while adapting to organizational, sustainability, and technological transitions. Contributions should examine how managerial practices, governance frameworks, and organizational structures interact with public policy to help cultural institutions navigate these complex changes."
       ]
     },
     "tags": [
       "cultural management",
-      "public management",
-      "organizational governance",
+      "organizational change",
+      "public sector management",
       "cultural policy",
-      "digital transformation"
+      "governance"
     ],
     "editors": [
       {
@@ -41474,18 +42185,24 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-12T10:00:00.000Z",
+        "date": "2026-10-31T12:00:00.000Z",
         "description": "Manuscript deadline for research articles",
         "is_full_paper_submission_deadline": true
       },
       {
-        "date": "2026-12-31T11:00:00.000Z",
-        "description": "Deadline for debate/new development pieces",
+        "date": "2026-12-31T12:00:00.000Z",
+        "description": "Manuscript deadline for debate and new development articles",
         "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "controle": {
+      "longueur": 867,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Enterprise Information Systems",
@@ -41556,8 +42273,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Entrepreneurship & Regional Development",
@@ -42275,8 +42993,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Public Money & Management",
@@ -43221,8 +43940,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Journal of Advertising Research",
@@ -43437,8 +44157,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Knowledge Management Research & Practice",
@@ -43769,8 +44490,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Journal of Marketing Management",
@@ -44410,8 +45132,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Entrepreneurship & Regional Development",
@@ -45133,8 +45856,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Journal of Marketing Management",
@@ -45438,8 +46162,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-11-04T09:04:45.843Z"
   },
   {
     "journal": "Journal of European Public Policy",
@@ -49623,7 +50348,6 @@
     ],
     "active": false,
     "pubDate": "2025-11-22T03:12:30.440Z",
-    "gracePeriod": "2026-09-09T23:11:55.956Z",
     "issn": "1557-928X"
   },
   {
@@ -50301,7 +51025,6 @@
     ],
     "active": false,
     "pubDate": "2025-05-26T03:20:42.907Z",
-    "gracePeriod": "2026-09-09T23:11:55.956Z",
     "issn": "1557-928X"
   },
   {
@@ -54419,7 +55142,6 @@
     ],
     "active": false,
     "pubDate": "2023-08-29T12:54:56.000Z",
-    "gracePeriod": "2026-07-04T06:52:32.767Z",
     "issn": "1558-3457"
   },
   {
@@ -54600,7 +55322,6 @@
     ],
     "active": false,
     "pubDate": "2023-06-13T12:46:46.000Z",
-    "gracePeriod": "2026-07-04T06:52:32.767Z",
     "issn": "1558-3457"
   },
   {

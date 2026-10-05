@@ -4,7 +4,7 @@
         <title>kerostig | Tag : governance</title>
         <link>https://kerostig.org/tag/governance/</link>
         <description>Derniers appels à publications avec le tag 'governance'.</description>
-        <lastBuildDate>Sat, 03 Oct 2026 11:01:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Oct 2026 09:06:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,221 @@
             <link>https://kerostig.org/tag/governance/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Agentic Organizations: Designing, Governing, and Managing AI Agents]]></title>
+            <link>https://kerostig.org/call/jmis-agentic-organizations-designing-governing-and-managing-ai-agents/</link>
+            <guid>jmis-agentic-organizations-designing-governing-and-managing-ai-agents</guid>
+            <pubDate>Mon, 05 Oct 2026 09:04:45 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Martin Adam</strong>, University of Goettingen</p>
+        
+        <p><strong>Aaron Baird</strong>, Colorado State University</p>
+        
+        <p><strong>Mari-Klara Stein</strong>, Tallinn University of Technology</p>
+        
+        <p><strong>Alexander Benlian</strong>, Technical University of Darmstadt</p>
+        
+    
+    
+    
+    <p>AI is transitioning from a tool for individual productivity assistance to a participant in organizational action through agentic systems that can interpret goals, perceive states, plan actions, and execute tasks with autonomy. This shift reconfigures organizational arrangements, requiring new thinking about delegation, accountability, control, and oversight.</p>
+    
+    <p>Agentic organizations embed AI agents within routines, systems, and workflows, creating sociotechnical arrangements impacting core operational systems. Information systems scholars are well-positioned to address this transition given existing expertise in organizational change, algorithmic management, platform governance, and human-AI collaboration.</p>
+    
+    <p>This special issue seeks research on how organizations can design, govern, and manage human-AI ensembles while preserving accountability, resilience, and human judgment. Papers should examine delegated agentic participation in organizational action, including governance mechanisms, workflow redesign, multi-agent systems, epistemic challenges, workforce implications, and safety considerations.</p>
+    
+    <p>
+        Appel publié par Journal of Management Information Systems.
+        
+        <a href="https://www.jmis-web.org/cfps/JMIS_CfP_Agentic_Organizations.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/jmis-agentic-organizations-designing-governing-and-managing-ai-agents/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Delegated autonomy and control in agentic organizations</li>
+        
+        <li>Accountability and oversight mechanisms for AI agents</li>
+        
+        <li>Agentic process redesign and workflow transformation</li>
+        
+        <li>Organizational capability building for agentic systems</li>
+        
+        <li>Multi-agent orchestration and coordination</li>
+        
+        <li>Agent interoperability and digital ecosystems</li>
+        
+        <li>Epistemic governance and trust in AI agents</li>
+        
+        <li>Opacity and contestability of AI-generated actions</li>
+        
+        <li>Cognitive and behavioral implications of agentic AI</li>
+        
+        <li>Workforce implications and professional identity</li>
+        
+        <li>Skill formation and reliance on AI agents</li>
+        
+        <li>Resilience and safety in agentic systems</li>
+        
+        <li>Security and compliance in agentic workflows</li>
+        
+        <li>Societal consequences and ethical implications of agentic AI</li>
+        
+        <li>Human-AI ensembles and human authority preservation</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Final decision and publication</li>
+        
+        <li>December 15, 2026: Optional extended abstract submission deadline</li>
+        
+        <li>February 1, 2027: Full paper submission deadline</li>
+        
+        <li>May 1, 2027: First round of reviews completed</li>
+        
+        <li>September 1, 2027: Paper revisions due</li>
+        
+        <li>November 1, 2027: Second round of reviews completed</li>
+        
+        <li>February 1, 2028: Second paper revisions due</li>
+        
+    </ul>
+    
+    
+    <h2>Associate editors</h2>
+    <ul>
+        
+        <li><strong>Armin Alizadeh</strong>, Technical University of Darmstadt</li>
+        
+        <li><strong>Abhijith Annand</strong>, University of Arkansas</li>
+        
+        <li><strong>Langtao Chen</strong>, University of Tulsa</li>
+        
+        <li><strong>Christy M. K. Cheung</strong>, Hong Kong Baptist University</li>
+        
+        <li><strong>W. Alec Cram</strong>, University of Waterloo</li>
+        
+        <li><strong>Carolina Alves de Lima Salge</strong>, University of Georgia</li>
+        
+        <li><strong>Thomas Hess</strong>, Ludwig Maximilian University of Munich</li>
+        
+        <li><strong>Ekaterina Jussupow</strong>, Technical University of Darmstadt</li>
+        
+        <li><strong>Harris Kyriakou</strong>, ESSEC</li>
+        
+        <li><strong>Aron Lindberg</strong>, Stevens Institute of Tech</li>
+        
+        <li><strong>Anne-Sophie Mayer</strong>, Ludwig Maximilian University of Munich</li>
+        
+        <li><strong>Abhay Mishra</strong>, University of Arkansas</li>
+        
+        <li><strong>Long The Nguyen</strong>, Washington State University</li>
+        
+        <li><strong>William Olivera</strong>, Florida State University</li>
+        
+        <li><strong>Gabriele Piccoli</strong>, Louisiana State University</li>
+        
+        <li><strong>Magno Queiroz</strong>, Florida Atlantic University</li>
+        
+        <li><strong>Marta Stelmaszak</strong>, University of Massachusetts Amherst</li>
+        
+        <li><strong>Timo Sturm</strong>, Technical University of Darmstadt</li>
+        
+        <li><strong>Scott Thiebes</strong>, Tongji University</li>
+        
+        <li><strong>Thomas Ware</strong>, University of Pittsburgh</li>
+        
+        <li><strong>Martin Wiener</strong>, Technical University of Dresden</li>
+        
+        <li><strong>David Xu</strong>, City University of Hong Kong</li>
+        
+    </ul>
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Conceptualizing and Defining Public Service Delivery Hubs]]></title>
+            <link>https://kerostig.org/call/tandf-conceptualizing-and-defining-public-service-delivery-hubs/</link>
+            <guid>tandf-conceptualizing-and-defining-public-service-delivery-hubs</guid>
+            <pubDate>Mon, 05 Oct 2026 09:04:45 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Steven Parker</strong>, Open University</p>
+        
+        <p><strong>Kate Broadhurst</strong>, Loughborough University</p>
+        
+    
+    
+    
+    <p>Public service hubs are organizational arrangements bringing together multiple services and professionals to address complex social challenges. Despite their growing adoption, these hubs remain poorly conceptualized and theoretically underdeveloped. The special issue seeks to advance understanding of what constitutes a hub, how it differs from other collaborative forms, and what value it creates.</p>
+    
+    <p>The call particularly welcomes research examining financial and resourcing dimensions of hub working, including funding mechanisms, commissioning, and value-for-money evaluations. Submissions should critically explore hub design, implementation, governance, and evaluation, acknowledging the diversity of models ranging from specialist to inclusive arrangements, and including emerging digital variants. Contributions may draw on various theoretical frameworks and examine hubs internationally using alternative terminology.</p>
+    
+    <p>The journal invites practitioner-academic collaborations and welcomes debate and new development formats alongside research articles.</p>
+    
+    <p>
+        Appel publié par Public Money &amp; Management.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/conceptualizing-and-defining-public-service-delivery-hubs/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-conceptualizing-and-defining-public-service-delivery-hubs/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Conceptualizing and defining public service delivery hubs</li>
+        
+        <li>Evolution of hub-based approaches across public services</li>
+        
+        <li>Hub forms, hybridity, and access</li>
+        
+        <li>Governance, leadership, and management of hubs</li>
+        
+        <li>Information sharing and inter-professional working in hubs</li>
+        
+        <li>Funding, commissioning and financial sustainability of hub models</li>
+        
+        <li>Hub user experiences, accessibility, and equity</li>
+        
+        <li>Public value creation in hub models</li>
+        
+        <li>Evaluating hub outcomes and value for money</li>
+        
+        <li>Challenges and unintended consequences of hubs</li>
+        
+        <li>Global hub perspectives</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 31, 2026: Extended abstract submission deadline</li>
+        
+        <li>March 31, 2027: Research articles submission deadline</li>
+        
+        <li>June 30, 2027: Debate articles and new development articles submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Integrating Digital Innovation and Sustainability]]></title>
             <link>https://kerostig.org/call/emerald-integrating-digital-innovation-and-sustainability/</link>
@@ -1351,28 +1566,69 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Rethinking Transit-Oriented Development: Territorial restructuring, intermodality and governance]]></title>
-            <link>https://kerostig.org/call/elsevier-rethinking-transit-oriented-development-territorial-restructuring-intermodality-and-governance/</link>
-            <guid>elsevier-rethinking-transit-oriented-development-territorial-restructuring-intermodality-and-governance</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <title><![CDATA[Cultural organizations in transition—rethinking management, governance, and organizational change]]></title>
+            <link>https://kerostig.org/call/tandf-cultural-organizations-in-transitionrethinking-management-governance-and-organizational-change/</link>
+            <guid>tandf-cultural-organizations-in-transitionrethinking-management-governance-and-organizational-change</guid>
+            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Lorenzo Mizzau</strong>, University of Genoa</p>
+        
+        <p><strong>Leticia Labaronne</strong>, Zurich University of Applied Sciences</p>
+        
+        <p><strong>Katja Lindqvist</strong>, Lund University</p>
+        
+        <p><strong>Yeşim Tonga</strong>, IMT School for Advanced Studies Lucca</p>
+        
     
+    
+    
+    <p>Cultural organizations such as museums, theatres, and festivals are increasingly facing pressure to transform their management and governance structures due to volatile funding, digital technologies, and changing expectations of accountability. These organizations serve important public missions by producing and safeguarding cultural value, yet must now navigate new collaborative models, hybrid work arrangements, and AI-driven innovation while sustaining their societal role.</p>
+    
+    <p>This special issue invites research exploring how cultural organizations can maintain their public commitment while adapting to organizational, sustainability, and technological transitions. Contributions should examine how managerial practices, governance frameworks, and organizational structures interact with public policy to help cultural institutions navigate these complex changes.</p>
     
     <p>
-        Appel publié par Journal of Transport Geography.
+        Appel publié par Public Money &amp; Management.
         
-        <a href="https://www.sciencedirect.com/special-issue/328329/rethinking-transit-oriented-development-territorial-restructuring-intermodality-and-governance">Voir l'appel sur le site de l'éditeur</a>.
+        <a href="https://think.taylorandfrancis.com/special_issues/cultural-organizations-in-transition/">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/elsevier-rethinking-transit-oriented-development-territorial-restructuring-intermodality-and-governance/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/tandf-cultural-organizations-in-transitionrethinking-management-governance-and-organizational-change/">Fiche de l'appel sur kerostig</a>.
     </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Managerial and organizational design in cultural organizations</li>
+        
+        <li>Governance frameworks and coordination in cultural policy systems</li>
+        
+        <li>Digital transformation and artificial intelligence in cultural organizations</li>
+        
+        <li>Careers and work in cultural organizations</li>
+        
+        <li>Human resource management and leadership in cultural institutions</li>
+        
+        <li>Organizational learning and knowledge management</li>
+        
+        <li>Managing change and innovation in cultural organizations</li>
+        
+        <li>Evaluation, accountability, and performance management</li>
+        
+        <li>Public finance models and programs for culture</li>
+        
+        <li>Social, environmental and economic sustainability in cultural organizations</li>
+        
+    </ul>
     
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>July 31, 2026: Full paper submission deadline</li>
+        <li>October 31, 2026: Manuscript deadline for research articles</li>
+        
+        <li>December 31, 2026: Manuscript deadline for debate and new development articles</li>
         
     </ul>
     

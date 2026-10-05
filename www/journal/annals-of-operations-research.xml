@@ -4,7 +4,7 @@
         <title>kerostig | Annals of Operations Research</title>
         <link>https://kerostig.org/journal/annals-of-operations-research/</link>
         <description>Derniers appels à publications pour Annals of Operations Research.</description>
-        <lastBuildDate>Sat, 03 Oct 2026 11:01:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Oct 2026 09:06:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -232,14 +232,14 @@
 <div>
     
         
-        <p><strong>Hoang Pham</strong>, Rutgers, The State University of New Jersey</p>
+        <p><strong>Hoang Pham</strong>, Rutgers University</p>
         
     
     
     
-    <p>This special issue focuses on recent advances in reliability and statistical computing methods for intelligent systems in real-world applications and service industries. The field has undergone significant changes due to the increasing role of artificial intelligence, which demands reliable and timely responses from intelligent systems.</p>
+    <p>The special issue addresses the growing importance of reliability and statistical computing in artificial intelligence systems used in everyday applications and service industries. It seeks contributions covering both theoretical advances and practical implementations in these areas, with emphasis on papers demonstrating real-world applicability.</p>
     
-    <p>The special issue welcomes articles presenting new theoretical research and practical methods in reliability and statistical computing for intelligent systems. Papers with real-world applications are preferred over purely theoretical contributions, covering topics such as mathematical reliability methods, big data modeling, machine learning approaches, system dependability, and various industrial case studies ranging from robotics to medical care and intelligent transportation.</p>
+    <p>The special issue welcomes research on mathematical and statistical methods for reliability, machine learning approaches for intelligent systems, big data analysis techniques, and system dependability measures. Industrial applications are particularly valued, including case studies from fields such as robotics, healthcare, education, surveillance, and transportation.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -270,7 +270,7 @@
         
         <li>Statistical inference for intelligent systems</li>
         
-        <li>Industrial case studies in intelligent systems, including field and service robotics, medical care, education, visual surveillance, intelligent transportation</li>
+        <li>Industrial case studies in intelligent systems</li>
         
     </ul>
     
@@ -278,7 +278,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>September 30, 2026: Submission deadline</li>
+        <li>October 30, 2026: Submission deadline</li>
         
     </ul>
     
@@ -963,9 +963,9 @@
     
     
     
-    <p>This special section seeks research that applies optimization and computational methods to medical and biological problems. The initiative recognizes that healthcare complexity and data-rich biological systems require rigorous mathematical and algorithmic approaches to advance treatment and prevention strategies.</p>
+    <p>This special section showcases optimization and computational approaches applied to medical and biological challenges. It aims to bring together mathematical programming researchers and healthcare professionals to address complex decision problems in medicine, from medical devices to clinical data analysis.</p>
     
-    <p>Contributions should address theoretical or methodological developments in optimization models and algorithms, including continuous, integer, combinatorial, and stochastic methods, with direct applications to healthcare delivery, disease management, medical imaging, and biological research. The special section welcomes partnerships between operations research and medical communities to solve problems benefiting public health.</p>
+    <p>The special section welcomes theoretical and methodological research on optimization models and algorithms, including continuous, integer, combinatorial, and stochastic methods, applied to healthcare and life sciences. Topics of interest span disease modeling, diagnosis, treatment planning, medical imaging, epidemiology, and molecular biology.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -978,17 +978,25 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Continuous linear and nonlinear optimization applied to medical and biological applications</li>
+        <li>Disease modeling</li>
         
-        <li>Integer programming for disease modeling, medical diagnosis, and treatment planning</li>
+        <li>Medical diagnosis</li>
         
-        <li>Combinatorial optimization in biological and medical imaging</li>
+        <li>Treatment planning</li>
         
-        <li>Stochastic approaches to epidemiology and molecular biology</li>
+        <li>Biological and medical imaging</li>
         
-        <li>Medical device and delivery systems optimization</li>
+        <li>Epidemiology</li>
         
-        <li>Complex decision problems in clinical applications</li>
+        <li>Molecular biology</li>
+        
+        <li>Linear and nonlinear optimization</li>
+        
+        <li>Integer programming</li>
+        
+        <li>Combinatorial optimization</li>
+        
+        <li>Stochastic optimization</li>
         
     </ul>
     
