@@ -586,6 +586,13 @@ export default async function (eleventyConfig) {
 
     eleventyConfig.addFilter("fluxTagExiste", (slugTag) => fluxTagsDisponibles.has(slugTag));
 
+    // Ordre alphabetique des organisations du pied de page (cf soutiens.njk) :
+    // localeCompare fr, sans quoi un nom accentue partirait apres le Z.
+    eleventyConfig.addFilter("trierParNom", function (liste) {
+        return [...(liste || [])].sort((a, b) =>
+            (a.nom || "").localeCompare(b.nom || "", "fr", { sensitivity: "base" }));
+    });
+
     eleventyConfig.addFilter("urlEncode", function (str) {
         return encodeURIComponent(str);
     });
@@ -670,6 +677,7 @@ export default async function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('www/tag/*.xml');
     eleventyConfig.addPassthroughCopy('www/public/favicon');
     eleventyConfig.addPassthroughCopy('www/public/fonts');
+    eleventyConfig.addPassthroughCopy('www/public/soutiens');
     eleventyConfig.addPassthroughCopy({
         './node_modules/alpinejs/dist/cdn.min.js': './public/js/alpine.min.js',
     });

@@ -13,7 +13,7 @@
             <a class="link link-hover opacity-70 hover:opacity-100" href="{{ ('/discipline/' + d.slug + '/') | url }}">{{ d.nom }}</a>
             {% endfor %}
         </div>
-    </nav>
+    </nav>{% include "soutiens.njk" %}
     <aside>
         <p class="text-xs opacity-70">appels à publications en sciences de gestion et management, classés par rang FNEGE</p>
         <p class="text-xs opacity-70">kerostig © {% currentYear %}</p>
