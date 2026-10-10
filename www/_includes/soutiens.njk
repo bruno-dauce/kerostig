@@ -10,6 +10,8 @@
                   et infobulle du lien. Vide, aucune legende.
      date_accord  date de l'accord ecrit, pour memoire (jamais affichee)
 
+   La ligne « Avec le soutien de » est posee une seule fois pour tout le bloc.
+
    Liste vide : le fichier ne rend rien, pas meme un saut de ligne (les deux
    tirets d'espace blanc de {% endif -%} en fin de fichier). Le pied de page
    doit rester octet pour octet identique tant qu'aucune entree n'existe.
@@ -25,6 +27,8 @@
    garde 4 h en cache navigateur, un visiteur peut donc recevoir le HTML neuf
    avec l'ancien CSS, d'ou un logo a sa taille reelle. #}
 {%- if soutiens and soutiens | length %}
+<div class="flex flex-col items-center gap-3">
+<p class="text-xs opacity-70">Avec le soutien de</p>
 <ul class="flex flex-wrap items-start justify-center gap-x-8 gap-y-4">
     {% for s in soutiens | trierParNom %}
     <li class="flex flex-col items-center gap-1.5">
@@ -42,4 +46,5 @@
     </li>
     {% endfor %}
 </ul>
+</div>
 {% endif -%}
