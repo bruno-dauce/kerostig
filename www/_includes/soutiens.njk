@@ -1,0 +1,39 @@
+{# Logos des organisations qui ont accepte d'etre mentionnees sur kerostig.
+   Donnees : www/_data/soutiens.json. Champs d'une entree :
+     nom          nom de l'organisation (sert au texte alternatif)
+     url          site de l'organisation
+     logo_clair   chemin du logo pour le theme clair, sous /public/soutiens/
+     logo_sombre  facultatif, chemin du logo pour le theme sombre
+     libelle      formule convenue avec l'organisation (infobulle du lien)
+     date_accord  date de l'accord ecrit, pour memoire (jamais affichee)
+
+   Liste vide : le fichier ne rend rien, pas meme un saut de ligne (les deux
+   tirets d'espace blanc de {% endif -%} en fin de fichier). Le pied de page
+   doit rester octet pour octet identique tant qu'aucune entree n'existe.
+
+   Le theme sombre se lit sur data-theme="dark" de la balise html. Sans
+   logo_sombre, le logo, jamais modifie, est pose sur une petite tuile claire.
+   Aucun logo n'est mis en avant : meme hauteur, meme espacement, ordre
+   alphabetique sur le nom. Ce bloc n'alimente ni Open Graph, ni JSON-LD, ni
+   le flux JSON. #}
+{%- if soutiens and soutiens | length %}
+<div class="flex flex-col items-center gap-2">
+    <ul class="flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
+        {% for s in soutiens | trierParNom %}
+        <li>
+            <a href="{{ s.url }}" rel="noopener"{% if s.libelle %} title="{{ s.libelle }}"{% endif %} class="inline-flex items-center">
+                {% if s.logo_sombre %}
+                <img src="{{ s.logo_clair }}" alt="Logo de {{ s.nom }}" class="h-8 w-auto [[data-theme=dark]_&]:hidden" />
+                <img src="{{ s.logo_sombre }}" alt="Logo de {{ s.nom }}" class="hidden h-8 w-auto [[data-theme=dark]_&]:block" />
+                {% else %}
+                <span class="inline-flex items-center rounded-sm [[data-theme=dark]_&]:bg-white [[data-theme=dark]_&]:p-1">
+                    <img src="{{ s.logo_clair }}" alt="Logo de {{ s.nom }}" class="h-8 w-auto" />
+                </span>
+                {% endif %}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+    <p class="text-xs opacity-70">kerostig est un projet indépendant.</p>
+</div>
+{% endif -%}
