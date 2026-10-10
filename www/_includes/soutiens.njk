@@ -4,6 +4,8 @@
      url          site de l'organisation
      logo_clair   chemin du logo pour le theme clair, sous /public/soutiens/
      logo_sombre  facultatif, chemin du logo pour le theme sombre
+     largeur      facultatif, largeur du logo en px pour une hauteur de 40 px
+                  (largeur d'origine x 40 / hauteur d'origine), arrondie
      libelle      formule convenue avec l'organisation : legende sous le logo
                   et infobulle du lien. Vide, aucune legende.
      date_accord  date de l'accord ecrit, pour memoire (jamais affichee)
@@ -16,18 +18,23 @@
    logo_sombre, le logo, jamais modifie, est pose sur une petite tuile claire.
    Aucun logo n'est mis en avant : meme hauteur, meme espacement, ordre
    alphabetique sur le nom. Ce bloc n'alimente ni Open Graph, ni JSON-LD, ni
-   le flux JSON. #}
+   le flux JSON.
+
+   La taille est posee sur la balise img (attributs et style en ligne), pas
+   par une classe Tailwind : style.css n'est pas empreinte et Cloudflare le
+   garde 4 h en cache navigateur, un visiteur peut donc recevoir le HTML neuf
+   avec l'ancien CSS, d'ou un logo a sa taille reelle. #}
 {%- if soutiens and soutiens | length %}
 <ul class="flex flex-wrap items-start justify-center gap-x-8 gap-y-4">
     {% for s in soutiens | trierParNom %}
     <li class="flex flex-col items-center gap-1.5">
         <a href="{{ s.url }}" rel="noopener"{% if s.libelle %} title="{{ s.libelle }}"{% endif %} class="inline-flex items-center">
             {% if s.logo_sombre %}
-            <img src="{{ s.logo_clair }}" alt="Logo de {{ s.nom }}" class="h-10 w-auto [[data-theme=dark]_&]:hidden" />
-            <img src="{{ s.logo_sombre }}" alt="Logo de {{ s.nom }}" class="hidden h-10 w-auto [[data-theme=dark]_&]:block" />
+            <img src="{{ s.logo_clair }}" alt="Logo de {{ s.nom }}" class="[[data-theme=dark]_&]:hidden" height="40"{% if s.largeur %} width="{{ s.largeur }}"{% endif %} style="height:40px;width:auto;max-width:100%" />
+            <img src="{{ s.logo_sombre }}" alt="Logo de {{ s.nom }}" class="hidden [[data-theme=dark]_&]:block" height="40"{% if s.largeur %} width="{{ s.largeur }}"{% endif %} style="height:40px;width:auto;max-width:100%" />
             {% else %}
             <span class="inline-flex items-center rounded-sm [[data-theme=dark]_&]:bg-white [[data-theme=dark]_&]:p-1">
-                <img src="{{ s.logo_clair }}" alt="Logo de {{ s.nom }}" class="h-10 w-auto" />
+                <img src="{{ s.logo_clair }}" alt="Logo de {{ s.nom }}" height="40"{% if s.largeur %} width="{{ s.largeur }}"{% endif %} style="height:40px;width:auto;max-width:100%" />
             </span>
             {% endif %}
         </a>
