@@ -1,5 +1,244 @@
 [
   {
+    "journal": "Public Management Review",
+    "abbreviation": "tandf",
+    "issn": "1471-9045",
+    "metaTitle": "Administrative Inequality: Conceptualization and Micro-Mechanisms",
+    "url": "https://think.taylorandfrancis.com/special_issues/administrative-inequality-conceptualization-and-micro-mechanisms/",
+    "title": "Administrative Inequality: Conceptualization and Micro-Mechanisms",
+    "slug": "tandf-administrative-inequality-conceptualization-and-micro-mechanisms",
+    "contentHash": "0a06e4e593e81c21f055a3027f26165b44dda36f5e2bc8886994c903b55739b9",
+    "topics": [
+      "Administrative inequality",
+      "Equal opportunity and access to public services",
+      "Street-level bureaucratic discretion",
+      "Representative bureaucracy",
+      "Bureaucratic discrimination",
+      "Administrative burden",
+      "Social equity in public administration",
+      "Public sector corruption",
+      "Automated decision-making and algorithms",
+      "Organizational routines and procedures",
+      "Eligibility checks and communication routines",
+      "Digital governance",
+      "Administrative behavior and citizen treatment",
+      "Comparative analysis across governance contexts",
+      "Informal institutions and administrative processes"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue addresses how public administrations produce inequality through organizational routines and administrative decisions. Research on unequal citizen treatment has historically developed in isolated subfields, creating conceptual fragmentation. The special issue proposes administrative inequality as a unifying framework integrating these literatures around the shared principle of equal opportunity of access to public services and entitlements.",
+        "Administrative inequality encompasses any administrative rule, process, or behavior—intentional or unintentional—that systematically impedes citizens' equal opportunity to access public services. The concept anchors equality in access and examines how formal rules, organizational routines, and street-level behavior jointly produce unequal outcomes across diverse governance contexts.",
+        "The special issue welcomes theoretical, conceptual, and empirical contributions illuminating the micro-mechanisms of administrative inequality. Submissions should identify the populations and opportunities at stake, the specific mechanisms producing inequality, and the levels of analysis connecting micro-level actions to organizational and systemic conditions. The issue is particularly timely given increasing reliance on automated decision-making and data-driven governance."
+      ]
+    },
+    "tags": [
+      "public administration",
+      "inequality",
+      "bureaucracy",
+      "public services",
+      "governance"
+    ],
+    "editors": [
+      {
+        "name": "Steffen Eckhard",
+        "affiliation": "Leibniz University Hannover"
+      },
+      {
+        "name": "Eva Thomann",
+        "affiliation": "University of Konstanz"
+      },
+      {
+        "name": "Gabriela Lotta",
+        "affiliation": "Fundação Getulio Vargas"
+      },
+      {
+        "name": "Sharon Gilad",
+        "affiliation": "Hebrew University of Jerusalem"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-11-25T12:00:00.000Z",
+        "description": "Abstract submission deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-23T12:00:00.000Z",
+        "description": "Feedback from guest editors",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-08-01T12:00:00.000Z",
+        "description": "Full manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1325,
+      "tauxCopie": 0.019230769230769232,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-12T09:18:59.785Z"
+  },
+  {
+    "journal": "International Journal of Logistics Research and Applications",
+    "abbreviation": "tandf",
+    "issn": "1469-848X",
+    "metaTitle": "From Globalization to Regionalization: Rethinking Logistics and Supply Chain Operations",
+    "url": "https://think.taylorandfrancis.com/special_issues/globalization-regionalization/",
+    "title": "From Globalization to Regionalization: Rethinking Logistics and Supply Chain Operations",
+    "slug": "tandf-from-globalization-to-regionalization-rethinking-logistics-and-supply-chain-operations",
+    "contentHash": "9c5cf889e7fb5b65e0eea876e04fd0938f917884c0327133e09167d3cb468577",
+    "topics": [
+      "Reshoring, nearshoring, friend-shoring, and regionalization",
+      "Global versus regional and local sourcing and production",
+      "Supply chain network redesign and facility location",
+      "Capacity allocation under deglobalization",
+      "Supplier diversification and multi-sourcing",
+      "Procurement strategies under geopolitical uncertainty",
+      "Geopolitical risks and trade barriers",
+      "Tariffs and export controls",
+      "Transportation network redesign",
+      "International freight flows",
+      "Supply chain resilience",
+      "Inventory positioning and strategic buffers",
+      "Digital technologies and artificial intelligence",
+      "Advanced analytics for supply chain reconfiguration"
+    ],
+    "description": {
+      "paragraphs": [
+        "Geopolitical tensions, trade disputes, and pandemic disruptions have prompted firms and governments to reconsider how they organize their supply chains. Rather than pursuing purely cost-driven global strategies, companies are increasingly adopting regional and localized approaches that balance efficiency with resilience, security, and sustainability. This shift from globalization to regionalization represents a fundamental reconfiguration of logistics and supply chain operations.",
+        "The special issue seeks to connect macroeconomic transformations with firm-level operational decisions. It welcomes research on reshoring, nearshoring, supplier diversification, transportation network redesign, inventory positioning, and the application of digital technologies and artificial intelligence in supply chain reconfiguration. The issue aims to develop integrated frameworks for managing supply chains in an increasingly fragmented and regionally differentiated global environment."
+      ]
+    },
+    "tags": [
+      "supply chain management",
+      "deglobalization",
+      "logistics operations",
+      "supply chain resilience",
+      "geopolitical risk"
+    ],
+    "editors": [
+      {
+        "name": "Benedict Jun Ma",
+        "affiliation": "The Hong Kong University of Science and Technology (Guangzhou)"
+      },
+      {
+        "name": "Xiaoyan (Kelly) Xu",
+        "affiliation": "University of Southampton"
+      },
+      {
+        "name": "T. C. Edwin Cheng",
+        "affiliation": "The Hong Kong Polytechnic University"
+      },
+      {
+        "name": "Chi To Ng",
+        "affiliation": "The Hong Kong Polytechnic University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-10-31T12:00:00.000Z",
+        "description": "Manuscript deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 977,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-12T09:18:59.785Z"
+  },
+  {
+    "journal": "Behaviour & Information Technology",
+    "abbreviation": "tandf",
+    "issn": "1362-3001",
+    "metaTitle": "The evolving human-AI relationship: profiles, trajectories, reciprocal dynamics, and outcomes",
+    "url": "https://think.taylorandfrancis.com/special_issues/the-evolving-human-ai-relationship-profiles-trajectories-reciprocal-dynamics-and-outcomes/",
+    "title": "The evolving human–AI relationship: profiles, trajectories, reciprocal dynamics, and outcomes",
+    "slug": "tandf-the-evolving-human-ai-relationship-profiles-trajectories-reciprocal-dynamics-and-outcomes",
+    "contentHash": "ea625bdca43ad25e1a36f3497ca3a9b519efd4d7c1eece676f44066042b076dc",
+    "topics": [
+      "User profiles and interaction typologies",
+      "AI as tool, assistant, collaborator, advisor, tutor, creative partner, or social agent",
+      "Reliance, verification, and cognitive offloading",
+      "Instrumental, educational, occupational, and creative motives",
+      "Appropriation and integration of AI into everyday practices",
+      "Longitudinal trajectories and transitions between interaction profiles",
+      "Trust, reliance, habitual use, and discontinuation",
+      "Human–AI feedback loops and reciprocal adaptation",
+      "Personalisation, anthropomorphism, and social presence",
+      "Responsiveness, recommendation, and adaptive behaviour",
+      "Human-centred design and human-in-the-loop interaction",
+      "Interpretable and explainable human–AI interaction",
+      "Transparency, trust calibration, and agency",
+      "Cognitive, behavioural, educational, and occupational outcomes",
+      "Wellbeing, digital strain, and problematic engagement",
+      "Person-centred and longitudinal research designs",
+      "Interaction logs and digital traces analysis",
+      "Conceptual and theoretical models of human-AI interaction"
+    ],
+    "description": {
+      "paragraphs": [
+        "The special issue examines how people engage with and adapt to AI systems over time, moving beyond simple adoption metrics to understand the diverse ways users interact with AI technologies. It emphasizes that human-AI interaction involves reciprocal processes where users and systems mutually influence each other through repeated interactions, potentially creating feedback loops that reshape both human behaviour and AI responses.",
+        "The collection seeks interdisciplinary research on interaction profiles, trajectories, and dynamics across different users, technologies, and contexts. It welcomes empirical studies, longitudinal investigations, and theoretical contributions that explore users' motivations, how AI design features shape engagement patterns, and the consequences of different interaction trajectories for cognitive, social, occupational, educational, and psychological wellbeing outcomes."
+      ]
+    },
+    "tags": [
+      "human-ai interaction",
+      "artificial intelligence",
+      "user engagement",
+      "longitudinal research",
+      "human-computer interaction"
+    ],
+    "editors": [
+      {
+        "name": "Vasileios Stavropoulos",
+        "affiliation": "RMIT University"
+      },
+      {
+        "name": "Nafsika Antoniadou",
+        "affiliation": "University of Ioannina"
+      },
+      {
+        "name": "Benjamin Tag",
+        "affiliation": "UNSW Sydney"
+      },
+      {
+        "name": "Taylor Brown",
+        "affiliation": "RMIT University"
+      },
+      {
+        "name": "Daniel Zarate",
+        "affiliation": "RMIT University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-02-28T12:00:00.000Z",
+        "description": "Manuscript deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 904,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-12T09:18:59.785Z"
+  },
+  {
     "journal": "Journal of the Association for Information Systems",
     "abbreviation": "jais",
     "issn": "1558-3457",
@@ -11793,38 +12032,46 @@
     "url": "https://link.springer.com/collections/bejcfcgecj",
     "title": "Rethinking Technology Transfer: Ensuring Resilience, Economic Impact and Social Value",
     "slug": "springer-rethinking-technology-transfer-ensuring-resilience-economic-impact-and-social-value",
-    "contentHash": "8a1f777087fec6297b87ebab05b31e089eaad9145dc0a0d550e00e35c1dd4a62",
+    "contentHash": "82a7f9c371699fb9b6d90faca2b0693749a84cb21969d205690f25e69aebbccb",
     "topics": [
-      "Elements of technology transfer systems and contextual factors contributing to resilience in different economic scenarios",
-      "Role of social value and prosocial behaviours of academic entrepreneurs in shaping university technology transfer structures",
-      "Blended value creation frictions at macro, meso and micro levels for various stakeholders in research commercialisation",
-      "Inclusivity and participation in technology transfer systems from multiple perspectives",
-      "Public policy mixes and instruments supporting technology transfer systems for economic and social value",
-      "Emerging university TTO configurations addressing societal challenges and geopolitical changes",
-      "Intellectual property leakage, open science models, and evolving legal frameworks affecting value creation",
-      "Future capabilities and competences required by technology transfer actors across sectors",
-      "Influence of stakeholder needs and AI-driven digitalisation on university TTO methodologies and processes",
-      "Non-market strategies driving university TTOs economic and social value creation"
+      "Technology transfer systems and resilience",
+      "University-industry collaboration",
+      "Technology transfer offices (TTOs)",
+      "Research commercialisation",
+      "Academic entrepreneurship",
+      "Intellectual property management",
+      "Social value creation",
+      "Blended value creation",
+      "Technology transfer at macro, meso and micro levels",
+      "AI and technology transfer",
+      "University third mission",
+      "Social innovation",
+      "Public R&D programmes",
+      "Technology transfer policies",
+      "Inclusive technology transfer systems",
+      "Prosocial behaviours in research commercialisation",
+      "Open science models",
+      "Legal frameworks for technology transfer",
+      "Technology transfer methodologies",
+      "Non-market strategies in TTOs"
     ],
     "description": {
       "paragraphs": [
-        "Technology transfer from universities and industry has been central to economic development, but rapidly advancing research and technology demand continuous evolution of university transfer structures and processes. While established frameworks have driven economic impact, emerging disruptions including AI advancement, geopolitical shifts, and intellectual property challenges are testing the resilience of current systems. This special issue examines how technology transfer systems can effectively balance economic impact with social value creation.",
-        "The issue invites exploration across multiple levels: macro-level policy frameworks and government R&D investments, meso-level institutional configurations and TTO designs, and micro-level academic entrepreneur behaviours and professional competencies. It particularly addresses how universities can simultaneously pursue economic commercialisation while meeting expectations to address societal grand challenges, and how these dual objectives create tensions requiring new business models and support structures."
+        "Technology transfer from universities and industry drives economic development, yet rapidly evolving research and technological advancements require continuous development of effective structures and processes. Universities must balance generating economic impact while supporting social value creation—a challenge operating across macro (government policies), meso (TTO structures), and micro (individual researcher) levels.",
+        "Current technology transfer systems face disruptions from technological change, geopolitical shifts, AI emergence, and intellectual property challenges. Universities are increasingly expected to contribute to societal grand challenges alongside traditional commercialisation, creating tensions between economic and social value creation for TTOs and academic entrepreneurs.",
+        "This special issue seeks research rethinking technology transfer paradigms to examine how systems can build resilience, become inclusive, and deliver blended value. Papers should address operational challenges, emerging TTO configurations, required capabilities for transfer actors, and how new technologies and policies shape the future of university-industry knowledge transfer."
       ]
     },
     "tags": [
       "technology transfer",
       "university-industry collaboration",
-      "social value",
-      "economic impact",
       "academic entrepreneurship",
-      "technology transfer offices",
-      "research commercialisation",
-      "resilience"
+      "social value",
+      "technology transfer offices"
     ],
     "editors": [
       {
-        "name": "James Cunningham",
+        "name": "James A. Cunningham",
         "affiliation": "Newcastle University"
       },
       {
@@ -11843,18 +12090,24 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-12-31T11:00:00.000Z",
+        "date": "2026-12-31T12:00:00.000Z",
         "description": "Full paper submission deadline",
         "is_full_paper_submission_deadline": true
       },
       {
-        "date": "2027-07-01T10:00:00.000Z",
+        "date": "2027-07-01T12:00:00.000Z",
         "description": "Final decisions on accepted papers should be completed",
         "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "controle": {
+      "longueur": 1178,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Journal of Small Business & Entrepreneurship",
@@ -14892,7 +15145,7 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-31T11:13:20.333Z"
   },
   {
@@ -26749,33 +27002,32 @@
     "journal": "Astin Bulletin",
     "abbreviation": "cup",
     "issn": "1783-1350",
-    "metaTitle": "Risk Sharing",
+    "metaTitle": "Risk Sharing (CLOSED)",
     "url": "https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/announcements/call-for-papers/call-for-papers-special-issue-on-risk-sharing",
     "title": "Risk Sharing",
     "slug": "cup-risk-sharing",
-    "contentHash": "9dff485cf90f6381aa998ef1f08b9d4944ad206cc0207da38b88af6e89573741",
+    "contentHash": "0a591b939ad7d69ae527bf5301d10db3baed285f8f514f1ceeadbca8828e0cfd",
     "topics": [
-      "Economics of risk sharing and insurance: New economic models for risk sharing and (re)insurance mechanisms, especially in connection to decision theory, game theory and contract theory",
-      "Mathematics and data science of risk sharing: Novel mathematical and statistical tools to address challenging problems in risk sharing",
-      "Model uncertainty in risk sharing: Quantifying and understanding uncertainty arising from lack of data, model misspecification, computational limitations, or behavioral issues",
-      "Alternative risk transfer: Catastrophe bonds, insurance-linked and longevity-linked securities",
-      "Parametric insurance: Predefined triggers for payouts based on specific parameters such as weather conditions or economic indicators",
-      "Innovative retirement products focusing on longevity risk sharing: Products that spread longevity risk among a pool of participants",
-      "Blockchain Technology: Opportunities to enhance risk sharing processes through transparent records and smart contracts"
+      "Economics of risk sharing and insurance",
+      "Mathematics and data science of risk sharing",
+      "Model uncertainty in risk sharing",
+      "Alternative risk transfer",
+      "Parametric insurance",
+      "Innovative retirement products focusing on longevity risk sharing",
+      "Blockchain technology"
     ],
     "description": {
       "paragraphs": [
-        "Risk sharing is a crucial topic in contemporary society due to various factors, including the increasing complexity and interconnectedness of global systems, the emergence of new risks (such as longevity risk, cyber threats and climate change), and the need for sustainable risk management strategies in a rapidly changing world.",
-        "Effective risk sharing mechanisms contribute to financial stability by spreading risks across different parties and promoting resilience in the face of unexpected events. Risk sharing mechanisms can also promote social equity by ensuring that the burden of risks is distributed fairly among individuals and institutions, rather than disproportionately affecting certain groups or communities. By facilitating risk sharing, actuarial science encourages innovation and economic growth by providing businesses and individuals with the confidence to invest and take risks, knowing that there are mechanisms in place to mitigate potential losses.",
-        "This special edition welcomes submissions that contribute to new developments in risk sharing within actuarial science, coupled with advancements in technology and mathematical, statistical or economic modeling, to obtain more efficient, equitable, and resilient risk management practices in contemporary society.",
-        "Contributions of a more applied nature, dealing with applications and technological innovations, are also welcome."
+        "This special issue addresses risk sharing as a critical contemporary challenge in actuarial science, driven by increasing global complexity, emerging risks such as longevity and climate change, and the demand for sustainable risk management. The editors seek papers on new developments in risk sharing that combine advances in actuarial science with technological and mathematical innovations to create more efficient, equitable, and resilient practices.",
+        "Submissions should cover fundamental aspects of risk sharing, including economic models grounded in decision, game, and contract theory; novel mathematical and statistical tools; and mechanisms for addressing model uncertainty and behavioral factors in decision-making under uncertain conditions. The issue also welcomes applied contributions on alternative risk transfer mechanisms, parametric insurance, innovative longevity risk-sharing retirement products, and blockchain-enabled solutions that enhance transparency and automation in risk sharing processes."
       ]
     },
     "tags": [
-      "risk sharing",
       "actuarial science",
+      "risk sharing",
       "insurance",
-      "mathematical modeling"
+      "mathematical modeling",
+      "financial stability"
     ],
     "editors": [
       {
@@ -26794,19 +27046,24 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2024-11-15T11:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
+        "date": "2024-01-01T12:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2025-09-01T10:00:00.000Z",
-        "description": "Targeted publication date for special issue",
-        "is_full_paper_submission_deadline": false
+        "date": "2024-11-15T12:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
       }
     ],
     "active": false,
     "pubDate": "2026-08-18T07:45:36.781Z",
-    "gracePeriod": "2026-10-13T16:43:20.348Z"
+    "controle": {
+      "longueur": 1015,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Human Resource Management Journal",
@@ -28517,9 +28774,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-16T22:58:24.455Z",
-    "gracePeriod": "2026-10-21T08:26:56.052Z"
+    "active": true,
+    "pubDate": "2026-08-16T22:58:24.455Z"
   },
   {
     "journal": "Revue internationale P M E Économie et gestion de la petite et moyenne entreprise",
@@ -28614,8 +28870,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-16T22:58:24.455Z",
-    "gracePeriod": "2026-10-21T08:26:56.052Z"
+    "pubDate": "2026-08-16T22:58:24.455Z"
   },
   {
     "journal": "Revue internationale P M E Économie et gestion de la petite et moyenne entreprise",
@@ -28697,8 +28952,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-16T22:58:24.455Z",
-    "gracePeriod": "2026-10-21T08:26:56.052Z"
+    "pubDate": "2026-08-16T22:58:24.455Z"
   },
   {
     "journal": "Revue internationale P M E Économie et gestion de la petite et moyenne entreprise",
@@ -28793,8 +29047,7 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-16T22:58:24.455Z",
-    "gracePeriod": "2026-10-21T08:26:56.052Z"
+    "pubDate": "2026-08-16T22:58:24.455Z"
   },
   {
     "journal": "Finance Contrôle Stratégie",
@@ -30521,38 +30774,31 @@
     "url": "https://think.taylorandfrancis.com/special_issues/novel-forms-and-models-of-organization/",
     "title": "Novel Forms and Models of Organization",
     "slug": "tandf-novel-forms-and-models-of-organization",
-    "contentHash": "374331c0ffa3243e1eab099af32b503ad8394236a769b65108669a7987108360",
+    "contentHash": "eee4f3bac2062d0538634ff02ffd46ca998a7b0cde5e97985ec23401ab955112",
     "topics": [
+      "Organizational forms and firm performance",
       "Leadership and decision architecture",
-      "Internal microstructures and governance",
-      "Make-buy-ally organizational design",
-      "Collaboration diversity and external partnerships",
-      "Digitalization and AI in process organization",
-      "Resilience and productivity through technology",
-      "Ecosystem embedment and alliances",
-      "Global value chain orchestration",
-      "Government relationships and policy",
-      "Cluster governance and institutions",
-      "Business model innovation patterns",
-      "Niche leaders and hidden champions",
-      "Organizational forms across regions and industries",
-      "Scaling and firm growth",
-      "Innovation and productivity frontier"
+      "Make-buy-ally and collaboration strategies",
+      "Digitalization, AI, and process organization",
+      "Ecosystem embedment and global value chain orchestration",
+      "Government relationships and institutional context",
+      "Business model innovation",
+      "Hidden champions and niche leaders",
+      "Scaling and exceptional firm performance",
+      "Innovation and productivity at the frontier"
     ],
     "description": {
       "paragraphs": [
-        "This special issue examines how firms of different sizes and stages organize themselves to achieve exceptional performance amid rapid technological change, globalization, and ecosystem interdependencies. The collection seeks theoretical and empirical research on novel organizational forms, structures, and governance models that enable firms to outperform competitors, innovate, and scale effectively. Particular emphasis is given to understanding organizational innovations in hidden champions, niche leaders, scaleups, and other exceptional performers.",
-        "The issue welcomes research investigating how novel organizational forms emerge and function across diverse geographical and economic contexts, including high-cost developed economies, emerging economies, and developing regions. Special attention is paid to underrepresented areas beyond OECD countries, recognizing that many Asian economies have cultivated distinctive organizational models through national initiatives. Research should address how factors like leadership, internal collaboration structures, technology adoption, ecosystem relationships, and policy environments shape organizational choices and performance outcomes."
+        "Rapid technological change and global interconnection are transforming how firms organize and compete. The special issue examines novel organizational forms that enable companies to achieve exceptional performance, whether through rapid growth without sacrificing efficiency, enhanced resilience to market shocks, or sustained innovation. These forms appear across diverse firm types—from tech giants to micro-enterprises, social ventures, and nonprofits—and across different regional and economic contexts.",
+        "The collection seeks research that explores how organizational structures, governance models, and collaboration architectures enable firms to operate at or near the innovation and productivity frontier. Particular interest lies in understanding exceptional performers such as hidden champions, niche leaders, scaleups, and blitzscalers, and how their organizational choices differ across regions, industries, and institutional contexts. The editors welcome comparative analysis spanning developed and developing economies, including underrepresented regions beyond North America and Western Europe."
       ]
     },
     "tags": [
       "organizational design",
-      "small business management",
       "firm growth",
-      "innovation",
       "entrepreneurship",
-      "global value chains",
-      "niche leaders"
+      "innovation",
+      "small business management"
     ],
     "editors": [
       {
@@ -30596,7 +30842,7 @@
     "active": true,
     "pubDate": "2026-08-12T04:26:53.283Z",
     "controle": {
-      "longueur": 1189,
+      "longueur": 1105,
       "tauxCopie": 0,
       "relance": false,
       "topicsTropLongs": 0
@@ -30849,38 +31095,38 @@
     "url": "https://link.springer.com/collections/hfgbffihjb",
     "title": "Artificial Intelligence, Affective Computing and Video Analytics for Intelligent Information Systems",
     "slug": "springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems",
-    "contentHash": "58c4e543a01de2949924baee692df01ac9e2dc199c61eb7e722c382f1c065bda",
+    "contentHash": "4cbd68991266a83034b286e21a0a257c0ef1e95fc5cac58ae4188787234701ba",
     "topics": [
-      "Scalable video understanding: algorithms and architectures for analyzing large-scale video streams (e.g. in surveillance, social media or enterprise) to support decision-making and business analytics.",
-      "Emotion and sentiment analysis: detection of affective and engagement cues in video (e.g. customer-journey recordings, advertisement viewing, user-generated content).",
-      "Multimodal fusion: methods that combine vision with audio, text or other modalities to enrich social-media intelligence and contextual analysis.",
-      "Streaming-native AI and MLOps: online inference under tight latency budgets, stream processing/windowing, drift detection, A/B testing and safe rollouts, cost–latency–accuracy trade-offs, and end-to-end observability for production pipelines.",
-      "Video(-language) models for streaming: multimodal LLMs/VLMs, memory and token compression for long-horizon video, retrieval-augmented streaming.",
-      "Real-time and distributed architectures: edge/cloud or federated systems for real-time video analytics at scale, including considerations of latency, bandwidth and privacy.",
-      "Explainability, fairness and compliance: approaches to make affective video AI transparent and trustworthy, addressing ethical, legal and regulatory challenges.",
-      "Adaptive learning: techniques for domain adaptation, continual learning or few-shot learning to handle evolving video streams and reduce the need for large labeled datasets.",
-      "Case studies and applications: empirical studies in domains such as healthcare (e.g. remote patient monitoring), finance (e.g. behavioral analytics), education (e.g. XR/serious games environments), and smart environments."
+      "Scalable video understanding",
+      "Emotion and sentiment analysis",
+      "Multimodal fusion",
+      "Streaming-native AI and MLOps",
+      "Video-language models for streaming",
+      "Real-time and distributed architectures",
+      "Explainability, fairness and compliance",
+      "Adaptive learning",
+      "Case studies and applications"
     ],
     "description": {
       "paragraphs": [
-        "This special issue addresses the intersection of video analytics and affective computing in intelligent information systems. With video data rapidly expanding across surveillance, retail, sports, and social platforms, combined with advances in deep learning and multimodal models, there is growing potential to extract emotional and social signals from visual content to enhance user engagement, recommendation systems, and decision-making processes.",
-        "The collection seeks original research, surveys, and perspectives on methods that fuse visual, auditory, and textual data to detect emotion, sentiment, engagement, and intent in real time. Topics include scalable video processing architectures, emotion recognition from video, multimodal analysis techniques, streaming-native AI systems, explainability and fairness in affective AI, and domain-specific applications in healthcare, finance, education, and smart environments."
+        "This special issue addresses the convergence of video analytics and affective computing in intelligent information systems. With the rapid growth of video data across surveillance, retail, healthcare, and social platforms, combined with advances in deep learning and multimodal models, there is an opportunity to harness emotional and social signals from visual data to enhance decision-making systems. The issue seeks research that bridges computer vision, sentiment detection, and system design to create human-centered, explainable solutions.",
+        "The call welcomes original research, surveys, and perspectives on topics ranging from scalable video understanding and real-time emotion detection to multimodal analysis combining vision, audio, and text. Particular interest lies in streaming-native AI architectures, video-language models, edge/cloud systems, and techniques addressing fairness, privacy, and compliance. Applications span healthcare, finance, education, and smart environments, with emphasis on practical implementation at scale."
       ]
     },
     "tags": [
       "video analytics",
       "affective computing",
+      "artificial intelligence",
       "emotion recognition",
-      "multimodal ai",
-      "deep learning"
+      "multimodal learning"
     ],
     "editors": [
       {
-        "name": "Andrea Generosi",
+        "name": "Luigi Gallo",
         "affiliation": "Pegaso University"
       },
       {
-        "name": "Luigi Gallo",
+        "name": "Andrea Generosi",
         "affiliation": "Pegaso University"
       },
       {
@@ -30892,24 +31138,30 @@
         "affiliation": "Marche Polytechnic University"
       },
       {
-        "name": "Josef Spjut",
-        "affiliation": "NVIDIA"
+        "name": "Lucio Tommaso De Paolis",
+        "affiliation": "University of Salento"
       },
       {
-        "name": "Lucio De Paolis",
-        "affiliation": "University of Salento"
+        "name": "Josef Spjut",
+        "affiliation": "Nvidia"
       }
     ],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-30T11:00:00.000Z",
+        "date": "2026-10-30T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 1042,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Scientometrics",
@@ -31950,45 +32202,52 @@
     "issn": "1555-1938",
     "metaTitle": "Entrepreneurship: Shaping the Future",
     "url": "https://link.springer.com/collections/beebdfabge",
-    "title": "Shaping the Future",
+    "title": "Entrepreneurship: Shaping the Future",
     "slug": "springer-entrepreneurship-shaping-the-future",
-    "contentHash": "236c35ac9d343cdce46bb13353f0ba1d4ee639f8ea33366fdfdabb1ef6841ce0",
+    "contentHash": "76b879241a1e7e04438db3041a90f61bca17947fd69447877b3e194b92e1d16b",
     "topics": [
-      "Entrepreneurship as a mechanism for addressing global issues",
-      "Impact of entrepreneurship on future development",
-      "Micro, meso, and macro levels of entrepreneurial analysis",
-      "Expected and realized changes in entrepreneurship phenomena",
-      "Implications of entrepreneurship for society and economy"
+      "Entrepreneurship and global issues",
+      "Micro, meso, and macro levels of analysis",
+      "Impact of entrepreneurship",
+      "Future-oriented entrepreneurship research",
+      "International entrepreneurship",
+      "Entrepreneurship in diverse organizational contexts",
+      "Global entrepreneurship"
     ],
     "description": {
       "paragraphs": [
-        "This multi-journal collection brings together cross-disciplinary research on entrepreneurship and its role in shaping the future. It welcomes contributions from researchers, practitioners, and policymakers who examine entrepreneurship as a means to tackle significant global challenges and understand how entrepreneurial activities create expected and realized changes across different contexts.",
-        "Papers in this collection analyze entrepreneurship at multiple levels of analysis—from individual and organizational (micro) to industry and regional (meso) to national and global (macro)—to explore how entrepreneurship can drive positive transformation and address contemporary issues."
+        "This multi-journal collection brings together research on entrepreneurship as a mechanism for addressing significant global challenges. It welcomes contributions that examine entrepreneurship phenomena across different analytical levels and explore how entrepreneurial activities can shape future outcomes.",
+        "The collection is open to researchers, practitioners, and policymakers investigating entrepreneurship from various perspectives, including its internationalization, organizational contexts, and societal implications. Submissions are accepted on an ongoing basis across three participating journals: Journal of International Entrepreneurship, International Entrepreneurship and Management Journal, and Journal of Global Entrepreneurship Research."
       ]
     },
     "tags": [
       "entrepreneurship",
+      "global issues",
       "innovation",
-      "sustainability",
-      "global challenges",
-      "future research"
+      "future-oriented research"
     ],
     "editors": [
       {
         "name": "Diego Matricano",
-        "affiliation": "University of Campania \"Luigi Vanvitelli\""
+        "affiliation": "University of Campania Luigi Vanvitelli"
       }
     ],
     "associate_editors": [],
     "dates": [
       {
         "date": null,
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
+        "description": "Submission period",
+        "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 751,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Information Systems Frontiers",
@@ -32517,37 +32776,39 @@
     "url": "https://link.springer.com/collections/hcgebaicga",
     "title": "OR for Sustainability in Supply Chain Management",
     "slug": "springer-or-for-sustainability-in-supply-chain-management",
-    "contentHash": "ef6d200512e5d01a533b631e8b8e0421f776ac123a6bd905990fc5f0ddf7289b",
+    "contentHash": "a3fbd6edc3782d42fd5ef854140508fc6cf46eabf72ccedd2d928e8f0b62a7d0",
     "topics": [
-      "Designing and policymaking in sustainable development goals through stakeholder support",
-      "Implementing sustainable development goals in supply chains through innovative strategies and practices",
-      "Monitoring supply chain governance and implications with a focus on sustainable development goals",
-      "Multi-attribute decision making approaches for sustainable supply chain management",
-      "Multi-objective decision making approaches for sustainable supply chain management",
-      "Green supply chain management strategies",
+      "Sustainable development goals (SDGs) implementation",
+      "Supply chain optimization",
+      "Multi-attribute decision making (MADM)",
+      "Multi-objective decision making (MODM)",
+      "Green supply chain management",
       "Lean supply chain approaches",
-      "Resource conservation and efficiency in supply chains",
-      "Circular economy in supply chain contexts",
-      "Sustainable supplier selection and evaluation",
-      "Carbon emissions reduction in supply chains",
-      "Reverse logistics and closed-loop supply chains",
-      "Sustainable procurement practices",
-      "Environmental impact assessment in supply chains",
-      "Social and economic sustainability in supply chain operations"
+      "Sustainable policy and design with stakeholder perspectives",
+      "Sustainable indicator strategies",
+      "Resource conservation and efficiency",
+      "Supply chain governance and monitoring",
+      "Environmental and societal impact reduction",
+      "Circular economy transitions",
+      "Supplier sustainability and resilience",
+      "Reverse logistics and remanufacturing",
+      "Carbon emissions reduction",
+      "Humanitarian and green logistics"
     ],
     "description": {
       "paragraphs": [
-        "This special section addresses the integration of sustainable development goals into supply chain management through advanced operations research methods. Organizations face mounting pressure to balance economic growth with resource conservation and environmental protection while addressing poverty and societal issues. The seventeen sustainable development goals adopted in 2015 target achievement by 2030, with significant implications for how supply chains are designed and operated across the globe.",
-        "The special section invites research on how optimization models, decision-making algorithms, and novel operations research techniques can support the implementation of sustainable supply chain management. Contributions should explore policy design with multiple stakeholders, innovative sustainability practices, and governance mechanisms for monitoring progress toward sustainable goals in different economic and geographical contexts. The work should demonstrate how efficient resource utilization and environmental responsibility can be achieved while improving organizational and societal outcomes."
+        "This special section addresses the integration of the UN's 17 Sustainable Development Goals (SDGs) into operations research and supply chain management. Organizations worldwide need to align their strategies with sustainability objectives to address resource depletion, pollution, and poverty. The collection seeks research that applies advanced operations research methods—such as multi-attribute and multi-objective decision making—to analyze and implement SDGs within supply chain environments at macro and organizational levels.",
+        "The special section welcomes contributions exploring three main themes: stakeholder-driven policy and design for SDGs; innovative strategies and practices for implementing sustainable supply chain management; and monitoring supply chain governance with respect to SDG targets. Research should demonstrate how optimization models and algorithms can improve data-driven decision-making, promote resource conservation, and support transitions toward more sustainable futures while addressing economic, environmental, and societal dimensions of supply chains."
       ]
     },
     "tags": [
+      "operations research",
+      "sustainability",
       "supply chain management",
       "sustainable development goals",
-      "operations research",
-      "optimization",
+      "sdg",
       "green supply chain",
-      "circular economy"
+      "optimization"
     ],
     "editors": [
       {
@@ -32564,7 +32825,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 1087,
+      "tauxCopie": 0.014814814814814815,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Annals of Operations Research",
@@ -32686,46 +32953,40 @@
     "url": "https://link.springer.com/collections/cchghgejbh",
     "title": "Digitalization for responsive and circular supply chains",
     "slug": "springer-special-issue-on-digitalization-for-responsive-and-circular-supply-chains",
-    "contentHash": "9f5af5bba4ed07f207e2bf96727c33a30f91d1629f1212c226defde27d6b967e",
+    "contentHash": "e77c5a6acd3331bd933ce1cee6bdd5c4139d645936a4450a27e613edac75f8be",
     "topics": [
-      "Contribution of digital technologies to responsiveness, agility, flexibility, adaptability, improvisation, and resilience, sustainability, circularity, and regeneration",
-      "Increasing supply chain visibility based on digital technologies",
-      "AI methods supporting forecasting, planning, decision making and optimization",
-      "Division of labour and interactions between humans and machines in AI-supported supply chains",
-      "Virtualization and simulation of supply chains based on digital twins",
-      "Blockchain and smart contracts in logistics and supply chain management",
-      "The role of digital platforms in supply chain management",
-      "Effects of smart product-service-systems on supply chains and supply chain management",
-      "Ecosystems and federated data ecosystems enabling new data-driven R strategies",
-      "Models, methods and tools enabling the triple transformation of supply chains",
-      "Barriers and challenges hindering digitalization, servitization and transition to sustainability and circularity",
-      "Data security and cyber security challenges in digital supply chain structures",
-      "Legal aspects within the digital, servitized, circular supply chain",
-      "Potential of digital technologies for ensuring compliance with legal requirements in the context of sustainability and circularity",
-      "Relationship management mechanisms and governance structures in the era of digitalized supply chains"
+      "Digital technologies and supply chain responsiveness",
+      "AI and machine learning in supply chains",
+      "Digital twins for products and supply chains",
+      "Blockchain and smart contracts in logistics",
+      "Digital platforms in supply chain management",
+      "Circular economy and supply chain sustainability",
+      "Product-service-systems and servitization",
+      "Supply chain resilience and agility",
+      "Supply chain visibility and transparency",
+      "Data ecosystems and R-strategies",
+      "Human-machine interaction in AI-supported supply chains",
+      "Cyber security in digital supply chains",
+      "Legal compliance in circular supply chains",
+      "Supply chain governance and relationship management",
+      "Industry-specific digital transformation"
     ],
     "description": {
       "paragraphs": [
-        "Modern supply chains face unprecedented disruptions while simultaneously confronting environmental limits and resource scarcity. This requires a fundamental transformation toward more responsive and circular systems. Digital technologies including IoT, AI, digital twins, and blockchain are critical enablers for building resilient supply chains that adapt quickly to change while reducing resource consumption and closing material loops.",
-        "The special issue seeks papers demonstrating how digital and data-driven solutions implement these responsive and circular supply chains, along with their associated business models. Contributions should explore digital technologies across multiple supply chain tiers, with particular emphasis on industry-specific applications and the integration of responsiveness, servitization, and sustainability goals."
+        "Modern supply chains face unprecedented disruptions and resource scarcity, requiring transformation from linear models to circular and responsive systems. Digital technologies—including IoT, AI, digital twins, blockchain, and platforms—are essential for achieving resilience, flexibility, and sustainability while closing material loops.",
+        "This special issue seeks research on how digital innovations support responsive and circular supply chains, including technology-driven solutions and associated business models. Contributions should address opportunities and barriers to digitalization across multiple supply chain tiers or dyadic relationships in various industries.",
+        "The journal welcomes diverse methodologies including conceptual, qualitative, and quantitative research with managerial implications. Submissions may examine automotive, chemicals, food, healthcare, logistics, manufacturing, or mining contexts."
       ]
     },
     "tags": [
       "supply chain management",
-      "digitalization",
+      "digital transformation",
       "circular economy",
       "sustainability",
-      "resilience"
+      "ai and machine learning",
+      "blockchain technology"
     ],
     "editors": [
-      {
-        "name": "Günter Prockl",
-        "affiliation": "Copenhagen Business School"
-      },
-      {
-        "name": "Alexander Pflaum",
-        "affiliation": "University of Bamberg"
-      },
       {
         "name": "Haozhe Chen",
         "affiliation": "Iowa State University"
@@ -32733,18 +32994,32 @@
       {
         "name": "Marcel Papert",
         "affiliation": "University of Bamberg"
+      },
+      {
+        "name": "Alexander Pflaum",
+        "affiliation": "University of Bamberg"
+      },
+      {
+        "name": "Günter Prockl",
+        "affiliation": "Copenhagen Business School"
       }
     ],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-15T10:00:00.000Z",
+        "date": "2026-10-15T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 914,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Electronic Markets",
@@ -32950,26 +33225,30 @@
     "url": "https://link.springer.com/collections/jegcacjfea",
     "title": "Technology Transfer through Collaboration: Bridging Academia, Policy, and Practice",
     "slug": "springer-technology-transfer-through-collaboration-bridging-academia-policy-and-practice",
-    "contentHash": "055069578f7169681236028a86f70dcd537bf0ae681c7da17433a0e62b44b9af",
+    "contentHash": "caaf4fda80968489e4073a96cf1a045ef16ed3ed56f2c4cc0ebde26eb6610263",
     "topics": [
-      "Technology transfer and collaboration between academics and non-academic actors",
-      "Entrepreneurship and innovation emerging from academic-practitioner-policymaker interactions",
-      "Boundary-spanning collaborations in technology transfer research",
-      "Co-authored research involving technology transfer professionals, policymakers, entrepreneurs, innovators, investors, industry experts, platform managers, R&D managers, and innovation intermediaries",
-      "Development of new theory through collaborative engagement",
-      "Access to distinctive data and empirical analysis enriched by collaboration",
-      "Policy and practice-relevant insights from technology transfer scholarship",
-      "Methodological rigor combined with practical applicability in innovation research"
+      "Technology transfer",
+      "Entrepreneurship",
+      "Innovation",
+      "Academic-non-academic collaboration",
+      "Policy and practice implications",
+      "Technology transfer professionals",
+      "Policymakers",
+      "Entrepreneurs",
+      "Innovators",
+      "Industry experts",
+      "R&D managers",
+      "Innovation intermediaries"
     ],
     "description": {
       "paragraphs": [
-        "This special collection seeks research on technology transfer and innovation that emerges from collaborations between academic researchers and practitioners, policymakers, or other non-academic stakeholders. The collection particularly welcomes papers co-authored by academics working alongside technology transfer professionals, innovators, investors, and other industry experts, as such partnerships offer unique access to emerging phenomena and practical contexts.",
-        "The collection aims to publish rigorous, peer-reviewed scholarship that leverages collaborative engagement to develop new theories, access distinctive data, and address important questions in technology transfer while maintaining the journal's standards for methodological rigor and empirical credibility. Papers should demonstrate how boundary-spanning collaboration contributes novel, impactful insights relevant to both scholarship and practice."
+        "This special collection seeks research on technology transfer that emerges from collaborative partnerships between academic researchers and non-academic stakeholders such as practitioners, policymakers, and industry professionals. The collection recognizes that such boundary-spanning collaborations provide unique access to emerging phenomena and data that can advance scholarship in the field.",
+        "The editors particularly welcome papers co-authored by academics and non-academic actors, including technology transfer professionals, entrepreneurs, investors, and innovation intermediaries. Submissions should demonstrate rigorous methodology while offering meaningful implications for policy and practice, combining novel theoretical contributions with empirical credibility and practical relevance."
       ]
     },
     "tags": [
       "technology transfer",
-      "academic-practitioner collaboration",
+      "academic-industry collaboration",
       "innovation",
       "entrepreneurship"
     ],
@@ -32979,7 +33258,7 @@
         "affiliation": "Loyola University New Orleans"
       },
       {
-        "name": "James Cunningham",
+        "name": "James A. Cunningham",
         "affiliation": "Newcastle University"
       },
       {
@@ -33000,11 +33279,17 @@
       {
         "date": null,
         "description": "Submission deadline",
-        "is_full_paper_submission_deadline": false
+        "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 796,
+      "tauxCopie": 0.03409090909090909,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Electronic Markets",

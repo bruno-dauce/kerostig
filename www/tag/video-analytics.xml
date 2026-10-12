@@ -4,7 +4,7 @@
         <title>kerostig | Tag : video analytics</title>
         <link>https://kerostig.org/tag/video-analytics/</link>
         <description>Derniers appels à publications avec le tag 'video analytics'.</description>
-        <lastBuildDate>Mon, 05 Oct 2026 10:15:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Oct 2026 09:20:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -23,24 +23,24 @@
 <div>
     
         
-        <p><strong>Andrea Generosi</strong>, Pegaso University</p>
-        
         <p><strong>Luigi Gallo</strong>, Pegaso University</p>
+        
+        <p><strong>Andrea Generosi</strong>, Pegaso University</p>
         
         <p><strong>Valerio De Luca</strong>, Pegaso University</p>
         
         <p><strong>Maura Mengoni</strong>, Marche Polytechnic University</p>
         
-        <p><strong>Josef Spjut</strong>, NVIDIA</p>
+        <p><strong>Lucio Tommaso De Paolis</strong>, University of Salento</p>
         
-        <p><strong>Lucio De Paolis</strong>, University of Salento</p>
+        <p><strong>Josef Spjut</strong>, Nvidia</p>
         
     
     
     
-    <p>This special issue addresses the intersection of video analytics and affective computing in intelligent information systems. With video data rapidly expanding across surveillance, retail, sports, and social platforms, combined with advances in deep learning and multimodal models, there is growing potential to extract emotional and social signals from visual content to enhance user engagement, recommendation systems, and decision-making processes.</p>
+    <p>This special issue addresses the convergence of video analytics and affective computing in intelligent information systems. With the rapid growth of video data across surveillance, retail, healthcare, and social platforms, combined with advances in deep learning and multimodal models, there is an opportunity to harness emotional and social signals from visual data to enhance decision-making systems. The issue seeks research that bridges computer vision, sentiment detection, and system design to create human-centered, explainable solutions.</p>
     
-    <p>The collection seeks original research, surveys, and perspectives on methods that fuse visual, auditory, and textual data to detect emotion, sentiment, engagement, and intent in real time. Topics include scalable video processing architectures, emotion recognition from video, multimodal analysis techniques, streaming-native AI systems, explainability and fairness in affective AI, and domain-specific applications in healthcare, finance, education, and smart environments.</p>
+    <p>The call welcomes original research, surveys, and perspectives on topics ranging from scalable video understanding and real-time emotion detection to multimodal analysis combining vision, audio, and text. Particular interest lies in streaming-native AI architectures, video-language models, edge/cloud systems, and techniques addressing fairness, privacy, and compliance. Applications span healthcare, finance, education, and smart environments, with emphasis on practical implementation at scale.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
@@ -53,23 +53,23 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Scalable video understanding: algorithms and architectures for analyzing large-scale video streams (e.g. in surveillance, social media or enterprise) to support decision-making and business analytics.</li>
+        <li>Scalable video understanding</li>
         
-        <li>Emotion and sentiment analysis: detection of affective and engagement cues in video (e.g. customer-journey recordings, advertisement viewing, user-generated content).</li>
+        <li>Emotion and sentiment analysis</li>
         
-        <li>Multimodal fusion: methods that combine vision with audio, text or other modalities to enrich social-media intelligence and contextual analysis.</li>
+        <li>Multimodal fusion</li>
         
-        <li>Streaming-native AI and MLOps: online inference under tight latency budgets, stream processing/windowing, drift detection, A/B testing and safe rollouts, cost–latency–accuracy trade-offs, and end-to-end observability for production pipelines.</li>
+        <li>Streaming-native AI and MLOps</li>
         
-        <li>Video(-language) models for streaming: multimodal LLMs/VLMs, memory and token compression for long-horizon video, retrieval-augmented streaming.</li>
+        <li>Video-language models for streaming</li>
         
-        <li>Real-time and distributed architectures: edge/cloud or federated systems for real-time video analytics at scale, including considerations of latency, bandwidth and privacy.</li>
+        <li>Real-time and distributed architectures</li>
         
-        <li>Explainability, fairness and compliance: approaches to make affective video AI transparent and trustworthy, addressing ethical, legal and regulatory challenges.</li>
+        <li>Explainability, fairness and compliance</li>
         
-        <li>Adaptive learning: techniques for domain adaptation, continual learning or few-shot learning to handle evolving video streams and reduce the need for large labeled datasets.</li>
+        <li>Adaptive learning</li>
         
-        <li>Case studies and applications: empirical studies in domains such as healthcare (e.g. remote patient monitoring), finance (e.g. behavioral analytics), education (e.g. XR/serious games environments), and smart environments.</li>
+        <li>Case studies and applications</li>
         
     </ul>
     

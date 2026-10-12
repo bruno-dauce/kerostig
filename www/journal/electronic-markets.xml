@@ -4,7 +4,7 @@
         <title>kerostig | Electronic Markets</title>
         <link>https://kerostig.org/journal/electronic-markets/</link>
         <description>Derniers appels à publications pour Electronic Markets.</description>
-        <lastBuildDate>Mon, 05 Oct 2026 10:15:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Oct 2026 09:20:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -102,20 +102,22 @@
 <div>
     
         
-        <p><strong>Günter Prockl</strong>, Copenhagen Business School</p>
-        
-        <p><strong>Alexander Pflaum</strong>, University of Bamberg</p>
-        
         <p><strong>Haozhe Chen</strong>, Iowa State University</p>
         
         <p><strong>Marcel Papert</strong>, University of Bamberg</p>
         
+        <p><strong>Alexander Pflaum</strong>, University of Bamberg</p>
+        
+        <p><strong>Günter Prockl</strong>, Copenhagen Business School</p>
+        
     
     
     
-    <p>Modern supply chains face unprecedented disruptions while simultaneously confronting environmental limits and resource scarcity. This requires a fundamental transformation toward more responsive and circular systems. Digital technologies including IoT, AI, digital twins, and blockchain are critical enablers for building resilient supply chains that adapt quickly to change while reducing resource consumption and closing material loops.</p>
+    <p>Modern supply chains face unprecedented disruptions and resource scarcity, requiring transformation from linear models to circular and responsive systems. Digital technologies—including IoT, AI, digital twins, blockchain, and platforms—are essential for achieving resilience, flexibility, and sustainability while closing material loops.</p>
     
-    <p>The special issue seeks papers demonstrating how digital and data-driven solutions implement these responsive and circular supply chains, along with their associated business models. Contributions should explore digital technologies across multiple supply chain tiers, with particular emphasis on industry-specific applications and the integration of responsiveness, servitization, and sustainability goals.</p>
+    <p>This special issue seeks research on how digital innovations support responsive and circular supply chains, including technology-driven solutions and associated business models. Contributions should address opportunities and barriers to digitalization across multiple supply chain tiers or dyadic relationships in various industries.</p>
+    
+    <p>The journal welcomes diverse methodologies including conceptual, qualitative, and quantitative research with managerial implications. Submissions may examine automotive, chemicals, food, healthcare, logistics, manufacturing, or mining contexts.</p>
     
     <p>
         Appel publié par Electronic Markets.
@@ -128,35 +130,35 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Contribution of digital technologies to responsiveness, agility, flexibility, adaptability, improvisation, and resilience, sustainability, circularity, and regeneration</li>
+        <li>Digital technologies and supply chain responsiveness</li>
         
-        <li>Increasing supply chain visibility based on digital technologies</li>
+        <li>AI and machine learning in supply chains</li>
         
-        <li>AI methods supporting forecasting, planning, decision making and optimization</li>
+        <li>Digital twins for products and supply chains</li>
         
-        <li>Division of labour and interactions between humans and machines in AI-supported supply chains</li>
+        <li>Blockchain and smart contracts in logistics</li>
         
-        <li>Virtualization and simulation of supply chains based on digital twins</li>
+        <li>Digital platforms in supply chain management</li>
         
-        <li>Blockchain and smart contracts in logistics and supply chain management</li>
+        <li>Circular economy and supply chain sustainability</li>
         
-        <li>The role of digital platforms in supply chain management</li>
+        <li>Product-service-systems and servitization</li>
         
-        <li>Effects of smart product-service-systems on supply chains and supply chain management</li>
+        <li>Supply chain resilience and agility</li>
         
-        <li>Ecosystems and federated data ecosystems enabling new data-driven R strategies</li>
+        <li>Supply chain visibility and transparency</li>
         
-        <li>Models, methods and tools enabling the triple transformation of supply chains</li>
+        <li>Data ecosystems and R-strategies</li>
         
-        <li>Barriers and challenges hindering digitalization, servitization and transition to sustainability and circularity</li>
+        <li>Human-machine interaction in AI-supported supply chains</li>
         
-        <li>Data security and cyber security challenges in digital supply chain structures</li>
+        <li>Cyber security in digital supply chains</li>
         
-        <li>Legal aspects within the digital, servitized, circular supply chain</li>
+        <li>Legal compliance in circular supply chains</li>
         
-        <li>Potential of digital technologies for ensuring compliance with legal requirements in the context of sustainability and circularity</li>
+        <li>Supply chain governance and relationship management</li>
         
-        <li>Relationship management mechanisms and governance structures in the era of digitalized supply chains</li>
+        <li>Industry-specific digital transformation</li>
         
     </ul>
     

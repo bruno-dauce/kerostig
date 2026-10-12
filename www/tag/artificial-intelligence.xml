@@ -4,7 +4,7 @@
         <title>kerostig | Tag : artificial intelligence</title>
         <link>https://kerostig.org/tag/artificial-intelligence/</link>
         <description>Derniers appels à publications avec le tag 'artificial intelligence'.</description>
-        <lastBuildDate>Mon, 05 Oct 2026 10:15:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Oct 2026 09:20:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,93 @@
             <link>https://kerostig.org/tag/artificial-intelligence/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[The evolving human–AI relationship: profiles, trajectories, reciprocal dynamics, and outcomes]]></title>
+            <link>https://kerostig.org/call/tandf-the-evolving-human-ai-relationship-profiles-trajectories-reciprocal-dynamics-and-outcomes/</link>
+            <guid>tandf-the-evolving-human-ai-relationship-profiles-trajectories-reciprocal-dynamics-and-outcomes</guid>
+            <pubDate>Mon, 12 Oct 2026 09:18:59 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Vasileios Stavropoulos</strong>, RMIT University</p>
+        
+        <p><strong>Nafsika Antoniadou</strong>, University of Ioannina</p>
+        
+        <p><strong>Benjamin Tag</strong>, UNSW Sydney</p>
+        
+        <p><strong>Taylor Brown</strong>, RMIT University</p>
+        
+        <p><strong>Daniel Zarate</strong>, RMIT University</p>
+        
+    
+    
+    
+    <p>The special issue examines how people engage with and adapt to AI systems over time, moving beyond simple adoption metrics to understand the diverse ways users interact with AI technologies. It emphasizes that human-AI interaction involves reciprocal processes where users and systems mutually influence each other through repeated interactions, potentially creating feedback loops that reshape both human behaviour and AI responses.</p>
+    
+    <p>The collection seeks interdisciplinary research on interaction profiles, trajectories, and dynamics across different users, technologies, and contexts. It welcomes empirical studies, longitudinal investigations, and theoretical contributions that explore users&#39; motivations, how AI design features shape engagement patterns, and the consequences of different interaction trajectories for cognitive, social, occupational, educational, and psychological wellbeing outcomes.</p>
+    
+    <p>
+        Appel publié par Behaviour &amp; Information Technology.
+        
+        <a href="https://think.taylorandfrancis.com/special_issues/the-evolving-human-ai-relationship-profiles-trajectories-reciprocal-dynamics-and-outcomes/">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/tandf-the-evolving-human-ai-relationship-profiles-trajectories-reciprocal-dynamics-and-outcomes/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>User profiles and interaction typologies</li>
+        
+        <li>AI as tool, assistant, collaborator, advisor, tutor, creative partner, or social agent</li>
+        
+        <li>Reliance, verification, and cognitive offloading</li>
+        
+        <li>Instrumental, educational, occupational, and creative motives</li>
+        
+        <li>Appropriation and integration of AI into everyday practices</li>
+        
+        <li>Longitudinal trajectories and transitions between interaction profiles</li>
+        
+        <li>Trust, reliance, habitual use, and discontinuation</li>
+        
+        <li>Human–AI feedback loops and reciprocal adaptation</li>
+        
+        <li>Personalisation, anthropomorphism, and social presence</li>
+        
+        <li>Responsiveness, recommendation, and adaptive behaviour</li>
+        
+        <li>Human-centred design and human-in-the-loop interaction</li>
+        
+        <li>Interpretable and explainable human–AI interaction</li>
+        
+        <li>Transparency, trust calibration, and agency</li>
+        
+        <li>Cognitive, behavioural, educational, and occupational outcomes</li>
+        
+        <li>Wellbeing, digital strain, and problematic engagement</li>
+        
+        <li>Person-centred and longitudinal research designs</li>
+        
+        <li>Interaction logs and digital traces analysis</li>
+        
+        <li>Conceptual and theoretical models of human-AI interaction</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>February 28, 2027: Manuscript deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Growing up Online: How Digital Platforms Shape Adolescent Development]]></title>
             <link>https://kerostig.org/call/jais-growing-up-online-how-digital-platforms-shape-adolescent-development/</link>
@@ -4240,6 +4327,77 @@
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Artificial Intelligence, Affective Computing and Video Analytics for Intelligent Information Systems]]></title>
+            <link>https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/</link>
+            <guid>springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Luigi Gallo</strong>, Pegaso University</p>
+        
+        <p><strong>Andrea Generosi</strong>, Pegaso University</p>
+        
+        <p><strong>Valerio De Luca</strong>, Pegaso University</p>
+        
+        <p><strong>Maura Mengoni</strong>, Marche Polytechnic University</p>
+        
+        <p><strong>Lucio Tommaso De Paolis</strong>, University of Salento</p>
+        
+        <p><strong>Josef Spjut</strong>, Nvidia</p>
+        
+    
+    
+    
+    <p>This special issue addresses the convergence of video analytics and affective computing in intelligent information systems. With the rapid growth of video data across surveillance, retail, healthcare, and social platforms, combined with advances in deep learning and multimodal models, there is an opportunity to harness emotional and social signals from visual data to enhance decision-making systems. The issue seeks research that bridges computer vision, sentiment detection, and system design to create human-centered, explainable solutions.</p>
+    
+    <p>The call welcomes original research, surveys, and perspectives on topics ranging from scalable video understanding and real-time emotion detection to multimodal analysis combining vision, audio, and text. Particular interest lies in streaming-native AI architectures, video-language models, edge/cloud systems, and techniques addressing fairness, privacy, and compliance. Applications span healthcare, finance, education, and smart environments, with emphasis on practical implementation at scale.</p>
+    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/hfgbffihjb">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Scalable video understanding</li>
+        
+        <li>Emotion and sentiment analysis</li>
+        
+        <li>Multimodal fusion</li>
+        
+        <li>Streaming-native AI and MLOps</li>
+        
+        <li>Video-language models for streaming</li>
+        
+        <li>Real-time and distributed architectures</li>
+        
+        <li>Explainability, fairness and compliance</li>
+        
+        <li>Adaptive learning</li>
+        
+        <li>Case studies and applications</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>October 30, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Collaborative Intelligence in Operations Research: Models, Methods, and Applications]]></title>
             <link>https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/</link>
             <guid>springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</guid>
@@ -5768,95 +5926,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Centering the societal impacts of AI, social media, and emerging technologies in advertising]]></title>
-            <link>https://kerostig.org/call/tandf-centering-the-societal-impacts-of-ai-social-media-and-emerging-technologies-in-advertising/</link>
-            <guid>tandf-centering-the-societal-impacts-of-ai-social-media-and-emerging-technologies-in-advertising</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Linda Tuncay Zayer</strong>, Loyola University Chicago</p>
-        
-        <p><strong>Jing Yang</strong>, Boston University</p>
-        
-        <p><strong>Shu-Chuan (Kelly) Chu</strong>, DePaul University</p>
-        
-    
-    
-    
-    <p>
-        Appel publié par International Journal of Advertising.
-        
-        <a href="https://think.taylorandfrancis.com/special_issues/centering-the-societal-impacts-of-ai-social-media-and-emerging-technologies-in-advertising/">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/tandf-centering-the-societal-impacts-of-ai-social-media-and-emerging-technologies-in-advertising/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Ethical implications of AI, social media, AR, VR, metaverse, and other emerging technologies</li>
-        
-        <li>Ethics and well-being related to AI companions, bots, and virtual influencers</li>
-        
-        <li>Personalized content generation and psychological manipulation concerns</li>
-        
-        <li>Algorithmic amplification of beneficial versus harmful advertising content</li>
-        
-        <li>Anthropomorphic design ethics and emotional manipulation through physical presence of AI/Robot</li>
-        
-        <li>Consent and autonomy in human-robot advertising/marketing communication interactions</li>
-        
-        <li>Parasocial relationships with advertising/marketing communication robots and their exploitation</li>
-        
-        <li>Consumer understanding and control of integrated AI advertising experiences</li>
-        
-        <li>Data sharing and privacy concerns across social media platforms and emerging technologies</li>
-        
-        <li>Building AI and digital media literacy</li>
-        
-        <li>Children&#39;s well-being related to AI, social media and new technologies</li>
-        
-        <li>Elderly consumers and potential exploitation through advertising systems embodied by emerging technologies</li>
-        
-        <li>Consumer involvement in advanced advertising system design and governance</li>
-        
-        <li>Professional ethics for AI-automated decision-making</li>
-        
-        <li>Deepfakes and synthetic media ethics in commercial contexts</li>
-        
-        <li>Synthetic data and digital twins in the advertising context</li>
-        
-        <li>Automation and replacement of advertising industry employees by AI</li>
-        
-        <li>Bias detection, measurement, and mitigation strategies across digital applications</li>
-        
-        <li>Bias and representational harms of AI-generated advertising and other emerging technologies</li>
-        
-        <li>Extremism, misogyny, and gender-based violence enabled by AI, social media, and emerging technologies</li>
-        
-        <li>Immersive storytelling, embodiment, and consumer well-being in hybrid digital–physical advertising experiences</li>
-        
-        <li>Sustainability issues related to the use of AI in advertising industry</li>
-        
-        <li>AI, energy consumption, and the carbon footprint of the advertising industry</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 31, 2026: Manuscript deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Data Intelligence Drives Innovation in E-Commerce Enterprises]]></title>
             <link>https://kerostig.org/call/tandf-data-intelligence-drives-innovation-in-e-commerce-enterprises/</link>
             <guid>tandf-data-intelligence-drives-innovation-in-e-commerce-enterprises</guid>
@@ -6173,209 +6242,6 @@
         <li><strong>Kyoung-Suk Choi</strong>, Jeonbuk National University</li>
         
     </ul>
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Neurophysiological Foundations and Effects of Contemporary Digital Technologies]]></title>
-            <link>https://kerostig.org/call/tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies/</link>
-            <guid>tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>René Riedl</strong>, University of Applied Sciences Upper Austria &amp; Johannes Kepler University Linz</p>
-        
-        <p><strong>Jan vom Brocke</strong>, University of Münster</p>
-        
-        <p><strong>Jella Pfeiffer</strong>, Karlsruhe Institute of Technology</p>
-        
-        <p><strong>Robert Gleasure</strong>, Copenhagen Business School</p>
-        
-    
-    
-    
-    <p>
-        Appel publié par European Journal of Information Systems.
-        
-        <a href="https://think.taylorandfrancis.com/special_issues/ejis-neurois/">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/tandf-neurophysiological-foundations-and-effects-of-contemporary-digital-technologies/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>How does sustained interaction with AI-enabled systems (e.g., LLMs) and other advanced digital tools reshape neural networks associated with language, reasoning, and memory?</li>
-        
-        <li>Does reliance on AI systems and other forms of automation/digital decision support alter attentional control, working memory, metacognition, or problem-solving processes at the neurophysiological and behavioral levels?</li>
-        
-        <li>What are the implications of digitally augmented cognition for neuroplasticity, skill acquisition, and expertise development over time?</li>
-        
-        <li>How can integrated neurophysiological and behavioral measures provide a fuller picture of technology-mediated cognitive processes?</li>
-        
-        <li>How do individuals&#39; brains respond to empathetic or anthropomorphic cues exhibited by conversational AI and other interactive systems?</li>
-        
-        <li>What neurophysiological correlates underlie trust, reliance, distrust, or skepticism toward AI systems and other algorithmic or platform-based systems?</li>
-        
-        <li>How does emotional regulation change when decision-making is mediated by AI support, algorithmic decision aids, or digital nudges?</li>
-        
-        <li>What are the neurophysiological mechanisms of stress, fatigue, or overload in contexts of AI-assisted work and other digitally intensified work settings?</li>
-        
-        <li>How does technological mediation in team collaboration influence the neurophysiological foundations of social coordination, empathy, and shared attention?</li>
-        
-        <li>What neural mechanisms underlie shifts in authority, leadership, and influence when AI becomes a co-decision-maker?</li>
-        
-        <li>How do cultural differences modulate neurophysiological responses to AI and other digitally mediated collaboration settings?</li>
-        
-        <li>How do gender, age, or personality differences modulate neurophysiological responses to IS artifacts?</li>
-        
-        <li>How might AI-driven systems and other algorithmic/persuasive designs reinforce or mitigate cognitive biases?</li>
-        
-        <li>What neural signatures accompany ethical dilemmas and moral decision-making in AI-mediated contexts and broader digital governance settings?</li>
-        
-        <li>How does long-term use of AI and other digitally intensive work systems shape neurophysiological well-being, stress, or mental health at the workplace?</li>
-        
-        <li>How can neurophysiological insights inform the design of AI systems and other digital systems that are more intuitive and aligned with human cognitive limits?</li>
-        
-        <li>What are the neurophysiological underpinnings of productivity, efficiency, or value creation in digitally mediated economic interactions?</li>
-        
-        <li>How can genetic and neurophysiological approaches together explain individual differences in the adoption and use of digital systems?</li>
-        
-        <li>Which neurophysiological tools are best suited for investigating contemporary IS phenomena?</li>
-        
-        <li>How can hybrid approaches combining neurophysiology with computational methods enrich IS theory development?</li>
-        
-        <li>How can multi-level research designs integrate genetic, neurophysiological, behavioral, self-report, and organizational data to address IS phenomena more holistically?</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>March 31, 2026: Abstract deadline</li>
-        
-        <li>August 31, 2026: Manuscript deadline</li>
-        
-    </ul>
-    
-    
-    <h2>Associate editors</h2>
-    <ul>
-        
-        <li><strong>Bonnie B. Anderson</strong>, Brigham Young University</li>
-        
-        <li><strong>Dinko Bačić</strong>, Loyola University Chicago</li>
-        
-        <li><strong>Colin Conrad</strong>, Dalhousie University</li>
-        
-        <li><strong>Verena Dorner</strong>, Vienna University of Economics and Business</li>
-        
-        <li><strong>Nadine R. Gier-Reinartz</strong>, Heinrich-Heine-University Düsseldorf</li>
-        
-        <li><strong>Milena Head</strong>, McMaster University</li>
-        
-        <li><strong>Alan R. Hevner</strong>, University of South Florida</li>
-        
-        <li><strong>Qiqi Jiang</strong>, Copenhagen Business School</li>
-        
-        <li><strong>Marion Korosec-Serfaty</strong>, University of Québec in Montréal</li>
-        
-        <li><strong>Alexander Maedche</strong>, Karlsruhe Institute of Technology</li>
-        
-        <li><strong>Gernot R. Mueller-Putz</strong>, Graz University of Technology</li>
-        
-        <li><strong>Pierre-Majorique Léger</strong>, HEC Montréal</li>
-        
-        <li><strong>Mario Nadj</strong>, University of Duisburg-Essen</li>
-        
-        <li><strong>Fiona Nah</strong>, Singapore Management University</li>
-        
-        <li><strong>Adriane Randolph</strong>, Kennesaw State University</li>
-        
-        <li><strong>Ofir Turel</strong>, University of Melbourne</li>
-        
-        <li><strong>Eric A. Walden</strong>, Texas Tech University</li>
-        
-        <li><strong>Peter Walla</strong>, Sigmund Freud Private University Vienna</li>
-        
-        <li><strong>Dezhi Wu</strong>, University of South Carolina</li>
-        
-    </ul>
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[New Developments in Luxury Advertising: Artificial Intelligence, New Technologies, Sustainability, and Influencers]]></title>
-            <link>https://kerostig.org/call/tandf-new-developments-in-luxury-advertising-artificial-intelligence-new-technologies-sustainability-and-influencers/</link>
-            <guid>tandf-new-developments-in-luxury-advertising-artificial-intelligence-new-technologies-sustainability-and-influencers</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Eunju Ko</strong>, Yonsei University</p>
-        
-        <p><strong>Teresa Sádaba</strong>, ISEM Fashion Business School, Universidad de Navarra</p>
-        
-        <p><strong>Carmen Valor</strong>, Universidad Pontificia Comillas</p>
-        
-    
-    
-    
-    <p>
-        Appel publié par International Journal of Advertising.
-        
-        <a href="https://think.taylorandfrancis.com/special_issues/new-developments-in-luxury-advertising-artificial-intelligence-new-technologies-sustainability-and-influencers/">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/tandf-new-developments-in-luxury-advertising-artificial-intelligence-new-technologies-sustainability-and-influencers/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>How can influencers disclose data-driven targeting practices while preserving transparency and trust?</li>
-        
-        <li>How do AI-generated avatars and human influencers co-create content, and what balance sustains authenticity and aspiration?</li>
-        
-        <li>In what ways does AI-enabled personalization enhance luxury advertising without undermining exclusivity and symbolic value?</li>
-        
-        <li>How do AI-powered influencers and proliferating collaborations shape consumer trust, differentiation, and purchase decisions?</li>
-        
-        <li>How do platform-specific affordances (e.g., Instagram, TikTok, WeChat) shape storytelling, authenticity cues, and parasocial ties?</li>
-        
-        <li>How do different types of influencers (celebrity, micro, virtual, AI-generated) shape perceptions of authenticity, aspiration, and brand legitimacy?</li>
-        
-        <li>In what ways does the proliferation of influencer collaborations affect consumer trust, attention, and differentiation in luxury markets?</li>
-        
-        <li>How do AI-powered tools for influencer identification, personalization, and content creation alter the dynamics of luxury influence?</li>
-        
-        <li>How do influencers interact with broader institutional forces, such as regulation, ethics, and sustainability expectations?</li>
-        
-        <li>Under what conditions do sustainable luxury communications operate effectively, and why?</li>
-        
-        <li>How do sustainable advertising strategies influence consumers beyond purchase—shaping post-purchase satisfaction, long-term loyalty, and lifestyle adoption?</li>
-        
-        <li>How can luxury advertising integrate sustainability (e.g., recycled materials, fair labor) without diluting aspirational value?</li>
-        
-        <li>Which execution formats (storytelling, branded content, live events, influencer collaborations) most effectively balance marketing and societal objectives?</li>
-        
-        <li>How can luxury brands use communication to encourage minimalist consumption (&#39;buy less but better&#39;) while maintaining aspiration and desirability?</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 31, 2026: Manuscript submission deadline for direct submissions to the International Journal of Advertising</li>
-        
-    </ul>
-    
     
 </div>
 ]]></content:encoded>

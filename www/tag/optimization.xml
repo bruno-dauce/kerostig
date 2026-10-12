@@ -4,7 +4,7 @@
         <title>kerostig | Tag : optimization</title>
         <link>https://kerostig.org/tag/optimization/</link>
         <description>Derniers appels à publications avec le tag 'optimization'.</description>
-        <lastBuildDate>Mon, 05 Oct 2026 10:15:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Oct 2026 09:20:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -535,9 +535,9 @@
     
     
     
-    <p>This special section addresses the integration of sustainable development goals into supply chain management through advanced operations research methods. Organizations face mounting pressure to balance economic growth with resource conservation and environmental protection while addressing poverty and societal issues. The seventeen sustainable development goals adopted in 2015 target achievement by 2030, with significant implications for how supply chains are designed and operated across the globe.</p>
+    <p>This special section addresses the integration of the UN&#39;s 17 Sustainable Development Goals (SDGs) into operations research and supply chain management. Organizations worldwide need to align their strategies with sustainability objectives to address resource depletion, pollution, and poverty. The collection seeks research that applies advanced operations research methods—such as multi-attribute and multi-objective decision making—to analyze and implement SDGs within supply chain environments at macro and organizational levels.</p>
     
-    <p>The special section invites research on how optimization models, decision-making algorithms, and novel operations research techniques can support the implementation of sustainable supply chain management. Contributions should explore policy design with multiple stakeholders, innovative sustainability practices, and governance mechanisms for monitoring progress toward sustainable goals in different economic and geographical contexts. The work should demonstrate how efficient resource utilization and environmental responsibility can be achieved while improving organizational and societal outcomes.</p>
+    <p>The special section welcomes contributions exploring three main themes: stakeholder-driven policy and design for SDGs; innovative strategies and practices for implementing sustainable supply chain management; and monitoring supply chain governance with respect to SDG targets. Research should demonstrate how optimization models and algorithms can improve data-driven decision-making, promote resource conservation, and support transitions toward more sustainable futures while addressing economic, environmental, and societal dimensions of supply chains.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -550,35 +550,37 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Designing and policymaking in sustainable development goals through stakeholder support</li>
+        <li>Sustainable development goals (SDGs) implementation</li>
         
-        <li>Implementing sustainable development goals in supply chains through innovative strategies and practices</li>
+        <li>Supply chain optimization</li>
         
-        <li>Monitoring supply chain governance and implications with a focus on sustainable development goals</li>
+        <li>Multi-attribute decision making (MADM)</li>
         
-        <li>Multi-attribute decision making approaches for sustainable supply chain management</li>
+        <li>Multi-objective decision making (MODM)</li>
         
-        <li>Multi-objective decision making approaches for sustainable supply chain management</li>
-        
-        <li>Green supply chain management strategies</li>
+        <li>Green supply chain management</li>
         
         <li>Lean supply chain approaches</li>
         
-        <li>Resource conservation and efficiency in supply chains</li>
+        <li>Sustainable policy and design with stakeholder perspectives</li>
         
-        <li>Circular economy in supply chain contexts</li>
+        <li>Sustainable indicator strategies</li>
         
-        <li>Sustainable supplier selection and evaluation</li>
+        <li>Resource conservation and efficiency</li>
         
-        <li>Carbon emissions reduction in supply chains</li>
+        <li>Supply chain governance and monitoring</li>
         
-        <li>Reverse logistics and closed-loop supply chains</li>
+        <li>Environmental and societal impact reduction</li>
         
-        <li>Sustainable procurement practices</li>
+        <li>Circular economy transitions</li>
         
-        <li>Environmental impact assessment in supply chains</li>
+        <li>Supplier sustainability and resilience</li>
         
-        <li>Social and economic sustainability in supply chain operations</li>
+        <li>Reverse logistics and remanufacturing</li>
+        
+        <li>Carbon emissions reduction</li>
+        
+        <li>Humanitarian and green logistics</li>
         
     </ul>
     
