@@ -4,7 +4,7 @@
         <title>kerostig | Omega</title>
         <link>https://kerostig.org/journal/omega/</link>
         <description>Derniers appels à publications pour Omega.</description>
-        <lastBuildDate>Mon, 12 Oct 2026 09:20:44 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2026 08:33:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,53 @@
             <link>https://kerostig.org/journal/omega/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Data-Driven Optimization for Smart Cities]]></title>
+            <link>https://kerostig.org/call/elsevier-omega-55th-anniversary-data-driven-optimization-for-smart-cities/</link>
+            <guid>elsevier-omega-55th-anniversary-data-driven-optimization-for-smart-cities</guid>
+            <pubDate>Tue, 13 Oct 2026 08:32:28 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue celebrates Omega&#39;s 55th anniversary by focusing on data-driven optimization approaches for smart cities. The issue seeks to gather research that explores how optimization techniques can leverage data analytics to address urban challenges and improve city operations and services.</p>
+    
+    <p>
+        Appel publié par Omega.
+        
+        <a href="https://www.sciencedirect.com/special-issue/335920/omega-55th-anniversary-special-issue-data-driven-optimization-for-smart-cities">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-omega-55th-anniversary-data-driven-optimization-for-smart-cities/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Smart cities</li>
+        
+        <li>Data-driven optimization</li>
+        
+        <li>Urban optimization</li>
+        
+        <li>Intelligent systems</li>
+        
+        <li>Sustainable urban development</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>May 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Data-Driven Optimization for Smart Cities]]></title>
             <link>https://kerostig.org/call/elsevier-omega-the-international-journal-of-management-science-55th-anniversary-data-driven-optimization-for-smart-cit/</link>

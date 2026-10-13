@@ -4,7 +4,7 @@
         <title>kerostig | Tag : deep learning</title>
         <link>https://kerostig.org/tag/deep-learning/</link>
         <description>Derniers appels à publications avec le tag 'deep learning'.</description>
-        <lastBuildDate>Mon, 05 Oct 2026 10:15:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2026 08:33:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,61 +15,57 @@
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Artificial Intelligence, Affective Computing and Video Analytics for Intelligent Information Systems]]></title>
-            <link>https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/</link>
-            <guid>springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <title><![CDATA[Interdisciplinary Finance in Derivatives Markets]]></title>
+            <link>https://kerostig.org/call/wiley-interdisciplinary-finance-in-derivatives-markets/</link>
+            <guid>wiley-interdisciplinary-finance-in-derivatives-markets</guid>
+            <pubDate>Tue, 13 Oct 2026 08:32:28 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
         
-        <p><strong>Andrea Generosi</strong>, Pegaso University</p>
+        <p><strong>Qingfu Liu</strong>, Fudan University</p>
         
-        <p><strong>Luigi Gallo</strong>, Pegaso University</p>
-        
-        <p><strong>Valerio De Luca</strong>, Pegaso University</p>
-        
-        <p><strong>Maura Mengoni</strong>, Marche Polytechnic University</p>
-        
-        <p><strong>Josef Spjut</strong>, NVIDIA</p>
-        
-        <p><strong>Lucio De Paolis</strong>, University of Salento</p>
+        <p><strong>Xinfeng Ruan</strong>, Xi&#39;an Jiaotong-Liverpool University</p>
         
     
     
     
-    <p>This special issue addresses the intersection of video analytics and affective computing in intelligent information systems. With video data rapidly expanding across surveillance, retail, sports, and social platforms, combined with advances in deep learning and multimodal models, there is growing potential to extract emotional and social signals from visual content to enhance user engagement, recommendation systems, and decision-making processes.</p>
+    <p>This special issue addresses the intersection of interdisciplinary approaches and derivatives markets research. It seeks to move beyond conventional frameworks in asset pricing and risk management by incorporating methods from climate finance, AI, alternative data sources, and machine learning. The focus extends to understanding how derivatives pricing, trading dynamics, and risk allocation contribute to financial stability and market efficiency.</p>
     
-    <p>The collection seeks original research, surveys, and perspectives on methods that fuse visual, auditory, and textual data to detect emotion, sentiment, engagement, and intent in real time. Topics include scalable video processing architectures, emotion recognition from video, multimodal analysis techniques, streaming-native AI systems, explainability and fairness in affective AI, and domain-specific applications in healthcare, finance, education, and smart environments.</p>
+    <p>The call welcomes research on climate and green finance applications in derivatives, as well as studies employing emerging technologies such as trustworthy AI, deep learning, and large language models. Beyond these areas, the issue invites broader interdisciplinary perspectives including quantum finance, econophysics, decentralized finance, and biodiversity finance. The special issue is linked to the 15th International Conference on Futures and Other Derivatives, which provides a foundation for attracting high-quality submissions from both academics and practitioners.</p>
     
     <p>
-        Appel publié par Information Systems Frontiers.
+        Appel publié par Journal of Futures Markets.
         
-        <a href="https://link.springer.com/collections/hfgbffihjb">Voir l'appel sur le site de l'éditeur</a>.
+        <a href="https://onlinelibrary.wiley.com/page/journal/10969934/call-for-papers/si-2026-001215">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/wiley-interdisciplinary-finance-in-derivatives-markets/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Scalable video understanding: algorithms and architectures for analyzing large-scale video streams (e.g. in surveillance, social media or enterprise) to support decision-making and business analytics.</li>
+        <li>Climate risk, extreme weather, and derivatives markets</li>
         
-        <li>Emotion and sentiment analysis: detection of affective and engagement cues in video (e.g. customer-journey recordings, advertisement viewing, user-generated content).</li>
+        <li>Carbon derivatives and energy transition pricing</li>
         
-        <li>Multimodal fusion: methods that combine vision with audio, text or other modalities to enrich social-media intelligence and contextual analysis.</li>
+        <li>Multimodal and alternative data in derivatives pricing and forecasting</li>
         
-        <li>Streaming-native AI and MLOps: online inference under tight latency budgets, stream processing/windowing, drift detection, A/B testing and safe rollouts, cost–latency–accuracy trade-offs, and end-to-end observability for production pipelines.</li>
+        <li>Trustworthy AI and deep learning in derivatives markets</li>
         
-        <li>Video(-language) models for streaming: multimodal LLMs/VLMs, memory and token compression for long-horizon video, retrieval-augmented streaming.</li>
+        <li>Large language models in trading and risk management</li>
         
-        <li>Real-time and distributed architectures: edge/cloud or federated systems for real-time video analytics at scale, including considerations of latency, bandwidth and privacy.</li>
+        <li>Quantum finance and physics-inspired pricing models</li>
         
-        <li>Explainability, fairness and compliance: approaches to make affective video AI transparent and trustworthy, addressing ethical, legal and regulatory challenges.</li>
+        <li>Econophysics and complex systems in market dynamics</li>
         
-        <li>Adaptive learning: techniques for domain adaptation, continual learning or few-shot learning to handle evolving video streams and reduce the need for large labeled datasets.</li>
+        <li>Decentralized finance and financial innovation</li>
         
-        <li>Case studies and applications: empirical studies in domains such as healthcare (e.g. remote patient monitoring), finance (e.g. behavioral analytics), education (e.g. XR/serious games environments), and smart environments.</li>
+        <li>Price discovery and volatility dynamics</li>
+        
+        <li>Risk transmission and hedging efficiency</li>
+        
+        <li>Corporate finance and asset pricing</li>
         
     </ul>
     
@@ -77,7 +73,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>October 30, 2026: Submission deadline</li>
+        <li>February 28, 2027: Submission deadline</li>
         
     </ul>
     

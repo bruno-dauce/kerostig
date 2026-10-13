@@ -4,7 +4,7 @@
         <title>kerostig | Expert Systems</title>
         <link>https://kerostig.org/journal/expert-systems/</link>
         <description>Derniers appels à publications pour Expert Systems.</description>
-        <lastBuildDate>Mon, 12 Oct 2026 09:20:45 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2026 08:33:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,123 @@
             <link>https://kerostig.org/journal/expert-systems/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Physical Machine Learning and Large Language Models for Remote Sensing and Earth Observation]]></title>
+            <link>https://kerostig.org/call/wiley-physical-machine-learning-and-large-language-models-for-remote-sensing-and-earth-observation/</link>
+            <guid>wiley-physical-machine-learning-and-large-language-models-for-remote-sensing-and-earth-observation</guid>
+            <pubDate>Tue, 13 Oct 2026 08:32:28 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Wenchao Zhang</strong>, Xi&#39;an University of Science and Technology</p>
+        
+        <p><strong>Yongze Song</strong>, Curtin University</p>
+        
+        <p><strong>Jiaxin Li</strong>, Chongqing University of Posts and Telecommunications</p>
+        
+    
+    
+    
+    <p>Remote sensing and Earth observation are advancing through integration of multi-source satellite and UAV data with machine learning and large language models. Physical machine learning—combining physics knowledge with data-driven approaches through physics-informed constraints and neural operators—enhances consistency and generalization. Geospatial foundation models and multimodal language systems enable knowledge transfer across sensors and support open-vocabulary perception and reasoning.</p>
+    
+    <p>This special issue seeks original research on physics-informed learning, geospatial foundation models, and language-based intelligence for remote sensing applications. Submissions should advance methodological approaches, establish benchmarks, or demonstrate applications that improve accuracy, generalization, interpretability, and operational value across environmental monitoring, resource management, and disaster response. Studies combining these complementary approaches are particularly encouraged.</p>
+    
+    <p>
+        Appel publié par Expert Systems.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/14680394/call-for-papers/si-2026-001228">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-physical-machine-learning-and-large-language-models-for-remote-sensing-and-earth-observation/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Physics-informed and physics-guided learning</li>
+        
+        <li>Hybrid physical-ML models</li>
+        
+        <li>Neural operators and surrogate models</li>
+        
+        <li>Inverse problems</li>
+        
+        <li>Physical constraints</li>
+        
+        <li>Uncertainty-aware Earth-system modeling</li>
+        
+        <li>Geospatial foundation models</li>
+        
+        <li>Self-supervised pretraining</li>
+        
+        <li>LLMs, VLMs, and MLLMs</li>
+        
+        <li>Retrieval-augmented generation</li>
+        
+        <li>Open-vocabulary learning</li>
+        
+        <li>Image-text alignment</li>
+        
+        <li>Geospatial reasoning</li>
+        
+        <li>Multimodal fusion</li>
+        
+        <li>Multi-source data integration</li>
+        
+        <li>Cross-sensor alignment</li>
+        
+        <li>Multi-resolution learning</li>
+        
+        <li>Spatio-temporal modeling</li>
+        
+        <li>AI agents and multi-agent systems</li>
+        
+        <li>Tool use and planning</li>
+        
+        <li>Generative and diffusion models</li>
+        
+        <li>Data synthesis and restoration</li>
+        
+        <li>Autonomous EO workflows</li>
+        
+        <li>Domain adaptation and generalization</li>
+        
+        <li>Few-shot and zero-shot learning</li>
+        
+        <li>Continual learning</li>
+        
+        <li>Model compression and edge deployment</li>
+        
+        <li>Robustness and uncertainty quantification</li>
+        
+        <li>Explainability and benchmarking</li>
+        
+        <li>Classification and detection</li>
+        
+        <li>Segmentation and change detection</li>
+        
+        <li>Image retrieval and captioning</li>
+        
+        <li>Visual question answering</li>
+        
+        <li>3D reconstruction</li>
+        
+        <li>Digital twins</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>February 28, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[LLMs and Agentic AI in Healthcare]]></title>
             <link>https://kerostig.org/call/wiley-llms-and-agentic-ai-in-healthcare/</link>

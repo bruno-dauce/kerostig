@@ -1,5 +1,512 @@
 [
   {
+    "journal": "Journal of Accounting and Public Policy",
+    "abbreviation": "elsevier",
+    "issn": "1873-2070",
+    "metaTitle": "Accounting and Public Policy in a Contested World",
+    "url": "https://www.sciencedirect.com/special-issue/337792/accounting-and-public-policy-in-a-contested-world",
+    "title": "Accounting and Public Policy in a Contested World",
+    "slug": "elsevier-accounting-and-public-policy-in-a-contested-world",
+    "contentHash": "eb94ec1a34177b63d4b6279d1f07e51a171f72af04c04c8473d716a99e7e530c",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue addresses the intersection of accounting and public policy in an increasingly contested global context. The call invites research that examines how accounting systems, policies, and practices respond to and shape public policy debates across various domains and institutional settings."
+      ]
+    },
+    "tags": [
+      "accounting",
+      "public policy"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-31T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 304,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-13T08:32:28.277Z"
+  },
+  {
+    "journal": "Public Health",
+    "abbreviation": "elsevier",
+    "issn": "1476-5616",
+    "metaTitle": "Addictive behaviors involving digital technologies",
+    "url": "https://www.sciencedirect.com/special-issue/337531/addictive-behaviors-involving-digital-technologies",
+    "title": "Addictive behaviors involving digital technologies",
+    "slug": "elsevier-addictive-behaviors-involving-digital-technologies",
+    "contentHash": "cec0715f12f3298d091fc6eba5c9147e3666a9f1b2786c0cd9e45927056ca6d4",
+    "topics": [
+      "Digital technology addiction",
+      "Problematic internet use",
+      "Gaming addiction",
+      "Social media addiction",
+      "Behavioral addictions"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines addictive behaviors associated with digital technologies, addressing emerging public health concerns related to excessive and problematic use of internet platforms, gaming, and social media. The collection seeks to advance understanding of how digital technologies can foster addictive patterns of behavior and their implications for individual and population health."
+      ]
+    },
+    "tags": [
+      "addiction",
+      "digital technologies",
+      "public health",
+      "behavioral health"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-09-01T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 395,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-13T08:32:28.277Z"
+  },
+  {
+    "journal": "Journal of Economic Psychology",
+    "abbreviation": "elsevier",
+    "issn": "1872-7719",
+    "metaTitle": "Economic Psychology in the Global South",
+    "url": "https://www.sciencedirect.com/special-issue/337861/economic-psychology-in-the-global-south",
+    "title": "Economic Psychology in the Global South",
+    "slug": "elsevier-economic-psychology-in-the-global-south",
+    "contentHash": "48ac4eada9e0c557c7340f0aa106646ca9dc41d325a75dffeb1eedd4df44e654",
+    "topics": [
+      "Economic psychology",
+      "Global South"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue invites contributions examining economic psychology within the context of the Global South. The collection seeks to broaden understanding of how economic behaviors, decision-making, and psychological factors operate in developing and emerging economies."
+      ]
+    },
+    "tags": [
+      "economic psychology",
+      "global south",
+      "developing economies"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-02-28T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 272,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-13T08:32:28.277Z"
+  },
+  {
+    "journal": "Journal of Transport Geography",
+    "abbreviation": "elsevier",
+    "issn": "1873-1236",
+    "metaTitle": "Epistemic (In)Justice in Transport Geography",
+    "url": "https://www.sciencedirect.com/special-issue/337753/epistemic-in-justice-in-transport-geography",
+    "title": "Epistemic (In)Justice in Transport Geography",
+    "slug": "elsevier-epistemic-injustice-in-transport-geography",
+    "contentHash": "6fdb50d2b15b7b12928ea61cd164c96fd78050de18a0c47e134842e9c3a42d73",
+    "topics": [
+      "Epistemic justice",
+      "Epistemic injustice",
+      "Transport geography",
+      "Knowledge production",
+      "Marginalized voices in transport research"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines epistemic justice and injustice within transport geography. It explores how knowledge about transport systems, mobility, and spatial practices is produced, validated, and disseminated, and investigates whose voices and perspectives are centered or excluded in transport research and policy-making."
+      ]
+    },
+    "tags": [
+      "transport geography",
+      "epistemic justice",
+      "knowledge production"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-07-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 325,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-13T08:32:28.277Z"
+  },
+  {
+    "journal": "Omega",
+    "abbreviation": "elsevier",
+    "issn": "1873-5274",
+    "metaTitle": "Omega 55th Anniversary Data-Driven Optimization for Smart Cities",
+    "url": "https://www.sciencedirect.com/special-issue/335920/omega-55th-anniversary-special-issue-data-driven-optimization-for-smart-cities",
+    "title": "Data-Driven Optimization for Smart Cities",
+    "slug": "elsevier-omega-55th-anniversary-data-driven-optimization-for-smart-cities",
+    "contentHash": "b8a3c88a377403528921d0bc277b7560982bdfa9ec2e63ab8aaa120cf7774d04",
+    "topics": [
+      "Smart cities",
+      "Data-driven optimization",
+      "Urban optimization",
+      "Intelligent systems",
+      "Sustainable urban development"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue celebrates Omega's 55th anniversary by focusing on data-driven optimization approaches for smart cities. The issue seeks to gather research that explores how optimization techniques can leverage data analytics to address urban challenges and improve city operations and services."
+      ]
+    },
+    "tags": [
+      "smart cities",
+      "optimization",
+      "data analytics"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-05-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 298,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-13T08:32:28.277Z"
+  },
+  {
+    "journal": "Journal of Macromarketing",
+    "abbreviation": "sage",
+    "issn": "1552-6534",
+    "metaTitle": "Measuring What Matters from a Macromarketing Perspective",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/jmk/Call%20for%20Papers%20(JMK%20Special%20Issue%20on%20Measuring%20What%20Matters%20from%20a%20Macromarketing%20Perspective).pdf",
+    "title": "Measuring What Matters from a Macromarketing Perspective",
+    "slug": "sage-measuring-what-matters-from-a-macromarketing-perspective",
+    "contentHash": "6cc5df25cb68e2e700ee39241620807320b06431e94f55eaac6ff731866546a4",
+    "topics": [
+      "Marketing systems' efficiency and effectiveness",
+      "Marketing's role in socio-economic development",
+      "Empirical distributive justice",
+      "Marketing of products and services that enhance quality of life",
+      "Non-WEIRD consumption norms and impacts",
+      "Non-traditional consumption and quality of life",
+      "Consumer vulnerability in disadvantaged groups",
+      "Sustainable consumption",
+      "Sustainable production and supply practices",
+      "Marketing contribution to peace and conflict mitigation",
+      "Symmetry of trade benefits between nations and channels",
+      "Health promotion contribution to consumer segments",
+      "Marketing and climate change mitigation",
+      "Artificial intelligence's impact on marketing and well-being"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue focuses on developing macromarketing metrics that measure marketing's societal impact across various domains. Similar to how other disciplines employ standardized indicators—such as GDP in economics or life expectancy in healthcare—the call invites scholars to create comprehensive metrics capturing both positive and negative effects of marketing on society. The issue builds on existing academic and public sector measures and seeks to expand the toolkit for evaluating marketing's contribution to social well-being.",
+        "Submissions may examine metrics spanning multiple contexts including consumer vulnerability, sustainable practices, quality of life improvements, socio-economic development, and emerging issues like artificial intelligence and climate change. Both empirical and conceptual papers are welcomed, with particular encouragement for conceptual work that could guide future research. The special issue aims to generate metrics useful for both policy regulation and managerial decision-making across industries, sectors, and social groups."
+      ]
+    },
+    "tags": [
+      "macromarketing",
+      "metrics",
+      "quality of life",
+      "social impact",
+      "consumer well-being"
+    ],
+    "editors": [
+      {
+        "name": "M. Joseph Sirgy",
+        "affiliation": "Virginia Tech"
+      },
+      {
+        "name": "Ben Wooliscroft",
+        "affiliation": "Auckland University of Technology"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-07-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1069,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-13T08:32:28.277Z"
+  },
+  {
+    "journal": "Journal of Futures Markets",
+    "abbreviation": "wiley",
+    "issn": "1096-9934",
+    "metaTitle": "Interdisciplinary Finance in Derivatives Markets",
+    "url": "https://onlinelibrary.wiley.com/page/journal/10969934/call-for-papers/si-2026-001215",
+    "title": "Interdisciplinary Finance in Derivatives Markets",
+    "slug": "wiley-interdisciplinary-finance-in-derivatives-markets",
+    "contentHash": "30079a4985b2973ffefc156af6b31dc2ea9348b8f9a881b1f102fefa769476dc",
+    "topics": [
+      "Climate risk, extreme weather, and derivatives markets",
+      "Carbon derivatives and energy transition pricing",
+      "Multimodal and alternative data in derivatives pricing and forecasting",
+      "Trustworthy AI and deep learning in derivatives markets",
+      "Large language models in trading and risk management",
+      "Quantum finance and physics-inspired pricing models",
+      "Econophysics and complex systems in market dynamics",
+      "Decentralized finance and financial innovation",
+      "Price discovery and volatility dynamics",
+      "Risk transmission and hedging efficiency",
+      "Corporate finance and asset pricing"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue addresses the intersection of interdisciplinary approaches and derivatives markets research. It seeks to move beyond conventional frameworks in asset pricing and risk management by incorporating methods from climate finance, AI, alternative data sources, and machine learning. The focus extends to understanding how derivatives pricing, trading dynamics, and risk allocation contribute to financial stability and market efficiency.",
+        "The call welcomes research on climate and green finance applications in derivatives, as well as studies employing emerging technologies such as trustworthy AI, deep learning, and large language models. Beyond these areas, the issue invites broader interdisciplinary perspectives including quantum finance, econophysics, decentralized finance, and biodiversity finance. The special issue is linked to the 15th International Conference on Futures and Other Derivatives, which provides a foundation for attracting high-quality submissions from both academics and practitioners."
+      ]
+    },
+    "tags": [
+      "derivatives markets",
+      "interdisciplinary finance",
+      "climate finance",
+      "deep learning",
+      "ai",
+      "alternative data"
+    ],
+    "editors": [
+      {
+        "name": "Qingfu Liu",
+        "affiliation": "Fudan University"
+      },
+      {
+        "name": "Xinfeng Ruan",
+        "affiliation": "Xi'an Jiaotong-Liverpool University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-02-28T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1024,
+      "tauxCopie": 0.0234375,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-13T08:32:28.277Z"
+  },
+  {
+    "journal": "Expert Systems",
+    "abbreviation": "wiley",
+    "issn": "1468-0394",
+    "metaTitle": "Physical Machine Learning and Large Language Models for Remote Sensing and Earth Observation",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14680394/call-for-papers/si-2026-001228",
+    "title": "Physical Machine Learning and Large Language Models for Remote Sensing and Earth Observation",
+    "slug": "wiley-physical-machine-learning-and-large-language-models-for-remote-sensing-and-earth-observation",
+    "contentHash": "4dc2e7b889f89620fbd9c9affcea1905cfc08880c86b39e8fbcbe48f4ef2bbd2",
+    "topics": [
+      "Physics-informed and physics-guided learning",
+      "Hybrid physical-ML models",
+      "Neural operators and surrogate models",
+      "Inverse problems",
+      "Physical constraints",
+      "Uncertainty-aware Earth-system modeling",
+      "Geospatial foundation models",
+      "Self-supervised pretraining",
+      "LLMs, VLMs, and MLLMs",
+      "Retrieval-augmented generation",
+      "Open-vocabulary learning",
+      "Image-text alignment",
+      "Geospatial reasoning",
+      "Multimodal fusion",
+      "Multi-source data integration",
+      "Cross-sensor alignment",
+      "Multi-resolution learning",
+      "Spatio-temporal modeling",
+      "AI agents and multi-agent systems",
+      "Tool use and planning",
+      "Generative and diffusion models",
+      "Data synthesis and restoration",
+      "Autonomous EO workflows",
+      "Domain adaptation and generalization",
+      "Few-shot and zero-shot learning",
+      "Continual learning",
+      "Model compression and edge deployment",
+      "Robustness and uncertainty quantification",
+      "Explainability and benchmarking",
+      "Classification and detection",
+      "Segmentation and change detection",
+      "Image retrieval and captioning",
+      "Visual question answering",
+      "3D reconstruction",
+      "Digital twins"
+    ],
+    "description": {
+      "paragraphs": [
+        "Remote sensing and Earth observation are advancing through integration of multi-source satellite and UAV data with machine learning and large language models. Physical machine learning—combining physics knowledge with data-driven approaches through physics-informed constraints and neural operators—enhances consistency and generalization. Geospatial foundation models and multimodal language systems enable knowledge transfer across sensors and support open-vocabulary perception and reasoning.",
+        "This special issue seeks original research on physics-informed learning, geospatial foundation models, and language-based intelligence for remote sensing applications. Submissions should advance methodological approaches, establish benchmarks, or demonstrate applications that improve accuracy, generalization, interpretability, and operational value across environmental monitoring, resource management, and disaster response. Studies combining these complementary approaches are particularly encouraged."
+      ]
+    },
+    "tags": [
+      "machine learning",
+      "remote sensing",
+      "large language models",
+      "foundation models",
+      "physics-informed learning"
+    ],
+    "editors": [
+      {
+        "name": "Wenchao Zhang",
+        "affiliation": "Xi'an University of Science and Technology"
+      },
+      {
+        "name": "Yongze Song",
+        "affiliation": "Curtin University"
+      },
+      {
+        "name": "Jiaxin Li",
+        "affiliation": "Chongqing University of Posts and Telecommunications"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-02-28T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1000,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-13T08:32:28.277Z"
+  },
+  {
+    "journal": "Business and Society Review",
+    "abbreviation": "wiley",
+    "issn": "1467-8594",
+    "metaTitle": "Special Issue of Business and Society Review for Doctoral Students\nFuture Scholars in Business and Society: Current Work and Emerging Directions",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14678594/call-for-papers/current-work-and-emerging-directions",
+    "title": "Future Scholars in Business and Society: Current Work and Emerging Directions",
+    "slug": "wiley-special-issue-of-business-and-society-review-for-doctoral-students-future-scholars-in-business-and-society-current-work-and-emerging-directions",
+    "contentHash": "5e41d793619fc7159c8333691ec516d8bbdce1adcf6b9e62de1dc4d1be68ae4d",
+    "topics": [
+      "Ethical decision-making and moral responsibility",
+      "Stakeholder theory and value creation",
+      "Inequality, justice, and organizational impacts",
+      "Sustainability and social innovation",
+      "Technology, AI, and data ethics",
+      "Corporate governance and responsibility",
+      "Business-government relations and policy",
+      "Institutional and global perspectives",
+      "Conceptual and methodological advancements",
+      "Pedagogical research in business ethics"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue of Business and Society Review is exclusively for doctoral students and seeks to showcase emerging scholarship examining the relationship between business and society. The initiative emphasizes developmental support alongside rigorous peer review, recognizing that doctoral research operates at varying stages of completion and methodological advancement.",
+        "The special issue welcomes both empirical and conceptual contributions addressing core topics in business ethics, corporate responsibility, stakeholder relations, sustainability, social innovation, and governance. Manuscripts need not conform to standard journal article length and may present abbreviated, developmental, or complete projects. All submissions will undergo the journal's standard double-blind review process.",
+        "Three manuscript development workshops are offered throughout 2026 to strengthen submissions, featuring feedback from senior scholars and peer dialogue opportunities. While participation in a workshop is encouraged, it is not required for manuscript submission."
+      ]
+    },
+    "tags": [
+      "business and society",
+      "doctoral research",
+      "special issue",
+      "corporate responsibility",
+      "ethics"
+    ],
+    "editors": [
+      {
+        "name": "Barrie Litzky",
+        "affiliation": "Drexel University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Virtual Developmental Workshop",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": null,
+        "description": "Expected Publication",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-06-01T10:00:00.000Z",
+        "description": "IABS Developmental Workshop",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-08-01T10:00:00.000Z",
+        "description": "AOM Developmental Workshop",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-01T11:00:00.000Z",
+        "description": "Full Manuscript Submissions for Special Issue",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1059,
+      "tauxCopie": 0.0234375,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-13T08:32:28.277Z"
+  },
+  {
     "journal": "Public Management Review",
     "abbreviation": "tandf",
     "issn": "1471-9045",
@@ -2785,29 +3292,28 @@
     "url": "https://onlinelibrary.wiley.com/page/journal/13652575/call-for-papers/si-2026-001168",
     "title": "AI, Policy and Public Value: Theorising the reciprocal relationship between AI and policy and its implications for public value",
     "slug": "wiley-ai-policy-and-public-value-theorising-the-reciprocal-relationship-between-ai-and-policy-and-its-implications-for-public-value",
-    "contentHash": "9a568f9b76018b13218645dcc58a282a77cdba6a6643c40a78d1b65231d43362",
+    "contentHash": "2d34c46af96b50b12f61676d6453a2ac71dabb914c72b1c6d49a6097e615262d",
     "topics": [
-      "Creation and Distribution of Public Value: How AI creates, distributes or undermines public value, including efficiency, innovation, equity, participation, dignity, sustainability, security and welfare, and how related trade-offs are managed.",
-      "AI Use and the Production of Policy: How AI models, data, classifications, system design and organisational routines shape policy problems, evidence, interventions and evaluation, and how policies evolve through AI-enabled systems.",
-      "AI Governance Beyond Regulatory Compliance: How accountability, transparency, explainability, human oversight and decision authority are enacted in practice, and how AI governance can address societal purposes and outcomes beyond regulatory compliance.",
-      "Policy Translation and Organisational Capability: How organisations translate AI-policy ambitions into procurement, system design, workforce skills, professional roles, implementation and service delivery, and build capabilities to sustain public value.",
-      "Participation, Inequality and Contestation: How AI-enabled policies affect citizens and marginalised groups, reshape voice, access and opportunity, and enable affected communities to participate in defining public value.",
-      "IS Knowledge and Policy Formation: How IS theory and evidence inform AI policy, and how research, practitioner insights and research–practice collaborations can connect evidence, policy, organisational practice and societal outcomes."
+      "Creation and Distribution of Public Value",
+      "AI Use and the Production of Policy",
+      "AI Governance Beyond Regulatory Compliance",
+      "Policy Translation and Organisational Capability",
+      "Participation, Inequality and Contestation",
+      "IS Knowledge and Policy Formation"
     ],
     "description": {
       "paragraphs": [
-        "This special issue examines how artificial intelligence embedded in public services shapes policy-making and how policies configure AI's development and use. The dynamic interplay between technology and policy intensifies with AI's scale and opacity. The issue seeks to understand how this reciprocal relationship creates, distributes or undermines public value—encompassing efficiency, equity, transparency, participation and welfare.",
-        "The special issue invites Information Systems research that theorises AI as central to policy formation and enactment. Manuscripts should examine how AI systems shape policy problems and evidence, how organisations translate AI policies into practice, and how communities participate in defining public value. Qualitative, quantitative, design science and practitioner-oriented contributions are welcome.",
-        "All submissions must include dedicated policy implications sections. Research may be set in public, private or nonprofit sectors and should address whose interests are encoded in AI systems, who benefits, who bears risks and whose experiences remain invisible."
+        "This special issue examines how artificial intelligence embedded in public services shapes and is shaped by policy, and how these interactions affect public value. It addresses the bidirectional relationship between AI and policy: AI influences how policy problems are framed and implemented, while policy decisions configure how AI systems are developed and deployed.",
+        "The special issue invites Information Systems research that theorises AI as central to policy formation and enactment. It seeks to understand how organisations translate AI-policy ambitions into practice, how governance mechanisms enable accountability, and how these processes create, distribute or undermine public value—understood as plural, contested outcomes encompassing efficiency, equity, participation and welfare.",
+        "All submissions must include dedicated policy implications derived from evidence and analysis. Research should address how AI-mediated practices affect citizens and marginalised groups, and what trade-offs arise between competing values."
       ]
     },
     "tags": [
       "artificial intelligence",
-      "policy",
+      "public policy",
+      "governance",
       "public value",
-      "ai governance",
-      "regulation",
-      "organizational practice"
+      "information systems"
     ],
     "editors": [
       {
@@ -2820,7 +3326,7 @@
       },
       {
         "name": "Daniel Gozman",
-        "affiliation": "University of Sydney Business School"
+        "affiliation": "University of Sydney"
       },
       {
         "name": "James S. Denford",
@@ -2836,7 +3342,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-09-26T23:07:58.478Z"
+    "pubDate": "2026-09-26T23:07:58.478Z",
+    "controle": {
+      "longueur": 1028,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "New Technology Work and Employment",
@@ -3544,8 +4056,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-26T22:23:50.318Z"
+    "active": false,
+    "pubDate": "2026-09-26T22:23:50.318Z",
+    "gracePeriod": "2026-11-12T09:32:28.277Z"
   },
   {
     "journal": "Arts and the Market",
@@ -7409,17 +7922,22 @@
     "url": "https://www.sciencedirect.com/special-issue/329342/special-issue-on-ai-techniques-for-performance-reliability-and-sustainability-of-modern-software-systems",
     "title": "AI Techniques for Performance, Reliability, and Sustainability of Modern Software Systems",
     "slug": "elsevier-ai-techniques-for-performance-reliability-and-sustainability-of-modern-software-systems",
-    "contentHash": "d02fde5703e0d1f364506dfb6732d9d64396dfd92c0b49237af5ec991e92ee65",
-    "topics": [],
+    "contentHash": "a64ce1e19ea569c5cf029446799083b066833b762f4074c1865013f0b9268128",
+    "topics": [
+      "AI techniques for software performance",
+      "AI techniques for software reliability",
+      "AI techniques for software sustainability",
+      "Modern software systems"
+    ],
     "description": {
       "paragraphs": [
-        "This special issue invites research on the application of artificial intelligence methods to improve key aspects of modern software systems. The focus encompasses using AI to enhance system performance, increase reliability, and promote sustainability in software engineering and operations."
+        "This special issue focuses on the application of artificial intelligence techniques to address key challenges in modern software systems. The issue seeks research that explores how AI can be leveraged to improve performance, enhance reliability, and promote sustainability in contemporary software development and operations."
       ]
     },
     "tags": [
-      "ai",
-      "software systems",
-      "performance",
+      "artificial intelligence",
+      "software engineering",
+      "performance optimization",
       "reliability",
       "sustainability"
     ],
@@ -7427,13 +7945,19 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-30T10:00:00.000Z",
+        "date": "2026-10-07T10:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "controle": {
+      "longueur": 325,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Technology in Society",
@@ -15866,33 +16390,33 @@
     "url": "https://onlinelibrary.wiley.com/page/journal/14680432/homepage/call-for-papers/si-2025-001503",
     "title": "All About En-During Crisis? \"Other Stories\" of Women Entrepreneurs",
     "slug": "wiley-all-about-en-during-crisis-other-stories-of-women-entrepreneurs",
-    "contentHash": "9068fd05bfcba76e3418c337f6baa4cda4bac2572206031aa91cc04bdc4ef3e3",
+    "contentHash": "15d2aecd532e46fb8bbd103b2bacbfed41408228bc17c058cf6050250639202b",
     "topics": [
       "Crisis and entrepreneurial or societal opportunities",
       "Crisis and women entrepreneurs' identities, strengths and strategies",
       "Crisis and women entrepreneurs' contributions to society",
-      "Crisis and a more gender equitable society through women's entrepreneurship",
-      "Post-Crisis and women entrepreneurs in peacebuilding and regeneration",
-      "Post-Crisis and impact of resilience",
-      "Post-Crisis and women entrepreneurs' better work-life balance, improved wellbeing concern and healthier relationships with employees",
+      "Crisis and gender equity through women's entrepreneurship",
+      "Post-Crisis peacebuilding and regeneration",
+      "Post-Crisis resilience impact",
+      "Post-Crisis work-life balance and wellbeing",
       "Crises, women's entrepreneurship and power relations",
-      "Crisis and dark sides of women's entrepreneurship",
-      "Women's entrepreneurship, crises, and entrepreneurial eco-systems",
-      "Women's entrepreneurship, crises, and other-than-humans",
-      "Women's entrepreneurship, crises and entrepreneurial education",
-      "Women's entrepreneurship, crises, and feminist perspectives"
+      "Dark sides of women's entrepreneurship",
+      "Women's entrepreneurship and entrepreneurial ecosystems",
+      "Women's entrepreneurship and other-than-humans",
+      "Women's entrepreneurship and entrepreneurial education",
+      "Women's entrepreneurship and feminist perspectives"
     ],
     "description": {
       "paragraphs": [
-        "This special issue challenges the predominant narrative in scholarship on women entrepreneurs facing crises, which typically emphasizes their vulnerabilities and capacity to endure hardship. Instead, the call invites research that positions women entrepreneurs as active agents driving meaningful change across individual, familial, community, regional, national, and global levels.",
-        "The special issue seeks contributions examining both the positive and negative dimensions of entrepreneurship during crises, spanning the crisis period itself as well as pre- and post-crisis contexts. It aims to advance understanding of how gender intersects with entrepreneurship and crisis experiences, filling gaps in existing theory, empirical knowledge, and policy recommendations."
+        "This special issue seeks to move beyond traditional narratives that portray women entrepreneurs primarily as victims of crisis. Instead, it invites research that recognizes women as active agents driving change across multiple societal levels. The call welcomes investigations of both positive and negative dimensions of entrepreneurship during and around crises, whether examining immediate crisis periods or their longer-term effects.",
+        "The collection aims to deepen understanding of how gender, entrepreneurship, and crisis intersect, with particular interest in how women entrepreneurs shape opportunities, identities, and societal outcomes. Topics range from peacebuilding and regeneration after crises to power dynamics, ecosystem development, and feminist theoretical approaches to entrepreneurship in crisis contexts."
       ]
     },
     "tags": [
-      "women entrepreneurs",
+      "women entrepreneurship",
       "crisis",
       "gender",
-      "entrepreneurship"
+      "resilience"
     ],
     "editors": [
       {
@@ -15911,13 +16435,19 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-30T10:00:00.000Z",
+        "date": "2026-10-30T11:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-29T11:29:31.659Z"
+    "pubDate": "2026-08-29T11:29:31.659Z",
+    "controle": {
+      "longueur": 822,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Journal of Business Logistics",
@@ -19960,36 +20490,36 @@
     "abbreviation": "wiley",
     "issn": "1540-5885",
     "metaTitle": "Responsibility Contested: Tensions and Dynamics in Responsible Innovation",
-    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/15405885/cfp/CfP-JPIM-Responsibility-Contested-final-1764623807057.pdf",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/15405885/cfp/JPIM_Updated_CfP_Backlash_RI-1791199971140.pdf",
     "title": "Responsibility Contested: Tensions and Dynamics in Responsible Innovation",
     "slug": "wiley-responsibility-contested-tensions-and-dynamics-in-responsible-innovation",
-    "contentHash": "37d6feffc849b87421bf310044cd1bc49bccdb97984f617ec771a23f5dcfa5d6",
+    "contentHash": "d957609f0ef34d7046867b9bf6addb0e78860589c2e737cbebf5910a0328a3e8",
     "topics": [
-      "Conceptualizing backlash across disciplines and its differentiation from resistance to change or non-adoption",
-      "Forms of backlash in organizational settings and links to specific innovation types (digital, environmental, social)",
-      "Individual, social, cultural, organizational, and economic factors driving responses to responsible innovation",
-      "Moral and ethical judgments, social responsibility in business, and cross-cultural perspectives on responsible innovation",
-      "Cognitive dissonance, perceived moralization, fear of economic loss, and political values shaping backlash responses",
-      "Firm strategy, leadership communication, incentive schemes, organizational structure, and stakeholder engagement influencing backlash momentum",
-      "Manifestations of backlash in innovation management processes, decision criteria, and innovation management instruments",
-      "Consequences of backlash for innovation adoption, legitimacy, organizational learning, and reputational positioning at multiple levels",
-      "Strategies for preventing delegitimization including legitimacy building, meaning creation, coalition management, and political activity",
-      "Proactive narrative reshaping through framing, trust building, and resilience strategies to address negative backlash",
-      "Anticipating and constructively working with tensions and dynamics of responsible innovation"
+      "Backlash against responsible innovation",
+      "Tensions in responsible innovation implementation",
+      "Conceptualizing backlash across disciplines",
+      "Individual, social, and organizational drivers of backlash",
+      "Dynamics of backlash in organizations",
+      "Consequences of backlash on innovation adoption",
+      "Countermeasures and resilience strategies",
+      "Identity and values in innovation resistance",
+      "Multi-level backlash phenomena",
+      "Responsible innovation in healthcare, IT, energy, mobility, and food sectors"
     ],
     "description": {
       "paragraphs": [
-        "Responsible innovation seeks to align innovation with ethical considerations, societal values, and needs of current and future generations. However, it operates within significant tensions between innovation and regulation, economic incentives and ethical commitments, and short-term efficiency and long-term responsibility. These tensions have led to observable backlash across sectors, with organizations scaling back responsible innovation initiatives in response to political and societal shifts, seeking to restore previous operational states rather than simply resist change.",
-        "This special issue explores why responsible innovation provokes opposition, resistance, and counter-mobilization across individual, organizational, and societal levels. The issue recognizes that backlash need not be entirely detrimental—it may serve as corrective feedback revealing deeper tensions and pointing toward more integrative approaches. The call invites empirical research from multiple disciplines examining the catalysts, consequences, and contingencies of tensions in responsible innovation, including how organizations can develop strategies for strategic resilience and lasting social legitimacy."
+        "Responsible Innovation has emerged as a key framework for aligning innovation with ethical and societal values. However, RI initiatives often encounter backlash rooted in tensions between innovation and regulation, economic incentives and ethics, and efficiency versus long-term responsibility. Recent examples include tech companies discontinuing AI ethics programs and policy shifts away from responsible AI language.",
+        "Backlash against RI is distinct from general resistance to innovation, as it seeks to restore previous states. Operating at individual, organizational, and societal levels, it is driven by concerns about identity threats, values, and power structures. While often viewed negatively, some backlash may carry constructive implications by prompting rebalancing of innovation priorities.",
+        "This special issue seeks to understand tensions and contested dynamics surrounding RI through empirical research examining how backlash is conceptualized, what drives it across levels, how organizational dynamics influence its trajectory, and what strategic countermeasures organizations can employ. The issue welcomes interdisciplinary contributions using qualitative, quantitative, and longitudinal methodologies."
       ]
     },
     "tags": [
       "responsible innovation",
       "backlash",
+      "organizational tensions",
       "innovation management",
-      "ethics",
-      "sustainability",
-      "organizational change"
+      "ethical innovation",
+      "stakeholder dynamics"
     ],
     "editors": [
       {
@@ -20013,51 +20543,67 @@
         "affiliation": "Kiel University"
       }
     ],
-    "associate_editors": [],
+    "associate_editors": [
+      {
+        "name": "Minu Kumar",
+        "affiliation": "San Francisco State University"
+      }
+    ],
     "dates": [
       {
+        "date": "2026-03-01T11:00:00.000Z",
+        "description": "Submission of extended abstracts for PDW",
+        "is_full_paper_submission_deadline": false
+      },
+      {
         "date": "2026-04-01T10:00:00.000Z",
-        "description": "Decisions on extended abstracts",
+        "description": "Feedback to authors based on extended abstracts",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-04-12T10:00:00.000Z",
-        "description": "Optional submission of extended abstracts for PDW",
+        "date": "2027-02-01T11:00:00.000Z",
+        "description": "Full paper submission window opens",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-10-01T10:00:00.000Z",
+        "date": "2027-02-28T11:00:00.000Z",
         "description": "Full paper submission deadline",
         "is_full_paper_submission_deadline": true
       },
       {
-        "date": "2027-01-01T11:00:00.000Z",
-        "description": "First round decision",
-        "is_full_paper_submission_deadline": false
-      },
-      {
         "date": "2027-05-01T10:00:00.000Z",
-        "description": "Submission of revised papers",
+        "description": "Feedback to authors on full papers",
         "is_full_paper_submission_deadline": false
       },
       {
         "date": "2027-09-01T10:00:00.000Z",
-        "description": "Second round decisions on revised papers",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-11-01T11:00:00.000Z",
         "description": "Submission of revised papers",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-12-01T11:00:00.000Z",
+        "date": "2028-01-01T11:00:00.000Z",
+        "description": "Feedback to authors on revised papers",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-03-01T11:00:00.000Z",
+        "description": "Submission of revised papers",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-04-01T10:00:00.000Z",
         "description": "Final decision",
         "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
-    "pubDate": "2026-08-29T11:29:31.659Z"
+    "pubDate": "2026-08-29T11:29:31.659Z",
+    "controle": {
+      "longueur": 1217,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "British Journal of Sociology",
@@ -36536,29 +37082,42 @@
     "url": "https://www.sciencedirect.com/special-issue/333348/governing-multi-system-innovation-a-policy-mix-on-its-emergence-co-evolution-and-diffusion",
     "title": "Governing multi-system innovation: A policy mix on its emergence, co-evolution, and diffusion",
     "slug": "elsevier-governing-multi-system-innovation-a-policy-mix-on-its-emergence-co-evolution-and-diffusion-2",
-    "contentHash": "b60ad0717b6bbca5e4eb3bf827cf8cd081400180caeb9492588bd6531e6efb7d",
-    "topics": [],
+    "contentHash": "d954c6a8c860fd841d59fd5d39a96a1e7bcfde7a4757cc262367ef811b9c6770",
+    "topics": [
+      "Multi-system innovation",
+      "Policy mix",
+      "Emergence of policy mix",
+      "Co-evolution of policy instruments",
+      "Diffusion of policy mechanisms"
+    ],
     "description": {
       "paragraphs": [
-        "This special issue is focused on innovation governance through policy mixes. Policy mixes are combinations of different policy instruments aimed at governing innovation across multiple systems. The special issue welcomes research that examines how policy mixes emerge, co-evolve, and diffuse across different contexts and innovation systems."
+        "This special issue examines how governments develop and coordinate multiple policy instruments to address complex innovation challenges that span different technological and sectoral systems. The focus is on understanding how integrated policy approaches emerge, evolve together over time, and spread across different contexts and regions."
       ]
     },
     "tags": [
-      "innovation governance",
-      "policy mixes",
-      "multi-system innovation"
+      "innovation policy",
+      "multi-system innovation",
+      "policy instruments",
+      "governance"
     ],
     "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-31T11:00:00.000Z",
-        "description": "Full paper submission deadline",
+        "date": "2026-11-30T11:00:00.000Z",
+        "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "controle": {
+      "longueur": 339,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Government Information Quarterly",
@@ -37989,8 +38548,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-11-12T09:32:28.277Z"
   },
   {
     "journal": "Journal of Innovation & Knowledge",
@@ -39859,8 +40419,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-11-12T09:32:28.277Z"
   },
   {
     "journal": "Energy Economics",
