@@ -1,25 +1,30 @@
 name: Digest hebdomadaire
 on:
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Essai : afficher le digest dans le log sans envoyer le mail"
+        type: boolean
+        default: false
   schedule:
-    # Lundi 08h00 UTC : 10h00 a Paris en heure d'ete, 09h00 en heure d'hiver.
+    # Mardi 14h00 UTC : 16h00 a Paris en heure d'ete, 15h00 en heure d'hiver.
     # GitHub ne connait que UTC ; l'heure d'arrivee du mail se decale donc
     # d'une heure au changement d'heure, ce qui est sans consequence pour un
     # digest.
     #
-    # Deplace du dimanche 18h00 au lundi 08h00 le 2026-08-31, en meme temps
-    # que le passage du scraping a l'hebdomadaire. Le digest suit desormais le
-    # scraping du lundi 02h10 UTC (scrape.yml) d'environ six heures : le mail
-    # arrive le lundi matin avec les appels collectes la nuit meme, au lieu de
-    # rendre compte le dimanche soir d'une collecte vieille de six jours.
+    # Deplace du lundi 08h00 au mardi 14h00 le 2026-10-14. Le digest suit le
+    # scraping du lundi 02h10 UTC (scrape.yml) d'environ trente-six heures :
+    # le mail arrive le mardi apres-midi avec les appels collectes la veille.
+    # Auparavant : dimanche 18h00, puis lundi 08h00 depuis le 2026-08-31, en
+    # meme temps que le passage du scraping a l'hebdomadaire.
     #
     # Les deux crons vont de pair. La fenetre de sept jours du digest (cf
-    # FENETRE_JOURS dans scripts/weekly-digest.mjs) s'etend du lundi 08h00 au
-    # lundi 08h00 precedent : elle contient exactement un scraping, celui du
-    # matin meme, le precedent tombant juste avant son debut. Chaque appel est
+    # FENETRE_JOURS dans scripts/weekly-digest.mjs) s'etend du mardi 14h00 au
+    # mardi 14h00 precedent : elle contient exactement un scraping, celui de la
+    # veille, le precedent tombant huit jours avant l'envoi. Chaque appel est
     # ainsi annonce une fois et une seule. Ne pas deplacer l'un sans l'autre,
     # et ne jamais faire passer le digest avant le scraping.
-    - cron: '0 8 * * 1'
+    - cron: '0 14 * * 2'
 jobs:
   digest:
     runs-on: ubuntu-latest
@@ -63,6 +68,7 @@ jobs:
       # la validation en deux etapes doit etre active sur le compte
       # DIGEST_GMAIL_USER pour pouvoir en generer un.
       - name: Envoyer le digest par email
+        if: ${{ inputs.dry_run != true }}
         uses: dawidd6/action-send-mail@4226df7daafa6fc901a43789c49bf7ab309066e7 # v3
         with:
           server_address: smtp.gmail.com
