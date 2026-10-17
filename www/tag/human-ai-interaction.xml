@@ -4,7 +4,7 @@
         <title>kerostig | Tag : human-ai interaction</title>
         <link>https://kerostig.org/tag/human-ai-interaction/</link>
         <description>Derniers appels à publications avec le tag 'human-ai interaction'.</description>
-        <lastBuildDate>Tue, 13 Oct 2026 08:33:58 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Oct 2026 17:04:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,53 @@
             <link>https://kerostig.org/tag/human-ai-interaction/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Accountability in AI-Enabled Decision Support: Delegation, Oversight, and Decision Quality]]></title>
+            <link>https://kerostig.org/call/elsevier-accountability-in-ai-enabled-decision-support-delegation-oversight-and-decision-quality/</link>
+            <guid>elsevier-accountability-in-ai-enabled-decision-support-delegation-oversight-and-decision-quality</guid>
+            <pubDate>Sat, 17 Oct 2026 17:01:51 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue examines accountability challenges that arise when artificial intelligence systems support human decision-making. It focuses on how responsibility is distributed between AI systems and human users, the mechanisms required for effective oversight, and the impact on overall decision quality.</p>
+    
+    <p>The call invites research that addresses the governance, transparency, and accountability frameworks necessary for AI-enabled decision support systems across various domains and contexts.</p>
+    
+    <p>
+        Appel publié par Decision Support Systems.
+        
+        <a href="https://www.sciencedirect.com/special-issue/338112/accountability-in-ai-enabled-decision-support-delegation-oversight-and-decision-quality">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-accountability-in-ai-enabled-decision-support-delegation-oversight-and-decision-quality/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Accountability in AI-enabled decision support</li>
+        
+        <li>Delegation in AI systems</li>
+        
+        <li>Oversight mechanisms</li>
+        
+        <li>Decision quality</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 30, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[The evolving human–AI relationship: profiles, trajectories, reciprocal dynamics, and outcomes]]></title>
             <link>https://kerostig.org/call/tandf-the-evolving-human-ai-relationship-profiles-trajectories-reciprocal-dynamics-and-outcomes/</link>
