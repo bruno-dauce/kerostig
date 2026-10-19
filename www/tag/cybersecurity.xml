@@ -4,7 +4,7 @@
         <title>kerostig | Tag : cybersecurity</title>
         <link>https://kerostig.org/tag/cybersecurity/</link>
         <description>Derniers appels à publications avec le tag 'cybersecurity'.</description>
-        <lastBuildDate>Sat, 17 Oct 2026 17:04:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 07:50:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,63 +15,55 @@
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Keeping Humans in the Loop in the AI-Driven Future of Information Security]]></title>
-            <link>https://kerostig.org/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security/</link>
-            <guid>springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <title><![CDATA[Advancing towards a Responsible and Resilient Digital Future]]></title>
+            <link>https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future/</link>
+            <guid>springer-advancing-towards-a-responsible-and-resilient-digital-future</guid>
+            <pubDate>Sun, 16 Aug 2026 21:44:37 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
-        
-        <p><strong>Laura Amo</strong>, University at Buffalo, State University of New York</p>
-        
-        <p><strong>Richard Baskerville</strong>, Georgia State University</p>
-        
-        <p><strong>Rui Chen</strong>, Iowa State University</p>
-        
-        <p><strong>Matthew Hashim</strong>, University of Arizona</p>
-        
-        <p><strong>Yaojie (William) Li</strong>, University of New Orleans</p>
-        
-        <p><strong>Yuan Li</strong>, University of Tennessee at Knoxville</p>
-        
     
     
+    <p>Digital technologies like AI and blockchain create significant value but also introduce serious challenges including algorithmic bias, privacy violations, and workforce disruption. The special issue seeks research on information systems that are simultaneously responsible—fair, transparent, ethical, and accountable—and resilient, capable of withstanding disruptions while delivering sustained value.</p>
     
-    <p>As artificial intelligence increasingly dominates both offensive and defensive cybersecurity, this special issue emphasizes the critical importance of maintaining human involvement in security systems and decisions. The issue addresses concerns about AI-driven threats such as sophisticated phishing attacks, deepfakes, and behavioral data exploitation, while acknowledging that defensive reliance on AI-based threat detection creates cognitive challenges for practitioners.</p>
-    
-    <p>Human-in-the-loop (HITL) is presented as a design principle that ensures human participation in system training, decision-making, and error mitigation, recognizing that fully automated security systems may be restrictive or dangerous. The special issue calls for behavioral information security research that balances AI&#39;s growing role with sustained focus on human behavior, cognition, and motivation in secure systems, training, and technologies.</p>
+    <p>While responsibility and resilience in digital systems are interdependent, they have largely evolved as separate research streams. Information systems scholars are uniquely positioned to examine human–technology interaction, value realization from digital investments, and how governance shapes digital outcomes, particularly for vulnerable populations. The special issue invites theoretically grounded, methodologically rigorous research using diverse methods including conceptual work, surveys, experiments, and design science approaches.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
         
-        <a href="https://link.springer.com/collections/egdbefhiee">Voir l'appel sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/ffhgdbhbad">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Neurosecurity (NeuroIS) investigations of information security behavior</li>
+        <li>Responsible AI and AI Governance</li>
         
-        <li>Behavioral analyses of design science treatments enhancing or balancing security and privacy tradeoffs</li>
+        <li>Resilient Information Systems and Digital Platforms</li>
         
-        <li>The behavioral intersection of cybersecurity/privacy research and AI/ML advancements</li>
+        <li>Human–AI Collaboration and Decision Making</li>
         
-        <li>AI-enabled security awareness, training, nudging, and behavioral intervention systems</li>
+        <li>Digital Transformation and Innovation</li>
         
-        <li>Human-AI collaboration in security decision-making, compliance, monitoring, and response</li>
+        <li>User Behaviour in Digital Environment</li>
         
-        <li>Behavioral security implications of generative AI, including phishing, social engineering, misinformation, insider threats, and user overreliance on AI tools</li>
+        <li>Digital Trust, Privacy, and Cybersecurity</li>
         
-        <li>Design science approaches to developing, evaluating, and theorizing intelligent security artifacts with behavioral implications</li>
+        <li>Data Governance and AI-Enabled Decision Making</li>
         
-        <li>Adaptive, personalized, and context-aware security interventions enabled by AI and analytics</li>
+        <li>Digital Inclusion, Accessibility, and Societal Impact</li>
         
-        <li>Theoretical extensions or reconceptualizations of established behavioral security theories in AI-mediated environments</li>
+        <li>Policy and Governance of Digital Technologies</li>
         
-        <li>Security behaviors in pervasive and post-pandemic work environments, including remote work, hybrid work, IoT, cloud platforms, and platform ecosystems</li>
+        <li>Design Science Research for Responsible and Resilient IS</li>
+        
+        <li>AI and future of work and education</li>
+        
+        <li>Opportunities and challenges of AI for society</li>
+        
+        <li>Skills and mindsets remaining uniquely human in AI-driven world</li>
         
     </ul>
     
@@ -79,17 +71,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>January 15, 2027: Submission deadline</li>
-        
-        <li>May 15, 2027: Notification of first round reviews</li>
-        
-        <li>July 15, 2027: Revised manuscript due</li>
-        
-        <li>September 1, 2027: Notification of second round reviews</li>
-        
-        <li>October 15, 2027: Final version due</li>
-        
-        <li>January 30, 2028: Tentative publication date</li>
+        <li>September 15, 2027: Submission deadline</li>
         
     </ul>
     

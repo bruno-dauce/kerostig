@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>kerostig | Tag : contextual decision making</title>
+        <title>kerostig | Tag : contextual decision-making</title>
         <link>https://kerostig.org/tag/contextual-decision-making/</link>
-        <description>Derniers appels à publications avec le tag 'contextual decision making'.</description>
-        <lastBuildDate>Sat, 17 Oct 2026 17:04:42 GMT</lastBuildDate>
+        <description>Derniers appels à publications avec le tag 'contextual decision-making'.</description>
+        <lastBuildDate>Mon, 19 Oct 2026 07:50:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <image>
-            <title>kerostig | Tag : contextual decision making</title>
+            <title>kerostig | Tag : contextual decision-making</title>
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/contextual-decision-making/</link>
         </image>
@@ -22,21 +22,11 @@
             <content:encoded><![CDATA[
 <div>
     
-        
-        <p><strong>Stelios Bekiros</strong>, University of Turin</p>
-        
-        <p><strong>Andrea D&#39;Ariano</strong>, Roma Tre University</p>
-        
-        <p><strong>Peng Wu</strong>, Fuzhou University</p>
-        
-        <p><strong>Guowei Zhang</strong>, Dalian University of Technology</p>
-        
     
     
+    <p>Modern operations research increasingly relies on contextual information to enhance decision-making in uncertain environments. This special issue focuses on the integration of side information—such as demand patterns, user behaviors, and market conditions—into optimization models to achieve more adaptive and data-driven policies. The field spans contextual stochastic optimization, distributionally robust optimization with covariates, decision-focused learning, and online optimization frameworks.</p>
     
-    <p>Modern operations research increasingly involves complex decision-making in data-rich environments where contextual information can significantly improve operational policies. This special issue focuses on integrating side information into optimization frameworks, combining advances from optimization, machine learning, and statistical learning. The challenge is to develop methods that go beyond historical averages to create adaptive, personalized solutions that effectively handle high-dimensional data, distribution shifts, and real-time computational demands.</p>
-    
-    <p>The special issue welcomes contributions that develop novel theories, algorithms, and practical applications merging optimization with machine learning and data analytics. Priority is given to methods that address uncertainty while leveraging contextual information, with emphasis on improving actual decision quality and system performance rather than predictive accuracy alone.</p>
+    <p>Real-world applications present significant challenges including high-dimensional data, noisy observations, distribution shifts, computational constraints, and the need to balance predictive accuracy with operational performance. The special issue seeks high-quality contributions that develop novel theories, algorithms, and applications combining optimization with machine learning, statistics, and data analytics to address these challenges systematically.</p>
     
     <p>
         Appel publié par Annals of Operations Research.

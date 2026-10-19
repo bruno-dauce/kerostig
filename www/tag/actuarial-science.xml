@@ -4,7 +4,7 @@
         <title>kerostig | Tag : actuarial science</title>
         <link>https://kerostig.org/tag/actuarial-science/</link>
         <description>Derniers appels à publications avec le tag 'actuarial science'.</description>
-        <lastBuildDate>Mon, 05 Oct 2026 10:15:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 07:50:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,51 +15,47 @@
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Risk Sharing]]></title>
-            <link>https://kerostig.org/call/cup-risk-sharing/</link>
-            <guid>cup-risk-sharing</guid>
-            <pubDate>Tue, 18 Aug 2026 07:45:36 GMT</pubDate>
+            <title><![CDATA[Advances in Quantitative Finance and Risk Modeling]]></title>
+            <link>https://kerostig.org/call/springer-advances-in-quantitative-finance-and-risk-modeling/</link>
+            <guid>springer-advances-in-quantitative-finance-and-risk-modeling</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
-        
-        <p><strong>An Chen</strong>, Ulm University</p>
-        
-        <p><strong>Steven Vanduffel</strong>, Vrije Universiteit Brussel</p>
-        
-        <p><strong>Ruodu Wang</strong>, University of Waterloo</p>
-        
     
     
+    <p>This special issue in the Annals of Operations Research invites high-quality research contributions in quantitative finance, insurance, and risk modeling. While connected to the Workshop on Quantitative Finance 2026 held in Bergamo, Italy, submissions are welcome from all researchers in the field, not just workshop participants.</p>
     
-    <p>Risk sharing is a crucial topic in contemporary society due to various factors, including the increasing complexity and interconnectedness of global systems, the emergence of new risks (such as longevity risk, cyber threats and climate change), and the need for sustainable risk management strategies in a rapidly changing world.</p>
-    
-    <p>Effective risk sharing mechanisms contribute to financial stability by spreading risks across different parties and promoting resilience in the face of unexpected events. Risk sharing mechanisms can also promote social equity by ensuring that the burden of risks is distributed fairly among individuals and institutions, rather than disproportionately affecting certain groups or communities. By facilitating risk sharing, actuarial science encourages innovation and economic growth by providing businesses and individuals with the confidence to invest and take risks, knowing that there are mechanisms in place to mitigate potential losses.</p>
+    <p>The issue seeks rigorous methodological work that advances both theoretical understanding and practical applications in quantitative finance. Topics range from risk measurement and portfolio optimization to emerging areas such as machine learning applications, behavioral models, and climate-related financial risks.</p>
     
     <p>
-        Appel publié par Astin Bulletin.
+        Appel publié par Annals of Operations Research.
         
-        <a href="https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/announcements/call-for-papers/call-for-papers-special-issue-on-risk-sharing">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/jidgdbagai">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/cup-risk-sharing/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/springer-advances-in-quantitative-finance-and-risk-modeling/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Economics of risk sharing and insurance: New economic models for risk sharing and (re)insurance mechanisms, especially in connection to decision theory, game theory and contract theory</li>
+        <li>Advanced risk measures</li>
         
-        <li>Mathematics and data science of risk sharing: Novel mathematical and statistical tools to address challenging problems in risk sharing</li>
+        <li>Portfolio optimization and asset allocation under uncertainty</li>
         
-        <li>Model uncertainty in risk sharing: Quantifying and understanding uncertainty arising from lack of data, model misspecification, computational limitations, or behavioral issues</li>
+        <li>Stochastic control and dynamic portfolio choice</li>
         
-        <li>Alternative risk transfer: Catastrophe bonds, insurance-linked and longevity-linked securities</li>
+        <li>Insurance and actuarial modeling</li>
         
-        <li>Parametric insurance: Predefined triggers for payouts based on specific parameters such as weather conditions or economic indicators</li>
+        <li>Machine learning and artificial intelligence in finance</li>
         
-        <li>Innovative retirement products focusing on longevity risk sharing: Products that spread longevity risk among a pool of participants</li>
+        <li>Market microstructure</li>
         
-        <li>Blockchain Technology: Opportunities to enhance risk sharing processes through transparent records and smart contracts</li>
+        <li>Agent-based and behavioral finance models</li>
+        
+        <li>ESG and climate risk modeling</li>
+        
+        <li>Systemic risk, financial networks, and stability</li>
         
     </ul>
     
@@ -67,9 +63,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>November 15, 2024: Submission deadline</li>
-        
-        <li>September 1, 2025: Targeted publication date for special issue</li>
+        <li>January 15, 2027: Submission deadline</li>
         
     </ul>
     

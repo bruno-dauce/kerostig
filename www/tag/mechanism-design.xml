@@ -4,7 +4,7 @@
         <title>kerostig | Tag : mechanism design</title>
         <link>https://kerostig.org/tag/mechanism-design/</link>
         <description>Derniers appels à publications avec le tag 'mechanism design'.</description>
-        <lastBuildDate>Sat, 17 Oct 2026 17:04:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 07:50:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,21 +22,11 @@
             <content:encoded><![CDATA[
 <div>
     
-        
-        <p><strong>Annamaria Barbagallo</strong>, University of Naples Federico II</p>
-        
-        <p><strong>Encarnación Algaba</strong>, University of Seville</p>
-        
-        <p><strong>Giovanna Bimonte</strong>, University of Salerno</p>
-        
-        <p><strong>Francesco Ciardiello</strong>, University of Salerno</p>
-        
     
     
+    <p>This special issue seeks to advance research on game theory as a framework for understanding strategic interaction, cooperation, conflict, and decision-making in complex systems. The collection emphasizes recent theoretical developments and diverse applications, particularly focusing on interaction dynamics and collective decision-making through both theoretical and practical contributions.</p>
     
-    <p>This special issue focuses on game theory as a framework for analyzing strategic interaction, cooperation, conflict, and decision-making in complex systems. It showcases recent developments in game theory alongside its diverse applications, with emphasis on interaction dynamics and collective decision-making through theoretical, practical, and interdisciplinary approaches.</p>
-    
-    <p>The issue particularly welcomes expanded versions of papers presented at the European Meeting on Game Theory 2026 (SING21), though other relevant submissions are also encouraged. Papers based on conference presentations must be substantially revised and extended with appropriate references to the original conference versions.</p>
+    <p>The issue particularly welcomes expanded and revised versions of papers presented at the European Meeting on Game Theory 2026 (SING21), though other relevant submissions are also encouraged. All papers undergo rigorous peer review by guest editors, with accepted contributions published online before appearing in print.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -49,13 +39,13 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Cooperative games and their applications</li>
+        <li>Cooperative games and applications</li>
         
         <li>Non-cooperative games and strategic interaction</li>
         
         <li>Mechanism design</li>
         
-        <li>Network</li>
+        <li>Network games</li>
         
         <li>Dynamic games</li>
         
@@ -63,7 +53,9 @@
         
         <li>Stochastic games</li>
         
-        <li>Voting, power indices, and collective decision-making</li>
+        <li>Voting and collective decision-making</li>
+        
+        <li>Power indices</li>
         
         <li>Auctions and market design</li>
         
@@ -73,7 +65,23 @@
         
         <li>Computational game theory</li>
         
-        <li>Applications of game theory to management, energy, health policy, industrial organization, environmental and resource economics, transportation, cybersecurity, artificial intelligence, and other fields</li>
+        <li>Game theory applications in management</li>
+        
+        <li>Game theory applications in energy</li>
+        
+        <li>Game theory applications in health policy</li>
+        
+        <li>Game theory applications in industrial organization</li>
+        
+        <li>Game theory applications in environmental economics</li>
+        
+        <li>Game theory applications in resource economics</li>
+        
+        <li>Game theory applications in transportation</li>
+        
+        <li>Game theory applications in cybersecurity</li>
+        
+        <li>Game theory applications in artificial intelligence</li>
         
     </ul>
     

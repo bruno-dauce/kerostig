@@ -4,7 +4,7 @@
         <title>kerostig | Tag : operations research</title>
         <link>https://kerostig.org/tag/operations-research/</link>
         <description>Derniers appels à publications avec le tag 'operations research'.</description>
-        <lastBuildDate>Sat, 17 Oct 2026 17:04:41 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 07:50:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -137,77 +137,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Climate Transition and Operational Risk Modelling: Implications for Supply Chains and Financial Decision-Making]]></title>
-            <link>https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/</link>
-            <guid>springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Andrea Flori</strong>, Politecnico di Milano</p>
-        
-        <p><strong>Anna Maria Gambaro</strong>, Università del Piemonte Orientale</p>
-        
-        <p><strong>Ioannis Kyriakou</strong>, University of London</p>
-        
-        <p><strong>Duc Khuong Nguyen</strong>, EMLV Business School</p>
-        
-    
-    
-    
-    <p>Climate-related operational risks pose significant threats to financial and economic systems, particularly as economies transition toward low-carbon models. The timing and pace of this transition create substantial uncertainties, especially for carbon-intensive firms that must balance profitability with decarbonization goals. Vulnerabilities extend through interconnected global supply chains where disruptions propagate indirectly, amplifying operational and systemic risks across multiple tiers.</p>
-    
-    <p>Financial markets increasingly transmit climate-related risks through asset prices, volatility, and liquidity shocks, potentially triggering market instability through supply chain relationships. This special issue addresses the gap in understanding how climate and environmental risks propagate through financial and economic systems, seeking contributions that employ robust stochastic optimization, machine learning, and advanced forecasting methods to inform portfolio allocation and risk management decisions in the face of evolving climate regulations and transition uncertainties.</p>
-    
-    <p>
-        Appel publié par Annals of Operations Research.
-        
-        <a href="https://link.springer.com/collections/baifaedejd">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Robust stochastic optimization methods for climate transition risks</li>
-        
-        <li>Portfolio optimization and risk-adjusted return modelling under climate policy uncertainty</li>
-        
-        <li>Credit and counterparty risk assessment under low-carbon transition scenarios</li>
-        
-        <li>Risk-sharing mechanisms and insurance models for climate-related disruptions</li>
-        
-        <li>Supply chain risk management in climate transition</li>
-        
-        <li>Operational decision-making in emission trading schemes and carbon pricing</li>
-        
-        <li>Predictive modelling of carbon stranding risk via supervised learning</li>
-        
-        <li>Machine learning and big data analytics for climate risk scenario classification</li>
-        
-        <li>Natural language processing applications in climate policy risk analysis</li>
-        
-        <li>Bayesian network approaches to modelling climate transition risk propagation</li>
-        
-        <li>Agent-based models of climate transition dynamics and systemic effects</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>December 31, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Collaborative Intelligence in Operations Research: Models, Methods, and Applications]]></title>
             <link>https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/</link>
             <guid>springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</guid>
@@ -229,9 +158,11 @@
     
     
     
-    <p>This special issue investigates how collaborative intelligence—combining human expertise, artificial intelligence, and distributed problem-solving—can advance operations research to address modern decision-making challenges. Traditional OR methods struggle with the dynamic and interconnected nature of contemporary problems, from logistics to emergency response. The collection seeks contributions that demonstrate how human-AI collaboration can enhance decision-making, boost system resilience, and optimize complex operational environments.</p>
+    <p>Modern operations research faces challenges in dynamic and uncertain environments where traditional methodologies struggle. This special issue focuses on Collaborative Intelligence—integrating human expertise, artificial intelligence, and distributed problem-solving to enhance adaptability and efficiency in complex operations through multi-agent coordination, human-AI collaboration, and machine learning.</p>
     
-    <p>The call invites theoretical, computational, and applied research on human-AI collaboration in OR models, optimization and game-theoretic approaches for multi-agent systems, adaptive and decentralized frameworks, and data-driven learning-based optimization. Submissions should demonstrate both theoretical rigor and practical relevance, with innovative methodologies and real-world applications that advance collaborative intelligence in operations research.</p>
+    <p>The special issue seeks research bridging autonomous AI systems and human decision-makers by combining computational power with human intuition and ethical reasoning. Contributions should address how collaborative approaches improve system resilience, handle uncertainty, and increase trust in AI-driven systems through theoretical advancements and computational methods that extend operations research to adaptive and multi-agent frameworks.</p>
+    
+    <p>Researchers are invited to submit original contributions involving innovative mathematical models, algorithms, and practical applications demonstrating how collaborative intelligence enhances decision-making in complex operational environments, balancing theoretical rigor with practical relevance.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -244,29 +175,33 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Designing OR models that facilitate seamless interaction and information exchange between human decision-makers and AI agents</li>
+        <li>Human-AI collaboration in OR models</li>
         
-        <li>The framework for integrating human judgment, preferences, and ethical considerations into AI-driven decision-making</li>
+        <li>Integration of human judgment and preferences into AI-driven decision-making</li>
         
-        <li>Techniques for visualizing and interpreting AI outputs to enhance human understanding and trust</li>
+        <li>Visualization and interpretation of AI outputs</li>
         
-        <li>Novel optimization algorithms and game-theoretic frameworks for coordinating and optimizing decisions in multi-agent environments</li>
+        <li>Optimization algorithms for multi-agent systems</li>
         
-        <li>Models addressing diverse objectives, capabilities, and interactions among multiple agents</li>
+        <li>Game-theoretic frameworks for multi-agent coordination</li>
         
-        <li>Approaches to managing conflicts, uncertainties, and strategic behaviors in multi-agent decision-making</li>
+        <li>Managing conflicts and uncertainties in multi-agent decision-making</li>
         
-        <li>OR frameworks capable of dynamically adapting to real-time changes and uncertainties</li>
+        <li>Adaptive OR frameworks</li>
         
-        <li>Decentralized optimization algorithms and control strategies for distributed systems</li>
+        <li>Decentralized optimization algorithms</li>
         
-        <li>Online learning and adaptive control techniques to improve system responsiveness and resilience</li>
+        <li>Online learning and adaptive control techniques</li>
         
-        <li>Leveraging machine learning and data analytics to extract insights and patterns for OR applications</li>
+        <li>Machine learning and data analytics for OR</li>
         
-        <li>Learning-based optimization algorithms that improve performance through data feedback</li>
+        <li>Learning-based optimization algorithms</li>
         
-        <li>Predictive analytics and simulation techniques for enhanced decision-making and risk management</li>
+        <li>Predictive analytics and simulation techniques</li>
+        
+        <li>Resilience planning</li>
+        
+        <li>Dynamic problem-solving in complex operations</li>
         
     </ul>
     
@@ -275,6 +210,73 @@
     <ul>
         
         <li>December 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems]]></title>
+            <link>https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/</link>
+            <guid>springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>Industrial engineering systems such as manufacturing, supply chains, energy networks, and transportation require reliable operation to maintain efficiency and safety amid uncertainty and disruptions. Traditional reliability approaches have relied on probabilistic and stochastic analysis, but advances in sensing technology and data collection now enable data-driven reliability modeling that combines classical theory with machine learning and statistical methods. The field is increasingly focused on integrating reliability analysis into decision-making frameworks for maintenance planning, resource allocation, and system optimization.</p>
+    
+    <p>This special issue invites original research papers addressing reliability modeling and decision support for industrial engineering systems using operations research, industrial engineering, and data-driven methods. Both theoretical contributions and practical applications are welcome, with emphasis on methodological rigor and real-world relevance.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/igdgfheeeh">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Data-driven reliability modeling and parameter estimation</li>
+        
+        <li>Statistical learning and machine learning for reliability analysis</li>
+        
+        <li>Hybrid analytical and data-driven reliability models</li>
+        
+        <li>Decision support systems with reliability analysis</li>
+        
+        <li>Optimization and decision-making informed by reliability</li>
+        
+        <li>Predictive maintenance and condition monitoring</li>
+        
+        <li>Multistate system and network reliability</li>
+        
+        <li>Manufacturing, logistics, and supply chain reliability</li>
+        
+        <li>Energy, power, and infrastructure system reliability</li>
+        
+        <li>Stochastic modeling and uncertainty analysis</li>
+        
+        <li>Simulation and approximation methods for reliability</li>
+        
+        <li>System design and resource allocation</li>
+        
+        <li>Digital twins and intelligent systems for reliability</li>
+        
+        <li>Reliability, robustness, and resilience</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>July 31, 2027: Submission deadline</li>
         
     </ul>
     
@@ -342,6 +344,89 @@
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Game Theoretical Models and Applications SING21]]></title>
+            <link>https://kerostig.org/call/springer-game-theoretical-models-and-applications-sing21/</link>
+            <guid>springer-game-theoretical-models-and-applications-sing21</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue seeks to advance research on game theory as a framework for understanding strategic interaction, cooperation, conflict, and decision-making in complex systems. The collection emphasizes recent theoretical developments and diverse applications, particularly focusing on interaction dynamics and collective decision-making through both theoretical and practical contributions.</p>
+    
+    <p>The issue particularly welcomes expanded and revised versions of papers presented at the European Meeting on Game Theory 2026 (SING21), though other relevant submissions are also encouraged. All papers undergo rigorous peer review by guest editors, with accepted contributions published online before appearing in print.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/cgjchjjbdj">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-game-theoretical-models-and-applications-sing21/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Cooperative games and applications</li>
+        
+        <li>Non-cooperative games and strategic interaction</li>
+        
+        <li>Mechanism design</li>
+        
+        <li>Network games</li>
+        
+        <li>Dynamic games</li>
+        
+        <li>Evolutionary games</li>
+        
+        <li>Stochastic games</li>
+        
+        <li>Voting and collective decision-making</li>
+        
+        <li>Power indices</li>
+        
+        <li>Auctions and market design</li>
+        
+        <li>Bargaining</li>
+        
+        <li>Learning and experimentation in games</li>
+        
+        <li>Computational game theory</li>
+        
+        <li>Game theory applications in management</li>
+        
+        <li>Game theory applications in energy</li>
+        
+        <li>Game theory applications in health policy</li>
+        
+        <li>Game theory applications in industrial organization</li>
+        
+        <li>Game theory applications in environmental economics</li>
+        
+        <li>Game theory applications in resource economics</li>
+        
+        <li>Game theory applications in transportation</li>
+        
+        <li>Game theory applications in cybersecurity</li>
+        
+        <li>Game theory applications in artificial intelligence</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>April 20, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Global Supply Chain Reconfiguration Under Tariff Uncertainty]]></title>
             <link>https://kerostig.org/call/springer-global-supply-chain-reconfiguration-under-tariff-uncertainty/</link>
             <guid>springer-global-supply-chain-reconfiguration-under-tariff-uncertainty</guid>
@@ -359,9 +444,9 @@
     
     
     
-    <p>This special issue addresses the urgent need to understand and manage global supply chain reconfiguration in response to tariff uncertainty and shifting trade policies. Rising tariffs and trade tensions are forcing organizations to redesign their sourcing strategies, manufacturing locations, and logistics networks, creating significant practical challenges that require new analytical approaches.</p>
+    <p>This special issue addresses the challenges facing global supply chains as tariff uncertainty and shifting trade policies reshape sourcing, manufacturing, logistics, and market access. The contemporary environment presents unprecedented complexity requiring new decision-making approaches beyond traditional tariff-related research.</p>
     
-    <p>The journal seeks high-quality contributions that apply operations research and artificial intelligence methods to develop decision-making models for supply chain management under tariff uncertainty. Both theoretical advances and practical case studies are welcome, particularly interdisciplinary research that combines OR, AI, supply chain management, and international economics with real-world applications.</p>
+    <p>The collection seeks high-quality contributions applying Operations Research and Artificial Intelligence methods to supply chain reconfiguration under trade policy uncertainty. The issue welcomes theoretical advances, methodological innovations, applied modeling studies, and practical insights, with particular emphasis on interdisciplinary work integrating OR, AI, supply chain management, and international economics with real-world applications.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -420,19 +505,11 @@
             <content:encoded><![CDATA[
 <div>
     
-        
-        <p><strong>Matteo Rocca</strong>, University of Insubria</p>
-        
-        <p><strong>Davide La Torre</strong>, Skema Business School</p>
-        
-        <p><strong>Constantin Zopounidis</strong>, Technical University of Crete</p>
-        
     
     
+    <p>This special issue focuses on the convergence of Multiple Objective Programming (MOP), Goal Programming (GP), and Artificial Intelligence (AI) for addressing complex decision-making problems in economic and social sciences. The issue welcomes substantially extended papers from the 16th International Conference on Multiple Objective Programming and Goal Programming (MOPGP&#39;25, held 1–3 July 2025 in Varese, Italy), as well as original unpublished papers not presented at the conference.</p>
     
-    <p>This special issue focuses on the intersection of Multiple Objective Optimization, Goal Programming, and Artificial Intelligence, addressing complex decision-making challenges in economics and social sciences. The collection seeks papers that combine these three domains to develop frameworks where optimization methods prioritize conflicting objectives, goal programming establishes specific targets, and AI enhances decision models through data analytics and machine learning.</p>
-    
-    <p>The special issue welcomes both papers substantially extending contributions presented at the 16th International Conference on Multiple Objective Programming and Goal Programming (MOPGP&#39;25) and new original work addressing theories and applications of MOP, GP, and AI in economic and social contexts.</p>
+    <p>The special issue explores how MOP provides structured evaluation of conflicting objectives, GP facilitates goal-setting for decision makers, and AI enhances decision models through data analytics and machine learning. It covers theoretical advances and practical applications spanning sustainable development, resource allocation, public policy, environmental economics, social welfare optimization, and various computational methods for multi-criteria decision analysis.</p>
     
     <p>
         Appel publié par Annals of Operations Research.

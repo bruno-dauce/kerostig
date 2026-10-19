@@ -4,7 +4,7 @@
         <title>kerostig | Tag : labour rights</title>
         <link>https://kerostig.org/tag/labour-rights/</link>
         <description>Derniers appels à publications avec le tag 'labour rights'.</description>
-        <lastBuildDate>Sat, 17 Oct 2026 17:04:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 07:50:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,23 +22,11 @@
             <content:encoded><![CDATA[
 <div>
     
-        
-        <p><strong>Stefan Gold</strong>, Technical University of Munich</p>
-        
-        <p><strong>Antoine Harfouche</strong>, Paris Nanterre University</p>
-        
-        <p><strong>Paul Jones</strong>, Swansea University</p>
-        
-        <p><strong>Maryam Lotfi</strong>, Cardiff University</p>
-        
-        <p><strong>Guoqing Zhao</strong>, Swansea University</p>
-        
     
     
+    <p>Unethical labour practices, including modern slavery, affect approximately 50 million people worldwide and are expected to worsen due to regional conflicts and restrictive migration policies. Although digital technologies such as blockchain, AI, and cloud computing show promise in addressing these issues, research examining their specific applications remains limited. This special issue seeks to bridge this gap by exploring how digital technologies can be leveraged theoretically and empirically to monitor, detect, report, and remediate unethical labour practices.</p>
     
-    <p>An estimated 50 million people worldwide experience unethical labour practices, with numbers expected to rise due to regional conflicts and restrictive migration policies. While digital technologies such as blockchain, AI, and cloud computing offer potential solutions for monitoring and addressing these practices, research in this area remains limited. This special issue seeks to understand how digital technologies can theoretically and empirically be deployed to monitor, detect, report, and remediate unethical labour practices.</p>
-    
-    <p>The special issue welcomes original research using various methodologies that examines the relationship between digital technologies and unethical labour practices. Submissions should identify specific technologies examined and move beyond surface-level analysis to provide nuanced insights. The collection particularly encourages studies that challenge existing paradigms, explore underexamined aspects, or propose innovative frameworks for leveraging digital solutions to advance ethical and sustainable societies while informing policymakers, business leaders, and practitioners.</p>
+    <p>The call invites original, theory-driven research using diverse methodologies including theoretical frameworks, case studies, surveys, and literature reviews. Submissions should identify specific digital technologies and provide nuanced insights into how they can combat labour exploitation and support human rights. Particularly encouraged are studies that challenge existing paradigms, explore underexamined dimensions, or offer innovative perspectives that inform policymakers and practitioners on leveraging technology for meaningful change.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
@@ -51,25 +39,35 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Role of digital technologies (blockchain, AI, cloud computing, IoT, big data analytics, virtual and augmented reality) in monitoring and detecting unethical labour practices</li>
+        <li>Blockchain technology and labour rights</li>
         
-        <li>Application of digital technologies to address modern slavery, human trafficking, forced labour, and other forms of labour exploitation</li>
+        <li>Artificial intelligence for detecting exploitation</li>
         
-        <li>Digital technologies for reporting and remediating unethical labour practices in supply chains</li>
+        <li>Big data analytics and supply chain monitoring</li>
         
-        <li>Use of machine learning and AI for identifying trafficking patterns and at-risk populations</li>
+        <li>Internet of Things and worker safety</li>
         
-        <li>Blockchain applications for tracking labour exploitation in global supply chains</li>
+        <li>Cloud computing applications</li>
         
-        <li>Digital technologies for social inclusion and reintegration of survivors of modern slavery</li>
+        <li>Biometric recognition systems</li>
         
-        <li>Biometric recognition and satellite imagery applications by governments and NGOs</li>
+        <li>Satellite imagery for labour monitoring</li>
         
-        <li>Comparative analysis of multiple digital technologies versus single-technology approaches</li>
+        <li>Remote sensors and worker voice technologies</li>
         
-        <li>Theoretical frameworks and conceptual models for understanding digital technology adoption in addressing unethical labour practices</li>
+        <li>Machine learning for trafficking detection</li>
         
-        <li>Empirical studies on the effectiveness and limitations of digital solutions in combating labour exploitation</li>
+        <li>Digital tools for survivor support and reintegration</li>
+        
+        <li>Human rights and digital technologies</li>
+        
+        <li>Modern slavery prevention</li>
+        
+        <li>Supply chain transparency</li>
+        
+        <li>Digital monitoring systems</li>
+        
+        <li>Technology adoption for ethical labour practices</li>
         
     </ul>
     

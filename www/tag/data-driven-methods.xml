@@ -4,7 +4,7 @@
         <title>kerostig | Tag : data-driven methods</title>
         <link>https://kerostig.org/tag/data-driven-methods/</link>
         <description>Derniers appels à publications avec le tag 'data-driven methods'.</description>
-        <lastBuildDate>Sat, 17 Oct 2026 17:04:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 07:50:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,91 +15,6 @@
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Contextual Optimization with Side Information: Theory, Methodology, and Applications]]></title>
-            <link>https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/</link>
-            <guid>springer-contextual-optimization-with-side-information-theory-methodology-and-applications</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Stelios Bekiros</strong>, University of Turin</p>
-        
-        <p><strong>Andrea D&#39;Ariano</strong>, Roma Tre University</p>
-        
-        <p><strong>Peng Wu</strong>, Fuzhou University</p>
-        
-        <p><strong>Guowei Zhang</strong>, Dalian University of Technology</p>
-        
-    
-    
-    
-    <p>Modern operations research increasingly involves complex decision-making in data-rich environments where contextual information can significantly improve operational policies. This special issue focuses on integrating side information into optimization frameworks, combining advances from optimization, machine learning, and statistical learning. The challenge is to develop methods that go beyond historical averages to create adaptive, personalized solutions that effectively handle high-dimensional data, distribution shifts, and real-time computational demands.</p>
-    
-    <p>The special issue welcomes contributions that develop novel theories, algorithms, and practical applications merging optimization with machine learning and data analytics. Priority is given to methods that address uncertainty while leveraging contextual information, with emphasis on improving actual decision quality and system performance rather than predictive accuracy alone.</p>
-    
-    <p>
-        Appel publié par Annals of Operations Research.
-        
-        <a href="https://link.springer.com/collections/iajhfddihe">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Contextual Stochastic Optimization</li>
-        
-        <li>Distributionally Robust Optimization with Side Information</li>
-        
-        <li>Prescriptive Analytics and Contextual Decision Making</li>
-        
-        <li>Learning-Enhanced Optimization</li>
-        
-        <li>Decision-Focused Learning</li>
-        
-        <li>Online, Dynamic, and Adaptive Optimization</li>
-        
-        <li>Learning-Augmented Algorithms</li>
-        
-        <li>Interpretable and Trustworthy Optimization Models</li>
-        
-        <li>Statistical Guarantees and Generalization in Optimization</li>
-        
-        <li>Data-Driven Optimization Under Uncertainty</li>
-        
-        <li>AI and Machine Learning for OR</li>
-        
-        <li>Human-in-the-Loop Optimization</li>
-        
-        <li>Optimization with Foundation Models or Generative AI</li>
-        
-        <li>Scalable Algorithms for Large-Scale Optimization Problems</li>
-        
-        <li>Digital Twin and Real-Time Decision Systems</li>
-        
-        <li>Contextual Transportation and Logistics Optimization</li>
-        
-        <li>Contextual Supply Chain and Revenue Management</li>
-        
-        <li>Data-Driven Healthcare and Service Operations</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>July 31, 2027: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems]]></title>
             <link>https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/</link>
             <guid>springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</guid>
@@ -107,15 +22,11 @@
             <content:encoded><![CDATA[
 <div>
     
-        
-        <p><strong>Yi-Kuei Lin</strong>, National Yang Ming Chiao Tung University</p>
-        
     
     
+    <p>Industrial engineering systems such as manufacturing, supply chains, energy networks, and transportation require reliable operation to maintain efficiency and safety amid uncertainty and disruptions. Traditional reliability approaches have relied on probabilistic and stochastic analysis, but advances in sensing technology and data collection now enable data-driven reliability modeling that combines classical theory with machine learning and statistical methods. The field is increasingly focused on integrating reliability analysis into decision-making frameworks for maintenance planning, resource allocation, and system optimization.</p>
     
-    <p>This special issue seeks contributions on reliability modeling and decision support for industrial engineering systems, including manufacturing, supply chains, logistics, energy systems, transportation, and service operations. While traditional probabilistic and stochastic approaches remain important, advances in sensor technologies and data collection have enabled new data-driven approaches that combine machine learning and statistical methods with classical reliability theory.</p>
-    
-    <p>The special issue welcomes both theoretical developments and practical applications that demonstrate how data-driven reliability analysis can enhance decision-making in maintenance planning, resource allocation, system design, and operational optimization. Papers should show methodological rigor and clear relevance to real-world industrial challenges, illustrating how reliability-informed approaches improve system performance.</p>
+    <p>This special issue invites original research papers addressing reliability modeling and decision support for industrial engineering systems using operations research, industrial engineering, and data-driven methods. Both theoretical contributions and practical applications are welcome, with emphasis on methodological rigor and real-world relevance.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -128,33 +39,33 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Data-driven reliability modeling and parameter estimation using operational data</li>
+        <li>Data-driven reliability modeling and parameter estimation</li>
         
-        <li>Reliability analysis using statistical learning and machine learning methods</li>
+        <li>Statistical learning and machine learning for reliability analysis</li>
         
-        <li>Reliability models combining analytical formulations with data-driven learning approaches</li>
+        <li>Hybrid analytical and data-driven reliability models</li>
         
-        <li>Decision support systems incorporating reliability analysis and risk information</li>
+        <li>Decision support systems with reliability analysis</li>
         
-        <li>Optimization and decision-making problems informed by reliability performance</li>
+        <li>Optimization and decision-making informed by reliability</li>
         
-        <li>Predictive maintenance and condition monitoring using data and learning models</li>
+        <li>Predictive maintenance and condition monitoring</li>
         
-        <li>Multistate system and network reliability analysis</li>
+        <li>Multistate system and network reliability</li>
         
-        <li>Reliability evaluation of manufacturing, logistics, and supply chain systems</li>
+        <li>Manufacturing, logistics, and supply chain reliability</li>
         
-        <li>Reliability modeling in energy, power, and infrastructure systems</li>
+        <li>Energy, power, and infrastructure system reliability</li>
         
-        <li>Stochastic modeling and uncertainty analysis in data-driven reliability studies</li>
+        <li>Stochastic modeling and uncertainty analysis</li>
         
-        <li>Simulation, enumeration, and approximation methods for reliability evaluation</li>
+        <li>Simulation and approximation methods for reliability</li>
         
-        <li>System design and resource allocation considering reliability and operational data</li>
+        <li>System design and resource allocation</li>
         
-        <li>Reliability analysis supported by digital twins, data analytics, and intelligent systems</li>
+        <li>Digital twins and intelligent systems for reliability</li>
         
-        <li>Reliability, robustness, and resilience of industrial engineering systems</li>
+        <li>Reliability, robustness, and resilience</li>
         
     </ul>
     

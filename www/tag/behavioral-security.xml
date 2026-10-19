@@ -4,7 +4,7 @@
         <title>kerostig | Tag : behavioral security</title>
         <link>https://kerostig.org/tag/behavioral-security/</link>
         <description>Derniers appels à publications avec le tag 'behavioral security'.</description>
-        <lastBuildDate>Sat, 17 Oct 2026 17:04:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 07:50:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,25 +22,11 @@
             <content:encoded><![CDATA[
 <div>
     
-        
-        <p><strong>Laura Amo</strong>, University at Buffalo, State University of New York</p>
-        
-        <p><strong>Richard Baskerville</strong>, Georgia State University</p>
-        
-        <p><strong>Rui Chen</strong>, Iowa State University</p>
-        
-        <p><strong>Matthew Hashim</strong>, University of Arizona</p>
-        
-        <p><strong>Yaojie (William) Li</strong>, University of New Orleans</p>
-        
-        <p><strong>Yuan Li</strong>, University of Tennessee at Knoxville</p>
-        
     
     
+    <p>As artificial intelligence increasingly shapes both offensive and defensive cybersecurity, this special issue emphasizes the continuing importance of human judgment and involvement in security systems. The call recognizes that while AI tools are becoming essential for threat detection and response, humans remain fundamental to effective security practice. The special issue seeks research that maintains focus on how humans can effectively collaborate with AI-based systems rather than being replaced by them.</p>
     
-    <p>As artificial intelligence increasingly dominates both offensive and defensive cybersecurity, this special issue emphasizes the critical importance of maintaining human involvement in security systems and decisions. The issue addresses concerns about AI-driven threats such as sophisticated phishing attacks, deepfakes, and behavioral data exploitation, while acknowledging that defensive reliance on AI-based threat detection creates cognitive challenges for practitioners.</p>
-    
-    <p>Human-in-the-loop (HITL) is presented as a design principle that ensures human participation in system training, decision-making, and error mitigation, recognizing that fully automated security systems may be restrictive or dangerous. The special issue calls for behavioral information security research that balances AI&#39;s growing role with sustained focus on human behavior, cognition, and motivation in secure systems, training, and technologies.</p>
+    <p>The special issue invites behavioral and design science research exploring how to balance AI advancement with meaningful human participation in security. Beyond traditional topics like security compliance and training, the call particularly welcomes studies on neurosecurity approaches, AI-enabled behavioral interventions, human-AI collaboration in security decisions, and the security implications of generative AI. The work should emphasize practical applications, such as improving security awareness or detecting threats through behavioral analysis, rather than purely technical solutions.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
@@ -53,25 +39,25 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Neurosecurity (NeuroIS) investigations of information security behavior</li>
+        <li>Neurosecurity (NeuroIS) investigations</li>
         
-        <li>Behavioral analyses of design science treatments enhancing or balancing security and privacy tradeoffs</li>
+        <li>Design science and security/privacy tradeoffs</li>
         
-        <li>The behavioral intersection of cybersecurity/privacy research and AI/ML advancements</li>
+        <li>Cybersecurity/privacy research and AI/ML</li>
         
-        <li>AI-enabled security awareness, training, nudging, and behavioral intervention systems</li>
+        <li>AI-enabled security awareness and training</li>
         
-        <li>Human-AI collaboration in security decision-making, compliance, monitoring, and response</li>
+        <li>Human-AI collaboration in security</li>
         
-        <li>Behavioral security implications of generative AI, including phishing, social engineering, misinformation, insider threats, and user overreliance on AI tools</li>
+        <li>Generative AI behavioral security implications</li>
         
-        <li>Design science approaches to developing, evaluating, and theorizing intelligent security artifacts with behavioral implications</li>
+        <li>Intelligent security artifacts design</li>
         
-        <li>Adaptive, personalized, and context-aware security interventions enabled by AI and analytics</li>
+        <li>Adaptive and personalized security interventions</li>
         
-        <li>Theoretical extensions or reconceptualizations of established behavioral security theories in AI-mediated environments</li>
+        <li>Behavioral security theories in AI environments</li>
         
-        <li>Security behaviors in pervasive and post-pandemic work environments, including remote work, hybrid work, IoT, cloud platforms, and platform ecosystems</li>
+        <li>Security behaviors in remote and hybrid work</li>
         
     </ul>
     

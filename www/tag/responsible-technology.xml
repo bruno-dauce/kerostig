@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : responsible technology</title>
+        <link>https://kerostig.org/tag/responsible-technology/</link>
+        <description>Derniers appels à publications avec le tag 'responsible technology'.</description>
+        <lastBuildDate>Mon, 19 Oct 2026 07:50:56 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : responsible technology</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/responsible-technology/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Advancing towards a Responsible and Resilient Digital Future]]></title>
+            <link>https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future/</link>
+            <guid>springer-advancing-towards-a-responsible-and-resilient-digital-future</guid>
+            <pubDate>Sun, 16 Aug 2026 21:44:37 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>Digital technologies like AI and blockchain create significant value but also introduce serious challenges including algorithmic bias, privacy violations, and workforce disruption. The special issue seeks research on information systems that are simultaneously responsible—fair, transparent, ethical, and accountable—and resilient, capable of withstanding disruptions while delivering sustained value.</p>
+    
+    <p>While responsibility and resilience in digital systems are interdependent, they have largely evolved as separate research streams. Information systems scholars are uniquely positioned to examine human–technology interaction, value realization from digital investments, and how governance shapes digital outcomes, particularly for vulnerable populations. The special issue invites theoretically grounded, methodologically rigorous research using diverse methods including conceptual work, surveys, experiments, and design science approaches.</p>
+    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/ffhgdbhbad">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Responsible AI and AI Governance</li>
+        
+        <li>Resilient Information Systems and Digital Platforms</li>
+        
+        <li>Human–AI Collaboration and Decision Making</li>
+        
+        <li>Digital Transformation and Innovation</li>
+        
+        <li>User Behaviour in Digital Environment</li>
+        
+        <li>Digital Trust, Privacy, and Cybersecurity</li>
+        
+        <li>Data Governance and AI-Enabled Decision Making</li>
+        
+        <li>Digital Inclusion, Accessibility, and Societal Impact</li>
+        
+        <li>Policy and Governance of Digital Technologies</li>
+        
+        <li>Design Science Research for Responsible and Resilient IS</li>
+        
+        <li>AI and future of work and education</li>
+        
+        <li>Opportunities and challenges of AI for society</li>
+        
+        <li>Skills and mindsets remaining uniquely human in AI-driven world</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 15, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

@@ -4,7 +4,7 @@
         <title>kerostig | Tag : digital transformation</title>
         <link>https://kerostig.org/tag/digital-transformation/</link>
         <description>Derniers appels à publications avec le tag 'digital transformation'.</description>
-        <lastBuildDate>Sat, 17 Oct 2026 17:04:41 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 07:50:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -710,7 +710,7 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[AI-enabled Digital Transformation for Small and Medium-sized Enterprises (SMEs)]]></title>
+            <title><![CDATA[AI-enabled Digital Transformation for Small and Medium‑sized Enterprises (SMEs)]]></title>
             <link>https://kerostig.org/call/springer-topical-collection-ai-enabled-digital-transformation-for-small-and-mediumsized-enterprises-smes/</link>
             <guid>springer-topical-collection-ai-enabled-digital-transformation-for-small-and-mediumsized-enterprises-smes</guid>
             <pubDate>Mon, 21 Sep 2026 08:26:56 GMT</pubDate>
@@ -718,22 +718,22 @@
 <div>
     
         
-        <p><strong>Yao Shi</strong>, University of North Carolina Wilmington</p>
+        <p><strong>Shi, Yao</strong>, University of North Carolina Wilmington</p>
         
-        <p><strong>Lukas R. G. Fitz</strong>, Brandenburg University of Technology Cottbus – Senftenberg</p>
+        <p><strong>Fitz, Lukas R. G.</strong>, Brandenburg University of Technology Cottbus – Senftenberg</p>
         
-        <p><strong>Fanny-Eve Bordeleau</strong>, Dalhousie University</p>
+        <p><strong>Bordeleau, Fanny-Eve</strong>, Dalhousie University</p>
         
-        <p><strong>Claudia Pelletier</strong>, Université du Québec à Trois-Rivières</p>
+        <p><strong>Pelletier, Claudia</strong>, Universitée du Québec à Trois-Rivières</p>
         
-        <p><strong>Judith Gebauer</strong>, University of North Carolina Wilmington</p>
+        <p><strong>Gebauer, Judith</strong>, University of North Carolina Wilmington</p>
         
     
     
     
-    <p>SMEs are significantly lagging behind large organizations in AI adoption due to structural and financial constraints, limited access to technology, insufficient data infrastructure, and workforce skill shortages. This growing digital divide threatens economic competitiveness and equity across regions. As SMEs form a critical part of global economies, their meaningful participation in AI-enabled digital transformation is essential for building resilient and fair economic systems.</p>
+    <p>Small and medium-sized enterprises face significant obstacles in adopting AI technologies, including limited financial resources, insufficient technological infrastructure, and workforce skill gaps. This creates a widening digital divide between large organizations and SMEs, potentially undermining economic growth and digital equity across regions. Since SMEs are crucial to global economies, their ability to leverage AI-enabled transformation is essential for competitive resilience and inclusive economic development.</p>
     
-    <p>This topical collection welcomes multidisciplinary research exploring AI adoption, implementation challenges, workforce development, ethical considerations, and best practices in SMEs. The collection invites theoretical, empirical, design-oriented, and technical contributions that address opportunities and strategies for AI-enabled transformation in the SME context, including case studies and innovation ecosystem perspectives.</p>
+    <p>This topical collection invites research exploring AI adoption in SMEs from multiple perspectives, including theoretical frameworks, empirical studies, design approaches, and technical solutions. Contributions should address the opportunities, challenges, strategies, and outcomes of AI-enabled transformation in the SME context, covering topics such as adoption drivers, barriers, workforce development, ethical considerations, innovation ecosystems, and governance models.</p>
     
     <p>
         Appel publié par Electronic Markets.
@@ -746,15 +746,15 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>AI adoption drivers, strategies, and readiness models for SMEs&#39; digital transformation</li>
+        <li>AI adoption drivers, strategies, and readiness models for SMEs</li>
         
-        <li>AI barriers, challenges, and failures for SMEs&#39; digital transformation</li>
+        <li>AI barriers, challenges, and failures for SMEs</li>
         
-        <li>Skill gaps, workforce development, organizational learning and managerial capabilities for AI-enabled practices in SMEs</li>
+        <li>Skill gaps, workforce development, and organizational learning for AI in SMEs</li>
         
-        <li>Ethical and societal issues surrounding AI in SMEs and their environments</li>
+        <li>Ethical and societal issues surrounding AI in SMEs</li>
         
-        <li>Case studies of AI adoption and use in SMEs and their business ecosystems</li>
+        <li>Case studies of AI adoption in SMEs and business ecosystems</li>
         
         <li>AI innovation ecosystems inclusive of SMEs</li>
         
@@ -762,15 +762,15 @@
         
         <li>SME practitioner perspectives on AI</li>
         
-        <li>Implementing human-centered AI for SMEs</li>
+        <li>Human-centered AI for SMEs</li>
         
-        <li>AI-enabled business model innovation pathways in SMEs</li>
+        <li>AI-enabled business model innovation in SMEs</li>
         
         <li>AI governance frameworks for SMEs</li>
         
-        <li>AI-driven shifts in SME strategies for competition, co-opetition, co-creation, and open innovation</li>
+        <li>AI-driven shifts in SME strategies for competition and innovation</li>
         
-        <li>Development, configuration, and management of AI ecosystems for SMEs</li>
+        <li>Development and management of AI ecosystems for SMEs</li>
         
     </ul>
     
@@ -1278,6 +1278,71 @@
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Advancing towards a Responsible and Resilient Digital Future]]></title>
+            <link>https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future/</link>
+            <guid>springer-advancing-towards-a-responsible-and-resilient-digital-future</guid>
+            <pubDate>Sun, 16 Aug 2026 21:44:37 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>Digital technologies like AI and blockchain create significant value but also introduce serious challenges including algorithmic bias, privacy violations, and workforce disruption. The special issue seeks research on information systems that are simultaneously responsible—fair, transparent, ethical, and accountable—and resilient, capable of withstanding disruptions while delivering sustained value.</p>
+    
+    <p>While responsibility and resilience in digital systems are interdependent, they have largely evolved as separate research streams. Information systems scholars are uniquely positioned to examine human–technology interaction, value realization from digital investments, and how governance shapes digital outcomes, particularly for vulnerable populations. The special issue invites theoretically grounded, methodologically rigorous research using diverse methods including conceptual work, surveys, experiments, and design science approaches.</p>
+    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/ffhgdbhbad">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-advancing-towards-a-responsible-and-resilient-digital-future/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Responsible AI and AI Governance</li>
+        
+        <li>Resilient Information Systems and Digital Platforms</li>
+        
+        <li>Human–AI Collaboration and Decision Making</li>
+        
+        <li>Digital Transformation and Innovation</li>
+        
+        <li>User Behaviour in Digital Environment</li>
+        
+        <li>Digital Trust, Privacy, and Cybersecurity</li>
+        
+        <li>Data Governance and AI-Enabled Decision Making</li>
+        
+        <li>Digital Inclusion, Accessibility, and Societal Impact</li>
+        
+        <li>Policy and Governance of Digital Technologies</li>
+        
+        <li>Design Science Research for Responsible and Resilient IS</li>
+        
+        <li>AI and future of work and education</li>
+        
+        <li>Opportunities and challenges of AI for society</li>
+        
+        <li>Skills and mindsets remaining uniquely human in AI-driven world</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 15, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Digital and AI Transformation in Insurance]]></title>
             <link>https://kerostig.org/call/springer-digital-and-ai-transformation-in-insurance/</link>
             <guid>springer-digital-and-ai-transformation-in-insurance</guid>
@@ -1358,9 +1423,11 @@
     
     
     
-    <p>Technological advancements require entrepreneurial firms to strategically develop digital capabilities to enhance their competitiveness, innovation capacity, and sustainable performance. This collection seeks to explore how such firms build digital capabilities to improve their environmental, social, and governance (ESG) performance while addressing challenges in integrating digital solutions for sustainability.</p>
+    <p>This collection addresses how entrepreneurial firms develop digital capabilities to enhance their environmental, social, and governance performance. In a rapidly evolving technological landscape, entrepreneurial ventures must strategically build digital competencies to maintain competitive advantage while advancing sustainable and ethical business practices.</p>
     
-    <p>The collection recognizes that entrepreneurial ventures, characterized by innovation and agility, play a critical role in advancing digital-driven sustainable business practices. Improved ESG performance is essential for managing environmental and social risks, enhancing corporate reputation, and meeting stakeholder expectations regarding ethical and responsible business conduct. The collection welcomes experimental, conceptual, theoretical, and empirical studies that examine the intersection of digital capabilities and ESG performance in entrepreneurial firms, illuminate obstacles, and propose practical solutions.</p>
+    <p>The collection explores the interconnection between digital innovation and ESG performance in entrepreneurial contexts. It welcomes experimental, conceptual, theoretical, and empirical studies examining how digital capabilities contribute to environmental responsibility, social sustainability, and improved governance structures in entrepreneurial firms, while identifying challenges and solutions in this integration.</p>
+    
+    <p>The collection invites scholars to investigate multiple dimensions of this convergence, including how firms measure ESG performance digitally, address sustainability challenges through technology, foster knowledge-sharing ecosystems, leverage digital tools for transparency, and balance profitability with sustainable practices in their operations.</p>
     
     <p>
         Appel publié par International Entrepreneurship and Management Journal.
@@ -1373,27 +1440,29 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>How do entrepreneurial ventures define and measure ESG performance in the digital era? What critical digital capabilities contribute to their improved ESG performance?</li>
+        <li>Digital capabilities and ESG performance</li>
         
-        <li>What challenges do entrepreneurial firms face in integrating digital solutions to enhance environmental sustainability? What could be the best practices for tackling those challenges?</li>
+        <li>ESG measurement and definition in digital era</li>
         
-        <li>What are the possible learning mechanisms and knowledge-sharing processes within entrepreneurial ecosystems that could foster development of digital capabilities for ESG goals?</li>
+        <li>Digital solutions for environmental sustainability</li>
         
-        <li>What roles do leadership and organizational culture play in fostering digital capabilities for superior ESG performance in entrepreneurial firms?</li>
+        <li>Learning mechanisms and knowledge-sharing in entrepreneurial ecosystems</li>
         
-        <li>How can entrepreneurial firms effectively utilize digital technologies to measure and improve their environmental performance within ESG frameworks?</li>
+        <li>Leadership and organizational culture for digital ESG</li>
         
-        <li>How can digital capabilities be harnessed to address diversity, equity, and inclusion (DEI) challenges in entrepreneurial firms, contributing to improved social sustainability?</li>
+        <li>Digital technologies for environmental performance measurement</li>
         
-        <li>How do digitalization efforts impact the governance structures of entrepreneurial firms in the context of sustainability? What actions could be taken to improve it?</li>
+        <li>Digital capabilities for diversity, equity, and inclusion</li>
         
-        <li>To what extent do regulatory frameworks influence the adoption of digital strategies for ESG compliance in entrepreneurial settings?</li>
+        <li>Digitalization and governance structures</li>
         
-        <li>How do digital technologies facilitate transparency and accountability in ESG reporting for entrepreneurial firms?</li>
+        <li>Regulatory frameworks and ESG compliance</li>
         
-        <li>How can entrepreneurial firms balance profitability goals with sustainable practices through digital transformations? Under this scenario, which opportunities and challenges could arise?</li>
+        <li>Digital transparency and accountability in ESG reporting</li>
         
-        <li>What lessons can we learn from recent, real-world cases that showcase the impact of digital capabilities on ESG performance in different industries, particularly entrepreneurial firms, and how can new guidelines lead toward improved ESG performance?</li>
+        <li>Profitability and sustainable practices through digital transformation</li>
+        
+        <li>Real-world cases of digital capabilities and ESG impact</li>
         
     </ul>
     
@@ -1417,21 +1486,11 @@
             <content:encoded><![CDATA[
 <div>
     
-        
-        <p><strong>Jyoti Choudrie</strong>, University of Hertfordshire</p>
-        
-        <p><strong>Sherah Kurnia</strong>, The University of Melbourne</p>
-        
-        <p><strong>Gabrielle Peko</strong>, University of Auckland</p>
-        
-        <p><strong>David Sundaram</strong>, University of Auckland</p>
-        
     
     
+    <p>This special issue investigates how organizations and society create and realize value from ICT and AI technologies beyond their initial adoption phase. While prior research has focused extensively on adoption decisions, this collection addresses understudied post-adoption dynamics including continuance, adaptation, and routinization. The issue recognizes that technology adoption alone does not guarantee organizational or societal benefits, necessitating deeper understanding of how sustained technology use generates value and drives transformation.</p>
     
-    <p>This special issue addresses the critical gap between technology adoption and actual value realization, focusing on how organizations and societies integrate, adapt, and leverage ICTs and AI beyond their initial implementation. While existing research emphasizes adoption decisions, there remains limited understanding of post-adoption dynamics, continued use, and the translation of technological investments into tangible organizational and societal benefits.</p>
-    
-    <p>The issue welcomes research exploring post-adoption phenomena across individual, organizational, and societal levels, including technology assimilation, value creation, and transformation. It also addresses significant risks and ethical concerns arising from ICT and AI deployment, such as algorithmic bias, privacy threats, digital inequality, and unintended consequences that require scholarly attention.</p>
+    <p>The special issue welcomes empirical, theoretical, experimental, design science, and review-based research examining post-adoption phenomena, value realization, and transformation at individual, organizational, and societal levels. It seeks to balance exploration of positive impacts with critical examination of risks and challenges, including ethical concerns, digital inequality, cybersecurity threats, and unintended consequences of widespread ICT and AI deployment. Novel perspectives on early-stage adoption are also welcome when they offer new theoretical insights or address emerging technologies.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
@@ -1692,9 +1751,9 @@
     
     
     
-    <p>This topical collection examines how digital transformation and service shape contemporary information systems, particularly focusing on value creation across organizational boundaries through digital technologies, platforms, and ecosystems. The collection seeks theoretically grounded research that goes beyond broad claims about digital transformation to instead examine how IT artifacts are designed and applied to enable value co-creation in service contexts.</p>
+    <p>This topical collection seeks research exploring how digital technologies reshape organizational value creation and service delivery. The collection is particularly interested in studies examining how information technology artifacts enable or transform digital transformation and service exchange, with attention to value co-creation across organizational boundaries through networks, platforms, and ecosystems.</p>
     
-    <p>The collection prioritizes submissions that explicitly analyze IT artifacts rather than treating them as black boxes, showing how these artifacts shape and are shaped by organizational digital transformation. Research should be grounded in IS literature and address relevant gaps for both theory and practice, with particular interest in inter-organizational and platform-based service scenarios relevant to Electronic Markets.</p>
+    <p>The collection welcomes diverse methodologies including design science, qualitative research, quantitative studies, and literature reviews. It especially encourages submissions investigating real-world service scenarios in inter-organizational contexts such as service networks, digital platforms, and business ecosystems. Papers must provide theoretical analysis of how IT artifacts shape digital transformation rather than treating information systems as black boxes.</p>
     
     <p>
         Appel publié par Electronic Markets.
@@ -1707,23 +1766,29 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Digital transformation and service in information systems</li>
+        <li>Digital transformation</li>
         
-        <li>Design and application of IT artifacts for value co-creation</li>
+        <li>Service systems and ecosystems</li>
         
-        <li>Smart service systems and ecosystems at multiple levels (communities, organizations, inter-organizational arrangements, platforms, data spaces, society)</li>
+        <li>Value co-creation</li>
         
-        <li>Customer relations, value propositions, and service exchange enabled by digital technologies</li>
+        <li>IT artifact design</li>
         
-        <li>Role of digital technologies in real-world service scenarios</li>
+        <li>Customer relations and value propositions</li>
         
-        <li>Inter-organizational contexts such as service networks, digital platforms, data spaces, and business ecosystems</li>
+        <li>Smart service systems</li>
         
-        <li>Digital technologies in established organizations, start-ups, public-sector organizations, and communities</li>
+        <li>Inter-organizational service networks</li>
         
-        <li>Generative AI and large-scale artificial intelligence in service and digital transformation contexts</li>
+        <li>Digital platforms</li>
         
-        <li>Digital responsibility in digital transformation</li>
+        <li>Data spaces</li>
+        
+        <li>Business ecosystems</li>
+        
+        <li>Generative AI and large language models</li>
+        
+        <li>Digital responsibility</li>
         
     </ul>
     
@@ -1747,21 +1812,13 @@
             <content:encoded><![CDATA[
 <div>
     
-        
-        <p><strong>Cristina Mele</strong>, University of Naples Federico II</p>
-        
-        <p><strong>Francesco Polese</strong>, University of Salerno</p>
-        
-        <p><strong>Jim Spohrer</strong>, International Society of Service Innovation Professionals</p>
-        
-        <p><strong>Bård Tronvoll</strong>, Karlstad University</p>
-        
     
     
+    <p>Digital transformation is reshaping how services are conceptualized and delivered across business and society. Technological advances including artificial intelligence, augmented reality, the internet of Things, and blockchain are fundamentally changing value co-creation dynamics between human and non-human actors, requiring service research to evolve and adapt to these new realities.</p>
     
-    <p>This topical collection addresses how service research must evolve in response to digital transformation and emerging technologies such as artificial intelligence, augmented reality, the internet of Things, and blockchain. The collection examines how technology enables value co-creation among diverse actors and shapes service ecosystems where human and non-human participants interact.</p>
+    <p>Markets can be understood as service ecosystems where diverse actors collaborate to create value through various institutional arrangements. Technological adoption generates both opportunities and challenges that stimulate market emergence, transformation, and the development of new service platforms, creating rich possibilities for research across multiple dimensions.</p>
     
-    <p>The collection invites research exploring how technological advances create market emergence, institutional change, and new service platforms. It welcomes original contributions from diverse methodological approaches including conceptual, qualitative, and quantitative studies, case studies, and position papers that advance understanding of service dynamics in digitally transformed contexts.</p>
+    <p>This collection welcomes original research exploring how digital technologies enable and shape service systems, market dynamics, and value co-creation. The journal invites conceptual, qualitative, and quantitative contributions, including case studies and position papers that examine service research within the digital era across diverse industry contexts.</p>
     
     <p>
         Appel publié par Electronic Markets.
@@ -1784,11 +1841,11 @@
         
         <li>Phygital customer journey and metaverses</li>
         
-        <li>Service research in complex industry settings (e.g., Industry 4.0)</li>
+        <li>Service research in complex industry settings</li>
         
         <li>Business models to manage networks and service systems</li>
         
-        <li>Emergence and institutionalization in service eco-systems</li>
+        <li>Emergence and institutionalization in service ecosystems</li>
         
         <li>Application of service-dominant logic to networks and markets</li>
         
@@ -1817,18 +1874,20 @@
 <div>
     
         
-        <p><strong>Jasmina Berbegal-Mirabent</strong>, Universitat Politècnica de Catalunya</p>
+        <p><strong>Jasmina Berbegal-Mirabent</strong>, Polytechnic University of Catalonia</p>
         
         <p><strong>Angelo Cavallo</strong>, Politecnico di Milano</p>
         
         <p><strong>Antje Fiedler</strong>, University of Auckland</p>
         
-        <p><strong>Esteban Lafuente</strong>, Instituto Tecnológico de Costa Rica</p>
+        <p><strong>Esteban Lafuente</strong>, Costa Rica Institute of Technology</p>
         
     
     
     
-    <p>Digital technologies are fundamentally reshaping how both private and public organizations—including universities, hospitals, and local administrations—conceive strategy, innovate, and compete. However, scholarly understanding remains fragmented regarding how digitalization operates across different functional areas and organizational levels, and literature has not fully clarified the mechanisms through which technological adoption generates performance gains or the conditions under which it falters.</p>
+    <p>Organizations across private and public sectors face challenges integrating digital technologies. While digitalization offers innovation and performance opportunities, many organizations struggle with resource constraints, knowledge gaps, and organizational inertia. The literature remains fragmented on how digitalization unfolds across different contexts, particularly for SMEs and public service providers lacking the resources of large corporations.</p>
+    
+    <p>This special issue examines how organizations conceive, deploy, and leverage digital strategies. It seeks research on the factors driving digitalization decisions, mechanisms linking digital transformation to individual and organizational outcomes, and how human-technology interactions shape success. Studies on private firms, universities, hospitals, and public administrations are welcome, including the &#39;dark side&#39; of digitalization such as technology-resource misalignment.</p>
     
     <p>
         Appel publié par Review of Managerial Science.
@@ -1841,55 +1900,37 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Antecedents of digital technologies adoption: Strategic approaches including organizational, technological, institutional, and market-related factors influencing SMEs&#39; digitalization strategies</li>
+        <li>Antecedents of SME digitalization strategies</li>
         
-        <li>Differences in digitalization strategies between industries or economic contexts</li>
+        <li>Strategic choices in digital transformation</li>
         
-        <li>Strategic choices and prerequisites supporting digitally-induced organizational actions</li>
+        <li>Socio-technical system readiness factors</li>
         
-        <li>Socio-technical system readiness factors including technical infrastructure, organizational culture, workforce capabilities, and data governance maturity</li>
+        <li>Ecosystem characteristics and digital interactions</li>
         
-        <li>Ecosystem characteristics and their role in shaping digitally enabled interactions</li>
+        <li>Integration of digital technologies in operations</li>
         
-        <li>Human-technology interaction and integration of digital technologies into firm operations</li>
+        <li>Automation, augmentation, and innovation</li>
         
-        <li>Value-adding strategies promoted through digital technology integration</li>
+        <li>Digital literacy and organizational culture</li>
         
-        <li>Organizational resources, processes, and competencies supporting digital technology integration</li>
+        <li>Public sector digitalization</li>
         
-        <li>Strategic purposes for technology integration: automation, augmentation, cybersecurity, and innovation</li>
+        <li>Leadership and governance in digital transformation</li>
         
-        <li>Digital literacy, ethical concerns, organizational culture, and managerial practices in technology adoption</li>
+        <li>Public-private partnerships for digital solutions</li>
         
-        <li>Digital transformation in the public sector with constrained resources</li>
+        <li>Absorptive capacity and co-creation</li>
         
-        <li>Leadership, governance structures, and resource orchestration in public institutions</li>
+        <li>Individual-level outcomes of digitalization</li>
         
-        <li>E-administration, hybrid learning platforms, and AI-enabled service delivery in public organizations</li>
+        <li>Firm-level performance outcomes</li>
         
-        <li>Spillover effects of public digital initiatives on regional SMEs</li>
+        <li>Heterogeneous effects of digital transformation</li>
         
-        <li>Public-private partnerships and cross-sector collaborations for digital solutions</li>
+        <li>Strategic alignment and digital technologies</li>
         
-        <li>Governance models and knowledge-sharing mechanisms enhancing digital co-creation</li>
-        
-        <li>Absorptive capacity development through partnerships</li>
-        
-        <li>Sector and regional ecosystem factors affecting partnership effectiveness</li>
-        
-        <li>Performance outcomes of digital technologies and technology-enabled strategies</li>
-        
-        <li>Individual-level outcomes including productivity, learning, creativity, and decision quality</li>
-        
-        <li>Firm-level outcomes including innovation, internationalization, operational efficiency, and sustainability</li>
-        
-        <li>Mechanisms explaining heterogeneous digitalization outcomes across individuals, teams, and firms</li>
-        
-        <li>Digital literacy and human-technology interactions shaping performance outcomes</li>
-        
-        <li>Strategic alignment of competencies and digital technologies for competitive advantage</li>
-        
-        <li>Digital transformation impacts on power dynamics between entrants and incumbents</li>
+        <li>Digital transformation and competitive positioning</li>
         
     </ul>
     

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : decentralized optimization</title>
+        <link>https://kerostig.org/tag/decentralized-optimization/</link>
+        <description>Derniers appels à publications avec le tag 'decentralized optimization'.</description>
+        <lastBuildDate>Mon, 19 Oct 2026 07:50:56 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : decentralized optimization</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/decentralized-optimization/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Collaborative Intelligence in Operations Research: Models, Methods, and Applications]]></title>
+            <link>https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/</link>
+            <guid>springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Olga Battaïa</strong>, Kedge Business School</p>
+        
+        <p><strong>Yasser Dessouky</strong>, San Jose State University</p>
+        
+        <p><strong>Reza Zanjirani Farahani</strong>, Paris School of Business</p>
+        
+        <p><strong>Masood Fathi</strong>, University of Skövde</p>
+        
+        <p><strong>Madjid Tavana</strong>, La Salle University</p>
+        
+    
+    
+    
+    <p>Modern operations research faces challenges in dynamic and uncertain environments where traditional methodologies struggle. This special issue focuses on Collaborative Intelligence—integrating human expertise, artificial intelligence, and distributed problem-solving to enhance adaptability and efficiency in complex operations through multi-agent coordination, human-AI collaboration, and machine learning.</p>
+    
+    <p>The special issue seeks research bridging autonomous AI systems and human decision-makers by combining computational power with human intuition and ethical reasoning. Contributions should address how collaborative approaches improve system resilience, handle uncertainty, and increase trust in AI-driven systems through theoretical advancements and computational methods that extend operations research to adaptive and multi-agent frameworks.</p>
+    
+    <p>Researchers are invited to submit original contributions involving innovative mathematical models, algorithms, and practical applications demonstrating how collaborative intelligence enhances decision-making in complex operational environments, balancing theoretical rigor with practical relevance.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/fihchfagfc">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Human-AI collaboration in OR models</li>
+        
+        <li>Integration of human judgment and preferences into AI-driven decision-making</li>
+        
+        <li>Visualization and interpretation of AI outputs</li>
+        
+        <li>Optimization algorithms for multi-agent systems</li>
+        
+        <li>Game-theoretic frameworks for multi-agent coordination</li>
+        
+        <li>Managing conflicts and uncertainties in multi-agent decision-making</li>
+        
+        <li>Adaptive OR frameworks</li>
+        
+        <li>Decentralized optimization algorithms</li>
+        
+        <li>Online learning and adaptive control techniques</li>
+        
+        <li>Machine learning and data analytics for OR</li>
+        
+        <li>Learning-based optimization algorithms</li>
+        
+        <li>Predictive analytics and simulation techniques</li>
+        
+        <li>Resilience planning</li>
+        
+        <li>Dynamic problem-solving in complex operations</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

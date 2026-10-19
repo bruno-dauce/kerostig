@@ -4,7 +4,7 @@
         <title>kerostig | Tag : operational risk</title>
         <link>https://kerostig.org/tag/operational-risk/</link>
         <description>Derniers appels à publications avec le tag 'operational risk'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 07:50:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,24 +22,18 @@
             <content:encoded><![CDATA[
 <div>
     
-        
-        <p><strong>Andrea Flori</strong>, Politecnico di Milano</p>
-        
-        <p><strong>Anna Maria Gambaro</strong>, Università del Piemonte Orientale</p>
-        
-        <p><strong>Ioannis Kyriakou</strong>, University of London</p>
-        
-        <p><strong>Duc Khuong Nguyen</strong>, EMLV Business School</p>
-        
     
     
+    <p>This special issue addresses how climate-related risks disrupt interconnected financial and economic systems during the transition to a low-carbon economy. The challenge lies in modeling how transition risks affect firms and supply chains, particularly carbon-intensive sectors, and understanding risk transmission across economic systems.</p>
     
-    <p>Climate-related risks, viewed through a systems operation&#39;s lens, can disrupt the coordination, flow, and stability of financial and economic processes. Although their importance is increasingly acknowledged by academic, regulatory, and practitioner communities, quantifying environmental externalities and designing effective mitigation policies remain open to debate and subject to contention. A key source of uncertainty stems from the transition to a low-carbon economy, particularly concerning its timing and pace. This transition may induce substantial effects on firms, especially those in carbon-intensive sectors, posing systemic challenges to their stability. This underscores the urgent need for rigorous analytical solutions to model climate-related risks and to study their transmission mechanisms within interconnected economic systems.</p>
+    <p>Firms face competing pressures to decarbonize while maintaining profitability and competitiveness. Significant vulnerabilities emerge through supply chain interdependencies, where disruptions propagate and amplify operational risks. The call seeks integrated modeling approaches that capture emissions, disruptions, and risks across supply chain tiers using operations research methods.</p>
+    
+    <p>The issue welcomes applied and methodological studies employing stochastic optimization, machine learning, and other advanced techniques to examine how financial institutions manage uncertainty in portfolio allocation and risk management under climate transition scenarios.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
         
-        <a href="https://link.springer.com/collections/baifaedejd">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/baifaedejd">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/">Fiche de l'appel sur kerostig</a>.
     </p>

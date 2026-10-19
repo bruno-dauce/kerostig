@@ -1,5 +1,137 @@
 [
   {
+    "journal": "Applied Economics",
+    "abbreviation": "tandf",
+    "issn": "1466-4283",
+    "metaTitle": "Productivity, Risk and Economic Performance in the Age of Artificial Intelligence",
+    "url": "https://think.taylorandfrancis.com/special_issues/productivity-risk-and-economic-performance-in-the-age-of-artificial-intelligence/",
+    "title": "Productivity, Risk and Economic Performance in the Age of Artificial Intelligence",
+    "slug": "tandf-productivity-risk-and-economic-performance-in-the-age-of-artificial-intelligence",
+    "contentHash": "aefc855e609d14f92596f41464fe9a9da1057f17b535d3a0d0522ad75691288f",
+    "topics": [
+      "AI adoption, productivity and firm performance",
+      "AI, labour productivity, skills, employment and organisational change",
+      "Complementary investments and barriers to AI-driven productivity gains",
+      "AI, innovation, entrepreneurship, investment and resource allocation",
+      "Heterogeneous effects of AI across firms, workers, industries, regions and economies",
+      "AI-driven productivity gains, economic risks and adjustment costs",
+      "Aggregate productivity, economic growth and policy implications of AI"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue investigates how artificial intelligence affects economic performance across firms, workers, industries and economies. While AI promises significant productivity improvements, these gains are not guaranteed and may be unevenly distributed, depending on complementary investments in skills, management practices and digital capabilities. The issue also examines new risks and adjustment costs that accompany AI adoption.",
+        "The collection seeks empirical and applied research exploring the conditions under which AI generates productivity gains and stronger economic performance, and what mechanisms drive these effects across different contexts. Rather than simply determining whether AI affects productivity, the special issue aims to explain why effects differ, what conditions are necessary to realise them, and how productivity gains interact with economic risks."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "productivity",
+      "firm performance",
+      "economics",
+      "labour markets"
+    ],
+    "editors": [
+      {
+        "name": "Amir Arjomandi",
+        "affiliation": "University of Wollongong"
+      },
+      {
+        "name": "Zhiming Cheng",
+        "affiliation": "Macquarie University"
+      },
+      {
+        "name": "Reza Kiani Mavi",
+        "affiliation": "Edith Cowan University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-06-30T12:00:00.000Z",
+        "description": "Manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 882,
+      "tauxCopie": 0.03636363636363636,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-19T07:46:49.582Z"
+  },
+  {
+    "journal": "Journal of Interactive Advertising",
+    "abbreviation": "tandf",
+    "issn": "1525-2019",
+    "metaTitle": "Responsible AI in Interactive Advertising: Transparency, Consumer Protection, and Policy",
+    "url": "https://think.taylorandfrancis.com/special_issues/responsible-ai-in-interactive-advertising/",
+    "title": "Responsible AI in Interactive Advertising: Transparency, Consumer Protection, and Policy",
+    "slug": "tandf-responsible-ai-in-interactive-advertising-transparency-consumer-protection-and-policy",
+    "contentHash": "1eba21cf7f3d8cf184d6205909c7eac4092f9580f21b69c9196e27b8508b2e55",
+    "topics": [
+      "AI Transparency and Disclosure",
+      "Consumer Judgments of Responsible AI Use",
+      "Consumer Autonomy, Vulnerability, and Protection",
+      "Responsible AI Practices in Agencies",
+      "Organizational Governance of AI Adoption",
+      "AI Risk Mitigation and Brand Integrity",
+      "AI and Public Policy, Regulation, and Consumer Redress",
+      "Media-Specific Risks and Responsibilities in AI-Mediated Advertising",
+      "Sustainable and Responsible AI in Emerging and Agentic Advertising Environments"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue addresses the rapid integration of AI and generative AI into advertising, which raises urgent questions about transparency, consumer protection, authenticity, and policy. While AI has transformed advertising practices from campaign design to customer interaction, important gaps remain in understanding how AI-enabled advertising operates across media environments and affects consumer welfare, trust, autonomy, and fairness.",
+        "The call seeks interdisciplinary research examining opportunities, risks, and responsibilities of AI in interactive advertising. Studies should demonstrate clear connections to responsible AI use, consumer protection, governance, or policy implications, with particular interest in transparency, accountability, and broader societal impact across advertising practices and media contexts."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "advertising",
+      "consumer protection",
+      "policy",
+      "responsible ai",
+      "transparency",
+      "algorithmic advertising"
+    ],
+    "editors": [
+      {
+        "name": "Laura Bright",
+        "affiliation": "University of Texas at Austin"
+      },
+      {
+        "name": "Pooja Iyer",
+        "affiliation": "University of Colorado at Boulder"
+      },
+      {
+        "name": "Won-ki Moon",
+        "affiliation": "University of Florida"
+      },
+      {
+        "name": "Kristen Leah Sussman",
+        "affiliation": "Texas State University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-10-15T12:00:00.000Z",
+        "description": "Manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 832,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-19T07:46:49.582Z"
+  },
+  {
     "journal": "Labour Economics",
     "abbreviation": "elsevier",
     "issn": "1879-1034",
@@ -2191,32 +2323,29 @@
     "url": "https://link.springer.com/collections/cfejhbdjde",
     "title": "From Shock to Strength: The Endogenous Foundations of Entrepreneurship under Adversity",
     "slug": "springer-from-shock-to-strength-the-endogenous-foundations-of-entrepreneurship-under-adversity",
-    "contentHash": "b75fca850568d91720c8bc8186d7bae07f4f59412621f37afb566d675a75c4db",
+    "contentHash": "7a323b56567cd2b1eb6fbff4d17cbc859813bcdd91743c116a14f63296ead65f",
     "topics": [
-      "Entrepreneurial resilience and adaptability",
-      "Internal resources and psychological strengths",
-      "Self-generated mechanisms for success",
-      "Entrepreneurship under adversity",
-      "Entrepreneurs without ecosystem support",
-      "Innovation in crisis conditions"
+      "Endogenous capabilities and internal resources in entrepreneurship",
+      "Psychological strengths and resilience",
+      "Entrepreneurial success amid adversity",
+      "Innovation and adaptability under stress",
+      "Self-generated mechanisms for survival",
+      "Entrepreneurship without ecosystem support"
     ],
     "description": {
       "paragraphs": [
-        "This special issue in Small Business Economics investigates how entrepreneurs develop and leverage internal capabilities to succeed when external support systems are unavailable or depleted. Rather than viewing crises as isolated incidents, the issue recognizes that contemporary entrepreneurs increasingly operate under persistent adversity and must rely on their own resources, psychological strengths, and adaptive mechanisms to thrive.",
-        "The call seeks innovative research that moves beyond existing literature by examining the endogenous foundations of entrepreneurial success. Submissions should explore how entrepreneurs generate innovation, build resilience, and maintain adaptability when facing continuous challenges and reduced access to traditional ecosystem support."
+        "This special issue examines how entrepreneurs develop internal resources and psychological strengths that enable them to succeed when external support systems are unavailable or depleted. The collection challenges the traditional view of crises as isolated events, recognizing instead that modern entrepreneurs frequently operate under continuous adversity and must rely on their own innovation, adaptability, and resilience to thrive.",
+        "The special issue invites research exploring the endogenous foundations of entrepreneurial success—the internal capabilities, mechanisms, and strengths that allow entrepreneurs to survive and flourish despite lacking adequate ecosystem support. The collection seeks bold, groundbreaking research that fundamentally advances understanding of how entrepreneurs draw upon internal resources to achieve success under sustained challenging conditions."
       ]
     },
     "tags": [
       "entrepreneurship",
-      "resilience",
       "adversity",
-      "business economics"
+      "resilience",
+      "internal resources",
+      "small business"
     ],
     "editors": [
-      {
-        "name": "David B. Audretsch",
-        "affiliation": "Indiana University"
-      },
       {
         "name": "Dafna Kariv",
         "affiliation": "Reichman University"
@@ -2226,16 +2355,25 @@
         "affiliation": "Maastricht University"
       },
       {
+        "name": "Trent Williams",
+        "affiliation": "Brigham Young University"
+      },
+      {
         "name": "Friederike Welter",
         "affiliation": "University of Siegen"
       },
       {
-        "name": "Trent Williams",
-        "affiliation": "Brigham Young University"
+        "name": "David Audretsch",
+        "affiliation": "Indiana University"
       }
     ],
     "associate_editors": [],
     "dates": [
+      {
+        "date": "2026-01-01T12:00:00.000Z",
+        "description": "Extended abstracts submission window",
+        "is_full_paper_submission_deadline": false
+      },
       {
         "date": "2026-02-15T12:00:00.000Z",
         "description": "Extended abstracts submission deadline",
@@ -2248,7 +2386,7 @@
       }
     ],
     "controle": {
-      "longueur": 776,
+      "longueur": 881,
       "tauxCopie": 0,
       "relance": false,
       "topicsTropLongs": 0
@@ -6596,31 +6734,36 @@
     "url": "https://link.springer.com/collections/jbjfjjjbcb",
     "title": "State Capitalism and Entrepreneurs in an International Setting",
     "slug": "springer-state-capitalism-and-entrepreneurs-in-an-international-setting",
-    "contentHash": "70aff0519392887ddb5ad1f5a9a4e95058b94c40b3671bf23b42e4bf00d59fc0",
+    "contentHash": "3746edaf7c0e97cfe7a6dace546a40c1f121fce11e092b7a0d35ca370423ee0a",
     "topics": [
-      "Varieties of state capitalism and their relationships with entrepreneurship",
-      "State influence on enterprise in Asia Pacific regions and beyond",
-      "Entrepreneurship in established corporations with state influence",
-      "Creation and dynamics of hybrid state-private enterprises",
-      "Relations between new ventures and corporations with state influence",
-      "Institutional frameworks affecting entrepreneurship under state capitalism",
-      "Mechanisms through which varieties of state capitalism affect entrepreneurship"
+      "State capitalism varieties",
+      "Entrepreneurship in state-influenced enterprises",
+      "Hybrid state-private enterprises",
+      "State influence on entrepreneurship",
+      "Institutional frameworks for entrepreneurship",
+      "Corporate entrepreneurship",
+      "Institutional context of entrepreneurship"
     ],
     "description": {
       "paragraphs": [
-        "This collection examines how different forms of state capitalism interact with entrepreneurship globally, particularly in the Asia Pacific region. It addresses the recent shift toward increased state involvement in enterprise after years of privatization and deregulation, exploring how this state capitalism manifests in varied ways across different regions and institutional contexts."
+        "This collection examines how different forms of state capitalism interact with entrepreneurship across international contexts, particularly in the Asia Pacific region. Following a period of state withdrawal through privatization, governments are increasingly intervening in enterprise, creating new institutional arrangements that affect how entrepreneurship develops and operates.",
+        "The collection investigates the mechanisms linking state capitalism varieties to entrepreneurial activities, including entrepreneurship within established corporations, the emergence of hybrid state-private ventures, and relationships between new ventures and state-influenced corporations. The focus is on understanding how these shifts reshape the institutional environments in which entrepreneurship occurs."
       ]
     },
     "tags": [
       "state capitalism",
       "entrepreneurship",
       "asia pacific",
-      "institutional frameworks"
+      "institutional analysis"
     ],
     "editors": [
       {
         "name": "David Ahlstrom",
         "affiliation": "Hong Kong Metropolitan University"
+      },
+      {
+        "name": "Gongming Qian",
+        "affiliation": "Shantou University"
       },
       {
         "name": "Jiatao Li",
@@ -6629,10 +6772,6 @@
       {
         "name": "Bin Liu",
         "affiliation": "Xiamen University"
-      },
-      {
-        "name": "Gongming Qian",
-        "affiliation": "Shantou University"
       }
     ],
     "associate_editors": [],
@@ -6644,7 +6783,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-09-21T08:26:56.052Z"
+    "pubDate": "2026-09-21T08:26:56.052Z",
+    "controle": {
+      "longueur": 791,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Electronic Markets",
@@ -6652,56 +6797,56 @@
     "issn": "1422-8890",
     "metaTitle": "Topical Collection: AI-enabled Digital Transformation for Small and Medium‑sized Enterprises (SMEs)",
     "url": "https://link.springer.com/collections/gfdeicijae",
-    "title": "AI-enabled Digital Transformation for Small and Medium-sized Enterprises (SMEs)",
+    "title": "AI-enabled Digital Transformation for Small and Medium‑sized Enterprises (SMEs)",
     "slug": "springer-topical-collection-ai-enabled-digital-transformation-for-small-and-mediumsized-enterprises-smes",
-    "contentHash": "3b25a34e82b6b761d296b4512fc6936368f3d8aab14868b9459458d13ec857e8",
+    "contentHash": "f0571e5eca865bc11dacecd5015828e5df44c7bcb92d4bc5468ab542d367c17a",
     "topics": [
-      "AI adoption drivers, strategies, and readiness models for SMEs' digital transformation",
-      "AI barriers, challenges, and failures for SMEs' digital transformation",
-      "Skill gaps, workforce development, organizational learning and managerial capabilities for AI-enabled practices in SMEs",
-      "Ethical and societal issues surrounding AI in SMEs and their environments",
-      "Case studies of AI adoption and use in SMEs and their business ecosystems",
+      "AI adoption drivers, strategies, and readiness models for SMEs",
+      "AI barriers, challenges, and failures for SMEs",
+      "Skill gaps, workforce development, and organizational learning for AI in SMEs",
+      "Ethical and societal issues surrounding AI in SMEs",
+      "Case studies of AI adoption in SMEs and business ecosystems",
       "AI innovation ecosystems inclusive of SMEs",
       "Design of SME-suitable AI artefacts",
       "SME practitioner perspectives on AI",
-      "Implementing human-centered AI for SMEs",
-      "AI-enabled business model innovation pathways in SMEs",
+      "Human-centered AI for SMEs",
+      "AI-enabled business model innovation in SMEs",
       "AI governance frameworks for SMEs",
-      "AI-driven shifts in SME strategies for competition, co-opetition, co-creation, and open innovation",
-      "Development, configuration, and management of AI ecosystems for SMEs"
+      "AI-driven shifts in SME strategies for competition and innovation",
+      "Development and management of AI ecosystems for SMEs"
     ],
     "description": {
       "paragraphs": [
-        "SMEs are significantly lagging behind large organizations in AI adoption due to structural and financial constraints, limited access to technology, insufficient data infrastructure, and workforce skill shortages. This growing digital divide threatens economic competitiveness and equity across regions. As SMEs form a critical part of global economies, their meaningful participation in AI-enabled digital transformation is essential for building resilient and fair economic systems.",
-        "This topical collection welcomes multidisciplinary research exploring AI adoption, implementation challenges, workforce development, ethical considerations, and best practices in SMEs. The collection invites theoretical, empirical, design-oriented, and technical contributions that address opportunities and strategies for AI-enabled transformation in the SME context, including case studies and innovation ecosystem perspectives."
+        "Small and medium-sized enterprises face significant obstacles in adopting AI technologies, including limited financial resources, insufficient technological infrastructure, and workforce skill gaps. This creates a widening digital divide between large organizations and SMEs, potentially undermining economic growth and digital equity across regions. Since SMEs are crucial to global economies, their ability to leverage AI-enabled transformation is essential for competitive resilience and inclusive economic development.",
+        "This topical collection invites research exploring AI adoption in SMEs from multiple perspectives, including theoretical frameworks, empirical studies, design approaches, and technical solutions. Contributions should address the opportunities, challenges, strategies, and outcomes of AI-enabled transformation in the SME context, covering topics such as adoption drivers, barriers, workforce development, ethical considerations, innovation ecosystems, and governance models."
       ]
     },
     "tags": [
       "artificial intelligence",
+      "smes",
       "digital transformation",
-      "small and medium-sized enterprises",
       "ai adoption",
-      "business ecosystems"
+      "business information systems"
     ],
     "editors": [
       {
-        "name": "Yao Shi",
+        "name": "Shi, Yao",
         "affiliation": "University of North Carolina Wilmington"
       },
       {
-        "name": "Lukas R. G. Fitz",
+        "name": "Fitz, Lukas R. G.",
         "affiliation": "Brandenburg University of Technology Cottbus – Senftenberg"
       },
       {
-        "name": "Fanny-Eve Bordeleau",
+        "name": "Bordeleau, Fanny-Eve",
         "affiliation": "Dalhousie University"
       },
       {
-        "name": "Claudia Pelletier",
-        "affiliation": "Université du Québec à Trois-Rivières"
+        "name": "Pelletier, Claudia",
+        "affiliation": "Universitée du Québec à Trois-Rivières"
       },
       {
-        "name": "Judith Gebauer",
+        "name": "Gebauer, Judith",
         "affiliation": "University of North Carolina Wilmington"
       }
     ],
@@ -6719,7 +6864,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-09-21T08:26:56.052Z"
+    "pubDate": "2026-09-21T08:26:56.052Z",
+    "controle": {
+      "longueur": 996,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Journal of Advertising Research",
@@ -9877,7 +10028,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-09-06T09:51:06.483Z"
   },
   {
@@ -13750,32 +13901,31 @@
     "url": "https://think.taylorandfrancis.com/special_issues/2slgbtqia-entrepreneurship/",
     "title": "2SLGBTQIA+ Entrepreneurship: Advancing Theory, Method, and Practice on Identity, Institutions, and Inclusion",
     "slug": "tandf-2slgbtqia-entrepreneurship-advancing-theory-method-and-practice-on-identity-institutions-and-inclusion",
-    "contentHash": "3f17eb40d1d5da6bcbcab6bc3b3f5eda2a29634268ec3171e64d7d773df12264",
+    "contentHash": "3f6dfd96aecb078b042df813d53093f61d9bd2d675a07896d5aabad54d539ceb",
     "topics": [
       "LGBTQ+ identity and entrepreneurial identity work",
       "Coming out, concealment, and impression management in venture contexts",
-      "Intersectionality (e.g., race, gender, class, disability) and layered entrepreneurial experiences",
+      "Intersectionality and layered entrepreneurial experiences",
       "Institutional barriers to legitimacy, funding, and recognition",
-      "Emancipatory entrepreneurship: removing structural constraints through business creation",
-      "Entrepreneurial ecosystems and their (in)capacity to support LGBTQ+ inclusion",
+      "Emancipatory entrepreneurship and structural constraints",
+      "Entrepreneurial ecosystems and LGBTQ+ inclusion",
       "Policy and programmatic responses to LGBTQ+ small business development",
       "Entrepreneurial wellbeing, belonging, and non-economic goals",
-      "Comparative studies of LGBTQ+ entrepreneurship across national and regional contexts",
-      "Methodological approaches for studying LGBTQ+ and equity-deserving entrepreneurs"
+      "Comparative studies of LGBTQ+ entrepreneurship across contexts",
+      "Methodological approaches for studying LGBTQ+ entrepreneurs"
     ],
     "description": {
       "paragraphs": [
-        "While entrepreneurship research has increasingly recognized identity as central to entrepreneurial processes, 2SLGBTQIA+ entrepreneurs remain significantly underexplored in the core literature, particularly regarding how sexuality and gender identity interact with entrepreneurial ecosystems and institutional structures. This special issue aims to advance conceptual, empirical, and methodological understanding of 2SLGBTQIA+ entrepreneurship by examining how these entrepreneurs navigate visibility, stigma, belonging, and legitimacy within broader institutional and spatial contexts.",
-        "The special issue welcomes diverse theoretical and methodological approaches, including identity theory, queer-feminist perspectives, intersectionality, institutional theory, and institutional logics. Submissions may employ qualitative, quantitative, or mixed methodologies and are encouraged to bridge theory and practice by including diverse scholarly teams with practitioners involved in entrepreneurship.",
-        "Papers should address the intersection of identity, institutions, and inclusion in 2SLGBTQIA+ entrepreneurial contexts. The issue seeks contributions from multiple disciplines including entrepreneurship, management, sociology, gender and sexuality studies, and public policy that advance understanding of how structural forces shape entrepreneurial experiences."
+        "This special issue addresses a significant gap in entrepreneurship scholarship by focusing on 2SLGBTQIA+ entrepreneurs, whose experiences remain underexplored despite growing recognition of identity's importance in entrepreneurial processes. The special issue seeks to advance conceptual, empirical, and methodological understanding of how sexuality and gender identity intersect with entrepreneurial ecosystems and institutional structures.",
+        "The editors welcome diverse theoretical frameworks including identity theory, queer-feminist perspectives, intersectionality, and institutional theory. They are particularly interested in how 2SLGBTQIA+ entrepreneurs navigate visibility, stigma, belonging, and legitimacy within institutional contexts and across geographic scales. The issue encourages methodological diversity, including qualitative research, mixed methods, and innovative research approaches, with particular interest in collaborations between scholars and practitioners."
       ]
     },
     "tags": [
       "lgbtq+ entrepreneurship",
-      "identity",
-      "institutions",
-      "entrepreneurial ecosystems",
-      "intersectionality"
+      "identity and entrepreneurship",
+      "institutional theory",
+      "intersectionality",
+      "entrepreneurial ecosystems"
     ],
     "editors": [
       {
@@ -13794,23 +13944,24 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2025-11-01T11:00:00.000Z",
+        "date": "2025-11-01T12:00:00.000Z",
         "description": "Opening date for manuscript submissions",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-10-31T11:00:00.000Z",
+        "date": "2026-12-31T12:00:00.000Z",
         "description": "Closing date for manuscript submission",
         "is_full_paper_submission_deadline": true
-      },
-      {
-        "date": "2027-04-01T10:00:00.000Z",
-        "description": "Expected publication date",
-        "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "controle": {
+      "longueur": 981,
+      "tauxCopie": 0.07547169811320754,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Social and Environmental Accountability Journal",
@@ -16447,19 +16598,20 @@
     "url": "https://link.springer.com/collections/dbbjcjejej",
     "title": "The Body and Business Ethics",
     "slug": "springer-call-for-papers-the-body-and-business-ethics",
-    "contentHash": "77836f4a50a7f0a4a4f1cfe21b00f0e77f8b2eba96eca6bc5b9ffbc2d123b0ea",
+    "contentHash": "798ca1f00e2b72c336224255eaca01de2056fb44443cb47887e913c50b8e9810",
     "topics": [
       "Ethical dimensions of emotional and relational labor through embodied experience",
-      "The ethics of body commodification in market-driven labor contexts",
-      "The embodied toll of labor and the ethical responsibilities of organizations",
-      "The gendered, racialized, and classed regulation of bodies in organizations",
+      "Ethics of body commodification in market-driven labor contexts",
+      "Embodied toll of labor and organizational ethical responsibilities",
+      "Gendered, racialized, and classed regulation of bodies in organizations",
       "Participatory, sensory, or arts-based methods to research embodiment and ethics",
       "New theoretical perspectives on embodiment in business ethics"
     ],
     "description": {
       "paragraphs": [
-        "This special issue examines the intersection of embodiment and business ethics within organizational contexts. The call addresses how bodies are shaped by and through work, labor, and market systems, exploring the ethical implications of emotional labor, physical strain, commodification, and disciplinary practices. It seeks to move business ethics beyond abstract and conceptual frameworks toward understanding how embodied experiences and corporeal practices generate ethical dilemmas in organizational life.",
-        "The special issue welcomes diverse methodological approaches to investigating embodied labor across various industries including modeling, sports, healthcare, and entertainment. Contributions should interrogate how organizational norms regulate bodies in ways that reflect broader inequalities related to gender, race, and class, while also considering worker resistance and alternative theoretical frameworks such as feminist ethics and affect theory that center the lived body in ethical analysis."
+        "This special issue explores how embodiment shapes business ethics and organizational practices. Growing scholarly interest has demonstrated that embodied experiences—from emotional labor to physical strain—raise ethical questions that abstract frameworks alone cannot address. The issue seeks to ground business ethics in lived embodied experience and practice.",
+        "The call invites scholarship examining how bodies are constructed, regulated, and valued within capitalist systems and organizations. Topics include the commodification of bodies in industries like modeling and sports, gendered and racialized norms governing bodily presentation, and the physical toll of labor on workers. Methodologically innovative contributions using sensory or participatory approaches, and conceptual work developing new theoretical frameworks, are also welcome.",
+        "Contributors should explore how organizational structures inscribe power relations onto workers' bodies, how economic conditions constrain autonomy and consent, and how ethics can be reimagined to address embodied difference and protect worker well-being."
       ]
     },
     "tags": [
@@ -16467,7 +16619,8 @@
       "embodiment",
       "labor",
       "organizational ethics",
-      "corporeal ethics"
+      "feminist ethics",
+      "body commodification"
     ],
     "editors": [
       {
@@ -16490,13 +16643,19 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-31T11:00:00.000Z",
+        "date": "2026-10-31T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-09-03T17:13:45.779Z"
+    "pubDate": "2026-09-03T17:13:45.779Z",
+    "controle": {
+      "longueur": 1100,
+      "tauxCopie": 0.0072992700729927005,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Small Business Economics",
@@ -16506,7 +16665,7 @@
     "url": "https://link.springer.com/collections/ccdbbagabe",
     "title": "Entrepreneurship and the Creation of Decent Work for All",
     "slug": "springer-entrepreneurship-and-the-creation-of-decent-work-for-all",
-    "contentHash": "c4a68a718eda5b74067e04f167483b7e54a47ae05f9f9bdcd7d636d17b1dfc02",
+    "contentHash": "93d0b1d904c8ef33580e7edf28739e8c7ed9fe02bbcfe58d33cf6a96051316ac",
     "topics": [
       "Equal pay for work of equal value",
       "Gender discrimination in employment",
@@ -16515,24 +16674,24 @@
       "Modern slavery and child labor",
       "Labor policy",
       "Entrepreneurial enterprises, SMEs, and family businesses",
-      "Global entrepreneurial firms: organization design, emerging conceptions in entrepreneurship (i.e. born globals), globalization's challenges and opportunities, cultural differences",
+      "Global entrepreneurial firms",
       "Remote work",
-      "Opportunity entrepreneurship as a direct way to generate high quality employment",
-      "Measuring and dealing with positive and negative externalities of new businesses"
+      "Opportunity entrepreneurship",
+      "Positive and negative externalities of new businesses"
     ],
     "description": {
       "paragraphs": [
-        "This multi-journal collection explores how entrepreneurship can contribute to achieving the United Nations Sustainable Development Goal 8, which focuses on productive employment and decent work for all. The initiative recognizes that labor markets and employment quality are shaped by societal, environmental, political, and economic factors, and that entrepreneurial activity could be instrumental in creating better working conditions, fair compensation, and improved job opportunities across diverse contexts.",
-        "The collection invites research examining the interconnections between entrepreneurship and working conditions, seeking to understand mechanisms through which new ventures and small businesses can foster employment quality. Contributions may be research or review articles submitted to one of nine participating journals, with rigorous peer review conducted according to each journal's standards."
+        "This multi-journal collection examines how entrepreneurship can contribute to achieving decent work for all, aligning with the United Nations Sustainable Development Goal 8. The initiative recognizes that labor markets and employment quality are constantly affected by societal, environmental, and economic changes, and that entrepreneurship may play a key role in creating quality employment opportunities, particularly in uncertain times.",
+        "The collection seeks interdisciplinary research exploring the complex relationship between entrepreneurial activities and working conditions. It invites submissions addressing various dimensions of this relationship, including employment discrimination, labor rights, business organization models, remote work arrangements, and the broader impacts of entrepreneurial ventures on labor markets and worker welfare."
       ]
     },
     "tags": [
       "entrepreneurship",
       "decent work",
-      "labor markets",
-      "employment",
+      "labor economics",
       "sustainable development",
-      "sdg 8"
+      "sdg 8",
+      "employment"
     ],
     "editors": [],
     "associate_editors": [],
@@ -16544,7 +16703,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-09-03T17:13:45.779Z"
+    "pubDate": "2026-09-03T17:13:45.779Z",
+    "controle": {
+      "longueur": 852,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Small Business Economics",
@@ -16554,61 +16719,51 @@
     "url": "https://link.springer.com/collections/jjdifggjja",
     "title": "Entrepreneurship, Creative Destruction, and Growth: Enriching the Aghion-Howitt Tradition",
     "slug": "springer-entrepreneurship-creative-destruction-and-growth-enriching-the-aghion-howitt-tradition",
-    "contentHash": "e327982a96a14a353e41135b1b7ed8a9307b8782202af5178056bc355d6583df",
+    "contentHash": "42e4bfa745fa0f2c269aaea9930d0141125c6f18a52a6d149855581ddfdce7ea",
     "topics": [
-      "New venture formation and post-entry dynamics",
-      "Scaling, displacement, and exit in entrepreneurial firms",
-      "Reallocation dynamics and productivity growth",
-      "The Aghion-Howitt framework and entrepreneurship research",
-      "Multi-level analysis connecting micro (entrepreneurs and firms), meso (regional ecosystems and industrial structure), and macro (institutional configurations and policy regimes) levels",
-      "Innovation and its transformation into productivity growth within the Schumpeterian tradition"
+      "New venture formation",
+      "Post-entry scaling",
+      "Firm displacement and exit",
+      "Reallocation dynamics",
+      "Innovation and productivity growth",
+      "Schumpeterian economics",
+      "Multi-level research (micro, meso, macro)",
+      "Regional ecosystems",
+      "Industrial structure",
+      "Institutional configurations",
+      "Policy regimes",
+      "Entrepreneurship research frameworks"
     ],
     "description": {
       "paragraphs": [
-        "This special issue seeks to advance Schumpeterian research that integrates entrepreneurial activities across multiple levels of analysis. It focuses on connecting individual entrepreneurs and firms with regional innovation ecosystems and industrial dynamics, while also considering broader institutional and policy frameworks.",
-        "The issue welcomes research on the full lifecycle of ventures, including formation, growth, contraction, and failure, with particular emphasis on how these dynamics drive productivity improvements. It also invites studies that enrich the Aghion-Howitt growth model with contemporary entrepreneurship research insights."
+        "This special issue seeks research that advances Schumpeterian economics by connecting entrepreneurship and firm dynamics at multiple levels of analysis—from individual ventures and firm behavior to regional innovation ecosystems and broader institutional environments. The special issue builds on the Aghion-Howitt tradition of studying how entrepreneurial activity drives creative destruction and economic growth.",
+        "Submissions should explore not just business creation but also how firms scale after entry, exit markets, and reallocate resources through competitive processes that ultimately generate productivity improvements. Additionally, the editors welcome research that enriches the Aghion-Howitt framework by incorporating contemporary insights and theoretical approaches from entrepreneurship scholarship."
       ]
     },
     "tags": [
       "entrepreneurship",
       "creative destruction",
       "economic growth",
-      "aghion-howitt model",
       "innovation",
-      "productivity"
+      "schumpeterian economics"
     ],
-    "editors": [
-      {
-        "name": "Philippe Aghion",
-        "affiliation": "Collège de France"
-      },
-      {
-        "name": "Martin Andersson",
-        "affiliation": "Blekinge Institute of Technology"
-      },
-      {
-        "name": "David B. Audretsch",
-        "affiliation": "Indiana University"
-      },
-      {
-        "name": "Maksim Belitski",
-        "affiliation": "University of Reading"
-      },
-      {
-        "name": "Pontus Braunerhjelm",
-        "affiliation": "KTH Royal Institute of Technology"
-      }
-    ],
+    "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-11-01T11:00:00.000Z",
+        "date": "2026-11-01T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-09-03T17:13:45.779Z"
+    "pubDate": "2026-09-03T17:13:45.779Z",
+    "controle": {
+      "longueur": 812,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Annals of Operations Research",
@@ -30808,7 +30963,7 @@
     "url": "https://link.springer.com/collections/ffhgdbhbad",
     "title": "Advancing towards a Responsible and Resilient Digital Future",
     "slug": "springer-advancing-towards-a-responsible-and-resilient-digital-future",
-    "contentHash": "c3cc73ed1488ee9a597092ca24252987f3ae73fdddadf5c17c88e917a55d6cce",
+    "contentHash": "a9b192562d446c046957322cf9bb99e501c83d65f785fa9669f0ab64a6f37922",
     "topics": [
       "Responsible AI and AI Governance",
       "Resilient Information Systems and Digital Platforms",
@@ -30821,51 +30976,40 @@
       "Policy and Governance of Digital Technologies",
       "Design Science Research for Responsible and Resilient IS",
       "AI and future of work and education",
-      "Opportunities and challenges does AI create for society",
-      "Skills and mindsets that will remain uniquely human in an AI-driven world"
+      "Opportunities and challenges of AI for society",
+      "Skills and mindsets remaining uniquely human in AI-driven world"
     ],
     "description": {
       "paragraphs": [
-        "Digital technologies like AI, platforms, and IoT are transforming organizations and society, creating both significant value and serious risks including algorithmic bias, privacy violations, and cybersecurity threats. This special issue seeks research on information systems that are simultaneously responsible—fair, transparent, ethical, and respectful of human rights—and resilient, able to withstand disruptions and recover from failures.",
-        "The research community needs theoretically grounded and empirically rigorous studies that move beyond simple technology adoption narratives to examine post-adoption use, value realization, human-machine collaboration, and the long-term impacts of digital systems. Information systems researchers are uniquely positioned to explore how responsibility and resilience interplay across individuals, organizations, institutions, and society.",
-        "The special issue welcomes submissions using various research methods that advance understanding of responsible and resilient digital futures in specific technological and organizational contexts. It is linked to the InCIS 2027 conference but is also open to all authors through direct submission."
+        "Digital technologies like AI and blockchain create significant value but also introduce serious challenges including algorithmic bias, privacy violations, and workforce disruption. The special issue seeks research on information systems that are simultaneously responsible—fair, transparent, ethical, and accountable—and resilient, capable of withstanding disruptions while delivering sustained value.",
+        "While responsibility and resilience in digital systems are interdependent, they have largely evolved as separate research streams. Information systems scholars are uniquely positioned to examine human–technology interaction, value realization from digital investments, and how governance shapes digital outcomes, particularly for vulnerable populations. The special issue invites theoretically grounded, methodologically rigorous research using diverse methods including conceptual work, surveys, experiments, and design science approaches."
       ]
     },
     "tags": [
       "artificial intelligence",
-      "responsible ai",
-      "digital resilience",
       "digital governance",
-      "digital ethics"
+      "responsible technology",
+      "resilience",
+      "digital transformation",
+      "cybersecurity"
     ],
-    "editors": [
-      {
-        "name": "Imon Chakraborty",
-        "affiliation": "Indian Institute of Technology Madras"
-      },
-      {
-        "name": "Saji K Mathew",
-        "affiliation": "Indian Institute of Technology Madras"
-      },
-      {
-        "name": "Nargis Pervin",
-        "affiliation": "Indian Institute of Technology Madras"
-      },
-      {
-        "name": "Viswanath Venkatesh",
-        "affiliation": "Virginia Polytechnic Institute and State University"
-      }
-    ],
+    "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2027-09-15T10:00:00.000Z",
+        "date": "2027-09-15T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-16T21:44:37.523Z"
+    "pubDate": "2026-08-16T21:44:37.523Z",
+    "controle": {
+      "longueur": 941,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Journal of Financial Services Research",
@@ -32576,7 +32720,7 @@
     "url": "https://link.springer.com/collections/jidgdbagai",
     "title": "Advances in Quantitative Finance and Risk Modeling",
     "slug": "springer-advances-in-quantitative-finance-and-risk-modeling",
-    "contentHash": "9571eed14ae9226cb27f0028541431120603b80ac45c1c3089ab76d7af8d0403",
+    "contentHash": "ab80781e36add4e89c07d66802c4db1768ac4d81ed92fd4e8174a4f70ddf0e56",
     "topics": [
       "Advanced risk measures",
       "Portfolio optimization and asset allocation under uncertainty",
@@ -32590,48 +32734,36 @@
     ],
     "description": {
       "paragraphs": [
-        "This special issue is open to all researchers working in quantitative finance and aims to collect cutting-edge contributions that push forward the theoretical, methodological, and applied frontiers of the field. While it originates from the Workshop on Quantitative Finance 2026 (QFW 2026, Bergamo, Italy), submissions are not limited to workshop participants.",
-        "This special issue aims to serve as a reference point for recent advances in quantitative finance, insurance and risk modeling, promoting contributions with strong methodological rigor and high relevance for both academia and practice."
+        "This special issue in the Annals of Operations Research invites high-quality research contributions in quantitative finance, insurance, and risk modeling. While connected to the Workshop on Quantitative Finance 2026 held in Bergamo, Italy, submissions are welcome from all researchers in the field, not just workshop participants.",
+        "The issue seeks rigorous methodological work that advances both theoretical understanding and practical applications in quantitative finance. Topics range from risk measurement and portfolio optimization to emerging areas such as machine learning applications, behavioral models, and climate-related financial risks."
       ]
     },
     "tags": [
       "quantitative finance",
       "risk modeling",
       "portfolio optimization",
-      "insurance"
+      "machine learning in finance",
+      "insurance",
+      "actuarial science",
+      "climate risk"
     ],
-    "editors": [
-      {
-        "name": "Rosella Giacometti",
-        "affiliation": "University of Bergamo"
-      },
-      {
-        "name": "Aaron Kim",
-        "affiliation": "Stony Brook University"
-      },
-      {
-        "name": "Sergio Ortobelli Lozza",
-        "affiliation": "University of Bergamo"
-      },
-      {
-        "name": "Svetlozar Rachev",
-        "affiliation": "Texas Tech University"
-      },
-      {
-        "name": "Gabriele Torri",
-        "affiliation": "University of Bergamo"
-      }
-    ],
+    "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2027-01-15T11:00:00.000Z",
+        "date": "2027-01-15T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 646,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Annals of Operations Research",
@@ -32641,7 +32773,7 @@
     "url": "https://link.springer.com/collections/gjbdjhfbdg",
     "title": "Advances in Reliability and Statistical Computing for Intelligent Systems",
     "slug": "springer-advances-in-reliability-and-statistical-computing-for-intelligent-systems",
-    "contentHash": "94aaa8b49cb9d7832a8b65af655649b1229aa7ea7f6897804f2bfd9e2ac4b38e",
+    "contentHash": "85145fe93e20bffa2d7e0d781d09c1fd621d5ac9cb7488db82f1839c282c08cc",
     "topics": [
       "Mathematical reliability and statistical methods",
       "Big data modeling and prediction",
@@ -32656,36 +32788,31 @@
     ],
     "description": {
       "paragraphs": [
-        "The special issue addresses the growing importance of reliability and statistical computing in artificial intelligence systems used in everyday applications and service industries. It seeks contributions covering both theoretical advances and practical implementations in these areas, with emphasis on papers demonstrating real-world applicability.",
-        "The special issue welcomes research on mathematical and statistical methods for reliability, machine learning approaches for intelligent systems, big data analysis techniques, and system dependability measures. Industrial applications are particularly valued, including case studies from fields such as robotics, healthcare, education, surveillance, and transportation."
+        "This special issue addresses advances in reliability and statistical computing for intelligent systems, reflecting the significant developments in AI and machine learning applications. The call seeks research that combines theoretical rigor with practical relevance, particularly focusing on how intelligent systems can provide reliable and timely responses in real-world applications across service industries and everyday use.",
+        "The special issue welcomes papers on new theoretical research and computational methods that advance the field. Preference is given to contributions demonstrating practical applications over purely theoretical work, with industrial case studies especially valued across domains such as robotics, medical care, education, surveillance, and intelligent transportation systems."
       ]
     },
     "tags": [
+      "machine learning",
       "reliability",
       "statistical computing",
-      "machine learning",
       "intelligent systems",
       "artificial intelligence"
     ],
-    "editors": [
-      {
-        "name": "Hoang Pham",
-        "affiliation": "Rutgers University"
-      }
-    ],
+    "editors": [],
     "associate_editors": [],
     "dates": [
       {
         "date": "2026-10-30T12:00:00.000Z",
-        "description": "Submission deadline",
+        "description": "Manuscript submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
     "pubDate": "2026-08-11T21:25:02.631Z",
     "controle": {
-      "longueur": 717,
-      "tauxCopie": 0,
+      "longueur": 802,
+      "tauxCopie": 0.020833333333333332,
       "relance": false,
       "topicsTropLongs": 0
     }
@@ -32872,32 +32999,34 @@
     "url": "https://link.springer.com/collections/jhaecfgfgg",
     "title": "Building Digital Capabilities for Improved ESG Performance of Entrepreneurial Firms: Strategies for Tackling Challenges and Capitalizing on Opportunities",
     "slug": "springer-building-digital-capabilities-for-improved-esg-performance-of-entrepreneurial-firms-strategies-for-tackling-challenges-and-capitalizing-on-opportunities",
-    "contentHash": "1a3328acb51805ae705315b3689b8bfb3c988bd6294907ae7dd0ee687c122de4",
+    "contentHash": "0560c6f1879a8fd9ec71fb8879b47906f0073d504b0f8f90842e6f374ab26afa",
     "topics": [
-      "How do entrepreneurial ventures define and measure ESG performance in the digital era? What critical digital capabilities contribute to their improved ESG performance?",
-      "What challenges do entrepreneurial firms face in integrating digital solutions to enhance environmental sustainability? What could be the best practices for tackling those challenges?",
-      "What are the possible learning mechanisms and knowledge-sharing processes within entrepreneurial ecosystems that could foster development of digital capabilities for ESG goals?",
-      "What roles do leadership and organizational culture play in fostering digital capabilities for superior ESG performance in entrepreneurial firms?",
-      "How can entrepreneurial firms effectively utilize digital technologies to measure and improve their environmental performance within ESG frameworks?",
-      "How can digital capabilities be harnessed to address diversity, equity, and inclusion (DEI) challenges in entrepreneurial firms, contributing to improved social sustainability?",
-      "How do digitalization efforts impact the governance structures of entrepreneurial firms in the context of sustainability? What actions could be taken to improve it?",
-      "To what extent do regulatory frameworks influence the adoption of digital strategies for ESG compliance in entrepreneurial settings?",
-      "How do digital technologies facilitate transparency and accountability in ESG reporting for entrepreneurial firms?",
-      "How can entrepreneurial firms balance profitability goals with sustainable practices through digital transformations? Under this scenario, which opportunities and challenges could arise?",
-      "What lessons can we learn from recent, real-world cases that showcase the impact of digital capabilities on ESG performance in different industries, particularly entrepreneurial firms, and how can new guidelines lead toward improved ESG performance?"
+      "Digital capabilities and ESG performance",
+      "ESG measurement and definition in digital era",
+      "Digital solutions for environmental sustainability",
+      "Learning mechanisms and knowledge-sharing in entrepreneurial ecosystems",
+      "Leadership and organizational culture for digital ESG",
+      "Digital technologies for environmental performance measurement",
+      "Digital capabilities for diversity, equity, and inclusion",
+      "Digitalization and governance structures",
+      "Regulatory frameworks and ESG compliance",
+      "Digital transparency and accountability in ESG reporting",
+      "Profitability and sustainable practices through digital transformation",
+      "Real-world cases of digital capabilities and ESG impact"
     ],
     "description": {
       "paragraphs": [
-        "Technological advancements require entrepreneurial firms to strategically develop digital capabilities to enhance their competitiveness, innovation capacity, and sustainable performance. This collection seeks to explore how such firms build digital capabilities to improve their environmental, social, and governance (ESG) performance while addressing challenges in integrating digital solutions for sustainability.",
-        "The collection recognizes that entrepreneurial ventures, characterized by innovation and agility, play a critical role in advancing digital-driven sustainable business practices. Improved ESG performance is essential for managing environmental and social risks, enhancing corporate reputation, and meeting stakeholder expectations regarding ethical and responsible business conduct. The collection welcomes experimental, conceptual, theoretical, and empirical studies that examine the intersection of digital capabilities and ESG performance in entrepreneurial firms, illuminate obstacles, and propose practical solutions."
+        "This collection addresses how entrepreneurial firms develop digital capabilities to enhance their environmental, social, and governance performance. In a rapidly evolving technological landscape, entrepreneurial ventures must strategically build digital competencies to maintain competitive advantage while advancing sustainable and ethical business practices.",
+        "The collection explores the interconnection between digital innovation and ESG performance in entrepreneurial contexts. It welcomes experimental, conceptual, theoretical, and empirical studies examining how digital capabilities contribute to environmental responsibility, social sustainability, and improved governance structures in entrepreneurial firms, while identifying challenges and solutions in this integration.",
+        "The collection invites scholars to investigate multiple dimensions of this convergence, including how firms measure ESG performance digitally, address sustainability challenges through technology, foster knowledge-sharing ecosystems, leverage digital tools for transparency, and balance profitability with sustainable practices in their operations."
       ]
     },
     "tags": [
+      "entrepreneurship",
       "esg",
-      "digital capabilities",
-      "entrepreneurial firms",
+      "digital transformation",
       "sustainability",
-      "digital transformation"
+      "digital capabilities"
     ],
     "editors": [
       {
@@ -32918,11 +33047,17 @@
       {
         "date": null,
         "description": "Submission deadline",
-        "is_full_paper_submission_deadline": false
+        "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 1127,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Environmental and Resource Economics",
@@ -32932,32 +33067,31 @@
     "url": "https://link.springer.com/collections/hidfebcjgc",
     "title": "Behavioural Environmental Economics & Policy (BEEP): trends and reflections",
     "slug": "springer-by-invitation-only-behavioural-environmental-economics-and-policy-beep-trends-and-reflections",
-    "contentHash": "32c546b78ad70278782d56df253a38e605915db3bc3114f14b74cf6849e974c9",
+    "contentHash": "4b5f78e9062702119f5c5b2c509a7047230f4f4c8051211811b2a7e0d93d2357",
     "topics": [
-      "Interactions between market failures and behavioural failures in environmental settings",
-      "Policy design that combines prices/standards with behavioural tools (defaults, salience/framing, simplification, commitment)",
-      "Welfare analysis (including psychological costs), ethics, and paternalism in environmental policy",
-      "Empirical identification of behavioural mechanisms; field/lab/quasi-experimental evidence",
-      "Heterogeneity, equity, and distributional consequences of behavioural environmental policies",
-      "Replication, meta-analysis, and open-science practices in this domain",
+      "Market failures and behavioural failures in environmental settings",
+      "Policy design combining prices/standards with behavioural tools",
+      "Welfare analysis, ethics, and paternalism in environmental policy",
+      "Empirical identification of behavioural mechanisms",
+      "Heterogeneity, equity, and distributional consequences",
+      "Replication, meta-analysis, and open-science practices",
       "Choice architecture and environmental outcomes",
-      "Interactions between behavioural instruments and prices/regulation",
       "Climate cognition and communication",
       "Evaluation and methods"
     ],
     "description": {
       "paragraphs": [
-        "This special issue focuses on Behavioural Environmental Economics & Policy (BEEP), which examines how departures from rational choice assumptions—such as bounded rationality and bounded willpower—affect environmental decision-making and policy effectiveness. The issue seeks to consolidate evidence on how behavioural insights can improve the design and evaluation of environmental policies to address urgent challenges including climate change, biodiversity loss, and pollution.",
-        "The special issue welcomes conceptual, empirical, and policy-oriented contributions applying behavioural insights to environmental problems. Submissions may employ various methodologies including experiments, quasi-experimental designs, and literature reviews. The issue particularly values work that identifies both market and behavioural failures, designs and tests policies combining traditional instruments with behavioural tools, and evaluates their effectiveness and welfare impacts.",
-        "This is an invitation-only special issue in Environmental and Resource Economics."
+        "Behavioural Environmental Economics & Policy (BEEP) addresses how departures from rational choice assumptions affect environmental policy effectiveness. While traditional approaches rely on regulation and price-based instruments, behavioural research reveals that bounded rationality creates failures that can undermine policy outcomes. This special issue consolidates evidence on how behavioural insights improve environmental policy design, delivery, and evaluation.",
+        "The issue welcomes theoretical, empirical, and policy-oriented contributions that apply behavioural approaches to environmental challenges including climate change, biodiversity loss, and pollution. Contributors should diagnose how market and behavioural failures interact, and design and test policies combining traditional instruments with behavioural tools such as defaults, framing, and commitment devices.",
+        "The collection serves practitioners and researchers by providing evidence-based guidance on implementing behavioural insights in environmental policy, with emphasis on welfare implications, distributional equity, and the effectiveness of green nudges."
       ]
     },
     "tags": [
-      "behavioral economics",
+      "behavioural economics",
       "environmental policy",
-      "decision-making",
+      "climate change",
       "nudges",
-      "public policy"
+      "experimental economics"
     ],
     "editors": [
       {
@@ -32972,13 +33106,19 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-11-30T11:00:00.000Z",
+        "date": "2026-11-30T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 1129,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Environmental and Resource Economics",
@@ -33264,7 +33404,7 @@
     "url": "https://link.springer.com/collections/baifaedejd",
     "title": "Climate Transition and Operational Risk Modelling: Implications for Supply Chains and Financial Decision-Making",
     "slug": "springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making",
-    "contentHash": "432b6fd0634b57c1fa650569d58f563be14de6fb43779ae3d4b5ee9ebd2c6651",
+    "contentHash": "eeb6f6757a0336f797e399bd8c88cf696990745678bf2360e8c59a997e864d22",
     "topics": [
       "Robust stochastic optimization methods for climate transition risks",
       "Portfolio optimization and risk-adjusted return modelling under climate policy uncertainty",
@@ -33280,36 +33420,21 @@
     ],
     "description": {
       "paragraphs": [
-        "Climate-related operational risks pose significant threats to financial and economic systems, particularly as economies transition toward low-carbon models. The timing and pace of this transition create substantial uncertainties, especially for carbon-intensive firms that must balance profitability with decarbonization goals. Vulnerabilities extend through interconnected global supply chains where disruptions propagate indirectly, amplifying operational and systemic risks across multiple tiers.",
-        "Financial markets increasingly transmit climate-related risks through asset prices, volatility, and liquidity shocks, potentially triggering market instability through supply chain relationships. This special issue addresses the gap in understanding how climate and environmental risks propagate through financial and economic systems, seeking contributions that employ robust stochastic optimization, machine learning, and advanced forecasting methods to inform portfolio allocation and risk management decisions in the face of evolving climate regulations and transition uncertainties."
+        "This special issue addresses how climate-related risks disrupt interconnected financial and economic systems during the transition to a low-carbon economy. The challenge lies in modeling how transition risks affect firms and supply chains, particularly carbon-intensive sectors, and understanding risk transmission across economic systems.",
+        "Firms face competing pressures to decarbonize while maintaining profitability and competitiveness. Significant vulnerabilities emerge through supply chain interdependencies, where disruptions propagate and amplify operational risks. The call seeks integrated modeling approaches that capture emissions, disruptions, and risks across supply chain tiers using operations research methods.",
+        "The issue welcomes applied and methodological studies employing stochastic optimization, machine learning, and other advanced techniques to examine how financial institutions manage uncertainty in portfolio allocation and risk management under climate transition scenarios."
       ]
     },
     "tags": [
       "climate risk",
-      "operations research",
+      "operational risk",
       "supply chain",
       "financial risk",
-      "optimization",
+      "low-carbon transition",
+      "stochastic optimization",
       "machine learning"
     ],
-    "editors": [
-      {
-        "name": "Andrea Flori",
-        "affiliation": "Politecnico di Milano"
-      },
-      {
-        "name": "Anna Maria Gambaro",
-        "affiliation": "Università del Piemonte Orientale"
-      },
-      {
-        "name": "Ioannis Kyriakou",
-        "affiliation": "University of London"
-      },
-      {
-        "name": "Duc Khuong Nguyen",
-        "affiliation": "EMLV Business School"
-      }
-    ],
+    "editors": [],
     "associate_editors": [],
     "dates": [
       {
@@ -33319,7 +33444,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 998,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Annals of Operations Research",
@@ -33329,35 +33460,37 @@
     "url": "https://link.springer.com/collections/fihchfagfc",
     "title": "Collaborative Intelligence in Operations Research: Models, Methods, and Applications",
     "slug": "springer-collaborative-intelligence-in-operations-research-models-methods-and-applications",
-    "contentHash": "6f44ebef45849b36c1424388fdc5662d06238de2ca8ed4df5018adc7bf1fafe5",
+    "contentHash": "4e7ff4f44611749628b27da8869e36de14857215366c8528f854decff962f00e",
     "topics": [
-      "Designing OR models that facilitate seamless interaction and information exchange between human decision-makers and AI agents",
-      "The framework for integrating human judgment, preferences, and ethical considerations into AI-driven decision-making",
-      "Techniques for visualizing and interpreting AI outputs to enhance human understanding and trust",
-      "Novel optimization algorithms and game-theoretic frameworks for coordinating and optimizing decisions in multi-agent environments",
-      "Models addressing diverse objectives, capabilities, and interactions among multiple agents",
-      "Approaches to managing conflicts, uncertainties, and strategic behaviors in multi-agent decision-making",
-      "OR frameworks capable of dynamically adapting to real-time changes and uncertainties",
-      "Decentralized optimization algorithms and control strategies for distributed systems",
-      "Online learning and adaptive control techniques to improve system responsiveness and resilience",
-      "Leveraging machine learning and data analytics to extract insights and patterns for OR applications",
-      "Learning-based optimization algorithms that improve performance through data feedback",
-      "Predictive analytics and simulation techniques for enhanced decision-making and risk management"
+      "Human-AI collaboration in OR models",
+      "Integration of human judgment and preferences into AI-driven decision-making",
+      "Visualization and interpretation of AI outputs",
+      "Optimization algorithms for multi-agent systems",
+      "Game-theoretic frameworks for multi-agent coordination",
+      "Managing conflicts and uncertainties in multi-agent decision-making",
+      "Adaptive OR frameworks",
+      "Decentralized optimization algorithms",
+      "Online learning and adaptive control techniques",
+      "Machine learning and data analytics for OR",
+      "Learning-based optimization algorithms",
+      "Predictive analytics and simulation techniques",
+      "Resilience planning",
+      "Dynamic problem-solving in complex operations"
     ],
     "description": {
       "paragraphs": [
-        "This special issue investigates how collaborative intelligence—combining human expertise, artificial intelligence, and distributed problem-solving—can advance operations research to address modern decision-making challenges. Traditional OR methods struggle with the dynamic and interconnected nature of contemporary problems, from logistics to emergency response. The collection seeks contributions that demonstrate how human-AI collaboration can enhance decision-making, boost system resilience, and optimize complex operational environments.",
-        "The call invites theoretical, computational, and applied research on human-AI collaboration in OR models, optimization and game-theoretic approaches for multi-agent systems, adaptive and decentralized frameworks, and data-driven learning-based optimization. Submissions should demonstrate both theoretical rigor and practical relevance, with innovative methodologies and real-world applications that advance collaborative intelligence in operations research."
+        "Modern operations research faces challenges in dynamic and uncertain environments where traditional methodologies struggle. This special issue focuses on Collaborative Intelligence—integrating human expertise, artificial intelligence, and distributed problem-solving to enhance adaptability and efficiency in complex operations through multi-agent coordination, human-AI collaboration, and machine learning.",
+        "The special issue seeks research bridging autonomous AI systems and human decision-makers by combining computational power with human intuition and ethical reasoning. Contributions should address how collaborative approaches improve system resilience, handle uncertainty, and increase trust in AI-driven systems through theoretical advancements and computational methods that extend operations research to adaptive and multi-agent frameworks.",
+        "Researchers are invited to submit original contributions involving innovative mathematical models, algorithms, and practical applications demonstrating how collaborative intelligence enhances decision-making in complex operational environments, balancing theoretical rigor with practical relevance."
       ]
     },
     "tags": [
       "operations research",
       "artificial intelligence",
-      "collaborative intelligence",
       "human-ai collaboration",
       "multi-agent systems",
-      "optimization",
-      "decentralized systems"
+      "decentralized optimization",
+      "machine learning"
     ],
     "editors": [
       {
@@ -33384,13 +33517,19 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-12-31T11:00:00.000Z",
+        "date": "2026-12-31T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 1147,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Annals of Operations Research",
@@ -33400,7 +33539,7 @@
     "url": "https://link.springer.com/collections/iajhfddihe",
     "title": "Contextual Optimization with Side Information: Theory, Methodology, and Applications",
     "slug": "springer-contextual-optimization-with-side-information-theory-methodology-and-applications",
-    "contentHash": "3e28cc46264bd50af46cb761a014f1a78f91ca91a11e1e10a69000efd34c6c66",
+    "contentHash": "acdc2d0189f85ebdcb88faceb6c20598190e57b43f630088829cff5b35ab4220",
     "topics": [
       "Contextual Stochastic Optimization",
       "Distributionally Robust Optimization with Side Information",
@@ -33423,91 +33562,18 @@
     ],
     "description": {
       "paragraphs": [
-        "Modern operations research increasingly involves complex decision-making in data-rich environments where contextual information can significantly improve operational policies. This special issue focuses on integrating side information into optimization frameworks, combining advances from optimization, machine learning, and statistical learning. The challenge is to develop methods that go beyond historical averages to create adaptive, personalized solutions that effectively handle high-dimensional data, distribution shifts, and real-time computational demands.",
-        "The special issue welcomes contributions that develop novel theories, algorithms, and practical applications merging optimization with machine learning and data analytics. Priority is given to methods that address uncertainty while leveraging contextual information, with emphasis on improving actual decision quality and system performance rather than predictive accuracy alone."
+        "Modern operations research increasingly relies on contextual information to enhance decision-making in uncertain environments. This special issue focuses on the integration of side information—such as demand patterns, user behaviors, and market conditions—into optimization models to achieve more adaptive and data-driven policies. The field spans contextual stochastic optimization, distributionally robust optimization with covariates, decision-focused learning, and online optimization frameworks.",
+        "Real-world applications present significant challenges including high-dimensional data, noisy observations, distribution shifts, computational constraints, and the need to balance predictive accuracy with operational performance. The special issue seeks high-quality contributions that develop novel theories, algorithms, and applications combining optimization with machine learning, statistics, and data analytics to address these challenges systematically."
       ]
     },
     "tags": [
       "optimization",
       "machine learning",
-      "contextual decision making",
-      "data-driven methods",
-      "uncertainty quantification"
+      "contextual decision-making",
+      "stochastic optimization",
+      "data-driven operations"
     ],
-    "editors": [
-      {
-        "name": "Stelios Bekiros",
-        "affiliation": "University of Turin"
-      },
-      {
-        "name": "Andrea D'Ariano",
-        "affiliation": "Roma Tre University"
-      },
-      {
-        "name": "Peng Wu",
-        "affiliation": "Fuzhou University"
-      },
-      {
-        "name": "Guowei Zhang",
-        "affiliation": "Dalian University of Technology"
-      }
-    ],
-    "associate_editors": [],
-    "dates": [
-      {
-        "date": "2027-07-31T10:00:00.000Z",
-        "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
-      }
-    ],
-    "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
-  },
-  {
-    "journal": "Annals of Operations Research",
-    "abbreviation": "springer",
-    "issn": "1572-9338",
-    "metaTitle": "Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems",
-    "url": "https://link.springer.com/collections/igdgfheeeh",
-    "title": "Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems",
-    "slug": "springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems",
-    "contentHash": "4f73c84409d8f26d788791f9a461ed8f813a46f70570deb6190ccb25c5632599",
-    "topics": [
-      "Data-driven reliability modeling and parameter estimation using operational data",
-      "Reliability analysis using statistical learning and machine learning methods",
-      "Reliability models combining analytical formulations with data-driven learning approaches",
-      "Decision support systems incorporating reliability analysis and risk information",
-      "Optimization and decision-making problems informed by reliability performance",
-      "Predictive maintenance and condition monitoring using data and learning models",
-      "Multistate system and network reliability analysis",
-      "Reliability evaluation of manufacturing, logistics, and supply chain systems",
-      "Reliability modeling in energy, power, and infrastructure systems",
-      "Stochastic modeling and uncertainty analysis in data-driven reliability studies",
-      "Simulation, enumeration, and approximation methods for reliability evaluation",
-      "System design and resource allocation considering reliability and operational data",
-      "Reliability analysis supported by digital twins, data analytics, and intelligent systems",
-      "Reliability, robustness, and resilience of industrial engineering systems"
-    ],
-    "description": {
-      "paragraphs": [
-        "This special issue seeks contributions on reliability modeling and decision support for industrial engineering systems, including manufacturing, supply chains, logistics, energy systems, transportation, and service operations. While traditional probabilistic and stochastic approaches remain important, advances in sensor technologies and data collection have enabled new data-driven approaches that combine machine learning and statistical methods with classical reliability theory.",
-        "The special issue welcomes both theoretical developments and practical applications that demonstrate how data-driven reliability analysis can enhance decision-making in maintenance planning, resource allocation, system design, and operational optimization. Papers should show methodological rigor and clear relevance to real-world industrial challenges, illustrating how reliability-informed approaches improve system performance."
-      ]
-    },
-    "tags": [
-      "reliability modeling",
-      "industrial engineering",
-      "machine learning",
-      "data-driven methods",
-      "decision support",
-      "maintenance optimization"
-    ],
-    "editors": [
-      {
-        "name": "Yi-Kuei Lin",
-        "affiliation": "National Yang Ming Chiao Tung University"
-      }
-    ],
+    "editors": [],
     "associate_editors": [],
     "dates": [
       {
@@ -33517,7 +33583,69 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 959,
+      "tauxCopie": 0.03636363636363636,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
+  },
+  {
+    "journal": "Annals of Operations Research",
+    "abbreviation": "springer",
+    "issn": "1572-9338",
+    "metaTitle": "Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems",
+    "url": "https://link.springer.com/collections/igdgfheeeh",
+    "title": "Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems",
+    "slug": "springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems",
+    "contentHash": "7fe5b4b820bece58310a8678df63294e90c6605a27cb95be43fde63b83fc6bc8",
+    "topics": [
+      "Data-driven reliability modeling and parameter estimation",
+      "Statistical learning and machine learning for reliability analysis",
+      "Hybrid analytical and data-driven reliability models",
+      "Decision support systems with reliability analysis",
+      "Optimization and decision-making informed by reliability",
+      "Predictive maintenance and condition monitoring",
+      "Multistate system and network reliability",
+      "Manufacturing, logistics, and supply chain reliability",
+      "Energy, power, and infrastructure system reliability",
+      "Stochastic modeling and uncertainty analysis",
+      "Simulation and approximation methods for reliability",
+      "System design and resource allocation",
+      "Digital twins and intelligent systems for reliability",
+      "Reliability, robustness, and resilience"
+    ],
+    "description": {
+      "paragraphs": [
+        "Industrial engineering systems such as manufacturing, supply chains, energy networks, and transportation require reliable operation to maintain efficiency and safety amid uncertainty and disruptions. Traditional reliability approaches have relied on probabilistic and stochastic analysis, but advances in sensing technology and data collection now enable data-driven reliability modeling that combines classical theory with machine learning and statistical methods. The field is increasingly focused on integrating reliability analysis into decision-making frameworks for maintenance planning, resource allocation, and system optimization.",
+        "This special issue invites original research papers addressing reliability modeling and decision support for industrial engineering systems using operations research, industrial engineering, and data-driven methods. Both theoretical contributions and practical applications are welcome, with emphasis on methodological rigor and real-world relevance."
+      ]
+    },
+    "tags": [
+      "reliability modeling",
+      "data-driven methods",
+      "machine learning",
+      "industrial engineering",
+      "operations research"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-07-31T12:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "active": true,
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 989,
+      "tauxCopie": 0.08695652173913043,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Annals of Operations Research",
@@ -33641,66 +33769,56 @@
     "url": "https://link.springer.com/collections/baegbehdda",
     "title": "Digital Technologies for Combating Unethical Labour Practices and Promoting Human Rights",
     "slug": "springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights",
-    "contentHash": "59bf2c51a80314d7205dc22796cf71f2bd723b93d3541b345ca29241dc07d45e",
+    "contentHash": "48cfb9e0b83ea66024dc2a9be98aaef43abf8bba7e39cc20b08befa7fb08a948",
     "topics": [
-      "Role of digital technologies (blockchain, AI, cloud computing, IoT, big data analytics, virtual and augmented reality) in monitoring and detecting unethical labour practices",
-      "Application of digital technologies to address modern slavery, human trafficking, forced labour, and other forms of labour exploitation",
-      "Digital technologies for reporting and remediating unethical labour practices in supply chains",
-      "Use of machine learning and AI for identifying trafficking patterns and at-risk populations",
-      "Blockchain applications for tracking labour exploitation in global supply chains",
-      "Digital technologies for social inclusion and reintegration of survivors of modern slavery",
-      "Biometric recognition and satellite imagery applications by governments and NGOs",
-      "Comparative analysis of multiple digital technologies versus single-technology approaches",
-      "Theoretical frameworks and conceptual models for understanding digital technology adoption in addressing unethical labour practices",
-      "Empirical studies on the effectiveness and limitations of digital solutions in combating labour exploitation"
+      "Blockchain technology and labour rights",
+      "Artificial intelligence for detecting exploitation",
+      "Big data analytics and supply chain monitoring",
+      "Internet of Things and worker safety",
+      "Cloud computing applications",
+      "Biometric recognition systems",
+      "Satellite imagery for labour monitoring",
+      "Remote sensors and worker voice technologies",
+      "Machine learning for trafficking detection",
+      "Digital tools for survivor support and reintegration",
+      "Human rights and digital technologies",
+      "Modern slavery prevention",
+      "Supply chain transparency",
+      "Digital monitoring systems",
+      "Technology adoption for ethical labour practices"
     ],
     "description": {
       "paragraphs": [
-        "An estimated 50 million people worldwide experience unethical labour practices, with numbers expected to rise due to regional conflicts and restrictive migration policies. While digital technologies such as blockchain, AI, and cloud computing offer potential solutions for monitoring and addressing these practices, research in this area remains limited. This special issue seeks to understand how digital technologies can theoretically and empirically be deployed to monitor, detect, report, and remediate unethical labour practices.",
-        "The special issue welcomes original research using various methodologies that examines the relationship between digital technologies and unethical labour practices. Submissions should identify specific technologies examined and move beyond surface-level analysis to provide nuanced insights. The collection particularly encourages studies that challenge existing paradigms, explore underexamined aspects, or propose innovative frameworks for leveraging digital solutions to advance ethical and sustainable societies while informing policymakers, business leaders, and practitioners."
+        "Unethical labour practices, including modern slavery, affect approximately 50 million people worldwide and are expected to worsen due to regional conflicts and restrictive migration policies. Although digital technologies such as blockchain, AI, and cloud computing show promise in addressing these issues, research examining their specific applications remains limited. This special issue seeks to bridge this gap by exploring how digital technologies can be leveraged theoretically and empirically to monitor, detect, report, and remediate unethical labour practices.",
+        "The call invites original, theory-driven research using diverse methodologies including theoretical frameworks, case studies, surveys, and literature reviews. Submissions should identify specific digital technologies and provide nuanced insights into how they can combat labour exploitation and support human rights. Particularly encouraged are studies that challenge existing paradigms, explore underexamined dimensions, or offer innovative perspectives that inform policymakers and practitioners on leveraging technology for meaningful change."
       ]
     },
     "tags": [
       "digital technologies",
       "labour rights",
-      "human rights",
       "modern slavery",
+      "human trafficking",
       "blockchain",
       "artificial intelligence",
-      "supply chain ethics"
+      "ethical business practices"
     ],
-    "editors": [
-      {
-        "name": "Stefan Gold",
-        "affiliation": "Technical University of Munich"
-      },
-      {
-        "name": "Antoine Harfouche",
-        "affiliation": "Paris Nanterre University"
-      },
-      {
-        "name": "Paul Jones",
-        "affiliation": "Swansea University"
-      },
-      {
-        "name": "Maryam Lotfi",
-        "affiliation": "Cardiff University"
-      },
-      {
-        "name": "Guoqing Zhao",
-        "affiliation": "Swansea University"
-      }
-    ],
+    "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2027-02-15T11:00:00.000Z",
+        "date": "2027-02-15T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 1114,
+      "tauxCopie": 0.02962962962962963,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "The Journal of Technology Transfer",
@@ -33865,46 +33983,46 @@
     "url": "https://link.springer.com/collections/beebdfabge",
     "title": "Entrepreneurship: Shaping the Future",
     "slug": "springer-entrepreneurship-shaping-the-future",
-    "contentHash": "76b879241a1e7e04438db3041a90f61bca17947fd69447877b3e194b92e1d16b",
+    "contentHash": "d503e2d1f4194e2d7d531c93a16a22bb50685be027a77365d358af4fd7e4bf4b",
     "topics": [
       "Entrepreneurship and global issues",
-      "Micro, meso, and macro levels of analysis",
-      "Impact of entrepreneurship",
-      "Future-oriented entrepreneurship research",
-      "International entrepreneurship",
+      "Entrepreneurship at micro, meso, and macro levels",
+      "Impact of entrepreneurship on future outcomes",
+      "Internationalization of entrepreneurship",
       "Entrepreneurship in diverse organizational contexts",
-      "Global entrepreneurship"
+      "Global entrepreneurship research"
     ],
     "description": {
       "paragraphs": [
-        "This multi-journal collection brings together research on entrepreneurship as a mechanism for addressing significant global challenges. It welcomes contributions that examine entrepreneurship phenomena across different analytical levels and explore how entrepreneurial activities can shape future outcomes.",
-        "The collection is open to researchers, practitioners, and policymakers investigating entrepreneurship from various perspectives, including its internationalization, organizational contexts, and societal implications. Submissions are accepted on an ongoing basis across three participating journals: Journal of International Entrepreneurship, International Entrepreneurship and Management Journal, and Journal of Global Entrepreneurship Research."
+        "This multi-journal collection brings together research on entrepreneurship as a mechanism for addressing major global challenges. The collection welcomes cross-disciplinary contributions from researchers, practitioners, and policymakers examining how entrepreneurial activities generate expected and realized changes across different contexts and their implications.",
+        "Papers in the collection investigate entrepreneurship's impact on shaping the future by analyzing phenomena at micro, meso, and macro levels of analysis. Submissions are welcomed across three participating journals with varying disciplinary focuses: international entrepreneurship contexts, entrepreneurship in diverse organizational settings, and global entrepreneurship phenomena."
       ]
     },
     "tags": [
       "entrepreneurship",
-      "global issues",
+      "cross-disciplinary",
+      "global challenges",
       "innovation",
-      "future-oriented research"
+      "sustainable development"
     ],
     "editors": [
       {
         "name": "Diego Matricano",
-        "affiliation": "University of Campania Luigi Vanvitelli"
+        "affiliation": "}],"
       }
     ],
     "associate_editors": [],
     "dates": [
       {
         "date": null,
-        "description": "Submission period",
-        "is_full_paper_submission_deadline": false
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
     "pubDate": "2026-08-11T21:25:02.631Z",
     "controle": {
-      "longueur": 751,
+      "longueur": 748,
       "tauxCopie": 0,
       "relance": false,
       "topicsTropLongs": 0
@@ -33918,7 +34036,7 @@
     "url": "https://link.springer.com/collections/hdbgecbgfg",
     "title": "From Adoption to Impact: Post-Adoption, Value Realization, and Societal Transformation of ICT and AI",
     "slug": "springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai",
-    "contentHash": "410319333fb355ff993c484d1450aa3a13fde9b1e0bbbaf39d6f0739ee44ffc5",
+    "contentHash": "347979b473b1b86f5ab4f7adede0133b6fcd2f5a2e37e181cd6b727301660115",
     "topics": [
       "Technology assimilation, routinization, and deep integration",
       "Post-adoption behaviors: continued use, discontinuance, and switching",
@@ -33939,82 +34057,69 @@
     ],
     "description": {
       "paragraphs": [
-        "This special issue addresses the critical gap between technology adoption and actual value realization, focusing on how organizations and societies integrate, adapt, and leverage ICTs and AI beyond their initial implementation. While existing research emphasizes adoption decisions, there remains limited understanding of post-adoption dynamics, continued use, and the translation of technological investments into tangible organizational and societal benefits.",
-        "The issue welcomes research exploring post-adoption phenomena across individual, organizational, and societal levels, including technology assimilation, value creation, and transformation. It also addresses significant risks and ethical concerns arising from ICT and AI deployment, such as algorithmic bias, privacy threats, digital inequality, and unintended consequences that require scholarly attention."
+        "This special issue investigates how organizations and society create and realize value from ICT and AI technologies beyond their initial adoption phase. While prior research has focused extensively on adoption decisions, this collection addresses understudied post-adoption dynamics including continuance, adaptation, and routinization. The issue recognizes that technology adoption alone does not guarantee organizational or societal benefits, necessitating deeper understanding of how sustained technology use generates value and drives transformation.",
+        "The special issue welcomes empirical, theoretical, experimental, design science, and review-based research examining post-adoption phenomena, value realization, and transformation at individual, organizational, and societal levels. It seeks to balance exploration of positive impacts with critical examination of risks and challenges, including ethical concerns, digital inequality, cybersecurity threats, and unintended consequences of widespread ICT and AI deployment. Novel perspectives on early-stage adoption are also welcome when they offer new theoretical insights or address emerging technologies."
       ]
     },
     "tags": [
-      "technology adoption",
-      "ict",
-      "artificial intelligence",
-      "digital transformation",
-      "value realization",
       "post-adoption",
-      "organizational change"
+      "value realization",
+      "digital transformation",
+      "ai governance",
+      "technology assimilation"
     ],
-    "editors": [
-      {
-        "name": "Jyoti Choudrie",
-        "affiliation": "University of Hertfordshire"
-      },
-      {
-        "name": "Sherah Kurnia",
-        "affiliation": "The University of Melbourne"
-      },
-      {
-        "name": "Gabrielle Peko",
-        "affiliation": "University of Auckland"
-      },
-      {
-        "name": "David Sundaram",
-        "affiliation": "University of Auckland"
-      }
-    ],
+    "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-07-15T10:00:00.000Z",
+        "date": "2026-07-15T12:00:00.000Z",
         "description": "Submission of abstract (up to 300 words)",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-08-15T10:00:00.000Z",
+        "date": "2026-08-15T12:00:00.000Z",
         "description": "Notification of abstract acceptance",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-12-04T11:00:00.000Z",
+        "date": "2026-12-04T12:00:00.000Z",
         "description": "Submission of full paper",
         "is_full_paper_submission_deadline": true
       },
       {
-        "date": "2027-04-05T10:00:00.000Z",
+        "date": "2027-04-05T12:00:00.000Z",
         "description": "Notification of first-round reviews",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-07-01T10:00:00.000Z",
+        "date": "2027-07-01T12:00:00.000Z",
         "description": "Revised manuscripts due",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-10-29T10:00:00.000Z",
+        "date": "2027-10-29T12:00:00.000Z",
         "description": "Notification of second-round reviews",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-11-30T11:00:00.000Z",
+        "date": "2027-11-30T12:00:00.000Z",
         "description": "Final versions due",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2028-01-31T11:00:00.000Z",
+        "date": "2028-01-31T12:00:00.000Z",
         "description": "Expected final decision",
         "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 1159,
+      "tauxCopie": 0.05714285714285714,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Annals of Operations Research",
@@ -34024,63 +34129,61 @@
     "url": "https://link.springer.com/collections/cgjchjjbdj",
     "title": "Game Theoretical Models and Applications SING21",
     "slug": "springer-game-theoretical-models-and-applications-sing21",
-    "contentHash": "ed09d5fda579375835a7919ec7709728d1e4bcb4c74f3e46230f693ecd33d34d",
+    "contentHash": "5bed203d52c866641d1c4dfbdb5e8acfd268d69abf9ed7982db65999ef561228",
     "topics": [
-      "Cooperative games and their applications",
+      "Cooperative games and applications",
       "Non-cooperative games and strategic interaction",
       "Mechanism design",
-      "Network",
+      "Network games",
       "Dynamic games",
       "Evolutionary games",
       "Stochastic games",
-      "Voting, power indices, and collective decision-making",
+      "Voting and collective decision-making",
+      "Power indices",
       "Auctions and market design",
       "Bargaining",
       "Learning and experimentation in games",
       "Computational game theory",
-      "Applications of game theory to management, energy, health policy, industrial organization, environmental and resource economics, transportation, cybersecurity, artificial intelligence, and other fields"
+      "Game theory applications in management",
+      "Game theory applications in energy",
+      "Game theory applications in health policy",
+      "Game theory applications in industrial organization",
+      "Game theory applications in environmental economics",
+      "Game theory applications in resource economics",
+      "Game theory applications in transportation",
+      "Game theory applications in cybersecurity",
+      "Game theory applications in artificial intelligence"
     ],
     "description": {
       "paragraphs": [
-        "This special issue focuses on game theory as a framework for analyzing strategic interaction, cooperation, conflict, and decision-making in complex systems. It showcases recent developments in game theory alongside its diverse applications, with emphasis on interaction dynamics and collective decision-making through theoretical, practical, and interdisciplinary approaches.",
-        "The issue particularly welcomes expanded versions of papers presented at the European Meeting on Game Theory 2026 (SING21), though other relevant submissions are also encouraged. Papers based on conference presentations must be substantially revised and extended with appropriate references to the original conference versions."
+        "This special issue seeks to advance research on game theory as a framework for understanding strategic interaction, cooperation, conflict, and decision-making in complex systems. The collection emphasizes recent theoretical developments and diverse applications, particularly focusing on interaction dynamics and collective decision-making through both theoretical and practical contributions.",
+        "The issue particularly welcomes expanded and revised versions of papers presented at the European Meeting on Game Theory 2026 (SING21), though other relevant submissions are also encouraged. All papers undergo rigorous peer review by guest editors, with accepted contributions published online before appearing in print."
       ]
     },
     "tags": [
       "game theory",
-      "strategic interaction",
-      "cooperative games",
+      "operations research",
       "mechanism design",
-      "collective decision-making"
+      "evolutionary games",
+      "decision-making"
     ],
-    "editors": [
-      {
-        "name": "Annamaria Barbagallo",
-        "affiliation": "University of Naples Federico II"
-      },
-      {
-        "name": "Encarnación Algaba",
-        "affiliation": "University of Seville"
-      },
-      {
-        "name": "Giovanna Bimonte",
-        "affiliation": "University of Salerno"
-      },
-      {
-        "name": "Francesco Ciardiello",
-        "affiliation": "University of Salerno"
-      }
-    ],
+    "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2027-04-20T10:00:00.000Z",
+        "date": "2027-04-20T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 713,
+      "tauxCopie": 0.011494252873563218,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Annals of Operations Research",
@@ -34090,7 +34193,7 @@
     "url": "https://link.springer.com/collections/gdhggicicb",
     "title": "Global Supply Chain Reconfiguration Under Tariff Uncertainty",
     "slug": "springer-global-supply-chain-reconfiguration-under-tariff-uncertainty",
-    "contentHash": "f933033291f2f1cb334d6c44368fa688b11ab94a6bcd5882dd85b28bb31a1a82",
+    "contentHash": "0e6dd82f11c321d9a2f547b8c351f257db14db6ceeb6ad06b798742d77b35784",
     "topics": [
       "Supply network redesign and optimization under tariff uncertainty",
       "Robust and stochastic optimization models for tariff-driven supply chain planning",
@@ -34107,16 +34210,16 @@
     ],
     "description": {
       "paragraphs": [
-        "This special issue addresses the urgent need to understand and manage global supply chain reconfiguration in response to tariff uncertainty and shifting trade policies. Rising tariffs and trade tensions are forcing organizations to redesign their sourcing strategies, manufacturing locations, and logistics networks, creating significant practical challenges that require new analytical approaches.",
-        "The journal seeks high-quality contributions that apply operations research and artificial intelligence methods to develop decision-making models for supply chain management under tariff uncertainty. Both theoretical advances and practical case studies are welcome, particularly interdisciplinary research that combines OR, AI, supply chain management, and international economics with real-world applications."
+        "This special issue addresses the challenges facing global supply chains as tariff uncertainty and shifting trade policies reshape sourcing, manufacturing, logistics, and market access. The contemporary environment presents unprecedented complexity requiring new decision-making approaches beyond traditional tariff-related research.",
+        "The collection seeks high-quality contributions applying Operations Research and Artificial Intelligence methods to supply chain reconfiguration under trade policy uncertainty. The issue welcomes theoretical advances, methodological innovations, applied modeling studies, and practical insights, with particular emphasis on interdisciplinary work integrating OR, AI, supply chain management, and international economics with real-world applications."
       ]
     },
     "tags": [
       "supply chain management",
-      "tariff policy",
+      "tariff uncertainty",
       "operations research",
       "artificial intelligence",
-      "optimization"
+      "trade policy"
     ],
     "editors": [
       {
@@ -34135,13 +34238,19 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-31T11:00:00.000Z",
+        "date": "2026-10-31T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 781,
+      "tauxCopie": 0.011627906976744186,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Asia Pacific Journal of Management",
@@ -34201,69 +34310,59 @@
     "url": "https://link.springer.com/collections/adhifdbhci",
     "title": "International Business in a Reconfiguring Southeast Asia",
     "slug": "springer-international-business-in-a-reconfiguring-southeast-asia",
-    "contentHash": "653336f34915223fc9f94e919b22aa18e9e3f262774a34a1681ba480b122f515",
+    "contentHash": "e69be06ffbf4264e0934c73989b607b6529701796de744bad9e8d039f58e0d71",
     "topics": [
-      "The rise and internationalization of Southeast Asian multinationals, including digital-native champions, conglomerate-based regional players, and state-linked enterprises",
-      "Supply-chain reconfiguration, maritime connectivity, and regional supply-chain governance in Vietnam, Malaysia, Thailand, Indonesia, and the Philippines",
-      "Cross-border trade, geopolitics, and strategies of Southeast Asian firms hedging between major power blocs",
-      "Indigenous theorizing and methodological innovation drawing on Southeast Asian intellectual traditions and fieldwork methods"
+      "Internationalization of Southeast Asian multinationals",
+      "Springboard and asset-augmentation strategies of ASEAN MNEs",
+      "Digital-native champions and platform architecture",
+      "State-linked enterprises internationalization",
+      "Supply chain reconfiguration and global value chain integration",
+      "Maritime connectivity and port competitiveness",
+      "Supply chain resilience and logistics",
+      "Cross-border trade and geopolitical hedging",
+      "Non-market strategy under strategic ambiguity",
+      "Middle-power firms and neutral coordination hubs",
+      "Indigenous theorizing and Southeast Asian intellectual traditions",
+      "Multi-language qualitative research methods",
+      "Postcolonial perspectives on knowledge production",
+      "Ethnographic and historical-archival fieldwork"
     ],
     "description": {
       "paragraphs": [
-        "Southeast Asia represents a significant yet theoretically under-explored region in international business research. With ten ASEAN economies forming the world's fifth-largest economic bloc and attracting substantial foreign investment, the region presents unique phenomena including supply chain reconfiguration driven by China-plus-one strategies, the emergence of regional multinationals, and institutional diversity across countries with different political systems and development stages.",
-        "Despite its empirical importance, Southeast Asia remains underrepresented in leading international management journals, where research focuses predominantly on China and India. This special issue seeks contributions that treat Southeast Asian phenomena as theoretically generative rather than merely illustrative. It particularly encourages submissions from scholars based in the region and aims to develop international management theory beyond existing BRICS-centric frameworks by leveraging the region's distinctive features including family capitalism, ethnic-Chinese business networks, state-linked enterprises, and ASEAN-level institutional structures.",
-        "The issue addresses four interrelated research themes: the internationalization strategies of Southeast Asian multinationals, supply-chain governance and maritime connectivity, geopolitical hedging strategies of regional firms, and indigenous theorizing that draws on Southeast Asian intellectual traditions and methodological approaches to contribute to broader international business knowledge."
+        "Southeast Asia is a critical yet underrepresented region in international business research, despite hosting the world's fifth-largest economic bloc and attracting record foreign investment. The region's distinctive characteristics—diverse political systems, family capitalism networks, state-linked enterprises, and rapid digital development—challenge existing international business theory but remain largely absent from leading journals.",
+        "This focused issue invites contributions that treat Southeast Asian phenomena as theoretically generative rather than merely illustrative, particularly welcoming scholars based in the region. The collection addresses four themes: internationalization of Southeast Asian multinationals, supply chain reconfiguration, geopolitical hedging strategies amid great-power competition, and indigenous theorizing drawing on Southeast Asian intellectual traditions to advance broader international business literature."
       ]
     },
     "tags": [
       "international business",
       "southeast asia",
       "asean",
-      "multinational enterprises",
-      "supply chain management",
-      "emerging markets",
+      "multinationals",
+      "supply chains",
       "geopolitics"
     ],
     "editors": [
       {
         "name": "S. Tamer Cavusgil",
         "affiliation": "Georgia State University"
-      },
-      {
-        "name": "Marleen Dieleman",
-        "affiliation": "IMD Business School"
-      },
-      {
-        "name": "Md. Tareq Hossain",
-        "affiliation": "Thammasat University"
-      },
-      {
-        "name": "Ruey-Jer \"Bryan\" Jean",
-        "affiliation": "National Taiwan University"
-      },
-      {
-        "name": "Destan Kandemir",
-        "affiliation": "Georgia State University"
-      },
-      {
-        "name": "Suntichai Kotcharin",
-        "affiliation": "Thammasat University"
-      },
-      {
-        "name": "Hussain Rammal",
-        "affiliation": "Adelaide University"
       }
     ],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2027-03-30T10:00:00.000Z",
+        "date": "2027-03-30T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 948,
+      "tauxCopie": 0.018518518518518517,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Information Systems Frontiers",
@@ -34273,93 +34372,74 @@
     "url": "https://link.springer.com/collections/egdbefhiee",
     "title": "Keeping Humans in the Loop in the AI-Driven Future of Information Security",
     "slug": "springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security",
-    "contentHash": "eb16c52bf8d0760bcc0c053155463c78e80700563a04735e42e7e6d032c54575",
+    "contentHash": "6688fb5396f3009973439e32c555701b9d8833b53e01aa23834c4a902aa50f95",
     "topics": [
-      "Neurosecurity (NeuroIS) investigations of information security behavior",
-      "Behavioral analyses of design science treatments enhancing or balancing security and privacy tradeoffs",
-      "The behavioral intersection of cybersecurity/privacy research and AI/ML advancements",
-      "AI-enabled security awareness, training, nudging, and behavioral intervention systems",
-      "Human-AI collaboration in security decision-making, compliance, monitoring, and response",
-      "Behavioral security implications of generative AI, including phishing, social engineering, misinformation, insider threats, and user overreliance on AI tools",
-      "Design science approaches to developing, evaluating, and theorizing intelligent security artifacts with behavioral implications",
-      "Adaptive, personalized, and context-aware security interventions enabled by AI and analytics",
-      "Theoretical extensions or reconceptualizations of established behavioral security theories in AI-mediated environments",
-      "Security behaviors in pervasive and post-pandemic work environments, including remote work, hybrid work, IoT, cloud platforms, and platform ecosystems"
+      "Neurosecurity (NeuroIS) investigations",
+      "Design science and security/privacy tradeoffs",
+      "Cybersecurity/privacy research and AI/ML",
+      "AI-enabled security awareness and training",
+      "Human-AI collaboration in security",
+      "Generative AI behavioral security implications",
+      "Intelligent security artifacts design",
+      "Adaptive and personalized security interventions",
+      "Behavioral security theories in AI environments",
+      "Security behaviors in remote and hybrid work"
     ],
     "description": {
       "paragraphs": [
-        "As artificial intelligence increasingly dominates both offensive and defensive cybersecurity, this special issue emphasizes the critical importance of maintaining human involvement in security systems and decisions. The issue addresses concerns about AI-driven threats such as sophisticated phishing attacks, deepfakes, and behavioral data exploitation, while acknowledging that defensive reliance on AI-based threat detection creates cognitive challenges for practitioners.",
-        "Human-in-the-loop (HITL) is presented as a design principle that ensures human participation in system training, decision-making, and error mitigation, recognizing that fully automated security systems may be restrictive or dangerous. The special issue calls for behavioral information security research that balances AI's growing role with sustained focus on human behavior, cognition, and motivation in secure systems, training, and technologies."
+        "As artificial intelligence increasingly shapes both offensive and defensive cybersecurity, this special issue emphasizes the continuing importance of human judgment and involvement in security systems. The call recognizes that while AI tools are becoming essential for threat detection and response, humans remain fundamental to effective security practice. The special issue seeks research that maintains focus on how humans can effectively collaborate with AI-based systems rather than being replaced by them.",
+        "The special issue invites behavioral and design science research exploring how to balance AI advancement with meaningful human participation in security. Beyond traditional topics like security compliance and training, the call particularly welcomes studies on neurosecurity approaches, AI-enabled behavioral interventions, human-AI collaboration in security decisions, and the security implications of generative AI. The work should emphasize practical applications, such as improving security awareness or detecting threats through behavioral analysis, rather than purely technical solutions."
       ]
     },
     "tags": [
-      "information security",
-      "human-ai collaboration",
+      "human-in-the-loop",
+      "ai and cybersecurity",
       "behavioral security",
-      "cybersecurity",
-      "design science"
+      "design science",
+      "information security"
     ],
-    "editors": [
-      {
-        "name": "Laura Amo",
-        "affiliation": "University at Buffalo, State University of New York"
-      },
-      {
-        "name": "Richard Baskerville",
-        "affiliation": "Georgia State University"
-      },
-      {
-        "name": "Rui Chen",
-        "affiliation": "Iowa State University"
-      },
-      {
-        "name": "Matthew Hashim",
-        "affiliation": "University of Arizona"
-      },
-      {
-        "name": "Yaojie (William) Li",
-        "affiliation": "University of New Orleans"
-      },
-      {
-        "name": "Yuan Li",
-        "affiliation": "University of Tennessee at Knoxville"
-      }
-    ],
+    "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2027-01-15T11:00:00.000Z",
+        "date": "2027-01-15T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       },
       {
-        "date": "2027-05-15T10:00:00.000Z",
+        "date": "2027-05-15T12:00:00.000Z",
         "description": "Notification of first round reviews",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-07-15T10:00:00.000Z",
+        "date": "2027-07-15T12:00:00.000Z",
         "description": "Revised manuscript due",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-09-01T10:00:00.000Z",
+        "date": "2027-09-01T12:00:00.000Z",
         "description": "Notification of second round reviews",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-10-15T10:00:00.000Z",
+        "date": "2027-10-15T12:00:00.000Z",
         "description": "Final version due",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2028-01-30T11:00:00.000Z",
+        "date": "2028-01-30T12:00:00.000Z",
         "description": "Tentative publication date",
         "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 1105,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Annals of Operations Research",
@@ -34369,7 +34449,7 @@
     "url": "https://link.springer.com/collections/bffeaajcfi",
     "title": "Multiple Objective Programming and Goal Programming: Artificial Intelligence for Decision Making in Economic and Social Sciences",
     "slug": "springer-multiple-objective-programming-and-goal-programming-artificial-intelligence-for-decision-making-in-economic-and-social-sciences",
-    "contentHash": "b1fb1c07849ecd5b0d3a74ac49e6530f794d1106612a2be5eb896765c6ea2fe4",
+    "contentHash": "f75ae6359cf56675fe1c45752baec1ab6fb047ade05d15ec33e7b98a88ca6096",
     "topics": [
       "Advancements in Multiple Objective Programming Techniques",
       "Goal Programming Techniques and Formulations",
@@ -34391,33 +34471,18 @@
     ],
     "description": {
       "paragraphs": [
-        "This special issue focuses on the intersection of Multiple Objective Optimization, Goal Programming, and Artificial Intelligence, addressing complex decision-making challenges in economics and social sciences. The collection seeks papers that combine these three domains to develop frameworks where optimization methods prioritize conflicting objectives, goal programming establishes specific targets, and AI enhances decision models through data analytics and machine learning.",
-        "The special issue welcomes both papers substantially extending contributions presented at the 16th International Conference on Multiple Objective Programming and Goal Programming (MOPGP'25) and new original work addressing theories and applications of MOP, GP, and AI in economic and social contexts."
+        "This special issue focuses on the convergence of Multiple Objective Programming (MOP), Goal Programming (GP), and Artificial Intelligence (AI) for addressing complex decision-making problems in economic and social sciences. The issue welcomes substantially extended papers from the 16th International Conference on Multiple Objective Programming and Goal Programming (MOPGP'25, held 1–3 July 2025 in Varese, Italy), as well as original unpublished papers not presented at the conference.",
+        "The special issue explores how MOP provides structured evaluation of conflicting objectives, GP facilitates goal-setting for decision makers, and AI enhances decision models through data analytics and machine learning. It covers theoretical advances and practical applications spanning sustainable development, resource allocation, public policy, environmental economics, social welfare optimization, and various computational methods for multi-criteria decision analysis."
       ]
     },
     "tags": [
-      "multiple objective programming",
+      "multiple objective optimization",
       "goal programming",
       "artificial intelligence",
-      "decision making",
-      "operations research",
-      "economic sciences",
-      "social sciences"
+      "decision-making",
+      "operations research"
     ],
-    "editors": [
-      {
-        "name": "Matteo Rocca",
-        "affiliation": "University of Insubria"
-      },
-      {
-        "name": "Davide La Torre",
-        "affiliation": "Skema Business School"
-      },
-      {
-        "name": "Constantin Zopounidis",
-        "affiliation": "Technical University of Crete"
-      }
-    ],
+    "editors": [],
     "associate_editors": [],
     "dates": [
       {
@@ -34427,7 +34492,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 959,
+      "tauxCopie": 0.058333333333333334,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Annals of Operations Research",
@@ -34563,27 +34634,30 @@
     "url": "https://link.springer.com/collections/fhcacbjcab",
     "title": "Patient experience data in regulatory and health technology assessment",
     "slug": "springer-patient-experience-data-in-regulatory-and-health-technology-assessment",
-    "contentHash": "bf02c39816fa5c8a681a30be599d0f48383100737eb082abd9dd95d5ef44f28b",
+    "contentHash": "307d41443ac3325352b7f8110d2027b3e4cfe3cf2a2ba9290bb7f7159e165be7",
     "topics": [
-      "Assessment of patient experience, preferences, symptoms, and health-related quality of life for regulatory and HTA submissions",
-      "Patient-reported outcomes and clinical outcome assessments in product development and evaluation",
-      "Patient preference information collection and evaluation",
-      "Artificial intelligence and digital health technology applications in patient experience data research",
-      "Regulatory and HTA developments and decision-making processes",
-      "Integration of patient voices in healthcare decisions to improve patient outcomes"
+      "Patient-reported outcomes",
+      "Health technology assessment",
+      "Patient preference information",
+      "Patient experience data",
+      "Regulatory submissions",
+      "Regulatory guidance",
+      "Health-related quality of life",
+      "Artificial intelligence in patient experience research",
+      "Digital health technology"
     ],
     "description": {
       "paragraphs": [
-        "Regulatory and health technology assessment bodies increasingly recognize the value of incorporating patient perspectives during product development and evaluation. Patient experience data encompasses patient-reported outcomes, clinical assessments, and preference information, yet their integration into decision-making remains inconsistent. This collection seeks to advance understanding of how different stakeholders approach patient experience data to ensure patient voices meaningfully influence healthcare decisions.",
-        "The collection invites original research, reviews, and discussion papers examining how patient experience data—including preferences, symptoms, and quality of life measures—can inform regulatory and HTA submissions and decisions. Contributions addressing recent developments in the field and exploring emerging applications such as artificial intelligence and digital health technologies in patient experience research are particularly encouraged."
+        "Regulatory and health technology assessment bodies increasingly recognize the importance of incorporating patient perspectives when evaluating healthcare products. Patient experience data encompasses patient-reported outcomes, clinical outcome assessments, and patient preference information. However, these data are often inconsistently integrated and evaluated in decision-making processes.",
+        "This collection invites submissions exploring how patient experience data, including preferences, symptoms, and health-related quality of life measures, are assessed and utilized in regulatory and health technology assessment contexts. The collection welcomes original research, reviews, and discussion papers addressing recent developments in this field, as well as work on emerging applications such as artificial intelligence and digital health technologies in patient experience research."
       ]
     },
     "tags": [
       "patient-reported outcomes",
       "health technology assessment",
       "regulatory science",
-      "patient experience",
-      "quality of life"
+      "patient preferences",
+      "health-related quality of life"
     ],
     "editors": [
       {
@@ -34598,13 +34672,19 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2027-06-30T10:00:00.000Z",
+        "date": "2027-06-30T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 884,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Electronic Markets",
@@ -34673,14 +34753,15 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T21:25:02.631Z",
     "controle": {
       "longueur": 914,
       "tauxCopie": 0,
       "relance": true,
       "topicsTropLongs": 0
-    }
+    },
+    "gracePeriod": "2026-11-18T07:46:49.582Z"
   },
   {
     "journal": "Electronic Markets",
@@ -34960,20 +35041,20 @@
     "url": "https://link.springer.com/collections/ecbjjiecib",
     "title": "Critical Perspectives on Digital Platform Ecosystems: Governance, Influence, and Consequences",
     "slug": "springer-topical-collection-critical-perspectives-on-digital-platform-ecosystems-governance-influence-and-consequences",
-    "contentHash": "dd27c8795f972246c19901a29c2a9b21999f33fc941e9327af244836b25df75e",
+    "contentHash": "7a080fe0171d3f003a075cd194ba82a2a332da0231e3015275e2ae64e135220b",
     "topics": [
-      "Platform Governance and Ecosystem Orchestration: Governance mechanisms, rule-setting, boundary resources, and the allocation of decision rights across platform owners, complementors, and users; centralized, decentralized, and hybrid governance models.",
-      "Strategic Conduct, Market Power, and Competitive Dynamics: Strategic positioning, platform envelopment, self-preferencing, lock-in, multi-homing, and the implications of dominant platforms for competition and market structure.",
-      "Innovation, Complementor Dynamics, and Value Co-creation: Generativity, innovation governance, API and data access, developer relations, incentive structures, and strategies for value creation and capture across ecosystem participants.",
-      "Content Governance, Speech, and Public Discourse: Content moderation, recommender systems, platform policies, and their effects on online speech, civic participation, and political communication across jurisdictions.",
-      "Societal Risks, Safety, and Equity: Fairness, inclusion, and distributional effects of platform governance and algorithmic decision-making; information integrity and the maintenance of digital trust; safety, well-being, and protection of vulnerable users.",
-      "Regulation, Policy, and Institutional Change: Antitrust and platform regulation, interoperability and portability, liability regimes, standards, oversight of platform policies and algorithmic systems, and the interaction between platform governance and public policy.",
-      "Platforms and Socio-Economic Development: Platformization trajectories, local innovation ecosystems, informal economies, and societal impacts in emerging and developing contexts."
+      "Platform Governance and Ecosystem Orchestration",
+      "Strategic Conduct, Market Power, and Competitive Dynamics",
+      "Innovation, Complementor Dynamics, and Value Co-creation",
+      "Content Governance, Speech, and Public Discourse",
+      "Societal Risks, Safety, and Equity",
+      "Regulation, Policy, and Institutional Change",
+      "Platforms and Socio-Economic Development"
     ],
     "description": {
       "paragraphs": [
-        "This special issue examines digital platform ecosystems and their multifaceted effects on society and the economy. Platforms have become central to value creation globally, influencing organizational strategies and reshaping industries, while also raising critical questions about their governance, design, and regulation. The issue seeks to understand how platform ecosystems shape societal outcomes across labor arrangements, content moderation, user protection, fairness, data practices, and policy interactions.",
-        "The collection invites theoretical and empirical contributions from information systems and related disciplines that address both the enabling potential and societal risks of digital platforms. Research may employ quantitative, qualitative, or mixed-methods approaches and can take various forms including conceptual papers, empirical studies, and position papers."
+        "This special issue examines digital platform ecosystems and their multifaceted effects on economies and societies. As platforms increasingly mediate work, communication, information access, and public participation, understanding their design, governance, and regulation becomes essential. The collection invites scholarly work addressing both the innovative potential and the societal challenges posed by these powerful intermediaries.",
+        "The special issue welcomes theoretical and empirical contributions employing diverse methodologies across information systems and related disciplines. Research may explore governance mechanisms, competitive dynamics, innovation structures, content moderation, equity concerns, regulatory frameworks, and platform effects in different economic contexts. All contributions undergo double-blind peer review."
       ]
     },
     "tags": [
@@ -34981,12 +35062,13 @@
       "platform governance",
       "regulation",
       "online harms",
-      "market power"
+      "market power",
+      "content moderation"
     ],
     "editors": [
       {
-        "name": "Hemant Bhargava",
-        "affiliation": "University of California, Davis"
+        "name": "Chayanin Wipusanawan",
+        "affiliation": "University of Passau"
       },
       {
         "name": "Andreas König",
@@ -34997,8 +35079,8 @@
         "affiliation": "University of Passau"
       },
       {
-        "name": "Chayanin Wipusanawan",
-        "affiliation": "University of Passau"
+        "name": "Hemant Bhargava",
+        "affiliation": "University of California Davis"
       }
     ],
     "associate_editors": [],
@@ -35017,9 +35099,10 @@
     "active": true,
     "pubDate": "2026-08-11T21:25:02.631Z",
     "controle": {
-      "longueur": 879,
+      "longueur": 840,
       "tauxCopie": 0,
-      "relance": false
+      "relance": false,
+      "topicsTropLongs": 0
     }
   },
   {
@@ -35160,31 +35243,33 @@
     "url": "https://link.springer.com/collections/aebjbihcdb",
     "title": "Digital Transformation and Service",
     "slug": "springer-topical-collection-on-digital-transformation-and-service",
-    "contentHash": "83b9c519bbbcf87e6fb134957e6b3201f94830b3d6d97a35acb01c241b5477f5",
+    "contentHash": "6c92e8dce6bf64bdcd1dda00abef129eb8fd3589a9b9f44b9b92960a3079d255",
     "topics": [
-      "Digital transformation and service in information systems",
-      "Design and application of IT artifacts for value co-creation",
-      "Smart service systems and ecosystems at multiple levels (communities, organizations, inter-organizational arrangements, platforms, data spaces, society)",
-      "Customer relations, value propositions, and service exchange enabled by digital technologies",
-      "Role of digital technologies in real-world service scenarios",
-      "Inter-organizational contexts such as service networks, digital platforms, data spaces, and business ecosystems",
-      "Digital technologies in established organizations, start-ups, public-sector organizations, and communities",
-      "Generative AI and large-scale artificial intelligence in service and digital transformation contexts",
-      "Digital responsibility in digital transformation"
+      "Digital transformation",
+      "Service systems and ecosystems",
+      "Value co-creation",
+      "IT artifact design",
+      "Customer relations and value propositions",
+      "Smart service systems",
+      "Inter-organizational service networks",
+      "Digital platforms",
+      "Data spaces",
+      "Business ecosystems",
+      "Generative AI and large language models",
+      "Digital responsibility"
     ],
     "description": {
       "paragraphs": [
-        "This topical collection examines how digital transformation and service shape contemporary information systems, particularly focusing on value creation across organizational boundaries through digital technologies, platforms, and ecosystems. The collection seeks theoretically grounded research that goes beyond broad claims about digital transformation to instead examine how IT artifacts are designed and applied to enable value co-creation in service contexts.",
-        "The collection prioritizes submissions that explicitly analyze IT artifacts rather than treating them as black boxes, showing how these artifacts shape and are shaped by organizational digital transformation. Research should be grounded in IS literature and address relevant gaps for both theory and practice, with particular interest in inter-organizational and platform-based service scenarios relevant to Electronic Markets."
+        "This topical collection seeks research exploring how digital technologies reshape organizational value creation and service delivery. The collection is particularly interested in studies examining how information technology artifacts enable or transform digital transformation and service exchange, with attention to value co-creation across organizational boundaries through networks, platforms, and ecosystems.",
+        "The collection welcomes diverse methodologies including design science, qualitative research, quantitative studies, and literature reviews. It especially encourages submissions investigating real-world service scenarios in inter-organizational contexts such as service networks, digital platforms, and business ecosystems. Papers must provide theoretical analysis of how IT artifacts shape digital transformation rather than treating information systems as black boxes."
       ]
     },
     "tags": [
       "digital transformation",
       "service",
-      "it artifacts",
-      "value co-creation",
-      "digital ecosystems",
-      "generative ai"
+      "information systems",
+      "ecosystems",
+      "artificial intelligence"
     ],
     "editors": [
       {
@@ -35209,11 +35294,17 @@
       {
         "date": null,
         "description": "Submission deadline",
-        "is_full_paper_submission_deadline": false
+        "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 881,
+      "tauxCopie": 0.02,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Electronic Markets",
@@ -35223,23 +35314,24 @@
     "url": "https://link.springer.com/collections/jbeibcbdfj",
     "title": "Service research in the digital era",
     "slug": "springer-topical-collection-on-service-research-in-the-digital-era",
-    "contentHash": "e43fddb952f5bd0a7f827b1e8ab4e184a713055c0e4bd47f4e14727f90edda0b",
+    "contentHash": "680fbc90e2e803225f4d109d3aefc1a76d5fdd7e908b89634fb2a46ffc4b14de",
     "topics": [
       "Service research and digital transformation",
       "Human-machine interactions and robots in value co-creation",
       "Technologies as enablers of market emergence and transformation",
       "Technologies and market shaping and market viability",
       "Phygital customer journey and metaverses",
-      "Service research in complex industry settings (e.g., Industry 4.0)",
+      "Service research in complex industry settings",
       "Business models to manage networks and service systems",
-      "Emergence and institutionalization in service eco-systems",
+      "Emergence and institutionalization in service ecosystems",
       "Application of service-dominant logic to networks and markets",
       "Advances in combining network theory and service science"
     ],
     "description": {
       "paragraphs": [
-        "This topical collection addresses how service research must evolve in response to digital transformation and emerging technologies such as artificial intelligence, augmented reality, the internet of Things, and blockchain. The collection examines how technology enables value co-creation among diverse actors and shapes service ecosystems where human and non-human participants interact.",
-        "The collection invites research exploring how technological advances create market emergence, institutional change, and new service platforms. It welcomes original contributions from diverse methodological approaches including conceptual, qualitative, and quantitative studies, case studies, and position papers that advance understanding of service dynamics in digitally transformed contexts."
+        "Digital transformation is reshaping how services are conceptualized and delivered across business and society. Technological advances including artificial intelligence, augmented reality, the internet of Things, and blockchain are fundamentally changing value co-creation dynamics between human and non-human actors, requiring service research to evolve and adapt to these new realities.",
+        "Markets can be understood as service ecosystems where diverse actors collaborate to create value through various institutional arrangements. Technological adoption generates both opportunities and challenges that stimulate market emergence, transformation, and the development of new service platforms, creating rich possibilities for research across multiple dimensions.",
+        "This collection welcomes original research exploring how digital technologies enable and shape service systems, market dynamics, and value co-creation. The journal invites conceptual, qualitative, and quantitative contributions, including case studies and position papers that examine service research within the digital era across diverse industry contexts."
       ]
     },
     "tags": [
@@ -35247,37 +35339,25 @@
       "digital transformation",
       "value co-creation",
       "service ecosystems",
-      "technology",
-      "market emergence"
+      "technology"
     ],
-    "editors": [
-      {
-        "name": "Cristina Mele",
-        "affiliation": "University of Naples Federico II"
-      },
-      {
-        "name": "Francesco Polese",
-        "affiliation": "University of Salerno"
-      },
-      {
-        "name": "Jim Spohrer",
-        "affiliation": "International Society of Service Innovation Professionals"
-      },
-      {
-        "name": "Bård Tronvoll",
-        "affiliation": "Karlstad University"
-      }
-    ],
+    "editors": [],
     "associate_editors": [],
     "dates": [
       {
         "date": null,
         "description": "Submission deadline",
-        "is_full_paper_submission_deadline": true
+        "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 1116,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Journal of the Academy of Marketing Science",
@@ -35336,54 +35416,45 @@
     "url": "https://link.springer.com/collections/eghcgfcedb",
     "title": "Unpacking Digitalization: Antecedents, Strategies, and Performance Implications",
     "slug": "springer-unpacking-digitalization-antecedents-strategies-and-performance-implications",
-    "contentHash": "c70c7571a91d737d8e34e0b4a1bbb2b777dfb544fe47541b0c302d3f850c06db",
+    "contentHash": "908b21568b92b28ae24570ee2561c45be3f51112982e887c1dd9a065c99d1c3d",
     "topics": [
-      "Antecedents of digital technologies adoption: Strategic approaches including organizational, technological, institutional, and market-related factors influencing SMEs' digitalization strategies",
-      "Differences in digitalization strategies between industries or economic contexts",
-      "Strategic choices and prerequisites supporting digitally-induced organizational actions",
-      "Socio-technical system readiness factors including technical infrastructure, organizational culture, workforce capabilities, and data governance maturity",
-      "Ecosystem characteristics and their role in shaping digitally enabled interactions",
-      "Human-technology interaction and integration of digital technologies into firm operations",
-      "Value-adding strategies promoted through digital technology integration",
-      "Organizational resources, processes, and competencies supporting digital technology integration",
-      "Strategic purposes for technology integration: automation, augmentation, cybersecurity, and innovation",
-      "Digital literacy, ethical concerns, organizational culture, and managerial practices in technology adoption",
-      "Digital transformation in the public sector with constrained resources",
-      "Leadership, governance structures, and resource orchestration in public institutions",
-      "E-administration, hybrid learning platforms, and AI-enabled service delivery in public organizations",
-      "Spillover effects of public digital initiatives on regional SMEs",
-      "Public-private partnerships and cross-sector collaborations for digital solutions",
-      "Governance models and knowledge-sharing mechanisms enhancing digital co-creation",
-      "Absorptive capacity development through partnerships",
-      "Sector and regional ecosystem factors affecting partnership effectiveness",
-      "Performance outcomes of digital technologies and technology-enabled strategies",
-      "Individual-level outcomes including productivity, learning, creativity, and decision quality",
-      "Firm-level outcomes including innovation, internationalization, operational efficiency, and sustainability",
-      "Mechanisms explaining heterogeneous digitalization outcomes across individuals, teams, and firms",
-      "Digital literacy and human-technology interactions shaping performance outcomes",
-      "Strategic alignment of competencies and digital technologies for competitive advantage",
-      "Digital transformation impacts on power dynamics between entrants and incumbents"
+      "Antecedents of SME digitalization strategies",
+      "Strategic choices in digital transformation",
+      "Socio-technical system readiness factors",
+      "Ecosystem characteristics and digital interactions",
+      "Integration of digital technologies in operations",
+      "Automation, augmentation, and innovation",
+      "Digital literacy and organizational culture",
+      "Public sector digitalization",
+      "Leadership and governance in digital transformation",
+      "Public-private partnerships for digital solutions",
+      "Absorptive capacity and co-creation",
+      "Individual-level outcomes of digitalization",
+      "Firm-level performance outcomes",
+      "Heterogeneous effects of digital transformation",
+      "Strategic alignment and digital technologies",
+      "Digital transformation and competitive positioning"
     ],
     "description": {
       "paragraphs": [
-        "Digital technologies are fundamentally reshaping how both private and public organizations—including universities, hospitals, and local administrations—conceive strategy, innovate, and compete. However, scholarly understanding remains fragmented regarding how digitalization operates across different functional areas and organizational levels, and literature has not fully clarified the mechanisms through which technological adoption generates performance gains or the conditions under which it falters.",
-        "Organizations face a 'digitalization paradox': while digital technologies offer significant benefits for innovation, internationalization, and sustainability, their successful adoption requires alignment between strategy, technological choices, and internal capabilities. Yet many organizations encounter resource constraints, knowledge gaps, and organizational inertia that complicate implementation. Additionally, less-explored aspects such as technology-resource misalignment, digital fatigue, and the challenges faced by public institutions suggest that digitalization cannot be treated as a universal solution but rather as a contingent process shaped by organizational, technological, and environmental factors.",
-        "This special issue seeks rigorous research examining how organizations and public institutions develop, implement, and evaluate their digitalization strategies, and how these efforts interact with internal resources and external environments to shape outcomes. The issue welcomes empirical, conceptual, and case-based studies from researchers investigating the antecedents driving digital transformation, the human-technology dynamics and organizational processes it involves, its distinct manifestations in public sector contexts, and its performance consequences across different units of analysis."
+        "Organizations across private and public sectors face challenges integrating digital technologies. While digitalization offers innovation and performance opportunities, many organizations struggle with resource constraints, knowledge gaps, and organizational inertia. The literature remains fragmented on how digitalization unfolds across different contexts, particularly for SMEs and public service providers lacking the resources of large corporations.",
+        "This special issue examines how organizations conceive, deploy, and leverage digital strategies. It seeks research on the factors driving digitalization decisions, mechanisms linking digital transformation to individual and organizational outcomes, and how human-technology interactions shape success. Studies on private firms, universities, hospitals, and public administrations are welcome, including the 'dark side' of digitalization such as technology-resource misalignment.",
+        "Contributors should adopt novel theoretical approaches or robust empirical strategies to investigate how organizations manage digital transformation and how internal resources and external environments interact to influence outcomes. Case-based and empirical submissions are welcomed with attention to managerial implications. Review articles will not be considered."
       ]
     },
     "tags": [
       "digital transformation",
-      "digitalization strategy",
+      "digitalization strategies",
       "organizational performance",
       "digital technologies",
-      "public sector digitalization",
-      "human-technology interaction",
-      "business model innovation"
+      "smes",
+      "public sector",
+      "human-technology interaction"
     ],
     "editors": [
       {
         "name": "Jasmina Berbegal-Mirabent",
-        "affiliation": "Universitat Politècnica de Catalunya"
+        "affiliation": "Polytechnic University of Catalonia"
       },
       {
         "name": "Angelo Cavallo",
@@ -35395,49 +35466,55 @@
       },
       {
         "name": "Esteban Lafuente",
-        "affiliation": "Instituto Tecnológico de Costa Rica"
+        "affiliation": "Costa Rica Institute of Technology"
       }
     ],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-02-28T11:00:00.000Z",
+        "date": "2026-02-28T12:00:00.000Z",
         "description": "Open for submissions",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-01-31T11:00:00.000Z",
+        "date": "2027-01-31T12:00:00.000Z",
         "description": "Paper submission deadline",
         "is_full_paper_submission_deadline": true
       },
       {
-        "date": "2027-04-30T10:00:00.000Z",
+        "date": "2027-04-30T12:00:00.000Z",
         "description": "First-round review decision to authors",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-07-30T10:00:00.000Z",
+        "date": "2027-07-30T12:00:00.000Z",
         "description": "Revised manuscript due",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-10-31T11:00:00.000Z",
+        "date": "2027-10-31T12:00:00.000Z",
         "description": "Second-round review decision to authors",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2028-01-31T11:00:00.000Z",
+        "date": "2028-01-31T12:00:00.000Z",
         "description": "Final revised manuscript due",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2028-04-30T10:00:00.000Z",
+        "date": "2028-04-30T12:00:00.000Z",
         "description": "Final author notification of acceptance",
         "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "controle": {
+      "longueur": 1297,
+      "tauxCopie": 0.019867549668874173,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Environmental and Resource Economics",
@@ -46983,8 +47060,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-11-18T07:46:49.582Z"
   },
   {
     "journal": "International Journal of Advertising",
