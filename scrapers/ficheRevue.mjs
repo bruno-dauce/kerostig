@@ -16,14 +16,13 @@
 // Avant, la phrase etait la meme pour les 885 fiches (« accès ouvert et dépôt
 // en archive ouverte »), sans dire ce que la revue offrait reellement.
 //
-// estOa : true, false, ou null quand ni OpenAlex ni DOAJ ne connaissent la
-//   revue. null n'est pas « sur abonnement » : la phrase est omise.
+// dansDoaj : true, false, ou null quand le champ dans_doaj manque (phrase omise).
 // apc : { gratuit, montant, devise } ou null, comme dans acces_ouvert.apc.
 // depotHal : true, false, ou null. Le champ vient d'Open Policy Finder
 //   (depot_hal_possible) : Mir@bel ne publie aucune politique de depot par son
 //   API, il ne peut donc pas l'alimenter. null (revue absente d'OPF, ou
 //   politique sans detail exploitable) omet la phrase.
-export function descriptionMetaRevue({ titre, discipline, rangs, estOa, apc, depotHal, nbAppelsOuverts, nbAppelsArchives }) {
+export function descriptionMetaRevue({ titre, discipline, rangs, dansDoaj, apc, depotHal, nbAppelsOuverts, nbAppelsArchives }) {
     const nom = typeof titre === 'string' ? titre.trim() : '';
     const rangsConnus = Array.isArray(rangs) ? rangs.filter((r) => typeof r === 'string' && r !== '') : [];
 
@@ -34,12 +33,17 @@ export function descriptionMetaRevue({ titre, discipline, rangs, estOa, apc, dep
     const apcPayant = apc && !apc.gratuit && apc.montant != null && apc.devise
         ? `APC ${apc.montant} ${apc.devise}`
         : null;
-    if (estOa === true) {
-        if (apc && apc.gratuit) phrases.push('Accès ouvert, sans frais de publication.');
-        else if (apcPayant) phrases.push(`Accès ouvert, ${apcPayant}.`);
-        else phrases.push('Accès ouvert.');
-    } else if (estOa === false) {
-        phrases.push(apcPayant ? `Sur abonnement, option hybride avec ${apcPayant}.` : 'Sur abonnement.');
+    // Seule la presence au DOAJ est un fait etabli. est_oa vient sinon de
+    // l'indicateur OpenAlex : « sur abonnement » en etait deduit pour 838 revues,
+    // ce qu'aucune donnee n'etablit (revue hybride, par exemple). On n'ecrit donc
+    // que la presence ou l'absence au DOAJ, et l'APC avec sa source.
+    if (dansDoaj === true) {
+        if (apc && apc.gratuit) phrases.push('Revue en accès ouvert (DOAJ), sans frais de publication.');
+        else if (apcPayant) phrases.push(`Revue en accès ouvert (DOAJ), ${apcPayant}.`);
+        else phrases.push('Revue en accès ouvert (DOAJ).');
+    } else if (dansDoaj === false) {
+        phrases.push('Revue non référencée au DOAJ.');
+        if (apcPayant) phrases.push(`${apcPayant} (OpenAlex).`);
     }
 
     if (depotHal === true) phrases.push('Dépôt HAL : possible.');

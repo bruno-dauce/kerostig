@@ -219,7 +219,7 @@ export default async function (eleventyConfig) {
             rangs: revue.rangs_fnege_2025 && revue.rangs_fnege_2025.length
                 ? revue.rangs_fnege_2025
                 : [revue.rang_fnege_2025],
-            estOa: typeof ao.est_oa === "boolean" ? ao.est_oa : null,
+            dansDoaj: typeof ao.dans_doaj === "boolean" ? ao.dans_doaj : null,
             apc: ao.apc || null,
             depotHal: aa.found && typeof aa.depot_hal_possible === "boolean" ? aa.depot_hal_possible : null,
             nbAppelsOuverts: appelsLiesALaRevue(allCalls, revue, appelAffichable).length,

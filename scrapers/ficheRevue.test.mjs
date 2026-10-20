@@ -9,13 +9,13 @@ test('description complète : revue en accès ouvert avec APC, dépôt HAL possi
     assert.equal(
         descriptionMetaRevue({
             ...base,
-            estOa: true,
+            dansDoaj: true,
             apc: { gratuit: false, montant: 2000, devise: 'EUR' },
             depotHal: true,
             nbAppelsOuverts: 3,
             nbAppelsArchives: 2,
         }),
-        'Technovation en Innovation. Rang FNEGE 2025 : 2. Accès ouvert, APC 2000 EUR. Dépôt HAL : possible. Calls for papers ouverts et archivés.'
+        'Technovation en Innovation. Rang FNEGE 2025 : 2. Revue en accès ouvert (DOAJ), APC 2000 EUR. Dépôt HAL : possible. Calls for papers ouverts et archivés.'
     );
 });
 
@@ -29,23 +29,21 @@ test('le libellé des appels suit ce que la fiche montre', () => {
 // Policy Finder. Ni statut d'accès, ni dépôt, ni rang inventé.
 test('les données absentes sont omises, jamais inventées', () => {
     assert.equal(
-        descriptionMetaRevue({ titre: 'Revue X', rangs: [], estOa: null, apc: null, depotHal: null }),
+        descriptionMetaRevue({ titre: 'Revue X', rangs: [], dansDoaj: null, apc: null, depotHal: null }),
         'Revue X. Calls for papers : aucun appel collecté pour le moment.'
     );
 });
 
-test('accès : sans frais, sur abonnement, hybride', () => {
-    assert.match(descriptionMetaRevue({ ...base, estOa: true, apc: { gratuit: true } }), /Accès ouvert, sans frais de publication\./);
-    assert.match(descriptionMetaRevue({ ...base, estOa: false }), /Sur abonnement\./);
-    assert.match(
-        descriptionMetaRevue({ ...base, estOa: false, apc: { gratuit: false, montant: 3000, devise: 'USD' } }),
-        /Sur abonnement, option hybride avec APC 3000 USD\./
-    );
+test('accès : seul le DOAJ établit l accès ouvert, son absence n est pas « sur abonnement »', () => {
+    assert.match(descriptionMetaRevue({ ...base, dansDoaj: true, apc: { gratuit: true } }), /Revue en accès ouvert \(DOAJ\), sans frais de publication\./);
+    const hors = descriptionMetaRevue({ ...base, dansDoaj: false, apc: { gratuit: false, montant: 3000, devise: 'USD' } });
+    assert.match(hors, /Revue non référencée au DOAJ\. APC 3000 USD \(OpenAlex\)\./);
+    assert.doesNotMatch(hors, /abonnement|hybride/);
 });
 
 test('un APC sans montant ou sans devise n est pas écrit à moitié', () => {
-    assert.match(descriptionMetaRevue({ ...base, estOa: true, apc: { gratuit: false, montant: null, devise: 'EUR' } }), /Accès ouvert\./);
-    assert.doesNotMatch(descriptionMetaRevue({ ...base, estOa: true, apc: { gratuit: false, montant: 100 } }), /APC/);
+    assert.match(descriptionMetaRevue({ ...base, dansDoaj: true, apc: { gratuit: false, montant: null, devise: 'EUR' } }), /Revue en accès ouvert \(DOAJ\)\./);
+    assert.doesNotMatch(descriptionMetaRevue({ ...base, dansDoaj: true, apc: { gratuit: false, montant: 100 } }), /APC/);
 });
 
 test('dépôt HAL : sous conditions quand Open Policy Finder dit non, omis quand il ne dit rien', () => {
