@@ -24,6 +24,9 @@ type: website
 </head>
 
 <body>
+    {# Icone de lien sortant, definie une fois : les cartes la referencent par <use> au
+       lieu de repeter le dessin (deux fois par carte). #}
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="icone-externe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></symbol></svg>
     <div class="min-h-screen flex">
         <div class="container mx-auto px-8 flex flex-col">
             {% include "header.html" %}
@@ -43,6 +46,22 @@ type: website
        Un lien reste un lien : focus et Entree au clavier declenchent le meme clic. Un
        clic avec modificateur (nouvel onglet) suit le href : l'accueil non filtre. #}
     <script>
+    // Compte a rebours « J-n » des cartes, calcule une fois pour toutes les cartes de la
+    // page. Meme regle qu'avant : visible seulement si l'echeance est a venir, en
+    // terracotta a 14 jours ou moins.
+    (function () {
+        var maintenant = Date.now();
+        var badges = document.querySelectorAll('[data-jours]');
+        for (var i = 0; i < badges.length; i++) {
+            var carte = badges[i].closest('[data-duedate]');
+            var jours = carte ? Math.ceil((Date.parse(carte.getAttribute('data-duedate')) - maintenant) / 86400000) : NaN;
+            if (!(jours > 0)) continue;
+            badges[i].textContent = 'J-' + jours;
+            badges[i].style.cssText = jours <= 14
+                ? 'background:#C15A34;border-color:#C15A34;color:#fff'
+                : 'background:#E4DFD5;border-color:#E4DFD5;color:#16293B';
+        }
+    })();
     document.addEventListener('click', function (e) {
         if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
         var a = e.target.closest ? e.target.closest('a[data-nav], a[data-rang-local]') : null;

@@ -14,6 +14,9 @@
    call.metaTitle ne l'etait pas -- un metaTitle contenant un guillemet droit
    tronquait data-title et transformait la suite en attributs parasites, ce qui
    faisait rater l'appel a la recherche de main.html. #}
+{# Espaces et indentation du gabarit retires (compact, cf. eleventy.config.mjs) : ils
+   pesaient pres d'un quart du HTML des cartes. #}
+{% compact %}
 <div x-show="show_call($el)"
     data-title="{{ call.title if call.title else call.metaTitle }}"
     data-journal="{{ revue.titre if revue else call.journal }}"
@@ -38,13 +41,10 @@
                 <h2 class="text-lg font-bold leading-snug">{{ titreAffiche }}</h2>
             </a>
             {% if dueDate %}
-            <span x-data="{ jours: Math.ceil((new Date('{{ dueDate.date }}') - new Date()) / 86400000) }"
-                  x-show="jours > 0"
-                  class="badge badge-sm font-semibold whitespace-nowrap flex-shrink-0"
-                  :class="jours <= 14 ? 'text-white' : ''"
-                  :style="jours <= 14 ? 'background:#C15A34;border-color:#C15A34' : 'background:#E4DFD5;border-color:#E4DFD5;color:#16293B'">
-                <span x-text="'J-' + jours"></span>
-            </span>
+            {# Compte a rebours : texte et couleur poses par le script de base.html a partir
+               de data-duedate (la carte), au lieu d'un composant Alpine par carte. Masque
+               tant que le script n'a pas conclu a une echeance a venir. #}
+            <span data-jours style="display:none" class="badge badge-sm font-semibold whitespace-nowrap flex-shrink-0"></span>
             {% endif %}
         </div>
 
@@ -158,10 +158,11 @@
             {% if call.url %}
             <a href="{{ call.url }}" target="_blank" rel="noopener" class="text-xs opacity-70 hover:opacity-100 flex items-center gap-1">
                 Source
-                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                <svg class="w-3 h-3" aria-hidden="true"><use href="#icone-externe"/></svg>
             </a>
             {% endif %}
         </div>
 
     </div>
 </div>
+{% endcompact %}

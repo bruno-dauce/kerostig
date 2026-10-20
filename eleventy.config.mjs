@@ -773,6 +773,18 @@ export default async function (eleventyConfig) {
         });
     });
 
+    // Retire les espaces et l'indentation entre les balises d'une carte d'appel.
+    // Limite aux cartes, pas applique a toute la sortie : le x-data de main.html
+    // contient des commentaires « // » dans un attribut, que replier les retours a la
+    // ligne mettrait en commentaire. Les cartes n'ont ni script, ni <pre>.
+    eleventyConfig.addPairedShortcode("compact", (contenu) => contenu.replace(/\s+/g, " ").replace(/> </g, "><").trim());
+
+    // Disciplines pour le filtre de l'accueil : code, nom et slug seulement. La
+    // description (introduction de la page discipline) n'y sert a rien et pesait
+    // 7,5 Ko d'attributs echappes dans le HTML de l'accueil.
+    eleventyConfig.addFilter("disciplinesPourFiltre", (liste) =>
+        (liste || []).map(({ code, nom, slug }) => ({ code, nom, slug })));
+
     eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
 
     eleventyConfig.addPassthroughCopy('www/rss.xml');

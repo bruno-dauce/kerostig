@@ -27,7 +27,7 @@ layout: layouts/base.html
     issnFrancophones: {{ journals | issnRevuesFrancophones | json }},
     // Les 17 disciplines FNEGE viennent de _data/disciplines.json, seule source
     // du nom d'affichage et du slug de la route /discipline/.
-    discList: {{ disciplines | json }},
+    discList: {{ disciplines | disciplinesPourFiltre | json }},
     echeanceList: [['', 'Toutes'], ['30', '< 30 jours'], ['90', '1 – 3 mois'], ['90+', '> 3 mois']],
     sort: 'duedate',
     sortOrder: false,
