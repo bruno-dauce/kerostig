@@ -19,7 +19,7 @@
    Le cas ne se presentait pas tant que le perimetre s'arretait au rang 3 : les
    492 revues d'alors etaient toutes dans OpenAlex. #}
 
-{% macro nom(revue) %}{% if revue.acces_ouvert.est_oa == null %}non renseigné{% else %}{% set source = revue.acces_ouvert.source_oa or ('DOAJ' if revue.acces_ouvert.dans_doaj else 'OpenAlex') %}{{ source }}{% endif %}{% endmacro %}
+{% macro nom(revue) %}{% if revue.acces_ouvert.dans_doaj %}DOAJ{% elif revue.acces_ouvert.est_oa == null %}non renseigné{% else %}revue absente du DOAJ, indicateur OpenAlex non vérifié{% endif %}{% endmacro %}
 
 {# Note visible, pour les surfaces qui detaillent l'acces ouvert (fiche revue,
    fiche appel). Rien quand la donnee vient de DOAJ : c'est la source attendue,

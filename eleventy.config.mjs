@@ -433,7 +433,6 @@ export default async function (eleventyConfig) {
             // Le texte de l'appel (titre, description, sujets) est repris tel
             // quel de l'editeur, donc en anglais, meme si la page est en francais.
             inLanguage: "en",
-            isAccessibleForFree: true,
             audience: { "@type": "Audience", audienceType: AUDIENCE_KEROSTIG },
         };
 
@@ -506,6 +505,9 @@ export default async function (eleventyConfig) {
         if (issns.length) periodique.issn = issns;
         if (revue.editeur) periodique.publisher = { "@type": "Organization", name: revue.editeur };
         if (nomDiscipline) periodique.genre = nomDiscipline;
+        // Seule la presence au DOAJ etablit l'acces ouvert. Ni valeur par defaut
+        // ni « false » : une revue absente du DOAJ peut etre hybride.
+        if (revue.acces_ouvert && revue.acces_ouvert.dans_doaj === true) periodique.isAccessibleForFree = true;
         if (revue.metriques && Array.isArray(revue.metriques.thematiques) && revue.metriques.thematiques.length) {
             periodique.about = revue.metriques.thematiques.map((t) => ({ "@type": "Thing", name: t }));
         }
