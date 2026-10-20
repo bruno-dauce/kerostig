@@ -104,13 +104,12 @@
       <div>
         <dt class="opacity-70">Accès</dt>
         <dd class="font-semibold">
-          {# est_oa a null n'est pas « sur abonnement » : ni OpenAlex ni DOAJ ne
-             connaissent la revue. On l'annonce comme absent, sans attribution,
-             a l'image de la ligne « Depot en archive ouverte » ci-dessous. #}
-          {% if revue.acces_ouvert.est_oa == null %}
-            Non renseigné
-          {% elif revue.acces_ouvert.est_oa %}
-            <span style="color:#2F7D5C">Accès ouvert</span>
+          {# Seule la presence au DOAJ est un fait etabli. est_oa vient sinon de
+             l'indicateur OpenAlex : il ne dit pas « sur abonnement » (revue hybride
+             possible), on n'ecrit donc que la presence ou l'absence au DOAJ, et
+             l'avis d'OpenAlex avec sa source quand il signale un acces ouvert. #}
+          {% if revue.acces_ouvert.dans_doaj %}
+            <span style="color:#2F7D5C">Accès ouvert (DOAJ)</span>
             {% if revue.acces_ouvert.apc %}
               {% if revue.acces_ouvert.apc.gratuit %}
                 <br><span class="font-normal text-xs opacity-80">Sans frais de publication</span>
@@ -119,17 +118,17 @@
               {% endif %}
             {% endif %}
           {% else %}
-            Sur abonnement
+            Non référencée au DOAJ
+            {% if revue.acces_ouvert.est_oa %}
+              <br><span class="font-normal text-xs opacity-80">Accès ouvert selon OpenAlex, non vérifié par DOAJ</span>
+            {% endif %}
             {% if revue.acces_ouvert.apc and not revue.acces_ouvert.apc.gratuit %}
-              <br><span class="font-normal text-xs opacity-80">Option hybride · APC {{ revue.acces_ouvert.apc.montant }} {{ revue.acces_ouvert.apc.devise }}</span>
+              <br><span class="font-normal text-xs opacity-80">APC {{ revue.acces_ouvert.apc.montant }} {{ revue.acces_ouvert.apc.devise }} (OpenAlex)</span>
             {% endif %}
           {% endif %}
           {% if revue.acces_ouvert.licence %}
             <br><span class="font-normal text-xs opacity-70">{{ revue.acces_ouvert.licence }}</span>
           {% endif %}
-          {# Reserve affichee quand rien ne vient de DOAJ : le statut, l'APC et
-             la licence reposent alors sur le seul signal OpenAlex. #}
-          {{ srcOa.note(revue) }}
         </dd>
       </div>
 
