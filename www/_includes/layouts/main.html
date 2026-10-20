@@ -346,6 +346,22 @@ layout: layouts/base.html
         <p class="text-sm opacity-70" x-text="'{{ nbRevues }} revues de gestion suivies · ' + total_open_count() + ' appel' + (total_open_count() !== 1 ? 's' : '') + ' ouvert' + (total_open_count() !== 1 ? 's' : '')">{{ nbRevues }} revues de gestion suivies · {{ nbAppels }} appel{{ 's' if nbAppels != 1 }} ouvert{{ 's' if nbAppels != 1 }}</p>
     </div>
 
+    {# Les 17 pages discipline en liens HTML, tout en haut de l'accueil : le menu
+       deroulant du filtre et son lien « Voir la page » sont produits par Alpine, et
+       le pied de page est a la fin d'un document de plus de 3 Mo. Ce bloc ne passe ni
+       par x-show ni par x-for, donc il existe dans le HTML servi, dans ses premiers
+       octets. Cette mise en page sert aussi les pages tag, qui ne le portent pas. #}
+    {% if page.url == '/' %}
+    <nav class="mb-6 text-center" aria-label="Parcourir par discipline">
+        <p class="text-xs opacity-70 mb-2">Parcourir par discipline</p>
+        <ul class="flex flex-wrap justify-center gap-x-4 gap-y-1 text-xs sm:text-sm">
+            {% for d in disciplines %}
+            <li><a href="{{ ('/discipline/' + d.slug + '/') | url }}" class="hover:underline" style="color:#2B5F8E">{{ d.nom }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+    {% endif %}
+
     <div class="lg:hidden mb-4 space-y-2">
         <button @click="filtersOpen = !filtersOpen" class="btn btn-sm bg-base-200 border-base-300 w-full justify-between font-normal">
             <span>Filtres <span x-show="activeFilterCount() > 0" x-text="'(' + activeFilterCount() + ')'" class="font-semibold"></span></span>
