@@ -35,6 +35,19 @@ test('titre : sans revue ni titre, une valeur toujours exploitable', () => {
     assert.equal(titreMetaAppel({}), 'Appel à publications (call for papers)');
 });
 
+test('titre : un appel clos porte la mention « clôturé »', () => {
+    assert.equal(
+        titreMetaAppel({ titre: 'Platform thinking', nomRevue: 'Technovation', cloture: true }),
+        'Platform thinking, Technovation (call for papers, clôturé)'
+    );
+    // Le titre dit deja « call for » : seule la mention de cloture s'ajoute.
+    assert.equal(
+        titreMetaAppel({ titre: 'Emerging Markets Review: Call for African Research Proposals', nomRevue: 'Emerging Markets Review', cloture: true }),
+        'Emerging Markets Review: Call for African Research Proposals (clôturé)'
+    );
+    assert.equal(titreMetaAppel({ cloture: true }), 'Appel à publications (call for papers, clôturé)');
+});
+
 test('description complete', () => {
     assert.equal(
         descriptionMetaAppel({

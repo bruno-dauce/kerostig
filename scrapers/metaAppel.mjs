@@ -1,6 +1,7 @@
 // Balises title et description d'une fiche appel, selon les gabarits de la
 // strategie SEO (section 4) :
 //   titre       : {titre de l'appel}, {revue} (call for papers)
+//                 (appel clos : « (call for papers, clôturé) »)
 //   description : Appel a publications de {revue}, rang FNEGE {rang}.
 //                 Echeance : {date}. {acces}. Lien vers l'appel original.
 //
@@ -28,7 +29,9 @@ function jourFrancais(iso) {
     return date.isValid ? date.setLocale('fr').toLocaleString(DateTime.DATE_FULL) : null;
 }
 
-export function titreMetaAppel({ titre, nomRevue }) {
+// cloture : la strategie (section 4) demande la mention « clôturé » dans le
+// titre comme dans la description d'un appel clos.
+export function titreMetaAppel({ titre, nomRevue, cloture = false }) {
     const intitule = typeof titre === 'string' ? titre.trim() : '';
     const revue = typeof nomRevue === 'string' ? nomRevue.trim() : '';
 
@@ -38,8 +41,12 @@ export function titreMetaAppel({ titre, nomRevue }) {
     if (revue && !intitule.toLowerCase().includes(revue.toLowerCase())) {
         resultat = resultat ? `${resultat}, ${revue}` : revue;
     }
-    if (!MENTION_APPEL.test(intitule)) {
-        resultat = resultat ? `${resultat} (call for papers)` : 'Appel à publications (call for papers)';
+    const mention = MENTION_APPEL.test(intitule);
+    if (!mention) {
+        const annexe = cloture ? 'call for papers, clôturé' : 'call for papers';
+        resultat = resultat ? `${resultat} (${annexe})` : `Appel à publications (${annexe})`;
+    } else if (cloture) {
+        resultat = `${resultat} (clôturé)`;
     }
     return resultat;
 }

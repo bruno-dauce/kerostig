@@ -684,6 +684,7 @@ export default async function (eleventyConfig) {
         return titreMetaAppel({
             titre: call.title || call.metaTitle,
             nomRevue: (revue && revue.titre) || call.journal,
+            cloture: !appelAffichable(call),
         });
     });
     eleventyConfig.addFilter("descriptionMetaAppel", function (call, journals) {
