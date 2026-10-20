@@ -7,7 +7,11 @@
 // Description d'une fiche revue, d'apres le gabarit de la strategie SEO
 // (section 4) :
 //   {revue} en {discipline}. Rang FNEGE 2025 : {rang}. {acces et APC}.
-//   Depot HAL : {politique}. Appels a publications ouverts (calls for papers).
+//   Depot HAL : {politique}. Calls for papers ouverts et archives.
+//
+// La section 4 de la strategie (v2) repartit les deux expressions cles : le
+// titre de la page porte « appels à publications », cette description « call
+// for papers ».
 //
 // Avant, la phrase etait la meme pour les 885 fiches (« accès ouvert et dépôt
 // en archive ouverte »), sans dire ce que la revue offrait reellement.
@@ -19,7 +23,7 @@
 //   (depot_hal_possible) : Mir@bel ne publie aucune politique de depot par son
 //   API, il ne peut donc pas l'alimenter. null (revue absente d'OPF, ou
 //   politique sans detail exploitable) omet la phrase.
-export function descriptionMetaRevue({ titre, discipline, rangs, estOa, apc, depotHal, nbAppelsOuverts }) {
+export function descriptionMetaRevue({ titre, discipline, rangs, estOa, apc, depotHal, nbAppelsOuverts, nbAppelsArchives }) {
     const nom = typeof titre === 'string' ? titre.trim() : '';
     const rangsConnus = Array.isArray(rangs) ? rangs.filter((r) => typeof r === 'string' && r !== '') : [];
 
@@ -41,9 +45,12 @@ export function descriptionMetaRevue({ titre, discipline, rangs, estOa, apc, dep
     if (depotHal === true) phrases.push('Dépôt HAL : possible.');
     else if (depotHal === false) phrases.push('Dépôt HAL : sous conditions.');
 
-    phrases.push(nbAppelsOuverts > 0
-        ? `${nbAppelsOuverts} appel${nbAppelsOuverts > 1 ? 's' : ''} à publications ouvert${nbAppelsOuverts > 1 ? 's' : ''} (calls for papers).`
-        : 'Appels à publications (calls for papers) : aucun ouvert actuellement.');
+    // Le libelle suit ce que la fiche montre reellement : « ouverts et archives »
+    // n'est pas ecrit pour une revue qui n'a ni l'un ni l'autre.
+    if (nbAppelsOuverts > 0 && nbAppelsArchives > 0) phrases.push('Calls for papers ouverts et archivés.');
+    else if (nbAppelsOuverts > 0) phrases.push('Calls for papers ouverts.');
+    else if (nbAppelsArchives > 0) phrases.push('Calls for papers archivés.');
+    else phrases.push('Calls for papers : aucun appel collecté pour le moment.');
 
     return phrases.join(' ');
 }

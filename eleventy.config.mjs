@@ -17,6 +17,21 @@ import { descriptionMetaRevue, revuesVoisines } from "./scrapers/ficheRevue.mjs"
 // "industry 4.0" -> industry-40 contre industry-4-0). Ensuite www/tag/ date du
 // dernier passage du scraper, pas du build en cours : un tag apparu depuis n'a
 // pas encore de flux. Dans les deux cas l'icone RSS menait a un 404.
+// Flux RSS par revue : meme limite que pour les tags. feedgen.mjs nomme chaque
+// fichier d'apres le libelle de revue scrape (slugify), pas d'apres le slug de
+// journals.json, et ne l'ecrit que pour une revue qui a deja eu un appel. Sur les
+// 885 revues, 299 ont un flux a leur slug ; un lien vers les autres menerait a un
+// 404. La fiche revue ne propose donc le flux de la revue que s'il existe, et
+// retombe sinon sur le flux global.
+const dossierFluxRevues = new URL("./www/journal/", import.meta.url);
+const fluxRevuesDisponibles = new Set(
+    existsSync(dossierFluxRevues)
+        ? readdirSync(dossierFluxRevues)
+            .filter((f) => f.endsWith(".xml"))
+            .map((f) => f.slice(0, -".xml".length))
+        : []
+);
+
 const dossierFluxTags = new URL("./www/tag/", import.meta.url);
 const fluxTagsDisponibles = new Set(
     existsSync(dossierFluxTags)
@@ -206,6 +221,7 @@ export default async function (eleventyConfig) {
             apc: ao.apc || null,
             depotHal: aa.found && typeof aa.depot_hal_possible === "boolean" ? aa.depot_hal_possible : null,
             nbAppelsOuverts: appelsLiesALaRevue(allCalls, revue, appelAffichable).length,
+            nbAppelsArchives: appelsLiesALaRevue(allCalls, revue, (call) => !appelAffichable(call)).length,
         });
     });
 
@@ -631,6 +647,7 @@ export default async function (eleventyConfig) {
     // --- fin kerostig ---
 
     eleventyConfig.addFilter("fluxTagExiste", (slugTag) => fluxTagsDisponibles.has(slugTag));
+    eleventyConfig.addFilter("fluxRevueExiste", (slugRevue) => fluxRevuesDisponibles.has(slugRevue));
 
     // Ordre alphabetique des organisations du pied de page (cf soutiens.njk) :
     // localeCompare fr, sans quoi un nom accentue partirait apres le Z.

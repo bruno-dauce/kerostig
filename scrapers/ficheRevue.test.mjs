@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 
 import { descriptionMetaRevue, revuesVoisines } from './ficheRevue.mjs';
 
-const base = { titre: 'Technovation', discipline: 'Innovation', rangs: ['2'], nbAppelsOuverts: 0 };
+const base = { titre: 'Technovation', discipline: 'Innovation', rangs: ['2'], nbAppelsOuverts: 0, nbAppelsArchives: 0 };
 
-test('description complete : revue en accès ouvert avec APC, dépôt HAL possible, appels ouverts', () => {
+test('description complète : revue en accès ouvert avec APC, dépôt HAL possible, appels ouverts et archivés', () => {
     assert.equal(
         descriptionMetaRevue({
             ...base,
@@ -13,28 +13,24 @@ test('description complete : revue en accès ouvert avec APC, dépôt HAL possib
             apc: { gratuit: false, montant: 2000, devise: 'EUR' },
             depotHal: true,
             nbAppelsOuverts: 3,
+            nbAppelsArchives: 2,
         }),
-        'Technovation en Innovation. Rang FNEGE 2025 : 2. Accès ouvert, APC 2000 EUR. Dépôt HAL : possible. 3 appels à publications ouverts (calls for papers).'
+        'Technovation en Innovation. Rang FNEGE 2025 : 2. Accès ouvert, APC 2000 EUR. Dépôt HAL : possible. Calls for papers ouverts et archivés.'
     );
 });
 
-test('un seul appel ouvert : accord au singulier', () => {
-    assert.match(descriptionMetaRevue({ ...base, nbAppelsOuverts: 1 }), /1 appel à publications ouvert \(calls for papers\)\.$/);
-});
-
-test('aucun appel ouvert : on le dit, on ne promet pas des appels ouverts', () => {
-    assert.match(
-        descriptionMetaRevue(base),
-        /Appels à publications \(calls for papers\) : aucun ouvert actuellement\.$/
-    );
+test('le libellé des appels suit ce que la fiche montre', () => {
+    assert.match(descriptionMetaRevue({ ...base, nbAppelsOuverts: 1 }), /Calls for papers ouverts\.$/);
+    assert.match(descriptionMetaRevue({ ...base, nbAppelsArchives: 4 }), /Calls for papers archivés\.$/);
+    assert.match(descriptionMetaRevue(base), /Calls for papers : aucun appel collecté pour le moment\.$/);
 });
 
 // Cas réel : revue absente d'OpenAlex et de DOAJ (10 sur 885), absente d'Open
 // Policy Finder. Ni statut d'accès, ni dépôt, ni rang inventé.
 test('les données absentes sont omises, jamais inventées', () => {
     assert.equal(
-        descriptionMetaRevue({ titre: 'Revue X', rangs: [], estOa: null, apc: null, depotHal: null, nbAppelsOuverts: 0 }),
-        'Revue X. Appels à publications (calls for papers) : aucun ouvert actuellement.'
+        descriptionMetaRevue({ titre: 'Revue X', rangs: [], estOa: null, apc: null, depotHal: null }),
+        'Revue X. Calls for papers : aucun appel collecté pour le moment.'
     );
 });
 
