@@ -5,6 +5,7 @@ import { DateTime } from "luxon";
 import { echeanceDepassee } from "./scrapers/echeance.mjs";
 import { extraireDescription, resumerDescription, lienSourceOriginale, lienContactEditeurs } from "./scrapers/extrait.mjs";
 import { trouverAppelConjoint } from "./scrapers/numerosConjoints.mjs";
+import { descriptionMetaRevue, revuesVoisines } from "./scrapers/ficheRevue.mjs";
 import { titreMetaAppel, descriptionMetaAppel } from "./scrapers/metaAppel.mjs";
 
 // Flux RSS par tag reellement disponibles. Ces fichiers sont ecrits par
@@ -17,6 +18,21 @@ import { titreMetaAppel, descriptionMetaAppel } from "./scrapers/metaAppel.mjs";
 // "industry 4.0" -> industry-40 contre industry-4-0). Ensuite www/tag/ date du
 // dernier passage du scraper, pas du build en cours : un tag apparu depuis n'a
 // pas encore de flux. Dans les deux cas l'icone RSS menait a un 404.
+// Flux RSS par revue : meme limite que pour les tags. feedgen.mjs nomme chaque
+// fichier d'apres le libelle de revue scrape (slugify), pas d'apres le slug de
+// journals.json, et ne l'ecrit que pour une revue qui a deja eu un appel. Sur les
+// 885 revues, 299 ont un flux a leur slug ; un lien vers les autres menerait a un
+// 404. La fiche revue ne propose donc le flux de la revue que s'il existe, et
+// retombe sinon sur le flux global.
+const dossierFluxRevues = new URL("./www/journal/", import.meta.url);
+const fluxRevuesDisponibles = new Set(
+    existsSync(dossierFluxRevues)
+        ? readdirSync(dossierFluxRevues)
+            .filter((f) => f.endsWith(".xml"))
+            .map((f) => f.slice(0, -".xml".length))
+        : []
+);
+
 const dossierFluxTags = new URL("./www/tag/", import.meta.url);
 const fluxTagsDisponibles = new Set(
     existsSync(dossierFluxTags)
@@ -82,15 +98,30 @@ const echeanceSoumission = (dates) => {
 export default async function (eleventyConfig) {
 
     // --- kerostig : jointure appels <-> revue par ISSN ---
-    eleventyConfig.addFilter("appelsDeLaRevue", function (allCalls, revue) {
+    const appelsLiesALaRevue = (allCalls, revue, garder) => {
         if (!allCalls || !revue) return [];
         const norm = (v) => (v || "").toString().replace(/[^0-9Xx]/g, "").toUpperCase();
         const cibles = new Set([norm(revue.eissn), norm(revue.pissn), norm(revue.issn_cle)].filter(Boolean));
         return allCalls.filter((call) => {
-            if (!appelAffichable(call)) return false;
+            if (!garder(call)) return false;
             const issnAppel = norm(call.issn);
             return issnAppel && cibles.has(issnAppel);
         });
+    };
+    eleventyConfig.addFilter("appelsDeLaRevue", function (allCalls, revue) {
+        return appelsLiesALaRevue(allCalls, revue, appelAffichable);
+    });
+
+    // Appels clos de la revue : ceux que appelAffichable ecarte, donc que ni
+    // l'accueil, ni les tags, ni la liste des appels ouverts ne montrent. Les plus
+    // recents d'abord ; un appel sans echeance exploitable ferme la liste.
+    eleventyConfig.addFilter("appelsArchivesDeLaRevue", function (allCalls, revue) {
+        const ts = (call) => {
+            const t = Date.parse(echeanceSoumission(call.dates) || "");
+            return Number.isNaN(t) ? -Infinity : t;
+        };
+        return appelsLiesALaRevue(allCalls, revue, (call) => !appelAffichable(call))
+            .sort((a, b) => ts(b) - ts(a));
     });
 
     // L'entree de date qui fait foi comme echeance de soumission. La plus
@@ -153,7 +184,7 @@ export default async function (eleventyConfig) {
         return i === -1 ? ORDRE_RANG_FNEGE.length : i;
     };
 
-    eleventyConfig.addFilter("revuesDeLaDiscipline", function (journals, code) {
+    const revuesDeLaDiscipline = (journals, code) => {
         if (!journals || !code) return [];
         return Object.values(journals)
             .filter((revue) => revue.discipline_code === code)
@@ -163,6 +194,37 @@ export default async function (eleventyConfig) {
                 // localeCompare fr : sans lui les titres accentues partiraient apres le Z.
                 return (a.titre || "").localeCompare(b.titre || "", "fr", { sensitivity: "base" });
             });
+    };
+    eleventyConfig.addFilter("revuesDeLaDiscipline", revuesDeLaDiscipline);
+
+    // Revues voisines d'une revue dans sa discipline, pour la fiche revue
+    // (cf scrapers/ficheRevue.mjs).
+    eleventyConfig.addFilter("revuesVoisines", function (journals, revue) {
+        if (!revue) return [];
+        return revuesVoisines(revuesDeLaDiscipline(journals, revue.discipline_code), revue.slug);
+    });
+
+    // Description d'une fiche revue : la revue, sa discipline, son rang, son
+    // acces, son depot HAL et le nombre d'appels ouverts, chacun omis si la
+    // donnee manque.
+    eleventyConfig.addFilter("descriptionMetaRevue", function (revue, allCalls) {
+        const disc = disciplineDuCode(revue.discipline_code);
+        const ao = revue.acces_ouvert || {};
+        const aa = revue.auto_archivage || {};
+        return descriptionMetaRevue({
+            titre: revue.titre,
+            discipline: (disc && disc.nom) || revue.discipline || null,
+            // Meme regle que le filtre rangsFnege : un seul rang, deux pour une
+            // revue en conflit dans le classement.
+            rangs: revue.rangs_fnege_2025 && revue.rangs_fnege_2025.length
+                ? revue.rangs_fnege_2025
+                : [revue.rang_fnege_2025],
+            dansDoaj: typeof ao.dans_doaj === "boolean" ? ao.dans_doaj : null,
+            apc: ao.apc || null,
+            depotHal: aa.found && typeof aa.depot_hal_possible === "boolean" ? aa.depot_hal_possible : null,
+            nbAppelsOuverts: appelsLiesALaRevue(allCalls, revue, appelAffichable).length,
+            nbAppelsArchives: appelsLiesALaRevue(allCalls, revue, (call) => !appelAffichable(call)).length,
+        });
     });
 
     eleventyConfig.addFilter("appelsDeLaDiscipline", function (allCalls, journals, code) {
@@ -587,6 +649,7 @@ export default async function (eleventyConfig) {
     // --- fin kerostig ---
 
     eleventyConfig.addFilter("fluxTagExiste", (slugTag) => fluxTagsDisponibles.has(slugTag));
+    eleventyConfig.addFilter("fluxRevueExiste", (slugRevue) => fluxRevuesDisponibles.has(slugRevue));
 
     // Ordre alphabetique des organisations du pied de page (cf soutiens.njk) :
     // localeCompare fr, sans quoi un nom accentue partirait apres le Z.

@@ -15,8 +15,12 @@
   // Management » serait echappee ici puis une seconde fois par meta.html au
   // moment d'ecrire l'attribut. meta.html reste le seul point d'echappement.
   eleventyComputed: {
-    title: "{{ revue.titre | safe }} : rang FNEGE {{ (revue | rangsFnege) | join(' et ') }}, accès ouvert et appels en cours",
-    description: "{{ revue.titre | safe }} en {{ (revue.discipline_code | disciplineDuCode).nom | default(revue.discipline) | safe }}. Rang FNEGE 2025 : {{ (revue | rangsFnege) | join(' et ') }}. Appels à publications ouverts, accès ouvert et dépôt en archive ouverte."
+    title: "{{ revue.titre | safe }}, rang FNEGE {{ (revue | rangsFnege) | join(' et ') }}, appels à publications et accès ouvert",
+    // Gabarit de la strategie SEO (section 4), cf scrapers/ficheRevue.mjs : acces,
+    // depot HAL et presence d'appels ouverts ou archives y figurent, chacun omis
+    // quand la donnee manque. Le titre porte « appels à publications », la
+    // description « calls for papers » (strategie v2, section 4).
+    description: "{{ revue | descriptionMetaRevue(calls) | safe }}"
   }
 }
 ---
@@ -45,7 +49,7 @@
 
 <header class="mb-8">
   <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mb-2">{{ revue.titre }}</h1>
-  {% if revue.editeur %}<p class="text-sm opacity-80">{{ revue.editeur }} {{ srcEditeur.note() }}</p>{% endif %}
+  {% if revue.editeur %}<p class="text-sm opacity-80">{{ revue.editeur }} {{ srcEditeur.note() }}</p>{% else %}<p class="text-sm opacity-80">Éditeur : non renseigné</p>{% endif %}
 
   <div class="flex flex-wrap gap-2 mt-3 text-xs">
     {# Meme lien que les trois autres badges de rang du site (cf. call-card.html) :
@@ -100,13 +104,12 @@
       <div>
         <dt class="opacity-70">Accès</dt>
         <dd class="font-semibold">
-          {# est_oa a null n'est pas « sur abonnement » : ni OpenAlex ni DOAJ ne
-             connaissent la revue. On l'annonce comme absent, sans attribution,
-             a l'image de la ligne « Depot en archive ouverte » ci-dessous. #}
-          {% if revue.acces_ouvert.est_oa == null %}
-            Non renseigné
-          {% elif revue.acces_ouvert.est_oa %}
-            <span style="color:#2F7D5C">Accès ouvert</span>
+          {# Seule la presence au DOAJ est un fait etabli. est_oa vient sinon de
+             l'indicateur OpenAlex : il ne dit pas « sur abonnement » (revue hybride
+             possible), on n'ecrit donc que la presence ou l'absence au DOAJ, et
+             l'avis d'OpenAlex avec sa source quand il signale un acces ouvert. #}
+          {% if revue.acces_ouvert.dans_doaj %}
+            <span style="color:#2F7D5C">Accès ouvert (DOAJ)</span>
             {% if revue.acces_ouvert.apc %}
               {% if revue.acces_ouvert.apc.gratuit %}
                 <br><span class="font-normal text-xs opacity-80">Sans frais de publication</span>
@@ -115,17 +118,17 @@
               {% endif %}
             {% endif %}
           {% else %}
-            Sur abonnement
+            Non référencée au DOAJ
+            {% if revue.acces_ouvert.est_oa %}
+              <br><span class="font-normal text-xs opacity-80">Accès ouvert selon OpenAlex, non vérifié par DOAJ</span>
+            {% endif %}
             {% if revue.acces_ouvert.apc and not revue.acces_ouvert.apc.gratuit %}
-              <br><span class="font-normal text-xs opacity-80">Option hybride · APC {{ revue.acces_ouvert.apc.montant }} {{ revue.acces_ouvert.apc.devise }}</span>
+              <br><span class="font-normal text-xs opacity-80">APC {{ revue.acces_ouvert.apc.montant }} {{ revue.acces_ouvert.apc.devise }} (OpenAlex)</span>
             {% endif %}
           {% endif %}
           {% if revue.acces_ouvert.licence %}
             <br><span class="font-normal text-xs opacity-70">{{ revue.acces_ouvert.licence }}</span>
           {% endif %}
-          {# Reserve affichee quand rien ne vient de DOAJ : le statut, l'APC et
-             la licence reposent alors sur le seul signal OpenAlex. #}
-          {{ srcOa.note(revue) }}
         </dd>
       </div>
 
@@ -137,10 +140,13 @@
       </div>
 
       <div>
-        <dt class="opacity-70">Dépôt en archive ouverte</dt>
+        <dt class="opacity-70">Dépôt en archive ouverte (HAL)</dt>
         <dd class="font-semibold">
           {% if revue.auto_archivage and revue.auto_archivage.found %}
-            {% if revue.auto_archivage.depot_hal_possible %}<span style="color:#2F7D5C">Possible</span>{% else %}Sous conditions{% endif %}
+            {# depot_hal_possible vaut true, false, ou null quand Open Policy Finder
+               connait la revue sans detail exploitable : null n'est pas « sous
+               conditions », on ne l'affirme pas. #}
+            {% if revue.auto_archivage.depot_hal_possible == true %}<span style="color:#2F7D5C">Possible</span>{% elif revue.auto_archivage.depot_hal_possible == false %}Sous conditions{% else %}Non précisé{% endif %}
             {% if revue.auto_archivage.version_deposable %}
               {% set version = revue.auto_archivage.version_deposable %}
               <br><span class="font-normal text-xs opacity-80">{% if version == 'published' %}Version éditeur{% elif version == 'accepted' %}Manuscrit accepté{% elif version == 'submitted' %}Manuscrit soumis{% else %}Version {{ version }}{% endif %}</span>
@@ -202,7 +208,13 @@
 <section class="mb-4">
   <div class="flex items-center justify-between mb-3">
     <h2 class="text-lg font-bold">Appels à publications ouverts</h2>
+    {# Le flux de la revue n'existe que pour une partie des revues (cf fluxRevuesDisponibles,
+       eleventy.config.mjs) : sinon, repli sur le flux global. #}
+    {% if revue.slug | fluxRevueExiste %}
+    <a href="{{ ('/journal/' + revue.slug + '.xml') | url }}" class="text-xs opacity-70 hover:underline">Flux RSS de la revue</a>
+    {% else %}
     <a href="{{ '/rss.xml' | url }}" class="text-xs opacity-70 hover:underline">Flux RSS global</a>
+    {% endif %}
   </div>
   {% if appels.length %}
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -222,12 +234,56 @@
   {% else %}
   <div class="card bg-base-200 border border-base-300 rounded-lg">
     <div class="card-body p-5 text-center">
-      <p class="text-sm opacity-70 mb-3">Aucun appel ouvert pour cette revue en ce moment. Les appels apparaîtront ici dès qu'ils seront collectés.</p>
+      <p class="text-sm opacity-70 mb-3">Aucun appel ouvert pour cette revue en ce moment. Les appels apparaîtront ici dès qu'ils seront collectés. <a href="{{ ((('/journal/' + revue.slug + '.xml') if revue.slug | fluxRevueExiste else '/rss.xml')) | url }}" class="underline">{{ 'Flux RSS de la revue' if revue.slug | fluxRevueExiste else 'Flux RSS global' }}</a>.</p>
       <a href="{{ '/' | url }}" class="btn btn-sm btn-primary">Consulter tous les appels ouverts</a>
     </div>
   </div>
   {% endif %}
 </section>
+
+{# Appels clos : la fiche les listait nulle part, alors que leurs pages sont
+   conservees en archive (cf. estAppelCloture). Section omise quand la revue n'en
+   a aucun, sans phrase de remplissage. Le terracotta est reserve aux echeances
+   a venir : celles-ci sont passees, elles restent neutres. #}
+{% set archives = calls | appelsArchivesDeLaRevue(revue) %}
+{% if archives.length %}
+<section class="mb-8">
+  <h2 class="text-lg font-bold mb-3">Appels archivés</h2>
+  <ul class="divide-y divide-base-300 border-t border-base-300">
+    {% for call in archives %}
+    {% set dueDate = call.dates | echeancePrincipale %}
+    <li class="py-2.5 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+      <a href="{{ ('/call/' + call.slug + '/') | url }}" class="text-sm hover:underline">{{ call.title if call.title else call.metaTitle }}</a>
+      <span class="text-xs opacity-70 flex-shrink-0">{% if dueDate and dueDate.date %}clos le {{ dueDate.date | dateOnly }}{% else %}clos{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{# Les revues voisines dans la liste de la discipline (rang puis titre) : une
+   fenetre autour de celle-ci, cf. revuesVoisines. Sans discipline connue, rien. #}
+{% set voisines = journals | revuesVoisines(revue) %}
+{% if disc and voisines.length %}
+<section class="mb-8">
+  <h2 class="text-lg font-bold mb-3">Autres revues en {{ disc.nom }}</h2>
+  <ul class="divide-y divide-base-300 border-t border-base-300">
+    {% for v in voisines %}
+    <li class="py-2.5 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+      <a href="{{ ('/journal/' + v.slug + '/') | url }}" class="text-sm hover:underline">{{ v.titre }}</a>
+      <span class="flex flex-wrap items-center gap-1.5 flex-shrink-0">
+        {% for r in v | rangsFnege %}
+        <span class="badge badge-sm badge-outline font-semibold" style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ r }}</span>
+        {% endfor %}
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="text-sm mt-3">
+    <a href="{{ ('/discipline/' + disc.slug + '/') | url }}" class="hover:underline" style="color:#2B5F8E">Toutes les revues et appels en {{ disc.nom }}</a>
+  </p>
+</section>
+{% endif %}
 
 <p class="text-xs opacity-70 mt-6 border-t border-base-300 pt-4">
   Rang et discipline : {{ fnege.texte('classement FNEGE 2025') }}. Indicateurs : OpenAlex. Accès ouvert : {{ srcOa.nom(revue) }}. Politique de dépôt : Open Policy Finder.{% if revue.mirabel and revue.mirabel.trouve %} Référencement : Mir@bel.{% endif %}
