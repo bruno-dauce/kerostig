@@ -13,7 +13,9 @@ Sitemap: {{ meta.url }}/sitemap.xml
 # llms.txt. Il est ouvert a tous : la regle la plus longue l'emporte, donc
 # Allow: /data/open-calls.json passe devant Disallow: /data/, qui ferme le reste
 # du dossier si un fichier y etait ajoute un jour (on l'ecrit avant, pour les
-# analyseurs qui retiennent la premiere regle correspondante). Le flux ne porte
+# analyseurs qui retiennent la premiere regle correspondante : c'est aussi
+# pourquoi le groupe * n'a plus de « Allow: / », inutile par defaut et qui, place
+# en tete, rendait les Disallow inoperants pour ces analyseurs). Le flux ne porte
 # pas le rang FNEGE : l'ouvrir ne republie pas la liste du classement.
 #
 # Les flux par tag (/tag/<slug>.xml) sont exclus : un flux par tag, c'est
@@ -21,7 +23,6 @@ Sitemap: {{ meta.url }}/sitemap.xml
 # y ajouter. Le joker vise bien les seuls flux -- les pages de tag, elles,
 # sont servies en /tag/<slug>/ et restent explorables.
 User-agent: *
-Allow: /
 Allow: /data/open-calls.json
 Disallow: /data/
 Disallow: /tag/*.xml
