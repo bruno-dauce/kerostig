@@ -16,7 +16,10 @@
   // moment d'ecrire l'attribut. meta.html reste le seul point d'echappement.
   eleventyComputed: {
     title: "{{ revue.titre | safe }} : rang FNEGE {{ (revue | rangsFnege) | join(' et ') }}, accès ouvert et appels en cours",
-    description: "{{ revue.titre | safe }} en {{ (revue.discipline_code | disciplineDuCode).nom | default(revue.discipline) | safe }}. Rang FNEGE 2025 : {{ (revue | rangsFnege) | join(' et ') }}. Appels à publications ouverts, accès ouvert et dépôt en archive ouverte."
+    // Gabarit de la strategie SEO (section 4), cf scrapers/ficheRevue.mjs : acces,
+    // depot HAL et nombre d'appels ouverts y figurent avec leurs valeurs, chacun
+    // omis quand la donnee manque.
+    description: "{{ revue | descriptionMetaRevue(calls) | safe }}"
   }
 }
 ---
@@ -137,10 +140,13 @@
       </div>
 
       <div>
-        <dt class="opacity-70">Dépôt en archive ouverte</dt>
+        <dt class="opacity-70">Dépôt en archive ouverte (HAL)</dt>
         <dd class="font-semibold">
           {% if revue.auto_archivage and revue.auto_archivage.found %}
-            {% if revue.auto_archivage.depot_hal_possible %}<span style="color:#2F7D5C">Possible</span>{% else %}Sous conditions{% endif %}
+            {# depot_hal_possible vaut true, false, ou null quand Open Policy Finder
+               connait la revue sans detail exploitable : null n'est pas « sous
+               conditions », on ne l'affirme pas. #}
+            {% if revue.auto_archivage.depot_hal_possible == true %}<span style="color:#2F7D5C">Possible</span>{% elif revue.auto_archivage.depot_hal_possible == false %}Sous conditions{% else %}Non précisé{% endif %}
             {% if revue.auto_archivage.version_deposable %}
               {% set version = revue.auto_archivage.version_deposable %}
               <br><span class="font-normal text-xs opacity-80">{% if version == 'published' %}Version éditeur{% elif version == 'accepted' %}Manuscrit accepté{% elif version == 'submitted' %}Manuscrit soumis{% else %}Version {{ version }}{% endif %}</span>
@@ -228,6 +234,50 @@
   </div>
   {% endif %}
 </section>
+
+{# Appels clos : la fiche les listait nulle part, alors que leurs pages sont
+   conservees en archive (cf. estAppelCloture). Section omise quand la revue n'en
+   a aucun, sans phrase de remplissage. Le terracotta est reserve aux echeances
+   a venir : celles-ci sont passees, elles restent neutres. #}
+{% set archives = calls | appelsArchivesDeLaRevue(revue) %}
+{% if archives.length %}
+<section class="mb-8">
+  <h2 class="text-lg font-bold mb-3">Appels archivés</h2>
+  <ul class="divide-y divide-base-300 border-t border-base-300">
+    {% for call in archives %}
+    {% set dueDate = call.dates | echeancePrincipale %}
+    <li class="py-2.5 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+      <a href="{{ ('/call/' + call.slug + '/') | url }}" class="text-sm hover:underline">{{ call.title if call.title else call.metaTitle }}</a>
+      <span class="text-xs opacity-70 flex-shrink-0">{% if dueDate and dueDate.date %}clos le {{ dueDate.date | dateOnly }}{% else %}clos{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{# Les revues voisines dans la liste de la discipline (rang puis titre) : une
+   fenetre autour de celle-ci, cf. revuesVoisines. Sans discipline connue, rien. #}
+{% set voisines = journals | revuesVoisines(revue) %}
+{% if disc and voisines.length %}
+<section class="mb-8">
+  <h2 class="text-lg font-bold mb-3">Autres revues en {{ disc.nom }}</h2>
+  <ul class="divide-y divide-base-300 border-t border-base-300">
+    {% for v in voisines %}
+    <li class="py-2.5 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+      <a href="{{ ('/journal/' + v.slug + '/') | url }}" class="text-sm hover:underline">{{ v.titre }}</a>
+      <span class="flex flex-wrap items-center gap-1.5 flex-shrink-0">
+        {% for r in v | rangsFnege %}
+        <span class="badge badge-sm badge-outline font-semibold" style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ r }}</span>
+        {% endfor %}
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="text-sm mt-3">
+    <a href="{{ ('/discipline/' + disc.slug + '/') | url }}" class="hover:underline" style="color:#2B5F8E">Toutes les revues et appels en {{ disc.nom }}</a>
+  </p>
+</section>
+{% endif %}
 
 <p class="text-xs opacity-70 mt-6 border-t border-base-300 pt-4">
   Rang et discipline : {{ fnege.texte('classement FNEGE 2025') }}. Indicateurs : OpenAlex. Accès ouvert : {{ srcOa.nom(revue) }}. Politique de dépôt : Open Policy Finder.{% if revue.mirabel and revue.mirabel.trouve %} Référencement : Mir@bel.{% endif %}
