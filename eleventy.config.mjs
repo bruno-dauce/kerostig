@@ -5,6 +5,7 @@ import { DateTime } from "luxon";
 import { echeanceDepassee } from "./scrapers/echeance.mjs";
 import { extraireDescription, resumerDescription, lienSourceOriginale, lienContactEditeurs } from "./scrapers/extrait.mjs";
 import { trouverAppelConjoint } from "./scrapers/numerosConjoints.mjs";
+import { titreMetaAppel, descriptionMetaAppel } from "./scrapers/metaAppel.mjs";
 
 // Flux RSS par tag reellement disponibles. Ces fichiers sont ecrits par
 // scrapers/feedgen.mjs dans www/tag/ et recopies en passthrough : le build ne
@@ -136,12 +137,13 @@ export default async function (eleventyConfig) {
     // classement, deux rangs distincts) ou rangs_fnege_2025 porte les deux -
     // voir enrichissement/corrections-issn.json (fusions_connues) et
     // enrichissement/appliquer-conflits-rang.mjs, qui alimente ce champ.
-    eleventyConfig.addFilter("rangsFnege", function (revue) {
+    const rangsDeLaRevue = (revue) => {
         if (!revue) return [];
         return revue.rangs_fnege_2025 && revue.rangs_fnege_2025.length
             ? revue.rangs_fnege_2025
             : [revue.rang_fnege_2025];
-    });
+    };
+    eleventyConfig.addFilter("rangsFnege", rangsDeLaRevue);
 
     // Ordre du classement, pas ordre alphabetique : "1*" precede "1", qui precede
     // "2". Un rang inconnu ferme la liste plutot que de la ouvrir.
@@ -668,6 +670,34 @@ export default async function (eleventyConfig) {
     eleventyConfig.addFilter("estAppelCloture", function (call) {
         if (!call) return false;
         return !appelAffichable(call);
+    });
+
+    // Balises title et description d'une fiche appel (cf scrapers/metaAppel.mjs).
+    // La revue vient de journals.json par ISSN, jamais du libelle scrape ; le rang
+    // passe par rangsFnege, comme partout ailleurs sur le site.
+    const revueEtRangs = (call, journals) => {
+        const revue = trouverRevueDeLAppel(journals, call);
+        return { revue, rangs: rangsDeLaRevue(revue) };
+    };
+    eleventyConfig.addFilter("titreMetaAppel", function (call, journals) {
+        const { revue } = revueEtRangs(call, journals);
+        return titreMetaAppel({
+            titre: call.title || call.metaTitle,
+            nomRevue: (revue && revue.titre) || call.journal,
+            cloture: !appelAffichable(call),
+        });
+    });
+    eleventyConfig.addFilter("descriptionMetaAppel", function (call, journals) {
+        const { revue, rangs } = revueEtRangs(call, journals);
+        const ao = revue && revue.acces_ouvert;
+        return descriptionMetaAppel({
+            nomRevue: (revue && revue.titre) || call.journal,
+            rangs,
+            echeance: echeanceSoumission(call.dates),
+            cloture: !appelAffichable(call),
+            estOa: ao && typeof ao.est_oa === "boolean" ? ao.est_oa : null,
+            lienOriginal: Boolean(lienSourceOriginale(call)),
+        });
     });
 
     eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
