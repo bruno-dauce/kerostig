@@ -182,3 +182,20 @@ partir d'une classification aussi juste que possible) :
   micromatch, fast-glob et chokidar, eux-mêmes par Eleventy et Tailwind ;
   outils de build seulement). Ne jamais utiliser `npm audit fix --force` :
   il rétrograderait Eleventy en 0.6.0.
+
+### 8. Ouverts le 2026-10-20, à traiter
+
+- **Flux RSS des revues nommés d'après le slug de `journals.json`.**
+  `feedgen.mjs` nomme chaque `www/journal/{slug}.xml` d'après le libellé de
+  revue scrapé (`slugify`), pas d'après le slug de `journals.json`, et ne
+  l'écrit que pour une revue qui a déjà eu un appel. Résultat : 299 revues sur
+  885 ont un flux à leur slug, 41 flux portent un autre nom (orphelins), 586
+  revues n'en ont pas. La fiche revue ne propose le flux que s'il existe
+  (filtre `fluxRevueExiste`, PR #36). À faire : nommer les flux d'après le
+  slug de `journals.json`, et rediriger (301) les 41 anciens noms.
+- **Dépôt HAL des revues francophones.** L'API Mir@bel n'expose aucune
+  politique de dépôt (le schéma `Revue` ne porte que l'identité), alors que
+  le cahier des charges v3 (§3.1, §3.3) lui en attribue. 61 revues absentes
+  d'Open Policy Finder sont dans Mir@bel mais sans politique ; 22 n'ont ni
+  Mir@bel ni Open Policy Finder, leur ligne affiche « Non renseignée ». La
+  licence des données Mir@bel reste à confirmer avant toute publication.
