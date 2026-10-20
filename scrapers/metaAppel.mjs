@@ -53,8 +53,8 @@ export function titreMetaAppel({ titre, nomRevue, cloture = false }) {
 
 // rangs : tableau de rangs FNEGE, en pratique un seul, deux pour une revue en
 // conflit dans le classement (cf. le filtre rangsFnege).
-// estOa : true, false, ou null quand ni OpenAlex ni DOAJ ne connaissent la revue.
-export function descriptionMetaAppel({ nomRevue, rangs, echeance, cloture, estOa, lienOriginal }) {
+// dansDoaj : true, false, ou null quand la donnee manque (champ dans_doaj absent).
+export function descriptionMetaAppel({ nomRevue, rangs, echeance, cloture, dansDoaj, lienOriginal }) {
     const revue = typeof nomRevue === 'string' ? nomRevue.trim() : '';
     const rangsConnus = Array.isArray(rangs) ? rangs.filter((r) => typeof r === 'string' && r !== '') : [];
 
@@ -72,8 +72,11 @@ export function descriptionMetaAppel({ nomRevue, rangs, echeance, cloture, estOa
         phrases.push(`Échéance : ${jour}.`);
     }
 
-    if (estOa === true) phrases.push('Revue en accès ouvert.');
-    else if (estOa === false) phrases.push('Revue sur abonnement.');
+    // Seule la presence au DOAJ est un fait etabli. Son absence ne dit pas que la
+    // revue est sur abonnement (revue hybride, ou accès ouvert connu de la seule
+    // base OpenAlex) : on l'ecrit comme telle, sans en deduire un modele d'acces.
+    if (dansDoaj === true) phrases.push('Revue en accès ouvert (DOAJ).');
+    else if (dansDoaj === false) phrases.push('Revue non référencée au DOAJ.');
 
     if (lienOriginal) phrases.push("Lien vers l'appel original.");
 
