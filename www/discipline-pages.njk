@@ -56,7 +56,7 @@
   {% endif %}
 </header>
 
-<section class="mb-12">
+<section class="mb-12" id="appels">
   <h2 class="text-lg font-bold mb-4">Appels ouverts</h2>
 
   {% if appels.length %}
@@ -105,7 +105,7 @@
       count_rang(r) {
           return r === '' ? this.counts.total : (this.counts.rang[r] || 0);
       }
-  }" x-init="
+  }" @rang-filtre.window="rang = $event.detail" x-init="
       $nextTick(() => recount());
       ['rang', 'oaOnly'].forEach(cle => $watch(cle, () => recount()));
   ">
@@ -165,7 +165,8 @@
            pre-filtre, en conservant la discipline de la page quittee. Une revue en
            conflit FNEGE affiche un badge par rang (cf. corrections-issn.json). #}
         {% for r in revue | rangsFnege %}
-        <a href="{{ '/' | url }}?rang={{ r | urlencode }}&amp;disc={{ discipline.code | urlencode }}"
+        {# href statique vers la page, filtre de rang regle sur place : cf. base.html. #}
+        <a href="{{ ('/discipline/' + discipline.slug + '/') | url }}" data-rang-local="{{ r }}"
            class="badge badge-sm badge-outline font-semibold transition-colors hover:bg-primary/10"
            style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ r }}</a>
         {% endfor %}

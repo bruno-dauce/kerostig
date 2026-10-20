@@ -96,7 +96,13 @@
                badge annoncerait un seul rang alors que data-rang (plus haut)
                fait deja ressortir la carte sous les deux filtres. #}
             {% for r in revue | rangsFnege %}
-            <a href="{{ '/' | url }}?rang={{ r | urlencode }}{% if discipline %}&amp;disc={{ discipline.code | urlencode }}{% endif %}"
+            {# Pas de lien parametre dans le HTML (/?rang=...) : href="/" statique, et la
+               navigation passe par le script de base.html (data-nav). Sur une page
+               discipline, le badge regle le filtre de rang de la page (data-rang-local) :
+               l'URL ne change pas. Le filtre de l'accueil lit toujours ?rang= et ?q=
+               pour les liens partages a la main. #}
+            <a href="{{ ('/discipline/' + discipline.slug + '/') | url if discipline else ('/' | url) }}"
+               {% if discipline %}data-rang-local="{{ r }}"{% else %}data-nav="{{ '/' | url }}?rang={{ r | urlencode }}"{% endif %}
                class="badge badge-sm badge-outline font-semibold transition-colors hover:bg-primary/10"
                style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ r }}</a>
             {% endfor %}{{ fnege.icone() }}

@@ -36,6 +36,28 @@ type: website
 
     <script data-goatcounter="https://kerostig.goatcounter.com/count"
             async src="//gc.zgo.at/count.js"></script>
+    {# Liens de filtre sans URL parametree dans le HTML : le href est statique (l'accueil
+       ou la page discipline), l'URL parametree vit dans data-nav et n'est suivie que par
+       le clic. Les robots ne decouvrent donc aucune des ~660 variantes de l'accueil ; un
+       humain qui partage /?rang=2 ou /?q=... garde un filtre qui lit l'URL (main.html).
+       Un lien reste un lien : focus et Entree au clavier declenchent le meme clic. Un
+       clic avec modificateur (nouvel onglet) suit le href : l'accueil non filtre. #}
+    <script>
+    document.addEventListener('click', function (e) {
+        if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        var a = e.target.closest ? e.target.closest('a[data-nav], a[data-rang-local]') : null;
+        if (!a) return;
+        e.preventDefault();
+        if (a.hasAttribute('data-rang-local')) {
+            // Page discipline : le filtre de rang de la page, sans changer d'URL.
+            window.dispatchEvent(new CustomEvent('rang-filtre', { detail: a.getAttribute('data-rang-local') }));
+            var cible = document.getElementById('appels');
+            if (cible && cible.scrollIntoView) cible.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else {
+            window.location.href = a.getAttribute('data-nav');
+        }
+    });
+    </script>
 </body>
 
 </html>
