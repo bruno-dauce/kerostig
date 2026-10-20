@@ -7,12 +7,12 @@ pagination:
 layout: layouts/base.html
 permalink: "call/{{ call.slug }}/"
 eleventyComputed:
-  # Parentheses indispensables : sans elles, | safe ne portait que sur
-  # call.metaTitle, jamais sur call.title. Un titre porteur d'une apostrophe
-  # droite etait donc echappe ici (&#39;) puis une seconde fois par meta.html
+  # Gabarits de la strategie SEO (section 4), cf scrapers/metaAppel.mjs. Les
+  # filtres rendent du texte brut : | safe evite qu'une apostrophe droite ou une
+  # esperluette soit echappee ici (&#39;) puis une seconde fois par meta.html
   # (&amp;#39;). meta.html reste le seul point d'echappement.
-  title: "kerostig | {{ (call.title if call.title else call.metaTitle) | safe }}"
-  description: "kerostig rassemble les appels à publications en sciences de gestion et management, comme {{ (call.title if call.title else call.metaTitle) | safe }}, en un seul endroit."
+  title: "{{ call | titreMetaAppel(journals) | safe }}"
+  description: "{{ call | descriptionMetaAppel(journals) | safe }}"
 ---
 
 {% set revue = journals | revueDeLAppel(call) %}
