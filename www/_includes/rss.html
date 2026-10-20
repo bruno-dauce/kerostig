@@ -17,7 +17,7 @@
     <p>{{ paragraph }}</p>
     {% endfor %}
     <p>
-        Appel publié par {{ call.journal }}.
+        Appel publié par {{ nomRevue or call.journal }}.
         {% if lienSource %}
         <a href="{{ lienSource }}">{% if extrait.tronque %}Lire l'appel complet sur le site de l'éditeur{% else %}Voir l'appel sur le site de l'éditeur{% endif %}</a>.
         {% endif %}
