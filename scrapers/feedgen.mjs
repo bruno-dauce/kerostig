@@ -5,6 +5,7 @@ import { DateTime } from "luxon";
 import slugify from 'slugify';
 
 import { extraireDescription, lienSourceOriginale } from './extrait.mjs';
+import { nomAffichageRevue } from './nomRevue.mjs';
 
 var env = nunjucks.configure('www/_includes', { autoescape: true });
 env.addFilter('dateOnly', function (str) {
@@ -19,6 +20,8 @@ env.addFilter('extraitDescription', function (description) {
 });
 
 const meta = JSON.parse(fs.readFileSync("./www/_data/meta.json", "utf8"));
+// Nom d'affichage des revues : journals.json, cf scrapers/nomRevue.mjs.
+const journals = JSON.parse(fs.readFileSync("./www/_data/journals.json", "utf8"));
 const siteUrl = meta.url.replace(/\/$/, '');
 const siteName = meta.name;
 const siteYear = new Date().getFullYear();
@@ -35,6 +38,7 @@ const COPYRIGHT = `Notices : ${siteName} © ${siteYear}. Le texte des appels app
 function contenuArticle(call) {
     return nunjucks.render('rss.html', {
         call,
+        nomRevue: nomAffichageRevue(call, journals),
         lienSource: lienSourceOriginale(call),
         pageKerostig: `${siteUrl}/call/${call.slug}/`,
     });
@@ -96,8 +100,8 @@ fs.mkdirSync('./www/journal', { recursive: true });
 for (const [key, journalCalls] of Object.entries(journalGroups)) {
     const firstCall = journalCalls[0];
     const journalFeed = new Feed({
-        title: `${siteName} | ${firstCall.journal}`,
-        description: `Derniers appels à publications pour ${firstCall.journal}.`,
+        title: `${siteName} | ${nomAffichageRevue(firstCall, journals)}`,
+        description: `Derniers appels à publications pour ${nomAffichageRevue(firstCall, journals)}.`,
         id: `${siteUrl}/journal/${slugify(firstCall.journal, { lower: true, strict: true })}`,
         link: `${siteUrl}/journal/${slugify(firstCall.journal, { lower: true, strict: true })}/`,
         language: "fr",

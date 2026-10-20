@@ -16,7 +16,7 @@
    faisait rater l'appel a la recherche de main.html. #}
 <div x-show="show_call($el)"
     data-title="{{ call.title if call.title else call.metaTitle }}"
-    data-journal="{{ call.journal }}"
+    data-journal="{{ revue.titre if revue else call.journal }}"
     data-pubdate="{{ call.pubDate }}"
     data-duedate="{{ dueDate.date }}"
     data-discipline="{{ revue.discipline_code if revue else '' }}"
@@ -58,7 +58,7 @@
            pour toute revue hors perimetre FNEGE. #}
         {% if revue %}
         <a href="{{ ('/journal/' + revue.slug + '/') | url }}" class="text-xs font-semibold opacity-70 hover:opacity-100 uppercase">
-            {{ call.journal }}
+            {{ revue.titre }}
         </a>
         {% else %}
         <span class="text-xs font-semibold opacity-70 uppercase">{{ call.journal }}</span>
