@@ -6,10 +6,10 @@
 import { statSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 
-// Borne TRANSITOIRE : un plafond au-dessus du poids actuel, pour qu'aucun ajout ne
-// l'aggrave. L'objectif est 1 900 000 (marge sous les 2 097 152 de Googlebot) ; la
-// PR suivante (factorisation des classes) y ramene la borne.
-export const LIMITE_OCTETS = 2_200_000;
+// Borne : 1 900 000 octets decompresses, soit une marge de 197 152 sous les 2 097 152
+// de Googlebot. L'accueil pese 1 484 848 octets a 656 cartes (2,2 Ko par carte) : la
+// borne laisse la place a environ 190 cartes de plus.
+export const LIMITE_OCTETS = 1_900_000;
 
 // Fonction pure, exportee pour test.
 export function verifierPoids(octets, limite = LIMITE_OCTETS) {
