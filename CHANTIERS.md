@@ -225,3 +225,20 @@ corriger maintenant ; à regarder :
 - **Autres défauts de noms vus au passage**, à traiter avec la même table :
   « M n gement » (accent perdu), « Revue internationale P M E … », « Systèmes d
   information & management » (apostrophe perdue).
+
+### 11. Accueil : variante B et appels sans échéance
+
+- **Variante B (cartes complètes pour les N premières, les autres rendues depuis
+  un jeu compact) : à reconsidérer au-delà d'environ 900 appels ouverts.**
+  Analyse du 2026-10-21 : réécriture du bloc de filtres, tri et pagination de
+  `layouts/main.html` (qui opère sur le DOM), gabarit de carte en double, environ
+  620 liens `/call/` en moins dans le HTML de l'accueil, effort de 3 à 5 jours,
+  risque de régression élevé. À ce moment-là, poser la **question de politique** :
+  un jeu de données par appel pour les filtres exige le rang FNEGE, que
+  `open-calls.json` exclut volontairement (pas de liste FNEGE téléchargeable).
+- **70 cartes sans échéance, comptées dans « N appels ouverts »** (656 cartes :
+  572 à échéance à venir, 70 sans échéance, 14 échues dans la tolérance de 7 jours).
+  À vérifier : l'absence de date vient-elle de l'extraction (page maigre, modèle
+  qui n'a rien daté) ou s'agit-il d'appels permanents (« call for submissions »
+  sans date limite) ? Décider ensuite de leur affichage (mention « sans échéance »,
+  tri, comptage). Aucun traitement pour l'instant.
