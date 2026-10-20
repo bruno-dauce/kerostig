@@ -499,9 +499,9 @@ export default async function (eleventyConfig) {
     // que le projet s'interdit de republier. Cette exclusion a ete reexaminee
     // le 2026-08-29 et maintenue.
     //
-    // Seule exception : open_access, un booleen deja public chez DOAJ et
-    // OpenAlex, que le flux se contente de relayer. null -- et non false --
-    // quand la jointure ISSN echoue : valeur absente explicite.
+    // Seule exception : in_doaj et open_access_openalex, deux booleens deja
+    // publics chez DOAJ et OpenAlex, que le flux se contente de relayer. null --
+    // et non false -- quand la jointure ISSN echoue : valeur absente explicite.
     //
     // Le critere est appelOuvert (tolerance zero), pas appelAffichable : les
     // pages du site laissent entrer sept jours d'appels echus pour couvrir les
@@ -536,7 +536,15 @@ export default async function (eleventyConfig) {
                     // scrape ; call.journal ne sert que si la jointure echoue.
                     journal: (revue && revue.titre) || call.journal || null,
                     issn: call.issn || (revue && revue.issn_cle) || null,
-                    open_access: oa ? oa.est_oa === true : null,
+                    // Deux champs au lieu de l'ancien open_access, qui melait deux
+                    // sources : in_doaj est le seul fait etabli (true / false, null
+                    // sans revue jointe). open_access_openalex ne parle que des
+                    // revues hors DOAJ : true quand OpenAlex signale un acces ouvert
+                    // (non verifie), false quand il ne le signale pas, null pour une
+                    // revue du DOAJ ou sans donnee. « false » n'est pas « sur
+                    // abonnement ».
+                    in_doaj: oa && typeof oa.dans_doaj === "boolean" ? oa.dans_doaj : null,
+                    open_access_openalex: oa && oa.dans_doaj === false && typeof oa.est_oa === "boolean" ? oa.est_oa : null,
                 };
             })
             .sort((a, b) => {
