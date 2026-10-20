@@ -22,7 +22,7 @@
     data-discipline="{{ revue.discipline_code if revue else '' }}"
     data-rang="{{ (revue | rangsFnege | join(' ')) if revue else '' }}"
     data-issn="{{ revue.issn_cle if revue else '' }}"
-    data-oa="{{ 'true' if revue and revue.acces_ouvert and revue.acces_ouvert.est_oa else 'false' }}"
+    data-oa="{{ 'true' if revue and revue.acces_ouvert and revue.acces_ouvert.dans_doaj else 'false' }}"
     data-tags="{{ call.tags | join(' ') if call.tags else '' }}"
     class="card bg-base-200 border border-base-300 rounded-lg hover:border-primary/30 transition-colors">
     <div class="card-body p-5 gap-3">
@@ -118,7 +118,7 @@
             {% else %}
             <span class="badge badge-sm badge-outline">{{ revue.discipline }}</span>
             {% endif %}
-            {% if revue.acces_ouvert.est_oa %}
+            {% if revue.acces_ouvert.dans_doaj %}
             <span class="badge badge-sm badge-outline font-semibold" style="color:#2F7D5C;border-color:#2F7D5C" title="{{ srcOa.infobulle(revue) }}">accès ouvert</span>
             {% endif %}
             {% endif %}
