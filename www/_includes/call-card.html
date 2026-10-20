@@ -27,10 +27,10 @@
     data-issn="{{ revue.issn_cle if revue else '' }}"
     data-oa="{{ 'true' if revue and revue.acces_ouvert and revue.acces_ouvert.dans_doaj else 'false' }}"
     data-tags="{{ call.tags | join(' ') if call.tags else '' }}"
-    class="card bg-base-200 border border-base-300 rounded-lg hover:border-primary/30 transition-colors">
-    <div class="card-body p-5 gap-3">
+    class="kc-card">
+    <div class="kc-corps">
 
-        <div class="flex items-start justify-between gap-3">
+        <div class="kc-tete">
             {# Le titre mene toujours vers la fiche interne : call-pages.njk pagine sur
                tous les appels, la page /call/ existe donc meme quand l'extraction n'a
                rien donne. Un appel sans titre extrait (rawContent trop maigre) retombe
@@ -38,13 +38,13 @@
                qui peut etre un PDF ou une page d'editeur sans rapport. #}
             {% set titreAffiche = call.title if call.title else call.metaTitle %}
             <a href="{{ ('/call/' + call.slug + '/') | url }}" class="hover:underline">
-                <h2 class="text-lg font-bold leading-snug">{{ titreAffiche }}</h2>
+                <h2 class="kc-titre">{{ titreAffiche }}</h2>
             </a>
             {% if dueDate %}
             {# Compte a rebours : texte et couleur poses par le script de base.html a partir
                de data-duedate (la carte), au lieu d'un composant Alpine par carte. Masque
                tant que le script n'a pas conclu a une echeance a venir. #}
-            <span data-jours style="display:none" class="badge badge-sm font-semibold whitespace-nowrap flex-shrink-0"></span>
+            <span data-jours style="display:none" class="kc-jours"></span>
             {% endif %}
         </div>
 
@@ -57,7 +57,7 @@
            jointure appel-revue vers l'ISSN ; ce garde-fou reste utile apres,
            pour toute revue hors perimetre FNEGE. #}
         {% if revue %}
-        <a href="{{ ('/journal/' + revue.slug + '/') | url }}" class="text-xs font-semibold opacity-70 hover:opacity-100 uppercase">
+        <a href="{{ ('/journal/' + revue.slug + '/') | url }}" class="kc-revue">
             {{ revue.titre }}
         </a>
         {% else %}
@@ -68,8 +68,8 @@
            pleine largeur, l'echeance occupait seule une ligne pour trois mots.
            Le groupe de badges est un enfant a part entiere pour que
            justify-between n'ecarte que les deux blocs, et non chaque badge. #}
-        <div class="flex flex-wrap items-center justify-between gap-x-3 gap-y-1.5">
-            <div class="flex flex-wrap items-center gap-1.5">
+        <div class="kc-ligne">
+            <div class="kc-badges">
             {% if revue %}
             {# Nom propre de la discipline : revue.discipline est le libelle brut de
                journals.json, parfois ampute de son apostrophe. Repli sur le brut si
@@ -103,7 +103,7 @@
                pour les liens partages a la main. #}
             <a href="{{ ('/discipline/' + discipline.slug + '/') | url if discipline else ('/' | url) }}"
                {% if discipline %}data-rang-local="{{ r }}"{% else %}data-nav="{{ '/' | url }}?rang={{ r | urlencode }}"{% endif %}
-               class="badge badge-sm badge-outline font-semibold transition-colors hover:bg-primary/10"
+               class="kc-rang"
                style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ r }}</a>
             {% endfor %}{{ fnege.icone() }}
             {# Le badge mene vers la page hub de la discipline, comme les tags plus bas
@@ -117,7 +117,7 @@
             {% if disc %}
             {% set urlDisc = '/discipline/' + disc.slug + '/' %}
             {% if page.url != urlDisc %}
-            <a href="{{ urlDisc | url }}" class="badge badge-sm badge-outline transition-colors hover:border-primary hover:text-primary">{{ disc.nom }}</a>
+            <a href="{{ urlDisc | url }}" class="kc-disc">{{ disc.nom }}</a>
             {% else %}
             <span class="badge badge-sm badge-outline">{{ disc.nom }}</span>
             {% endif %}
@@ -141,24 +141,24 @@
                discipline long -- le flex-wrap la fait repasser sous les badges,
                ou elle retrouve l'alignement a gauche qu'elle avait avant. #}
             {% if dueDate %}
-            <span class="text-xs opacity-80 whitespace-nowrap">Échéance : {{ dueDate.date | dateOnly }}</span>
+            <span class="kc-date">Échéance : {{ dueDate.date | dateOnly }}</span>
             {% endif %}
         </div>
 
         {% if call.tags and call.tags.length %}
-        <div class="flex flex-wrap gap-1">
+        <div class="kc-tags">
             {% for tag in call.tags %}
-            <a href="{{ ('/tag/' + (tag | slug) + '/') | url }}" class="badge badge-sm bg-base-100 border-0 opacity-70 hover:opacity-100 text-xs">{{ tag }}</a>
+            <a href="{{ ('/tag/' + (tag | slug) + '/') | url }}" class="kc-tag">{{ tag }}</a>
             {% endfor %}
         </div>
         {% endif %}
 
-        <div class="flex items-center justify-between mt-1 pt-2 border-t border-base-300">
-            <a href="{{ ('/call/' + call.slug + '/') | url }}" class="text-xs font-semibold hover:underline" style="color:#2B5F8E">Voir l'appel</a>
+        <div class="kc-pied">
+            <a href="{{ ('/call/' + call.slug + '/') | url }}" class="kc-voir" style="color:#2B5F8E">Voir l'appel</a>
             {% if call.url %}
-            <a href="{{ call.url }}" target="_blank" rel="noopener" class="text-xs opacity-70 hover:opacity-100 flex items-center gap-1">
+            <a href="{{ call.url }}" target="_blank" rel="noopener" class="kc-source">
                 Source
-                <svg class="w-3 h-3" aria-hidden="true"><use href="#icone-externe"/></svg>
+                <svg class="kc-i" aria-hidden="true"><use href="#icone-externe"/></svg>
             </a>
             {% endif %}
         </div>
