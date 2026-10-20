@@ -37,7 +37,10 @@
     }
   },
   layout: "layouts/main.html",
-  permalink: "tag/{{ tag.name | slug }}/",
+  // | safe : le permalink est rendu avec auto-echappement, donc une apostrophe du
+  // slug (« farmer's-markets ») devenait &#39; dans le NOM du dossier genere,
+  // alors que les liens pointent vers /tag/farmer's-markets/ : un 404.
+  permalink: "tag/{{ tag.name | slug | safe }}/",
   // | safe : sans lui, une esperluette ou une apostrophe dans le tag serait
   // echappee ici puis une seconde fois par meta.html au moment d'ecrire
   // l'attribut (m&a -> m&amp;amp;a). meta.html reste le seul point d'echappement.
