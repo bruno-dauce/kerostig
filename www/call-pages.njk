@@ -19,6 +19,10 @@ eleventyComputed:
 {% if call | estAppelCloture %}
 {% set echeanceClose = call.dates | echeancePrincipale %}
 {% set appelsOuvertsRevue = calls | appelsDeLaRevue(revue) if revue else [] %}
+{# Appels ouverts de la meme discipline : la strategie (section 4) les propose en
+   plus de ceux de la revue. La discipline vient de la revue, jamais des tags. #}
+{% set discClose = (revue.discipline_code | disciplineDuCode) if revue else null %}
+{% set appelsOuvertsDisc = (calls | appelsDeLaDiscipline(journals, discClose.code)) if discClose else [] %}
 <aside class="border border-base-300 bg-base-200 rounded-lg p-4 mb-6">
   <p class="font-semibold" style="color:#C15A34">appel clôturé</p>
   <p class="text-sm opacity-80 mt-1">
@@ -41,6 +45,13 @@ eleventyComputed:
       {% endif %}
     </a>
     {% if not appelsOuvertsRevue.length %}<span class="opacity-70"> — aucun appel ouvert pour cette revue en ce moment.</span>{% endif %}
+  </p>
+  {% endif %}
+  {% if discClose and appelsOuvertsDisc.length %}
+  <p class="text-sm mt-1">
+    <a href="{{ ('/discipline/' + discClose.slug + '/') | url }}" class="hover:underline" style="color:#2B5F8E">
+      {{ appelsOuvertsDisc.length }} appel{{ 's' if appelsOuvertsDisc.length > 1 }} ouvert{{ 's' if appelsOuvertsDisc.length > 1 }} en {{ discClose.nom }}
+    </a>
   </p>
   {% endif %}
   <p class="text-sm mt-1">

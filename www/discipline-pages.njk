@@ -14,11 +14,11 @@
     // | safe sur le nom : sans lui, l'apostrophe de « Systèmes d'information »
     // serait echappee ici (&#39;) puis une seconde fois par meta.html (&amp;#39;).
     // C'est meta.html qui echappe, une fois, au moment d'ecrire l'attribut.
-    title: "Appels à publications en {{ discipline.nom | safe }}, revues classées FNEGE (calls for papers)",
+    title: "Appels à publications en {{ discipline.nom | safe }}, revues classées FNEGE",
     // « des revues de {nom} » butait sur l'elision des disciplines a initiale
     // vocalique (Enseignement, Innovation, Etudes organisationnelles...) :
     // la tournure « en {nom} » passe sur les 17, et reprend celle du H1.
-    description: "Les appels ouverts (calls for papers) des revues classées FNEGE en {{ discipline.nom | safe }}, filtrables par rang et triés par échéance. Mis à jour chaque semaine."
+    description: "Les calls for papers ouverts des revues classées FNEGE en {{ discipline.nom | safe }}, filtrables par rang et par échéance. Mis à jour chaque semaine."
   }
 }
 ---
