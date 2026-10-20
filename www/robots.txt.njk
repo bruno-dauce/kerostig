@@ -6,19 +6,24 @@ Sitemap: {{ meta.url }}/sitemap.xml
 
 # Un robot n'obeit qu'a UN seul groupe : le plus specifique dont le nom
 # correspond au sien, sans jamais fusionner avec le groupe *. Les bots d'IA
-# nommes plus bas ne lisent donc pas le Disallow de ce groupe-ci et gardent
-# l'acces a /data/. Tout le reste, moteurs de recherche compris, suit ce
-# groupe : site entierement explorable, flux JSON excepte.
+# nommes plus bas ne lisent donc pas les regles de ce groupe-ci et gardent
+# l'acces a /data/.
 #
-# Allow: / et Disallow: /data/ ne se contredisent pas -- a chemin concurrent,
-# c'est la regle la plus longue qui l'emporte, donc /data/ reste ferme.
+# /data/ ne contient qu'un fichier, le flux public open-calls.json, annonce dans
+# llms.txt. Il est ouvert a tous : la regle la plus longue l'emporte, donc
+# Allow: /data/open-calls.json passe devant Disallow: /data/, qui ferme le reste
+# du dossier si un fichier y etait ajoute un jour (on l'ecrit avant, pour les
+# analyseurs qui retiennent la premiere regle correspondante : c'est aussi
+# pourquoi le groupe * n'a plus de « Allow: / », inutile par defaut et qui, place
+# en tete, rendait les Disallow inoperants pour ces analyseurs). Le flux ne porte
+# pas le rang FNEGE : l'ouvrir ne republie pas la liste du classement.
 #
 # Les flux par tag (/tag/<slug>.xml) sont exclus : un flux par tag, c'est
 # autant de documents qui reprennent le contenu des fiches d'appel sans rien
 # y ajouter. Le joker vise bien les seuls flux -- les pages de tag, elles,
 # sont servies en /tag/<slug>/ et restent explorables.
 User-agent: *
-Allow: /
+Allow: /data/open-calls.json
 Disallow: /data/
 Disallow: /tag/*.xml
 
