@@ -58,7 +58,7 @@
        du classement, cf. corrections-issn.json) affiche un badge par rang plutot
        que d'en choisir un. #}
     {% for r in revue | rangsFnege %}
-    <a href="{{ '/' | url }}?rang={{ r | urlencode }}"
+    <a href="{{ '/' | url }}" data-nav="{{ '/' | url }}?rang={{ r | urlencode }}"
        class="badge badge-outline font-semibold transition-colors hover:bg-primary/10"
        style="color:#2B5F8E;border-color:#2B5F8E">rang FNEGE {{ r }}</a>
     {% endfor %}
@@ -192,7 +192,7 @@
       </div>
       {% if revue.metriques.thematiques and revue.metriques.thematiques.length %}
       <div class="flex flex-wrap gap-2 mt-4">
-        {% for t in revue.metriques.thematiques %}<a href="{{ '/' | url }}?q={{ t | urlencode }}" class="badge badge-sm bg-base-100 border-0 opacity-80 hover:opacity-100 cursor-pointer">{{ t }}</a>{% endfor %}
+        {% for t in revue.metriques.thematiques %}<a href="{{ '/' | url }}" data-nav="{{ '/' | url }}?q={{ t | urlencode }}" class="badge badge-sm bg-base-100 border-0 opacity-80 hover:opacity-100 cursor-pointer">{{ t }}</a>{% endfor %}
       </div>
       {% endif %}
       <p class="text-xs opacity-70 mt-3 text-right">Source : OpenAlex</p>

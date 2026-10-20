@@ -17,7 +17,7 @@
          page est l'appel et non une discipline. Une revue en conflit FNEGE affiche
          un badge par rang (cf. corrections-issn.json), comme call-card.html. #}
       {% for r in revue | rangsFnege %}
-      <a href="{{ '/' | url }}?rang={{ r | urlencode }}"
+      <a href="{{ '/' | url }}" data-nav="{{ '/' | url }}?rang={{ r | urlencode }}"
          class="badge badge-sm badge-outline font-semibold transition-colors hover:bg-primary/10"
          style="color:#2B5F8E;border-color:#2B5F8E">FNEGE {{ r }}</a>
       {% endfor %}

@@ -22,10 +22,16 @@ Sitemap: {{ meta.url }}/sitemap.xml
 # autant de documents qui reprennent le contenu des fiches d'appel sans rien
 # y ajouter. Le joker vise bien les seuls flux -- les pages de tag, elles,
 # sont servies en /tag/<slug>/ et restent explorables.
+# Aucune URL a parametres (/?rang=2, /?q=...) : ce sont des variantes de l'accueil,
+# de canonique l'accueil, lues par le filtre cote client. Le site n'en lie plus aucune
+# dans son HTML (cf. base.html) ; la regle protege des liens externes. Les groupes
+# des robots d'IA, plus bas, ne la lisent pas et gardent l'acces complet.
+#
 User-agent: *
 Allow: /data/open-calls.json
 Disallow: /data/
 Disallow: /tag/*.xml
+Disallow: /*?
 
 # Bots d'IA autorises explicitement, /data/ compris. Un jeton par groupe :
 # chaque editeur en declare plusieurs, un par usage, et ils ne se deduisent pas
