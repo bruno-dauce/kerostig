@@ -695,7 +695,7 @@ export default async function (eleventyConfig) {
             rangs,
             echeance: echeanceSoumission(call.dates),
             cloture: !appelAffichable(call),
-            estOa: ao && typeof ao.est_oa === "boolean" ? ao.est_oa : null,
+            dansDoaj: ao && typeof ao.dans_doaj === "boolean" ? ao.dans_doaj : null,
             lienOriginal: Boolean(lienSourceOriginale(call)),
         });
     });

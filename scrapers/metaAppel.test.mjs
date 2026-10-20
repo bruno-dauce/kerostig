@@ -55,10 +55,10 @@ test('description complete', () => {
             rangs: ['2'],
             echeance: '2026-11-30T11:00:00.000Z',
             cloture: false,
-            estOa: false,
+            dansDoaj: false,
             lienOriginal: true,
         }),
-        "Appel à publications de Technovation, rang FNEGE 2. Échéance : 30 novembre 2026. Revue sur abonnement. Lien vers l'appel original."
+        "Appel à publications de Technovation, rang FNEGE 2. Échéance : 30 novembre 2026. Revue non référencée au DOAJ. Lien vers l'appel original."
     );
 });
 
@@ -79,7 +79,7 @@ test('description : appel clos', () => {
 // statut d'acces, pas de lien, pas de rang.
 test('description : les donnees absentes sont omises', () => {
     assert.equal(
-        descriptionMetaAppel({ nomRevue: 'Revue X', rangs: [], echeance: null, estOa: null, lienOriginal: false }),
+        descriptionMetaAppel({ nomRevue: 'Revue X', rangs: [], echeance: null, dansDoaj: null, lienOriginal: false }),
         'Appel à publications de Revue X.'
     );
     assert.equal(
@@ -94,5 +94,7 @@ test('description : une date inanalysable est omise, pas ecrite en clair', () =>
 });
 
 test('description : accès ouvert', () => {
-    assert.match(descriptionMetaAppel({ nomRevue: 'Revue X', estOa: true }), /Revue en accès ouvert\./);
+    assert.match(descriptionMetaAppel({ nomRevue: 'Revue X', dansDoaj: true }), /Revue en accès ouvert \(DOAJ\)\./);
+    assert.match(descriptionMetaAppel({ nomRevue: 'Revue X', dansDoaj: false }), /Revue non référencée au DOAJ\./);
+    assert.doesNotMatch(descriptionMetaAppel({ nomRevue: 'Revue X', dansDoaj: false }), /abonnement/);
 });
