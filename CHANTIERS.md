@@ -199,3 +199,29 @@ partir d'une classification aussi juste que possible) :
   d'Open Policy Finder sont dans Mir@bel mais sans politique ; 22 n'ont ni
   Mir@bel ni Open Policy Finder, leur ligne affiche « Non renseignée ». La
   licence des données Mir@bel reste à confirmer avant toute publication.
+
+### 10. Casse des noms de revue
+
+Constat du 2026-10-20 : des fiches affichent un nom en minuscules, par exemple
+« Advances in strategic management », « Harvard business review », « Finance
+research letters », alors que le nom officiel est en casse de titre. Ne pas
+corriger maintenant ; à regarder :
+
+- **Origine : OpenAlex, pas le fichier FNEGE.** Le classement FNEGE est en
+  capitales. `titre` de `journals.json` vaut `nom_openalex` (`display_name`
+  d'OpenAlex, cf. `enrichir-revues.mjs`, `titre_source: "openalex"`) pour 876
+  revues sur 885 ; le titre FNEGE n'est repris que pour 9. La casse en minuscules
+  est donc celle d'OpenAlex.
+- **Ampleur (heuristique : la moitié au moins des mots significatifs en
+  minuscules) : 41 revues sur 885.** Pour ces 41, `nom_openalex` du CSV enrichi
+  est identique au titre, minuscules comprises.
+- **`nom_openalex` ne peut pas servir à normaliser** : il est la source du défaut
+  (885 sur 885 identiques au titre à la casse et à la ponctuation près). Il
+  faut une règle, ou une table de corrections versionnée, comme pour les ISSN.
+- **Une règle automatique se tromperait** : la casse de titre anglaise ne vaut
+  pas pour le français (« Revue française de gestion », « Management
+  international » sont corrects), et les sigles (IEEE, MIS) y échappent.
+  Piste : règle par langue (champ `francophone`), plus une table d'exceptions.
+- **Autres défauts de noms vus au passage**, à traiter avec la même table :
+  « M n gement » (accent perdu), « Revue internationale P M E … », « Systèmes d
+  information & management » (apostrophe perdue).
