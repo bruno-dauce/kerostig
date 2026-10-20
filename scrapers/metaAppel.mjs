@@ -1,0 +1,74 @@
+// Balises title et description d'une fiche appel, selon les gabarits de la
+// strategie SEO (section 4) :
+//   titre       : {titre de l'appel}, {revue} (call for papers)
+//   description : Appel a publications de {revue}, rang FNEGE {rang}.
+//                 Echeance : {date}. {acces}. Lien vers l'appel original.
+//
+// Avant, les 991 fiches portaient la meme phrase d'accroche, ou seul le titre
+// changeait : ni la revue, ni le rang, ni l'echeance, ni « call for papers ».
+// Deux appels au titre proche chez un meme editeur avaient des balises que
+// rien ne distinguait.
+//
+// Fonctions pures : le filtre Eleventy (eleventy.config.mjs) ne fait que
+// rassembler les donnees. Une donnee absente est omise de la phrase, jamais
+// remplacee par une valeur par defaut.
+
+import { DateTime } from 'luxon';
+
+// Un titre qui dit deja « call for papers » ou « appel a... » n'a pas besoin
+// qu'on le redise : la strategie demande des expressions integrees
+// naturellement, jamais repetees mecaniquement (section 12).
+const MENTION_APPEL = /\bcalls? for\b|\bappels? (?:à|a)(?=\s)|\bcfp\b/i;
+
+function jourFrancais(iso) {
+    if (typeof iso !== 'string' || iso === '') return null;
+    const date = DateTime.fromISO(iso);
+    // Meme rendu que le filtre dateOnly de la page. Une date inanalysable
+    // (valeur aberrante de l'extraction) est omise plutot que ecrite en clair.
+    return date.isValid ? date.setLocale('fr').toLocaleString(DateTime.DATE_FULL) : null;
+}
+
+export function titreMetaAppel({ titre, nomRevue }) {
+    const intitule = typeof titre === 'string' ? titre.trim() : '';
+    const revue = typeof nomRevue === 'string' ? nomRevue.trim() : '';
+
+    let resultat = intitule;
+    // La revue figure parfois deja dans le titre de l'appel
+    // (« Emerging Markets Review: Call for... ») : la redire ferait un doublon.
+    if (revue && !intitule.toLowerCase().includes(revue.toLowerCase())) {
+        resultat = resultat ? `${resultat}, ${revue}` : revue;
+    }
+    if (!MENTION_APPEL.test(intitule)) {
+        resultat = resultat ? `${resultat} (call for papers)` : 'Appel à publications (call for papers)';
+    }
+    return resultat;
+}
+
+// rangs : tableau de rangs FNEGE, en pratique un seul, deux pour une revue en
+// conflit dans le classement (cf. le filtre rangsFnege).
+// estOa : true, false, ou null quand ni OpenAlex ni DOAJ ne connaissent la revue.
+export function descriptionMetaAppel({ nomRevue, rangs, echeance, cloture, estOa, lienOriginal }) {
+    const revue = typeof nomRevue === 'string' ? nomRevue.trim() : '';
+    const rangsConnus = Array.isArray(rangs) ? rangs.filter((r) => typeof r === 'string' && r !== '') : [];
+
+    let phrase = revue
+        ? `Appel à publications de ${revue}`
+        : 'Appel à publications en sciences de gestion et management';
+    if (rangsConnus.length) phrase += `, rang FNEGE ${rangsConnus.join(' et ')}`;
+
+    const phrases = [`${phrase}.`];
+
+    const jour = jourFrancais(echeance);
+    if (cloture) {
+        phrases.push(jour ? `Appel clôturé, échéance du ${jour}.` : 'Appel clôturé.');
+    } else if (jour) {
+        phrases.push(`Échéance : ${jour}.`);
+    }
+
+    if (estOa === true) phrases.push('Revue en accès ouvert.');
+    else if (estOa === false) phrases.push('Revue sur abonnement.');
+
+    if (lienOriginal) phrases.push("Lien vers l'appel original.");
+
+    return phrases.join(' ');
+}
