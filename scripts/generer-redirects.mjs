@@ -6,6 +6,10 @@
 // reglage "trailing slash" du projet Cloudflare Pages n'est pas verifiable
 // depuis ce depot, on couvre les deux formes plutot que d'en dependre.
 //
+// La cible, elle, porte la barre oblique finale : c'est la forme servie par le
+// site. Sans elle, Cloudflare repond a /call/{vers} par un 308 vers /call/{vers}/,
+// soit deux sauts au lieu d'un pour chaque ancienne URL.
+//
 // A executer apres le build Eleventy (qui cree public/) : cf le script
 // "build" de package.json.
 // Usage : node scripts/generer-redirects.mjs
@@ -18,8 +22,8 @@ const SORTIE = './public/_redirects';
 export function formaterRedirects(redirections) {
     const lignes = [];
     for (const { de, vers } of redirections) {
-        lignes.push(`/call/${de} /call/${vers} 301`);
-        lignes.push(`/call/${de}/ /call/${vers} 301`);
+        lignes.push(`/call/${de} /call/${vers}/ 301`);
+        lignes.push(`/call/${de}/ /call/${vers}/ 301`);
     }
     return lignes.join('\n') + (lignes.length ? '\n' : '');
 }
