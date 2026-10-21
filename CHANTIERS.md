@@ -242,3 +242,14 @@ corriger maintenant ; à regarder :
   qui n'a rien daté) ou s'agit-il d'appels permanents (« call for submissions »
   sans date limite) ? Décider ensuite de leur affichage (mention « sans échéance »,
   tri, comptage). Aucun traitement pour l'instant.
+
+### 12. Contrôler la préversion Cloudflare d'une PR qui touche CSS et gabarits
+
+Leçon du 2026-10-21 (fusion de #49) : le CSS était servi avec `max-age=14400` et le
+HTML avec `max-age=0` ; un navigateur qui avait la page recevait le nouveau HTML
+avec l'ancien CSS pendant quatre heures (classes `kc-*` sans règles). Le CSS est
+désormais adressé par une empreinte (`style.css?v=…`), mais la règle reste :
+**une PR qui modifie à la fois le CSS et les gabarits se regarde sur la préversion
+Cloudflare avant fusion, en navigateur vierge (navigation privée).** Le contrôle
+visuel local (serveur de développement, CSS compilé à la main) ne le remplace pas :
+il ne voit ni l'ordre de déploiement, ni le cache, ni le build de production.
