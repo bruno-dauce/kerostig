@@ -14,7 +14,7 @@ scrapers/                pipeline de collecte et d'extraction des appels
 www/                     le site (générateur Eleventy)
   _data/
     calls.json           base des appels, produite par le pipeline
-    journals.json        base des 494 revues enrichies (voir enrichissement/)
+    journals.json        base des revues FNEGE 2025 de rang 1* à 4, enrichies (voir enrichissement/)
 enrichissement/          NOTRE ajout : script qui fabrique journals.json
   enrichir-revues.mjs
   kerostig-correspondance-issn.csv
