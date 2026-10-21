@@ -33,6 +33,30 @@ npm install        # installe les dépendances (une fois)
 npm run build      # construit le site
 ```
 
+## Déploiement (Cloudflare Pages) et contrôles
+
+Réglages du projet Cloudflare Pages (confirmés dans le tableau de bord le 2026-10-21) :
+
+| Réglage | Valeur |
+|---|---|
+| Commande de build | `npm run build` |
+| Répertoire de sortie | `public` |
+| Branche de production | `main` |
+| Déploiements | automatiques, à chaque push sur `main` |
+| Cache de build | désactivé |
+
+`npm run build` enchaîne Tailwind (le CSS est adressé par une empreinte de son contenu, `style.css?v=…`), Eleventy, la génération de `_redirects`, puis deux contrôles :
+
+- **Poids de l'accueil** (`scripts/verifier-poids-accueil.mjs`) : Googlebot ne lit que les 2 097 152 premiers octets d'un fichier HTML. En production, un dépassement de 1 900 000 octets n'est qu'un **avertissement** dans le journal du build (un build en échec laisse la version précédente en ligne et fige le site). `POIDS_ACCUEIL_STRICT=1` le fait échouer ; `POIDS_ACCUEIL_LIMITE=<octets>` change le seuil.
+- **Classes `kc-*`** (`scripts/verifier-classes-kc.mjs`) : le build échoue si une classe `kc-*` du HTML n'a pas de règle dans le CSS compilé.
+
+Contrôles GitHub Actions :
+
+- `verifications.yml`, sur chaque pull request : `npm ci --ignore-scripts`, tests, puis `npm run build` avec le poids de l'accueil en mode strict (1 900 000 octets).
+- `scrape.yml`, après la collecte du lundi : le job `verifier-poids` construit le site et échoue au-delà de 2 097 152 octets, ce qui envoie un courriel GitHub. Il tourne même si la collecte a échoué, sur l'état de `main`.
+
+Une pull request qui modifie à la fois le CSS et les gabarits se regarde sur la préversion Cloudflare, en navigation privée, avant fusion.
+
 ## Fabriquer la base des revues
 
 Depuis le dossier `enrichissement/`, après avoir créé le fichier `.env` (voir `.env.exemple`) :
