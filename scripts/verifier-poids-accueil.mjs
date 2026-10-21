@@ -13,8 +13,13 @@
 //   POIDS_ACCUEIL_LIMITE=2097152, l'echec envoie un courriel GitHub.
 // POIDS_ACCUEIL_LIMITE remplace le seuil par defaut.
 //
+// Second controle : la position du premier lien /discipline/ du pied de page, mesuree
+// en octets, suit le meme seuil et les memes niveaux. Passe le seuil, Googlebot ne voit
+// plus ces liens. L'absence de lien de discipline dans le pied de page est un echec dans
+// tous les modes : ce n'est pas un depassement, c'est un acces HTML perdu.
+//
 // Usage : node scripts/verifier-poids-accueil.mjs [chemin]
-import { statSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 
 // Seuil par defaut : 1 900 000 octets decompresses, une marge de 197 152 sous la limite de
@@ -33,6 +38,30 @@ export function evaluerPoids(octets, { seuil = SEUIL_OCTETS, strict = false } = 
     };
 }
 
+// Fonction pure, exportee pour test. Rend la position en octets du premier lien
+// /discipline/ situe apres l'ouverture du pied de page, ou null s'il n'y en a pas.
+export function positionLienDisciplinePied(html) {
+    const tampon = Buffer.isBuffer(html) ? html : Buffer.from(html, 'utf8');
+    const pied = tampon.indexOf('<footer');
+    if (pied === -1) return null;
+    const lien = tampon.indexOf('/discipline/', pied);
+    return lien === -1 ? null : lien;
+}
+
+// Fonction pure, exportee pour test. Meme contrat que evaluerPoids ; une position nulle
+// (aucun lien) est un echec quel que soit le mode.
+export function evaluerLienDiscipline(position, { seuil = SEUIL_OCTETS, strict = false } = {}) {
+    if (position === null) {
+        return { niveau: 'echec', message: 'pied de page : aucun lien /discipline/ trouve' };
+    }
+    const detail = `premier lien /discipline/ a l'octet ${position} (seuil ${seuil}, marge ${seuil - position})`;
+    if (position <= seuil) return { niveau: 'ok', message: `pied de page : ${detail}` };
+    return {
+        niveau: strict ? 'echec' : 'avertissement',
+        message: `pied de page : ${detail} -- DEPASSE de ${position - seuil} octets`,
+    };
+}
+
 // Lit un entier positif dans l'environnement, ou rend undefined.
 function entier(valeur) {
     const n = Number(valeur);
@@ -43,13 +72,20 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
     const chemin = process.argv[2] ?? './public/index.html';
     const strict = process.env.POIDS_ACCUEIL_STRICT === '1';
     const seuil = entier(process.env.POIDS_ACCUEIL_LIMITE) ?? SEUIL_OCTETS;
-    const { niveau, message } = evaluerPoids(statSync(chemin).size, { seuil, strict });
+    const html = readFileSync(chemin);
+    const resultats = [
+        evaluerPoids(html.length, { seuil, strict }),
+        evaluerLienDiscipline(positionLienDisciplinePied(html), { seuil, strict }),
+    ];
 
-    if (niveau === 'ok') {
-        console.log(`[poids-accueil] ${message}`);
-    } else {
+    let echec = false;
+    for (const { niveau, message } of resultats) {
+        if (niveau === 'ok') {
+            console.log(`[poids-accueil] ${message}`);
+            continue;
+        }
         const consigne = niveau === 'echec'
-            ? "ECHEC : l'accueil depasse le seuil (mode strict)."
+            ? "ECHEC : controle en echec (mode strict, ou lien de discipline absent)."
             : "AVERTISSEMENT : l'accueil approche la limite de lecture de Googlebot (2 097 152 octets). Le build continue ; alleger l'accueil avant qu'il ne la depasse.";
         const barre = '!'.repeat(78);
         console.error(`${barre}\n[poids-accueil] ${consigne}\n[poids-accueil] ${message}\n${barre}`);
@@ -57,6 +93,7 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
         if (process.env.GITHUB_ACTIONS === 'true') {
             console.error(`::${niveau === 'echec' ? 'error' : 'warning'} title=Poids de l'accueil::${message}`);
         }
-        if (niveau === 'echec') process.exit(1);
+        if (niveau === 'echec') echec = true;
     }
+    if (echec) process.exit(1);
 }
