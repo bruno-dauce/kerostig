@@ -211,14 +211,15 @@ jobs:
   # production n'avertit que dans son journal (il n'echoue jamais, pour ne pas figer
   # le site).
   #
-  # if: always() : le job tourne aussi quand la collecte a echoue. Le job de collecte
-  # commite et pousse ce qu'il a obtenu meme en cas d'echec (cf. ses etapes finales) ;
-  # on mesure donc ce qui est reellement publie. ref: main : le checkout par defaut
+  # if: ${{ !cancelled() }} : le job tourne aussi quand la collecte a echoue, mais pas
+  # quand le workflow est annule a la main (always() lancerait alors une mesure, et un
+  # courriel inutile). Le job de collecte commite et pousse ce qu'il a obtenu meme en cas
+  # d'echec (cf. ses etapes finales) ; on mesure donc ce qui est reellement publie. ref: main : le checkout par defaut
   # donnerait le commit qui a declenche le workflow, anterieur a celui de la collecte.
   # Si la collecte n'a rien pousse, on mesure l'etat precedent, ce qui est sans effet.
   verifier-poids:
     needs: scrape
-    if: always()
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:

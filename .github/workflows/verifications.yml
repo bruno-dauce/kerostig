@@ -6,12 +6,13 @@ name: Verifications
 # etre vu, avant la fusion.
 on:
   pull_request:
+# Lecture seule, pour tout le workflow : aucun job n'ecrit dans le depot.
+permissions:
+  contents: read
 jobs:
   verifier:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    permissions:
-      contents: read
     steps:
       - name: Checkout this repository
         # Action epinglee au SHA du tag v4, meme regle que dans scrape.yml.

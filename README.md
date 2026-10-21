@@ -53,7 +53,7 @@ Réglages du projet Cloudflare Pages (confirmés dans le tableau de bord le 2026
 Contrôles GitHub Actions :
 
 - `verifications.yml`, sur chaque pull request : `npm ci --ignore-scripts`, tests, puis `npm run build` avec le poids de l'accueil en mode strict (1 900 000 octets).
-- `scrape.yml`, après la collecte du lundi : le job `verifier-poids` construit le site et échoue au-delà de 2 097 152 octets, ce qui envoie un courriel GitHub. Il tourne même si la collecte a échoué, sur l'état de `main`.
+- `scrape.yml`, après la collecte du lundi : le job `verifier-poids` construit le site et échoue au-delà de 2 097 152 octets, ce qui envoie un courriel GitHub. Il tourne même si la collecte a échoué, sur l'état de `main`, mais pas si le workflow est annulé à la main.
 
 Une pull request qui modifie à la fois le CSS et les gabarits se regarde sur la préversion Cloudflare, en navigation privée, avant fusion.
 
