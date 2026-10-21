@@ -1,30 +1,44 @@
-// Echoue si l'accueil construit depasse la borne de poids. Googlebot ne lit que
-// les 2 097 152 premiers octets (decompresses) d'un fichier HTML : au-dela, les
-// derniers appels et le pied de page (donc ses liens) sont ignores. La borne est
-// verifiee a chaque build, avant le deploiement.
+// Surveille le poids de l'accueil construit. Googlebot ne lit que les 2 097 152
+// premiers octets (decompresses) d'un fichier HTML : au-dela, les derniers appels et le
+// pied de page (donc ses liens) sont ignores.
+//
+// Comportement, selon l'endroit ou le script tourne :
+// - build de production (Cloudflare Pages, `npm run build`) : AVERTISSEMENT bien
+//   visible des 1 900 000 octets, jamais d'echec. Un build en echec laisse la
+//   version precedente en ligne : le site se figerait, sans que rien ne previenne ;
+// - verifications de PR (.github/workflows/verifications.yml) : POIDS_ACCUEIL_STRICT=1
+//   fait echouer le script au-dela du seuil, pour que le depassement soit vu avant
+//   la fusion ;
+// - apres la collecte du lundi (scrape.yml, job verifier-poids) : STRICT et
+//   POIDS_ACCUEIL_LIMITE=2097152, l'echec envoie un courriel GitHub.
+// POIDS_ACCUEIL_LIMITE remplace le seuil par defaut.
+//
+// Second controle : la position du premier lien /discipline/ du pied de page, mesuree
+// en octets, suit le meme seuil et les memes niveaux. Passe le seuil, Googlebot ne voit
+// plus ces liens. L'absence de lien de discipline dans le pied de page est un echec dans
+// tous les modes : ce n'est pas un depassement, c'est un acces HTML perdu.
+//
 // Usage : node scripts/verifier-poids-accueil.mjs [chemin]
 import { readFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 
-// Borne : 1 900 000 octets decompresses, soit une marge de 197 152 sous les 2 097 152
-// de Googlebot. L'accueil pese 1 484 848 octets a 656 cartes (2,2 Ko par carte) : la
-// borne laisse la place a environ 190 cartes de plus.
-export const LIMITE_OCTETS = 1_900_000;
+// Seuil par defaut : 1 900 000 octets decompresses, une marge de 197 152 sous la limite de
+// Googlebot. L'accueil pese environ 1 485 000 octets a 656 cartes (2,2 Ko par carte).
+export const SEUIL_OCTETS = 1_900_000;
 
-// Position (en octets) du premier lien /discipline/ du pied de page : au-dela de la
-// meme borne, Googlebot ne voit plus ces liens. Les liens des cartes et des filtres
-// ne comptent pas : seul le pied de page est un acces HTML sur a toutes les pages hub.
-export const LIMITE_LIEN_DISCIPLINE = LIMITE_OCTETS;
-
-// Fonction pure, exportee pour test.
-export function verifierPoids(octets, limite = LIMITE_OCTETS) {
+// Fonction pure, exportee pour test. Rend { niveau, message } ; niveau vaut 'ok',
+// 'avertissement' ou 'echec'. Le seuil depasse donne un avertissement, ou un echec en
+// mode strict.
+export function evaluerPoids(octets, { seuil = SEUIL_OCTETS, strict = false } = {}) {
+    const detail = `${octets} octets decompresses (seuil ${seuil}, marge ${seuil - octets})`;
+    if (octets <= seuil) return { niveau: 'ok', message: `accueil : ${detail}` };
     return {
-        ok: octets <= limite,
-        message: `accueil : ${octets} octets decompresses (borne ${limite}, marge ${limite - octets})`,
+        niveau: strict ? 'echec' : 'avertissement',
+        message: `accueil : ${detail} -- DEPASSE de ${octets - seuil} octets`,
     };
 }
 
-// Fonction pure, exportee pour test. Retourne la position en octets du premier lien
+// Fonction pure, exportee pour test. Rend la position en octets du premier lien
 // /discipline/ situe apres l'ouverture du pied de page, ou null s'il n'y en a pas.
 export function positionLienDisciplinePied(html) {
     const tampon = Buffer.isBuffer(html) ? html : Buffer.from(html, 'utf8');
@@ -34,28 +48,52 @@ export function positionLienDisciplinePied(html) {
     return lien === -1 ? null : lien;
 }
 
-export function verifierLienDiscipline(position, limite = LIMITE_LIEN_DISCIPLINE) {
+// Fonction pure, exportee pour test. Meme contrat que evaluerPoids ; une position nulle
+// (aucun lien) est un echec quel que soit le mode.
+export function evaluerLienDiscipline(position, { seuil = SEUIL_OCTETS, strict = false } = {}) {
     if (position === null) {
-        return { ok: false, message: 'pied de page : aucun lien /discipline/ trouve' };
+        return { niveau: 'echec', message: 'pied de page : aucun lien /discipline/ trouve' };
     }
+    const detail = `premier lien /discipline/ a l'octet ${position} (seuil ${seuil}, marge ${seuil - position})`;
+    if (position <= seuil) return { niveau: 'ok', message: `pied de page : ${detail}` };
     return {
-        ok: position <= limite,
-        message: `pied de page : premier lien /discipline/ a l'octet ${position} (borne ${limite}, marge ${limite - position})`,
+        niveau: strict ? 'echec' : 'avertissement',
+        message: `pied de page : ${detail} -- DEPASSE de ${position - seuil} octets`,
     };
+}
+
+// Lit un entier positif dans l'environnement, ou rend undefined.
+function entier(valeur) {
+    const n = Number(valeur);
+    return Number.isInteger(n) && n > 0 ? n : undefined;
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
     const chemin = process.argv[2] ?? './public/index.html';
-    const tampon = readFileSync(chemin);
-    const poids = verifierPoids(tampon.length);
-    const lien = verifierLienDiscipline(positionLienDisciplinePied(tampon));
-    console.log(`[poids-accueil] ${poids.message}`);
-    console.log(`[poids-accueil] ${lien.message}`);
-    if (!poids.ok) {
-        console.error("[poids-accueil] ECHEC : l'accueil depasse la borne, le deploiement est bloque.");
+    const strict = process.env.POIDS_ACCUEIL_STRICT === '1';
+    const seuil = entier(process.env.POIDS_ACCUEIL_LIMITE) ?? SEUIL_OCTETS;
+    const html = readFileSync(chemin);
+    const resultats = [
+        evaluerPoids(html.length, { seuil, strict }),
+        evaluerLienDiscipline(positionLienDisciplinePied(html), { seuil, strict }),
+    ];
+
+    let echec = false;
+    for (const { niveau, message } of resultats) {
+        if (niveau === 'ok') {
+            console.log(`[poids-accueil] ${message}`);
+            continue;
+        }
+        const consigne = niveau === 'echec'
+            ? "ECHEC : controle en echec (mode strict, ou lien de discipline absent)."
+            : "AVERTISSEMENT : l'accueil approche la limite de lecture de Googlebot (2 097 152 octets). Le build continue ; alleger l'accueil avant qu'il ne la depasse.";
+        const barre = '!'.repeat(78);
+        console.error(`${barre}\n[poids-accueil] ${consigne}\n[poids-accueil] ${message}\n${barre}`);
+        // Annotation visible dans l'interface de GitHub Actions.
+        if (process.env.GITHUB_ACTIONS === 'true') {
+            console.error(`::${niveau === 'echec' ? 'error' : 'warning'} title=Poids de l'accueil::${message}`);
+        }
+        if (niveau === 'echec') echec = true;
     }
-    if (!lien.ok) {
-        console.error("[poids-accueil] ECHEC : les liens de discipline du pied de page sont hors de portee de Googlebot, le deploiement est bloque.");
-    }
-    if (!poids.ok || !lien.ok) process.exit(1);
+    if (echec) process.exit(1);
 }

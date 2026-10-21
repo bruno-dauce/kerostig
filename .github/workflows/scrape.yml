@@ -204,3 +204,34 @@ jobs:
           timestamp=$(date -u)
           git commit -m "[SCRAPER]: ${timestamp}" || exit 0
           git push
+  # Apres la collecte : l'accueil tient-il sous la limite de Googlebot ? Job separe, qui
+  # ne touche ni au job de collecte ni au commit des donnees. Il construit le site
+  # comme Cloudflare Pages (npm run build) et echoue au-dela de 2 097 152 octets
+  # decompresses : un job en echec envoie un courriel GitHub, alors que le build de
+  # production n'avertit que dans son journal (il n'echoue jamais, pour ne pas figer
+  # le site).
+  #
+  # if: ${{ !cancelled() }} : le job tourne aussi quand la collecte a echoue, mais pas
+  # quand le workflow est annule a la main (always() lancerait alors une mesure, et un
+  # courriel inutile). Le job de collecte commite et pousse ce qu'il a obtenu meme en cas
+  # d'echec (cf. ses etapes finales) ; on mesure donc ce qui est reellement publie. ref: main : le checkout par defaut
+  # donnerait le commit qui a declenche le workflow, anterieur a celui de la collecte.
+  # Si la collecte n'a rien pousse, on mesure l'etat precedent, ce qui est sans effet.
+  verifier-poids:
+    needs: scrape
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+      - run: npm ci --ignore-scripts
+      - name: Build et poids de l'accueil
+        env:
+          POIDS_ACCUEIL_STRICT: '1'
+          POIDS_ACCUEIL_LIMITE: '2097152'
+        run: npm run build

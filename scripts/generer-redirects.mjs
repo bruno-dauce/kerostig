@@ -14,6 +14,7 @@
 // "build" de package.json.
 // Usage : node scripts/generer-redirects.mjs
 import { promises as fs } from 'fs';
+import { pathToFileURL } from 'url';
 
 const SOURCE = './enrichissement/redirections.json';
 const SORTIE = './public/_redirects';
@@ -34,4 +35,7 @@ async function main() {
     console.log(`[redirects] ${redirections.length} redirection(s) ecrite(s) dans ${SORTIE}`);
 }
 
-main();
+// Garde : sans elle, importer ce module (le test unitaire importe formaterRedirects)
+// ecrivait public/_redirects, et echouait quand public/ n'existe pas encore (CI : les
+// tests passent avant le build).
+if (import.meta.url === pathToFileURL(process.argv[1]).href) main();
