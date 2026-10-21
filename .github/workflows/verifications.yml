@@ -1,0 +1,35 @@
+name: Verifications
+# Sur chaque pull request : tests, build complet et poids de l'accueil en mode strict.
+# Cloudflare Pages construit aussi une previsualisation de la PR, mais ne lance aucun
+# test et n'echoue pas sur le poids : en production le controle de poids n'est qu'un
+# avertissement (un build en echec figerait le site). C'est ici qu'un depassement doit
+# etre vu, avant la fusion.
+on:
+  pull_request:
+# Lecture seule, pour tout le workflow : aucun job n'ecrit dans le depot.
+permissions:
+  contents: read
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout this repository
+        # Action epinglee au SHA du tag v4, meme regle que dans scrape.yml.
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      # Node explicite, contrairement a scrape.yml : la suite de tests passe des globs
+      # entre guillemets a `node --test`, que Node ne developpe qu'a partir de la 21.
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+      # --ignore-scripts : voir scrape.yml. Suffisant ici : le build (Tailwind, Eleventy)
+      # et les tests n'ont besoin d'aucun hook d'installation ni de navigateur telecharge.
+      - run: npm ci --ignore-scripts
+      - run: npm run test:unit
+      # Meme commande que Cloudflare Pages (npm run build), avec le poids de l'accueil
+      # en echec au-dela de 1 900 000 octets. Le build lance aussi le controle des
+      # classes kc-*, qui echoue toujours.
+      - name: Build
+        env:
+          POIDS_ACCUEIL_STRICT: '1'
+        run: npm run build
