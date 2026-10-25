@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : computer vision</title>
+        <link>https://kerostig.org/tag/computer-vision/</link>
+        <description>Derniers appels à publications avec le tag 'computer vision'.</description>
+        <lastBuildDate>Sun, 25 Oct 2026 16:31:05 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : computer vision</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/computer-vision/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Multimodal Learning for Embodied Intelligence: Perception, Alignment, Fusion, Reasoning, and Generation]]></title>
+            <link>https://kerostig.org/call/wiley-multimodal-learning-for-embodied-intelligence-perception-fusion-reasoning-generation-and-application/</link>
+            <guid>wiley-multimodal-learning-for-embodied-intelligence-perception-fusion-reasoning-generation-and-application</guid>
+            <pubDate>Sun, 25 Oct 2026 16:29:44 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Zhiliang Wu</strong>, Nanyang Technological University</p>
+        
+        <p><strong>Kun Li</strong>, United Arab Emirates University</p>
+        
+        <p><strong>Yunqiu Xu</strong>, National University of Singapore</p>
+        
+    
+    
+    
+    <p>Embodied intelligence systems must integrate diverse sensory inputs—vision, language, audio, touch, 3D signals, and action trajectories—to perceive and act in the physical world. This special issue focuses on multimodal learning approaches that enable embodied agents to build effective world models from these heterogeneous inputs. The work addresses unique challenges in embodied settings, including spatiotemporal understanding, cross-modal fusion, causal reasoning, and handling real-world conditions like noise, missing data, and partial observability.</p>
+    
+    <p>The special issue invites research on multimodal representation learning, information fusion, and reasoning methods for embodied systems. Studies should explore how embodied agents leverage foundation models and integrate multiple modalities for tasks ranging from perception and interaction to planning, decision-making, and world model generation.</p>
+    
+    <p>
+        Appel publié par Expert Systems.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/14680394/call-for-papers/si-2026-001295">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-multimodal-learning-for-embodied-intelligence-perception-fusion-reasoning-generation-and-application/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Multimodal Representation Learning for Embodied World Models</li>
+        
+        <li>Multimodal Fusion for Embodied Perception and Interaction</li>
+        
+        <li>Multimodal Reasoning for Planning and Decision-Making</li>
+        
+        <li>Multimodal Generating for Embodied World</li>
+        
+        <li>Vision-Language-Action Modeling</li>
+        
+        <li>Spatial-Temporal and 3D/4D Scene Understanding</li>
+        
+        <li>Predictive and Memory-Augmented World Models</li>
+        
+        <li>Foundation Models for Embodied Systems</li>
+        
+        <li>Trustworthy Embodied Multimodal Learning and Applications</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

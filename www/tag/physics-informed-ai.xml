@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : physics-informed ai</title>
+        <link>https://kerostig.org/tag/physics-informed-ai/</link>
+        <description>Derniers appels à publications avec le tag 'physics-informed ai'.</description>
+        <lastBuildDate>Sun, 25 Oct 2026 16:31:05 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : physics-informed ai</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/physics-informed-ai/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Physics-Informed Artificial Intelligence for Engineering Applications]]></title>
+            <link>https://kerostig.org/call/wiley-physics-informed-artificial-intelligence-for-engineering-applications/</link>
+            <guid>wiley-physics-informed-artificial-intelligence-for-engineering-applications</guid>
+            <pubDate>Sun, 25 Oct 2026 16:29:44 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Jiangbei Hu</strong>, Dalian University of Technology</p>
+        
+        <p><strong>Ben Fei</strong>, The Chinese University of Hong Kong</p>
+        
+        <p><strong>Yajun Cao</strong>, Hangzhou Dianzi University</p>
+        
+    
+    
+    
+    <p>This special issue addresses the integration of physical laws and mathematical structures into AI models for engineering systems. The challenge of creating accurate and generalizable AI systems in complex operating conditions motivates the inclusion of domain knowledge directly into learning architectures, combining data-driven approaches with established engineering principles.</p>
+    
+    <p>
+        Appel publié par Expert Systems.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/14680394/call-for-papers/si-2026-001238">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-physics-informed-artificial-intelligence-for-engineering-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Physics-informed neural networks (PINNs)</li>
+        
+        <li>Constrained learning</li>
+        
+        <li>Hybrid physics–AI models</li>
+        
+        <li>Differentiable simulation</li>
+        
+        <li>Neural operators</li>
+        
+        <li>Differential equations and conservation laws</li>
+        
+        <li>Approximation and convergence analysis</li>
+        
+        <li>Uncertainty quantification and robustness</li>
+        
+        <li>Industrial inspection and fault diagnosis</li>
+        
+        <li>Intelligent manufacturing and digital twins</li>
+        
+        <li>Energy and power systems</li>
+        
+        <li>Structural health monitoring</li>
+        
+        <li>Civil infrastructure and materials engineering</li>
+        
+        <li>Transportation and aerospace applications</li>
+        
+        <li>Robotics and autonomous systems</li>
+        
+        <li>Benchmarking and deployment</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

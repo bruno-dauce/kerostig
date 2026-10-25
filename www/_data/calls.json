@@ -1,5 +1,439 @@
 [
   {
+    "journal": "Global Finance Journal",
+    "abbreviation": "elsevier",
+    "issn": "1873-5665",
+    "metaTitle": "Financial Market Design for Sustainable and Inclusive Growth",
+    "url": "https://www.sciencedirect.com/special-issue/338235/financial-market-design-for-sustainable-and-inclusive-growth",
+    "title": "Financial Market Design for Sustainable and Inclusive Growth",
+    "slug": "elsevier-financial-market-design-for-sustainable-and-inclusive-growth",
+    "contentHash": "3f23662624d6fb43739b54febf768f6b843a11a64f5724c9794659288fbc63d8",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue in Global Finance Journal explores how financial market design can support sustainable and inclusive economic growth. The call invites research examining mechanisms and structures within financial markets that contribute to broader development objectives."
+      ]
+    },
+    "tags": [
+      "financial markets",
+      "sustainable finance",
+      "inclusive growth"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-07-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 274,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-25T16:29:44.231Z"
+  },
+  {
+    "journal": "International Journal of Managerial Finance",
+    "abbreviation": "emerald",
+    "issn": "1758-6569",
+    "metaTitle": "Beyond Automation: AI, Accounting, Finance, and the Future of Labor",
+    "url": "https://www.emerald.com/ijmf/calls-for-submissions/2111/Beyond-Automation-AI-Accounting-Finance-and-the?searchresult=1",
+    "title": "Beyond Automation: AI, Accounting, Finance, and the Future of Labor",
+    "slug": "emerald-beyond-automation-ai-accounting-finance-and-the-future-of-labor",
+    "contentHash": "a8342eafb69f360ec2994ce51d78e8a997bd1198f03ecf518e41a4738c4ecc6b",
+    "topics": [
+      "Artificial intelligence in accounting and corporate finance",
+      "AI-enabled financial reporting and disclosures",
+      "AI, corporate governance, and organizational accountability",
+      "AI, labor markets, employment, and job redesign",
+      "Wage inequality, labor exploitation, and worker well-being in the AI era",
+      "AI, diversity, equity, inclusion, and workplace fairness",
+      "Public policy, AI regulation, and labor related governance issues",
+      "The societal implications of AI for accounting, finance, and the future of work"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how artificial intelligence is transforming accounting, finance, and the workplace. The call addresses both the opportunities and challenges created by AI adoption, including innovations in financial reporting and decision-making alongside concerns about governance, ethics, and workforce impacts.",
+        "The special issue welcomes interdisciplinary research exploring AI's role across multiple dimensions: financial systems and corporate governance, human capital management and job design, labor market dynamics, and responsible technology implementation. It seeks to integrate perspectives from accounting, finance, and related fields to understand how organizations can harness AI's potential while addressing economic and societal consequences for workers and labor markets."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "accounting",
+      "finance",
+      "labor markets",
+      "corporate governance",
+      "workforce transformation"
+    ],
+    "editors": [
+      {
+        "name": "Mohammed Aminu Sualihu",
+        "affiliation": "Zayed University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-11-30T11:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-31T10:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 799,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-25T16:29:44.231Z"
+  },
+  {
+    "journal": "Managerial Finance",
+    "abbreviation": "emerald",
+    "issn": "1758-7743",
+    "metaTitle": "Corporate Debt Financing: Issuance, Pricing, and Real Impact",
+    "url": "https://www.emerald.com/mf/calls-for-submissions/2119/Corporate-Debt-Financing-Issuance-Pricing-and-Real?searchresult=1",
+    "title": "Corporate Debt Financing: Issuance, Pricing, and Real Impact",
+    "slug": "emerald-corporate-debt-financing-issuance-pricing-and-real-impact",
+    "contentHash": "30439378f307e4534cc354e75eee8388fac21d882aaea1e4794797c8a6d31f38",
+    "topics": [
+      "Debt issuance decisions and contract design",
+      "Primary market price formation, underwriting, and bookbuilding",
+      "Institutional investor demand and debt pricing",
+      "Green and ESG-labelled debt",
+      "Bank loans and private credit",
+      "Credit supply and the real effects of debt financing"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue invites empirical research examining how corporations issue and price debt, and how debt financing conditions influence firms' strategic choices regarding investment, employment, and growth. The issue takes a comprehensive view of the corporate debt market, covering both the initial stages of debt issuance and contract structuring and the subsequent market dynamics that determine pricing and allocation.",
+        "The collection seeks manuscripts on corporate bonds, bank loans, and private credit instruments. Research exploring the role of institutional investors in debt markets, the effects of credit market conditions on corporate real decisions, and specialized debt instruments such as green and ESG-labelled bonds are particularly welcome."
+      ]
+    },
+    "tags": [
+      "corporate finance",
+      "debt financing",
+      "financial markets",
+      "corporate bonds",
+      "credit markets"
+    ],
+    "editors": [
+      {
+        "name": "Liying Wang",
+        "affiliation": "University of Nebraska–Lincoln"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-15T11:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-07-31T10:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 758,
+      "tauxCopie": 0.010101010101010102,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-25T16:29:44.231Z"
+  },
+  {
+    "journal": "Journal of Business & Industrial Marketing",
+    "abbreviation": "emerald",
+    "issn": "2052-1189",
+    "metaTitle": "Relationship dynamics in turbulent business networks",
+    "url": "https://www.emerald.com/jbim/calls-for-submissions/2115/Relationship-dynamics-in-turbulent-business?searchresult=1",
+    "title": "Relationship dynamics in turbulent business networks",
+    "slug": "emerald-relationship-dynamics-in-turbulent-business-networks",
+    "contentHash": "7a7691e221244deb2609712bfbbf1b17f62df772965949460be43ba1df72dc88",
+    "topics": [
+      "Resilience, robustness, and antifragility in B2B relationships and supply chains",
+      "Business relationships and network reconfiguration in geopolitical and environmental disruptions",
+      "Governance, coordination, and relationship work in turbulent environments",
+      "Resilience across organisational and institutional contexts",
+      "Digitalisation, AI, and organisational capabilities in B2B markets",
+      "Future-oriented and conceptual perspectives on resilience and antifragility"
+    ],
+    "description": {
+      "paragraphs": [
+        "Contemporary firms operate in persistently turbulent business environments arising from geopolitical, social, and economic transformations. This turbulence generates ongoing uncertainty about value creation and threatens firm survival. The special issue addresses how B2B relationships and business networks respond to disruption, focusing on relational dynamics that enable firms to absorb, adapt to, and transform through adversity.",
+        "The issue emphasizes three complementary concepts: resilience (recovery after disruption), robustness (persisting under stress), and antifragility (gaining from disruption). It seeks work examining how buyer-seller relationships and networks evolve during crises and how firms reconfigure their positions within networks.",
+        "The special issue welcomes conceptual and empirical contributions using diverse methodological approaches. It is addressed to researchers interested in understanding relational adaptation, network dynamics, and organizational responses to persistent uncertainty."
+      ]
+    },
+    "tags": [
+      "b2b relationships",
+      "business networks",
+      "resilience",
+      "turbulence",
+      "disruption"
+    ],
+    "editors": [
+      {
+        "name": "Antonella La Rocca",
+        "affiliation": "Catholic University of the Sacred Heart"
+      },
+      {
+        "name": "Elisa Martina Martinelli",
+        "affiliation": "Catholic University of the Sacred Heart"
+      },
+      {
+        "name": "Andrea Sabatini",
+        "affiliation": "Marche Polytechnic University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-31T10:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-05-31T10:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1017,
+      "tauxCopie": 0.00847457627118644,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-25T16:29:44.231Z"
+  },
+  {
+    "journal": "Journal of Strategy and Management",
+    "abbreviation": "emerald",
+    "issn": "1755-4268",
+    "metaTitle": "Strategy Under Extreme Institutional Shock: Scenario Planning, Foresight, and Strategic Management in the Face of Radical Uncertainty",
+    "url": "https://www.emerald.com/jsma/calls-for-submissions/2117/Strategy-Under-Extreme-Institutional-Shock?searchresult=1",
+    "title": "Strategy Under Extreme Institutional Shock: Scenario Planning, Foresight, and Strategic Management in the Face of Radical Uncertainty",
+    "slug": "emerald-strategy-under-extreme-institutional-shock-scenario-planning-foresight-and-strategic-management-in-the-face-of-radical-uncertainty",
+    "contentHash": "cd9ab9ed835ec96e4f0103732137f858af040a5d0b65ff8edf2ea938499e9a6f",
+    "topics": [
+      "Extreme institutional shocks and strategy theory",
+      "High-impact, low-probability events and strategic decision-making",
+      "Dynamic capabilities under radical novelty and epistemic uncertainty",
+      "Organizational resilience and adaptation under Knightian uncertainty",
+      "Strategic responses to pandemics, climate tipping points, and AI discontinuities",
+      "Institutional legitimacy and re-legitimation following paradigm shocks",
+      "Managerial sensemaking and cognitive framing under extreme ambiguity",
+      "Strategy-as-practice during institutional disruption",
+      "Real options reasoning under Knightian uncertainty",
+      "Strategic foresight and scenario planning for paradigm-breaking events"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue in the Journal of Strategy and Management examines how organizations respond strategically when major disruptions fundamentally alter the institutional environment and challenge established decision-making frameworks. The focus is on situations where core assumptions, sources of authority, and environmental interpretation become uncertain or contested, requiring organizations to develop new approaches to strategic adaptation and resilience.",
+        "The special issue addresses contemporary challenges highlighted by recent global crises such as the COVID-19 pandemic, geopolitical instability, climate disasters, cyber threats, and artificial intelligence advances. By studying how organizations interpret uncertainty, maintain legitimacy, and navigate institutional disruption, the work contributes insights valuable to business leaders, policymakers, and public sector organizations seeking to strengthen resilience amid increasing volatility."
+      ]
+    },
+    "tags": [
+      "strategy",
+      "institutional disruption",
+      "organizational resilience",
+      "foresight",
+      "scenario planning",
+      "strategic management",
+      "radical uncertainty"
+    ],
+    "editors": [
+      {
+        "name": "James Bezjian",
+        "affiliation": "The Citadel Military College of South Carolina"
+      },
+      {
+        "name": "Jose Godinez",
+        "affiliation": "University of Massachusetts Lowell"
+      },
+      {
+        "name": "Veselina Stoyanova",
+        "affiliation": "University of Birmingham"
+      },
+      {
+        "name": "Arpit Sharma",
+        "affiliation": "The Citadel Military College of South Carolina"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-30T10:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2029-01-01T11:00:00.000Z",
+        "description": "Publication date of special issue",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "controle": {
+      "longueur": 959,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-25T16:29:44.231Z"
+  },
+  {
+    "journal": "Expert Systems",
+    "abbreviation": "wiley",
+    "issn": "1468-0394",
+    "metaTitle": "Multimodal Learning for Embodied Intelligence: Perception, Fusion, Reasoning, Generation, and Application",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14680394/call-for-papers/si-2026-001295",
+    "title": "Multimodal Learning for Embodied Intelligence: Perception, Alignment, Fusion, Reasoning, and Generation",
+    "slug": "wiley-multimodal-learning-for-embodied-intelligence-perception-fusion-reasoning-generation-and-application",
+    "contentHash": "8447739af57b164163b2656d30dccebb9198ec2b5b7aa5534b8c27db6c4efc1a",
+    "topics": [
+      "Multimodal Representation Learning for Embodied World Models",
+      "Multimodal Fusion for Embodied Perception and Interaction",
+      "Multimodal Reasoning for Planning and Decision-Making",
+      "Multimodal Generating for Embodied World",
+      "Vision-Language-Action Modeling",
+      "Spatial-Temporal and 3D/4D Scene Understanding",
+      "Predictive and Memory-Augmented World Models",
+      "Foundation Models for Embodied Systems",
+      "Trustworthy Embodied Multimodal Learning and Applications"
+    ],
+    "description": {
+      "paragraphs": [
+        "Embodied intelligence systems must integrate diverse sensory inputs—vision, language, audio, touch, 3D signals, and action trajectories—to perceive and act in the physical world. This special issue focuses on multimodal learning approaches that enable embodied agents to build effective world models from these heterogeneous inputs. The work addresses unique challenges in embodied settings, including spatiotemporal understanding, cross-modal fusion, causal reasoning, and handling real-world conditions like noise, missing data, and partial observability.",
+        "The special issue invites research on multimodal representation learning, information fusion, and reasoning methods for embodied systems. Studies should explore how embodied agents leverage foundation models and integrate multiple modalities for tasks ranging from perception and interaction to planning, decision-making, and world model generation."
+      ]
+    },
+    "tags": [
+      "embodied ai",
+      "multimodal learning",
+      "robotics",
+      "world models",
+      "computer vision",
+      "foundation models"
+    ],
+    "editors": [
+      {
+        "name": "Zhiliang Wu",
+        "affiliation": "Nanyang Technological University"
+      },
+      {
+        "name": "Kun Li",
+        "affiliation": "United Arab Emirates University"
+      },
+      {
+        "name": "Yunqiu Xu",
+        "affiliation": "National University of Singapore"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 906,
+      "tauxCopie": 0.026785714285714284,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-25T16:29:44.231Z"
+  },
+  {
+    "journal": "Expert Systems",
+    "abbreviation": "wiley",
+    "issn": "1468-0394",
+    "metaTitle": "Physics-Informed Artificial Intelligence for Engineering Applications",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14680394/call-for-papers/si-2026-001238",
+    "title": "Physics-Informed Artificial Intelligence for Engineering Applications",
+    "slug": "wiley-physics-informed-artificial-intelligence-for-engineering-applications",
+    "contentHash": "3a18c382618d24d8b47c144d26863ca12e74b0a03b0be64cc6f8a644879509a0",
+    "topics": [
+      "Physics-informed neural networks (PINNs)",
+      "Constrained learning",
+      "Hybrid physics–AI models",
+      "Differentiable simulation",
+      "Neural operators",
+      "Differential equations and conservation laws",
+      "Approximation and convergence analysis",
+      "Uncertainty quantification and robustness",
+      "Industrial inspection and fault diagnosis",
+      "Intelligent manufacturing and digital twins",
+      "Energy and power systems",
+      "Structural health monitoring",
+      "Civil infrastructure and materials engineering",
+      "Transportation and aerospace applications",
+      "Robotics and autonomous systems",
+      "Benchmarking and deployment"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue addresses the integration of physical laws and mathematical structures into AI models for engineering systems. The challenge of creating accurate and generalizable AI systems in complex operating conditions motivates the inclusion of domain knowledge directly into learning architectures, combining data-driven approaches with established engineering principles."
+      ]
+    },
+    "tags": [
+      "physics-informed ai",
+      "neural networks",
+      "engineering applications",
+      "machine learning"
+    ],
+    "editors": [
+      {
+        "name": "Jiangbei Hu",
+        "affiliation": "Dalian University of Technology"
+      },
+      {
+        "name": "Ben Fei",
+        "affiliation": "The Chinese University of Hong Kong"
+      },
+      {
+        "name": "Yajun Cao",
+        "affiliation": "Hangzhou Dianzi University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 381,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-10-25T16:29:44.231Z"
+  },
+  {
     "journal": "Applied Economics",
     "abbreviation": "tandf",
     "issn": "1466-4283",
@@ -1630,32 +2064,31 @@
     "url": "https://onlinelibrary.wiley.com/page/journal/14678594/call-for-papers/current-work-and-emerging-directions",
     "title": "Future Scholars in Business and Society: Current Work and Emerging Directions",
     "slug": "wiley-special-issue-of-business-and-society-review-for-doctoral-students-future-scholars-in-business-and-society-current-work-and-emerging-directions",
-    "contentHash": "5e41d793619fc7159c8333691ec516d8bbdce1adcf6b9e62de1dc4d1be68ae4d",
+    "contentHash": "ea515e3c08294aac043f57373d2725b4516585f6698d138d10cbbe2b1749a9fb",
     "topics": [
       "Ethical decision-making and moral responsibility",
-      "Stakeholder theory and value creation",
-      "Inequality, justice, and organizational impacts",
+      "Stakeholder theory and engagement",
+      "Inequality, precarity, and justice",
       "Sustainability and social innovation",
       "Technology, AI, and data ethics",
+      "Institutional and global perspectives on business-society issues",
       "Corporate governance and responsibility",
       "Business-government relations and policy",
-      "Institutional and global perspectives",
-      "Conceptual and methodological advancements",
-      "Pedagogical research in business ethics"
+      "Conceptual and theoretical advancements",
+      "Pedagogical research in ethics and CSR"
     ],
     "description": {
       "paragraphs": [
-        "This special issue of Business and Society Review is exclusively for doctoral students and seeks to showcase emerging scholarship examining the relationship between business and society. The initiative emphasizes developmental support alongside rigorous peer review, recognizing that doctoral research operates at varying stages of completion and methodological advancement.",
-        "The special issue welcomes both empirical and conceptual contributions addressing core topics in business ethics, corporate responsibility, stakeholder relations, sustainability, social innovation, and governance. Manuscripts need not conform to standard journal article length and may present abbreviated, developmental, or complete projects. All submissions will undergo the journal's standard double-blind review process.",
-        "Three manuscript development workshops are offered throughout 2026 to strengthen submissions, featuring feedback from senior scholars and peer dialogue opportunities. While participation in a workshop is encouraged, it is not required for manuscript submission."
+        "This special issue of Business and Society Review seeks doctoral research exploring the relationship between business and society. The journal welcomes emerging scholarship that addresses ethical challenges, corporate responsibility, stakeholder relations, sustainability, and social innovation, as well as newer concerns like technology and artificial intelligence. The issue aims to provide doctoral students with a venue to present novel questions, perspectives, and methodological approaches that advance the field.",
+        "Submissions may be at various stages of development, from defended dissertation proposals to more advanced work with preliminary findings. Both empirical and conceptual studies are welcome. Manuscripts must be authored exclusively by doctoral students or teams of doctoral students, with faculty members limited to informal advisory roles. All submissions will undergo standard double-blind peer review and follow the journal's formatting guidelines."
       ]
     },
     "tags": [
-      "business and society",
-      "doctoral research",
-      "special issue",
-      "corporate responsibility",
-      "ethics"
+      "business ethics",
+      "corporate social responsibility",
+      "stakeholder engagement",
+      "sustainability",
+      "doctoral research"
     ],
     "editors": [
       {
@@ -1667,33 +2100,23 @@
     "dates": [
       {
         "date": null,
-        "description": "Virtual Developmental Workshop",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": null,
         "description": "Expected Publication",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-06-01T10:00:00.000Z",
-        "description": "IABS Developmental Workshop",
+        "date": "2026-12-15T11:00:00.000Z",
+        "description": "Special Issue Manuscript Submissions Open",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-08-01T10:00:00.000Z",
-        "description": "AOM Developmental Workshop",
-        "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2027-03-01T11:00:00.000Z",
-        "description": "Full Manuscript Submissions for Special Issue",
+        "date": "2027-03-30T10:00:00.000Z",
+        "description": "Special Issue Manuscript Submission Deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "controle": {
-      "longueur": 1059,
-      "tauxCopie": 0.0234375,
+      "longueur": 969,
+      "tauxCopie": 0,
       "relance": false,
       "topicsTropLongs": 0
     },
@@ -4560,34 +4983,37 @@
     "url": "https://onlinelibrary.wiley.com/page/journal/1468005x/call-for-papers/failures-of-digitalization",
     "title": "Failures of Digitalization in the Workplace",
     "slug": "wiley-failures-of-digitalization-in-the-workplace",
-    "contentHash": "0ceb08e96613b0327e7692e252e1ed6c648e445da1cb37343c50ab6e30702f00",
+    "contentHash": "5c7e34121835b4990a212a89693641a83485037606590ec1fb59d17cb13c27a2",
     "topics": [
-      "Theoretical examination of failure in digital work processes, including concepts of technical rationality, solutionism, and sociological perspectives on inscription and closure",
-      "Empirical investigation of processes and consequences of failure in digitized work, service, and production processes",
-      "The role of technological expectations and promises in digital transformations and their relationship to actual outcomes",
-      "Conflicts of interest and class dynamics in digitalization and their influence on success and failure",
-      "Standards and measures of success for digital processes and attribution of failure",
-      "Management and negotiation of digital technology failures within work processes",
-      "Contradictions between technological promises and actual effects on work"
+      "Technical rationality and solutionism",
+      "Technological expectations and promises in digital transformation",
+      "Empirical investigation of digitalization failures",
+      "Conflicts of interest and class dynamics in digitalization",
+      "Work process contradictions and digital systems",
+      "Power dynamics in digital innovation outcomes",
+      "Success measurement and attribution of failure",
+      "Human-technology interactions in work contexts",
+      "Management of malfunction in digitized workflows",
+      "Structural contradictions in capitalist digitalization"
     ],
     "description": {
       "paragraphs": [
-        "This special issue examines widespread failures of digital technologies in the workplace, challenging narratives that treat digitalization as a solution to organizational challenges. Despite promises of improved efficiency and work conditions, major systems failures, abandoned IT projects, and everyday workplace malfunctions are common. The issue argues that examining these failures reveals fundamental contradictions in how digital technologies are designed and implemented within work organizations.",
-        "Research on digitalization failures remains sparse in labor studies despite their ubiquity in workplaces, with most attention directed toward technical aspects rather than the intersection of work processes and technology. This special issue seeks contributions analyzing failure as a systematic phenomenon embedded in operational contexts, power relations, and conflicting interests—not merely as technical malfunctions but as windows into structural contradictions in work organization."
+        "While digitalization is widely promoted as a solution to workplace challenges, research reveals that digital projects frequently fail. Studies show only 31% of IT projects succeed, 19% are abandoned, and 95% of AI pilots fail to deliver expected gains. Despite widespread failures—from faulty software halting global operations to systems causing unjust convictions—labor studies largely overlook them, focusing on success narratives while ignoring everyday dysfunctions workers encounter.",
+        "This special issue shifts focus from contested successes to actual practices of failure in digital workplace technologies. It explores how failures reveal contradictions between technological promises and operational realities, examining which dysfunctions are recognized, who bears responsibility, and how workers navigate malfunctioning systems. The issue treats failure not merely as technical malfunction but as revealing structural contradictions, power relations, and conflicting interests in digitalized work.",
+        "Contributors are invited to examine failure theoretically and empirically, investigating how technological rationality shapes digitalization agendas, analyzing specific workplace system failures, and studying how class dynamics influence digital transformation outcomes. The special issue demonstrates that studying failure opens analytical pathways to understanding problematic conditions underlying digitalization in capitalist production."
       ]
     },
     "tags": [
       "digitalization",
-      "workplace",
-      "technology failure",
-      "work organization",
-      "labor studies",
-      "ai and automation"
+      "workplace technology",
+      "organizational failure",
+      "labor process",
+      "critical technology studies"
     ],
     "editors": [
       {
         "name": "Heiner Heiland",
-        "affiliation": "University of Göttingen"
+        "affiliation": "University of Trier"
       },
       {
         "name": "Annemarie Kern",
@@ -4615,7 +5041,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-09-26T23:07:58.478Z"
+    "pubDate": "2026-09-26T23:07:58.478Z",
+    "controle": {
+      "longueur": 1446,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "New Technology Work and Employment",
@@ -12902,9 +13334,8 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
-    "pubDate": "2026-09-06T09:51:06.483Z",
-    "gracePeriod": "2026-11-16T18:01:51.922Z"
+    "active": true,
+    "pubDate": "2026-09-06T09:51:06.483Z"
   },
   {
     "journal": "Journal of Public Budgeting, Accounting & Financial Management",
@@ -13510,14 +13941,15 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-09-06T09:51:06.483Z",
     "controle": {
       "longueur": 174,
       "tauxCopie": 0,
       "relance": false,
       "topicsTropLongs": 0
-    }
+    },
+    "gracePeriod": "2026-11-24T16:29:44.231Z"
   },
   {
     "journal": "Management Learning",
@@ -49483,40 +49915,59 @@
     "metaTitle": "Alternative Proteins for Sustainable and Ethical Food Systems: Consumer, Production, and Supply-Chain Perspectives",
     "url": "https://www.emerald.com/bfj/calls-for-submissions/1909/Alternative-Proteins-for-Sustainable-and-Ethical?searchresult=1",
     "slug": "emerald-alternative-proteins-for-sustainable-and-ethical-food-systems-consumer-production-and-supply-chain-perspectives",
-    "contentHash": "7de6da1f99be700c6b348509ca027fed5c871c40e96ec55071a4c0ec7da6f6d8",
+    "contentHash": "a73fb7cdac70d6c12dcb2e99c1e4fe6f9b4d2d24097c320aedad0749ddab5d67",
     "title": "Alternative Proteins for Sustainable and Ethical Food Systems: Consumer, Production, and Supply-Chain Perspectives",
     "topics": [
-      "Consumer acceptance, preferences, and willingness to pay for alternative meats and dairy products",
-      "Farm-level decision-making and economic feasibility of adopting alternative-protein production systems",
+      "Consumer acceptance, preferences, and willingness to pay for alternative proteins",
+      "Farm-level decision-making and economic feasibility of alternative-protein adoption",
       "Sustainability, environmental and life-cycle assessments of alternative protein supply chains",
-      "Regulatory frameworks, certification, labelling, and standards for emerging protein products",
+      "Regulatory frameworks, certification, labelling, and standards for alternative protein products",
       "Cultural, ethical, and societal narratives shaping acceptance and legitimacy",
-      "Communication, trust-building, and transparency strategies across the supply chain"
+      "Communication, trust-building, and transparency strategies across the supply chain",
+      "Value-chain restructuring and market development for alternative proteins",
+      "Cultured meat production and welfare considerations",
+      "Plant-based meat analogues and market dynamics",
+      "Insect-based protein products and supply systems",
+      "Alternative dairy substitutes and adoption",
+      "System-level perspectives integrating individual and market dynamics",
+      "Governance structures and stakeholder coordination"
     ],
     "description": {
       "paragraphs": [
-        "The global food system is undergoing profound transformation driven by growing concerns about climate change, biodiversity loss, animal welfare, public health, and the long-term sustainability of livestock-based production models. Against this backdrop, alternative proteins, including cultured meat, plant-based meat analogues, insect-based products and novel dairy substitutes, have emerged as promising pathways for addressing environmental pressures while meeting evolving consumer expectations for ethical, healthy and sustainable diets. Although consumer research on these products has expanded rapidly, a comprehensive understanding of how alternative proteins reshape the broader agrifood system remains limited. Existing studies often address consumption, production, regulation, and socio-cultural dynamics in isolation, leaving significant knowledge gaps regarding value-chain restructuring, producer adoption, economic feasibility, and governance.",
-        "This Special Issue invites contributions exploring the rapidly evolving landscape of alternative protein-rich food systems, including cultured meat, plant-based meat analogues, insect-based foods, and alternative dairy products, within the broader contexts of animal welfare, sustainability, production systems, and socio-cultural adoption. In addition to the substantial body of consumer research in this area, this Special Issue seeks to broaden the analytical lens to encompass upstream and system-level perspectives. The way in which individuals and the system interact in practice remains insufficiently understood. We therefore invite studies that address the central question: How can system- and individual-level perspectives be integrated?",
-        "Contributions may examine how production systems for cultured meat or insect farming align with animal-welfare standards; how farmers and agribusinesses evaluate and manage the economic feasibility of shifting to new forms of protein production; how certification, labelling, and regulatory regimes enable or constrain market access; and how consumers' willingness to pay and trust dynamics interact with supply-chain development and broader food-system transitions. The overarching goal is to gain more insights in the dynamics of individual versus system-level transitions, and thereby bring together interdisciplinary research that connects consumption and production with governance, economic incentives, ethics, and sustainability, thereby advancing a more holistic understanding of the pathways, trade-offs and system-wide consequences associated with emerging alternative-protein futures.",
-        "All invited contributions should reflect on the main question from different perspectives and include a detailed policy section, as this is identified as an often neglected area and is especially relevant in the context of individual and system-level transitions.",
-        "The Special Issue reflects on topical issues of individual-level versus system-level dynamics from a wide range of perspectives. By inviting a broad range of perspectives on a shared question, the aim is to gain deeper insights into this challenging area and clarify how individual decision-making can be conceptually linked to system-level dynamics such as regulations, policies and social norms, and how these interactions can be leveraged to accelerate the protein transition.",
-        "The Special Issue encourages contributions that examine both the demand side (e.g., consumer acceptance, preferences, willingness to pay) and the supply side (e.g., production decisions, farm-level constraints, cost structures, supply-chain coordination). This will support a more complete understanding of how alternative proteins are produced, marketed, and adopted in practice.",
-        "The Issue will support empirical and theoretical work assessing how alternative-protein technologies and new value-chain configurations affect environmental footprints, land use, resource efficiency, biodiversity, and animal welfare, including assessments that compare conventional and emerging production models.",
-        "The Issue aims to examine how regulatory frameworks, certification and labeling regimes, governance structures, cultural narratives, and stakeholder values enable or constrain transitions toward alternative-protein systems.",
-        "We encourage contributions analysing cost structures, scalability, investment incentives, price and market formation, supply-chain coordination, and producer decision-making as alternative proteins expand.",
-        "The Issue welcomes robust methodological diversity, including discrete-choice experiments, mixed-methods studies, socio-economic modelling, comparative case studies, life-cycle and material-flow analyses, longitudinal adoption studies, and policy and stakeholder analysis, particularly in under-researched regions and production contexts.",
-        "The Issue will offer evidence to guide policy-makers, agrifood industry stakeholders, producer organisations and civil-society actors engaged in sustainable protein transitions and animal-welfare reform through actionable insights for policy and practice.",
-        "We invite a curated collection of original empirical research, comparative analyses, conceptual and theoretical papers, systematic reviews and in-depth case studies that align with the thematic focus and reflect the interdisciplinary scope, particularly in relation to consumer choice, market and value-chain dynamics, sustainability, production systems, and food-system innovation."
+        "The global food system faces mounting pressures from environmental concerns and sustainability challenges, creating opportunities for alternative proteins including cultured meat, plant-based products, and novel dairy alternatives. While consumer research on these products has expanded, understanding of how alternative proteins reshape entire agrifood systems remains fragmented, with studies typically addressing consumption, production, and regulation separately.",
+        "This special issue seeks integrated perspectives bridging consumer research, production systems, and supply-chain dynamics to address how individual-level decisions and system-level transitions interact. Contributors are invited to examine producer adoption decisions, value-chain restructuring, economic feasibility, regulatory frameworks, sustainability impacts, and sociocultural factors influencing acceptance across multiple stakeholder groups.",
+        "The collection aims to advance holistic understanding by combining consumer preferences with supply-side considerations, environmental assessments, animal-welfare implications, and policy insights. Methodological diversity and interdisciplinary approaches connecting consumption, production, governance, and ethics are especially encouraged."
       ]
     },
     "tags": [
       "alternative proteins",
-      "food systems",
-      "sustainability",
+      "sustainable food systems",
+      "supply chain",
       "consumer behavior",
-      "supply chains"
+      "agricultural sustainability"
     ],
-    "editors": [],
+    "editors": [
+      {
+        "name": "Sina Ahmadi Kaliji",
+        "affiliation": "Università di Bologna"
+      },
+      {
+        "name": "Margo Degieter",
+        "affiliation": "Ghent University"
+      },
+      {
+        "name": "Hans De Steur",
+        "affiliation": "Ghent University"
+      },
+      {
+        "name": "Luca Camanzi",
+        "affiliation": "Università di Bologna"
+      },
+      {
+        "name": "Marleen Onwezen",
+        "affiliation": "Wageningen University and Research"
+      }
+    ],
     "associate_editors": [],
     "dates": [
       {
@@ -49526,7 +49977,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-08-10T23:47:12.235Z"
+    "pubDate": "2026-08-10T23:47:12.235Z",
+    "controle": {
+      "longueur": 1257,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Journal of Managerial Psychology",
@@ -50645,8 +51102,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-10T23:47:12.235Z"
+    "active": false,
+    "pubDate": "2026-08-10T23:47:12.235Z",
+    "gracePeriod": "2026-11-24T16:29:44.231Z"
   },
   {
     "journal": "Personnel Review",
