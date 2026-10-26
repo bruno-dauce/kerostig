@@ -4,7 +4,7 @@
         <title>kerostig | Tag : digital technologies</title>
         <link>https://kerostig.org/tag/digital-technologies/</link>
         <description>Derniers appels à publications avec le tag 'digital technologies'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -292,11 +292,23 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Stefan Gold</strong>, Technical University of Munich</p>
+        
+        <p><strong>Antoine Harfouche</strong>, Paris Nanterre University</p>
+        
+        <p><strong>Paul Jones</strong>, Swansea University</p>
+        
+        <p><strong>Maryam Lotfi</strong>, Cardiff University</p>
+        
+        <p><strong>Guoqing Zhao</strong>, Swansea University</p>
+        
     
     
-    <p>Unethical labour practices, including modern slavery, affect approximately 50 million people worldwide and are expected to worsen due to regional conflicts and restrictive migration policies. Although digital technologies such as blockchain, AI, and cloud computing show promise in addressing these issues, research examining their specific applications remains limited. This special issue seeks to bridge this gap by exploring how digital technologies can be leveraged theoretically and empirically to monitor, detect, report, and remediate unethical labour practices.</p>
     
-    <p>The call invites original, theory-driven research using diverse methodologies including theoretical frameworks, case studies, surveys, and literature reviews. Submissions should identify specific digital technologies and provide nuanced insights into how they can combat labour exploitation and support human rights. Particularly encouraged are studies that challenge existing paradigms, explore underexamined dimensions, or offer innovative perspectives that inform policymakers and practitioners on leveraging technology for meaningful change.</p>
+    <p>Unethical labour practices affecting approximately 50 million people worldwide remain a critical social challenge. Digital technologies such as blockchain, artificial intelligence, and cloud computing offer potential solutions, yet research on their practical deployment remains limited. This special issue seeks contributions examining how these technologies can be leveraged for monitoring, detecting, reporting, and remediating unethical labour practices.</p>
+    
+    <p>The call invites original, theory-driven research using various methodologies that provide nuanced insights into digital technology applications for addressing modern slavery, human trafficking, forced labour, and other severe labour practices. Priority is given to studies that challenge existing paradigms, explore underexamined dimensions, or offer innovative frameworks that yield both conceptual advances and practical implications for policymakers and practitioners.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
@@ -309,35 +321,43 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Blockchain technology and labour rights</li>
+        <li>Blockchain technology for labour monitoring</li>
         
-        <li>Artificial intelligence for detecting exploitation</li>
+        <li>Artificial intelligence for detecting trafficking and slavery</li>
         
-        <li>Big data analytics and supply chain monitoring</li>
+        <li>Internet of Things and labour practices</li>
         
-        <li>Internet of Things and worker safety</li>
+        <li>Big data analytics for supply chain monitoring</li>
         
         <li>Cloud computing applications</li>
+        
+        <li>Worker voice technologies</li>
         
         <li>Biometric recognition systems</li>
         
         <li>Satellite imagery for labour monitoring</li>
         
-        <li>Remote sensors and worker voice technologies</li>
+        <li>Machine learning for identifying at-risk populations</li>
         
-        <li>Machine learning for trafficking detection</li>
+        <li>Digital technologies for survivor support and reintegration</li>
         
-        <li>Digital tools for survivor support and reintegration</li>
+        <li>Supply chain transparency and digital tracking</li>
         
-        <li>Human rights and digital technologies</li>
+        <li>Modern slavery detection and prevention</li>
         
-        <li>Modern slavery prevention</li>
+        <li>Child labour monitoring</li>
         
-        <li>Supply chain transparency</li>
+        <li>Forced labour identification</li>
         
-        <li>Digital monitoring systems</li>
+        <li>Human trafficking detection</li>
         
-        <li>Technology adoption for ethical labour practices</li>
+        <li>Bonded labour practices</li>
+        
+        <li>Digital solutions for labour compliance</li>
+        
+        <li>Technology adoption in human rights</li>
+        
+        <li>Ethical and responsible digital transformation</li>
         
     </ul>
     
@@ -362,25 +382,27 @@
 <div>
     
         
-        <p><strong>Jasmina Berbegal-Mirabent</strong>, Polytechnic University of Catalonia</p>
+        <p><strong>Jasmina Berbegal-Mirabent</strong>, Universitat Politècnica de Catalunya</p>
         
         <p><strong>Angelo Cavallo</strong>, Politecnico di Milano</p>
         
         <p><strong>Antje Fiedler</strong>, University of Auckland</p>
         
-        <p><strong>Esteban Lafuente</strong>, Costa Rica Institute of Technology</p>
+        <p><strong>Esteban Lafuente</strong>, Instituto Tecnológico de Costa Rica</p>
         
     
     
     
-    <p>Organizations across private and public sectors face challenges integrating digital technologies. While digitalization offers innovation and performance opportunities, many organizations struggle with resource constraints, knowledge gaps, and organizational inertia. The literature remains fragmented on how digitalization unfolds across different contexts, particularly for SMEs and public service providers lacking the resources of large corporations.</p>
+    <p>Digital transformation has become essential for both private and public organizations seeking innovation and competitive advantage. However, the literature lacks coherent understanding of how digitalization is implemented across different contexts. While large organizations traditionally led these efforts, SMEs and public institutions increasingly must engage in digital transformation despite significant resource constraints.</p>
     
-    <p>This special issue examines how organizations conceive, deploy, and leverage digital strategies. It seeks research on the factors driving digitalization decisions, mechanisms linking digital transformation to individual and organizational outcomes, and how human-technology interactions shape success. Studies on private firms, universities, hospitals, and public administrations are welcome, including the &#39;dark side&#39; of digitalization such as technology-resource misalignment.</p>
+    <p>The relationship between digitalization and performance is complex and context-dependent. Digital technologies offer opportunities for innovation and efficiency but also carry risks of misalignment with strategy and organizational disruption. Success requires aligning digital initiatives with organizational capabilities, workforce skills, and strategic planning rather than technology adoption alone.</p>
+    
+    <p>This special issue seeks contributions examining how organizations manage digitalization efforts across private firms and public institutions, addressing the drivers of digital transformation, mechanisms through which digitalization influences performance outcomes, and how digital transformation reshapes competitive dynamics in different economic contexts.</p>
     
     <p>
         Appel publié par Review of Managerial Science.
         
-        <a href="https://link.springer.com/collections/eghcgfcedb">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/eghcgfcedb">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/springer-unpacking-digitalization-antecedents-strategies-and-performance-implications/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -388,37 +410,41 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Antecedents of SME digitalization strategies</li>
+        <li>Organizational and technological antecedents of digital adoption</li>
         
-        <li>Strategic choices in digital transformation</li>
+        <li>Strategic approaches to digitalization</li>
         
         <li>Socio-technical system readiness factors</li>
         
-        <li>Ecosystem characteristics and digital interactions</li>
+        <li>Ecosystem characteristics and digital adoption</li>
         
-        <li>Integration of digital technologies in operations</li>
+        <li>Human-technology interaction</li>
         
-        <li>Automation, augmentation, and innovation</li>
+        <li>Digital integration in firm operations</li>
         
         <li>Digital literacy and organizational culture</li>
         
-        <li>Public sector digitalization</li>
-        
-        <li>Leadership and governance in digital transformation</li>
+        <li>Digital transformation in public sector</li>
         
         <li>Public-private partnerships for digital solutions</li>
         
-        <li>Absorptive capacity and co-creation</li>
+        <li>E-administration and hybrid learning platforms</li>
         
-        <li>Individual-level outcomes of digitalization</li>
+        <li>Performance outcomes of digitalization</li>
         
-        <li>Firm-level performance outcomes</li>
+        <li>Innovation and internationalization through digital technologies</li>
         
-        <li>Heterogeneous effects of digital transformation</li>
+        <li>Operational efficiency and sustainability</li>
         
-        <li>Strategic alignment and digital technologies</li>
+        <li>Technology-strategy alignment</li>
         
-        <li>Digital transformation and competitive positioning</li>
+        <li>Power dynamics between entrants and incumbents</li>
+        
+        <li>Digital literacy and human-technology interactions</li>
+        
+        <li>Dark side of digitalization</li>
+        
+        <li>Technology-resource misfit</li>
         
     </ul>
     
@@ -439,77 +465,6 @@
         <li>January 31, 2028: Final revised manuscript due</li>
         
         <li>April 30, 2028: Final author notification of acceptance</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Guardians of accountability: Accounting professionals' roles in fraud prevention and early internal detection]]></title>
-            <link>https://kerostig.org/call/tandf-guardians-of-accountability-accounting-professionals-roles-in-fraud-prevention-and-early-internal-detection/</link>
-            <guid>tandf-guardians-of-accountability-accounting-professionals-roles-in-fraud-prevention-and-early-internal-detection</guid>
-            <pubDate>Tue, 11 Aug 2026 00:55:16 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Domenico Campa</strong>, International University of Monaco</p>
-        
-        <p><strong>Mary Vera-Colina</strong>, Universidad Nacional de Colombia</p>
-        
-        <p><strong>Dan-Richard Knudsen</strong>, NHH Norwegian School of Economics</p>
-        
-        <p><strong>Aziza Laguecir</strong>, EDHEC Business School</p>
-        
-    
-    
-    
-    <p>This special issue addresses the under-explored preventive dimensions of accounting fraud and scandals, focusing on how fraudulent conduct might be avoided entirely and what conditions foster organizational integrity. Rather than examining only the aftermath of scandals, the collection seeks to understand the social, institutional, and ethical processes through which fraud is produced, enabled, or resisted within organizations, with particular attention to how professionals, organizational structures, and institutional environments either facilitate or constrain effective prevention.</p>
-    
-    <p>
-        Appel publié par Accounting Forum.
-        
-        <a href="https://think.taylorandfrancis.com/special_issues/guardians-of-accountability/">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/tandf-guardians-of-accountability-accounting-professionals-roles-in-fraud-prevention-and-early-internal-detection/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Role of auditors, fraud examiners, and other professionals in detecting or preventing fraud and navigating responsibilities in practice</li>
-        
-        <li>Digitalisation through blockchain, AI, and fintech infrastructures and their impact on fraud detection and early internal detection</li>
-        
-        <li>Organisational conditions and cultural norms that enable or suppress ethical decision-making in the accounting function</li>
-        
-        <li>Ethical and psychological consequences faced by internal whistle-blowers and factors shaping their decisions to speak up or remain silent</li>
-        
-        <li>Legal, organisational, and professional safeguards to protect those who disclose financial wrongdoing</li>
-        
-        <li>Lessons from failures to prevent scandals, particularly where early warnings were available but ignored</li>
-        
-        <li>Institutional settings and regulatory environments that facilitate or constrain fraud prevention and early internal detection</li>
-        
-        <li>Role of communities and NGOs in disclosing information to prevent fraud and accounting scandals</li>
-        
-        <li>Organisational design and structure as preventative architectures against fraud</li>
-        
-        <li>Management accountants as potential whistle-blowers and their unique positioning to detect fraudulent activities</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>Invalid DateTime: Special Issue expected to be published</li>
-        
-        <li>March 1, 2027: Submissions open</li>
-        
-        <li>March 31, 2027: Manuscript deadline</li>
         
     </ul>
     

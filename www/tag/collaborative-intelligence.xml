@@ -4,7 +4,7 @@
         <title>kerostig | Tag : collaborative intelligence</title>
         <link>https://kerostig.org/tag/collaborative-intelligence/</link>
         <description>Derniers appels à publications avec le tag 'collaborative intelligence'.</description>
-        <lastBuildDate>Sat, 17 Oct 2026 17:04:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -36,9 +36,11 @@
     
     
     
-    <p>This special issue investigates how collaborative intelligence—combining human expertise, artificial intelligence, and distributed problem-solving—can advance operations research to address modern decision-making challenges. Traditional OR methods struggle with the dynamic and interconnected nature of contemporary problems, from logistics to emergency response. The collection seeks contributions that demonstrate how human-AI collaboration can enhance decision-making, boost system resilience, and optimize complex operational environments.</p>
+    <p>Modern operations research requires approaches combining human expertise with artificial intelligence and distributed problem-solving. This special issue addresses how collaborative intelligence—the synergy between human decision-makers, AI systems, and mathematical models—can enhance adaptability and efficiency in complex operational environments.</p>
     
-    <p>The call invites theoretical, computational, and applied research on human-AI collaboration in OR models, optimization and game-theoretic approaches for multi-agent systems, adaptive and decentralized frameworks, and data-driven learning-based optimization. Submissions should demonstrate both theoretical rigor and practical relevance, with innovative methodologies and real-world applications that advance collaborative intelligence in operations research.</p>
+    <p>Traditional OR methods struggle with dynamic and uncertain decision-making. While AI offers computational power, autonomous systems face challenges with uncertainty and interpretability. Collaborative intelligence bridges this gap by leveraging human intuition alongside AI capabilities.</p>
+    
+    <p>The special issue welcomes theoretical and applied research on collaborative, multi-agent, and adaptive decision-making frameworks that advance how human-AI partnership, multi-agent coordination, and data-driven learning enhance operations research methodologies.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -51,29 +53,29 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Designing OR models that facilitate seamless interaction and information exchange between human decision-makers and AI agents</li>
+        <li>Human-AI collaboration in OR models</li>
         
-        <li>The framework for integrating human judgment, preferences, and ethical considerations into AI-driven decision-making</li>
+        <li>AI output visualization and interpretability</li>
         
-        <li>Techniques for visualizing and interpreting AI outputs to enhance human understanding and trust</li>
+        <li>Multi-agent optimization and game theory</li>
         
-        <li>Novel optimization algorithms and game-theoretic frameworks for coordinating and optimizing decisions in multi-agent environments</li>
+        <li>Decentralized optimization algorithms</li>
         
-        <li>Models addressing diverse objectives, capabilities, and interactions among multiple agents</li>
+        <li>Adaptive OR frameworks</li>
         
-        <li>Approaches to managing conflicts, uncertainties, and strategic behaviors in multi-agent decision-making</li>
+        <li>Online learning and adaptive control</li>
         
-        <li>OR frameworks capable of dynamically adapting to real-time changes and uncertainties</li>
+        <li>Machine learning for OR applications</li>
         
-        <li>Decentralized optimization algorithms and control strategies for distributed systems</li>
+        <li>Learning-based optimization</li>
         
-        <li>Online learning and adaptive control techniques to improve system responsiveness and resilience</li>
+        <li>Predictive analytics and simulation</li>
         
-        <li>Leveraging machine learning and data analytics to extract insights and patterns for OR applications</li>
+        <li>Multi-agent coordination</li>
         
-        <li>Learning-based optimization algorithms that improve performance through data feedback</li>
+        <li>Distributed problem-solving</li>
         
-        <li>Predictive analytics and simulation techniques for enhanced decision-making and risk management</li>
+        <li>Decision support systems</li>
         
     </ul>
     

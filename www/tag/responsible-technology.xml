@@ -4,7 +4,7 @@
         <title>kerostig | Tag : responsible technology</title>
         <link>https://kerostig.org/tag/responsible-technology/</link>
         <description>Derniers appels à publications avec le tag 'responsible technology'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,11 +22,23 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Imon Chakraborty</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Saji K. Mathew</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Nargis Pervin</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Viswanath Venkatesh</strong>, Virginia Polytechnic Institute and State University</p>
+        
     
     
-    <p>Digital technologies like AI and blockchain create significant value but also introduce serious challenges including algorithmic bias, privacy violations, and workforce disruption. The special issue seeks research on information systems that are simultaneously responsible—fair, transparent, ethical, and accountable—and resilient, capable of withstanding disruptions while delivering sustained value.</p>
     
-    <p>While responsibility and resilience in digital systems are interdependent, they have largely evolved as separate research streams. Information systems scholars are uniquely positioned to examine human–technology interaction, value realization from digital investments, and how governance shapes digital outcomes, particularly for vulnerable populations. The special issue invites theoretically grounded, methodologically rigorous research using diverse methods including conceptual work, surveys, experiments, and design science approaches.</p>
+    <p>Digital technologies such as AI and platforms deliver significant value but also introduce serious challenges including bias, privacy violations, and workforce disruption. This special issue seeks research on information systems that are both responsible—fair, transparent, and accountable—and resilient—able to withstand disruptions and continue functioning effectively.</p>
+    
+    <p>The special issue welcomes theoretically grounded research using various methods including conceptual work, surveys, experiments, case studies, and design science approaches. It seeks insights beyond simple adoption narratives, exploring post-adoption use, value realization, human-machine collaboration, AI governance, and long-term societal impacts.</p>
+    
+    <p>The special issue is linked to the India Conference on Information Systems 2027 but is open to all authors. Submissions should challenge existing paradigms and clearly identify the specific technologies examined. Papers must have IS, behavioral, organizational, or societal contributions rather than purely technical focus.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
@@ -63,7 +75,7 @@
         
         <li>Opportunities and challenges of AI for society</li>
         
-        <li>Skills and mindsets remaining uniquely human in AI-driven world</li>
+        <li>Skills and mindsets unique to humans in an AI-driven world</li>
         
     </ul>
     

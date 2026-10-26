@@ -4,7 +4,7 @@
         <title>kerostig | Tag : decision support</title>
         <link>https://kerostig.org/tag/decision-support/</link>
         <description>Derniers appels à publications avec le tag 'decision support'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -47,49 +47,61 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Data Science]]></title>
-            <link>https://kerostig.org/call/springer-data-science/</link>
-            <guid>springer-data-science</guid>
+            <title><![CDATA[Data-Driven Reliability Modeling and Decision Support in Industrial Engineering Systems]]></title>
+            <link>https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/</link>
+            <guid>springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
         
-        <p><strong>Dries F. Benoit</strong>, Ghent University</p>
-        
-        <p><strong>Kristof Coussement</strong>, IÉSEG School of Management</p>
-        
-        <p><strong>Cem İyigün</strong>, Middle East Technical University</p>
-        
-        <p><strong>Asil Oztekin</strong>, University of Massachusetts Lowell</p>
+        <p><strong>Yi-Kuei Lin</strong>, National Yang Ming Chiao Tung University</p>
         
     
     
     
-    <p>This special section seeks to publish research that bridges data science and operations research, emphasizing both theoretical advances and practical organizational applications. The focus extends beyond technical innovation to address how analytics creates measurable value within organizations and drives necessary organizational change.</p>
+    <p>This special issue seeks contributions on data-driven and intelligent approaches to reliability modeling for industrial engineering systems, including manufacturing, supply chains, logistics, energy, transportation, and service operations. The growing availability of operational and condition-monitoring data has created opportunities to complement traditional probabilistic and stochastic reliability methods with machine learning and statistical learning techniques.</p>
     
-    <p>The collection invites contributions exploring the intersection of OR and analytics across multiple dimensions: ethical and governance considerations in data usage, challenges of applying OR techniques to big data and distributed systems, organizational barriers to analytics adoption, data quality and validation methods for large datasets, and the role of visualization and soft OR techniques in supporting data-driven decision making.</p>
+    <p>The issue emphasizes the integration of reliability modeling with decision support frameworks, enabling practitioners to move beyond reliability assessment toward actionable, reliability-informed decisions under uncertainty. Both theoretical developments and practical applications are welcome, with particular interest in papers demonstrating methodological rigor and real-world industrial relevance.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
         
-        <a href="https://link.springer.com/collections/egaahfecfe">Voir l'appel sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/igdgfheeeh">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/springer-data-science/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/springer-data-driven-reliability-modeling-and-decision-support-in-industrial-engineering-systems/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Ethics and governance issues in analytics: How should data be obtained? What are the ethical implications of using applications of analytics to influence behavior?</li>
+        <li>Data-driven reliability modeling and parameter estimation using operational data</li>
         
-        <li>Big data and analytics: What are the limitations and applications of optimization and other OR techniques to large datasets? What are the challenges for applications of OR methods within distributed systems? What is the possibility that OR models could in fact be the producers of big data, e.g., large-scale simulation models? What new methods/models in response to big data, e.g., sentiment mining, can be adopted by OR?</li>
+        <li>Reliability analysis using statistical learning and machine learning methods</li>
         
-        <li>Organizational issues in analytics adoption: What are the issues facing organizations trying to adopt analytics? What is the role of real-time applications of OR in organizations?</li>
+        <li>Reliability models combining analytical formulations with data-driven learning approaches</li>
         
-        <li>Data quality and analytics: What methods can be used for hypothesis testing and model validation in large datasets? How can unstructured data be used effectively in OR models? What is the role of multi-methodology in business analytics? What opportunities do open data present for the OR discipline?</li>
+        <li>Decision support systems incorporating reliability analysis and risk information</li>
         
-        <li>Analytics and decision support: How can data visualization techniques be used across the breadth of OR? What role do problem structuring and &quot;soft&quot; OR techniques play in analytics and big data projects?</li>
+        <li>Optimization and decision-making problems informed by reliability performance</li>
+        
+        <li>Predictive maintenance and condition monitoring using data and learning models</li>
+        
+        <li>Multistate system and network reliability analysis</li>
+        
+        <li>Reliability evaluation of manufacturing, logistics, and supply chain systems</li>
+        
+        <li>Reliability modeling in energy, power, and infrastructure systems</li>
+        
+        <li>Stochastic modeling and uncertainty analysis in data-driven reliability studies</li>
+        
+        <li>Simulation, enumeration, and approximation methods for reliability evaluation</li>
+        
+        <li>System design and resource allocation considering reliability and operational data</li>
+        
+        <li>Reliability analysis supported by digital twins, data analytics, and intelligent systems</li>
+        
+        <li>Reliability, robustness, and resilience of industrial engineering systems</li>
         
     </ul>
     
@@ -97,7 +109,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>Invalid DateTime: Submission deadline</li>
+        <li>July 31, 2027: Submission deadline</li>
         
     </ul>
     

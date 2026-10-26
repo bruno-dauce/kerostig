@@ -4,7 +4,7 @@
         <title>kerostig | Tag : design science</title>
         <link>https://kerostig.org/tag/design-science/</link>
         <description>Derniers appels à publications avec le tag 'design science'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,11 +22,25 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Laura Amo</strong>, University at Buffalo, State University of New York</p>
+        
+        <p><strong>Richard Baskerville</strong>, Georgia State University</p>
+        
+        <p><strong>Rui Chen</strong>, Iowa State University</p>
+        
+        <p><strong>Matthew Hashim</strong>, University of Arizona</p>
+        
+        <p><strong>Yaojie (William) Li</strong>, University of New Orleans</p>
+        
+        <p><strong>Yuan Li</strong>, University of Tennessee at Knoxville</p>
+        
     
     
-    <p>As artificial intelligence increasingly shapes both offensive and defensive cybersecurity, this special issue emphasizes the continuing importance of human judgment and involvement in security systems. The call recognizes that while AI tools are becoming essential for threat detection and response, humans remain fundamental to effective security practice. The special issue seeks research that maintains focus on how humans can effectively collaborate with AI-based systems rather than being replaced by them.</p>
     
-    <p>The special issue invites behavioral and design science research exploring how to balance AI advancement with meaningful human participation in security. Beyond traditional topics like security compliance and training, the call particularly welcomes studies on neurosecurity approaches, AI-enabled behavioral interventions, human-AI collaboration in security decisions, and the security implications of generative AI. The work should emphasize practical applications, such as improving security awareness or detecting threats through behavioral analysis, rather than purely technical solutions.</p>
+    <p>As artificial intelligence increasingly dominates both offensive and defensive cybersecurity, this special issue emphasizes maintaining human involvement in security systems and decision-making. While AI tools help detect threats and respond to attacks, they introduce new risks through generative AI-enabled phishing and behavioral manipulation. The issue seeks research balancing AI&#39;s role with human judgment and responsibility in information security.</p>
+    
+    <p>Papers should explore how design science approaches create intelligent security artifacts enhancing human decision-making rather than replacing it, and how to mitigate human vulnerabilities while leveraging human strengths in AI-mediated security. Both established behavioral security topics and emerging issues related to AI risks and secure behavior in modern work environments are welcome.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
@@ -39,25 +53,25 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Neurosecurity (NeuroIS) investigations</li>
+        <li>Neurosecurity (NeuroIS) investigations of information security behavior</li>
         
-        <li>Design science and security/privacy tradeoffs</li>
+        <li>Design science treatments balancing security and privacy tradeoffs</li>
         
-        <li>Cybersecurity/privacy research and AI/ML</li>
+        <li>Cybersecurity/privacy and AI/ML advancements intersection</li>
         
-        <li>AI-enabled security awareness and training</li>
+        <li>AI-enabled security awareness, training, nudging, and behavioral interventions</li>
         
-        <li>Human-AI collaboration in security</li>
+        <li>Human-AI collaboration in security decision-making and response</li>
         
-        <li>Generative AI behavioral security implications</li>
+        <li>Generative AI behavioral security implications: phishing, social engineering, insider threats</li>
         
-        <li>Intelligent security artifacts design</li>
+        <li>Intelligent security artifacts with behavioral implications</li>
         
-        <li>Adaptive and personalized security interventions</li>
+        <li>Adaptive and context-aware security interventions enabled by AI</li>
         
-        <li>Behavioral security theories in AI environments</li>
+        <li>Behavioral security theories in AI-mediated environments</li>
         
-        <li>Security behaviors in remote and hybrid work</li>
+        <li>Security behaviors in remote work, hybrid work, IoT, and cloud environments</li>
         
     </ul>
     

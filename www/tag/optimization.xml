@@ -4,7 +4,7 @@
         <title>kerostig | Tag : optimization</title>
         <link>https://kerostig.org/tag/optimization/</link>
         <description>Derniers appels à publications avec le tag 'optimization'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -245,9 +245,9 @@
     
     
     
-    <p>This special issue brings together recent advances in optimization and decision-making under uncertainty, focusing on theoretical contributions that strengthen the mathematical foundations and algorithmic techniques in operations research. The scope encompasses developments in stochastic, robust, and distributionally robust optimization, game theory, sequential decision-making, and learning-based methods that have expanded modern operations research&#39;s applicability.</p>
+    <p>This special issue invites theoretical and methodological contributions advancing optimization and decision-making under uncertainty. It seeks original research developing new optimization models, analytical results, computational methods, and convergence theories across mathematical optimization, stochastic optimization, robust optimization, game theory, and sequential decision-making.</p>
     
-    <p>The special issue welcomes original research presenting new optimization models, theoretical results, computational methodologies, and convergence analyses. While organized alongside ICORSI 2026 held at Indian Institute of Technology Delhi, the issue is open to all researchers in these areas regardless of conference participation.</p>
+    <p>The special issue is organized in conjunction with the International Conference on Operations Research: Theory, Applications and Emerging Technologies (ICORSI 2026) at Indian Institute of Technology Delhi. However, submissions are welcomed from all researchers in these areas regardless of conference participation, and all papers will undergo standard peer review.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -299,6 +299,83 @@
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Collaborative Intelligence in Operations Research: Models, Methods, and Applications]]></title>
+            <link>https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/</link>
+            <guid>springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Olga Battaïa</strong>, Kedge Business School</p>
+        
+        <p><strong>Yasser Dessouky</strong>, San Jose State University</p>
+        
+        <p><strong>Reza Zanjirani Farahani</strong>, Paris School of Business</p>
+        
+        <p><strong>Masood Fathi</strong>, University of Skövde</p>
+        
+        <p><strong>Madjid Tavana</strong>, La Salle University</p>
+        
+    
+    
+    
+    <p>Modern operations research requires approaches combining human expertise with artificial intelligence and distributed problem-solving. This special issue addresses how collaborative intelligence—the synergy between human decision-makers, AI systems, and mathematical models—can enhance adaptability and efficiency in complex operational environments.</p>
+    
+    <p>Traditional OR methods struggle with dynamic and uncertain decision-making. While AI offers computational power, autonomous systems face challenges with uncertainty and interpretability. Collaborative intelligence bridges this gap by leveraging human intuition alongside AI capabilities.</p>
+    
+    <p>The special issue welcomes theoretical and applied research on collaborative, multi-agent, and adaptive decision-making frameworks that advance how human-AI partnership, multi-agent coordination, and data-driven learning enhance operations research methodologies.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/fihchfagfc">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Human-AI collaboration in OR models</li>
+        
+        <li>AI output visualization and interpretability</li>
+        
+        <li>Multi-agent optimization and game theory</li>
+        
+        <li>Decentralized optimization algorithms</li>
+        
+        <li>Adaptive OR frameworks</li>
+        
+        <li>Online learning and adaptive control</li>
+        
+        <li>Machine learning for OR applications</li>
+        
+        <li>Learning-based optimization</li>
+        
+        <li>Predictive analytics and simulation</li>
+        
+        <li>Multi-agent coordination</li>
+        
+        <li>Distributed problem-solving</li>
+        
+        <li>Decision support systems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Contextual Optimization with Side Information: Theory, Methodology, and Applications]]></title>
             <link>https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/</link>
             <guid>springer-contextual-optimization-with-side-information-theory-methodology-and-applications</guid>
@@ -306,11 +383,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Stelios Bekiros</strong>, University of Turin</p>
+        
+        <p><strong>Andrea D&#39;Ariano</strong>, Roma Tre University</p>
+        
+        <p><strong>Peng Wu</strong>, Fuzhou University</p>
+        
+        <p><strong>Guowei Zhang</strong>, Dalian University of Technology</p>
+        
     
     
-    <p>Modern operations research increasingly relies on contextual information to enhance decision-making in uncertain environments. This special issue focuses on the integration of side information—such as demand patterns, user behaviors, and market conditions—into optimization models to achieve more adaptive and data-driven policies. The field spans contextual stochastic optimization, distributionally robust optimization with covariates, decision-focused learning, and online optimization frameworks.</p>
     
-    <p>Real-world applications present significant challenges including high-dimensional data, noisy observations, distribution shifts, computational constraints, and the need to balance predictive accuracy with operational performance. The special issue seeks high-quality contributions that develop novel theories, algorithms, and applications combining optimization with machine learning, statistics, and data analytics to address these challenges systematically.</p>
+    <p>Modern operations research integrates optimization with machine learning and statistics to incorporate side information—such as demand patterns and market conditions—into decision-making processes. This contextual optimization approach enables more adaptive and data-driven policies than classical optimization, though significant challenges persist including high-dimensional data, noisy observations, distribution shifts, and computational constraints.</p>
+    
+    <p>The field requires new theories and frameworks that systematically combine learning and optimization under uncertainty, with emphasis on improving actual operational performance. This special issue invites high-quality contributions developing novel theories, models, algorithms, and applications addressing contextual decision-making using side information, spanning prescriptive analytics, adaptive algorithms, and real-world applications in transportation, supply chains, and healthcare.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -387,9 +474,11 @@
     
     
     
-    <p>This special section addresses the integration of the UN&#39;s 17 Sustainable Development Goals (SDGs) into operations research and supply chain management. Organizations worldwide need to align their strategies with sustainability objectives to address resource depletion, pollution, and poverty. The collection seeks research that applies advanced operations research methods—such as multi-attribute and multi-objective decision making—to analyze and implement SDGs within supply chain environments at macro and organizational levels.</p>
+    <p>Organizations must align operations with UN sustainable development goals to address resource depletion and environmental degradation. This special section seeks research using operations research methods to implement SDGs in supply chain management, particularly advanced optimization techniques like multi-attribute and multi-objective decision-making.</p>
     
-    <p>The special section welcomes contributions exploring three main themes: stakeholder-driven policy and design for SDGs; innovative strategies and practices for implementing sustainable supply chain management; and monitoring supply chain governance with respect to SDG targets. Research should demonstrate how optimization models and algorithms can improve data-driven decision-making, promote resource conservation, and support transitions toward more sustainable futures while addressing economic, environmental, and societal dimensions of supply chains.</p>
+    <p>The section invites contributions on three themes: designing sustainable policies with stakeholder involvement, implementing SDGs through innovative supply chain practices, and monitoring progress toward sustainability targets in supply chain governance. Research should examine how organizations balance economic growth with resource conservation and environmental protection.</p>
+    
+    <p>The collection welcomes interdisciplinary approaches integrating environmental, economic, and social perspectives. Submissions should demonstrate how operations research and optimization algorithms support data-driven decisions that achieve sustainable development goals while improving organizational efficiency and human wellbeing.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -404,35 +493,35 @@
         
         <li>Sustainable development goals (SDGs) implementation</li>
         
-        <li>Supply chain optimization</li>
+        <li>Green supply chain management</li>
+        
+        <li>Lean supply chain approaches</li>
         
         <li>Multi-attribute decision making (MADM)</li>
         
         <li>Multi-objective decision making (MODM)</li>
         
-        <li>Green supply chain management</li>
+        <li>Sustainable policy design and policymaking</li>
         
-        <li>Lean supply chain approaches</li>
-        
-        <li>Sustainable policy and design with stakeholder perspectives</li>
-        
-        <li>Sustainable indicator strategies</li>
+        <li>Stakeholder engagement in sustainability</li>
         
         <li>Resource conservation and efficiency</li>
         
-        <li>Supply chain governance and monitoring</li>
+        <li>Environmental degradation mitigation</li>
         
-        <li>Environmental and societal impact reduction</li>
+        <li>Supply chain governance monitoring</li>
         
-        <li>Circular economy transitions</li>
+        <li>Sustainable indicators and metrics</li>
+        
+        <li>Circular economy in supply chains</li>
+        
+        <li>Carbon emissions reduction</li>
         
         <li>Supplier sustainability and resilience</li>
         
         <li>Reverse logistics and remanufacturing</li>
         
-        <li>Carbon emissions reduction</li>
-        
-        <li>Humanitarian and green logistics</li>
+        <li>Sustainable procurement practices</li>
         
     </ul>
     
@@ -464,9 +553,11 @@
     
     
     
-    <p>This special section showcases optimization and computational approaches applied to medical and biological challenges. It aims to bring together mathematical programming researchers and healthcare professionals to address complex decision problems in medicine, from medical devices to clinical data analysis.</p>
+    <p>This special section seeks contributions applying optimization and computational methods to medical and healthcare challenges. The collection welcomes theoretical and methodological work on models and algorithms including continuous linear and nonlinear optimization, integer programming, combinatorial optimization, and stochastic approaches applied to medical and biological problems. Applications span disease modeling, diagnosis, treatment planning, imaging, epidemiology, and molecular biology.</p>
     
-    <p>The special section welcomes theoretical and methodological research on optimization models and algorithms, including continuous, integer, combinatorial, and stochastic methods, applied to healthcare and life sciences. Topics of interest span disease modeling, diagnosis, treatment planning, medical imaging, epidemiology, and molecular biology.</p>
+    <p>The partnership between mathematical programming researchers and medical professionals—clinicians, biologists, public health officials—creates opportunities to advance both optimization theory and practice while addressing important healthcare problems. The special section, established in 2000, publishes state-of-the-art research in this dynamic field on an ongoing basis.</p>
+    
+    <p>Original, previously unpublished manuscripts submitted to this collection are evaluated through standard peer review by the Annals of Operations Research.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -498,6 +589,10 @@
         <li>Combinatorial optimization</li>
         
         <li>Stochastic optimization</li>
+        
+        <li>Medical device optimization</li>
+        
+        <li>Clinical decision problems</li>
         
     </ul>
     

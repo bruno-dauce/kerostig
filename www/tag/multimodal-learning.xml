@@ -4,7 +4,7 @@
         <title>kerostig | Tag : multimodal learning</title>
         <link>https://kerostig.org/tag/multimodal-learning/</link>
         <description>Derniers appels à publications avec le tag 'multimodal learning'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -72,77 +72,6 @@
     <ul>
         
         <li>March 31, 2027: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Artificial Intelligence, Affective Computing and Video Analytics for Intelligent Information Systems]]></title>
-            <link>https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/</link>
-            <guid>springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Luigi Gallo</strong>, Pegaso University</p>
-        
-        <p><strong>Andrea Generosi</strong>, Pegaso University</p>
-        
-        <p><strong>Valerio De Luca</strong>, Pegaso University</p>
-        
-        <p><strong>Maura Mengoni</strong>, Marche Polytechnic University</p>
-        
-        <p><strong>Lucio Tommaso De Paolis</strong>, University of Salento</p>
-        
-        <p><strong>Josef Spjut</strong>, Nvidia</p>
-        
-    
-    
-    
-    <p>This special issue addresses the convergence of video analytics and affective computing in intelligent information systems. With the rapid growth of video data across surveillance, retail, healthcare, and social platforms, combined with advances in deep learning and multimodal models, there is an opportunity to harness emotional and social signals from visual data to enhance decision-making systems. The issue seeks research that bridges computer vision, sentiment detection, and system design to create human-centered, explainable solutions.</p>
-    
-    <p>The call welcomes original research, surveys, and perspectives on topics ranging from scalable video understanding and real-time emotion detection to multimodal analysis combining vision, audio, and text. Particular interest lies in streaming-native AI architectures, video-language models, edge/cloud systems, and techniques addressing fairness, privacy, and compliance. Applications span healthcare, finance, education, and smart environments, with emphasis on practical implementation at scale.</p>
-    
-    <p>
-        Appel publié par Information Systems Frontiers.
-        
-        <a href="https://link.springer.com/collections/hfgbffihjb">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Scalable video understanding</li>
-        
-        <li>Emotion and sentiment analysis</li>
-        
-        <li>Multimodal fusion</li>
-        
-        <li>Streaming-native AI and MLOps</li>
-        
-        <li>Video-language models for streaming</li>
-        
-        <li>Real-time and distributed architectures</li>
-        
-        <li>Explainability, fairness and compliance</li>
-        
-        <li>Adaptive learning</li>
-        
-        <li>Case studies and applications</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>October 30, 2026: Submission deadline</li>
         
     </ul>
     

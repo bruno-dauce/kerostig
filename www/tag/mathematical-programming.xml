@@ -4,7 +4,7 @@
         <title>kerostig | Tag : mathematical programming</title>
         <link>https://kerostig.org/tag/mathematical-programming/</link>
         <description>Derniers appels à publications avec le tag 'mathematical programming'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -30,9 +30,11 @@
     
     
     
-    <p>This special section showcases optimization and computational approaches applied to medical and biological challenges. It aims to bring together mathematical programming researchers and healthcare professionals to address complex decision problems in medicine, from medical devices to clinical data analysis.</p>
+    <p>This special section seeks contributions applying optimization and computational methods to medical and healthcare challenges. The collection welcomes theoretical and methodological work on models and algorithms including continuous linear and nonlinear optimization, integer programming, combinatorial optimization, and stochastic approaches applied to medical and biological problems. Applications span disease modeling, diagnosis, treatment planning, imaging, epidemiology, and molecular biology.</p>
     
-    <p>The special section welcomes theoretical and methodological research on optimization models and algorithms, including continuous, integer, combinatorial, and stochastic methods, applied to healthcare and life sciences. Topics of interest span disease modeling, diagnosis, treatment planning, medical imaging, epidemiology, and molecular biology.</p>
+    <p>The partnership between mathematical programming researchers and medical professionals—clinicians, biologists, public health officials—creates opportunities to advance both optimization theory and practice while addressing important healthcare problems. The special section, established in 2000, publishes state-of-the-art research in this dynamic field on an ongoing basis.</p>
+    
+    <p>Original, previously unpublished manuscripts submitted to this collection are evaluated through standard peer review by the Annals of Operations Research.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -64,6 +66,10 @@
         <li>Combinatorial optimization</li>
         
         <li>Stochastic optimization</li>
+        
+        <li>Medical device optimization</li>
+        
+        <li>Clinical decision problems</li>
         
     </ul>
     

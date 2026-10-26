@@ -4,7 +4,7 @@
         <title>kerostig | Information Systems Frontiers</title>
         <link>https://kerostig.org/journal/information-systems-frontiers/</link>
         <description>Derniers appels à publications pour Information Systems Frontiers.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,11 +22,23 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Imon Chakraborty</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Saji K. Mathew</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Nargis Pervin</strong>, Indian Institute of Technology Madras</p>
+        
+        <p><strong>Viswanath Venkatesh</strong>, Virginia Polytechnic Institute and State University</p>
+        
     
     
-    <p>Digital technologies like AI and blockchain create significant value but also introduce serious challenges including algorithmic bias, privacy violations, and workforce disruption. The special issue seeks research on information systems that are simultaneously responsible—fair, transparent, ethical, and accountable—and resilient, capable of withstanding disruptions while delivering sustained value.</p>
     
-    <p>While responsibility and resilience in digital systems are interdependent, they have largely evolved as separate research streams. Information systems scholars are uniquely positioned to examine human–technology interaction, value realization from digital investments, and how governance shapes digital outcomes, particularly for vulnerable populations. The special issue invites theoretically grounded, methodologically rigorous research using diverse methods including conceptual work, surveys, experiments, and design science approaches.</p>
+    <p>Digital technologies such as AI and platforms deliver significant value but also introduce serious challenges including bias, privacy violations, and workforce disruption. This special issue seeks research on information systems that are both responsible—fair, transparent, and accountable—and resilient—able to withstand disruptions and continue functioning effectively.</p>
+    
+    <p>The special issue welcomes theoretically grounded research using various methods including conceptual work, surveys, experiments, case studies, and design science approaches. It seeks insights beyond simple adoption narratives, exploring post-adoption use, value realization, human-machine collaboration, AI governance, and long-term societal impacts.</p>
+    
+    <p>The special issue is linked to the India Conference on Information Systems 2027 but is open to all authors. Submissions should challenge existing paradigms and clearly identify the specific technologies examined. Papers must have IS, behavioral, organizational, or societal contributions rather than purely technical focus.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
@@ -63,7 +75,7 @@
         
         <li>Opportunities and challenges of AI for society</li>
         
-        <li>Skills and mindsets remaining uniquely human in AI-driven world</li>
+        <li>Skills and mindsets unique to humans in an AI-driven world</li>
         
     </ul>
     
@@ -103,9 +115,11 @@
     
     
     
-    <p>This special issue addresses the convergence of video analytics and affective computing in intelligent information systems. With the rapid growth of video data across surveillance, retail, healthcare, and social platforms, combined with advances in deep learning and multimodal models, there is an opportunity to harness emotional and social signals from visual data to enhance decision-making systems. The issue seeks research that bridges computer vision, sentiment detection, and system design to create human-centered, explainable solutions.</p>
+    <p>This special issue addresses the intersection of video analytics and affective computing in intelligent information systems. As video data expands across surveillance, social media, retail, and healthcare, advanced AI systems can extract emotional and social signals from visual content, enabling real-time understanding of user sentiment and intent.</p>
     
-    <p>The call welcomes original research, surveys, and perspectives on topics ranging from scalable video understanding and real-time emotion detection to multimodal analysis combining vision, audio, and text. Particular interest lies in streaming-native AI architectures, video-language models, edge/cloud systems, and techniques addressing fairness, privacy, and compliance. Applications span healthcare, finance, education, and smart environments, with emphasis on practical implementation at scale.</p>
+    <p>The issue seeks research bridging computer vision and affective models to create human-centered systems for decision-making. Topics include multimodal approaches fusing visual, auditory, and textual data for emotion detection; scalable video processing architectures; streaming MLOps; and explainability techniques that address ethical and regulatory challenges in deploying affective video AI.</p>
+    
+    <p>Submissions include original research and extended versions of papers from related conferences (CSEDU 2026, XR Salento 2026). All submissions are peer-reviewed according to Information Systems Frontiers standards.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
@@ -142,7 +156,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>October 30, 2026: Submission deadline</li>
+        <li>December 30, 2026: Submission deadline</li>
         
     </ul>
     
@@ -158,11 +172,23 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Stefan Gold</strong>, Technical University of Munich</p>
+        
+        <p><strong>Antoine Harfouche</strong>, Paris Nanterre University</p>
+        
+        <p><strong>Paul Jones</strong>, Swansea University</p>
+        
+        <p><strong>Maryam Lotfi</strong>, Cardiff University</p>
+        
+        <p><strong>Guoqing Zhao</strong>, Swansea University</p>
+        
     
     
-    <p>Unethical labour practices, including modern slavery, affect approximately 50 million people worldwide and are expected to worsen due to regional conflicts and restrictive migration policies. Although digital technologies such as blockchain, AI, and cloud computing show promise in addressing these issues, research examining their specific applications remains limited. This special issue seeks to bridge this gap by exploring how digital technologies can be leveraged theoretically and empirically to monitor, detect, report, and remediate unethical labour practices.</p>
     
-    <p>The call invites original, theory-driven research using diverse methodologies including theoretical frameworks, case studies, surveys, and literature reviews. Submissions should identify specific digital technologies and provide nuanced insights into how they can combat labour exploitation and support human rights. Particularly encouraged are studies that challenge existing paradigms, explore underexamined dimensions, or offer innovative perspectives that inform policymakers and practitioners on leveraging technology for meaningful change.</p>
+    <p>Unethical labour practices affecting approximately 50 million people worldwide remain a critical social challenge. Digital technologies such as blockchain, artificial intelligence, and cloud computing offer potential solutions, yet research on their practical deployment remains limited. This special issue seeks contributions examining how these technologies can be leveraged for monitoring, detecting, reporting, and remediating unethical labour practices.</p>
+    
+    <p>The call invites original, theory-driven research using various methodologies that provide nuanced insights into digital technology applications for addressing modern slavery, human trafficking, forced labour, and other severe labour practices. Priority is given to studies that challenge existing paradigms, explore underexamined dimensions, or offer innovative frameworks that yield both conceptual advances and practical implications for policymakers and practitioners.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
@@ -175,35 +201,43 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Blockchain technology and labour rights</li>
+        <li>Blockchain technology for labour monitoring</li>
         
-        <li>Artificial intelligence for detecting exploitation</li>
+        <li>Artificial intelligence for detecting trafficking and slavery</li>
         
-        <li>Big data analytics and supply chain monitoring</li>
+        <li>Internet of Things and labour practices</li>
         
-        <li>Internet of Things and worker safety</li>
+        <li>Big data analytics for supply chain monitoring</li>
         
         <li>Cloud computing applications</li>
+        
+        <li>Worker voice technologies</li>
         
         <li>Biometric recognition systems</li>
         
         <li>Satellite imagery for labour monitoring</li>
         
-        <li>Remote sensors and worker voice technologies</li>
+        <li>Machine learning for identifying at-risk populations</li>
         
-        <li>Machine learning for trafficking detection</li>
+        <li>Digital technologies for survivor support and reintegration</li>
         
-        <li>Digital tools for survivor support and reintegration</li>
+        <li>Supply chain transparency and digital tracking</li>
         
-        <li>Human rights and digital technologies</li>
+        <li>Modern slavery detection and prevention</li>
         
-        <li>Modern slavery prevention</li>
+        <li>Child labour monitoring</li>
         
-        <li>Supply chain transparency</li>
+        <li>Forced labour identification</li>
         
-        <li>Digital monitoring systems</li>
+        <li>Human trafficking detection</li>
         
-        <li>Technology adoption for ethical labour practices</li>
+        <li>Bonded labour practices</li>
+        
+        <li>Digital solutions for labour compliance</li>
+        
+        <li>Technology adoption in human rights</li>
+        
+        <li>Ethical and responsible digital transformation</li>
         
     </ul>
     
@@ -227,11 +261,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Jyoti Choudrie</strong>, University of Hertfordshire</p>
+        
+        <p><strong>Sherah Kurnia</strong>, The University of Melbourne</p>
+        
+        <p><strong>Gabrielle Peko</strong>, University of Auckland</p>
+        
+        <p><strong>David Sundaram</strong>, University of Auckland</p>
+        
     
     
-    <p>This special issue investigates how organizations and society create and realize value from ICT and AI technologies beyond their initial adoption phase. While prior research has focused extensively on adoption decisions, this collection addresses understudied post-adoption dynamics including continuance, adaptation, and routinization. The issue recognizes that technology adoption alone does not guarantee organizational or societal benefits, necessitating deeper understanding of how sustained technology use generates value and drives transformation.</p>
     
-    <p>The special issue welcomes empirical, theoretical, experimental, design science, and review-based research examining post-adoption phenomena, value realization, and transformation at individual, organizational, and societal levels. It seeks to balance exploration of positive impacts with critical examination of risks and challenges, including ethical concerns, digital inequality, cybersecurity threats, and unintended consequences of widespread ICT and AI deployment. Novel perspectives on early-stage adoption are also welcome when they offer new theoretical insights or address emerging technologies.</p>
+    <p>This special issue addresses a critical gap in technology research by extending beyond initial adoption to examine how organizations and societies sustain, adapt, and derive value from ICTs and AI over time. While adoption decisions have received substantial scholarly attention, understanding post-adoption dynamics, continuance, value realization, and transformation remains insufficiently explored. The issue recognizes that technology adoption often fails to translate into expected organizational or societal benefits.</p>
+    
+    <p>The special issue invites diverse research examining post-adoption phenomena across individual, organizational, and societal levels, including technology assimilation, transformation of work practices, and the complex risks and ethical challenges accompanying widespread ICT and AI deployment. Contributions should employ robust methodologies such as empirical studies, theoretical work, or design science research, addressing digital transformation, platform ecosystems, governance, algorithmic accountability, and sustainable technology practices.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
@@ -312,11 +356,25 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Laura Amo</strong>, University at Buffalo, State University of New York</p>
+        
+        <p><strong>Richard Baskerville</strong>, Georgia State University</p>
+        
+        <p><strong>Rui Chen</strong>, Iowa State University</p>
+        
+        <p><strong>Matthew Hashim</strong>, University of Arizona</p>
+        
+        <p><strong>Yaojie (William) Li</strong>, University of New Orleans</p>
+        
+        <p><strong>Yuan Li</strong>, University of Tennessee at Knoxville</p>
+        
     
     
-    <p>As artificial intelligence increasingly shapes both offensive and defensive cybersecurity, this special issue emphasizes the continuing importance of human judgment and involvement in security systems. The call recognizes that while AI tools are becoming essential for threat detection and response, humans remain fundamental to effective security practice. The special issue seeks research that maintains focus on how humans can effectively collaborate with AI-based systems rather than being replaced by them.</p>
     
-    <p>The special issue invites behavioral and design science research exploring how to balance AI advancement with meaningful human participation in security. Beyond traditional topics like security compliance and training, the call particularly welcomes studies on neurosecurity approaches, AI-enabled behavioral interventions, human-AI collaboration in security decisions, and the security implications of generative AI. The work should emphasize practical applications, such as improving security awareness or detecting threats through behavioral analysis, rather than purely technical solutions.</p>
+    <p>As artificial intelligence increasingly dominates both offensive and defensive cybersecurity, this special issue emphasizes maintaining human involvement in security systems and decision-making. While AI tools help detect threats and respond to attacks, they introduce new risks through generative AI-enabled phishing and behavioral manipulation. The issue seeks research balancing AI&#39;s role with human judgment and responsibility in information security.</p>
+    
+    <p>Papers should explore how design science approaches create intelligent security artifacts enhancing human decision-making rather than replacing it, and how to mitigate human vulnerabilities while leveraging human strengths in AI-mediated security. Both established behavioral security topics and emerging issues related to AI risks and secure behavior in modern work environments are welcome.</p>
     
     <p>
         Appel publié par Information Systems Frontiers.
@@ -329,25 +387,25 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Neurosecurity (NeuroIS) investigations</li>
+        <li>Neurosecurity (NeuroIS) investigations of information security behavior</li>
         
-        <li>Design science and security/privacy tradeoffs</li>
+        <li>Design science treatments balancing security and privacy tradeoffs</li>
         
-        <li>Cybersecurity/privacy research and AI/ML</li>
+        <li>Cybersecurity/privacy and AI/ML advancements intersection</li>
         
-        <li>AI-enabled security awareness and training</li>
+        <li>AI-enabled security awareness, training, nudging, and behavioral interventions</li>
         
-        <li>Human-AI collaboration in security</li>
+        <li>Human-AI collaboration in security decision-making and response</li>
         
-        <li>Generative AI behavioral security implications</li>
+        <li>Generative AI behavioral security implications: phishing, social engineering, insider threats</li>
         
-        <li>Intelligent security artifacts design</li>
+        <li>Intelligent security artifacts with behavioral implications</li>
         
-        <li>Adaptive and personalized security interventions</li>
+        <li>Adaptive and context-aware security interventions enabled by AI</li>
         
-        <li>Behavioral security theories in AI environments</li>
+        <li>Behavioral security theories in AI-mediated environments</li>
         
-        <li>Security behaviors in remote and hybrid work</li>
+        <li>Security behaviors in remote work, hybrid work, IoT, and cloud environments</li>
         
     </ul>
     

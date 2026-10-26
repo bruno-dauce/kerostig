@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : ai in cybersecurity</title>
+        <link>https://kerostig.org/tag/ai-in-cybersecurity/</link>
+        <description>Derniers appels à publications avec le tag 'ai in cybersecurity'.</description>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : ai in cybersecurity</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/ai-in-cybersecurity/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Keeping Humans in the Loop in the AI-Driven Future of Information Security]]></title>
+            <link>https://kerostig.org/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security/</link>
+            <guid>springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Laura Amo</strong>, University at Buffalo, State University of New York</p>
+        
+        <p><strong>Richard Baskerville</strong>, Georgia State University</p>
+        
+        <p><strong>Rui Chen</strong>, Iowa State University</p>
+        
+        <p><strong>Matthew Hashim</strong>, University of Arizona</p>
+        
+        <p><strong>Yaojie (William) Li</strong>, University of New Orleans</p>
+        
+        <p><strong>Yuan Li</strong>, University of Tennessee at Knoxville</p>
+        
+    
+    
+    
+    <p>As artificial intelligence increasingly dominates both offensive and defensive cybersecurity, this special issue emphasizes maintaining human involvement in security systems and decision-making. While AI tools help detect threats and respond to attacks, they introduce new risks through generative AI-enabled phishing and behavioral manipulation. The issue seeks research balancing AI&#39;s role with human judgment and responsibility in information security.</p>
+    
+    <p>Papers should explore how design science approaches create intelligent security artifacts enhancing human decision-making rather than replacing it, and how to mitigate human vulnerabilities while leveraging human strengths in AI-mediated security. Both established behavioral security topics and emerging issues related to AI risks and secure behavior in modern work environments are welcome.</p>
+    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/egdbefhiee">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-keeping-humans-in-the-loop-in-the-ai-driven-future-of-information-security/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Neurosecurity (NeuroIS) investigations of information security behavior</li>
+        
+        <li>Design science treatments balancing security and privacy tradeoffs</li>
+        
+        <li>Cybersecurity/privacy and AI/ML advancements intersection</li>
+        
+        <li>AI-enabled security awareness, training, nudging, and behavioral interventions</li>
+        
+        <li>Human-AI collaboration in security decision-making and response</li>
+        
+        <li>Generative AI behavioral security implications: phishing, social engineering, insider threats</li>
+        
+        <li>Intelligent security artifacts with behavioral implications</li>
+        
+        <li>Adaptive and context-aware security interventions enabled by AI</li>
+        
+        <li>Behavioral security theories in AI-mediated environments</li>
+        
+        <li>Security behaviors in remote work, hybrid work, IoT, and cloud environments</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 15, 2027: Submission deadline</li>
+        
+        <li>May 15, 2027: Notification of first round reviews</li>
+        
+        <li>July 15, 2027: Revised manuscript due</li>
+        
+        <li>September 1, 2027: Notification of second round reviews</li>
+        
+        <li>October 15, 2027: Final version due</li>
+        
+        <li>January 30, 2028: Tentative publication date</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

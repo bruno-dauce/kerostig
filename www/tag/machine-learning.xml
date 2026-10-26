@@ -4,7 +4,7 @@
         <title>kerostig | Tag : machine learning</title>
         <link>https://kerostig.org/tag/machine-learning/</link>
         <description>Derniers appels à publications avec le tag 'machine learning'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -577,11 +577,15 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Hoang Pham</strong>, Rutgers University</p>
+        
     
     
-    <p>This special issue addresses advances in reliability and statistical computing for intelligent systems, reflecting the significant developments in AI and machine learning applications. The call seeks research that combines theoretical rigor with practical relevance, particularly focusing on how intelligent systems can provide reliable and timely responses in real-world applications across service industries and everyday use.</p>
     
-    <p>The special issue welcomes papers on new theoretical research and computational methods that advance the field. Preference is given to contributions demonstrating practical applications over purely theoretical work, with industrial case studies especially valued across domains such as robotics, medical care, education, surveillance, and intelligent transportation systems.</p>
+    <p>This special issue addresses the growing importance of reliability and statistical computing in AI-driven intelligent systems deployed across everyday applications and the service industry. The focus is on developing methods that enable these systems to deliver dependable and timely responses in real-world settings.</p>
+    
+    <p>The issue seeks papers presenting novel theoretical research and practical methods in advanced reliability and statistical computing for intelligent systems. Submissions with applications to real-world problems are particularly encouraged, spanning areas such as robotics, medical care, education, surveillance, and transportation.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -620,7 +624,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>October 30, 2026: Manuscript submission deadline</li>
+        <li>October 30, 2026: Submission deadline</li>
         
     </ul>
     
@@ -636,13 +640,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Andrea Flori</strong>, Politecnico di Milano</p>
+        
+        <p><strong>Anna Maria Gambaro</strong>, Università del Piemonte Orientale</p>
+        
+        <p><strong>Ioannis Kyriakou</strong>, University of London</p>
+        
+        <p><strong>Duc Khuong Nguyen</strong>, EMLV Business School</p>
+        
     
     
-    <p>This special issue addresses how climate-related risks disrupt interconnected financial and economic systems during the transition to a low-carbon economy. The challenge lies in modeling how transition risks affect firms and supply chains, particularly carbon-intensive sectors, and understanding risk transmission across economic systems.</p>
     
-    <p>Firms face competing pressures to decarbonize while maintaining profitability and competitiveness. Significant vulnerabilities emerge through supply chain interdependencies, where disruptions propagate and amplify operational risks. The call seeks integrated modeling approaches that capture emissions, disruptions, and risks across supply chain tiers using operations research methods.</p>
+    <p>Climate-related risks threaten financial and economic systems through their effects on supply chains and firm operations. The transition to a low-carbon economy creates substantial uncertainty, particularly regarding timing and pace, destabilizing carbon-intensive sectors and triggering systemic challenges. This necessitates rigorous analytical methods to quantify climate risks and understand their propagation through interconnected economic systems.</p>
     
-    <p>The issue welcomes applied and methodological studies employing stochastic optimization, machine learning, and other advanced techniques to examine how financial institutions manage uncertainty in portfolio allocation and risk management under climate transition scenarios.</p>
+    <p>Firms face tension between short-term profitability and long-term sustainability when transitioning to low-carbon operations. Supply chain vulnerabilities persist through global production networks where disruptions propagate, and financial markets transmit climate risks via asset prices and liquidity channels. This special issue welcomes operations research contributions using robust optimization, machine learning, and innovative analytical techniques to address how financial institutions and firms manage climate transition risks in portfolios and supply chains.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -692,87 +704,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Collaborative Intelligence in Operations Research: Models, Methods, and Applications]]></title>
-            <link>https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/</link>
-            <guid>springer-collaborative-intelligence-in-operations-research-models-methods-and-applications</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Olga Battaïa</strong>, Kedge Business School</p>
-        
-        <p><strong>Yasser Dessouky</strong>, San Jose State University</p>
-        
-        <p><strong>Reza Zanjirani Farahani</strong>, Paris School of Business</p>
-        
-        <p><strong>Masood Fathi</strong>, University of Skövde</p>
-        
-        <p><strong>Madjid Tavana</strong>, La Salle University</p>
-        
-    
-    
-    
-    <p>Modern operations research faces challenges in dynamic and uncertain environments where traditional methodologies struggle. This special issue focuses on Collaborative Intelligence—integrating human expertise, artificial intelligence, and distributed problem-solving to enhance adaptability and efficiency in complex operations through multi-agent coordination, human-AI collaboration, and machine learning.</p>
-    
-    <p>The special issue seeks research bridging autonomous AI systems and human decision-makers by combining computational power with human intuition and ethical reasoning. Contributions should address how collaborative approaches improve system resilience, handle uncertainty, and increase trust in AI-driven systems through theoretical advancements and computational methods that extend operations research to adaptive and multi-agent frameworks.</p>
-    
-    <p>Researchers are invited to submit original contributions involving innovative mathematical models, algorithms, and practical applications demonstrating how collaborative intelligence enhances decision-making in complex operational environments, balancing theoretical rigor with practical relevance.</p>
-    
-    <p>
-        Appel publié par Annals of Operations Research.
-        
-        <a href="https://link.springer.com/collections/fihchfagfc">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/springer-collaborative-intelligence-in-operations-research-models-methods-and-applications/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Human-AI collaboration in OR models</li>
-        
-        <li>Integration of human judgment and preferences into AI-driven decision-making</li>
-        
-        <li>Visualization and interpretation of AI outputs</li>
-        
-        <li>Optimization algorithms for multi-agent systems</li>
-        
-        <li>Game-theoretic frameworks for multi-agent coordination</li>
-        
-        <li>Managing conflicts and uncertainties in multi-agent decision-making</li>
-        
-        <li>Adaptive OR frameworks</li>
-        
-        <li>Decentralized optimization algorithms</li>
-        
-        <li>Online learning and adaptive control techniques</li>
-        
-        <li>Machine learning and data analytics for OR</li>
-        
-        <li>Learning-based optimization algorithms</li>
-        
-        <li>Predictive analytics and simulation techniques</li>
-        
-        <li>Resilience planning</li>
-        
-        <li>Dynamic problem-solving in complex operations</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>December 31, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Contextual Optimization with Side Information: Theory, Methodology, and Applications]]></title>
             <link>https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/</link>
             <guid>springer-contextual-optimization-with-side-information-theory-methodology-and-applications</guid>
@@ -780,11 +711,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Stelios Bekiros</strong>, University of Turin</p>
+        
+        <p><strong>Andrea D&#39;Ariano</strong>, Roma Tre University</p>
+        
+        <p><strong>Peng Wu</strong>, Fuzhou University</p>
+        
+        <p><strong>Guowei Zhang</strong>, Dalian University of Technology</p>
+        
     
     
-    <p>Modern operations research increasingly relies on contextual information to enhance decision-making in uncertain environments. This special issue focuses on the integration of side information—such as demand patterns, user behaviors, and market conditions—into optimization models to achieve more adaptive and data-driven policies. The field spans contextual stochastic optimization, distributionally robust optimization with covariates, decision-focused learning, and online optimization frameworks.</p>
     
-    <p>Real-world applications present significant challenges including high-dimensional data, noisy observations, distribution shifts, computational constraints, and the need to balance predictive accuracy with operational performance. The special issue seeks high-quality contributions that develop novel theories, algorithms, and applications combining optimization with machine learning, statistics, and data analytics to address these challenges systematically.</p>
+    <p>Modern operations research integrates optimization with machine learning and statistics to incorporate side information—such as demand patterns and market conditions—into decision-making processes. This contextual optimization approach enables more adaptive and data-driven policies than classical optimization, though significant challenges persist including high-dimensional data, noisy observations, distribution shifts, and computational constraints.</p>
+    
+    <p>The field requires new theories and frameworks that systematically combine learning and optimization under uncertainty, with emphasis on improving actual operational performance. This special issue invites high-quality contributions developing novel theories, models, algorithms, and applications addressing contextual decision-making using side information, spanning prescriptive analytics, adaptive algorithms, and real-world applications in transportation, supply chains, and healthcare.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -855,11 +796,15 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Yi-Kuei Lin</strong>, National Yang Ming Chiao Tung University</p>
+        
     
     
-    <p>Industrial engineering systems such as manufacturing, supply chains, energy networks, and transportation require reliable operation to maintain efficiency and safety amid uncertainty and disruptions. Traditional reliability approaches have relied on probabilistic and stochastic analysis, but advances in sensing technology and data collection now enable data-driven reliability modeling that combines classical theory with machine learning and statistical methods. The field is increasingly focused on integrating reliability analysis into decision-making frameworks for maintenance planning, resource allocation, and system optimization.</p>
     
-    <p>This special issue invites original research papers addressing reliability modeling and decision support for industrial engineering systems using operations research, industrial engineering, and data-driven methods. Both theoretical contributions and practical applications are welcome, with emphasis on methodological rigor and real-world relevance.</p>
+    <p>This special issue seeks contributions on data-driven and intelligent approaches to reliability modeling for industrial engineering systems, including manufacturing, supply chains, logistics, energy, transportation, and service operations. The growing availability of operational and condition-monitoring data has created opportunities to complement traditional probabilistic and stochastic reliability methods with machine learning and statistical learning techniques.</p>
+    
+    <p>The issue emphasizes the integration of reliability modeling with decision support frameworks, enabling practitioners to move beyond reliability assessment toward actionable, reliability-informed decisions under uncertainty. Both theoretical developments and practical applications are welcome, with particular interest in papers demonstrating methodological rigor and real-world industrial relevance.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -872,33 +817,33 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Data-driven reliability modeling and parameter estimation</li>
+        <li>Data-driven reliability modeling and parameter estimation using operational data</li>
         
-        <li>Statistical learning and machine learning for reliability analysis</li>
+        <li>Reliability analysis using statistical learning and machine learning methods</li>
         
-        <li>Hybrid analytical and data-driven reliability models</li>
+        <li>Reliability models combining analytical formulations with data-driven learning approaches</li>
         
-        <li>Decision support systems with reliability analysis</li>
+        <li>Decision support systems incorporating reliability analysis and risk information</li>
         
-        <li>Optimization and decision-making informed by reliability</li>
+        <li>Optimization and decision-making problems informed by reliability performance</li>
         
-        <li>Predictive maintenance and condition monitoring</li>
+        <li>Predictive maintenance and condition monitoring using data and learning models</li>
         
-        <li>Multistate system and network reliability</li>
+        <li>Multistate system and network reliability analysis</li>
         
-        <li>Manufacturing, logistics, and supply chain reliability</li>
+        <li>Reliability evaluation of manufacturing, logistics, and supply chain systems</li>
         
-        <li>Energy, power, and infrastructure system reliability</li>
+        <li>Reliability modeling in energy, power, and infrastructure systems</li>
         
-        <li>Stochastic modeling and uncertainty analysis</li>
+        <li>Stochastic modeling and uncertainty analysis in data-driven reliability studies</li>
         
-        <li>Simulation and approximation methods for reliability</li>
+        <li>Simulation, enumeration, and approximation methods for reliability evaluation</li>
         
-        <li>System design and resource allocation</li>
+        <li>System design and resource allocation considering reliability and operational data</li>
         
-        <li>Digital twins and intelligent systems for reliability</li>
+        <li>Reliability analysis supported by digital twins, data analytics, and intelligent systems</li>
         
-        <li>Reliability, robustness, and resilience</li>
+        <li>Reliability, robustness, and resilience of industrial engineering systems</li>
         
     </ul>
     

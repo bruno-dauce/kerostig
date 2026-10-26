@@ -4,7 +4,7 @@
         <title>kerostig | Tag : supply chain</title>
         <link>https://kerostig.org/tag/supply-chain/</link>
         <description>Derniers appels à publications avec le tag 'supply chain'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -120,53 +120,79 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Climate Transition and Operational Risk Modelling: Implications for Supply Chains and Financial Decision-Making]]></title>
-            <link>https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/</link>
-            <guid>springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making</guid>
+            <title><![CDATA[Digital Technologies for Combating Unethical Labour Practices and Promoting Human Rights]]></title>
+            <link>https://kerostig.org/call/springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights/</link>
+            <guid>springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights</guid>
             <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Stefan Gold</strong>, Technical University of Munich</p>
+        
+        <p><strong>Antoine Harfouche</strong>, Paris Nanterre University</p>
+        
+        <p><strong>Paul Jones</strong>, Swansea University</p>
+        
+        <p><strong>Maryam Lotfi</strong>, Cardiff University</p>
+        
+        <p><strong>Guoqing Zhao</strong>, Swansea University</p>
+        
     
     
-    <p>This special issue addresses how climate-related risks disrupt interconnected financial and economic systems during the transition to a low-carbon economy. The challenge lies in modeling how transition risks affect firms and supply chains, particularly carbon-intensive sectors, and understanding risk transmission across economic systems.</p>
     
-    <p>Firms face competing pressures to decarbonize while maintaining profitability and competitiveness. Significant vulnerabilities emerge through supply chain interdependencies, where disruptions propagate and amplify operational risks. The call seeks integrated modeling approaches that capture emissions, disruptions, and risks across supply chain tiers using operations research methods.</p>
+    <p>Unethical labour practices affecting approximately 50 million people worldwide remain a critical social challenge. Digital technologies such as blockchain, artificial intelligence, and cloud computing offer potential solutions, yet research on their practical deployment remains limited. This special issue seeks contributions examining how these technologies can be leveraged for monitoring, detecting, reporting, and remediating unethical labour practices.</p>
     
-    <p>The issue welcomes applied and methodological studies employing stochastic optimization, machine learning, and other advanced techniques to examine how financial institutions manage uncertainty in portfolio allocation and risk management under climate transition scenarios.</p>
+    <p>The call invites original, theory-driven research using various methodologies that provide nuanced insights into digital technology applications for addressing modern slavery, human trafficking, forced labour, and other severe labour practices. Priority is given to studies that challenge existing paradigms, explore underexamined dimensions, or offer innovative frameworks that yield both conceptual advances and practical implications for policymakers and practitioners.</p>
     
     <p>
-        Appel publié par Annals of Operations Research.
+        Appel publié par Information Systems Frontiers.
         
-        <a href="https://link.springer.com/collections/baifaedejd">Voir l'appel sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/baegbehdda">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/springer-climate-transition-and-operational-risk-modelling-implications-for-supply-chains-and-financial-decision-making/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/springer-digital-technologies-for-combating-unethical-labour-practices-and-promoting-human-rights/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Robust stochastic optimization methods for climate transition risks</li>
+        <li>Blockchain technology for labour monitoring</li>
         
-        <li>Portfolio optimization and risk-adjusted return modelling under climate policy uncertainty</li>
+        <li>Artificial intelligence for detecting trafficking and slavery</li>
         
-        <li>Credit and counterparty risk assessment under low-carbon transition scenarios</li>
+        <li>Internet of Things and labour practices</li>
         
-        <li>Risk-sharing mechanisms and insurance models for climate-related disruptions</li>
+        <li>Big data analytics for supply chain monitoring</li>
         
-        <li>Supply chain risk management in climate transition</li>
+        <li>Cloud computing applications</li>
         
-        <li>Operational decision-making in emission trading schemes and carbon pricing</li>
+        <li>Worker voice technologies</li>
         
-        <li>Predictive modelling of carbon stranding risk via supervised learning</li>
+        <li>Biometric recognition systems</li>
         
-        <li>Machine learning and big data analytics for climate risk scenario classification</li>
+        <li>Satellite imagery for labour monitoring</li>
         
-        <li>Natural language processing applications in climate policy risk analysis</li>
+        <li>Machine learning for identifying at-risk populations</li>
         
-        <li>Bayesian network approaches to modelling climate transition risk propagation</li>
+        <li>Digital technologies for survivor support and reintegration</li>
         
-        <li>Agent-based models of climate transition dynamics and systemic effects</li>
+        <li>Supply chain transparency and digital tracking</li>
+        
+        <li>Modern slavery detection and prevention</li>
+        
+        <li>Child labour monitoring</li>
+        
+        <li>Forced labour identification</li>
+        
+        <li>Human trafficking detection</li>
+        
+        <li>Bonded labour practices</li>
+        
+        <li>Digital solutions for labour compliance</li>
+        
+        <li>Technology adoption in human rights</li>
+        
+        <li>Ethical and responsible digital transformation</li>
         
     </ul>
     
@@ -174,7 +200,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>December 31, 2026: Submission deadline</li>
+        <li>February 15, 2027: Submission deadline</li>
         
     </ul>
     

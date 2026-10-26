@@ -4,7 +4,7 @@
         <title>kerostig | Tag : deep learning</title>
         <link>https://kerostig.org/tag/deep-learning/</link>
         <description>Derniers appels à publications avec le tag 'deep learning'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -74,6 +74,79 @@
     <ul>
         
         <li>February 28, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Artificial Intelligence, Affective Computing and Video Analytics for Intelligent Information Systems]]></title>
+            <link>https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/</link>
+            <guid>springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Luigi Gallo</strong>, Pegaso University</p>
+        
+        <p><strong>Andrea Generosi</strong>, Pegaso University</p>
+        
+        <p><strong>Valerio De Luca</strong>, Pegaso University</p>
+        
+        <p><strong>Maura Mengoni</strong>, Marche Polytechnic University</p>
+        
+        <p><strong>Lucio Tommaso De Paolis</strong>, University of Salento</p>
+        
+        <p><strong>Josef Spjut</strong>, Nvidia</p>
+        
+    
+    
+    
+    <p>This special issue addresses the intersection of video analytics and affective computing in intelligent information systems. As video data expands across surveillance, social media, retail, and healthcare, advanced AI systems can extract emotional and social signals from visual content, enabling real-time understanding of user sentiment and intent.</p>
+    
+    <p>The issue seeks research bridging computer vision and affective models to create human-centered systems for decision-making. Topics include multimodal approaches fusing visual, auditory, and textual data for emotion detection; scalable video processing architectures; streaming MLOps; and explainability techniques that address ethical and regulatory challenges in deploying affective video AI.</p>
+    
+    <p>Submissions include original research and extended versions of papers from related conferences (CSEDU 2026, XR Salento 2026). All submissions are peer-reviewed according to Information Systems Frontiers standards.</p>
+    
+    <p>
+        Appel publié par Information Systems Frontiers.
+        
+        <a href="https://link.springer.com/collections/hfgbffihjb">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Scalable video understanding</li>
+        
+        <li>Emotion and sentiment analysis</li>
+        
+        <li>Multimodal fusion</li>
+        
+        <li>Streaming-native AI and MLOps</li>
+        
+        <li>Video-language models for streaming</li>
+        
+        <li>Real-time and distributed architectures</li>
+        
+        <li>Explainability, fairness and compliance</li>
+        
+        <li>Adaptive learning</li>
+        
+        <li>Case studies and applications</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 30, 2026: Submission deadline</li>
         
     </ul>
     

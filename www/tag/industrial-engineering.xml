@@ -4,7 +4,7 @@
         <title>kerostig | Tag : industrial engineering</title>
         <link>https://kerostig.org/tag/industrial-engineering/</link>
         <description>Derniers appels à publications avec le tag 'industrial engineering'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,11 +22,15 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Yi-Kuei Lin</strong>, National Yang Ming Chiao Tung University</p>
+        
     
     
-    <p>Industrial engineering systems such as manufacturing, supply chains, energy networks, and transportation require reliable operation to maintain efficiency and safety amid uncertainty and disruptions. Traditional reliability approaches have relied on probabilistic and stochastic analysis, but advances in sensing technology and data collection now enable data-driven reliability modeling that combines classical theory with machine learning and statistical methods. The field is increasingly focused on integrating reliability analysis into decision-making frameworks for maintenance planning, resource allocation, and system optimization.</p>
     
-    <p>This special issue invites original research papers addressing reliability modeling and decision support for industrial engineering systems using operations research, industrial engineering, and data-driven methods. Both theoretical contributions and practical applications are welcome, with emphasis on methodological rigor and real-world relevance.</p>
+    <p>This special issue seeks contributions on data-driven and intelligent approaches to reliability modeling for industrial engineering systems, including manufacturing, supply chains, logistics, energy, transportation, and service operations. The growing availability of operational and condition-monitoring data has created opportunities to complement traditional probabilistic and stochastic reliability methods with machine learning and statistical learning techniques.</p>
+    
+    <p>The issue emphasizes the integration of reliability modeling with decision support frameworks, enabling practitioners to move beyond reliability assessment toward actionable, reliability-informed decisions under uncertainty. Both theoretical developments and practical applications are welcome, with particular interest in papers demonstrating methodological rigor and real-world industrial relevance.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -39,33 +43,33 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Data-driven reliability modeling and parameter estimation</li>
+        <li>Data-driven reliability modeling and parameter estimation using operational data</li>
         
-        <li>Statistical learning and machine learning for reliability analysis</li>
+        <li>Reliability analysis using statistical learning and machine learning methods</li>
         
-        <li>Hybrid analytical and data-driven reliability models</li>
+        <li>Reliability models combining analytical formulations with data-driven learning approaches</li>
         
-        <li>Decision support systems with reliability analysis</li>
+        <li>Decision support systems incorporating reliability analysis and risk information</li>
         
-        <li>Optimization and decision-making informed by reliability</li>
+        <li>Optimization and decision-making problems informed by reliability performance</li>
         
-        <li>Predictive maintenance and condition monitoring</li>
+        <li>Predictive maintenance and condition monitoring using data and learning models</li>
         
-        <li>Multistate system and network reliability</li>
+        <li>Multistate system and network reliability analysis</li>
         
-        <li>Manufacturing, logistics, and supply chain reliability</li>
+        <li>Reliability evaluation of manufacturing, logistics, and supply chain systems</li>
         
-        <li>Energy, power, and infrastructure system reliability</li>
+        <li>Reliability modeling in energy, power, and infrastructure systems</li>
         
-        <li>Stochastic modeling and uncertainty analysis</li>
+        <li>Stochastic modeling and uncertainty analysis in data-driven reliability studies</li>
         
-        <li>Simulation and approximation methods for reliability</li>
+        <li>Simulation, enumeration, and approximation methods for reliability evaluation</li>
         
-        <li>System design and resource allocation</li>
+        <li>System design and resource allocation considering reliability and operational data</li>
         
-        <li>Digital twins and intelligent systems for reliability</li>
+        <li>Reliability analysis supported by digital twins, data analytics, and intelligent systems</li>
         
-        <li>Reliability, robustness, and resilience</li>
+        <li>Reliability, robustness, and resilience of industrial engineering systems</li>
         
     </ul>
     

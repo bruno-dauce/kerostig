@@ -4,7 +4,7 @@
         <title>kerostig | Tag : statistical computing</title>
         <link>https://kerostig.org/tag/statistical-computing/</link>
         <description>Derniers appels à publications avec le tag 'statistical computing'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,11 +22,15 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Hoang Pham</strong>, Rutgers University</p>
+        
     
     
-    <p>This special issue addresses advances in reliability and statistical computing for intelligent systems, reflecting the significant developments in AI and machine learning applications. The call seeks research that combines theoretical rigor with practical relevance, particularly focusing on how intelligent systems can provide reliable and timely responses in real-world applications across service industries and everyday use.</p>
     
-    <p>The special issue welcomes papers on new theoretical research and computational methods that advance the field. Preference is given to contributions demonstrating practical applications over purely theoretical work, with industrial case studies especially valued across domains such as robotics, medical care, education, surveillance, and intelligent transportation systems.</p>
+    <p>This special issue addresses the growing importance of reliability and statistical computing in AI-driven intelligent systems deployed across everyday applications and the service industry. The focus is on developing methods that enable these systems to deliver dependable and timely responses in real-world settings.</p>
+    
+    <p>The issue seeks papers presenting novel theoretical research and practical methods in advanced reliability and statistical computing for intelligent systems. Submissions with applications to real-world problems are particularly encouraged, spanning areas such as robotics, medical care, education, surveillance, and transportation.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -65,7 +69,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>October 30, 2026: Manuscript submission deadline</li>
+        <li>October 30, 2026: Submission deadline</li>
         
     </ul>
     

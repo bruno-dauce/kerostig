@@ -4,7 +4,7 @@
         <title>kerostig | Tag : goal programming</title>
         <link>https://kerostig.org/tag/goal-programming/</link>
         <description>Derniers appels à publications avec le tag 'goal programming'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -22,11 +22,19 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Matteo Rocca</strong>, University of Insubria</p>
+        
+        <p><strong>Davide La Torre</strong>, Skema Business School</p>
+        
+        <p><strong>Constantin Zopounidis</strong>, Technical University of Crete</p>
+        
     
     
-    <p>This special issue focuses on the convergence of Multiple Objective Programming (MOP), Goal Programming (GP), and Artificial Intelligence (AI) for addressing complex decision-making problems in economic and social sciences. The issue welcomes substantially extended papers from the 16th International Conference on Multiple Objective Programming and Goal Programming (MOPGP&#39;25, held 1–3 July 2025 in Varese, Italy), as well as original unpublished papers not presented at the conference.</p>
     
-    <p>The special issue explores how MOP provides structured evaluation of conflicting objectives, GP facilitates goal-setting for decision makers, and AI enhances decision models through data analytics and machine learning. It covers theoretical advances and practical applications spanning sustainable development, resource allocation, public policy, environmental economics, social welfare optimization, and various computational methods for multi-criteria decision analysis.</p>
+    <p>This special issue seeks papers that integrate multiple objective programming, goal programming, and artificial intelligence to address complex decision-making in economic and social sciences. The issue welcomes both substantially extended papers from the 16th International Conference on Multiple Objective Programming and Goal Programming (MOPGP&#39;25) held in Varese, Italy, and original work not previously presented at the conference.</p>
+    
+    <p>Multiple objective optimization and goal programming provide structured frameworks for evaluating conflicting objectives, while artificial intelligence enhances these approaches through data analytics and machine learning. The combination enables processing of large datasets and improves the accuracy and robustness of decision models and predictions in addressing real-world challenges.</p>
     
     <p>
         Appel publié par Annals of Operations Research.

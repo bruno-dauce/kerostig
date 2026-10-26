@@ -4,7 +4,7 @@
         <title>kerostig | Tag : multi-agent systems</title>
         <link>https://kerostig.org/tag/multi-agent-systems/</link>
         <description>Derniers appels à publications avec le tag 'multi-agent systems'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -36,11 +36,11 @@
     
     
     
-    <p>Modern operations research faces challenges in dynamic and uncertain environments where traditional methodologies struggle. This special issue focuses on Collaborative Intelligence—integrating human expertise, artificial intelligence, and distributed problem-solving to enhance adaptability and efficiency in complex operations through multi-agent coordination, human-AI collaboration, and machine learning.</p>
+    <p>Modern operations research requires approaches combining human expertise with artificial intelligence and distributed problem-solving. This special issue addresses how collaborative intelligence—the synergy between human decision-makers, AI systems, and mathematical models—can enhance adaptability and efficiency in complex operational environments.</p>
     
-    <p>The special issue seeks research bridging autonomous AI systems and human decision-makers by combining computational power with human intuition and ethical reasoning. Contributions should address how collaborative approaches improve system resilience, handle uncertainty, and increase trust in AI-driven systems through theoretical advancements and computational methods that extend operations research to adaptive and multi-agent frameworks.</p>
+    <p>Traditional OR methods struggle with dynamic and uncertain decision-making. While AI offers computational power, autonomous systems face challenges with uncertainty and interpretability. Collaborative intelligence bridges this gap by leveraging human intuition alongside AI capabilities.</p>
     
-    <p>Researchers are invited to submit original contributions involving innovative mathematical models, algorithms, and practical applications demonstrating how collaborative intelligence enhances decision-making in complex operational environments, balancing theoretical rigor with practical relevance.</p>
+    <p>The special issue welcomes theoretical and applied research on collaborative, multi-agent, and adaptive decision-making frameworks that advance how human-AI partnership, multi-agent coordination, and data-driven learning enhance operations research methodologies.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -55,31 +55,27 @@
         
         <li>Human-AI collaboration in OR models</li>
         
-        <li>Integration of human judgment and preferences into AI-driven decision-making</li>
+        <li>AI output visualization and interpretability</li>
         
-        <li>Visualization and interpretation of AI outputs</li>
-        
-        <li>Optimization algorithms for multi-agent systems</li>
-        
-        <li>Game-theoretic frameworks for multi-agent coordination</li>
-        
-        <li>Managing conflicts and uncertainties in multi-agent decision-making</li>
-        
-        <li>Adaptive OR frameworks</li>
+        <li>Multi-agent optimization and game theory</li>
         
         <li>Decentralized optimization algorithms</li>
         
-        <li>Online learning and adaptive control techniques</li>
+        <li>Adaptive OR frameworks</li>
         
-        <li>Machine learning and data analytics for OR</li>
+        <li>Online learning and adaptive control</li>
         
-        <li>Learning-based optimization algorithms</li>
+        <li>Machine learning for OR applications</li>
         
-        <li>Predictive analytics and simulation techniques</li>
+        <li>Learning-based optimization</li>
         
-        <li>Resilience planning</li>
+        <li>Predictive analytics and simulation</li>
         
-        <li>Dynamic problem-solving in complex operations</li>
+        <li>Multi-agent coordination</li>
+        
+        <li>Distributed problem-solving</li>
+        
+        <li>Decision support systems</li>
         
     </ul>
     

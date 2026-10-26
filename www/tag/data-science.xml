@@ -4,7 +4,7 @@
         <title>kerostig | Tag : data science</title>
         <link>https://kerostig.org/tag/data-science/</link>
         <description>Derniers appels à publications avec le tag 'data science'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -92,7 +92,7 @@
         
         <p><strong>Dries F. Benoit</strong>, Ghent University</p>
         
-        <p><strong>Kristof Coussement</strong>, IÉSEG School of Management</p>
+        <p><strong>Kristof Coussement</strong>, Institut d&#39;Economie Scientifique Et de Gestion</p>
         
         <p><strong>Cem İyigün</strong>, Middle East Technical University</p>
         
@@ -101,9 +101,9 @@
     
     
     
-    <p>This special section seeks to publish research that bridges data science and operations research, emphasizing both theoretical advances and practical organizational applications. The focus extends beyond technical innovation to address how analytics creates measurable value within organizations and drives necessary organizational change.</p>
+    <p>This special section seeks papers that advance both theoretical and practical contributions to data science and predictive analytics. The focus is on demonstrating how new techniques create organizational value and may require changes in business processes. The work bridges operations research with analytics, treating analytics as an organizational discipline that leverages both data science and OR methodologies.</p>
     
-    <p>The collection invites contributions exploring the intersection of OR and analytics across multiple dimensions: ethical and governance considerations in data usage, challenges of applying OR techniques to big data and distributed systems, organizational barriers to analytics adoption, data quality and validation methods for large datasets, and the role of visualization and soft OR techniques in supporting data-driven decision making.</p>
+    <p>The section invites researchers and practitioners to explore multiple dimensions of analytics: ethical and governance challenges in data collection and behavioral influence; applications and limitations of OR techniques with big data and distributed systems; organizational barriers to analytics adoption and real-time OR applications; methods for data quality, hypothesis testing, and integration of unstructured data; and how visualization and problem structuring enhance analytics projects.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -116,15 +116,25 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Ethics and governance issues in analytics: How should data be obtained? What are the ethical implications of using applications of analytics to influence behavior?</li>
+        <li>Ethics and governance in analytics</li>
         
-        <li>Big data and analytics: What are the limitations and applications of optimization and other OR techniques to large datasets? What are the challenges for applications of OR methods within distributed systems? What is the possibility that OR models could in fact be the producers of big data, e.g., large-scale simulation models? What new methods/models in response to big data, e.g., sentiment mining, can be adopted by OR?</li>
+        <li>Big data and analytics</li>
         
-        <li>Organizational issues in analytics adoption: What are the issues facing organizations trying to adopt analytics? What is the role of real-time applications of OR in organizations?</li>
+        <li>Organizational issues in analytics adoption</li>
         
-        <li>Data quality and analytics: What methods can be used for hypothesis testing and model validation in large datasets? How can unstructured data be used effectively in OR models? What is the role of multi-methodology in business analytics? What opportunities do open data present for the OR discipline?</li>
+        <li>Data quality and analytics</li>
         
-        <li>Analytics and decision support: How can data visualization techniques be used across the breadth of OR? What role do problem structuring and &quot;soft&quot; OR techniques play in analytics and big data projects?</li>
+        <li>Analytics and decision support</li>
+        
+        <li>Predictive analytics</li>
+        
+        <li>Optimization techniques for large datasets</li>
+        
+        <li>Data visualization</li>
+        
+        <li>Problem structuring and soft OR techniques</li>
+        
+        <li>Unstructured data in OR models</li>
         
     </ul>
     

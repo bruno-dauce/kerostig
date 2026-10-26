@@ -4,7 +4,7 @@
         <title>kerostig | Tag : game theory</title>
         <link>https://kerostig.org/tag/game-theory/</link>
         <description>Derniers appels à publications avec le tag 'game theory'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,6 +15,81 @@
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
+            <title><![CDATA[Recent Advances in Optimization and Decision Making under Uncertainty: Theory and Algorithms]]></title>
+            <link>https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/</link>
+            <guid>springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms</guid>
+            <pubDate>Thu, 03 Sep 2026 17:13:45 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Abdel Lisser</strong>, Paris-Saclay University</p>
+        
+        <p><strong>Jia Liu</strong>, Xi&#39;an Jiaotong University</p>
+        
+        <p><strong>Francesca Maggioni</strong>, University of Bergamo</p>
+        
+        <p><strong>S. K. Neogy</strong>, Indian Statistical Institute</p>
+        
+        <p><strong>Vikas Vikram Singh</strong>, Indian Institute of Technology Delhi</p>
+        
+    
+    
+    
+    <p>This special issue invites theoretical and methodological contributions advancing optimization and decision-making under uncertainty. It seeks original research developing new optimization models, analytical results, computational methods, and convergence theories across mathematical optimization, stochastic optimization, robust optimization, game theory, and sequential decision-making.</p>
+    
+    <p>The special issue is organized in conjunction with the International Conference on Operations Research: Theory, Applications and Emerging Technologies (ICORSI 2026) at Indian Institute of Technology Delhi. However, submissions are welcomed from all researchers in these areas regardless of conference participation, and all papers will undergo standard peer review.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/ehagifafae">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-recent-advances-in-optimization-and-decision-making-under-uncertainty-theory-and-algorithms/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Mathematical programming</li>
+        
+        <li>Convex, nonconvex, and mixed-integer optimization</li>
+        
+        <li>Stochastic, robust, and distributionally robust optimization</li>
+        
+        <li>Chance-constrained optimization</li>
+        
+        <li>Variational inequalities and equilibrium problems</li>
+        
+        <li>Game theory and multi-agent optimization</li>
+        
+        <li>Markov decision processes and stochastic games</li>
+        
+        <li>Reinforcement learning for sequential decision making</li>
+        
+        <li>Online and data-driven optimization</li>
+        
+        <li>Optimization under risk measures</li>
+        
+        <li>Bayesian optimization</li>
+        
+        <li>Black-box optimization</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 31, 2028: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Game Theoretical Models and Applications SING21]]></title>
             <link>https://kerostig.org/call/springer-game-theoretical-models-and-applications-sing21/</link>
             <guid>springer-game-theoretical-models-and-applications-sing21</guid>
@@ -22,11 +97,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Annamaria Barbagallo</strong>, University of Naples Federico II</p>
+        
+        <p><strong>Encarnación Algaba</strong>, University of Seville</p>
+        
+        <p><strong>Giovanna Bimonte</strong>, University of Salerno</p>
+        
+        <p><strong>Francesco Ciardiello</strong>, University of Salerno</p>
+        
     
     
-    <p>This special issue seeks to advance research on game theory as a framework for understanding strategic interaction, cooperation, conflict, and decision-making in complex systems. The collection emphasizes recent theoretical developments and diverse applications, particularly focusing on interaction dynamics and collective decision-making through both theoretical and practical contributions.</p>
     
-    <p>The issue particularly welcomes expanded and revised versions of papers presented at the European Meeting on Game Theory 2026 (SING21), though other relevant submissions are also encouraged. All papers undergo rigorous peer review by guest editors, with accepted contributions published online before appearing in print.</p>
+    <p>This special issue focuses on game theory as a framework for studying strategic behavior, cooperation, and decision-making in complex systems. It welcomes research on both theoretical developments and practical applications across diverse fields, with emphasis on interaction dynamics and collective decision-making.</p>
+    
+    <p>The issue particularly encourages submissions from participants of the European Meeting on Game Theory 2026 (SING21), who are invited to submit expanded versions of their conference papers. Other submissions in game theory and related applications are also welcome.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -39,13 +124,13 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Cooperative games and applications</li>
+        <li>Cooperative games and their applications</li>
         
         <li>Non-cooperative games and strategic interaction</li>
         
         <li>Mechanism design</li>
         
-        <li>Network games</li>
+        <li>Network</li>
         
         <li>Dynamic games</li>
         
@@ -53,9 +138,7 @@
         
         <li>Stochastic games</li>
         
-        <li>Voting and collective decision-making</li>
-        
-        <li>Power indices</li>
+        <li>Voting, power indices, and collective decision-making</li>
         
         <li>Auctions and market design</li>
         
@@ -65,23 +148,13 @@
         
         <li>Computational game theory</li>
         
-        <li>Game theory applications in management</li>
+        <li>Applications to management and energy</li>
         
-        <li>Game theory applications in energy</li>
+        <li>Applications to health policy and industrial organization</li>
         
-        <li>Game theory applications in health policy</li>
+        <li>Applications to environmental and resource economics</li>
         
-        <li>Game theory applications in industrial organization</li>
-        
-        <li>Game theory applications in environmental economics</li>
-        
-        <li>Game theory applications in resource economics</li>
-        
-        <li>Game theory applications in transportation</li>
-        
-        <li>Game theory applications in cybersecurity</li>
-        
-        <li>Game theory applications in artificial intelligence</li>
+        <li>Applications to transportation, cybersecurity, and artificial intelligence</li>
         
     </ul>
     

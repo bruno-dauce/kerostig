@@ -4,7 +4,7 @@
         <title>kerostig | Tag : stochastic optimization</title>
         <link>https://kerostig.org/tag/stochastic-optimization/</link>
         <description>Derniers appels à publications avec le tag 'stochastic optimization'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -36,9 +36,9 @@
     
     
     
-    <p>This special issue brings together recent advances in optimization and decision-making under uncertainty, focusing on theoretical contributions that strengthen the mathematical foundations and algorithmic techniques in operations research. The scope encompasses developments in stochastic, robust, and distributionally robust optimization, game theory, sequential decision-making, and learning-based methods that have expanded modern operations research&#39;s applicability.</p>
+    <p>This special issue invites theoretical and methodological contributions advancing optimization and decision-making under uncertainty. It seeks original research developing new optimization models, analytical results, computational methods, and convergence theories across mathematical optimization, stochastic optimization, robust optimization, game theory, and sequential decision-making.</p>
     
-    <p>The special issue welcomes original research presenting new optimization models, theoretical results, computational methodologies, and convergence analyses. While organized alongside ICORSI 2026 held at Indian Institute of Technology Delhi, the issue is open to all researchers in these areas regardless of conference participation.</p>
+    <p>The special issue is organized in conjunction with the International Conference on Operations Research: Theory, Applications and Emerging Technologies (ICORSI 2026) at Indian Institute of Technology Delhi. However, submissions are welcomed from all researchers in these areas regardless of conference participation, and all papers will undergo standard peer review.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -97,13 +97,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Andrea Flori</strong>, Politecnico di Milano</p>
+        
+        <p><strong>Anna Maria Gambaro</strong>, Università del Piemonte Orientale</p>
+        
+        <p><strong>Ioannis Kyriakou</strong>, University of London</p>
+        
+        <p><strong>Duc Khuong Nguyen</strong>, EMLV Business School</p>
+        
     
     
-    <p>This special issue addresses how climate-related risks disrupt interconnected financial and economic systems during the transition to a low-carbon economy. The challenge lies in modeling how transition risks affect firms and supply chains, particularly carbon-intensive sectors, and understanding risk transmission across economic systems.</p>
     
-    <p>Firms face competing pressures to decarbonize while maintaining profitability and competitiveness. Significant vulnerabilities emerge through supply chain interdependencies, where disruptions propagate and amplify operational risks. The call seeks integrated modeling approaches that capture emissions, disruptions, and risks across supply chain tiers using operations research methods.</p>
+    <p>Climate-related risks threaten financial and economic systems through their effects on supply chains and firm operations. The transition to a low-carbon economy creates substantial uncertainty, particularly regarding timing and pace, destabilizing carbon-intensive sectors and triggering systemic challenges. This necessitates rigorous analytical methods to quantify climate risks and understand their propagation through interconnected economic systems.</p>
     
-    <p>The issue welcomes applied and methodological studies employing stochastic optimization, machine learning, and other advanced techniques to examine how financial institutions manage uncertainty in portfolio allocation and risk management under climate transition scenarios.</p>
+    <p>Firms face tension between short-term profitability and long-term sustainability when transitioning to low-carbon operations. Supply chain vulnerabilities persist through global production networks where disruptions propagate, and financial markets transmit climate risks via asset prices and liquidity channels. This special issue welcomes operations research contributions using robust optimization, machine learning, and innovative analytical techniques to address how financial institutions and firms manage climate transition risks in portfolios and supply chains.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -160,11 +168,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Stelios Bekiros</strong>, University of Turin</p>
+        
+        <p><strong>Andrea D&#39;Ariano</strong>, Roma Tre University</p>
+        
+        <p><strong>Peng Wu</strong>, Fuzhou University</p>
+        
+        <p><strong>Guowei Zhang</strong>, Dalian University of Technology</p>
+        
     
     
-    <p>Modern operations research increasingly relies on contextual information to enhance decision-making in uncertain environments. This special issue focuses on the integration of side information—such as demand patterns, user behaviors, and market conditions—into optimization models to achieve more adaptive and data-driven policies. The field spans contextual stochastic optimization, distributionally robust optimization with covariates, decision-focused learning, and online optimization frameworks.</p>
     
-    <p>Real-world applications present significant challenges including high-dimensional data, noisy observations, distribution shifts, computational constraints, and the need to balance predictive accuracy with operational performance. The special issue seeks high-quality contributions that develop novel theories, algorithms, and applications combining optimization with machine learning, statistics, and data analytics to address these challenges systematically.</p>
+    <p>Modern operations research integrates optimization with machine learning and statistics to incorporate side information—such as demand patterns and market conditions—into decision-making processes. This contextual optimization approach enables more adaptive and data-driven policies than classical optimization, though significant challenges persist including high-dimensional data, noisy observations, distribution shifts, and computational constraints.</p>
+    
+    <p>The field requires new theories and frameworks that systematically combine learning and optimization under uncertainty, with emphasis on improving actual operational performance. This special issue invites high-quality contributions developing novel theories, models, algorithms, and applications addressing contextual decision-making using side information, spanning prescriptive analytics, adaptive algorithms, and real-world applications in transportation, supply chains, and healthcare.</p>
     
     <p>
         Appel publié par Annals of Operations Research.

@@ -4,7 +4,7 @@
         <title>kerostig | Tag : data-driven decision making</title>
         <link>https://kerostig.org/tag/data-driven-decision-making/</link>
         <description>Derniers appels à publications avec le tag 'data-driven decision making'.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -54,6 +54,91 @@
     <ul>
         
         <li>March 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Contextual Optimization with Side Information: Theory, Methodology, and Applications]]></title>
+            <link>https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/</link>
+            <guid>springer-contextual-optimization-with-side-information-theory-methodology-and-applications</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Stelios Bekiros</strong>, University of Turin</p>
+        
+        <p><strong>Andrea D&#39;Ariano</strong>, Roma Tre University</p>
+        
+        <p><strong>Peng Wu</strong>, Fuzhou University</p>
+        
+        <p><strong>Guowei Zhang</strong>, Dalian University of Technology</p>
+        
+    
+    
+    
+    <p>Modern operations research integrates optimization with machine learning and statistics to incorporate side information—such as demand patterns and market conditions—into decision-making processes. This contextual optimization approach enables more adaptive and data-driven policies than classical optimization, though significant challenges persist including high-dimensional data, noisy observations, distribution shifts, and computational constraints.</p>
+    
+    <p>The field requires new theories and frameworks that systematically combine learning and optimization under uncertainty, with emphasis on improving actual operational performance. This special issue invites high-quality contributions developing novel theories, models, algorithms, and applications addressing contextual decision-making using side information, spanning prescriptive analytics, adaptive algorithms, and real-world applications in transportation, supply chains, and healthcare.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/iajhfddihe">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Contextual Stochastic Optimization</li>
+        
+        <li>Distributionally Robust Optimization with Side Information</li>
+        
+        <li>Prescriptive Analytics and Contextual Decision Making</li>
+        
+        <li>Learning-Enhanced Optimization</li>
+        
+        <li>Decision-Focused Learning</li>
+        
+        <li>Online, Dynamic, and Adaptive Optimization</li>
+        
+        <li>Learning-Augmented Algorithms</li>
+        
+        <li>Interpretable and Trustworthy Optimization Models</li>
+        
+        <li>Statistical Guarantees and Generalization in Optimization</li>
+        
+        <li>Data-Driven Optimization Under Uncertainty</li>
+        
+        <li>AI and Machine Learning for OR</li>
+        
+        <li>Human-in-the-Loop Optimization</li>
+        
+        <li>Optimization with Foundation Models or Generative AI</li>
+        
+        <li>Scalable Algorithms for Large-Scale Optimization Problems</li>
+        
+        <li>Digital Twin and Real-Time Decision Systems</li>
+        
+        <li>Contextual Transportation and Logistics Optimization</li>
+        
+        <li>Contextual Supply Chain and Revenue Management</li>
+        
+        <li>Data-Driven Healthcare and Service Operations</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>July 31, 2027: Submission deadline</li>
         
     </ul>
     

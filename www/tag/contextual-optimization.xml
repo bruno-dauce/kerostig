@@ -4,7 +4,7 @@
         <title>kerostig | Tag : contextual optimization</title>
         <link>https://kerostig.org/tag/contextual-optimization/</link>
         <description>Derniers appels à publications avec le tag 'contextual optimization'.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 15:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -34,12 +34,14 @@
     
     
     
-    <p>Operations research (OR) problems increasingly arise in data-rich and highly uncertain environments where operational decisions must adapt dynamically to evolving contextual information. Advances in sensing technologies, digital platforms, enterprise systems, and large-scale data collection have significantly expanded the availability of side information related to demand patterns, operational states, user behaviors, market conditions, and environmental factors. In many modern applications, such contextual information provides valuable predictive signals that can substantially improve decision quality when effectively integrated into optimization models.</p>
+    <p>Modern operations research integrates optimization with machine learning and statistics to incorporate side information—such as demand patterns and market conditions—into decision-making processes. This contextual optimization approach enables more adaptive and data-driven policies than classical optimization, though significant challenges persist including high-dimensional data, noisy observations, distribution shifts, and computational constraints.</p>
+    
+    <p>The field requires new theories and frameworks that systematically combine learning and optimization under uncertainty, with emphasis on improving actual operational performance. This special issue invites high-quality contributions developing novel theories, models, algorithms, and applications addressing contextual decision-making using side information, spanning prescriptive analytics, adaptive algorithms, and real-world applications in transportation, supply chains, and healthcare.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
         
-        <a href="https://link.springer.com/collections/iajhfddihe">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://link.springer.com/collections/iajhfddihe">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/springer-contextual-optimization-with-side-information-theory-methodology-and-applications/">Fiche de l'appel sur kerostig</a>.
     </p>

@@ -4,7 +4,7 @@
         <title>kerostig | Annals of Operations Research</title>
         <link>https://kerostig.org/journal/annals-of-operations-research/</link>
         <description>Derniers appels à publications pour Annals of Operations Research.</description>
-        <lastBuildDate>Sun, 25 Oct 2026 16:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -36,9 +36,9 @@
     
     
     
-    <p>This special issue brings together recent advances in optimization and decision-making under uncertainty, focusing on theoretical contributions that strengthen the mathematical foundations and algorithmic techniques in operations research. The scope encompasses developments in stochastic, robust, and distributionally robust optimization, game theory, sequential decision-making, and learning-based methods that have expanded modern operations research&#39;s applicability.</p>
+    <p>This special issue invites theoretical and methodological contributions advancing optimization and decision-making under uncertainty. It seeks original research developing new optimization models, analytical results, computational methods, and convergence theories across mathematical optimization, stochastic optimization, robust optimization, game theory, and sequential decision-making.</p>
     
-    <p>The special issue welcomes original research presenting new optimization models, theoretical results, computational methodologies, and convergence analyses. While organized alongside ICORSI 2026 held at Indian Institute of Technology Delhi, the issue is open to all researchers in these areas regardless of conference participation.</p>
+    <p>The special issue is organized in conjunction with the International Conference on Operations Research: Theory, Applications and Emerging Technologies (ICORSI 2026) at Indian Institute of Technology Delhi. However, submissions are welcomed from all researchers in these areas regardless of conference participation, and all papers will undergo standard peer review.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -162,11 +162,23 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Rosella Giacometti</strong>, University of Bergamo</p>
+        
+        <p><strong>Aaron Kim</strong>, Stony Brook University</p>
+        
+        <p><strong>Sergio Ortobelli Lozza</strong>, University of Bergamo</p>
+        
+        <p><strong>Svetlozar Rachev</strong>, Texas Tech University</p>
+        
+        <p><strong>Gabriele Torri</strong>, University of Bergamo</p>
+        
     
     
-    <p>This special issue in the Annals of Operations Research invites high-quality research contributions in quantitative finance, insurance, and risk modeling. While connected to the Workshop on Quantitative Finance 2026 held in Bergamo, Italy, submissions are welcome from all researchers in the field, not just workshop participants.</p>
     
-    <p>The issue seeks rigorous methodological work that advances both theoretical understanding and practical applications in quantitative finance. Topics range from risk measurement and portfolio optimization to emerging areas such as machine learning applications, behavioral models, and climate-related financial risks.</p>
+    <p>This special issue invites researchers to contribute cutting-edge work in quantitative finance, risk modeling, and insurance. The collection aims to establish a reference point for recent methodological and applied advances in the field, emphasizing rigorous approaches with significance for both academic research and practical application.</p>
+    
+    <p>While the special issue originates from the Workshop on Quantitative Finance 2026 held in Bergamo, it welcomes submissions from all researchers in the area, not limited to workshop participants.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -219,11 +231,15 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Hoang Pham</strong>, Rutgers University</p>
+        
     
     
-    <p>This special issue addresses advances in reliability and statistical computing for intelligent systems, reflecting the significant developments in AI and machine learning applications. The call seeks research that combines theoretical rigor with practical relevance, particularly focusing on how intelligent systems can provide reliable and timely responses in real-world applications across service industries and everyday use.</p>
     
-    <p>The special issue welcomes papers on new theoretical research and computational methods that advance the field. Preference is given to contributions demonstrating practical applications over purely theoretical work, with industrial case studies especially valued across domains such as robotics, medical care, education, surveillance, and intelligent transportation systems.</p>
+    <p>This special issue addresses the growing importance of reliability and statistical computing in AI-driven intelligent systems deployed across everyday applications and the service industry. The focus is on developing methods that enable these systems to deliver dependable and timely responses in real-world settings.</p>
+    
+    <p>The issue seeks papers presenting novel theoretical research and practical methods in advanced reliability and statistical computing for intelligent systems. Submissions with applications to real-world problems are particularly encouraged, spanning areas such as robotics, medical care, education, surveillance, and transportation.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -262,7 +278,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>October 30, 2026: Manuscript submission deadline</li>
+        <li>October 30, 2026: Submission deadline</li>
         
     </ul>
     
@@ -278,13 +294,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Andrea Flori</strong>, Politecnico di Milano</p>
+        
+        <p><strong>Anna Maria Gambaro</strong>, Università del Piemonte Orientale</p>
+        
+        <p><strong>Ioannis Kyriakou</strong>, University of London</p>
+        
+        <p><strong>Duc Khuong Nguyen</strong>, EMLV Business School</p>
+        
     
     
-    <p>This special issue addresses how climate-related risks disrupt interconnected financial and economic systems during the transition to a low-carbon economy. The challenge lies in modeling how transition risks affect firms and supply chains, particularly carbon-intensive sectors, and understanding risk transmission across economic systems.</p>
     
-    <p>Firms face competing pressures to decarbonize while maintaining profitability and competitiveness. Significant vulnerabilities emerge through supply chain interdependencies, where disruptions propagate and amplify operational risks. The call seeks integrated modeling approaches that capture emissions, disruptions, and risks across supply chain tiers using operations research methods.</p>
+    <p>Climate-related risks threaten financial and economic systems through their effects on supply chains and firm operations. The transition to a low-carbon economy creates substantial uncertainty, particularly regarding timing and pace, destabilizing carbon-intensive sectors and triggering systemic challenges. This necessitates rigorous analytical methods to quantify climate risks and understand their propagation through interconnected economic systems.</p>
     
-    <p>The issue welcomes applied and methodological studies employing stochastic optimization, machine learning, and other advanced techniques to examine how financial institutions manage uncertainty in portfolio allocation and risk management under climate transition scenarios.</p>
+    <p>Firms face tension between short-term profitability and long-term sustainability when transitioning to low-carbon operations. Supply chain vulnerabilities persist through global production networks where disruptions propagate, and financial markets transmit climate risks via asset prices and liquidity channels. This special issue welcomes operations research contributions using robust optimization, machine learning, and innovative analytical techniques to address how financial institutions and firms manage climate transition risks in portfolios and supply chains.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -355,11 +379,11 @@
     
     
     
-    <p>Modern operations research faces challenges in dynamic and uncertain environments where traditional methodologies struggle. This special issue focuses on Collaborative Intelligence—integrating human expertise, artificial intelligence, and distributed problem-solving to enhance adaptability and efficiency in complex operations through multi-agent coordination, human-AI collaboration, and machine learning.</p>
+    <p>Modern operations research requires approaches combining human expertise with artificial intelligence and distributed problem-solving. This special issue addresses how collaborative intelligence—the synergy between human decision-makers, AI systems, and mathematical models—can enhance adaptability and efficiency in complex operational environments.</p>
     
-    <p>The special issue seeks research bridging autonomous AI systems and human decision-makers by combining computational power with human intuition and ethical reasoning. Contributions should address how collaborative approaches improve system resilience, handle uncertainty, and increase trust in AI-driven systems through theoretical advancements and computational methods that extend operations research to adaptive and multi-agent frameworks.</p>
+    <p>Traditional OR methods struggle with dynamic and uncertain decision-making. While AI offers computational power, autonomous systems face challenges with uncertainty and interpretability. Collaborative intelligence bridges this gap by leveraging human intuition alongside AI capabilities.</p>
     
-    <p>Researchers are invited to submit original contributions involving innovative mathematical models, algorithms, and practical applications demonstrating how collaborative intelligence enhances decision-making in complex operational environments, balancing theoretical rigor with practical relevance.</p>
+    <p>The special issue welcomes theoretical and applied research on collaborative, multi-agent, and adaptive decision-making frameworks that advance how human-AI partnership, multi-agent coordination, and data-driven learning enhance operations research methodologies.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -374,31 +398,27 @@
         
         <li>Human-AI collaboration in OR models</li>
         
-        <li>Integration of human judgment and preferences into AI-driven decision-making</li>
+        <li>AI output visualization and interpretability</li>
         
-        <li>Visualization and interpretation of AI outputs</li>
-        
-        <li>Optimization algorithms for multi-agent systems</li>
-        
-        <li>Game-theoretic frameworks for multi-agent coordination</li>
-        
-        <li>Managing conflicts and uncertainties in multi-agent decision-making</li>
-        
-        <li>Adaptive OR frameworks</li>
+        <li>Multi-agent optimization and game theory</li>
         
         <li>Decentralized optimization algorithms</li>
         
-        <li>Online learning and adaptive control techniques</li>
+        <li>Adaptive OR frameworks</li>
         
-        <li>Machine learning and data analytics for OR</li>
+        <li>Online learning and adaptive control</li>
         
-        <li>Learning-based optimization algorithms</li>
+        <li>Machine learning for OR applications</li>
         
-        <li>Predictive analytics and simulation techniques</li>
+        <li>Learning-based optimization</li>
         
-        <li>Resilience planning</li>
+        <li>Predictive analytics and simulation</li>
         
-        <li>Dynamic problem-solving in complex operations</li>
+        <li>Multi-agent coordination</li>
+        
+        <li>Distributed problem-solving</li>
+        
+        <li>Decision support systems</li>
         
     </ul>
     
@@ -422,11 +442,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Stelios Bekiros</strong>, University of Turin</p>
+        
+        <p><strong>Andrea D&#39;Ariano</strong>, Roma Tre University</p>
+        
+        <p><strong>Peng Wu</strong>, Fuzhou University</p>
+        
+        <p><strong>Guowei Zhang</strong>, Dalian University of Technology</p>
+        
     
     
-    <p>Modern operations research increasingly relies on contextual information to enhance decision-making in uncertain environments. This special issue focuses on the integration of side information—such as demand patterns, user behaviors, and market conditions—into optimization models to achieve more adaptive and data-driven policies. The field spans contextual stochastic optimization, distributionally robust optimization with covariates, decision-focused learning, and online optimization frameworks.</p>
     
-    <p>Real-world applications present significant challenges including high-dimensional data, noisy observations, distribution shifts, computational constraints, and the need to balance predictive accuracy with operational performance. The special issue seeks high-quality contributions that develop novel theories, algorithms, and applications combining optimization with machine learning, statistics, and data analytics to address these challenges systematically.</p>
+    <p>Modern operations research integrates optimization with machine learning and statistics to incorporate side information—such as demand patterns and market conditions—into decision-making processes. This contextual optimization approach enables more adaptive and data-driven policies than classical optimization, though significant challenges persist including high-dimensional data, noisy observations, distribution shifts, and computational constraints.</p>
+    
+    <p>The field requires new theories and frameworks that systematically combine learning and optimization under uncertainty, with emphasis on improving actual operational performance. This special issue invites high-quality contributions developing novel theories, models, algorithms, and applications addressing contextual decision-making using side information, spanning prescriptive analytics, adaptive algorithms, and real-world applications in transportation, supply chains, and healthcare.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -497,11 +527,15 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Yi-Kuei Lin</strong>, National Yang Ming Chiao Tung University</p>
+        
     
     
-    <p>Industrial engineering systems such as manufacturing, supply chains, energy networks, and transportation require reliable operation to maintain efficiency and safety amid uncertainty and disruptions. Traditional reliability approaches have relied on probabilistic and stochastic analysis, but advances in sensing technology and data collection now enable data-driven reliability modeling that combines classical theory with machine learning and statistical methods. The field is increasingly focused on integrating reliability analysis into decision-making frameworks for maintenance planning, resource allocation, and system optimization.</p>
     
-    <p>This special issue invites original research papers addressing reliability modeling and decision support for industrial engineering systems using operations research, industrial engineering, and data-driven methods. Both theoretical contributions and practical applications are welcome, with emphasis on methodological rigor and real-world relevance.</p>
+    <p>This special issue seeks contributions on data-driven and intelligent approaches to reliability modeling for industrial engineering systems, including manufacturing, supply chains, logistics, energy, transportation, and service operations. The growing availability of operational and condition-monitoring data has created opportunities to complement traditional probabilistic and stochastic reliability methods with machine learning and statistical learning techniques.</p>
+    
+    <p>The issue emphasizes the integration of reliability modeling with decision support frameworks, enabling practitioners to move beyond reliability assessment toward actionable, reliability-informed decisions under uncertainty. Both theoretical developments and practical applications are welcome, with particular interest in papers demonstrating methodological rigor and real-world industrial relevance.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -514,33 +548,33 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Data-driven reliability modeling and parameter estimation</li>
+        <li>Data-driven reliability modeling and parameter estimation using operational data</li>
         
-        <li>Statistical learning and machine learning for reliability analysis</li>
+        <li>Reliability analysis using statistical learning and machine learning methods</li>
         
-        <li>Hybrid analytical and data-driven reliability models</li>
+        <li>Reliability models combining analytical formulations with data-driven learning approaches</li>
         
-        <li>Decision support systems with reliability analysis</li>
+        <li>Decision support systems incorporating reliability analysis and risk information</li>
         
-        <li>Optimization and decision-making informed by reliability</li>
+        <li>Optimization and decision-making problems informed by reliability performance</li>
         
-        <li>Predictive maintenance and condition monitoring</li>
+        <li>Predictive maintenance and condition monitoring using data and learning models</li>
         
-        <li>Multistate system and network reliability</li>
+        <li>Multistate system and network reliability analysis</li>
         
-        <li>Manufacturing, logistics, and supply chain reliability</li>
+        <li>Reliability evaluation of manufacturing, logistics, and supply chain systems</li>
         
-        <li>Energy, power, and infrastructure system reliability</li>
+        <li>Reliability modeling in energy, power, and infrastructure systems</li>
         
-        <li>Stochastic modeling and uncertainty analysis</li>
+        <li>Stochastic modeling and uncertainty analysis in data-driven reliability studies</li>
         
-        <li>Simulation and approximation methods for reliability</li>
+        <li>Simulation, enumeration, and approximation methods for reliability evaluation</li>
         
-        <li>System design and resource allocation</li>
+        <li>System design and resource allocation considering reliability and operational data</li>
         
-        <li>Digital twins and intelligent systems for reliability</li>
+        <li>Reliability analysis supported by digital twins, data analytics, and intelligent systems</li>
         
-        <li>Reliability, robustness, and resilience</li>
+        <li>Reliability, robustness, and resilience of industrial engineering systems</li>
         
     </ul>
     
@@ -567,7 +601,7 @@
         
         <p><strong>Dries F. Benoit</strong>, Ghent University</p>
         
-        <p><strong>Kristof Coussement</strong>, IÉSEG School of Management</p>
+        <p><strong>Kristof Coussement</strong>, Institut d&#39;Economie Scientifique Et de Gestion</p>
         
         <p><strong>Cem İyigün</strong>, Middle East Technical University</p>
         
@@ -576,9 +610,9 @@
     
     
     
-    <p>This special section seeks to publish research that bridges data science and operations research, emphasizing both theoretical advances and practical organizational applications. The focus extends beyond technical innovation to address how analytics creates measurable value within organizations and drives necessary organizational change.</p>
+    <p>This special section seeks papers that advance both theoretical and practical contributions to data science and predictive analytics. The focus is on demonstrating how new techniques create organizational value and may require changes in business processes. The work bridges operations research with analytics, treating analytics as an organizational discipline that leverages both data science and OR methodologies.</p>
     
-    <p>The collection invites contributions exploring the intersection of OR and analytics across multiple dimensions: ethical and governance considerations in data usage, challenges of applying OR techniques to big data and distributed systems, organizational barriers to analytics adoption, data quality and validation methods for large datasets, and the role of visualization and soft OR techniques in supporting data-driven decision making.</p>
+    <p>The section invites researchers and practitioners to explore multiple dimensions of analytics: ethical and governance challenges in data collection and behavioral influence; applications and limitations of OR techniques with big data and distributed systems; organizational barriers to analytics adoption and real-time OR applications; methods for data quality, hypothesis testing, and integration of unstructured data; and how visualization and problem structuring enhance analytics projects.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -591,15 +625,25 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Ethics and governance issues in analytics: How should data be obtained? What are the ethical implications of using applications of analytics to influence behavior?</li>
+        <li>Ethics and governance in analytics</li>
         
-        <li>Big data and analytics: What are the limitations and applications of optimization and other OR techniques to large datasets? What are the challenges for applications of OR methods within distributed systems? What is the possibility that OR models could in fact be the producers of big data, e.g., large-scale simulation models? What new methods/models in response to big data, e.g., sentiment mining, can be adopted by OR?</li>
+        <li>Big data and analytics</li>
         
-        <li>Organizational issues in analytics adoption: What are the issues facing organizations trying to adopt analytics? What is the role of real-time applications of OR in organizations?</li>
+        <li>Organizational issues in analytics adoption</li>
         
-        <li>Data quality and analytics: What methods can be used for hypothesis testing and model validation in large datasets? How can unstructured data be used effectively in OR models? What is the role of multi-methodology in business analytics? What opportunities do open data present for the OR discipline?</li>
+        <li>Data quality and analytics</li>
         
-        <li>Analytics and decision support: How can data visualization techniques be used across the breadth of OR? What role do problem structuring and &quot;soft&quot; OR techniques play in analytics and big data projects?</li>
+        <li>Analytics and decision support</li>
+        
+        <li>Predictive analytics</li>
+        
+        <li>Optimization techniques for large datasets</li>
+        
+        <li>Data visualization</li>
+        
+        <li>Problem structuring and soft OR techniques</li>
+        
+        <li>Unstructured data in OR models</li>
         
     </ul>
     
@@ -623,11 +667,21 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Annamaria Barbagallo</strong>, University of Naples Federico II</p>
+        
+        <p><strong>Encarnación Algaba</strong>, University of Seville</p>
+        
+        <p><strong>Giovanna Bimonte</strong>, University of Salerno</p>
+        
+        <p><strong>Francesco Ciardiello</strong>, University of Salerno</p>
+        
     
     
-    <p>This special issue seeks to advance research on game theory as a framework for understanding strategic interaction, cooperation, conflict, and decision-making in complex systems. The collection emphasizes recent theoretical developments and diverse applications, particularly focusing on interaction dynamics and collective decision-making through both theoretical and practical contributions.</p>
     
-    <p>The issue particularly welcomes expanded and revised versions of papers presented at the European Meeting on Game Theory 2026 (SING21), though other relevant submissions are also encouraged. All papers undergo rigorous peer review by guest editors, with accepted contributions published online before appearing in print.</p>
+    <p>This special issue focuses on game theory as a framework for studying strategic behavior, cooperation, and decision-making in complex systems. It welcomes research on both theoretical developments and practical applications across diverse fields, with emphasis on interaction dynamics and collective decision-making.</p>
+    
+    <p>The issue particularly encourages submissions from participants of the European Meeting on Game Theory 2026 (SING21), who are invited to submit expanded versions of their conference papers. Other submissions in game theory and related applications are also welcome.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -640,13 +694,13 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Cooperative games and applications</li>
+        <li>Cooperative games and their applications</li>
         
         <li>Non-cooperative games and strategic interaction</li>
         
         <li>Mechanism design</li>
         
-        <li>Network games</li>
+        <li>Network</li>
         
         <li>Dynamic games</li>
         
@@ -654,9 +708,7 @@
         
         <li>Stochastic games</li>
         
-        <li>Voting and collective decision-making</li>
-        
-        <li>Power indices</li>
+        <li>Voting, power indices, and collective decision-making</li>
         
         <li>Auctions and market design</li>
         
@@ -666,23 +718,13 @@
         
         <li>Computational game theory</li>
         
-        <li>Game theory applications in management</li>
+        <li>Applications to management and energy</li>
         
-        <li>Game theory applications in energy</li>
+        <li>Applications to health policy and industrial organization</li>
         
-        <li>Game theory applications in health policy</li>
+        <li>Applications to environmental and resource economics</li>
         
-        <li>Game theory applications in industrial organization</li>
-        
-        <li>Game theory applications in environmental economics</li>
-        
-        <li>Game theory applications in resource economics</li>
-        
-        <li>Game theory applications in transportation</li>
-        
-        <li>Game theory applications in cybersecurity</li>
-        
-        <li>Game theory applications in artificial intelligence</li>
+        <li>Applications to transportation, cybersecurity, and artificial intelligence</li>
         
     </ul>
     
@@ -716,9 +758,9 @@
     
     
     
-    <p>This special issue addresses the challenges facing global supply chains as tariff uncertainty and shifting trade policies reshape sourcing, manufacturing, logistics, and market access. The contemporary environment presents unprecedented complexity requiring new decision-making approaches beyond traditional tariff-related research.</p>
+    <p>Global supply chains face mounting pressures from tariff uncertainty and shifting trade policies, requiring urgent reconfiguration of sourcing strategies, manufacturing locations, and logistics networks. The current environment presents unprecedented complexity with high tariff rates, retaliatory measures, and escalating trade tensions creating significant practical challenges.</p>
     
-    <p>The collection seeks high-quality contributions applying Operations Research and Artificial Intelligence methods to supply chain reconfiguration under trade policy uncertainty. The issue welcomes theoretical advances, methodological innovations, applied modeling studies, and practical insights, with particular emphasis on interdisciplinary work integrating OR, AI, supply chain management, and international economics with real-world applications.</p>
+    <p>This special issue seeks high-quality research applying Operations Research and Artificial Intelligence methods to address supply chain reconfiguration challenges under tariff uncertainty. The journal welcomes theoretical developments, methodological innovations, applied modeling studies, and interdisciplinary work integrating OR, AI, supply chain management, and international economics with real-world case applications.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -777,11 +819,19 @@
             <content:encoded><![CDATA[
 <div>
     
+        
+        <p><strong>Matteo Rocca</strong>, University of Insubria</p>
+        
+        <p><strong>Davide La Torre</strong>, Skema Business School</p>
+        
+        <p><strong>Constantin Zopounidis</strong>, Technical University of Crete</p>
+        
     
     
-    <p>This special issue focuses on the convergence of Multiple Objective Programming (MOP), Goal Programming (GP), and Artificial Intelligence (AI) for addressing complex decision-making problems in economic and social sciences. The issue welcomes substantially extended papers from the 16th International Conference on Multiple Objective Programming and Goal Programming (MOPGP&#39;25, held 1–3 July 2025 in Varese, Italy), as well as original unpublished papers not presented at the conference.</p>
     
-    <p>The special issue explores how MOP provides structured evaluation of conflicting objectives, GP facilitates goal-setting for decision makers, and AI enhances decision models through data analytics and machine learning. It covers theoretical advances and practical applications spanning sustainable development, resource allocation, public policy, environmental economics, social welfare optimization, and various computational methods for multi-criteria decision analysis.</p>
+    <p>This special issue seeks papers that integrate multiple objective programming, goal programming, and artificial intelligence to address complex decision-making in economic and social sciences. The issue welcomes both substantially extended papers from the 16th International Conference on Multiple Objective Programming and Goal Programming (MOPGP&#39;25) held in Varese, Italy, and original work not previously presented at the conference.</p>
+    
+    <p>Multiple objective optimization and goal programming provide structured frameworks for evaluating conflicting objectives, while artificial intelligence enhances these approaches through data analytics and machine learning. The combination enables processing of large datasets and improves the accuracy and robustness of decision models and predictions in addressing real-world challenges.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -856,9 +906,11 @@
     
     
     
-    <p>This special section addresses the integration of the UN&#39;s 17 Sustainable Development Goals (SDGs) into operations research and supply chain management. Organizations worldwide need to align their strategies with sustainability objectives to address resource depletion, pollution, and poverty. The collection seeks research that applies advanced operations research methods—such as multi-attribute and multi-objective decision making—to analyze and implement SDGs within supply chain environments at macro and organizational levels.</p>
+    <p>Organizations must align operations with UN sustainable development goals to address resource depletion and environmental degradation. This special section seeks research using operations research methods to implement SDGs in supply chain management, particularly advanced optimization techniques like multi-attribute and multi-objective decision-making.</p>
     
-    <p>The special section welcomes contributions exploring three main themes: stakeholder-driven policy and design for SDGs; innovative strategies and practices for implementing sustainable supply chain management; and monitoring supply chain governance with respect to SDG targets. Research should demonstrate how optimization models and algorithms can improve data-driven decision-making, promote resource conservation, and support transitions toward more sustainable futures while addressing economic, environmental, and societal dimensions of supply chains.</p>
+    <p>The section invites contributions on three themes: designing sustainable policies with stakeholder involvement, implementing SDGs through innovative supply chain practices, and monitoring progress toward sustainability targets in supply chain governance. Research should examine how organizations balance economic growth with resource conservation and environmental protection.</p>
+    
+    <p>The collection welcomes interdisciplinary approaches integrating environmental, economic, and social perspectives. Submissions should demonstrate how operations research and optimization algorithms support data-driven decisions that achieve sustainable development goals while improving organizational efficiency and human wellbeing.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -873,35 +925,35 @@
         
         <li>Sustainable development goals (SDGs) implementation</li>
         
-        <li>Supply chain optimization</li>
+        <li>Green supply chain management</li>
+        
+        <li>Lean supply chain approaches</li>
         
         <li>Multi-attribute decision making (MADM)</li>
         
         <li>Multi-objective decision making (MODM)</li>
         
-        <li>Green supply chain management</li>
+        <li>Sustainable policy design and policymaking</li>
         
-        <li>Lean supply chain approaches</li>
-        
-        <li>Sustainable policy and design with stakeholder perspectives</li>
-        
-        <li>Sustainable indicator strategies</li>
+        <li>Stakeholder engagement in sustainability</li>
         
         <li>Resource conservation and efficiency</li>
         
-        <li>Supply chain governance and monitoring</li>
+        <li>Environmental degradation mitigation</li>
         
-        <li>Environmental and societal impact reduction</li>
+        <li>Supply chain governance monitoring</li>
         
-        <li>Circular economy transitions</li>
+        <li>Sustainable indicators and metrics</li>
+        
+        <li>Circular economy in supply chains</li>
+        
+        <li>Carbon emissions reduction</li>
         
         <li>Supplier sustainability and resilience</li>
         
         <li>Reverse logistics and remanufacturing</li>
         
-        <li>Carbon emissions reduction</li>
-        
-        <li>Humanitarian and green logistics</li>
+        <li>Sustainable procurement practices</li>
         
     </ul>
     
@@ -933,9 +985,11 @@
     
     
     
-    <p>This special section showcases optimization and computational approaches applied to medical and biological challenges. It aims to bring together mathematical programming researchers and healthcare professionals to address complex decision problems in medicine, from medical devices to clinical data analysis.</p>
+    <p>This special section seeks contributions applying optimization and computational methods to medical and healthcare challenges. The collection welcomes theoretical and methodological work on models and algorithms including continuous linear and nonlinear optimization, integer programming, combinatorial optimization, and stochastic approaches applied to medical and biological problems. Applications span disease modeling, diagnosis, treatment planning, imaging, epidemiology, and molecular biology.</p>
     
-    <p>The special section welcomes theoretical and methodological research on optimization models and algorithms, including continuous, integer, combinatorial, and stochastic methods, applied to healthcare and life sciences. Topics of interest span disease modeling, diagnosis, treatment planning, medical imaging, epidemiology, and molecular biology.</p>
+    <p>The partnership between mathematical programming researchers and medical professionals—clinicians, biologists, public health officials—creates opportunities to advance both optimization theory and practice while addressing important healthcare problems. The special section, established in 2000, publishes state-of-the-art research in this dynamic field on an ongoing basis.</p>
+    
+    <p>Original, previously unpublished manuscripts submitted to this collection are evaluated through standard peer review by the Annals of Operations Research.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -967,6 +1021,10 @@
         <li>Combinatorial optimization</li>
         
         <li>Stochastic optimization</li>
+        
+        <li>Medical device optimization</li>
+        
+        <li>Clinical decision problems</li>
         
     </ul>
     

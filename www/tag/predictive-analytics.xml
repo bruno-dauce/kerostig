@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : predictive analytics</title>
+        <link>https://kerostig.org/tag/predictive-analytics/</link>
+        <description>Derniers appels à publications avec le tag 'predictive analytics'.</description>
+        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : predictive analytics</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/predictive-analytics/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Data Science]]></title>
+            <link>https://kerostig.org/call/springer-data-science/</link>
+            <guid>springer-data-science</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Dries F. Benoit</strong>, Ghent University</p>
+        
+        <p><strong>Kristof Coussement</strong>, Institut d&#39;Economie Scientifique Et de Gestion</p>
+        
+        <p><strong>Cem İyigün</strong>, Middle East Technical University</p>
+        
+        <p><strong>Asil Oztekin</strong>, University of Massachusetts Lowell</p>
+        
+    
+    
+    
+    <p>This special section seeks papers that advance both theoretical and practical contributions to data science and predictive analytics. The focus is on demonstrating how new techniques create organizational value and may require changes in business processes. The work bridges operations research with analytics, treating analytics as an organizational discipline that leverages both data science and OR methodologies.</p>
+    
+    <p>The section invites researchers and practitioners to explore multiple dimensions of analytics: ethical and governance challenges in data collection and behavioral influence; applications and limitations of OR techniques with big data and distributed systems; organizational barriers to analytics adoption and real-time OR applications; methods for data quality, hypothesis testing, and integration of unstructured data; and how visualization and problem structuring enhance analytics projects.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/egaahfecfe">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-data-science/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Ethics and governance in analytics</li>
+        
+        <li>Big data and analytics</li>
+        
+        <li>Organizational issues in analytics adoption</li>
+        
+        <li>Data quality and analytics</li>
+        
+        <li>Analytics and decision support</li>
+        
+        <li>Predictive analytics</li>
+        
+        <li>Optimization techniques for large datasets</li>
+        
+        <li>Data visualization</li>
+        
+        <li>Problem structuring and soft OR techniques</li>
+        
+        <li>Unstructured data in OR models</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>
