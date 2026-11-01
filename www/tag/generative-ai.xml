@@ -4,7 +4,7 @@
         <title>kerostig | Tag : generative ai</title>
         <link>https://kerostig.org/tag/generative-ai/</link>
         <description>Derniers appels à publications avec le tag 'generative ai'.</description>
-        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Nov 2026 17:55:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,53 @@
             <link>https://kerostig.org/tag/generative-ai/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Academic Search and Learning with GenAI: New Agency, New Behavior, and New Ecology]]></title>
+            <link>https://kerostig.org/call/elsevier-academic-search-and-learning-with-genai-new-agency-new-behavior-and-new-ecology/</link>
+            <guid>elsevier-academic-search-and-learning-with-genai-new-agency-new-behavior-and-new-ecology</guid>
+            <pubDate>Sun, 01 Nov 2026 17:53:44 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue invites research exploring how generative AI is transforming academic search and learning practices. The collection seeks to examine shifts in how researchers and students interact with information systems, the emerging behaviors enabled by AI-assisted searching, and the broader changes to the information landscape that these technologies introduce.</p>
+    
+    <p>
+        Appel publié par Information Processing &amp; Management.
+        
+        <a href="https://www.sciencedirect.com/special-issue/338378/academic-search-and-learning-with-genai-new-agency-new-behavior-and-new-ecology">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-academic-search-and-learning-with-genai-new-agency-new-behavior-and-new-ecology/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Academic search</li>
+        
+        <li>Learning with generative AI</li>
+        
+        <li>User agency</li>
+        
+        <li>User behavior</li>
+        
+        <li>Information ecosystems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Generative artificial intelligence and the reshaping of managerial capabilities]]></title>
             <link>https://kerostig.org/call/emerald-generative-artificial-intelligence-and-the-reshaping-of-managerial-capabilities/</link>
@@ -279,6 +326,118 @@
         <li>August 31, 2026: Opening date for manuscripts submissions</li>
         
         <li>January 31, 2027: Closing date for manuscripts submission</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Artificial Intelligence for Software Architecting]]></title>
+            <link>https://kerostig.org/call/elsevier-artificial-intelligence-for-software-architecting-ai-for-sa/</link>
+            <guid>elsevier-artificial-intelligence-for-software-architecting-ai-for-sa</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue explores the intersection of artificial intelligence and software architecture, focusing on how AI techniques can enhance the design, analysis, and management of software systems. The collection seeks research on machine learning, deep learning, and generative AI approaches that support architectural decision-making, quality assessment, and documentation generation.</p>
+    
+    <p>The issue addresses both opportunities and challenges in applying AI methods to architectural problems, including ensuring explainability of recommendations and handling the complexity of real-world systems. It aims to gather empirical studies, novel methodologies, and practical tools that demonstrate the impact of AI on architectural practices and processes.</p>
+    
+    <p>
+        Appel publié par Journal of Systems and Software.
+        
+        <a href="https://www.sciencedirect.com/special-issue/329237/artificial-intelligence-for-software-architecting-ai-for-sa">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-artificial-intelligence-for-software-architecting-ai-for-sa/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Application of AI techniques to support software architecture design and documentation</li>
+        
+        <li>AI-driven approaches for architecture evaluation, recovery, and refactoring</li>
+        
+        <li>Machine learning for automating architectural decision-making</li>
+        
+        <li>AI for detecting architectural violations and quality assessment</li>
+        
+        <li>Natural language processing for architecture documentation and knowledge extraction</li>
+        
+        <li>Deep learning for code-to-architecture mapping and reverse engineering</li>
+        
+        <li>AI-based tools and frameworks for architectural analysis</li>
+        
+        <li>Generative AI applications in software architecture</li>
+        
+        <li>AI for managing architectural complexity and scalability challenges</li>
+        
+        <li>AI-supported architecture migration and modernization</li>
+        
+        <li>Explainability and interpretability of AI recommendations in software architecture</li>
+        
+        <li>Challenges and limitations of applying AI in architectural contexts</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>May 8, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Generative AI and Data Envelopment Analysis for Performance Measurement and Public Value]]></title>
+            <link>https://kerostig.org/call/elsevier-generative-ai-and-data-envelopment-analysis-for-performance-measurement-and-public-value/</link>
+            <guid>elsevier-generative-ai-and-data-envelopment-analysis-for-performance-measurement-and-public-value</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue explores the intersection of generative artificial intelligence and data envelopment analysis as tools for measuring organizational performance and creating public value. The collection seeks research that demonstrates how these technologies can enhance performance evaluation methodologies and provide insights into efficiency across various sectors, particularly in public organizations where value creation extends beyond traditional financial metrics.</p>
+    
+    <p>
+        Appel publié par Socio-Economic Planning Sciences.
+        
+        <a href="https://www.sciencedirect.com/special-issue/329460/generative-ai-and-data-envelopment-analysis-for-performance-measurement-and-public-value">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-generative-ai-and-data-envelopment-analysis-for-performance-measurement-and-public-value/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Applications of generative AI in performance measurement</li>
+        
+        <li>Data Envelopment Analysis (DEA) methodologies</li>
+        
+        <li>Public value creation and assessment</li>
+        
+        <li>Integration of AI and DEA techniques</li>
+        
+        <li>Performance evaluation in public sector organizations</li>
+        
+        <li>Efficiency measurement using advanced analytics</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>September 1, 2026: Submission deadline</li>
         
     </ul>
     
@@ -865,36 +1024,6 @@
     <ul>
         
         <li>October 31, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Generative AI-Empowered Knowledge Management Systems for Sustainable Governance]]></title>
-            <link>https://kerostig.org/call/elsevier-generative-ai-empowered-knowledge-management-systems-for-sustainable-governance/</link>
-            <guid>elsevier-generative-ai-empowered-knowledge-management-systems-for-sustainable-governance</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>
-        Appel publié par Journal of Innovation &amp; Knowledge.
-        
-        <a href="https://www.sciencedirect.com/special-issue/329436/generative-ai-empowered-knowledge-management-systems-for-sustainable-governance">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-generative-ai-empowered-knowledge-management-systems-for-sustainable-governance/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 30, 2026: Submission deadline</li>
         
     </ul>
     

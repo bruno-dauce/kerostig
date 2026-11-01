@@ -4,7 +4,7 @@
         <title>kerostig | Medical Decision Making</title>
         <link>https://kerostig.org/journal/medical-decision-making/</link>
         <description>Derniers appels à publications pour Medical Decision Making.</description>
-        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Nov 2026 17:55:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -24,6 +24,8 @@
     
     
     
+    <p>This special issue explores the intersection of human users and machine learning models within medical decision-making contexts. It focuses on understanding how clinicians and other healthcare professionals interact with and utilize machine learning-based systems in their practice, and examines the design and effectiveness of these interfaces in supporting clinical decisions.</p>
+    
     <p>
         Appel publié par Medical Decision Making.
         
@@ -31,6 +33,19 @@
         
         <a href="https://kerostig.org/call/sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making/">Fiche de l'appel sur kerostig</a>.
     </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Human-machine interface in medical decision making</li>
+        
+        <li>Machine learning in clinical practice</li>
+        
+        <li>User interaction with ML models</li>
+        
+        <li>Medical decision support systems</li>
+        
+    </ul>
     
     
     <h2>Timeline</h2>

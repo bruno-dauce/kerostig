@@ -4,7 +4,7 @@
         <title>kerostig | Tag : healthcare</title>
         <link>https://kerostig.org/tag/healthcare/</link>
         <description>Derniers appels à publications avec le tag 'healthcare'.</description>
-        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Nov 2026 17:55:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -222,6 +222,51 @@
         <li>Medical device optimization</li>
         
         <li>Clinical decision problems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Interface between Human Users and Machine Learning Models in Medical Decision Making]]></title>
+            <link>https://kerostig.org/call/sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making/</link>
+            <guid>sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making</guid>
+            <pubDate>Tue, 11 Aug 2026 15:38:12 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue explores the intersection of human users and machine learning models within medical decision-making contexts. It focuses on understanding how clinicians and other healthcare professionals interact with and utilize machine learning-based systems in their practice, and examines the design and effectiveness of these interfaces in supporting clinical decisions.</p>
+    
+    <p>
+        Appel publié par Medical Decision Making.
+        
+        <a href="https://journals.sagepub.com/doi/full/10.1177/0272989X221145012">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Human-machine interface in medical decision making</li>
+        
+        <li>Machine learning in clinical practice</li>
+        
+        <li>User interaction with ML models</li>
+        
+        <li>Medical decision support systems</li>
         
     </ul>
     

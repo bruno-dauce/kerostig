@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : integrity</title>
+        <link>https://kerostig.org/tag/integrity/</link>
+        <description>Derniers appels à publications avec le tag 'integrity'.</description>
+        <lastBuildDate>Sun, 01 Nov 2026 17:55:34 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : integrity</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/integrity/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Foundation-model Integrity and Ranking Methods in the LLM Era]]></title>
+            <link>https://kerostig.org/call/elsevier-firm-foundation-model-integrity-and-ranking-methods-in-the-llm-era/</link>
+            <guid>elsevier-firm-foundation-model-integrity-and-ranking-methods-in-the-llm-era</guid>
+            <pubDate>Sun, 01 Nov 2026 17:53:44 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue addresses the challenges and opportunities surrounding the integrity of foundation models and the development of ranking methodologies in the era of large language models. The call seeks research that examines how foundation models maintain reliability and trustworthiness, as well as novel approaches to ranking and evaluating such models in information processing and management contexts.</p>
+    
+    <p>
+        Appel publié par Information Processing &amp; Management.
+        
+        <a href="https://www.sciencedirect.com/special-issue/338285/firm-foundation-model-integrity-and-ranking-methods-in-the-llm-era">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-firm-foundation-model-integrity-and-ranking-methods-in-the-llm-era/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Foundation model integrity</li>
+        
+        <li>Ranking methods in LLM era</li>
+        
+        <li>Large language models</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

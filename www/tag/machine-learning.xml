@@ -4,7 +4,7 @@
         <title>kerostig | Tag : machine learning</title>
         <link>https://kerostig.org/tag/machine-learning/</link>
         <description>Derniers appels à publications avec le tag 'machine learning'.</description>
-        <lastBuildDate>Mon, 26 Oct 2026 07:56:38 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Nov 2026 17:55:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,63 @@
             <link>https://kerostig.org/tag/machine-learning/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Artificial Intelligence in Financial Decision Making]]></title>
+            <link>https://kerostig.org/call/elsevier-artificial-intelligence-in-financial-decision-making/</link>
+            <guid>elsevier-artificial-intelligence-in-financial-decision-making</guid>
+            <pubDate>Sun, 01 Nov 2026 17:53:44 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue focuses on the integration of artificial intelligence technologies into financial decision-making processes. The call seeks research that explores how machine learning, deep learning, and other AI techniques are being applied to enhance financial analysis, trading strategies, and risk management.</p>
+    
+    <p>
+        Appel publié par Finance research letters.
+        
+        <a href="https://www.sciencedirect.com/special-issue/338589/artificial-intelligence-in-financial-decision-making">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-artificial-intelligence-in-financial-decision-making/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>AI applications in finance</li>
+        
+        <li>Machine learning for investment decisions</li>
+        
+        <li>Algorithmic trading</li>
+        
+        <li>Credit risk assessment</li>
+        
+        <li>Fraud detection</li>
+        
+        <li>Portfolio optimization</li>
+        
+        <li>Natural language processing in finance</li>
+        
+        <li>Deep learning models</li>
+        
+        <li>Financial forecasting</li>
+        
+        <li>Automated financial advisory</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>February 28, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Physics-Informed Artificial Intelligence for Engineering Applications]]></title>
             <link>https://kerostig.org/call/wiley-physics-informed-artificial-intelligence-for-engineering-applications/</link>
@@ -425,6 +482,69 @@
         <li><strong>Jingjia Zhang</strong>, Nankai University</li>
         
     </ul>
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Artificial Intelligence for Software Architecting]]></title>
+            <link>https://kerostig.org/call/elsevier-artificial-intelligence-for-software-architecting-ai-for-sa/</link>
+            <guid>elsevier-artificial-intelligence-for-software-architecting-ai-for-sa</guid>
+            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue explores the intersection of artificial intelligence and software architecture, focusing on how AI techniques can enhance the design, analysis, and management of software systems. The collection seeks research on machine learning, deep learning, and generative AI approaches that support architectural decision-making, quality assessment, and documentation generation.</p>
+    
+    <p>The issue addresses both opportunities and challenges in applying AI methods to architectural problems, including ensuring explainability of recommendations and handling the complexity of real-world systems. It aims to gather empirical studies, novel methodologies, and practical tools that demonstrate the impact of AI on architectural practices and processes.</p>
+    
+    <p>
+        Appel publié par Journal of Systems and Software.
+        
+        <a href="https://www.sciencedirect.com/special-issue/329237/artificial-intelligence-for-software-architecting-ai-for-sa">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-artificial-intelligence-for-software-architecting-ai-for-sa/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Application of AI techniques to support software architecture design and documentation</li>
+        
+        <li>AI-driven approaches for architecture evaluation, recovery, and refactoring</li>
+        
+        <li>Machine learning for automating architectural decision-making</li>
+        
+        <li>AI for detecting architectural violations and quality assessment</li>
+        
+        <li>Natural language processing for architecture documentation and knowledge extraction</li>
+        
+        <li>Deep learning for code-to-architecture mapping and reverse engineering</li>
+        
+        <li>AI-based tools and frameworks for architectural analysis</li>
+        
+        <li>Generative AI applications in software architecture</li>
+        
+        <li>AI for managing architectural complexity and scalability challenges</li>
+        
+        <li>AI-supported architecture migration and modernization</li>
+        
+        <li>Explainability and interpretability of AI recommendations in software architecture</li>
+        
+        <li>Challenges and limitations of applying AI in architectural contexts</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>May 8, 2026: Submission deadline</li>
+        
+    </ul>
+    
     
 </div>
 ]]></content:encoded>
@@ -869,6 +989,8 @@
     
     
     
+    <p>This special issue explores the intersection of human users and machine learning models within medical decision-making contexts. It focuses on understanding how clinicians and other healthcare professionals interact with and utilize machine learning-based systems in their practice, and examines the design and effectiveness of these interfaces in supporting clinical decisions.</p>
+    
     <p>
         Appel publié par Medical Decision Making.
         
@@ -876,6 +998,19 @@
         
         <a href="https://kerostig.org/call/sage-interface-between-human-users-and-machine-learning-models-in-medical-decision-making/">Fiche de l'appel sur kerostig</a>.
     </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Human-machine interface in medical decision making</li>
+        
+        <li>Machine learning in clinical practice</li>
+        
+        <li>User interaction with ML models</li>
+        
+        <li>Medical decision support systems</li>
+        
+    </ul>
     
     
     <h2>Timeline</h2>
