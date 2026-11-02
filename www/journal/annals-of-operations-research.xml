@@ -4,7 +4,7 @@
         <title>kerostig | Annals of Operations Research</title>
         <link>https://kerostig.org/journal/annals-of-operations-research/</link>
         <description>Derniers appels à publications pour Annals of Operations Research.</description>
-        <lastBuildDate>Sun, 01 Nov 2026 17:55:34 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Nov 2026 09:28:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -176,9 +176,9 @@
     
     
     
-    <p>This special issue invites researchers to contribute cutting-edge work in quantitative finance, risk modeling, and insurance. The collection aims to establish a reference point for recent methodological and applied advances in the field, emphasizing rigorous approaches with significance for both academic research and practical application.</p>
+    <p>This special issue welcomes research contributions from scholars in quantitative finance, risk modeling, and related areas. While originating from the 2026 Workshop on Quantitative Finance held in Bergamo, Italy, the issue is open to all researchers regardless of workshop participation.</p>
     
-    <p>While the special issue originates from the Workshop on Quantitative Finance 2026 held in Bergamo, it welcomes submissions from all researchers in the area, not limited to workshop participants.</p>
+    <p>The special issue seeks theoretically rigorous and practically relevant contributions that advance quantitative finance, insurance, and risk modeling. It aims to become a reference point for recent methodological developments and their applications across academia and industry.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -379,11 +379,9 @@
     
     
     
-    <p>Modern operations research requires approaches combining human expertise with artificial intelligence and distributed problem-solving. This special issue addresses how collaborative intelligence—the synergy between human decision-makers, AI systems, and mathematical models—can enhance adaptability and efficiency in complex operational environments.</p>
+    <p>Modern operations research increasingly demands approaches that combine human expertise with artificial intelligence and distributed problem-solving capabilities. This special issue seeks research that explores how collaborative intelligence—the synergy between human decision-makers, AI-driven systems, and mathematical optimization—can address the complexity, uncertainty, and dynamic nature of contemporary operational challenges.</p>
     
-    <p>Traditional OR methods struggle with dynamic and uncertain decision-making. While AI offers computational power, autonomous systems face challenges with uncertainty and interpretability. Collaborative intelligence bridges this gap by leveraging human intuition alongside AI capabilities.</p>
-    
-    <p>The special issue welcomes theoretical and applied research on collaborative, multi-agent, and adaptive decision-making frameworks that advance how human-AI partnership, multi-agent coordination, and data-driven learning enhance operations research methodologies.</p>
+    <p>The issue welcomes contributions spanning theoretical models, computational algorithms, and practical applications that demonstrate how human-AI collaboration, multi-agent coordination, decentralized optimization, and machine learning can enhance decision-making and system resilience. Submissions should showcase both rigorous mathematical foundations and real-world relevance, emphasizing the transformative potential of collaborative approaches in logistics, production, service systems, emergency response, and other complex operational environments.</p>
     
     <p>
         Appel publié par Annals of Operations Research.
@@ -398,27 +396,37 @@
         
         <li>Human-AI collaboration in OR models</li>
         
-        <li>AI output visualization and interpretability</li>
+        <li>Designing OR models for human decision-maker and AI agent interaction</li>
         
-        <li>Multi-agent optimization and game theory</li>
+        <li>Integrating human judgment, preferences, and ethical considerations into AI-driven decision-making</li>
         
-        <li>Decentralized optimization algorithms</li>
+        <li>Visualizing and interpreting AI outputs</li>
+        
+        <li>Optimization algorithms for multi-agent systems</li>
+        
+        <li>Game-theoretic frameworks for multi-agent coordination</li>
+        
+        <li>Multi-agent decision-making with diverse objectives and capabilities</li>
+        
+        <li>Conflict and uncertainty management in multi-agent systems</li>
         
         <li>Adaptive OR frameworks</li>
         
-        <li>Online learning and adaptive control</li>
+        <li>Decentralized optimization algorithms</li>
         
-        <li>Machine learning for OR applications</li>
+        <li>Online learning and adaptive control techniques</li>
         
-        <li>Learning-based optimization</li>
+        <li>Machine learning and data analytics for OR</li>
         
-        <li>Predictive analytics and simulation</li>
+        <li>Learning-based optimization algorithms</li>
         
-        <li>Multi-agent coordination</li>
+        <li>Predictive analytics and simulation for decision-making</li>
+        
+        <li>Risk management</li>
+        
+        <li>Resilience planning</li>
         
         <li>Distributed problem-solving</li>
-        
-        <li>Decision support systems</li>
         
     </ul>
     

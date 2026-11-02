@@ -1,5 +1,591 @@
 [
   {
+    "journal": "Journal of Personality and Social Psychology",
+    "abbreviation": "apa",
+    "issn": "1939-1315",
+    "metaTitle": "Call for papers: Understanding behavior in real-world contexts",
+    "url": "https://www.apa.org/pubs/journals/psp/behavior-real-world.html",
+    "title": "Understanding behavior in real-world contexts",
+    "slug": "apa-call-for-papers-understanding-behavior-in-real-world-contexts",
+    "contentHash": "83f68ad679a1a8b47243557b64f8879f8156d9f5dd5ad866f1dfe3bc6e9c2000",
+    "topics": [
+      "Environmental properties and psychological processes",
+      "Informational, institutional, and cultural environments",
+      "Physical environments and behavior",
+      "Psychological processes and real-world behavior",
+      "Person-environment transactions",
+      "Beliefs and attitudes in context",
+      "Memory and consequential outcomes"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special section seeks research that bridges laboratory-based psychological science with real-world contexts and consequential behavior. While researchers have identified many important psychological processes, much existing work isolates these processes from the social and ecological environments where they actually operate. The special section aims to advance understanding of how psychological processes function within the environments people inhabit and their relationship to behavior that matters beyond the research setting."
+      ]
+    },
+    "tags": [
+      "social psychology",
+      "attitudes",
+      "behavior",
+      "environmental context",
+      "real-world applications"
+    ],
+    "editors": [
+      {
+        "name": "Dolores Albarracin",
+        "affiliation": "University of Pennsylvania"
+      },
+      {
+        "name": "Mandy Hütter",
+        "affiliation": "University of Zurich"
+      },
+      {
+        "name": "Zachary A. Niese",
+        "affiliation": "Montclair State University"
+      }
+    ],
+    "associate_editors": [
+      {
+        "name": "Nick Butrick",
+        "affiliation": "University of Washington"
+      },
+      {
+        "name": "Oliver Sng",
+        "affiliation": "National University of Singapore"
+      }
+    ],
+    "dates": [],
+    "controle": {
+      "longueur": 537,
+      "tauxCopie": 0.015873015873015872,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-02T09:26:51.424Z"
+  },
+  {
+    "journal": "Revue internationale P M E Économie et gestion de la petite et moyenne entreprise",
+    "abbreviation": "ojsfr",
+    "issn": "1918-9699",
+    "metaTitle": "Appel à contribution - Entre-Prendre",
+    "url": "https://revueinternationalepme.com/index.php/1/announcement/view/70",
+    "title": "Bâtir une recherche pour Entre-Prendre",
+    "slug": "ojsfr-appel-a-contribution-entre-prendre",
+    "contentHash": "97b6fb816660a88acbc66a9a91f48fb1e35cb4a3d09160af9edceebbcf00861b",
+    "topics": [
+      "Entrepreneuriat et PME",
+      "Interconnexions entre entrepreneurs, organisations et communautés",
+      "Ontologie du devenir et mouvements",
+      "Espaces et rythmes de l'acte d'entreprendre",
+      "Au-delà des taxonomies et dichotomies",
+      "Co-création de connaissance",
+      "Processus, management et acteurs entrepreneuriaux"
+    ],
+    "description": {
+      "paragraphs": [
+        "Cet appel invite à repenser l'entrepreneuriat et les PME en mettant l'accent sur les connexions et relations plutôt que sur des définitions isolées. Il propose d'explorer comment l'acte d'entreprendre s'enracine dans la société, les organisations et les communautés, et comment ces éléments s'influencent mutuellement.",
+        "L'appel encourage à dépasser les conceptualisations traditionnelles basées sur des taxonomies et étapes séquentielles pour mieux capturer la complexité du phénomène entrepreneurial. Il s'agit de documenter les moments, les rythmes et les espaces où l'acte d'entreprendre se manifeste et se transforme, en examinant quels processus, types de management et acteurs viennent modifier ces dynamiques.",
+        "Ce numéro spécial est réalisé en partenariat avec le CIFEPME 2026 et accueillera les meilleures contributions soumises ainsi que les articles présentés à cette conférence."
+      ]
+    },
+    "tags": [
+      "entrepreneuriat",
+      "pme",
+      "relations sociales",
+      "processus organisationnels",
+      "innovation théorique"
+    ],
+    "editors": [
+      {
+        "name": "Amélie Jacquemin",
+        "affiliation": "UCLouvain"
+      },
+      {
+        "name": "Roxane de Hoe",
+        "affiliation": "ICHEC"
+      },
+      {
+        "name": "Olivier Germain",
+        "affiliation": "ESG - UQAM"
+      },
+      {
+        "name": "Sophie Reboud",
+        "affiliation": "Burgundy School of Business"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-15T12:00:00.000Z",
+        "description": "Dépôt des articles complets sur la plateforme numérique de la RIPME",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2027-01-20T12:00:00.000Z",
+        "description": "Décision de rejet ou envoi en évaluation",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "controle": {
+      "longueur": 885,
+      "tauxCopie": 0.03937007874015748,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-02T09:26:51.424Z"
+  },
+  {
+    "journal": "Revue internationale P M E Économie et gestion de la petite et moyenne entreprise",
+    "abbreviation": "ojsfr",
+    "issn": "1918-9699",
+    "metaTitle": "Appel à contribution - TPE",
+    "url": "https://revueinternationalepme.com/index.php/1/announcement/view/71",
+    "title": "Les TPE : vers de nouveaux modèles d'affaires ?",
+    "slug": "ojsfr-appel-a-contribution-tpe",
+    "contentHash": "da6278d7604ec8bdb96024945902076c6728f23ece8160cd0e33ce38f30ad675",
+    "topics": [
+      "Small and medium enterprises (SMEs)",
+      "New business models",
+      "SME strategy and development"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how small and medium enterprises (TPE) are evolving toward new business models. The editors invite contributions that explore the transformation and innovation strategies within this sector, addressing how SMEs are adapting to contemporary challenges and opportunities in their operational and strategic approaches."
+      ]
+    },
+    "tags": [
+      "sme",
+      "business models",
+      "entrepreneurship"
+    ],
+    "editors": [
+      {
+        "name": "Marion Polge",
+        "affiliation": "Université de Montpellier"
+      },
+      {
+        "name": "Isabelle Calmé",
+        "affiliation": "Université de Tours"
+      },
+      {
+        "name": "Colette Fourcade",
+        "affiliation": "Université de Montpellier"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-11-30T12:00:00.000Z",
+        "description": "Dépôt des articles complets",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 343,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-02T09:26:51.424Z"
+  },
+  {
+    "journal": "Marketing Letters",
+    "abbreviation": "springer",
+    "issn": "1573-059X",
+    "metaTitle": "13th Triennial Invitational Choice Symposium",
+    "url": "https://link.springer.com/collections/cadfcdhfff",
+    "title": "13th Triennial Invitational Choice Symposium",
+    "slug": "springer-13th-triennial-invitational-choice-symposium",
+    "contentHash": "779bf6a21a8deb0bdfc4d51080395800fe0fe6d39d405f0d0d10b0a6e044109d",
+    "topics": [
+      "Individual choice behavior",
+      "Decision making",
+      "Interdisciplinary perspectives on choice",
+      "Marketing theory and practice"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special collection invites submissions from the 13th Triennial Invitational Choice Symposium to be published in Marketing Letters. The collection seeks high-quality research that synthesizes workshop discussions and insights on choice behavior and decision making, drawing from multiple academic disciplines.",
+        "Submissions should advance understanding of how individuals make choices and decisions, with potential to stimulate disruptive future research. Papers will be evaluated on their quality, originality, and relevance to both marketing scholarship and practice."
+      ]
+    },
+    "tags": [
+      "choice behavior",
+      "decision making",
+      "marketing",
+      "special collection"
+    ],
+    "editors": [
+      {
+        "name": "Alixandra Barasch",
+        "affiliation": "University of Colorado Boulder"
+      },
+      {
+        "name": "Amit Bhattacharjee",
+        "affiliation": "University of Colorado Boulder"
+      },
+      {
+        "name": "Philip Fernbach",
+        "affiliation": "University of Colorado Boulder"
+      },
+      {
+        "name": "Nicholas Reinholtz",
+        "affiliation": "University of Colorado Boulder"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-15T12:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 570,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-02T09:26:51.424Z"
+  },
+  {
+    "journal": "International Journal of Tourism Cities",
+    "abbreviation": "tandf",
+    "issn": "2056-5615",
+    "metaTitle": "Artificial Intelligence in Tourism Cities",
+    "url": "https://think.taylorandfrancis.com/special_issues/artificial-intelligence-in-tourism-cities/",
+    "title": "Artificial Intelligence in Tourism Cities",
+    "slug": "tandf-artificial-intelligence-in-tourism-cities",
+    "contentHash": "8a055058a6503b29b2da2e849eb1921cec316b736af629d12952aaf47289ad66",
+    "topics": [
+      "Generative AI in urban tourism narratives and marketing",
+      "Smart hospitality and AI applications in hotels",
+      "Chatbots and virtual guides for visitor interaction",
+      "Augmented reality and AI in cultural heritage",
+      "AI and multilingual accessibility in tourism",
+      "Public perceptions of AI in tourism cities",
+      "Co-creation and participatory AI design with communities",
+      "AI for sustainable tourism development",
+      "Surveillance ethics and data privacy in tourism",
+      "Crowd management and visitor flow optimization",
+      "Smart governance and AI-driven urban tourism planning",
+      "Innovation and sustainability balance in destination management"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how artificial intelligence is transforming urban tourism experiences, management, and marketing. Recent scholarship highlights generative AI's role in creating immersive narratives for cultural tourism, while AI-driven tools like chatbots and predictive analytics are redefining hospitality operations and visitor engagement. The issue also addresses critical concerns including surveillance risks, data privacy, algorithmic bias, and the need for responsible AI implementation.",
+        "The special issue seeks interdisciplinary research that balances technological innovation with ethical considerations and sustainability. It welcomes empirical studies, conceptual papers, and literature reviews addressing smart city planning, destination management, and the integration of AI with urban policy. Contributions should particularly explore how AI influences governance, community engagement, and equitable tourism development."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "urban tourism",
+      "smart cities",
+      "hospitality",
+      "ethics",
+      "sustainability"
+    ],
+    "editors": [
+      {
+        "name": "Monica Chauhan",
+        "affiliation": "University of Wolverhampton"
+      },
+      {
+        "name": "R. Rahimi",
+        "affiliation": "University of Wolverhampton"
+      },
+      {
+        "name": "J. Andres Coca-Stefaniak",
+        "affiliation": "University of Greenwich"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-04-20T12:00:00.000Z",
+        "description": "Abstract submission deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-04-30T12:00:00.000Z",
+        "description": "Notification of abstract acceptance",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-06-30T12:00:00.000Z",
+        "description": "Full manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2026-07-01T12:00:00.000Z",
+        "description": "Review and revisions period",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-01T12:00:00.000Z",
+        "description": "Final acceptance notifications",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "controle": {
+      "longueur": 947,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": false,
+    "pubDate": "2026-11-02T09:26:51.424Z"
+  },
+  {
+    "journal": "International Journal of Tourism Cities",
+    "abbreviation": "tandf",
+    "issn": "2056-5615",
+    "metaTitle": "Gender Perspectives in Urban Tourism and Hospitality",
+    "url": "https://think.taylorandfrancis.com/special_issues/gender-perspectives-urban-tourism-hospitality/",
+    "title": "Gender Perspectives in Urban Tourism and Hospitality",
+    "slug": "tandf-gender-perspectives-in-urban-tourism-and-hospitality",
+    "contentHash": "a8d3f58c4bdb557ee37ebefcd62b4bab7b635fd4996a2fe083b15425686f8138",
+    "topics": [
+      "Gendered Urban Tourism and Hospitality Experiences",
+      "Women's Empowerment and Entrepreneurship",
+      "Gender-Based Violence and Safety",
+      "Intersectionality in Urban Tourism",
+      "Masculinities and Non-Binary Perspectives",
+      "Gender in Urban Tourism and Hospitality Governance and Policy",
+      "Sustainable and Resilient Urban Tourism and Hospitality",
+      "Work-Life Balance and Career Dynamics",
+      "Digital and Smart Urban Tourism and Hospitality",
+      "Urban-Rural Interfaces"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how gender shapes urban tourism and hospitality experiences, addressing persistent inequalities and emerging research needs. The sector intersects gender dynamics with race, ethnicity, class, disability and sexual orientation, yet significant gaps remain regarding women's empowerment, gender-based violence, work-life balance and the roles of men and non-binary individuals in cities. Recent crises, including the COVID-19 pandemic's disproportionate impact on women workers, highlight the urgency of gender-inclusive approaches aligned with sustainable development goals.",
+        "The issue seeks theoretically informed contributions that integrate gender perspectives with urban studies and hospitality research. Submissions may include empirical studies, conceptual papers, literature reviews and expert discussions addressing topics such as women's urban entrepreneurship, inclusive governance policies, technology-driven tourism, peri-urban interfaces and intersectional experiences. Contributors are encouraged to adopt mixed-methods approaches and perspectives from underrepresented regions."
+      ]
+    },
+    "tags": [
+      "gender",
+      "tourism",
+      "hospitality",
+      "urban studies",
+      "equality",
+      "intersectionality"
+    ],
+    "editors": [
+      {
+        "name": "Sujood",
+        "affiliation": "Dr. D.Y. Patil B-School"
+      },
+      {
+        "name": "Cinà van Zyl",
+        "affiliation": "University of South Africa"
+      },
+      {
+        "name": "J. Andres Coca-Stefaniak",
+        "affiliation": "University of Greenwich"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Expected publication",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-12-10T12:00:00.000Z",
+        "description": "Abstract submission deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-01-20T12:00:00.000Z",
+        "description": "Notification of abstract acceptance",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-05-20T12:00:00.000Z",
+        "description": "Full manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2026-06-01T12:00:00.000Z",
+        "description": "Review and revisions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-01T12:00:00.000Z",
+        "description": "Final acceptance notifications",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "controle": {
+      "longueur": 1117,
+      "tauxCopie": 0.022058823529411766,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": false,
+    "pubDate": "2026-11-02T09:26:51.424Z"
+  },
+  {
+    "journal": "European Sport Management Quarterly",
+    "abbreviation": "tandf",
+    "issn": "1746-031X",
+    "metaTitle": "Organizational Outcomes Through Event Leverage: A New Research Agenda for Sport Organizations",
+    "url": "https://think.taylorandfrancis.com/special_issues/organizational-outcomes-through-event-leverage-a-new-research-agenda-for-sport-organizations/",
+    "title": "Organizational Outcomes Through Event Leverage: A New Research Agenda for Sport Organizations",
+    "slug": "tandf-organizational-outcomes-through-event-leverage-a-new-research-agenda-for-sport-organizations",
+    "contentHash": "871b5afc526839eaeabbfc2424a5cc4b2de18934be2fb033ce9acefe697aee66",
+    "topics": [
+      "Organizational outcomes in sport events",
+      "Event leverage theory",
+      "Organizational effectiveness and efficiency",
+      "Strategic partnerships in sport",
+      "Volunteer recruitment and retention",
+      "Organizational learning and innovation",
+      "Organizational capacity development",
+      "Financial sustainability of sport organizations",
+      "Governance in sport organizations",
+      "Sport ecosystem and stakeholder networks",
+      "Methodological approaches to measuring organizational change",
+      "Sport event legacy and impact evaluation",
+      "Policy implications of organizational outcomes"
+    ],
+    "description": {
+      "paragraphs": [
+        "Event leverage research has traditionally focused on economic and social impacts, but organizational outcomes within sport organizations remain understudied. This special issue establishes organizational outcomes—sustainable changes resulting from strategic event leveraging—as a distinct research domain, encompassing effectiveness, governance, partnerships, volunteer systems, learning, innovation, and financial sustainability.",
+        "The special issue shifts focus to sport organizations as primary units of analysis within the sport ecosystem. Rather than treating organizational benefits as incidental byproducts, the call positions them as explicit strategic objectives. This responds to demands from governments and funding agencies for evidence that publicly funded events generate meaningful, sustained public value.",
+        "Contributions should advance conceptual and methodological foundations by integrating organizational capacity and institutional theory frameworks. The special issue seeks empirical, theoretical, and conceptual papers using innovative methods such as longitudinal designs and mixed methods to improve measurement of organizational outcomes across different contexts."
+      ]
+    },
+    "tags": [
+      "sport management",
+      "event leverage",
+      "organizational outcomes",
+      "sport events",
+      "event impact"
+    ],
+    "editors": [
+      {
+        "name": "Marijke Taks",
+        "affiliation": "University of Ottawa"
+      },
+      {
+        "name": "Paul Hover",
+        "affiliation": "Mulier Institute"
+      },
+      {
+        "name": "Koen Breedveld",
+        "affiliation": "The Hague University of Applied Sciences"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-15T12:00:00.000Z",
+        "description": "Full manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1183,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-02T09:26:51.424Z"
+  },
+  {
+    "journal": "International Journal of Tourism Cities",
+    "abbreviation": "tandf",
+    "issn": "2056-5615",
+    "metaTitle": "Sustainable Evening and Night-time Visitor Experiences in Tourism Cities",
+    "url": "https://think.taylorandfrancis.com/special_issues/sustainable-evening-night-time-visitor-experiences-in-tourism-cities/",
+    "title": "Sustainable Evening and Night-time Visitor Experiences in Tourism Cities",
+    "slug": "tandf-sustainable-evening-and-night-time-visitor-experiences-in-tourism-cities",
+    "contentHash": "a398da323a9af18a202fafd97969094c63ca1a0a938d197925348a34c517e792",
+    "topics": [
+      "Evening and night-time visitor economy",
+      "Cultural sustainability",
+      "Safety and security",
+      "Inclusivity and accessibility",
+      "Environmental management",
+      "Technology and innovation",
+      "Governance and policy",
+      "Resident–tourist relationships",
+      "Post-crisis resilience"
+    ],
+    "description": {
+      "paragraphs": [
+        "The evening and night-time visitor economy is increasingly central to urban tourism destinations worldwide, contributing to economic growth, social interaction, and cultural identity. However, rapid expansion of nightlife activities creates significant challenges including noise complaints, safety concerns, environmental impacts, and conflicts with local residents. The post-pandemic context demands a more sustainable and inclusive approach to night-time tourism development.",
+        "This special issue seeks to bridge a fragmented academic literature by bringing together empirical research, theoretical frameworks, and policy insights on sustainable nightlife tourism in urban settings. It invites scholars to critically examine how cities can manage the evening and night-time visitor economy while balancing economic benefits with social responsibility, cultural preservation, environmental stewardship, and equitable access for all community members."
+      ]
+    },
+    "tags": [
+      "tourism",
+      "night-time economy",
+      "sustainability",
+      "urban destinations",
+      "nightlife"
+    ],
+    "editors": [
+      {
+        "name": "Tin Doan",
+        "affiliation": "Northumbria University"
+      },
+      {
+        "name": "J. Andres Coca-Stefaniak",
+        "affiliation": "University of Greenwich"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": null,
+        "description": "Expected publication",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2025-12-10T12:00:00.000Z",
+        "description": "Abstract submission deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-01-20T12:00:00.000Z",
+        "description": "Notification of abstract acceptance",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-05-20T12:00:00.000Z",
+        "description": "Full manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2026-06-01T12:00:00.000Z",
+        "description": "Review and revisions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-12-01T12:00:00.000Z",
+        "description": "Final acceptance notifications",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "controle": {
+      "longueur": 949,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": false,
+    "pubDate": "2026-11-02T09:26:51.424Z"
+  },
+  {
     "journal": "Information Processing & Management",
     "abbreviation": "elsevier",
     "issn": "1873-5371",
@@ -3594,8 +4180,9 @@
       "relance": false,
       "topicsTropLongs": 0
     },
-    "active": true,
-    "pubDate": "2026-10-05T09:04:45.843Z"
+    "active": false,
+    "pubDate": "2026-10-05T09:04:45.843Z",
+    "gracePeriod": "2026-12-02T09:26:51.424Z"
   },
   {
     "journal": "Public Performance & Management Review",
@@ -7942,31 +8529,30 @@
     "journal": "Asia Pacific Journal of Management",
     "abbreviation": "springer",
     "issn": "1572-9958",
-    "metaTitle": "State Capitalism and Entrepreneurs in an International Setting",
+    "metaTitle": "State Investment and Entrepreneurs in an International Setting",
     "url": "https://link.springer.com/collections/jbjfjjjbcb",
-    "title": "State Capitalism and Entrepreneurs in an International Setting",
+    "title": "State Investment and Entrepreneurs in an International Setting",
     "slug": "springer-state-capitalism-and-entrepreneurs-in-an-international-setting",
-    "contentHash": "3746edaf7c0e97cfe7a6dace546a40c1f121fce11e092b7a0d35ca370423ee0a",
+    "contentHash": "3672c8c0d712f6b0b5b250048c367e0efcfd61523b9c9bcbb590a4849995c861",
     "topics": [
-      "State capitalism varieties",
-      "Entrepreneurship in state-influenced enterprises",
-      "Hybrid state-private enterprises",
-      "State influence on entrepreneurship",
-      "Institutional frameworks for entrepreneurship",
-      "Corporate entrepreneurship",
-      "Institutional context of entrepreneurship"
+      "State investment forms and functions",
+      "Entrepreneurship across countries",
+      "Government participation in business",
+      "Strategy and entrepreneurship",
+      "Institutional influence on entrepreneurship"
     ],
     "description": {
       "paragraphs": [
-        "This collection examines how different forms of state capitalism interact with entrepreneurship across international contexts, particularly in the Asia Pacific region. Following a period of state withdrawal through privatization, governments are increasingly intervening in enterprise, creating new institutional arrangements that affect how entrepreneurship develops and operates.",
-        "The collection investigates the mechanisms linking state capitalism varieties to entrepreneurial activities, including entrepreneurship within established corporations, the emergence of hybrid state-private ventures, and relationships between new ventures and state-influenced corporations. The focus is on understanding how these shifts reshape the institutional environments in which entrepreneurship occurs."
+        "This special issue seeks papers exploring how different types and roles of state investment affect entrepreneurship internationally. The issue welcomes both theoretical work grounded in established frameworks and innovative new theories, alongside empirical research on strategy and entrepreneurship in contexts where governments and related institutions play more active roles.",
+        "Submissions should provide rigorous analysis of state investment mechanisms and their entrepreneurial implications across different countries and institutional settings."
       ]
     },
     "tags": [
-      "state capitalism",
+      "state investment",
       "entrepreneurship",
-      "asia pacific",
-      "institutional analysis"
+      "strategy",
+      "government policy",
+      "asia pacific"
     ],
     "editors": [
       {
@@ -7989,7 +8575,7 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-31T12:00:00.000Z",
+        "date": "2026-12-31T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
@@ -7997,7 +8583,7 @@
     "active": true,
     "pubDate": "2026-09-21T08:26:56.052Z",
     "controle": {
-      "longueur": 791,
+      "longueur": 547,
       "tauxCopie": 0,
       "relance": false,
       "topicsTropLongs": 0
@@ -15456,8 +16042,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-12-02T09:26:51.424Z"
   },
   {
     "journal": "Building Research & Information",
@@ -16741,8 +17328,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-12-02T09:26:51.424Z"
   },
   {
     "journal": "Information Systems Management",
@@ -17161,8 +17749,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-12-02T09:26:51.424Z"
   },
   {
     "journal": "Asia Pacific Business Review",
@@ -17662,7 +18251,7 @@
     "url": "https://think.taylorandfrancis.com/special_issues/urban-tourism-intelligence-and-behavioral-innovation-for-smart-and-sustainable-city-centers/",
     "title": "Urban Tourism Intelligence and Behavioral Innovation for Smart and Sustainable City Centers",
     "slug": "tandf-urban-tourism-intelligence-and-behavioral-innovation-for-smart-and-sustainable-city-centers",
-    "contentHash": "2d4fb8337335bebcf2b5a00615c998b605430dcb5a9e889b1d5050dde610dfdc",
+    "contentHash": "c4bb4b88806d0f93124de797d0ee09004469cc06fa8264cbcaaa1c50009088e2",
     "topics": [
       "Smart-sensor enabled visitor behaviour analytics for resilient city centre tourism ecosystems",
       "Behavioural nudging via augmented reality to foster sustainable urban tourism practices",
@@ -17680,10 +18269,8 @@
       "urban tourism",
       "smart cities",
       "behavioral innovation",
-      "sustainability",
-      "ai",
-      "iot",
-      "data analytics"
+      "sustainable development",
+      "ai and iot"
     ],
     "editors": [
       {
@@ -17706,19 +18293,31 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-04-10T10:00:00.000Z",
+        "date": "2026-04-10T12:00:00.000Z",
         "description": "Abstract deadline",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-09-20T10:00:00.000Z",
+        "date": "2027-03-25T12:00:00.000Z",
         "description": "Manuscript deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
+    "active": true,
     "pubDate": "2026-09-06T09:51:06.483Z",
-    "gracePeriod": "2026-10-26T23:23:50.318Z"
+    "description": {
+      "paragraphs": [
+        "This special issue investigates how smart technologies, behavioral science, and data analytics transform urban tourism to create sustainable, inclusive city centers. It addresses the integration of AI, IoT systems, and digital experiences with behavioral insights to help cities understand and accommodate visitor dynamics while maintaining environmental resilience.",
+        "The issue acknowledges gaps in reconciling data-centric design with human behavior complexity, calling for interdisciplinary research that harmonizes behavioral innovation with smart city development. It seeks contributions exploring intelligent tourism ecosystems that empower residents and visitors, where technology enhances collective well-being.",
+        "Contributions should examine the convergence of urban tourism intelligence and smart city technologies, understand behavioral innovation in tourism environments, and develop frameworks for resilient and sustainable urban development. Both empirical studies and conceptual frameworks are welcome, particularly mixed-methods approaches that capture the interplay between technology, human behavior, and urban tourism systems."
+      ]
+    },
+    "controle": {
+      "longueur": 1139,
+      "tauxCopie": 0.037037037037037035,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Industrial Marketing Management",
@@ -17876,14 +18475,15 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-09-03T17:13:45.779Z",
     "controle": {
       "longueur": 1100,
       "tauxCopie": 0.0072992700729927005,
       "relance": true,
       "topicsTropLongs": 0
-    }
+    },
+    "gracePeriod": "2026-12-02T09:26:51.424Z"
   },
   {
     "journal": "Small Business Economics",
@@ -18004,14 +18604,15 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-09-03T17:13:45.779Z",
     "controle": {
       "longueur": 645,
       "tauxCopie": 0,
       "relance": false,
       "topicsTropLongs": 0
-    }
+    },
+    "gracePeriod": "2026-12-02T09:26:51.424Z"
   },
   {
     "journal": "Annals of Operations Research",
@@ -31844,8 +32445,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-16T22:58:24.455Z"
+    "active": false,
+    "pubDate": "2026-08-16T22:58:24.455Z",
+    "gracePeriod": "2026-12-02T09:26:51.424Z"
   },
   {
     "journal": "Revue internationale P M E Économie et gestion de la petite et moyenne entreprise",
@@ -32206,9 +32808,8 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": false,
-    "pubDate": "2026-08-16T22:58:24.455Z",
-    "gracePeriod": "2026-11-25T07:51:06.311Z"
+    "active": true,
+    "pubDate": "2026-08-16T22:58:24.455Z"
   },
   {
     "journal": "Information Systems Frontiers",
@@ -32313,8 +32914,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-16T21:44:37.523Z"
+    "active": false,
+    "pubDate": "2026-08-16T21:44:37.523Z",
+    "gracePeriod": "2026-12-02T09:26:51.424Z"
   },
   {
     "journal": "The Geneva Papers on Risk and Insurance Issues and Practice",
@@ -34022,7 +34624,7 @@
     "url": "https://link.springer.com/collections/jidgdbagai",
     "title": "Advances in Quantitative Finance and Risk Modeling",
     "slug": "springer-advances-in-quantitative-finance-and-risk-modeling",
-    "contentHash": "d197c116c9da11b11e64afbe0af46fda4479f152763a24983dcfc6bf6dc9795e",
+    "contentHash": "e6d4eee6232c4477d6696b2beca1a295acf9d70902ff527ed60e72294ea0fd3a",
     "topics": [
       "Advanced risk measures",
       "Portfolio optimization and asset allocation under uncertainty",
@@ -34036,15 +34638,14 @@
     ],
     "description": {
       "paragraphs": [
-        "This special issue invites researchers to contribute cutting-edge work in quantitative finance, risk modeling, and insurance. The collection aims to establish a reference point for recent methodological and applied advances in the field, emphasizing rigorous approaches with significance for both academic research and practical application.",
-        "While the special issue originates from the Workshop on Quantitative Finance 2026 held in Bergamo, it welcomes submissions from all researchers in the area, not limited to workshop participants."
+        "This special issue welcomes research contributions from scholars in quantitative finance, risk modeling, and related areas. While originating from the 2026 Workshop on Quantitative Finance held in Bergamo, Italy, the issue is open to all researchers regardless of workshop participation.",
+        "The special issue seeks theoretically rigorous and practically relevant contributions that advance quantitative finance, insurance, and risk modeling. It aims to become a reference point for recent methodological developments and their applications across academia and industry."
       ]
     },
     "tags": [
       "quantitative finance",
       "risk modeling",
       "portfolio optimization",
-      "insurance",
       "machine learning in finance"
     ],
     "editors": [
@@ -34080,8 +34681,8 @@
     "active": true,
     "pubDate": "2026-08-11T21:25:02.631Z",
     "controle": {
-      "longueur": 535,
-      "tauxCopie": 0.014705882352941176,
+      "longueur": 565,
+      "tauxCopie": 0,
       "relance": false,
       "topicsTropLongs": 0
     }
@@ -34134,14 +34735,15 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T21:25:02.631Z",
     "controle": {
       "longueur": 648,
       "tauxCopie": 0.0379746835443038,
       "relance": false,
       "topicsTropLongs": 0
-    }
+    },
+    "gracePeriod": "2026-12-02T09:26:51.424Z"
   },
   {
     "journal": "Environmental and Resource Economics",
@@ -34322,8 +34924,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T21:25:02.631Z"
+    "active": false,
+    "pubDate": "2026-08-11T21:25:02.631Z",
+    "gracePeriod": "2026-12-02T09:26:51.424Z"
   },
   {
     "journal": "International Entrepreneurship and Management Journal",
@@ -34817,35 +35420,40 @@
     "url": "https://link.springer.com/collections/fihchfagfc",
     "title": "Collaborative Intelligence in Operations Research: Models, Methods, and Applications",
     "slug": "springer-collaborative-intelligence-in-operations-research-models-methods-and-applications",
-    "contentHash": "9ccaa2e1c6e09d3d5762f4d8a19872ab87fb320e5ea63b90287a55cec84b5a92",
+    "contentHash": "96cd3c719046bc362886e76e576e3d55f847e06c7efb566ac837d5995f527abe",
     "topics": [
       "Human-AI collaboration in OR models",
-      "AI output visualization and interpretability",
-      "Multi-agent optimization and game theory",
-      "Decentralized optimization algorithms",
+      "Designing OR models for human decision-maker and AI agent interaction",
+      "Integrating human judgment, preferences, and ethical considerations into AI-driven decision-making",
+      "Visualizing and interpreting AI outputs",
+      "Optimization algorithms for multi-agent systems",
+      "Game-theoretic frameworks for multi-agent coordination",
+      "Multi-agent decision-making with diverse objectives and capabilities",
+      "Conflict and uncertainty management in multi-agent systems",
       "Adaptive OR frameworks",
-      "Online learning and adaptive control",
-      "Machine learning for OR applications",
-      "Learning-based optimization",
-      "Predictive analytics and simulation",
-      "Multi-agent coordination",
-      "Distributed problem-solving",
-      "Decision support systems"
+      "Decentralized optimization algorithms",
+      "Online learning and adaptive control techniques",
+      "Machine learning and data analytics for OR",
+      "Learning-based optimization algorithms",
+      "Predictive analytics and simulation for decision-making",
+      "Risk management",
+      "Resilience planning",
+      "Distributed problem-solving"
     ],
     "description": {
       "paragraphs": [
-        "Modern operations research requires approaches combining human expertise with artificial intelligence and distributed problem-solving. This special issue addresses how collaborative intelligence—the synergy between human decision-makers, AI systems, and mathematical models—can enhance adaptability and efficiency in complex operational environments.",
-        "Traditional OR methods struggle with dynamic and uncertain decision-making. While AI offers computational power, autonomous systems face challenges with uncertainty and interpretability. Collaborative intelligence bridges this gap by leveraging human intuition alongside AI capabilities.",
-        "The special issue welcomes theoretical and applied research on collaborative, multi-agent, and adaptive decision-making frameworks that advance how human-AI partnership, multi-agent coordination, and data-driven learning enhance operations research methodologies."
+        "Modern operations research increasingly demands approaches that combine human expertise with artificial intelligence and distributed problem-solving capabilities. This special issue seeks research that explores how collaborative intelligence—the synergy between human decision-makers, AI-driven systems, and mathematical optimization—can address the complexity, uncertainty, and dynamic nature of contemporary operational challenges.",
+        "The issue welcomes contributions spanning theoretical models, computational algorithms, and practical applications that demonstrate how human-AI collaboration, multi-agent coordination, decentralized optimization, and machine learning can enhance decision-making and system resilience. Submissions should showcase both rigorous mathematical foundations and real-world relevance, emphasizing the transformative potential of collaborative approaches in logistics, production, service systems, emergency response, and other complex operational environments."
       ]
     },
     "tags": [
       "operations research",
-      "artificial intelligence",
       "collaborative intelligence",
+      "human-ai collaboration",
       "multi-agent systems",
+      "machine learning",
       "optimization",
-      "decision-making"
+      "decentralized systems"
     ],
     "editors": [
       {
@@ -34880,9 +35488,9 @@
     "active": true,
     "pubDate": "2026-08-11T21:25:02.631Z",
     "controle": {
-      "longueur": 900,
-      "tauxCopie": 0.009615384615384616,
-      "relance": true,
+      "longueur": 987,
+      "tauxCopie": 0,
+      "relance": false,
       "topicsTropLongs": 0
     }
   },
@@ -35400,33 +36008,25 @@
     "url": "https://link.springer.com/collections/beebdfabge",
     "title": "Entrepreneurship: Shaping the Future",
     "slug": "springer-entrepreneurship-shaping-the-future",
-    "contentHash": "11abfe667177ea2087c6543c39412536c789df6d74133694f9851170bf9a7fc4",
+    "contentHash": "fd58f651edf1b628c95d017dc256b69074507fcfb8ddd184337fbc64b654efab",
     "topics": [
       "Entrepreneurship and global issues",
-      "Entrepreneurial innovation",
-      "Startups and new venture creation",
-      "International entrepreneurship",
-      "Sustainable entrepreneurship",
-      "Entrepreneurial ecosystems",
-      "Female entrepreneurship",
-      "Social entrepreneurship",
-      "Entrepreneurship education",
-      "Digital entrepreneurship",
-      "Green entrepreneurship",
-      "Entrepreneurial resilience"
+      "Micro, meso, and macro levels of analysis",
+      "Impact of entrepreneurship",
+      "Future implications of entrepreneurship",
+      "Internationalization and entrepreneurship",
+      "Entrepreneurship in diverse organizational contexts",
+      "Global entrepreneurship research"
     ],
     "description": {
       "paragraphs": [
-        "This multi-journal collection brings together research on entrepreneurship as a catalyst for addressing significant global challenges. It examines how entrepreneurial activities create expected and realized changes, analyzing their implications at individual, organizational, and systemic levels.",
-        "The collection welcomes papers investigating entrepreneurship's impact on shaping the future through diverse analytical perspectives. It targets researchers, practitioners, and policymakers interested in understanding entrepreneurship's role in contemporary and emerging social, environmental, and economic contexts."
+        "This multi-journal collection, guest-edited by Diego Matricano, brings together research on entrepreneurship as a means to address major global challenges. The collection welcomes cross-disciplinary contributions from researchers, practitioners, and policymakers examining how entrepreneurship can shape the future through expected and realized changes and their broader implications."
       ]
     },
     "tags": [
       "entrepreneurship",
-      "innovation",
-      "sustainability",
-      "global challenges",
-      "startups"
+      "global impact",
+      "multi-journal collection"
     ],
     "editors": [
       {
@@ -35445,7 +36045,7 @@
     "active": true,
     "pubDate": "2026-08-11T21:25:02.631Z",
     "controle": {
-      "longueur": 612,
+      "longueur": 384,
       "tauxCopie": 0,
       "relance": false,
       "topicsTropLongs": 0
@@ -35696,14 +36296,15 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T21:25:02.631Z",
     "controle": {
       "longueur": 804,
       "tauxCopie": 0.034482758620689655,
       "relance": false,
       "topicsTropLongs": 0
-    }
+    },
+    "gracePeriod": "2026-12-02T09:26:51.424Z"
   },
   {
     "journal": "Asia Pacific Journal of Management",
@@ -46020,8 +46621,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-12-02T09:26:51.424Z"
   },
   {
     "journal": "The International Journal of Human Resource Management",
@@ -49206,25 +49808,25 @@
     "url": "https://think.taylorandfrancis.com/special_issues/smart-systems-and-the-governance-of-sociotechnical-transformation/",
     "title": "Smart systems and the governance of sociotechnical transformation",
     "slug": "tandf-smart-systems-and-the-governance-of-sociotechnical-transformation",
-    "contentHash": "8646c91ec3524b523ad46ffe27ea10f53db66dc98db0473f31615f1f44732ec4",
+    "contentHash": "b031d21de0a4e5d9794f5a3f918dc9f2d5096c20e64ae8e68bd85ff89d89892f",
     "topics": [
-      "Smart systems in homes, workplaces, healthcare, education, mobility, public services and platform-mediated environments",
-      "Human-centred AI, hybrid intelligence and human-AI collaboration in organisational and everyday settings",
-      "Conceptual, methodological and design-oriented approaches to studying governance in smart systems",
-      "Algorithmic decision-making, coordination, compliance and accountability",
-      "User adaptation, negotiation, resistance, appropriation and trust in relation to smart technologies",
-      "AI ethics, information privacy, surveillance, transparency and asymmetrical power in digital systems",
-      "Smart and digital health, care technologies and digitally mediated wellbeing",
-      "Digital work, algorithmic management, robotic management and the reconfiguration of organisational routines",
-      "Datafication, monitoring, prediction and automated feedback as modes of governance",
-      "Inclusion, exclusion, vulnerability and inequality in smart sociotechnical environments",
-      "Smart cities, digital government and platform-based public services",
-      "Comparative, cross-cultural or interdisciplinary studies of smart systems and sociotechnical transformation"
+      "Smart systems in homes, workplaces, healthcare and education",
+      "Smart systems in mobility, public services and platform environments",
+      "Human-centred AI and human-AI collaboration",
+      "Algorithmic decision-making and accountability",
+      "User adaptation, negotiation and resistance",
+      "AI ethics, privacy and surveillance",
+      "Smart and digital health technologies",
+      "Digital work and algorithmic management",
+      "Datafication, monitoring and automated feedback",
+      "Inclusion, exclusion and inequality",
+      "Smart cities and digital government",
+      "Comparative and cross-cultural studies"
     ],
     "description": {
       "paragraphs": [
-        "Smart systems are now deeply embedded in various social contexts, functioning as sociotechnical arrangements that sense, classify, predict and intervene in everyday practices. This special issue seeks to understand how these digitally enabled systems reshape relations between humans, machines, organisations and institutions, and how they become consequential through design, institutional embedding and everyday use.",
-        "The issue addresses both how smart systems are governed and how they themselves participate in governing sociotechnical transformation. Key concerns include questions of behaviour, interaction, coordination, authority, accountability and power, particularly examining hybrid intelligence and human-AI collaboration. The special issue invites submissions examining smart systems not merely as technical innovations but as systems shaping governance, interaction and behaviour in organisational, institutional and everyday contexts."
+        "Smart systems are increasingly embedded in everyday life across homes, workplaces, healthcare, education and public services, functioning not just as tools but as sociotechnical arrangements that shape human behaviour and institutional practices. This special issue explores how these systems integrate sensing, data processing, algorithmic decision-making and automated actions to coordinate and mediate social activities, and how their governance intersects with broader digital transformation.",
+        "The special issue seeks contributions examining smart systems through human-centred, behavioural and organisational perspectives. It welcomes empirical, conceptual, methodological and design-oriented papers exploring how smart systems shape conduct, allocate responsibility, structure choices and influence power dynamics, as well as how human and machine intelligence are combined and contested in various contexts."
       ]
     },
     "tags": [
@@ -49232,13 +49834,12 @@
       "ai governance",
       "sociotechnical systems",
       "digital transformation",
-      "human-ai collaboration",
       "algorithmic governance"
     ],
     "editors": [
       {
         "name": "Wanhao Zhang",
-        "affiliation": "Norwegian University of Science and Technology (NTNU)"
+        "affiliation": "Norwegian University of Science and Technology"
       },
       {
         "name": "Younghoon Chang",
@@ -49252,14 +49853,24 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-20T10:00:00.000Z",
+        "date": "2026-10-20T12:00:00.000Z",
+        "description": "Submissions accepted until",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2026-12-20T12:00:00.000Z",
         "description": "Manuscript deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
+    "active": true,
     "pubDate": "2026-08-11T00:55:16.972Z",
-    "gracePeriod": "2026-11-25T07:51:06.311Z"
+    "controle": {
+      "longueur": 912,
+      "tauxCopie": 0.01818181818181818,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Regional Studies",
