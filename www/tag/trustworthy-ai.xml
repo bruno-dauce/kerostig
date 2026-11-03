@@ -4,7 +4,7 @@
         <title>kerostig | Tag : trustworthy ai</title>
         <link>https://kerostig.org/tag/trustworthy-ai/</link>
         <description>Derniers appels à publications avec le tag 'trustworthy ai'.</description>
-        <lastBuildDate>Mon, 02 Nov 2026 09:28:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2026 12:54:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,127 @@
             <link>https://kerostig.org/tag/trustworthy-ai/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Safe and Trustworthy Autonomous Systems in Real-World Environments]]></title>
+            <link>https://kerostig.org/call/wiley-safe-and-trustworthy-autonomous-systems-in-real-world-environments/</link>
+            <guid>wiley-safe-and-trustworthy-autonomous-systems-in-real-world-environments</guid>
+            <pubDate>Tue, 03 Nov 2026 12:53:30 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Heye Huang</strong>, Korea Advanced Institute of Science and Technology (KAIST)</p>
+        
+        <p><strong>Inhi Kim</strong>, Korea Advanced Institute of Science and Technology (KAIST)</p>
+        
+        <p><strong>Boqi Li</strong>, Beihang University</p>
+        
+        <p><strong>Haotian Shi</strong>, Tongji University</p>
+        
+        <p><strong>Lei Yang</strong>, Nanyang Technological University</p>
+        
+        <p><strong>Kailai Sun</strong>, Massachusetts Institute of Technology</p>
+        
+    
+    
+    
+    <p>Autonomous systems operating in complex real-world environments face significant challenges in ensuring safety, reliability, and generalization. This special issue seeks research that advances trustworthy autonomy through integration of data-driven learning with structured knowledge, world models, formal verification, and uncertainty reasoning. Contributions should address both average-case and long-tail safety-critical scenarios, with emphasis on how autonomous systems can identify risks, adapt continually, and coordinate with other agents.</p>
+    
+    <p>The scope includes autonomous vehicles, robotics, embodied AI, and other safety-critical platforms. Submissions may combine learning, optimization, control, simulation, and human-centered methods provided they clearly contribute to trustworthy autonomous behavior. The issue welcomes original research, reviews, benchmarks, and perspective articles demonstrating methodological novelty, rigorous evaluation, or insights transferable to real-world autonomous system deployment.</p>
+    
+    <p>
+        Appel publié par Expert Systems.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/14680394/call-for-papers/si-2026-001323">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-safe-and-trustworthy-autonomous-systems-in-real-world-environments/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Trustworthy autonomy and safety principles</li>
+        
+        <li>Uncertainty modeling and robustness</li>
+        
+        <li>Runtime assurance for learning-enabled systems</li>
+        
+        <li>Navigation and manipulation robotics</li>
+        
+        <li>Mobile robotics and spatial intelligence</li>
+        
+        <li>Perception-action learning</li>
+        
+        <li>Active exploration and embodied decision-making</li>
+        
+        <li>LLM/VLM-enabled autonomy</li>
+        
+        <li>Agentic AI and multimodal perception</li>
+        
+        <li>Tool-using agents and knowledge-enhanced models</li>
+        
+        <li>Foundation model adaptation for physical systems</li>
+        
+        <li>Risk representation and uncertainty-aware perception</li>
+        
+        <li>Behavior prediction and occupancy modeling</li>
+        
+        <li>Scene modeling and world models</li>
+        
+        <li>Safety-critical interaction anticipation</li>
+        
+        <li>Episodic and semantic memory</li>
+        
+        <li>Experience retrieval and in-context adaptation</li>
+        
+        <li>Continual learning and self-evolving autonomy</li>
+        
+        <li>Recursive self-improvement under safety constraints</li>
+        
+        <li>Safe adaptation in changing environments</li>
+        
+        <li>Risk-aware planning and constrained optimization</li>
+        
+        <li>Safe reinforcement learning</li>
+        
+        <li>Decision making under uncertainty</li>
+        
+        <li>Model-predictive control approaches</li>
+        
+        <li>Closed-loop safety mechanisms</li>
+        
+        <li>Rare-event discovery and scenario generation</li>
+        
+        <li>Generative simulation and counterfactual testing</li>
+        
+        <li>Adversarial and stress testing</li>
+        
+        <li>Digital twins and safety assessment</li>
+        
+        <li>Connected and automated vehicles</li>
+        
+        <li>V2X-enabled cooperation</li>
+        
+        <li>Multi-agent coordination</li>
+        
+        <li>Traffic-level autonomy and infrastructure intelligence</li>
+        
+        <li>System-wide mobility optimization</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>May 1, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Trustworthy Content Governance and Safe Generative AI in the Age of Large Language Models]]></title>
             <link>https://kerostig.org/call/elsevier-trustworthy-content-governance-and-safe-generative-ai-in-the-age-of-large-language-models/</link>

@@ -1,68 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: media studies</title>
-        <link>https://callsforpapers.org/tag/media-studies</link>
-        <description>Latest calls for papers tagged with 'media studies'.</description>
-        <lastBuildDate>Thu, 29 Jan 2026 04:13:21 GMT</lastBuildDate>
+        <title>kerostig | Tag : media studies</title>
+        <link>https://kerostig.org/tag/media-studies/</link>
+        <description>Derniers appels à publications avec le tag 'media studies'.</description>
+        <lastBuildDate>Tue, 03 Nov 2026 12:54:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: media studies</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/media-studies</link>
+            <title>kerostig | Tag : media studies</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/media-studies/</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[The Institutional Press in the Digital Age]]></title>
-            <link>https://callsforpapers.org/call/misq-the-institutional-press-in-the-digital-age</link>
-            <guid>misq-the-institutional-press-in-the-digital-age</guid>
-            <pubDate>Tue, 12 Dec 2023 05:15:06 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <title><![CDATA[The New Sociology of Propaganda]]></title>
+            <link>https://kerostig.org/call/wiley-the-new-sociology-of-propaganda/</link>
+            <guid>wiley-the-new-sociology-of-propaganda</guid>
+            <pubDate>Sat, 29 Aug 2026 11:29:31 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
     
         
-        <p><strong>Ahmed Abbasi</strong>, University of Notre Dame</p>
+        <p><strong>Freeden Blume Oeur</strong>, Tufts University</p>
         
-        <p><strong>Brad N. Greenwood</strong>, George Mason University</p>
-        
-        <p><strong>Melissa Mazmanian</strong>, University of California, Irvine</p>
-        
-        <p><strong>Shaila Miranda</strong>, University of Arkansas</p>
-        
-        <p><strong>Robert Seamans</strong>, New York University</p>
+        <p><strong>Fiona Greenland</strong>, University of Virginia</p>
         
     
     
-    <p>Over the last 20 years, ongoing waves of digitalization have decimated the traditional business model of the news and fundamentally changed how the news, or more formally, the &#39;institutional press&#39;, works. Indeed, ever since reserved frequencies were gifted to television broadcasters in the 1950s, on the condition that they inform the public of current events, the subsidy underpinning newspapers and other forms of institutional media has slowly eroded. Like many other industries, the internet has accelerated this phenomenon. Not only has the hyper-targeted advertising facilitated by social media and other platforms functionally eroded the subsidy model to its breaking point; but the costless transmission of data facilitated by the internet has increased geographic scope of dominant players, permitting them to reach beyond their original markets and squeeze content producers across the globe. Against this backdrop, it is hard to overstate the importance of this &#39;crisis of the institutional press&#39;. The news provides our primary means for understanding the world around us. Societies desperately need a well-functioning institutional press to tackle the many societal, economic, and environmental challenges we all face.</p>
     
-    <p>Digital transformation has decimated traditional news business models through hyper-targeted advertising and costless data transmission, fundamentally threatening society&#39;s primary means for understanding the world and tackling critical challenges. The first day of core MIS undergraduate or MS/MBA classes usually begins with one of four motivating examples: the decline of incumbent sellers in favor of digital platforms, the increasing irrelevance of diseconomies of scale and the rise of digital monopolies, the rise of social media and user generated content, or the decline of the newspaper industry. Yet, as these classes continue to discuss the opportunities firms have in the digital age, the decline of institutional media often fades into the background.</p>
+    <p>Propaganda remains a significant social problem in contemporary society, shaped by proliferating media and competing actors seeking to control narratives. The landscape has evolved from earlier historical periods to encompass AI-generated content, digital platforms, and novel forms of misinformation.</p>
     
-    <p>This phenomenon-driven special issue is motivated by the view that our students, colleagues, and society urgently need a better understanding of the causes and consequences of the changing nature of news in the digital era and potential solutions going forward. The special issue takes an interdisciplinary perspective, bringing together insights from across the broader information, managerial, and organizational sciences.</p>
+    <p>This special issue seeks sociological research examining modern propaganda across all methodologies. The call invites empirical, historical, and theoretical contributions exploring how propaganda operates, who creates and targets it, its role in contemporary conflicts, and how communities resist or utilize it. Research should illuminate propaganda&#39;s relationships with power dynamics, censorship, radicalization, and information manipulation.</p>
     
-    <p>This failure to discuss the implications of the decline of institutional news media is troubling. Not only has the Fourth Estate historically served to counterbalance institutions with a monopoly on force and morality, it has been a cornerstone of democratic republics for centuries. The claims regarding the influence of the press are not idle musings. News media outlets have been shown to influence many societal outcomes, from government agendas to public opinion to voting behavior. Yet, seismic changes have assaulted the free press as we understand it, notably with the increasing concentration in ownership of news outlets, leading to elevated reliance on advertising revenue that biased content. The recent history of the institutional press is interwoven with the history of digital technology, reshaping the roles and responsibilities of professional news organizations.</p>
-    
-    <p>Research has only begun to address the transformations occurring within the institutional press. The purpose of this Special Issue is to address this gap in scholarship and to inform stakeholders about how changes in institutional media are affecting society at the intersection of business, technology, and public policy. To this end, we invite scholarship that helps academia and society comprehend the major changes taking place within the institutional press, why those changes are occurring, and what the consequences of those changes are.</p>
-    
+    <p>
+        Appel publié par British Journal of Sociology.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/14684446/homepage/call-for-papers/si-2026-000084">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-the-new-sociology-of-propaganda/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>The changing nature of the press, news media as an institution, and the consequences of those changes</li>
+        <li>Modern propaganda operation and social consequences</li>
         
-        <li>Re-envisioning the &#39;institutional&#39; nature of the evolving institutional press</li>
+        <li>Power and propaganda in systems of oppression</li>
         
-        <li>Spillovers from: the changing nature of governance, digital threats and/or violence against journalists, the decline of local news, the endangering of the local watchdog, and online/offline credibility</li>
+        <li>Machinery of modern propaganda</li>
         
-        <li>The functioning of, and implications for, non-traditional digital era news sources</li>
+        <li>Propaganda actors and targets</li>
         
-        <li>Content characteristics (i.e., genres such as world news, politics, economy, tech, lifestyle/entertainment)</li>
+        <li>Propaganda in conflicts and crises</li>
         
-        <li>Social media platforms and practices that legitimatize or delegitimatize institutional media</li>
+        <li>Resistance and confrontation of propaganda</li>
         
-        <li>The role of professional standards and gatekeeping in today&#39;s news media ecosystem and mechanisms to support them</li>
+        <li>Propaganda in everyday lives</li>
         
-        <li>The news as a dynamic construct across time and space, and the consequent implications for content generation and consumption</li>
+        <li>Propaganda and related topics</li>
+        
+        <li>Propaganda spread across communities and borders</li>
+        
+        <li>Detecting and avoiding propaganda harms</li>
         
     </ul>
     
@@ -70,74 +71,17 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>April 30, 2024: Optional abstract submission due</li>
+        <li>March 16, 2026: Abstract submission deadline</li>
         
-        <li>December 1, 2024: Full paper submission deadline</li>
+        <li>March 30, 2026: Guest Editor notification of invitation to submit manuscript</li>
         
-        <li>March 15, 2025: First-round decisions expected</li>
-        
-        <li>May 30, 2025: Revision Plan Meeting with SI Editors (tentatively)</li>
-        
-        <li>July 15, 2025: Second-round revisions due</li>
-        
-        <li>October 15, 2025: Second-round decisions expected</li>
-        
-        <li>February 15, 2026: Third and final revisions submissions due</li>
-        
-        <li>May 15, 2026: Final decisions expected</li>
+        <li>December 31, 2026: Full manuscript submission deadline</li>
         
     </ul>
     
     
-    <h2>Associate editors</h2>
-    <ul>
-        
-        <li><strong>Mike Ananny</strong>, University of Southern California</li>
-        
-        <li><strong>Jens Foerderer</strong>, Technische Universität München</li>
-        
-        <li><strong>Anand Gopal</strong>, Nanyang Technological University</li>
-        
-        <li><strong>Brent Kitchens</strong>, University of Virginia</li>
-        
-        <li><strong>Gene Moo Lee</strong>, UBC Sauder School of Business</li>
-        
-        <li><strong>Attila Marton</strong>, Copenhagen Business School</li>
-        
-        <li><strong>Jeffrey Nickerson</strong>, Stevens Institute of Technology</li>
-        
-        <li><strong>Christopher Parker</strong>, American University</li>
-        
-        <li><strong>Caitlin Petre</strong>, Rutgers University</li>
-        
-        <li><strong>Christian Peukert</strong>, HEC Lausanne</li>
-        
-        <li><strong>Aleš Popovič</strong>, NEOMA Business School</li>
-        
-        <li><strong>Jui Ramaprasad</strong>, University of Maryland</li>
-        
-        <li><strong>Imke Reimers</strong>, Cornell University</li>
-        
-        <li><strong>Jie Ren</strong>, Fordham University</li>
-        
-        <li><strong>Gaurav Sabnis</strong>, Stevens Institute of Technology</li>
-        
-        <li><strong>Ananya Sen</strong>, Carnegie Mellon University</li>
-        
-        <li><strong>Jananki Srinivasan</strong>, IIIT-Bangalore</li>
-        
-        <li><strong>Xiao Xiao</strong>, Copenhagen Business School</li>
-        
-        <li><strong>Yi Yang</strong>, HKUST</li>
-        
-        <li><strong>Nan Zhang</strong>, University of Florida</li>
-        
-        <li><strong>Aljona Zorina</strong>, IESEG</li>
-        
-    </ul>
-    
-</div>]]></content:encoded>
-            <author>MIS Quarterly (MISQ)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

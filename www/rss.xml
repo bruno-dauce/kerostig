@@ -4,7 +4,7 @@
         <title>kerostig</title>
         <link>https://kerostig.org/</link>
         <description>le hub des appels à publications en sciences de gestion et management</description>
-        <lastBuildDate>Mon, 02 Nov 2026 09:28:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2026 12:54:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,127 @@
             <link>https://kerostig.org/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Safe and Trustworthy Autonomous Systems in Real-World Environments]]></title>
+            <link>https://kerostig.org/call/wiley-safe-and-trustworthy-autonomous-systems-in-real-world-environments/</link>
+            <guid>wiley-safe-and-trustworthy-autonomous-systems-in-real-world-environments</guid>
+            <pubDate>Tue, 03 Nov 2026 12:53:30 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Heye Huang</strong>, Korea Advanced Institute of Science and Technology (KAIST)</p>
+        
+        <p><strong>Inhi Kim</strong>, Korea Advanced Institute of Science and Technology (KAIST)</p>
+        
+        <p><strong>Boqi Li</strong>, Beihang University</p>
+        
+        <p><strong>Haotian Shi</strong>, Tongji University</p>
+        
+        <p><strong>Lei Yang</strong>, Nanyang Technological University</p>
+        
+        <p><strong>Kailai Sun</strong>, Massachusetts Institute of Technology</p>
+        
+    
+    
+    
+    <p>Autonomous systems operating in complex real-world environments face significant challenges in ensuring safety, reliability, and generalization. This special issue seeks research that advances trustworthy autonomy through integration of data-driven learning with structured knowledge, world models, formal verification, and uncertainty reasoning. Contributions should address both average-case and long-tail safety-critical scenarios, with emphasis on how autonomous systems can identify risks, adapt continually, and coordinate with other agents.</p>
+    
+    <p>The scope includes autonomous vehicles, robotics, embodied AI, and other safety-critical platforms. Submissions may combine learning, optimization, control, simulation, and human-centered methods provided they clearly contribute to trustworthy autonomous behavior. The issue welcomes original research, reviews, benchmarks, and perspective articles demonstrating methodological novelty, rigorous evaluation, or insights transferable to real-world autonomous system deployment.</p>
+    
+    <p>
+        Appel publié par Expert Systems.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/14680394/call-for-papers/si-2026-001323">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-safe-and-trustworthy-autonomous-systems-in-real-world-environments/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Trustworthy autonomy and safety principles</li>
+        
+        <li>Uncertainty modeling and robustness</li>
+        
+        <li>Runtime assurance for learning-enabled systems</li>
+        
+        <li>Navigation and manipulation robotics</li>
+        
+        <li>Mobile robotics and spatial intelligence</li>
+        
+        <li>Perception-action learning</li>
+        
+        <li>Active exploration and embodied decision-making</li>
+        
+        <li>LLM/VLM-enabled autonomy</li>
+        
+        <li>Agentic AI and multimodal perception</li>
+        
+        <li>Tool-using agents and knowledge-enhanced models</li>
+        
+        <li>Foundation model adaptation for physical systems</li>
+        
+        <li>Risk representation and uncertainty-aware perception</li>
+        
+        <li>Behavior prediction and occupancy modeling</li>
+        
+        <li>Scene modeling and world models</li>
+        
+        <li>Safety-critical interaction anticipation</li>
+        
+        <li>Episodic and semantic memory</li>
+        
+        <li>Experience retrieval and in-context adaptation</li>
+        
+        <li>Continual learning and self-evolving autonomy</li>
+        
+        <li>Recursive self-improvement under safety constraints</li>
+        
+        <li>Safe adaptation in changing environments</li>
+        
+        <li>Risk-aware planning and constrained optimization</li>
+        
+        <li>Safe reinforcement learning</li>
+        
+        <li>Decision making under uncertainty</li>
+        
+        <li>Model-predictive control approaches</li>
+        
+        <li>Closed-loop safety mechanisms</li>
+        
+        <li>Rare-event discovery and scenario generation</li>
+        
+        <li>Generative simulation and counterfactual testing</li>
+        
+        <li>Adversarial and stress testing</li>
+        
+        <li>Digital twins and safety assessment</li>
+        
+        <li>Connected and automated vehicles</li>
+        
+        <li>V2X-enabled cooperation</li>
+        
+        <li>Multi-agent coordination</li>
+        
+        <li>Traffic-level autonomy and infrastructure intelligence</li>
+        
+        <li>System-wide mobility optimization</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>May 1, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Understanding behavior in real-world contexts]]></title>
             <link>https://kerostig.org/call/apa-call-for-papers-understanding-behavior-in-real-world-contexts/</link>
@@ -893,14 +1014,14 @@
     
     
     
-    <p>Research across social sciences and professions often fails to translate into practice beyond academia. This special issue reframes research impact—how scholarly work creates value in practice and society—as an innovation management challenge, examining the mechanisms through which knowledge is transformed and adopted rather than simply measured.</p>
+    <p>This special issue examines research impact as an innovation management challenge rather than solely a measurement problem. While abundant research is produced across social sciences, humanities, and professions, translating this research into practice and societal benefit remains limited. The issue develops a process-oriented understanding of how scholarly research creates and sustains impact in practice, examining mechanisms and dynamics often overlooked by outcome-focused grand challenges scholarship or measurement-oriented evaluation literature.</p>
     
-    <p>Current literature focuses on defining impact&#39;s scope or measuring its outcomes, but largely ignores the underlying processes connecting research to eventual use. Most pathways concentrate narrowly on technology transfer and commercialization, overlooking how social science creates diffused impact through recursive exchanges with practitioners. Universities and funders build measurement systems without understanding the processes they aim to influence.</p>
+    <p>Current approaches address either what impact is or how to measure it, but not how research actually gets taken up and applied. This issue aims to identify the processes through which impact unfolds, examining intermediary roles, temporality, conditions for use, and engaged scholarship. By treating impact as a manageable process rather than only a countable outcome, the field can better resource, sequence, and improve the pathways through which research reaches practice and society.</p>
     
     <p>
         Appel publié par R and D Management.
         
-        <a href="https://onlinelibrary.wiley.com/page/journal/14679310/call-for-papers/si-2026-001306">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://onlinelibrary.wiley.com/page/journal/14679310/call-for-papers/si-2026-001306">Voir l'appel sur le site de l'éditeur</a>.
         
         <a href="https://kerostig.org/call/wiley-how-scholarly-research-comes-to-matter-for-industry-and-society-research-impact-as-an-innovation-challenge/">Fiche de l'appel sur kerostig</a>.
     </p>
@@ -912,29 +1033,27 @@
         
         <li>Alignment, trust, and agenda setting preceding impact</li>
         
-        <li>Identifying impactful research questions and problems</li>
+        <li>Identification of impactful research questions</li>
         
         <li>Research translation and transformation across boundaries</li>
         
-        <li>Intermediaries, brokers, and boundary spanners in research uptake</li>
+        <li>Roles of intermediaries, brokers, and boundary spanners</li>
         
         <li>Research refusal and rejection at point of use</li>
         
-        <li>Impact embedding, endurance, decay and reversal</li>
+        <li>Conditions for impact embedding, endurance, decay, and reversal</li>
         
         <li>Feedback loops and lags in impact trajectories</li>
         
-        <li>Experimentation and iterative testing in achieving impact</li>
+        <li>Experimentation and iterative testing in impact achievement</li>
         
-        <li>Legitimacy of knowledge in co-production</li>
-        
-        <li>Power asymmetries between researchers and partners</li>
+        <li>Power asymmetries in co-production</li>
         
         <li>Institutional arrangements shaping research influence</li>
         
-        <li>Organizational capabilities and structures supporting impact</li>
+        <li>Organizational capabilities and enabling conditions for impact</li>
         
-        <li>Process-based incentives and evaluation frameworks</li>
+        <li>Reshaping incentives and evaluation frameworks through process view</li>
         
         <li>Managing for impact deliberately</li>
         
@@ -10219,38 +10338,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Bridging Innovation and Technology Transfer, Ethics, and Social Responsibility: Multi-Level Approaches]]></title>
-            <link>https://kerostig.org/call/elsevier-bridging-innovation-and-technology-transfer-ethics-and-social-responsibility-multi-level-approaches/</link>
-            <guid>elsevier-bridging-innovation-and-technology-transfer-ethics-and-social-responsibility-multi-level-approaches</guid>
-            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This special issue invites research examining the interconnections between innovation, technology transfer, ethical considerations, and social responsibility across multiple organizational and societal levels. The collection seeks to understand how technological advancement can be effectively managed while maintaining ethical standards and fulfilling social obligations.</p>
-    
-    <p>
-        Appel publié par Technology in Society.
-        
-        <a href="https://www.sciencedirect.com/special-issue/330039/bridging-innovation-and-technology-transfer-ethics-and-social-responsibility-multi-level-approaches">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-bridging-innovation-and-technology-transfer-ethics-and-social-responsibility-multi-level-approaches/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 30, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[From inventory to insight: Reimagining reviews for JBVI]]></title>
             <link>https://kerostig.org/call/elsevier-call-for-review-papers-from-inventory-to-insight-reimagining-reviews-for-jbvi/</link>
             <guid>elsevier-call-for-review-papers-from-inventory-to-insight-reimagining-reviews-for-jbvi</guid>
@@ -10930,38 +11017,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Issues and Use of Rare Earth Elements in Energy Transition]]></title>
-            <link>https://kerostig.org/call/elsevier-issues-and-use-of-rare-earth-elements-in-energy-transition/</link>
-            <guid>elsevier-issues-and-use-of-rare-earth-elements-in-energy-transition</guid>
-            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This special issue focuses on the challenges and applications of rare earth elements within the context of energy transition. The call invites research exploring the various dimensions of rare earth element utilization as societies shift toward sustainable energy systems.</p>
-    
-    <p>
-        Appel publié par Resources Policy.
-        
-        <a href="https://www.sciencedirect.com/special-issue/314584/issues-and-use-of-rare-earth-elements-in-energy-transition">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-issues-and-use-of-rare-earth-elements-in-energy-transition/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>June 30, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[JBVI DEBATES Section]]></title>
             <link>https://kerostig.org/call/elsevier-jbvi-debates-section/</link>
             <guid>elsevier-jbvi-debates-section</guid>
@@ -11533,38 +11588,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Technology-enhanced learning in developing countries: the impact on entrepreneurial education and innovation]]></title>
-            <link>https://kerostig.org/call/elsevier-technology-enhanced-learning-in-developing-countries-the-impact-on-entrepreneurial-education-and-innovation/</link>
-            <guid>elsevier-technology-enhanced-learning-in-developing-countries-the-impact-on-entrepreneurial-education-and-innovation</guid>
-            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This special issue explores how technology-enhanced learning affects entrepreneurial education and innovation in developing countries. The journal invites research examining the intersection of digital tools, entrepreneurial learning, and economic development in contexts with limited resources.</p>
-    
-    <p>
-        Appel publié par Socio-Economic Planning Sciences.
-        
-        <a href="https://www.sciencedirect.com/special-issue/324294/technology-enhanced-learning-in-developing-countries-the-impact-on-entrepreneurial-education-and-innovation">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-technology-enhanced-learning-in-developing-countries-the-impact-on-entrepreneurial-education-and-innovation/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 31, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[The challenge of (transitioning to) climate-neutral cities by 2030]]></title>
             <link>https://kerostig.org/call/elsevier-the-challenge-of-transitioning-to-climate-neutral-cities-by-2030/</link>
             <guid>elsevier-the-challenge-of-transitioning-to-climate-neutral-cities-by-2030</guid>
@@ -12083,140 +12106,6 @@
         <li>June 25, 2026: Opening date for manuscripts submissions</li>
         
         <li>January 25, 2027: Closing date for manuscripts submission</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Beyond Black and White – Shades of Grey Leadership]]></title>
-            <link>https://kerostig.org/call/emerald-beyond-black-and-white-shades-of-grey-leadership/</link>
-            <guid>emerald-beyond-black-and-white-shades-of-grey-leadership</guid>
-            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Anders Örtenblad</strong>, University of Agder</p>
-        
-        <p><strong>Louise Boulter</strong>, Lincoln Bishop University</p>
-        
-        <p><strong>Nilupulee Liyanagamage</strong>, University of Wollongong</p>
-        
-        <p><strong>Horia Moașa</strong>, Transilvania University of Brasov</p>
-        
-    
-    
-    
-    <p>This special issue examines leadership practices that fall between clearly constructive and overtly destructive behaviors—a spectrum termed &#39;grey leadership&#39;. Grey leadership encompasses ambiguous and relational practices where rules are subtly bent, inaction enables harm, or followers participate in normalization of problematic conduct. These behaviors rarely attract legal attention or public scrutiny but create significant organizational and relational consequences precisely because they resist clear moral classification.</p>
-    
-    <p>Grey leadership is characterized by mixed ethical intent where moral and self-interested motives coexist, inconsistent moral signaling where espoused and enacted values diverge, and situationally contingent consequences where identical behaviors may yield both positive and negative outcomes depending on context. The concept bridges fragmented literature by integrating ethical, emotional, and contextual dimensions of leadership that have traditionally evolved separately.</p>
-    
-    <p>
-        Appel publié par Leadership &amp; Organization Development Journal.
-        
-        <a href="https://www.emerald.com/lodj/calls-for-submissions/1714/Beyond-Black-and-White-Shades-of-Grey-Leadership?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/emerald-beyond-black-and-white-shades-of-grey-leadership/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Conceptual development of grey leadership</li>
-        
-        <li>Perspectives on grey leadership and construction of the continuum</li>
-        
-        <li>How grey leadership materializes in the workplace and its implications for followers, leaders, organizations and society</li>
-        
-        <li>Can grey leadership ever be beneficial for an organization?</li>
-        
-        <li>The role of context in enacting grey leadership</li>
-        
-        <li>Case studies of grey leadership</li>
-        
-        <li>The ambiguities and potential benefits of leading in the shadows</li>
-        
-        <li>The role of HR in addressing grey leadership</li>
-        
-        <li>How grey leadership differs from black or destructive leadership</li>
-        
-        <li>Strategies to combat grey leadership and prevent its escalation</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>June 15, 2026: Opening date for manuscripts submissions</li>
-        
-        <li>September 30, 2026: Closing date for manuscripts submission</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Career Development and Student Entrepreneurship for University-to-Work Transition in Emerging Economies]]></title>
-            <link>https://kerostig.org/call/emerald-career-development-and-student-entrepreneurship-for-university-to-work-transition-in-emerging-economies/</link>
-            <guid>emerald-career-development-and-student-entrepreneurship-for-university-to-work-transition-in-emerging-economies</guid>
-            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Ugochukwu Chinonso Okolie</strong>, Leipzig University</p>
-        
-        <p><strong>Yuliya Shtaltovna</strong>, HS Fresenius</p>
-        
-        <p><strong>Paul Agu Igwe</strong>, University of Lincoln</p>
-        
-        <p><strong>Priscilla Bahaw</strong>, The University of the West Indies</p>
-        
-        <p><strong>Chibueze Tobias Orji</strong>, University of Nigeria, Nsukka</p>
-        
-    
-    
-    
-    <p>This special issue seeks empirical research on how student entrepreneurship influences the transition from university education to employment in emerging economies. The focus is on understanding how entrepreneurial experiences during higher education contribute to career development, employability skills, and readiness for labour market entry.</p>
-    
-    <p>The call addresses a gap in research regarding student entrepreneurship&#39;s role in university-to-work transition, despite evidence that entrepreneurial activities provide experiential learning opportunities for developing workplace skills. The special issue aims to inform policymakers, university administrators, and industry experts about improving graduate employment outcomes while contributing to United Nations Sustainable Development Goals related to quality education, decent work, and reduced inequalities.</p>
-    
-    <p>
-        Appel publié par Career Development International.
-        
-        <a href="https://www.emerald.com/cdi/calls-for-submissions/1771/Career-Development-and-Student-Entrepreneurship?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/emerald-career-development-and-student-entrepreneurship-for-university-to-work-transition-in-emerging-economies/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Student Entrepreneurial Activities as a Pathway to University-to-Work Transition: exploring how students&#39; engagement in small and micro-businesses might facilitate or hinder their transition into the labour market</li>
-        
-        <li>Career Development and Employability Skills Acquisition: exploring how students&#39; entrepreneurial engagement contributes to or hinders the development of essential employability skills and career readiness</li>
-        
-        <li>Institutional and Contextual Factors in Emerging Economies: exploring how factors such as institutional support, government policies, culture and economic conditions shape student entrepreneurship and university-to-work transition outcomes</li>
-        
-        <li>Cross-regional Comparative Insights &amp; Theoretical Advancement: examining comparative perspectives on how student entrepreneurship affects university-to-work transition in different regions</li>
-        
-        <li>Inner Development Goals and the Human Dimension of Entrepreneurship: integration of the IDGuide into entrepreneurship and business education, and how cognitive, social, and self-leadership competencies promote entrepreneurial behaviour and employability among students</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>November 1, 2025: Opening date for manuscripts submissions</li>
-        
-        <li>October 1, 2026: Closing date for manuscripts submission</li>
         
     </ul>
     
@@ -13479,53 +13368,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Reimaging Entrepreneurship Education in the Era of Disruptive Emerging Technologies]]></title>
-            <link>https://kerostig.org/call/emerald-reimaging-entrepreneurship-education-in-the-era-of-disruptive-emerging-technologies/</link>
-            <guid>emerald-reimaging-entrepreneurship-education-in-the-era-of-disruptive-emerging-technologies</guid>
-            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>Entrepreneurship education must adapt to rapid technological change, as emerging innovations like AI, blockchain, and immersive platforms are fundamentally transforming how entrepreneurs identify opportunities, develop prototypes, and scale businesses. While these technologies offer unprecedented pedagogical potential through simulations and gamified learning, many educational programs continue using traditional, Western-centric approaches that prioritize information delivery over experiential learning.</p>
-    
-    <p>This special issue addresses the urgent need to critically examine how entrepreneurship education can effectively integrate emerging technologies while remaining responsive to the entrepreneurial realities students will face. The issue is particularly relevant for emerging economies, where digital tools can overcome infrastructure limitations and resource constraints to democratize access to quality entrepreneurship education, though success requires institutional capacity building, thoughtful curriculum design, and supporting policies.</p>
-    
-    <p>
-        Appel publié par Journal of Entrepreneurship in Emerging Economies.
-        
-        <a href="https://www.emerald.com/jeee/calls-for-submissions/1786/Reimaging-Entrepreneurship-Education-in-the-Era-of?searchresult=1">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/emerald-reimaging-entrepreneurship-education-in-the-era-of-disruptive-emerging-technologies/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Emerging Technologies in Entrepreneurship Education - Application of AI, VR/AR, blockchain, and IoT in entrepreneurship teaching; effectiveness of technology integration in resource-limited settings; impact of digital tools on student engagement and learning outcomes; role of gamification and simulation in developing entrepreneurial competencies</li>
-        
-        <li>Institutional Integration and Capacity Building - Organizational capabilities enabling technology adoption; leadership and faculty preparedness; university-industry collaboration models; digital infrastructure development; government policies and regulatory frameworks; creating entrepreneurial ecosystems beyond traditional classrooms</li>
-        
-        <li>Curriculum Design and Assessment Innovation - Assessment methods for technology-integrated learning environments; addressing generative AI in student evaluation; metrics for measuring impact on learning outcomes and business creation; longitudinal studies on career development; cost-effectiveness evaluation; educator training and professional development models</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>April 1, 2026: Opening date for manuscript submissions</li>
-        
-        <li>September 30, 2026: Closing date for manuscript submissions</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Research with Impact: Qualitative approaches to social and behaviour change]]></title>
             <link>https://kerostig.org/call/emerald-research-with-impact-qualitative-approaches-to-social-and-behaviour-change/</link>
             <guid>emerald-research-with-impact-qualitative-approaches-to-social-and-behaviour-change</guid>
@@ -13782,87 +13624,6 @@
         <li>March 31, 2027: Closing date for abstract submission</li>
         
         <li>June 30, 2027: Closing date for manuscripts submission</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Sustainable Paths in Digital Supply Chains: Navigating Environmental Challenges and Technological Frontiers]]></title>
-            <link>https://kerostig.org/call/emerald-sustainable-paths-in-digital-supply-chains-navigating-environmental-challenges-and-technological-frontiers/</link>
-            <guid>emerald-sustainable-paths-in-digital-supply-chains-navigating-environmental-challenges-and-technological-frontiers</guid>
-            <pubDate>Sun, 06 Sep 2026 09:51:06 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Harshad Sonar</strong>, Indian Institute of Management Sambalpur</p>
-        
-        <p><strong>Bishal Dey Sarkar</strong>, Indian Institute of Management Bodhgaya</p>
-        
-        <p><strong>Sandeep Jagtap</strong>, Lund University</p>
-        
-        <p><strong>Hana Trollman</strong>, University of Leicester</p>
-        
-    
-    
-    
-    <p>This special issue examines how digital technologies can be integrated with sustainability objectives in modern supply chains. Organizations are increasingly pressured to reduce environmental impacts and ensure ethical operations while managing technological disruption. The issue explores how emerging tools like artificial intelligence, blockchain, and data analytics can enhance supply chain transparency, efficiency, emissions monitoring, and resilience while addressing climate risks and regulatory demands.</p>
-    
-    <p>The collection seeks empirical, conceptual, and methodological contributions that bridge theory and practice in digital sustainability transitions. It recognizes that technological adoption alone is insufficient; successful transformation requires supportive leadership, training, and organizational culture change. The special issue draws on multiple theoretical perspectives to provide comprehensive understanding of how human and organizational factors influence sustainability-driven digitalization across different organizational contexts.</p>
-    
-    <p>
-        Appel publié par Benchmarking An International Journal.
-        
-        <a href="https://www.emerald.com/bij/calls-for-submissions/1793/Sustainable-Paths-in-Digital-Supply-Chains?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/emerald-sustainable-paths-in-digital-supply-chains-navigating-environmental-challenges-and-technological-frontiers/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Strategic leadership and governance for sustainable digital supply chains</li>
-        
-        <li>Digital transformation strategies for environmental sustainability in supply chains</li>
-        
-        <li>AI and machine learning applications for green supply chain planning and optimization</li>
-        
-        <li>Blockchain-enabled transparency, traceability, and ethical sourcing</li>
-        
-        <li>Benchmarking sustainability performance metrics and ESG KPIs in digital supply chain</li>
-        
-        <li>Sustainable logistics and smart transportation</li>
-        
-        <li>Digital circular supply chains and circular economy implementation models</li>
-        
-        <li>Green procurement, supplier collaboration, and sustainable sourcing practices</li>
-        
-        <li>Sustainability-resilience integration through digital capabilities</li>
-        
-        <li>Sustainable supply chain innovation in SMEs and emerging economies</li>
-        
-        <li>Cyber risks, data governance, and trust issues in sustainable digital supply chains</li>
-        
-        <li>Policy, institutional pressures, and regulatory compliance for digital sustainability</li>
-        
-        <li>Benchmarking best practices in AI-driven sustainable supply chain decision-making</li>
-        
-        <li>Cross-industry and cross-country benchmarking of digital sustainability maturity models</li>
-        
-        <li>Benchmarking circular economy adoption and reverse logistics performance across sectors</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>March 15, 2026: Opening date for manuscripts submissions</li>
-        
-        <li>September 30, 2026: Closing date for manuscripts submission</li>
         
     </ul>
     
@@ -19329,9 +19090,9 @@
     
     
     
-    <p>Masculinities studies has expanded significantly across disciplines and emerging contexts including entrepreneurship, healthcare, education, and politics. Recent scholarship increasingly adopts constructivist, decolonial, and intersectional approaches to understand how men enact masculine identities at work. This special issue invites contributions that deepen understanding of how gender shapes social arrangements and well-being in contemporary work and organisational contexts.</p>
+    <p>The study of masculinities at work has expanded across multiple disciplines, with recent scholarship exploring how masculinities are socially constructed and performed in diverse professional contexts. This special issue builds on growing evidence demonstrating how masculinities shape organizational dynamics through specific spatial and cultural settings.</p>
     
-    <p>Gender, Work &amp; Organization has become a leading venue for empirical masculinities scholarship. Recent contributions demonstrate how masculinities relate to inclusion and exclusion in workplaces, how they are shaped by organisational spaces and professional socialisation, and how individuals are marginalised when they fail to conform to masculine norms. The journal seeks further analysis exploring these complex relationships between gender, power, hierarchy, and organisational dynamics.</p>
+    <p>The issue invites contributions examining relationships between masculinities and work organizations while engaging with feminist, queer, and pro-feminist perspectives. Papers should explore how gender shapes worldviews and well-being in contemporary work environments, utilizing qualitative, intersectional, and decolonial frameworks to advance understanding of gendered power dynamics and identity formation across professional domains.</p>
     
     <p>
         Appel publié par Gender Work and Organization.
@@ -19344,31 +19105,31 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Changing imaginaries of bodies and body types in work and organisational settings (e.g., the role of muscularity, body-art and digital representations of the body)</li>
+        <li>Changing imaginaries of bodies and body types in work and organisational settings</li>
         
-        <li>New and emergent forms of &#39;masculine capital&#39; in work and organisations</li>
+        <li>New and emergent forms of masculine capital in work and organisations</li>
         
-        <li>How historical circumstances have impacted contemporary masculinities in work and organisations</li>
+        <li>Historical circumstances and contemporary masculinities in work and organisations</li>
         
-        <li>The physical spaces of masculinity and how they impact work and organisations</li>
+        <li>Physical spaces of masculinity and their impact on work and organisations</li>
         
-        <li>Global variegations and convergences in trends in both hegemonic and counter-hegemonic masculinities</li>
+        <li>Global variegations and convergences in hegemonic and counter-hegemonic masculinities</li>
         
         <li>Queer(ying) masculinities in work and organisations</li>
         
-        <li>Critical readings of images, discourses, politics and practices linked to masculinities in work and organisations</li>
+        <li>Critical readings of images, discourses, politics and practices linked to masculinities</li>
         
-        <li>How masculinities are negotiated and shaped during early professional socialisation and how these processes inform the reproduction of gendered work and organisational cultures</li>
+        <li>Professional socialisation and gendered work and organisational cultures</li>
         
-        <li>What novel and innovative methodologies can be leveraged to advance the study of gendered power and practice in work and organisational settings?</li>
+        <li>Novel and innovative methodologies for studying gendered power and practice</li>
         
-        <li>What can the analysis of contemporary workplaces (remote, virtual and transnational) reveal about modern masculinities?</li>
+        <li>Remote, virtual and transnational workplaces and modern masculinities</li>
         
-        <li>How are workplace and organisational masculinities re-shaped or reconstituted in response to emerging social and political pressures that threaten hegemonic gender orders?</li>
+        <li>Hegemonic gender orders and emerging social and political pressures</li>
         
-        <li>How can symbolic dimensions of masculine practice advance our understanding of recognition and legitimacy in specific organisational fields?</li>
+        <li>Symbolic dimensions of masculine practice and recognition and legitimacy</li>
         
-        <li>How do portrayals of masculinities in media, culture and public discourse inform our understanding of gendered life and livelihoods?</li>
+        <li>Portrayals of masculinities in media, culture and public discourse</li>
         
     </ul>
     
@@ -21497,9 +21258,9 @@
     
     
     
-    <p>This special issue addresses propaganda as a contemporary social problem requiring updated sociological research. While propaganda shaped public opinion during the imperial era through the Cold War, modern contexts present new challenges: AI-generated content blurs reality, traditional and digital media proliferate messaging, and state and non-state actors compete to control information. The issue seeks research examining how propaganda operates today, the technologies and techniques it employs, and the power structures it reinforces or challenges.</p>
+    <p>Propaganda remains a significant social problem in contemporary society, shaped by proliferating media and competing actors seeking to control narratives. The landscape has evolved from earlier historical periods to encompass AI-generated content, digital platforms, and novel forms of misinformation.</p>
     
-    <p>The special issue welcomes empirical, historical, and theoretical contributions from all sociological subfields and methodologies examining propaganda globally. Research should explore the actors behind propaganda, those targeted by it, resistance efforts, and how propaganda intersects with broader social phenomena like authoritarianism, censorship, and polarization. The aim is to establish social scientific research directions on propaganda for the coming decades.</p>
+    <p>This special issue seeks sociological research examining modern propaganda across all methodologies. The call invites empirical, historical, and theoretical contributions exploring how propaganda operates, who creates and targets it, its role in contemporary conflicts, and how communities resist or utilize it. Research should illuminate propaganda&#39;s relationships with power dynamics, censorship, radicalization, and information manipulation.</p>
     
     <p>
         Appel publié par British Journal of Sociology.
@@ -21512,25 +21273,25 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>How modern propaganda operates and its social consequences</li>
+        <li>Modern propaganda operation and social consequences</li>
         
-        <li>How propaganda campaigns reveal power dynamics and their relationship to systems of oppression and violence</li>
+        <li>Power and propaganda in systems of oppression</li>
         
-        <li>The machinery of modern propaganda: symbols, slogans, advertisements, techniques, and technologies (traditional and emerging)</li>
+        <li>Machinery of modern propaganda</li>
         
-        <li>Actors creating propaganda and their targets</li>
+        <li>Propaganda actors and targets</li>
         
-        <li>Propaganda&#39;s role in major conflicts and crises including wars and climate change</li>
+        <li>Propaganda in conflicts and crises</li>
         
-        <li>Resistance and counteraction to propaganda</li>
+        <li>Resistance and confrontation of propaganda</li>
         
-        <li>How people understand and use propaganda in everyday life</li>
+        <li>Propaganda in everyday lives</li>
         
-        <li>Connections between propaganda and related sociological topics such as censorship, schooling, radicalization, authoritarianism, polarization, religion, power and persuasion, memory and commemoration, misinformation and disinformation</li>
+        <li>Propaganda and related topics</li>
         
-        <li>Spread of propaganda campaigns within and across communities and borders</li>
+        <li>Propaganda spread across communities and borders</li>
         
-        <li>Methods for detecting and avoiding propaganda&#39;s potential harms</li>
+        <li>Detecting and avoiding propaganda harms</li>
         
     </ul>
     
@@ -21538,9 +21299,11 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>March 16, 2026: Abstract Submission Deadline</li>
+        <li>March 16, 2026: Abstract submission deadline</li>
         
-        <li>October 30, 2026: Full Manuscript Submission Deadline</li>
+        <li>March 30, 2026: Guest Editor notification of invitation to submit manuscript</li>
+        
+        <li>December 31, 2026: Full manuscript submission deadline</li>
         
     </ul>
     
@@ -29435,38 +29198,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Women and Accounting's Past]]></title>
-            <link>https://kerostig.org/call/sage-women-and-accountings-past/</link>
-            <guid>sage-women-and-accountings-past</guid>
-            <pubDate>Tue, 11 Aug 2026 15:38:12 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This special issue examines the historical role and contributions of women in the accounting profession and discipline. The collection seeks to advance understanding of how women have shaped accounting practice, theory, and education across different time periods and contexts.</p>
-    
-    <p>
-        Appel publié par Accounting History.
-        
-        <a href="https://journals.sagepub.com/doi/full/10.1177/10323732261437981">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/sage-women-and-accountings-past/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 28, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[50 years of Safety Science Anniversary]]></title>
             <link>https://kerostig.org/call/elsevier-50-years-of-safety-science-anniversary-si-2/</link>
             <guid>elsevier-50-years-of-safety-science-anniversary-si-2</guid>
@@ -29476,7 +29207,7 @@
     
     
     
-    <p>This special issue commemorates 50 years of Safety Science journal.</p>
+    <p>This special issue marks the 50th anniversary of Safety Science journal. The issue invites contributions that reflect on the journal&#39;s impact and trajectory over five decades, as well as explore emerging directions in safety research and practice.</p>
     
     <p>
         Appel publié par Safety Science.
@@ -29486,11 +29217,32 @@
         <a href="https://kerostig.org/call/elsevier-50-years-of-safety-science-anniversary-si-2/">Fiche de l'appel sur kerostig</a>.
     </p>
     
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Safety science evolution and history</li>
+        
+        <li>Future directions in safety research</li>
+        
+        <li>Safety management and organizational practices</li>
+        
+        <li>Occupational health and safety</li>
+        
+        <li>Risk assessment and mitigation</li>
+        
+        <li>Safety culture and human factors</li>
+        
+        <li>Industrial safety</li>
+        
+        <li>Emergency management and disaster prevention</li>
+        
+    </ul>
+    
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>November 1, 2026: Submission deadline</li>
+        <li>March 1, 2027: Submission deadline</li>
         
     </ul>
     
@@ -32057,36 +31809,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Human-machine Integrated Urban Traffic Management: Policy Innovation and Regulatory Tools Selection]]></title>
-            <link>https://kerostig.org/call/elsevier-human-machine-integrated-urban-traffic-management-policy-innovation-and-regulatory-tools-selection-2/</link>
-            <guid>elsevier-human-machine-integrated-urban-traffic-management-policy-innovation-and-regulatory-tools-selection-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>
-        Appel publié par Transportation Research Part A Policy and Practice.
-        
-        <a href="https://www.sciencedirect.com/special-issue/321091/human-machine-integrated-urban-traffic-management-policy-innovation-and-regulatory-tools-selection">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-human-machine-integrated-urban-traffic-management-policy-innovation-and-regulatory-tools-selection-2/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 30, 2026: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Hybrid Platformization: Exploring Configurations, Contingencies, and Innovation Outcomes]]></title>
             <link>https://kerostig.org/call/elsevier-hybrid-platformization-exploring-configurations-contingencies-and-innovation-outcomes-2/</link>
             <guid>elsevier-hybrid-platformization-exploring-configurations-contingencies-and-innovation-outcomes-2</guid>
@@ -32139,38 +31861,6 @@
     <ul>
         
         <li>October 15, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Impact on policy, industry and society]]></title>
-            <link>https://kerostig.org/call/elsevier-impact-on-policy-industry-and-society-jointly-established-by-annals-of-tourism-research-and-annals-of-tourism-research-empirical-insights/</link>
-            <guid>elsevier-impact-on-policy-industry-and-society-jointly-established-by-annals-of-tourism-research-and-annals-of-tourism-research-empirical-insights</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This special issue is jointly established by Annals of Tourism Research and Annals of Tourism Research Empirical Insights.</p>
-    
-    <p>
-        Appel publié par Annals of Tourism Research.
-        
-        <a href="https://www.sciencedirect.com/special-issue/325172/impact-on-policy-industry-and-society-jointly-established-by-annals-of-tourism-research-and-annals-of-tourism-research-empirical-insights">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-impact-on-policy-industry-and-society-jointly-established-by-annals-of-tourism-research-and-annals-of-tourism-research-empirical-insights/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 31, 2026: Submission deadline</li>
         
     </ul>
     
@@ -32383,116 +32073,6 @@
     <ul>
         
         <li>September 30, 2026: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Large Language Models (LLMs) for Tourism and Tourists]]></title>
-            <link>https://kerostig.org/call/elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists/</link>
-            <guid>elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This special issue invites submissions exploring the applications, implications, and innovations of Large Language Models (LLMs) in the tourism industry and for enhancing tourist experiences. The rapidly evolving landscape of artificial intelligence presents unprecedented opportunities and challenges for tourism stakeholders, from destination management organizations to hospitality providers to individual travelers.</p>
-    
-    <p>
-        Appel publié par Annals of Tourism Research.
-        
-        <a href="https://www.sciencedirect.com/special-issue/326025/joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Applications of LLMs in tourism management and operations</li>
-        
-        <li>LLMs for personalized tourist experiences and recommendations</li>
-        
-        <li>Natural language processing applications in tourism marketing</li>
-        
-        <li>LLMs for tourism chatbots and customer service</li>
-        
-        <li>Language translation and communication in tourism contexts</li>
-        
-        <li>LLMs for travel planning and itinerary generation</li>
-        
-        <li>Sentiment analysis and tourist feedback analysis using LLMs</li>
-        
-        <li>LLMs for tourism research and data analysis</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 31, 2026: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Large Language Models (LLMs) for Tourism and Tourists]]></title>
-            <link>https://kerostig.org/call/elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2/</link>
-            <guid>elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This special issue focuses on the applications and implications of Large Language Models (LLMs) in the tourism sector. We invite research exploring how LLMs can enhance tourist experiences, improve tourism service delivery, and support both tourism businesses and individual travelers. The issue welcomes empirical studies, theoretical frameworks, case studies, and critical analyses of LLM technologies in tourism contexts.</p>
-    
-    <p>
-        Appel publié par Information Processing &amp; Management.
-        
-        <a href="https://www.sciencedirect.com/special-issue/326025/joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-joint-special-issue-call-for-papers-large-language-models-llms-for-tourism-and-tourists-2/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Applications of LLMs in tourism industry</li>
-        
-        <li>LLMs for personalized tourist recommendations</li>
-        
-        <li>Natural language processing for tourism content</li>
-        
-        <li>Chatbots and virtual assistants in tourism</li>
-        
-        <li>Tourist information retrieval using LLMs</li>
-        
-        <li>Language translation for tourism</li>
-        
-        <li>Sentiment analysis of tourist reviews</li>
-        
-        <li>LLM-based travel planning and itinerary generation</li>
-        
-        <li>Multilingual tourism communication</li>
-        
-        <li>AI ethics in tourism applications</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 31, 2026: Submission deadline</li>
         
     </ul>
     
@@ -33626,7 +33206,7 @@
     
     
     
-    <p>This special issue seeks to advance understanding of social entrepreneurship in rapidly transforming global contexts. We invite submissions that explore how social enterprises are adapting to new economic, technological, and social environments while maintaining their commitment to social and environmental impact.</p>
+    <p>This special issue focuses on social entrepreneurship in evolving contexts. The journal invites contributions that examine how social enterprises adapt and create social value in transforming environments.</p>
     
     <p>
         Appel publié par European Management Journal.
@@ -33636,32 +33216,11 @@
         <a href="https://kerostig.org/call/elsevier-social-good-under-transformation-new-contexts-for-social-entrepreneurship/">Fiche de l'appel sur kerostig</a>.
     </p>
     
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Social entrepreneurship in evolving markets and contexts</li>
-        
-        <li>Impact measurement and evaluation of social enterprises</li>
-        
-        <li>Hybrid business models combining social and commercial goals</li>
-        
-        <li>Digital transformation and social entrepreneurship</li>
-        
-        <li>Policy and regulatory frameworks for social enterprises</li>
-        
-        <li>Stakeholder engagement and partnerships in social entrepreneurship</li>
-        
-        <li>Scaling social impact</li>
-        
-        <li>Environmental sustainability and social entrepreneurship</li>
-        
-    </ul>
-    
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>October 31, 2026: Full paper submission deadline</li>
+        <li>November 15, 2026: Submission deadline</li>
         
     </ul>
     
@@ -33762,9 +33321,9 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Strategizing for Sustainable Business Model Innovation in the Digital Age]]></title>
-            <link>https://kerostig.org/call/elsevier-strategizing-for-sustainable-business-model-innovation-in-the-digital-age/</link>
-            <guid>elsevier-strategizing-for-sustainable-business-model-innovation-in-the-digital-age</guid>
+            <title><![CDATA[Operations Research and AI in logistics: methodology, case studies and applications]]></title>
+            <link>https://kerostig.org/call/elsevier-special-issue-on-operations-research-and-ai-in-logistics-methodology-case-studies-and-applications/</link>
+            <guid>elsevier-special-issue-on-operations-research-and-ai-in-logistics-methodology-case-studies-and-applications</guid>
             <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
@@ -33772,18 +33331,18 @@
     
     
     <p>
-        Appel publié par Long Range Planning.
+        Appel publié par Computers &amp; Industrial Engineering.
         
-        <a href="https://www.sciencedirect.com/special-issue/320118/strategizing-for-sustainable-business-model-innovation-in-the-digital-age">Voir l'appel sur le site de l'éditeur</a>.
+        <a href="https://www.sciencedirect.com/special-issue/329344/special-issue-on-operations-research-and-ai-in-logistics-methodology-case-studies-and-applications">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/elsevier-strategizing-for-sustainable-business-model-innovation-in-the-digital-age/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/elsevier-special-issue-on-operations-research-and-ai-in-logistics-methodology-case-studies-and-applications/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     
     <h2>Timeline</h2>
     <ul>
         
-        <li>August 31, 2026: Submission deadline</li>
+        <li>August 1, 2026: Submission deadline</li>
         
     </ul>
     
@@ -34001,36 +33560,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[The agentic economy: AI, consumers, and the future of commerce]]></title>
-            <link>https://kerostig.org/call/elsevier-the-agentic-economy-ai-consumers-and-the-future-of-commerce/</link>
-            <guid>elsevier-the-agentic-economy-ai-consumers-and-the-future-of-commerce</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>
-        Appel publié par Business Horizons.
-        
-        <a href="https://www.sciencedirect.com/special-issue/335058/the-agentic-economy-ai-consumers-and-the-future-of-commerce">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-the-agentic-economy-ai-consumers-and-the-future-of-commerce/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 1, 2026: Full paper submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[The agentic revolution: Managing in the era of AI agents]]></title>
             <link>https://kerostig.org/call/elsevier-the-agentic-revolution-managing-in-the-era-of-ai-agents/</link>
             <guid>elsevier-the-agentic-revolution-managing-in-the-era-of-ai-agents</guid>
@@ -34203,66 +33732,6 @@
     <ul>
         
         <li>July 31, 2027: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The Future of Family Business Research: Featuring the work of emerging scholars]]></title>
-            <link>https://kerostig.org/call/elsevier-the-future-of-family-business-research-featuring-the-work-of-emerging-scholars/</link>
-            <guid>elsevier-the-future-of-family-business-research-featuring-the-work-of-emerging-scholars</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>
-        Appel publié par Journal of Family Business Strategy.
-        
-        <a href="https://www.sciencedirect.com/special-issue/325069/the-future-of-family-business-research-featuring-the-work-of-emerging-scholars">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-the-future-of-family-business-research-featuring-the-work-of-emerging-scholars/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 31, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The Geopolitics of the Energy Transition – A European Perspective]]></title>
-            <link>https://kerostig.org/call/elsevier-the-geopolitics-of-the-energy-transition-a-european-perspective/</link>
-            <guid>elsevier-the-geopolitics-of-the-energy-transition-a-european-perspective</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>
-        Appel publié par Energy Policy.
-        
-        <a href="https://www.sciencedirect.com/special-issue/332003/the-geopolitics-of-the-energy-transition-a-european-perspective">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-the-geopolitics-of-the-energy-transition-a-european-perspective/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>September 1, 2026: Submission deadline</li>
         
     </ul>
     
@@ -34627,36 +34096,6 @@
     <ul>
         
         <li>November 1, 2026: Submission deadline</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Transforming Business Models Across Digital Platforms: Exploring the Role of Artificial Intelligence]]></title>
-            <link>https://kerostig.org/call/elsevier-transforming-business-models-across-digital-platforms-exploring-the-role-of-artificial-intelligence/</link>
-            <guid>elsevier-transforming-business-models-across-digital-platforms-exploring-the-role-of-artificial-intelligence</guid>
-            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>
-        Appel publié par Journal of Engineering and Technology Management.
-        
-        <a href="https://www.sciencedirect.com/special-issue/300007/transforming-business-models-across-digital-platforms-exploring-the-role-of-artificial-intelligence">Voir l'appel sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/elsevier-transforming-business-models-across-digital-platforms-exploring-the-role-of-artificial-intelligence/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>February 15, 2025: Full paper submission deadline</li>
         
     </ul>
     
@@ -40433,59 +39872,43 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Agentic Artificial Intelligence Across Organizational Functions and Practices]]></title>
-            <link>https://kerostig.org/call/emerald-agentic-artificial-intelligence-across-organizational-functions-and-practices/</link>
-            <guid>emerald-agentic-artificial-intelligence-across-organizational-functions-and-practices</guid>
+            <title><![CDATA[AI as a Shopping Companion: Mechanisms shaping product basket and returns]]></title>
+            <link>https://kerostig.org/call/emerald-ai-as-a-shopping-companion-mechanisms-shaping-product-basket-and-returns/</link>
+            <guid>emerald-ai-as-a-shopping-companion-mechanisms-shaping-product-basket-and-returns</guid>
             <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
-        
-        <p><strong>Asha Thomas</strong>, Wrocław University of Science and Technology</p>
-        
-        <p><strong>Moreno Frau</strong>, Corvinus University of Budapest</p>
-        
-        <p><strong>Dominyka Venciūtė</strong>, ISM University of Management and Economics</p>
-        
     
     
+    <p>Digitalisation has multiplied the media, channels, and touchpoints through which consumers and firms interact, reshaping the customer journey around digital experiences. In parallel, the rapid maturation of Machine Learning, Deep Learning, and especially Artificial Intelligence (AI), is pushing both scholars and managers to rethink how human actors engage with, rely on, and derive value from technological systems, and to revisit the design of these interactions as well as their governance.</p>
     
-    <p>Across contemporary organizations, advances in artificial intelligence (AI) are transforming AI from a discrete technological resource into a systemic organizational capability that actively shapes decision-making, business model innovation, and competitive advantage. Traditionally, AI interfaces have largely been reactive, responding to human prompts and predefined inputs. The emergence of Agentic Artificial Intelligence represents a fundamental shift, as agentic systems are designed to operate with increasing autonomy, enabling goal-driven planning, workflow orchestration, coordination across systems, and machine-initiated action with limited human intervention.</p>
+    <p>A growing body of research shows that AI is increasingly becoming a central shopping companion across the entire customer journey, supporting consumers from product discovery and evaluation in the pre-purchase stage, to basket building and checkout at purchase, and into post-purchase activities such as customer service and returns.</p>
     
     <p>
-        Appel publié par Journal of Enterprise Information Management.
+        Appel publié par International Journal of Retail &amp; Distribution Management.
         
-        <a href="https://www.emerald.com/jeim/calls-for-submissions/1801/Agentic-Artificial-Intelligence-Across?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        <a href="https://www.emerald.com/ijrdm/calls-for-submissions/1853/AI-as-a-Shopping-Companion-Mechanisms-shaping?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/emerald-agentic-artificial-intelligence-across-organizational-functions-and-practices/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/emerald-ai-as-a-shopping-companion-mechanisms-shaping-product-basket-and-returns/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>How does Agentic AI enable new forms of value creation, capture, and measurement in organizations? Under what conditions can agentic systems also lead to value co-destruction or unintended negative outcomes due to misaligned autonomy, resource integration, or decision logic?</li>
+        <li>What psychological and informational mechanisms explain the effect of AI companions on basket conversion? How do these effects vary with trust, perceived agency, and disclosure in conversational assistance?</li>
         
-        <li>How do organizations design governance, accountability, trust, and regulatory compliance mechanisms for Agentic AI systems operating with increasing autonomy? What challenges arise when human oversight is limited or distributed across functions?</li>
+        <li>To what extent do AI companions alter assortment exploration and basket structure in terms of variety seeking, complementarity, substitution patterns, and price sensitivity?</li>
         
-        <li>How do ethical considerations, responsibility, and moral agency evolve when AI systems act as semi-autonomous organizational actors rather than decision-support tools?</li>
+        <li>Which conversational features (e.g., framing, explanations, tone, memory) act as key drivers?</li>
         
-        <li>How does Agentic AI reshape business process redesign, orchestration, and automation across organizational functions such as marketing, human resource management, operations, finance, and customer engagement?</li>
+        <li>When does AI-induced conversion translate into higher decision quality and ex post satisfaction, and when does it instead generate regret, decision deferral, or dependence on assistance?</li>
         
-        <li>In what ways is artificial intelligence becoming normalized within organizational and marketing practice, shifting from experimental adoption to routinized, AI-embedded decision-making and workflows?</li>
+        <li>What is the impact of AI companions on returns, distinguishing between informational mismatch, fit errors, overbuying, and opportunistic behaviours, and how do these dynamics vary across product categories and channels (online vs. omnichannel)?</li>
         
-        <li>How does Agentic AI influence workforce transformation, the future of work, and human resource management practices, including recruitment, performance evaluation, learning, and employee autonomy?</li>
+        <li>How can companion design (e.g., explainability, user controls, limits on persuasion, &#39;pro-social&#39; nudges) reduce returns and increase decision quality without depressing conversion and revenues?</li>
         
-        <li>How does the adoption of Agentic AI differ across organizational contexts, such as small and medium-sized enterprises versus large corporations, and what factors shape successful implementation and impact?</li>
-        
-        <li>How do emotional, relational, and interactional dynamics shape human–AI engagement in Agentic AI–driven sales, marketing, and customer experience contexts?</li>
-        
-        <li>How can human–AI collaboration and human-in-the-loop design be sustained when AI systems increasingly initiate actions, coordinate tasks, and learn autonomously?</li>
-        
-        <li>How do multi-agent systems, coordination mechanisms, and organizational architectures evolve as multiple human and artificial agents interact within complex socio-technical environments?</li>
-        
-        <li>How can existing theories of agency, organizational learning, and socio-technical systems be extended or reconfigured to explain machine agency and autonomous action in Agentic AI–enabled organizations?</li>
-        
-        <li>How does Agentic AI transform knowledge management, organizational learning, and decision support by enabling systems that not only retrieve and integrate knowledge but also reason, adapt, and act upon it?</li>
+        <li>What are the distributional effects of AI companions on consumers with different levels of digital literacy and vulnerability, and which policies or governance standards are needed to ensure transparency, accountability, and fairness?</li>
         
     </ul>
     
@@ -40493,9 +39916,11 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>March 1, 2026: Opening date for manuscript submissions</li>
+        <li>January 5, 2026: Opening date for manuscripts submissions</li>
         
-        <li>September 30, 2026: Closing date for manuscript submissions</li>
+        <li>January 11, 2026: Closing date for manuscripts submission</li>
+        
+        <li>April 15, 2027: Final acceptance date</li>
         
     </ul>
     
@@ -40687,61 +40112,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Crossing Methodological Borders: Mixed-/Multi-Methods in Contemporary Industrial and Information Systems management]]></title>
-            <link>https://kerostig.org/call/emerald-crossing-methodological-borders-mixed-multi-methods-in-contemporary-industrial-and-information-systems-management/</link>
-            <guid>emerald-crossing-methodological-borders-mixed-multi-methods-in-contemporary-industrial-and-information-systems-management</guid>
-            <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>As digital technologies increasingly transform industrial operations, integrating industrial management with information systems (IS/IT) research has become essential. Key domains such as supply chain resilience, digital innovation, and data-driven decision-making require methodological approaches that can address both technical complexity and organizational dynamics.</p>
-    
-    <p>However, many existing studies still rely predominantly on either primary or secondary data, with relatively few exploring the benefits of strategically combining the two. Integrating primary data (e.g., surveys, interviews, experiments) with secondary data (e.g., ERP logs, platform analytics, archival datasets) enables deeper theory development by revealing both behavioral patterns and underlying mechanisms.</p>
-    
-    <p>
-        Appel publié par Industrial Management &amp; Data Systems.
-        
-        <a href="https://www.emerald.com/imds/calls-for-submissions/1768/Crossing-Methodological-Borders-Mixed-Multi?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/emerald-crossing-methodological-borders-mixed-multi-methods-in-contemporary-industrial-and-information-systems-management/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Mixed-/Multi-Method Designs in Digital Transformation and Process Innovation - Exploring methodological integration, trade-offs, and complementarities in examining technology-enabled changes in workflows, decision-making, and organizational processes.</li>
-        
-        <li>Integrated Analytical Approaches to Supply Chain Innovation and Resilience - Applying mixed-/multi-method strategies to investigate logistics transformation, disruption management, and sustainable operations in volatile environments.</li>
-        
-        <li>Human-AI Collaboration and Decision-Making Coevolution - Combining qualitative and quantitative methods to understand trust, cognition, and co-production dynamics in evolving human-AI systems.</li>
-        
-        <li>Social Media, Digital Marketing, and E-Commerce Ecosystem - Utilizing mixed-/multi-method approaches to study online engagement, influencer strategies, consumer behavior, and brand reputation in digital platforms.</li>
-        
-        <li>Sustainability and Green IS through Methodological Pluralism - Investigating environmental performance, circular economy practices, and sustainable innovation through integrated technical, organizational, and social lenses.</li>
-        
-        <li>Contextualized Adoption of Generative AI Technologies - Examining sector-specific adoption patterns, drivers, challenges, and impacts of GAI using comprehensive, multi-perspective research designs.</li>
-        
-        <li>Ethical, Educational, and Security Dimensions of AI - Addressing privacy, trust, risk, and AI literacy through mixed-/multi-method inquiries into responsible and secure use of AI in organizational and societal contexts.</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>April 2, 2026: Opening date for manuscript submissions</li>
-        
-        <li>September 30, 2026: Closing date for manuscript submissions</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Digital Innovation, Geopolitics, and International Business]]></title>
             <link>https://kerostig.org/call/emerald-digital-innovation-geopolitics-and-international-business/</link>
             <guid>emerald-digital-innovation-geopolitics-and-international-business</guid>
@@ -40801,67 +40171,6 @@
         <li>January 7, 2026: Opening date for manuscripts submissions</li>
         
         <li>November 30, 2026: Closing date for manuscripts submission</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Environmental Governance Gaps in Emerging Markets: Strategies for Addressing Institutional Voids and Mitigating Externalities]]></title>
-            <link>https://kerostig.org/call/emerald-environmental-governance-gaps-in-emerging-markets-strategies-for-addressing-institutional-voids-and-mitigating-externalities/</link>
-            <guid>emerald-environmental-governance-gaps-in-emerging-markets-strategies-for-addressing-institutional-voids-and-mitigating-externalities</guid>
-            <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Florian Becker-Ritterspach</strong>, HTW Berlin</p>
-        
-        <p><strong>Raghda El Ebrashi</strong>, German International University (Cairo)</p>
-        
-        <p><strong>Jasper Hotho</strong>, Copenhagen Business School</p>
-        
-    
-    
-    
-    <p>Environmental degradation has become an urgent global concern, with emerging and developing economies facing a particularly complex set of challenges. While many of these countries are rapidly industrializing and increasingly integrated into global value chains, they often lack the regulatory infrastructures, institutional capacity, and enforcement mechanisms necessary to ensure environmentally responsible economic activity. These so-called environmental institutional voids amplify the negative externalities of business operations, threatening both ecological integrity and long-term development prospects.</p>
-    
-    <p>
-        Appel publié par Critical Perspectives on International Business.
-        
-        <a href="https://www.emerald.com/cpoib/calls-for-submissions/1830/Environmental-Governance-Gaps-in-Emerging-Markets?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/emerald-environmental-governance-gaps-in-emerging-markets-strategies-for-addressing-institutional-voids-and-mitigating-externalities/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Defining and conceptualizing environmental institutional voids in emerging markets, and assessing how these voids impact environmental outcomes and corporate behavior. What constitutes an &quot;environmental&quot; institutional void, and how do formal and informal institutions interact to exacerbate or mitigate negative externalities of business operations</li>
-        
-        <li>Examining how firms strategically respond to institutional voids to achieve environmental objectives, including circumventing strategies (bypassing institutional deficiencies), coping mechanisms (adapting to challenges in the absence of robust institutions), and compensating actions (offsetting negative environmental impacts when formal governance is lacking)</li>
-        
-        <li>Investigating the influence of multinational enterprises in host countries with weak environmental institutions. How do MNEs transfer environmental standards and best practices from developed to emerging markets, and with what effects? In what ways can MNEs act as catalysts for improved local environmental governance or institutional change?</li>
-        
-        <li>Investigating the emergence of environmental or &quot;green&quot; innovation in contexts of institutional voids. When formal support or infrastructure is lacking, how do companies and entrepreneurs innovate to solve environmental problems? Topics may include frugal innovation, social innovation partnerships, and novel business models that address institutional gaps</li>
-        
-        <li>Analyzing how institutional voids influence the transition towards sustainability (such as shifts to low-carbon energy, circular economy, or sustainable agriculture) in emerging markets. How actors adapt business models to propel sustainability transitions despite voids</li>
-        
-        <li>Exploring how state actors in emerging markets influence the persistence or reduction of environmental institutional voids. How different state configurations enable or constrain MNEs in implementing robust environmental strategies and how tensions between national sovereignty and transnational environmental standards shape corporate practices</li>
-        
-        <li>Identifying public policy frameworks and collaborative approaches that can help close environmental institutional voids. What roles can governments, international organizations, and civil society play in partnership with business to strengthen environmental governance?</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>January 1, 2026: Opening date for manuscripts submissions</li>
-        
-        <li>September 30, 2026: Closing date for manuscripts submission</li>
         
     </ul>
     
@@ -40947,67 +40256,6 @@
         <li>November 30, 2026: Opening date for manuscript submissions</li>
         
         <li>April 30, 2027: Closing date for manuscript submissions</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Extremity in Organisations: Conceptualising and Managing the Spectrum of Extreme Conditions]]></title>
-            <link>https://kerostig.org/call/emerald-extremity-in-organisations-conceptualising-and-managing-the-spectrum-of-extreme-conditions/</link>
-            <guid>emerald-extremity-in-organisations-conceptualising-and-managing-the-spectrum-of-extreme-conditions</guid>
-            <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Xi Wen (Carys) Chan</strong>, Griffith University</p>
-        
-        <p><strong>Shea Fan</strong>, Deakin University</p>
-        
-        <p><strong>Graham Dwyer</strong>, The University of Dublin</p>
-        
-        <p><strong>Margaret A. Shaffer</strong>, University of Oklahoma</p>
-        
-    
-    
-    
-    <p>Contemporary organisations increasingly face conditions of extremity, from acute crises and disasters to the mundane extremity embedded in everyday operations. While existing research examines extreme events in specific contexts, there is a lack of conceptual foundations understanding how extremity manifests, evolves, and impacts organisations holistically beyond extreme contexts research.</p>
-    
-    <p>This special issue aims to consolidate knowledge across human resource management, psychology, organisational behaviour and other fields to develop frameworks for understanding extremity from different standpoints with different disciplines. The issue will establish extremity as an emerging domain of inquiry to provide conceptual foundations with practical implications for managing high-stakes environments.</p>
-    
-    <p>
-        Appel publié par Personnel Review.
-        
-        <a href="https://www.emerald.com/pr/calls-for-submissions/1851/Extremity-in-Organisations-Conceptualising-and?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/emerald-extremity-in-organisations-conceptualising-and-managing-the-spectrum-of-extreme-conditions/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Conceptualising extremity in an organisational context - theoretical clarity to the construct of extremity, attributes that render phenomena extreme, boundaries of extremity, diverse theoretical perspectives, equivocality and its effects on individuals and groups, ambiguity and improvisation, sensemaking in breached or disrupted circumstances</li>
-        
-        <li>Processes or mechanisms that organisations use to cope with extremity - individual and group responses, adaptation in the moment, improvisation as catalyst for transformation, theoretical understanding of coping, adjustment and organisational transformation in face of extremity</li>
-        
-        <li>The impact of extremity on individuals - cognition, behaviour, embodied reactions, wellbeing and performance under extremity, individual coping mechanisms, novel sensemaking and leverage of challenges</li>
-        
-        <li>Conceptualising extremity in occupational contexts - distinctive manifestations across occupational domains, extremity as part of everyday and mundane contexts, occupational-specific theoretical understanding</li>
-        
-        <li>Extremity caused by advanced technologies - relationship between technology and extremity, technological change reshaping work intensity and performance, AI and innovation effects, blurred boundaries between extreme and normal</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>January 30, 2026: Closing date for abstract submission</li>
-        
-        <li>September 30, 2026: Closing date for manuscripts submission</li>
         
     </ul>
     
@@ -41294,55 +40542,6 @@
         <li>January 12, 2026: Opening date for manuscripts submissions</li>
         
         <li>March 30, 2027: Closing date for manuscripts submission</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Immersive Technologies in Mobile Applications: Transforming Business Landscapes]]></title>
-            <link>https://kerostig.org/call/emerald-immersive-technologies-in-mobile-applications-transforming-business-landscapes/</link>
-            <guid>emerald-immersive-technologies-in-mobile-applications-transforming-business-landscapes</guid>
-            <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>Immersive technologies—such as Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR)—are reshaping how businesses engage customers, deliver services, and create value. As these technologies mature and become more accessible through mobile applications, organizations across industries—including retail, tourism, entertainment, healthcare, and education—are exploring their service applications and strategic potential. Immersive technologies not only enhance user experience but also enable new business models, operational efficiencies, and competitive differentiation.</p>
-    
-    <p>
-        Appel publié par Industrial Management &amp; Data Systems.
-        
-        <a href="https://www.emerald.com/imds/calls-for-submissions/1753/Immersive-Technologies-in-Mobile-Applications?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/emerald-immersive-technologies-in-mobile-applications-transforming-business-landscapes/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>User engagement and behaviour in immersive mobile applications</li>
-        
-        <li>Adoption and diffusion of immersive technologies in organizations</li>
-        
-        <li>Design principles for mobile immersive applications</li>
-        
-        <li>Business innovations enabled by immersive technologies across industries</li>
-        
-        <li>Ethical dimensions, accessibility challenges, and long-term societal impacts immersive mobile applications</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>February 1, 2026: Opening date for manuscript submissions</li>
-        
-        <li>September 30, 2026: Closing date for manuscript submissions</li>
         
     </ul>
     
@@ -41800,77 +40999,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Personality in the Upper Echelons – Advancing Theory, Methods, and Context]]></title>
-            <link>https://kerostig.org/call/emerald-personality-in-the-upper-echelons-advancing-theory-methods-and-context/</link>
-            <guid>emerald-personality-in-the-upper-echelons-advancing-theory-methods-and-context</guid>
-            <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>Upper echelons research has long argued that organizational outcomes reflect the characteristics of those who lead them. Scholars have shown that personality plays a central role in shaping how executives interpret information, make decisions, interact with stakeholders, and steer their organizations. Yet, despite a rapidly expanding literature on CEO personality and related constructs, recent reviews highlight persistent challenges: conceptual narrowness, methodological limitations, geographic concentration, and a tendency toward insularity rather than theoretical integration.</p>
-    
-    <p>
-        Appel publié par Journal of Managerial Psychology.
-        
-        <a href="https://www.emerald.com/jmp/calls-for-submissions/1890/Personality-in-the-Upper-Echelons-Advancing-Theory?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/emerald-personality-in-the-upper-echelons-advancing-theory-methods-and-context/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>How do motives, values, traits, and narratives of organizational leaders shape firm behavior?</li>
-        
-        <li>Under what conditions do personality effects strengthen or weaken?</li>
-        
-        <li>How can scholars better measure personality in the upper echelons?</li>
-        
-        <li>How do institutional, cultural, and governance contexts shape the expression and consequences of executive personality?</li>
-        
-        <li>Broadening the conceptualization of executive personality beyond Big Five and narcissism traits</li>
-        
-        <li>Integrating insights from personality psychology including motives, values, identity, and life stories</li>
-        
-        <li>Mechanisms linking personality to strategic outcomes such as CSR, M&amp;A, innovation, and risk-taking</li>
-        
-        <li>Personality dynamics over time including personality change and developmental experiences</li>
-        
-        <li>TMT dynamics, leadership styles, and power distributions shaped by executive personality</li>
-        
-        <li>Contextual, cultural, and institutional moderators of personality effects across national cultures and governance systems</li>
-        
-        <li>Measurement and assessment of executive personality using multi-method designs and unobtrusive indicators</li>
-        
-        <li>Personality composition and complementarities within boards, TMTs, and collective leadership</li>
-        
-        <li>CEO selection, evaluation, and succession planning incorporating personality</li>
-        
-        <li>Executive personality influence on ethical decision making and societal outcomes</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>August 1, 2026: Submission window opens</li>
-        
-        <li>September 30, 2026: Submission window closes</li>
-        
-        <li>December 31, 2026: Decision notification</li>
-        
-        <li>June 1, 2027: Target publication</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Redefining luxury consumption in the age of Artificial Intelligence]]></title>
             <link>https://kerostig.org/call/emerald-redefining-luxury-consumption-in-the-age-of-artificial-intelligence/</link>
             <guid>emerald-redefining-luxury-consumption-in-the-age-of-artificial-intelligence</guid>
@@ -41948,71 +41076,6 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Reflections on the value of management accounting in organizations: Overcoming contemporary challenges]]></title>
-            <link>https://kerostig.org/call/emerald-reflections-on-the-value-of-management-accounting-in-organizations-overcoming-contemporary-challenges/</link>
-            <guid>emerald-reflections-on-the-value-of-management-accounting-in-organizations-overcoming-contemporary-challenges</guid>
-            <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-        
-        <p><strong>Teemu Laine</strong>, Tampere University</p>
-        
-        <p><strong>Tuomas Korhonen</strong>, Tampere University</p>
-        
-        <p><strong>Carsten Rohde</strong>, Copenhagen Business School</p>
-        
-        <p><strong>Vesa Tiitola</strong>, Tampere University</p>
-        
-    
-    
-    
-    <p>The special issue will reflect and revisit the role and value of management accounting (MA) in the current evolving and complex business context. The value of management accounting lies in its ability to serve managers in different roles in their decision making and broader managerial work, all situated in their operational environment. The nature of managerial work and the potential support from MA therein are being challenged by several intertwined contemporary developments: a) technology advancements, such as algorithms and the artificial intelligence (AI) penetration to many professions, MA included, b) human judgement, ethical considerations and responsible behaviour, and c) global and local issues that influence the business context, such as geopolitics and climate change.</p>
-    
-    <p>
-        Appel publié par Qualitative Research in Accounting &amp; Management.
-        
-        <a href="https://www.emerald.com/qram/calls-for-submissions/1743/Reflections-on-the-value-of-management-accounting?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/emerald-reflections-on-the-value-of-management-accounting-in-organizations-overcoming-contemporary-challenges/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Revisiting the Foundations of Management Accounting (MA) and Management Control (MC)</li>
-        
-        <li>Digitalization, Artificial Intelligence, and the &quot;Post-Analytics&quot; Era</li>
-        
-        <li>Human Judgment and Accountability in the Age of AI</li>
-        
-        <li>Sustainability, Ethics, and the Evolving Role of Management Accounting</li>
-        
-        <li>Transformation and Innovation in MA&amp;MC Systems and Practices</li>
-        
-        <li>Management Accounting that Expands over Organizational Boundaries</li>
-        
-        <li>Emerging Business Models and Performance Paradigms</li>
-        
-        <li>Inter-, Multi-, and Transdisciplinary MA Studies that Increase Practical Relevance of Research</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>June 8, 2026: Opening date for manuscripts submissions</li>
-        
-        <li>September 30, 2026: Closing date for manuscripts submission</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Reimagining Sustainable Future and Managing Change]]></title>
             <link>https://kerostig.org/call/emerald-reimagining-sustainable-future-and-managing-change/</link>
             <guid>emerald-reimagining-sustainable-future-and-managing-change</guid>
@@ -42068,6 +41131,83 @@
         <li>May 28, 2026: Opening date for manuscripts submissions</li>
         
         <li>January 31, 2027: Closing date for manuscripts submission</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Reimagining the Service-Profit Chain: Multidisciplinary Insights for an Age of Disruption]]></title>
+            <link>https://kerostig.org/call/emerald-reimagining-the-service-profit-chain-multidisciplinary-insights-for-an-age-of-disruption/</link>
+            <guid>emerald-reimagining-the-service-profit-chain-multidisciplinary-insights-for-an-age-of-disruption</guid>
+            <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Jens Hogreve</strong>, Catholic University of Eichstätt-Ingolstadt</p>
+        
+        <p><strong>Ilias Danatzis</strong>, King&#39;s Business School</p>
+        
+        <p><strong>Joy Field</strong>, Boston College</p>
+        
+        <p><strong>Kristina Lindsey Hall</strong>, Louisiana State University</p>
+        
+        <p><strong>Marah Blaurock</strong>, Catholic University of Eichstatt-Ingolstadt</p>
+        
+    
+    
+    
+    <p>The service-profit chain (SPC) is one of the most influential concepts in service research. Introduced by Heskett et al. (1994), the SPC emphasizes the significance of both internal and external service quality for a firm&#39;s long-term financial performance. It bridges service companies&#39; internal and external environments by positing employee satisfaction, loyalty, and productivity as mediators between internal and external service quality, and customer satisfaction and loyalty as mediators between external service quality and financial outcomes. In doing so, the SPC links three domains: (a) internal marketing, encompassing internal service quality and employee attitudes and behaviors; (b) external marketing, reflecting external service quality and customer attitudes and behaviors; and (c) firm performance, including revenue growth and profitability. Over the past three decades, the SPC has gained considerable scholarly attention and continues to inspire organizations that place employees and customers at the center of their strategies.</p>
+    
+    <p>
+        Appel publié par Journal of service management.
+        
+        <a href="https://www.emerald.com/josm/calls-for-submissions/1848/Reimagining-the-Service-Profit-Chain?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-reimagining-the-service-profit-chain-multidisciplinary-insights-for-an-age-of-disruption/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>How do service employees adapt to and engage with AI and automation, and impact SPC relationships? What roles do technostress, co-design opportunities, or AI functions play in shaping acceptance?</li>
+        
+        <li>How does AI reshape customer experiences and loyalty? Does it complement or substitute for human frontline interactions, and what unintended effects may emerge?</li>
+        
+        <li>What are the optimal levels of AI implementation within the SPC across contexts, and how do they vary by industry, leadership, or employee/customer loyalty levels?</li>
+        
+        <li>Does employee or customer well-being serve as a stronger predictor of loyalty and performance than traditional satisfaction measures?</li>
+        
+        <li>How do well-being and satisfaction interact, and what are their respective short-term versus long-term effects on firm performance?</li>
+        
+        <li>How do external shocks and turbulent environments moderate SPC relationships?</li>
+        
+        <li>How do service employees adapt to shifting processes, environments, and interaction demands during disruptive events, and how does this adaption affect key SPC links?</li>
+        
+        <li>How does enforcing service rules - especially when facing customer resistance or misbehavior - affect employee well-being, service quality, and the strength of SPC linkages?</li>
+        
+        <li>To what extent are SPC links universal versus context-sensitive (e.g., across industries, cultures, or service types)?</li>
+        
+        <li>What new methodological approaches (e.g., longitudinal, experimental, multi-source, big data) can uncover causal, non-linear, or feedback effects within the SPC?</li>
+        
+        <li>How do under-researched internal service marketing practices (e.g., workplace design, digital tools for customer service) influence employee satisfaction, loyalty, and productivity?</li>
+        
+        <li>Which HRM systems and practices are most effective in enhancing internal service quality, and how do they jointly shape employee and organizational outcomes?</li>
+        
+        <li>How do alternative work arrangements (e.g., gig, remote, hybrid) influence employee satisfaction and SPC outcomes?</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 7, 2026: Opening date for manuscripts submissions</li>
+        
+        <li>January 11, 2026: Closing date for manuscripts submission</li>
         
     </ul>
     
@@ -42651,59 +41791,6 @@
         <li>November 1, 2026: Opening date for manuscripts submissions</li>
         
         <li>March 1, 2027: Closing date for manuscripts submission</li>
-        
-    </ul>
-    
-    
-</div>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Well-Being in B2B Marketing: Rethinking B2B Marketing for a New Era]]></title>
-            <link>https://kerostig.org/call/emerald-well-being-in-b2b-marketing-rethinking-b2b-marketing-for-a-new-era/</link>
-            <guid>emerald-well-being-in-b2b-marketing-rethinking-b2b-marketing-for-a-new-era</guid>
-            <pubDate>Mon, 10 Aug 2026 23:47:12 GMT</pubDate>
-            <content:encoded><![CDATA[
-<div>
-    
-    
-    
-    <p>This special issue advances interdisciplinary understanding of well-being in B2B marketing. It examines how well-being reshapes value creation, inter-organizational relationships, and sustainable business practices. Despite growing interest in individual-level well-being (e.g., salesperson burnout), B2B marketing lacks integrative frameworks examining well-being across inter-organizational networks. The special issue aims to develop a holistic and sustainability-oriented perspective on well-being within B2B markets.</p>
-    
-    <p>
-        Appel publié par Journal of Business and Industrial Marketing.
-        
-        <a href="https://www.emerald.com/jbim/calls-for-submissions/1695/Well-Being-in-B2B-Marketing-Rethinking-B2B?searchresult=1">Lire l'appel complet sur le site de l'éditeur</a>.
-        
-        <a href="https://kerostig.org/call/emerald-well-being-in-b2b-marketing-rethinking-b2b-marketing-for-a-new-era/">Fiche de l'appel sur kerostig</a>.
-    </p>
-    
-    <h2>Potential topics</h2>
-    <ul>
-        
-        <li>Well-being and inter-organizational trust</li>
-        
-        <li>Salesperson mental health and relational resilience</li>
-        
-        <li>Governance, ESG and well-being integration</li>
-        
-        <li>Network stability and ecosystem well-being</li>
-        
-        <li>Servitisation and sustainable value co-creation</li>
-        
-        <li>Measurement of well-being beyond financial KPIs</li>
-        
-        <li>Interdisciplinary frameworks for B2B well-being</li>
-        
-    </ul>
-    
-    
-    <h2>Timeline</h2>
-    <ul>
-        
-        <li>March 31, 2026: Opening date</li>
-        
-        <li>September 30, 2026: Closing date</li>
         
     </ul>
     
