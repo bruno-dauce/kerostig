@@ -46,11 +46,39 @@ export function evaluerCollecte({ cartesCollectees, totalAnnonce, echec }) {
     return { complet: true, motif: null };
 }
 
+// Appels dont la page de detail n'a pas pu etre lue. Un appel sans ISSN est
+// ignore : on ne bloque jamais une valeur vide.
+function contenusManques(calls) {
+    return calls.filter(call => !call.rawContent && call.issn);
+}
+
+// ISSN des revues dont au moins une page de detail n'a pas pu etre lue. Le
+// pipeline les traite comme "non lues ce run" (cf issnBloques, wileyScraper) :
+// leurs appels en base restent actifs et inchanges au lieu de passer en
+// inactif. Un echec de lecture ne dit rien de l'existence de l'appel.
+// Fonction pure, exportee pour test.
+export function issnDesContenusManques(calls) {
+    return [...new Set(contenusManques(calls).map(call => call.issn))];
+}
+
+// Message d'alerte, null s'il n'y a rien a signaler. Prefixe [ALERTE] pour
+// reperer une revue bloquee d'une semaine sur l'autre. Fonction pure, exportee
+// pour test.
+export function messageAlerteContenusManques(calls) {
+    const manques = contenusManques(calls);
+    if (manques.length === 0) return null;
+    const revues = [...new Set(manques.map(call => `${call.journal} (${call.issn})`))];
+    return `[ALERTE] [emerald] ${manques.length} appel(s) preserves faute de contenu lisible, `
+        + `${revues.length} revue(s) concernee(s) : ${revues.join(', ')}`;
+}
+
 export const scraperObject = {
     url: 'https://www.emerald.com/calls-for-submissions/',
     abbreviation: 'emerald',
+    issnBloques: [],
     async scraper(browser) {
         const abbreviation = this.abbreviation;
+        this.issnBloques = [];
 
         let listings = [];
         let pageNumber = 1;
@@ -78,7 +106,6 @@ export const scraperObject = {
         }
 
         let skippedCount = 0;
-        let contenusManques = 0;
         const calls = [];
         for (const listing of listings) {
             if (!listing.metaTitle || !listing.journal) continue;
@@ -88,7 +115,6 @@ export const scraperObject = {
                 continue;
             }
             const rawContent = await get_raw_content(browser, listing.url);
-            if (!rawContent) contenusManques++;
             calls.push({
                 journal: listing.journal,
                 abbreviation,
@@ -99,13 +125,14 @@ export const scraperObject = {
             });
         }
         // Ces appels seront ecartes par pageController, qui filtre sur
-        // rawContent. On le dit ici, sinon la perte est indiscernable d'un
-        // retrait cote editeur. Le passage n'est pas abandonne pour autant :
-        // sans reprise sur erreur, une seule page de detail capricieuse sur
-        // plus de deux cents suffirait a geler la source indefiniment.
-        if (contenusManques > 0) {
-            console.warn(`[emerald] ${contenusManques} appel(s) sans contenu brut, ils seront perdus pour ce passage`);
-        }
+        // rawContent. Leurs revues sont declarees dans issnBloques : les
+        // appels en base sont preserves, pas desactives. Le passage n'est pas
+        // abandonne pour autant : sans reprise sur erreur, une seule page de
+        // detail capricieuse sur plus de deux cents suffirait a geler la
+        // source indefiniment.
+        this.issnBloques = issnDesContenusManques(calls);
+        const alerte = messageAlerteContenusManques(calls);
+        if (alerte) console.warn(alerte);
         console.log(`[emerald] ${skippedCount} appel(s) ignore(s), revue hors perimetre FNEGE`);
 
         return calls;
