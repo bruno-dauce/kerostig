@@ -18,6 +18,12 @@ Depuis la racine, sous Windows, Chrome doit rester ouvert pendant la
 collecte. Voir le README pour le détail des étapes et l'option
 `--reverifier-wiley`.
 
+Une ligne `[ALERTE] [emerald] ... appel(s) preserves ...` signale des
+pages de détail Emerald illisibles (challenge Cloudflare non franchi),
+pas une chute de la liste : les appels de ces revues restent actifs et
+inchangés en base. Si la même revue revient d'une semaine à l'autre,
+la regarder à la main.
+
 **Si la collecte hebdomadaire (CI) échoue** :
 1. Les données déjà collectées et passées par le modèle sont
    committées et poussées quand même (`if: always()` dans le
@@ -49,6 +55,9 @@ collecte. Voir le README pour le détail des étapes et l'option
 - Garde-fou de longueur sur les topics (100 caractères) — PR #21.
 - Libellés d'interface traduits, redirection rétroactive du doublon
   Elsevier du 2026-08-23 — PR #22.
+- Correctif Emerald (2026-11-07) : un appel dont la page de détail est
+  illisible est préservé en base (actif, inchangé) au lieu d'être
+  désactivé ; le run manuel du 2026-11-07 en avait désactivé 13 à tort.
 
 ## En attente, dans l'ordre
 
@@ -173,6 +182,9 @@ partir d'une classification aussi juste que possible) :
 ### 7. Plus tard, sans urgence
 
 - Suite de tests et test de fumée en CI.
+- Emerald : deuxième passage de reprise sur les pages de détail
+  bloquées par Cloudflare, pour lire ce que le premier passage a
+  manqué (aujourd'hui elles sont seulement préservées en base).
 - Renormalisation CRLF (`git add --renormalize .`), quand aucune PR
   n'est ouverte.
 - Horodatage Mir@bel dans l'attribution.
