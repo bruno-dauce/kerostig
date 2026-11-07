@@ -4,7 +4,7 @@
         <title>kerostig | Tag : transportation</title>
         <link>https://kerostig.org/tag/transportation/</link>
         <description>Derniers appels à publications avec le tag 'transportation'.</description>
-        <lastBuildDate>Tue, 03 Nov 2026 12:54:21 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Nov 2026 20:21:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,128 @@
             <link>https://kerostig.org/tag/transportation/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Sustainable Energy Solutions for Low-Carbon and Smart Mobility]]></title>
+            <link>https://kerostig.org/call/elsevier-sustainable-energy-solutions-for-low-carbon-and-smart-mobility/</link>
+            <guid>elsevier-sustainable-energy-solutions-for-low-carbon-and-smart-mobility</guid>
+            <pubDate>Sat, 07 Nov 2026 20:20:55 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue focuses on sustainable energy approaches and technologies that enable low-carbon and intelligent mobility systems. The collection seeks to advance understanding of how energy solutions can reduce transportation emissions while supporting smart mobility innovations and infrastructure development.</p>
+    
+    <p>
+        Appel publié par Transport Policy.
+        
+        <a href="https://www.sciencedirect.com/special-issue/338745/sustainable-energy-solutions-for-low-carbon-and-smart-mobility">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-sustainable-energy-solutions-for-low-carbon-and-smart-mobility/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Low-carbon transport</li>
+        
+        <li>Smart mobility</li>
+        
+        <li>Sustainable energy solutions</li>
+        
+        <li>Electric vehicles</li>
+        
+        <li>Public transportation</li>
+        
+        <li>Alternative fuels</li>
+        
+        <li>Mobility infrastructure</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>July 30, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Multimodal Large Language Models and Agentic AI in Transportation]]></title>
+            <link>https://kerostig.org/call/wiley-multimodal-large-language-models-and-agentic-ai-in-transportation/</link>
+            <guid>wiley-multimodal-large-language-models-and-agentic-ai-in-transportation</guid>
+            <pubDate>Sat, 07 Nov 2026 20:20:55 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Yuhuan Lu</strong>, Macao Polytechnic University</p>
+        
+        <p><strong>Yuanfang Zhu</strong>, Nagoya University</p>
+        
+        <p><strong>Jun Zhuang</strong>, Boise State University</p>
+        
+        <p><strong>Guoqiang Mao</strong>, Southeast University</p>
+        
+    
+    
+    
+    <p>This special issue addresses how multimodal large language models and agentic AI are transforming transportation systems. By combining language understanding with visual, spatial, and sensor data, these technologies enable more intelligent autonomous driving, traffic management, and mobility services. The focus is on advancing safety, efficiency, accessibility, and sustainability across transportation networks.</p>
+    
+    <p>The issue tackles key challenges in deploying these systems in transportation, including grounding language in real traffic scenes, handling diverse sensor inputs, generalizing across different cities and conditions, and ensuring trustworthy decision-making in safety-critical scenarios. Submissions should connect foundational AI methods to rigorous evaluation and real-world transportation outcomes.</p>
+    
+    <p>The special issue welcomes research on architectures, algorithms, datasets, benchmarks, and deployment of multimodal and LLM-based systems across autonomous driving, traffic prediction, infrastructure coordination, public transit, and freight logistics. Research addressing safety, fairness, privacy, human oversight, and sustainability in transportation AI is also welcomed.</p>
+    
+    <p>
+        Appel publié par Expert Systems.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/14680394/call-for-papers/si-2026-001331">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-multimodal-large-language-models-and-agentic-ai-in-transportation/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Multimodal Foundation Models for Transportation</li>
+        
+        <li>Transportation-Focused LLMs and Knowledge-Grounded Reasoning</li>
+        
+        <li>Vision-Language-Action Models for Connected and Automated Driving</li>
+        
+        <li>Multimodal Traffic Perception and Situation Understanding</li>
+        
+        <li>Agentic AI and Multi-Agent Transportation Intelligence</li>
+        
+        <li>Traffic Forecasting and Mobility Demand Modeling</li>
+        
+        <li>Transportation Operations, Logistics, and Mobility Services</li>
+        
+        <li>Digital Twins, Simulation, and Generative Traffic Modeling</li>
+        
+        <li>Evaluation, Robustness, Safety, and Explainability</li>
+        
+        <li>Responsible, Human-Centered, and Sustainable Transportation AI</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>May 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Changing spatial dynamics between transport networks and urban systems]]></title>
             <link>https://kerostig.org/call/elsevier-changing-spatial-dynamics-between-transport-networks-and-urban-systems/</link>

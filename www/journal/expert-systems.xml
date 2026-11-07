@@ -4,7 +4,7 @@
         <title>kerostig | Expert Systems</title>
         <link>https://kerostig.org/journal/expert-systems/</link>
         <description>Derniers appels à publications pour Expert Systems.</description>
-        <lastBuildDate>Tue, 03 Nov 2026 12:54:21 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Nov 2026 20:21:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,77 @@
             <link>https://kerostig.org/journal/expert-systems/</link>
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Multimodal Large Language Models and Agentic AI in Transportation]]></title>
+            <link>https://kerostig.org/call/wiley-multimodal-large-language-models-and-agentic-ai-in-transportation/</link>
+            <guid>wiley-multimodal-large-language-models-and-agentic-ai-in-transportation</guid>
+            <pubDate>Sat, 07 Nov 2026 20:20:55 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Yuhuan Lu</strong>, Macao Polytechnic University</p>
+        
+        <p><strong>Yuanfang Zhu</strong>, Nagoya University</p>
+        
+        <p><strong>Jun Zhuang</strong>, Boise State University</p>
+        
+        <p><strong>Guoqiang Mao</strong>, Southeast University</p>
+        
+    
+    
+    
+    <p>This special issue addresses how multimodal large language models and agentic AI are transforming transportation systems. By combining language understanding with visual, spatial, and sensor data, these technologies enable more intelligent autonomous driving, traffic management, and mobility services. The focus is on advancing safety, efficiency, accessibility, and sustainability across transportation networks.</p>
+    
+    <p>The issue tackles key challenges in deploying these systems in transportation, including grounding language in real traffic scenes, handling diverse sensor inputs, generalizing across different cities and conditions, and ensuring trustworthy decision-making in safety-critical scenarios. Submissions should connect foundational AI methods to rigorous evaluation and real-world transportation outcomes.</p>
+    
+    <p>The special issue welcomes research on architectures, algorithms, datasets, benchmarks, and deployment of multimodal and LLM-based systems across autonomous driving, traffic prediction, infrastructure coordination, public transit, and freight logistics. Research addressing safety, fairness, privacy, human oversight, and sustainability in transportation AI is also welcomed.</p>
+    
+    <p>
+        Appel publié par Expert Systems.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/14680394/call-for-papers/si-2026-001331">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-multimodal-large-language-models-and-agentic-ai-in-transportation/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Multimodal Foundation Models for Transportation</li>
+        
+        <li>Transportation-Focused LLMs and Knowledge-Grounded Reasoning</li>
+        
+        <li>Vision-Language-Action Models for Connected and Automated Driving</li>
+        
+        <li>Multimodal Traffic Perception and Situation Understanding</li>
+        
+        <li>Agentic AI and Multi-Agent Transportation Intelligence</li>
+        
+        <li>Traffic Forecasting and Mobility Demand Modeling</li>
+        
+        <li>Transportation Operations, Logistics, and Mobility Services</li>
+        
+        <li>Digital Twins, Simulation, and Generative Traffic Modeling</li>
+        
+        <li>Evaluation, Robustness, Safety, and Explainability</li>
+        
+        <li>Responsible, Human-Centered, and Sustainable Transportation AI</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>May 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Safe and Trustworthy Autonomous Systems in Real-World Environments]]></title>
             <link>https://kerostig.org/call/wiley-safe-and-trustworthy-autonomous-systems-in-real-world-environments/</link>
@@ -395,6 +466,146 @@
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Computer Applications Frontiers: Opportunities, Challenges, Technologies and Applications]]></title>
+            <link>https://kerostig.org/call/wiley-computer-applications-frontiers-opportunities-challenges-technologies-and-applications/</link>
+            <guid>wiley-computer-applications-frontiers-opportunities-challenges-technologies-and-applications</guid>
+            <pubDate>Sun, 13 Sep 2026 16:20:55 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Xiaoou Ding</strong>, Harbin Institute of Technology</p>
+        
+        <p><strong>Kaiyu Li</strong>, Wilfrid Laurier University</p>
+        
+    
+    
+    
+    <p>This special issue focuses on advanced computer application technologies such as AI, Big Data, Large Models, Blockchain, IoT, Cloud Computing, 5G, and Digital Twins, and their integration across various industries. A key challenge is building efficient, secure, and intelligent systems that enable interoperability between industrial equipment, information systems, business processes, and enterprise services.</p>
+    
+    <p>The issue seeks original research and review papers that address technical challenges and explore how intelligent methods and self-adaptive models can provide solutions relevant to dynamic engineering environments, particularly in fields like transportation and environmental engineering where conditions change rapidly.</p>
+    
+    <p>The special issue aims to assess the current state of the art in using advanced computer applications to tackle complex interoperability challenges, identify knowledge gaps, and propose future research directions for both academia and industry.</p>
+    
+    <p>
+        Appel publié par Expert Systems.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers/si-2026-000838">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-computer-applications-frontiers-opportunities-challenges-technologies-and-applications/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Frontier Technology Applications of intelligent systems, including intelligent Energy, Manufacturing, Transportation, Finance, etc.</li>
+        
+        <li>Artificial intelligence technologies, including Large Models, Deep Learning, Feature Extraction and Selection</li>
+        
+        <li>Pervasive Computing and Environmental Intelligence</li>
+        
+        <li>Robotics and Intelligent Systems, including Virtual Reality, Augmented Reality, and Biometric Recognition</li>
+        
+        <li>Brain-Computer Interfaces</li>
+        
+        <li>Data Science and Big Data Technologies, including System Frameworks, Data Preprocessing, Visualization, Mining, and Privacy</li>
+        
+        <li>Cybersecurity Technologies including Future Grid Architectures, Distributed Computing, Cybersecurity, Mobile Communications</li>
+        
+        <li>Internet of Things and Sensor Networks</li>
+        
+        <li>Cloud Computing and Service Computing</li>
+        
+        <li>Smart Healthcare and Agriculture</li>
+        
+        <li>AI and Machine Learning for the Design, Optimization, and Modeling of RF, Microwave, Millimeter-Wave Circuits, Components, and Antennas</li>
+        
+        <li>Intelligent Design and Engineering of Reconfigurable RF Devices, Smart Antennas, and Next-Generation Wireless Communication Systems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>August 20, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Human-Robot Interaction (HRI) and Social Robots]]></title>
+            <link>https://kerostig.org/call/wiley-human-robot-interaction-hri-and-social-robots/</link>
+            <guid>wiley-human-robot-interaction-hri-and-social-robots</guid>
+            <pubDate>Sun, 13 Sep 2026 16:20:55 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Patrick C. K Hung</strong>, Ontario Tech University</p>
+        
+        <p><strong>Sangseok You</strong>, Sungkyunkwan University (SKKU)</p>
+        
+    
+    
+    
+    <p>This special issue addresses social robots and human-robot interaction (HRI), exploring how physical robots integrated with network infrastructure and cloud services interact with humans. The collection examines how concepts like the Uncanny Valley theory influence robot design, particularly regarding anthropomorphic and zoomorphic features that help robots gain user trust through emotional expression, gesture, and speech recognition.</p>
+    
+    <p>The issue emphasizes the critical role of artificial intelligence technologies, including generative AI and machine learning, in enabling advanced social robot capabilities. It seeks interdisciplinary contributions spanning social science, computer science, decision science, and information systems, with emphasis on practical applications in healthcare, education, entertainment, and other domains.</p>
+    
+    <p>
+        Appel publié par Expert Systems.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers/si-2025-000262">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-human-robot-interaction-hri-and-social-robots/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Social Technical Issues</li>
+        
+        <li>Human Behavior Study</li>
+        
+        <li>Human-Robot Interaction</li>
+        
+        <li>Business Models</li>
+        
+        <li>Conceptual and Technical Architecture</li>
+        
+        <li>Visualization Technologies</li>
+        
+        <li>Modeling and Implementation</li>
+        
+        <li>Security, Privacy, and Trust</li>
+        
+        <li>Industry Standards and Solution Stacks</li>
+        
+        <li>Provenance Tracking Frameworks and Tools</li>
+        
+        <li>Accountability, ethics, and transparency</li>
+        
+        <li>Case Studies (e.g., healthcare, education, entertainment, etc.)</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>May 31, 2025: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[LLMs and Agentic AI in Healthcare]]></title>
             <link>https://kerostig.org/call/wiley-llms-and-agentic-ai-in-healthcare/</link>
             <guid>wiley-llms-and-agentic-ai-in-healthcare</guid>
@@ -456,6 +667,65 @@
     <ul>
         
         <li>January 31, 2027: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Open Innovations in Image and Signal Processing Approaches for Emerging Business Markets]]></title>
+            <link>https://kerostig.org/call/wiley-open-innovations-in-image-and-signal-processing-approaches-for-emerging-business-markets/</link>
+            <guid>wiley-open-innovations-in-image-and-signal-processing-approaches-for-emerging-business-markets</guid>
+            <pubDate>Sun, 13 Sep 2026 16:20:55 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Aceng Sambas</strong>, Universitas Muhammadiyah Tasikmalaya Indonesia</p>
+        
+        <p><strong>Sundarapandian Vaidyanathan</strong>, Vel Tech University India</p>
+        
+        <p><strong>Irene Moroz</strong>, University of Oxford</p>
+        
+    
+    
+    
+    <p>This special issue focuses on the role of image and signal processing in advancing technology for emerging business markets. As businesses face rapid transformation due to increased competition and technological evolution, image and signal processing have become essential tools for innovation. The issue seeks to explore how these technologies can extend product innovation capabilities and address the opportunities and challenges they present in this changing landscape.</p>
+    
+    <p>
+        Appel publié par Expert Systems.
+        
+        <a href="https://onlinelibrary.wiley.com/page/journal/14680394/homepage/call-for-papers/si-2022-010994">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/wiley-open-innovations-in-image-and-signal-processing-approaches-for-emerging-business-markets/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Signal Processing</li>
+        
+        <li>Business Markets</li>
+        
+        <li>Real-Time Image Processing</li>
+        
+        <li>Image processing techniques</li>
+        
+        <li>Unsupervised Visual Information</li>
+        
+        <li>Imaging and Computer Vision</li>
+        
+        <li>Image Segmentation Technologies</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 2, 2023: Submission deadline</li>
         
     </ul>
     

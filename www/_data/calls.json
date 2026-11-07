@@ -1,5 +1,563 @@
 [
   {
+    "journal": "Journal of Purchasing and Supply Management",
+    "abbreviation": "elsevier",
+    "issn": "1873-6505",
+    "metaTitle": "Competing for Supplier Resources: Reverse marketing, customer attractiveness, supplier satisfaction and preferred customer treatment",
+    "url": "https://www.sciencedirect.com/special-issue/338776/competing-for-supplier-resources-reverse-marketing-customer-attractiveness-supplier-satisfaction-and-preferred-customer-treatment",
+    "title": "Competing for Supplier Resources: Reverse marketing, customer attractiveness, supplier satisfaction and preferred customer treatment",
+    "slug": "elsevier-competing-for-supplier-resources-reverse-marketing-customer-attractiveness-supplier-satisfaction-and-preferred-customer-treatment",
+    "contentHash": "629f4ba4d3abf379c10841e920adf9079b51400b28d0832b5c7fa226a3f163a8",
+    "topics": [
+      "Reverse marketing",
+      "Customer attractiveness",
+      "Supplier satisfaction",
+      "Preferred customer treatment",
+      "Buyer-supplier relationships",
+      "Resource allocation in supply chains"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how organizations compete for valuable supplier resources and the mechanisms through which they establish themselves as preferred customers. It explores the strategic and relational dynamics that influence supplier decisions about resource allocation and customer prioritization."
+      ]
+    },
+    "tags": [
+      "supply chain management",
+      "buyer-supplier relations",
+      "reverse marketing",
+      "customer management"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-11-30T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 307,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-07T20:20:55.957Z"
+  },
+  {
+    "journal": "Pacific-Basin Finance Journal",
+    "abbreviation": "elsevier",
+    "issn": "1879-0585",
+    "metaTitle": "Informal Institutions across Emerging Capital Markets in the Age of Artificial Intelligence",
+    "url": "https://www.sciencedirect.com/special-issue/338785/informal-institutions-across-emerging-capital-markets-in-the-age-of-artificial-intelligence",
+    "title": "Informal Institutions across Emerging Capital Markets in the Age of Artificial Intelligence",
+    "slug": "elsevier-informal-institutions-across-emerging-capital-markets-in-the-age-of-artificial-intelligence",
+    "contentHash": "f094109626757fac964d9cd26990d6ad602ada83e2f2f58b8275f15cbc4b76bb",
+    "topics": [
+      "Informal institutions",
+      "Emerging capital markets",
+      "Artificial intelligence",
+      "Capital market dynamics",
+      "Institutional frameworks",
+      "AI applications in finance"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how informal institutions shape the functioning and development of emerging capital markets in the context of rapid artificial intelligence adoption. The call seeks research exploring the intersection of traditional institutional structures, informal practices, and modern AI technologies in emerging financial markets."
+      ]
+    },
+    "tags": [
+      "emerging markets",
+      "finance",
+      "artificial intelligence",
+      "institutions"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-02-28T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 347,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-07T20:20:55.957Z"
+  },
+  {
+    "journal": "International Journal of Intercultural Relations",
+    "abbreviation": "elsevier",
+    "issn": "1873-7552",
+    "metaTitle": "Intercultural Relations in Digital and Unequal Worlds: Global South, non-WEIRD Contexts, and Methodological Frontiers (1)",
+    "url": "https://www.sciencedirect.com/special-issue/338795/intercultural-relations-in-digital-and-unequal-worlds-global-south-non-weird-contexts-and-methodological-frontiers-1",
+    "title": "Intercultural Relations in Digital and Unequal Worlds: Global South, non-WEIRD Contexts, and Methodological Frontiers",
+    "slug": "elsevier-intercultural-relations-in-digital-and-unequal-worlds-global-south-non-weird-contexts-and-methodological-frontiers-1",
+    "contentHash": "1eb1a84c8029d80eb27a7247ea9d24884c0fbae9a021c7ea08d07e8b57c1075b",
+    "topics": [
+      "Intercultural relations in digital contexts",
+      "Global South perspectives",
+      "Non-WEIRD contexts",
+      "Digital inequality",
+      "Methodological approaches to intercultural research"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines intercultural relations within digital environments, with particular emphasis on perspectives from the Global South and non-WEIRD (Western, Educated, Industrialized, Rich, Democratic) contexts. The collection seeks to address how digital technologies shape cross-cultural interactions in economically and socially diverse settings."
+      ]
+    },
+    "tags": [
+      "intercultural communication",
+      "digital media",
+      "global south",
+      "methodology"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-04-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 359,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-07T20:20:55.957Z"
+  },
+  {
+    "journal": "Transport Policy",
+    "abbreviation": "elsevier",
+    "issn": "1879-310X",
+    "metaTitle": "Sustainable Energy Solutions for Low-Carbon and Smart Mobility",
+    "url": "https://www.sciencedirect.com/special-issue/338745/sustainable-energy-solutions-for-low-carbon-and-smart-mobility",
+    "title": "Sustainable Energy Solutions for Low-Carbon and Smart Mobility",
+    "slug": "elsevier-sustainable-energy-solutions-for-low-carbon-and-smart-mobility",
+    "contentHash": "536c1d2ee2f87a20ee285cabedd4ceba0cb2be09abe622f37e744006f7889f31",
+    "topics": [
+      "Low-carbon transport",
+      "Smart mobility",
+      "Sustainable energy solutions",
+      "Electric vehicles",
+      "Public transportation",
+      "Alternative fuels",
+      "Mobility infrastructure"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue focuses on sustainable energy approaches and technologies that enable low-carbon and intelligent mobility systems. The collection seeks to advance understanding of how energy solutions can reduce transportation emissions while supporting smart mobility innovations and infrastructure development."
+      ]
+    },
+    "tags": [
+      "sustainable energy",
+      "transportation",
+      "low-carbon mobility",
+      "smart mobility"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-07-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 315,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-07T20:20:55.957Z"
+  },
+  {
+    "journal": "Telecommunications Policy",
+    "abbreviation": "elsevier",
+    "issn": "1879-3258",
+    "metaTitle": "Telecommunications Policy in Transition: Infrastructure, Platforms, Media and AI",
+    "url": "https://www.sciencedirect.com/special-issue/338746/telecommunications-policy-in-transition-infrastructure-platforms-media-and-ai",
+    "title": "Telecommunications Policy in Transition: Infrastructure, Platforms, Media and AI",
+    "slug": "elsevier-telecommunications-policy-in-transition-infrastructure-platforms-media-and-ai",
+    "contentHash": "70bc6be877c01a1eb69499508abe5ff80fa30672456be87739fa56f0a93298da",
+    "topics": [
+      "Telecommunications policy",
+      "Infrastructure",
+      "Platforms",
+      "Media",
+      "Artificial intelligence"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue explores telecommunications policy during a period of significant transformation. The call invites research addressing how policy frameworks are evolving across infrastructure development, platform regulation, media integration, and the integration of artificial intelligence technologies into telecommunications systems."
+      ]
+    },
+    "tags": [
+      "telecommunications",
+      "policy",
+      "infrastructure",
+      "platforms",
+      "media",
+      "ai"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-03-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 340,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-07T20:20:55.957Z"
+  },
+  {
+    "journal": "Journal of Transport Geography",
+    "abbreviation": "elsevier",
+    "issn": "1873-1236",
+    "metaTitle": "Urban Air Mobility and Drone Logistics",
+    "url": "https://www.sciencedirect.com/special-issue/338756/urban-air-mobility-and-drone-logistics",
+    "title": "Urban Air Mobility and Drone Logistics",
+    "slug": "elsevier-urban-air-mobility-and-drone-logistics",
+    "contentHash": "bbe2ec1fb0f632486f0d8b37154ac8728c27db8c57cc3507124bcff4ff3b8c40",
+    "topics": [
+      "Urban air mobility",
+      "Drone logistics"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue of the Journal of Transport Geography invites research on urban air mobility and drone logistics. The issue seeks to explore how emerging aerial transportation technologies are reshaping urban logistics networks and transportation systems."
+      ]
+    },
+    "tags": [
+      "urban air mobility",
+      "drone logistics",
+      "transport geography"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-09-30T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 258,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-07T20:20:55.957Z"
+  },
+  {
+    "journal": "Organizational Behavior Teaching Review",
+    "abbreviation": "sage",
+    "issn": "1552-6658",
+    "metaTitle": "JME is calling for papers for a special issue on AI and Responsible Management Education",
+    "url": "https://journals.sagepub.com/page/jme/cfp-ai-and-responsible-management-education",
+    "title": "AI and Responsible Management Education",
+    "slug": "sage-jme-is-calling-for-papers-for-a-special-issue-on-ai-and-responsible-management-education",
+    "contentHash": "b30a31ec1df64930e0d73a7622503cb7d89d55452febc2a3723590ddb04a7fde",
+    "topics": [
+      "AI in management education",
+      "Responsible management education",
+      "Artificial intelligence applications in education"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines the intersection of artificial intelligence and responsible management education. The issue seeks submissions exploring how AI technologies can be integrated into management education while maintaining ethical standards and promoting responsible practices in business schools and management programs."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "management education",
+      "responsible management",
+      "ethics"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-04-01T10:00:00.000Z",
+        "description": "Submissions open",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-06-01T10:00:00.000Z",
+        "description": "Submissions close",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 328,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-07T20:20:55.957Z"
+  },
+  {
+    "journal": "R and D Management",
+    "abbreviation": "wiley",
+    "issn": "1467-9310",
+    "metaTitle": "Managing Intellectual Property and Intangible Assets across the Lifecycle of Circular or Regenerative Innovation",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14679310/call-for-papers/si-2026-001349",
+    "title": "Managing Intellectual Property and Intangible Assets across the Lifecycle of Circular or Regenerative Innovation",
+    "slug": "wiley-managing-intellectual-property-and-intangible-assets-across-the-lifecycle-of-circular-or-regenerative-innovation",
+    "contentHash": "4d8e910663190de0d00d9a5ccfa3f7ad6f0162c88945ccc7ad0aa63c2b452070",
+    "topics": [
+      "Alignment between IP strategy, business strategy and circular/regenerative objectives",
+      "CE/RE-specific IP and intangible asset management approaches",
+      "Strategic use of IP by innovation ecosystem stakeholders towards CE/RE transitions",
+      "Factors affecting degree of openness and associated IP strategies for CE/RE",
+      "Soft IP for collaborative innovation (data, software, algorithms, know-how)",
+      "IP sharing models and licensing approaches for ecosystem collaboration",
+      "IP support systems for start-ups and SMEs in coopetition settings",
+      "Advancing IP skills and capabilities for collaborative CE/RE innovation",
+      "IP regimes, institutional frameworks and innovation policies for CE/RE",
+      "Geopolitical shifts, supply-chain dependencies and IP provisions in trade agreements",
+      "Evolving legislation and its impact on firm-level IP strategies (rights to repair)",
+      "Patent, trademark and novel datasets for measuring CE/RE innovation",
+      "GenAI and LLMs for new research designs on IP and innovation",
+      "Interdisciplinary approaches to IP governance combining multiple perspectives",
+      "Case study methodologies for IP impacts on R&D and innovation management"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines intellectual property and intangible asset management in circular and regenerative innovation. As organizations transition from linear to circular business models, IP management becomes critical because these innovations require intangible assets to flow across organizational boundaries, enabling collaborative value creation. IP rights present tensions: they can incentivize circular R&D and govern collaborations, yet also limit technology access, restrict innovation diffusion, or reinforce linear models.",
+        "The special issue welcomes theoretical and empirical research from innovation management, circular economy, and IP perspectives. It addresses how IP management can enable or constrain transitions toward circularity and regeneration across product and technology lifecycles. The editors invite solution-oriented contributions, interdisciplinary work, and research spanning diverse sectors, firm sizes, and countries, including low- and middle-income economies."
+      ]
+    },
+    "tags": [
+      "circular economy",
+      "intellectual property management",
+      "regenerative innovation",
+      "intangible assets",
+      "innovation ecosystems"
+    ],
+    "editors": [
+      {
+        "name": "Frank Tietze",
+        "affiliation": "University of Cambridge"
+      },
+      {
+        "name": "Dolores Modic",
+        "affiliation": "Nord University"
+      },
+      {
+        "name": "Giovanna Capponi",
+        "affiliation": "Utrecht University"
+      },
+      {
+        "name": "Pratheeba Vimalnath",
+        "affiliation": "University of Exeter"
+      },
+      {
+        "name": "Ioana Stefan",
+        "affiliation": "Mälardalen University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-11T11:00:00.000Z",
+        "description": "Submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-01-31T11:00:00.000Z",
+        "description": "Submission window closes",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 996,
+      "tauxCopie": 0.025210084033613446,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-07T20:20:55.957Z"
+  },
+  {
+    "journal": "Expert Systems",
+    "abbreviation": "wiley",
+    "issn": "1468-0394",
+    "metaTitle": "Multimodal Large Language Models and Agentic AI in Transportation",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14680394/call-for-papers/si-2026-001331",
+    "title": "Multimodal Large Language Models and Agentic AI in Transportation",
+    "slug": "wiley-multimodal-large-language-models-and-agentic-ai-in-transportation",
+    "contentHash": "73136f3175701d651efb2be977a781aa32ced46782713442981d46af3937bd24",
+    "topics": [
+      "Multimodal Foundation Models for Transportation",
+      "Transportation-Focused LLMs and Knowledge-Grounded Reasoning",
+      "Vision-Language-Action Models for Connected and Automated Driving",
+      "Multimodal Traffic Perception and Situation Understanding",
+      "Agentic AI and Multi-Agent Transportation Intelligence",
+      "Traffic Forecasting and Mobility Demand Modeling",
+      "Transportation Operations, Logistics, and Mobility Services",
+      "Digital Twins, Simulation, and Generative Traffic Modeling",
+      "Evaluation, Robustness, Safety, and Explainability",
+      "Responsible, Human-Centered, and Sustainable Transportation AI"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue addresses how multimodal large language models and agentic AI are transforming transportation systems. By combining language understanding with visual, spatial, and sensor data, these technologies enable more intelligent autonomous driving, traffic management, and mobility services. The focus is on advancing safety, efficiency, accessibility, and sustainability across transportation networks.",
+        "The issue tackles key challenges in deploying these systems in transportation, including grounding language in real traffic scenes, handling diverse sensor inputs, generalizing across different cities and conditions, and ensuring trustworthy decision-making in safety-critical scenarios. Submissions should connect foundational AI methods to rigorous evaluation and real-world transportation outcomes.",
+        "The special issue welcomes research on architectures, algorithms, datasets, benchmarks, and deployment of multimodal and LLM-based systems across autonomous driving, traffic prediction, infrastructure coordination, public transit, and freight logistics. Research addressing safety, fairness, privacy, human oversight, and sustainability in transportation AI is also welcomed."
+      ]
+    },
+    "tags": [
+      "large language models",
+      "multimodal ai",
+      "transportation",
+      "autonomous driving",
+      "traffic management",
+      "agentic ai"
+    ],
+    "editors": [
+      {
+        "name": "Yuhuan Lu",
+        "affiliation": "Macao Polytechnic University"
+      },
+      {
+        "name": "Yuanfang Zhu",
+        "affiliation": "Nagoya University"
+      },
+      {
+        "name": "Jun Zhuang",
+        "affiliation": "Boise State University"
+      },
+      {
+        "name": "Guoqiang Mao",
+        "affiliation": "Southeast University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-05-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1190,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-07T20:20:55.957Z"
+  },
+  {
+    "journal": "Journal of Business Logistics",
+    "abbreviation": "wiley",
+    "issn": "2158-1592",
+    "metaTitle": "To the Point! Supply Chain Management Design: Seeking Research that Resonates",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/21581592/JBL-To-the-Point-STF-2026_27-1793881767027.pdf",
+    "title": "To the Point! Supply Chain Management Design",
+    "slug": "wiley-to-the-point-supply-chain-management-design-seeking-research-that-resonates",
+    "contentHash": "13651304c4c30262333cfea8da9c52488f5b578941b698f6c76d9e4c138d852f",
+    "topics": [
+      "Designing supply chain processes and systems for competitive success",
+      "Sustainability, risk, and operational excellence connections",
+      "Global supply chain footprint redesign",
+      "Public policy for supply chain transformation",
+      "Value creation across organizational boundaries",
+      "Technology and AI for supply chain capabilities",
+      "Innovation for solving complex problems"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue calls for original, impactful research on supply chain management that addresses contemporary business challenges. The work should demonstrate practical relevance to decision-makers while advancing theory, combining rigor with accessibility for both academics and practitioners. Research must be based on recent empirical data and present findings that are timely, thought-provoking, and clearly communicated.",
+        "The journal seeks papers examining how organizations can design efficient supply chain systems and develop distinctive capabilities to navigate dynamic markets. Topics include supply chain process innovation, managing sustainability and risk trade-offs, reconfiguring global operations amid geopolitical pressures, developing enabling policies, fostering cross-organizational collaboration, and leveraging emerging technologies like AI to gain competitive advantage."
+      ]
+    },
+    "tags": [
+      "supply chain management",
+      "supply chain design",
+      "empirical research",
+      "practitioner impact"
+    ],
+    "editors": [
+      {
+        "name": "Matthias Klumpp",
+        "affiliation": ""
+      },
+      {
+        "name": "Medo Pournader",
+        "affiliation": ""
+      },
+      {
+        "name": "Carl Marcus Wallenburg",
+        "affiliation": ""
+      },
+      {
+        "name": "Stan Fawcett",
+        "affiliation": ""
+      },
+      {
+        "name": "Mike Knemeyer",
+        "affiliation": ""
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-12-31T11:00:00.000Z",
+        "description": "Abstract submission deadline",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-15T11:00:00.000Z",
+        "description": "Feedback on abstracts",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-04-01T10:00:00.000Z",
+        "description": "Full paper submission window opens",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-04-30T10:00:00.000Z",
+        "description": "Full paper submission window closes",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 894,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-07T20:20:55.957Z"
+  },
+  {
     "journal": "Expert Systems",
     "abbreviation": "wiley",
     "issn": "1468-0394",
@@ -9904,7 +10462,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-09-13T16:20:55.735Z"
+    "pubDate": "2026-09-13T16:20:55.735Z",
+    "gracePeriod": "2026-12-07T20:20:55.957Z"
   },
   {
     "journal": "The International Journal of Health Planning and Management",
@@ -10220,7 +10779,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-09-13T16:20:55.735Z"
+    "pubDate": "2026-09-13T16:20:55.735Z",
+    "gracePeriod": "2026-12-07T20:20:55.957Z"
   },
   {
     "journal": "Expert Systems",
@@ -10334,7 +10894,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-09-13T16:20:55.735Z"
+    "pubDate": "2026-09-13T16:20:55.735Z",
+    "gracePeriod": "2026-12-07T20:20:55.957Z"
   },
   {
     "journal": "Financial Accountability and Management",
@@ -11052,7 +11613,7 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-09-06T09:51:06.483Z",
     "controle": {
       "longueur": 325,
@@ -12397,29 +12958,37 @@
     "url": "https://www.sciencedirect.com/special-issue/328646/quantum-computing-and-the-city",
     "title": "Quantum Computing and the City",
     "slug": "elsevier-quantum-computing-and-the-city",
-    "contentHash": "322a53228005345f0f4fbc10d4944dd77ade5fa5b17d2c2708f1fa1922bae76a",
-    "topics": [],
+    "contentHash": "8fdeecb061d31c004debfcf8cab09df1145e368f659be2ee93f7b51b6660d09b",
+    "topics": [
+      "Quantum computing applications in urban contexts",
+      "Cities"
+    ],
     "description": {
       "paragraphs": [
-        "This call for papers explores the intersection of quantum computing and urban environments, inviting research on how quantum technologies may impact cities and urban systems."
+        "This call invites research exploring the intersection of quantum computing and urban environments. The focus is on how quantum computing technologies can be applied to address challenges and opportunities in cities, as well as understanding the relationship between these emerging computational capabilities and urban systems."
       ]
     },
     "tags": [
       "quantum computing",
-      "urban studies",
-      "cities"
+      "urban studies"
     ],
     "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-31T11:00:00.000Z",
+        "date": "2026-12-31T11:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "controle": {
+      "longueur": 326,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Technology in Society",
@@ -18917,8 +19486,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-29T13:29:53.340Z"
+    "active": false,
+    "pubDate": "2026-08-29T13:29:53.340Z",
+    "gracePeriod": "2026-12-07T20:20:55.957Z"
   },
   {
     "journal": "Journal of Management Studies",
@@ -18952,7 +19522,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T13:29:53.340Z"
+    "pubDate": "2026-08-29T13:29:53.340Z",
+    "gracePeriod": "2026-12-07T20:20:55.957Z"
   },
   {
     "journal": "Journal of Management Studies",
@@ -18981,8 +19552,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-29T13:29:53.340Z"
+    "active": false,
+    "pubDate": "2026-08-29T13:29:53.340Z",
+    "gracePeriod": "2026-12-07T20:20:55.957Z"
   },
   {
     "journal": "Journal of Management Studies",
@@ -19008,7 +19580,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-29T13:29:53.340Z"
+    "pubDate": "2026-08-29T13:29:53.340Z",
+    "gracePeriod": "2026-12-07T20:20:55.957Z"
   },
   {
     "journal": "Financial Review",
@@ -27438,29 +28011,59 @@
     "abbreviation": "sage",
     "issn": "1749-3374",
     "metaTitle": "Announcing two Special Issues",
-    "url": "https://journals.sagepub.com/doi/full/10.1177/10323732251358004",
-    "title": "Accounting and Totalitarianism in an Historical Perspective",
+    "url": "https://journals.sagepub.com/pb-assets/cmscontent/ACH/CfP%20Accounting%20historicity-1793688921633.pdf",
+    "title": "Research Paradigms, Methodological Choice, and Historicity in Accounting History",
     "slug": "sage-announcing-two-special-issues",
-    "contentHash": "302b93aa9239dd6a9c113a48b083e197e2818838a4c7a2090dced60ce356cbd0",
-    "topics": [],
+    "contentHash": "46d659874a845adbf8a52bac367cf7ac35c28027323719581586d9cad3e38489",
+    "topics": [
+      "Ontological, epistemological, and axiological positioning in accounting history research",
+      "Historical method in accounting history research",
+      "Methodologies in accounting history and their implications for knowledge production",
+      "Interpretation, validation, and corroboration of primary sources",
+      "Appropriate and inappropriate uses of secondary sources",
+      "Source criticism, transparency, and evidential sufficiency in historical research",
+      "The role of context in the analysis of accounting's past",
+      "Methodological choices and myths, anomalies, controversies in literature",
+      "Tensions between theory-driven research and historically grounded inquiry",
+      "Historical cases as ends versus means to theoretical development"
+    ],
     "description": {
-      "paragraphs": []
+      "paragraphs": [
+        "This special issue examines what drives researchers to select specific historical methods and methodologies when studying accounting history. It seeks to encourage critical examination of how accounting history is conducted, interpreted, and communicated, with emphasis on how research paradigms influence methodological decisions and shape scholarly understanding and debates within the field.",
+        "The issue investigates connections between researcher assumptions, source interpretation, and the broader consequences of methodological choices for research quality and credibility. It addresses concerns that insufficient consideration of historicity, evidence quality, contextual factors, and source evaluation practices may lead to misconceptions and controversies in accounting history literature.",
+        "The special issue welcomes diverse contributions including empirical, methodological, historiographical, conceptual, and critical papers that substantively engage with improving the methodological rigor, reflexivity, and historical validity of accounting history scholarship. A related workshop will provide opportunities for authors to discuss and develop ideas connected to the special issue's themes."
+      ]
     },
     "tags": [
       "accounting history",
-      "totalitarianism"
+      "research methodology",
+      "historiography",
+      "historical research methods"
     ],
-    "editors": [],
-    "associate_editors": [],
-    "dates": [
+    "editors": [
       {
-        "date": "2026-10-31T11:00:00.000Z",
-        "description": "Full paper submission deadline",
-        "is_full_paper_submission_deadline": true
+        "name": "Alan Sangster",
+        "affiliation": "University of Aberdeen"
+      },
+      {
+        "name": "Martin Quinn",
+        "affiliation": ""
+      },
+      {
+        "name": "Martin Persson",
+        "affiliation": ""
       }
     ],
+    "associate_editors": [],
+    "dates": [],
     "active": true,
-    "pubDate": "2026-08-18T17:57:56.114Z"
+    "pubDate": "2026-08-18T17:57:56.114Z",
+    "controle": {
+      "longueur": 1198,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Business & Society",
@@ -38729,8 +39332,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-12-07T20:20:55.957Z"
   },
   {
     "journal": "Journal of Economic Behavior & Organization",
@@ -44206,8 +44810,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-12-07T20:20:55.957Z"
   },
   {
     "journal": "Journal of International Money and Finance",

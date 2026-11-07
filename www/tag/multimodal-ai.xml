@@ -4,7 +4,7 @@
         <title>kerostig | Tag : multimodal ai</title>
         <link>https://kerostig.org/tag/multimodal-ai/</link>
         <description>Derniers appels à publications avec le tag 'multimodal ai'.</description>
-        <lastBuildDate>Mon, 05 Oct 2026 10:15:17 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Nov 2026 20:21:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -15,61 +15,61 @@
         </image>
         <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[Artificial Intelligence, Affective Computing and Video Analytics for Intelligent Information Systems]]></title>
-            <link>https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/</link>
-            <guid>springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems</guid>
-            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <title><![CDATA[Multimodal Large Language Models and Agentic AI in Transportation]]></title>
+            <link>https://kerostig.org/call/wiley-multimodal-large-language-models-and-agentic-ai-in-transportation/</link>
+            <guid>wiley-multimodal-large-language-models-and-agentic-ai-in-transportation</guid>
+            <pubDate>Sat, 07 Nov 2026 20:20:55 GMT</pubDate>
             <content:encoded><![CDATA[
 <div>
     
         
-        <p><strong>Andrea Generosi</strong>, Pegaso University</p>
+        <p><strong>Yuhuan Lu</strong>, Macao Polytechnic University</p>
         
-        <p><strong>Luigi Gallo</strong>, Pegaso University</p>
+        <p><strong>Yuanfang Zhu</strong>, Nagoya University</p>
         
-        <p><strong>Valerio De Luca</strong>, Pegaso University</p>
+        <p><strong>Jun Zhuang</strong>, Boise State University</p>
         
-        <p><strong>Maura Mengoni</strong>, Marche Polytechnic University</p>
-        
-        <p><strong>Josef Spjut</strong>, NVIDIA</p>
-        
-        <p><strong>Lucio De Paolis</strong>, University of Salento</p>
+        <p><strong>Guoqiang Mao</strong>, Southeast University</p>
         
     
     
     
-    <p>This special issue addresses the intersection of video analytics and affective computing in intelligent information systems. With video data rapidly expanding across surveillance, retail, sports, and social platforms, combined with advances in deep learning and multimodal models, there is growing potential to extract emotional and social signals from visual content to enhance user engagement, recommendation systems, and decision-making processes.</p>
+    <p>This special issue addresses how multimodal large language models and agentic AI are transforming transportation systems. By combining language understanding with visual, spatial, and sensor data, these technologies enable more intelligent autonomous driving, traffic management, and mobility services. The focus is on advancing safety, efficiency, accessibility, and sustainability across transportation networks.</p>
     
-    <p>The collection seeks original research, surveys, and perspectives on methods that fuse visual, auditory, and textual data to detect emotion, sentiment, engagement, and intent in real time. Topics include scalable video processing architectures, emotion recognition from video, multimodal analysis techniques, streaming-native AI systems, explainability and fairness in affective AI, and domain-specific applications in healthcare, finance, education, and smart environments.</p>
+    <p>The issue tackles key challenges in deploying these systems in transportation, including grounding language in real traffic scenes, handling diverse sensor inputs, generalizing across different cities and conditions, and ensuring trustworthy decision-making in safety-critical scenarios. Submissions should connect foundational AI methods to rigorous evaluation and real-world transportation outcomes.</p>
+    
+    <p>The special issue welcomes research on architectures, algorithms, datasets, benchmarks, and deployment of multimodal and LLM-based systems across autonomous driving, traffic prediction, infrastructure coordination, public transit, and freight logistics. Research addressing safety, fairness, privacy, human oversight, and sustainability in transportation AI is also welcomed.</p>
     
     <p>
-        Appel publié par Information Systems Frontiers.
+        Appel publié par Expert Systems.
         
-        <a href="https://link.springer.com/collections/hfgbffihjb">Voir l'appel sur le site de l'éditeur</a>.
+        <a href="https://onlinelibrary.wiley.com/page/journal/14680394/call-for-papers/si-2026-001331">Voir l'appel sur le site de l'éditeur</a>.
         
-        <a href="https://kerostig.org/call/springer-artificial-intelligence-affective-computing-and-video-analytics-for-intelligent-information-systems/">Fiche de l'appel sur kerostig</a>.
+        <a href="https://kerostig.org/call/wiley-multimodal-large-language-models-and-agentic-ai-in-transportation/">Fiche de l'appel sur kerostig</a>.
     </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Scalable video understanding: algorithms and architectures for analyzing large-scale video streams (e.g. in surveillance, social media or enterprise) to support decision-making and business analytics.</li>
+        <li>Multimodal Foundation Models for Transportation</li>
         
-        <li>Emotion and sentiment analysis: detection of affective and engagement cues in video (e.g. customer-journey recordings, advertisement viewing, user-generated content).</li>
+        <li>Transportation-Focused LLMs and Knowledge-Grounded Reasoning</li>
         
-        <li>Multimodal fusion: methods that combine vision with audio, text or other modalities to enrich social-media intelligence and contextual analysis.</li>
+        <li>Vision-Language-Action Models for Connected and Automated Driving</li>
         
-        <li>Streaming-native AI and MLOps: online inference under tight latency budgets, stream processing/windowing, drift detection, A/B testing and safe rollouts, cost–latency–accuracy trade-offs, and end-to-end observability for production pipelines.</li>
+        <li>Multimodal Traffic Perception and Situation Understanding</li>
         
-        <li>Video(-language) models for streaming: multimodal LLMs/VLMs, memory and token compression for long-horizon video, retrieval-augmented streaming.</li>
+        <li>Agentic AI and Multi-Agent Transportation Intelligence</li>
         
-        <li>Real-time and distributed architectures: edge/cloud or federated systems for real-time video analytics at scale, including considerations of latency, bandwidth and privacy.</li>
+        <li>Traffic Forecasting and Mobility Demand Modeling</li>
         
-        <li>Explainability, fairness and compliance: approaches to make affective video AI transparent and trustworthy, addressing ethical, legal and regulatory challenges.</li>
+        <li>Transportation Operations, Logistics, and Mobility Services</li>
         
-        <li>Adaptive learning: techniques for domain adaptation, continual learning or few-shot learning to handle evolving video streams and reduce the need for large labeled datasets.</li>
+        <li>Digital Twins, Simulation, and Generative Traffic Modeling</li>
         
-        <li>Case studies and applications: empirical studies in domains such as healthcare (e.g. remote patient monitoring), finance (e.g. behavioral analytics), education (e.g. XR/serious games environments), and smart environments.</li>
+        <li>Evaluation, Robustness, Safety, and Explainability</li>
+        
+        <li>Responsible, Human-Centered, and Sustainable Transportation AI</li>
         
     </ul>
     
@@ -77,7 +77,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>October 30, 2026: Submission deadline</li>
+        <li>May 31, 2027: Submission deadline</li>
         
     </ul>
     
