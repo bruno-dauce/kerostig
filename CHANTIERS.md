@@ -24,6 +24,10 @@ pas une chute de la liste : les appels de ces revues restent actifs et
 inchangés en base. Si la même revue revient d'une semaine à l'autre,
 la regarder à la main.
 
+`scrapers/journals/wileyChemins.json` est un cache de revérification
+(7 jours), réécrit à chaque lancement manuel : le voir modifié dans
+`git status` est normal.
+
 **Si la collecte hebdomadaire (CI) échoue** :
 1. Les données déjà collectées et passées par le modèle sont
    committées et poussées quand même (`if: always()` dans le
@@ -57,7 +61,9 @@ la regarder à la main.
   Elsevier du 2026-08-23 — PR #22.
 - Correctif Emerald (2026-11-07) : un appel dont la page de détail est
   illisible est préservé en base (actif, inchangé) au lieu d'être
-  désactivé ; le run manuel du 2026-11-07 en avait désactivé 13 à tort.
+  désactivé ; le run manuel du 2026-11-07 en avait désactivé 13 à tort
+  — PR #55. Validé en conditions réelles le 2026-11-07 : 2 appels
+  préservés sur 244, aucun désactivé à tort.
 
 ## En attente, dans l'ordre
 
@@ -185,6 +191,22 @@ partir d'une classification aussi juste que possible) :
 - Emerald : deuxième passage de reprise sur les pages de détail
   bloquées par Cloudflare, pour lire ce que le premier passage a
   manqué (aujourd'hui elles sont seulement préservées en base).
+- Emerald : la page de liste a été bloquée par Cloudflare une fois, le
+  2026-11-07, gérée par le gel de `diffChecker`. Si cela se reproduit,
+  traiter le blocage de la liste comme un chantier à part.
+- Flux RSS réécrits en entier à chaque collecte, car `lastBuildDate`
+  change à chaque génération (environ 2000 fichiers par commit) : ne les
+  réécrire que si leur contenu change.
+- Wiley : un échec de lecture d'une page de revue a désactivé 2 appels à
+  tort le 2026-11-07 (`wiley-board-dynamics-in-complex-times` et
+  `wiley-organizing-truth-in-an-age-of-polarization-and-artificial-intelligence`),
+  réactivés par un second passage. Wiley préserve les appels quand une
+  page de détail échoue, mais pas quand une page de revue entière charge
+  mal ou se vide : même défaut que celui corrigé pour Emerald, à traiter
+  à part.
+- Vérifier la page de *International Transactions in Operational
+  Research* : le contenu lu au scraping semble appartenir à une autre
+  revue (*Children & Society*).
 - Renormalisation CRLF (`git add --renormalize .`), quand aucune PR
   n'est ouverte.
 - Horodatage Mir@bel dans l'attribution.
