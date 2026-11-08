@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : content integrity</title>
+        <link>https://kerostig.org/tag/content-integrity/</link>
+        <description>Derniers appels à publications avec le tag 'content integrity'.</description>
+        <lastBuildDate>Sun, 08 Nov 2026 14:38:56 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : content integrity</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/content-integrity/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Intelligent and Trustworthy Web Information Systems]]></title>
+            <link>https://kerostig.org/call/emerald-intelligent-and-trustworthy-web-information-systems/</link>
+            <guid>emerald-intelligent-and-trustworthy-web-information-systems</guid>
+            <pubDate>Sun, 08 Nov 2026 14:34:25 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Junhui Zhao</strong>, Beijing Jiaotong University</p>
+        
+        <p><strong>Jiaheng Wang</strong>, Southeast University</p>
+        
+        <p><strong>Hong Zhao</strong>, Tsinghua University</p>
+        
+    
+    
+    
+    <p>The Web ecosystem faces interconnected challenges to trust spanning technical vulnerabilities, content manipulation, and regulatory compliance. System-level attacks and data breaches are compounded by the ease with which generative AI enables mass production of false content. Simultaneously, regulations like the Digital Services Act and AI Act demand new levels of platform accountability and content moderation that conventional governance cannot support, creating an urgent need for integrated solutions.</p>
+    
+    <p>This special issue seeks research on intelligent and trustworthy Web information systems addressing three interconnected themes: Web security, content integrity, and online discourse governance. The research should span six dimensions of trustworthiness including security, privacy, explainability, fairness, robustness and accountable human oversight. The call welcomes original research and review articles that integrate Web security techniques, content monitoring systems, AI-based detection methods, and platform governance approaches to build a trustworthy Web ecosystem.</p>
+    
+    <p>
+        Appel publié par International Journal of Web Information Systems.
+        
+        <a href="https://www.emerald.com/ijwis/calls-for-submissions/2139/Intelligent-and-Trustworthy-Web-Information?searchresult=1">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/emerald-intelligent-and-trustworthy-web-information-systems/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Web attacks, vulnerability discovery and malware analysis</li>
+        
+        <li>Authentication and identity fraud detection</li>
+        
+        <li>Automated bot detection</li>
+        
+        <li>Web data protection and differential privacy</li>
+        
+        <li>Federated learning and compliant computing</li>
+        
+        <li>Cryptographic applications for Web services</li>
+        
+        <li>Trusted execution for Web services</li>
+        
+        <li>Disinformation and misinformation</li>
+        
+        <li>Rumours and fact checking</li>
+        
+        <li>Deepfake detection</li>
+        
+        <li>AI generated content identification</li>
+        
+        <li>Coordinated manipulation detection</li>
+        
+        <li>Organized trolls and social bots</li>
+        
+        <li>Content provenance</li>
+        
+        <li>Source credibility assessment</li>
+        
+        <li>Information integrity modelling</li>
+        
+        <li>Web search and information extraction</li>
+        
+        <li>Event detection and topic modelling</li>
+        
+        <li>Sentiment and emotion analysis</li>
+        
+        <li>Stance analysis</li>
+        
+        <li>Opinion diffusion and influence</li>
+        
+        <li>Information cascades</li>
+        
+        <li>Early warning models</li>
+        
+        <li>Large language models</li>
+        
+        <li>Retrieval augmented generation</li>
+        
+        <li>AI agents for the Web</li>
+        
+        <li>Graph learning</li>
+        
+        <li>Social network analysis</li>
+        
+        <li>Multimodal representation learning</li>
+        
+        <li>Explainable methods for Web intelligence</li>
+        
+        <li>Fair methods for Web intelligence</li>
+        
+        <li>Robust methods for Web intelligence</li>
+        
+        <li>Compliance technologies and audit trails</li>
+        
+        <li>Accountable system design</li>
+        
+        <li>Applications in emergencies and public health</li>
+        
+        <li>Applications in elections and disasters</li>
+        
+        <li>Applications in electronic government</li>
+        
+        <li>Benchmarks and datasets</li>
+        
+        <li>Evaluation frameworks</li>
+        
+        <li>Reproducible methods</li>
+        
+        <li>Case studies and deployment experience</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>January 12, 2026: Opening date for manuscript submissions</li>
+        
+        <li>April 30, 2027: Closing date for abstract submission</li>
+        
+        <li>May 31, 2027: Closing date for manuscript submission</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>
