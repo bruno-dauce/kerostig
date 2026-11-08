@@ -1,5 +1,292 @@
 [
   {
+    "journal": "International Marketing Review",
+    "abbreviation": "emerald",
+    "issn": "1758-6763",
+    "metaTitle": "Entrepreneurship and International Marketing Research",
+    "url": "https://www.emerald.com/imr/calls-for-submissions/2146/Entrepreneurship-and-International-Marketing?searchresult=1",
+    "title": "Entrepreneurship and International Marketing Research",
+    "slug": "emerald-entrepreneurship-and-international-marketing-research",
+    "contentHash": "67ac8d6d9e62a724282514419724e937af2d2863fe2b1284d7d73b355b930a02",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "The content of this call for papers is not accessible through the provided text. The page appears to be a login screen for Emerald's International Marketing Review, and no details about the special issue's focus, research areas, or editorial information are visible."
+      ]
+    },
+    "tags": [
+      "entrepreneurship",
+      "international marketing"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-11-06T11:00:00.000Z",
+        "description": "Call for papers date",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "controle": {
+      "longueur": 266,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-08T14:34:25.495Z"
+  },
+  {
+    "journal": "International Journal of Web Information Systems",
+    "abbreviation": "emerald",
+    "issn": "1744-0092",
+    "metaTitle": "Intelligent and Trustworthy Web Information Systems",
+    "url": "https://www.emerald.com/ijwis/calls-for-submissions/2139/Intelligent-and-Trustworthy-Web-Information?searchresult=1",
+    "title": "Intelligent and Trustworthy Web Information Systems",
+    "slug": "emerald-intelligent-and-trustworthy-web-information-systems",
+    "contentHash": "0fe53e0537403f9965fda63c0d0797e3a9d667c65e453cfd8fc1ea751e889cf5",
+    "topics": [
+      "Web attacks, vulnerability discovery and malware analysis",
+      "Authentication and identity fraud detection",
+      "Automated bot detection",
+      "Web data protection and differential privacy",
+      "Federated learning and compliant computing",
+      "Cryptographic applications for Web services",
+      "Trusted execution for Web services",
+      "Disinformation and misinformation",
+      "Rumours and fact checking",
+      "Deepfake detection",
+      "AI generated content identification",
+      "Coordinated manipulation detection",
+      "Organized trolls and social bots",
+      "Content provenance",
+      "Source credibility assessment",
+      "Information integrity modelling",
+      "Web search and information extraction",
+      "Event detection and topic modelling",
+      "Sentiment and emotion analysis",
+      "Stance analysis",
+      "Opinion diffusion and influence",
+      "Information cascades",
+      "Early warning models",
+      "Large language models",
+      "Retrieval augmented generation",
+      "AI agents for the Web",
+      "Graph learning",
+      "Social network analysis",
+      "Multimodal representation learning",
+      "Explainable methods for Web intelligence",
+      "Fair methods for Web intelligence",
+      "Robust methods for Web intelligence",
+      "Compliance technologies and audit trails",
+      "Accountable system design",
+      "Applications in emergencies and public health",
+      "Applications in elections and disasters",
+      "Applications in electronic government",
+      "Benchmarks and datasets",
+      "Evaluation frameworks",
+      "Reproducible methods",
+      "Case studies and deployment experience"
+    ],
+    "description": {
+      "paragraphs": [
+        "The Web ecosystem faces interconnected challenges to trust spanning technical vulnerabilities, content manipulation, and regulatory compliance. System-level attacks and data breaches are compounded by the ease with which generative AI enables mass production of false content. Simultaneously, regulations like the Digital Services Act and AI Act demand new levels of platform accountability and content moderation that conventional governance cannot support, creating an urgent need for integrated solutions.",
+        "This special issue seeks research on intelligent and trustworthy Web information systems addressing three interconnected themes: Web security, content integrity, and online discourse governance. The research should span six dimensions of trustworthiness including security, privacy, explainability, fairness, robustness and accountable human oversight. The call welcomes original research and review articles that integrate Web security techniques, content monitoring systems, AI-based detection methods, and platform governance approaches to build a trustworthy Web ecosystem."
+      ]
+    },
+    "tags": [
+      "web security",
+      "trust",
+      "content integrity",
+      "disinformation",
+      "ai-generated content",
+      "platform governance",
+      "information systems"
+    ],
+    "editors": [
+      {
+        "name": "Junhui Zhao",
+        "affiliation": "Beijing Jiaotong University"
+      },
+      {
+        "name": "Jiaheng Wang",
+        "affiliation": "Southeast University"
+      },
+      {
+        "name": "Hong Zhao",
+        "affiliation": "Tsinghua University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-01-12T11:00:00.000Z",
+        "description": "Opening date for manuscript submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-04-30T10:00:00.000Z",
+        "description": "Closing date for abstract submission",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-05-31T10:00:00.000Z",
+        "description": "Closing date for manuscript submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1085,
+      "tauxCopie": 0.022556390977443608,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-08T14:34:25.495Z"
+  },
+  {
+    "journal": "Journal of Health Organization and Management",
+    "abbreviation": "emerald",
+    "issn": "1758-7247",
+    "metaTitle": "Organising Sustainable Health and Care: Resilience, Adaptation and Transformation in an Era of Polycrisis",
+    "url": "https://www.emerald.com/jhom/calls-for-submissions/2138/Organising-Sustainable-Health-and-Care-Resilience?searchresult=1",
+    "title": "Organising Sustainable Health and Care: Resilience, Adaptation and Transformation in an Era of Polycrisis",
+    "slug": "emerald-organising-sustainable-health-and-care-resilience-adaptation-and-transformation-in-an-era-of-polycrisis",
+    "contentHash": "bc592192db910d4075aaca2246cd2a9955f892d70b22ad0975e793870e1c72b3",
+    "topics": [
+      "Organising through polycrisis",
+      "Managing the polycrisis",
+      "Complexity and everyday work",
+      "Sustaining and scaling change",
+      "Leadership, power and governance",
+      "Workforce and models of care",
+      "Learning health systems",
+      "Digital health and artificial intelligence",
+      "Climate adaptation and mitigation",
+      "Patients, communities and co-production",
+      "Comparative and global perspectives"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how health and care organisations achieve sustainability amid interconnected crises. Rather than viewing sustainability as a technical endpoint, the issue conceptualises it as an ongoing organisational accomplishment shaped by people, resources, power relations and institutional conditions. Papers should explain how organisations respond to overlapping crises, manage complexity in practice and navigate the processes through which sustainability is or is not realised.",
+        "The special issue extends the 2026 OBHC Conference conversation on sustaining change in complex systems while using health resources responsibly. It seeks theoretically ambitious and empirically grounded work that moves beyond identifying sustainability needs to reveal the actual organisational mechanisms, practices and conditions enabling or preventing sustainable action in contemporary health systems."
+      ]
+    },
+    "tags": [
+      "health systems",
+      "sustainability",
+      "organisational resilience",
+      "polycrisis",
+      "healthcare management"
+    ],
+    "editors": [
+      {
+        "name": "Catherine Pope",
+        "affiliation": "University of Oxford"
+      },
+      {
+        "name": "Jeffrey Braithwaite",
+        "affiliation": "Macquarie University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-10-01T10:00:00.000Z",
+        "description": "Opening date for manuscript submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-01T11:00:00.000Z",
+        "description": "Closing date for manuscript submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 905,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-08T14:34:25.495Z"
+  },
+  {
+    "journal": "Journal of Public Budgeting, Accounting & Financial Management",
+    "abbreviation": "emerald",
+    "issn": "1945-1814",
+    "metaTitle": "Public sector accounting, audit, and accountability practices in a time of grand challenges",
+    "url": "https://www.emerald.com/jpbafm/calls-for-submissions/2143/Public-sector-accounting-audit-and-accountability?searchresult=1",
+    "title": "Public sector accounting, audit, and accountability practices in a time of grand challenges",
+    "slug": "emerald-public-sector-accounting-audit-and-accountability-practices-in-a-time-of-grand-challenges",
+    "contentHash": "1c07627985e5d108eeb6087a8b1bad3d13735ab9efea42142135db623ed1bcdd",
+    "topics": [
+      "Accounting, auditing, and accountability in response to grand challenges",
+      "Anticipatory accounting and crisis preparedness",
+      "Macro-micro accounting integration and fiscal sustainability",
+      "Digital transformation and data governance",
+      "Changing professional roles and competencies",
+      "Collaborative governance and multi-actor accountability",
+      "Critical perspectives on accounting practices",
+      "Accounting, accountability, and societal impact"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how public sector accounting, auditing, and accountability practices support institutional governance amid global challenges including climate change, digital transformation, and fiscal pressures. The collection recognizes that while international accounting standards promote transparency, significant variations exist in implementation. Expanded reporting frameworks now incorporate sustainability indicators, though digital technologies introduce new governance risks.",
+        "The special issue seeks both enabling and critical perspectives on accounting's role in public governance. It explores how accounting information, risk management, and performance measurement strengthen institutional capacity to respond to and anticipate challenges, enhance resilience, and support sustainable decision-making. It also examines whether existing accounting systems may constrain responses or generate unintended consequences.",
+        "The collection welcomes conceptual, empirical, and policy-oriented contributions from diverse contexts, emphasizing interdisciplinary perspectives that connect accounting research with debates on governance, sustainability, institutional resilience, and public value creation."
+      ]
+    },
+    "tags": [
+      "public sector accounting",
+      "accountability",
+      "governance",
+      "grand challenges",
+      "resilience",
+      "digital transformation",
+      "sustainability"
+    ],
+    "editors": [
+      {
+        "name": "Ricardo Rocha de Azevedo",
+        "affiliation": "University of Sao Paulo"
+      },
+      {
+        "name": "Nives Botica Redmayne",
+        "affiliation": "Massey University"
+      },
+      {
+        "name": "Alessandro Giosi",
+        "affiliation": "Lumsa University"
+      },
+      {
+        "name": "Giorgia Mattei",
+        "affiliation": "Roma Tre University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-10T11:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-01-31T11:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1216,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-08T14:34:25.495Z"
+  },
+  {
     "journal": "Journal of Purchasing and Supply Management",
     "abbreviation": "elsevier",
     "issn": "1873-6505",
@@ -1570,28 +1857,28 @@
     "url": "https://www.emerald.com/ebr/calls-for-submissions/2132/Entrepreneurship-and-Institutions-in-Latin-America?searchresult=1",
     "title": "Entrepreneurship and Institutions in Latin America: Strategic Management of High-Impact Ventures and Entrepreneurial Ecosystems",
     "slug": "emerald-entrepreneurship-and-institutions-in-latin-america-strategic-management-of-high-impact-ventures-and-entrepreneurial-ecosystems",
-    "contentHash": "0011cea149b497b01c22b8d788b6922c3e0a5912c7263662f121bbc564401fed",
+    "contentHash": "e14b4b3eba715119a82d3dd80b4ae2f637e992be932b5c488f6a7d15017db464",
     "topics": [
       "Institutional architectures and high-impact ventures in Latin America",
-      "Scaling strategies under institutional voids and macroeconomic volatility",
-      "Comparative metrics for entrepreneurship research in the Global South",
+      "Scaling strategies under institutional voids and resource constraints",
+      "Comparative metrics for entrepreneurship in the Global South",
       "Entrepreneurial ecosystem intermediaries in Latin America",
-      "Public policy instruments and regulatory experimentation",
-      "Feedback effects between firm-level strategic choices and institutional change"
+      "Public policy and regulatory experimentation",
+      "Feedback effects between firm-level choices and institutional change"
     ],
     "description": {
       "paragraphs": [
-        "This special issue examines how strategic management and entrepreneurial ecosystems interact within Latin America's institutional contexts. It focuses on high-impact ventures and ecosystem elements—capital, talent, norms, and policy—to understand how strategic decisions amid volatility reshape these ecosystems. The issue seeks comparative metrics of entrepreneurial output, case studies of venture-scaling strategies, and policy frameworks for institutional interventions.",
-        "The special issue fills a gap by combining strategic management and entrepreneurship through an institutional lens specific to Latin America. It examines how high-impact ventures reshape their ecosystem components, highlights intermediaries like accelerators and incubators, and introduces measurement frameworks suited to informality and rapid digitalization in the Global South.",
-        "The timing reflects converging trends: the literature remains Global North-centric, Latin America shows rapid digital adoption alongside persistent inequality, and recent crises have exposed ecosystem fragility. The issue aims to inform policymakers and managers pursuing inclusive and resilient entrepreneurship through evidence-based guidance aligned with United Nations Sustainable Development Goals."
+        "This special issue examines how institutional structures shape high-impact ventures in Latin American entrepreneurial ecosystems. It seeks evidence of how ventures operating under institutional voids and volatility generate effects that reshape their surrounding ecosystems, including comparative analyses of entrepreneurial output, scaling strategies, and frameworks for evaluating institutional interventions.",
+        "The special issue addresses a research gap by adopting an ecosystem-level institutional perspective on entrepreneurship in Latin America, where rapid digital adoption coexists with persistent inequality and informality. Recent disruptions from pandemics, supply-chain issues, and climate events have exposed ecosystem fragility, while policymakers experiment with regulatory sandboxes and targeted industrial policies. Contributions will inform sustainable development goals related to economic growth, innovation, and regional development.",
+        "The journal welcomes conceptual, empirical, and literature review submissions in strategic management, entrepreneurship, international business, and governance, following European Business Review's double-blind peer-review process and editorial standards."
       ]
     },
     "tags": [
-      "latin america",
       "entrepreneurship",
+      "latin america",
       "strategic management",
-      "institutions",
-      "entrepreneurial ecosystems"
+      "institutional ecosystems",
+      "policy"
     ],
     "editors": [
       {
@@ -1605,6 +1892,10 @@
       {
         "name": "Carlos Rodriguez",
         "affiliation": "INCAE Business School"
+      },
+      {
+        "name": "Jana Schmutzler",
+        "affiliation": "Universidad del Norte"
       }
     ],
     "associate_editors": [],
@@ -1621,8 +1912,8 @@
       }
     ],
     "controle": {
-      "longueur": 1257,
-      "tauxCopie": 0.0064516129032258064,
+      "longueur": 1206,
+      "tauxCopie": 0,
       "relance": true,
       "topicsTropLongs": 0
     },
@@ -7788,34 +8079,29 @@
     "url": "https://www.emerald.com/jmd/calls-for-submissions/1978/Fresh-narratives-on-Management-Development?searchresult=1",
     "title": "Fresh narratives on Management Development",
     "slug": "emerald-fresh-narratives-on-management-development",
-    "contentHash": "a04b3f0eec8a02d5c9afc467ef74a08fa7f7d2bc359aa2ffc286e1a05bc8ac10",
+    "contentHash": "57057de8fd89dbd75dfcb5b69c38b62d74cdb4a6d2a128cc96c411955365970e",
     "topics": [
       "Managerial competencies for sustainable digital transformation",
       "Responsible AI integration in management development",
       "Cross-cultural management development for geographically integrated teams",
-      "Management development for inclusive entrepreneurial ecosystems",
+      "Management development for inclusive and responsible entrepreneurial ecosystems",
       "Human agency in managing robotic and AI integration"
     ],
     "description": {
       "paragraphs": [
-        "This special issue advances management development research through brief reports addressing contemporary challenges facing managers in rapidly changing environments. It seeks responses to geopolitical instability, technological disruption, and sustainability pressures, while challenging traditional academic approaches that inadequately explain modern business complexities.",
-        "The special issue welcomes diverse empirical research methods and prioritizes contributions from early career researchers. Submissions should demonstrate practical applicability and offer actionable insights managers can implement. Particularly, the issue addresses urgent needs for management frameworks guiding AI integration, nearshoring trends, cross-cultural team management, and responsible autonomous systems governance, providing evidence-based tools to equip managers in transforming challenges into opportunities."
+        "This special issue advances management development through brief reports (up to 3,000 words) addressing contemporary challenges such as sustainable digital transformation, responsible AI integration, cross-cultural team management, and inclusive entrepreneurship. It welcomes empirical research using any method that tests theory, extends prior research, or explores new phenomena.",
+        "The issue particularly encourages submissions from Early Career Researchers and PhD/DBA scholars through a mentorship-through-publication model. All submissions must demonstrate practical applicability and provide actionable insights for managers, serving as practical toolkits for management development. The work aligns with UN Sustainable Development Goals through its focus on academic sustainability and real-world impact."
       ]
     },
     "tags": [
       "management development",
-      "ai and leadership",
-      "sustainable transformation",
-      "early career researchers"
+      "ai and management",
+      "early career researchers",
+      "sustainability"
     ],
     "editors": [],
     "associate_editors": [],
     "dates": [
-      {
-        "date": "2026-01-12T11:00:00.000Z",
-        "description": "Closing date for abstract submission",
-        "is_full_paper_submission_deadline": false
-      },
       {
         "date": "2026-09-30T10:00:00.000Z",
         "description": "Opening date for manuscripts submissions",
@@ -7830,7 +8116,7 @@
     "active": true,
     "pubDate": "2026-09-26T22:23:50.318Z",
     "controle": {
-      "longueur": 899,
+      "longueur": 808,
       "tauxCopie": 0,
       "relance": true,
       "topicsTropLongs": 0
@@ -15393,7 +15679,7 @@
     "url": "https://www.emerald.com/jpbafm/calls-for-submissions/1770/Rethinking-Local-Government-Financial-Management?searchresult=1",
     "title": "Rethinking Local Government Financial Management and Accountability through Comparative Perspectives",
     "slug": "emerald-rethinking-local-government-financial-management-and-accountability-through-comparative-perspectives",
-    "contentHash": "0ddcf31598253e5ab562c3eeb2257d9bef212ce7e1df24c057cd397aa82102d4",
+    "contentHash": "4e0c62391003027edf86e1c46b01670effea534d14253edb2531eaab5ccbd6b7",
     "topics": [
       "Comparability of local government finances",
       "Financial sustainability and sustainable development",
@@ -15403,22 +15689,23 @@
       "Fiscal rules and accountability",
       "Crisis and resilience",
       "Local government and climate finance",
-      "From numbers to narratives: Understanding how financial reports shape managerial sensemaking in local governments",
+      "Financial reports and managerial sensemaking",
       "Use of financial information in decision making",
-      "The politics of financial framing",
-      "Comparability as an essential characteristic in the fight against corruption"
+      "Politics of financial framing",
+      "Accounting practices and corruption prevention"
     ],
     "description": {
       "paragraphs": [
-        "Local governments play a crucial role in public service delivery and resource management, yet their financial management and accountability have traditionally been studied within national frameworks. Recent cross-national initiatives have made internationally comparable data more accessible, though existing analyses primarily focus on macroeconomic perspectives rather than managerial and operational dimensions at the individual local government level. This special issue seeks to advance understanding of how local governments manage finances and ensure accountability across different national and institutional contexts.",
-        "The field of comparative local government finance research remains underdeveloped, constrained by diverse legal, administrative, and political systems across countries. A comparative approach enables examination of how institutional settings, fiscal arrangements, and governance traditions shape financial management practices, facilitates identification of best practices that can be adapted to different contexts, and builds theories applicable across national borders. The special issue invites conceptual, empirical, and policy-oriented contributions that address barriers to comparability and explore practical solutions for strengthening local financial governance globally."
+        "This special issue addresses the underexplored comparative dimension of local government financial management and accountability. While international initiatives have increased access to harmonized data on subnational public finance, they typically adopt a macroeconomic perspective and overlook managerial dimensions at the level of individual local governments. The special issue seeks to advance understanding of how different institutional settings, fiscal arrangements, and governance traditions shape local financial management across national borders.",
+        "The call invites papers examining financial data comparability, interactions between fiscal balance and sustainable development, digitalization in public finance, fiscal regulation models, crisis resilience, climate finance accounting, and use of financial information in decision-making. The collection aims to foster dialogue between academics, policymakers, and practitioners to promote integrated approaches to assessing local public finance and enable cities worldwide to strengthen their financial governance."
       ]
     },
     "tags": [
       "local government finance",
       "comparative analysis",
+      "public finance",
       "financial management",
-      "public accountability",
+      "accountability",
       "financial sustainability"
     ],
     "editors": [
@@ -15443,12 +15730,12 @@
     "dates": [
       {
         "date": "2026-06-25T10:00:00.000Z",
-        "description": "Deadline for submitting full papers or work-in-progress papers for participating in the Special Issue Workshop",
+        "description": "Deadline for submitting full papers or work-in-progress papers for the Special Issue Workshop",
         "is_full_paper_submission_deadline": false
       },
       {
         "date": "2026-07-07T10:00:00.000Z",
-        "description": "Special Issue Workshop hosted by the Department of Management of the University of Bologna, Italy, in hybrid format",
+        "description": "Special Issue Workshop",
         "is_full_paper_submission_deadline": false
       },
       {
@@ -15457,14 +15744,19 @@
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-10-31T11:00:00.000Z",
+        "date": "2026-11-30T11:00:00.000Z",
         "description": "Closing date for manuscripts submission",
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
+    "active": true,
     "pubDate": "2026-09-06T09:51:06.483Z",
-    "gracePeriod": "2026-12-01T17:53:44.738Z"
+    "controle": {
+      "longueur": 1073,
+      "tauxCopie": 0.05555555555555555,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Journal of Organizational Effectiveness: People and Performance",
@@ -15608,23 +15900,24 @@
     "url": "https://www.emerald.com/jsma/calls-for-submissions/1684/Sustainable-Strategic-Knowledge-Management-in-the?searchresult=1",
     "title": "Sustainable Strategic Knowledge Management in the Era of AI",
     "slug": "emerald-sustainable-strategic-knowledge-management-in-the-era-of-ai",
-    "contentHash": "87e27b91fe46b9fc825f6657c5ca7e78820c653e1a3d48412f26c45a4e184f99",
+    "contentHash": "c74efe77a25b0d13d85f66210e569bf8cbd6c722d333d1d3ee049a8a49b54cfa",
     "topics": [
-      "Knowledge management processes and sustainability in organizations",
-      "Human-AI synergy and responsible AI use in knowledge systems",
-      "Strategic knowledge management for organizational decision-making and problem-solving",
-      "Managing explicit and tacit knowledge in digital environments",
+      "Knowledge management processes and sustainability",
+      "Human-AI synergy and intelligent knowledge systems",
+      "Strategic knowledge management in digital landscapes",
+      "Ethical and responsible AI implementation",
+      "Tacit and explicit knowledge management",
       "Knowledge codification and personalization approaches",
-      "Addressing knowledge overload from AI, cloud computing, and big data",
-      "Sustainable knowledge-based organizations and resource optimization",
-      "AI's impact on critical knowledge management processes",
-      "Ethical and mission-aligned strategic knowledge for financial, social, and ecological benefits",
-      "Knowledge management in complex organizational environments and geopolitical uncertainty"
+      "AI-driven knowledge overload and management",
+      "Sustainable organizational knowledge strategies",
+      "Knowledge loss prevention and resource optimization",
+      "AI impact on organizational knowledge processes"
     ],
     "description": {
       "paragraphs": [
-        "Organizations face increasing complexity from shifting geopolitical, economic, and technological conditions, requiring strategic approaches to knowledge management for sustainability. The integration of knowledge management with AI offers potential benefits for problem-solving and decision-making, yet presents challenges that require responsible and ethical implementation. This special issue examines how organizations can leverage strategic knowledge management to balance the opportunities and risks of AI while maintaining sustainability across their operations.",
-        "The call seeks contributions exploring how organizations can effectively manage both human knowledge and AI-generated intelligent knowledge, addressing issues such as knowledge overload, loss, and duplication. It emphasizes the importance of codification and personalization strategies that align with organizational values and objectives. The special issue invites researchers to examine how sustainable strategic knowledge management enables organizations to adapt to rapidly changing environments while achieving economic, social, and environmental goals."
+        "Organizations face increasing volatility and complexity, creating significant knowledge gaps. Sustainable strategic knowledge management has become essential for leveraging intellectual assets—employees' knowledge, skills, and expertise—to achieve financial, social, and environmental objectives.",
+        "Artificial intelligence presents opportunities and challenges for knowledge management. AI can enhance decision-making through human-AI synergy and optimize resource use, but organizations must manage AI-generated knowledge responsibly, addressing knowledge overload, duplication, and inefficient transfer. This requires balancing AI capabilities with human expertise while maintaining ethical standards.",
+        "This special issue seeks contributions on implementing sustainable strategic knowledge management in AI-enabled environments, including knowledge codification and personalization strategies, managing explicit and tacit knowledge, addressing digital overload, and developing ethical frameworks for AI-integrated knowledge systems."
       ]
     },
     "tags": [
@@ -15632,9 +15925,18 @@
       "artificial intelligence",
       "sustainability",
       "strategic management",
-      "organizational learning"
+      "organizational knowledge"
     ],
-    "editors": [],
+    "editors": [
+      {
+        "name": "Krishna Venkitachalam",
+        "affiliation": "Ajman University"
+      },
+      {
+        "name": "Nina Helander",
+        "affiliation": "Tampere University"
+      }
+    ],
     "associate_editors": [],
     "dates": [
       {
@@ -15643,14 +15945,19 @@
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-10-31T11:00:00.000Z",
+        "date": "2026-12-31T11:00:00.000Z",
         "description": "Closing date for manuscripts submission",
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
+    "active": true,
     "pubDate": "2026-09-06T09:51:06.483Z",
-    "gracePeriod": "2026-12-01T17:53:44.738Z"
+    "controle": {
+      "longueur": 1029,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Kybernetes",
