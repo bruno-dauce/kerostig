@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Calls for Papers | Tag: digital sustainability</title>
-        <link>https://callsforpapers.org/tag/digital-sustainability</link>
-        <description>Latest calls for papers tagged with 'digital sustainability'.</description>
-        <lastBuildDate>Sat, 04 Jul 2026 05:53:24 GMT</lastBuildDate>
+        <title>kerostig | Tag : digital sustainability</title>
+        <link>https://kerostig.org/tag/digital-sustainability/</link>
+        <description>Derniers appels à publications avec le tag 'digital sustainability'.</description>
+        <lastBuildDate>Mon, 09 Nov 2026 14:47:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>fr</language>
         <image>
-            <title>Calls for Papers | Tag: digital sustainability</title>
-            <url>https://callsforpapers.org/public/favicon/android-chrome-96x96.png</url>
-            <link>https://callsforpapers.org/tag/digital-sustainability</link>
+            <title>kerostig | Tag : digital sustainability</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/digital-sustainability/</link>
         </image>
-        <copyright>Calls for Papers © 2025</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
             <title><![CDATA[Digital Sustainability and Information Systems Research: New challenges and theoretical perspectives]]></title>
-            <link>https://callsforpapers.org/call/jais-digital-sustainability-and-information-systems-research</link>
+            <link>https://kerostig.org/call/jais-digital-sustainability-and-information-systems-research/</link>
             <guid>jais-digital-sustainability-and-information-systems-research</guid>
             <pubDate>Tue, 29 Aug 2023 12:54:56 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <content:encoded><![CDATA[
+<div>
     
         
         <p><strong>Julia Kotlarsky</strong>, University of Auckland</p>
@@ -34,16 +35,14 @@
         
     
     
-    <p>Sustainability is a moral and existential imperative of our time. As Information Systems (IS) scholars, we are aware of the immense impact of digital technologies on efforts and initiatives towards sustainable practice happening locally and globally. Furthermore, because digital phenomena lie at the heart of our discipline, IS researchers are well positioned to join these efforts. This Special Issue aims to champion new digital sustainability research programs targeting the planet’s most pressing sustainability challenges from the past decade. We hope it will contribute towards building novel collective knowledge and help shape digital sustainability research in IS.</p>
     
-    <p>Human society is approaching the edge of a dangerous precipice. The Intergovernmental Panel on Climate Change’s (IPCC) Sixth Assessment Report unequivocally confirms that human activities have caused global warming, predicting that even with current commitments and mitigation efforts, it will be difficult to limit warming below the critical threshold of 2 o C. The planet’s air, land, and water continue to be threatened on several fronts, with research suggesting that the safe operating zone for six of the nine planetary boundaries has already been breached. Over the past decade, extreme weather events such as droughts, floods, fires and heatwaves have not only increased in frequency but also in magnitude. In addition to causing environmental impacts, these events have a significant impact on society, further complicating the pursuit of social and economic sustainability.</p>
-    
-    <p>In 2020, about 724 million people were living in conditions of extreme poverty, with almost 30% of the world’s population suffering from some level of food insecurity. Equality for women and other marginalized groups continues to lag. The World Bank reports that 2.4 billion women globally do not have the same economic rights as men, and despite the adoption of the United Nations Declaration on the Rights of Indigenous Peoples in 2007, Indigenous Peoples around the world continue to suffer the intergenerational trauma of colonization. The trend towards urbanization endures, with cities struggling to ensure inclusive, resilient, and sustainable living environments for all residents. On top of all these challenges, violent conflicts have led to the forced migration of millions of people and the deaths of thousands of civilians. These alarming circumstances highlight the lack of progress towards the United Nation’s Sustainable Development Goals.</p>
-    
-    <p>As argued in a recent JAIS editorial on digital sustainability, the IS research community has a strong foundation to draw upon, ranging from research into Green IS to studies addressing significant societal challenges. The poor cannot eat technology, but the mindful design and use of technology can contribute to innovative solutions and positive impacts. In particular, we consider that the recent shift in the way IS research approaches digital phenomena offers new perspectives on the relationship between digital technologies and sustainability. Building on a contention that the classical view of an information system as representing and reflecting physical reality has become obsolete, there exists an opportunity for the IS community to drive a more inclusive agenda on digital sustainability, one that encompasses phenomena in which the impact of digital technologies and macro-level environmental, social, and economic objectives converge.</p>
-    
-    <p>Accordingly, this Special Issue seeks contributions that delve into digital sustainability and encompass the development, deployment, and utilization of digital resources and artifacts toward improving the environment, society, and economic welfare.</p>
-    
+    <p>
+        Appel publié par Journal of the Association for Information Systems.
+        
+        <a href="https://aisel.aisnet.org/jais/SI-DigitalSustainabilityFINAL.pdf">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/jais-digital-sustainability-and-information-systems-research/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
@@ -111,8 +110,8 @@
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Journal of the Association for Information Systems (JAIS)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>

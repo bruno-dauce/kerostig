@@ -1,5 +1,198 @@
 [
   {
+    "journal": "Finance Contrôle Stratégie",
+    "abbreviation": "ojsfr",
+    "issn": "2261-5512",
+    "metaTitle": "Appel à contributions : Gouverner par les comptes ? Comptabilité, accountability et transformations de la gouvernance — 5e Journée de recherche Finance Contrôle Stratégie, 3 septembre 2027",
+    "url": "https://journals.openedition.org/fcs/15844",
+    "title": "Gouverner par les comptes ? Comptabilité, accountability et transformations de la gouvernance",
+    "slug": "ojsfr-appel-a-contributions-gouverner-par-les-comptes-comptabilite-accountability-et-transformations-de-la-gouvernance-5e-journee-de-recherche-finance-controle-strategie-3-septembre-2027",
+    "contentHash": "4062206d5afa27c8b6077c840f17a84a322db60a3124362a8ed99d72af54827d",
+    "topics": [
+      "Comptabilité, accountability et architecture de la gouvernance",
+      "Élargissement de l'accountability et pluralité des parties prenantes",
+      "Reporting financier et extra-financier",
+      "Gouvernance par les nombres : indicateurs et performance",
+      "Transformations technologiques de la comptabilité et de la gouvernance",
+      "Intelligence artificielle et reddition des comptes",
+      "Gouvernance des données et algorithmes"
+    ],
+    "description": {
+      "paragraphs": [
+        "Cette journée de recherche interroge les interactions entre comptabilité, accountability et gouvernance organisationnelle. Elle dépasse une conception de la comptabilité comme simple technique d'information pour analyser comment les comptes, indicateurs et reportings façonnent activement les structures de gouvernance et les rapports de pouvoir, tandis que les systèmes de gouvernance déterminent ce qui doit être mesuré et rapporté.",
+        "La journée répond à des enjeux contemporains : élargissement de l'accountability au-delà des actionnaires vers une pluralité de parties prenantes, développement du reporting de durabilité, et gouvernance croissante par les nombres et les algorithmes. Elle accueille des recherches quantitatives, qualitatives ou mixtes dans tous les types d'organisations, avec un accent particulier sur les études théorisant explicitement les interactions entre ces trois domaines."
+      ]
+    },
+    "tags": [
+      "accounting",
+      "governance",
+      "accountability",
+      "performance measurement",
+      "sustainability reporting",
+      "organizational control"
+    ],
+    "editors": [
+      {
+        "name": "François Aubert",
+        "affiliation": ""
+      },
+      {
+        "name": "Emmanuelle Dubocage",
+        "affiliation": ""
+      },
+      {
+        "name": "Célia Lemaire",
+        "affiliation": ""
+      },
+      {
+        "name": "Sébastien Rocher",
+        "affiliation": ""
+      },
+      {
+        "name": "Vanessa Serret",
+        "affiliation": ""
+      },
+      {
+        "name": "Bérangère Szostak",
+        "affiliation": ""
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-06-15T12:00:00.000Z",
+        "description": "Date limite d'envoi des propositions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-06-30T12:00:00.000Z",
+        "description": "Notification aux auteurs",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-08-31T12:00:00.000Z",
+        "description": "Soumission des manuscrits complets",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-09-03T12:00:00.000Z",
+        "description": "5e Journée de recherche Finance Contrôle Stratégie",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-09-30T12:00:00.000Z",
+        "description": "Soumission au numéro spécial",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 899,
+      "tauxCopie": 0.008695652173913044,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-09T14:46:14.317Z"
+  },
+  {
+    "journal": "The Journal of Technology Transfer",
+    "abbreviation": "springer",
+    "issn": "1573-7047",
+    "metaTitle": "Anchors Adrift? Old and New Anchor Organizations, Structural Change, and the Transfer of Knowledge to the Wider Economy",
+    "url": "https://link.springer.com/collections/bedgijggdf",
+    "title": "Anchors Adrift? Old and New Anchor Organizations, Structural Change, and the Transfer of Knowledge to the Wider Economy",
+    "slug": "springer-anchors-adrift-old-and-new-anchor-organizations-structural-change-and-the-transfer-of-knowledge-to-the-wider-economy",
+    "contentHash": "cf8bd9d15b6d60e87fdaf443ae423a7406ff801ed7e461923831bc8fc83b0d94",
+    "topics": [
+      "Established anchors under structural change",
+      "Spinoffs and labor mobility",
+      "Supplier linkages and local demand",
+      "Corporate venturing and venture capital",
+      "New types of potential anchors",
+      "Platform and software firms as anchors",
+      "Technology subsidiaries and host economy embedding",
+      "Universities and research hospitals as anchors",
+      "Corporate R&D and university relationships",
+      "Research infrastructure and firm location",
+      "Digitalization and AI in knowledge spillovers",
+      "Digital platforms and localized spillovers",
+      "Tacit knowledge transfer and face-to-face interaction",
+      "Green transition and new anchor structures",
+      "Green industrial investments and spillovers",
+      "Enabling factors for broad-based spillovers",
+      "Institutions and anchor policy",
+      "Non-compete rules and university governance",
+      "FDI attraction and investment incentives",
+      "Cluster and mission-oriented policies"
+    ],
+    "description": {
+      "paragraphs": [
+        "This collection examines how anchor organizations—large multinational firms, universities, and research hospitals—generate knowledge spillovers and innovation in their regions. The traditional view holds that such anchors drive growth through spinoffs, labor mobility, and technology transfer. However, structural economic changes have transformed these dynamics: multinationals now operate globally with internalized venturing, new platform and software firms grow without proportional local employment, and digital technologies alter spillover patterns.",
+        "The collection invites research on how spillover mechanisms function under contemporary conditions across established anchors adapting to globalization, new firm types potentially replacing traditional anchors, universities maintaining their roles amid technological change, and whether digitalization and AI reshape geographically bounded knowledge transfer. Contributions should engage with transfer mechanisms explicitly rather than only documenting regional economic effects, and may address policy instruments like FDI attraction and cluster programs that may require updating to match new anchor realities."
+      ]
+    },
+    "tags": [
+      "technology transfer",
+      "anchor organizations",
+      "regional innovation",
+      "structural change",
+      "spinoffs",
+      "labor mobility",
+      "entrepreneurship",
+      "knowledge spillovers",
+      "policy"
+    ],
+    "editors": [
+      {
+        "name": "Martin Andersson",
+        "affiliation": "Blekinge Institute of Technology"
+      },
+      {
+        "name": "Pontus Braunerhjelm",
+        "affiliation": "KTH Royal Institute of Technology"
+      },
+      {
+        "name": "Anders Broström",
+        "affiliation": "KTH Royal Institute of Technology"
+      },
+      {
+        "name": "Albert N. Link",
+        "affiliation": "University of North Carolina at Greensboro"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-30T12:00:00.000Z",
+        "description": "Extended abstract or full draft submission deadline for developmental workshop participation",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-02-15T12:00:00.000Z",
+        "description": "Notification of workshop paper selection",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-05-01T12:00:00.000Z",
+        "description": "Developmental paper workshop in Stockholm",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-12-31T12:00:00.000Z",
+        "description": "Full paper submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1167,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-09T14:46:14.317Z"
+  },
+  {
     "journal": "International Marketing Review",
     "abbreviation": "emerald",
     "issn": "1758-6763",
@@ -1089,21 +1282,31 @@
     "url": "https://revueinternationalepme.com/index.php/1/announcement/view/71",
     "title": "Les TPE : vers de nouveaux modèles d'affaires ?",
     "slug": "ojsfr-appel-a-contribution-tpe",
-    "contentHash": "da6278d7604ec8bdb96024945902076c6728f23ece8160cd0e33ce38f30ad675",
+    "contentHash": "1e64db8a59647bca8650f024d4a976921993ad037fe1caecb826bd961b0549a8",
     "topics": [
-      "Small and medium enterprises (SMEs)",
-      "New business models",
-      "SME strategy and development"
+      "Trajectoires stratégiques atypiques et profils de dirigeants de TPE",
+      "Redéfinition de la performance dans les TPE",
+      "TPE, écologie et raréfaction des ressources",
+      "TPE et technologies",
+      "Formes alternatives d'organisation et d'innovation",
+      "Rôle des TPE dans les transitions sociales et territoriales",
+      "Méthodologies et épistémologies de recherche adaptées aux TPE"
     ],
     "description": {
       "paragraphs": [
-        "This special issue examines how small and medium enterprises (TPE) are evolving toward new business models. The editors invite contributions that explore the transformation and innovation strategies within this sector, addressing how SMEs are adapting to contemporary challenges and opportunities in their operational and strategic approaches."
+        "Les très petites entreprises (TPE) demeurent largement marginalisées en tant qu'objet d'étude malgré leur importance statistique et sociale. Constituant plus de 90% des entreprises en Europe, elles développent des modes de fonctionnement singuliers qui vont bien au-delà de simples versions réduites des PME. Ce numéro spécial propose de reconnaître les TPE comme des formes organisationnelles originales dotées de logiques propres.",
+        "Dans un contexte transformé par les crises systémiques et la raréfaction des ressources, les TPE incarnent des laboratoires de résilience et d'innovation. Elles expérimentent de nouveaux modèles économiques fondés sur des finalités alternatives : subsistance choisie, contribution sociétale, équilibre plutôt que croissance illimitée. Leurs dirigeants redéfinissent la performance selon des critères multiformes intégrant les enjeux écologiques et sociaux.",
+        "Le numéro accueille des contributions pluridisciplinaires explorant la spécificité des TPE sous différents angles : trajectoires atypiques, rapport aux ressources et aux technologies, ancrage territorial et rôle dans les transitions locales. L'objectif est de dépasser les cadres analytiques PME-centrés pour proposer des perspectives adaptées aux réalités contemporaines."
       ]
     },
     "tags": [
-      "sme",
+      "very small enterprises",
       "business models",
-      "entrepreneurship"
+      "entrepreneurship",
+      "sustainability",
+      "performance",
+      "territorial development",
+      "organizational innovation"
     ],
     "editors": [
       {
@@ -1122,15 +1325,50 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-11-30T12:00:00.000Z",
+        "date": "2026-10-30T12:00:00.000Z",
         "description": "Dépôt des articles complets",
         "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2026-11-13T12:00:00.000Z",
+        "description": "Décision de rejet ou envoi en évaluation",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-11-30T12:00:00.000Z",
+        "description": "Nouvelle date de dépôt révisée",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2027-01-15T12:00:00.000Z",
+        "description": "Décision sur la 1re évaluation transmise aux auteurs",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-03-26T12:00:00.000Z",
+        "description": "Retour 2e version et envoi en évaluation si nécessaire",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-06-01T12:00:00.000Z",
+        "description": "Décision transmise aux auteurs",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-09-20T12:00:00.000Z",
+        "description": "Retour 3e version et évaluation finale par le comité de rédaction",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-11-20T12:00:00.000Z",
+        "description": "Réception des versions finales",
+        "is_full_paper_submission_deadline": false
       }
     ],
     "controle": {
-      "longueur": 343,
+      "longueur": 1260,
       "tauxCopie": 0,
-      "relance": false,
+      "relance": true,
       "topicsTropLongs": 0
     },
     "active": true,
@@ -1443,8 +1681,9 @@
       "relance": true,
       "topicsTropLongs": 0
     },
-    "active": true,
-    "pubDate": "2026-11-02T09:26:51.424Z"
+    "active": false,
+    "pubDate": "2026-11-02T09:26:51.424Z",
+    "gracePeriod": "2026-12-09T14:46:14.317Z"
   },
   {
     "journal": "International Journal of Tourism Cities",
@@ -2308,8 +2547,9 @@
       "relance": true,
       "topicsTropLongs": 0
     },
-    "active": true,
-    "pubDate": "2026-10-26T07:51:06.311Z"
+    "active": false,
+    "pubDate": "2026-10-26T07:51:06.311Z",
+    "gracePeriod": "2026-12-09T14:46:14.317Z"
   },
   {
     "journal": "Global Finance Journal",
@@ -2874,8 +3114,9 @@
       "relance": true,
       "topicsTropLongs": 0
     },
-    "active": true,
-    "pubDate": "2026-10-19T07:46:49.582Z"
+    "active": false,
+    "pubDate": "2026-10-19T07:46:49.582Z",
+    "gracePeriod": "2026-12-09T14:46:14.317Z"
   },
   {
     "journal": "Labour Economics",
@@ -18037,8 +18278,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-09-06T09:51:06.483Z"
+    "active": false,
+    "pubDate": "2026-09-06T09:51:06.483Z",
+    "gracePeriod": "2026-12-09T14:46:14.317Z"
   },
   {
     "journal": "Tourism Planning & Development",
@@ -33834,8 +34076,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-16T22:58:24.455Z"
+    "active": false,
+    "pubDate": "2026-08-16T22:58:24.455Z",
+    "gracePeriod": "2026-12-09T14:46:14.317Z"
   },
   {
     "journal": "Information Systems Frontiers",
@@ -35921,38 +36164,47 @@
     "url": "https://link.springer.com/collections/fdiagaeghc",
     "title": "Bibliometric Measures of Epistemic Change",
     "slug": "springer-bibliometric-measures-of-epistemic-change",
-    "contentHash": "efc70bc3216decf62b57e74acaab844c36d9ba985ccf5352d4dd223a2479143c",
+    "contentHash": "ca4dd4634738b316526641bb527e654b9b2539cf87ade0b11a55253e9b9b9674",
     "topics": [
-      "Conceptualisation and operationalisation of epistemic change for bibliometric tracing",
-      "Construction of ground truths for developing and testing bibliometric methods",
-      "Metadata content relevant to epistemic change in bibliographic records",
-      "Validation of established bibliometric indicators against ground truths",
-      "Application of large language models to full texts for identifying epistemic change"
+      "Conceptualisation and operationalisation of epistemic change",
+      "Ground truths for bibliometric methods",
+      "Metadata and epistemic change",
+      "Validation of bibliometric indicators",
+      "Artificial intelligence and epistemic change in publications",
+      "Emerging fields and technologies",
+      "Novel and disruptive papers",
+      "Citation patterns and keyword analysis"
     ],
     "description": {
       "paragraphs": [
-        "Bibliometrics has long sought to measure epistemic change through publication data, but current approaches are constrained by methodological conventions. Recent indicators attempting to measure novelty, originality, or disruptiveness in individual papers rely on three problematic assumptions: that epistemic change is a discrete event rather than a process, that it is fully contained in a single paper, and that quantifiable measures can replace detailed descriptions of the specific nature of changes.",
-        "The field faces fundamental challenges in validating bibliometric measures of epistemic change, including reliance on bibliographic metadata whose relationship to actual paper content remains unclear, the need for ground truths to test new methods, and questions about what information in metadata can support such measurement. This special collection brings together work from a series of workshops addressing how epistemic change can be properly conceptualized, operationalized, validated, and identified using both traditional bibliometric approaches and emerging computational methods."
+        "Bibliometrics seeks to measure epistemic change—how scientific knowledge evolves—by analyzing publication patterns and citations. While established methods identify emerging topics and disruptive papers, current approaches face conceptual and methodological constraints. Many recent indicators like Innovativeness or Disruptiveness attempt to quantify epistemic change from individual papers, but this approach implicitly assumes change is a discrete event rather than a process, that change is fully captured in a single paper, and that generic measures can describe all types of change.",
+        "The field also depends fundamentally on bibliographic metadata, which may not fully reflect a paper's actual content, raising questions about whether bibliometric signals validly capture epistemic change. This special collection brings together papers from workshops addressing these challenges: how to conceptualize and measure epistemic change, how to establish validation benchmarks, what metadata signals epistemic change, how well existing indicators perform, and whether large language models analyzing full texts can better identify epistemic shifts in publications."
       ]
     },
     "tags": [
       "bibliometrics",
       "epistemic change",
-      "scientometrics",
+      "scientific indicators",
+      "emerging topics",
       "research evaluation"
     ],
     "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-31T11:00:00.000Z",
+        "date": "2026-12-31T12:00:00.000Z",
         "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
+    "active": true,
     "pubDate": "2026-08-11T21:25:02.631Z",
-    "gracePeriod": "2026-12-02T09:26:51.424Z"
+    "controle": {
+      "longueur": 1161,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "International Entrepreneurship and Management Journal",
@@ -37085,7 +37337,7 @@
     "url": "https://link.springer.com/collections/hdbgecbgfg",
     "title": "From Adoption to Impact: Post-Adoption, Value Realization, and Societal Transformation of ICT and AI",
     "slug": "springer-from-adoption-to-impact-post-adoption-value-realization-and-societal-transformation-of-ict-and-ai",
-    "contentHash": "410319333fb355ff993c484d1450aa3a13fde9b1e0bbbaf39d6f0739ee44ffc5",
+    "contentHash": "4e2dbd9ab3c1de7207358c1086a92f9ff085a50624ab11ff4f71d8d16dca5744",
     "topics": [
       "Technology assimilation, routinization, and deep integration",
       "Post-adoption behaviors: continued use, discontinuance, and switching",
@@ -37106,17 +37358,19 @@
     ],
     "description": {
       "paragraphs": [
-        "This special issue addresses a critical gap in technology research by extending beyond initial adoption to examine how organizations and societies sustain, adapt, and derive value from ICTs and AI over time. While adoption decisions have received substantial scholarly attention, understanding post-adoption dynamics, continuance, value realization, and transformation remains insufficiently explored. The issue recognizes that technology adoption often fails to translate into expected organizational or societal benefits.",
-        "The special issue invites diverse research examining post-adoption phenomena across individual, organizational, and societal levels, including technology assimilation, transformation of work practices, and the complex risks and ethical challenges accompanying widespread ICT and AI deployment. Contributions should employ robust methodologies such as empirical studies, theoretical work, or design science research, addressing digital transformation, platform ecosystems, governance, algorithmic accountability, and sustainable technology practices."
+        "This special issue examines how organizations and societies integrate, adapt, and benefit from information and communication technologies and artificial intelligence over time. While considerable research has explored initial adoption, less attention has been paid to post-adoption dynamics such as sustained use and value realization. The issue seeks research moving beyond adoption to understand how ICT and AI generate lasting transformation across individual, organizational, and societal levels.",
+        "The special issue invites empirical, theoretical, and design-based research on post-adoption phenomena, organizational change, and the risks and ethical challenges of widespread technology deployment. It welcomes diverse methodologies addressing contemporary ICT and AI issues with practical implications."
       ]
     },
     "tags": [
-      "technology adoption",
+      "ict adoption",
+      "ai implementation",
+      "post-adoption",
       "value realization",
       "digital transformation",
-      "artificial intelligence",
       "organizational change",
-      "ict"
+      "technology governance",
+      "ethics and risks"
     ],
     "editors": [
       {
@@ -37139,6 +37393,11 @@
     "associate_editors": [],
     "dates": [
       {
+        "date": "2026-02-28T12:00:00.000Z",
+        "description": "Submission of full paper",
+        "is_full_paper_submission_deadline": true
+      },
+      {
         "date": "2026-07-15T12:00:00.000Z",
         "description": "Submission of abstract (up to 300 words)",
         "is_full_paper_submission_deadline": false
@@ -37147,11 +37406,6 @@
         "date": "2026-08-15T12:00:00.000Z",
         "description": "Notification of abstract acceptance",
         "is_full_paper_submission_deadline": false
-      },
-      {
-        "date": "2026-12-04T12:00:00.000Z",
-        "description": "Submission of full paper",
-        "is_full_paper_submission_deadline": true
       },
       {
         "date": "2027-04-05T12:00:00.000Z",
@@ -37179,11 +37433,11 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T21:25:02.631Z",
     "controle": {
-      "longueur": 1072,
-      "tauxCopie": 0,
+      "longueur": 805,
+      "tauxCopie": 0.020202020202020204,
       "relance": true,
       "topicsTropLongs": 0
     }
@@ -46468,45 +46722,48 @@
     "url": "https://think.taylorandfrancis.com/special_issues/addressing-ultra-low-fertility-and-workforce-shrinkage-a-human-centered-hrm-response-to-the-demographic-crisis/",
     "title": "Addressing Ultra-Low Fertility and Workforce Shrinkage: A Human-Centered HRM Response to the Demographic Crisis",
     "slug": "tandf-addressing-ultra-low-fertility-and-workforce-shrinkage-a-human-centered-hrm-response-to-the-demographic-crisis",
-    "contentHash": "428a7f042ea8da2f7a3ac53c480ea55fbfc66c047bff8aeb3fc664d3055ea072",
+    "contentHash": "25301dc0b64cc8b09f76f7c91d6b37506b6aa44159c812f69ef84979c85cb0b7",
     "topics": [
-      "Work-life balance challenges and family-friendly HRM policies",
-      "Gender inequality and its impact on fertility decisions",
-      "Cultural expectations and traditional gender roles influencing fertility rates",
-      "Flexible work policies including remote work and parental leave",
-      "Upskilling and reskilling programs addressing workforce shrinkage",
-      "Inclusive benefits such as childcare and fertility treatment support",
-      "Diversity and inclusion strategies utilizing underutilized labor pools",
-      "Innovative recruitment strategies and international talent acquisition",
-      "Human-centered AI solutions for workforce management",
-      "AI-assisted work-life balance and personalized employee support",
-      "AI-facilitated servant leadership and psychological safety",
-      "AI-driven work redesign for dual-earner couples",
-      "Digital twin modeling for career and family pathway optimization",
-      "Rethinking Resource-Based View and Dynamic Capabilities theory for demographic scarcity",
-      "Scarcity-Based View of HRM and demographic agility",
-      "Human capital preservation and the demographic premium",
-      "Neo-Institutional Theory perspectives on fertility-HRM nexus",
-      "Institutional fertility regimes and global HR best practices adaptation",
-      "Cultural Paradox Theory and contradictions between family values and fertility rates",
-      "Multi-level and comparative cross-national HRM research"
+      "Work-life balance challenges",
+      "Family-friendly HRM policies",
+      "Gender inequality in the workplace",
+      "Cultural expectations and fertility",
+      "Promoting family-friendly environments",
+      "Changing work culture",
+      "Flexible work policies",
+      "Upskilling and reskilling",
+      "Inclusive benefits",
+      "Diversity and inclusion",
+      "Innovative recruitment strategies",
+      "Human-centered AI solutions",
+      "AI-assisted work-life balance",
+      "AI-facilitated servant leadership",
+      "AI-driven work redesign",
+      "Digital twin modeling",
+      "AI and automation",
+      "Resource-Based View in demographic contexts",
+      "Dynamic capabilities and demographic agility",
+      "Human capital theory and scarcity",
+      "Institutional and cultural complexity",
+      "Neo-institutional theory",
+      "Cultural paradox theory",
+      "Institutional fertility regimes",
+      "Comparative cross-national research"
     ],
     "description": {
       "paragraphs": [
-        "Ultra-low fertility, defined as a total fertility rate of 1.3 or lower, is becoming a critical global challenge affecting human resource management across diverse regions including East Asia, Southern and Eastern Europe, and increasingly North America and Oceania. This demographic crisis is transforming HRM into a strategic imperative as organizations face risks of workforce shrinkage, declining productivity, and increased costs for talent acquisition and retention. The crisis requires rethinking foundational HRM frameworks and developing innovative strategies to build sustainable and resilient workforces.",
-        "This special issue seeks research that examines how organizations are responding to demographic scarcity through human-centered HRM innovations. It invites scholars to contribute work extending core theories such as the Resource-Based View, Institutional Theory, and Human Capital Theory to address labor market challenges, while exploring practical strategies including expanded parental leave, work-life balance initiatives, AI-enabled workforce planning, and inclusive hiring practices that integrate women, older workers, and immigrants.",
-        "The special issue especially welcomes comparative, cross-national research that accounts for contextual differences in how fertility challenges manifest across cultures and institutional settings. Submissions should adopt multi-level approaches linking national policy, organizational HRM practices, fertility behavior, and labor force participation, with particular attention to why conventional family-friendly policies often fall short and how emerging innovations can better support reproductive choices and workforce sustainability."
+        "Ultra-low fertility is reshaping human resource management across East Asia, Europe, and North America, making workforce planning and retention strategic imperatives. Organizations are adopting innovative HRM practices including work-life balance initiatives, inclusive hiring, and technology-enabled solutions to address demographic decline and workforce shrinkage.",
+        "The special issue welcomes rigorous theoretical and empirical research on human-centered strategies that balance organizational sustainability with employee wellbeing. Comparative, cross-national studies accounting for contextual differences in how fertility challenges manifest are particularly encouraged. Submissions should engage with existing HRM theories or propose new frameworks explaining the relationship between fertility patterns, cultural norms, and organizational practices."
       ]
     },
     "tags": [
-      "human resource management",
       "ultra-low fertility",
+      "human resource management",
       "demographic crisis",
       "workforce shrinkage",
       "work-life balance",
-      "gender inequality",
-      "inclusive hrm",
-      "ai and workforce management"
+      "ai in hr",
+      "comparative hrm"
     ],
     "editors": [
       {
@@ -46529,33 +46786,44 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-09-01T10:00:00.000Z",
+        "date": "2026-09-01T12:00:00.000Z",
         "description": "Manuscript submission window opens",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2026-11-30T11:00:00.000Z",
-        "description": "Manuscript submission deadline",
+        "date": "2026-11-30T12:00:00.000Z",
+        "description": "Manuscript submission window closes",
         "is_full_paper_submission_deadline": true
       },
       {
-        "date": "2026-12-01T11:00:00.000Z",
+        "date": "2026-12-01T12:00:00.000Z",
         "description": "Review process (1st round)",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-03-01T11:00:00.000Z",
+        "date": "2026-12-31T12:00:00.000Z",
+        "description": "Manuscript deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2027-03-01T12:00:00.000Z",
         "description": "Review process (2nd round)",
         "is_full_paper_submission_deadline": false
       },
       {
-        "date": "2027-05-01T10:00:00.000Z",
+        "date": "2027-05-01T12:00:00.000Z",
         "description": "Final submission of accepted manuscripts",
         "is_full_paper_submission_deadline": false
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "controle": {
+      "longueur": 854,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "International Journal of Advertising",
@@ -46881,8 +47149,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-12-09T14:46:14.317Z"
   },
   {
     "journal": "Public Money & Management",
@@ -47069,8 +47338,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-12-09T14:46:14.317Z"
   },
   {
     "journal": "International Journal of Production Research",
@@ -47140,8 +47410,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-12-09T14:46:14.317Z"
   },
   {
     "journal": "International Journal of Advertising",
@@ -47480,14 +47751,15 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
+    "active": false,
     "pubDate": "2026-08-11T00:55:16.972Z",
     "controle": {
       "longueur": 867,
       "tauxCopie": 0,
       "relance": false,
       "topicsTropLongs": 0
-    }
+    },
+    "gracePeriod": "2026-12-09T14:46:14.317Z"
   },
   {
     "journal": "Enterprise Information Systems",
@@ -51281,24 +51553,24 @@
     "url": "https://think.taylorandfrancis.com/special_issues/the-institutional-fragility-of-inclusion-in-contemporary-hrm-systems/",
     "title": "The Institutional Fragility of Inclusion in Contemporary HRM Systems",
     "slug": "tandf-the-institutional-fragility-of-inclusion-in-contemporary-hrm-systems",
-    "contentHash": "fd3d55a44f80f304e3763013f944fd2650c42eea9d4269b92c463790cfa294db",
+    "contentHash": "69dfc38c6e2b7a13029f894494f38b7470dff824f745dc5e83ca0b324d4326d3",
     "topics": [
-      "Organisational responses to the erosion or contestation of inclusion mandates",
-      "Identity construction, negotiation, and resistance within HRM systems",
-      "Symbolic inclusion vs substantive change in HRM practice and policy",
-      "How performance systems, leadership pipelines, or 'culture fit' criteria embed normative assumptions about who belongs",
-      "Comparative and global analyses of inclusion across varied institutional, legal, and cultural settings",
-      "HRM as a mechanism of voice suppression, identity masking, or strategic silence",
-      "The effects of intersectional identity configurations (e.g. gender × race × class) on access to opportunity, recognition, and legitimacy in HRM",
-      "How informal networks and shadow structures sustain or subvert inclusion efforts",
-      "Experiences of inclusion and exclusion when organisations retreat from formal DEI commitments",
-      "Institutional logics, power asymmetries, and the politics of belonging in HRM systems",
-      "Decolonial or Indigenous critiques of Western-centric inclusion frameworks in global HRM"
+      "Institutional fragility of inclusion",
+      "Identity construction and negotiation in HRM",
+      "Symbolic inclusion versus substantive change",
+      "Performance systems and cultural fit criteria",
+      "Comparative and global inclusion analyses",
+      "HRM as voice suppression and identity masking",
+      "Intersectional identity effects on opportunity and recognition",
+      "Informal networks and shadow structures in inclusion",
+      "Organisational responses to erosion of inclusion mandates",
+      "Institutional logics and politics of belonging",
+      "Decolonial and Indigenous critiques of inclusion frameworks"
     ],
     "description": {
       "paragraphs": [
-        "While inclusion has become central to human resource management practices globally, its institutional foundations are becoming increasingly unstable. Political and economic shifts, organisational hesitation, and cultural challenges have weakened the norms and mechanisms supporting inclusive HRM. This special issue examines how inclusion becomes performative—publicly supported but weakly implemented—when its institutional backing erodes.",
-        "The issue calls for work that moves beyond static views of identity to examine how it is constructed and contested through HRM systems amid institutional uncertainty. Research grounded in intersectionality, social identity theory, and critical perspectives is particularly encouraged, as are comparative studies showing how inclusion operates differently across institutional and cultural contexts. The collection seeks to understand how HRM practices both regulate identity and potentially become sites of resistance and contestation."
+        "This special issue investigates how inclusion in human resource management has become institutionally fragile—endorsed in principle but inconsistently enacted or maintained symbolically without substantive commitment. It examines how identity is constructed, contested, and regulated through HRM practices when political, economic, organisational, and cultural pressures destabilise the systems that once supported inclusion.",
+        "The issue seeks theoretical, empirical, and methodological contributions that conceptualise inclusion as a dynamic process shaped by power, legitimacy, and resistance. Submissions should examine how HRM practices reinforce dominant norms, marginalise difference, or become sites of identity contestation. Contributions drawing on intersectionality, social identity theory, critical race theory, feminism, or postcolonial perspectives are particularly welcome, as are comparative studies exploring how inclusion operates across different institutional and cultural contexts."
       ]
     },
     "tags": [
@@ -51306,12 +51578,12 @@
       "inclusion",
       "institutional fragility",
       "identity",
-      "diversity and belonging"
+      "intersectionality"
     ],
     "editors": [
       {
         "name": "Benjamin Laker",
-        "affiliation": "University of Reading"
+        "affiliation": "Henley Business School, University of Reading"
       },
       {
         "name": "Sven Horak",
@@ -51319,23 +51591,29 @@
       },
       {
         "name": "Toyin Ajibade Adisa",
-        "affiliation": "University of East London"
+        "affiliation": "Royal Docks School of Business and Law, University of East London"
       },
       {
         "name": "Fulya Acikgoz",
-        "affiliation": "University of Sussex"
+        "affiliation": "University of Sussex Business School"
       }
     ],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-11-30T11:00:00.000Z",
+        "date": "2026-12-15T12:00:00.000Z",
         "description": "Manuscript deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "controle": {
+      "longueur": 998,
+      "tauxCopie": 0.05263157894736842,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "The International Journal of Human Resource Management",
@@ -51746,8 +52024,9 @@
         "is_full_paper_submission_deadline": false
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T00:55:16.972Z"
+    "active": false,
+    "pubDate": "2026-08-11T00:55:16.972Z",
+    "gracePeriod": "2026-12-09T14:46:14.317Z"
   },
   {
     "journal": "European Journal of Information Systems",
@@ -60479,7 +60758,8 @@
     ],
     "active": false,
     "pubDate": "2023-08-29T12:54:56.000Z",
-    "issn": "1558-3457"
+    "issn": "1558-3457",
+    "gracePeriod": "2026-12-09T14:46:14.317Z"
   },
   {
     "journal": "Journal of the Association for Information Systems",

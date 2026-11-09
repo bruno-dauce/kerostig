@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>kerostig | Tag : emerging topics</title>
+        <link>https://kerostig.org/tag/emerging-topics/</link>
+        <description>Derniers appels à publications avec le tag 'emerging topics'.</description>
+        <lastBuildDate>Mon, 09 Nov 2026 14:47:52 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <image>
+            <title>kerostig | Tag : emerging topics</title>
+            <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
+            <link>https://kerostig.org/tag/emerging-topics/</link>
+        </image>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
+        <item>
+            <title><![CDATA[Bibliometric Measures of Epistemic Change]]></title>
+            <link>https://kerostig.org/call/springer-bibliometric-measures-of-epistemic-change/</link>
+            <guid>springer-bibliometric-measures-of-epistemic-change</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>Bibliometrics seeks to measure epistemic change—how scientific knowledge evolves—by analyzing publication patterns and citations. While established methods identify emerging topics and disruptive papers, current approaches face conceptual and methodological constraints. Many recent indicators like Innovativeness or Disruptiveness attempt to quantify epistemic change from individual papers, but this approach implicitly assumes change is a discrete event rather than a process, that change is fully captured in a single paper, and that generic measures can describe all types of change.</p>
+    
+    <p>The field also depends fundamentally on bibliographic metadata, which may not fully reflect a paper&#39;s actual content, raising questions about whether bibliometric signals validly capture epistemic change. This special collection brings together papers from workshops addressing these challenges: how to conceptualize and measure epistemic change, how to establish validation benchmarks, what metadata signals epistemic change, how well existing indicators perform, and whether large language models analyzing full texts can better identify epistemic shifts in publications.</p>
+    
+    <p>
+        Appel publié par Scientometrics.
+        
+        <a href="https://link.springer.com/collections/fdiagaeghc">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-bibliometric-measures-of-epistemic-change/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Conceptualisation and operationalisation of epistemic change</li>
+        
+        <li>Ground truths for bibliometric methods</li>
+        
+        <li>Metadata and epistemic change</li>
+        
+        <li>Validation of bibliometric indicators</li>
+        
+        <li>Artificial intelligence and epistemic change in publications</li>
+        
+        <li>Emerging fields and technologies</li>
+        
+        <li>Novel and disruptive papers</li>
+        
+        <li>Citation patterns and keyword analysis</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>December 31, 2026: Submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>
