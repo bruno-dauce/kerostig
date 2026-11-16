@@ -4,7 +4,7 @@
         <title>kerostig | Tag : organizational change</title>
         <link>https://kerostig.org/tag/organizational-change/</link>
         <description>Derniers appels à publications avec le tag 'organizational change'.</description>
-        <lastBuildDate>Mon, 09 Nov 2026 14:47:51 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Nov 2026 09:37:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -532,6 +532,85 @@
         <li>June 1, 2027: Deadline for full paper submission</li>
         
         <li>December 1, 2028: Publication date</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Data Science]]></title>
+            <link>https://kerostig.org/call/springer-data-science/</link>
+            <guid>springer-data-science</guid>
+            <pubDate>Tue, 11 Aug 2026 21:25:02 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+        
+        <p><strong>Dries F. Benoit</strong>, Ghent University</p>
+        
+        <p><strong>Kristof Coussement</strong>, IÉSEG School of Management</p>
+        
+        <p><strong>Cem İyigün</strong>, Middle East Technical University</p>
+        
+        <p><strong>Asil Oztekin</strong>, University of Massachusetts Lowell</p>
+        
+    
+    
+    
+    <p>This special section seeks papers that combine theory and practice in data science and predictive analytics, with emphasis on practical applications that generate organizational value. While data science techniques are published elsewhere, submissions should demonstrate how innovations can be implemented effectively in real-world settings, potentially requiring organizational change to realize their benefits.</p>
+    
+    <p>The section bridges operations research and analytics as complementary disciplines. It invites scholars and practitioners to address critical areas including ethical data use and algorithmic transparency, the application of OR methods to large and distributed datasets, organizational barriers to analytics adoption, data quality assurance, and the integration of visualization and soft OR techniques with analytics projects.</p>
+    
+    <p>
+        Appel publié par Annals of Operations Research.
+        
+        <a href="https://link.springer.com/collections/egaahfecfe">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/springer-data-science/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Ethics and governance in analytics</li>
+        
+        <li>Big data and analytics</li>
+        
+        <li>Optimization techniques for large datasets</li>
+        
+        <li>Distributed systems and OR methods</li>
+        
+        <li>Large-scale simulation models</li>
+        
+        <li>Sentiment mining</li>
+        
+        <li>Organizational analytics adoption</li>
+        
+        <li>Real-time OR applications</li>
+        
+        <li>Data quality and hypothesis testing</li>
+        
+        <li>Unstructured data in OR models</li>
+        
+        <li>Multi-methodology in business analytics</li>
+        
+        <li>Open data</li>
+        
+        <li>Data visualization in OR</li>
+        
+        <li>Problem structuring techniques</li>
+        
+        <li>Soft OR techniques in analytics</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>Invalid DateTime: Submission deadline</li>
         
     </ul>
     
