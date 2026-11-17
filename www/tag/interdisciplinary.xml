@@ -4,7 +4,7 @@
         <title>kerostig | Tag : interdisciplinary</title>
         <link>https://kerostig.org/tag/interdisciplinary/</link>
         <description>Derniers appels à publications avec le tag 'interdisciplinary'.</description>
-        <lastBuildDate>Mon, 24 Aug 2026 16:17:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Nov 2026 23:14:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,32 +13,33 @@
             <url>https://kerostig.org/public/favicon/android-chrome-96x96.png</url>
             <link>https://kerostig.org/tag/interdisciplinary/</link>
         </image>
-        <copyright>kerostig © 2026</copyright>
+        <copyright>Notices : kerostig © 2026. Le texte des appels appartient à leurs éditeurs.</copyright>
         <item>
-            <title><![CDATA[The Human-Algorithm Connection]]></title>
-            <link>https://kerostig.org/call/informs-the-human-algorithm-connection/</link>
-            <guid>informs-the-human-algorithm-connection</guid>
-            <pubDate>Tue, 11 Aug 2026 01:40:43 GMT</pubDate>
-            <content:encoded><![CDATA[<div>
+            <title><![CDATA[The role of justice partners in achieving public health goals]]></title>
+            <link>https://kerostig.org/call/elsevier-the-role-of-justice-partners-in-achieving-public-health-goals/</link>
+            <guid>elsevier-the-role-of-justice-partners-in-achieving-public-health-goals</guid>
+            <pubDate>Tue, 17 Nov 2026 23:12:41 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
     
     
-    <p>The special issue on the human-algorithm connection seeks to attract research that gives decision-makers a better understanding of the coexistence of humans with algorithms and how to improve it. The work must have an important human component (i.e., purely focusing on algorithms won&#39;t suffice) and algorithms can be understood in a broad sense including machines and apps.</p>
     
-    <p>Top quality papers in any of the research areas represented by Management Science are welcome, both theoretical and empirical. Interdisciplinary studies are also highly encouraged.</p>
+    <p>This call invites research exploring how justice partners contribute to and support the achievement of public health objectives. The special issue seeks submissions that examine the intersection of justice systems and public health initiatives.</p>
     
+    <p>
+        Appel publié par Public Health.
+        
+        <a href="https://www.sciencedirect.com/special-issue/338910/the-role-of-justice-partners-in-achieving-public-health-goals">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-the-role-of-justice-partners-in-achieving-public-health-goals/">Fiche de l'appel sur kerostig</a>.
+    </p>
     
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Research on human-algorithm coexistence and interaction</li>
+        <li>Justice partners</li>
         
-        <li>Decision-making with algorithms and machines</li>
-        
-        <li>Human factors in algorithmic systems</li>
-        
-        <li>Improving human-algorithm collaboration</li>
-        
-        <li>Applications of algorithms, machines, and apps in organizational contexts</li>
+        <li>Public health goals</li>
         
     </ul>
     
@@ -46,13 +47,13 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>December 22, 2022: Submission Deadline</li>
+        <li>December 31, 2027: Submission deadline</li>
         
     </ul>
     
     
-</div>]]></content:encoded>
-            <author>Management Science (INFORMS)</author>
+</div>
+]]></content:encoded>
         </item>
     </channel>
 </rss>
