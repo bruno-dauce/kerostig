@@ -3,6 +3,768 @@
     "journal": "Business Horizons",
     "abbreviation": "elsevier",
     "issn": "1873-6068",
+    "metaTitle": "Business in the crossfire: Business, peace, and human rights in high-risk markets",
+    "url": "https://www.sciencedirect.com/special-issue/339214/business-in-the-crossfire-business-peace-and-human-rights-in-high-risk-markets",
+    "title": "Business, peace, and human rights in high-risk markets",
+    "slug": "elsevier-business-in-the-crossfire-business-peace-and-human-rights-in-high-risk-markets",
+    "contentHash": "e237414a21009f2c460362ccd5ca6a54a8bda74a74a39da84c4fca5f938dc8f9",
+    "topics": [
+      "Business and peace",
+      "Human rights",
+      "High-risk markets",
+      "Business ethics"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue addresses the complex intersection of business operations, peacebuilding efforts, and human rights protection in challenging geopolitical contexts. The call seeks research examining how corporations navigate and contribute to these interconnected concerns in volatile markets where conflict, instability, or governance challenges create significant risks and ethical dilemmas."
+      ]
+    },
+    "tags": [
+      "business ethics",
+      "human rights",
+      "peace",
+      "conflict zones",
+      "corporate responsibility"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-06-01T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 395,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-20T18:28:36.866Z"
+  },
+  {
+    "journal": "Futures",
+    "abbreviation": "elsevier",
+    "issn": "1873-6378",
+    "metaTitle": "Reimagining Europe’s Energy Systems: From Energy Pasts to Energy Futures",
+    "url": "https://www.sciencedirect.com/special-issue/339293/reimagining-europe-s-energy-systems-from-energy-pasts-to-energy-futures",
+    "title": "Reimagining Europe's Energy Systems: From Energy Pasts to Energy Futures",
+    "slug": "elsevier-reimagining-europes-energy-systems-from-energy-pasts-to-energy-futures",
+    "contentHash": "966d9f0fcbfe5e56df2d3917971488b39ceba311fb3287b08efac768a05251df",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue invites submissions exploring how European energy systems have evolved historically and how they might transform in the future. The collection seeks to bridge perspectives on energy pasts and futures, examining the reshaping of Europe's energy infrastructure and practices."
+      ]
+    },
+    "tags": [
+      "energy systems",
+      "europe",
+      "energy history",
+      "energy futures"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-12-31T11:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 292,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-20T18:28:36.866Z"
+  },
+  {
+    "journal": "Journal of Cleaner Production",
+    "abbreviation": "elsevier",
+    "issn": "1879-1786",
+    "metaTitle": "Rethinking Production within Environmental Limits: Cleaner Pathways to Efficiency, Innovation and Circularity (GCPC 2026)",
+    "url": "https://www.sciencedirect.com/special-issue/339173/rethinking-production-within-environmental-limits-cleaner-pathways-to-efficiency-innovation-and-circularity-gcpc-2026",
+    "title": "Rethinking Production within Environmental Limits: Cleaner Pathways to Efficiency, Innovation and Circularity",
+    "slug": "elsevier-rethinking-production-within-environmental-limits-cleaner-pathways-to-efficiency-innovation-and-circularity-gcpc-2026",
+    "contentHash": "6c33fcdd380cbfbf25280a867701315a360e4aed7139758ef8f427c6c88dcdf9",
+    "topics": [
+      "Cleaner production",
+      "Environmental limits",
+      "Production efficiency",
+      "Innovation in manufacturing",
+      "Circular economy",
+      "Sustainable production pathways"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue focuses on advancing cleaner production practices that operate within planetary boundaries. The collection seeks research on how industries can achieve greater efficiency while maintaining environmental responsibility, through innovations that support both operational improvements and circular economic principles. The special issue invites scholars and practitioners to explore integrated approaches to sustainable production systems."
+      ]
+    },
+    "tags": [
+      "cleaner production",
+      "circular economy",
+      "sustainability",
+      "innovation"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-05-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 455,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-20T18:28:36.866Z"
+  },
+  {
+    "journal": "Cities",
+    "abbreviation": "elsevier",
+    "issn": "0264-2751",
+    "metaTitle": "Smart Cities: New advances in Urban planning and Policies",
+    "url": "https://www.sciencedirect.com/special-issue/339258/smart-cities-new-advances-in-urban-planning-and-policies",
+    "title": "Smart Cities: New advances in Urban planning and Policies",
+    "slug": "elsevier-smart-cities-new-advances-in-urban-planning-and-policies",
+    "contentHash": "28d2125a179be06486e3d7b34e1a817e4ba57c5702ad394150d3a4215e4ae08f",
+    "topics": [
+      "Smart cities",
+      "Urban planning",
+      "Urban policies"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue focuses on recent developments in smart cities and their application to urban planning and policy-making. The collection seeks to explore innovative approaches and advancements in how technology and strategic planning can enhance urban environments and governance."
+      ]
+    },
+    "tags": [
+      "smart cities",
+      "urban planning",
+      "urban policy"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-07-31T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 283,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-20T18:28:36.866Z"
+  },
+  {
+    "journal": "International Journal of Project Management",
+    "abbreviation": "elsevier",
+    "issn": "1873-4634",
+    "metaTitle": "Wellbeing in and through projects: A multilevel view",
+    "url": "https://www.sciencedirect.com/special-issue/339164/wellbeing-in-and-through-projects-a-multilevel-view",
+    "title": "Wellbeing in and through projects: A multilevel view",
+    "slug": "elsevier-wellbeing-in-and-through-projects-a-multilevel-view",
+    "contentHash": "f630a52180f88a5220e354f864f1d1f26774be8b41ad11789752d74aef95306b",
+    "topics": [
+      "Wellbeing in projects",
+      "Multilevel perspectives on project wellbeing",
+      "Wellbeing through project participation"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue explores how wellbeing operates within project contexts and how participation in projects can contribute to wellbeing outcomes. The focus is on examining wellbeing from multiple organizational and individual levels, recognizing that project experiences affect and are affected by wellbeing at various scales.",
+        "The call invites research that investigates the relationship between project management practices and wellbeing, considering both how projects impact individual and collective wellbeing, and how wellbeing considerations should inform project design and execution."
+      ]
+    },
+    "tags": [
+      "project management",
+      "wellbeing",
+      "organizational behavior"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-08-01T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 590,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-20T18:28:36.866Z"
+  },
+  {
+    "journal": "European Journal of Innovation Management",
+    "abbreviation": "emerald",
+    "issn": "1758-7115",
+    "metaTitle": "Connecting innovation management and consumer behaviour studies: Human-centric innovation in the age of interactive technologies",
+    "url": "https://www.emerald.com/ejim/calls-for-submissions/2180/Connecting-innovation-management-and-consumer?searchresult=1",
+    "title": "Human-centric innovation in the age of interactive technologies",
+    "slug": "emerald-connecting-innovation-management-and-consumer-behaviour-studies-human-centric-innovation-in-the-age-of-interactive-technologies",
+    "contentHash": "64969d7839708c7b9ef6ee1e6185c6827c95f371628f1eed69ccc497aa01fe03",
+    "topics": [
+      "Design principles for anthropomorphic digital tools",
+      "Digitalization and emotional engagement in tourism",
+      "Emotional seeking behavior in consumers",
+      "Digital technologies and emotional authenticity",
+      "Extended self and digital features",
+      "Ethical considerations in emotionally intelligent technologies",
+      "Emotional intelligence in digital marketing",
+      "AI, VR, and human emotion",
+      "Emotional and social barriers to digital innovation adoption",
+      "Human-centric innovation design",
+      "Emotional drivers of AI and digital service innovation acceptance",
+      "Organizational implications of emotionally intelligent digital innovations",
+      "Emotional trust and legitimacy in digital innovation ecosystems",
+      "Case studies in maintaining emotional engagement across sectors"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue bridges innovation management and consumer behavior by examining how digital technologies influence emotional engagement and social connection. It explores whether anthropomorphic technologies like chatbots and AI assistants create authentic human connections or risk fostering detachment, and how emotional and social factors shape technology adoption across healthcare, tourism, customer service, and business contexts.",
+        "The collection seeks research on designing human-centric innovations that maintain emotional depth, foster trust, and enable long-term value creation. It addresses ethical considerations, the role of digital identity and extended self, and organizational strategies for implementing emotionally intelligent technologies while preserving non-verbal communication and authentic interaction."
+      ]
+    },
+    "tags": [
+      "digital transformation",
+      "emotional engagement",
+      "innovation management",
+      "human-technology interaction",
+      "consumer behavior",
+      "anthropomorphic technologies"
+    ],
+    "editors": [
+      {
+        "name": "Andrea Sestino",
+        "affiliation": "Luiss Guido Carli University"
+      },
+      {
+        "name": "Luigi Nasta",
+        "affiliation": "John Cabot University"
+      },
+      {
+        "name": "Vitor Lima",
+        "affiliation": "ESCP Madrid"
+      },
+      {
+        "name": "Russell W. Belk",
+        "affiliation": "Schulich Business School"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-07T11:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-11T11:00:00.000Z",
+        "description": "Closing date for manuscripts submissions",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 828,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-20T18:28:36.866Z"
+  },
+  {
+    "journal": "European Journal of Innovation Management",
+    "abbreviation": "emerald",
+    "issn": "1758-7115",
+    "metaTitle": "Customer development in digital innovation and entrepreneurship",
+    "url": "https://www.emerald.com/ejim/calls-for-submissions/2176/Customer-development-in-digital-innovation-and?searchresult=1",
+    "title": "Customer development in digital innovation and entrepreneurship",
+    "slug": "emerald-customer-development-in-digital-innovation-and-entrepreneurship",
+    "contentHash": "28eb1d0939818b7e6df1a5d53e37045eb26cff5acb2c5083699ce0a445cdb3e2",
+    "topics": [
+      "Innovative thinking and technological 4.0",
+      "Sustainable innovation and customer-driven value creation",
+      "Metaverse-enabled innovation and customer engagement",
+      "Customer co-creation and circular innovation",
+      "Circular entrepreneurship and resource efficiency",
+      "Open innovation ecosystems and co-creation",
+      "Lean start-up and digital entrepreneurship",
+      "Entrepreneur nudging and product innovation",
+      "Digital twins and circular innovation",
+      "Immersive technologies and sustainability awareness",
+      "Entrepreneurial success and customer development",
+      "Customer portfolio and new product development",
+      "Customer-oriented AI-driven models",
+      "Customer validation and digital innovation in start-ups",
+      "Customer development and digital risks",
+      "Innovative business models and sustainable development",
+      "Early customer feedback and innovation success"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue explores the intersection of customer development, digital innovation, and entrepreneurship. The call addresses how digital technologies enable ventures to align business ideas with market demands and consumer preferences. Customer development emerged as a critical approach when traditional product development methods failed in market penetration.",
+        "Digital tools have made idea validation and market exploration more accessible to entrepreneurs. Advanced technologies such as generative AI, digital twins, and digital nudging accelerate customer validation cycles and refine product offerings. The synergy between innovation processes, technology, and customer development is essential for entrepreneurial success through precise understanding of consumer needs.",
+        "The issue invites submissions addressing sustainable innovation, circular entrepreneurship, open innovation ecosystems, lean start-up approaches, and AI-driven business models. It seeks research on how digital platforms and emerging technologies support entrepreneurial ventures in developing products that meet market demands."
+      ]
+    },
+    "tags": [
+      "digital entrepreneurship",
+      "customer development",
+      "innovation management",
+      "technology-driven business"
+    ],
+    "editors": [
+      {
+        "name": "Marcin Waldemar Staniewski",
+        "affiliation": "VIZJA University"
+      },
+      {
+        "name": "Ricardo Costa-Climent",
+        "affiliation": "Universitat de València"
+      },
+      {
+        "name": "Rohail Hassan",
+        "affiliation": "Universiti Utara Malaysia"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2026-09-11T10:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-04T11:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1108,
+      "tauxCopie": 0.015037593984962405,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-20T18:28:36.866Z"
+  },
+  {
+    "journal": "International Journal of Contemporary Hospitality Management",
+    "abbreviation": "emerald",
+    "issn": "1757-1049",
+    "metaTitle": "Human-AI Collaboration in Hospitality and Tourism​",
+    "url": "https://www.emerald.com/ijchm/calls-for-submissions/2171/Human-AI-Collaboration-in-Hospitality-and-Tourism?searchresult=1",
+    "title": "Human-AI Collaboration in Hospitality and Tourism",
+    "slug": "emerald-human-ai-collaboration-in-hospitality-and-tourism",
+    "contentHash": "04de0a581453a5b1931bff47b0461f4175ba493ac34345a2d713870be34ac577",
+    "topics": [
+      "Task allocation between humans and AI",
+      "Human-AI teaming design and execution",
+      "Non-routine and ethically complex customer problems",
+      "Simulation and digital twins for collaboration design",
+      "Forecasting and decision-making support",
+      "AI reliance and override conditions",
+      "Collaborative performance measurement",
+      "Employee autonomy and job meaning",
+      "Emotional labor and employee well-being",
+      "Career development in AI-augmented roles",
+      "Employee training for AI collaboration",
+      "Performance incentives and metrics",
+      "Emerging role archetypes",
+      "Customer mental models of control",
+      "AI visibility and transparency",
+      "Customer expectations and AI experience",
+      "Multi-channel service choreography",
+      "Service recovery with human-AI collaboration",
+      "AI explainability and trust calibration",
+      "Interface design for collaboration",
+      "AI personality and team dynamics",
+      "Governance and human control",
+      "Bias and discrimination in service delivery",
+      "Ethical frameworks for collaboration",
+      "Failure modes in collaborative systems",
+      "Regulatory frameworks",
+      "Value co-creation in service ecosystems",
+      "Environmental and social sustainability",
+      "AI for disadvantaged groups and inclusion"
+    ],
+    "description": {
+      "paragraphs": [
+        "The hospitality and tourism industry is undergoing rapid transformation driven by artificial intelligence, which now collaborates with humans across diverse applications from restaurants to airlines. This human-AI partnership combines machine learning efficiency with human creativity and contextual understanding to reshape service delivery and customer experiences. The integration of AI in functions like personalized recommendations, dynamic pricing, and concierge services requires careful consideration of how to balance operational gains with meaningful human connections.",
+        "This special issue invites research on effective, ethical, and sustainable human-AI collaboration in hospitality and tourism contexts. The collection seeks empirical evidence and frameworks that help organizations design services combining operational efficiency with human-centered value. Contributions should address how such collaboration affects guest experiences, employee well-being, destination competitiveness, accessibility, and sustainability across various hospitality sectors including accommodations, food and beverage, attractions, and destination management."
+      ]
+    },
+    "tags": [
+      "artificial intelligence",
+      "human-ai collaboration",
+      "hospitality",
+      "tourism",
+      "service delivery",
+      "employee well-being",
+      "ethics",
+      "sustainability"
+    ],
+    "editors": [
+      {
+        "name": "Hyunsu Kim",
+        "affiliation": "University of Macau"
+      },
+      {
+        "name": "Kevin Kam Fung So",
+        "affiliation": "Purdue University"
+      },
+      {
+        "name": "Ying Wang",
+        "affiliation": "The Hong Kong Polytechnic University"
+      },
+      {
+        "name": "Emily Ma",
+        "affiliation": "University of Surrey"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-03T11:00:00.000Z",
+        "description": "Closing date for abstract submission",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-04T11:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-08T11:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1152,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-20T18:28:36.866Z"
+  },
+  {
+    "journal": "Employee Relations",
+    "abbreviation": "emerald",
+    "issn": "1758-7069",
+    "metaTitle": "Integrating Leadership and Green Human Resource Management for Sustainable and Thriving Workplaces",
+    "url": "https://www.emerald.com/er/calls-for-submissions/2174/Integrating-Leadership-and-Green-Human-Resource?searchresult=1",
+    "title": "Integrating Leadership and Green Human Resource Management for Sustainable and Thriving Workplaces",
+    "slug": "emerald-integrating-leadership-and-green-human-resource-management-for-sustainable-and-thriving-workplaces",
+    "contentHash": "874ec5572a7bf79000ef2d356211feae065476c6b5a6f330a94877c85c85c571",
+    "topics": [
+      "Leadership and Green Human Resource Management (GHRM)",
+      "Sustainable Leadership and Employee Outcomes",
+      "Authenticity, Greenwashing, and Employee Responses to Sustainability Initiatives",
+      "The Bright and Dark Sides of Green Human Resource Management",
+      "Multi-Level, Cross-Cultural, and Digital Perspectives on Sustainable Workplaces"
+    ],
+    "description": {
+      "paragraphs": [
+        "This special issue examines how leadership and green human resource management integrate to create sustainable and thriving workplaces. As organisations face environmental and social pressures, they must embed sustainability into HR systems while supporting employee wellbeing. The issue seeks research on how leadership approaches influence GHRM design, implementation, and effectiveness, and their impact on employee and organisational outcomes.",
+        "Beyond celebrating sustainability initiatives, the special issue encourages critical examination of their challenges and downsides. Green practices can intensify work demands, create role ambiguity, generate cynicism when perceived as inauthentic greenwashing, or trigger stress and fatigue. Balanced analysis of both benefits and unintended consequences is welcomed.",
+        "Contributions are invited exploring leadership-driven GHRM mechanisms, contextual factors determining effectiveness, and employee experiences including wellbeing, engagement, inclusion, and psychological safety, alongside critical perspectives on paradoxes and negative aspects of sustainability-focused workplace initiatives."
+      ]
+    },
+    "tags": [
+      "green hrm",
+      "leadership",
+      "sustainability",
+      "employee wellbeing",
+      "organisational culture"
+    ],
+    "editors": [
+      {
+        "name": "Azadeh Shafaei",
+        "affiliation": "Edith Cowan University"
+      },
+      {
+        "name": "Mehran Nejati",
+        "affiliation": "Edith Cowan University"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-01-02T11:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-01-06T11:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 1140,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-20T18:28:36.866Z"
+  },
+  {
+    "journal": "Journal of Workplace Learning",
+    "abbreviation": "emerald",
+    "issn": "1758-7859",
+    "metaTitle": "Workplace Learning for Sustainable Professional Development: Formal, Informal, and Evolving Learning Practices",
+    "url": "https://www.emerald.com/jwl/calls-for-submissions/2179/Workplace-Learning-for-Sustainable-Professional?searchresult=1",
+    "title": "Workplace Learning for Sustainable Professional Development: Formal, Informal, and Evolving Learning Practices",
+    "slug": "emerald-workplace-learning-for-sustainable-professional-development-formal-informal-and-evolving-learning-practices",
+    "contentHash": "d528601105b5fa2602cc1dd3056a9768f380d785160bc7d92ea15866bb031f68",
+    "topics": [
+      "Formal and informal learning",
+      "Training transfer",
+      "Informal workplace learning",
+      "Technology-mediated learning",
+      "Learning across generations",
+      "Workplace learning and career development",
+      "Learning and sustainable outcomes"
+    ],
+    "description": {
+      "paragraphs": [
+        "Modern workplaces face significant transformation driven by technology and changing organizational structures, requiring continuous competence development. While formal training and informal learning have been extensively studied separately, evidence shows their boundaries blur and features coexist in practice. This special issue seeks empirical research on various forms of workplace learning and their contributions to sustainable professional development.",
+        "The special issue welcomes studies examining formal and informal learning relationships, hybrid practices like mentoring and peer learning, training transfer, technology-mediated approaches, contextual factors influencing learning, intergenerational knowledge sharing, and connections between learning and outcomes such as well-being and career sustainability. Research should adopt diverse methodologies across different occupational and cultural contexts."
+      ]
+    },
+    "tags": [
+      "workplace learning",
+      "professional development",
+      "formal and informal learning",
+      "training transfer",
+      "technology-mediated learning"
+    ],
+    "editors": [
+      {
+        "name": "Cataldo Giuliano Gemmano",
+        "affiliation": "University of Bari Aldo Moro"
+      },
+      {
+        "name": "Maria Luisa Giancaspro",
+        "affiliation": "Pegasus Telematic University"
+      },
+      {
+        "name": "Amelia Manuti",
+        "affiliation": "University of Bari Aldo Moro"
+      }
+    ],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-02-06T11:00:00.000Z",
+        "description": "Closing date for manuscripts submission",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2027-02-25T11:00:00.000Z",
+        "description": "Opening date for manuscripts submissions",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "controle": {
+      "longueur": 917,
+      "tauxCopie": 0.019417475728155338,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-20T18:28:36.866Z"
+  },
+  {
+    "journal": "Small Group Research",
+    "abbreviation": "sage",
+    "issn": "1552-8278",
+    "metaTitle": "Teaching Teamwork in Higher Education",
+    "url": "https://journals.sagepub.com/doi/10.1177/10464964261498385",
+    "title": "Teaching Teamwork in Higher Education",
+    "slug": "sage-teaching-teamwork-in-higher-education",
+    "contentHash": "c1e1784a24fe8f53d13e0b455f27322f144073a31938fe4ce66007551ed3a9d5",
+    "topics": [],
+    "description": {
+      "paragraphs": [
+        "This special issue focuses on approaches to teaching teamwork in higher education contexts. It seeks contributions that explore methods, strategies, and outcomes related to developing students' collaborative and team-based skills."
+      ]
+    },
+    "tags": [
+      "higher education",
+      "teamwork",
+      "teaching"
+    ],
+    "editors": [],
+    "associate_editors": [],
+    "dates": [
+      {
+        "date": "2027-05-01T10:00:00.000Z",
+        "description": "Submission deadline",
+        "is_full_paper_submission_deadline": true
+      }
+    ],
+    "controle": {
+      "longueur": 230,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-20T18:28:36.866Z"
+  },
+  {
+    "journal": "Journal of Product Innovation Management",
+    "abbreviation": "wiley",
+    "issn": "1540-5885",
+    "metaTitle": "Innovating in the Age of Longevity: Products, Processes, and People",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/15405885/cfp/JPIM-SI-Call-Longevity-FINAL-1795175870870.pdf",
+    "title": "Innovating in the Age of Longevity: Products, Processes, and People",
+    "slug": "wiley-innovating-in-the-age-of-longevity-products-processes-and-people",
+    "contentHash": "79063f9df0eb15700c358e55fdb6e9bbb1d5cbb7eedb28fc0c65b531ec299da9",
+    "topics": [
+      "Adoption and diffusion of innovations across later-life stages",
+      "Segmentation approaches: chronological age, subjective age, gerontographic segments",
+      "Marketing communication and launch strategies for older users",
+      "Participatory design and co-creation with users across life stages",
+      "Universal design versus senior-specific product offerings",
+      "AI-enabled personalization, care robots, health monitoring, and voice interfaces",
+      "Business models for affordable silver innovations",
+      "Pricing and value-capture logics for heterogeneous older consumers",
+      "Public-private ecosystems in silver innovation scaling",
+      "Age-diverse and intergenerational innovation teams",
+      "Older innovators and entrepreneurs",
+      "Societal outcomes of longevity innovation: wellbeing, inclusion, digital equality",
+      "Organizational conditions enabling incumbents' response to ageing"
+    ],
+    "description": {
+      "paragraphs": [
+        "Population ageing represents a major demographic shift with significant economic implications. With one in three people in OECD countries projected to be aged 65 and above by 2060, and older adults controlling nearly US$19 trillion in consumer spending, the silver economy demands systematic innovation management scholarship to address product development, organizational capabilities, and workforce composition.",
+        "While research on ageing has emerged across various disciplines, innovation management has been slow to study how silver innovations are conceived, developed, tested, and scaled. This special issue seeks to consolidate fragmented knowledge and establish innovation management as a core lens for understanding longevity, moving beyond deficit narratives toward value creation.",
+        "The issue welcomes conceptual, qualitative, and empirical work examining innovation adoption, design, business models, ecosystems, and age-diverse organizations across products, services, technologies, and talent management in B2C and B2B contexts and across cultural settings."
+      ]
+    },
+    "tags": [
+      "ageing",
+      "longevity economy",
+      "product innovation",
+      "silver economy",
+      "older adults"
+    ],
+    "editors": [
+      {
+        "name": "Céline Abecassis-Moedas",
+        "affiliation": "Universidade Católica Portuguesa"
+      },
+      {
+        "name": "Sihem BenMahmoud-Jouini",
+        "affiliation": "HEC Paris"
+      },
+      {
+        "name": "Chaiwoo Lee",
+        "affiliation": "Massachusetts Institute of Technology"
+      },
+      {
+        "name": "Anna Cui",
+        "affiliation": "University of Illinois Chicago"
+      }
+    ],
+    "associate_editors": [
+      {
+        "name": "Ruby Lee",
+        "affiliation": "Florida State University"
+      }
+    ],
+    "dates": [
+      {
+        "date": null,
+        "description": "Online and Face to Face PDW (only for accepted abstracts)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": null,
+        "description": "Anticipated publication",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2026-11-01T11:00:00.000Z",
+        "description": "Announcement of call for papers",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2027-06-01T10:00:00.000Z",
+        "description": "Abstract deadline for PDW (optional)",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-03-01T11:00:00.000Z",
+        "description": "Submission system opens, and submissions will be reviewed on a rolling basis",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-03-31T10:00:00.000Z",
+        "description": "Full manuscript submission deadline",
+        "is_full_paper_submission_deadline": true
+      },
+      {
+        "date": "2028-07-01T10:00:00.000Z",
+        "description": "First-round decisions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2028-12-01T11:00:00.000Z",
+        "description": "First revisions due",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2029-04-01T10:00:00.000Z",
+        "description": "Second-round decisions",
+        "is_full_paper_submission_deadline": false
+      },
+      {
+        "date": "2029-08-01T10:00:00.000Z",
+        "description": "Second revisions due",
+        "is_full_paper_submission_deadline": false
+      }
+    ],
+    "controle": {
+      "longueur": 1065,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    },
+    "active": true,
+    "pubDate": "2026-11-20T18:28:36.866Z"
+  },
+  {
+    "journal": "Business Horizons",
+    "abbreviation": "elsevier",
+    "issn": "1873-6068",
     "metaTitle": "Managing for Tomorrow: How organizational culture, values, and character impact crisis management and crisis communication",
     "url": "https://www.sciencedirect.com/special-issue/338937/managing-for-tomorrow-how-organizational-culture-values-and-character-impact-crisis-management-and-crisis-communication",
     "title": "Managing for Tomorrow: How organizational culture, values, and character impact crisis management and crisis communication",
@@ -7650,7 +8412,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-09-27T11:46:29.819Z"
+    "pubDate": "2026-09-27T11:46:29.819Z",
+    "gracePeriod": "2026-12-20T18:28:36.866Z"
   },
   {
     "journal": "Journal of Organizational Behavior",
@@ -29645,7 +30408,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-18T17:57:56.114Z"
+    "pubDate": "2026-08-18T17:57:56.114Z",
+    "gracePeriod": "2026-12-20T18:28:36.866Z"
   },
   {
     "journal": "Business & Society",
@@ -35235,43 +35999,53 @@
     "url": "https://www.emerald.com/ejm/calls-for-submissions/1924/Creating-Measuring-and-Managing-Impact-in-Complex?searchresult=1",
     "title": "Creating, Measuring, and Managing Impact in Complex Service Systems",
     "slug": "emerald-creating-measuring-and-managing-impact-in-complex-service-systems",
-    "contentHash": "4fd4cf259bd455ba5bee2824aafca09a88bf8a4f8a59879424d373d06af737f6",
+    "contentHash": "09e656466d2a120bfa11ade8fb5e56f8d3370e7c0833549dc56e20fcbdc9b8f9",
     "topics": [
-      "What frameworks and metrics can be used to assess behavioural, cognitive, relational, or systemic change resulting from research, and how can they capture impacts across the diverse stakeholders involved in complex service systems?",
-      "How can research impact in complex services be understood and assessed beyond financial metrics, including intellectual, professional, social, and personal development outcomes across diverse stakeholder groups?",
-      "How do the interdependencies, governance structures, and stakeholder relationships characteristic of complex service systems enable or inhibit research impact?",
-      "What common patterns or trajectories of impact emerge across complex service systems, particularly in relation to how value and impact are distributed among multiple stakeholders over time?",
-      "What mechanisms pathways enable the progression from awareness to engagement and ultimately to sustained change in generating research impact, and how are these shaped by the complexity of service systems and stakeholder interactions?",
-      "What forms of longitudinal or field-based evidence are needed to capture dynamic changes in stakeholder mindsets, behaviours, and systemic outcomes in complex service systems characterised by interdependence and co-evolution?",
-      "What roles do co-creation, stakeholder collaboration, and service design play in enabling research impact across multiple stakeholders, and how do these processes operate within complex service systems?",
-      "How do intervention-based or design-based research approaches produce and sustain measurable behavioural, organisational, and system-level outcomes in complex service systems characterised by interdependent actors and dynamic change?",
-      "In what ways have research insights informed and reshaped policy, professional practice, service design, or stakeholder decision-making in complex service systems characterised by interdependent actors and competing stakeholder priorities?",
-      "Under what conditions is research impact realised, scaled, sustained, or constrained within complex service systems characterised by interdependent actors, institutional complexity, and dynamic change?",
-      "How can researchers capture and evaluate both short-term and long-term impact in complex service systems characterised by interdependence, co-evolution, and evolving stakeholder relationships?",
-      "How can researchers identify both intended and unintended consequences of research impact in complex service systems characterised by interdependent actors and competing stakeholder interests?",
-      "What ethical considerations arise in the design, implementation, and measurement of research impact in complex service systems characterised by interdependent actors, power asymmetries, and potentially uneven distribution of benefits and harms?",
-      "How do power dynamics shape what is defined, recognised, and prioritised as \"valuable\" outcomes in evaluating research impact in complex service systems characterised by interdependent actors, institutional logics, and unequal stakeholder influence?",
-      "How are impacts of complex services experienced differently across stakeholder groups?",
-      "What stakeholder voices have been underrepresented in research in complex services?",
-      "How can organisations identify and manage unequal or unintended stakeholder impacts complex service systems in which actors are interdependent, influence is unevenly distributed, and outcomes are experienced differently across stakeholders?",
-      "How do professional, organisational, and societal interests align or conflict in complex service contexts?"
+      "Impact assessment frameworks and metrics in service systems",
+      "Research impact beyond financial metrics",
+      "Interdependencies and governance in complex services",
+      "Impact trajectories and value distribution",
+      "Change mechanisms and stakeholder engagement",
+      "Longitudinal and field-based evidence collection",
+      "Co-creation and stakeholder collaboration",
+      "Intervention and design-based research outcomes",
+      "Policy and practice change",
+      "Scaling and sustainability of research impact",
+      "Intended and unintended consequences of research",
+      "Ethical considerations in impact measurement",
+      "Power dynamics and outcome valuation",
+      "Differential stakeholder impacts",
+      "Underrepresented stakeholder voices",
+      "Managing unequal stakeholder impacts",
+      "Professional and societal interest alignment"
     ],
     "description": {
       "paragraphs": [
-        "A complex service system is an interdependent multi-actor system of service providers and users that jointly produce and deliver services, with outcomes emerging dynamically through interactions across contexts. Complex service systems such as healthcare, financial services, public administration, education, and social care significantly shape the wellbeing of individuals and societies by determining how essential services are delivered, which in turn directly affects people's daily lives and long-term outcomes. Innovation in these settings is often practice-driven rather than theory-driven. Professionals embedded within service delivery contexts are positioned at the interface of users and operational realities, where they continuously encounter emerging needs, service breakdowns, and contextual constraints. This enables them to generate need-based, practice-led innovations that directly reshape service processes and outcomes. Many studies offer theoretical advancements in identifying the factors and processes that may influence service performance within the system, yet they provide limited evidence of how research-based insights translate into tangible change in practice.",
-        "Research impact is often referenced but operationalised inconsistently in complex service contexts. It may involve observable changes in user behaviour, improvements in service delivery processes, adoption of new technologies, enhancements in organisational practices, or influence on policy and system-level coordination. Impact outcomes often unfold over extended time horizons, and interventions may generate unintended consequences. Together with the interdependencies across actors within the complex service system, this makes demonstrating research impact particularly challenging. Furthermore, differing priorities among stakeholders, such as service providers, users, regulators, and partners, further complicate the evaluation of the impact outcomes.",
-        "Funding bodies, universities, communities and the public, and journals increasingly expect clear evidence that research delivers societal, economic, or policy value within complex service sectors. This expectation is particularly salient in contexts such as healthcare, education, and public services, where multiple actors, technologies, and institutions interact. As a result, researchers are under growing pressure to demonstrate how their work produces tangible or intangible outcomes that justify the significant resources invested. In response to this growing pressure, this special issue aims to demonstrate and advance the understanding of how research may impact in complex service contexts.",
-        "Providing credible evidence of research impact in the context of complex service systems is critical, and this special issue seeks submissions that provide robust empirical evidence of meaningful, valuable, and ethical change. Submissions may draw on multiple methods or approaches, including but not limited to qualitative, quantitative, mixed-method, or experimental research. The research may span different timeframes, and participatory or creative research methods are particularly encouraged. Collaborating with non-academic stakeholders such as policymakers and industry practitioners may enrich perspectives on what impact is, how it emerges, and how it can be evaluated.",
-        "Impact is not inherently positive, as the pursuit of measurable outcomes may create distortions, inequities, or ethical tensions. Key questions include who defines what counts as valuable impact and whose interests are prioritised or marginalised. Impact is rarely instantaneous; it unfolds over time. Understanding how impact emerges, evolves, and diffuses can offer actionable insights for researchers, practitioners, policymakers, and communities themselves. Evidence about what types of research approaches, such as interventions, co-design, field experiments, participatory methods, and collaborative partnerships with industry players, generate stronger impact is crucial to help scholars design studies that are both theoretically rigorous and practically influential."
+        "This special issue addresses how research generates tangible impact within complex, interdependent service systems such as healthcare, education, and public administration. Despite growing pressure to prove research impact, evidence of meaningful change in complex service contexts remains limited and difficult to measure due to multiple actors, competing interests, and extended timeframes.",
+        "The issue seeks robust empirical evidence showing how research translates into observable improvements in user behavior, service processes, organizational practices, or policy. Contributions using diverse methodologies—qualitative, quantitative, mixed-method, experimental, or participatory—are encouraged. Particularly valued are works addressing how impact is assessed across stakeholders, what roles co-creation plays, and ethical dimensions including power asymmetries, unintended consequences, and underrepresented voices."
       ]
     },
     "tags": [
       "research impact",
       "complex service systems",
+      "impact measurement",
       "stakeholder engagement",
-      "service innovation"
+      "implementation science"
     ],
-    "editors": [],
+    "editors": [
+      {
+        "name": "Ting Yu",
+        "affiliation": "University of New South Wales"
+      },
+      {
+        "name": "Ko de Ruyter",
+        "affiliation": "King's College London"
+      },
+      {
+        "name": "Che-Hun Liao",
+        "affiliation": "Kaohsiung City government"
+      }
+    ],
     "associate_editors": [],
     "dates": [
       {
@@ -35286,7 +36060,13 @@
       }
     ],
     "active": true,
-    "pubDate": "2026-08-15T22:37:32.838Z"
+    "pubDate": "2026-08-15T22:37:32.838Z",
+    "controle": {
+      "longueur": 919,
+      "tauxCopie": 0,
+      "relance": true,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Accounting, Auditing & Accountability Journal",
@@ -42219,10 +42999,12 @@
     "url": "https://www.sciencedirect.com/special-issue/328901/finance-in-an-uncertain-world",
     "title": "Finance in an Uncertain World",
     "slug": "elsevier-finance-in-an-uncertain-world",
-    "contentHash": "7725754d9840319b830b3598058fab26c013668b97505614db9b2c9e2612ac23",
+    "contentHash": "c42550380e3cc495dd2b532c54e92f22f00ebccc75cff35f0503c68dd995d4bd",
     "topics": [],
     "description": {
-      "paragraphs": []
+      "paragraphs": [
+        "This special issue invites research contributions on the intersection of finance and uncertainty. The call is addressed to researchers interested in exploring how financial markets, institutions, and instruments respond to and are shaped by uncertain conditions."
+      ]
     },
     "tags": [
       "finance",
@@ -42232,14 +43014,19 @@
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-10-30T11:00:00.000Z",
-        "description": "Submission deadline",
+        "date": "2026-11-30T11:00:00.000Z",
+        "description": "Full paper submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": false,
+    "active": true,
     "pubDate": "2026-08-11T10:27:21.121Z",
-    "gracePeriod": "2026-12-17T23:12:41.586Z"
+    "controle": {
+      "longueur": 262,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Pacific-Basin Finance Journal",
@@ -42334,8 +43121,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-12-20T18:28:36.866Z"
   },
   {
     "journal": "Journal of Business Venturing",
@@ -42425,8 +43213,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-12-20T18:28:36.866Z"
   },
   {
     "journal": "Journal of Business Research",
@@ -43686,44 +44475,48 @@
     "url": "https://www.sciencedirect.com/special-issue/331394/mathematical-foundations-for-trustworthy-ai-applications-in-transportation-systems",
     "title": "Mathematical Foundations for Trustworthy AI Applications in Transportation Systems",
     "slug": "elsevier-mathematical-foundations-for-trustworthy-ai-applications-in-transportation-systems-2",
-    "contentHash": "96ff356c17aa90c041248c75dbaed1cc80bb862a60fa052b13ad0bbcae811725",
+    "contentHash": "3e1f0ee0c162081747e3eb2e9d40973c5e36c6b3cf2966dc9e6f3512d2a3fbaa",
     "topics": [
-      "Mathematical frameworks for explainability and interpretability in transportation AI",
-      "Formal verification and validation methods for autonomous vehicles",
-      "Trustworthy machine learning algorithms for traffic prediction and management",
-      "Robustness and adversarial resilience in transportation systems",
-      "Uncertainty quantification in AI-based transportation applications",
-      "Fairness and bias mitigation in transportation decision-making systems",
-      "Privacy-preserving techniques in transportation data analytics",
-      "Game-theoretic approaches to multi-agent transportation systems",
-      "Causal inference methods for transportation research",
-      "Probabilistic and Bayesian methods in transportation AI"
+      "Trustworthy AI in transportation",
+      "Mathematical foundations of AI",
+      "Transportation systems",
+      "AI safety and reliability",
+      "Verification and validation of AI models",
+      "Explainability and interpretability",
+      "Robustness and adversarial resilience",
+      "Uncertainty quantification",
+      "Real-time decision-making systems"
     ],
     "description": {
       "paragraphs": [
-        "This special issue focuses on the mathematical and computational foundations necessary for developing trustworthy artificial intelligence applications in transportation systems. As AI increasingly influences critical transportation decisions affecting safety, efficiency, and equity, there is an urgent need for rigorous mathematical frameworks that ensure these systems are reliable, interpretable, and accountable.",
-        "The special issue welcomes contributions that advance the theoretical understanding and practical implementation of trustworthy AI in transportation. This includes work on mathematical models that enhance transparency, ensure robustness against adversarial attacks, quantify uncertainties, and address fairness concerns in transportation algorithms and systems.",
-        "Submissions should demonstrate how mathematical and computational approaches contribute to building trustworthy AI systems that stakeholders can understand, verify, and depend upon for critical transportation applications."
+        "This special issue focuses on the mathematical and theoretical underpinnings necessary to develop trustworthy artificial intelligence systems for transportation applications. The collection seeks work that bridges mathematical rigor with practical AI implementation in transportation contexts, addressing critical concerns about safety, reliability, and transparency in automated decision-making systems.",
+        "Contributions are invited from researchers working on formal verification methods, explainable AI techniques, robustness analysis, and uncertainty quantification as they apply to transportation challenges. The special issue aims to advance our understanding of how to build AI systems that can be trusted by both technical experts and end-users in real-world transportation scenarios."
       ]
     },
     "tags": [
-      "trustworthy ai",
+      "artificial intelligence",
       "transportation",
-      "mathematical foundations",
-      "autonomous vehicles",
-      "explainability"
+      "trustworthy ai",
+      "mathematics",
+      "safety"
     ],
     "editors": [],
     "associate_editors": [],
     "dates": [
       {
-        "date": "2026-12-01T11:00:00.000Z",
-        "description": "Full paper submission deadline",
+        "date": "2027-03-31T10:00:00.000Z",
+        "description": "Submission deadline",
         "is_full_paper_submission_deadline": true
       }
     ],
     "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "controle": {
+      "longueur": 788,
+      "tauxCopie": 0,
+      "relance": false,
+      "topicsTropLongs": 0
+    }
   },
   {
     "journal": "Journal of World Business",
@@ -44516,8 +45309,9 @@
         "is_full_paper_submission_deadline": true
       }
     ],
-    "active": true,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "active": false,
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-12-20T18:28:36.866Z"
   },
   {
     "journal": "Journal of Hospitality and Tourism Management",
@@ -45209,7 +46003,8 @@
       }
     ],
     "active": false,
-    "pubDate": "2026-08-11T10:27:21.121Z"
+    "pubDate": "2026-08-11T10:27:21.121Z",
+    "gracePeriod": "2026-12-20T18:28:36.866Z"
   },
   {
     "journal": "International Journal of Project Management",

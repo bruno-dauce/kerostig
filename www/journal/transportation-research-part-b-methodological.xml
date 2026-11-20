@@ -4,7 +4,7 @@
         <title>kerostig | Transportation Research Part B Methodological</title>
         <link>https://kerostig.org/journal/transportation-research-part-b-methodological/</link>
         <description>Derniers appels à publications pour Transportation Research Part B Methodological.</description>
-        <lastBuildDate>Tue, 17 Nov 2026 23:14:10 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Nov 2026 18:30:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -79,11 +79,9 @@
     
     
     
-    <p>This special issue focuses on the mathematical and computational foundations necessary for developing trustworthy artificial intelligence applications in transportation systems. As AI increasingly influences critical transportation decisions affecting safety, efficiency, and equity, there is an urgent need for rigorous mathematical frameworks that ensure these systems are reliable, interpretable, and accountable.</p>
+    <p>This special issue focuses on the mathematical and theoretical underpinnings necessary to develop trustworthy artificial intelligence systems for transportation applications. The collection seeks work that bridges mathematical rigor with practical AI implementation in transportation contexts, addressing critical concerns about safety, reliability, and transparency in automated decision-making systems.</p>
     
-    <p>The special issue welcomes contributions that advance the theoretical understanding and practical implementation of trustworthy AI in transportation. This includes work on mathematical models that enhance transparency, ensure robustness against adversarial attacks, quantify uncertainties, and address fairness concerns in transportation algorithms and systems.</p>
-    
-    <p>Submissions should demonstrate how mathematical and computational approaches contribute to building trustworthy AI systems that stakeholders can understand, verify, and depend upon for critical transportation applications.</p>
+    <p>Contributions are invited from researchers working on formal verification methods, explainable AI techniques, robustness analysis, and uncertainty quantification as they apply to transportation challenges. The special issue aims to advance our understanding of how to build AI systems that can be trusted by both technical experts and end-users in real-world transportation scenarios.</p>
     
     <p>
         Appel publié par Transportation Research Part B Methodological.
@@ -96,25 +94,23 @@
     <h2>Potential topics</h2>
     <ul>
         
-        <li>Mathematical frameworks for explainability and interpretability in transportation AI</li>
+        <li>Trustworthy AI in transportation</li>
         
-        <li>Formal verification and validation methods for autonomous vehicles</li>
+        <li>Mathematical foundations of AI</li>
         
-        <li>Trustworthy machine learning algorithms for traffic prediction and management</li>
+        <li>Transportation systems</li>
         
-        <li>Robustness and adversarial resilience in transportation systems</li>
+        <li>AI safety and reliability</li>
         
-        <li>Uncertainty quantification in AI-based transportation applications</li>
+        <li>Verification and validation of AI models</li>
         
-        <li>Fairness and bias mitigation in transportation decision-making systems</li>
+        <li>Explainability and interpretability</li>
         
-        <li>Privacy-preserving techniques in transportation data analytics</li>
+        <li>Robustness and adversarial resilience</li>
         
-        <li>Game-theoretic approaches to multi-agent transportation systems</li>
+        <li>Uncertainty quantification</li>
         
-        <li>Causal inference methods for transportation research</li>
-        
-        <li>Probabilistic and Bayesian methods in transportation AI</li>
+        <li>Real-time decision-making systems</li>
         
     </ul>
     
@@ -122,7 +118,7 @@
     <h2>Timeline</h2>
     <ul>
         
-        <li>December 1, 2026: Full paper submission deadline</li>
+        <li>March 31, 2027: Submission deadline</li>
         
     </ul>
     

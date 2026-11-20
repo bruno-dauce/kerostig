@@ -4,7 +4,7 @@
         <title>kerostig | Tag : safety</title>
         <link>https://kerostig.org/tag/safety/</link>
         <description>Derniers appels à publications avec le tag 'safety'.</description>
-        <lastBuildDate>Tue, 17 Nov 2026 23:14:10 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Nov 2026 18:30:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -99,6 +99,63 @@
     <ul>
         
         <li>November 30, 2026: Full paper submission deadline</li>
+        
+    </ul>
+    
+    
+</div>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Mathematical Foundations for Trustworthy AI Applications in Transportation Systems]]></title>
+            <link>https://kerostig.org/call/elsevier-mathematical-foundations-for-trustworthy-ai-applications-in-transportation-systems-2/</link>
+            <guid>elsevier-mathematical-foundations-for-trustworthy-ai-applications-in-transportation-systems-2</guid>
+            <pubDate>Tue, 11 Aug 2026 10:27:21 GMT</pubDate>
+            <content:encoded><![CDATA[
+<div>
+    
+    
+    
+    <p>This special issue focuses on the mathematical and theoretical underpinnings necessary to develop trustworthy artificial intelligence systems for transportation applications. The collection seeks work that bridges mathematical rigor with practical AI implementation in transportation contexts, addressing critical concerns about safety, reliability, and transparency in automated decision-making systems.</p>
+    
+    <p>Contributions are invited from researchers working on formal verification methods, explainable AI techniques, robustness analysis, and uncertainty quantification as they apply to transportation challenges. The special issue aims to advance our understanding of how to build AI systems that can be trusted by both technical experts and end-users in real-world transportation scenarios.</p>
+    
+    <p>
+        Appel publié par Transportation Research Part B Methodological.
+        
+        <a href="https://www.sciencedirect.com/special-issue/331394/mathematical-foundations-for-trustworthy-ai-applications-in-transportation-systems">Voir l'appel sur le site de l'éditeur</a>.
+        
+        <a href="https://kerostig.org/call/elsevier-mathematical-foundations-for-trustworthy-ai-applications-in-transportation-systems-2/">Fiche de l'appel sur kerostig</a>.
+    </p>
+    
+    <h2>Potential topics</h2>
+    <ul>
+        
+        <li>Trustworthy AI in transportation</li>
+        
+        <li>Mathematical foundations of AI</li>
+        
+        <li>Transportation systems</li>
+        
+        <li>AI safety and reliability</li>
+        
+        <li>Verification and validation of AI models</li>
+        
+        <li>Explainability and interpretability</li>
+        
+        <li>Robustness and adversarial resilience</li>
+        
+        <li>Uncertainty quantification</li>
+        
+        <li>Real-time decision-making systems</li>
+        
+    </ul>
+    
+    
+    <h2>Timeline</h2>
+    <ul>
+        
+        <li>March 31, 2027: Submission deadline</li>
         
     </ul>
     
